@@ -1,0 +1,2576 @@
+[
+  {
+    "en_h": "Hypertension",
+    "ko_h": "고혈압",
+    "ko_l": "혈압이 높음",
+    "d_ko": "Persistently elevated arterial blood pressure (≥130/80 mmHg); the most commonly managed chronic condition in primary care."
+  },
+  {
+    "en_h": "Diabetes mellitus",
+    "ko_h": "당뇨병",
+    "ko_l": "당뇨",
+    "d_ko": "Chronic metabolic disorder of impaired insulin production or action, resulting in hyperglycemia; type 2 is predominant in family practice."
+  },
+  {
+    "en_h": "Preventive care",
+    "ko_h": "예방 의료",
+    "ko_l": "검진 / 예방 관리",
+    "d_ko": "Proactive health services (vaccinations, screenings, counseling) aimed at preventing disease before it develops."
+  },
+  {
+    "en_h": "Comorbidity",
+    "ko_h": "동반 질환",
+    "ko_l": "",
+    "d_ko": "The simultaneous presence of two or more chronic conditions in a single patient."
+  },
+  {
+    "en_h": "Chronic disease management",
+    "ko_h": "만성 질환 관리",
+    "ko_l": "",
+    "d_ko": "Ongoing, coordinated care strategies to control long-lasting conditions and maintain quality of life."
+  },
+  {
+    "en_h": "Obesity",
+    "ko_h": "비만",
+    "ko_l": "",
+    "d_ko": "Excess body fat accumulation (BMI ≥30) associated with increased risk of diabetes, cardiovascular disease, and joint problems."
+  },
+  {
+    "en_h": "Upper respiratory tract infection",
+    "ko_h": "상기도 감염",
+    "ko_l": "감기",
+    "d_ko": "Acute infection of the nose, throat, and airways; the single most frequent reason for primary care visits worldwide."
+  },
+  {
+    "en_h": "Consent",
+    "ko_h": "동의",
+    "ko_l": "치료 동의",
+    "d_ko": "Patient's voluntary agreement to a proposed medical intervention after receiving adequate information."
+  },
+  {
+    "en_h": "Chief complaint",
+    "ko_h": "주호소",
+    "ko_l": "주된 증상",
+    "d_ko": "The primary symptom or concern that brings a patient to seek medical care, recorded at the start of every encounter."
+  },
+  {
+    "en_h": "Medical history",
+    "ko_h": "병력",
+    "ko_l": "과거 병력",
+    "d_ko": "A comprehensive record of a patient's past illnesses, surgeries, medications, allergies, and family health background."
+  },
+  {
+    "en_h": "Differential Diagnosis",
+    "ko_h": "감별진단",
+    "ko_l": "감별진단 후보",
+    "d_ko": "The clinical process of weighing probabilities of similar conditions to isolate the most likely diagnosis from others sharing similar signs and symptoms."
+  },
+  {
+    "en_h": "Prognosis",
+    "ko_h": "예후",
+    "ko_l": "",
+    "d_ko": "A forecast or prediction of the probable course and eventual outcome of a disease, including likelihood of recovery or progression."
+  },
+  {
+    "en_h": "Allergy",
+    "ko_h": "알레르기",
+    "ko_l": "",
+    "d_ko": "Hypersensitivity immune response to a substance (allergen) that is typically harmless to most people."
+  },
+  {
+    "en_h": "Prescription",
+    "ko_h": "처방",
+    "ko_l": "처방전",
+    "d_ko": "A written or electronic instruction from a licensed clinician specifying a medication, dose, route, and duration."
+  },
+  {
+    "en_h": "Symptom",
+    "ko_h": "증상",
+    "ko_l": "",
+    "d_ko": "Subjective evidence of disease experienced and reported by the patient (e.g. pain, fatigue, nausea)."
+  },
+  {
+    "en_h": "Sign",
+    "ko_h": "징후",
+    "ko_l": "",
+    "d_ko": "Objective evidence of disease detected by a clinician during examination (e.g. fever, swelling, abnormal heart sound)."
+  },
+  {
+    "en_h": "Vital signs",
+    "ko_h": "활력징후",
+    "ko_l": "",
+    "d_ko": "Core clinical measurements: blood pressure, heart rate, respiratory rate, temperature, and oxygen saturation."
+  },
+  {
+    "en_h": "Acute",
+    "ko_h": "급성",
+    "ko_l": "",
+    "d_ko": "Condition of rapid onset, short duration, and often severe symptoms — contrasted with chronic."
+  },
+  {
+    "en_h": "Myocardial Infarction",
+    "ko_h": "심근경색증",
+    "ko_l": "심장마비",
+    "d_ko": "Gross necrosis of myocardial tissue resulting from the abrupt cessation of coronary blood flow, causing chest pain, cardiac dysfunction, and potentially fatal arrhythmias."
+  },
+  {
+    "en_h": "Acute coronary syndrome",
+    "ko_h": "급성 관상동맥 증후군",
+    "ko_l": "",
+    "d_ko": "Umbrella term for conditions caused by sudden reduced blood flow to the heart, including unstable angina and MI."
+  },
+  {
+    "en_h": "Angina Pectoris",
+    "ko_h": "협심증",
+    "ko_l": "가슴 통증",
+    "d_ko": "Paroxysmal chest pain or discomfort caused by transient myocardial ischemia, typically triggered by exertion or stress."
+  },
+  {
+    "en_h": "Heart failure",
+    "ko_h": "심부전",
+    "ko_l": "심장이 약해짐",
+    "d_ko": "Syndrome in which the heart cannot pump sufficient blood to meet the body's metabolic demands, leading to fluid accumulation, breathlessness, and fatigue; classified as systolic (reduced ejection fraction) or diastolic (preserved ejection fraction)."
+  },
+  {
+    "en_h": "Arrhythmia",
+    "ko_h": "부정맥",
+    "ko_l": "심장 박동 불규칙",
+    "d_ko": "Any abnormality in the rate or rhythm of the heartbeat, ranging from benign to life-threatening."
+  },
+  {
+    "en_h": "Atrial Fibrillation",
+    "ko_h": "심방세동",
+    "ko_l": "심장이 불규칙하게 뜀",
+    "d_ko": "A common supraventricular tachyarrhythmia characterized by rapid, uncoordinated, and chaotic electrical activation of the cardiac atria, causing irregular heartbeat and stroke risk."
+  },
+  {
+    "en_h": "Electrocardiogram",
+    "ko_h": "심전도",
+    "ko_l": "심전도 검사",
+    "d_ko": "Diagnostic test recording electrical activity of the heart; essential for detecting arrhythmias, MI, and conduction abnormalities."
+  },
+  {
+    "en_h": "Coronary artery disease",
+    "ko_h": "관상동맥질환",
+    "ko_l": "심장 혈관 막힘",
+    "d_ko": "Narrowing or blockage of the coronary arteries due to atherosclerosis, leading to reduced blood supply to the heart."
+  },
+  {
+    "en_h": "Atherosclerosis",
+    "ko_h": "동맥경화증",
+    "ko_l": "혈관이 딱딱해짐",
+    "d_ko": "Build-up of plaques (fat, cholesterol, calcium) inside arterial walls, narrowing vessels and increasing risk of MI and stroke."
+  },
+  {
+    "en_h": "Cerebrovascular Accident",
+    "ko_h": "뇌혈관 사고",
+    "ko_l": "뇌졸중",
+    "d_ko": "Sudden loss of neurological function due to an interruption of blood supply to the brain; classified as ischemic or hemorrhagic."
+  },
+  {
+    "en_h": "Cerebral infarction",
+    "ko_h": "뇌경색",
+    "ko_l": "허혈성 뇌졸중",
+    "d_ko": "Ischemic stroke caused by blockage of a cerebral artery; accounts for ~85% of all strokes."
+  },
+  {
+    "en_h": "Cerebral hemorrhage",
+    "ko_h": "뇌출혈",
+    "ko_l": "출혈성 뇌졸중",
+    "d_ko": "Stroke caused by rupture of a blood vessel within or around the brain, causing bleeding into brain tissue (intracerebral) or the subarachnoid space; accounts for ~15% of all strokes with high mortality."
+  },
+  {
+    "en_h": "Ischemia",
+    "ko_h": "허혈",
+    "ko_l": "피가 안 통함",
+    "d_ko": "Insufficient blood supply to a tissue or organ, causing oxygen deprivation and risk of cell death."
+  },
+  {
+    "en_h": "Transient Ischemic Attack",
+    "ko_h": "일과성 허혈 발작",
+    "ko_l": "미니 뇌졸중",
+    "d_ko": "Brief episode of neurological dysfunction from temporary loss of blood flow to the brain, resolving within 24 hours; a major warning sign for stroke."
+  },
+  {
+    "en_h": "Cardiac arrest",
+    "ko_h": "심정지",
+    "ko_l": "심장이 멈춤",
+    "d_ko": "Sudden cessation of effective heart pumping, causing loss of consciousness and death within minutes without CPR."
+  },
+  {
+    "en_h": "Hemorrhage",
+    "ko_h": "출혈",
+    "ko_l": "피가 남",
+    "d_ko": "Escape of blood from ruptured blood vessels, which may occur internally or externally; classified by source (arterial, venous, capillary) and location."
+  },
+  {
+    "en_h": "Palpitation",
+    "ko_h": "심계항진",
+    "ko_l": "가슴이 두근거림",
+    "d_ko": "Subjective awareness of an abnormally fast, slow, or irregular heartbeat; often a presenting symptom of arrhythmia or anxiety."
+  },
+  {
+    "en_h": "Diagnosis",
+    "ko_h": "진단",
+    "ko_l": "",
+    "d_ko": "The process of identifying a disease or condition based on symptoms, signs, history, and test results."
+  },
+  {
+    "en_h": "Treatment",
+    "ko_h": "치료",
+    "ko_l": "",
+    "d_ko": "Any intervention aimed at curing, managing, or alleviating a disease or its symptoms."
+  },
+  {
+    "en_h": "Chronic",
+    "ko_h": "만성",
+    "ko_l": "오래된",
+    "d_ko": "Describing a condition that persists over a long period (generally three months or more) and typically requires ongoing monitoring and management."
+  },
+  {
+    "en_h": "Inflammation",
+    "ko_h": "염증",
+    "ko_l": "붓고 빨개짐",
+    "d_ko": "The body's immune response to injury or infection, characterised by redness, swelling, heat, and pain."
+  },
+  {
+    "en_h": "Infection",
+    "ko_h": "감염",
+    "ko_l": "세균 침입",
+    "d_ko": "Invasion and multiplication of pathogenic microorganisms (bacteria, viruses, fungi) in the body."
+  },
+  {
+    "en_h": "Fever",
+    "ko_h": "발열",
+    "ko_l": "열이 남",
+    "d_ko": "Body temperature above 38°C (100.4°F), typically indicating infection or systemic inflammation."
+  },
+  {
+    "en_h": "Pain",
+    "ko_h": "통증",
+    "ko_l": "아픔",
+    "d_ko": "Unpleasant sensory and emotional experience associated with actual or potential tissue damage."
+  },
+  {
+    "en_h": "Biopsy",
+    "ko_h": "생검 / 조직검사",
+    "ko_l": "조직 검사",
+    "d_ko": "The surgical removal and microscopic examination of a small tissue sample from a living body for diagnostic purposes, especially to detect cancer."
+  },
+  {
+    "en_h": "Benign",
+    "ko_h": "양성",
+    "ko_l": "암이 아님",
+    "d_ko": "Describing a tumour or condition that is non-cancerous, does not invade nearby tissues, and does not spread to other parts of the body; generally associated with a favourable outcome."
+  },
+  {
+    "en_h": "Malignant",
+    "ko_h": "악성",
+    "ko_l": "암",
+    "d_ko": "Describing a tumour that invades surrounding tissue and can metastasize to other parts of the body."
+  },
+  {
+    "en_h": "Metastasis",
+    "ko_h": "전이",
+    "ko_l": "암이 퍼짐",
+    "d_ko": "Spread of cancer cells from the primary site to distant organs or tissues via blood or lymphatic system."
+  },
+  {
+    "en_h": "Fracture",
+    "ko_h": "골절",
+    "ko_l": "뼈가 부러짐",
+    "d_ko": "A break or crack in a bone caused by trauma, stress, or underlying bone disease such as osteoporosis."
+  },
+  {
+    "en_h": "Edema",
+    "ko_h": "부종",
+    "ko_l": "부음",
+    "d_ko": "Abnormal accumulation of fluid in body tissues causing visible swelling, commonly in the legs or lungs."
+  },
+  {
+    "en_h": "Nausea",
+    "ko_h": "메스꺼움",
+    "ko_l": "",
+    "d_ko": "Unpleasant sensation in the stomach with an urge to vomit; a common symptom across many conditions."
+  },
+  {
+    "en_h": "Dyspnea",
+    "ko_h": "호흡곤란",
+    "ko_l": "숨 가쁨",
+    "d_ko": "Subjective sensation of difficulty or discomfort in breathing; a cardinal symptom of cardiac and respiratory disease."
+  },
+  {
+    "en_h": "Triage",
+    "ko_h": "중증도 분류",
+    "ko_l": "응급 분류",
+    "d_ko": "Process of rapidly assessing and prioritising patients based on severity of condition to allocate care efficiently."
+  },
+  {
+    "en_h": "Dementia",
+    "ko_h": "치매",
+    "ko_l": "",
+    "d_ko": "Progressive decline in cognitive function severe enough to interfere with daily life; Alzheimer's is the most common cause."
+  },
+  {
+    "en_h": "Alzheimer's disease",
+    "ko_h": "알츠하이머병",
+    "ko_l": "",
+    "d_ko": "Most common form of dementia, characterized by amyloid plaque accumulation and progressive memory and cognitive decline."
+  },
+  {
+    "en_h": "Epilepsy",
+    "ko_h": "뇌전증",
+    "ko_l": "간질",
+    "d_ko": "Chronic neurological disorder characterized by recurrent, unprovoked seizures due to abnormal electrical brain activity."
+  },
+  {
+    "en_h": "Seizure",
+    "ko_h": "발작",
+    "ko_l": "",
+    "d_ko": "A sudden, uncontrolled electrical disturbance in the brain causing changes in behaviour, movement, sensation, or consciousness; a symptom rather than a diagnosis in itself."
+  },
+  {
+    "en_h": "Parkinson's disease",
+    "ko_h": "파킨슨병",
+    "ko_l": "",
+    "d_ko": "Progressive neurodegenerative disorder causing tremor, rigidity, and bradykinesia due to loss of dopamine-producing neurons."
+  },
+  {
+    "en_h": "Multiple sclerosis",
+    "ko_h": "다발성 경화증",
+    "ko_l": "",
+    "d_ko": "Autoimmune disease in which the immune system attacks the myelin sheath of nerve fibers, disrupting brain-body communication."
+  },
+  {
+    "en_h": "Headache",
+    "ko_h": "두통",
+    "ko_l": "머리가 아픔",
+    "d_ko": "Pain in any region of the head; classified as primary (migraine, tension) or secondary (due to underlying condition)."
+  },
+  {
+    "en_h": "Migraine",
+    "ko_h": "편두통",
+    "ko_l": "",
+    "d_ko": "Recurrent moderate-to-severe headache, often unilateral and throbbing, frequently accompanied by nausea and light sensitivity."
+  },
+  {
+    "en_h": "Neuropathy",
+    "ko_h": "신경병증",
+    "ko_l": "신경 손상",
+    "d_ko": "Damage or dysfunction of peripheral nerves causing numbness, tingling, weakness, or pain, commonly due to diabetes."
+  },
+  {
+    "en_h": "Cognitive impairment",
+    "ko_h": "인지 장애",
+    "ko_l": "생각하는 능력이 떨어짐",
+    "d_ko": "Decline in memory, language, judgment, or other thinking skills, ranging from mild (MCI) to severe (dementia)."
+  },
+  {
+    "en_h": "Internal Medicine",
+    "ko_h": "내과",
+    "ko_l": "",
+    "d_ko": "Broad specialty focused on the prevention, diagnosis, and treatment of adult diseases not requiring surgery."
+  },
+  {
+    "en_h": "Psychiatry",
+    "ko_h": "정신건강의학과",
+    "ko_l": "정신과",
+    "d_ko": "Medical specialty dealing with diagnosis and treatment of mental, emotional, and behavioural disorders."
+  },
+  {
+    "en_h": "Pediatrics",
+    "ko_h": "소아청소년과",
+    "ko_l": "소아과",
+    "d_ko": "Specialty devoted to the health and medical care of infants, children, and adolescents up to age 18."
+  },
+  {
+    "en_h": "Obstetrics & Gynecology",
+    "ko_h": "산부인과",
+    "ko_l": "",
+    "d_ko": "Combined specialty covering pregnancy and childbirth (obstetrics) and female reproductive health (gynecology)."
+  },
+  {
+    "en_h": "Surgery",
+    "ko_h": "외과",
+    "ko_l": "",
+    "d_ko": "Specialty that uses operative techniques to treat injuries, diseases, and deformities of the body."
+  },
+  {
+    "en_h": "Orthopedics",
+    "ko_h": "정형외과",
+    "ko_l": "뼈·관절 전문",
+    "d_ko": "Specialty concerned with conditions of the musculoskeletal system including bones, joints, ligaments, tendons, and muscles."
+  },
+  {
+    "en_h": "Neurology",
+    "ko_h": "신경과",
+    "ko_l": "신경 전문",
+    "d_ko": "Specialty dealing with disorders of the nervous system, including the brain, spinal cord, and peripheral nerves."
+  },
+  {
+    "en_h": "Cardiology",
+    "ko_h": "심장내과",
+    "ko_l": "심장과",
+    "d_ko": "Medical specialty focused on diseases and conditions of the heart and cardiovascular system, including diagnosis, treatment, and prevention of cardiac disorders."
+  },
+  {
+    "en_h": "Oncology",
+    "ko_h": "종양내과",
+    "ko_l": "암 전문",
+    "d_ko": "Specialty dedicated to the study, diagnosis, and treatment of cancer."
+  },
+  {
+    "en_h": "Dyslipidemia",
+    "ko_h": "이상지질혈증",
+    "ko_l": "콜레스테롤 이상",
+    "d_ko": "Abnormal levels of lipids (cholesterol, triglycerides) in the blood, a key cardiovascular risk factor."
+  },
+  {
+    "en_h": "Referral",
+    "ko_h": "진료 의뢰",
+    "ko_l": "전문의에게 보냄",
+    "d_ko": "Formal process of directing a patient from a primary care provider to a specialist for further evaluation or treatment."
+  },
+  {
+    "en_h": "Polypharmacy",
+    "ko_h": "다약제처방 / 다제복용",
+    "ko_l": "약을 많이 먹음",
+    "d_ko": "The concurrent use of multiple medications by a single patient, increasing interaction risks and adverse effects; commonly defined as five or more drugs simultaneously."
+  },
+  {
+    "en_h": "Vaccination / Immunization",
+    "ko_h": "예방접종",
+    "ko_l": "예방주사 / 백신",
+    "d_ko": "Administration of a vaccine to stimulate immunity and protect against specific infectious diseases."
+  },
+  {
+    "en_h": "Hypothyroidism",
+    "ko_h": "갑상선 기능 저하증",
+    "ko_l": "갑상선 저하",
+    "d_ko": "A deficiency in circulating thyroid hormones leading to a generalized metabolic slowdown, causing fatigue, weight gain, and cold intolerance."
+  },
+  {
+    "en_h": "Osteoporosis",
+    "ko_h": "골다공증",
+    "ko_l": "뼈 약해짐",
+    "d_ko": "A systemic skeletal disorder characterized by low bone mass and bone fragility, increasing susceptibility to fractures especially in postmenopausal women and older adults."
+  },
+  {
+    "en_h": "Depression",
+    "ko_h": "우울증",
+    "ko_l": "우울함",
+    "d_ko": "A mood disorder characterised by persistent low mood, loss of interest or pleasure, and functional impairment lasting at least two weeks; one of the leading causes of disability worldwide."
+  },
+  {
+    "en_h": "Urinary tract infection",
+    "ko_h": "요로 감염",
+    "ko_l": "방광염 / 오줌소태",
+    "d_ko": "Bacterial infection of the urinary system (bladder, urethra, kidneys); one of the most common infectious diagnoses."
+  },
+  {
+    "en_h": "Body mass index",
+    "ko_h": "체질량지수",
+    "ko_l": "",
+    "d_ko": "Weight (kg) divided by height squared (m²), used as a screening tool for underweight, overweight, and obesity."
+  },
+  {
+    "en_h": "Ambulatory care",
+    "ko_h": "외래 진료",
+    "ko_l": "통원 치료",
+    "d_ko": "Medical care provided without hospital admission; the patient visits a clinic and returns home the same day."
+  },
+  {
+    "en_h": "Follow-up",
+    "ko_h": "추적 관찰",
+    "ko_l": "후속 진료",
+    "d_ko": "Scheduled subsequent visit to monitor a patient's condition, treatment response, or recovery progress."
+  },
+  {
+    "en_h": "Screening",
+    "ko_h": "선별검사",
+    "ko_l": "조기 검사",
+    "d_ko": "Testing of asymptomatic individuals to detect disease or risk factors early, before symptoms develop."
+  },
+  {
+    "en_h": "Compliance / Adherence",
+    "ko_h": "순응도",
+    "ko_l": "",
+    "d_ko": "The degree to which a patient correctly follows the prescribed treatment plan, including medications and lifestyle changes."
+  },
+  {
+    "en_h": "Insomnia",
+    "ko_h": "불면증",
+    "ko_l": "잠을 못 잠",
+    "d_ko": "Persistent difficulty initiating or maintaining sleep, causing daytime impairment."
+  },
+  {
+    "en_h": "Lower back pain",
+    "ko_h": "요통",
+    "ko_l": "허리 통증",
+    "d_ko": "Pain localised to the lumbar region, classified as acute (under 6 weeks), subacute, or chronic (over 12 weeks); one of the leading causes of disability and primary care visits globally."
+  },
+  {
+    "en_h": "Anxiety disorder",
+    "ko_h": "불안장애",
+    "ko_l": "",
+    "d_ko": "Group of mental disorders characterised by excessive fear or worry that interferes with daily functioning."
+  },
+  {
+    "en_h": "Gastroesophageal Reflux Disease",
+    "ko_h": "위식도 역류질환",
+    "ko_l": "속쓰림",
+    "d_ko": "A chronic digestive disease where stomach acid or bile flows back into the food pipe, causing heartburn and potential mucosal damage."
+  },
+  {
+    "en_h": "Anemia",
+    "ko_h": "빈혈",
+    "ko_l": "적혈구 부족",
+    "d_ko": "A reduction in the number of erythrocytes, concentration of haemoglobin, or haematocrit, resulting in fatigue, pallor, and reduced oxygen delivery to tissues."
+  },
+  {
+    "en_h": "Echocardiogram",
+    "ko_h": "심장 초음파 검사",
+    "ko_l": "심장 초음파",
+    "d_ko": "A non-invasive diagnostic procedure utilizing ultrasound waves to evaluate the real-time structure and function of the heart."
+  },
+  {
+    "en_h": "Percutaneous coronary intervention",
+    "ko_h": "경피적 관상동맥 중재술",
+    "ko_l": "스텐트 시술",
+    "d_ko": "Minimally invasive procedure to open blocked coronary arteries, typically using a balloon and stent."
+  },
+  {
+    "en_h": "Ejection fraction",
+    "ko_h": "박출률",
+    "ko_l": "",
+    "d_ko": "Percentage of blood pumped out of the left ventricle with each heartbeat; key measure of heart function (normal ≥55%)."
+  },
+  {
+    "en_h": "Anticoagulant",
+    "ko_h": "항응고제",
+    "ko_l": "피를 묽게 하는 약",
+    "d_ko": "Medication that reduces the blood's ability to clot, used to prevent stroke in AFib and treat deep vein thrombosis."
+  },
+  {
+    "en_h": "Pacemaker",
+    "ko_h": "심박동기",
+    "ko_l": "",
+    "d_ko": "Implantable electronic device that delivers electrical impulses to regulate abnormally slow or irregular heartbeats."
+  },
+  {
+    "en_h": "Congestive Heart Failure",
+    "ko_h": "울혈성 심부전",
+    "ko_l": "심장 힘이 떨어짐",
+    "d_ko": "Chronic syndrome where the cardiac output falls short of physiological metabolic demands, accumulating back-pressure fluid in lungs and limbs."
+  },
+  {
+    "en_h": "Cardiopulmonary resuscitation",
+    "ko_h": "심폐소생술",
+    "ko_l": "",
+    "d_ko": "Emergency procedure combining chest compressions and rescue breaths to maintain circulation and oxygenation during cardiac arrest."
+  },
+  {
+    "en_h": "Magnetic resonance imaging",
+    "ko_h": "자기공명영상",
+    "ko_l": "뇌 촬영",
+    "d_ko": "Imaging technique using strong magnetic fields and radio waves to produce detailed cross-sectional images of organs, soft tissues, bones, and the nervous system."
+  },
+  {
+    "en_h": "Computed tomography",
+    "ko_h": "컴퓨터 단층촬영",
+    "ko_l": "CT 촬영",
+    "d_ko": "Imaging technique using X-rays to produce detailed cross-sectional images of internal structures; widely used for brain, chest, abdomen, and bone assessment, and first-line in acute trauma and stroke."
+  },
+  {
+    "en_h": "Lumbar Puncture",
+    "ko_h": "요추천자",
+    "ko_l": "척추 주사",
+    "d_ko": "A diagnostic procedure to collect cerebrospinal fluid by inserting a needle between lumbar vertebrae; used for meningitis, subarachnoid hemorrhage diagnosis."
+  },
+  {
+    "en_h": "Meningitis",
+    "ko_h": "뇌수막염",
+    "ko_l": "뇌막 염증",
+    "d_ko": "Acute inflammation of the protective membranes covering the brain and spinal cord, usually caused by bacterial or viral infection."
+  },
+  {
+    "en_h": "Vertigo",
+    "ko_h": "회전성 어지럼증",
+    "ko_l": "빙빙 도는 어지럼증",
+    "d_ko": "An illusory sensation of spinning of oneself or the environment due to vestibular pathology; distinct from non-specific dizziness."
+  },
+  {
+    "en_h": "Dizziness",
+    "ko_h": "어지럼증",
+    "ko_l": "",
+    "d_ko": "Non-specific sensation of lightheadedness or unsteadiness without a true spinning quality; distinct from vertigo."
+  },
+  {
+    "en_h": "Neurodegenerative disease",
+    "ko_h": "신경퇴행성 질환",
+    "ko_l": "",
+    "d_ko": "Group of diseases characterized by progressive loss of nerve cell structure or function, including Alzheimer's and Parkinson's."
+  },
+  {
+    "en_h": "Spinal cord injury",
+    "ko_h": "척수 손상",
+    "ko_l": "척추 신경 손상",
+    "d_ko": "Damage to the spinal cord resulting in loss of motor, sensory, or autonomic function below the level of injury."
+  },
+  {
+    "en_h": "Electroencephalogram",
+    "ko_h": "뇌파 검사",
+    "ko_l": "뇌파",
+    "d_ko": "Recording of electrical activity of the brain via scalp electrodes; primary diagnostic tool for epilepsy and seizure disorders."
+  },
+  {
+    "en_h": "Aphasia",
+    "ko_h": "실어증",
+    "ko_l": "언어 상실",
+    "d_ko": "Impairment of language ability caused by brain damage, affecting speaking, understanding, reading, or writing."
+  },
+  {
+    "en_h": "Tremor",
+    "ko_h": "진전",
+    "ko_l": "떨림",
+    "d_ko": "Involuntary rhythmic muscle contraction causing shaking of one or more body parts; a hallmark symptom of Parkinson's disease."
+  },
+  {
+    "en_h": "Contraindication",
+    "ko_h": "금기 사항",
+    "ko_l": "금기",
+    "d_ko": "A specific situation or pre-existing clinical condition in which a drug, procedure, or intervention must not be used due to risk of harm."
+  },
+  {
+    "en_h": "Analgesic",
+    "ko_h": "진통제",
+    "ko_l": "통증 완화제",
+    "d_ko": "A drug that relieves pain without causing loss of consciousness; includes NSAIDs, acetaminophen, and opioids."
+  },
+  {
+    "en_h": "Antipyretic",
+    "ko_h": "해열제",
+    "ko_l": "열 내리는 약",
+    "d_ko": "A medication that reduces elevated body temperature (fever); commonly combined with analgesics (e.g. acetaminophen, ibuprofen)."
+  },
+  {
+    "en_h": "Intravenous",
+    "ko_h": "정맥 주사",
+    "ko_l": "혈관 주사 / 링거",
+    "d_ko": "Route of drug or fluid administration directly into a vein, allowing rapid onset; used for urgent treatments and hydration."
+  },
+  {
+    "en_h": "Adverse drug reaction",
+    "ko_h": "약물 유해반응",
+    "ko_l": "부작용",
+    "d_ko": "An unintended, harmful response occurring at normal therapeutic doses of a drug; distinct from overdose or medication error."
+  },
+  {
+    "en_h": "Prophylaxis",
+    "ko_h": "예방요법",
+    "ko_l": "예방 처치",
+    "d_ko": "Action taken or medication administered to prevent the occurrence or development of disease before it manifests."
+  },
+  {
+    "en_h": "Subcutaneous injection",
+    "ko_h": "피하 주사",
+    "ko_l": "피부 아래 주사",
+    "d_ko": "Drug administration into the fatty tissue just beneath the skin; slower absorption than IV; used for insulin, heparin."
+  },
+  {
+    "en_h": "Intramuscular injection",
+    "ko_h": "근육 주사",
+    "ko_l": "근육에 놓는 주사",
+    "d_ko": "Drug administration directly into muscle tissue, providing faster absorption than subcutaneous; used for vaccines and some antibiotics."
+  },
+  {
+    "en_h": "Sublingual administration",
+    "ko_h": "설하 투여",
+    "ko_l": "혀 밑에 녹이는 약",
+    "d_ko": "Drug delivery by placing medication under the tongue for rapid absorption through the oral mucosa into the bloodstream, bypassing first-pass metabolism."
+  },
+  {
+    "en_h": "Efficacy",
+    "ko_h": "효능",
+    "ko_l": "약효",
+    "d_ko": "The ability of a drug or treatment to produce the desired therapeutic effect under controlled conditions; distinguished from effectiveness, which refers to real-world performance."
+  },
+  {
+    "en_h": "Endocrinology",
+    "ko_h": "내분비내과",
+    "ko_l": "호르몬 전문",
+    "d_ko": "Subspecialty dealing with disorders of the endocrine glands and hormones, including diabetes and thyroid disease."
+  },
+  {
+    "en_h": "Dermatology",
+    "ko_h": "피부과",
+    "ko_l": "피부 전문",
+    "d_ko": "Specialty focused on conditions affecting the skin, hair, nails, and mucous membranes."
+  },
+  {
+    "en_h": "Ophthalmology",
+    "ko_h": "안과",
+    "ko_l": "눈 전문",
+    "d_ko": "Specialty dealing with the anatomy, physiology, and diseases of the eye."
+  },
+  {
+    "en_h": "Otolaryngology",
+    "ko_h": "이비인후과",
+    "ko_l": "귀·코·목 전문",
+    "d_ko": "Specialty dealing with diseases of the ear, nose, throat, and related structures of the head and neck."
+  },
+  {
+    "en_h": "Urology",
+    "ko_h": "비뇨의학과",
+    "ko_l": "비뇨기과",
+    "d_ko": "Specialty focused on the urinary tract in both sexes and the male reproductive system."
+  },
+  {
+    "en_h": "Radiology",
+    "ko_h": "영상의학과",
+    "ko_l": "방사선과",
+    "d_ko": "Specialty using medical imaging (X-ray, CT, MRI, ultrasound) to diagnose and guide treatment of disease."
+  },
+  {
+    "en_h": "Emergency Medicine",
+    "ko_h": "응급의학과",
+    "ko_l": "응급실",
+    "d_ko": "Specialty focused on the immediate diagnosis and treatment of acute illnesses and injuries that require urgent care."
+  },
+  {
+    "en_h": "Anesthesiology",
+    "ko_h": "마취통증의학과",
+    "ko_l": "마취과",
+    "d_ko": "Specialty responsible for administering anaesthesia and managing pain before, during, and after surgical procedures."
+  },
+  {
+    "en_h": "Pathology",
+    "ko_h": "병리과",
+    "ko_l": "조직 검사 전문",
+    "d_ko": "Specialty that examines tissues, organs, and bodily fluids to diagnose disease, often via biopsy or autopsy."
+  },
+  {
+    "en_h": "Pharmacology",
+    "ko_h": "약리학",
+    "ko_l": "약학",
+    "d_ko": "Study of how drugs interact with biological systems; foundational to prescribing and understanding medication effects."
+  },
+  {
+    "en_h": "Infectious Disease",
+    "ko_h": "감염내과",
+    "ko_l": "감염 전문",
+    "d_ko": "Subspecialty focused on the diagnosis and treatment of infections caused by bacteria, viruses, fungi, and parasites."
+  },
+  {
+    "en_h": "Dentistry",
+    "ko_h": "치과",
+    "ko_l": "치과 치료",
+    "d_ko": "Healthcare profession focused on the diagnosis, prevention, and treatment of diseases of the teeth, gums, and mouth."
+  },
+  {
+    "en_h": "Rehabilitation Medicine",
+    "ko_h": "재활의학과",
+    "ko_l": "재활과",
+    "d_ko": "Specialty aimed at restoring function and quality of life in patients with physical impairments due to injury, illness, or disability."
+  },
+  {
+    "en_h": "Beta-blocker",
+    "ko_h": "베타차단제",
+    "ko_l": "",
+    "d_ko": "Class of medications that block adrenaline receptors to slow heart rate and reduce blood pressure."
+  },
+  {
+    "en_h": "Cardiac biomarker",
+    "ko_h": "심장 표지자",
+    "ko_l": "심장 효소 검사",
+    "d_ko": "Blood tests (e.g. troponin, CK-MB) measuring proteins released by damaged heart muscle, used to diagnose MI."
+  },
+  {
+    "en_h": "Health literacy",
+    "ko_h": "건강 문해력",
+    "ko_l": "",
+    "d_ko": "A patient's ability to obtain, process, and understand basic health information to make appropriate health decisions."
+  },
+  {
+    "en_h": "Advance directive",
+    "ko_h": "사전 연명의료 의향서",
+    "ko_l": "연명치료 거부 서류",
+    "d_ko": "Legal document stating a patient's wishes regarding medical treatment in the event they become unable to communicate."
+  },
+  {
+    "en_h": "Continuity of care",
+    "ko_h": "지속적 진료",
+    "ko_l": "",
+    "d_ko": "Long-term, consistent relationship between a patient and their primary care provider."
+  },
+  {
+    "en_h": "Palliative Care",
+    "ko_h": "완화 치료",
+    "ko_l": "편안한 돌봄",
+    "d_ko": "Specialised care focused on relieving symptoms and improving quality of life for patients with serious illness, regardless of prognosis."
+  },
+  {
+    "en_h": "Plastic Surgery",
+    "ko_h": "성형외과",
+    "ko_l": "성형 수술",
+    "d_ko": "Surgical specialty focused on reconstructing or altering the human body for aesthetic or functional restoration purposes."
+  },
+  {
+    "en_h": "Thoracic Surgery",
+    "ko_h": "흉부외과",
+    "ko_l": "흉부 수술",
+    "d_ko": "Surgical specialty dealing with organs in the chest including the lungs, heart, oesophagus, and great vessels."
+  },
+  {
+    "en_h": "Neurosurgery",
+    "ko_h": "신경외과",
+    "ko_l": "뇌·척추 수술",
+    "d_ko": "Surgical specialty for treating conditions of the brain, spinal cord, and peripheral nervous system."
+  },
+  {
+    "en_h": "Rheumatology",
+    "ko_h": "류마티스내과",
+    "ko_l": "류마티스과",
+    "d_ko": "Subspecialty focused on autoimmune and inflammatory diseases of the joints, muscles, and connective tissue."
+  },
+  {
+    "en_h": "Pulmonology",
+    "ko_h": "호흡기내과",
+    "ko_l": "폐 전문",
+    "d_ko": "Subspecialty focused on diseases of the respiratory tract and lungs."
+  },
+  {
+    "en_h": "Nephrology",
+    "ko_h": "신장내과",
+    "ko_l": "콩팥 전문",
+    "d_ko": "Subspecialty focused on kidney diseases, electrolyte disorders, hypertension, and renal replacement therapy."
+  },
+  {
+    "en_h": "Gastroenterology",
+    "ko_h": "소화기내과",
+    "ko_l": "소화기 전문",
+    "d_ko": "Subspecialty focused on the digestive system including the stomach, intestines, liver, pancreas, and gallbladder."
+  },
+  {
+    "en_h": "Hematology",
+    "ko_h": "혈액내과",
+    "ko_l": "혈액 전문",
+    "d_ko": "Subspecialty dealing with diseases of the blood and blood-forming organs, including anaemia, clotting disorders, and leukaemia."
+  },
+  {
+    "en_h": "Nuclear Medicine",
+    "ko_h": "핵의학과",
+    "ko_l": "방사성 동위원소 검사",
+    "d_ko": "Specialty using radioactive substances to visualise and treat diseases, including PET and bone scans."
+  },
+  {
+    "en_h": "Syncope",
+    "ko_h": "실신",
+    "ko_l": "기절 / 기절함",
+    "d_ko": "A temporary loss of consciousness and muscle tone caused by a transient drop in blood flow to the brain."
+  },
+  {
+    "en_h": "Pleuritic Chest Pain",
+    "ko_h": "흉막성 흉통",
+    "ko_l": "숨쉴 때 찌르는 가슴 통증",
+    "d_ko": "Sharp, stabbing chest pain that worsens with deep inspiration, coughing, or moving the thorax; indicates pleural inflammation."
+  },
+  {
+    "en_h": "Hematemesis",
+    "ko_h": "토혈",
+    "ko_l": "피를 토함",
+    "d_ko": "The vomiting of bright red blood or \"coffee-ground\" material, indicating acute bleeding in the upper gastrointestinal tract."
+  },
+  {
+    "en_h": "Hemoptysis",
+    "ko_h": "객혈",
+    "ko_l": "기침할 때 피가 섞여 나옴",
+    "d_ko": "The coughing up of blood or blood-stained sputum originating from the bronchi, larynx, trachea, or lungs."
+  },
+  {
+    "en_h": "Melena",
+    "ko_h": "흑색변",
+    "ko_l": "검은 변",
+    "d_ko": "The passage of dark, black, tarry stools containing altered blood, indicative of upper gastrointestinal bleeding."
+  },
+  {
+    "en_h": "Hematochezia",
+    "ko_h": "혈변",
+    "ko_l": "피 섞인 변",
+    "d_ko": "The passage of fresh, bright red blood per rectum, usually indicating acute lower gastrointestinal bleeding."
+  },
+  {
+    "en_h": "Pruritus",
+    "ko_h": "소양증",
+    "ko_l": "가려움증",
+    "d_ko": "An unpleasant, irritating sensation of the skin that provokes the urge to scratch; may be localised or generalised."
+  },
+  {
+    "en_h": "Cyanosis",
+    "ko_h": "청색증",
+    "ko_l": "피부나 입술이 파래지는 현상",
+    "d_ko": "A bluish discoloration of the skin and mucous membranes resulting from inadequate oxygenation of the blood."
+  },
+  {
+    "en_h": "Pharynx",
+    "ko_h": "인두",
+    "ko_l": "목구멍",
+    "d_ko": "A hollow, muscular tube connecting the oral and nasal cavities to the esophagus and larynx, serving as a common pathway for food and air."
+  },
+  {
+    "en_h": "Larynx",
+    "ko_h": "후두",
+    "ko_l": "성대가 있는 곳",
+    "d_ko": "The cartilaginous organ located at the top of the trachea that houses the vocal cords and controls airflow during breathing and phonation."
+  },
+  {
+    "en_h": "Trachea",
+    "ko_h": "기관",
+    "ko_l": "숨통",
+    "d_ko": "A large membranous tube reinforced by rings of cartilage, extending from the larynx to the bronchi, conducting air to and from the lungs."
+  },
+  {
+    "en_h": "Esophagus",
+    "ko_h": "식도",
+    "ko_l": "음식이 내려가는 관",
+    "d_ko": "The muscular tube that propels swallowed food and liquids from the pharynx down to the stomach via peristalsis."
+  },
+  {
+    "en_h": "Duodenum",
+    "ko_h": "십이지장",
+    "ko_l": "소장의 첫 번째 부위",
+    "d_ko": "The first part of the small intestine immediately beyond the stomach, where chyme mixes with bile and pancreatic enzymes."
+  },
+  {
+    "en_h": "Jejunum",
+    "ko_h": "공장",
+    "ko_l": "소장의 중간 부위",
+    "d_ko": "The highly vascularized middle segment of the small intestine specialized primarily for nutrient absorption."
+  },
+  {
+    "en_h": "Ileum",
+    "ko_h": "회장",
+    "ko_l": "소장의 마지막 부위",
+    "d_ko": "The final segment of the small intestine, primarily responsible for absorbing vitamin B12 and bile salts; connects to the large intestine at the ileocecal valve."
+  },
+  {
+    "en_h": "Pituitary Gland",
+    "ko_h": "뇌하수체",
+    "ko_l": "호르몬 조절 샘",
+    "d_ko": "The major endocrine master gland at the base of the brain controlling development and downstream hormone secretion from other glands throughout the body."
+  },
+  {
+    "en_h": "Thymus",
+    "ko_h": "흉선 / 가슴샘",
+    "ko_l": "가슴속 면역 기관",
+    "d_ko": "A primary lymphoid organ in the superior mediastinum where bone marrow-derived T-lymphocytes differentiate and mature."
+  },
+  {
+    "en_h": "Gallbladder",
+    "ko_h": "담낭 / 쓸개",
+    "ko_l": "쓸개",
+    "d_ko": "A small, pear-shaped organ underneath the liver that stores and concentrates bile before releasing it into the duodenum during digestion."
+  },
+  {
+    "en_h": "Benign Prostatic Hyperplasia",
+    "ko_h": "전립선 비대증",
+    "ko_l": "전립선 비대",
+    "d_ko": "A non-cancerous enlargement of the prostate gland common in aging men, leading to lower urinary tract symptoms such as weak stream and frequency."
+  },
+  {
+    "en_h": "Pneumothorax",
+    "ko_h": "기흉",
+    "ko_l": "폐 허탈",
+    "d_ko": "The abnormal presence of air in the pleural cavity causing lung collapse; may be spontaneous, traumatic, or iatrogenic."
+  },
+  {
+    "en_h": "Cholelithiasis",
+    "ko_h": "담석증",
+    "ko_l": "담석",
+    "d_ko": "The presence or formation of calculi within the gallbladder cavity, which may cause biliary colic or progress to cholecystitis."
+  },
+  {
+    "en_h": "Chronic Obstructive Pulmonary Disease",
+    "ko_h": "만성 폐쇄성 폐질환",
+    "ko_l": "",
+    "d_ko": "A progressive, poorly reversible lung disease characterized by chronic airflow limitation, typically driven by smoking."
+  },
+  {
+    "en_h": "Rheumatoid Arthritis",
+    "ko_h": "류마티스 관절염",
+    "ko_l": "",
+    "d_ko": "A chronic systemic autoimmune disorder characterized by symmetric inflammatory arthritis, primarily targeting synovial joints."
+  },
+  {
+    "en_h": "Endoscopy",
+    "ko_h": "내시경 검사",
+    "ko_l": "내시경",
+    "d_ko": "Visual examination of interior structures or hollow organs of the body using a flexible optical instrument (endoscope)."
+  },
+  {
+    "en_h": "Laparoscopy",
+    "ko_h": "복강경 수술",
+    "ko_l": "복강경",
+    "d_ko": "A minimally invasive surgical technique performed in the abdomen or pelvis through small incisions utilizing a camera."
+  },
+  {
+    "en_h": "Intubation",
+    "ko_h": "기관내 삽관",
+    "ko_l": "숨관 삽입",
+    "d_ko": "The placement of a flexible plastic tube into the trachea past the vocal cords to maintain an open airway and assist ventilation."
+  },
+  {
+    "en_h": "Paracentesis",
+    "ko_h": "복수천자",
+    "ko_l": "복수 빼는 시술",
+    "d_ko": "A clinical procedure where a needle or catheter is inserted into the peritoneal cavity to sample or drain ascitic fluid."
+  },
+  {
+    "en_h": "Auscultation",
+    "ko_h": "청진",
+    "ko_l": "",
+    "d_ko": "The clinical act of listening to the internal sounds of the body, usually using a stethoscope, to assess circulatory or respiratory status."
+  },
+  {
+    "en_h": "Palpation",
+    "ko_h": "촉진",
+    "ko_l": "손으로 만져서 진찰하는 것",
+    "d_ko": "The physical examination process of utilizing pressure from the hands and fingers to feel organs, masses, or tender areas."
+  },
+  {
+    "en_h": "Prostate-Specific Antigen",
+    "ko_h": "전립선 특이 항원",
+    "ko_l": "전립선 수치 혈액검사",
+    "d_ko": "A glycoprotein manufactured by the prostate gland; blood concentrations serve as a clinical marker for BPH or malignancy screening."
+  },
+  {
+    "en_h": "Cholecystitis",
+    "ko_h": "담낭염",
+    "ko_l": "쓸개에 염증이 생김",
+    "d_ko": "Acute or chronic inflammation of the gallbladder wall, typically secondary to cystic duct obstruction by gallstones."
+  },
+  {
+    "en_h": "Appendicitis",
+    "ko_h": "충수염",
+    "ko_l": "맹장염",
+    "d_ko": "Acute inflammation of the vermiform appendix, presenting with lower right quadrant abdominal pain, nausea, and fever; managed surgically or, in uncomplicated cases, with antibiotics."
+  },
+  {
+    "en_h": "Pancreatitis",
+    "ko_h": "췌장염",
+    "ko_l": "췌장에 염증이 생김",
+    "d_ko": "Inflammation of the pancreas, characterized by premature activation of pancreatic enzymes leading to autodigestion of the organ tissue."
+  },
+  {
+    "en_h": "Peritonitis",
+    "ko_h": "복막염",
+    "ko_l": "배 안의 막에 염증이 생김",
+    "d_ko": "Inflammatory process affecting the peritoneum, most commonly due to bacterial infection following perforation of an abdominal organ."
+  },
+  {
+    "en_h": "Nephrolithiasis",
+    "ko_h": "신결석증 / 신장결석",
+    "ko_l": "신장결석",
+    "d_ko": "The formation of crystalline calculi within the renal pelvis or calyces, causing severe flank pain, hematuria, and urinary obstruction."
+  },
+  {
+    "en_h": "Chronic Kidney Disease",
+    "ko_h": "만성 신장 질환",
+    "ko_l": "만성 신장 기능 저하",
+    "d_ko": "Gradual, progressive, and irreversible loss of renal function lasting for three months or longer."
+  },
+  {
+    "en_h": "End-Stage Renal Disease",
+    "ko_h": "말기 신질환",
+    "ko_l": "신부전 말기 상태",
+    "d_ko": "Total, permanent failure of the kidneys, requiring long-term renal replacement therapy (dialysis or kidney transplantation)."
+  },
+  {
+    "en_h": "Hemodialysis",
+    "ko_h": "혈액투석",
+    "ko_l": "인공신장기로 피를 걸러줌",
+    "d_ko": "A medical procedure that uses a dialyzer machine to filter toxins, waste products, and excess fluids from the patient's blood when the kidneys fail."
+  },
+  {
+    "en_h": "Peritoneal Dialysis",
+    "ko_h": "복막투석",
+    "ko_l": "배 안의 막을 이용한 투석",
+    "d_ko": "A method of removing waste and excess fluid from the blood using the patient's peritoneum as a semipermeable membrane across which fluids exchange."
+  },
+  {
+    "en_h": "Hydronephrosis",
+    "ko_h": "수신증",
+    "ko_l": "신장 부음",
+    "d_ko": "Distension and dilation of the renal pelvis caused by obstruction of urine outflow, leading to potential kidney damage if untreated."
+  },
+  {
+    "en_h": "Benign Paroxysmal Positional Vertigo",
+    "ko_h": "양성 발작성 체위성 현훈",
+    "ko_l": "이석증",
+    "d_ko": "A disorder of the inner ear characterized by brief, recurrent episodes of spinning vertigo triggered by specific changes in head position."
+  },
+  {
+    "en_h": "Otitis Media",
+    "ko_h": "중이염",
+    "ko_l": "귀 중간 부분의 염증",
+    "d_ko": "An inflammation or bacterial/viral infection of the middle ear space, frequently presenting with fluid accumulation behind the tympanic membrane."
+  },
+  {
+    "en_h": "Tinnitus",
+    "ko_h": "이명",
+    "ko_l": "귀울림",
+    "d_ko": "The perception of noise or ringing in the ears or head when no external sound is present; may be continuous or intermittent."
+  },
+  {
+    "en_h": "Epistaxis",
+    "ko_h": "비출혈 / 코피",
+    "ko_l": "코피",
+    "d_ko": "Bleeding originating from the interior of the nasal cavity, most commonly from the Kiesselbach plexus on the anterior nasal septum."
+  },
+  {
+    "en_h": "Sinusitis",
+    "ko_h": "부비동염",
+    "ko_l": "축농증",
+    "d_ko": "Inflammation of the mucosal lining of the paranasal sinuses, resulting from infection, allergy, or autoimmune issues."
+  },
+  {
+    "en_h": "Strabismus",
+    "ko_h": "사시",
+    "ko_l": "눈 정렬이 맞지 않음",
+    "d_ko": "A visual disorder where the eyes point in different directions and fail to remain aligned simultaneously under normal viewing conditions."
+  },
+  {
+    "en_h": "Cataract",
+    "ko_h": "백내장",
+    "ko_l": "",
+    "d_ko": "Progressive opacification or clouding of the natural crystalline lens of the eye, obstructing the transmission of light onto the retina."
+  },
+  {
+    "en_h": "Glaucoma",
+    "ko_h": "녹내장",
+    "ko_l": "",
+    "d_ko": "A group of eye diseases characterized by progressive optic nerve damage and visual field loss, often associated with elevated intraocular pressure."
+  },
+  {
+    "en_h": "Nystagmus",
+    "ko_h": "안구진탕",
+    "ko_l": "눈 떨림",
+    "d_ko": "An involuntary, rapid, and rhythmic oscillation of the eyeballs, which may be horizontal, vertical, or rotatory."
+  },
+  {
+    "en_h": "Macular Degeneration",
+    "ko_h": "황반변성",
+    "ko_l": "눈 망막 중심부가 손상됨",
+    "d_ko": "Progressive deterioration of the macula (the central area of the retina), causing loss of central vision while peripheral vision remains intact."
+  },
+  {
+    "en_h": "Erythema",
+    "ko_h": "홍반",
+    "ko_l": "피부 붉어짐",
+    "d_ko": "Redness of the skin or mucous membranes caused by increased blood flow in superficial capillaries, associated with inflammation or infection."
+  },
+  {
+    "en_h": "Urticaria",
+    "ko_h": "두드러기",
+    "ko_l": "",
+    "d_ko": "A vascular reaction of the skin characterized by the transient appearance of elevated, pruritic wheals caused by histamine release."
+  },
+  {
+    "en_h": "Cellulitis",
+    "ko_h": "연조직염",
+    "ko_l": "피부 깊은 곳 감염",
+    "d_ko": "An acute, spreading bacterial infection of the deep dermis and subcutaneous tissue, presenting with redness, warmth, swelling, and pain."
+  },
+  {
+    "en_h": "Atopic Dermatitis",
+    "ko_h": "아토피 피부염",
+    "ko_l": "아토피성 가려운 피부염",
+    "d_ko": "A chronic, pruritic, inflammatory skin disease that typically begins in infancy or childhood and follows a relapsing course."
+  },
+  {
+    "en_h": "Psoriasis",
+    "ko_h": "건선",
+    "ko_l": "",
+    "d_ko": "A chronic autoimmune skin condition accelerating skin cell production, resulting in thick, silvery scales and itchy, dry plaques."
+  },
+  {
+    "en_h": "Paresthesia",
+    "ko_h": "감각이상",
+    "ko_l": "저림 / 남의 살 같은 느낌",
+    "d_ko": "An abnormal dermal sensation (such as tingling, pricking, or numbness) experienced without any clear external sensory stimulus."
+  },
+  {
+    "en_h": "Sciatica",
+    "ko_h": "좌골신경통",
+    "ko_l": "",
+    "d_ko": "Severe radiating pain originating in the lower back and traveling down the path of the sciatic nerve through the buttock and posterior leg."
+  },
+  {
+    "en_h": "Gout",
+    "ko_h": "통풍",
+    "ko_l": "",
+    "d_ko": "Form of inflammatory arthritis caused by the deposition of monosodium urate crystals in joints and tissues, often primary in the first metatarsophalangeal joint."
+  },
+  {
+    "en_h": "Kyphosis",
+    "ko_h": "척추후만증",
+    "ko_l": "등이 뒤로 굽는 증상",
+    "d_ko": "An abnormal excessive outward curvature of the thoracic region of the spine, leading to a slouching posture or hunchback."
+  },
+  {
+    "en_h": "Hyperthyroidism",
+    "ko_h": "갑상선 기능 항진증",
+    "ko_l": "갑상선 호르몬 과다 분비",
+    "d_ko": "A clinical condition caused by sustained overproduction of thyroid hormones, leading to a hypermetabolic state with symptoms including weight loss, palpitations, heat intolerance, and tremor."
+  },
+  {
+    "en_h": "Cushing's Syndrome",
+    "ko_h": "쿠싱 증후군",
+    "ko_l": "",
+    "d_ko": "A metabolic disorder caused by prolonged systemic exposure to abnormally elevated levels of glucocorticoids (cortisol)."
+  },
+  {
+    "en_h": "Diabetes Insipidus",
+    "ko_h": "요붕증",
+    "ko_l": "",
+    "d_ko": "A rare disorder of water metabolism caused by a deficiency of vasopressin (ADH) secretion or renal resistance to it, causing polyuria and polydipsia."
+  },
+  {
+    "en_h": "Diabetic Retinopathy",
+    "ko_h": "당뇨망막병증",
+    "ko_l": "당뇨 눈 합병증",
+    "d_ko": "Progressive microvascular complications of long-standing diabetes mellitus affecting the blood vessels of the retina."
+  },
+  {
+    "en_h": "Thrombocytopenia",
+    "ko_h": "혈소판감소증",
+    "ko_l": "혈소판 감소",
+    "d_ko": "An abnormal reduction in the number of platelets in peripheral blood, increasing bleeding risk and causing petechiae or easy bruising."
+  },
+  {
+    "en_h": "Leukocytosis",
+    "ko_h": "백혈구 증가증",
+    "ko_l": "",
+    "d_ko": "An increase in the number of circulating white blood cells above normal range, typically a response to infection or severe inflammation."
+  },
+  {
+    "en_h": "Polycythemia Vera",
+    "ko_h": "진성적혈구증가증",
+    "ko_l": "",
+    "d_ko": "A chronic bone marrow disorder causing uncontrolled overproduction of red blood cells, increasing blood viscosity and risk of thrombosis and stroke."
+  },
+  {
+    "en_h": "Deep Vein Thrombosis",
+    "ko_h": "심부정맥 혈전증",
+    "ko_l": "다리 혈전",
+    "d_ko": "Formation of a blood clot within a deep vein, most commonly occurring within the deep tissues of the calves or thighs."
+  },
+  {
+    "en_h": "Pulmonary Embolism",
+    "ko_h": "폐색전증",
+    "ko_l": "폐혈전",
+    "d_ko": "The sudden blockage of a pulmonary artery branch by a blood clot, usually originating from deep vein thrombosis, causing acute respiratory distress."
+  },
+  {
+    "en_h": "Aortic Dissection",
+    "ko_h": "대동맥 박리",
+    "ko_l": "",
+    "d_ko": "A catastrophic, life-threatening vascular condition where the inner layer of the aorta tears, creating a false blood-filled channel within the arterial wall."
+  },
+  {
+    "en_h": "Cholecystectomy",
+    "ko_h": "담낭절제술",
+    "ko_l": "쓸개를 떼어내는 수술",
+    "d_ko": "The surgical excision and extraction of the gallbladder, typically to treat symptomatic cholelithiasis or cholecystitis."
+  },
+  {
+    "en_h": "Appendectomy",
+    "ko_h": "충수절제술",
+    "ko_l": "맹장 수술",
+    "d_ko": "The emergency or elective surgical removal of the vermiform appendix to cure acute appendicitis."
+  },
+  {
+    "en_h": "Thoracentesis",
+    "ko_h": "흉수천자",
+    "ko_l": "흉수 빼는 시술",
+    "d_ko": "An invasive extraction procedure where a needle or catheter is inserted into the pleural space to drain pathologic accumulations of pleural fluid."
+  },
+  {
+    "en_h": "Hysterectomy",
+    "ko_h": "자궁적출술",
+    "ko_l": "자궁을 제거하는 수술",
+    "d_ko": "The surgical extraction and removal of all or part of the uterus, commonly indicated for fibroids, endometriosis, or gynecological malignancies."
+  },
+  {
+    "en_h": "Mammography",
+    "ko_h": "유방촬영술",
+    "ko_l": "유방 엑스레이 검사",
+    "d_ko": "A specialized, low-dose X-ray imaging procedure used to visualize internal breast tissue structures for early detection of cancer."
+  },
+  {
+    "en_h": "Colonoscopy",
+    "ko_h": "대장내시경 검사",
+    "ko_l": "대장내시경",
+    "d_ko": "An endoscopic examination evaluating the inner lining of the large intestine and rectum via a flexible video scope."
+  },
+  {
+    "en_h": "Atheroma",
+    "ko_h": "죽종",
+    "ko_l": "혈관 벽에 기름때가 끼는 것",
+    "d_ko": "A fatty deposit or plaque that forms on the inner lining of an arterial wall, characteristic of atherosclerosis."
+  },
+  {
+    "en_h": "Cardiomegaly",
+    "ko_h": "심장비대",
+    "ko_l": "",
+    "d_ko": "Abnormal enlargement of the heart, usually resulting from chronic hypertension or heart failure."
+  },
+  {
+    "en_h": "Bradycardia",
+    "ko_h": "서맥",
+    "ko_l": "맥박이 느림",
+    "d_ko": "A cardiac arrhythmia characterized by a slow heart rate, typically fewer than 60 beats per minute in adults."
+  },
+  {
+    "en_h": "Tachycardia",
+    "ko_h": "빈맥",
+    "ko_l": "맥박이 빠름",
+    "d_ko": "A cardiac arrhythmia characterized by a rapid heart rate, typically exceeding 100 beats per minute in adults at rest."
+  },
+  {
+    "en_h": "Orthostatic Hypotension",
+    "ko_h": "기립성 저혈압",
+    "ko_l": "일어설 때 어지러움",
+    "d_ko": "A sudden drop in blood pressure (typically >20 mmHg systolic or >10 mmHg diastolic) that occurs when transitioning to an upright position."
+  },
+  {
+    "en_h": "Pericarditis",
+    "ko_h": "심낭염",
+    "ko_l": "",
+    "d_ko": "Inflammation of the pericardium, the fibroserous sac surrounding the heart, often presenting with chest pain that improves when leaning forward."
+  },
+  {
+    "en_h": "Endocarditis",
+    "ko_h": "심내막염",
+    "ko_l": "심장 판막에 균이 감염됨",
+    "d_ko": "An infection of the endocardium, most commonly involving the heart valves, typically caused by bacteria entering the bloodstream."
+  },
+  {
+    "en_h": "Intermittent Claudication",
+    "ko_h": "간헐성 파행",
+    "ko_l": "걸을 때 다리 통증",
+    "d_ko": "Cramping pain and weakness in the legs induced by exercise and relieved by rest, caused by peripheral artery disease."
+  },
+  {
+    "en_h": "Aneurysm",
+    "ko_h": "동맥류",
+    "ko_l": "혈관이 부풀어 오름",
+    "d_ko": "A localized, abnormal dilation or ballooning of a blood vessel wall, carrying a permanent risk of rupture."
+  },
+  {
+    "en_h": "Atelectasis",
+    "ko_h": "무기폐",
+    "ko_l": "",
+    "d_ko": "Collapse or incomplete expansion of lung tissue, reducing or eliminating gas exchange in the affected area; common postoperatively and in patients with mucus plugging or compression."
+  },
+  {
+    "en_h": "Bronchiectasis",
+    "ko_h": "기관지확장증",
+    "ko_l": "",
+    "d_ko": "A chronic, progressive respiratory disease characterized by permanent dilation and destruction of the bronchial walls."
+  },
+  {
+    "en_h": "Pleural Effusion",
+    "ko_h": "흉막 삼출액",
+    "ko_l": "흉수",
+    "d_ko": "An abnormal accumulation of fluid in the pleural cavity surrounding the lungs."
+  },
+  {
+    "en_h": "Hemothorax",
+    "ko_h": "혈흉",
+    "ko_l": "가슴방(흉막강)에 피가 고임",
+    "d_ko": "A collection of whole blood in the pleural cavity, usually resulting from trauma or chest surgery."
+  },
+  {
+    "en_h": "Empyema",
+    "ko_h": "농흉",
+    "ko_l": "흉막강에 고름이 차는 증상",
+    "d_ko": "A collection of purulent fluid (pus) within a naturally existing anatomical cavity, most commonly the pleural space."
+  },
+  {
+    "en_h": "Hypercapnia",
+    "ko_h": "고탄산혈증",
+    "ko_l": "혈중 이산화탄소 과다",
+    "d_ko": "Abnormally elevated carbon dioxide (CO2) levels in arterial blood (PaCO2 >45 mmHg), typically indicating respiratory failure or hypoventilation."
+  },
+  {
+    "en_h": "Hypoxemia",
+    "ko_h": "저산소혈증",
+    "ko_l": "혈중 산소 부족",
+    "d_ko": "Abnormally low oxygen levels in arterial blood (PaO2 <80 mmHg or SpO2 <95%), indicating impaired respiratory or circulatory function."
+  },
+  {
+    "en_h": "Stridor",
+    "ko_h": "협착음",
+    "ko_l": "숨쉴 때 거친 소리",
+    "d_ko": "A harsh, high-pitched, vibrating respiratory sound caused by turbulent airflow through a partially obstructed upper airway."
+  },
+  {
+    "en_h": "Pulmonary Fibrosis",
+    "ko_h": "폐섬유증",
+    "ko_l": "폐가 딱딱하게 굳어가는 병",
+    "d_ko": "A chronic, progressive respiratory disease where the alveoli become scarred and thickened, obstructing gas exchange."
+  },
+  {
+    "en_h": "Ascites",
+    "ko_h": "복수",
+    "ko_l": "",
+    "d_ko": "An abnormal accumulation of protein-rich fluid within the peritoneal cavity."
+  },
+  {
+    "en_h": "Cirrhosis",
+    "ko_h": "간경변증",
+    "ko_l": "",
+    "d_ko": "Late-stage scarring (fibrosis) of the liver tissue caused by chronic liver disease, compromising structural liver functions."
+  },
+  {
+    "en_h": "Dysphagia",
+    "ko_h": "연하곤란",
+    "ko_l": "음식물을 삼키기 어려운 증상",
+    "d_ko": "Sensation of difficulty or impairment in the passage of solid or liquid food from the mouth to the stomach."
+  },
+  {
+    "en_h": "Diverticulitis",
+    "ko_h": "게실염",
+    "ko_l": "",
+    "d_ko": "Inflammation or infection of small pouches (diverticula) that can form along the walls of the intestines."
+  },
+  {
+    "en_h": "Jaundice",
+    "ko_h": "황달",
+    "ko_l": "",
+    "d_ko": "A yellowish discoloration of the skin, sclera, and mucous membranes caused by hyperbilirubinemia."
+  },
+  {
+    "en_h": "Intussusception",
+    "ko_h": "장중첩증",
+    "ko_l": "",
+    "d_ko": "A serious condition in which part of the intestine slides or telescopes into an adjacent part, obstructing blood supply."
+  },
+  {
+    "en_h": "Volvulus",
+    "ko_h": "장염전",
+    "ko_l": "장꼬임",
+    "d_ko": "A loop of intestine twisting around itself and the mesentery that supports it, resulting in mechanical bowel obstruction."
+  },
+  {
+    "en_h": "Gastrointestinal Bleeding",
+    "ko_h": "위장관 출혈",
+    "ko_l": "",
+    "d_ko": "Any bleeding originating from the digestive tract, classified broadly into upper (UGIB) and lower (LGIB)."
+  },
+  {
+    "en_h": "Gastroparesis",
+    "ko_h": "위배출지연증",
+    "ko_l": "",
+    "d_ko": "A chronic syndrome characterized by delayed gastric emptying of solids or liquids without mechanical obstruction."
+  },
+  {
+    "en_h": "Hydrocephalus",
+    "ko_h": "수두증",
+    "ko_l": "",
+    "d_ko": "An abnormal accumulation of cerebrospinal fluid (CSF) within the ventricles of the brain, increasing intracranial pressure."
+  },
+  {
+    "en_h": "Ataxia",
+    "ko_h": "운동실조",
+    "ko_l": "비틀거림",
+    "d_ko": "Lack of voluntary coordination of muscle movements, frequently resulting from cerebellar dysfunction or nerve damage."
+  },
+  {
+    "en_h": "Neuralgia",
+    "ko_h": "신경통",
+    "ko_l": "",
+    "d_ko": "Intense, typically burning or stabbing pain radiating along the course of one or more specific nerves."
+  },
+  {
+    "en_h": "Dysarthria",
+    "ko_h": "구어장애",
+    "ko_l": "발음 장애",
+    "d_ko": "A motor speech disorder caused by neurological injury to the motor component of the speech system, causing slurred, slow, or imprecise pronunciation despite intact language comprehension."
+  },
+  {
+    "en_h": "Encephalopathy",
+    "ko_h": "뇌병증",
+    "ko_l": "",
+    "d_ko": "A broad term for any condition causing altered brain function or structure, presenting with confusion, cognitive decline, or impaired consciousness; may be caused by metabolic, toxic, infectious, or structural factors."
+  },
+  {
+    "en_h": "Encephalitis",
+    "ko_h": "뇌염",
+    "ko_l": "",
+    "d_ko": "Acute inflammation of the active brain parenchyma, typically caused by viral infection."
+  },
+  {
+    "en_h": "Proteinuria",
+    "ko_h": "단백뇨",
+    "ko_l": "",
+    "d_ko": "The presence of abnormal amounts of protein in the urine, often an early clinical indicator of renal disease."
+  },
+  {
+    "en_h": "Hematuria",
+    "ko_h": "혈뇨",
+    "ko_l": "소변에 피가 섞여 나옴",
+    "d_ko": "The abnormal presence of red blood cells in the urine, categorized into gross (visible) and microscopic."
+  },
+  {
+    "en_h": "Oliguria",
+    "ko_h": "핍뇨",
+    "ko_l": "소변량 감소",
+    "d_ko": "The production of abnormally small amounts of urine, usually defined as less than 400 or 500 mL per day in adults."
+  },
+  {
+    "en_h": "Anuria",
+    "ko_h": "무뇨",
+    "ko_l": "",
+    "d_ko": "Non-passage of urine, clinically defined as less than 100 mL of urine output per day; indicates severe kidney failure."
+  },
+  {
+    "en_h": "Glomerulonephritis",
+    "ko_h": "사구체신염",
+    "ko_l": "",
+    "d_ko": "Immunologically mediated inflammation of the glomeruli, the microscopic filtering units of the kidney."
+  },
+  {
+    "en_h": "Nephrotic Syndrome",
+    "ko_h": "신증후군",
+    "ko_l": "",
+    "d_ko": "A collection of clinical findings caused by kidney damage, including massive proteinuria, hypoalbuminemia, hyperlipidemia, and severe edema."
+  },
+  {
+    "en_h": "Pyelonephritis",
+    "ko_h": "신우신염",
+    "ko_l": "",
+    "d_ko": "An inflammation of the kidney substance and pelvis, typically resulting from an ascending bacterial infection originating in the urinary tract."
+  },
+  {
+    "en_h": "Cystitis",
+    "ko_h": "방광염",
+    "ko_l": "오줌소태",
+    "d_ko": "Inflammation of the urinary bladder wall, most frequently caused by an ascending bacterial infection."
+  },
+  {
+    "en_h": "Urinary Incontinence",
+    "ko_h": "요실금",
+    "ko_l": "",
+    "d_ko": "The involuntary leakage or loss of control of urine, heavily subcategorized into stress, urge, and overflow types."
+  },
+  {
+    "en_h": "Dysuria",
+    "ko_h": "배뇨통",
+    "ko_l": "소변볼 때 따가움",
+    "d_ko": "Pain, burning, or discomfort experienced during the process of urination, typical of lower urinary tract infections."
+  },
+  {
+    "en_h": "Hyperglycemia",
+    "ko_h": "고혈당증",
+    "ko_l": "혈당이 높음",
+    "d_ko": "Abnormally elevated blood glucose levels (fasting >126 mg/dL or random >200 mg/dL); a hallmark of diabetes mellitus and a risk factor for acute and chronic complications."
+  },
+  {
+    "en_h": "Hypoglycemia",
+    "ko_h": "저혈당증",
+    "ko_l": "혈당이 낮음",
+    "d_ko": "Abnormally low blood glucose levels (typically <70 mg/dL), causing autonomic symptoms (sweating, tremor) and neuroglycopenic symptoms (confusion, loss of consciousness)."
+  },
+  {
+    "en_h": "Diabetic Ketoacidosis",
+    "ko_h": "당뇨병성 케토산증",
+    "ko_l": "",
+    "d_ko": "A life-threatening, acute metabolic complication of diabetes mellitus characterized by severe hyperglycemia, metabolic acidosis, and high blood ketone levels."
+  },
+  {
+    "en_h": "Gynecomastia",
+    "ko_h": "여성형 유방증",
+    "ko_l": "",
+    "d_ko": "An abnormal benign proliferation of glandular breast tissue in males, caused by an imbalance between estrogen and androgen action."
+  },
+  {
+    "en_h": "Acromegaly",
+    "ko_h": "말단비대증",
+    "ko_l": "",
+    "d_ko": "A chronic disorder caused by excessive production of growth hormone (GH) by a pituitary adenoma after the closure of epiphyseal growth plates."
+  },
+  {
+    "en_h": "Galactorrhea",
+    "ko_h": "유즙누출증",
+    "ko_l": "비정상 모유 분비",
+    "d_ko": "The spontaneous, inappropriate secretion of breast milk unrelated to childbearing or nursing, often linked to hyperprolactinemia."
+  },
+  {
+    "en_h": "Hirsutism",
+    "ko_h": "다모증",
+    "ko_l": "",
+    "d_ko": "Excessive growth of thick, dark hair in females following a male-like distribution pattern, resulting from androgen excess."
+  },
+  {
+    "en_h": "Hyperparathyroidism",
+    "ko_h": "부갑상선 기능 항진증",
+    "ko_l": "",
+    "d_ko": "Overactivity of the parathyroid glands resulting in excess production of parathyroid hormone (PTH), causing hypercalcemia."
+  },
+  {
+    "en_h": "Pheochromocytoma",
+    "ko_h": "갈색세포종",
+    "ko_l": "",
+    "d_ko": "A rare, neuroendocrine tumor of the adrenal medulla or extra-adrenal chromaffin tissue that secretes catecholamines."
+  },
+  {
+    "en_h": "Metabolic Syndrome",
+    "ko_h": "대사 증후군",
+    "ko_l": "",
+    "d_ko": "A cluster of metabolic risk factors—including abdominal obesity, insulin resistance, dyslipidemia, and hypertension—elevating cardiovascular risks."
+  },
+  {
+    "en_h": "Pancytopenia",
+    "ko_h": "범혈구감소증",
+    "ko_l": "",
+    "d_ko": "A simultaneous reduction in red blood cells, white blood cells, and platelets, typically caused by bone marrow failure, nutritional deficiency, or malignancy."
+  },
+  {
+    "en_h": "Neutropenia",
+    "ko_h": "호중구감소증",
+    "ko_l": "",
+    "d_ko": "An abnormally low concentration of neutrophils (a type of white blood cell) in the blood, severely raising bacterial infection risks."
+  },
+  {
+    "en_h": "Lymphadenopathy",
+    "ko_h": "림프절병증",
+    "ko_l": "림프선 부음",
+    "d_ko": "Disease or abnormal enlargement of lymph nodes, often reacting to localized infection, inflammation, or malignancy."
+  },
+  {
+    "en_h": "Splenomegaly",
+    "ko_h": "비장비대 / 지라비대",
+    "ko_l": "비장이 커짐",
+    "d_ko": "Pathological enlargement of the spleen, commonly resulting from portal hypertension, hematologic malignancies, or chronic infections."
+  },
+  {
+    "en_h": "Disseminated Intravascular Coagulation",
+    "ko_h": "파종성 혈관내 응고증",
+    "ko_l": "",
+    "d_ko": "A grave pathological systemic process where widespread microvascular blood clotting depletes clotting factors, resulting in severe hemorrhage."
+  },
+  {
+    "en_h": "Carcinoma",
+    "ko_h": "암종",
+    "ko_l": "상피세포 암",
+    "d_ko": "A malignant neoplasm (cancer) that originates from epithelial cells, which line internal organs and cover the body."
+  },
+  {
+    "en_h": "Sarcoma",
+    "ko_h": "육종",
+    "ko_l": "결합조직 암",
+    "d_ko": "A malignant tumor arising from mesenchymal supportive or connective tissues, such as bone, cartilage, fat, or muscle."
+  },
+  {
+    "en_h": "Immunotherapy",
+    "ko_h": "면역항암요법",
+    "ko_l": "면역 치료",
+    "d_ko": "A type of cancer treatment that stimulates or restores the body's natural immune system mechanisms to detect and fight malignant cells."
+  },
+  {
+    "en_h": "Adjuvant Therapy",
+    "ko_h": "보조요법",
+    "ko_l": "보조 항암 치료",
+    "d_ko": "Additional cancer treatment given after the primary treatment (such as surgery) to lower the risk of recurrence."
+  },
+  {
+    "en_h": "Neoadjuvant Therapy",
+    "ko_h": "선행보조요법",
+    "ko_l": "수술 전 항암 치료",
+    "d_ko": "Treatment, such as chemotherapy or radiation, administered as a first step to shrink a tumor before the main primary surgical intervention."
+  },
+  {
+    "en_h": "Amenorrhea",
+    "ko_h": "무월경",
+    "ko_l": "생리 없음",
+    "d_ko": "The abnormal pathological absence of menstruation, classified into primary and secondary types based on whether menarche has occurred."
+  },
+  {
+    "en_h": "Dysmenorrhea",
+    "ko_h": "월경곤란증",
+    "ko_l": "생리통",
+    "d_ko": "Painful menstruation or severe uterine cramping during menstrual bleeding, causing functional impairment."
+  },
+  {
+    "en_h": "Uterine Leiomyoma",
+    "ko_h": "자궁근종",
+    "ko_l": "",
+    "d_ko": "A benign non-cancerous tumor of the uterine smooth muscle tissue, extremely common in women of reproductive age."
+  },
+  {
+    "en_h": "Abruptio Placentae",
+    "ko_h": "태반조기박리",
+    "ko_l": "",
+    "d_ko": "The premature separation of a normally implanted placenta from the uterine wall prior to the second stage of labor."
+  },
+  {
+    "en_h": "Postpartum Hemorrhage",
+    "ko_h": "산후출혈",
+    "ko_l": "",
+    "d_ko": "Heavy blood loss exceeding 500 mL (vaginal) or 1000 mL (C-section) within 24 hours following childbirth."
+  },
+  {
+    "en_h": "Anaphylaxis",
+    "ko_h": "아나필락시스 쇼크",
+    "ko_l": "심한 알레르기 쇼크",
+    "d_ko": "A rapid, severe, and potentially life-threatening systemic hypersensitivity reaction causing airway occlusion and vascular collapse."
+  },
+  {
+    "en_h": "Idiopathic",
+    "ko_h": "특발성",
+    "ko_l": "원인 불명",
+    "d_ko": "Describing a disease or condition that arises spontaneously with no identifiable or known cause."
+  },
+  {
+    "en_h": "Iatrogenic",
+    "ko_h": "의원성",
+    "ko_l": "의료 행위로 인한 부작용",
+    "d_ko": "An adverse condition, illness, or injury induced inadvertently by a physician, medical team, drug therapy, or diagnostic procedure."
+  },
+  {
+    "en_h": "Hypertrophy",
+    "ko_h": "비대",
+    "ko_l": "",
+    "d_ko": "An increase in the size of an organ or tissue caused by enlargement of its individual cells rather than an increase in cell number; commonly seen in cardiac muscle in response to increased workload."
+  },
+  {
+    "en_h": "Hyperplasia",
+    "ko_h": "과형성",
+    "ko_l": "",
+    "d_ko": "An abnormal increase in tissue or organ volume caused by an elevated rate of cellular division, resulting in a higher headcount of normal cells."
+  },
+  {
+    "en_h": "Sepsis",
+    "ko_h": "패혈증",
+    "ko_l": "",
+    "d_ko": "A life-threatening organ dysfunction caused by a dysregulated host response to infection; defined clinically by an acute change in SOFA score ≥2 points."
+  },
+  {
+    "en_h": "Agnosia",
+    "ko_h": "실인증",
+    "ko_l": "",
+    "d_ko": "The inability to process sensory information and recognize objects or persons despite intact sensory organs."
+  },
+  {
+    "en_h": "Anosognosia",
+    "ko_h": "병식 부전",
+    "ko_l": "",
+    "d_ko": "A neurological condition in which a person with a disability or illness is unaware of or denies their own impairment; commonly seen after stroke or in dementia."
+  },
+  {
+    "en_h": "Catatonia",
+    "ko_h": "긴장증",
+    "ko_l": "",
+    "d_ko": "A behavioral syndrome characterized by abnormal movements, immobility, mutism, or extreme unresponsiveness."
+  },
+  {
+    "en_h": "Akathisia",
+    "ko_h": "정좌불능증",
+    "ko_l": "",
+    "d_ko": "A movement disorder characterized by a subjective feeling of inner restlessness and a compelling need to move."
+  },
+  {
+    "en_h": "Tardive Dyskinesia",
+    "ko_h": "지체성 운동장애",
+    "ko_l": "",
+    "d_ko": "A neurological disorder featuring involuntary, repetitive facial movements caused by long-term neuroleptic drug use."
+  },
+  {
+    "en_h": "Photophobia",
+    "ko_h": "광과민증",
+    "ko_l": "빛 민감증",
+    "d_ko": "An abnormal, painful, or intolerant sensitivity of the eyes to light."
+  },
+  {
+    "en_h": "Presbycusis",
+    "ko_h": "노인성 난청",
+    "ko_l": "",
+    "d_ko": "The gradual, progressive, and bilateral loss of hearing that occurs naturally with aging."
+  },
+  {
+    "en_h": "Diplopia",
+    "ko_h": "복시",
+    "ko_l": "",
+    "d_ko": "The perception of two images of a single object; commonly caused by extraocular muscle weakness."
+  },
+  {
+    "en_h": "Osteoarthritis",
+    "ko_h": "골관절염",
+    "ko_l": "",
+    "d_ko": "A progressive joint disease characterized by degradation of articular cartilage, subchondral bone remodelling, and low-grade inflammation, causing pain and reduced mobility."
+  },
+  {
+    "en_h": "Ankylosing Spondylitis",
+    "ko_h": "강직성 척추염",
+    "ko_l": "",
+    "d_ko": "A chronic, progressive inflammatory arthritis affecting the sacroiliac joints and axial skeleton."
+  },
+  {
+    "en_h": "Sarcopenia",
+    "ko_h": "근감소증",
+    "ko_l": "",
+    "d_ko": "The degenerative loss of skeletal muscle mass, quality, and strength associated with aging."
+  },
+  {
+    "en_h": "Myalgia",
+    "ko_h": "근육통",
+    "ko_l": "",
+    "d_ko": "Pain, aching, or tenderness in one or more muscles; may be localised (e.g. trauma) or diffuse (e.g. influenza, fibromyalgia, statin use)."
+  },
+  {
+    "en_h": "Scoliosis",
+    "ko_h": "척추측만증",
+    "ko_l": "",
+    "d_ko": "A structural lateral curvature of the spine exceeding 10 degrees by Cobb angle, typically presenting during adolescent growth spurts; may be idiopathic, congenital, or neuromuscular in origin."
+  },
+  {
+    "en_h": "Avascular Necrosis",
+    "ko_h": "무혈성 괴사",
+    "ko_l": "",
+    "d_ko": "The cellular death of bone components due to temporary or permanent interruption of blood supply."
+  },
+  {
+    "en_h": "Tenosynovitis",
+    "ko_h": "힘줄윤활막염 / 건막염",
+    "ko_l": "힘줄 염증",
+    "d_ko": "Inflammation of a tendon and its protective fluid-filled sheath from repetitive strain."
+  },
+  {
+    "en_h": "Alopecia",
+    "ko_h": "탈모증",
+    "ko_l": "",
+    "d_ko": "The partial or complete absence or loss of hair from areas where it normally grows."
+  },
+  {
+    "en_h": "Petechiae",
+    "ko_h": "점상출혈",
+    "ko_l": "",
+    "d_ko": "Pinpoint, round, non-raised purplish-red spots caused by minor intradermal hemorrhage."
+  },
+  {
+    "en_h": "Purpura",
+    "ko_h": "자반증",
+    "ko_l": "",
+    "d_ko": "Hemorrhages into the skin producing patches of purplish discoloration that do not blanch under pressure."
+  },
+  {
+    "en_h": "Ecchymosis",
+    "ko_h": "반상출혈",
+    "ko_l": "멍",
+    "d_ko": "A subcutaneous spot of bleeding larger than 1 centimeter in diameter resulting from vascular leakage."
+  },
+  {
+    "en_h": "Necrotizing Fasciitis",
+    "ko_h": "괴사성 근막염",
+    "ko_l": "",
+    "d_ko": "A rapidly progressive, life-threatening destructive infection of subcutaneous tissue and fascia."
+  },
+  {
+    "en_h": "Ovarian Torsion",
+    "ko_h": "난소염전",
+    "ko_l": "",
+    "d_ko": "A gynecological emergency involving rotation of the ovary, compromising arterial inflow."
+  },
+  {
+    "en_h": "Vasovagal Syncope",
+    "ko_h": "혈관미주신경성 실신",
+    "ko_l": "",
+    "d_ko": "A transient loss of consciousness mediated by an inappropriate reflex causing bradycardia and vasodilation."
+  },
+  {
+    "en_h": "Peripheral Artery Disease",
+    "ko_h": "말초동맥질환",
+    "ko_l": "",
+    "d_ko": "A circulatory condition where narrowed arteries reduce blood flow to limbs, secondary to atherosclerosis."
+  },
+  {
+    "en_h": "Raynaud's Phenomenon",
+    "ko_h": "레이노 현상",
+    "ko_l": "",
+    "d_ko": "Episodic digital ischemia induced by cold, presenting with sequential color changes in digits."
+  },
+  {
+    "en_h": "Lymphedema",
+    "ko_h": "림프부종",
+    "ko_l": "",
+    "d_ko": "Chronic swelling of tissues caused by an accumulation of lymphatic fluid due to obstruction."
+  },
+  {
+    "en_h": "Cardiac Tamponade",
+    "ko_h": "심장눌림증",
+    "ko_l": "",
+    "d_ko": "A life-threatening compression of the heart due to rapid accumulation of fluid in the pericardial sac."
+  },
+  {
+    "en_h": "Choledocholithiasis",
+    "ko_h": "총담관결석증",
+    "ko_l": "총담관 담석",
+    "d_ko": "The presence of one or more gallstones within the common bile duct, potentially causing biliary obstruction, jaundice, cholangitis, or pancreatitis."
+  },
+  {
+    "en_h": "Cholangitis",
+    "ko_h": "담관염",
+    "ko_l": "",
+    "d_ko": "Bacterial infection of the biliary tract caused by obstruction and stasis of bile, classically presenting with Charcot's triad: fever, jaundice, and right upper quadrant pain."
+  },
+  {
+    "en_h": "Esophageal Varices",
+    "ko_h": "식도정맥류",
+    "ko_l": "",
+    "d_ko": "Abnormally dilated veins in the submucosa of the esophagus caused by portal hypertension, typically from cirrhosis; at high risk of catastrophic rupture and massive bleeding."
+  },
+  {
+    "en_h": "Intestinal Metaplasia",
+    "ko_h": "장상피화생",
+    "ko_l": "",
+    "d_ko": "The transformation of gastric mucosa into a cellular phenotype resembling intestinal mucosa."
+  },
+  {
+    "en_h": "Ileus",
+    "ko_h": "장폐색증",
+    "ko_l": "",
+    "d_ko": "Failure of normal intestinal peristalsis leading to functional bowel obstruction; classified as paralytic (adynamic) or mechanical, causing abdominal distension, nausea, and obstipation."
+  },
+  {
+    "en_h": "Orthopnea",
+    "ko_h": "기좌호흡",
+    "ko_l": "누우면 숨이 참",
+    "d_ko": "Dyspnea that occurs when lying flat, forcing the individual to remain upright to breathe."
+  },
+  {
+    "en_h": "Acute Respiratory Distress Syndrome",
+    "ko_h": "급성 호흡곤란 증후군",
+    "ko_l": "",
+    "d_ko": "A life-threatening diffuse inflammatory lung injury causing widespread alveolar damage, severe hypoxemia, and bilateral pulmonary infiltrates; most commonly triggered by sepsis, pneumonia, or major trauma."
+  },
+  {
+    "en_h": "Bioavailability",
+    "ko_h": "생체이용률",
+    "ko_l": "",
+    "d_ko": "The fraction of an administered drug dose that reaches the systemic circulation unchanged."
+  },
+  {
+    "en_h": "Prodrome",
+    "ko_h": "전구증상",
+    "ko_l": "발병 전 초기 증상",
+    "d_ko": "An early, non-specific symptom indicating the onset of a disease before major signs appear."
+  },
+  {
+    "en_h": "Sequela",
+    "ko_h": "후유증",
+    "ko_l": "",
+    "d_ko": "A pathological condition resulting from a prior, acute disease or injury."
+  },
+  {
+    "en_h": "Cachexia",
+    "ko_h": "악액질",
+    "ko_l": "극심한 체중 감소",
+    "d_ko": "A complex metabolic syndrome associated with underlying illness, characterised by involuntary weight loss, muscle wasting (sarcopenia), fatigue, weakness, and loss of appetite; common in cancer, heart failure, and chronic infection."
+  },
+  {
+    "en_h": "Septic Shock",
+    "ko_h": "패혈성 쇼크",
+    "ko_l": "",
+    "d_ko": "A life-threatening subset of sepsis in which circulatory, cellular, and metabolic dysfunction substantially increases mortality; defined clinically by vasopressor requirement and serum lactate >2 mmol/L despite adequate fluid resuscitation."
+  },
+  {
+    "en_h": "Hyperkalemia",
+    "ko_h": "고칼륨혈증",
+    "ko_l": "칼륨 수치가 높음",
+    "d_ko": "Abnormally elevated potassium levels in the blood (>5.5 mEq/L), which can cause life-threatening cardiac arrhythmias including ventricular fibrillation."
+  },
+  {
+    "en_h": "Tracheostomy",
+    "ko_h": "기관절개술",
+    "ko_l": "",
+    "d_ko": "Surgical creation of an opening in the trachea below the larynx to secure an airway."
+  },
+  {
+    "en_h": "Diaphragm",
+    "ko_h": "횡격막",
+    "ko_l": "",
+    "d_ko": "A dome-shaped muscular partition separating the thoracic cavity from the abdominal cavity; primary respiratory engine."
+  },
+  {
+    "en_h": "Bronchus",
+    "ko_h": "기관지",
+    "ko_l": "",
+    "d_ko": "One of the two large airways that branch from the trachea into each lung, further subdividing into smaller bronchioles to distribute air throughout lung tissue."
+  },
+  {
+    "en_h": "Alveolus",
+    "ko_h": "폐포 / 허파꽈리",
+    "ko_l": "",
+    "d_ko": "Microscopic air sacs at the terminal ends of the bronchioles where oxygen and carbon dioxide exchange between air and blood takes place across thin capillary walls."
+  },
+  {
+    "en_h": "Pleura",
+    "ko_h": "흉막 / 가슴막",
+    "ko_l": "",
+    "d_ko": "The serous membrane lining the thoracic cavity and investing the lungs."
+  },
+  {
+    "en_h": "Epiglottis",
+    "ko_h": "후두개",
+    "ko_l": "",
+    "d_ko": "A flap of cartilage at the root of the tongue, depressed during swallowing to cover the trachea."
+  },
+  {
+    "en_h": "Myocardium",
+    "ko_h": "심근",
+    "ko_l": "",
+    "d_ko": "The muscular tissue of the heart forming the thick middle layer."
+  },
+  {
+    "en_h": "Pericardium",
+    "ko_h": "심낭",
+    "ko_l": "",
+    "d_ko": "The double-walled sac containing the heart and the roots of the great vessels."
+  },
+  {
+    "en_h": "Atrium",
+    "ko_h": "심방",
+    "ko_l": "",
+    "d_ko": "Each of the two upper chambers of the heart that receives blood returning from circulation."
+  },
+  {
+    "en_h": "Ventricle",
+    "ko_h": "심실",
+    "ko_l": "",
+    "d_ko": "Each of the two large lower chambers of the heart that pumps blood out to organs."
+  },
+  {
+    "en_h": "Aorta",
+    "ko_h": "대동맥",
+    "ko_l": "",
+    "d_ko": "The main artery of the body, supplying oxygenated blood to the systemic circulatory system."
+  },
+  {
+    "en_h": "Vena Cava",
+    "ko_h": "대정맥",
+    "ko_l": "",
+    "d_ko": "A large vein carrying deoxygenated blood into the heart (divided into SVC and IVC)."
+  },
+  {
+    "en_h": "Pylorus",
+    "ko_h": "유문",
+    "ko_l": "",
+    "d_ko": "The opening from the stomach into the duodenum, surrounded by the pyloric sphincter."
+  },
+  {
+    "en_h": "Cecum",
+    "ko_h": "맹장",
+    "ko_l": "",
+    "d_ko": "A pouch connected to the junction of the small and large intestines."
+  },
+  {
+    "en_h": "Appendix",
+    "ko_h": "충수돌기 / 충수",
+    "ko_l": "맹장",
+    "d_ko": "A narrow, blind-ended tube attached to the cecum containing dense lymphoid tissue."
+  },
+  {
+    "en_h": "Colon",
+    "ko_h": "결장 / 대장",
+    "ko_l": "",
+    "d_ko": "The longest part of the large intestine, extending from the cecum to the rectum."
+  },
+  {
+    "en_h": "Rectum",
+    "ko_h": "직장",
+    "ko_l": "",
+    "d_ko": "The final straight portion of the large intestine, terminating at the anus."
+  },
+  {
+    "en_h": "Pancreas",
+    "ko_h": "췌장 / 이자",
+    "ko_l": "",
+    "d_ko": "A large mixed gland located behind the stomach with both exocrine functions (secreting digestive enzymes into the duodenum) and endocrine functions (secreting insulin and glucagon to regulate blood glucose)."
+  },
+  {
+    "en_h": "Nephron",
+    "ko_h": "네프론 / 신단위",
+    "ko_l": "",
+    "d_ko": "The functional unit of the kidney, consisting of a glomerulus and tubule system."
+  },
+  {
+    "en_h": "Glomerulus",
+    "ko_h": "사구체",
+    "ko_l": "",
+    "d_ko": "A cluster of small blood capillaries around the end of a kidney tubule filtering plasma."
+  },
+  {
+    "en_h": "Ureter",
+    "ko_h": "요관",
+    "ko_l": "",
+    "d_ko": "The muscular tissue duct by which urine passes from the kidney to the bladder."
+  },
+  {
+    "en_h": "Urethra",
+    "ko_h": "요도",
+    "ko_l": "",
+    "d_ko": "The duct by which urine is conveyed out of the body from the bladder."
+  },
+  {
+    "en_h": "Cerebrum",
+    "ko_h": "대뇌",
+    "ko_l": "",
+    "d_ko": "The largest part of the brain, divided into two hemispheres and four lobes, responsible for higher functions including thought, memory, language, sensation, and voluntary movement."
+  },
+  {
+    "en_h": "Cerebellum",
+    "ko_h": "소뇌",
+    "ko_l": "",
+    "d_ko": "The region of the brain located at the back of the skull responsible for coordinating voluntary movement, balance, and fine motor control."
+  },
+  {
+    "en_h": "Brainstem",
+    "ko_h": "뇌간",
+    "ko_l": "뇌줄기",
+    "d_ko": "The central trunk of the brain consisting of medulla, pons, and midbrain continuing to spinal cord."
+  },
+  {
+    "en_h": "Meninges",
+    "ko_h": "뇌수막",
+    "ko_l": "",
+    "d_ko": "The three membranes that line the skull and enclose the brain and spinal cord."
+  },
+  {
+    "en_h": "Hippocampus",
+    "ko_h": "해마",
+    "ko_l": "",
+    "d_ko": "The elongated ridges on the floor of lateral ventricles involved in complex memory processing."
+  },
+  {
+    "en_h": "Spinal Cord",
+    "ko_h": "척수",
+    "ko_l": "",
+    "d_ko": "The cylindrical bundle of nerve fibers enclosed in the spine connecting body to brain."
+  },
+  {
+    "en_h": "Clavicle",
+    "ko_h": "쇄골",
+    "ko_l": "",
+    "d_ko": "A long bone that serves as a strut between the shoulder blade and the sternum."
+  },
+  {
+    "en_h": "Scapula",
+    "ko_h": "견갑골",
+    "ko_l": "",
+    "d_ko": "Technical term for the shoulder blade situated in the superior posterior thorax."
+  },
+  {
+    "en_h": "Sternum",
+    "ko_h": "흉골",
+    "ko_l": "",
+    "d_ko": "The long flat bone located in the center of the chest connecting to ribs."
+  },
+  {
+    "en_h": "Femur",
+    "ko_h": "대퇴골",
+    "ko_l": "",
+    "d_ko": "The bone of the thigh or upper hind limb, articulating at hip and knee."
+  },
+  {
+    "en_h": "Patella",
+    "ko_h": "슬개골",
+    "ko_l": "무릎뼈",
+    "d_ko": "Small thick open-ended sesamoid bone protecting the anterior knee joint line."
+  },
+  {
+    "en_h": "Intervertebral Disc",
+    "ko_h": "추간판 / 척추사이원반",
+    "ko_l": "디스크",
+    "d_ko": "A layer of fibrocartilage separating adjacent vertebrae acting as a shock absorber."
+  },
+  {
+    "en_h": "Ligament",
+    "ko_h": "인대",
+    "ko_l": "",
+    "d_ko": "A short band of tough fibrous tissue connecting two bones or stabilizing joints."
+  },
+  {
+    "en_h": "Tendon",
+    "ko_h": "건 / 힘줄",
+    "ko_l": "힘줄",
+    "d_ko": "A flexible but inelastic cord of strong fibrous collagen attaching muscle to bone."
+  },
+  {
+    "en_h": "Epidermis",
+    "ko_h": "표피",
+    "ko_l": "",
+    "d_ko": "The surface epithelium of the skin forming a protective lipid defensive barrier."
+  },
+  {
+    "en_h": "Dermis",
+    "ko_h": "진피",
+    "ko_l": "",
+    "d_ko": "The thick layer of living tissue below the epidermis containing capillaries and nerves."
+  },
+  {
+    "en_h": "Cornea",
+    "ko_h": "각막",
+    "ko_l": "",
+    "d_ko": "The transparent, dome-shaped outermost layer of the eye covering the iris, pupil, and anterior chamber; responsible for refracting light and protecting the eye from foreign material."
+  },
+  {
+    "en_h": "Retina",
+    "ko_h": "망막",
+    "ko_l": "",
+    "d_ko": "The light-sensitive layer of tissue lining the inner back surface of the eye, containing photoreceptor cells (rods and cones) that convert light into neural signals sent to the brain via the optic nerve."
+  },
+  {
+    "en_h": "Cochlea",
+    "ko_h": "와우",
+    "ko_l": "달팽이관",
+    "d_ko": "A fluid-filled spiral structure in the inner ear containing hair cells that convert sound vibrations into electrical nerve impulses transmitted to the brain via the auditory nerve."
+  },
+  {
+    "en_h": "Lymph Node",
+    "ko_h": "림프절",
+    "ko_l": "임파선",
+    "d_ko": "Small, bean-shaped organs of the immune system distributed along lymphatic vessels that filter lymph fluid and contain immune cells to detect and fight infection and cancer."
+  },
+  {
+    "en_h": "Thyroid Gland",
+    "ko_h": "갑상선 / 갑상샘",
+    "ko_l": "",
+    "d_ko": "A butterfly-shaped endocrine gland in the neck that produces thyroid hormones (T3 and T4) regulating metabolism, energy, growth, and body temperature."
+  },
+  {
+    "en_h": "Uterus",
+    "ko_h": "자궁",
+    "ko_l": "",
+    "d_ko": "A hollow, muscular pear-shaped organ in the female pelvis where a fertilised egg implants and a fetus develops during pregnancy; also sheds its lining monthly during menstruation."
+  },
+  {
+    "en_h": "Prostate Gland",
+    "ko_h": "전립선",
+    "ko_l": "",
+    "d_ko": "A walnut-sized male reproductive gland surrounding the urethra below the bladder that produces seminal fluid nourishing and transporting sperm; commonly affected by benign enlargement and cancer in older men."
+  },
+  {
+    "en_h": "Obstetrics & Gynecology",
+    "ko_h": "산부인과",
+    "ko_l": "여성 전문",
+    "d_ko": "Medical specialty combining obstetrics (pregnancy and childbirth) and gynecology (female reproductive system health)."
+  },
+  {
+    "en_h": "Critical Care Medicine",
+    "ko_h": "중환자 의학",
+    "ko_l": "중환자실 전문",
+    "d_ko": "Specialty focused on the diagnosis and management of life-threatening conditions requiring continuous organ support and monitoring."
+  },
+  {
+    "en_h": "Vascular Surgery",
+    "ko_h": "혈관외과",
+    "ko_l": "혈관 수술",
+    "d_ko": "Surgical specialty focused on diseases of the arterial, venous, and lymphatic systems, excluding the heart and brain."
+  },
+  {
+    "en_h": "Colorectal Surgery",
+    "ko_h": "대장항문외과",
+    "ko_l": "대장 수술",
+    "d_ko": "Surgical specialty dealing with disorders of the colon, rectum, and anus, including cancer, inflammatory bowel disease, and hemorrhoids."
+  },
+  {
+    "en_h": "Immunology",
+    "ko_h": "면역학",
+    "ko_l": "면역 전문",
+    "d_ko": "The branch of medicine concerned with the structure and function of the immune system, including the study of allergies, autoimmune diseases, and immunodeficiencies."
+  },
+  {
+    "en_h": "General Anesthesia",
+    "ko_h": "전신마취",
+    "ko_l": "잠에 드는 마취",
+    "d_ko": "Complete loss of consciousness and sensation induced by anesthetic agents, allowing surgical procedures to be performed without pain or awareness."
+  },
+  {
+    "en_h": "Local Anesthesia",
+    "ko_h": "국소마취",
+    "ko_l": "부분 마취 주사",
+    "d_ko": "Reversible loss of sensation in a specific body area by blocking nerve conduction, without affecting consciousness."
+  },
+  {
+    "en_h": "Sedation",
+    "ko_h": "진정",
+    "ko_l": "진정제 투여",
+    "d_ko": "Administration of medication to reduce anxiety, induce calm, or produce a sleep-like state, ranging from minimal to deep sedation."
+  },
+  {
+    "en_h": "Epidural",
+    "ko_h": "경막외 마취",
+    "ko_l": "허리 마취",
+    "d_ko": "Injection of anesthetic into the epidural space of the spine to block pain in the lower body; commonly used in labour and back surgery."
+  },
+  {
+    "en_h": "Renal Pelvis",
+    "ko_h": "신우",
+    "ko_l": "콩팥 깔때기",
+    "d_ko": "The funnel-shaped cavity at the centre of each kidney that collects urine from the calyces and channels it into the ureter."
+  },
+  {
+    "en_h": "Nerve Block",
+    "ko_h": "신경 차단",
+    "ko_l": "신경 마취 주사",
+    "d_ko": "Injection of local anesthetic around a specific nerve or nerve bundle to block sensation in a targeted area without affecting consciousness."
+  },
+  {
+    "en_h": "Conscious Sedation",
+    "ko_h": "의식하 진정",
+    "ko_l": "약하게 재우는 진정",
+    "d_ko": "A drug-induced state of reduced consciousness allowing the patient to respond to verbal commands, used for minor procedures."
+  },
+  {
+    "en_h": "Spinal Anesthesia",
+    "ko_h": "척추 마취",
+    "ko_l": "허리 마취",
+    "d_ko": "Injection of local anesthetic into the subarachnoid space of the lumbar spine, producing temporary loss of sensation and movement below the injection site."
+  },
+  {
+    "en_h": "Ultrasound",
+    "ko_h": "초음파 검사",
+    "ko_l": "초음파",
+    "d_ko": "Imaging technique using high-frequency sound waves to visualize internal organs and structures in real time; no ionizing radiation involved."
+  },
+  {
+    "en_h": "X-ray",
+    "ko_h": "엑스레이",
+    "ko_l": "",
+    "d_ko": "Imaging technique using ionizing radiation to visualize dense structures such as bones and detect pulmonary pathology; the most widely used diagnostic imaging modality."
+  },
+  {
+    "en_h": "Contrast agent",
+    "ko_h": "조영제",
+    "ko_l": "검사용 염료",
+    "d_ko": "A substance administered before imaging to enhance the visibility of blood vessels, organs, or lesions on CT, MRI, or X-ray."
+  },
+  {
+    "en_h": "Physical therapy",
+    "ko_h": "물리치료",
+    "ko_l": "",
+    "d_ko": "Treatment using physical methods such as exercise, manual therapy, and modalities to restore function, reduce pain, and improve mobility after injury or illness."
+  },
+  {
+    "en_h": "Occupational therapy",
+    "ko_h": "작업치료",
+    "ko_l": "일상생활 훈련 치료",
+    "d_ko": "Therapy focused on helping patients regain the ability to perform daily activities after injury, illness, or disability."
+  },
+  {
+    "en_h": "Range of motion",
+    "ko_h": "관절 운동 범위",
+    "ko_l": "관절이 움직이는 범위",
+    "d_ko": "The extent of movement possible at a joint; measured to assess injury, monitor recovery, and guide rehabilitation exercises."
+  },
+  {
+    "en_h": "Speech therapy",
+    "ko_h": "언어치료",
+    "ko_l": "말하기 재활",
+    "d_ko": "Therapeutic intervention addressing communication, speech, language, voice, and swallowing disorders caused by neurological or developmental conditions."
+  },
+  {
+    "en_h": "Chemotherapy",
+    "ko_h": "항암화학요법",
+    "ko_l": "항암치료",
+    "d_ko": "The use of cytotoxic chemical agents to kill or inhibit the growth of cancer cells, administered orally or intravenously, often causing systemic side effects."
+  },
+  {
+    "en_h": "Heart",
+    "ko_h": "심장",
+    "ko_l": "",
+    "d_ko": "A hollow, muscular organ that pumps blood throughout the body via rhythmic contractions; consists of four chambers — two atria and two ventricles."
+  },
+  {
+    "en_h": "Coronary Artery",
+    "ko_h": "관상동맥",
+    "ko_l": "심장 혈관",
+    "d_ko": "Blood vessels that supply oxygenated blood directly to the heart muscle; blockage leads to angina or myocardial infarction."
+  },
+  {
+    "en_h": "Heart Valve",
+    "ko_h": "심장 판막",
+    "ko_l": "",
+    "d_ko": "One of four structures (mitral, tricuspid, aortic, pulmonary) that ensure unidirectional blood flow through the heart chambers."
+  },
+  {
+    "en_h": "Capillary",
+    "ko_h": "모세혈관",
+    "ko_l": "",
+    "d_ko": "The smallest blood vessels, forming networks between arterioles and venules where exchange of oxygen, nutrients, and waste occurs between blood and tissues."
+  },
+  {
+    "en_h": "Lung",
+    "ko_h": "폐 / 허파",
+    "ko_l": "허파",
+    "d_ko": "A pair of spongy, air-filled organs in the chest that carry out gas exchange — absorbing oxygen and expelling carbon dioxide with each breath."
+  },
+  {
+    "en_h": "Nasal Cavity",
+    "ko_h": "비강",
+    "ko_l": "콧속",
+    "d_ko": "The hollow space inside the nose that warms, humidifies, and filters inhaled air before it reaches the lower respiratory tract."
+  },
+  {
+    "en_h": "Paranasal Sinuses",
+    "ko_h": "부비동",
+    "ko_l": "코 옆 공기 공간",
+    "d_ko": "Air-filled cavities in the skull bones surrounding the nasal cavity; commonly inflamed in sinusitis."
+  },
+  {
+    "en_h": "Stomach",
+    "ko_h": "위",
+    "ko_l": "",
+    "d_ko": "A muscular, J-shaped organ between the esophagus and small intestine that stores food, secretes gastric acid, and begins protein digestion."
+  },
+  {
+    "en_h": "Liver",
+    "ko_h": "간",
+    "ko_l": "",
+    "d_ko": "The largest internal organ, located in the upper right abdomen; responsible for metabolism, detoxification, protein synthesis, and bile production."
+  },
+  {
+    "en_h": "Small Intestine",
+    "ko_h": "소장",
+    "ko_l": "",
+    "d_ko": "A long, coiled tube (~6–7 m) between the stomach and large intestine consisting of the duodenum, jejunum, and ileum; the primary site of nutrient absorption."
+  },
+  {
+    "en_h": "Large Intestine",
+    "ko_h": "대장",
+    "ko_l": "",
+    "d_ko": "The final section of the digestive tract (~1.5 m), consisting of the cecum, colon, and rectum; absorbs water and electrolytes and forms stool."
+  },
+  {
+    "en_h": "Sigmoid Colon",
+    "ko_h": "에스결장 / 구불결장",
+    "ko_l": "",
+    "d_ko": "The S-shaped final segment of the colon connecting to the rectum; a common site for diverticulosis and colorectal cancer."
+  },
+  {
+    "en_h": "Kidney",
+    "ko_h": "신장 / 콩팥",
+    "ko_l": "콩팥",
+    "d_ko": "A pair of bean-shaped organs in the retroperitoneum that filter blood, regulate fluid and electrolyte balance, and produce urine."
+  },
+  {
+    "en_h": "Urinary Bladder",
+    "ko_h": "방광",
+    "ko_l": "",
+    "d_ko": "A hollow, muscular organ in the pelvis that stores urine produced by the kidneys until it is expelled through the urethra."
+  },
+  {
+    "en_h": "Brain",
+    "ko_h": "뇌",
+    "ko_l": "",
+    "d_ko": "The central organ of the nervous system enclosed within the skull; controls thought, memory, emotion, sensation, motor skills, and all bodily functions."
+  },
+  {
+    "en_h": "Nerve",
+    "ko_h": "신경",
+    "ko_l": "",
+    "d_ko": "A bundle of nerve fibres (axons) that transmit electrical impulses between the central nervous system and the rest of the body."
+  },
+  {
+    "en_h": "Neuron",
+    "ko_h": "신경세포 / 뉴런",
+    "ko_l": "뉴런",
+    "d_ko": "The fundamental structural and functional unit of the nervous system; specialised cells that receive, process, and transmit information via electrical and chemical signals."
+  },
+  {
+    "en_h": "Bone",
+    "ko_h": "뼈",
+    "ko_l": "",
+    "d_ko": "Rigid connective tissue that forms the skeleton; provides structural support, protects organs, enables movement, and produces blood cells in the marrow."
+  },
+  {
+    "en_h": "Muscle",
+    "ko_h": "근육",
+    "ko_l": "",
+    "d_ko": "Contractile tissue classified as skeletal (voluntary), cardiac, or smooth (involuntary); responsible for movement, posture, and organ function."
+  },
+  {
+    "en_h": "Cartilage",
+    "ko_h": "연골",
+    "ko_l": "",
+    "d_ko": "Firm but flexible connective tissue covering joint surfaces, forming the nose and ears, and cushioning between vertebrae; lacks blood vessels and heals slowly."
+  },
+  {
+    "en_h": "Humerus",
+    "ko_h": "상완골",
+    "ko_l": "위팔뼈",
+    "d_ko": "The long bone of the upper arm extending from the shoulder joint to the elbow; commonly fractured in falls."
+  },
+  {
+    "en_h": "Tibia",
+    "ko_h": "경골",
+    "ko_l": "정강이뼈",
+    "d_ko": "The larger of the two lower leg bones; bears most of the body weight and forms the medial side of the ankle joint."
+  },
+  {
+    "en_h": "Vertebra",
+    "ko_h": "척추뼈",
+    "ko_l": "등뼈",
+    "d_ko": "One of the 33 bones forming the vertebral column; protects the spinal cord and provides structural support for the trunk."
+  },
+  {
+    "en_h": "Adrenal Gland",
+    "ko_h": "부신",
+    "ko_l": "",
+    "d_ko": "A pair of triangular glands sitting atop each kidney; the cortex produces cortisol and aldosterone, the medulla produces adrenaline (epinephrine)."
+  },
+  {
+    "en_h": "Spleen",
+    "ko_h": "비장 / 지라",
+    "ko_l": "지라",
+    "d_ko": "A fist-sized lymphoid organ in the upper left abdomen that filters blood, recycles red blood cells, and plays a role in immune response."
+  },
+  {
+    "en_h": "Ovary",
+    "ko_h": "난소",
+    "ko_l": "",
+    "d_ko": "A pair of female reproductive glands that produce eggs (ova) and secrete the hormones estrogen and progesterone."
+  },
+  {
+    "en_h": "Cervix",
+    "ko_h": "자궁경부",
+    "ko_l": "자궁 목",
+    "d_ko": "The lower, narrow portion of the uterus connecting to the vagina; subject to routine screening for cancer via Pap smear."
+  },
+  {
+    "en_h": "Testicle",
+    "ko_h": "고환",
+    "ko_l": "",
+    "d_ko": "A pair of male reproductive glands in the scrotum that produce sperm and testosterone."
+  },
+  {
+    "en_h": "Iris",
+    "ko_h": "홍채",
+    "ko_l": "",
+    "d_ko": "The coloured, circular muscle of the eye that controls the size of the pupil, regulating the amount of light entering the eye."
+  },
+  {
+    "en_h": "Lens",
+    "ko_h": "수정체",
+    "ko_l": "눈 렌즈",
+    "d_ko": "A transparent, biconvex structure behind the iris that focuses light onto the retina; becomes opaque in cataract."
+  },
+  {
+    "en_h": "Tympanic Membrane",
+    "ko_h": "고막",
+    "ko_l": "귀청",
+    "d_ko": "A thin, cone-shaped membrane separating the outer ear canal from the middle ear; vibrates in response to sound waves and transmits them to the ossicles."
+  }
+]

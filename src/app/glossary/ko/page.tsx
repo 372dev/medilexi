@@ -2,23 +2,31 @@
 
 import { useState, useMemo } from 'react'
 import baseData from '@/data/medical_vocab_base.json'
+import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple_v1.05.json'
-import styles from './glossary.module.css'
+import styles from '../glossary.module.css'
 
 interface BaseEntry {
-  en_h: string
-  en_l?: string
-  abbr?: string
-  f: string[]
-  d: string
-  lvl: string
+  en_h: string; en_l?: string; abbr?: string
+  f: string[]; d: string; lvl: string
   parts?: { p?: string[]; r?: string[]; s?: string[] }
 }
+interface KoEntry { en_h: string; ko_h: string; ko_l?: string; d_ko: string }
+interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
+interface MergedEntry extends BaseEntry { ko_h: string; ko_l?: string; d_ko: string }
 
-interface WordPart { wp: string; t: 'p' | 'r' | 's'; d: string }
-
-const vocab = baseData as BaseEntry[]
+const base = baseData as BaseEntry[]
+const ko = koData as KoEntry[]
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
+
+// Merge by en_h
+const koMap = Object.fromEntries(ko.map(k => [k.en_h, k]))
+const vocab: MergedEntry[] = base.map(v => ({
+  ...v,
+  ko_h: koMap[v.en_h]?.ko_h || '',
+  ko_l: koMap[v.en_h]?.ko_l || '',
+  d_ko: koMap[v.en_h]?.d_ko || v.d,
+}))
 
 function toLiteral(wp: string): string {
   return wp.replace(/^-|-$/g, '').replace(/\/[oiea]$/, '').replace(/\//g, '').toLowerCase()
@@ -61,9 +69,7 @@ function getSegments(en_h: string, parts?: BaseEntry['parts']): Segment[] {
   return segments
 }
 
-const LEVEL_STARS: Record<string,string> = {
-  '⭐⭐⭐ Essential':'⭐⭐⭐','⭐⭐ Important':'⭐⭐','⭐ Good to know':'⭐'
-}
+const LEVEL_STARS: Record<string,string> = { '⭐⭐⭐ Essential':'⭐⭐⭐','⭐⭐ Important':'⭐⭐','⭐ Good to know':'⭐' }
 const LEVEL_CLASS: Record<string,string> = {
   '⭐⭐⭐ Essential': styles.lvlEssential,
   '⭐⭐ Important':  styles.lvlImportant,
@@ -73,7 +79,7 @@ const PART_CLASS: Record<string,string> = { p: styles.partP, r: styles.partR, s:
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 const ALL_LEVELS = ['⭐⭐⭐ Essential','⭐⭐ Important','⭐ Good to know']
 
-function GlossaryCard({ v }: { v: BaseEntry }) {
+function KoCard({ v }: { v: MergedEntry }) {
   const [hovered, setHovered] = useState(false)
   const segments = useMemo(() => getSegments(v.en_h, v.parts), [v])
   return (
@@ -90,23 +96,32 @@ function GlossaryCard({ v }: { v: BaseEntry }) {
           : v.en_h}
       </div>
       {v.en_l && <div className={styles.enL}>{v.en_l}</div>}
-      <p className={styles.def}>{v.d}</p>
+      {v.ko_h && <div className={styles.koH}>{v.ko_h}</div>}
+      {v.ko_l && <div className={styles.koL}>{v.ko_l}</div>}
+      <p className={styles.def}>{v.d_ko}</p>
       <div className={styles.fields}>{v.f.map(f => <span key={f} className={styles.fieldBadge}>{f}</span>)}</div>
     </div>
   )
 }
 
-export default function GlossaryPage() {
+export default function KoGlossaryPage() {
   const [search, setSearch]     = useState('')
   const [fieldFilter, setField] = useState<string|null>(null)
   const [levelFilter, setLevel] = useState<string|null>(null)
+
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim()
     return vocab.filter(v => {
       if (fieldFilter && !v.f.includes(fieldFilter)) return false
       if (levelFilter && v.lvl !== levelFilter) return false
       if (!q) return true
-      return v.en_h.toLowerCase().includes(q) || (v.en_l||'').toLowerCase().includes(q) || (v.abbr||'').toLowerCase().includes(q)
+      return (
+        v.en_h.toLowerCase().includes(q) ||
+        (v.en_l||'').toLowerCase().includes(q) ||
+        (v.abbr||'').toLowerCase().includes(q) ||
+        v.ko_h.toLowerCase().includes(q) ||
+        (v.ko_l||'').toLowerCase().includes(q)
+      )
     })
   }, [search, fieldFilter, levelFilter])
 
@@ -114,11 +129,11 @@ export default function GlossaryPage() {
     <div className={styles.page}>
       <header className={styles.header}>
         <a href="/" className={styles.back}>← Home</a>
-        <h1 className={styles.title}>English Glossary</h1>
+        <h1 className={styles.title}>한국어 · English Glossary</h1>
         <span className={styles.count}>{filtered.length} terms</span>
       </header>
       <div className={styles.searchWrap}>
-        <input className={styles.search} type="text" placeholder="Search terms, abbreviations..." value={search} onChange={e => setSearch(e.target.value)} />
+        <input className={styles.search} type="text" placeholder="Search terms, 한국어 검색..." value={search} onChange={e => setSearch(e.target.value)} />
       </div>
       <div className={styles.filterRow}>
         <button className={`${styles.pill} ${!levelFilter?styles.pillActive:''}`} onClick={() => setLevel(null)}>All</button>
@@ -129,7 +144,7 @@ export default function GlossaryPage() {
         {ALL_FIELDS.map(f => <button key={f} className={`${styles.pill} ${fieldFilter===f?styles.pillActive:''}`} onClick={() => setField(fieldFilter===f?null:f)}>{f}</button>)}
       </div>
       <div className={styles.grid}>
-        {filtered.map((v,i) => <GlossaryCard key={i} v={v} />)}
+        {filtered.map((v,i) => <KoCard key={i} v={v} />)}
       </div>
       {filtered.length === 0 && <div className={styles.empty}>No terms found.</div>}
     </div>

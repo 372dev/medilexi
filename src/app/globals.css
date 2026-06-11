@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --color-bg:         #0D0B2B;
+  --color-panel:      #1A1650;
+  --color-border:     #2A2280;
+  --color-gold:       #F0B429;
+  --color-gold-dim:   #A07820;
+  --color-text:       #E8E0FF;
+  --color-text-dim:   #8880AA;
+  --color-red:        #C94040;
+  --color-green:      #3BAA6A;
+  --color-locked:     #3A3660;
+  --color-locked-txt: #5A5880;
+  --font-pixel:       'Press Start 2P', monospace;
+  --font-body:        'Inter', 'Noto Sans KR', sans-serif;
+}
+
+html, body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  min-height: 100vh;
+}
+
+a { color: inherit; text-decoration: none; }

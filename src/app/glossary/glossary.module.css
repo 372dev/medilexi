@@ -258,3 +258,57 @@
   text-align: center;
   padding: 4rem 0;
 }
+
+/* ── Inline word part highlights ── */
+.partHighlight {
+  position: relative;
+  border-radius: 2px;
+  padding: 0 1px;
+  cursor: default;
+  transition: opacity 0.1s;
+}
+
+/* Tooltip via data-tooltip + CSS */
+.partHighlight::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  font-family: var(--font-pixel);
+  font-size: 0.38rem;
+  white-space: nowrap;
+  padding: 0.3rem 0.5rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 10;
+  box-shadow: 2px 2px 0 0 var(--color-border);
+  line-height: 1.8;
+}
+
+.partHighlight:hover::after {
+  opacity: 1;
+}
+
+/* Colors per type — bg tint + underline */
+.partP {
+  background: rgba(59, 130, 246, 0.2);
+  border-bottom: 2px solid #3B82F6;
+  color: #93C5FD;
+}
+
+.partR {
+  background: rgba(59, 170, 106, 0.2);
+  border-bottom: 2px solid #3BAA6A;
+  color: #6EE7B7;
+}
+
+.partS {
+  background: rgba(201, 64, 64, 0.2);
+  border-bottom: 2px solid var(--color-red);
+  color: #FCA5A5;
+}

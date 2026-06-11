@@ -61,7 +61,7 @@ export default function Home() {
         ))}
       </nav>
 
-      <p className={styles.tagline}>your comprehensive guide</p>
+      <p className={styles.tagline}>© 2026 SageMed · All rights reserved</p>
     </main>
   )
 }

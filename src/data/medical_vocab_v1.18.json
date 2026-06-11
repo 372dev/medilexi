@@ -5061,7 +5061,15 @@
       "Oncology"
     ],
     "d": "An abnormal increase in tissue or organ volume caused by an elevated rate of cellular division, resulting in a higher headcount of normal cells.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "hyper-"
+      ],
+      "s": [
+        "-plasia"
+      ]
+    }
   },
   {
     "en_h": "Sepsis",

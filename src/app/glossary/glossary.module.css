@@ -100,7 +100,7 @@
 /* ── Card grid ── */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
   gap: 1rem;
   margin-top: 1.25rem;
 }
@@ -279,7 +279,7 @@
   color: var(--color-text);
   border: 1px solid var(--color-border);
   font-family: var(--font-pixel);
-  font-size: 0.38rem;
+  font-size: 0.65rem;
   white-space: nowrap;
   padding: 0.3rem 0.5rem;
   pointer-events: none;
@@ -311,4 +311,11 @@
   background: rgba(201, 64, 64, 0.2);
   border-bottom: 2px solid var(--color-red);
   color: #FCA5A5;
+}
+
+/* ── Mobile: single column narrow cards ── */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }

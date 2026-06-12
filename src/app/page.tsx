@@ -8,7 +8,7 @@ const nav = [
     live: true,
     tools: [
       { label: 'Glossary', href: '/glossary', live: true },
-      { label: 'Flash',    href: '/flashcards', live: false },
+      { label: 'Flashcard',    href: '/flashcards', live: false },
     ]
   },
   {
@@ -16,7 +16,7 @@ const nav = [
     live: true,
     tools: [
       { label: 'Glossary', href: '/glossary/ko', live: true },
-      { label: 'Flash',    href: '/flashcards/ko', live: false },
+      { label: 'Flashcard',    href: '/flashcards/ko', live: false },
     ]
   },
 ]

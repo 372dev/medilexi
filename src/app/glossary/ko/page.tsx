@@ -11,9 +11,9 @@ interface BaseEntry {
   f: string[]; d: string; lvl: string
   parts?: { p?: string[]; r?: string[]; s?: string[] }
 }
-interface KoEntry { en_h: string; ko_h: string; ko_l?: string; d_ko: string }
+interface KoEntry { en_h: string; ko_h: string; ko_l?: string; d_ko?: string }
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
-interface MergedEntry extends BaseEntry { ko_h: string; ko_l?: string; d_ko: string }
+interface MergedEntry extends BaseEntry { ko_h: string; ko_l?: string; d_ko?: string }
 
 const base = baseData as BaseEntry[]
 const ko = koData as KoEntry[]
@@ -25,7 +25,7 @@ const vocab: MergedEntry[] = base.map(v => ({
   ...v,
   ko_h: koMap[v.en_h]?.ko_h || '',
   ko_l: koMap[v.en_h]?.ko_l || '',
-  d_ko: koMap[v.en_h]?.d_ko || v.d,
+  d_ko: koMap[v.en_h]?.d_ko,  // undefined = fall back to base d
 }))
 
 function toLiteral(wp: string): string {
@@ -98,7 +98,7 @@ function KoCard({ v }: { v: MergedEntry }) {
       {v.en_l && <div className={styles.enL}>{v.en_l}</div>}
       {v.ko_h && <div className={styles.koH}>{v.ko_h}</div>}
       {v.ko_l && <div className={styles.koL}>{v.ko_l}</div>}
-      <p className={styles.def}>{v.d_ko}</p>
+      <p className={styles.def}>{v.d_ko || v.d}</p>
       <div className={styles.fields}>{v.f.map(f => <span key={f} className={styles.fieldBadge}>{f}</span>)}</div>
     </div>
   )
@@ -129,7 +129,7 @@ export default function KoGlossaryPage() {
     <div className={styles.page}>
       <header className={styles.header}>
         <a href="/" className={styles.back}>← Home</a>
-        <h1 className={styles.title}>한국어 · English Glossary</h1>
+        <h1 className={styles.title}>Korean Glossary</h1>
         <span className={styles.count}>{filtered.length} terms</span>
       </header>
       <div className={styles.searchWrap}>
@@ -139,9 +139,15 @@ export default function KoGlossaryPage() {
         <button className={`${styles.pill} ${!levelFilter?styles.pillActive:''}`} onClick={() => setLevel(null)}>All</button>
         {ALL_LEVELS.map(lvl => <button key={lvl} className={`${styles.pill} ${levelFilter===lvl?styles.pillActive:''}`} onClick={() => setLevel(levelFilter===lvl?null:lvl)}>{LEVEL_STARS[lvl]}</button>)}
       </div>
-      <div className={styles.filterRow}>
-        <button className={`${styles.pill} ${!fieldFilter?styles.pillActive:''}`} onClick={() => setField(null)}>All Fields</button>
-        {ALL_FIELDS.map(f => <button key={f} className={`${styles.pill} ${fieldFilter===f?styles.pillActive:''}`} onClick={() => setField(fieldFilter===f?null:f)}>{f}</button>)}
+      <div className={styles.fieldDropWrap}>
+        <select
+          className={styles.fieldDrop}
+          value={fieldFilter || ''}
+          onChange={e => setField(e.target.value || null)}
+        >
+          <option value="">All Fields</option>
+          {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
+        </select>
       </div>
       <div className={styles.grid}>
         {filtered.map((v,i) => <KoCard key={i} v={v} />)}

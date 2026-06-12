@@ -124,9 +124,15 @@ export default function GlossaryPage() {
         <button className={`${styles.pill} ${!levelFilter?styles.pillActive:''}`} onClick={() => setLevel(null)}>All</button>
         {ALL_LEVELS.map(lvl => <button key={lvl} className={`${styles.pill} ${levelFilter===lvl?styles.pillActive:''}`} onClick={() => setLevel(levelFilter===lvl?null:lvl)}>{LEVEL_STARS[lvl]}</button>)}
       </div>
-      <div className={styles.filterRow}>
-        <button className={`${styles.pill} ${!fieldFilter?styles.pillActive:''}`} onClick={() => setField(null)}>All Fields</button>
-        {ALL_FIELDS.map(f => <button key={f} className={`${styles.pill} ${fieldFilter===f?styles.pillActive:''}`} onClick={() => setField(fieldFilter===f?null:f)}>{f}</button>)}
+      <div className={styles.fieldDropWrap}>
+        <select
+          className={styles.fieldDrop}
+          value={fieldFilter || ''}
+          onChange={e => setField(e.target.value || null)}
+        >
+          <option value="">All Fields</option>
+          {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
+        </select>
       </div>
       <div className={styles.grid}>
         {filtered.map((v,i) => <GlossaryCard key={i} v={v} />)}

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import baseData from '@/data/medical_vocab_base.json'
+import baseData from '@/data/medical_vocab_v1.18.json'
 import partsData from '@/data/medical_wordparts_simple_v1.05.json'
 import styles from './glossary.module.css'
 

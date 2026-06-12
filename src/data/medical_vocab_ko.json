@@ -2143,5 +2143,795 @@
     "en_h": "Tympanic Membrane",
     "ko_h": "고막",
     "ko_l": "귀청"
+  },
+  {
+    "en_h": "Abdomen",
+    "ko_h": "복부",
+    "ko_l": "배"
+  },
+  {
+    "en_h": "Abduction",
+    "ko_h": "외전",
+    "ko_l": "팔다리를 몸에서 멀리 움직임"
+  },
+  {
+    "en_h": "Adduction",
+    "ko_h": "내전",
+    "ko_l": "팔다리를 몸쪽으로 움직임"
+  },
+  {
+    "en_h": "Adenocarcinoma",
+    "ko_h": "선암종",
+    "ko_l": "샘암"
+  },
+  {
+    "en_h": "Adipose tissue",
+    "ko_h": "지방 조직",
+    "ko_l": "지방"
+  },
+  {
+    "en_h": "Adrenocortical",
+    "ko_h": "부신피질의",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Ambidextrous",
+    "ko_h": "양손잡이",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Amniotomy",
+    "ko_h": "인공파막",
+    "ko_l": "양막 인공 파열"
+  },
+  {
+    "en_h": "Androgen",
+    "ko_h": "안드로겐",
+    "ko_l": "남성호르몬"
+  },
+  {
+    "en_h": "Angiography",
+    "ko_h": "혈관조영술",
+    "ko_l": "혈관 촬영"
+  },
+  {
+    "en_h": "Anoxia",
+    "ko_h": "무산소증",
+    "ko_l": "산소 없음"
+  },
+  {
+    "en_h": "Antibiotic",
+    "ko_h": "항생제",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Aortostenosis",
+    "ko_h": "대동맥협착증",
+    "ko_l": "대동맥 좁아짐"
+  },
+  {
+    "en_h": "Arteriosclerosis",
+    "ko_h": "동맥경화",
+    "ko_l": "혈관 굳음"
+  },
+  {
+    "en_h": "Brachial Arteritis",
+    "ko_h": "상완동맥염",
+    "ko_l": "위팔 혈관 염증"
+  },
+  {
+    "en_h": "Arthritis",
+    "ko_h": "관절염",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Arthrocentesis",
+    "ko_h": "관절천자",
+    "ko_l": "관절 물 빼기"
+  },
+  {
+    "en_h": "Arthroscope",
+    "ko_h": "관절경",
+    "ko_l": "관절 카메라"
+  },
+  {
+    "en_h": "Arthroscopy",
+    "ko_h": "관절경 검사",
+    "ko_l": "관절 내시경"
+  },
+  {
+    "en_h": "Axillary vein",
+    "ko_h": "액와정맥",
+    "ko_l": "겨드랑 정맥"
+  },
+  {
+    "en_h": "Bactericide",
+    "ko_h": "살균제",
+    "ko_l": "균 죽이는 약"
+  },
+  {
+    "en_h": "Biceps",
+    "ko_h": "이두근",
+    "ko_l": "알통 근육"
+  },
+  {
+    "en_h": "Blepharospasm",
+    "ko_h": "안검경련",
+    "ko_l": "눈꺼풀 경련"
+  },
+  {
+    "en_h": "Brachycephaly",
+    "ko_h": "단두증",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Bradypnea",
+    "ko_h": "서호흡",
+    "ko_l": "느린 호흡"
+  },
+  {
+    "en_h": "Bronchitis",
+    "ko_h": "기관지염",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Buccinator",
+    "ko_h": "협근",
+    "ko_l": "볼근"
+  },
+  {
+    "en_h": "Cardiogenic",
+    "ko_h": "심장성의",
+    "ko_l": "심장이 원인인"
+  },
+  {
+    "en_h": "Carpal",
+    "ko_h": "수근골의",
+    "ko_l": "손목뼈의"
+  },
+  {
+    "en_h": "Carpal tunnel",
+    "ko_h": "수근 터널",
+    "ko_l": "손목 터널"
+  },
+  {
+    "en_h": "Cephalgia",
+    "ko_h": "두통",
+    "ko_l": "머리 아픔"
+  },
+  {
+    "en_h": "Cephalocaudal",
+    "ko_h": "두미측의",
+    "ko_l": "머리에서 발끝 방향"
+  },
+  {
+    "en_h": "Cerebellopontine",
+    "ko_h": "소뇌교각의",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Cerebrospinal fluid",
+    "ko_h": "뇌척수액",
+    "ko_l": "뇌와 척수 사이 액체"
+  },
+  {
+    "en_h": "Chondroblast",
+    "ko_h": "연골모세포",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Chromosome",
+    "ko_h": "염색체",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Colostomy",
+    "ko_h": "결장조루술",
+    "ko_l": "인공항문"
+  },
+  {
+    "en_h": "Colovesical fistula",
+    "ko_h": "대장방광루",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Contralateral",
+    "ko_h": "대측성",
+    "ko_l": "반대쪽"
+  },
+  {
+    "en_h": "Costochondritis",
+    "ko_h": "늑연골염",
+    "ko_l": "갈비연골염"
+  },
+  {
+    "en_h": "Craniotomy",
+    "ko_h": "개두술",
+    "ko_l": "두개골 수술"
+  },
+  {
+    "en_h": "Cystoscope",
+    "ko_h": "방광경",
+    "ko_l": "방광 카메라"
+  },
+  {
+    "en_h": "Cytotoxic",
+    "ko_h": "세포독성의",
+    "ko_l": "세포를 죽이는"
+  },
+  {
+    "en_h": "Duodenography",
+    "ko_h": "십이지장조영술",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Edentulous",
+    "ko_h": "무치악의",
+    "ko_l": "이가 없는"
+  },
+  {
+    "en_h": "Electrocardiograph",
+    "ko_h": "심전도계",
+    "ko_l": "심전도 기계"
+  },
+  {
+    "en_h": "Electrocardiography",
+    "ko_h": "심전도검사법",
+    "ko_l": "심전도 검사"
+  },
+  {
+    "en_h": "Endocardium",
+    "ko_h": "심장 내막",
+    "ko_l": "심장 안쪽 막"
+  },
+  {
+    "en_h": "Endoscope",
+    "ko_h": "내시경",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Enterocolitis",
+    "ko_h": "장염",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Erythrocyte",
+    "ko_h": "적혈구",
+    "ko_l": "빨간 피세포"
+  },
+  {
+    "en_h": "Estrogen",
+    "ko_h": "에스트로겐",
+    "ko_l": "여성호르몬"
+  },
+  {
+    "en_h": "Flexor digitorum",
+    "ko_h": "지굴근",
+    "ko_l": "손가락굽힘근"
+  },
+  {
+    "en_h": "Frontoparietal",
+    "ko_h": "전두두정의",
+    "ko_l": "이마마루의"
+  },
+  {
+    "en_h": "Gastritis",
+    "ko_h": "위염",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Gastrocele",
+    "ko_h": "위탈출",
+    "ko_l": "위 탈장"
+  },
+  {
+    "en_h": "Genu valgum",
+    "ko_h": "외반슬",
+    "ko_l": "밖굽이무릎"
+  },
+  {
+    "en_h": "Genu varum",
+    "ko_h": "내반슬",
+    "ko_l": "안짱다리"
+  },
+  {
+    "en_h": "Gestational diabetes",
+    "ko_h": "임신성 당뇨",
+    "ko_l": "임신 중 당뇨"
+  },
+  {
+    "en_h": "Glucometer",
+    "ko_h": "혈당측정기",
+    "ko_l": "혈당계"
+  },
+  {
+    "en_h": "Glycolysis",
+    "ko_h": "당분해",
+    "ko_l": "포도당 분해"
+  },
+  {
+    "en_h": "Hemigastrectomy",
+    "ko_h": "반위절제",
+    "ko_l": "위 절반 절제술"
+  },
+  {
+    "en_h": "Hemiparesis",
+    "ko_h": "편측 부전마비",
+    "ko_l": "한쪽 힘 빠짐"
+  },
+  {
+    "en_h": "Hemiplegia",
+    "ko_h": "반신 불수",
+    "ko_l": "한쪽 마비"
+  },
+  {
+    "en_h": "Hemostasis",
+    "ko_h": "지혈",
+    "ko_l": "피를 멈춤"
+  },
+  {
+    "en_h": "Hepatomegaly",
+    "ko_h": "간비대",
+    "ko_l": "간이 커짐"
+  },
+  {
+    "en_h": "Hidradenitis",
+    "ko_h": "화농성 한선염",
+    "ko_l": "땀샘염"
+  },
+  {
+    "en_h": "Intestinal obstruction",
+    "ko_h": "장폐색",
+    "ko_l": "장이 막힘"
+  },
+  {
+    "en_h": "Intramuscular",
+    "ko_h": "근육내",
+    "ko_l": "근육 주사"
+  },
+  {
+    "en_h": "Ipsilateral",
+    "ko_h": "동측성",
+    "ko_l": "같은 쪽"
+  },
+  {
+    "en_h": "Labiodental",
+    "ko_h": "순치음의",
+    "ko_l": "입술치아소리의"
+  },
+  {
+    "en_h": "Lacrimal gland",
+    "ko_h": "누선",
+    "ko_l": "눈물샘"
+  },
+  {
+    "en_h": "Laparotomy",
+    "ko_h": "개복술",
+    "ko_l": "배 열고 하는 수술"
+  },
+  {
+    "en_h": "Laryngospasm",
+    "ko_h": "후두경련",
+    "ko_l": "목구멍 경련"
+  },
+  {
+    "en_h": "Last menstrual period",
+    "ko_h": "최종 월경",
+    "ko_l": "마지막 생리"
+  },
+  {
+    "en_h": "Leukocyte",
+    "ko_h": "백혈구",
+    "ko_l": "흰 피세포"
+  },
+  {
+    "en_h": "Linguogingival",
+    "ko_h": "설치은의",
+    "ko_l": "혀잇몸의"
+  },
+  {
+    "en_h": "Lithotripsy",
+    "ko_h": "쇄석술",
+    "ko_l": "결석 부수는 시술"
+  },
+  {
+    "en_h": "Macroglossia",
+    "ko_h": "설비대증",
+    "ko_l": "혀 비대"
+  },
+  {
+    "en_h": "Malnutrition",
+    "ko_h": "영양실조",
+    "ko_l": "영양 부족"
+  },
+  {
+    "en_h": "Melanoma",
+    "ko_h": "흑색종",
+    "ko_l": "피부 암"
+  },
+  {
+    "en_h": "Meniscus",
+    "ko_h": "반월판",
+    "ko_l": "무릎 연골"
+  },
+  {
+    "en_h": "Metabolism",
+    "ko_h": "신진대사",
+    "ko_l": "몸의 에너지 대사"
+  },
+  {
+    "en_h": "Metacarpal",
+    "ko_h": "중수골의",
+    "ko_l": "손허리뼈의"
+  },
+  {
+    "en_h": "Mucositis",
+    "ko_h": "점막염",
+    "ko_l": "점막 염증"
+  },
+  {
+    "en_h": "Musculoskeletal",
+    "ko_h": "근골격계의",
+    "ko_l": "근육뼈대의"
+  },
+  {
+    "en_h": "Mycology",
+    "ko_h": "균학",
+    "ko_l": "곰팡이 연구"
+  },
+  {
+    "en_h": "Myeloblast",
+    "ko_h": "골수모세포",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Myelogram",
+    "ko_h": "척수조영도",
+    "ko_l": "척수 영상"
+  },
+  {
+    "en_h": "Myeloma",
+    "ko_h": "골수종",
+    "ko_l": "골수 암"
+  },
+  {
+    "en_h": "Myringomycosis",
+    "ko_h": "고막진균증",
+    "ko_l": "고막 곰팡이 감염"
+  },
+  {
+    "en_h": "Nasopharynx",
+    "ko_h": "비인두",
+    "ko_l": "코 뒤 목구멍"
+  },
+  {
+    "en_h": "Neonatal",
+    "ko_h": "신생아의",
+    "ko_l": "갓난아기의"
+  },
+  {
+    "en_h": "Nephrectomy",
+    "ko_h": "신절제술",
+    "ko_l": "신장 제거 수술"
+  },
+  {
+    "en_h": "Neurogenesis",
+    "ko_h": "신경세포생성",
+    "ko_l": "신경세포 새로 생김"
+  },
+  {
+    "en_h": "Normotensive",
+    "ko_h": "정상 혈압인",
+    "ko_l": "혈압이 정상인"
+  },
+  {
+    "en_h": "Oculomotor",
+    "ko_h": "눈운동의",
+    "ko_l": "눈을 움직이는"
+  },
+  {
+    "en_h": "Oncogene",
+    "ko_h": "발암유전자",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Oropharynx",
+    "ko_h": "구인두",
+    "ko_l": "입인두"
+  },
+  {
+    "en_h": "Osteophyte",
+    "ko_h": "골극",
+    "ko_l": "뼈 가시"
+  },
+  {
+    "en_h": "Otorrhea",
+    "ko_h": "이루",
+    "ko_l": "귀물"
+  },
+  {
+    "en_h": "Otoscope",
+    "ko_h": "이경",
+    "ko_l": "귀 보는 기구"
+  },
+  {
+    "en_h": "Paralysis",
+    "ko_h": "마비",
+    "ko_l": "움직임 없음"
+  },
+  {
+    "en_h": "Pelvic binder",
+    "ko_h": "골반 결합기",
+    "ko_l": "골반 고정기"
+  },
+  {
+    "en_h": "Pericardiocentesis",
+    "ko_h": "심낭천자",
+    "ko_l": "심낭 물 빼기"
+  },
+  {
+    "en_h": "Periodontitis",
+    "ko_h": "치주염",
+    "ko_l": "풍치"
+  },
+  {
+    "en_h": "Periosteum",
+    "ko_h": "골막",
+    "ko_l": "뼈 겉 막"
+  },
+  {
+    "en_h": "Perivascular",
+    "ko_h": "혈관 주위의",
+    "ko_l": "혈관 주변의"
+  },
+  {
+    "en_h": "Phonocardiogram",
+    "ko_h": "심음도",
+    "ko_l": "심장 소리 기록"
+  },
+  {
+    "en_h": "Pleurodesis",
+    "ko_h": "흉막유착술",
+    "ko_l": "흉막 붙이는 시술"
+  },
+  {
+    "en_h": "Polydipsia",
+    "ko_h": "다갈증",
+    "ko_l": "물을 많이 마심"
+  },
+  {
+    "en_h": "Polyuria",
+    "ko_h": "다뇨증",
+    "ko_l": "소변을 많이 봄"
+  },
+  {
+    "en_h": "Postauricular",
+    "ko_h": "이개후의",
+    "ko_l": "귀 뒤쪽의"
+  },
+  {
+    "en_h": "Postoperative",
+    "ko_h": "수술 후의",
+    "ko_l": "수술 뒤"
+  },
+  {
+    "en_h": "Postpartum",
+    "ko_h": "산후의",
+    "ko_l": "출산 후"
+  },
+  {
+    "en_h": "Prenatal",
+    "ko_h": "산전의",
+    "ko_l": "출산 전"
+  },
+  {
+    "en_h": "Preoperative",
+    "ko_h": "수술 전의",
+    "ko_l": "수술 전"
+  },
+  {
+    "en_h": "Prosthodontist",
+    "ko_h": "의치전문가",
+    "ko_l": "틀니 전문의"
+  },
+  {
+    "en_h": "Protrusion",
+    "ko_h": "돌출",
+    "ko_l": "앞으로 튀어나옴"
+  },
+  {
+    "en_h": "Renogram",
+    "ko_h": "신장기능도",
+    "ko_l": "신장 기능 검사"
+  },
+  {
+    "en_h": "Rhinoplasty",
+    "ko_h": "코성형술",
+    "ko_l": "코 수술"
+  },
+  {
+    "en_h": "Rhinorrhea",
+    "ko_h": "비루",
+    "ko_l": "콧물"
+  },
+  {
+    "en_h": "Rigors",
+    "ko_h": "오한",
+    "ko_l": "심한 떨림"
+  },
+  {
+    "en_h": "Sigmoidoscope",
+    "ko_h": "S상결장경",
+    "ko_l": "에스결장 카메라"
+  },
+  {
+    "en_h": "Snare",
+    "ko_h": "올가미",
+    "ko_l": "수술용 올가미"
+  },
+  {
+    "en_h": "Somatosensory",
+    "ko_h": "체성감각의",
+    "ko_l": "몸 감각의"
+  },
+  {
+    "en_h": "Spirometer",
+    "ko_h": "폐활량계",
+    "ko_l": "폐 용량 재는 기구"
+  },
+  {
+    "en_h": "Splanchnic nerves",
+    "ko_h": "내장신경",
+    "ko_l": "장기 신경"
+  },
+  {
+    "en_h": "Splenectomy",
+    "ko_h": "비장절제술",
+    "ko_l": "비장 제거 수술"
+  },
+  {
+    "en_h": "Spondylosis",
+    "ko_h": "척추증",
+    "ko_l": "척추 퇴행"
+  },
+  {
+    "en_h": "Stethoscope",
+    "ko_h": "청진기",
+    "ko_l": ""
+  },
+  {
+    "en_h": "Sublingual",
+    "ko_h": "설하의",
+    "ko_l": "혀 밑의"
+  },
+  {
+    "en_h": "Supragingival",
+    "ko_h": "치은설상의",
+    "ko_l": "잇몸 위의"
+  },
+  {
+    "en_h": "Symptomatic",
+    "ko_h": "증상이 있는",
+    "ko_l": "증상이 나타나는"
+  },
+  {
+    "en_h": "Tachypnea",
+    "ko_h": "빈호흡",
+    "ko_l": "빠른 호흡"
+  },
+  {
+    "en_h": "Thoracotomy",
+    "ko_h": "개흉술",
+    "ko_l": "흉부 절개 수술"
+  },
+  {
+    "en_h": "Thrombectomy",
+    "ko_h": "혈전제거술",
+    "ko_l": "혈전 제거 수술"
+  },
+  {
+    "en_h": "Thyrotoxicosis",
+    "ko_h": "갑상선독증",
+    "ko_l": "갑상선 호르몬 과다"
+  },
+  {
+    "en_h": "Tonoclonic seizure",
+    "ko_h": "긴장간대발작",
+    "ko_l": "강직간대 발작"
+  },
+  {
+    "en_h": "Topography",
+    "ko_h": "국소해부학",
+    "ko_l": "부위별 해부학"
+  },
+  {
+    "en_h": "Toxicology",
+    "ko_h": "독성학",
+    "ko_l": "독 연구"
+  },
+  {
+    "en_h": "Transcutaneous",
+    "ko_h": "경피적인",
+    "ko_l": "피부를 통한"
+  },
+  {
+    "en_h": "Triceps",
+    "ko_h": "삼두근",
+    "ko_l": "뒤팔 근육"
+  },
+  {
+    "en_h": "Twinge",
+    "ko_h": "찌릿한 통증",
+    "ko_l": "찌르르한 느낌"
+  },
+  {
+    "en_h": "Twitch",
+    "ko_h": "씰룩거림",
+    "ko_l": "근육 경련"
+  },
+  {
+    "en_h": "Tympanosclerosis",
+    "ko_h": "고막경화증",
+    "ko_l": "고막 굳음"
+  },
+  {
+    "en_h": "Ulnar",
+    "ko_h": "척골의",
+    "ko_l": "자뼈의"
+  },
+  {
+    "en_h": "Umbilical cord",
+    "ko_h": "제대",
+    "ko_l": "탯줄"
+  },
+  {
+    "en_h": "Varicose veins",
+    "ko_h": "하지정맥류",
+    "ko_l": "다리 혈관 부음"
+  },
+  {
+    "en_h": "Vasoconstriction",
+    "ko_h": "혈관수축",
+    "ko_l": "혈관이 좁아짐"
+  },
+  {
+    "en_h": "Vasodilation",
+    "ko_h": "혈관확장",
+    "ko_l": "혈관이 넓어짐"
+  },
+  {
+    "en_h": "Vasospasm",
+    "ko_h": "혈관경련",
+    "ko_l": "혈관 경련"
+  },
+  {
+    "en_h": "Venostasis",
+    "ko_h": "정맥정체",
+    "ko_l": "정맥 울혈"
+  },
+  {
+    "en_h": "Ventilator",
+    "ko_h": "인공호흡기",
+    "ko_l": "숨쉬는 기계"
+  },
+  {
+    "en_h": "Visceroceptors",
+    "ko_h": "내장수용기",
+    "ko_l": "장기 감각 수용기"
+  },
+  {
+    "en_h": "Voluntary movement",
+    "ko_h": "수의운동",
+    "ko_l": "자발적운동"
+  },
+  {
+    "en_h": "Weak pulse",
+    "ko_h": "약맥",
+    "ko_l": "맥이 약함"
+  },
+  {
+    "en_h": "Xanthochromia",
+    "ko_h": "황색변색증",
+    "ko_l": "노란 색 변색"
   }
 ]

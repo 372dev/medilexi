@@ -7642,5 +7642,3002 @@
         "tympan/o"
       ]
     }
+  },
+  {
+    "en_h": "Abdomen",
+    "en_l": "Belly",
+    "abbr": "",
+    "ko_h": "복부",
+    "ko_l": "배",
+    "f": [
+      "Anatomy",
+      "General Medicine"
+    ],
+    "d": "The region between the thorax and pelvis, containing the stomach, intestines, liver, pancreas, and kidneys.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "abdomin/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Abduction",
+    "en_l": "Moving limb away from body",
+    "abbr": "",
+    "ko_h": "외전",
+    "ko_l": "팔다리를 몸에서 멀리 움직임",
+    "f": [
+      "Anatomy",
+      "Orthopedics",
+      "Rehabilitation Medicine"
+    ],
+    "d": "Movement of a limb away from the midline of the body.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Adduction",
+    "en_l": "Moving limb toward body",
+    "abbr": "",
+    "ko_h": "내전",
+    "ko_l": "팔다리를 몸쪽으로 움직임",
+    "f": [
+      "Anatomy",
+      "Orthopedics",
+      "Rehabilitation Medicine"
+    ],
+    "d": "Movement of a limb toward the midline of the body.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Adenocarcinoma",
+    "en_l": "Glandular cancer",
+    "abbr": "",
+    "ko_h": "선암종",
+    "ko_l": "샘암",
+    "f": [
+      "Oncology",
+      "Pathology"
+    ],
+    "d": "A malignant tumour from glandular epithelial cells; the most common cancer type in lung, colon, breast, and prostate.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "aden/o",
+        "carcin/o"
+      ],
+      "s": [
+        "-oma"
+      ]
+    }
+  },
+  {
+    "en_h": "Adipose tissue",
+    "en_l": "Body fat tissue",
+    "abbr": "",
+    "ko_h": "지방 조직",
+    "ko_l": "지방",
+    "f": [
+      "Anatomy",
+      "General Medicine"
+    ],
+    "d": "Connective tissue of fat cells serving as energy storage, insulation, and organ cushioning.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "adip/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Adrenocortical",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "부신피질의",
+    "ko_l": "",
+    "f": [
+      "Endocrinology"
+    ],
+    "d": "Relating to the adrenal cortex, which produces cortisol, aldosterone, and androgens.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "adren/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Ambidextrous",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "양손잡이",
+    "ko_l": "",
+    "f": [
+      "General Medicine"
+    ],
+    "d": "Able to use both hands equally; relevant in neurological and occupational assessments.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "p": [
+        "ambi-"
+      ]
+    }
+  },
+  {
+    "en_h": "Amniotomy",
+    "en_l": "Breaking the water",
+    "abbr": "",
+    "ko_h": "인공파막",
+    "ko_l": "양막 인공 파열",
+    "f": [
+      "OBGYN"
+    ],
+    "d": "Deliberate rupture of the amniotic membranes to induce or accelerate labour.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "s": [
+        "-tomy"
+      ]
+    }
+  },
+  {
+    "en_h": "Androgen",
+    "en_l": "Male hormone",
+    "abbr": "",
+    "ko_h": "안드로겐",
+    "ko_l": "남성호르몬",
+    "f": [
+      "Endocrinology"
+    ],
+    "d": "Hormones including testosterone promoting male characteristics; produced in testes, ovaries, and adrenal glands.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "andr/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Angiography",
+    "en_l": "Blood vessel imaging",
+    "abbr": "",
+    "ko_h": "혈관조영술",
+    "ko_l": "혈관 촬영",
+    "f": [
+      "Radiology",
+      "Cardiology"
+    ],
+    "d": "Imaging using contrast dye and X-rays to visualise blood vessels and detect blockages or aneurysms.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "angi/o"
+      ],
+      "s": [
+        "-graphy"
+      ]
+    }
+  },
+  {
+    "en_h": "Anoxia",
+    "en_l": "Absence of oxygen",
+    "abbr": "",
+    "ko_h": "무산소증",
+    "ko_l": "산소 없음",
+    "f": [
+      "Emergency Medicine",
+      "Critical Care"
+    ],
+    "d": "Complete absence of oxygen to tissues; more severe than hypoxia, causing rapid cell death.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "an-"
+      ]
+    }
+  },
+  {
+    "en_h": "Antibiotic",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "항생제",
+    "ko_l": "",
+    "f": [
+      "Pharmacology",
+      "Infectious Disease"
+    ],
+    "d": "A drug that kills or inhibits bacterial growth; classified as bactericidal or bacteriostatic.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "anti-"
+      ]
+    }
+  },
+  {
+    "en_h": "Aortostenosis",
+    "en_l": "Aortic narrowing",
+    "abbr": "",
+    "ko_h": "대동맥협착증",
+    "ko_l": "대동맥 좁아짐",
+    "f": [
+      "Cardiology",
+      "Surgery"
+    ],
+    "d": "Narrowing of the aortic valve or aorta, obstructing left ventricular outflow.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "aort/o"
+      ],
+      "s": [
+        "-stenosis"
+      ]
+    }
+  },
+  {
+    "en_h": "Arteriosclerosis",
+    "en_l": "Artery hardening",
+    "abbr": "",
+    "ko_h": "동맥경화",
+    "ko_l": "혈관 굳음",
+    "f": [
+      "Cardiology",
+      "Internal Medicine"
+    ],
+    "d": "Hardening and loss of elasticity of arterial walls; broader than atherosclerosis.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "arteri/o"
+      ],
+      "s": [
+        "-sclerosis"
+      ]
+    }
+  },
+  {
+    "en_h": "Brachial Arteritis",
+    "en_l": "Brachial artery inflammation",
+    "abbr": "",
+    "ko_h": "상완동맥염",
+    "ko_l": "위팔 혈관 염증",
+    "f": [
+      "Vascular Surgery",
+      "Rheumatology"
+    ],
+    "d": "Inflammation of the brachial artery; associated with systemic vasculitis or trauma.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "arteri/o"
+      ],
+      "s": [
+        "-itis"
+      ]
+    }
+  },
+  {
+    "en_h": "Arthritis",
+    "en_l": "Joint inflammation",
+    "abbr": "",
+    "ko_h": "관절염",
+    "ko_l": "",
+    "f": [
+      "Orthopedics",
+      "Rheumatology"
+    ],
+    "d": "Inflammation of one or more joints causing pain, swelling, and stiffness; encompasses over 100 conditions.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "arthr/o"
+      ],
+      "s": [
+        "-itis"
+      ]
+    }
+  },
+  {
+    "en_h": "Arthrocentesis",
+    "en_l": "Joint fluid tap",
+    "abbr": "",
+    "ko_h": "관절천자",
+    "ko_l": "관절 물 빼기",
+    "f": [
+      "Orthopedics",
+      "Rheumatology"
+    ],
+    "d": "Aspiration of fluid from a joint space for diagnosis or pain relief.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "arthr/o"
+      ],
+      "s": [
+        "-centesis"
+      ]
+    }
+  },
+  {
+    "en_h": "Arthroscope",
+    "en_l": "Joint camera",
+    "abbr": "",
+    "ko_h": "관절경",
+    "ko_l": "관절 카메라",
+    "f": [
+      "Orthopedics",
+      "Surgery"
+    ],
+    "d": "A fibre-optic instrument inserted into a joint to examine its internal structures.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "arthr/o"
+      ],
+      "s": [
+        "-scope"
+      ]
+    }
+  },
+  {
+    "en_h": "Arthroscopy",
+    "en_l": "Joint examination",
+    "abbr": "",
+    "ko_h": "관절경 검사",
+    "ko_l": "관절 내시경",
+    "f": [
+      "Orthopedics",
+      "Surgery"
+    ],
+    "d": "A minimally invasive procedure using an arthroscope to diagnose and treat joint problems.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "arthr/o"
+      ],
+      "s": [
+        "-scopy"
+      ]
+    }
+  },
+  {
+    "en_h": "Axillary vein",
+    "en_l": "Armpit vein",
+    "abbr": "",
+    "ko_h": "액와정맥",
+    "ko_l": "겨드랑 정맥",
+    "f": [
+      "Anatomy",
+      "Vascular Surgery"
+    ],
+    "d": "The major vein draining the arm and shoulder; commonly accessed for central venous catheter placement.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "ven/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Bactericide",
+    "en_l": "Bacteria-killing agent",
+    "abbr": "",
+    "ko_h": "살균제",
+    "ko_l": "균 죽이는 약",
+    "f": [
+      "Pharmacology",
+      "Infectious Disease"
+    ],
+    "d": "An agent that kills bacteria; includes antibiotics, disinfectants, and antiseptics.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "bacter/i"
+      ]
+    }
+  },
+  {
+    "en_h": "Biceps",
+    "en_l": "Front upper arm muscle",
+    "abbr": "",
+    "ko_h": "이두근",
+    "ko_l": "알통 근육",
+    "f": [
+      "Anatomy",
+      "Orthopedics"
+    ],
+    "d": "A two-headed muscle on the front of the upper arm responsible for elbow flexion and forearm supination.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "bi-"
+      ],
+      "r": [
+        "cephal/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Blepharospasm",
+    "en_l": "Eyelid spasm",
+    "abbr": "",
+    "ko_h": "안검경련",
+    "ko_l": "눈꺼풀 경련",
+    "f": [
+      "Ophthalmology",
+      "Neurology"
+    ],
+    "d": "Involuntary forceful contraction of the eyelid muscles; may be benign or a neurological sign.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "s": [
+        "-spasm"
+      ]
+    }
+  },
+  {
+    "en_h": "Brachycephaly",
+    "en_l": "Short rounded skull",
+    "abbr": "",
+    "ko_h": "단두증",
+    "ko_l": "",
+    "f": [
+      "Pediatrics",
+      "Neurology"
+    ],
+    "d": "A short, broad skull from premature coronal suture fusion; seen in genetic syndromes and positional deformity.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "cephal/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Bradypnea",
+    "en_l": "Slow breathing",
+    "abbr": "",
+    "ko_h": "서호흡",
+    "ko_l": "느린 호흡",
+    "f": [
+      "Emergency Medicine",
+      "Pulmonology"
+    ],
+    "d": "Abnormally slow breathing (fewer than 12 breaths per minute); may indicate CNS depression or opioid overdose.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "brady-"
+      ],
+      "s": [
+        "-pnea"
+      ]
+    }
+  },
+  {
+    "en_h": "Bronchitis",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "기관지염",
+    "ko_l": "",
+    "f": [
+      "Pulmonology",
+      "Family Medicine"
+    ],
+    "d": "Inflammation of the bronchial tubes; acute (usually viral) or chronic (>3 months/year for 2+ years).",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "bronch/o"
+      ],
+      "s": [
+        "-itis"
+      ]
+    }
+  },
+  {
+    "en_h": "Buccinator",
+    "en_l": "Cheek muscle",
+    "abbr": "",
+    "ko_h": "협근",
+    "ko_l": "볼근",
+    "f": [
+      "Anatomy",
+      "Otolaryngology"
+    ],
+    "d": "The principal cheek muscle; compresses cheeks during chewing and is important in speech and swallowing.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "bucc/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Cardiogenic",
+    "en_l": "Heart-caused",
+    "abbr": "",
+    "ko_h": "심장성의",
+    "ko_l": "심장이 원인인",
+    "f": [
+      "Cardiology",
+      "Emergency Medicine"
+    ],
+    "d": "Originating from the heart; cardiogenic shock is life-threatening cardiac pump failure.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "cardi/o"
+      ],
+      "s": [
+        "-genic"
+      ]
+    }
+  },
+  {
+    "en_h": "Carpal",
+    "en_l": "Of the wrist bones",
+    "abbr": "",
+    "ko_h": "수근골의",
+    "ko_l": "손목뼈의",
+    "f": [
+      "Anatomy",
+      "Orthopedics"
+    ],
+    "d": "Relating to the eight small wrist bones connecting the forearm to the hand.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "carp/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Carpal tunnel",
+    "en_l": "Wrist nerve channel",
+    "abbr": "",
+    "ko_h": "수근 터널",
+    "ko_l": "손목 터널",
+    "f": [
+      "Orthopedics",
+      "Neurology"
+    ],
+    "d": "A narrow wrist passageway for the median nerve and flexor tendons; compression causes numbness and weakness.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "carp/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Cephalgia",
+    "en_l": "Headache",
+    "abbr": "",
+    "ko_h": "두통",
+    "ko_l": "머리 아픔",
+    "f": [
+      "Neurology",
+      "General Medicine"
+    ],
+    "d": "Pain in any part of the head; primary (migraine, tension) or secondary (infection, hypertension, intracranial pathology).",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "cephal/o"
+      ],
+      "s": [
+        "-algia"
+      ]
+    }
+  },
+  {
+    "en_h": "Cephalocaudal",
+    "en_l": "Head to tail direction",
+    "abbr": "",
+    "ko_h": "두미측의",
+    "ko_l": "머리에서 발끝 방향",
+    "f": [
+      "Anatomy"
+    ],
+    "d": "Direction or development from head toward feet; used in growth patterns and neurological development.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "cephal/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Cerebellopontine",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "소뇌교각의",
+    "ko_l": "",
+    "f": [
+      "Anatomy",
+      "Neurology"
+    ],
+    "d": "Relating to the angle between the cerebellum and pons; a common site for acoustic neuromas.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "cerebell/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Cerebrospinal fluid",
+    "en_l": "Brain and spine fluid",
+    "abbr": "CSF",
+    "ko_h": "뇌척수액",
+    "ko_l": "뇌와 척수 사이 액체",
+    "f": [
+      "Neurology",
+      "Emergency Medicine"
+    ],
+    "d": "Clear fluid circulating around the brain and spinal cord for cushioning and waste removal; sampled via lumbar puncture.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "cerebr/o",
+        "spin/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Chondroblast",
+    "en_l": "Cartilage-forming cell",
+    "abbr": "",
+    "ko_h": "연골모세포",
+    "ko_l": "",
+    "f": [
+      "Anatomy",
+      "Pathology"
+    ],
+    "d": "An immature cell producing cartilage matrix; important in bone development and repair.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "chondr/o",
+        "blast/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Chromosome",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "염색체",
+    "ko_l": "",
+    "f": [
+      "Pathology",
+      "General Medicine"
+    ],
+    "d": "Thread-like DNA-protein structures; humans have 46 chromosomes carrying genetic information.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "chromo-"
+      ]
+    }
+  },
+  {
+    "en_h": "Colostomy",
+    "en_l": "Bowel diversion surgery",
+    "abbr": "",
+    "ko_h": "결장조루술",
+    "ko_l": "인공항문",
+    "f": [
+      "Surgery",
+      "Gastroenterology"
+    ],
+    "d": "A surgical abdominal opening through which part of the colon passes, diverting faeces into an external bag.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "col/o"
+      ],
+      "s": [
+        "-stomy"
+      ]
+    }
+  },
+  {
+    "en_h": "Colovesical fistula",
+    "en_l": "Bowel-bladder connection",
+    "abbr": "",
+    "ko_h": "대장방광루",
+    "ko_l": "",
+    "f": [
+      "Surgery",
+      "Urology"
+    ],
+    "d": "An abnormal colon-bladder connection causing recurrent UTIs and air in urine.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "col/o",
+        "cyst/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Contralateral",
+    "en_l": "Opposite side",
+    "abbr": "",
+    "ko_h": "대측성",
+    "ko_l": "반대쪽",
+    "f": [
+      "General Medicine",
+      "Neurology"
+    ],
+    "d": "Relating to the opposite side of the body; used in neurological deficits and anatomical descriptions.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "contra-"
+      ]
+    }
+  },
+  {
+    "en_h": "Costochondritis",
+    "en_l": "Rib cartilage inflammation",
+    "abbr": "",
+    "ko_h": "늑연골염",
+    "ko_l": "갈비연골염",
+    "f": [
+      "Orthopedics",
+      "Emergency Medicine"
+    ],
+    "d": "Inflammation of costal cartilages at the sternum, causing chest pain mimicking cardiac pain.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "chondr/o"
+      ],
+      "s": [
+        "-itis"
+      ]
+    }
+  },
+  {
+    "en_h": "Craniotomy",
+    "en_l": "Skull surgery",
+    "abbr": "",
+    "ko_h": "개두술",
+    "ko_l": "두개골 수술",
+    "f": [
+      "Neurosurgery"
+    ],
+    "d": "A surgical procedure removing a skull section to access the brain for tumour removal or haematoma evacuation.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "crani/o"
+      ],
+      "s": [
+        "-tomy"
+      ]
+    }
+  },
+  {
+    "en_h": "Cystoscope",
+    "en_l": "Bladder camera",
+    "abbr": "",
+    "ko_h": "방광경",
+    "ko_l": "방광 카메라",
+    "f": [
+      "Urology"
+    ],
+    "d": "A tubular instrument with camera and light to examine the bladder and urethra.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "cyst/o"
+      ],
+      "s": [
+        "-scope"
+      ]
+    }
+  },
+  {
+    "en_h": "Cytotoxic",
+    "en_l": "Cell-killing",
+    "abbr": "",
+    "ko_h": "세포독성의",
+    "ko_l": "세포를 죽이는",
+    "f": [
+      "Pharmacology",
+      "Oncology"
+    ],
+    "d": "Toxic to living cells; cytotoxic drugs destroy rapidly dividing cancer cells.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "cyt/o"
+      ],
+      "s": [
+        "-toxic"
+      ]
+    }
+  },
+  {
+    "en_h": "Duodenography",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "십이지장조영술",
+    "ko_l": "",
+    "f": [
+      "Radiology",
+      "Gastroenterology"
+    ],
+    "d": "Radiographic examination of the duodenum using contrast medium.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "duoden/o"
+      ],
+      "s": [
+        "-graphy"
+      ]
+    }
+  },
+  {
+    "en_h": "Edentulous",
+    "en_l": "Toothless",
+    "abbr": "",
+    "ko_h": "무치악의",
+    "ko_l": "이가 없는",
+    "f": [
+      "Dentistry"
+    ],
+    "d": "Having no natural teeth; requires dentures or implants with specific anaesthetic considerations.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "dent/i"
+      ]
+    }
+  },
+  {
+    "en_h": "Electrocardiograph",
+    "en_l": "ECG machine",
+    "abbr": "",
+    "ko_h": "심전도계",
+    "ko_l": "심전도 기계",
+    "f": [
+      "Cardiology"
+    ],
+    "d": "The device recording heart electrical activity to produce the ECG tracing.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "electr/o",
+        "cardi/o"
+      ],
+      "s": [
+        "-graph"
+      ]
+    }
+  },
+  {
+    "en_h": "Electrocardiography",
+    "en_l": "ECG recording process",
+    "abbr": "",
+    "ko_h": "심전도검사법",
+    "ko_l": "심전도 검사",
+    "f": [
+      "Cardiology"
+    ],
+    "d": "Recording cardiac electrical activity via skin electrodes; diagnoses arrhythmias, MI, and conduction abnormalities.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "electr/o",
+        "cardi/o"
+      ],
+      "s": [
+        "-graphy"
+      ]
+    }
+  },
+  {
+    "en_h": "Endocardium",
+    "en_l": "Heart inner lining",
+    "abbr": "",
+    "ko_h": "심장 내막",
+    "ko_l": "심장 안쪽 막",
+    "f": [
+      "Anatomy",
+      "Cardiology"
+    ],
+    "d": "The smooth membrane lining heart chambers and valves; inflamed in endocarditis.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "endo-"
+      ],
+      "r": [
+        "cardi/o"
+      ],
+      "s": [
+        "-ium"
+      ]
+    }
+  },
+  {
+    "en_h": "Endoscope",
+    "en_l": "Scope instrument",
+    "abbr": "",
+    "ko_h": "내시경",
+    "ko_l": "",
+    "f": [
+      "General Medicine",
+      "Surgery"
+    ],
+    "d": "A tubular instrument with camera and light for visualising hollow organs or body cavities.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "endo-"
+      ],
+      "s": [
+        "-scope"
+      ]
+    }
+  },
+  {
+    "en_h": "Enterocolitis",
+    "en_l": "Bowel inflammation",
+    "abbr": "",
+    "ko_h": "장염",
+    "ko_l": "",
+    "f": [
+      "Gastroenterology",
+      "Pediatrics"
+    ],
+    "d": "Inflammation of both small intestine and colon; causes include infection and Crohn's disease.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "enter/o",
+        "col/o"
+      ],
+      "s": [
+        "-itis"
+      ]
+    }
+  },
+  {
+    "en_h": "Erythrocyte",
+    "en_l": "Red blood cell",
+    "abbr": "RBC",
+    "ko_h": "적혈구",
+    "ko_l": "빨간 피세포",
+    "f": [
+      "Hematology",
+      "Pathology"
+    ],
+    "d": "Biconcave disc cells containing haemoglobin that transport oxygen from lungs to tissues.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "erythro-",
+        "cyt/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Estrogen",
+    "en_l": "Female hormone",
+    "abbr": "",
+    "ko_h": "에스트로겐",
+    "ko_l": "여성호르몬",
+    "f": [
+      "Endocrinology",
+      "OBGYN"
+    ],
+    "d": "Steroid hormones from the ovaries regulating the female reproductive system, bone density, and cardiovascular health.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "estr/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Flexor digitorum",
+    "en_l": "Finger flexor muscle",
+    "abbr": "",
+    "ko_h": "지굴근",
+    "ko_l": "손가락굽힘근",
+    "f": [
+      "Anatomy",
+      "Orthopedics"
+    ],
+    "d": "Forearm muscles flexing the fingers; tested in hand and nerve injury assessment.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "digit/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Frontoparietal",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "전두두정의",
+    "ko_l": "이마마루의",
+    "f": [
+      "Anatomy",
+      "Neurology"
+    ],
+    "d": "Relating to both frontal and parietal bones or lobes of the skull or brain.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "front/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Gastritis",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "위염",
+    "ko_l": "",
+    "f": [
+      "Gastroenterology",
+      "Family Medicine"
+    ],
+    "d": "Inflammation of the stomach lining from H. pylori, NSAIDs, or alcohol; causes epigastric pain and nausea.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "gastr/o"
+      ],
+      "s": [
+        "-itis"
+      ]
+    }
+  },
+  {
+    "en_h": "Gastrocele",
+    "en_l": "Stomach hernia",
+    "abbr": "",
+    "ko_h": "위탈출",
+    "ko_l": "위 탈장",
+    "f": [
+      "Gastroenterology",
+      "Surgery"
+    ],
+    "d": "Herniation or protrusion of the stomach through a structural defect.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "gastr/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Genu valgum",
+    "en_l": "Knock-knees",
+    "abbr": "",
+    "ko_h": "외반슬",
+    "ko_l": "밖굽이무릎",
+    "f": [
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "d": "Knees angling inward; normal in young children, pathological if persistent or severe.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Genu varum",
+    "en_l": "Bow-legs",
+    "abbr": "",
+    "ko_h": "내반슬",
+    "ko_l": "안짱다리",
+    "f": [
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "d": "Legs bowing outward at the knees; normal in infants under age 2, pathological if persistent.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Gestational diabetes",
+    "en_l": "Pregnancy diabetes",
+    "abbr": "GDM",
+    "ko_h": "임신성 당뇨",
+    "ko_l": "임신 중 당뇨",
+    "f": [
+      "OBGYN",
+      "Endocrinology"
+    ],
+    "d": "Glucose intolerance first diagnosed during pregnancy; increases complication risk and predisposes to type 2 diabetes.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "dia-"
+      ]
+    }
+  },
+  {
+    "en_h": "Glucometer",
+    "en_l": "Blood sugar meter",
+    "abbr": "",
+    "ko_h": "혈당측정기",
+    "ko_l": "혈당계",
+    "f": [
+      "General Medicine",
+      "Endocrinology"
+    ],
+    "d": "A portable device measuring blood glucose from a small sample; essential for diabetes monitoring.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "gluc/o"
+      ],
+      "s": [
+        "-meter"
+      ]
+    }
+  },
+  {
+    "en_h": "Glycolysis",
+    "en_l": "Sugar breakdown",
+    "abbr": "",
+    "ko_h": "당분해",
+    "ko_l": "포도당 분해",
+    "f": [
+      "Pathology",
+      "General Medicine"
+    ],
+    "d": "The metabolic breakdown of glucose into pyruvate to produce ATP; the first step in cellular respiration.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "glyc/o"
+      ],
+      "s": [
+        "-lysis"
+      ]
+    }
+  },
+  {
+    "en_h": "Hemigastrectomy",
+    "en_l": "Partial stomach removal",
+    "abbr": "",
+    "ko_h": "반위절제",
+    "ko_l": "위 절반 절제술",
+    "f": [
+      "Surgery",
+      "Gastroenterology"
+    ],
+    "d": "Surgical removal of approximately half the stomach for peptic ulcer disease or gastric cancer.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "hemi-"
+      ],
+      "r": [
+        "gastr/o"
+      ],
+      "s": [
+        "-ectomy"
+      ]
+    }
+  },
+  {
+    "en_h": "Hemiparesis",
+    "en_l": "One-sided weakness",
+    "abbr": "",
+    "ko_h": "편측 부전마비",
+    "ko_l": "한쪽 힘 빠짐",
+    "f": [
+      "Neurology",
+      "Rehabilitation Medicine"
+    ],
+    "d": "Weakness affecting one side of the body, typically from stroke or brain injury.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "hemi-"
+      ],
+      "s": [
+        "-paresis"
+      ]
+    }
+  },
+  {
+    "en_h": "Hemiplegia",
+    "en_l": "One-sided paralysis",
+    "abbr": "",
+    "ko_h": "반신 불수",
+    "ko_l": "한쪽 마비",
+    "f": [
+      "Neurology",
+      "Rehabilitation Medicine"
+    ],
+    "d": "Complete paralysis of one side of the body from damage to the motor cortex or brainstem.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "hemi-"
+      ],
+      "s": [
+        "-plegia"
+      ]
+    }
+  },
+  {
+    "en_h": "Hemostasis",
+    "en_l": "Stopping bleeding",
+    "abbr": "",
+    "ko_h": "지혈",
+    "ko_l": "피를 멈춤",
+    "f": [
+      "Surgery",
+      "Emergency Medicine"
+    ],
+    "d": "The physiological process stopping bleeding through vasoconstriction, platelet aggregation, and coagulation.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "hem/o"
+      ],
+      "s": [
+        "-stasis"
+      ]
+    }
+  },
+  {
+    "en_h": "Hepatomegaly",
+    "en_l": "Enlarged liver",
+    "abbr": "",
+    "ko_h": "간비대",
+    "ko_l": "간이 커짐",
+    "f": [
+      "Gastroenterology",
+      "Internal Medicine"
+    ],
+    "d": "Abnormal liver enlargement; caused by hepatitis, cirrhosis, heart failure, or malignancy.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "hepat/o"
+      ],
+      "s": [
+        "-megaly"
+      ]
+    }
+  },
+  {
+    "en_h": "Hidradenitis",
+    "en_l": "Sweat gland inflammation",
+    "abbr": "",
+    "ko_h": "화농성 한선염",
+    "ko_l": "땀샘염",
+    "f": [
+      "Dermatology"
+    ],
+    "d": "A chronic painful skin condition causing abscesses and scarring in sweat gland areas (hidradenitis suppurativa).",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "hidr/o",
+        "aden/o"
+      ],
+      "s": [
+        "-itis"
+      ]
+    }
+  },
+  {
+    "en_h": "Intestinal obstruction",
+    "en_l": "Bowel blockage",
+    "abbr": "",
+    "ko_h": "장폐색",
+    "ko_l": "장이 막힘",
+    "f": [
+      "Surgery",
+      "Emergency Medicine"
+    ],
+    "d": "Blockage of the intestine preventing passage of contents; causes include adhesions, hernias, and tumours.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "intestin/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Intramuscular",
+    "en_l": "Into the muscle",
+    "abbr": "IM",
+    "ko_h": "근육내",
+    "ko_l": "근육 주사",
+    "f": [
+      "General Medicine",
+      "Pharmacology"
+    ],
+    "d": "Administered directly into a muscle; used for vaccines and antibiotics needing faster absorption.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "intra-"
+      ],
+      "r": [
+        "muscul/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Ipsilateral",
+    "en_l": "Same side",
+    "abbr": "",
+    "ko_h": "동측성",
+    "ko_l": "같은 쪽",
+    "f": [
+      "General Medicine",
+      "Neurology"
+    ],
+    "d": "Relating to the same side of the body; used in neurological and anatomical descriptions.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "ipsi-"
+      ]
+    }
+  },
+  {
+    "en_h": "Labiodental",
+    "en_l": "Lip and tooth sound",
+    "abbr": "",
+    "ko_h": "순치음의",
+    "ko_l": "입술치아소리의",
+    "f": [
+      "Anatomy"
+    ],
+    "d": "Relating to both lips and teeth; sounds produced with upper teeth and lower lip (e.g. /f/, /v/).",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "labi/o",
+        "dent/i"
+      ]
+    }
+  },
+  {
+    "en_h": "Lacrimal gland",
+    "en_l": "Tear gland",
+    "abbr": "",
+    "ko_h": "누선",
+    "ko_l": "눈물샘",
+    "f": [
+      "Anatomy",
+      "Ophthalmology"
+    ],
+    "d": "The almond-shaped gland in the upper outer orbit producing tears to lubricate and protect the eye.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "lacrim/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Laparotomy",
+    "en_l": "Open abdominal surgery",
+    "abbr": "",
+    "ko_h": "개복술",
+    "ko_l": "배 열고 하는 수술",
+    "f": [
+      "Surgery"
+    ],
+    "d": "A surgical incision into the abdominal cavity for diagnostic or therapeutic purposes.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "lapar/o"
+      ],
+      "s": [
+        "-tomy"
+      ]
+    }
+  },
+  {
+    "en_h": "Laryngospasm",
+    "en_l": "Voice box spasm",
+    "abbr": "",
+    "ko_h": "후두경련",
+    "ko_l": "목구멍 경련",
+    "f": [
+      "Emergency Medicine",
+      "Otolaryngology"
+    ],
+    "d": "Sudden involuntary laryngeal muscle contraction causing vocal cord closure; a medical emergency.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "laryng/o"
+      ],
+      "s": [
+        "-spasm"
+      ]
+    }
+  },
+  {
+    "en_h": "Last menstrual period",
+    "en_l": "Last period",
+    "abbr": "LMP",
+    "ko_h": "최종 월경",
+    "ko_l": "마지막 생리",
+    "f": [
+      "OBGYN",
+      "General Medicine"
+    ],
+    "d": "The first day of the most recent menstrual period; used to calculate gestational age and due date.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "men/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Leukocyte",
+    "en_l": "White blood cell",
+    "abbr": "WBC",
+    "ko_h": "백혈구",
+    "ko_l": "흰 피세포",
+    "f": [
+      "Hematology",
+      "Pathology"
+    ],
+    "d": "White blood cells forming the primary cellular immune defence; includes neutrophils and lymphocytes.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "leuko-",
+        "cyt/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Linguogingival",
+    "en_l": "Tongue and gum",
+    "abbr": "",
+    "ko_h": "설치은의",
+    "ko_l": "혀잇몸의",
+    "f": [
+      "Anatomy"
+    ],
+    "d": "Relating to both tongue and gum; used in dental anatomy for structures at the tongue-gingiva interface.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "lingu/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Lithotripsy",
+    "en_l": "Stone crushing",
+    "abbr": "",
+    "ko_h": "쇄석술",
+    "ko_l": "결석 부수는 시술",
+    "f": [
+      "Urology",
+      "Surgery"
+    ],
+    "d": "A procedure using shock waves or laser to break up kidney or gallstones.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "lith/o"
+      ],
+      "s": [
+        "-tripsy"
+      ]
+    }
+  },
+  {
+    "en_h": "Macroglossia",
+    "en_l": "Enlarged tongue",
+    "abbr": "",
+    "ko_h": "설비대증",
+    "ko_l": "혀 비대",
+    "f": [
+      "Otolaryngology",
+      "Pathology"
+    ],
+    "d": "Abnormal tongue enlargement; associated with Down syndrome, acromegaly, and hypothyroidism.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "p": [
+        "macro-"
+      ],
+      "r": [
+        "gloss/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Malnutrition",
+    "en_l": "Poor nutrition",
+    "abbr": "",
+    "ko_h": "영양실조",
+    "ko_l": "영양 부족",
+    "f": [
+      "General Medicine",
+      "Pediatrics"
+    ],
+    "d": "A condition from insufficient, excessive, or imbalanced nutrient intake.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "mal-"
+      ]
+    }
+  },
+  {
+    "en_h": "Melanoma",
+    "en_l": "Skin cancer",
+    "abbr": "",
+    "ko_h": "흑색종",
+    "ko_l": "피부 암",
+    "f": [
+      "Oncology",
+      "Dermatology"
+    ],
+    "d": "A malignant tumour from melanocytes; the most dangerous skin cancer with high metastatic potential.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "melano-"
+      ],
+      "s": [
+        "-oma"
+      ]
+    }
+  },
+  {
+    "en_h": "Meniscus",
+    "en_l": "Knee cartilage",
+    "abbr": "",
+    "ko_h": "반월판",
+    "ko_l": "무릎 연골",
+    "f": [
+      "Anatomy",
+      "Orthopedics"
+    ],
+    "d": "One of two C-shaped fibrocartilage structures in the knee; commonly torn in sports injuries.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Metabolism",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "신진대사",
+    "ko_l": "몸의 에너지 대사",
+    "f": [
+      "General Medicine",
+      "Endocrinology"
+    ],
+    "d": "The sum of all chemical reactions maintaining life; includes catabolism and anabolism.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "meta-"
+      ]
+    }
+  },
+  {
+    "en_h": "Metacarpal",
+    "en_l": "Hand bones",
+    "abbr": "",
+    "ko_h": "중수골의",
+    "ko_l": "손허리뼈의",
+    "f": [
+      "Anatomy",
+      "Orthopedics"
+    ],
+    "d": "Relating to the five long bones of the hand connecting wrist to finger bones.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "meta-"
+      ],
+      "r": [
+        "carp/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Mucositis",
+    "en_l": "Mouth sore inflammation",
+    "abbr": "",
+    "ko_h": "점막염",
+    "ko_l": "점막 염증",
+    "f": [
+      "Oncology",
+      "Gastroenterology"
+    ],
+    "d": "Inflammation and ulceration of mucous membranes; a common painful side effect of chemotherapy.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "s": [
+        "-itis"
+      ]
+    }
+  },
+  {
+    "en_h": "Musculoskeletal",
+    "en_l": "Muscles and bones",
+    "abbr": "",
+    "ko_h": "근골격계의",
+    "ko_l": "근육뼈대의",
+    "f": [
+      "Anatomy",
+      "Orthopedics"
+    ],
+    "d": "Relating to the muscles and skeleton together; provides structure, movement, and organ protection.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "muscul/o",
+        "oste/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Mycology",
+    "en_l": "Study of fungi",
+    "abbr": "",
+    "ko_h": "균학",
+    "ko_l": "곰팡이 연구",
+    "f": [
+      "Infectious Disease",
+      "Pathology"
+    ],
+    "d": "The study of fungi including medically important species causing candidiasis and aspergillosis.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "s": [
+        "-ology"
+      ]
+    }
+  },
+  {
+    "en_h": "Myeloblast",
+    "en_l": "Bone marrow stem cell",
+    "abbr": "",
+    "ko_h": "골수모세포",
+    "ko_l": "",
+    "f": [
+      "Hematology",
+      "Pathology"
+    ],
+    "d": "An immature bone marrow precursor cell developing into granulocytes; elevated in acute myeloid leukaemia.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "myel/o",
+        "blast/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Myelogram",
+    "en_l": "Spinal cord image",
+    "abbr": "",
+    "ko_h": "척수조영도",
+    "ko_l": "척수 영상",
+    "f": [
+      "Radiology",
+      "Neurology"
+    ],
+    "d": "Imaging using contrast dye injected into the spinal canal to visualise spinal cord and nerve roots.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "myel/o"
+      ],
+      "s": [
+        "-gram"
+      ]
+    }
+  },
+  {
+    "en_h": "Myeloma",
+    "en_l": "Bone marrow cancer",
+    "abbr": "",
+    "ko_h": "골수종",
+    "ko_l": "골수 암",
+    "f": [
+      "Hematology",
+      "Oncology"
+    ],
+    "d": "Cancer of plasma cells in bone marrow; causes bone destruction, anaemia, and immune dysfunction.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "myel/o"
+      ],
+      "s": [
+        "-oma"
+      ]
+    }
+  },
+  {
+    "en_h": "Myringomycosis",
+    "en_l": "Fungal eardrum infection",
+    "abbr": "",
+    "ko_h": "고막진균증",
+    "ko_l": "고막 곰팡이 감염",
+    "f": [
+      "Otolaryngology"
+    ],
+    "d": "Fungal infection of the tympanic membrane; associated with prolonged antibiotic use.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "tympan/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Nasopharynx",
+    "en_l": "Nose throat",
+    "abbr": "",
+    "ko_h": "비인두",
+    "ko_l": "코 뒤 목구멍",
+    "f": [
+      "Anatomy",
+      "Otolaryngology"
+    ],
+    "d": "The upper pharynx behind the nasal cavity; contains adenoids and Eustachian tube openings.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "nas/o",
+        "pharyng/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Neonatal",
+    "en_l": "Of the newborn",
+    "abbr": "",
+    "ko_h": "신생아의",
+    "ko_l": "갓난아기의",
+    "f": [
+      "Pediatrics"
+    ],
+    "d": "Relating to the first 28 days of life; critical for identifying congenital conditions.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "neo-"
+      ]
+    }
+  },
+  {
+    "en_h": "Nephrectomy",
+    "en_l": "Kidney removal",
+    "abbr": "",
+    "ko_h": "신절제술",
+    "ko_l": "신장 제거 수술",
+    "f": [
+      "Urology",
+      "Surgery"
+    ],
+    "d": "Surgical removal of a kidney for renal cancer, severe trauma, or living donation.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "nephr/o"
+      ],
+      "s": [
+        "-ectomy"
+      ]
+    }
+  },
+  {
+    "en_h": "Neurogenesis",
+    "en_l": "New nerve growth",
+    "abbr": "",
+    "ko_h": "신경세포생성",
+    "ko_l": "신경세포 새로 생김",
+    "f": [
+      "Neurology",
+      "Pathology"
+    ],
+    "d": "The formation of new neurons; primarily during fetal development with limited adult continuation.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "neur/o"
+      ],
+      "s": [
+        "-genesis"
+      ]
+    }
+  },
+  {
+    "en_h": "Normotensive",
+    "en_l": "Normal blood pressure",
+    "abbr": "",
+    "ko_h": "정상 혈압인",
+    "ko_l": "혈압이 정상인",
+    "f": [
+      "General Medicine",
+      "Cardiology"
+    ],
+    "d": "Having normal blood pressure (systolic <120 and diastolic <80 mmHg).",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "normo-"
+      ],
+      "r": [
+        "ten/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Oculomotor",
+    "en_l": "Eye movement",
+    "abbr": "",
+    "ko_h": "눈운동의",
+    "ko_l": "눈을 움직이는",
+    "f": [
+      "Anatomy",
+      "Neurology"
+    ],
+    "d": "Relating to eye movement; CN III controls most eye movements, pupil constriction, and eyelid elevation.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "ocul/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Oncogene",
+    "en_l": "Cancer-causing gene",
+    "abbr": "",
+    "ko_h": "발암유전자",
+    "ko_l": "",
+    "f": [
+      "Oncology",
+      "Pathology"
+    ],
+    "d": "A mutated gene promoting uncontrolled cell division; derived from normal proto-oncogenes.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "onc/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Oropharynx",
+    "en_l": "Mouth throat",
+    "abbr": "",
+    "ko_h": "구인두",
+    "ko_l": "입인두",
+    "f": [
+      "Anatomy",
+      "Otolaryngology"
+    ],
+    "d": "The middle pharynx with tonsils, soft palate, and tongue base; a site for tonsillitis and HPV-related cancer.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "pharyng/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Osteophyte",
+    "en_l": "Bone spur",
+    "abbr": "",
+    "ko_h": "골극",
+    "ko_l": "뼈 가시",
+    "f": [
+      "Orthopedics",
+      "Radiology"
+    ],
+    "d": "A bony projection at joint edges from cartilage degeneration; can cause pain and restrict movement.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "oste/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Otorrhea",
+    "en_l": "Ear discharge",
+    "abbr": "",
+    "ko_h": "이루",
+    "ko_l": "귀물",
+    "f": [
+      "Otolaryngology"
+    ],
+    "d": "Ear canal discharge; may be watery (CSF leak), purulent (infection), or bloody (trauma).",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "ot/o"
+      ],
+      "s": [
+        "-rrhea"
+      ]
+    }
+  },
+  {
+    "en_h": "Otoscope",
+    "en_l": "Ear viewer",
+    "abbr": "",
+    "ko_h": "이경",
+    "ko_l": "귀 보는 기구",
+    "f": [
+      "Otolaryngology"
+    ],
+    "d": "A handheld instrument with light and magnifying lens for examining the ear canal and tympanic membrane.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "ot/o"
+      ],
+      "s": [
+        "-scope"
+      ]
+    }
+  },
+  {
+    "en_h": "Paralysis",
+    "en_l": "Loss of movement",
+    "abbr": "",
+    "ko_h": "마비",
+    "ko_l": "움직임 없음",
+    "f": [
+      "Neurology",
+      "Emergency Medicine"
+    ],
+    "d": "Complete loss of voluntary muscle function from nervous system damage; may be temporary or permanent.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "para-"
+      ],
+      "s": [
+        "-lysis"
+      ]
+    }
+  },
+  {
+    "en_h": "Pelvic binder",
+    "en_l": "Pelvis stabilizer",
+    "abbr": "",
+    "ko_h": "골반 결합기",
+    "ko_l": "골반 고정기",
+    "f": [
+      "Emergency Medicine",
+      "Surgery"
+    ],
+    "d": "A circumferential device applied in trauma to stabilise pelvic fractures and reduce haemorrhage.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "pelv/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Pericardiocentesis",
+    "en_l": "Heart sac fluid drain",
+    "abbr": "",
+    "ko_h": "심낭천자",
+    "ko_l": "심낭 물 빼기",
+    "f": [
+      "Cardiology",
+      "Emergency Medicine"
+    ],
+    "d": "Needle aspiration of pericardial fluid; performed emergently for cardiac tamponade.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "peri-"
+      ],
+      "r": [
+        "cardi/o"
+      ],
+      "s": [
+        "-centesis"
+      ]
+    }
+  },
+  {
+    "en_h": "Periodontitis",
+    "en_l": "Gum disease",
+    "abbr": "",
+    "ko_h": "치주염",
+    "ko_l": "풍치",
+    "f": [
+      "Dentistry"
+    ],
+    "d": "Serious gum and bone infection from plaque bacteria; a leading cause of tooth loss.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "peri-"
+      ],
+      "s": [
+        "-itis"
+      ]
+    }
+  },
+  {
+    "en_h": "Periosteum",
+    "en_l": "Bone outer membrane",
+    "abbr": "",
+    "ko_h": "골막",
+    "ko_l": "뼈 겉 막",
+    "f": [
+      "Anatomy",
+      "Orthopedics"
+    ],
+    "d": "Dense fibrous membrane covering bone surfaces; contains blood vessels and osteoblasts for bone repair.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "peri-"
+      ],
+      "r": [
+        "oste/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Perivascular",
+    "en_l": "Around blood vessels",
+    "abbr": "",
+    "ko_h": "혈관 주위의",
+    "ko_l": "혈관 주변의",
+    "f": [
+      "Anatomy",
+      "Pathology"
+    ],
+    "d": "Surrounding blood vessels; perivascular inflammation is seen in vasculitis and autoimmune diseases.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "p": [
+        "peri-"
+      ],
+      "r": [
+        "vascul/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Phonocardiogram",
+    "en_l": "Heart sound recording",
+    "abbr": "PCG",
+    "ko_h": "심음도",
+    "ko_l": "심장 소리 기록",
+    "f": [
+      "Cardiology"
+    ],
+    "d": "A graphic recording of heart sounds and murmurs for cardiac auscultation documentation.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "cardi/o"
+      ],
+      "s": [
+        "-gram"
+      ]
+    }
+  },
+  {
+    "en_h": "Pleurodesis",
+    "en_l": "Pleural space sealing",
+    "abbr": "",
+    "ko_h": "흉막유착술",
+    "ko_l": "흉막 붙이는 시술",
+    "f": [
+      "Pulmonology",
+      "Surgery"
+    ],
+    "d": "Obliteration of the pleural space to prevent recurrent effusions or pneumothorax.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "pleur/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Polydipsia",
+    "en_l": "Excessive thirst",
+    "abbr": "",
+    "ko_h": "다갈증",
+    "ko_l": "물을 많이 마심",
+    "f": [
+      "Endocrinology",
+      "General Medicine"
+    ],
+    "d": "Abnormally excessive thirst; a classic symptom of diabetes mellitus and diabetes insipidus.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "poly-"
+      ]
+    }
+  },
+  {
+    "en_h": "Polyuria",
+    "en_l": "Excessive urination",
+    "abbr": "",
+    "ko_h": "다뇨증",
+    "ko_l": "소변을 많이 봄",
+    "f": [
+      "Endocrinology",
+      "Nephrology"
+    ],
+    "d": "Abnormally large urine production (>3 litres/day); a cardinal symptom of diabetes mellitus and insipidus.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "poly-"
+      ],
+      "s": [
+        "-uria"
+      ]
+    }
+  },
+  {
+    "en_h": "Postauricular",
+    "en_l": "Behind the ear",
+    "abbr": "",
+    "ko_h": "이개후의",
+    "ko_l": "귀 뒤쪽의",
+    "f": [
+      "Anatomy",
+      "Otolaryngology"
+    ],
+    "d": "Located behind the ear; used for cochlear implant incisions and lymph node assessment.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "p": [
+        "post-"
+      ],
+      "r": [
+        "aur/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Postoperative",
+    "en_l": "After surgery",
+    "abbr": "post-op",
+    "ko_h": "수술 후의",
+    "ko_l": "수술 뒤",
+    "f": [
+      "General Medicine",
+      "Surgery"
+    ],
+    "d": "Relating to the period following surgery; includes pain management, wound care, and monitoring.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "post-"
+      ]
+    }
+  },
+  {
+    "en_h": "Postpartum",
+    "en_l": "After birth",
+    "abbr": "",
+    "ko_h": "산후의",
+    "ko_l": "출산 후",
+    "f": [
+      "OBGYN",
+      "General Medicine"
+    ],
+    "d": "Occurring after childbirth; the postpartum period typically refers to the six weeks following delivery.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "post-"
+      ]
+    }
+  },
+  {
+    "en_h": "Prenatal",
+    "en_l": "Before birth",
+    "abbr": "",
+    "ko_h": "산전의",
+    "ko_l": "출산 전",
+    "f": [
+      "OBGYN",
+      "General Medicine"
+    ],
+    "d": "Occurring before birth; prenatal care includes check-ups and screening during pregnancy.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "pre-"
+      ]
+    }
+  },
+  {
+    "en_h": "Preoperative",
+    "en_l": "Before surgery",
+    "abbr": "pre-op",
+    "ko_h": "수술 전의",
+    "ko_l": "수술 전",
+    "f": [
+      "General Medicine",
+      "Surgery"
+    ],
+    "d": "Relating to the period before surgery; includes history, examination, investigations, and consent.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "p": [
+        "pre-"
+      ]
+    }
+  },
+  {
+    "en_h": "Prosthodontist",
+    "en_l": "Dental prosthetics specialist",
+    "abbr": "",
+    "ko_h": "의치전문가",
+    "ko_l": "틀니 전문의",
+    "f": [
+      "Dentistry"
+    ],
+    "d": "A dental specialist focused on restoring and replacing teeth using dentures, bridges, and implants.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "odont/o"
+      ],
+      "s": [
+        "-ist"
+      ]
+    }
+  },
+  {
+    "en_h": "Protrusion",
+    "en_l": "Sticking out",
+    "abbr": "",
+    "ko_h": "돌출",
+    "ko_l": "앞으로 튀어나옴",
+    "f": [
+      "General Medicine",
+      "Orthopedics"
+    ],
+    "d": "Extension forward beyond a surface; in dentistry refers to jaw position, in neurology to disc herniation.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Renogram",
+    "en_l": "Kidney function scan",
+    "abbr": "",
+    "ko_h": "신장기능도",
+    "ko_l": "신장 기능 검사",
+    "f": [
+      "Radiology",
+      "Nephrology"
+    ],
+    "d": "A nuclear medicine scan using a tracer to assess kidney blood flow, function, and drainage.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "ren/o"
+      ],
+      "s": [
+        "-gram"
+      ]
+    }
+  },
+  {
+    "en_h": "Rhinoplasty",
+    "en_l": "Nose surgery",
+    "abbr": "",
+    "ko_h": "코성형술",
+    "ko_l": "코 수술",
+    "f": [
+      "Surgery",
+      "Otolaryngology"
+    ],
+    "d": "Surgical reshaping of the nose for cosmetic or functional purposes.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "rhin/o"
+      ],
+      "s": [
+        "-plasty"
+      ]
+    }
+  },
+  {
+    "en_h": "Rhinorrhea",
+    "en_l": "Runny nose",
+    "abbr": "",
+    "ko_h": "비루",
+    "ko_l": "콧물",
+    "f": [
+      "Otolaryngology",
+      "Family Medicine"
+    ],
+    "d": "Excessive nasal discharge; may be clear (viral URI, allergy, CSF leak) or purulent (bacterial sinusitis).",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "rhin/o"
+      ],
+      "s": [
+        "-rrhea"
+      ]
+    }
+  },
+  {
+    "en_h": "Rigors",
+    "en_l": "Severe chills",
+    "abbr": "",
+    "ko_h": "오한",
+    "ko_l": "심한 떨림",
+    "f": [
+      "General Medicine",
+      "Emergency Medicine"
+    ],
+    "d": "Intense shivering with rapid temperature rise; a classic sign of bacteraemia or sepsis.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Sigmoidoscope",
+    "en_l": "Sigmoid colon camera",
+    "abbr": "",
+    "ko_h": "S상결장경",
+    "ko_l": "에스결장 카메라",
+    "f": [
+      "Gastroenterology"
+    ],
+    "d": "An endoscopic instrument for examining the sigmoid colon and rectum; used for screening and polyp removal.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "sigmoid/o"
+      ],
+      "s": [
+        "-scope"
+      ]
+    }
+  },
+  {
+    "en_h": "Snare",
+    "en_l": "Surgical loop tool",
+    "abbr": "",
+    "ko_h": "올가미",
+    "ko_l": "수술용 올가미",
+    "f": [
+      "Surgery",
+      "Gastroenterology"
+    ],
+    "d": "A wire loop device used endoscopically to remove polyps, tumours, or foreign bodies.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Somatosensory",
+    "en_l": "Body sensation",
+    "abbr": "",
+    "ko_h": "체성감각의",
+    "ko_l": "몸 감각의",
+    "f": [
+      "Anatomy",
+      "Neurology"
+    ],
+    "d": "Relating to sensory signals from the body including touch, pain, temperature, and proprioception.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "somat/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Spirometer",
+    "en_l": "Lung capacity meter",
+    "abbr": "",
+    "ko_h": "폐활량계",
+    "ko_l": "폐 용량 재는 기구",
+    "f": [
+      "Pulmonology"
+    ],
+    "d": "A device measuring volume and speed of air inhaled and exhaled; used in pulmonary function testing.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "s": [
+        "-meter"
+      ]
+    }
+  },
+  {
+    "en_h": "Splanchnic nerves",
+    "en_l": "Visceral nerves",
+    "abbr": "",
+    "ko_h": "내장신경",
+    "ko_l": "장기 신경",
+    "f": [
+      "Anatomy",
+      "Neurology"
+    ],
+    "d": "Nerves supplying the viscera; carry sympathetic fibres regulating gut motility and vascular tone.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "splanchn/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Splenectomy",
+    "en_l": "Spleen removal",
+    "abbr": "",
+    "ko_h": "비장절제술",
+    "ko_l": "비장 제거 수술",
+    "f": [
+      "Surgery",
+      "Hematology"
+    ],
+    "d": "Surgical removal of the spleen for trauma, haematological conditions, or splenic tumours.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "splen/o"
+      ],
+      "s": [
+        "-ectomy"
+      ]
+    }
+  },
+  {
+    "en_h": "Spondylosis",
+    "en_l": "Spinal degeneration",
+    "abbr": "",
+    "ko_h": "척추증",
+    "ko_l": "척추 퇴행",
+    "f": [
+      "Orthopedics",
+      "Neurology"
+    ],
+    "d": "Degenerative spinal changes including osteophyte formation and disc degeneration; a common cause of back pain.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "spondyl/o"
+      ],
+      "s": [
+        "-osis"
+      ]
+    }
+  },
+  {
+    "en_h": "Stethoscope",
+    "en_l": "",
+    "abbr": "",
+    "ko_h": "청진기",
+    "ko_l": "",
+    "f": [
+      "General Medicine"
+    ],
+    "d": "A medical instrument used to listen to internal body sounds, particularly heart and lungs.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "steth/o"
+      ],
+      "s": [
+        "-scope"
+      ]
+    }
+  },
+  {
+    "en_h": "Sublingual",
+    "en_l": "Under the tongue",
+    "abbr": "",
+    "ko_h": "설하의",
+    "ko_l": "혀 밑의",
+    "f": [
+      "General Medicine",
+      "Pharmacology"
+    ],
+    "d": "Located or administered under the tongue; allows rapid bloodstream absorption (e.g. GTN for angina).",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "sub-"
+      ],
+      "r": [
+        "lingu/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Supragingival",
+    "en_l": "Above the gum",
+    "abbr": "",
+    "ko_h": "치은설상의",
+    "ko_l": "잇몸 위의",
+    "f": [
+      "Dentistry"
+    ],
+    "d": "Located above the gum line; supragingival tartar is removed during routine dental cleaning.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "p": [
+        "supra-"
+      ]
+    }
+  },
+  {
+    "en_h": "Symptomatic",
+    "en_l": "Showing symptoms",
+    "abbr": "",
+    "ko_h": "증상이 있는",
+    "ko_l": "증상이 나타나는",
+    "f": [
+      "General Medicine"
+    ],
+    "d": "Exhibiting symptoms of disease; contrasted with asymptomatic.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Tachypnea",
+    "en_l": "Fast breathing",
+    "abbr": "",
+    "ko_h": "빈호흡",
+    "ko_l": "빠른 호흡",
+    "f": [
+      "Emergency Medicine",
+      "Pulmonology"
+    ],
+    "d": "Abnormally rapid breathing (above 20 breaths per minute); a sign of respiratory distress or metabolic acidosis.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "tachy-"
+      ],
+      "s": [
+        "-pnea"
+      ]
+    }
+  },
+  {
+    "en_h": "Thoracotomy",
+    "en_l": "Chest cavity surgery",
+    "abbr": "",
+    "ko_h": "개흉술",
+    "ko_l": "흉부 절개 수술",
+    "f": [
+      "Surgery",
+      "Pulmonology"
+    ],
+    "d": "Surgical incision into the chest wall to access the thoracic cavity.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "thorac/o"
+      ],
+      "s": [
+        "-tomy"
+      ]
+    }
+  },
+  {
+    "en_h": "Thrombectomy",
+    "en_l": "Clot removal",
+    "abbr": "",
+    "ko_h": "혈전제거술",
+    "ko_l": "혈전 제거 수술",
+    "f": [
+      "Surgery",
+      "Vascular Surgery"
+    ],
+    "d": "Surgical or catheter-based removal of a blood clot; used urgently in stroke, DVT, and PE.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "thromb/o"
+      ],
+      "s": [
+        "-ectomy"
+      ]
+    }
+  },
+  {
+    "en_h": "Thyrotoxicosis",
+    "en_l": "Thyroid hormone excess",
+    "abbr": "",
+    "ko_h": "갑상선독증",
+    "ko_l": "갑상선 호르몬 과다",
+    "f": [
+      "Endocrinology"
+    ],
+    "d": "Excess thyroid hormone action; presents with weight loss, palpitations, tremor, and heat intolerance.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "thyroid/o"
+      ],
+      "s": [
+        "-osis"
+      ]
+    }
+  },
+  {
+    "en_h": "Tonoclonic seizure",
+    "en_l": "Tonic-clonic seizure",
+    "abbr": "",
+    "ko_h": "긴장간대발작",
+    "ko_l": "강직간대 발작",
+    "f": [
+      "Neurology",
+      "Emergency Medicine"
+    ],
+    "d": "A generalised seizure with tonic (stiffening) then clonic (jerking) phases; formerly called grand mal.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "ton/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Topography",
+    "en_l": "Surface anatomy mapping",
+    "abbr": "",
+    "ko_h": "국소해부학",
+    "ko_l": "부위별 해부학",
+    "f": [
+      "Anatomy",
+      "General Medicine"
+    ],
+    "d": "The study of body surface features and their relationships to underlying structures.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "top/o"
+      ],
+      "s": [
+        "-graphy"
+      ]
+    }
+  },
+  {
+    "en_h": "Toxicology",
+    "en_l": "Study of poisons",
+    "abbr": "",
+    "ko_h": "독성학",
+    "ko_l": "독 연구",
+    "f": [
+      "Pharmacology",
+      "Pathology"
+    ],
+    "d": "The study of adverse effects of chemicals and drugs; clinical toxicology manages poisoning and overdose.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "tox/i"
+      ],
+      "s": [
+        "-ology"
+      ]
+    }
+  },
+  {
+    "en_h": "Transcutaneous",
+    "en_l": "Through the skin",
+    "abbr": "",
+    "ko_h": "경피적인",
+    "ko_l": "피부를 통한",
+    "f": [
+      "General Medicine",
+      "Pharmacology"
+    ],
+    "d": "Administered or occurring through the skin; patches allow sustained drug absorption.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "trans-"
+      ],
+      "r": [
+        "cutane/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Triceps",
+    "en_l": "Back upper arm muscle",
+    "abbr": "",
+    "ko_h": "삼두근",
+    "ko_l": "뒤팔 근육",
+    "f": [
+      "Anatomy",
+      "Orthopedics"
+    ],
+    "d": "A three-headed muscle on the back of the upper arm responsible for elbow extension; tests radial nerve (C7).",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "p": [
+        "tri-"
+      ],
+      "r": [
+        "cephal/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Twinge",
+    "en_l": "Sharp brief pain",
+    "abbr": "",
+    "ko_h": "찌릿한 통증",
+    "ko_l": "찌르르한 느낌",
+    "f": [
+      "General Medicine"
+    ],
+    "d": "A sudden, sharp, brief pain; describes fleeting musculoskeletal or nerve-related discomfort.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Twitch",
+    "en_l": "Muscle jerk",
+    "abbr": "",
+    "ko_h": "씰룩거림",
+    "ko_l": "근육 경련",
+    "f": [
+      "Neurology",
+      "General Medicine"
+    ],
+    "d": "A brief involuntary muscle contraction; may be benign or a sign of neuromuscular disease.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Tympanosclerosis",
+    "en_l": "Eardrum scarring",
+    "abbr": "",
+    "ko_h": "고막경화증",
+    "ko_l": "고막 굳음",
+    "f": [
+      "Otolaryngology"
+    ],
+    "d": "Calcification and scarring of the tympanic membrane from recurrent otitis media; can cause hearing loss.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "tympan/o"
+      ],
+      "s": [
+        "-sclerosis"
+      ]
+    }
+  },
+  {
+    "en_h": "Ulnar",
+    "en_l": "Of the ulna bone",
+    "abbr": "",
+    "ko_h": "척골의",
+    "ko_l": "자뼈의",
+    "f": [
+      "Anatomy",
+      "Orthopedics"
+    ],
+    "d": "Relating to the ulna, the medial forearm bone; the ulnar nerve runs alongside it.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Umbilical cord",
+    "en_l": "Baby's cord",
+    "abbr": "",
+    "ko_h": "제대",
+    "ko_l": "탯줄",
+    "f": [
+      "OBGYN",
+      "Pediatrics"
+    ],
+    "d": "The flexible cord connecting the fetus to the placenta; contains two arteries and one vein.",
+    "lvl": "⭐⭐⭐ Essential",
+    "parts": {
+      "r": [
+        "umbilic/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Varicose veins",
+    "en_l": "Swollen veins",
+    "abbr": "",
+    "ko_h": "하지정맥류",
+    "ko_l": "다리 혈관 부음",
+    "f": [
+      "Vascular Surgery",
+      "General Medicine"
+    ],
+    "d": "Enlarged, twisted veins usually in the legs; caused by weakened venous valves.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "varic/o",
+        "ven/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Vasoconstriction",
+    "en_l": "Blood vessel narrowing",
+    "abbr": "",
+    "ko_h": "혈관수축",
+    "ko_l": "혈관이 좁아짐",
+    "f": [
+      "General Medicine",
+      "Cardiology"
+    ],
+    "d": "Narrowing of blood vessels by smooth muscle contraction; raises blood pressure and reduces peripheral flow.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "vascul/o"
+      ],
+      "s": [
+        "-constriction"
+      ]
+    }
+  },
+  {
+    "en_h": "Vasodilation",
+    "en_l": "Blood vessel widening",
+    "abbr": "",
+    "ko_h": "혈관확장",
+    "ko_l": "혈관이 넓어짐",
+    "f": [
+      "General Medicine",
+      "Cardiology"
+    ],
+    "d": "Widening of blood vessels by smooth muscle relaxation; lowers blood pressure and increases blood flow.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "vascul/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Vasospasm",
+    "en_l": "Blood vessel spasm",
+    "abbr": "",
+    "ko_h": "혈관경련",
+    "ko_l": "혈관 경련",
+    "f": [
+      "Cardiology",
+      "Neurology"
+    ],
+    "d": "Sudden reversible blood vessel contraction; important in Raynaud's and subarachnoid haemorrhage.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "vascul/o"
+      ],
+      "s": [
+        "-spasm"
+      ]
+    }
+  },
+  {
+    "en_h": "Venostasis",
+    "en_l": "Venous blood pooling",
+    "abbr": "",
+    "ko_h": "정맥정체",
+    "ko_l": "정맥 울혈",
+    "f": [
+      "Vascular Surgery",
+      "General Medicine"
+    ],
+    "d": "Slowing or stagnation of venous blood flow; predisposes to deep vein thrombosis.",
+    "lvl": "⭐⭐ Important",
+    "parts": {
+      "r": [
+        "ven/o"
+      ],
+      "s": [
+        "-stasis"
+      ]
+    }
+  },
+  {
+    "en_h": "Ventilator",
+    "en_l": "Breathing machine",
+    "abbr": "",
+    "ko_h": "인공호흡기",
+    "ko_l": "숨쉬는 기계",
+    "f": [
+      "Critical Care",
+      "Emergency Medicine"
+    ],
+    "d": "A machine mechanically assisting or replacing spontaneous breathing in patients who cannot breathe adequately.",
+    "lvl": "⭐⭐⭐ Essential"
+  },
+  {
+    "en_h": "Visceroceptors",
+    "en_l": "Internal organ sensors",
+    "abbr": "",
+    "ko_h": "내장수용기",
+    "ko_l": "장기 감각 수용기",
+    "f": [
+      "Anatomy",
+      "Neurology"
+    ],
+    "d": "Sensory receptors within internal organs detecting pressure, stretch, pain, and chemical changes.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "viscer/o"
+      ]
+    }
+  },
+  {
+    "en_h": "Voluntary movement",
+    "en_l": "Intentional movement",
+    "abbr": "",
+    "ko_h": "수의운동",
+    "ko_l": "자발적운동",
+    "f": [
+      "Neurology",
+      "Rehabilitation Medicine"
+    ],
+    "d": "Consciously controlled movement via the motor cortex; impaired in upper motor neuron lesions.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Weak pulse",
+    "en_l": "Faint heartbeat",
+    "abbr": "",
+    "ko_h": "약맥",
+    "ko_l": "맥이 약함",
+    "f": [
+      "Emergency Medicine",
+      "Cardiology"
+    ],
+    "d": "A pulse difficult to palpate from reduced stroke volume or vasoconstriction; indicates shock or cardiac compromise.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
+    "en_h": "Xanthochromia",
+    "en_l": "Yellow-stained fluid",
+    "abbr": "",
+    "ko_h": "황색변색증",
+    "ko_l": "노란 색 변색",
+    "f": [
+      "Neurology",
+      "Pathology"
+    ],
+    "d": "Yellow CSF discolouration from haemoglobin breakdown; key finding in subarachnoid haemorrhage when CT is negative.",
+    "lvl": "⭐ Good to know",
+    "parts": {
+      "r": [
+        "xantho-"
+      ]
+    }
   }
 ]

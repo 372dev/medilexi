@@ -9,6 +9,7 @@ const nav = [
     tools: [
       { label: 'Glossary', href: '/glossary', live: true },
       { label: 'Flashcard',    href: '/flashcards', live: false },
+    { label: 'Word Parts',   href: '/wordparts', live: true },
     ]
   },
   {

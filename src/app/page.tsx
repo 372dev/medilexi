@@ -5,7 +5,7 @@ const rows = [
     lang: 'WORD PARTS',
     tools: [
       { label: 'Prefix · Root · Suffix', href: '/wordparts',            live: true },
-      { label: 'Flashcard',              href: '/wordparts#flashcard',   live: false },
+      { label: 'Flashcard',              href: '/wordparts/flashcard', live: true },
     ]
   },
   {

@@ -9,16 +9,24 @@ function SiteHeader({ toggleMode, isDay }: { toggleMode: () => void; isDay: bool
   const isHome = typeof window !== 'undefined' && window.location.pathname === '/'
   return (
     <header className="site-header">
-      {!isHome && (
-        <Link href="/" className="site-header__back">← Home</Link>
-      )}
-      {isHome && (
-        <div style={{ width: '60px' }} />
-      )}
+      {!isHome
+        ? <Link href="/" className="site-header__back">← Home</Link>
+        : <div style={{ width:'60px' }} />
+      }
       <div className="site-header__title">
         {isHome
-          ? <Image src="/images/hero.jpg" alt="Sage's Medical Glossary" width={320} height={240} style={{ display: 'block', margin: '0 auto', imageRendering: 'pixelated', width: '100%', maxWidth: '320px', height: 'auto' }} priority />
-          : "Sage's Medical Glossary"
+          ? <Image
+              src="/images/hero.jpg"
+              alt="Sage's Medical Glossary — Bridging the Language of Health Care"
+              width={560}
+              height={315}
+              style={{ display:'block', margin:'0 auto', imageRendering:'pixelated', width:'100%', maxWidth:'560px', height:'auto' }}
+              priority
+            />
+          : <span style={{ display:'flex', alignItems:'center', gap:'0.6rem', justifyContent:'center' }}>
+              <Image src="/images/icon.png" alt="SG" width={28} height={28} style={{ imageRendering:'pixelated' }} />
+              Sage's Medical Glossary
+            </span>
         }
       </div>
       <button
@@ -59,7 +67,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <title>Sage's Medical Glossary</title>
-        <meta name="description" content="Your comprehensive bilingual medical reference guide" />
+        <meta name="description" content="Bridging the Language of Health Care" />
+        <link rel="icon" href="/images/icon.png" type="image/png" />
       </head>
       <body>
         <SiteHeader toggleMode={toggleMode} isDay={isDay} />

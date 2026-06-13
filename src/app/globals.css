@@ -35,8 +35,8 @@
   --font-body:  'Inter', 'Noto Sans KR', sans-serif;
 
   /* Ad column width */
-  --ad-width: 160px;
-  --ad-gap:   1.5rem;
+  --ad-width: 100px;
+  --ad-gap:   1rem;
 }
 
 /* ── Day mode overrides ── */
@@ -138,7 +138,7 @@ button { font-family: var(--font-body); }
   gap: var(--ad-gap);
   max-width: 1380px;
   margin: 0 auto;
-  padding: 1.5rem var(--ad-gap);
+  padding: 0 var(--ad-gap);
   min-height: calc(100vh - 60px);
   align-items: start;
 }
@@ -251,7 +251,7 @@ button { font-family: var(--font-body); }
 /* Card grid */
 .c-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 @media (max-width: 640px) {
@@ -433,4 +433,49 @@ body.day .ko-h { color: #185FA5; }
   font-size: 0.78rem;
   color: var(--color-text-dim);
   margin-bottom: 0.6rem;
+}
+
+/* ══════════════════════════════════════
+   STICKY FILTER BAR
+══════════════════════════════════════ */
+.c-filter-bar {
+  position: sticky;
+  top: 57px; /* height of site-header */
+  z-index: 90;
+  background: var(--color-bg);
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 1rem;
+  transition: background 0.25s;
+}
+
+/* Search + dropdown row */
+.c-search-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.c-search-row .c-search {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.c-search-row .c-field-drop {
+  width: 200px;
+  flex-shrink: 0;
+  margin-bottom: 0;
+}
+
+/* Mobile: stack them */
+@media (max-width: 700px) {
+  .c-search-row {
+    flex-direction: column;
+  }
+  .c-search-row .c-field-drop {
+    width: 100%;
+  }
+  .c-grid {
+    grid-template-columns: 1fr !important;
+  }
 }

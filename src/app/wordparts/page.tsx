@@ -36,37 +36,39 @@ export default function WordPartsPage() {
 
   return (
     <>
-      <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'1.5rem' }}>
-        <Link href="/wordparts/flashcard" className="c-btn-pixel" style={{ fontSize:'0.45rem', padding:'0.45rem 0.85rem' }}>
-          Flashcard Quiz →
-        </Link>
+      {/* ── Sticky filter bar ── */}
+      <div className="c-filter-bar">
+        {/* Row 1: search + flashcard button */}
+        <div className="c-search-row">
+          <input className="c-search" type="text" placeholder="Search word parts, definitions, examples..." value={search} onChange={e => setSearch(e.target.value)} />
+          <Link href="/wordparts/flashcard" className="c-btn-pixel" style={{ fontSize:'0.46rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
+            Flashcard Quiz →
+          </Link>
+        </div>
+        {/* Row 2: type pills */}
+        <div className="c-filter-row">
+          {(['all','p','r','s'] as const).map(t => (
+            <button key={t} className={`c-pill ${typeFilter===t?'c-pill--active':''}`} onClick={() => setType(t)}>
+              {t==='all'?`All (${parts.length})`:t==='p'?`Prefixes (${counts.p})`:t==='r'?`Roots (${counts.r})`:`Suffixes (${counts.s})`}
+            </button>
+          ))}
+        </div>
+        {/* Row 3: level pills + legend */}
+        <div className="c-filter-row">
+          <button className={`c-pill ${!lvlFilter?'c-pill--active':''}`} onClick={() => setLvl(null)}>All levels</button>
+          {[3,2,1].map(l => (
+            <button key={l} className={`c-pill c-pill--star ${lvlFilter===l?'c-pill--active':''}`} onClick={() => setLvl(lvlFilter===l?null:l)}>
+              {'★'.repeat(l)}
+            </button>
+          ))}
+          <span style={{ fontSize:'0.72rem', color:'var(--color-text-dim)', marginLeft:'0.5rem', display:'flex', gap:'1rem' }}>
+            <span>★★★ Essential</span><span>★★ Frequent</span><span>★ Good to know</span>
+          </span>
+        </div>
+        <div className="c-count">{filtered.length} entries</div>
       </div>
 
-      <input className="c-search" type="text" placeholder="Search word parts, definitions, examples..." value={search} onChange={e => setSearch(e.target.value)} />
-
-      <div className="c-filter-row">
-        {(['all','p','r','s'] as const).map(t => (
-          <button key={t} className={`c-pill ${typeFilter===t?'c-pill--active':''}`} onClick={() => setType(t)}>
-            {t==='all'?`All (${parts.length})`:t==='p'?`Prefixes (${counts.p})`:t==='r'?`Roots (${counts.r})`:`Suffixes (${counts.s})`}
-          </button>
-        ))}
-      </div>
-
-      <div className="c-filter-row">
-        <button className={`c-pill ${!lvlFilter?'c-pill--active':''}`} onClick={() => setLvl(null)}>All levels</button>
-        {[3,2,1].map(l => (
-          <button key={l} className={`c-pill c-pill--star ${lvlFilter===l?'c-pill--active':''}`} onClick={() => setLvl(lvlFilter===l?null:l)}>
-            {'★'.repeat(l)}
-          </button>
-        ))}
-      </div>
-
-      <div style={{ display:'flex', gap:'1.5rem', flexWrap:'wrap', fontSize:'0.72rem', color:'var(--color-text-dim)', marginBottom:'0.5rem' }}>
-        <span>★★★ Essential</span><span>★★ Frequently used</span><span>★ Good to know</span>
-      </div>
-
-      <div className="c-count">{filtered.length} entries</div>
-
+      {/* ── Cards ── */}
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px,1fr))', gap:'1rem' }}>
         {filtered.map((p,i) => (
           <div key={i} className="c-card" style={{ borderLeft:`3px solid ${p.t==='p'?'#3B82F6':p.t==='r'?'#3BAA6A':'#C94040'}` }}>
@@ -86,7 +88,6 @@ export default function WordPartsPage() {
           </div>
         ))}
       </div>
-
       {filtered.length === 0 && <div className="c-empty">No word parts found.</div>}
     </>
   )

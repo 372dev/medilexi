@@ -35,8 +35,8 @@
   --font-body:  'Inter', 'Noto Sans KR', sans-serif;
 
   /* Ad column width */
-  --ad-width: 100px;
-  --ad-gap:   1rem;
+  --ad-width: 80px;
+  --ad-gap:   0.75rem;
 }
 
 /* ── Day mode overrides ── */
@@ -136,7 +136,7 @@ button { font-family: var(--font-body); }
   display: grid;
   grid-template-columns: var(--ad-width) 1fr var(--ad-width);
   gap: var(--ad-gap);
-  max-width: 1380px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0 var(--ad-gap);
   min-height: calc(100vh - 60px);

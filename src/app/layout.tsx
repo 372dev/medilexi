@@ -54,9 +54,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Image
               src="/images/hero.jpg"
               alt="Sage's Medical Glossary — Bridging the Language of Health Care"
-              width={600}
-              height={338}
-              style={{ imageRendering:'pixelated', width:'100%', maxWidth:'600px', height:'auto', marginBottom:'2.5rem' }}
+              width={460}
+              height={259}
+              style={{ imageRendering:'pixelated', width:'100%', maxWidth:'460px', height:'auto', marginBottom:'2rem' }}
               priority
             />
 

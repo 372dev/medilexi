@@ -1,54 +1,59 @@
-import Image from 'next/image'
 import Link from 'next/link'
-import styles from './page.module.css'
 
-const nav = [
+const rows = [
   {
-    lang: 'ENG',
-    live: true,
+    lang: 'WORD PARTS',
     tools: [
-      { label: 'Glossary', href: '/glossary', live: true },
-      { label: 'Flashcard',    href: '/flashcards', live: false },
-    { label: 'Word Parts',   href: '/wordparts', live: true },
+      { label: 'Prefix · Root · Suffix', href: '/wordparts',            live: true },
+      { label: 'Flashcard',              href: '/wordparts#flashcard',   live: false },
     ]
   },
   {
-    lang: 'KOR',
-    live: true,
+    lang: 'ENGLISH',
     tools: [
-      { label: 'Glossary', href: '/glossary/ko', live: true },
-      { label: 'Flashcard',    href: '/flashcards/ko', live: false },
+      { label: 'Glossary',   href: '/glossary',   live: true },
+      { label: 'Flashcard',  href: '/flashcards', live: false },
+    ]
+  },
+  {
+    lang: 'KOREAN',
+    tools: [
+      { label: 'Glossary',   href: '/glossary/ko',   live: true },
+      { label: 'Flashcard',  href: '/flashcards/ko', live: false },
     ]
   },
 ]
 
 export default function Home() {
   return (
-    <main className={styles.page}>
-      <div className={styles.heroWrap}>
-        <Image src="/images/hero.jpg" alt="Sage's Medical Glossary" width={600} height={450} className={styles.heroImg} priority />
-      </div>
-
-      <nav className={styles.nav}>
-        {nav.map((row, i) => (
+    <div style={{ display:'flex', flexDirection:'column', alignItems:'center', paddingTop:'2rem', paddingBottom:'4rem' }}>
+      <nav style={{ width:'100%', maxWidth:'560px', display:'flex', flexDirection:'column', gap:'1.25rem' }}>
+        {rows.map((row, i) => (
           <div key={row.lang}>
-            <div className={styles.langRow}>
-              <span className={styles.langBadge}>{row.lang}</span>
-              <div className={styles.buttons}>
-                {row.tools.map(tool => {
-                  const active = row.live && tool.live
-                  return active
-                    ? <Link key={tool.label} href={tool.href} className={styles.btn}>{tool.label}</Link>
-                    : <span key={tool.label} className={styles.btnLocked}>{tool.label}</span>
-                })}
+            <div style={{ display:'flex', alignItems:'center', gap:'0.75rem' }}>
+              <span className="c-btn-pixel c-btn-pixel--locked" style={{ width:'5.5rem', textAlign:'center', cursor:'default', fontSize:'0.42rem', lineHeight:1.8 }}>
+                {row.lang}
+              </span>
+              <div style={{ display:'flex', gap:'0.75rem', flexWrap:'wrap' }}>
+                {row.tools.map(tool =>
+                  tool.live
+                    ? <Link key={tool.label} href={tool.href} className="c-btn-pixel" style={{ fontSize:'0.48rem' }}>{tool.label}</Link>
+                    : <span key={tool.label} className="c-btn-pixel c-btn-pixel--locked" style={{ fontSize:'0.48rem' }}>{tool.label}</span>
+                )}
               </div>
             </div>
-            {i < nav.length - 1 && <div className={styles.divider} />}
+            {i < rows.length - 1 && (
+              <div style={{
+                width:'100%', height:'2px', margin:'1.25rem 0 0',
+                background:'repeating-linear-gradient(90deg,var(--color-border) 0px,var(--color-border) 6px,transparent 6px,transparent 12px)'
+              }} />
+            )}
           </div>
         ))}
       </nav>
-
-      <p className={styles.tagline}>© 2026 SageMed · All rights reserved</p>
-    </main>
+      <p style={{ marginTop:'3rem', fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)' }}>
+        © 2026 SageMed · All rights reserved
+      </p>
+    </div>
   )
 }

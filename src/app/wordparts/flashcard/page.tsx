@@ -68,7 +68,7 @@ export default function WordPartsFlashcard() {
       <div style={{ maxWidth:'640px', margin:'2rem auto 0' }}>
         {!started ? (
           <div style={{ textAlign:'center', paddingTop:'2rem' }}>
-            <p style={{ fontSize:'0.9rem', color:'var(--color-text-dim)', marginBottom:'2rem' }}>
+            <p style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'2rem' }}>
               {filtered.length} cards selected — ready to start?
             </p>
             <button className="c-btn-pixel" onClick={startQuiz} style={{ fontSize:'0.55rem', padding:'0.7rem 2.5rem' }}>
@@ -77,7 +77,7 @@ export default function WordPartsFlashcard() {
           </div>
         ) : done ? (
           <div style={{ textAlign:'center', paddingTop:'3rem' }}>
-            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'1.2rem', color:'var(--color-gold)', marginBottom:'0.75rem' }}>
+            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'1.5rem', color:'var(--color-gold)', marginBottom:'0.75rem' }}>
               ✓ {score} / {deck.length}
             </div>
             <p style={{ color:'var(--color-text-dim)', marginBottom:'2rem' }}>
@@ -105,19 +105,19 @@ export default function WordPartsFlashcard() {
             </div>
 
             {/* Flip card */}
-            <div onClick={() => setFlipped(f => !f)} style={{ perspective:'1000px', height:'320px', cursor:'pointer', marginBottom:'1.25rem' }}>
+            <div onClick={() => setFlipped(f => !f)} style={{ perspective:'1000px', height:'380px', cursor:'pointer', marginBottom:'1.25rem' }}>
               <div style={{ position:'relative', width:'100%', height:'100%', transformStyle:'preserve-3d', transition:'transform 0.45s ease', transform:flipped?'rotateY(180deg)':'none' }}>
                 {/* Front */}
                 <div style={{ position:'absolute', inset:0, backfaceVisibility:'hidden', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', gap:'0.75rem', padding:'2rem', background:'var(--color-panel)', border:'1px solid var(--color-border)', boxShadow:'2px 2px 0 0 var(--color-border)' }}>
                   <span className={`c-badge c-badge--${card.t}`}>{TYPE_LABEL[card.t]}</span>
-                  <div style={{ fontSize:'2rem', fontWeight:700, color:'var(--color-text)', textAlign:'center' }}>{card.wp}</div>
-                  <span style={{ fontSize:'1rem', color:'#EF9F27', opacity:card.lvl===3?1:card.lvl===2?0.75:0.45 }}>{'★'.repeat(card.lvl)}</span>
-                  <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.4rem', color:'var(--color-text-dim)', marginTop:'auto' }}>Tap to reveal</p>
+                  <div style={{ fontSize:'2.8rem', fontWeight:700, color:'var(--color-text)', textAlign:'center' }}>{card.wp}</div>
+                  <span style={{ fontSize:'1.4rem', color:'#EF9F27', opacity:card.lvl===3?1:card.lvl===2?0.75:0.45 }}>{'★'.repeat(card.lvl)}</span>
+                  <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.48rem', color:'var(--color-text-dim)', marginTop:'auto' }}>Tap to reveal</p>
                 </div>
                 {/* Back */}
                 <div style={{ position:'absolute', inset:0, backfaceVisibility:'hidden', transform:'rotateY(180deg)', display:'flex', flexDirection:'column', alignItems:'center', padding:'1.5rem 2rem', gap:'0.75rem', background:'var(--color-panel)', border:`1px solid var(--color-gold-dim)`, overflowY:'auto' }}>
-                  <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-text)', textAlign:'center' }}>{card.wp}</div>
-                  <div style={{ fontSize:'0.85rem', color:'var(--color-text-dim)', textAlign:'center', lineHeight:1.5 }}>{card.d}</div>
+                  <div style={{ fontSize:'2rem', fontWeight:700, color:'var(--color-text)', textAlign:'center' }}>{card.wp}</div>
+                  <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', textAlign:'center', lineHeight:1.6 }}>{card.d}</div>
                   <div style={{ width:'100%', display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'0.5rem' }}>
                     {card.ex.map(([term,def],j) => (
                       <div key={j} className={`c-ex-pill c-ex-pill--${card.t}`}><strong>{term}</strong> — {def}</div>
@@ -133,12 +133,12 @@ export default function WordPartsFlashcard() {
                 <button
                   onClick={next}
                   className="c-btn-pixel"
-                  style={{ fontSize:'0.52rem', padding:'0.6rem 1.5rem', background:'rgba(201,64,64,0.15)', color:'#FCA5A5', border:'1px solid #C94040', boxShadow:'none' }}
+                  style={{ fontSize:'0.6rem', padding:'0.7rem 1.8rem', background:'rgba(201,64,64,0.15)', color:'#FCA5A5', border:'1px solid #C94040', boxShadow:'none' }}
                 >✗ Miss</button>
                 <button
                   onClick={handleGotIt}
                   className="c-btn-pixel"
-                  style={{ fontSize:'0.52rem', padding:'0.6rem 1.5rem', background:'rgba(59,170,106,0.15)', color:'#6EE7B7', border:'1px solid #3BAA6A', boxShadow:'none' }}
+                  style={{ fontSize:'0.6rem', padding:'0.7rem 1.8rem', background:'rgba(59,170,106,0.15)', color:'#6EE7B7', border:'1px solid #3BAA6A', boxShadow:'none' }}
                 >✓ Got it</button>
               </div>
             )}

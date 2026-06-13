@@ -284,23 +284,24 @@ body.day .c-stars--1 { color: #9ca3af; }
 /* Abbr badge */
 .c-abbr {
   font-family: var(--font-pixel);
-  font-size: 0.6rem;
+  font-size: 0.82rem;
   color: var(--color-gold);
   background: rgba(240,180,41,0.12);
   border: 1px solid var(--color-gold-dim);
-  padding: 0.25rem 0.55rem;
+  padding: 0.3rem 0.65rem;
+  letter-spacing: 0.05em;
 }
 body.day .c-abbr { color: #185FA5; background: rgba(24,95,165,0.08); border-color: #185FA5; }
 
 /* Field badge */
 .c-field-badge {
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   color: #C8C0E8;
   background: rgba(80,65,200,0.35);
   border: 1px solid var(--color-border);
   padding: 0.15rem 0.4rem;
 }
-body.day .c-field-badge { background: #f3f4f6; color: #374151; border-color: #d0d5e0; }
+body.day .c-field-badge { background: #f3f4f6; color: #374151; border-color: #d0d5e0; font-size: 0.72rem; }
 
 /* Word part highlight spans */
 .c-part-highlight {
@@ -358,7 +359,7 @@ body.day .c-part-s { background: rgba(201,64,64,0.1); border-bottom: 2px solid #
 
 /* Example pills (word parts) */
 .c-ex-pill {
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   padding: 0.3rem 0.6rem;
   line-height: 1.5;
   border-radius: 2px;
@@ -431,16 +432,16 @@ body.day .c-btn-pixel--locked { box-shadow: 0 4px 0 0 #d1d5db, 4px 0 0 0 #d1d5db
 /* Korean text */
 .ko-h {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  color: #B8D4FF;
+  color: var(--color-text);
   margin-bottom: 0.1rem;
 }
-body.day .ko-h { color: #185FA5; }
+body.day .ko-h { color: var(--color-text); }
 
 .ko-l {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 0.78rem;
+  font-size: 1rem;
   color: var(--color-text-dim);
   margin-bottom: 0.6rem;
 }

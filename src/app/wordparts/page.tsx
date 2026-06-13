@@ -76,8 +76,8 @@ export default function WordPartsPage() {
               <span className={`c-badge c-badge--${p.t}`}>{TYPE_LABEL[p.t]}</span>
               <span style={{ fontSize:'0.75rem', color:'#EF9F27', opacity:p.lvl===3?1:p.lvl===2?0.75:0.45 }}>{'★'.repeat(p.lvl)}</span>
             </div>
-            <div style={{ fontSize:'1.1rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.25rem' }}>{p.wp}</div>
-            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', lineHeight:1.5 }}>{p.d}</div>
+            <div style={{ fontSize:'1.2rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.25rem' }}>{p.wp}</div>
+            <div style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', lineHeight:1.6 }}>{p.d}</div>
             <div style={{ display:'flex', flexDirection:'column', gap:'0.35rem' }}>
               {p.ex.map(([term,def],j) => (
                 <div key={j} className={`c-ex-pill c-ex-pill--${p.t}`}>

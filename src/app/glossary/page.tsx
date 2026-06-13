@@ -61,13 +61,13 @@ function Card({ v }: { v: VocabEntry }) {
         <span className={`c-stars ${STAR_CLASS[v.lvl]||''}`}>{STARS[v.lvl]}</span>
         {v.abbr && <span className="c-abbr">{v.abbr}</span>}
       </div>
-      <div style={{ fontSize:'1.05rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.15rem', lineHeight:1.3 }}>
+      <div style={{ fontSize:'1.15rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.15rem', lineHeight:1.3 }}>
         {hovered && v.parts ? segs.map((s,i) => s.wp
           ? <span key={i} className={`c-part-highlight c-part-${s.type}`} data-tooltip={`${s.wp} · ${s.meaning}`}>{s.text}</span>
           : <span key={i}>{s.text}</span>) : v.en_h}
       </div>
-      {v.en_l && <div style={{ fontSize:'0.8rem', color:'var(--color-text-dim)', marginBottom:'0.4rem' }}>{v.en_l}</div>}
-      <p style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', lineHeight:1.55, marginBottom:'0.65rem', display:'-webkit-box', WebkitLineClamp:3, WebkitBoxOrient:'vertical', overflow:'hidden' }}>{v.d}</p>
+      {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.4rem' }}>{v.en_l}</div>}
+      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem', display:'-webkit-box', WebkitLineClamp:3, WebkitBoxOrient:'vertical', overflow:'hidden' }}>{v.d}</p>
       <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>
         {v.f.map(f => <span key={f} className="c-field-badge">{f}</span>)}
       </div>

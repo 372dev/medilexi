@@ -6,10 +6,20 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import './globals.css'
 
+const PAGE_TITLES: Record<string, string> = {
+  '/glossary':            'English Glossary',
+  '/glossary/ko':         'Korean Glossary',
+  '/wordparts':           'Medical Word Parts',
+  '/wordparts/flashcard': 'Word Parts Flashcard',
+  '/flashcards':          'English Flashcard',
+  '/flashcards/ko':       'Korean Flashcard',
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const [isDay, setIsDay] = useState(false)
   const pathname = usePathname()
   const isHome = pathname === '/'
+  const pageTitle = PAGE_TITLES[pathname] || "Sage's Medical Glossary"
 
   useEffect(() => {
     const saved = localStorage.getItem('theme')
@@ -34,23 +44,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <title>Sage's Medical Glossary</title>
+        <title>{pageTitle} — Sage's Medical Glossary</title>
         <meta name="description" content="Bridging the Language of Health Care" />
         <link rel="icon" href="/images/icon.png" type="image/png" />
       </head>
       <body>
         {isHome ? (
-          /* ── LANDING PAGE — full page, no split ── */
+          /* ── LANDING PAGE ── */
           <div style={{ minHeight:'100vh', display:'flex', flexDirection:'column', alignItems:'center', padding:'2rem 1rem 4rem', position:'relative' }}>
-            {/* Day/night toggle top-right */}
             <button
               className="site-header__toggle"
               onClick={toggleMode}
               style={{ position:'absolute', top:'1rem', right:'1rem' }}
               title={isDay ? 'Switch to night mode' : 'Switch to day mode'}
             >{isDay ? '🌙' : '☀️'}</button>
-
-            {/* Hero image */}
             <Image
               src="/images/hero.jpg"
               alt="Sage's Medical Glossary — Bridging the Language of Health Care"
@@ -59,21 +66,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               style={{ imageRendering:'pixelated', width:'100%', maxWidth:'460px', height:'auto', marginBottom:'2rem' }}
               priority
             />
-
-            {/* Nav buttons */}
             {children}
           </div>
         ) : (
-          /* ── INNER PAGES — header + ad columns ── */
+          /* ── INNER PAGES ── */
           <>
             <header className="site-header">
-              <Link href="/" className="site-header__back">← Home</Link>
-              <div className="site-header__title">
-                <span style={{ display:'flex', alignItems:'center', gap:'0.6rem', justifyContent:'center' }}>
-                  <Image src="/images/icon.png" alt="SG" width={24} height={24} style={{ imageRendering:'pixelated' }} />
-                  Sage's Medical Glossary
-                </span>
-              </div>
+              {/* Left: site name + icon */}
+              <Link href="/" className="site-header__brand">
+                <Image src="/images/icon.png" alt="SG" width={22} height={22} style={{ imageRendering:'pixelated', flexShrink:0 }} />
+                <span>Sage's Medical Glossary</span>
+              </Link>
+
+              {/* Centre: page title */}
+              <div className="site-header__title">{pageTitle}</div>
+
+              {/* Right: toggle */}
               <button className="site-header__toggle" onClick={toggleMode} title={isDay ? 'Switch to night mode' : 'Switch to day mode'}>
                 {isDay ? '🌙' : '☀️'}
               </button>

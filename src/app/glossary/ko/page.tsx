@@ -108,9 +108,6 @@ export default function KoGlossaryPage() {
 
   return (
     <>
-      <h2 style={{ fontFamily:'var(--font-pixel)', fontSize:'0.65rem', color:'var(--color-gold)', marginBottom:'1.5rem' }}>
-        Korean Glossary
-      </h2>
       <input className="c-search" type="text" placeholder="Search terms, 한국어 검색..." value={search} onChange={e => setSearch(e.target.value)} />
       <div className="c-filter-row">
         <button className={`c-pill ${!levelFilter?'c-pill--active':''}`} onClick={() => setLevel(null)}>All</button>

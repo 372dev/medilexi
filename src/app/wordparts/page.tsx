@@ -37,9 +37,6 @@ export default function WordPartsPage() {
   return (
     <>
       <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'1.5rem' }}>
-        <h2 style={{ fontFamily:'var(--font-pixel)', fontSize:'0.65rem', color:'var(--color-gold)' }}>
-          Prefix · Root · Suffix
-        </h2>
         <Link href="/wordparts/flashcard" className="c-btn-pixel" style={{ fontSize:'0.45rem', padding:'0.45rem 0.85rem' }}>
           Flashcard Quiz →
         </Link>

@@ -43,9 +43,6 @@ export default function WordPartsFlashcard() {
         <Link href="/wordparts" style={{ fontFamily:'var(--font-pixel)', fontSize:'0.48rem', color:'var(--color-gold)' }}>
           ← Word Parts
         </Link>
-        <h2 style={{ fontFamily:'var(--font-pixel)', fontSize:'0.65rem', color:'var(--color-gold)', flex:1, textAlign:'center' }}>
-          Flashcard Quiz
-        </h2>
       </div>
 
       <div style={{ maxWidth:'640px', margin:'0 auto' }}>

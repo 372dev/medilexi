@@ -4,29 +4,29 @@ const rows = [
   {
     lang: 'WORD PARTS',
     tools: [
-      { label: 'Prefix · Root · Suffix', href: '/wordparts',            live: true },
-      { label: 'Flashcard',              href: '/wordparts/flashcard', live: true },
+      { label: 'Prefix · Root · Suffix', href: '/wordparts',           live: true },
+      { label: 'Flashcard',              href: '/wordparts/flashcard',  live: true },
     ]
   },
   {
     lang: 'ENGLISH',
     tools: [
-      { label: 'Glossary',   href: '/glossary',   live: true },
-      { label: 'Flashcard',  href: '/flashcards', live: false },
+      { label: 'Glossary',  href: '/glossary',   live: true },
+      { label: 'Flashcard', href: '/flashcards',  live: false },
     ]
   },
   {
     lang: 'KOREAN',
     tools: [
-      { label: 'Glossary',   href: '/glossary/ko',   live: true },
-      { label: 'Flashcard',  href: '/flashcards/ko', live: false },
+      { label: 'Glossary',  href: '/glossary/ko',   live: true },
+      { label: 'Flashcard', href: '/flashcards/ko',  live: false },
     ]
   },
 ]
 
 export default function Home() {
   return (
-    <div style={{ display:'flex', flexDirection:'column', alignItems:'center', paddingTop:'2rem', paddingBottom:'4rem' }}>
+    <>
       <nav style={{ width:'100%', maxWidth:'560px', display:'flex', flexDirection:'column', gap:'1.25rem' }}>
         {rows.map((row, i) => (
           <div key={row.lang}>
@@ -54,6 +54,6 @@ export default function Home() {
       <p style={{ marginTop:'3rem', fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)' }}>
         © 2026 SageMed · All rights reserved
       </p>
-    </div>
+    </>
   )
 }

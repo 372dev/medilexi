@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
 const PAGE_TITLES: Record<string, string> = {
@@ -93,6 +94,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </>
         )}
+        <Analytics />
       </body>
     </html>
   )

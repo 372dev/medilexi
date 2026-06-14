@@ -195,3 +195,40 @@ Only three valid strings — no variations allowed.
 ---
 
 *Last updated: June 2026*
+
+---
+
+## 12. Korean Definition Translation Process
+
+Korean definitions (`d_ko`) are translated and validated using a strict two-step process:
+
+### Step 1 — Sage reviews the draft
+Sage reads each Korean definition and checks for naturalness, accuracy, and whether it matches the Korean medical context. Corrections or skips are noted before Step 2 begins.
+
+### Step 2 — Claude validates all three fields together
+Claude cross-checks `ko_h`, `ko_l`, and `d_ko` together against Korean medical web references. The three fields must be internally consistent and match real Korean clinical usage.
+
+**What is checked per entry:**
+- `ko_h` — Is this the actual Korean medical term used in clinical settings (not a direct translation of English)?
+- `ko_l` — Is this a genuinely natural, short patient-facing expression actually used in everyday Korean? Is it clearly different from `ko_h`?
+- `d_ko` — Does the definition use real Korean medical terminology (not translated English)? Is it consistent with `ko_h` and `ko_l`?
+
+**References used:**
+- 서울아산병원 질환백과 (amc.seoul.kr)
+- 서울대학교병원 의학정보 (snuh.org)
+- MSD 매뉴얼 한국어판 (msdmanuals.com/ko)
+- 대한의학회 / 대한내과학회 / 대한당뇨병학회 등 학회 자료
+- 국가건강정보포털 질병관리청 (health.kdca.go.kr)
+- 알기쉬운 의학용어 풀이집 (지제근, 고려의학)
+- 나무위키 / 위키백과 (보조 참고용)
+
+**Batch size:** 10 entries at a time
+**Order:** Sage reviews → Claude validates → apply → next batch
+
+### Key Rules
+- `d_ko` must be written in natural Korean medical language — NOT a translation of the English definition
+- If `ko_l` is identical or near-identical to `ko_h`, remove `ko_l`
+- If `ko_l` sounds like a description rather than a natural patient expression, revise or remove
+- Korean BMI obesity threshold: ≥25 (not ≥30 which is the Western standard)
+- Korean hypertension threshold: 수축기 ≥140 / 이완기 ≥90 mmHg (Korean standard)
+- No Chinese characters (한자) in any Korean field

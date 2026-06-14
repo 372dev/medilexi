@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const [isDay, setIsDay] = useState(false)
   const pathname = usePathname()
   const isHome = pathname === '/'
-  const pageTitle = PAGE_TITLES[pathname] || "Sage's Medical Glossary"
+  const pageTitle = PAGE_TITLES[pathname] || 'Medi Lexi'
 
   useEffect(() => {
     const saved = localStorage.getItem('theme')
@@ -46,8 +46,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <title>{pageTitle} — Sage's Medical Glossary</title>
-        <meta name="description" content="Bridging the Language of Health Care" />
+        <title>{pageTitle} — Medi Lexi</title>
+        <meta name="description" content="Medi Lexi — Multilingual Glossary · Bridging the Language of Health Care" />
         <link rel="icon" href="/images/icon.png" type="image/png" />
       </head>
       <body>
@@ -62,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             >{isDay ? '🌙' : '☀️'}</button>
             <Image
               src="/images/hero.jpg"
-              alt="Sage's Medical Glossary — Bridging the Language of Health Care"
+              alt="Medi Lexi — Multilingual Glossary · Bridging the Language of Health Care"
               width={460}
               height={259}
               style={{ imageRendering:'pixelated', width:'100%', maxWidth:'460px', height:'auto', marginBottom:'2rem' }}
@@ -76,8 +76,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <header className="site-header">
               {/* Left: site name + icon */}
               <Link href="/" className="site-header__brand">
-                <Image src="/images/icon.png" alt="SG" width={22} height={22} style={{ imageRendering:'pixelated', flexShrink:0 }} />
-                <span>Sage's Medical Glossary</span>
+                <Image src="/images/icon.png" alt="Medi Lexi" width={22} height={22} style={{ imageRendering:'pixelated', flexShrink:0 }} />
+                <span>Medi Lexi</span>
               </Link>
 
               {/* Centre: page title */}

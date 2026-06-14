@@ -27,6 +27,9 @@ const rows = [
 export default function Home() {
   return (
     <>
+      <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.38rem', color:'var(--color-text-dim)', marginBottom:'1.5rem', letterSpacing:'0.04em', textAlign:'center' }}>
+        Multilingual Glossary
+      </p>
       <nav style={{ width:'100%', maxWidth:'480px', display:'flex', flexDirection:'column', gap:'1rem' }}>
         {rows.map((row, i) => (
           <div key={row.lang}>
@@ -64,7 +67,7 @@ export default function Home() {
         ))}
       </nav>
       <p style={{ marginTop:'2.5rem', fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)' }}>
-        © 2026 SageMed · All rights reserved
+        © 2026 Medi Lexi · All rights reserved
       </p>
     </>
   )

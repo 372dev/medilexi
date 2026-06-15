@@ -148,7 +148,7 @@ export default function KoGlossaryPage() {
       {/* ── Sticky filter bar ── */}
       <div className="c-filter-bar">
         <div className="c-search-row">
-          <input className="c-search" type="text" placeholder="Search terms, 한국어 검색..." value={search} onChange={e => setSearch(e.target.value)} />
+          <input className="c-search" type="text" placeholder="Search terms in English or Korean..." value={search} onChange={e => setSearch(e.target.value)} />
           <select className="c-field-drop" value={fieldFilter||''} onChange={e => setField(e.target.value||null)}>
             <option value="">All Fields</option>
             {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
@@ -167,9 +167,12 @@ export default function KoGlossaryPage() {
                 </button>
               ))}
             </div>
-            <div className="c-toggle">
-              <button className={`c-toggle__btn ${defLang==='ko'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('ko')}>한국어</button>
-              <button className={`c-toggle__btn ${defLang==='en'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('en')}>English</button>
+            <div style={{ display:'flex', alignItems:'center', gap:'0.5rem' }}>
+              <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.42rem', color:'var(--color-text-dim)', whiteSpace:'nowrap', lineHeight:1.8 }}>Definition:</span>
+              <div className="c-toggle">
+                <button className={`c-toggle__btn ${defLang==='ko'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('ko')}>한국어</button>
+                <button className={`c-toggle__btn ${defLang==='en'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('en')}>English</button>
+              </div>
             </div>
           </div>
           <span className="c-count" style={{ marginBottom:0 }}>{filtered.length} terms</span>

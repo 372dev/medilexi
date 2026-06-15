@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Analytics } from '@vercel/analytics/react'
@@ -77,7 +76,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <header className="site-header">
               {/* Left: site name + icon */}
               <Link href="/" className="site-header__brand">
-                <Image src="/images/icon.png" alt="Medi Lexi" width={22} height={22} style={{ imageRendering:'pixelated', flexShrink:0 }} />
                 <span>Medi Lexi</span>
               </Link>
 

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useRef } from 'react'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
 import baseData from '@/data/medical_vocab_v1.18.json'
@@ -112,13 +112,15 @@ function KoCard({ v, defLang }: { v: MergedEntry; defLang: 'ko' | 'en' }) {
 }
 
 export default function KoGlossaryPage() {
-  const [search, setSearch]     = useState('')
+  const [inputValue, setInputValue]   = useState('')
+  const [searchQuery, setSearchQuery] = useState('')
+  const composingRef = useRef(false)
   const [fieldFilter, setField] = useState<string|null>(null)
   const [levelFilter, setLevel] = useState<string|null>(null)
   const [defLang, setDefLang]   = useState<'ko'|'en'>('ko')
 
   const filtered = useMemo(() => {
-    const q = search.trim()
+    const q = searchQuery.trim()
 
     if (!q) {
       return vocab.filter(v => {
@@ -141,14 +143,30 @@ export default function KoGlossaryPage() {
         if (levelFilter && v.lvl !== levelFilter) return false
         return true
       })
-  }, [search, fieldFilter, levelFilter])
+  }, [searchQuery, fieldFilter, levelFilter])
 
   return (
     <>
       {/* ── Sticky filter bar ── */}
       <div className="c-filter-bar">
         <div className="c-search-row">
-          <input className="c-search" type="text" placeholder="Search terms in English or Korean..." value={search} onChange={e => setSearch(e.target.value)} />
+          <input
+            className="c-search"
+            type="text"
+            placeholder="Search terms in English or Korean..."
+            value={inputValue}
+            onChange={e => {
+              setInputValue(e.target.value)
+              if (!composingRef.current) setSearchQuery(e.target.value)
+            }}
+            onCompositionStart={() => { composingRef.current = true }}
+            onCompositionEnd={e => {
+              composingRef.current = false
+              const v = (e.target as HTMLInputElement).value
+              setInputValue(v)
+              setSearchQuery(v)
+            }}
+          />
           <select className="c-field-drop" value={fieldFilter||''} onChange={e => setField(e.target.value||null)}>
             <option value="">All Fields</option>
             {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}

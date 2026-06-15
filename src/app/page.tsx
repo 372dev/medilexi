@@ -32,7 +32,7 @@ export default function Home() {
       </p>
       <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.7, maxWidth:'400px', textAlign:'center', marginBottom:'2rem' }}>
         844 medical terms · 319 word parts · Korean bilingual support —
-        for students, clinicians, and medical translators
+        for students, medical interpreters &amp; translators
       </p>
       <nav style={{ width:'100%', maxWidth:'480px', display:'flex', flexDirection:'column', gap:'1rem' }}>
         {rows.map((row, i) => (

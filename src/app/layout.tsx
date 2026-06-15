@@ -48,7 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <title>{pageTitle} — Medi Lexi</title>
-        <meta name="description" content="Medi Lexi — Multilingual Glossary · Bridging the Language of Health Care" />
+        <meta name="description" content="Medi Lexi — Multilingual Medical Glossary for students, medical interpreters &amp; translators" />
         <link rel="icon" href="/images/icon.png" type="image/png" />
       </head>
       <body>

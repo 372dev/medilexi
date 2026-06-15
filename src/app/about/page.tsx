@@ -22,10 +22,9 @@ const STATS = [
 ]
 
 const AUDIENCES = [
-  ['Medical & Nursing Students',        'Building clinical vocabulary for exams and clinical rotations.'],
-  ['Healthcare Professionals',          'Quick bilingual reference across specialties.'],
-  ['Medical Translators & Interpreters','Korean–English terminology with native-language definitions.'],
-  ['Korean Speakers in Healthcare',     'Navigating medical language with first-language support.'],
+  ['Medical & Health Sciences Students', 'Building clinical vocabulary for exams, rotations, and licensing.'],
+  ['Medical Interpreters',               'Accurate Korean–English terminology for oral interpretation in clinical settings.'],
+  ['Medical Translators',                'Reference and study tool for written translation of medical documents.'],
 ]
 
 const LEVELS = [
@@ -44,9 +43,9 @@ export default function AboutPage() {
           About Medi Lexi
         </h1>
         <p style={{ ...PROSE, marginBottom: 0 }}>
-          Medi Lexi is a multilingual medical terminology reference and study platform designed to bridge
-          the language gap in healthcare. It combines a structured glossary with interactive learning tools
-          including flashcards and word-part breakdowns.
+          Medi Lexi is a multilingual medical terminology reference and study platform for students,
+          medical interpreters &amp; translators. It combines a structured glossary with interactive
+          learning tools including flashcards and word-part breakdowns.
         </p>
       </div>
 

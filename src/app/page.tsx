@@ -70,10 +70,13 @@ export default function Home() {
           </div>
         ))}
       </nav>
-      <div style={{ marginTop:'2.5rem', textAlign:'center', opacity:0.6, display:'flex', flexDirection:'column', gap:'0.4rem' }}>
+      <div style={{ marginTop:'2.5rem', textAlign:'center', opacity:0.6, display:'flex', flexDirection:'column', gap:'0.4rem', alignItems:'center' }}>
         <p style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', lineHeight:1.6, maxWidth:'400px' }}>
           For educational purposes only · Not a substitute for professional medical advice
         </p>
+        <Link href="/about" style={{ fontSize:'0.82rem', color:'var(--color-accent)', textDecoration:'underline' }}>
+          About &amp; Sources
+        </Link>
         <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', lineHeight:1.8 }}>
           © 2026 Medi Lexi · All rights reserved
         </p>

@@ -15,6 +15,7 @@ const PAGE_TITLES: Record<string, string> = {
   '/wordparts/flashcard': 'Word Parts Flashcard',
   '/flashcards':          'English Flashcard',
   '/flashcards/ko':       'Korean Flashcard',
+  '/about':               'About',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -97,6 +98,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <p className="site-footer__disclaimer">
                 ⚕ For educational purposes only · Not a substitute for professional medical advice, diagnosis, or treatment ·
                 Content is based on standard medical terminology references and may not reflect the latest clinical guidelines
+              </p>
+              <p style={{ fontSize: '0.82rem' }}>
+                <Link href="/about" style={{ color: 'var(--color-accent)', textDecoration: 'underline' }}>About &amp; Sources</Link>
               </p>
               <p className="site-footer__copy">© 2026 Medi Lexi · All rights reserved</p>
             </footer>

@@ -1,0 +1,144 @@
+const H2: React.CSSProperties = {
+  fontFamily: 'var(--font-pixel)',
+  fontSize: '0.6rem',
+  color: 'var(--color-text)',
+  lineHeight: 2.2,
+  marginBottom: '0.75rem',
+  borderLeft: '3px solid var(--color-gold)',
+  paddingLeft: '0.75rem',
+}
+
+const PROSE: React.CSSProperties = {
+  fontSize: '0.95rem',
+  color: 'var(--color-text-dim)',
+  lineHeight: 1.75,
+  marginBottom: '0.75rem',
+}
+
+const STATS = [
+  { n: '844', label: 'Medical Terms',  sub: '20+ clinical specialties' },
+  { n: '319', label: 'Word Parts',     sub: 'Prefix · Root · Suffix' },
+  { n: '587', label: 'Korean Entries', sub: 'with full definitions' },
+]
+
+const AUDIENCES = [
+  ['Medical & Nursing Students',        'Building clinical vocabulary for exams and clinical rotations.'],
+  ['Healthcare Professionals',          'Quick bilingual reference across specialties.'],
+  ['Medical Translators & Interpreters','Korean–English terminology with native-language definitions.'],
+  ['Korean Speakers in Healthcare',     'Navigating medical language with first-language support.'],
+]
+
+const LEVELS = [
+  ['⭐⭐⭐ Essential',    'var(--color-gold)',   'Core terms encountered in everyday clinical settings.'],
+  ['⭐⭐ Important',      'var(--color-accent)', 'Commonly seen in specific specialties or rotations.'],
+  ['⭐ Good to know',    'var(--color-border)', 'Less frequent but useful for thorough comprehension.'],
+]
+
+export default function AboutPage() {
+  return (
+    <div style={{ maxWidth: '680px', margin: '0 auto', padding: '1.5rem 0 4rem' }}>
+
+      {/* ── Intro ── */}
+      <div style={{ marginBottom: '2.5rem', paddingBottom: '1.5rem', borderBottom: '2px solid var(--color-border)' }}>
+        <h1 style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.75rem', color: 'var(--color-gold)', lineHeight: 2.2, marginBottom: '1rem' }}>
+          About Medi Lexi
+        </h1>
+        <p style={{ ...PROSE, marginBottom: 0 }}>
+          Medi Lexi is a multilingual medical terminology reference and study platform designed to bridge
+          the language gap in healthcare. It combines a structured glossary with interactive learning tools
+          including flashcards and word-part breakdowns.
+        </p>
+      </div>
+
+      {/* ── Stats ── */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem', marginBottom: '2.5rem' }}>
+        {STATS.map(({ n, label, sub }) => (
+          <div key={n} style={{ background: 'var(--color-panel)', border: '1px solid var(--color-border)', padding: '1rem 0.75rem', textAlign: 'center', boxShadow: '2px 2px 0 0 rgba(150,140,255,0.2)' }}>
+            <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '1rem', color: 'var(--color-gold)', lineHeight: 1.6, marginBottom: '0.3rem' }}>{n}</div>
+            <div style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-text)', marginBottom: '0.15rem' }}>{label}</div>
+            <div style={{ fontSize: '0.75rem', color: 'var(--color-text-dim)' }}>{sub}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* ── Who is it for ── */}
+      <section style={{ marginBottom: '2rem' }}>
+        <h2 style={H2}>Who Is It For?</h2>
+        <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+          {AUDIENCES.map(([who, what]) => (
+            <li key={who} style={{ ...PROSE, marginBottom: 0, paddingLeft: '1rem', borderLeft: '2px solid var(--color-border)' }}>
+              <strong style={{ color: 'var(--color-text)' }}>{who}</strong>
+              {' — '}{what}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* ── Level system ── */}
+      <section style={{ marginBottom: '2rem' }}>
+        <h2 style={H2}>Importance Levels</h2>
+        <p style={PROSE}>Each term is assigned one of three levels to guide study priority:</p>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+          {LEVELS.map(([lvl, color, desc]) => (
+            <div key={lvl} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', padding: '0.6rem 0.75rem', background: 'var(--color-panel)', borderLeft: `3px solid ${color}` }}>
+              <span style={{ fontSize: '0.85rem', whiteSpace: 'nowrap', minWidth: '130px', color: 'var(--color-text)' }}>{lvl}</span>
+              <span style={{ fontSize: '0.88rem', color: 'var(--color-text-dim)', lineHeight: 1.6 }}>{desc}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ── Data & Sources ── */}
+      <section style={{ marginBottom: '2rem' }}>
+        <h2 style={H2}>Data &amp; Sources</h2>
+        <p style={PROSE}>
+          Vocabulary content is compiled from standard medical terminology references, including widely-used
+          medical dictionaries and clinical terminology standards. Definitions aim for clarity while preserving
+          clinical accuracy.
+        </p>
+        <p style={PROSE}>
+          Korean translations follow standard medical Korean terminology as used in Korean healthcare and
+          academic settings. The bilingual dataset covers {' '}
+          <strong style={{ color: 'var(--color-text)' }}>587 of the 844 terms</strong>; the remainder are
+          being translated progressively.
+        </p>
+        <p style={PROSE}>
+          The word-parts system is based on classical Greek and Latin medical roots as documented in standard
+          medical etymology references.
+        </p>
+      </section>
+
+      {/* ── Disclaimer ── */}
+      <section style={{ marginBottom: '2rem', background: 'var(--color-panel)', border: '1px solid var(--color-border)', padding: '1.25rem 1.5rem' }}>
+        <h2 style={{ ...H2, marginBottom: '0.75rem' }}>⚕ Disclaimer</h2>
+        <p style={PROSE}>
+          Medi Lexi is an <strong style={{ color: 'var(--color-text)' }}>educational resource only</strong>.
+          It is not intended to provide medical advice, diagnosis, or treatment recommendations.
+          Clinical decisions should always be made by qualified healthcare professionals in
+          consultation with patients.
+        </p>
+        <p style={{ ...PROSE, marginBottom: 0 }}>
+          Content may not reflect the most recent clinical guidelines, drug information, or diagnostic
+          criteria. Always consult authoritative clinical references for patient care.
+        </p>
+      </section>
+
+      {/* ── Feedback ── */}
+      <section>
+        <h2 style={H2}>Feedback &amp; Contributions</h2>
+        <p style={PROSE}>
+          Found an error, missing term, or translation issue? Contributions and issue reports are welcome.
+        </p>
+        <a
+          href="https://github.com/372dev/sage-glossary"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ fontSize: '0.92rem', color: 'var(--color-accent)', textDecoration: 'underline' }}
+        >
+          github.com/372dev/sage-glossary
+        </a>
+      </section>
+
+    </div>
+  )
+}

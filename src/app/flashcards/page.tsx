@@ -70,6 +70,12 @@ export default function FlashcardsPage() {
     next()
   }
 
+  function startMissed() {
+    const missed = deck.filter((_, i) => !known.has(i))
+    setDeck([...missed].sort(() => Math.random() - 0.5))
+    setCardIdx(0); setFlipped(false); setKnown(new Set()); setStarted(true)
+  }
+
   useEffect(() => {
     if (!started) return
     function onKey(e: KeyboardEvent) {
@@ -160,11 +166,20 @@ export default function FlashcardsPage() {
                 ? 'Great job!'
                 : 'Keep practicing!'}
             </p>
-            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+              {known.size < deck.length && (
+                <button
+                  className="c-btn-pixel"
+                  onClick={startMissed}
+                  style={{ fontSize: '0.5rem', padding: '0.6rem 1.5rem', background: 'rgba(201,64,64,0.15)', color: '#FCA5A5', border: '1px solid #C94040', boxShadow: 'none' }}
+                >
+                  ✗ Retry Review ({deck.length - known.size})
+                </button>
+              )}
               <button className="c-btn-pixel" onClick={startDeck} style={{ fontSize: '0.5rem', padding: '0.6rem 1.5rem' }}>
                 Try Again
               </button>
-              <button className="c-btn-pixel" onClick={() => setStarted(false)} style={{ fontSize: '0.5rem', padding: '0.6rem 1.5rem' }}>
+              <button className="c-btn-pixel" onClick={() => setStarted(false)} style={{ fontSize: '0.5rem', padding: '0.6rem 1.5rem', background: 'var(--color-panel)', color: 'var(--color-text-dim)', border: '1px solid var(--color-border)', boxShadow: 'none' }}>
                 Change Filters
               </button>
             </div>

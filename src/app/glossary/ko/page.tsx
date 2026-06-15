@@ -157,21 +157,23 @@ export default function KoGlossaryPage() {
             Flashcard →
           </Link>
         </div>
-        <div style={{ display:'flex', alignItems:'center', gap:'1rem', flexWrap:'wrap' }}>
-          <div className="c-filter-row" style={{ marginBottom:0 }}>
-            <button className={`c-pill ${!levelFilter?'c-pill--active':''}`} onClick={() => setLevel(null)}>All</button>
-            {ALL_LEVELS.map(lvl => (
-              <button key={lvl} className={`c-pill c-pill--star ${levelFilter===lvl?'c-pill--active':''}`} onClick={() => setLevel(levelFilter===lvl?null:lvl)}>
-                {STARS[lvl]}
-              </button>
-            ))}
+        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:'0.75rem', flexWrap:'wrap' }}>
+          <div style={{ display:'flex', alignItems:'center', gap:'0.75rem', flexWrap:'wrap' }}>
+            <div className="c-filter-row" style={{ marginBottom:0 }}>
+              <button className={`c-pill ${!levelFilter?'c-pill--active':''}`} onClick={() => setLevel(null)}>All</button>
+              {ALL_LEVELS.map(lvl => (
+                <button key={lvl} className={`c-pill c-pill--star ${levelFilter===lvl?'c-pill--active':''}`} onClick={() => setLevel(levelFilter===lvl?null:lvl)}>
+                  {STARS[lvl]}
+                </button>
+              ))}
+            </div>
+            <div className="c-toggle">
+              <button className={`c-toggle__btn ${defLang==='ko'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('ko')}>한국어</button>
+              <button className={`c-toggle__btn ${defLang==='en'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('en')}>English</button>
+            </div>
           </div>
-          <div className="c-filter-row" style={{ marginBottom:0 }}>
-            <button className={`c-pill ${defLang==='ko'?'c-pill--active':''}`} onClick={() => setDefLang('ko')}>한국어 정의</button>
-            <button className={`c-pill ${defLang==='en'?'c-pill--active':''}`} onClick={() => setDefLang('en')}>English Def</button>
-          </div>
+          <span className="c-count" style={{ marginBottom:0 }}>{filtered.length} terms</span>
         </div>
-        <div className="c-count">{filtered.length} terms</div>
       </div>
 
       {/* ── Cards ── */}

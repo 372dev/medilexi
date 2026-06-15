@@ -12744,5 +12744,82 @@
       "Dermatology",
       "Endocrinology"
     ]
+  },
+  {
+    "en_h": "Albuminuria",
+    "d": "Presence of albumin protein in the urine; an early marker of kidney damage.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Nephrology"
+    ]
+  },
+  {
+    "en_h": "Chlorosis",
+    "d": "Archaic term for iron-deficiency anemia causing greenish-yellow skin pallor.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Hematology"
+    ]
+  },
+  {
+    "en_h": "Rhodopsin",
+    "d": "Light-sensitive pigment in retinal rod cells essential for vision in low-light conditions.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Ophthalmology",
+      "Anatomy"
+    ]
+  },
+  {
+    "en_h": "Juxtaglomerular",
+    "d": "Adjacent to the glomerulus; juxtaglomerular cells regulate blood pressure via renin secretion.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Nephrology",
+      "Anatomy"
+    ]
+  },
+  {
+    "en_h": "Capitate",
+    "d": "The largest of the eight carpal bones, located at the center of the wrist.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Anatomy",
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Chronobiology",
+    "d": "Study of biological rhythms and their effects on physiology, behavior, and health.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Splanchnic",
+    "d": "Pertaining to the visceral organs of the abdomen; splanchnic nerves supply the abdominal organs.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Anatomy",
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Levocardia",
+    "d": "Normal left-sided positioning of the heart; the term is used when situs inversus affects other organs.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Cardiology",
+      "Anatomy"
+    ]
+  },
+  {
+    "en_h": "Dextrocardia",
+    "d": "Congenital condition where the heart is positioned on the right side of the chest.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Cardiology"
+    ]
   }
 ]

@@ -58,8 +58,8 @@
         "Absence of pigment causing white skin and hair"
       ],
       [
-        "Albumin",
-        "White protein found in blood plasma"
+        "Albuminuria",
+        "Excess albumin protein in the urine; a sign of kidney damage"
       ]
     ]
   },
@@ -166,8 +166,8 @@
     "d": "(Greek) Green",
     "ex": [
       [
-        "Chlorophyll",
-        "Green pigment in plants that captures sunlight"
+        "Chlorosis",
+        "Condition of greenish-yellow skin pallor from iron deficiency"
       ],
       [
         "Chloroma",
@@ -186,8 +186,8 @@
         "Color-staining body in the cell nucleus"
       ],
       [
-        "Chromatopsia",
-        "Abnormal color perception"
+        "Chromosome",
+        "Thread-like structure of DNA and protein carrying genetic information"
       ]
     ]
   },
@@ -202,8 +202,8 @@
         "Study of time-based biological rhythms"
       ],
       [
-        "Chronotherapy",
-        "Treatment timed to biological cycles"
+        "Chronobiology",
+        "Study of biological rhythms and their effects on health and disease"
       ]
     ]
   },
@@ -266,8 +266,8 @@
         "Heart positioned on the right side of the chest"
       ],
       [
-        "Dextrose",
-        "Right-rotating glucose sugar"
+        "Dextrocardia",
+        "Congenital condition where the heart is positioned on the right side of the chest"
       ]
     ]
   },
@@ -602,8 +602,8 @@
         "Adjacent to the glomerulus in the kidney"
       ],
       [
-        "Juxtaposition",
-        "Placement of two things side by side"
+        "Juxtaglomerular",
+        "Adjacent to the glomerulus; juxtaglomerular cells regulate blood pressure"
       ]
     ]
   },
@@ -634,8 +634,8 @@
         "Normal left-sided position of the heart"
       ],
       [
-        "Sinistral",
-        "Pertaining to the left side"
+        "Levocardia",
+        "Normal left-sided heart position; term used when situs inversus affects other organs"
       ]
     ]
   },
@@ -742,8 +742,8 @@
     "d": "(Greek) Small",
     "ex": [
       [
-        "Microbe",
-        "Microscopic organism"
+        "Microcephaly",
+        "Abnormally small head circumference due to impaired brain development"
       ],
       [
         "Microcephaly",
@@ -842,8 +842,8 @@
         "Disorder causing purple pigment buildup in tissues"
       ],
       [
-        "Porphyrin",
-        "Purple-red pigment compound found in hemoglobin"
+        "Porphyria",
+        "Metabolic disorder of heme synthesis causing skin and neurological symptoms"
       ]
     ]
   },
@@ -986,8 +986,8 @@
         "Rose-colored light-sensitive pigment in the retina"
       ],
       [
-        "Rhododendron",
-        "Rose-tree (botanical origin of term)"
+        "Rhodopsin",
+        "Light-sensitive pigment in retinal rod cells essential for low-light vision"
       ]
     ]
   },
@@ -1498,8 +1498,8 @@
         "Head-shaped bone of the wrist"
       ],
       [
-        "Decapitation",
-        "Separation of the head from the body"
+        "Capitate",
+        "Largest of the eight carpal bones, located at the center of the wrist"
       ]
     ]
   },
@@ -1738,8 +1738,8 @@
         "Bluish skin discoloration from low oxygen"
       ],
       [
-        "Cyanide",
-        "Toxic compound blocking oxygen use in cells"
+        "Cyanosis",
+        "Bluish discoloration of skin due to oxygen deficiency in the blood"
       ]
     ]
   },
@@ -2842,8 +2842,8 @@
         "Pertaining to the visceral organs of the abdomen"
       ],
       [
-        "Splanchnology",
-        "Study of the visceral organs"
+        "Splanchnic",
+        "Pertaining to the visceral organs; splanchnic nerves supply the abdominal organs"
       ]
     ]
   },
@@ -4058,8 +4058,8 @@
         "Stopping of bleeding"
       ],
       [
-        "Bacteriostasis",
-        "Inhibition of bacterial growth without killing bacteria"
+        "Hemostasis",
+        "Physiological process that stops bleeding through clotting and vascular constriction"
       ]
     ]
   },
@@ -4250,8 +4250,8 @@
         "Imaging technique producing cross-sectional slices of the body"
       ],
       [
-        "Microtome",
-        "Instrument that cuts thin tissue sections for microscopy"
+        "Tomography",
+        "Imaging technique producing detailed cross-sectional images of the body"
       ]
     ]
   },
@@ -4618,8 +4618,8 @@
         "Condition of air trapped in lung tissue"
       ],
       [
-        "Plumbago",
-        "Archaic term for a lead-poisoning condition"
+        "Emphysema",
+        "Chronic lung disease with permanent destruction of alveolar walls"
       ]
     ]
   },

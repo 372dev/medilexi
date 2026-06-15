@@ -12,14 +12,14 @@ const rows = [
     lang: 'ENGLISH',
     tools: [
       { label: 'Glossary',  href: '/glossary',   live: true },
-      { label: 'Flashcard', href: '/flashcards',  live: false },
+      { label: 'Flashcard', href: '/flashcards',  live: true },
     ]
   },
   {
     lang: 'KOREAN',
     tools: [
       { label: 'Glossary',  href: '/glossary/ko',   live: true },
-      { label: 'Flashcard', href: '/flashcards/ko',  live: false },
+      { label: 'Flashcard', href: '/flashcards/ko',  live: true },
     ]
   },
 ]

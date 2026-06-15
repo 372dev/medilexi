@@ -1,3 +1,7 @@
+import koData from '@/data/medical_vocab_ko.json'
+
+const multilingualCount = (koData as { d_ko?: string }[]).filter(k => !!k.d_ko).length
+
 const H2: React.CSSProperties = {
   fontFamily: 'var(--font-pixel)',
   fontSize: '0.6rem',
@@ -16,21 +20,21 @@ const PROSE: React.CSSProperties = {
 }
 
 const STATS = [
-  { n: '844', label: 'Medical Terms',  sub: '20+ clinical specialties' },
-  { n: '319', label: 'Word Parts',     sub: 'Prefix · Root · Suffix' },
-  { n: '587', label: 'Korean Entries', sub: 'with full definitions' },
+  { n: '844',                      label: 'Medical Terms',        sub: '20+ clinical specialties' },
+  { n: '319',                      label: 'Word Parts',           sub: 'Prefix · Root · Suffix' },
+  { n: String(multilingualCount),  label: 'Multilingual Entries', sub: 'with full definitions' },
 ]
 
 const AUDIENCES = [
-  ['Medical & Health Sciences Students', 'Building clinical vocabulary for exams, rotations, and licensing.'],
-  ['Medical Interpreters',               'Accurate Korean–English terminology for oral interpretation in clinical settings.'],
-  ['Medical Translators',                'Reference and study tool for written translation of medical documents.'],
+  ['Students',               'Medical, nursing, and health sciences students building clinical vocabulary for exams, rotations, and licensing.'],
+  ['Medical Interpreters',   'Accurate Korean–English terminology for oral interpretation in clinical and healthcare settings.'],
+  ['Medical Translators',    'Reference and study tool for written translation of medical documents, records, and literature.'],
 ]
 
 const LEVELS = [
-  ['⭐⭐⭐ Essential',    'var(--color-gold)',   'Core terms encountered in everyday clinical settings.'],
-  ['⭐⭐ Important',      'var(--color-accent)', 'Commonly seen in specific specialties or rotations.'],
-  ['⭐ Good to know',    'var(--color-border)', 'Less frequent but useful for thorough comprehension.'],
+  ['⭐⭐⭐ Essential',  'var(--color-gold)',   'Core terms encountered in everyday clinical settings.'],
+  ['⭐⭐ Important',    'var(--color-accent)', 'Commonly seen in specific specialties or rotations.'],
+  ['⭐ Good to know',  'var(--color-border)', 'Less frequent but useful for thorough comprehension.'],
 ]
 
 export default function AboutPage() {
@@ -52,7 +56,7 @@ export default function AboutPage() {
       {/* ── Stats ── */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem', marginBottom: '2.5rem' }}>
         {STATS.map(({ n, label, sub }) => (
-          <div key={n} style={{ background: 'var(--color-panel)', border: '1px solid var(--color-border)', padding: '1rem 0.75rem', textAlign: 'center', boxShadow: '2px 2px 0 0 rgba(150,140,255,0.2)' }}>
+          <div key={label} style={{ background: 'var(--color-panel)', border: '1px solid var(--color-border)', padding: '1rem 0.75rem', textAlign: 'center', boxShadow: '2px 2px 0 0 rgba(150,140,255,0.2)' }}>
             <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '1rem', color: 'var(--color-gold)', lineHeight: 1.6, marginBottom: '0.3rem' }}>{n}</div>
             <div style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-text)', marginBottom: '0.15rem' }}>{label}</div>
             <div style={{ fontSize: '0.75rem', color: 'var(--color-text-dim)' }}>{sub}</div>
@@ -91,19 +95,20 @@ export default function AboutPage() {
       <section style={{ marginBottom: '2rem' }}>
         <h2 style={H2}>Data &amp; Sources</h2>
         <p style={PROSE}>
-          Vocabulary content is compiled from standard medical terminology references, including widely-used
-          medical dictionaries and clinical terminology standards. Definitions aim for clarity while preserving
-          clinical accuracy.
+          Vocabulary content and definitions were independently researched and compiled. Medical facts,
+          terminology, and standard clinical definitions are not subject to copyright — only the specific
+          expression is. All definitions on this site are written to prioritize clarity for study and
+          interpretation contexts.
         </p>
         <p style={PROSE}>
           Korean translations follow standard medical Korean terminology as used in Korean healthcare and
-          academic settings. The bilingual dataset covers {' '}
-          <strong style={{ color: 'var(--color-text)' }}>587 of the 844 terms</strong>; the remainder are
-          being translated progressively.
+          academic settings. The multilingual dataset currently covers{' '}
+          <strong style={{ color: 'var(--color-text)' }}>{multilingualCount} of the 844 terms</strong>;
+          additional languages are added progressively.
         </p>
         <p style={PROSE}>
-          The word-parts system is based on classical Greek and Latin medical roots as documented in standard
-          medical etymology references.
+          The word-parts system is based on classical Greek and Latin medical roots as documented in
+          established medical etymology traditions.
         </p>
       </section>
 
@@ -126,16 +131,11 @@ export default function AboutPage() {
       <section>
         <h2 style={H2}>Feedback &amp; Contributions</h2>
         <p style={PROSE}>
-          Found an error, missing term, or translation issue? Contributions and issue reports are welcome.
+          Found an error, missing term, or translation issue? We'd love to hear from you.
         </p>
-        <a
-          href="https://github.com/372dev/sage-glossary"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ fontSize: '0.92rem', color: 'var(--color-accent)', textDecoration: 'underline' }}
-        >
-          github.com/372dev/sage-glossary
-        </a>
+        <p style={{ ...PROSE, marginBottom: 0, opacity: 0.6 }}>
+          Feedback form — coming soon.
+        </p>
       </section>
 
     </div>

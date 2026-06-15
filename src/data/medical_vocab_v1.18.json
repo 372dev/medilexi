@@ -10,7 +10,7 @@
       "Cardiology",
       "Internal Medicine"
     ],
-    "d": "Persistently elevated arterial blood pressure (≥130/80 mmHg); the most commonly managed chronic condition in primary care.",
+    "d": "A chronic elevation of systemic arterial blood pressure, defined as sustained readings of ≥140 mmHg systolic or ≥90 mmHg diastolic; a major risk factor for stroke, myocardial infarction, heart failure, and chronic kidney disease.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
@@ -32,7 +32,7 @@
       "Internal Medicine",
       "Endocrinology"
     ],
-    "d": "Chronic metabolic disorder of impaired insulin production or action, resulting in hyperglycemia; type 2 is predominant in family practice.",
+    "d": "A group of metabolic diseases characterized by chronic hyperglycemia resulting from defects in insulin secretion, insulin action, or both; classified into type 1, type 2, gestational, and other specific types based on etiology.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
@@ -62,7 +62,7 @@
       "Family Medicine",
       "Internal Medicine"
     ],
-    "d": "The simultaneous presence of two or more chronic conditions in a single patient.",
+    "d": "The co-occurrence of two or more distinct medical conditions in the same individual, either related or unrelated to the primary diagnosis.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -102,7 +102,7 @@
       "Infectious Disease",
       "Pediatrics"
     ],
-    "d": "Acute infection of the nose, throat, and airways; the single most frequent reason for primary care visits worldwide.",
+    "d": "Acute infectious inflammation of the upper airways, including the nose, pharynx, and larynx; caused predominantly by viruses and among the most common reasons for outpatient medical visits.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -283,7 +283,7 @@
       "Cardiology",
       "Emergency Medicine"
     ],
-    "d": "Gross necrosis of myocardial tissue resulting from the abrupt cessation of coronary blood flow, causing chest pain, cardiac dysfunction, and potentially fatal arrhythmias.",
+    "d": "Death of myocardial tissue caused by prolonged ischemia, most commonly from acute occlusion of a coronary artery by thrombus; presents with chest pain, ECG changes, and elevated cardiac biomarkers.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -302,7 +302,7 @@
       "Cardiology",
       "Emergency Medicine"
     ],
-    "d": "Umbrella term for conditions caused by sudden reduced blood flow to the heart, including unstable angina and MI.",
+    "d": "A spectrum of conditions caused by acute reduction in coronary blood flow, encompassing unstable angina, non-ST-elevation myocardial infarction (NSTEMI), and ST-elevation myocardial infarction (STEMI).",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -633,7 +633,7 @@
     "f": [
       "General Medicine"
     ],
-    "d": "The body's immune response to injury or infection, characterised by redness, swelling, heat, and pain.",
+    "d": "The body's protective immune response to tissue injury, infection, or irritation, characterized by vasodilation, increased vascular permeability, and leukocyte infiltration; manifests clinically as redness, swelling, heat, and pain.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -769,7 +769,7 @@
       "Cardiology",
       "Internal Medicine"
     ],
-    "d": "Abnormal accumulation of fluid in body tissues causing visible swelling, commonly in the legs or lungs.",
+    "d": "Abnormal accumulation of fluid in the interstitial spaces of tissues, causing swelling; may be localized (e.g., limb swelling) or generalized, and results from increased capillary pressure, reduced plasma proteins, or lymphatic obstruction.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "s": [
@@ -879,7 +879,7 @@
       "Neurology",
       "Emergency Medicine"
     ],
-    "d": "A sudden, uncontrolled electrical disturbance in the brain causing changes in behaviour, movement, sensation, or consciousness; a symptom rather than a diagnosis in itself.",
+    "d": "A sudden, uncontrolled electrical disturbance in the brain causing changes in behavior, movement, sensation, or consciousness; a symptom rather than a diagnosis in itself.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -925,7 +925,7 @@
       "Neurology",
       "Family Medicine"
     ],
-    "d": "Pain in any region of the head; classified as primary (migraine, tension) or secondary (due to underlying condition).",
+    "d": "Pain in any region of the head; classified as primary (arising from no underlying condition, e.g. migraine, tension-type) or secondary (due to an underlying condition such as infection or intracranial pathology).",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -1135,7 +1135,7 @@
       "Family Medicine",
       "Internal Medicine"
     ],
-    "d": "Abnormal levels of lipids (cholesterol, triglycerides) in the blood, a key cardiovascular risk factor.",
+    "d": "Abnormal concentrations of lipids or lipoproteins in the blood, including elevated total cholesterol, LDL, triglycerides, or reduced HDL; a major modifiable risk factor for cardiovascular disease.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -1259,7 +1259,7 @@
       "Psychiatry",
       "Family Medicine"
     ],
-    "d": "A mood disorder characterised by persistent low mood, loss of interest or pleasure, and functional impairment lasting at least two weeks; one of the leading causes of disability worldwide.",
+    "d": "A mood disorder characterized by persistent low mood, loss of interest or pleasure, and functional impairment lasting at least two weeks; associated with changes in sleep, appetite, energy, and cognition.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -1354,7 +1354,7 @@
       "Psychiatry",
       "Family Medicine"
     ],
-    "d": "Persistent difficulty initiating or maintaining sleep, causing daytime impairment.",
+    "d": "A sleep disorder characterized by persistent difficulty initiating or maintaining sleep, or early-morning awakening, occurring at least three nights per week for at least three months and causing daytime impairment.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -1373,7 +1373,7 @@
       "Orthopedics",
       "Rehabilitation Medicine"
     ],
-    "d": "Pain localised to the lumbar region, classified as acute (under 6 weeks), subacute, or chronic (over 12 weeks); one of the leading causes of disability and primary care visits globally.",
+    "d": "Pain localized to the lumbar region of the spine, classified as acute (under 6 weeks), subacute (6–12 weeks), or chronic (over 12 weeks); one of the leading causes of disability and work absence worldwide.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -1386,7 +1386,7 @@
       "Psychiatry",
       "Family Medicine"
     ],
-    "d": "Group of mental disorders characterised by excessive fear or worry that interferes with daily functioning.",
+    "d": "A group of mental disorders characterized by excessive, persistent fear or worry that is difficult to control and significantly interferes with daily functioning; includes generalized anxiety disorder, panic disorder, and phobias.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -1419,7 +1419,7 @@
       "Family Medicine",
       "Internal Medicine"
     ],
-    "d": "A reduction in the number of erythrocytes, concentration of haemoglobin, or haematocrit, resulting in fatigue, pallor, and reduced oxygen delivery to tissues.",
+    "d": "A reduction in the number of red blood cells, hemoglobin concentration, or hematocrit below the normal range for age and sex, resulting in reduced oxygen delivery to tissues; causes include iron deficiency, chronic disease, and hemolysis.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
@@ -1489,7 +1489,7 @@
       "Pharmacology",
       "Cardiology"
     ],
-    "d": "Medication that reduces the blood's ability to clot, used to prevent stroke in AFib and treat deep vein thrombosis.",
+    "d": "A drug that inhibits one or more steps in the coagulation cascade to prevent or treat thrombosis; used in atrial fibrillation, venous thromboembolism, mechanical heart valves, and other thromboembolic conditions.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -1522,7 +1522,7 @@
       "Cardiology",
       "Internal Medicine"
     ],
-    "d": "Chronic syndrome where the cardiac output falls short of physiological metabolic demands, accumulating back-pressure fluid in lungs and limbs.",
+    "d": "A clinical syndrome in which the heart fails to maintain adequate cardiac output to meet metabolic demands, resulting in fluid congestion in the lungs and peripheral tissues; typically manifests as dyspnea, edema, and fatigue.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -1589,7 +1589,7 @@
       "Neurology",
       "Emergency Medicine"
     ],
-    "d": "A diagnostic procedure to collect cerebrospinal fluid by inserting a needle between lumbar vertebrae; used for meningitis, subarachnoid hemorrhage diagnosis.",
+    "d": "A procedure in which a needle is inserted into the subarachnoid space between lumbar vertebrae to collect cerebrospinal fluid for diagnostic analysis or to administer intrathecal medication.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -2168,7 +2168,7 @@
       "Pharmacology",
       "Cardiology"
     ],
-    "d": "Class of medications that block adrenaline receptors to slow heart rate and reduce blood pressure.",
+    "d": "A class of medications that competitively block beta-adrenergic receptors, reducing heart rate, myocardial contractility, and blood pressure; used in hypertension, angina, arrhythmia, heart failure, and migraine prophylaxis.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -2199,7 +2199,7 @@
       "General Medicine",
       "Family Medicine"
     ],
-    "d": "A patient's ability to obtain, process, and understand basic health information to make appropriate health decisions.",
+    "d": "The degree to which individuals can obtain, process, and understand health information and services needed to make informed decisions about their health.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -2225,7 +2225,7 @@
       "General Medicine",
       "Family Medicine"
     ],
-    "d": "Long-term, consistent relationship between a patient and their primary care provider.",
+    "d": "The consistent and coordinated provision of healthcare to a patient over time and across different care settings, encompassing the ongoing relationship between patient and provider.",
     "lvl": "⭐ Good to know"
   },
   {
@@ -2262,7 +2262,7 @@
     "f": [
       "General Medicine"
     ],
-    "d": "Surgical specialty dealing with organs in the chest including the lungs, heart, oesophagus, and great vessels.",
+    "d": "Surgical specialty dealing with diseases and conditions of the organs within the thoracic cavity, including the lungs, esophagus, mediastinum, and great vessels.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -2369,7 +2369,7 @@
     "f": [
       "General Medicine"
     ],
-    "d": "Subspecialty dealing with diseases of the blood and blood-forming organs, including anaemia, clotting disorders, and leukaemia.",
+    "d": "Subspecialty dealing with diseases of the blood and blood-forming organs, including anemia, clotting disorders, and leukemia.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -2434,7 +2434,7 @@
       "Gastroenterology",
       "Emergency Medicine"
     ],
-    "d": "The vomiting of bright red blood or \"coffee-ground\" material, indicating acute bleeding in the upper gastrointestinal tract.",
+    "d": "Vomiting of blood originating from the upper gastrointestinal tract; may appear as bright red blood or dark, coffee-ground material depending on the rate of bleeding and gastric acid exposure.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -3008,7 +3008,7 @@
       "Emergency Medicine",
       "Surgery"
     ],
-    "d": "Inflammatory process affecting the peritoneum, most commonly due to bacterial infection following perforation of an abdominal organ.",
+    "d": "Inflammation of the peritoneum, most commonly caused by bacterial contamination following perforation of an abdominal viscus; presents with diffuse abdominal pain, rigidity, and fever.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -3215,7 +3215,7 @@
       "Otolaryngology",
       "Family Medicine"
     ],
-    "d": "Inflammation of the mucosal lining of the paranasal sinuses, resulting from infection, allergy, or autoimmune issues.",
+    "d": "Inflammation of the mucous membranes lining one or more of the paranasal sinuses; most commonly caused by viral upper respiratory infection, with secondary bacterial infection in some cases.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -3331,7 +3331,7 @@
       "Dermatology",
       "Immunology"
     ],
-    "d": "A vascular reaction of the skin characterized by the transient appearance of elevated, pruritic wheals caused by histamine release.",
+    "d": "A skin condition characterized by the transient appearance of raised, itchy wheals (hives) resulting from the release of histamine and other mediators from mast cells; triggers include allergens, medications, and infections.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -3615,7 +3615,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "Formation of a blood clot within a deep vein, most commonly occurring within the deep tissues of the calves or thighs.",
+    "d": "Formation of a thrombus within the deep venous system, most commonly in the lower extremities; may propagate and embolize to the pulmonary circulation, causing pulmonary embolism.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -3656,7 +3656,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "A catastrophic, life-threatening vascular condition where the inner layer of the aorta tears, creating a false blood-filled channel within the arterial wall.",
+    "d": "A condition in which a tear in the inner layer of the aorta allows blood to enter and dissect between the layers of the vessel wall, creating a false lumen; a cardiovascular emergency with high mortality.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -3674,7 +3674,7 @@
       "Surgery",
       "Gastroenterology"
     ],
-    "d": "The surgical excision and extraction of the gallbladder, typically to treat symptomatic cholelithiasis or cholecystitis.",
+    "d": "Surgical removal of the gallbladder, performed most commonly via laparoscopy; the primary treatment for symptomatic cholelithiasis and cholecystitis.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -3695,7 +3695,7 @@
       "Surgery",
       "Emergency Medicine"
     ],
-    "d": "The emergency or elective surgical removal of the vermiform appendix to cure acute appendicitis.",
+    "d": "Surgical removal of the vermiform appendix; the standard treatment for acute appendicitis, performed by open or laparoscopic technique.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -3738,7 +3738,7 @@
       "OBGYN",
       "Surgery"
     ],
-    "d": "The surgical extraction and removal of all or part of the uterus, commonly indicated for fibroids, endometriosis, or gynecological malignancies.",
+    "d": "Surgical removal of the uterus; indications include uterine fibroids, endometriosis, abnormal uterine bleeding, and gynecologic malignancies; may be partial or total.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -4128,7 +4128,7 @@
     "f": [
       "Pulmonology"
     ],
-    "d": "A chronic, progressive respiratory disease where the alveoli become scarred and thickened, obstructing gas exchange.",
+    "d": "A chronic, progressive lung disease in which the lung interstitium becomes scarred and thickened, reducing compliance and impairing gas exchange; idiopathic pulmonary fibrosis is the most common form.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -4866,7 +4866,7 @@
       "Internal Medicine",
       "Immunology"
     ],
-    "d": "Disease or abnormal enlargement of lymph nodes, often reacting to localized infection, inflammation, or malignancy.",
+    "d": "Enlargement of one or more lymph nodes, occurring as a reactive response to localized or systemic infection, inflammation, or malignancy.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -4911,7 +4911,7 @@
       "Hematology",
       "Emergency Medicine"
     ],
-    "d": "A grave pathological systemic process where widespread microvascular blood clotting depletes clotting factors, resulting in severe hemorrhage.",
+    "d": "A systemic disorder in which widespread intravascular coagulation is triggered by an underlying condition, consuming clotting factors and platelets and leading to simultaneous thrombosis and hemorrhage.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -5203,7 +5203,7 @@
       "Urology",
       "Oncology"
     ],
-    "d": "An abnormal increase in tissue or organ volume caused by an elevated rate of cellular division, resulting in a higher headcount of normal cells.",
+    "d": "An increase in the number of cells in a tissue or organ, resulting in enlargement; may be physiological (e.g. endometrial proliferation) or pathological (e.g. prostatic hyperplasia).",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -5449,7 +5449,7 @@
       "Rheumatology",
       "Orthopedics"
     ],
-    "d": "Pain, aching, or tenderness in one or more muscles; may be localised (e.g. trauma) or diffuse (e.g. influenza, fibromyalgia, statin use).",
+    "d": "Pain in one or more muscles; may be localized (due to trauma or overuse) or diffuse (as in viral illness, fibromyalgia, or statin myopathy).",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -5565,7 +5565,7 @@
       "Dermatology",
       "Pediatrics"
     ],
-    "d": "Hemorrhages into the skin producing patches of purplish discoloration that do not blanch under pressure.",
+    "d": "A condition characterized by purple or red discoloration of the skin caused by bleeding underneath, which does not blanch with pressure; may indicate platelet disorders, vasculitis, or coagulopathy.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -5765,7 +5765,7 @@
       "Gastroenterology",
       "Emergency Medicine"
     ],
-    "d": "Abnormally dilated veins in the submucosa of the esophagus caused by portal hypertension, typically from cirrhosis; at high risk of catastrophic rupture and massive bleeding.",
+    "d": "Abnormally dilated submucosal veins in the esophagus resulting from portal hypertension, most commonly due to cirrhosis; rupture causes potentially fatal upper gastrointestinal hemorrhage.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -5907,7 +5907,7 @@
       "Oncology",
       "Internal Medicine"
     ],
-    "d": "A complex metabolic syndrome associated with underlying illness, characterised by involuntary weight loss, muscle wasting (sarcopenia), fatigue, weakness, and loss of appetite; common in cancer, heart failure, and chronic infection.",
+    "d": "A complex metabolic syndrome associated with underlying illness, characterized by progressive involuntary weight loss, muscle wasting, fatigue, weakness, and anorexia; occurs in cancer, chronic heart failure, and advanced infections.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -5986,7 +5986,7 @@
       "Anatomy",
       "Pulmonology"
     ],
-    "d": "A dome-shaped muscular partition separating the thoracic cavity from the abdominal cavity; primary respiratory engine.",
+    "d": "A dome-shaped musculotendinous partition separating the thoracic and abdominal cavities; the principal muscle of respiration, contracting to increase thoracic volume during inhalation.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -6049,7 +6049,7 @@
       "Anatomy",
       "Otolaryngology"
     ],
-    "d": "A flap of cartilage at the root of the tongue, depressed during swallowing to cover the trachea.",
+    "d": "A leaf-shaped cartilaginous structure at the base of the tongue that folds over the glottis during swallowing to prevent aspiration of food and liquid into the trachea.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -6299,7 +6299,7 @@
       "Anatomy",
       "Nephrology"
     ],
-    "d": "The functional unit of the kidney, consisting of a glomerulus and tubule system.",
+    "d": "The structural and functional unit of the kidney, consisting of a glomerulus (filtering capillary tuft) and a series of renal tubules; each kidney contains approximately one million nephrons.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6318,7 +6318,7 @@
       "Nephrology",
       "Pathology"
     ],
-    "d": "A cluster of small blood capillaries around the end of a kidney tubule filtering plasma.",
+    "d": "A tuft of fenestrated capillaries enclosed within Bowman's capsule in the renal cortex; the site of plasma ultrafiltration and the first step in urine formation.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6336,7 +6336,7 @@
       "Anatomy",
       "Urology"
     ],
-    "d": "The muscular tissue duct by which urine passes from the kidney to the bladder.",
+    "d": "A paired muscular tube that transports urine from the renal pelvis to the urinary bladder via peristaltic contractions.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6354,7 +6354,7 @@
       "Anatomy",
       "Urology"
     ],
-    "d": "The duct by which urine is conveyed out of the body from the bladder.",
+    "d": "The tube that conveys urine from the bladder to the exterior of the body; in males, also serves as the ejaculatory duct.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6411,7 +6411,7 @@
       "Neurology",
       "Surgery"
     ],
-    "d": "The central trunk of the brain consisting of medulla, pons, and midbrain continuing to spinal cord.",
+    "d": "The stalk-like portion of the brain connecting the cerebrum to the spinal cord, comprising the medulla oblongata, pons, and midbrain; controls vital autonomic functions including respiration, heart rate, and blood pressure.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -6425,7 +6425,7 @@
       "Neurology",
       "Infectious Disease"
     ],
-    "d": "The three membranes that line the skull and enclose the brain and spinal cord.",
+    "d": "The three protective membranous layers surrounding the brain and spinal cord: the dura mater (outermost), arachnoid mater (middle), and pia mater (innermost); inflammation of these membranes constitutes meningitis.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6444,7 +6444,7 @@
       "Neurology",
       "Psychiatry"
     ],
-    "d": "The elongated ridges on the floor of lateral ventricles involved in complex memory processing.",
+    "d": "A curved, paired structure in the medial temporal lobe of the brain; critical for the formation of new declarative memories and spatial navigation; one of the first regions affected in Alzheimer's disease.",
     "lvl": "⭐ Good to know"
   },
   {
@@ -6458,7 +6458,7 @@
       "Neurology",
       "Surgery"
     ],
-    "d": "The cylindrical bundle of nerve fibers enclosed in the spine connecting body to brain.",
+    "d": "A cylindrical column of nerve tissue extending from the brainstem through the vertebral canal; transmits motor signals from the brain to the body and sensory signals from the body to the brain; protected by the vertebrae and meninges.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6476,7 +6476,7 @@
       "Anatomy",
       "Orthopedics"
     ],
-    "d": "A long bone that serves as a strut between the shoulder blade and the sternum.",
+    "d": "A curved long bone connecting the sternum to the scapula, forming part of the shoulder girdle; the most frequently fractured bone in the upper extremity.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -6489,7 +6489,7 @@
       "Anatomy",
       "Orthopedics"
     ],
-    "d": "Technical term for the shoulder blade situated in the superior posterior thorax.",
+    "d": "A flat, triangular bone of the posterior shoulder girdle that articulates with the clavicle and humerus to form the shoulder joint; provides attachment for major muscles of the upper limb.",
     "lvl": "⭐ Good to know"
   },
   {
@@ -6503,7 +6503,7 @@
       "Surgery",
       "Orthopedics"
     ],
-    "d": "The long flat bone located in the center of the chest connecting to ribs.",
+    "d": "A flat bone in the anterior midline of the thorax consisting of the manubrium, body, and xiphoid process; articulates with the clavicles and costal cartilages of ribs 1–7.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6521,7 +6521,7 @@
       "Anatomy",
       "Orthopedics"
     ],
-    "d": "The bone of the thigh or upper hind limb, articulating at hip and knee.",
+    "d": "The longest and strongest bone in the body, extending from the hip joint proximally to the knee joint distally; the only bone of the thigh.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -6534,7 +6534,7 @@
       "Anatomy",
       "Orthopedics"
     ],
-    "d": "Small thick open-ended sesamoid bone protecting the anterior knee joint line.",
+    "d": "A triangular sesamoid bone embedded in the quadriceps tendon, articulating with the distal femur; protects the knee joint and improves the mechanical advantage of the quadriceps.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -6601,7 +6601,7 @@
       "Dermatology",
       "Pathology"
     ],
-    "d": "The surface epithelium of the skin forming a protective lipid defensive barrier.",
+    "d": "The outermost, avascular layer of the skin, composed primarily of stratified squamous epithelium; provides a protective physical and chemical barrier against pathogens, UV radiation, and water loss.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -6907,7 +6907,7 @@
       "Anesthesiology",
       "OBGYN"
     ],
-    "d": "Injection of anesthetic into the epidural space of the spine to block pain in the lower body; commonly used in labour and back surgery.",
+    "d": "Injection of local anesthetic and/or opioids into the epidural space of the lumbar spine to block pain transmission from the lower body; commonly used in labor analgesia and postoperative pain management.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -7398,7 +7398,7 @@
       "Anatomy",
       "Neurology"
     ],
-    "d": "A bundle of nerve fibres (axons) that transmit electrical impulses between the central nervous system and the rest of the body.",
+    "d": "A bundle of axons enclosed in connective tissue sheaths that transmit electrical signals between the central nervous system and target organs, muscles, and sensory receptors.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -7416,7 +7416,7 @@
       "Anatomy",
       "Neurology"
     ],
-    "d": "The fundamental structural and functional unit of the nervous system; specialised cells that receive, process, and transmit information via electrical and chemical signals.",
+    "d": "The fundamental cellular unit of the nervous system; specialized cells that receive, integrate, and transmit information through electrical impulses and chemical synaptic signals.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -8332,7 +8332,7 @@
       "Surgery",
       "Gastroenterology"
     ],
-    "d": "A surgical abdominal opening through which part of the colon passes, diverting faeces into an external bag.",
+    "d": "A surgical procedure creating an opening (stoma) in the abdominal wall through which a portion of the colon is brought, diverting fecal material into an external pouch.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -8619,7 +8619,7 @@
       "Hematology",
       "Pathology"
     ],
-    "d": "Biconcave disc cells containing haemoglobin that transport oxygen from lungs to tissues.",
+    "d": "Mature red blood cells lacking a nucleus, containing hemoglobin that transports oxygen from the lungs to tissues and returns carbon dioxide for exhalation.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -9322,7 +9322,7 @@
       "Hematology",
       "Pathology"
     ],
-    "d": "An immature bone marrow precursor cell developing into granulocytes; elevated in acute myeloid leukaemia.",
+    "d": "An immature precursor cell in the bone marrow that develops into granulocytes; abnormally elevated counts are characteristic of acute myeloid leukemia.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -9362,7 +9362,7 @@
       "Hematology",
       "Oncology"
     ],
-    "d": "Cancer of plasma cells in bone marrow; causes bone destruction, anaemia, and immune dysfunction.",
+    "d": "A malignant neoplasm of plasma cells in the bone marrow; multiple myeloma is the most common form, causing bone destruction, anemia, hypercalcemia, and impaired immunity.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -10101,7 +10101,7 @@
       "Surgery",
       "Hematology"
     ],
-    "d": "Surgical removal of the spleen for trauma, haematological conditions, or splenic tumours.",
+    "d": "Surgical removal of the spleen; indicated for traumatic rupture, hematologic disorders such as immune thrombocytopenia, or splenic malignancy.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -10532,7 +10532,7 @@
       "Cardiology",
       "Neurology"
     ],
-    "d": "Sudden reversible blood vessel contraction; important in Raynaud's and subarachnoid haemorrhage.",
+    "d": "Sudden, reversible contraction of a blood vessel reducing its lumen; clinically significant in Raynaud phenomenon and as a complication of subarachnoid hemorrhage.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -10676,7 +10676,7 @@
   },
   {
     "en_h": "Angioplasty",
-    "d": "Minimally invasive procedure to widen narrowed or blocked blood vessels using a balloon catheter.",
+    "d": "A minimally invasive endovascular procedure that widens narrowed or obstructed blood vessels, typically using a balloon catheter with or without stent placement.",
     "lvl": "⭐⭐ Important",
     "f": [
       "Cardiology",
@@ -10898,7 +10898,7 @@
   },
   {
     "en_h": "Phlebotomy",
-    "d": "Puncture of a vein to withdraw blood for testing or donation.",
+    "d": "The puncture of a vein to collect blood for laboratory analysis, therapeutic bloodletting (as in polycythemia vera), or blood donation.",
     "lvl": "⭐⭐⭐ Essential",
     "f": [
       "General Medicine",
@@ -10992,7 +10992,7 @@
   },
   {
     "en_h": "Tracheotomy",
-    "d": "Emergency surgical incision into the trachea to establish an airway.",
+    "d": "A surgical incision through the anterior tracheal wall to create a temporary or permanent airway; performed for airway obstruction, prolonged mechanical ventilation, or inability to intubate.",
     "lvl": "⭐⭐⭐ Essential",
     "f": [
       "Emergency Medicine",
@@ -11627,7 +11627,7 @@
   },
   {
     "en_h": "Aortic Aneurysm",
-    "d": "Abnormal dilation of the aortic wall; rupture is life-threatening.",
+    "d": "A permanent, abnormal focal dilation of the aorta to more than 1.5 times its normal diameter; most common in the infrarenal abdominal aorta; rupture carries very high mortality.",
     "lvl": "⭐⭐⭐ Essential",
     "f": [
       "Vascular Surgery",

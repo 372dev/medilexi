@@ -54,9 +54,10 @@ const STAR_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-stars--3', 
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 const ALL_LEVELS = ['⭐⭐⭐ Essential','⭐⭐ Important','⭐ Good to know']
 
-function KoCard({ v }: { v: MergedEntry }) {
+function KoCard({ v, defLang }: { v: MergedEntry; defLang: 'ko' | 'en' }) {
   const [hovered, setHovered] = useState(false)
   const segs = useMemo(() => getSegments(v.en_h, v.parts), [v])
+  const definition = defLang === 'en' ? v.d : (v.d_ko || v.d)
   return (
     <div className="c-card" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
@@ -71,7 +72,7 @@ function KoCard({ v }: { v: MergedEntry }) {
       {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.3rem' }}>{v.en_l}</div>}
       {v.ko_h && <div className="ko-h">{v.ko_h}</div>}
       {v.ko_l && <div className="ko-l">{v.ko_l}</div>}
-      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem', display:'-webkit-box', WebkitLineClamp:3, WebkitBoxOrient:'vertical', overflow:'hidden' }}>{v.d_ko||v.d}</p>
+      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem', display:'-webkit-box', WebkitLineClamp:3, WebkitBoxOrient:'vertical', overflow:'hidden' }}>{definition}</p>
       <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>
         {v.f.map(f => <span key={f} className="c-field-badge">{f}</span>)}
       </div>
@@ -83,6 +84,7 @@ export default function KoGlossaryPage() {
   const [search, setSearch]     = useState('')
   const [fieldFilter, setField] = useState<string|null>(null)
   const [levelFilter, setLevel] = useState<string|null>(null)
+  const [defLang, setDefLang]   = useState<'ko'|'en'>('ko')
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim()
@@ -107,20 +109,26 @@ export default function KoGlossaryPage() {
             {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
           </select>
         </div>
-        <div className="c-filter-row">
-          <button className={`c-pill ${!levelFilter?'c-pill--active':''}`} onClick={() => setLevel(null)}>All</button>
-          {ALL_LEVELS.map(lvl => (
-            <button key={lvl} className={`c-pill c-pill--star ${levelFilter===lvl?'c-pill--active':''}`} onClick={() => setLevel(levelFilter===lvl?null:lvl)}>
-              {STARS[lvl]}
-            </button>
-          ))}
+        <div style={{ display:'flex', alignItems:'center', gap:'1rem', flexWrap:'wrap' }}>
+          <div className="c-filter-row" style={{ marginBottom:0 }}>
+            <button className={`c-pill ${!levelFilter?'c-pill--active':''}`} onClick={() => setLevel(null)}>All</button>
+            {ALL_LEVELS.map(lvl => (
+              <button key={lvl} className={`c-pill c-pill--star ${levelFilter===lvl?'c-pill--active':''}`} onClick={() => setLevel(levelFilter===lvl?null:lvl)}>
+                {STARS[lvl]}
+              </button>
+            ))}
+          </div>
+          <div className="c-filter-row" style={{ marginBottom:0 }}>
+            <button className={`c-pill ${defLang==='ko'?'c-pill--active':''}`} onClick={() => setDefLang('ko')}>한국어 정의</button>
+            <button className={`c-pill ${defLang==='en'?'c-pill--active':''}`} onClick={() => setDefLang('en')}>English Def</button>
+          </div>
         </div>
         <div className="c-count">{filtered.length} terms</div>
       </div>
 
       {/* ── Cards ── */}
       <div className="c-grid">
-        {filtered.map((v,i) => <KoCard key={i} v={v} />)}
+        {filtered.map((v,i) => <KoCard key={i} v={v} defLang={defLang} />)}
       </div>
       {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
     </>

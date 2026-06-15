@@ -1441,7 +1441,7 @@
   },
   {
     "wp": "brachy-",
-    "t": "r",
+    "t": "p",
     "lvl": 2,
     "d": "(Greek) Short",
     "ex": [
@@ -4524,22 +4524,6 @@
       [
         "Melanoptysis",
         "Coughing up black or dark-colored sputum"
-      ]
-    ]
-  },
-  {
-    "wp": "auxill/o",
-    "t": "r",
-    "lvl": 2,
-    "d": "(Latin) Armpit, axilla",
-    "ex": [
-      [
-        "Axillary",
-        "Pertaining to the armpit region"
-      ],
-      [
-        "Axillary lymph nodes",
-        "Lymph nodes located in the armpit"
       ]
     ]
   },

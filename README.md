@@ -2,7 +2,7 @@
 
 **sm-glossary.vercel.app** · Built by [372dev](https://github.com/372dev)
 
-A bilingual English–Korean medical reference tool designed for **medical interpreters**, **nursing students**, and **medical students**. Clean, fast, and built to grow.
+A bilingual medical reference tool designed for **medical interpreters**, **nursing students**, and **medical students**. Built to grow — starting with English and Korean, with Japanese and other languages planned.
 
 ---
 
@@ -37,34 +37,73 @@ Sage's Medical Glossary is a searchable, filterable reference for medical termin
 | Framework | Next.js 14 (App Router) |
 | Language | TypeScript |
 | Styling | CSS Modules |
-| Data | JSON (medical_vocab_v1.18.json, medical_wordparts_simple_v1.05.json) |
-| Hosting | Vercel |
+| Data | JSON (see Data Architecture below) |
+| Hosting | Vercel — auto-deploys on every GitHub push |
 | Repo | github.com/372dev/sage-glossary |
 
 ---
 
-## Data
+## Data Architecture
 
-### Vocabulary (`medical_vocab_v1.18.json`)
-- **398 entries** across **30 medical fields**
-- Schema: `en_h`, `en_l`, `abbr`, `ko_h`, `ko_l`, `f`, `d`, `lvl`, `parts`
-- Curated manually with clinical accuracy review
+The glossary uses a **modular data structure** — one base file per language pair:
 
-### Word Parts (`medical_wordparts_simple_v1.05.json`)
-- **368 entries** — prefixes, roots, suffixes
-- Schema: `wp`, `t`, `d` (and `alt` for merged-origin entries)
-- Used to generate inline etymology highlights on glossary cards
+| File | Contents |
+|---|---|
+| `medical_vocab_base.json` | English terms, definitions, fields, levels, word parts (429 entries) |
+| `medical_vocab_ko.json` | Korean layer — `en_h` (key), `ko_h`, `ko_l`, `d_ko` |
+| `medical_wordparts_simple_v1.05.json` | 368 word parts — prefixes, roots, suffixes with meanings |
+
+The Korean glossary merges base + ko at render time by matching `en_h`.
+
+Adding a new language = one new file (e.g. `medical_vocab_jp.json`), no changes to base data.
+
+### Vocabulary entry schema (base)
+```json
+{
+  "en_h": "Hypertension",
+  "en_l": "High blood pressure",
+  "abbr": "HTN",
+  "f": ["Family Medicine", "Cardiology", "Internal Medicine"],
+  "d": "Persistently elevated arterial blood pressure...",
+  "lvl": "⭐⭐⭐ Essential",
+  "parts": { "p": ["hyper-"], "r": ["ten/o"] }
+}
+```
+
+### Language layer schema (e.g. ko)
+```json
+{
+  "en_h": "Hypertension",
+  "ko_h": "고혈압",
+  "ko_l": "혈압이 높음",
+  "d_ko": "지속적으로 높은 동맥 혈압..."
+}
+```
+
+---
+
+## Routes
+
+| URL | Page |
+|---|---|
+| `/` | Landing page — language × tool hub |
+| `/glossary` | English glossary |
+| `/glossary/ko` | Korean–English glossary |
+| `/flashcards` | *(coming soon)* |
+| `/glossary/jp` | *(planned)* |
 
 ---
 
 ## Roadmap
 
-- [x] Landing page (hub with language × tool grid)
+- [x] Landing page (language × tool hub)
 - [x] English Glossary (search, filter, word part highlights)
-- [ ] Korean Glossary
+- [x] Korean–English Glossary
+- [ ] Korean definition translations (in progress — batches of 30)
 - [ ] Flashcard mode (EN/KO flip cards, filtered by field and level)
 - [ ] Blog
 - [ ] Japanese support
+- [ ] Additional language pairs
 - [ ] AdSense integration
 
 ---

@@ -3530,7 +3530,7 @@
         "retin/o"
       ],
       "s": [
-        "-pathy"
+        "-osis, -pathy"
       ]
     }
   },
@@ -3569,12 +3569,14 @@
     "d": "An increase in the number of circulating white blood cells above normal range, typically a response to infection or severe inflammation.",
     "lvl": "⭐⭐ Important",
     "parts": {
+      "p": [
+        "leuko-"
+      ],
       "r": [
-        "leuko-",
         "cyt/o"
       ],
       "s": [
-        "-osis"
+        "-osis, -pathy"
       ]
     }
   },
@@ -3592,7 +3594,7 @@
     "lvl": "⭐ Good to know",
     "parts": {
       "p": [
-        "poly-"
+        "poly-, multi-"
       ],
       "r": [
         "cyt/o"
@@ -3620,7 +3622,7 @@
         "thromb/o"
       ],
       "s": [
-        "-osis"
+        "-osis, -pathy"
       ]
     }
   },
@@ -3911,7 +3913,7 @@
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
-        "peri-"
+        "peri-, circum-"
       ],
       "r": [
         "cardi/o"
@@ -3971,9 +3973,6 @@
     "d": "A localized, abnormal dilation or ballooning of a blood vessel wall, carrying a permanent risk of rupture.",
     "lvl": "⭐⭐ Important",
     "parts": {
-      "r": [
-        "neur/o"
-      ],
       "s": [
         "-eurysm"
       ]
@@ -4046,7 +4045,7 @@
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
-        "hem/o",
+        "hem/o, hemat/o",
         "thorac/o"
       ]
     }
@@ -4137,7 +4136,7 @@
         "fibr/o"
       ],
       "s": [
-        "-osis"
+        "-osis, -pathy"
       ]
     }
   },
@@ -4168,7 +4167,7 @@
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "s": [
-        "-osis"
+        "-osis, -pathy"
       ]
     }
   },
@@ -4366,7 +4365,7 @@
         "dys-"
       ],
       "r": [
-        "arthr/o"
+        "arthr/o, articul/o"
       ]
     }
   },
@@ -10639,5 +10638,2111 @@
         "xantho-"
       ]
     }
+  },
+  {
+    "en_h": "Abdominoplasty",
+    "d": "Surgical reshaping and tightening of the abdominal wall; removes excess skin and fat.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Surgery",
+      "Plastic Surgery"
+    ]
+  },
+  {
+    "en_h": "Adrenalectomy",
+    "d": "Surgical removal of one or both adrenal glands; performed for tumors or hyperfunction.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Surgery",
+      "Endocrinology"
+    ]
+  },
+  {
+    "en_h": "Amniocentesis",
+    "d": "Sampling of amniotic fluid by needle puncture for fetal genetic or developmental testing.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Obstetrics & Gynecology"
+    ]
+  },
+  {
+    "en_h": "Angiogram",
+    "d": "X-ray image of blood vessels obtained after injection of contrast dye.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Radiology",
+      "Cardiology"
+    ]
+  },
+  {
+    "en_h": "Angioplasty",
+    "d": "Minimally invasive procedure to widen narrowed or blocked blood vessels using a balloon catheter.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Cardiology",
+      "Vascular Surgery"
+    ]
+  },
+  {
+    "en_h": "Aortography",
+    "d": "Radiographic imaging of the aorta using injected contrast dye.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Radiology",
+      "Vascular Surgery"
+    ]
+  },
+  {
+    "en_h": "Arteriography",
+    "d": "X-ray imaging of arteries using contrast dye to detect blockages or abnormalities.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Radiology",
+      "Vascular Surgery"
+    ]
+  },
+  {
+    "en_h": "Bronchoscopy",
+    "d": "Direct visual examination of the airways using a flexible fiber-optic scope.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pulmonology"
+    ]
+  },
+  {
+    "en_h": "Carpectomy",
+    "d": "Surgical removal of one or more carpal (wrist) bones.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Cholangiography",
+    "d": "Radiographic imaging of the bile ducts using contrast dye.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Radiology",
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Choledochotomy",
+    "d": "Surgical incision into the common bile duct to remove stones or relieve obstruction.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Surgery",
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Cystoscopy",
+    "d": "Visual examination of the bladder and urethra using a cystoscope.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Duodenoscopy",
+    "d": "Endoscopic examination of the duodenum.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Enteroscopy",
+    "d": "Endoscopic visual examination of the small intestine.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Esophagoscopy",
+    "d": "Direct visual examination of the esophagus using an endoscope.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Fasciectomy",
+    "d": "Surgical removal of fascia tissue; used to treat Dupuytren's contracture or compartment syndrome.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Surgery",
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Gastrectomy",
+    "d": "Surgical removal of all or part of the stomach; performed for cancer or severe ulcer disease.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Surgery",
+      "Oncology"
+    ]
+  },
+  {
+    "en_h": "Gingivectomy",
+    "d": "Surgical removal of gum tissue to treat severe periodontal disease.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Dentistry"
+    ]
+  },
+  {
+    "en_h": "Hysteroscopy",
+    "d": "Direct visual examination of the uterine cavity using a hysteroscope.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Obstetrics & Gynecology"
+    ]
+  },
+  {
+    "en_h": "Ileostomy",
+    "d": "Surgical creation of an opening from the ileum to the abdominal wall for waste elimination.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Surgery",
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Kyphoplasty",
+    "d": "Minimally invasive procedure to restore vertebral height and relieve pain from compression fractures.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Orthopedics",
+      "Neurosurgery"
+    ]
+  },
+  {
+    "en_h": "Labioplasty",
+    "d": "Surgical reshaping of the labia for functional or cosmetic purposes.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Obstetrics & Gynecology",
+      "Plastic Surgery"
+    ]
+  },
+  {
+    "en_h": "Laryngoscopy",
+    "d": "Visual examination of the larynx using a laryngoscope.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Mammogram",
+    "d": "Low-dose X-ray image of breast tissue used for screening or diagnosis of breast cancer.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Radiology",
+      "Oncology"
+    ]
+  },
+  {
+    "en_h": "Mammoplasty",
+    "d": "Surgical reshaping or reconstruction of the breast.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Plastic Surgery",
+      "Oncology"
+    ]
+  },
+  {
+    "en_h": "Myringotomy",
+    "d": "Surgical incision of the eardrum to drain fluid from the middle ear.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Neurotripsy",
+    "d": "Surgical crushing of a nerve to relieve chronic or intractable pain.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Neurosurgery"
+    ]
+  },
+  {
+    "en_h": "Orchiectomy",
+    "d": "Surgical removal of one or both testes; performed for testicular cancer or hormone therapy.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology",
+      "Oncology"
+    ]
+  },
+  {
+    "en_h": "Ovariotomy",
+    "d": "Surgical removal of an ovary; performed for cysts, tumors, or torsion.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Obstetrics & Gynecology"
+    ]
+  },
+  {
+    "en_h": "Pancreatography",
+    "d": "Imaging of the pancreatic ducts, typically via ERCP.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Radiology",
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Phlebotomy",
+    "d": "Puncture of a vein to withdraw blood for testing or donation.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "General Medicine",
+      "Hematology"
+    ]
+  },
+  {
+    "en_h": "Proctoscopy",
+    "d": "Visual examination of the rectum and anus using a rigid scope.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Gastroenterology",
+      "Colorectal Surgery"
+    ]
+  },
+  {
+    "en_h": "Pyelogram",
+    "d": "Radiographic imaging of the renal pelvis and urinary tract using contrast dye.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Radiology",
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Pyloromyotomy",
+    "d": "Surgical incision of the pyloric muscle to relieve infantile pyloric stenosis.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Surgery",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Septoplasty",
+    "d": "Surgical repair of a deviated nasal septum to improve airflow.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Sigmoidoscopy",
+    "d": "Visual examination of the sigmoid colon and rectum using a flexible scope.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Sinusotomy",
+    "d": "Surgical incision into a paranasal sinus to drain infection or remove obstruction.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Sternotomy",
+    "d": "Surgical incision through the sternum to access the thoracic cavity.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Cardiology",
+      "Thoracic Surgery"
+    ]
+  },
+  {
+    "en_h": "Stethoscopy",
+    "d": "Auscultatory examination of the chest using a stethoscope.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Thyroidectomy",
+    "d": "Surgical removal of all or part of the thyroid gland.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Surgery",
+      "Endocrinology"
+    ]
+  },
+  {
+    "en_h": "Tomography",
+    "d": "Imaging technique that generates cross-sectional images of the body.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Radiology"
+    ]
+  },
+  {
+    "en_h": "Tracheotomy",
+    "d": "Emergency surgical incision into the trachea to establish an airway.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Emergency Medicine",
+      "Surgery"
+    ]
+  },
+  {
+    "en_h": "Tympanoplasty",
+    "d": "Surgical repair of the tympanic membrane.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Ureteroscopy",
+    "d": "Visual examination of the ureter using a ureteroscope.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Urethroplasty",
+    "d": "Surgical repair of the urethra for stricture or injury.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Vasectomy",
+    "d": "Surgical severing of the vas deferens for permanent male sterilization.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Ventriculography",
+    "d": "Radiographic or nuclear imaging of the cardiac or cerebral ventricles.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Radiology",
+      "Cardiology"
+    ]
+  },
+  {
+    "en_h": "Vesicostomy",
+    "d": "Surgical creation of an opening from the bladder to the skin surface.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Acrophobia",
+    "d": "Irrational and persistent fear of heights.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Psychiatry"
+    ]
+  },
+  {
+    "en_h": "Adenitis",
+    "d": "Inflammation of a gland or lymph node, usually due to infection.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "General Medicine",
+      "Infectious Disease"
+    ]
+  },
+  {
+    "en_h": "Agoraphobia",
+    "d": "Anxiety disorder characterized by fear of open or crowded spaces from which escape is difficult.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Psychiatry"
+    ]
+  },
+  {
+    "en_h": "Amphiarthrosis",
+    "d": "A slightly movable joint connected by fibrocartilage; e.g., pubic symphysis.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Anatomy"
+    ]
+  },
+  {
+    "en_h": "Anhidrosis",
+    "d": "Inability to sweat normally, impairing the body's ability to regulate temperature.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Dermatology",
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Ankylosis",
+    "d": "Stiffening and immobility of a joint due to fusion of bones or fibrous tissue.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Orthopedics",
+      "Rheumatology"
+    ]
+  },
+  {
+    "en_h": "Aortic Stenosis",
+    "d": "Narrowing of the aortic valve opening, obstructing blood flow from the left ventricle.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Cardiology"
+    ]
+  },
+  {
+    "en_h": "Blepharitis",
+    "d": "Chronic inflammation of the eyelid margins, often caused by bacterial infection or seborrhea.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Blepharoptosis",
+    "d": "Drooping of the upper eyelid due to muscle weakness or nerve damage.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Cerebellitis",
+    "d": "Inflammation of the cerebellum, often following viral infection.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Claustrophobia",
+    "d": "Intense anxiety triggered by enclosed or confined spaces.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Psychiatry"
+    ]
+  },
+  {
+    "en_h": "Colitis",
+    "d": "Inflammation of the colon; causes include infection, IBD, and ischemia.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Corneitis",
+    "d": "Inflammation of the cornea; also called keratitis.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Craniosynostosis",
+    "d": "Premature fusion of one or more cranial sutures in infants, restricting brain growth.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Pediatrics",
+      "Neurosurgery"
+    ]
+  },
+  {
+    "en_h": "Dacryocystitis",
+    "d": "Infection and inflammation of the lacrimal sac, causing tearing and discharge.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Dermatitis",
+    "d": "Inflammation of the skin causing redness, itching, and rash; multiple subtypes exist.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Dermatology"
+    ]
+  },
+  {
+    "en_h": "Duodenitis",
+    "d": "Inflammation of the duodenum, often caused by H. pylori or NSAIDs.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Enteritis",
+    "d": "Inflammation of the small intestine, typically from infection or Crohn's disease.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Epiglottitis",
+    "d": "Acute inflammation of the epiglottis, a life-threatening airway emergency.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Emergency Medicine",
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Esophagitis",
+    "d": "Inflammation of the esophageal lining, most commonly from acid reflux or infection.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Fasciitis",
+    "d": "Inflammation of the fascia; includes plantar fasciitis and necrotizing fasciitis.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Orthopedics",
+      "Surgery"
+    ]
+  },
+  {
+    "en_h": "Fibromyalgia",
+    "d": "Chronic condition characterized by widespread musculoskeletal pain, fatigue, and cognitive disturbance.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Rheumatology",
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Fibrosis",
+    "d": "Excessive formation of fibrous connective tissue as a reparative response to injury.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "General Medicine",
+      "Pathology"
+    ]
+  },
+  {
+    "en_h": "Gingivitis",
+    "d": "Inflammation of the gingiva (gums), the earliest stage of periodontal disease.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Dentistry"
+    ]
+  },
+  {
+    "en_h": "Glomerulosclerosis",
+    "d": "Scarring and hardening of the glomeruli, leading to progressive kidney failure.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Nephrology"
+    ]
+  },
+  {
+    "en_h": "Glossitis",
+    "d": "Inflammation of the tongue causing swelling, color change, and altered texture.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "General Medicine",
+      "Dentistry"
+    ]
+  },
+  {
+    "en_h": "Hepatitis",
+    "d": "Inflammation of the liver; causes include viral infection (A, B, C), alcohol, and autoimmune disease.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Gastroenterology",
+      "Infectious Disease"
+    ]
+  },
+  {
+    "en_h": "Hyperhidrosis",
+    "d": "Excessive sweating beyond what is needed for thermoregulation.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Dermatology"
+    ]
+  },
+  {
+    "en_h": "Ileitis",
+    "d": "Inflammation of the ileum; a common manifestation of Crohn's disease.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Jejunitis",
+    "d": "Inflammation of the jejunum, often from Crohn's disease or infection.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Jejunoileitis",
+    "d": "Simultaneous inflammation of the jejunum and ileum.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Laryngitis",
+    "d": "Inflammation of the larynx causing hoarseness or voice loss.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Myringitis",
+    "d": "Inflammation of the tympanic membrane, often accompanying otitis media.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Necrosis",
+    "d": "Death of body tissue due to injury, infection, or impaired blood supply.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "General Medicine",
+      "Pathology"
+    ]
+  },
+  {
+    "en_h": "Nephroptosis",
+    "d": "Abnormal downward displacement of the kidney when standing.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Nephrology"
+    ]
+  },
+  {
+    "en_h": "Onychomycosis",
+    "d": "Fungal infection of the nails, causing thickening, discoloration, and brittleness.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Dermatology"
+    ]
+  },
+  {
+    "en_h": "Orchitis",
+    "d": "Inflammation of one or both testes, typically from viral or bacterial infection.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Osteomyelitis",
+    "d": "Infection of bone, most commonly caused by Staphylococcus aureus.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Orthopedics",
+      "Infectious Disease"
+    ]
+  },
+  {
+    "en_h": "Otitis",
+    "d": "Inflammation of the ear; classified as otitis externa (outer) or otitis media (middle).",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Otolaryngology",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Pharyngitis",
+    "d": "Inflammation of the pharynx causing sore throat; usually viral, sometimes streptococcal.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "General Medicine",
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Phlebitis",
+    "d": "Inflammation of a vein wall, often associated with clot formation.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Vascular Surgery",
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Pleuritis",
+    "d": "Inflammation of the pleural lining causing sharp chest pain that worsens with breathing.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pulmonology"
+    ]
+  },
+  {
+    "en_h": "Poliomyelitis",
+    "d": "Viral infection affecting the gray matter of the spinal cord, potentially causing paralysis.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Infectious Disease",
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Proctitis",
+    "d": "Inflammation of the rectal lining; causes include IBD, infection, and radiation.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Gastroenterology",
+      "Colorectal Surgery"
+    ]
+  },
+  {
+    "en_h": "Prostatitis",
+    "d": "Inflammation of the prostate gland; can be acute bacterial, chronic bacterial, or non-bacterial.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Psychosis",
+    "d": "Severe mental disorder involving loss of contact with reality, hallucinations, or delusions.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Psychiatry"
+    ]
+  },
+  {
+    "en_h": "Pyloric Stenosis",
+    "d": "Narrowing of the pyloric outlet obstructing gastric emptying; common in male infants.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Surgery",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Pyromania",
+    "d": "Impulse control disorder characterized by compulsive fire-setting.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Psychiatry"
+    ]
+  },
+  {
+    "en_h": "Rhinitis",
+    "d": "Inflammation of the nasal mucosa causing congestion, runny nose, and sneezing.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Otolaryngology",
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Sarcoidosis",
+    "d": "Multisystem inflammatory disease characterized by non-caseating granulomas.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pulmonology",
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Sigmoiditis",
+    "d": "Inflammation of the sigmoid colon.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Spinalgia",
+    "d": "Pain along the spine; may arise from muscle, nerve, or vertebral pathology.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Orthopedics",
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Spondylitis",
+    "d": "Inflammation of one or more vertebrae; as in ankylosing spondylitis.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Rheumatology",
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Synovitis",
+    "d": "Inflammation of the synovial membrane lining a joint, causing pain and swelling.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Rheumatology",
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Tendonitis",
+    "d": "Inflammation of a tendon, typically from overuse or repetitive strain.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Thrombosis",
+    "d": "Formation of a blood clot within a blood vessel, obstructing flow.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Hematology",
+      "Vascular Surgery"
+    ]
+  },
+  {
+    "en_h": "Tonsillitis",
+    "d": "Inflammation of the tonsils, most often caused by viral or streptococcal infection.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Otolaryngology",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Tracheitis",
+    "d": "Inflammation of the trachea, often bacterial; can cause croup-like symptoms.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Otolaryngology",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Trichotillomania",
+    "d": "Impulse control disorder involving compulsive urge to pull out one's own hair.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Psychiatry"
+    ]
+  },
+  {
+    "en_h": "Urethritis",
+    "d": "Inflammation of the urethra, commonly caused by sexually transmitted infections.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology",
+      "Infectious Disease"
+    ]
+  },
+  {
+    "en_h": "Venous Thrombosis",
+    "d": "Formation of a blood clot within a vein; includes DVT and superficial thrombophlebitis.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Hematology",
+      "Vascular Surgery"
+    ]
+  },
+  {
+    "en_h": "Acoustic Neuroma",
+    "d": "Benign tumor arising from the vestibulocochlear nerve, causing hearing loss and tinnitus.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Otolaryngology",
+      "Neurosurgery"
+    ]
+  },
+  {
+    "en_h": "Adenoma",
+    "d": "Benign epithelial tumor arising from glandular tissue; can occur in thyroid, colon, pituitary.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Oncology",
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Adrenaline",
+    "d": "Catecholamine hormone secreted by the adrenal medulla; triggers the fight-or-flight response.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Pharmacology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "en_h": "Aerophagia",
+    "d": "Habitual swallowing of excess air, leading to bloating, belching, and abdominal discomfort.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Amebiasis",
+    "d": "Intestinal infection caused by Entamoeba histolytica; may cause dysentery or liver abscess.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Infectious Disease",
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Andropause",
+    "d": "Age-related gradual decline in testosterone levels in men; also called late-onset hypogonadism.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Endocrinology",
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Anesthesia",
+    "d": "Loss of sensation induced pharmacologically for surgical or diagnostic procedures.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Anesthesiology"
+    ]
+  },
+  {
+    "en_h": "Aortic Aneurysm",
+    "d": "Abnormal dilation of the aortic wall; rupture is life-threatening.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Vascular Surgery",
+      "Cardiology"
+    ]
+  },
+  {
+    "en_h": "Apnea",
+    "d": "Complete cessation of breathing; may be obstructive, central, or mixed.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Pulmonology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "en_h": "Arthrodesis",
+    "d": "Surgical fusion of a joint to eliminate movement and relieve pain.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Atrophy",
+    "d": "Wasting or reduction in size of a tissue or organ due to disuse, malnutrition, or disease.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "General Medicine",
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Audiometry",
+    "d": "Standardized testing of hearing sensitivity across frequencies.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Autoimmune",
+    "d": "Pertaining to a condition in which the immune system attacks the body's own tissues.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Immunology",
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Autopsy",
+    "d": "Post-mortem examination of a body to determine cause of death or study disease.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pathology"
+    ]
+  },
+  {
+    "en_h": "Bacteremia",
+    "d": "Presence of viable bacteria in the bloodstream; may lead to sepsis.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Infectious Disease"
+    ]
+  },
+  {
+    "en_h": "Brachytherapy",
+    "d": "Radiation therapy delivered by placing a radioactive source directly inside or near a tumor.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Oncology",
+      "Radiology"
+    ]
+  },
+  {
+    "en_h": "Bradykinesia",
+    "d": "Slowness of voluntary movement; a cardinal feature of Parkinson's disease.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Bronchoconstriction",
+    "d": "Narrowing of the bronchial airways due to smooth muscle contraction; occurs in asthma.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pulmonology"
+    ]
+  },
+  {
+    "en_h": "Bronchodilation",
+    "d": "Widening of the bronchial airways to improve airflow; achieved by bronchodilator drugs.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pulmonology",
+      "Pharmacology"
+    ]
+  },
+  {
+    "en_h": "Bronchospasm",
+    "d": "Sudden involuntary contraction of bronchial smooth muscle causing wheezing and dyspnea.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pulmonology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "en_h": "Cardiologist",
+    "d": "Physician specializing in the diagnosis and treatment of cardiovascular disease.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Cardiology"
+    ]
+  },
+  {
+    "en_h": "Cardioversion",
+    "d": "Restoration of normal cardiac rhythm using synchronized electrical shock or medication.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Cardiology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "en_h": "Carpal Tunnel Syndrome",
+    "d": "Compression of the median nerve at the wrist causing numbness, tingling, and weakness.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Orthopedics",
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Cerebral Palsy",
+    "d": "Group of permanent movement and posture disorders caused by brain damage before or during birth.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Chondroma",
+    "d": "Benign tumor composed of mature cartilage tissue.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Orthopedics",
+      "Oncology"
+    ]
+  },
+  {
+    "en_h": "Chondromalacia",
+    "d": "Softening and deterioration of cartilage, most commonly under the kneecap.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Coagulation",
+    "d": "The process by which blood forms clots to stop bleeding.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Hematology"
+    ]
+  },
+  {
+    "en_h": "Coccydynia",
+    "d": "Persistent pain in the coccyx (tailbone) region, often following trauma.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Corneal Transplant",
+    "d": "Surgical replacement of a damaged or diseased cornea with donor tissue.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Cytokine",
+    "d": "Small signaling protein secreted by immune cells that regulates immune responses.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Immunology"
+    ]
+  },
+  {
+    "en_h": "Debridement",
+    "d": "Removal of dead, damaged, or infected tissue to promote healing of a wound.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Surgery",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "en_h": "Dehydration",
+    "d": "Deficit of body water causing electrolyte imbalance and reduced physiological function.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "General Medicine",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "en_h": "Dentist",
+    "d": "Healthcare professional specializing in the prevention, diagnosis, and treatment of oral disease.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Dentistry"
+    ]
+  },
+  {
+    "en_h": "Dermatologist",
+    "d": "Physician specializing in diseases of the skin, hair, and nails.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Dermatology"
+    ]
+  },
+  {
+    "en_h": "Dialysis",
+    "d": "Medical procedure that filters waste, excess fluid, and toxins from blood when kidneys fail.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Nephrology"
+    ]
+  },
+  {
+    "en_h": "Diarrhea",
+    "d": "Frequent passage of loose or watery stools; a symptom of many gastrointestinal conditions.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "General Medicine",
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Dyskinesia",
+    "d": "Impaired or involuntary abnormal movements; a complication of long-term levodopa therapy.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Dysphasia",
+    "d": "Impaired ability to produce or comprehend language due to brain damage.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Dysphonia",
+    "d": "Difficulty or abnormality in voice production.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Emphysema",
+    "d": "Chronic lung disease with permanent alveolar destruction, reducing gas exchange surface.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Pulmonology"
+    ]
+  },
+  {
+    "en_h": "Endometrium",
+    "d": "The inner mucous membrane lining the uterus; shed during menstruation.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Obstetrics & Gynecology",
+      "Anatomy"
+    ]
+  },
+  {
+    "en_h": "Erythropoietin",
+    "d": "Hormone produced by the kidneys stimulating red blood cell production in bone marrow.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Hematology",
+      "Nephrology"
+    ]
+  },
+  {
+    "en_h": "Estriol",
+    "d": "A weaker form of estrogen measured in pregnancy screening for fetal abnormalities.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Obstetrics & Gynecology",
+      "Endocrinology"
+    ]
+  },
+  {
+    "en_h": "Exocrine",
+    "d": "Pertaining to glands that secrete substances through ducts onto body surfaces.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Anatomy",
+      "Pharmacology"
+    ]
+  },
+  {
+    "en_h": "Exophthalmos",
+    "d": "Abnormal protrusion of one or both eyeballs; associated with Graves' disease.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Endocrinology",
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Glucagon",
+    "d": "Pancreatic hormone that raises blood glucose by stimulating hepatic glycogen breakdown.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Endocrinology",
+      "Pharmacology"
+    ]
+  },
+  {
+    "en_h": "Glycosuria",
+    "d": "Presence of glucose in the urine; a sign of uncontrolled diabetes mellitus.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Endocrinology",
+      "Nephrology"
+    ]
+  },
+  {
+    "en_h": "Hemoglobin",
+    "d": "Iron-containing protein in red blood cells that carries oxygen from lungs to tissues.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Hematology"
+    ]
+  },
+  {
+    "en_h": "Hemolysis",
+    "d": "Destruction of red blood cells with release of hemoglobin into circulation.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Hematology"
+    ]
+  },
+  {
+    "en_h": "Hepatoma",
+    "d": "Malignant tumor of hepatocytes; also called hepatocellular carcinoma.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Oncology",
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Hepatotoxic",
+    "d": "Causing damage or injury to liver cells.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pharmacology",
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Herniorrhaphy",
+    "d": "Surgical repair of a hernia by suturing the defect in the abdominal wall.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Surgery"
+    ]
+  },
+  {
+    "en_h": "Hyperemesis",
+    "d": "Severe, uncontrollable vomiting; hyperemesis gravidarum occurs in early pregnancy.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Obstetrics & Gynecology",
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Hyperesthesia",
+    "d": "Abnormally increased sensitivity to sensory stimuli including touch, pain, or temperature.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Hyperopia",
+    "d": "Refractive error in which distant objects are seen more clearly than near objects.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Hypertonia",
+    "d": "Abnormally increased muscle tone or tension.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Hypokalemia",
+    "d": "Abnormally low potassium concentration in the blood; causes muscle weakness and arrhythmia.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "General Medicine",
+      "Nephrology"
+    ]
+  },
+  {
+    "en_h": "Hypothermia",
+    "d": "Dangerously low core body temperature below 35°C (95°F).",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "en_h": "Immunodeficiency",
+    "d": "State of impaired immune function leaving the body susceptible to infection.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Immunology",
+      "Infectious Disease"
+    ]
+  },
+  {
+    "en_h": "Leukemia",
+    "d": "Malignant proliferation of white blood cell precursors in bone marrow and blood.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Hematology",
+      "Oncology"
+    ]
+  },
+  {
+    "en_h": "Leukopenia",
+    "d": "Abnormally low white blood cell count, increasing susceptibility to infection.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Hematology"
+    ]
+  },
+  {
+    "en_h": "Lipoma",
+    "d": "Benign soft tissue tumor composed of mature fat cells; usually painless.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Dermatology",
+      "Surgery"
+    ]
+  },
+  {
+    "en_h": "Litholapaxy",
+    "d": "Endoscopic crushing of a bladder stone followed by irrigation to remove fragments.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Lymphoma",
+    "d": "Cancer of lymphatic tissue; includes Hodgkin and non-Hodgkin subtypes.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Hematology",
+      "Oncology"
+    ]
+  },
+  {
+    "en_h": "Macule",
+    "d": "Flat, discolored skin lesion less than 1 cm in diameter; not raised or palpable.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Dermatology"
+    ]
+  },
+  {
+    "en_h": "Megalocardia",
+    "d": "Abnormal enlargement of the heart; also called cardiomegaly.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Cardiology"
+    ]
+  },
+  {
+    "en_h": "Melanoptysis",
+    "d": "Coughing up black or dark-colored sputum; seen in coal workers' pneumoconiosis.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Pulmonology"
+    ]
+  },
+  {
+    "en_h": "Meningioma",
+    "d": "Usually benign, slow-growing tumor arising from the meninges.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurosurgery",
+      "Oncology"
+    ]
+  },
+  {
+    "en_h": "Meningocele",
+    "d": "Protrusion of the meninges through a defect in the skull or spine.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurosurgery",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Menopause",
+    "d": "Permanent cessation of menstruation marking the end of female reproductive capacity.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Obstetrics & Gynecology",
+      "Endocrinology"
+    ]
+  },
+  {
+    "en_h": "Menorrhagia",
+    "d": "Abnormally heavy or prolonged menstrual bleeding.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Obstetrics & Gynecology"
+    ]
+  },
+  {
+    "en_h": "Microcephaly",
+    "d": "Abnormally small head circumference due to impaired brain development.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pediatrics",
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Myelopathy",
+    "d": "Disease or dysfunction of the spinal cord.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology",
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Myoglobin",
+    "d": "Oxygen-binding protein in muscle tissue; released into blood after muscle injury.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "General Medicine",
+      "Hematology"
+    ]
+  },
+  {
+    "en_h": "Myopathy",
+    "d": "Disease of the muscle characterized by weakness and wasting.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Myopia",
+    "d": "Refractive error in which near objects are seen clearly but distant objects are blurred.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Narcolepsy",
+    "d": "Chronic neurological disorder causing uncontrollable episodes of daytime sleepiness.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Neoplasm",
+    "d": "Any new and abnormal tissue growth; may be benign or malignant.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Oncology",
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Nephropexy",
+    "d": "Surgical fixation of a prolapsed kidney to the posterior abdominal wall.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Nephrotoxic",
+    "d": "Capable of causing damage to kidney tissue.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Nephrology",
+      "Pharmacology"
+    ]
+  },
+  {
+    "en_h": "Neuroblastoma",
+    "d": "Malignant tumor arising from immature nerve cells; most common in children under 5.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Oncology",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Neurologist",
+    "d": "Physician specializing in disorders of the nervous system.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Neutrophil",
+    "d": "The most abundant white blood cell; a key component of innate immune defense.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Hematology",
+      "Immunology"
+    ]
+  },
+  {
+    "en_h": "Oligospermia",
+    "d": "Abnormally low sperm count in semen; a common cause of male infertility.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Ophthalmoscope",
+    "d": "Instrument used to examine the interior of the eye, including the retina and optic disc.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Orchiopexy",
+    "d": "Surgical fixation of an undescended testicle into the scrotum.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Orthodontics",
+    "d": "Dental specialty focused on correcting misaligned teeth and jaws.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Dentistry"
+    ]
+  },
+  {
+    "en_h": "Osteomalacia",
+    "d": "Softening of bones due to impaired mineralization, often from vitamin D deficiency.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Endocrinology",
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Ovarian Cyst",
+    "d": "Fluid-filled sac on or within the ovary; most are benign and resolve spontaneously.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Obstetrics & Gynecology"
+    ]
+  },
+  {
+    "en_h": "Papilledema",
+    "d": "Swelling of the optic disc caused by raised intracranial pressure.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology",
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Paraplegia",
+    "d": "Paralysis of the lower body and legs due to spinal cord injury or disease.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Neurology",
+      "Rehabilitation Medicine"
+    ]
+  },
+  {
+    "en_h": "Parathyroid",
+    "d": "Four small endocrine glands adjacent to the thyroid that regulate calcium and phosphate.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Endocrinology",
+      "Anatomy"
+    ]
+  },
+  {
+    "en_h": "Pelvic Inflammatory Disease",
+    "d": "Infection of the female upper reproductive tract; a complication of STIs.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Obstetrics & Gynecology",
+      "Infectious Disease"
+    ]
+  },
+  {
+    "en_h": "Pharmacist",
+    "d": "Licensed healthcare professional who prepares, dispenses, and counsels on medications.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pharmacology"
+    ]
+  },
+  {
+    "en_h": "Physiotherapy",
+    "d": "Therapeutic treatment using physical methods to restore movement and function.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Rehabilitation Medicine"
+    ]
+  },
+  {
+    "en_h": "Pleurodynia",
+    "d": "Sharp pain in the chest or abdomen from spasm of intercostal or pleural muscles.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Pulmonology"
+    ]
+  },
+  {
+    "en_h": "Pneumonia",
+    "d": "Inflammatory infection of the lung parenchyma caused by bacteria, viruses, or fungi.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Pulmonology",
+      "Infectious Disease"
+    ]
+  },
+  {
+    "en_h": "Porphyria",
+    "d": "Group of metabolic disorders caused by enzyme defects in heme biosynthesis.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "General Medicine",
+      "Hematology"
+    ]
+  },
+  {
+    "en_h": "Prostatomegaly",
+    "d": "Abnormal enlargement of the prostate gland.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Pseudocyst",
+    "d": "Collection of fluid resembling a true cyst but lacking an epithelial lining; common in pancreatitis.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Pyoderma",
+    "d": "Bacterial skin infection producing pus-filled lesions.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Dermatology"
+    ]
+  },
+  {
+    "en_h": "Pyrexia",
+    "d": "Elevated body temperature above normal range; a clinical term for fever.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Pyrogen",
+    "d": "Substance that induces fever by acting on the hypothalamic thermoregulatory center.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Pharmacology",
+      "Immunology"
+    ]
+  },
+  {
+    "en_h": "Pyuria",
+    "d": "Presence of white blood cells in urine; indicates urinary tract infection or inflammation.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology",
+      "Nephrology"
+    ]
+  },
+  {
+    "en_h": "Quadriplegia",
+    "d": "Complete paralysis of all four limbs due to high cervical spinal cord injury.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Neurology",
+      "Rehabilitation Medicine"
+    ]
+  },
+  {
+    "en_h": "Rectal Prolapse",
+    "d": "Protrusion of the rectum through the anal opening.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Colorectal Surgery",
+      "Gastroenterology"
+    ]
+  },
+  {
+    "en_h": "Rectocele",
+    "d": "Herniation of the posterior vaginal wall with protrusion of the rectum.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Obstetrics & Gynecology",
+      "Colorectal Surgery"
+    ]
+  },
+  {
+    "en_h": "Relapse",
+    "d": "Return or worsening of a disease after a period of improvement or remission.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Resection",
+    "d": "Surgical removal of all or part of an organ or tissue.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Surgery"
+    ]
+  },
+  {
+    "en_h": "Retinal Detachment",
+    "d": "Separation of the retina from the underlying retinal pigment epithelium.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Retinopathy",
+    "d": "Non-inflammatory disease of the retina; most commonly diabetic or hypertensive.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Ophthalmology",
+      "Endocrinology"
+    ]
+  },
+  {
+    "en_h": "Septicemia",
+    "d": "Bloodstream infection with proliferating bacteria; a clinical term largely replaced by sepsis.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Infectious Disease"
+    ]
+  },
+  {
+    "en_h": "Somnolence",
+    "d": "Excessive drowsiness or sleepiness; may indicate CNS depression or metabolic disorder.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Neurology",
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Sphygmomanometer",
+    "d": "Device used to measure arterial blood pressure.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Spirometry",
+    "d": "Pulmonary function test measuring the volume and flow of air inhaled and exhaled.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pulmonology"
+    ]
+  },
+  {
+    "en_h": "Spondylolisthesis",
+    "d": "Forward slipping of one vertebra over the one below, causing back pain and nerve compression.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Orthopedics",
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Synapse",
+    "d": "Junction between two neurons where nerve impulses are transmitted chemically or electrically.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Anatomy",
+      "Neurology"
+    ]
+  },
+  {
+    "en_h": "Synovial Fluid",
+    "d": "Viscous lubricating fluid secreted by the synovial membrane within joint cavities.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Anatomy",
+      "Rheumatology"
+    ]
+  },
+  {
+    "en_h": "Telangiectasia",
+    "d": "Dilation of small superficial blood vessels forming visible red lines on the skin.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Dermatology"
+    ]
+  },
+  {
+    "en_h": "Tenodesis",
+    "d": "Surgical anchoring of a tendon to bone to restore function or stability.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Orthopedics"
+    ]
+  },
+  {
+    "en_h": "Thermometer",
+    "d": "Instrument for measuring body temperature.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Thrombolysis",
+    "d": "Pharmacological dissolution of a blood clot using thrombolytic agents.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Hematology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "en_h": "Tonometer",
+    "d": "Instrument used to measure intraocular pressure for glaucoma screening.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Ophthalmology"
+    ]
+  },
+  {
+    "en_h": "Toxemia",
+    "d": "Presence of bacterial toxins or metabolic waste products in the bloodstream.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Infectious Disease",
+      "Obstetrics & Gynecology"
+    ]
+  },
+  {
+    "en_h": "Transdermal",
+    "d": "Relating to drug administration through the skin for systemic effect.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Pharmacology"
+    ]
+  },
+  {
+    "en_h": "Transfusion",
+    "d": "Transfer of blood or blood components from a donor into a recipient's bloodstream.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Hematology"
+    ]
+  },
+  {
+    "en_h": "Tricuspid",
+    "d": "Having three cusps; refers to the tricuspid valve between the right atrium and ventricle.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Cardiology",
+      "Anatomy"
+    ]
+  },
+  {
+    "en_h": "Trimester",
+    "d": "Each of the three successive three-month periods of a pregnancy.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Obstetrics & Gynecology"
+    ]
+  },
+  {
+    "en_h": "Tympanometry",
+    "d": "Diagnostic test measuring the movement of the tympanic membrane in response to air pressure.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Otolaryngology"
+    ]
+  },
+  {
+    "en_h": "Umbilical Hernia",
+    "d": "Protrusion of abdominal contents through a defect at the navel.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Surgery",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Ureterolithiasis",
+    "d": "Presence of calculi (stones) within the ureter.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Urolithiasis",
+    "d": "Formation of stones within the urinary tract.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Varicocele",
+    "d": "Abnormal enlargement of the pampiniform venous plexus within the scrotum.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology"
+    ]
+  },
+  {
+    "en_h": "Venipuncture",
+    "d": "Puncture of a vein with a needle to obtain blood or administer treatment.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Ventricular Fibrillation",
+    "d": "Life-threatening arrhythmia with chaotic ventricular electrical activity and no effective output.",
+    "lvl": "⭐⭐⭐ Essential",
+    "f": [
+      "Cardiology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "en_h": "Vesicoureteral Reflux",
+    "d": "Abnormal backflow of urine from the bladder into the ureters.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Urology",
+      "Pediatrics"
+    ]
+  },
+  {
+    "en_h": "Visceromegaly",
+    "d": "Abnormal enlargement of one or more abdominal organs.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "General Medicine"
+    ]
+  },
+  {
+    "en_h": "Xanthoderma",
+    "d": "Yellow discoloration of the skin, often from carotenemia or jaundice.",
+    "lvl": "⭐ Good to know",
+    "f": [
+      "Dermatology"
+    ]
+  },
+  {
+    "en_h": "Xanthoma",
+    "d": "Yellow fatty deposit under the skin caused by elevated blood lipids.",
+    "lvl": "⭐⭐ Important",
+    "f": [
+      "Dermatology",
+      "Endocrinology"
+    ]
   }
 ]

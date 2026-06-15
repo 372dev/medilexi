@@ -1,0 +1,595 @@
+{
+  "description": "Terms deferred from word parts example words — to be reviewed for vocab addition later",
+  "group1_general_non_clinical": [
+    {
+      "en_h": "Abnormal",
+      "d": "Deviating away from what is normal"
+    },
+    {
+      "en_h": "Aerobic",
+      "d": "Requiring air or oxygen to function"
+    },
+    {
+      "en_h": "Albumin",
+      "d": "White protein found in blood plasma"
+    },
+    {
+      "en_h": "Articular cartilage",
+      "d": "Smooth cartilage covering joint surfaces"
+    },
+    {
+      "en_h": "Atrioventricular",
+      "d": "Pertaining to both the atria and ventricles"
+    },
+    {
+      "en_h": "Auricle",
+      "d": "External visible part of the ear"
+    },
+    {
+      "en_h": "Autograft",
+      "d": "Tissue transplanted from the same person"
+    },
+    {
+      "en_h": "Axillary",
+      "d": "Pertaining to the armpit region"
+    },
+    {
+      "en_h": "Axillary lymph nodes",
+      "d": "Lymph nodes located in the armpit"
+    },
+    {
+      "en_h": "Bilateral",
+      "d": "Pertaining to both sides of the body"
+    },
+    {
+      "en_h": "Brachial plexus",
+      "d": "Network of nerves supplying the arm"
+    },
+    {
+      "en_h": "Buccal",
+      "d": "Pertaining to the cheek or mouth cavity"
+    },
+    {
+      "en_h": "Buccal mucosa",
+      "d": "Moist inner lining of the cheek"
+    },
+    {
+      "en_h": "Capitate",
+      "d": "Head-shaped bone of the wrist"
+    },
+    {
+      "en_h": "Carcinogen",
+      "d": "Substance capable of causing cancer"
+    },
+    {
+      "en_h": "Carcinogenesis",
+      "d": "Process by which normal cells become cancerous"
+    },
+    {
+      "en_h": "Carcinogenic",
+      "d": "Capable of producing or causing cancer"
+    },
+    {
+      "en_h": "Cardiovascular",
+      "d": "Pertaining to the heart and blood vessels"
+    },
+    {
+      "en_h": "Cephalic",
+      "d": "Pertaining to the head"
+    },
+    {
+      "en_h": "Chlorophyll",
+      "d": "Green pigment in plants that captures sunlight"
+    },
+    {
+      "en_h": "Chronobiology",
+      "d": "Study of time-based biological rhythms"
+    },
+    {
+      "en_h": "Cutaneous",
+      "d": "Pertaining to or affecting the skin"
+    },
+    {
+      "en_h": "Cyanide",
+      "d": "Toxic compound blocking oxygen use in cells"
+    },
+    {
+      "en_h": "Dextrose",
+      "d": "Right-rotating glucose sugar"
+    },
+    {
+      "en_h": "Dorsolateral",
+      "d": "Toward the back and to the side"
+    },
+    {
+      "en_h": "Febrile seizure",
+      "d": "Convulsion triggered by high fever in children"
+    },
+    {
+      "en_h": "Follicle",
+      "d": "Small sac or gland in the body"
+    },
+    {
+      "en_h": "Forearm",
+      "d": "Segment of arm in front of the elbow"
+    },
+    {
+      "en_h": "Foreskin",
+      "d": "Skin fold in front of the glans penis"
+    },
+    {
+      "en_h": "Frontal lobe",
+      "d": "Anterior region of the cerebrum controlling cognition"
+    },
+    {
+      "en_h": "Genucubital",
+      "d": "Pertaining to the knee and elbow position"
+    },
+    {
+      "en_h": "Heterogeneous",
+      "d": "Composed of different elements"
+    },
+    {
+      "en_h": "Heterograft",
+      "d": "Tissue graft from a different species"
+    },
+    {
+      "en_h": "Homogeneous",
+      "d": "Uniform in composition throughout"
+    },
+    {
+      "en_h": "Homograft",
+      "d": "Tissue graft from the same species"
+    },
+    {
+      "en_h": "Intervertebral",
+      "d": "Between vertebrae"
+    },
+    {
+      "en_h": "Intestinal",
+      "d": "Pertaining to the intestines"
+    },
+    {
+      "en_h": "Ipsilateral reflex",
+      "d": "Reflex arc on the same side as the stimulus"
+    },
+    {
+      "en_h": "Isometric",
+      "d": "Muscle contraction with no change in length"
+    },
+    {
+      "en_h": "Isotonic",
+      "d": "Equal osmotic pressure between solutions"
+    },
+    {
+      "en_h": "Juxtaposition",
+      "d": "Placement of two things side by side"
+    },
+    {
+      "en_h": "Labial",
+      "d": "Pertaining to the lips"
+    },
+    {
+      "en_h": "Lateral",
+      "d": "Away from the midline of the body"
+    },
+    {
+      "en_h": "Laterodorsal",
+      "d": "Toward the side and back"
+    },
+    {
+      "en_h": "Levocardia",
+      "d": "Normal left-sided position of the heart"
+    },
+    {
+      "en_h": "Medial",
+      "d": "Toward the midline of the body"
+    },
+    {
+      "en_h": "Mediastinum",
+      "d": "Middle compartment of the thoracic cavity"
+    },
+    {
+      "en_h": "Mesoderm",
+      "d": "Middle embryonic tissue layer"
+    },
+    {
+      "en_h": "Microbe",
+      "d": "Microscopic organism"
+    },
+    {
+      "en_h": "Monoplegia",
+      "d": "Paralysis of a single limb"
+    },
+    {
+      "en_h": "Multifocal",
+      "d": "Arising from or affecting many locations"
+    },
+    {
+      "en_h": "Musculature",
+      "d": "The arrangement of muscles in a body region"
+    },
+    {
+      "en_h": "Nasogastric tube",
+      "d": "Tube passed through the nose into the stomach"
+    },
+    {
+      "en_h": "Ocular",
+      "d": "Pertaining to the eye"
+    },
+    {
+      "en_h": "Pandemic",
+      "d": "Disease affecting all people across wide regions"
+    },
+    {
+      "en_h": "Pathogen",
+      "d": "Microorganism capable of causing disease"
+    },
+    {
+      "en_h": "Pathogenic",
+      "d": "Capable of causing disease"
+    },
+    {
+      "en_h": "Pharyngeal",
+      "d": "Pertaining to the pharynx"
+    },
+    {
+      "en_h": "Physician",
+      "d": "Licensed medical doctor"
+    },
+    {
+      "en_h": "Plumbago",
+      "d": "Archaic term for a lead-poisoning condition"
+    },
+    {
+      "en_h": "Posteroanterior",
+      "d": "From back to front (PA chest X-ray)"
+    },
+    {
+      "en_h": "Posterolateral",
+      "d": "Toward the back and to the side"
+    },
+    {
+      "en_h": "Psychosomatic",
+      "d": "Physical symptoms arising from mental or emotional causes"
+    },
+    {
+      "en_h": "Quadrant",
+      "d": "One of four sections of the abdomen"
+    },
+    {
+      "en_h": "Radiocarpal",
+      "d": "Pertaining to the radius and wrist bones"
+    },
+    {
+      "en_h": "Renal artery stenosis",
+      "d": "Narrowing of the artery supplying the kidney"
+    },
+    {
+      "en_h": "Renal failure",
+      "d": "Loss of kidney function"
+    },
+    {
+      "en_h": "Retrograde",
+      "d": "Moving backward, as in retrograde amnesia"
+    },
+    {
+      "en_h": "Rhododendron",
+      "d": "Rose-tree (botanical origin of term)"
+    },
+    {
+      "en_h": "Semiconscious",
+      "d": "Partially conscious"
+    },
+    {
+      "en_h": "Sinistral",
+      "d": "Pertaining to the left side"
+    },
+    {
+      "en_h": "Somatic",
+      "d": "Pertaining to the body as distinct from the mind"
+    },
+    {
+      "en_h": "Splanchnic",
+      "d": "Pertaining to the visceral organs of the abdomen"
+    },
+    {
+      "en_h": "Subcutaneous",
+      "d": "Under the skin"
+    },
+    {
+      "en_h": "Supraclavicular",
+      "d": "Above the clavicle"
+    },
+    {
+      "en_h": "Suprarenal",
+      "d": "Above the kidney (adrenal gland)"
+    },
+    {
+      "en_h": "Topical",
+      "d": "Applied to a specific surface location on the body"
+    },
+    {
+      "en_h": "Ultraviolet",
+      "d": "Light beyond the visible violet spectrum"
+    },
+    {
+      "en_h": "Unilateral",
+      "d": "Pertaining to one side only"
+    },
+    {
+      "en_h": "Ventral",
+      "d": "Pertaining to the front or belly surface"
+    },
+    {
+      "en_h": "Visceral",
+      "d": "Pertaining to the internal organs of the body"
+    }
+  ],
+  "group4b_clinical_deferred": [
+    {
+      "en_h": "Abdominal",
+      "d": "Pertaining to the abdominal cavity"
+    },
+    {
+      "en_h": "Acoustic",
+      "d": "Pertaining to sound or the sense of hearing"
+    },
+    {
+      "en_h": "Adrenal",
+      "d": "Gland situated near the kidney"
+    },
+    {
+      "en_h": "Albinism",
+      "d": "Absence of pigment causing white skin and hair"
+    },
+    {
+      "en_h": "Antepartum",
+      "d": "Before childbirth"
+    },
+    {
+      "en_h": "Anteroposterior",
+      "d": "From front to back (e.g., X-ray direction)"
+    },
+    {
+      "en_h": "Bacteriology",
+      "d": "Study of bacteria and their effects"
+    },
+    {
+      "en_h": "Bacteriostasis",
+      "d": "Inhibition of bacterial growth without killing bacteria"
+    },
+    {
+      "en_h": "Blastocyte",
+      "d": "Immature undifferentiated cell"
+    },
+    {
+      "en_h": "Brachial",
+      "d": "Pertaining to the upper arm"
+    },
+    {
+      "en_h": "Brachydactyly",
+      "d": "Abnormal shortness of the fingers or toes"
+    },
+    {
+      "en_h": "Cardiac",
+      "d": "Pertaining to the heart"
+    },
+    {
+      "en_h": "Cerebellar",
+      "d": "Pertaining to the cerebellum"
+    },
+    {
+      "en_h": "Chemoreceptor",
+      "d": "Sensory receptor that detects chemical stimuli"
+    },
+    {
+      "en_h": "Chloroma",
+      "d": "Green-colored tumor of myeloid leukemia"
+    },
+    {
+      "en_h": "Chromatopsia",
+      "d": "Abnormal color perception"
+    },
+    {
+      "en_h": "Chronotherapy",
+      "d": "Treatment timed to biological cycles"
+    },
+    {
+      "en_h": "Circumduction",
+      "d": "Circular movement around a joint"
+    },
+    {
+      "en_h": "Cytology",
+      "d": "Study of cells under a microscope"
+    },
+    {
+      "en_h": "Decapitation",
+      "d": "Separation of the head from the body"
+    },
+    {
+      "en_h": "Dextrocardia",
+      "d": "Heart positioned on the right side of the chest"
+    },
+    {
+      "en_h": "Digital",
+      "d": "Pertaining to the fingers or toes"
+    },
+    {
+      "en_h": "Dorsiflexion",
+      "d": "Bending the foot upward toward the shin"
+    },
+    {
+      "en_h": "Encephalograph",
+      "d": "Device that records brain electrical activity"
+    },
+    {
+      "en_h": "Epiglottic",
+      "d": "Pertaining to the epiglottis"
+    },
+    {
+      "en_h": "Erythropoiesis",
+      "d": "Specific production of red blood cells"
+    },
+    {
+      "en_h": "Eupnea",
+      "d": "Normal breathing"
+    },
+    {
+      "en_h": "Extracellular",
+      "d": "Outside the cell"
+    },
+    {
+      "en_h": "Extracorporeal",
+      "d": "Outside the body (e.g., bypass machine)"
+    },
+    {
+      "en_h": "Febrile",
+      "d": "Pertaining to or having a fever"
+    },
+    {
+      "en_h": "Gastric",
+      "d": "Pertaining to the stomach"
+    },
+    {
+      "en_h": "Genu Varum/Valgum",
+      "d": "Bow-Legs / Knock-knees deformity"
+    },
+    {
+      "en_h": "Glycogen",
+      "d": "Stored form of sugar in liver and muscle"
+    },
+    {
+      "en_h": "Gynecology",
+      "d": "Study of the female reproductive system"
+    },
+    {
+      "en_h": "Hematopoiesis",
+      "d": "Formation of blood cells in bone marrow"
+    },
+    {
+      "en_h": "Histiocyte",
+      "d": "Tissue macrophage of the immune system"
+    },
+    {
+      "en_h": "Histology",
+      "d": "Microscopic study of body tissues"
+    },
+    {
+      "en_h": "Infraorbital",
+      "d": "Below the eye socket"
+    },
+    {
+      "en_h": "Intercostal",
+      "d": "Between the ribs"
+    },
+    {
+      "en_h": "Inversion",
+      "d": "Turning of a body part inward or upside down"
+    },
+    {
+      "en_h": "Juxtaglomerular",
+      "d": "Adjacent to the glomerulus in the kidney"
+    },
+    {
+      "en_h": "Macrocyte",
+      "d": "Abnormally large red blood cell"
+    },
+    {
+      "en_h": "Megaloblast",
+      "d": "Abnormally large immature blood cell"
+    },
+    {
+      "en_h": "Melanocyte",
+      "d": "Pigment-producing cell in the skin"
+    },
+    {
+      "en_h": "Menorrhea",
+      "d": "Normal menstrual flow"
+    },
+    {
+      "en_h": "Mesentery",
+      "d": "Middle membrane suspending the intestines"
+    },
+    {
+      "en_h": "Microtome",
+      "d": "Instrument that cuts thin tissue sections for microscopy"
+    },
+    {
+      "en_h": "Oral",
+      "d": "Pertaining to the mouth"
+    },
+    {
+      "en_h": "Orthostatic",
+      "d": "Pertaining to an upright standing position"
+    },
+    {
+      "en_h": "Osteoclasis",
+      "d": "Intentional surgical fracturing of a bone to correct deformity"
+    },
+    {
+      "en_h": "Pelvimetry",
+      "d": "Measurement of the pelvic dimensions"
+    },
+    {
+      "en_h": "Perineorrhaphy",
+      "d": "Suturing of a torn perineum after childbirth"
+    },
+    {
+      "en_h": "Periumbilical",
+      "d": "Pertaining to the area around the navel"
+    },
+    {
+      "en_h": "Phonation",
+      "d": "Process of producing vocal sound"
+    },
+    {
+      "en_h": "Polydactyly",
+      "d": "Having extra fingers or toes"
+    },
+    {
+      "en_h": "Porphyrin",
+      "d": "Purple-red pigment compound found in hemoglobin"
+    },
+    {
+      "en_h": "Pseudomembrane",
+      "d": "False membrane formed by inflammatory exudate"
+    },
+    {
+      "en_h": "Renal",
+      "d": "Pertaining to the kidney"
+    },
+    {
+      "en_h": "Retroperitoneal",
+      "d": "Behind the peritoneum"
+    },
+    {
+      "en_h": "Rhodopsin",
+      "d": "Rose-colored light-sensitive pigment in the retina"
+    },
+    {
+      "en_h": "Scoliometer",
+      "d": "Instrument measuring the degree of spinal curvature"
+    },
+    {
+      "en_h": "Spinocerebellar",
+      "d": "Pertaining to the spine and cerebellum"
+    },
+    {
+      "en_h": "Splanchnology",
+      "d": "Study of the visceral organs"
+    },
+    {
+      "en_h": "Sternocleidomastoid",
+      "d": "Neck muscle attached to the sternum and clavicle"
+    },
+    {
+      "en_h": "Syndactyly",
+      "d": "Fusion of fingers or toes together"
+    },
+    {
+      "en_h": "Vascular",
+      "d": "Pertaining to blood vessels"
+    }
+  ]
+}

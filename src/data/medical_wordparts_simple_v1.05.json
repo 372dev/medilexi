@@ -646,7 +646,7 @@
   },
   {
     "wp": "brachy-",
-    "t": "r",
+    "t": "p",
     "d": "(Greek) Short"
   },
   {
@@ -1692,11 +1692,6 @@
     "wp": "-ptysis",
     "t": "s",
     "d": "(Greek) Spitting, coughing up"
-  },
-  {
-    "wp": "auxill/o",
-    "t": "r",
-    "d": "(Latin) Armpit, axilla"
   },
   {
     "wp": "gingiv/o",

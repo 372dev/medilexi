@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
+import Fuse from 'fuse.js'
 import baseData from '@/data/medical_vocab_v1.18.json'
 import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple_v1.05.json'
@@ -56,6 +57,27 @@ const LVL_CARD_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-card--l
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 const ALL_LEVELS = ['⭐⭐⭐ Essential','⭐⭐ Important','⭐ Good to know']
 
+const KO_FIELD_PRIORITY: Record<string, number> = {
+  ko_h: 0, en_h: 0, abbr: 1, ko_l: 2, en_l: 2, d_ko: 3, d: 3,
+}
+
+const fuseKo = new Fuse(vocab, {
+  keys: [
+    { name: 'ko_h', weight: 2   },
+    { name: 'en_h', weight: 2   },
+    { name: 'abbr', weight: 1.5 },
+    { name: 'ko_l', weight: 1   },
+    { name: 'en_l', weight: 1   },
+    { name: 'd_ko', weight: 0.5 },
+    { name: 'd',    weight: 0.5 },
+  ],
+  threshold: 0.4,
+  minMatchCharLength: 2,
+  ignoreLocation: true,
+  includeScore: true,
+  includeMatches: true,
+})
+
 function KoCard({ v, defLang }: { v: MergedEntry; defLang: 'ko' | 'en' }) {
   const [hovered, setHovered] = useState(false)
   const [expanded, setExpanded] = useState(false)
@@ -96,15 +118,29 @@ export default function KoGlossaryPage() {
   const [defLang, setDefLang]   = useState<'ko'|'en'>('ko')
 
   const filtered = useMemo(() => {
-    const q = search.toLowerCase().trim()
-    return vocab.filter(v => {
-      if (fieldFilter && !v.f.includes(fieldFilter)) return false
-      if (levelFilter && v.lvl !== levelFilter) return false
-      if (!q) return true
-      return v.en_h.toLowerCase().includes(q) || (v.en_l||'').toLowerCase().includes(q)
-        || (v.abbr||'').toLowerCase().includes(q) || v.ko_h.toLowerCase().includes(q)
-        || (v.ko_l||'').toLowerCase().includes(q)
-    })
+    const q = search.trim()
+
+    if (!q) {
+      return vocab.filter(v => {
+        if (fieldFilter && !v.f.includes(fieldFilter)) return false
+        if (levelFilter && v.lvl !== levelFilter) return false
+        return true
+      })
+    }
+
+    return fuseKo.search(q)
+      .sort((a, b) => {
+        const pa = Math.min(...(a.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
+        const pb = Math.min(...(b.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
+        if (pa !== pb) return pa - pb
+        return (a.score ?? 1) - (b.score ?? 1)
+      })
+      .map(r => r.item)
+      .filter(v => {
+        if (fieldFilter && !v.f.includes(fieldFilter)) return false
+        if (levelFilter && v.lvl !== levelFilter) return false
+        return true
+      })
   }, [search, fieldFilter, levelFilter])
 
   return (

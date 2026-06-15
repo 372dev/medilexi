@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
+import Fuse from 'fuse.js'
 import vocabData from '@/data/medical_vocab_v1.18.json'
 import partsData from '@/data/medical_wordparts_simple_v1.05.json'
 
@@ -14,6 +15,22 @@ interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
 const vocab = vocabData as VocabEntry[]
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
+
+const FIELD_PRIORITY: Record<string, number> = { en_h: 0, abbr: 1, en_l: 2, d: 3 }
+
+const fuse = new Fuse(vocab, {
+  keys: [
+    { name: 'en_h', weight: 2   },
+    { name: 'abbr', weight: 1.5 },
+    { name: 'en_l', weight: 1   },
+    { name: 'd',    weight: 0.5 },
+  ],
+  threshold: 0.4,
+  minMatchCharLength: 2,
+  ignoreLocation: true,
+  includeScore: true,
+  includeMatches: true,
+})
 
 function toLiteral(wp: string) {
   return wp.replace(/^-|-$/g,'').replace(/\/[oiea]$/,'').replace(/\//g,'').toLowerCase()
@@ -90,13 +107,29 @@ export default function GlossaryPage() {
   const [levelFilter, setLevel] = useState<string|null>(null)
 
   const filtered = useMemo(() => {
-    const q = search.toLowerCase().trim()
-    return vocab.filter(v => {
-      if (fieldFilter && !v.f.includes(fieldFilter)) return false
-      if (levelFilter && v.lvl !== levelFilter) return false
-      if (!q) return true
-      return v.en_h.toLowerCase().includes(q) || (v.en_l||'').toLowerCase().includes(q) || (v.abbr||'').toLowerCase().includes(q)
-    })
+    const q = search.trim()
+
+    if (!q) {
+      return vocab.filter(v => {
+        if (fieldFilter && !v.f.includes(fieldFilter)) return false
+        if (levelFilter && v.lvl !== levelFilter) return false
+        return true
+      })
+    }
+
+    return fuse.search(q)
+      .sort((a, b) => {
+        const pa = Math.min(...(a.matches?.map(m => FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
+        const pb = Math.min(...(b.matches?.map(m => FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
+        if (pa !== pb) return pa - pb
+        return (a.score ?? 1) - (b.score ?? 1)
+      })
+      .map(r => r.item)
+      .filter(v => {
+        if (fieldFilter && !v.f.includes(fieldFilter)) return false
+        if (levelFilter && v.lvl !== levelFilter) return false
+        return true
+      })
   }, [search, fieldFilter, levelFilter])
 
   return (

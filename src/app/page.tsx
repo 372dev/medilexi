@@ -27,8 +27,12 @@ const rows = [
 export default function Home() {
   return (
     <>
-      <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.38rem', color:'var(--color-text-dim)', marginBottom:'1.5rem', letterSpacing:'0.04em', textAlign:'center' }}>
-        Multilingual Glossary
+      <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', letterSpacing:'0.04em', textAlign:'center', lineHeight:1.8 }}>
+        Multilingual Medical Glossary
+      </p>
+      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.7, maxWidth:'400px', textAlign:'center', marginBottom:'2rem' }}>
+        844 medical terms · 319 word parts · Korean bilingual support —
+        for students, clinicians, and medical translators
       </p>
       <nav style={{ width:'100%', maxWidth:'480px', display:'flex', flexDirection:'column', gap:'1rem' }}>
         {rows.map((row, i) => (
@@ -37,7 +41,7 @@ export default function Home() {
               {/* Language label — styled as plain text tag, not a button */}
               <span style={{
                 fontFamily:'var(--font-pixel)',
-                fontSize:'0.42rem',
+                fontSize:'0.5rem',
                 color:'var(--color-gold)',
                 border:'1px solid var(--color-gold-dim)',
                 padding:'0.35rem 0.5rem',
@@ -52,8 +56,8 @@ export default function Home() {
               <div style={{ display:'flex', gap:'0.6rem', flexWrap:'wrap' }}>
                 {row.tools.map(tool =>
                   tool.live
-                    ? <Link key={tool.label} href={tool.href} className="c-btn-pixel" style={{ fontSize:'0.46rem' }}>{tool.label}</Link>
-                    : <span key={tool.label} className="c-btn-pixel c-btn-pixel--locked" style={{ fontSize:'0.46rem' }}>{tool.label}</span>
+                    ? <Link key={tool.label} href={tool.href} className="c-btn-pixel" style={{ fontSize:'0.5rem' }}>{tool.label}</Link>
+                    : <span key={tool.label} className="c-btn-pixel c-btn-pixel--locked" style={{ fontSize:'0.5rem' }}>{tool.label}</span>
                 )}
               </div>
             </div>
@@ -66,9 +70,14 @@ export default function Home() {
           </div>
         ))}
       </nav>
-      <p style={{ marginTop:'2.5rem', fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)' }}>
-        © 2026 Medi Lexi · All rights reserved
-      </p>
+      <div style={{ marginTop:'2.5rem', textAlign:'center', opacity:0.6, display:'flex', flexDirection:'column', gap:'0.4rem' }}>
+        <p style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', lineHeight:1.6, maxWidth:'400px' }}>
+          For educational purposes only · Not a substitute for professional medical advice
+        </p>
+        <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', lineHeight:1.8 }}>
+          © 2026 Medi Lexi · All rights reserved
+        </p>
+      </div>
     </>
   )
 }

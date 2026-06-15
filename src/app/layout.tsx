@@ -93,6 +93,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <main className="site-content">{children}</main>
               <aside className="site-ad">Ad</aside>
             </div>
+            <footer className="site-footer">
+              <p className="site-footer__disclaimer">
+                ⚕ For educational purposes only · Not a substitute for professional medical advice, diagnosis, or treatment ·
+                Content is based on standard medical terminology references and may not reflect the latest clinical guidelines
+              </p>
+              <p className="site-footer__copy">© 2026 Medi Lexi · All rights reserved</p>
+            </footer>
           </>
         )}
         <Analytics />

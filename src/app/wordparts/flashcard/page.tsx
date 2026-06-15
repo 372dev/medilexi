@@ -99,7 +99,7 @@ export default function WordPartsFlashcard() {
               <div style={{ height:'6px', background:'var(--color-border)', borderRadius:'3px', overflow:'hidden', marginBottom:'0.4rem' }}>
                 <div style={{ height:'100%', background:'var(--color-gold)', borderRadius:'3px', width:`${(cardIdx/deck.length)*100}%`, transition:'width 0.3s' }} />
               </div>
-              <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.42rem', color:'var(--color-text-dim)', textAlign:'right' }}>
+              <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', textAlign:'right' }}>
                 {cardIdx+1} / {deck.length} · ✓ {score}
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function WordPartsFlashcard() {
                   <span className={`c-badge c-badge--${card.t}`}>{TYPE_LABEL[card.t]}</span>
                   <div style={{ fontSize:'2.8rem', fontWeight:700, color:'var(--color-text)', textAlign:'center' }}>{card.wp}</div>
                   <span style={{ fontSize:'1.4rem', color:'#EF9F27', opacity:card.lvl===3?1:card.lvl===2?0.75:0.45 }}>{'★'.repeat(card.lvl)}</span>
-                  <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.48rem', color:'var(--color-text-dim)', marginTop:'auto' }}>Tap to reveal</p>
+                  <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginTop:'auto' }}>Tap to reveal</p>
                 </div>
                 {/* Back */}
                 <div style={{ position:'absolute', inset:0, backfaceVisibility:'hidden', transform:'rotateY(180deg)', display:'flex', flexDirection:'column', alignItems:'center', padding:'1.5rem 2rem', gap:'0.75rem', background:'var(--color-panel)', border:`1px solid var(--color-gold-dim)`, overflowY:'auto' }}>

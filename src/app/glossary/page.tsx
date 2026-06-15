@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import Link from 'next/link'
 import vocabData from '@/data/medical_vocab_v1.18.json'
 import partsData from '@/data/medical_wordparts_simple_v1.05.json'
 
@@ -49,14 +50,17 @@ function getSegments(en_h: string, parts?: VocabEntry['parts']): Segment[] {
 
 const STARS: Record<string,string> = { '⭐⭐⭐ Essential':'⭐⭐⭐', '⭐⭐ Important':'⭐⭐', '⭐ Good to know':'⭐' }
 const STAR_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-stars--3', '⭐⭐ Important':'c-stars--2', '⭐ Good to know':'c-stars--1' }
+const LVL_CARD_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-card--lvl3', '⭐⭐ Important':'c-card--lvl2', '⭐ Good to know':'c-card--lvl1' }
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 const ALL_LEVELS = ['⭐⭐⭐ Essential','⭐⭐ Important','⭐ Good to know']
 
 function Card({ v }: { v: VocabEntry }) {
   const [hovered, setHovered] = useState(false)
+  const [expanded, setExpanded] = useState(false)
   const segs = useMemo(() => getSegments(v.en_h, v.parts), [v])
+  const isLong = v.d.length > 180
   return (
-    <div className="c-card" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+    <div className={`c-card ${LVL_CARD_CLASS[v.lvl]||''}`} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
         <span className={`c-stars ${STAR_CLASS[v.lvl]||''}`}>{STARS[v.lvl]}</span>
         {v.abbr && <span className="c-abbr">{v.abbr}</span>}
@@ -67,7 +71,12 @@ function Card({ v }: { v: VocabEntry }) {
           : <span key={i}>{s.text}</span>) : v.en_h}
       </div>
       {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.4rem' }}>{v.en_l}</div>}
-      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem', display:'-webkit-box', WebkitLineClamp:3, WebkitBoxOrient:'vertical', overflow:'hidden' }}>{v.d}</p>
+      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom: isLong ? '0.25rem' : '0.65rem', ...(!expanded && isLong ? { display:'-webkit-box', WebkitLineClamp:3, WebkitBoxOrient:'vertical', overflow:'hidden' } : {}) }}>{v.d}</p>
+      {isLong && (
+        <button className="c-def-toggle" onClick={() => setExpanded(e => !e)}>
+          {expanded ? '▴ less' : '▾ more'}
+        </button>
+      )}
       <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>
         {v.f.map(f => <span key={f} className="c-field-badge">{f}</span>)}
       </div>
@@ -100,6 +109,9 @@ export default function GlossaryPage() {
             <option value="">All Fields</option>
             {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
           </select>
+          <Link href="/flashcards" className="c-btn-pixel" style={{ fontSize:'0.5rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
+            Flashcard →
+          </Link>
         </div>
         <div className="c-filter-row">
           <button className={`c-pill ${!levelFilter?'c-pill--active':''}`} onClick={() => setLevel(null)}>All</button>

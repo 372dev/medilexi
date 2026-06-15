@@ -126,7 +126,7 @@ export default function FlashcardsPage() {
             onClick={() => setShuffle(s => !s)}
             style={{ marginBottom: 0 }}
           >🔀 Shuffle</button>
-          <Link href="/glossary" className="c-btn-pixel" style={{ fontSize: '0.46rem', padding: '0.4rem 0.8rem' }}>
+          <Link href="/glossary" className="c-btn-pixel" style={{ fontSize: '0.5rem', padding: '0.4rem 0.8rem' }}>
             ← Glossary
           </Link>
         </div>
@@ -179,7 +179,7 @@ export default function FlashcardsPage() {
               <div style={{ height: '6px', background: 'var(--color-border)', borderRadius: '3px', overflow: 'hidden', marginBottom: '0.4rem' }}>
                 <div style={{ height: '100%', background: 'var(--color-gold)', borderRadius: '3px', width: `${(cardIdx / deck.length) * 100}%`, transition: 'width 0.3s' }} />
               </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', fontFamily: 'var(--font-pixel)', fontSize: '0.42rem', color: 'var(--color-text-dim)' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)' }}>
                 <span>{cardIdx + 1} / {deck.length}</span>
                 <span>✓ {known.size} known</span>
               </div>
@@ -212,7 +212,7 @@ export default function FlashcardsPage() {
                   {card.abbr && (
                     <span className="c-abbr">{card.abbr}</span>
                   )}
-                  <p style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.46rem', color: 'var(--color-text-dim)', marginTop: 'auto' }}>
+                  <p style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', marginTop: 'auto' }}>
                     Space or tap to reveal
                   </p>
                 </div>
@@ -277,7 +277,7 @@ export default function FlashcardsPage() {
             </div>
 
             {/* Keyboard hint */}
-            <p style={{ textAlign: 'center', fontFamily: 'var(--font-pixel)', fontSize: '0.38rem', color: 'var(--color-text-dim)', marginTop: '1.25rem', opacity: 0.6 }}>
+            <p style={{ textAlign: 'center', fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', marginTop: '1.25rem', opacity: 0.6 }}>
               ← → arrow keys · Space to flip
             </p>
           </>

@@ -66,7 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               alt="Medi Lexi — Multilingual Glossary · Bridging the Language of Health Care"
               width={460}
               height={259}
-              style={{ imageRendering:'pixelated', width:'100%', maxWidth:'460px', height:'auto', marginBottom:'2rem' }}
+              style={{ imageRendering:'pixelated', width:'100%', maxWidth:'380px', height:'auto', marginBottom:'1.5rem' }}
               priority
             />
             {children}

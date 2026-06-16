@@ -124,11 +124,11 @@ export default function FlashcardsPage() {
             {/* Mode */}
             <div style={{ marginBottom: '1.25rem' }}>
               <div style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)', marginBottom: '0.5rem' }}>Mode</div>
-              <div className="c-filter-row" style={{ marginBottom: 0 }}>
-                <button className={`c-pill ${mode === 'study' ? 'c-pill--active' : ''}`} onClick={() => setMode('study')}>Study</button>
-                <button className={`c-pill ${mode === 'quiz'  ? 'c-pill--active' : ''}`} onClick={() => setMode('quiz')}>Quiz</button>
+              <div className="c-toggle">
+                <button className={`c-toggle__btn ${mode === 'study' ? 'c-toggle__btn--active' : ''}`} onClick={() => setMode('study')}>Study</button>
+                <button className={`c-toggle__btn ${mode === 'quiz'  ? 'c-toggle__btn--active' : ''}`} onClick={() => setMode('quiz')}>Quiz</button>
               </div>
-              <div style={{ fontSize: '0.78rem', color: 'var(--color-text-dim)', marginTop: '0.4rem', opacity: 0.7 }}>
+              <div style={{ fontSize: '0.78rem', color: 'var(--color-text-dim)', marginTop: '0.5rem', opacity: 0.7 }}>
                 {mode === 'study'
                   ? 'Browse freely — Space to flip, ← → to navigate'
                   : 'Mark each card — Space to flip, ← Don\'t know · Know it →'}
@@ -158,22 +158,38 @@ export default function FlashcardsPage() {
             </div>
 
             {/* Count */}
-            <div style={{ marginBottom: '1.75rem' }}>
+            <div style={{ marginBottom: '1.5rem' }}>
               <div style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)', marginBottom: '0.5rem' }}>Cards per session</div>
-              <div className="c-filter-row" style={{ marginBottom: 0 }}>
+              <div className="c-toggle">
                 {COUNT_OPTIONS.map(n => (
-                  <button key={n ?? 'all'} className={`c-pill ${countLimit === n ? 'c-pill--active' : ''}`}
+                  <button key={n ?? 'all'} className={`c-toggle__btn ${countLimit === n ? 'c-toggle__btn--active' : ''}`}
                     onClick={() => setCount(n)}>{n ?? 'All'}</button>
                 ))}
               </div>
             </div>
 
-            {/* Preview */}
-            <div style={{ borderTop: '1px solid var(--color-border)', paddingTop: '1rem', marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-              <span style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.8rem', color: 'var(--color-gold)' }}>{previewCount}</span>
-              <span style={{ fontSize: '0.85rem', color: 'var(--color-text-dim)' }}>
-                {countLimit && filtered.length > countLimit ? `cards (random from ${filtered.length})` : 'cards selected'}
-              </span>
+            {/* Level distribution */}
+            <div style={{ borderTop: '1px solid var(--color-border)', paddingTop: '1rem', marginBottom: '1.25rem' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '0.55rem' }}>
+                <span style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.75rem', color: 'var(--color-gold)' }}>{previewCount}</span>
+                <span style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)' }}>
+                  {countLimit && filtered.length > countLimit ? `random from ${filtered.length}` : 'cards selected'}
+                </span>
+              </div>
+              <div style={{ height: '6px', display: 'flex', borderRadius: '3px', overflow: 'hidden', marginBottom: '0.55rem', background: 'var(--color-border)' }}>
+                {(['⭐⭐⭐ Essential','⭐⭐ Important','⭐ Good to know'] as const).map((lvl, i) => {
+                  const cnt = filtered.filter(v => v.lvl === lvl).length
+                  const color = i === 0 ? '#F0B429' : i === 1 ? '#9B8FEF' : '#3D36A0'
+                  return cnt > 0 ? <div key={lvl} style={{ width: `${(cnt/filtered.length)*100}%`, background: color, transition: 'width 0.3s' }} /> : null
+                })}
+              </div>
+              <div style={{ display: 'flex', gap: '1rem' }}>
+                {([['⭐⭐⭐ Essential','⭐⭐⭐','#F0B429'],['⭐⭐ Important','⭐⭐','#9B8FEF'],['⭐ Good to know','⭐','#5A5490']] as const).map(([lvl, label, color]) => (
+                  <span key={lvl} style={{ fontSize: '0.78rem', color: 'var(--color-text-dim)' }}>
+                    <span style={{ color }}>{label}</span> {filtered.filter(v => v.lvl === lvl).length}
+                  </span>
+                ))}
+              </div>
             </div>
 
             <button className="c-btn-pixel" onClick={startDeck} disabled={previewCount === 0}

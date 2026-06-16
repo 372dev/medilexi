@@ -78,7 +78,7 @@ const fuseKo = new Fuse(vocab, {
   includeMatches: true,
 })
 
-function KoCard({ v, defLang }: { v: MergedEntry; defLang: 'ko' | 'en' }) {
+function KoCard({ v, defLang, onFieldClick }: { v: MergedEntry; defLang: 'ko' | 'en'; onFieldClick: (f: string) => void }) {
   const [hovered, setHovered] = useState(false)
   const [expanded, setExpanded] = useState(false)
   const segs = useMemo(() => getSegments(v.en_h, v.parts), [v])
@@ -105,7 +105,9 @@ function KoCard({ v, defLang }: { v: MergedEntry; defLang: 'ko' | 'en' }) {
         </button>
       )}
       <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>
-        {v.f.map(f => <span key={f} className="c-field-badge">{f}</span>)}
+        {v.f.map(f => (
+          <button key={f} className="c-field-badge" onClick={() => onFieldClick(f)}>{f}</button>
+        ))}
       </div>
     </div>
   )
@@ -199,7 +201,7 @@ export default function KoGlossaryPage() {
 
       {/* ── Cards ── */}
       <div className="c-grid">
-        {filtered.map((v,i) => <KoCard key={i} v={v} defLang={defLang} />)}
+        {filtered.map((v,i) => <KoCard key={i} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} />)}
       </div>
       {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
     </>

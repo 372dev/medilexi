@@ -83,10 +83,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {/* Centre: page title */}
               <div className="site-header__title">{pageTitle}</div>
 
-              {/* Right: toggle */}
-              <button className="site-header__toggle" onClick={toggleMode} title={isDay ? 'Switch to night mode' : 'Switch to day mode'}>
-                {isDay ? '🌙' : '☀️'}
-              </button>
+              {/* Right: About + toggle */}
+              <div style={{ display:'flex', alignItems:'center', gap:'0.75rem', justifySelf:'end' }}>
+                <Link href="/about" style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', textDecoration:'none', lineHeight:1.8, opacity:0.7 }}
+                  title="About & Sources">About</Link>
+                <button className="site-header__toggle" onClick={toggleMode} title={isDay ? 'Switch to night mode' : 'Switch to day mode'}>
+                  {isDay ? '🌙' : '☀️'}
+                </button>
+              </div>
             </header>
             <div className="site-body">
               <aside className="site-ad">Ad</aside>

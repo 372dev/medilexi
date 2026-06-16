@@ -133,8 +133,8 @@ export default function AboutPage() {
         <p style={PROSE}>
           Found an error, missing term, or translation issue? We'd love to hear from you.
         </p>
-        <p style={{ ...PROSE, marginBottom: 0, opacity: 0.6 }}>
-          Feedback form — coming soon.
+        <p style={{ ...PROSE, marginBottom: 0, opacity: 0.55 }}>
+          Feedback form coming soon.
         </p>
       </section>
 

@@ -309,8 +309,12 @@ body.day .c-abbr { color: #185FA5; background: rgba(24,95,165,0.08); border-colo
   background: rgba(80,65,200,0.35);
   border: 1px solid var(--color-border);
   padding: 0.15rem 0.4rem;
+  cursor: pointer;
+  transition: background 0.1s, border-color 0.1s;
 }
+.c-field-badge:hover { background: rgba(80,65,200,0.6); border-color: var(--color-accent); }
 body.day .c-field-badge { background: #f3f4f6; color: #374151; border-color: #d0d5e0; font-size: 0.72rem; }
+body.day .c-field-badge:hover { background: #e5e7eb; border-color: var(--color-accent); }
 
 /* Word part highlight spans */
 .c-part-highlight {

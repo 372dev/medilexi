@@ -71,7 +71,7 @@ const LVL_CARD_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-card--l
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 const ALL_LEVELS = ['⭐⭐⭐ Essential','⭐⭐ Important','⭐ Good to know']
 
-function Card({ v }: { v: VocabEntry }) {
+function Card({ v, onFieldClick }: { v: VocabEntry; onFieldClick: (f: string) => void }) {
   const [hovered, setHovered] = useState(false)
   const [expanded, setExpanded] = useState(false)
   const segs = useMemo(() => getSegments(v.en_h, v.parts), [v])
@@ -95,7 +95,9 @@ function Card({ v }: { v: VocabEntry }) {
         </button>
       )}
       <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>
-        {v.f.map(f => <span key={f} className="c-field-badge">{f}</span>)}
+        {v.f.map(f => (
+          <button key={f} className="c-field-badge" onClick={() => onFieldClick(f)}>{f}</button>
+        ))}
       </div>
     </div>
   )
@@ -161,7 +163,7 @@ export default function GlossaryPage() {
 
       {/* ── Cards ── */}
       <div className="c-grid">
-        {filtered.map((v,i) => <Card key={i} v={v} />)}
+        {filtered.map((v,i) => <Card key={i} v={v} onFieldClick={f => setField(f === fieldFilter ? null : f)} />)}
       </div>
       {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
     </>

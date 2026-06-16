@@ -622,7 +622,7 @@
       "General Medicine"
     ],
     "d": "Describing a condition that persists over a long period (generally three months or more) and typically requires ongoing monitoring and management.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Inflammation",
@@ -686,7 +686,7 @@
       "Oncology"
     ],
     "d": "The surgical removal and microscopic examination of a small tissue sample from a living body for diagnostic purposes, especially to detect cancer.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "s": [
         "-opsy"
@@ -735,7 +735,7 @@
       "General Medicine"
     ],
     "d": "Spread of cancer cells from the primary site to distant organs or tissues via blood or lymphatic system.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
         "meta-"
@@ -1159,7 +1159,7 @@
       "Family Medicine"
     ],
     "d": "Formal process of directing a patient from a primary care provider to a specialist for further evaluation or treatment.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Polypharmacy",
@@ -1195,7 +1195,7 @@
       "Immunology"
     ],
     "d": "Administration of a vaccine to stimulate immunity and protect against specific infectious diseases.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
         "immun/o"
@@ -1260,7 +1260,7 @@
       "Family Medicine"
     ],
     "d": "A mood disorder characterized by persistent low mood, loss of interest or pleasure, and functional impairment lasting at least two weeks; associated with changes in sleep, appetite, energy, and cognition.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Urinary tract infection",
@@ -1274,7 +1274,7 @@
       "Urology"
     ],
     "d": "Bacterial infection of the urinary system (bladder, urethra, kidneys); one of the most common infectious diagnoses.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
         "ur/o"
@@ -1305,7 +1305,7 @@
       "Family Medicine"
     ],
     "d": "Medical care provided without hospital admission; the patient visits a clinic and returns home the same day.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Follow-up",
@@ -1317,7 +1317,7 @@
       "Family Medicine"
     ],
     "d": "Scheduled subsequent visit to monitor a patient's condition, treatment response, or recovery progress.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Screening",
@@ -1330,7 +1330,7 @@
       "Family Medicine"
     ],
     "d": "Testing of asymptomatic individuals to detect disease or risk factors early, before symptoms develop.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Compliance / Adherence",
@@ -1355,7 +1355,7 @@
       "Family Medicine"
     ],
     "d": "A sleep disorder characterized by persistent difficulty initiating or maintaining sleep, or early-morning awakening, occurring at least three nights per week for at least three months and causing daytime impairment.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
         "somn/o"
@@ -1374,7 +1374,7 @@
       "Rehabilitation Medicine"
     ],
     "d": "Pain localized to the lumbar region of the spine, classified as acute (under 6 weeks), subacute (6–12 weeks), or chronic (over 12 weeks); one of the leading causes of disability and work absence worldwide.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Anxiety disorder",
@@ -1387,7 +1387,7 @@
       "Family Medicine"
     ],
     "d": "A group of mental disorders characterized by excessive, persistent fear or worry that is difficult to control and significantly interferes with daily functioning; includes generalized anxiety disorder, panic disorder, and phobias.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Gastroesophageal Reflux Disease",
@@ -1740,7 +1740,7 @@
       "General Medicine"
     ],
     "d": "A specific situation or pre-existing clinical condition in which a drug, procedure, or intervention must not be used due to risk of harm.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
         "contra-"
@@ -1779,7 +1779,7 @@
       "Family Medicine"
     ],
     "d": "A medication that reduces elevated body temperature (fever); commonly combined with analgesics (e.g. acetaminophen, ibuprofen).",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
         "anti-"
@@ -1822,7 +1822,7 @@
       "General Medicine"
     ],
     "d": "An unintended, harmful response occurring at normal therapeutic doses of a drug; distinct from overdose or medication error.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Prophylaxis",
@@ -2390,7 +2390,7 @@
       "General Medicine"
     ],
     "d": "Specialty using radioactive substances to visualise and treat diseases, including PET and bone scans.",
-    "lvl": "⭐ Good to know"
+    "lvl": "⭐⭐ Important"
   },
   {
     "en_h": "Syncope",
@@ -2525,7 +2525,7 @@
       "Pediatrics"
     ],
     "d": "A bluish discoloration of the skin and mucous membranes resulting from inadequate oxygenation of the blood.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
         "cyano-"
@@ -2902,7 +2902,7 @@
       "Family Medicine"
     ],
     "d": "The clinical act of listening to the internal sounds of the body, usually using a stethoscope, to assess circulatory or respiratory status.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Palpation",
@@ -2915,7 +2915,7 @@
       "Family Medicine"
     ],
     "d": "The physical examination process of utilizing pressure from the hands and fingers to feel organs, masses, or tender areas.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐⭐⭐ Essential"
   },
   {
     "en_h": "Prostate-Specific Antigen",
@@ -3237,7 +3237,7 @@
       "Pediatrics"
     ],
     "d": "A visual disorder where the eyes point in different directions and fail to remain aligned simultaneously under normal viewing conditions.",
-    "lvl": "⭐ Good to know"
+    "lvl": "⭐⭐ Important"
   },
   {
     "en_h": "Cataract",
@@ -3283,7 +3283,7 @@
       "Otolaryngology"
     ],
     "d": "An involuntary, rapid, and rhythmic oscillation of the eyeballs, which may be horizontal, vertical, or rotatory.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Macular Degeneration",
@@ -3449,7 +3449,7 @@
       "Orthopedics"
     ],
     "d": "An abnormal excessive outward curvature of the thoracic region of the spine, leading to a slouching posture or hunchback.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
         "kyph/o"
@@ -4711,7 +4711,7 @@
       "Surgery"
     ],
     "d": "A chronic disorder caused by excessive production of growth hormone (GH) by a pituitary adenoma after the closure of epiphyseal growth plates.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "acr/o"
@@ -4732,7 +4732,7 @@
       "OBGYN"
     ],
     "d": "The spontaneous, inappropriate secretion of breast milk unrelated to childbearing or nursing, often linked to hyperprolactinemia.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Hirsutism",
@@ -5161,7 +5161,7 @@
       "Pathology"
     ],
     "d": "An adverse condition, illness, or injury induced inadvertently by a physician, medical team, drug therapy, or diagnostic procedure.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "iatr/o"
@@ -5247,7 +5247,7 @@
       "Psychiatry"
     ],
     "d": "The inability to process sensory information and recognize objects or persons despite intact sensory organs.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "gnos/o"
@@ -5265,7 +5265,7 @@
       "Psychiatry"
     ],
     "d": "A neurological condition in which a person with a disability or illness is unaware of or denies their own impairment; commonly seen after stroke or in dementia.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "gnos/o"
@@ -5349,7 +5349,7 @@
       "Otolaryngology"
     ],
     "d": "The gradual, progressive, and bilateral loss of hearing that occurs naturally with aging.",
-    "lvl": "⭐ Good to know"
+    "lvl": "⭐⭐ Important"
   },
   {
     "en_h": "Diplopia",
@@ -5668,7 +5668,7 @@
       "Cardiology"
     ],
     "d": "Episodic digital ischemia induced by cold, presenting with sequential color changes in digits.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Lymphedema",
@@ -5785,7 +5785,7 @@
       "Pathology"
     ],
     "d": "The transformation of gastric mucosa into a cellular phenotype resembling intestinal mucosa.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
         "meta-"
@@ -6071,7 +6071,7 @@
       "Cardiology"
     ],
     "d": "The muscular tissue of the heart forming the thick middle layer.",
-    "lvl": "⭐⭐⭐ Essential",
+    "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
         "my/o",
@@ -6192,7 +6192,7 @@
       "Gastroenterology"
     ],
     "d": "The opening from the stomach into the duodenum, surrounded by the pyloric sphincter.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "pylor/o"
@@ -6211,7 +6211,7 @@
       "Surgery"
     ],
     "d": "A pouch connected to the junction of the small and large intestines.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Appendix",
@@ -6300,7 +6300,7 @@
       "Nephrology"
     ],
     "d": "The structural and functional unit of the kidney, consisting of a glomerulus (filtering capillary tuft) and a series of renal tubules; each kidney contains approximately one million nephrons.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "nephr/o"
@@ -6319,7 +6319,7 @@
       "Pathology"
     ],
     "d": "A tuft of fenestrated capillaries enclosed within Bowman's capsule in the renal cortex; the site of plasma ultrafiltration and the first step in urine formation.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "glomerul/o"
@@ -6477,7 +6477,7 @@
       "Orthopedics"
     ],
     "d": "A curved long bone connecting the sternum to the scapula, forming part of the shoulder girdle; the most frequently fractured bone in the upper extremity.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Scapula",
@@ -6535,7 +6535,7 @@
       "Orthopedics"
     ],
     "d": "A triangular sesamoid bone embedded in the quadriceps tendon, articulating with the distal femur; protects the knee joint and improves the mechanical advantage of the quadriceps.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Intervertebral Disc",
@@ -6623,7 +6623,7 @@
       "Dermatology"
     ],
     "d": "The thick layer of living tissue below the epidermis containing capillaries and nerves.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "derm/o"
@@ -6927,7 +6927,7 @@
       "Urology"
     ],
     "d": "The funnel-shaped cavity at the centre of each kidney that collects urine from the calyces and channels it into the ureter.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "ren/o",
@@ -7140,7 +7140,7 @@
       "Cardiology"
     ],
     "d": "Blood vessels that supply oxygenated blood directly to the heart muscle; blockage leads to angina or myocardial infarction.",
-    "lvl": "⭐⭐⭐ Essential",
+    "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
         "arteri/o"
@@ -7176,7 +7176,7 @@
       "General Medicine"
     ],
     "d": "The smallest blood vessels, forming networks between arterioles and venules where exchange of oxygen, nutrients, and waste occurs between blood and tissues.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "vascul/o"
@@ -7212,7 +7212,7 @@
       "Otolaryngology"
     ],
     "d": "The hollow space inside the nose that warms, humidifies, and filters inhaled air before it reaches the lower respiratory tract.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "nas/o"
@@ -7230,7 +7230,7 @@
       "Otolaryngology"
     ],
     "d": "Air-filled cavities in the skull bones surrounding the nasal cavity; commonly inflamed in sinusitis.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "p": [
         "para-"
@@ -7326,7 +7326,7 @@
       "Gastroenterology"
     ],
     "d": "The S-shaped final segment of the colon connecting to the rectum; a common site for diverticulosis and colorectal cancer.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "sigmoid/o",
@@ -7417,7 +7417,7 @@
       "Neurology"
     ],
     "d": "The fundamental cellular unit of the nervous system; specialized cells that receive, integrate, and transmit information through electrical impulses and chemical synaptic signals.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "neur/o"
@@ -7484,7 +7484,7 @@
       "Orthopedics"
     ],
     "d": "The long bone of the upper arm extending from the shoulder joint to the elbow; commonly fractured in falls.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Tibia",
@@ -7497,7 +7497,7 @@
       "Orthopedics"
     ],
     "d": "The larger of the two lower leg bones; bears most of the body weight and forms the medial side of the ankle joint.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Vertebra",
@@ -7721,7 +7721,7 @@
       "General Medicine"
     ],
     "d": "Connective tissue of fat cells serving as energy storage, insulation, and organ cushioning.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "adip/o"
@@ -7772,7 +7772,7 @@
       "OBGYN"
     ],
     "d": "Deliberate rupture of the amniotic membranes to induce or accelerate labour.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "s": [
         "-tomy"
@@ -7969,7 +7969,7 @@
       "Surgery"
     ],
     "d": "A fibre-optic instrument inserted into a joint to examine its internal structures.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "arthr/o"
@@ -8011,7 +8011,7 @@
       "Vascular Surgery"
     ],
     "d": "The major vein draining the arm and shoulder; commonly accessed for central venous catheter placement.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "ven/o"
@@ -8047,7 +8047,7 @@
       "Orthopedics"
     ],
     "d": "A two-headed muscle on the front of the upper arm responsible for elbow flexion and forearm supination.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "p": [
         "bi-"
@@ -8068,7 +8068,7 @@
       "Neurology"
     ],
     "d": "Involuntary forceful contraction of the eyelid muscles; may be benign or a neurological sign.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "s": [
         "-spasm"
@@ -8185,7 +8185,7 @@
       "Orthopedics"
     ],
     "d": "Relating to the eight small wrist bones connecting the forearm to the hand.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "carp/o"
@@ -8354,7 +8354,7 @@
       "Urology"
     ],
     "d": "An abnormal colon-bladder connection causing recurrent UTIs and air in urine.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
         "col/o",
@@ -8431,7 +8431,7 @@
       "Urology"
     ],
     "d": "A tubular instrument with camera and light to examine the bladder and urethra.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "cyst/o"
@@ -8510,7 +8510,7 @@
       "Cardiology"
     ],
     "d": "The device recording heart electrical activity to produce the ECG tracing.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "electr/o",
@@ -8531,7 +8531,7 @@
       "Cardiology"
     ],
     "d": "Recording cardiac electrical activity via skin electrodes; diagnoses arrhythmias, MI, and conduction abnormalities.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "electr/o",
@@ -8553,7 +8553,7 @@
       "Cardiology"
     ],
     "d": "The smooth membrane lining heart chambers and valves; inflamed in endocarditis.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "p": [
         "endo-"
@@ -8577,7 +8577,7 @@
       "Surgery"
     ],
     "d": "A tubular instrument with camera and light for visualising hollow organs or body cavities.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "p": [
         "endo-"
@@ -8598,7 +8598,7 @@
       "Pediatrics"
     ],
     "d": "Inflammation of both small intestine and colon; causes include infection and Crohn's disease.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "enter/o",
@@ -8818,7 +8818,7 @@
       "Gastroenterology"
     ],
     "d": "Surgical removal of approximately half the stomach for peptic ulcer disease or gastric cancer.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "p": [
         "hemi-"
@@ -8925,7 +8925,7 @@
       "Dermatology"
     ],
     "d": "A chronic painful skin condition causing abscesses and scarring in sweat gland areas (hidradenitis suppurativa).",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "hidr/o",
@@ -9022,7 +9022,7 @@
       "Ophthalmology"
     ],
     "d": "The almond-shaped gland in the upper outer orbit producing tears to lubricate and protect the eye.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "lacrim/o"
@@ -9060,7 +9060,7 @@
       "Otolaryngology"
     ],
     "d": "Sudden involuntary laryngeal muscle contraction causing vocal cord closure; a medical emergency.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "laryng/o"
@@ -9216,7 +9216,7 @@
       "Orthopedics"
     ],
     "d": "One of two C-shaped fibrocartilage structures in the knee; commonly torn in sports injuries.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Metabolism",
@@ -9247,7 +9247,7 @@
       "Orthopedics"
     ],
     "d": "Relating to the five long bones of the hand connecting wrist to finger bones.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "p": [
         "meta-"
@@ -9286,7 +9286,7 @@
       "Orthopedics"
     ],
     "d": "Relating to the muscles and skeleton together; provides structure, movement, and organ protection.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "muscul/o",
@@ -9305,7 +9305,7 @@
       "Pathology"
     ],
     "d": "The study of fungi including medically important species causing candidiasis and aspergillosis.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "parts": {
       "s": [
         "-ology"
@@ -9500,7 +9500,7 @@
       "Neurology"
     ],
     "d": "Relating to eye movement; CN III controls most eye movements, pupil constriction, and eyelid elevation.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "ocul/o"
@@ -9518,7 +9518,7 @@
       "Pathology"
     ],
     "d": "A mutated gene promoting uncontrolled cell division; derived from normal proto-oncogenes.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
         "onc/o"
@@ -9695,7 +9695,7 @@
       "Orthopedics"
     ],
     "d": "Dense fibrous membrane covering bone surfaces; contains blood vessels and osteoblasts for bone repair.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "p": [
         "peri-"
@@ -9757,7 +9757,7 @@
       "Surgery"
     ],
     "d": "Obliteration of the pleural space to prevent recurrent effusions or pneumothorax.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "pleur/o"
@@ -9927,7 +9927,7 @@
       "Orthopedics"
     ],
     "d": "Extension forward beyond a surface; in dentistry refers to jaw position, in neurology to disc herniation.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Renogram",
@@ -9940,7 +9940,7 @@
       "Nephrology"
     ],
     "d": "A nuclear medicine scan using a tracer to assess kidney blood flow, function, and drainage.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "ren/o"
@@ -9961,7 +9961,7 @@
       "Otolaryngology"
     ],
     "d": "Surgical reshaping of the nose for cosmetic or functional purposes.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "rhin/o"
@@ -10015,7 +10015,7 @@
       "Gastroenterology"
     ],
     "d": "An endoscopic instrument for examining the sigmoid colon and rectum; used for screening and polyp removal.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "sigmoid/o"
@@ -10036,7 +10036,7 @@
       "Gastroenterology"
     ],
     "d": "A wire loop device used endoscopically to remove polyps, tumours, or foreign bodies.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Somatosensory",
@@ -10297,7 +10297,7 @@
       "Emergency Medicine"
     ],
     "d": "A generalised seizure with tonic (stiffening) then clonic (jerking) phases; formerly called grand mal.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "ton/o"
@@ -10378,7 +10378,7 @@
       "Orthopedics"
     ],
     "d": "A three-headed muscle on the back of the upper arm responsible for elbow extension; tests radial nerve (C7).",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "p": [
         "tri-"
@@ -10398,7 +10398,7 @@
       "General Medicine"
     ],
     "d": "A sudden, sharp, brief pain; describes fleeting musculoskeletal or nerve-related discomfort.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Twitch",
@@ -10411,7 +10411,7 @@
       "General Medicine"
     ],
     "d": "A brief involuntary muscle contraction; may be benign or a sign of neuromuscular disease.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Tympanosclerosis",
@@ -10444,7 +10444,7 @@
       "Orthopedics"
     ],
     "d": "Relating to the ulna, the medial forearm bone; the ulnar nerve runs alongside it.",
-    "lvl": "⭐⭐ Important"
+    "lvl": "⭐ Good to know"
   },
   {
     "en_h": "Umbilical cord",
@@ -10533,7 +10533,7 @@
       "Neurology"
     ],
     "d": "Sudden, reversible contraction of a blood vessel reducing its lumen; clinically significant in Raynaud phenomenon and as a complication of subarachnoid hemorrhage.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "vascul/o"
@@ -10554,7 +10554,7 @@
       "General Medicine"
     ],
     "d": "Slowing or stagnation of venous blood flow; predisposes to deep vein thrombosis.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "parts": {
       "r": [
         "ven/o"
@@ -10882,7 +10882,7 @@
   {
     "en_h": "Ovariotomy",
     "d": "Surgical removal of an ovary; performed for cysts, tumors, or torsion.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Obstetrics & Gynecology"
     ]
@@ -11158,7 +11158,7 @@
   {
     "en_h": "Craniosynostosis",
     "d": "Premature fusion of one or more cranial sutures in infants, restricting brain growth.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "f": [
       "Pediatrics",
       "Neurosurgery"
@@ -11251,7 +11251,7 @@
   {
     "en_h": "Glomerulosclerosis",
     "d": "Scarring and hardening of the glomeruli, leading to progressive kidney failure.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Nephrology"
     ]
@@ -11277,7 +11277,7 @@
   {
     "en_h": "Hyperhidrosis",
     "d": "Excessive sweating beyond what is needed for thermoregulation.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "f": [
       "Dermatology"
     ]
@@ -11285,7 +11285,7 @@
   {
     "en_h": "Ileitis",
     "d": "Inflammation of the ileum; a common manifestation of Crohn's disease.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Gastroenterology"
     ]
@@ -11394,7 +11394,7 @@
   {
     "en_h": "Pleuritis",
     "d": "Inflammation of the pleural lining causing sharp chest pain that worsens with breathing.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Pulmonology"
     ]
@@ -11453,7 +11453,7 @@
   {
     "en_h": "Rhinitis",
     "d": "Inflammation of the nasal mucosa causing congestion, runny nose, and sneezing.",
-    "lvl": "⭐⭐⭐ Essential",
+    "lvl": "⭐⭐ Important",
     "f": [
       "Otolaryngology",
       "General Medicine"
@@ -11479,7 +11479,7 @@
   {
     "en_h": "Spinalgia",
     "d": "Pain along the spine; may arise from muscle, nerve, or vertebral pathology.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "f": [
       "Orthopedics",
       "Neurology"
@@ -11576,7 +11576,7 @@
   {
     "en_h": "Adenoma",
     "d": "Benign epithelial tumor arising from glandular tissue; can occur in thyroid, colon, pituitary.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Oncology",
       "General Medicine"
@@ -11611,7 +11611,7 @@
   {
     "en_h": "Andropause",
     "d": "Age-related gradual decline in testosterone levels in men; also called late-onset hypogonadism.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "f": [
       "Endocrinology",
       "Urology"
@@ -11646,7 +11646,7 @@
   {
     "en_h": "Arthrodesis",
     "d": "Surgical fusion of a joint to eliminate movement and relieve pain.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Orthopedics"
     ]
@@ -11654,7 +11654,7 @@
   {
     "en_h": "Atrophy",
     "d": "Wasting or reduction in size of a tissue or organ due to disuse, malnutrition, or disease.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐⭐⭐ Essential",
     "f": [
       "General Medicine",
       "Neurology"
@@ -11924,7 +11924,7 @@
   {
     "en_h": "Estriol",
     "d": "A weaker form of estrogen measured in pregnancy screening for fetal abnormalities.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "f": [
       "Obstetrics & Gynecology",
       "Endocrinology"
@@ -11933,7 +11933,7 @@
   {
     "en_h": "Exocrine",
     "d": "Pertaining to glands that secrete substances through ducts onto body surfaces.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Anatomy",
       "Pharmacology"
@@ -12020,7 +12020,7 @@
   {
     "en_h": "Hyperesthesia",
     "d": "Abnormally increased sensitivity to sensory stimuli including touch, pain, or temperature.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "f": [
       "Neurology"
     ]
@@ -12087,7 +12087,7 @@
   {
     "en_h": "Lipoma",
     "d": "Benign soft tissue tumor composed of mature fat cells; usually painless.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Dermatology",
       "Surgery"
@@ -12121,7 +12121,7 @@
   {
     "en_h": "Megalocardia",
     "d": "Abnormal enlargement of the heart; also called cardiomegaly.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Cardiology"
     ]
@@ -12394,7 +12394,7 @@
   {
     "en_h": "Porphyria",
     "d": "Group of metabolic disorders caused by enzyme defects in heme biosynthesis.",
-    "lvl": "⭐ Good to know",
+    "lvl": "⭐⭐ Important",
     "f": [
       "General Medicine",
       "Hematology"
@@ -12555,7 +12555,7 @@
   {
     "en_h": "Synapse",
     "d": "Junction between two neurons where nerve impulses are transmitted chemically or electrically.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Anatomy",
       "Neurology"
@@ -12564,7 +12564,7 @@
   {
     "en_h": "Synovial Fluid",
     "d": "Viscous lubricating fluid secreted by the synovial membrane within joint cavities.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Anatomy",
       "Rheumatology"
@@ -12606,7 +12606,7 @@
   {
     "en_h": "Tonometer",
     "d": "Instrument used to measure intraocular pressure for glaucoma screening.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Ophthalmology"
     ]
@@ -12748,7 +12748,7 @@
   {
     "en_h": "Albuminuria",
     "d": "Presence of albumin protein in the urine; an early marker of kidney damage.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Nephrology"
     ]
@@ -12817,7 +12817,7 @@
   {
     "en_h": "Dextrocardia",
     "d": "Congenital condition where the heart is positioned on the right side of the chest.",
-    "lvl": "⭐⭐ Important",
+    "lvl": "⭐ Good to know",
     "f": [
       "Cardiology"
     ]

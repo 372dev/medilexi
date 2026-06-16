@@ -4,7 +4,7 @@ import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
 import vocabData from '@/data/medical_vocab_v1.18.json'
-import partsData from '@/data/medical_wordparts_simple_v1.05.json'
+import partsData from '@/data/medical_wordparts_simple_v1.07.json'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string

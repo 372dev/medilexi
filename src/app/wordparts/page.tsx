@@ -41,7 +41,7 @@ export default function WordPartsPage() {
         {/* Row 1: search + flashcard button */}
         <div className="c-search-row">
           <input className="c-search" type="text" placeholder="Search word parts, definitions, examples..." value={search} onChange={e => setSearch(e.target.value)} />
-          <Link href="/wordparts/flashcard" className="c-btn-pixel" style={{ fontSize:'0.46rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
+          <Link href="/wordparts/flashcard" className="c-btn-pixel" style={{ fontSize:'0.5rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
             Flashcard Quiz →
           </Link>
         </div>
@@ -58,11 +58,11 @@ export default function WordPartsPage() {
           <button className={`c-pill ${!lvlFilter?'c-pill--active':''}`} onClick={() => setLvl(null)}>All levels</button>
           {[3,2,1].map(l => (
             <button key={l} className={`c-pill c-pill--star ${lvlFilter===l?'c-pill--active':''}`} onClick={() => setLvl(lvlFilter===l?null:l)}>
-              {'★'.repeat(l)}
+              {'⭐'.repeat(l)}
             </button>
           ))}
           <span style={{ fontSize:'0.72rem', color:'var(--color-text-dim)', marginLeft:'0.5rem', display:'flex', gap:'1rem' }}>
-            <span>★★★ Essential</span><span>★★ Frequent</span><span>★ Good to know</span>
+            <span>⭐⭐⭐ Essential</span><span>⭐⭐ Important</span><span>⭐ Good to know</span>
           </span>
         </div>
         <div className="c-count">{filtered.length} entries</div>
@@ -74,7 +74,7 @@ export default function WordPartsPage() {
           <div key={i} className="c-card" style={{ borderLeft:`3px solid ${p.t==='p'?'#3B82F6':p.t==='r'?'#3BAA6A':'#C94040'}` }}>
             <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
               <span className={`c-badge c-badge--${p.t}`}>{TYPE_LABEL[p.t]}</span>
-              <span style={{ fontSize:'0.75rem', color:'#EF9F27', opacity:p.lvl===3?1:p.lvl===2?0.75:0.45 }}>{'★'.repeat(p.lvl)}</span>
+              <span className={`c-stars c-stars--${p.lvl}`}>{'⭐'.repeat(p.lvl)}</span>
             </div>
             <div style={{ fontSize:'1.2rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.25rem' }}>{p.wp}</div>
             <div style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', lineHeight:1.6 }}>{p.d}</div>

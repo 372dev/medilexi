@@ -53,11 +53,11 @@ export default function WordPartsFlashcard() {
             <button className={`c-pill ${!lvlFilter?'c-pill--active':''}`} onClick={() => setLvl(null)}>All</button>
             {[3,2,1].map(l => (
               <button key={l} className={`c-pill c-pill--star ${lvlFilter===l?'c-pill--active':''}`} onClick={() => setLvl(lvlFilter===l?null:l)}>
-                {'★'.repeat(l)}
+                {'⭐'.repeat(l)}
               </button>
             ))}
           </div>
-          <Link href="/wordparts" className="c-btn-pixel" style={{ fontSize:'0.46rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
+          <Link href="/wordparts" className="c-btn-pixel" style={{ fontSize:'0.5rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
             ← Glossary
           </Link>
         </div>
@@ -111,7 +111,7 @@ export default function WordPartsFlashcard() {
                 <div style={{ position:'absolute', inset:0, backfaceVisibility:'hidden', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', gap:'0.75rem', padding:'2rem', background:'var(--color-panel)', border:'1px solid var(--color-border)', boxShadow:'2px 2px 0 0 var(--color-border)' }}>
                   <span className={`c-badge c-badge--${card.t}`}>{TYPE_LABEL[card.t]}</span>
                   <div style={{ fontSize:'2.8rem', fontWeight:700, color:'var(--color-text)', textAlign:'center' }}>{card.wp}</div>
-                  <span style={{ fontSize:'1.4rem', color:'#EF9F27', opacity:card.lvl===3?1:card.lvl===2?0.75:0.45 }}>{'★'.repeat(card.lvl)}</span>
+                  <span className={`c-stars c-stars--${card.lvl}`} style={{ fontSize:'1.4rem' }}>{'⭐'.repeat(card.lvl)}</span>
                   <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginTop:'auto' }}>Tap to reveal</p>
                 </div>
                 {/* Back */}

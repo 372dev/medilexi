@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
-import vocabData from '@/data/medical_vocab_v1.18.json'
+import vocabData from '@/data/medical_vocab_v1.19.json'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string

@@ -62,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               title={isDay ? 'Switch to night mode' : 'Switch to day mode'}
             >{isDay ? '🌙' : '☀️'}</button>
             <Image
-              src="/images/hero.jpg"
+              src={isDay ? '/images/hero-day.png' : '/images/hero.jpg'}
               alt="Medi Lexi — Multilingual Glossary · Bridging the Language of Health Care"
               width={460}
               height={259}

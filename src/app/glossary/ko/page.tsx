@@ -3,7 +3,7 @@
 import { useState, useMemo, useRef } from 'react'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
-import baseData from '@/data/medical_vocab_v1.18.json'
+import baseData from '@/data/medical_vocab_v1.19.json'
 import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple_v1.07.json'
 

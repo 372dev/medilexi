@@ -3,7 +3,7 @@
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
-import vocabData from '@/data/medical_vocab_v1.18.json'
+import vocabData from '@/data/medical_vocab_v1.19.json'
 import partsData from '@/data/medical_wordparts_simple_v1.07.json'
 
 interface VocabEntry {

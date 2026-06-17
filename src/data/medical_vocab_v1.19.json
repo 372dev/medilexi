@@ -8955,27 +8955,6 @@
     }
   },
   {
-    "en_h": "Intramuscular",
-    "en_l": "Into the muscle",
-    "abbr": "IM",
-    "ko_h": "근육내",
-    "ko_l": "근육 주사",
-    "f": [
-      "General Medicine",
-      "Pharmacology"
-    ],
-    "d": "Administered directly into a muscle; used for vaccines and antibiotics needing faster absorption.",
-    "lvl": "⭐⭐⭐ Essential",
-    "parts": {
-      "p": [
-        "intra-"
-      ],
-      "r": [
-        "muscul/o"
-      ]
-    }
-  },
-  {
     "en_h": "Ipsilateral",
     "en_l": "Same side",
     "abbr": "",

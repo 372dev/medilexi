@@ -42,8 +42,7 @@ export default function Home() {
         Multilingual Medical Glossary
       </p>
       <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.7, maxWidth:'400px', textAlign:'center', marginBottom:'1.75rem' }}>
-        998 medical terms · 410 word parts · Korean &amp; French support —
-        for students, medical interpreters &amp; translators
+        998 medical terms · 410 word parts · for students, medical interpreters &amp; translators · Multilingual support
       </p>
       <nav style={{ width:'100%', maxWidth:'480px', display:'flex', flexDirection:'column', gap:'0.5rem' }}>
         {rows.map((row) => (
@@ -75,16 +74,15 @@ export default function Home() {
           </div>
         ))}
       </nav>
-      <div style={{ marginTop:'2rem', textAlign:'center', display:'flex', flexDirection:'column', gap:'0.35rem', alignItems:'center' }}>
-        <p style={{ fontSize:'0.75rem', color:'var(--color-text-dim)', opacity:0.5, lineHeight:1.6, maxWidth:'400px' }}>
-          For educational purposes only · Not a substitute for professional medical advice
+      <div style={{ marginTop:'2rem', textAlign:'center', display:'flex', flexDirection:'column', gap:'0.5rem', alignItems:'center', maxWidth:'480px' }}>
+        <p className="site-footer__disclaimer" style={{ textAlign:'center' }}>
+          ⚕ For educational purposes only · Not a substitute for professional medical advice, diagnosis, or treatment ·
+          Content is based on standard medical terminology references and may not reflect the latest clinical guidelines
         </p>
         <Link href="/about" style={{ fontSize:'0.82rem', color:'var(--color-accent)', textDecoration:'underline' }}>
           About &amp; Sources
         </Link>
-        <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', opacity:0.4, lineHeight:1.8 }}>
-          © 2026 Medi Lexi · All rights reserved
-        </p>
+        <p className="site-footer__copy">© 2026 Medi Lexi · All rights reserved</p>
       </div>
     </>
   )

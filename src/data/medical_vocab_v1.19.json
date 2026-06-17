@@ -88,7 +88,7 @@
       "Internal Medicine",
       "Endocrinology"
     ],
-    "d": "Excess body fat accumulation (BMI ≥30) associated with increased risk of diabetes, cardiovascular disease, and joint problems.",
+    "d": "A condition of excessive body fat accumulation, defined by a body mass index (BMI) of 30 or above, associated with elevated risk of type 2 diabetes, cardiovascular disease, hypertension, and certain cancers.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -197,7 +197,7 @@
       "Family Medicine",
       "Immunology"
     ],
-    "d": "Hypersensitivity immune response to a substance (allergen) that is typically harmless to most people.",
+    "d": "An abnormal immune response to an ordinarily harmless substance (allergen) such as pollen, food, or medication, producing symptoms ranging from mild irritation to anaphylaxis.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -417,7 +417,7 @@
       "Cardiology",
       "Internal Medicine"
     ],
-    "d": "Build-up of plaques (fat, cholesterol, calcium) inside arterial walls, narrowing vessels and increasing risk of MI and stroke.",
+    "d": "A chronic inflammatory vascular disease in which lipid-laden plaques accumulate within the intima of arterial walls, progressively narrowing the lumen and reducing vessel elasticity; the leading cause of coronary artery disease and stroke.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -646,7 +646,7 @@
       "General Medicine",
       "Infectious Disease"
     ],
-    "d": "Invasion and multiplication of pathogenic microorganisms (bacteria, viruses, fungi) in the body.",
+    "d": "The establishment and replication of pathogenic microorganisms — including bacteria, viruses, fungi, or parasites — within a host, potentially causing tissue damage and disease.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -685,7 +685,7 @@
       "Pathology",
       "Oncology"
     ],
-    "d": "The surgical removal and microscopic examination of a small tissue sample from a living body for diagnostic purposes, especially to detect cancer.",
+    "d": "The removal of a tissue sample from a living patient for microscopic examination; used to establish or confirm a diagnosis, particularly for suspected malignancy.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "s": [
@@ -703,7 +703,7 @@
       "General Medicine",
       "Oncology"
     ],
-    "d": "Describing a tumour or condition that is non-cancerous, does not invade nearby tissues, and does not spread to other parts of the body; generally associated with a favourable outcome.",
+    "d": "Describing a neoplasm or condition that is non-malignant, does not infiltrate adjacent tissue, and lacks the capacity for distant spread; generally associated with a favorable clinical outcome.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -820,7 +820,7 @@
     "f": [
       "Emergency Medicine"
     ],
-    "d": "Process of rapidly assessing and prioritising patients based on severity of condition to allocate care efficiently.",
+    "d": "The process of rapidly assessing and categorizing patients by severity of injury or illness to allocate limited medical resources to those who will benefit most.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -1399,7 +1399,7 @@
       "Gastroenterology",
       "Family Medicine"
     ],
-    "d": "A chronic digestive disease where stomach acid or bile flows back into the food pipe, causing heartburn and potential mucosal damage.",
+    "d": "A chronic digestive condition in which gastric acid or bile refluxes into the esophagus, causing mucosal irritation; characterized by heartburn, regurgitation, and, in severe cases, esophagitis or Barrett's esophagus.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -2066,7 +2066,7 @@
     "f": [
       "General Medicine"
     ],
-    "d": "Specialty responsible for administering anaesthesia and managing pain before, during, and after surgical procedures.",
+    "d": "Specialty responsible for administering anesthesia and managing pain before, during, and after surgical and procedural interventions.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -2238,7 +2238,7 @@
       "General Medicine",
       "Family Medicine"
     ],
-    "d": "Specialised care focused on relieving symptoms and improving quality of life for patients with serious illness, regardless of prognosis.",
+    "d": "Specialized care focused on relieving symptoms and improving quality of life for patients with serious illness, regardless of prognosis or treatment intent.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -2824,7 +2824,7 @@
       "Gastroenterology",
       "General Medicine"
     ],
-    "d": "Visual examination of interior structures or hollow organs of the body using a flexible optical instrument (endoscope).",
+    "d": "A diagnostic and therapeutic procedure in which a flexible fiber-optic instrument (endoscope) is inserted into the body to directly visualize internal structures such as the gastrointestinal tract, airways, or joints.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -2901,7 +2901,7 @@
       "General Medicine",
       "Family Medicine"
     ],
-    "d": "The clinical act of listening to the internal sounds of the body, usually using a stethoscope, to assess circulatory or respiratory status.",
+    "d": "The clinical practice of listening to internal body sounds using a stethoscope; used to assess heart rhythm and murmurs, breath sounds, and bowel activity.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -2914,7 +2914,7 @@
       "General Medicine",
       "Family Medicine"
     ],
-    "d": "The physical examination process of utilizing pressure from the hands and fingers to feel organs, masses, or tender areas.",
+    "d": "A physical examination technique in which the examiner applies systematic manual pressure to assess the size, consistency, tenderness, and position of body structures and organs.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -3388,7 +3388,7 @@
       "Rheumatology",
       "Immunology"
     ],
-    "d": "A chronic autoimmune skin condition accelerating skin cell production, resulting in thick, silvery scales and itchy, dry plaques.",
+    "d": "A chronic immune-mediated skin disorder characterized by accelerated keratinocyte proliferation, resulting in well-demarcated, erythematous plaques covered with silvery-white scales; commonly affects the scalp, elbows, and knees.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -3717,7 +3717,7 @@
       "Radiology",
       "Surgery"
     ],
-    "d": "An invasive extraction procedure where a needle or catheter is inserted into the pleural space to drain pathologic accumulations of pleural fluid.",
+    "d": "A procedure in which a needle or catheter is inserted through the chest wall into the pleural space to withdraw fluid or air for diagnostic analysis or therapeutic relief.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -4061,7 +4061,7 @@
       "Surgery",
       "Infectious Disease"
     ],
-    "d": "A collection of purulent fluid (pus) within a naturally existing anatomical cavity, most commonly the pleural space.",
+    "d": "An accumulation of pus within a body cavity, most commonly the pleural space; typically resulting from pneumonia, thoracic surgery, or chest trauma.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -4933,7 +4933,7 @@
       "Oncology",
       "Pathology"
     ],
-    "d": "A malignant neoplasm (cancer) that originates from epithelial cells, which line internal organs and cover the body.",
+    "d": "A malignant neoplasm arising from epithelial cells; the most prevalent category of cancer, encompassing tumors of the lung, breast, colon, prostate, and many other organs.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -5010,7 +5010,7 @@
       "Oncology",
       "Surgery"
     ],
-    "d": "Treatment, such as chemotherapy or radiation, administered as a first step to shrink a tumor before the main primary surgical intervention.",
+    "d": "Treatment — typically chemotherapy, radiation, or targeted therapy — administered before primary surgical intervention to reduce tumor size, improve resectability, and eliminate occult micrometastases.",
     "lvl": "⭐ Good to know",
     "parts": {
       "p": [
@@ -5382,7 +5382,7 @@
       "Orthopedics",
       "Rheumatology"
     ],
-    "d": "A progressive joint disease characterized by degradation of articular cartilage, subchondral bone remodelling, and low-grade inflammation, causing pain and reduced mobility.",
+    "d": "A progressive joint disease characterized by degradation of articular cartilage, subchondral bone remodeling, and low-grade synovial inflammation; the most common form of arthritis, causing pain, stiffness, and reduced mobility.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -5646,7 +5646,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "A circulatory condition where narrowed arteries reduce blood flow to limbs, secondary to atherosclerosis.",
+    "d": "A common circulatory disorder in which narrowed arteries, most frequently due to atherosclerosis, reduce blood flow to the limbs; classically presents with intermittent claudication.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
@@ -5667,7 +5667,7 @@
       "Rheumatology",
       "Cardiology"
     ],
-    "d": "Episodic digital ischemia induced by cold, presenting with sequential color changes in digits.",
+    "d": "Episodes of vasospasm in the digital arteries triggered by cold exposure or emotional stress, causing sequential color changes in the fingers or toes: white (ischemia), blue (cyanosis), and red (reperfusion).",
     "lvl": "⭐ Good to know"
   },
   {
@@ -6031,7 +6031,7 @@
       "Pulmonology",
       "Surgery"
     ],
-    "d": "The serous membrane lining the thoracic cavity and investing the lungs.",
+    "d": "A thin double-layered serous membrane that lines the thoracic cavity and envelops each lung; the visceral layer covers the lung surface and the parietal layer lines the chest wall, with the pleural space between them allowing frictionless respiratory movement.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6070,7 +6070,7 @@
       "Anatomy",
       "Cardiology"
     ],
-    "d": "The muscular tissue of the heart forming the thick middle layer.",
+    "d": "The thick muscular middle layer of the heart wall, composed of cardiac muscle cells (cardiomyocytes); responsible for the contractile force that pumps blood through the pulmonary and systemic circulations.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6093,7 +6093,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "The double-walled sac containing the heart and the roots of the great vessels.",
+    "d": "The fibroserous double-walled sac enclosing the heart and the proximal portions of the great vessels; the outer fibrous layer provides structural support and the inner serous layers secrete pericardial fluid to reduce friction during cardiac contraction.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -6117,7 +6117,7 @@
       "Anatomy",
       "Cardiology"
     ],
-    "d": "Each of the two upper chambers of the heart that receives blood returning from circulation.",
+    "d": "Either of the two thin-walled upper chambers of the heart that receive returning venous blood: the right atrium receives deoxygenated blood from the systemic circulation, and the left atrium receives oxygenated blood from the pulmonary veins.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6135,7 +6135,7 @@
       "Anatomy",
       "Cardiology"
     ],
-    "d": "Each of the two large lower chambers of the heart that pumps blood out to organs.",
+    "d": "Either of the two thick-walled lower chambers of the heart that eject blood into the circulation: the right ventricle pumps deoxygenated blood to the lungs, and the left ventricle pumps oxygenated blood to the systemic circulation.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6154,7 +6154,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "The main artery of the body, supplying oxygenated blood to the systemic circulatory system.",
+    "d": "The largest artery in the body, arising from the left ventricle and distributing oxygenated blood to the systemic circulation; divided into the ascending aorta, aortic arch, descending thoracic aorta, and abdominal aorta.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6173,7 +6173,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "A large vein carrying deoxygenated blood into the heart (divided into SVC and IVC).",
+    "d": "One of two large veins returning deoxygenated blood to the right atrium: the superior vena cava (SVC) drains the head, neck, and upper extremities; the inferior vena cava (IVC) drains the trunk and lower extremities.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6191,7 +6191,7 @@
       "Anatomy",
       "Gastroenterology"
     ],
-    "d": "The opening from the stomach into the duodenum, surrounded by the pyloric sphincter.",
+    "d": "The distal outlet of the stomach connecting to the duodenum, encircled by the pyloric sphincter; regulates the rate of gastric emptying into the small intestine.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -6210,7 +6210,7 @@
       "Gastroenterology",
       "Surgery"
     ],
-    "d": "A pouch connected to the junction of the small and large intestines.",
+    "d": "A blind-ended pouch forming the junction between the ileum and the ascending colon; the site where the ileocecal valve controls the passage of contents from the small to the large intestine, and from which the appendix projects.",
     "lvl": "⭐ Good to know"
   },
   {
@@ -6243,7 +6243,7 @@
       "Gastroenterology",
       "Surgery"
     ],
-    "d": "The longest part of the large intestine, extending from the cecum to the rectum.",
+    "d": "The major portion of the large intestine, extending from the cecum to the rectum; divided into ascending, transverse, descending, and sigmoid segments; absorbs water and electrolytes and compacts fecal matter.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6262,7 +6262,7 @@
       "Gastroenterology",
       "Surgery"
     ],
-    "d": "The final straight portion of the large intestine, terminating at the anus.",
+    "d": "The terminal segment of the large intestine, approximately 12–15 cm in length, connecting the sigmoid colon to the anal canal; stores formed stool until defecation.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6548,7 +6548,7 @@
       "Orthopedics",
       "Surgery"
     ],
-    "d": "A layer of fibrocartilage separating adjacent vertebrae acting as a shock absorber.",
+    "d": "A fibrocartilaginous structure located between adjacent vertebral bodies; consists of an outer annulus fibrosus and an inner nucleus pulposus; functions to absorb spinal loads, distribute compressive forces, and allow flexible movement of the vertebral column.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -6569,7 +6569,7 @@
       "Anatomy",
       "Orthopedics"
     ],
-    "d": "A short band of tough fibrous tissue connecting two bones or stabilizing joints.",
+    "d": "A band of dense fibrous connective tissue that connects bone to bone across a joint, providing structural stability and limiting excessive movement while allowing normal joint function.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -6582,7 +6582,7 @@
       "Anatomy",
       "Orthopedics"
     ],
-    "d": "A flexible but inelastic cord of strong fibrous collagen attaching muscle to bone.",
+    "d": "A cord of dense, regularly arranged collagen fibers that connects skeletal muscle to bone, transmitting the force of muscular contraction to produce movement at a joint.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6622,7 +6622,7 @@
       "Anatomy",
       "Dermatology"
     ],
-    "d": "The thick layer of living tissue below the epidermis containing capillaries and nerves.",
+    "d": "The layer of dense connective tissue lying between the epidermis and the hypodermis; contains collagen and elastin fibers providing tensile strength and elasticity, as well as blood vessels, lymphatics, nerve endings, hair follicles, and sweat and sebaceous glands.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -6728,7 +6728,7 @@
       "Anatomy",
       "OBGYN"
     ],
-    "d": "A hollow, muscular pear-shaped organ in the female pelvis where a fertilised egg implants and a fetus develops during pregnancy; also sheds its lining monthly during menstruation.",
+    "d": "A hollow, pear-shaped muscular organ in the female pelvis where a fertilized egg implants and a fetus develops during pregnancy; also generates the menstrual flow by periodically shedding its inner lining.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6926,7 +6926,7 @@
       "Nephrology",
       "Urology"
     ],
-    "d": "The funnel-shaped cavity at the centre of each kidney that collects urine from the calyces and channels it into the ureter.",
+    "d": "The funnel-shaped cavity at the center of each kidney that collects urine draining from the renal calyces and channels it into the ureter for transport to the bladder.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -7527,7 +7527,7 @@
       "Anatomy",
       "Endocrinology"
     ],
-    "d": "A pair of triangular glands sitting atop each kidney; the cortex produces cortisol and aldosterone, the medulla produces adrenaline (epinephrine).",
+    "d": "A pair of triangular endocrine glands positioned above each kidney; the cortex produces cortisol, aldosterone, and androgens, while the medulla secretes epinephrine and norepinephrine in response to stress.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -7608,7 +7608,7 @@
       "Anatomy",
       "Ophthalmology"
     ],
-    "d": "The coloured, circular muscle of the eye that controls the size of the pupil, regulating the amount of light entering the eye.",
+    "d": "The pigmented, contractile circular membrane of the eye that controls pupil size, regulating the amount of light reaching the retina.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -7771,7 +7771,7 @@
     "f": [
       "OBGYN"
     ],
-    "d": "Deliberate rupture of the amniotic membranes to induce or accelerate labour.",
+    "d": "Deliberate artificial rupture of the amniotic membranes using a sterile instrument to induce or accelerate labor.",
     "lvl": "⭐ Good to know",
     "parts": {
       "s": [
@@ -7968,7 +7968,7 @@
       "Orthopedics",
       "Surgery"
     ],
-    "d": "A fibre-optic instrument inserted into a joint to examine its internal structures.",
+    "d": "A fiber-optic instrument inserted through a small incision into a joint to visualize its internal structures for diagnosis and surgical treatment.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -8410,7 +8410,7 @@
     "f": [
       "Neurosurgery"
     ],
-    "d": "A surgical procedure removing a skull section to access the brain for tumour removal or haematoma evacuation.",
+    "d": "A surgical procedure in which a section of the skull is temporarily removed to access the brain for tumor resection, hematoma evacuation, or aneurysm repair.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -8492,7 +8492,7 @@
     "f": [
       "Dentistry"
     ],
-    "d": "Having no natural teeth; requires dentures or implants with specific anaesthetic considerations.",
+    "d": "Describing a person who has lost all or most of their natural teeth; requires specialized dental management and specific considerations for airway management under anesthesia.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -8946,7 +8946,7 @@
       "Surgery",
       "Emergency Medicine"
     ],
-    "d": "Blockage of the intestine preventing passage of contents; causes include adhesions, hernias, and tumours.",
+    "d": "A blockage preventing the normal passage of intestinal contents; may be mechanical (adhesions, hernias, tumors, volvulus) or functional (ileus); can cause bowel ischemia and requires urgent management.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -9098,7 +9098,7 @@
       "Hematology",
       "Pathology"
     ],
-    "d": "White blood cells forming the primary cellular immune defence; includes neutrophils and lymphocytes.",
+    "d": "White blood cells that form the primary cellular component of the immune system; classified into granulocytes (neutrophils, eosinophils, basophils) and agranulocytes (lymphocytes, monocytes).",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -9632,7 +9632,7 @@
       "Emergency Medicine",
       "Surgery"
     ],
-    "d": "A circumferential device applied in trauma to stabilise pelvic fractures and reduce haemorrhage.",
+    "d": "A circumferential compression device applied in trauma to stabilize an unstable pelvic fracture, reduce pelvic volume, and control life-threatening hemorrhage.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -10002,7 +10002,7 @@
       "General Medicine",
       "Emergency Medicine"
     ],
-    "d": "Intense shivering with rapid temperature rise; a classic sign of bacteraemia or sepsis.",
+    "d": "Episodes of intense, uncontrollable shivering accompanied by a rapid rise in body temperature; a classic sign of bacteremia or sepsis.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -10035,7 +10035,7 @@
       "Surgery",
       "Gastroenterology"
     ],
-    "d": "A wire loop device used endoscopically to remove polyps, tumours, or foreign bodies.",
+    "d": "A wire loop device deployed through an endoscope to grasp and remove polyps, tumors, or foreign bodies by electrosurgical excision or mechanical avulsion.",
     "lvl": "⭐ Good to know"
   },
   {
@@ -10631,7 +10631,7 @@
       "Neurology",
       "Pathology"
     ],
-    "d": "Yellow CSF discolouration from haemoglobin breakdown; key finding in subarachnoid haemorrhage when CT is negative.",
+    "d": "A yellow discoloration of cerebrospinal fluid caused by the breakdown of hemoglobin from red blood cells; a key finding confirming subarachnoid hemorrhage when CT imaging is negative.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -11050,7 +11050,7 @@
   },
   {
     "en_h": "Acrophobia",
-    "d": "Irrational and persistent fear of heights.",
+    "d": "A persistent, irrational fear of heights that triggers significant anxiety or avoidance behavior; classified as a specific phobia.",
     "lvl": "⭐ Good to know",
     "f": [
       "Psychiatry"
@@ -11058,7 +11058,7 @@
   },
   {
     "en_h": "Adenitis",
-    "d": "Inflammation of a gland or lymph node, usually due to infection.",
+    "d": "Inflammation of a lymph node or gland, typically in response to regional bacterial or viral infection; presents with local tenderness and swelling.",
     "lvl": "⭐ Good to know",
     "f": [
       "General Medicine",

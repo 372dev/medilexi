@@ -258,7 +258,7 @@
     "f": [
       "Family Medicine"
     ],
-    "d": "Core clinical measurements: blood pressure, heart rate, respiratory rate, temperature, and oxygen saturation.",
+    "d": "Five core measurements assessed at each encounter: blood pressure, heart rate, respiratory rate, body temperature, and oxygen saturation.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -270,7 +270,7 @@
     "f": [
       "Family Medicine"
     ],
-    "d": "Condition of rapid onset, short duration, and often severe symptoms — contrasted with chronic.",
+    "d": "Sudden-onset, short-duration condition of often intense severity; contrasted with chronic.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -340,7 +340,7 @@
     "f": [
       "Cardiology"
     ],
-    "d": "Any abnormality in the rate or rhythm of the heartbeat, ranging from benign to life-threatening.",
+    "d": "Any abnormality in cardiac rate or rhythm — too fast, too slow, or irregular — ranging from harmless to life-threatening.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
@@ -671,7 +671,7 @@
     "f": [
       "General Medicine"
     ],
-    "d": "Unpleasant sensory and emotional experience associated with actual or potential tissue damage.",
+    "d": "Unpleasant sensory and emotional experience associated with actual or potential tissue damage, varying in type, duration, and intensity.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -786,7 +786,7 @@
     "f": [
       "General Medicine"
     ],
-    "d": "Unpleasant sensation in the stomach with an urge to vomit; a common symptom across many conditions.",
+    "d": "Unpleasant urge to vomit arising from the upper abdomen; a nonspecific symptom of many gastrointestinal and systemic conditions.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -833,7 +833,7 @@
       "Neurology",
       "Psychiatry"
     ],
-    "d": "Progressive decline in cognitive function severe enough to interfere with daily life; Alzheimer's is the most common cause.",
+    "d": "Progressive decline in memory, language, and reasoning severe enough to impair daily life; Alzheimer's disease is the most common cause.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -846,7 +846,7 @@
       "Neurology",
       "Psychiatry"
     ],
-    "d": "Most common form of dementia, characterized by amyloid plaque accumulation and progressive memory and cognitive decline.",
+    "d": "Progressive neurodegenerative disease causing dementia through accumulation of amyloid plaques and tau tangles, resulting in irreversible cognitive decline.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -1259,7 +1259,7 @@
       "Psychiatry",
       "Family Medicine"
     ],
-    "d": "A mood disorder characterized by persistent low mood, loss of interest or pleasure, and functional impairment lasting at least two weeks; associated with changes in sleep, appetite, energy, and cognition.",
+    "d": "Mood disorder characterized by persistent low mood and loss of interest lasting at least two weeks, impairing daily function; associated with changes in sleep, appetite, and energy.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -1354,7 +1354,7 @@
       "Psychiatry",
       "Family Medicine"
     ],
-    "d": "A sleep disorder characterized by persistent difficulty initiating or maintaining sleep, or early-morning awakening, occurring at least three nights per week for at least three months and causing daytime impairment.",
+    "d": "Sleep disorder characterized by persistent difficulty falling or staying asleep at least three nights weekly for three or more months, causing daytime impairment.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -1373,7 +1373,7 @@
       "Orthopedics",
       "Rehabilitation Medicine"
     ],
-    "d": "Pain localized to the lumbar region of the spine, classified as acute (under 6 weeks), subacute (6–12 weeks), or chronic (over 12 weeks); one of the leading causes of disability and work absence worldwide.",
+    "d": "Pain in the lumbar spine, classified as acute (<6 weeks), subacute (6–12 weeks), or chronic (>12 weeks); a leading cause of disability worldwide.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -1386,7 +1386,7 @@
       "Psychiatry",
       "Family Medicine"
     ],
-    "d": "A group of mental disorders characterized by excessive, persistent fear or worry that is difficult to control and significantly interferes with daily functioning; includes generalized anxiety disorder, panic disorder, and phobias.",
+    "d": "Group of mental disorders marked by excessive, persistent fear or worry that impairs daily functioning; includes generalized anxiety, panic disorder, and phobias.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -1399,7 +1399,7 @@
       "Gastroenterology",
       "Family Medicine"
     ],
-    "d": "A chronic digestive condition in which gastric acid or bile refluxes into the esophagus, causing mucosal irritation; characterized by heartburn, regurgitation, and, in severe cases, esophagitis or Barrett's esophagus.",
+    "d": "Chronic condition in which gastric acid refluxes into the esophagus, causing heartburn and regurgitation; severe cases may progress to esophagitis or Barrett's esophagus.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -1419,7 +1419,7 @@
       "Family Medicine",
       "Internal Medicine"
     ],
-    "d": "A reduction in the number of red blood cells, hemoglobin concentration, or hematocrit below the normal range for age and sex, resulting in reduced oxygen delivery to tissues; causes include iron deficiency, chronic disease, and hemolysis.",
+    "d": "Reduction in red blood cells or hemoglobin below normal, impairing oxygen delivery to tissues; common causes include iron deficiency, chronic disease, and hemolysis.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
@@ -1489,7 +1489,7 @@
       "Pharmacology",
       "Cardiology"
     ],
-    "d": "A drug that inhibits one or more steps in the coagulation cascade to prevent or treat thrombosis; used in atrial fibrillation, venous thromboembolism, mechanical heart valves, and other thromboembolic conditions.",
+    "d": "Drug that inhibits the coagulation cascade to prevent or treat thrombosis; used for atrial fibrillation, venous thromboembolism, and other thromboembolic conditions.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -1522,7 +1522,7 @@
       "Cardiology",
       "Internal Medicine"
     ],
-    "d": "A clinical syndrome in which the heart fails to maintain adequate cardiac output to meet metabolic demands, resulting in fluid congestion in the lungs and peripheral tissues; typically manifests as dyspnea, edema, and fatigue.",
+    "d": "Syndrome in which the heart cannot maintain adequate cardiac output, causing fluid congestion in the lungs and tissues; manifests as dyspnea, edema, and fatigue.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -1568,7 +1568,7 @@
       "Neurology",
       "Emergency Medicine"
     ],
-    "d": "Imaging technique using X-rays to produce detailed cross-sectional images of internal structures; widely used for brain, chest, abdomen, and bone assessment, and first-line in acute trauma and stroke.",
+    "d": "Imaging technique using X-rays to generate cross-sectional images of internal structures; first-line modality for acute trauma, stroke, and chest and abdominal assessment.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -1589,7 +1589,7 @@
       "Neurology",
       "Emergency Medicine"
     ],
-    "d": "A procedure in which a needle is inserted into the subarachnoid space between lumbar vertebrae to collect cerebrospinal fluid for diagnostic analysis or to administer intrathecal medication.",
+    "d": "Procedure inserting a needle into the lumbar subarachnoid space to collect cerebrospinal fluid for diagnosis or to administer intrathecal medication.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -2168,7 +2168,7 @@
       "Pharmacology",
       "Cardiology"
     ],
-    "d": "A class of medications that competitively block beta-adrenergic receptors, reducing heart rate, myocardial contractility, and blood pressure; used in hypertension, angina, arrhythmia, heart failure, and migraine prophylaxis.",
+    "d": "Drug class blocking beta-adrenergic receptors, reducing heart rate and blood pressure; used for hypertension, angina, arrhythmia, and heart failure.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -2434,7 +2434,7 @@
       "Gastroenterology",
       "Emergency Medicine"
     ],
-    "d": "Vomiting of blood originating from the upper gastrointestinal tract; may appear as bright red blood or dark, coffee-ground material depending on the rate of bleeding and gastric acid exposure.",
+    "d": "Vomiting of blood from the upper gastrointestinal tract; appears as bright red blood or dark coffee-ground material depending on bleeding rate.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -2677,7 +2677,7 @@
       "Endocrinology",
       "Neurology"
     ],
-    "d": "The major endocrine master gland at the base of the brain controlling development and downstream hormone secretion from other glands throughout the body.",
+    "d": "The master endocrine gland at the base of the brain that regulates growth, reproduction, and hormone secretion from other endocrine glands.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -2824,7 +2824,7 @@
       "Gastroenterology",
       "General Medicine"
     ],
-    "d": "A diagnostic and therapeutic procedure in which a flexible fiber-optic instrument (endoscope) is inserted into the body to directly visualize internal structures such as the gastrointestinal tract, airways, or joints.",
+    "d": "Procedure using a flexible fiber-optic instrument (endoscope) inserted into the body to directly visualize and treat internal structures such as the gastrointestinal tract or airways.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -2966,7 +2966,7 @@
       "Emergency Medicine",
       "Surgery"
     ],
-    "d": "Acute inflammation of the vermiform appendix, presenting with lower right quadrant abdominal pain, nausea, and fever; managed surgically or, in uncomplicated cases, with antibiotics.",
+    "d": "Acute inflammation of the appendix presenting with right lower quadrant pain, nausea, and fever; treated surgically or with antibiotics in uncomplicated cases.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -3008,7 +3008,7 @@
       "Emergency Medicine",
       "Surgery"
     ],
-    "d": "Inflammation of the peritoneum, most commonly caused by bacterial contamination following perforation of an abdominal viscus; presents with diffuse abdominal pain, rigidity, and fever.",
+    "d": "Inflammation of the peritoneum, usually from bacterial contamination after visceral perforation; presents with diffuse abdominal pain, rigidity, and fever.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -3215,7 +3215,7 @@
       "Otolaryngology",
       "Family Medicine"
     ],
-    "d": "Inflammation of the mucous membranes lining one or more of the paranasal sinuses; most commonly caused by viral upper respiratory infection, with secondary bacterial infection in some cases.",
+    "d": "Inflammation of the paranasal sinuses, most commonly triggered by viral upper respiratory infection; secondary bacterial infection occurs in some cases.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -3331,7 +3331,7 @@
       "Dermatology",
       "Immunology"
     ],
-    "d": "A skin condition characterized by the transient appearance of raised, itchy wheals (hives) resulting from the release of histamine and other mediators from mast cells; triggers include allergens, medications, and infections.",
+    "d": "Transient raised, itchy wheals (hives) caused by histamine release from mast cells; triggers include allergens, medications, and infections.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -3388,7 +3388,7 @@
       "Rheumatology",
       "Immunology"
     ],
-    "d": "A chronic immune-mediated skin disorder characterized by accelerated keratinocyte proliferation, resulting in well-demarcated, erythematous plaques covered with silvery-white scales; commonly affects the scalp, elbows, and knees.",
+    "d": "Chronic immune-mediated skin disorder causing well-demarcated, scaly erythematous plaques; commonly affects the scalp, elbows, and knees.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -3436,7 +3436,7 @@
       "Rheumatology",
       "Orthopedics"
     ],
-    "d": "Form of inflammatory arthritis caused by the deposition of monosodium urate crystals in joints and tissues, often primary in the first metatarsophalangeal joint.",
+    "d": "Form of inflammatory arthritis caused by urate crystal deposition in joints; classically presents with sudden, severe pain in the big toe.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -3448,7 +3448,7 @@
     "f": [
       "Orthopedics"
     ],
-    "d": "An abnormal excessive outward curvature of the thoracic region of the spine, leading to a slouching posture or hunchback.",
+    "d": "Excessive outward curvature of the thoracic spine producing a rounded or hunched posture.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -3469,7 +3469,7 @@
       "Endocrinology",
       "Internal Medicine"
     ],
-    "d": "A clinical condition caused by sustained overproduction of thyroid hormones, leading to a hypermetabolic state with symptoms including weight loss, palpitations, heat intolerance, and tremor.",
+    "d": "Excess thyroid hormone production causing a hypermetabolic state with weight loss, palpitations, heat intolerance, and tremor.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -3656,7 +3656,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "A condition in which a tear in the inner layer of the aorta allows blood to enter and dissect between the layers of the vessel wall, creating a false lumen; a cardiovascular emergency with high mortality.",
+    "d": "A tear in the inner aortic wall allowing blood to split between vessel layers, creating a false lumen; a cardiovascular emergency with high mortality.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -3989,7 +3989,7 @@
       "Anesthesiology",
       "Surgery"
     ],
-    "d": "Collapse or incomplete expansion of lung tissue, reducing or eliminating gas exchange in the affected area; common postoperatively and in patients with mucus plugging or compression.",
+    "d": "Collapse or incomplete expansion of lung tissue, impairing gas exchange; common postoperatively and in patients with mucus plugging or compression.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -4128,7 +4128,7 @@
     "f": [
       "Pulmonology"
     ],
-    "d": "A chronic, progressive lung disease in which the lung interstitium becomes scarred and thickened, reducing compliance and impairing gas exchange; idiopathic pulmonary fibrosis is the most common form.",
+    "d": "Chronic progressive disease in which the lung interstitium becomes scarred and thickened, impairing gas exchange; idiopathic form is most common.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -4358,7 +4358,7 @@
       "Neurology",
       "Rehabilitation Medicine"
     ],
-    "d": "A motor speech disorder caused by neurological injury to the motor component of the speech system, causing slurred, slow, or imprecise pronunciation despite intact language comprehension.",
+    "d": "Motor speech disorder from neurological injury causing slurred, slow, or imprecise pronunciation despite intact language comprehension.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -4379,7 +4379,7 @@
       "Neurology",
       "Internal Medicine"
     ],
-    "d": "A broad term for any condition causing altered brain function or structure, presenting with confusion, cognitive decline, or impaired consciousness; may be caused by metabolic, toxic, infectious, or structural factors.",
+    "d": "Any condition causing altered brain function, presenting with confusion or impaired consciousness; causes include metabolic, toxic, infectious, and structural factors.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -4911,7 +4911,7 @@
       "Hematology",
       "Emergency Medicine"
     ],
-    "d": "A systemic disorder in which widespread intravascular coagulation is triggered by an underlying condition, consuming clotting factors and platelets and leading to simultaneous thrombosis and hemorrhage.",
+    "d": "Systemic coagulopathy triggered by an underlying condition, consuming clotting factors and platelets and causing simultaneous thrombosis and hemorrhage.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -5010,7 +5010,7 @@
       "Oncology",
       "Surgery"
     ],
-    "d": "Treatment — typically chemotherapy, radiation, or targeted therapy — administered before primary surgical intervention to reduce tumor size, improve resectability, and eliminate occult micrometastases.",
+    "d": "Treatment (chemotherapy, radiation, or targeted therapy) given before surgery to reduce tumor size and improve resectability.",
     "lvl": "⭐ Good to know",
     "parts": {
       "p": [
@@ -5031,7 +5031,7 @@
       "OBGYN",
       "Endocrinology"
     ],
-    "d": "The abnormal pathological absence of menstruation, classified into primary and secondary types based on whether menarche has occurred.",
+    "d": "Absence of menstruation; classified as primary (menarche has never occurred) or secondary (previously regular menstruation has stopped).",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
@@ -5181,7 +5181,7 @@
       "Cardiology",
       "Pathology"
     ],
-    "d": "An increase in the size of an organ or tissue caused by enlargement of its individual cells rather than an increase in cell number; commonly seen in cardiac muscle in response to increased workload.",
+    "d": "Increase in organ or tissue size due to enlargement of individual cells; commonly seen in cardiac muscle responding to increased workload.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -5203,7 +5203,7 @@
       "Urology",
       "Oncology"
     ],
-    "d": "An increase in the number of cells in a tissue or organ, resulting in enlargement; may be physiological (e.g. endometrial proliferation) or pathological (e.g. prostatic hyperplasia).",
+    "d": "Increase in cell number within a tissue or organ causing enlargement; may be physiological or pathological (e.g. prostatic hyperplasia).",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -5382,7 +5382,7 @@
       "Orthopedics",
       "Rheumatology"
     ],
-    "d": "A progressive joint disease characterized by degradation of articular cartilage, subchondral bone remodeling, and low-grade synovial inflammation; the most common form of arthritis, causing pain, stiffness, and reduced mobility.",
+    "d": "Progressive joint disease caused by articular cartilage degradation and bone remodeling; the most common form of arthritis, causing pain, stiffness, and reduced mobility.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -5470,7 +5470,7 @@
       "Orthopedics",
       "Pediatrics"
     ],
-    "d": "A structural lateral curvature of the spine exceeding 10 degrees by Cobb angle, typically presenting during adolescent growth spurts; may be idiopathic, congenital, or neuromuscular in origin.",
+    "d": "Lateral curvature of the spine exceeding 10 degrees, typically presenting during adolescent growth spurts; may be idiopathic, congenital, or neuromuscular in origin.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -5565,7 +5565,7 @@
       "Dermatology",
       "Pediatrics"
     ],
-    "d": "A condition characterized by purple or red discoloration of the skin caused by bleeding underneath, which does not blanch with pressure; may indicate platelet disorders, vasculitis, or coagulopathy.",
+    "d": "Purple or red skin discoloration from bleeding beneath the surface, which does not blanch with pressure; may indicate platelet disorders, vasculitis, or coagulopathy.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -5646,7 +5646,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "A common circulatory disorder in which narrowed arteries, most frequently due to atherosclerosis, reduce blood flow to the limbs; classically presents with intermittent claudication.",
+    "d": "Circulatory disorder in which atherosclerosis narrows arteries and reduces blood flow to the limbs; classically presents with intermittent claudication.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [
@@ -5667,7 +5667,7 @@
       "Rheumatology",
       "Cardiology"
     ],
-    "d": "Episodes of vasospasm in the digital arteries triggered by cold exposure or emotional stress, causing sequential color changes in the fingers or toes: white (ischemia), blue (cyanosis), and red (reperfusion).",
+    "d": "Episodic digital vasospasm triggered by cold or stress, causing color changes in fingers or toes: white (ischemia), blue (cyanosis), then red (reperfusion).",
     "lvl": "⭐ Good to know"
   },
   {
@@ -5765,7 +5765,7 @@
       "Gastroenterology",
       "Emergency Medicine"
     ],
-    "d": "Abnormally dilated submucosal veins in the esophagus resulting from portal hypertension, most commonly due to cirrhosis; rupture causes potentially fatal upper gastrointestinal hemorrhage.",
+    "d": "Dilated submucosal veins in the esophagus from portal hypertension; rupture causes potentially fatal upper gastrointestinal hemorrhage.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -5808,7 +5808,7 @@
       "Gastroenterology",
       "Surgery"
     ],
-    "d": "Failure of normal intestinal peristalsis leading to functional bowel obstruction; classified as paralytic (adynamic) or mechanical, causing abdominal distension, nausea, and obstipation.",
+    "d": "Failure of intestinal peristalsis causing functional bowel obstruction; classified as paralytic or mechanical, causing distension, nausea, and obstipation.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -5848,7 +5848,7 @@
       "Pulmonology",
       "Emergency Medicine"
     ],
-    "d": "A life-threatening diffuse inflammatory lung injury causing widespread alveolar damage, severe hypoxemia, and bilateral pulmonary infiltrates; most commonly triggered by sepsis, pneumonia, or major trauma.",
+    "d": "Life-threatening inflammatory lung injury causing widespread alveolar damage and severe hypoxemia; most commonly triggered by sepsis, pneumonia, or trauma.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -5907,7 +5907,7 @@
       "Oncology",
       "Internal Medicine"
     ],
-    "d": "A complex metabolic syndrome associated with underlying illness, characterized by progressive involuntary weight loss, muscle wasting, fatigue, weakness, and anorexia; occurs in cancer, chronic heart failure, and advanced infections.",
+    "d": "Metabolic syndrome of progressive weight loss, muscle wasting, and fatigue associated with advanced cancer, heart failure, and chronic infections.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -5921,7 +5921,7 @@
       "Emergency Medicine",
       "Infectious Disease"
     ],
-    "d": "A life-threatening subset of sepsis in which circulatory, cellular, and metabolic dysfunction substantially increases mortality; defined clinically by vasopressor requirement and serum lactate >2 mmol/L despite adequate fluid resuscitation.",
+    "d": "Life-threatening subset of sepsis with circulatory failure; defined by vasopressor need and lactate >2 mmol/L despite adequate fluid resuscitation.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -5986,7 +5986,7 @@
       "Anatomy",
       "Pulmonology"
     ],
-    "d": "A dome-shaped musculotendinous partition separating the thoracic and abdominal cavities; the principal muscle of respiration, contracting to increase thoracic volume during inhalation.",
+    "d": "Dome-shaped musculotendinous partition separating the thoracic and abdominal cavities; the principal muscle of inhalation.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -6031,7 +6031,7 @@
       "Pulmonology",
       "Surgery"
     ],
-    "d": "A thin double-layered serous membrane that lines the thoracic cavity and envelops each lung; the visceral layer covers the lung surface and the parietal layer lines the chest wall, with the pleural space between them allowing frictionless respiratory movement.",
+    "d": "Thin double-layered membrane lining the thoracic cavity and enveloping each lung; the space between layers (pleural space) allows frictionless respiratory movement.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6070,7 +6070,7 @@
       "Anatomy",
       "Cardiology"
     ],
-    "d": "The thick muscular middle layer of the heart wall, composed of cardiac muscle cells (cardiomyocytes); responsible for the contractile force that pumps blood through the pulmonary and systemic circulations.",
+    "d": "The thick muscular middle layer of the heart wall composed of cardiac muscle cells (cardiomyocytes), responsible for the contractile force that pumps blood.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6093,7 +6093,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "The fibroserous double-walled sac enclosing the heart and the proximal portions of the great vessels; the outer fibrous layer provides structural support and the inner serous layers secrete pericardial fluid to reduce friction during cardiac contraction.",
+    "d": "Fibroserous double-walled sac enclosing the heart; inner serous layers secrete fluid to reduce friction during cardiac contraction.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -6117,7 +6117,7 @@
       "Anatomy",
       "Cardiology"
     ],
-    "d": "Either of the two thin-walled upper chambers of the heart that receive returning venous blood: the right atrium receives deoxygenated blood from the systemic circulation, and the left atrium receives oxygenated blood from the pulmonary veins.",
+    "d": "Either of the two upper heart chambers receiving venous blood; the right receives deoxygenated blood from the body, the left receives oxygenated blood from the lungs.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6135,7 +6135,7 @@
       "Anatomy",
       "Cardiology"
     ],
-    "d": "Either of the two thick-walled lower chambers of the heart that eject blood into the circulation: the right ventricle pumps deoxygenated blood to the lungs, and the left ventricle pumps oxygenated blood to the systemic circulation.",
+    "d": "Either of the two lower heart chambers that eject blood: the right pumps to the lungs, the left pumps oxygenated blood to the body.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6154,7 +6154,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "The largest artery in the body, arising from the left ventricle and distributing oxygenated blood to the systemic circulation; divided into the ascending aorta, aortic arch, descending thoracic aorta, and abdominal aorta.",
+    "d": "The largest artery in the body, arising from the left ventricle and distributing oxygenated blood throughout the systemic circulation.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6173,7 +6173,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "One of two large veins returning deoxygenated blood to the right atrium: the superior vena cava (SVC) drains the head, neck, and upper extremities; the inferior vena cava (IVC) drains the trunk and lower extremities.",
+    "d": "One of two large veins returning deoxygenated blood to the right atrium; SVC drains the head and upper extremities, IVC drains the trunk and lower extremities.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6210,7 +6210,7 @@
       "Gastroenterology",
       "Surgery"
     ],
-    "d": "A blind-ended pouch forming the junction between the ileum and the ascending colon; the site where the ileocecal valve controls the passage of contents from the small to the large intestine, and from which the appendix projects.",
+    "d": "Blind-ended pouch at the junction of the ileum and ascending colon; the ileocecal valve controls flow into the large intestine, and the appendix projects from it.",
     "lvl": "⭐ Good to know"
   },
   {
@@ -6243,7 +6243,7 @@
       "Gastroenterology",
       "Surgery"
     ],
-    "d": "The major portion of the large intestine, extending from the cecum to the rectum; divided into ascending, transverse, descending, and sigmoid segments; absorbs water and electrolytes and compacts fecal matter.",
+    "d": "Major portion of the large intestine from cecum to rectum; absorbs water and electrolytes and compacts fecal matter into stool.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6281,7 +6281,7 @@
       "Endocrinology",
       "Gastroenterology"
     ],
-    "d": "A large mixed gland located behind the stomach with both exocrine functions (secreting digestive enzymes into the duodenum) and endocrine functions (secreting insulin and glucagon to regulate blood glucose).",
+    "d": "Mixed gland behind the stomach: exocrine portion secretes digestive enzymes into the small intestine; endocrine islets secrete insulin and glucagon to regulate blood glucose.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6299,7 +6299,7 @@
       "Anatomy",
       "Nephrology"
     ],
-    "d": "The structural and functional unit of the kidney, consisting of a glomerulus (filtering capillary tuft) and a series of renal tubules; each kidney contains approximately one million nephrons.",
+    "d": "Structural and functional unit of the kidney, consisting of a glomerulus and renal tubules; filters blood and produces urine; each kidney contains approximately one million nephrons.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -6411,7 +6411,7 @@
       "Neurology",
       "Surgery"
     ],
-    "d": "The stalk-like portion of the brain connecting the cerebrum to the spinal cord, comprising the medulla oblongata, pons, and midbrain; controls vital autonomic functions including respiration, heart rate, and blood pressure.",
+    "d": "Stalk connecting the cerebrum to the spinal cord, comprising the medulla, pons, and midbrain; controls vital functions including respiration and heart rate.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -6425,7 +6425,7 @@
       "Neurology",
       "Infectious Disease"
     ],
-    "d": "The three protective membranous layers surrounding the brain and spinal cord: the dura mater (outermost), arachnoid mater (middle), and pia mater (innermost); inflammation of these membranes constitutes meningitis.",
+    "d": "Three protective membranes surrounding the brain and spinal cord: dura mater (outer), arachnoid mater (middle), and pia mater (inner); inflammation constitutes meningitis.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6444,7 +6444,7 @@
       "Neurology",
       "Psychiatry"
     ],
-    "d": "A curved, paired structure in the medial temporal lobe of the brain; critical for the formation of new declarative memories and spatial navigation; one of the first regions affected in Alzheimer's disease.",
+    "d": "Structure in the medial temporal lobe critical for forming new declarative memories; one of the first regions affected in Alzheimer's disease.",
     "lvl": "⭐ Good to know"
   },
   {
@@ -6458,7 +6458,7 @@
       "Neurology",
       "Surgery"
     ],
-    "d": "A cylindrical column of nerve tissue extending from the brainstem through the vertebral canal; transmits motor signals from the brain to the body and sensory signals from the body to the brain; protected by the vertebrae and meninges.",
+    "d": "Cylindrical nerve tissue column in the vertebral canal transmitting motor signals from brain to body and sensory signals from body to brain.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6489,7 +6489,7 @@
       "Anatomy",
       "Orthopedics"
     ],
-    "d": "A flat, triangular bone of the posterior shoulder girdle that articulates with the clavicle and humerus to form the shoulder joint; provides attachment for major muscles of the upper limb.",
+    "d": "Flat triangular bone of the posterior shoulder girdle articulating with the clavicle and humerus; provides attachment for major upper limb muscles.",
     "lvl": "⭐ Good to know"
   },
   {
@@ -6548,7 +6548,7 @@
       "Orthopedics",
       "Surgery"
     ],
-    "d": "A fibrocartilaginous structure located between adjacent vertebral bodies; consists of an outer annulus fibrosus and an inner nucleus pulposus; functions to absorb spinal loads, distribute compressive forces, and allow flexible movement of the vertebral column.",
+    "d": "Fibrocartilaginous structure between vertebral bodies with an outer annulus fibrosus and inner nucleus pulposus; absorbs spinal loads and allows flexible movement.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -6569,7 +6569,7 @@
       "Anatomy",
       "Orthopedics"
     ],
-    "d": "A band of dense fibrous connective tissue that connects bone to bone across a joint, providing structural stability and limiting excessive movement while allowing normal joint function.",
+    "d": "Band of dense fibrous tissue connecting bone to bone across a joint, providing stability and limiting excessive movement.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -6601,7 +6601,7 @@
       "Dermatology",
       "Pathology"
     ],
-    "d": "The outermost, avascular layer of the skin, composed primarily of stratified squamous epithelium; provides a protective physical and chemical barrier against pathogens, UV radiation, and water loss.",
+    "d": "The outermost, avascular skin layer providing a protective barrier against pathogens, UV radiation, and water loss.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -6622,7 +6622,7 @@
       "Anatomy",
       "Dermatology"
     ],
-    "d": "The layer of dense connective tissue lying between the epidermis and the hypodermis; contains collagen and elastin fibers providing tensile strength and elasticity, as well as blood vessels, lymphatics, nerve endings, hair follicles, and sweat and sebaceous glands.",
+    "d": "Dense connective tissue layer beneath the epidermis containing collagen, elastin, blood vessels, nerve endings, hair follicles, and glands.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -6640,7 +6640,7 @@
       "Anatomy",
       "Ophthalmology"
     ],
-    "d": "The transparent, dome-shaped outermost layer of the eye covering the iris, pupil, and anterior chamber; responsible for refracting light and protecting the eye from foreign material.",
+    "d": "Transparent, dome-shaped outermost layer of the eye covering the iris and pupil; refracts light and protects the eye from foreign material.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6658,7 +6658,7 @@
       "Anatomy",
       "Ophthalmology"
     ],
-    "d": "The light-sensitive layer of tissue lining the inner back surface of the eye, containing photoreceptor cells (rods and cones) that convert light into neural signals sent to the brain via the optic nerve.",
+    "d": "Light-sensitive layer lining the inner back of the eye; contains photoreceptors (rods and cones) that convert light into neural signals transmitted via the optic nerve.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6728,7 +6728,7 @@
       "Anatomy",
       "OBGYN"
     ],
-    "d": "A hollow, pear-shaped muscular organ in the female pelvis where a fertilized egg implants and a fetus develops during pregnancy; also generates the menstrual flow by periodically shedding its inner lining.",
+    "d": "Hollow, pear-shaped muscular organ in the female pelvis where a fetus develops; periodically sheds its inner lining to produce menstrual flow.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -6907,7 +6907,7 @@
       "Anesthesiology",
       "OBGYN"
     ],
-    "d": "Injection of local anesthetic and/or opioids into the epidural space of the lumbar spine to block pain transmission from the lower body; commonly used in labor analgesia and postoperative pain management.",
+    "d": "Injection of local anesthetic into the epidural space of the lumbar spine to block lower-body pain; used in labor analgesia and postoperative pain management.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -7527,7 +7527,7 @@
       "Anatomy",
       "Endocrinology"
     ],
-    "d": "A pair of triangular endocrine glands positioned above each kidney; the cortex produces cortisol, aldosterone, and androgens, while the medulla secretes epinephrine and norepinephrine in response to stress.",
+    "d": "Paired triangular glands above each kidney; cortex produces cortisol, aldosterone, and androgens; medulla secretes epinephrine and norepinephrine during stress.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -8946,7 +8946,7 @@
       "Surgery",
       "Emergency Medicine"
     ],
-    "d": "A blockage preventing the normal passage of intestinal contents; may be mechanical (adhesions, hernias, tumors, volvulus) or functional (ileus); can cause bowel ischemia and requires urgent management.",
+    "d": "Blockage of the intestine preventing passage of contents; may be mechanical (adhesions, hernias, tumors) or functional (ileus); can cause ischemia requiring urgent management.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "r": [
@@ -9098,7 +9098,7 @@
       "Hematology",
       "Pathology"
     ],
-    "d": "White blood cells that form the primary cellular component of the immune system; classified into granulocytes (neutrophils, eosinophils, basophils) and agranulocytes (lymphocytes, monocytes).",
+    "d": "White blood cells forming the cellular immune defense; classified as granulocytes (neutrophils, eosinophils, basophils) and agranulocytes (lymphocytes, monocytes).",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -10631,7 +10631,7 @@
       "Neurology",
       "Pathology"
     ],
-    "d": "A yellow discoloration of cerebrospinal fluid caused by the breakdown of hemoglobin from red blood cells; a key finding confirming subarachnoid hemorrhage when CT imaging is negative.",
+    "d": "Yellow discoloration of CSF from hemoglobin breakdown; key finding confirming subarachnoid hemorrhage when CT is negative.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -10992,7 +10992,7 @@
   },
   {
     "en_h": "Tracheotomy",
-    "d": "A surgical incision through the anterior tracheal wall to create a temporary or permanent airway; performed for airway obstruction, prolonged mechanical ventilation, or inability to intubate.",
+    "d": "Surgical incision through the tracheal wall creating an airway; performed for obstruction, prolonged mechanical ventilation, or failed intubation.",
     "lvl": "⭐⭐⭐ Essential",
     "f": [
       "Emergency Medicine",
@@ -12938,7 +12938,7 @@
       "Endocrinology"
     ],
     "lvl": "⭐⭐ Important",
-    "d": "A small anatomical sac or cavity; in the ovary, a follicle is a fluid-filled structure containing an immature egg cell; in the skin, a hair follicle is the tubular structure from which a hair grows."
+    "d": "Small anatomical sac; ovarian follicles are fluid-filled structures containing an immature egg; skin follicles are tubular structures from which hairs grow."
   },
   {
     "en_h": "Testis",
@@ -13012,7 +13012,7 @@
       "Pharmacology"
     ],
     "lvl": "⭐⭐⭐ Essential",
-    "d": "Medication that requires a physician's written authorization before dispensing by a pharmacist; used for conditions requiring medical supervision. Contrast: OTC medicine, which can be purchased without a prescription."
+    "d": "Medication requiring a physician's written authorization before dispensing; for conditions needing medical supervision. Contrast: OTC medicine."
   },
   {
     "en_h": "Fallopian tube",
@@ -13176,7 +13176,7 @@
       "General Medicine"
     ],
     "lvl": "⭐⭐⭐ Essential",
-    "d": "One of four regions dividing the abdomen for clinical reference: right upper quadrant (RUQ), right lower quadrant (RLQ), left upper quadrant (LUQ), and left lower quadrant (LLQ); used to localize pain, organs, and findings on examination."
+    "d": "One of four clinical abdominal regions — RUQ, RLQ, LUQ, LLQ — used to localize pain, organs, and examination findings."
   },
   {
     "en_h": "Abdominal region",
@@ -13185,7 +13185,7 @@
       "General Medicine"
     ],
     "lvl": "⭐⭐ Important",
-    "d": "One of nine clinical divisions of the abdomen: right and left hypochondriac, right and left lumbar, right and left inguinal (iliac), and the central epigastric, umbilical, and hypogastric regions; used for detailed anatomical localization."
+    "d": "One of nine clinical abdominal divisions: right/left hypochondriac, lumbar, inguinal; and central epigastric, umbilical, and hypogastric regions."
   },
   {
     "en_h": "Medial",
@@ -13713,7 +13713,7 @@
       "Dermatology"
     ],
     "lvl": "⭐⭐⭐ Essential",
-    "d": "A chronic inflammatory skin condition characterized by itching, redness, and a scaly rash; often used interchangeably with atopic dermatitis, though eczema encompasses multiple subtypes."
+    "d": "Chronic inflammatory skin condition causing itching, redness, and a scaly rash; often used interchangeably with atopic dermatitis."
   },
   {
     "en_h": "Ichthyosis",
@@ -13730,7 +13730,7 @@
       "Pediatrics"
     ],
     "lvl": "⭐⭐ Important",
-    "d": "A highly contagious superficial bacterial skin infection, most common in children, caused by Staphylococcus aureus or Streptococcus pyogenes; presents with honey-colored crusted lesions."
+    "d": "Highly contagious superficial bacterial skin infection in children, caused by Staphylococcus aureus or Streptococcus pyogenes; presents with honey-colored crusted lesions."
   },
   {
     "en_h": "Kaposi's sarcoma",

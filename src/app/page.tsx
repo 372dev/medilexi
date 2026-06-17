@@ -41,13 +41,10 @@ export default function Home() {
       <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginBottom:'0.5rem', letterSpacing:'0.04em', textAlign:'center', lineHeight:1.8 }}>
         Multilingual Medical Glossary
       </p>
-      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.7, maxWidth:'400px', textAlign:'center', marginBottom:'0.75rem' }}>
-        844 medical terms · 319 word parts · Korean &amp; French support —
+      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.7, maxWidth:'400px', textAlign:'center', marginBottom:'1.75rem' }}>
+        998 medical terms · 410 word parts · Korean &amp; French support —
         for students, medical interpreters &amp; translators
       </p>
-      <Link href="/about" style={{ fontSize:'0.82rem', color:'var(--color-accent)', textDecoration:'underline', marginBottom:'1.75rem' }}>
-        About &amp; Sources
-      </Link>
       <nav style={{ width:'100%', maxWidth:'480px', display:'flex', flexDirection:'column', gap:'0.5rem' }}>
         {rows.map((row) => (
           <div key={row.lang} style={{
@@ -82,6 +79,9 @@ export default function Home() {
         <p style={{ fontSize:'0.75rem', color:'var(--color-text-dim)', opacity:0.5, lineHeight:1.6, maxWidth:'400px' }}>
           For educational purposes only · Not a substitute for professional medical advice
         </p>
+        <Link href="/about" style={{ fontSize:'0.82rem', color:'var(--color-accent)', textDecoration:'underline' }}>
+          About &amp; Sources
+        </Link>
         <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', opacity:0.4, lineHeight:1.8 }}>
           © 2026 Medi Lexi · All rights reserved
         </p>

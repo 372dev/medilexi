@@ -25,6 +25,14 @@ const rows = [
       { label: 'Flashcard', href: '/flashcards/ko',  live: true },
     ]
   },
+  {
+    lang: 'FRENCH',
+    accent: '#3B82F6',
+    tools: [
+      { label: 'Glossary',  href: '/glossary/fr',   live: false },
+      { label: 'Flashcard', href: '/flashcards/fr',  live: false },
+    ]
+  },
 ]
 
 export default function Home() {
@@ -34,7 +42,7 @@ export default function Home() {
         Multilingual Medical Glossary
       </p>
       <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.7, maxWidth:'400px', textAlign:'center', marginBottom:'0.75rem' }}>
-        844 medical terms · 319 word parts · Korean bilingual support —
+        844 medical terms · 319 word parts · Korean &amp; French support —
         for students, medical interpreters &amp; translators
       </p>
       <Link href="/about" style={{ fontSize:'0.82rem', color:'var(--color-accent)', textDecoration:'underline', marginBottom:'1.75rem' }}>

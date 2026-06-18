@@ -25,7 +25,7 @@ export default function WordPartsFlashcard() {
   const [deck,    setDeck]    = useState<WordPart[]>([])
   const [cardIdx, setCardIdx] = useState(0)
   const [flipped, setFlipped] = useState(false)
-  const [score,   setScore]   = useState(0)
+  const [known,   setKnown]   = useState<Set<number>>(new Set())
   const [started, setStarted] = useState(false)
 
   /* Refs for keyboard handler */
@@ -45,6 +45,7 @@ export default function WordPartsFlashcard() {
   const previewCount = countLimit ? Math.min(countLimit, filtered.length) : filtered.length
   const card = deck[cardIdx]
   const done = started && cardIdx >= deck.length
+  const missedCards = done ? deck.filter((_, i) => !known.has(i)) : []
 
   useEffect(() => { doneRef.current = done }, [done])
 
@@ -53,16 +54,26 @@ export default function WordPartsFlashcard() {
     const arr = [...filtered].sort(() => Math.random() - 0.5)
     const limited = countLimit ? arr.slice(0, countLimit) : arr
     setDeck(limited)
-    setCardIdx(0); setFlipped(false); setScore(0)
+    setCardIdx(0); setFlipped(false); setKnown(new Set())
     setStarted(true); setShowSettings(false)
   }
+
+  function startMissed() {
+    const missed = deck.filter((_, i) => !known.has(i))
+    setDeck([...missed].sort(() => Math.random() - 0.5))
+    setCardIdx(0); setFlipped(false); setKnown(new Set())
+  }
+
   function next() { setFlipped(false); setTimeout(() => setCardIdx(i => i + 1), 150) }
   function prev() {
     if (cardIdxRef.current === 0) return
     setFlipped(false)
     setTimeout(() => setCardIdx(i => Math.max(0, i - 1)), 150)
   }
-  function handleGotIt() { setScore(s => s + 1); next() }
+  function handleGotIt() {
+    setKnown(s => { const n = new Set(s); n.add(cardIdxRef.current); return n })
+    next()
+  }
 
   /* ── Keyboard ── */
   useEffect(() => {
@@ -197,7 +208,7 @@ export default function WordPartsFlashcard() {
               <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'0.5rem' }}>
                 <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)' }}>
                   {cardIdx+1} / {deck.length}
-                  {mode==='quiz'  && <span style={{ marginLeft:'0.75rem' }}>✓ {score}</span>}
+                  {mode==='quiz'  && <span style={{ marginLeft:'0.75rem' }}>✓ {known.size}</span>}
                   {mode==='study' && <span style={{ marginLeft:'0.75rem', opacity:0.5 }}>Study</span>}
                 </div>
                 <button onClick={() => setShowSettings(true)}
@@ -276,25 +287,58 @@ export default function WordPartsFlashcard() {
 
           {/* ── Done screen ── */}
           {done && (
-            <div style={{ textAlign:'center', paddingTop:'3rem' }}>
-              <div style={{ fontFamily:'var(--font-pixel)', fontSize:'1.5rem', color:'var(--color-gold)', marginBottom:'0.75rem' }}>
-                {mode==='quiz' ? `✓ ${score} / ${deck.length}` : 'All done!'}
+            mode === 'quiz' ? (
+              <>
+                <div style={{ textAlign:'center', marginBottom:'2rem' }}>
+                  <div style={{ fontFamily:'var(--font-pixel)', fontSize:'1.4rem', color:'var(--color-gold)', marginBottom:'0.5rem' }}>✓ {known.size} / {deck.length}</div>
+                  <p style={{ fontSize:'0.95rem', color:'var(--color-text-dim)' }}>
+                    {known.size === deck.length ? 'Perfect — all cards known!' : known.size >= deck.length * 0.8 ? 'Great job!' : 'Keep practicing!'}
+                  </p>
+                </div>
+                {missedCards.length > 0 && (
+                  <div style={{ marginBottom:'1.75rem' }}>
+                    <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', paddingBottom:'0.5rem', borderBottom:'1px solid var(--color-border)' }}>
+                      Review list ({missedCards.length})
+                    </div>
+                    <div style={{ display:'flex', flexDirection:'column', gap:'0.3rem', maxHeight:'340px', overflowY:'auto' }}>
+                      {missedCards.map((v, i) => (
+                        <div key={i} style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'0.5rem', padding:'0.5rem 0.75rem', background:'var(--color-panel)', border:'1px solid var(--color-border)', fontSize:'0.88rem', lineHeight:1.5 }}>
+                          <span style={{ fontWeight:700, color:'var(--color-text)' }}>{v.wp}</span>
+                          <span style={{ color:'var(--color-text-dim)' }}>
+                            <span style={{ opacity:0.6, marginRight:'0.35rem' }}>[{TYPE_LABEL[v.t]}]</span>
+                            {v.d.length > 50 ? v.d.slice(0, 50) + '…' : v.d}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                <div style={{ display:'flex', gap:'0.75rem', justifyContent:'center', flexWrap:'wrap' }}>
+                  {missedCards.length > 0 && (
+                    <button onClick={startMissed} className="c-btn-pixel"
+                      style={{ fontSize:'0.5rem', padding:'0.65rem 1.5rem', background:'rgba(201,64,64,0.15)', color:'#FCA5A5', border:'1px solid #C94040', boxShadow:'none' }}>
+                      ✗ Retry ({missedCards.length})
+                    </button>
+                  )}
+                  <button onClick={() => setShowSettings(true)} className="c-btn-pixel"
+                    style={{ fontSize:'0.5rem', padding:'0.65rem 1.5rem', background:'var(--color-panel)', color:'var(--color-text-dim)', border:'1px solid var(--color-border)', boxShadow:'none' }}>
+                    New Session
+                  </button>
+                </div>
+              </>
+            ) : (
+              <div style={{ textAlign:'center', paddingTop:'2rem' }}>
+                <div style={{ fontFamily:'var(--font-pixel)', fontSize:'1rem', color:'var(--color-gold)', lineHeight:2, marginBottom:'0.75rem' }}>All done!</div>
+                <p style={{ fontSize:'0.95rem', color:'var(--color-text-dim)', marginBottom:'2rem' }}>{deck.length} cards reviewed.</p>
+                <div style={{ display:'flex', gap:'0.75rem', justifyContent:'center', flexWrap:'wrap' }}>
+                  <button onClick={startDeck} className="c-btn-pixel" style={{ fontSize:'0.5rem', padding:'0.65rem 1.5rem' }}>↺ Start Over</button>
+                  <button onClick={() => setShowSettings(true)} className="c-btn-pixel"
+                    style={{ fontSize:'0.5rem', padding:'0.65rem 1.5rem', background:'var(--color-panel)', color:'var(--color-text-dim)', border:'1px solid var(--color-border)', boxShadow:'none' }}>
+                    New Session
+                  </button>
+                </div>
               </div>
-              <p style={{ color:'var(--color-text-dim)', marginBottom:'2rem' }}>
-                {mode==='quiz'
-                  ? (score===deck.length ? 'Perfect score!' : score>=deck.length*0.8 ? 'Great job!' : 'Keep practicing!')
-                  : `${deck.length} cards reviewed.`}
-              </p>
-              <div style={{ display:'flex', gap:'1rem', justifyContent:'center', flexWrap:'wrap' }}>
-                <button className="c-btn-pixel" onClick={startDeck} style={{ fontSize:'0.5rem', padding:'0.6rem 1.5rem' }}>
-                  ↺ Try Again
-                </button>
-                <button className="c-btn-pixel" onClick={() => setShowSettings(true)}
-                  style={{ fontSize:'0.5rem', padding:'0.6rem 1.5rem', background:'var(--color-panel)', color:'var(--color-text-dim)', border:'1px solid var(--color-border)', boxShadow:'none' }}>
-                  New Session
-                </button>
-              </div>
-            </div>
+            )
           )}
         </div>
       )}

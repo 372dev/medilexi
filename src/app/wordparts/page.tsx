@@ -53,17 +53,14 @@ export default function WordPartsPage() {
             </button>
           ))}
         </div>
-        {/* Row 3: level pills + legend */}
+        {/* Row 3: level pills */}
         <div className="c-filter-row">
           <button className={`c-pill ${!lvlFilter?'c-pill--active':''}`} onClick={() => setLvl(null)}>All levels</button>
-          {[3,2,1].map(l => (
+          {([[3,'⭐⭐⭐ Essential'],[2,'⭐⭐ Important'],[1,'⭐ Good to know']] as const).map(([l, label]) => (
             <button key={l} className={`c-pill c-pill--star ${lvlFilter===l?'c-pill--active':''}`} onClick={() => setLvl(lvlFilter===l?null:l)}>
-              {'⭐'.repeat(l)}
+              {label}
             </button>
           ))}
-          <span style={{ fontSize:'0.72rem', color:'var(--color-text-dim)', marginLeft:'0.5rem', display:'flex', gap:'1rem' }}>
-            <span>⭐⭐⭐ Essential</span><span>⭐⭐ Important</span><span>⭐ Good to know</span>
-          </span>
         </div>
         <div className="c-count">{filtered.length} entries</div>
       </div>

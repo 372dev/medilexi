@@ -101,8 +101,8 @@ export default function WordPartsFlashcard() {
               </div>
               <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginTop:'0.5rem', opacity:0.7 }}>
                 {mode === 'study'
-                  ? 'Browse freely — Space to flip, ← → to navigate'
-                  : "Mark each card — Space to flip, ← Miss · Got it →"}
+                  ? <>Browse freely — <kbd>Space</kbd> to flip, <kbd>←</kbd> <kbd>→</kbd> to navigate</>
+                  : <>Mark each card — <kbd>Space</kbd> to flip, <kbd>←</kbd> Miss · Got it <kbd>→</kbd></>}
               </div>
             </div>
 
@@ -219,7 +219,7 @@ export default function WordPartsFlashcard() {
                     <span className={`c-badge c-badge--${card.t}`}>{TYPE_LABEL[card.t]}</span>
                     <div style={{ fontSize:'2.8rem', fontWeight:700, color:'var(--color-text)', textAlign:'center' }}>{card.wp}</div>
                     <span className={`c-stars c-stars--${card.lvl}`} style={{ fontSize:'1.4rem' }}>{'⭐'.repeat(card.lvl)}</span>
-                    <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginTop:'auto' }}>Space or tap to reveal</p>
+                    <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginTop:'auto' }}><kbd>Space</kbd> or tap to reveal</p>
                   </div>
                   {/* Back */}
                   <div style={{ position:'absolute', inset:0, backfaceVisibility:'hidden', transform:'rotateY(180deg)', display:'flex', flexDirection:'column', alignItems:'center', padding:'1.5rem 2rem', gap:'0.75rem', background:'var(--color-panel)', border:'1px solid var(--color-gold-dim)', overflowY:'auto' }}>
@@ -247,7 +247,7 @@ export default function WordPartsFlashcard() {
                     </button>
                   </div>
                   <p style={{ textAlign:'center', fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginTop:'1rem', opacity:0.5 }}>
-                    Space · flip &nbsp;&nbsp; ← Prev &nbsp;&nbsp; Next →
+                    <kbd>Space</kbd> · flip &nbsp;&nbsp; <kbd>←</kbd> Prev &nbsp;&nbsp; Next <kbd>→</kbd>
                   </p>
                 </>
               )}
@@ -267,7 +267,7 @@ export default function WordPartsFlashcard() {
                   </div>
                 ) : (
                   <p style={{ textAlign:'center', fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', opacity:0.55 }}>
-                    Space · flip &nbsp;&nbsp; ← · miss &nbsp;&nbsp; got it · →
+                    <kbd>Space</kbd> · flip &nbsp;&nbsp; <kbd>←</kbd> · miss &nbsp;&nbsp; got it · <kbd>→</kbd>
                   </p>
                 )
               )}

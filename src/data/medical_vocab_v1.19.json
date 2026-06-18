@@ -11716,6 +11716,26 @@
     ]
   },
   {
+    "en_h": "Wheezing",
+    "en_l": "Wheeze",
+    "f": [
+      "Pulmonology",
+      "Emergency Medicine"
+    ],
+    "d": "A high-pitched whistling sound heard during breathing, caused by narrowed airways; associated with asthma, COPD, and anaphylaxis.",
+    "lvl": "⭐⭐⭐ Essential"
+  },
+  {
+    "en_h": "Rhonchi",
+    "en_l": "Rhonchus (singular)",
+    "f": [
+      "Pulmonology",
+      "General Medicine"
+    ],
+    "d": "Low-pitched rattling breath sounds on auscultation, caused by secretions or obstruction in larger airways; may change or clear with coughing.",
+    "lvl": "⭐⭐ Important"
+  },
+  {
     "en_h": "Cardiologist",
     "d": "Physician specializing in the diagnosis and treatment of cardiovascular disease.",
     "lvl": "⭐⭐ Important",

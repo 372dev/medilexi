@@ -42,7 +42,7 @@ export default function Home() {
         Multilingual Medical Glossary
       </p>
       <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.7, maxWidth:'400px', textAlign:'center', marginBottom:'1.75rem' }}>
-        998 medical terms · 410 word parts · for students, medical interpreters &amp; translators · Multilingual support
+        1000 medical terms · 410 word parts · for students, medical interpreters &amp; translators · Multilingual support
       </p>
       <nav style={{ width:'100%', maxWidth:'480px', display:'flex', flexDirection:'column', gap:'0.5rem' }}>
         {rows.map((row) => (

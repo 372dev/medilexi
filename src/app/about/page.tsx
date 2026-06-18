@@ -20,7 +20,7 @@ const PROSE: React.CSSProperties = {
 }
 
 const STATS = [
-  { n: '998',                      label: 'Medical Terms',        sub: '20+ clinical specialties' },
+  { n: '1000',                     label: 'Medical Terms',        sub: '20+ clinical specialties' },
   { n: '410',                      label: 'Word Parts',           sub: 'Prefix · Root · Suffix' },
   { n: String(multilingualCount),  label: 'Multilingual Entries', sub: 'with full definitions' },
 ]
@@ -103,7 +103,7 @@ export default function AboutPage() {
         <p style={PROSE}>
           Korean translations follow standard medical Korean terminology as used in Korean healthcare and
           academic settings. The multilingual dataset currently covers{' '}
-          <strong style={{ color: 'var(--color-text)' }}>{multilingualCount} of the 998 terms</strong>;
+          <strong style={{ color: 'var(--color-text)' }}>{multilingualCount} of the 1000 terms</strong>;
           additional languages are added progressively.
         </p>
         <p style={PROSE}>

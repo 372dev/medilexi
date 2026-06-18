@@ -80,10 +80,8 @@ const fuseKo = new Fuse(vocab, {
 
 function KoCard({ v, defLang, onFieldClick }: { v: MergedEntry; defLang: 'ko' | 'en'; onFieldClick: (f: string) => void }) {
   const [hovered, setHovered] = useState(false)
-  const [expanded, setExpanded] = useState(false)
   const segs = useMemo(() => getSegments(v.en_h, v.parts), [v])
   const definition = defLang === 'en' ? v.d : (v.d_ko || v.d)
-  const isLong = definition.length > 180
   return (
     <div className={`c-card ${LVL_CARD_CLASS[v.lvl]||''}`} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
@@ -98,12 +96,7 @@ function KoCard({ v, defLang, onFieldClick }: { v: MergedEntry; defLang: 'ko' | 
       {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.3rem' }}>{v.en_l}</div>}
       {v.ko_h && <div className="ko-h">{v.ko_h}</div>}
       {v.ko_l && <div className="ko-l">{v.ko_l}</div>}
-      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom: isLong ? '0.25rem' : '0.65rem', ...(!expanded && isLong ? { display:'-webkit-box', WebkitLineClamp:3, WebkitBoxOrient:'vertical', overflow:'hidden' } : {}) }}>{definition}</p>
-      {isLong && (
-        <button className="c-def-toggle" onClick={() => setExpanded(e => !e)}>
-          {expanded ? '▴ less' : '▾ more'}
-        </button>
-      )}
+      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem' }}>{definition}</p>
       <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>
         {v.f.map(f => (
           <button key={f} className="c-field-badge" onClick={() => onFieldClick(f)}>{f}</button>

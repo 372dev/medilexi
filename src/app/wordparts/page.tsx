@@ -82,6 +82,9 @@ export default function WordPartsPage() {
                 </div>
               ))}
             </div>
+            <div style={{ display:'flex', justifyContent:'center', marginTop:'0.75rem' }}>
+              <button className="c-def-toggle" disabled style={{ cursor:'default', opacity:0.4 }}>▾ more</button>
+            </div>
           </div>
         ))}
       </div>

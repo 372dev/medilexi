@@ -73,9 +73,7 @@ const ALL_LEVELS = ['⭐⭐⭐ Essential','⭐⭐ Important','⭐ Good to know']
 
 function Card({ v, onFieldClick }: { v: VocabEntry; onFieldClick: (f: string) => void }) {
   const [hovered, setHovered] = useState(false)
-  const [expanded, setExpanded] = useState(false)
   const segs = useMemo(() => getSegments(v.en_h, v.parts), [v])
-  const isLong = v.d.length > 180
   return (
     <div className={`c-card ${LVL_CARD_CLASS[v.lvl]||''}`} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
@@ -88,12 +86,7 @@ function Card({ v, onFieldClick }: { v: VocabEntry; onFieldClick: (f: string) =>
           : <span key={i}>{s.text}</span>) : v.en_h}
       </div>
       {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.4rem' }}>{v.en_l}</div>}
-      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom: isLong ? '0.25rem' : '0.65rem', ...(!expanded && isLong ? { display:'-webkit-box', WebkitLineClamp:3, WebkitBoxOrient:'vertical', overflow:'hidden' } : {}) }}>{v.d}</p>
-      {isLong && (
-        <button className="c-def-toggle" onClick={() => setExpanded(e => !e)}>
-          {expanded ? '▴ less' : '▾ more'}
-        </button>
-      )}
+      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem' }}>{v.d}</p>
       <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>
         {v.f.map(f => (
           <button key={f} className="c-field-badge" onClick={() => onFieldClick(f)}>{f}</button>

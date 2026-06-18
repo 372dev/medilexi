@@ -4061,7 +4061,7 @@
                   "Surgery",
                   "Infectious Disease"
               ],
-        "d":  "An accumulation of pus within a body cavity, most commonly the pleural space; typically resulting from pneumonia, thoracic surgery, or chest trauma.",
+        "d":  "Accumulation of pus within a body cavity, most commonly the pleural space; typically caused by pneumonia, thoracic surgery, or chest trauma.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -4075,7 +4075,7 @@
                   "Anesthesiology",
                   "Emergency Medicine"
               ],
-        "d":  "Abnormally elevated carbon dioxide (CO2) levels in arterial blood (PaCO2 \u003e45 mmHg), typically indicating respiratory failure or hypoventilation.",
+        "d":  "Elevated arterial CO2 (PaCO2 \u003e45 mmHg), typically indicating respiratory failure or hypoventilation; may cause respiratory acidosis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -4128,7 +4128,7 @@
         "f":  [
                   "Pulmonology"
               ],
-        "d":  "Chronic progressive disease in which the lung interstitium becomes scarred and thickened, impairing gas exchange; idiopathic form is most common.",
+        "d":  "Chronic progressive scarring of the lung interstitium impairing gas exchange; the idiopathic form (IPF) is the most common.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -4150,7 +4150,7 @@
                   "Gastroenterology",
                   "Internal Medicine"
               ],
-        "d":  "An abnormal accumulation of fluid within the peritoneal cavity, most commonly caused by portal hypertension from cirrhosis, malignancy, or heart failure.",
+        "d":  "Fluid accumulation in the peritoneal cavity; most commonly caused by portal hypertension from cirrhosis, malignancy, or heart failure.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -4163,7 +4163,7 @@
                   "Gastroenterology",
                   "Internal Medicine"
               ],
-        "d":  "Irreversible hepatic scarring from chronic liver injury that distorts normal hepatic architecture, impairing synthetic, metabolic, and excretory liver functions; major complications include portal hypertension, hepatic failure, and hepatocellular carcinoma.",
+        "d":  "Irreversible liver scarring from chronic injury impairing hepatic function; complications include portal hypertension and liver failure.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "s":  [
@@ -4182,7 +4182,7 @@
                   "Gastroenterology",
                   "Otolaryngology"
               ],
-        "d":  "Difficulty swallowing solids, liquids, or both; classified as oropharyngeal (impaired transfer from mouth to esophagus) or esophageal (impaired transit through the esophagus) in origin.",
+        "d":  "Difficulty swallowing, classified as oropharyngeal (mouth-to-esophagus transfer) or esophageal (transit through the esophagus) in origin.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -4200,7 +4200,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "Inflammation or infection of colonic diverticula, most commonly affecting the sigmoid colon; presents with left lower quadrant pain, fever, and leukocytosis.",
+        "d":  "Inflammation of colonic diverticula, most commonly in the sigmoid colon; presents with left lower quadrant pain, fever, and leukocytosis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "s":  [
@@ -4379,7 +4379,7 @@
                   "Neurology",
                   "Internal Medicine"
               ],
-        "d":  "Any condition causing altered brain function, presenting with confusion or impaired consciousness; causes include metabolic, toxic, infectious, and structural factors.",
+        "d":  "Brain dysfunction presenting with confusion or altered consciousness; causes include metabolic, toxic, infectious, and structural insults.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -4400,7 +4400,7 @@
                   "Neurology",
                   "Infectious Disease"
               ],
-        "d":  "Acute inflammation of the brain parenchyma, most commonly caused by viral infection; presents with fever, headache, altered consciousness, and focal neurological deficits.",
+        "d":  "Acute brain parenchyma inflammation, usually viral; presents with fever, headache, altered consciousness, and focal neurological deficits.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -4548,7 +4548,7 @@
                   "Urology",
                   "Infectious Disease"
               ],
-        "d":  "Bacterial infection of the renal parenchyma and pelvis, typically arising from ascending lower urinary tract infection; presents with fever, flank pain, and costovertebral angle tenderness.",
+        "d":  "Bacterial infection of the renal parenchyma from ascending urinary tract infection; presents with fever, flank pain, and CVA tenderness.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -4592,7 +4592,7 @@
                   "Urology",
                   "OBGYN"
               ],
-        "d":  "The involuntary loss of urinary control, classified by mechanism into stress (physical exertion), urge (overactive bladder), overflow, and mixed types.",
+        "d":  "Involuntary loss of urine; classified as stress (exertion-triggered), urge (overactive bladder), overflow, or mixed type.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -4627,7 +4627,7 @@
                   "Endocrinology",
                   "Internal Medicine"
               ],
-        "d":  "Abnormally elevated blood glucose levels (fasting \u003e126 mg/dL or random \u003e200 mg/dL); a hallmark of diabetes mellitus and a risk factor for acute and chronic complications.",
+        "d":  "Elevated blood glucose above normal; hallmark of diabetes mellitus and risk factor for acute and chronic diabetic complications.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -4651,7 +4651,7 @@
                   "Emergency Medicine",
                   "Endocrinology"
               ],
-        "d":  "Abnormally low blood glucose levels (typically \u003c70 mg/dL), causing autonomic symptoms (sweating, tremor) and neuroglycopenic symptoms (confusion, loss of consciousness).",
+        "d":  "Low blood glucose (\u003c70 mg/dL) causing autonomic symptoms such as sweating and tremor, and neuroglycopenic effects such as confusion.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -4676,7 +4676,7 @@
                   "Endocrinology",
                   "Critical Care"
               ],
-        "d":  "A life-threatening, acute metabolic complication of diabetes mellitus characterized by severe hyperglycemia, metabolic acidosis, and high blood ketone levels.",
+        "d":  "Life-threatening diabetes complication with severe hyperglycemia, metabolic acidosis, and elevated ketones; most common in type 1 diabetes.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -4710,7 +4710,7 @@
                   "Endocrinology",
                   "Surgery"
               ],
-        "d":  "A chronic disorder caused by excessive production of growth hormone (GH) by a pituitary adenoma after the closure of epiphyseal growth plates.",
+        "d":  "Chronic disorder from a GH-secreting pituitary adenoma after epiphyseal closure, causing progressive enlargement of hands, feet, and face.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -4806,7 +4806,7 @@
                   "Cardiology",
                   "Endocrinology"
               ],
-        "d":  "A cluster of metabolic risk factors—including abdominal obesity, insulin resistance, dyslipidemia, and hypertension—elevating cardiovascular risks.",
+        "d":  "Cluster of metabolic risk factors — abdominal obesity, dyslipidemia, hypertension, and hyperglycemia — that elevates cardiovascular risk.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -4819,7 +4819,7 @@
                   "Hematology",
                   "Oncology"
               ],
-        "d":  "A simultaneous reduction in red blood cells, white blood cells, and platelets, typically caused by bone marrow failure, nutritional deficiency, or malignancy.",
+        "d":  "Simultaneous reduction in all three blood cell lines; caused by bone marrow failure, nutritional deficiency, or malignancy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -4911,7 +4911,7 @@
                   "Hematology",
                   "Emergency Medicine"
               ],
-        "d":  "Systemic coagulopathy triggered by an underlying condition, consuming clotting factors and platelets and causing simultaneous thrombosis and hemorrhage.",
+        "d":  "Systemic coagulopathy from an underlying trigger that consumes clotting factors, causing simultaneous widespread thrombosis and hemorrhage.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -4933,7 +4933,7 @@
                   "Oncology",
                   "Pathology"
               ],
-        "d":  "A malignant neoplasm arising from epithelial cells; the most prevalent category of cancer, encompassing tumors of the lung, breast, colon, prostate, and many other organs.",
+        "d":  "Malignant epithelial neoplasm; the most common cancer category, encompassing tumors of the lung, breast, colon, prostate, and other organs.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -5225,7 +5225,7 @@
                   "Critical Care",
                   "Emergency Medicine"
               ],
-        "d":  "A life-threatening organ dysfunction caused by a dysregulated host response to infection; defined clinically by an acute change in SOFA score ≥2 points.",
+        "d":  "Life-threatening organ dysfunction from a dysregulated host response to infection; defined by acute SOFA score increase of \u003e=2 points.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -5264,7 +5264,7 @@
                   "Neurology",
                   "Psychiatry"
               ],
-        "d":  "A neurological condition in which a person with a disability or illness is unaware of or denies their own impairment; commonly seen after stroke or in dementia.",
+        "d":  "Neurological deficit in which a patient is unaware of or denies their own disability or illness; commonly seen after stroke or in dementia.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -5382,7 +5382,7 @@
                   "Orthopedics",
                   "Rheumatology"
               ],
-        "d":  "Progressive joint disease caused by articular cartilage degradation and bone remodeling; the most common form of arthritis, causing pain, stiffness, and reduced mobility.",
+        "d":  "Degenerative joint disease from cartilage breakdown; the most common form of arthritis, causing pain, stiffness, and reduced joint mobility.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -5470,7 +5470,7 @@
                   "Orthopedics",
                   "Pediatrics"
               ],
-        "d":  "Lateral curvature of the spine exceeding 10 degrees, typically presenting during adolescent growth spurts; may be idiopathic, congenital, or neuromuscular in origin.",
+        "d":  "Lateral spinal curvature exceeding 10 degrees; typically presents in adolescence and may be idiopathic, congenital, or neuromuscular.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5565,7 +5565,7 @@
                   "Dermatology",
                   "Pediatrics"
               ],
-        "d":  "Purple or red skin discoloration from bleeding beneath the surface, which does not blanch with pressure; may indicate platelet disorders, vasculitis, or coagulopathy.",
+        "d":  "Non-blanching purple skin discoloration from subdermal bleeding; may indicate platelet disorders, vasculitis, or coagulopathy.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -5646,7 +5646,7 @@
                   "Cardiology",
                   "Surgery"
               ],
-        "d":  "Circulatory disorder in which atherosclerosis narrows arteries and reduces blood flow to the limbs; classically presents with intermittent claudication.",
+        "d":  "Atherosclerotic narrowing of limb arteries reducing blood flow; classically presents as intermittent claudication during physical activity.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -5667,7 +5667,7 @@
                   "Rheumatology",
                   "Cardiology"
               ],
-        "d":  "Episodic digital vasospasm triggered by cold or stress, causing color changes in fingers or toes: white (ischemia), blue (cyanosis), then red (reperfusion).",
+        "d":  "Episodic digital vasospasm from cold or stress causing sequential pallor, cyanosis, and erythema in the fingers or toes.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -5721,7 +5721,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "The presence of one or more gallstones within the common bile duct, potentially causing biliary obstruction, jaundice, cholangitis, or pancreatitis.",
+        "d":  "Presence of gallstones in the common bile duct; may cause biliary obstruction, jaundice, cholangitis, or pancreatitis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5744,7 +5744,7 @@
                   "Surgery",
                   "Infectious Disease"
               ],
-        "d":  "Bacterial infection of the biliary tract caused by obstruction and stasis of bile, classically presenting with Charcot\u0027s triad: fever, jaundice, and right upper quadrant pain.",
+        "d":  "Bacterial biliary infection from obstruction; classically presents with Charcot\u0027s triad: fever, jaundice, and right upper quadrant pain.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5808,7 +5808,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "Failure of intestinal peristalsis causing functional bowel obstruction; classified as paralytic or mechanical, causing distension, nausea, and obstipation.",
+        "d":  "Failure of intestinal peristalsis causing functional obstruction; presents with distension, nausea, vomiting, and absent bowel sounds.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5848,7 +5848,7 @@
                   "Pulmonology",
                   "Emergency Medicine"
               ],
-        "d":  "Life-threatening inflammatory lung injury causing widespread alveolar damage and severe hypoxemia; most commonly triggered by sepsis, pneumonia, or trauma.",
+        "d":  "Severe inflammatory lung injury causing diffuse alveolar damage and hypoxemia; most often triggered by sepsis, pneumonia, or trauma.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -5907,7 +5907,7 @@
                   "Oncology",
                   "Internal Medicine"
               ],
-        "d":  "Metabolic syndrome of progressive weight loss, muscle wasting, and fatigue associated with advanced cancer, heart failure, and chronic infections.",
+        "d":  "Progressive weight loss, muscle wasting, and fatigue associated with advanced cancer, heart failure, or chronic infection.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -5921,7 +5921,7 @@
                   "Emergency Medicine",
                   "Infectious Disease"
               ],
-        "d":  "Life-threatening subset of sepsis with circulatory failure; defined by vasopressor need and lactate \u003e2 mmol/L despite adequate fluid resuscitation.",
+        "d":  "Subset of sepsis with circulatory failure, defined by vasopressor requirement and lactate \u003e2 mmol/L despite adequate fluid resuscitation.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -5940,7 +5940,7 @@
                   "Emergency Medicine",
                   "Critical Care"
               ],
-        "d":  "Abnormally elevated potassium levels in the blood (\u003e5.5 mEq/L), which can cause life-threatening cardiac arrhythmias including ventricular fibrillation.",
+        "d":  "Elevated serum potassium (\u003e5.5 mEq/L) that can cause life-threatening cardiac arrhythmias including ventricular fibrillation.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -5965,7 +5965,7 @@
                   "Surgery",
                   "Critical Care"
               ],
-        "d":  "A surgical procedure creating a direct opening into the trachea through the anterior neck to establish or maintain an airway; common indications include prolonged mechanical ventilation, severe upper airway obstruction, and facilitation of pulmonary secretion management.",
+        "d":  "Surgical opening through the anterior neck into the trachea; indicated for prolonged mechanical ventilation or upper airway obstruction.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5999,7 +5999,7 @@
                   "Anatomy",
                   "Pulmonology"
               ],
-        "d":  "One of the two large airways that branch from the trachea into each lung, further subdividing into smaller bronchioles to distribute air throughout lung tissue.",
+        "d":  "One of two large airways branching from the trachea into each lung, further dividing into bronchioles to distribute air through the lungs.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6017,7 +6017,7 @@
                   "Anatomy",
                   "Pulmonology"
               ],
-        "d":  "Microscopic air sacs at the terminal ends of the bronchioles where oxygen and carbon dioxide exchange between air and blood takes place across thin capillary walls.",
+        "d":  "Microscopic air sac at the end of a bronchiole where oxygen and carbon dioxide exchange between air and blood across thin capillary walls.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -6031,7 +6031,7 @@
                   "Pulmonology",
                   "Surgery"
               ],
-        "d":  "Thin double-layered membrane lining the thoracic cavity and enveloping each lung; the space between layers (pleural space) allows frictionless respiratory movement.",
+        "d":  "Double-layered membrane lining the thoracic cavity and covering each lung; the pleural space allows frictionless respiratory movement.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6049,7 +6049,7 @@
                   "Anatomy",
                   "Otolaryngology"
               ],
-        "d":  "A leaf-shaped cartilaginous structure at the base of the tongue that folds over the glottis during swallowing to prevent aspiration of food and liquid into the trachea.",
+        "d":  "Leaf-shaped cartilage at the base of the tongue that folds over the airway during swallowing to prevent aspiration into the trachea.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -6070,7 +6070,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "The thick muscular middle layer of the heart wall composed of cardiac muscle cells (cardiomyocytes), responsible for the contractile force that pumps blood.",
+        "d":  "The muscular middle layer of the heart wall, composed of cardiomyocytes responsible for the contractile force that pumps blood.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6117,7 +6117,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "Either of the two upper heart chambers receiving venous blood; the right receives deoxygenated blood from the body, the left receives oxygenated blood from the lungs.",
+        "d":  "One of the two upper heart chambers; the right receives deoxygenated blood from the body, the left receives oxygenated blood from the lungs.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6173,7 +6173,7 @@
                   "Cardiology",
                   "Surgery"
               ],
-        "d":  "One of two large veins returning deoxygenated blood to the right atrium; SVC drains the head and upper extremities, IVC drains the trunk and lower extremities.",
+        "d":  "One of two large veins returning deoxygenated blood to the right atrium; SVC from the upper body, IVC from the lower body and abdomen.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6191,7 +6191,7 @@
                   "Anatomy",
                   "Gastroenterology"
               ],
-        "d":  "The distal outlet of the stomach connecting to the duodenum, encircled by the pyloric sphincter; regulates the rate of gastric emptying into the small intestine.",
+        "d":  "Distal stomach outlet connecting to the duodenum; the pyloric sphincter regulates the rate of gastric emptying into the small intestine.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -6210,7 +6210,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "Blind-ended pouch at the junction of the ileum and ascending colon; the ileocecal valve controls flow into the large intestine, and the appendix projects from it.",
+        "d":  "Blind-ended pouch at the junction of the ileum and ascending colon; the appendix projects from its wall.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6262,7 +6262,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "The terminal segment of the large intestine, approximately 12–15 cm in length, connecting the sigmoid colon to the anal canal; stores formed stool until defecation.",
+        "d":  "Terminal segment of the large intestine (~12-15 cm) connecting the sigmoid colon to the anal canal; stores formed stool until defecation.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6281,7 +6281,7 @@
                   "Endocrinology",
                   "Gastroenterology"
               ],
-        "d":  "Mixed gland behind the stomach: exocrine portion secretes digestive enzymes into the small intestine; endocrine islets secrete insulin and glucagon to regulate blood glucose.",
+        "d":  "Mixed gland posterior to the stomach; exocrine portion secretes digestive enzymes, while endocrine islets secrete insulin and glucagon.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6299,7 +6299,7 @@
                   "Anatomy",
                   "Nephrology"
               ],
-        "d":  "Structural and functional unit of the kidney, consisting of a glomerulus and renal tubules; filters blood and produces urine; each kidney contains approximately one million nephrons.",
+        "d":  "Kidney functional unit comprising a glomerulus and tubules that filter blood to produce urine; each kidney contains ~1 million nephrons.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -6318,7 +6318,7 @@
                   "Nephrology",
                   "Pathology"
               ],
-        "d":  "A tuft of fenestrated capillaries enclosed within Bowman\u0027s capsule in the renal cortex; the site of plasma ultrafiltration and the first step in urine formation.",
+        "d":  "Tuft of capillaries within Bowman\u0027s capsule in the renal cortex; the site of plasma ultrafiltration and first step in urine formation.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -6373,7 +6373,7 @@
                   "Neurology",
                   "Surgery"
               ],
-        "d":  "The largest part of the brain, divided into two hemispheres and four lobes, responsible for higher functions including thought, memory, language, sensation, and voluntary movement.",
+        "d":  "Largest brain region in two hemispheres and four lobes; governs thought, memory, language, sensation, and voluntary movement.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6411,7 +6411,7 @@
                   "Neurology",
                   "Surgery"
               ],
-        "d":  "Stalk connecting the cerebrum to the spinal cord, comprising the medulla, pons, and midbrain; controls vital functions including respiration and heart rate.",
+        "d":  "Connects the cerebrum to the spinal cord via the medulla, pons, and midbrain; controls vital functions including breathing and heart rate.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -6425,7 +6425,7 @@
                   "Neurology",
                   "Infectious Disease"
               ],
-        "d":  "Three protective membranes surrounding the brain and spinal cord: dura mater (outer), arachnoid mater (middle), and pia mater (inner); inflammation constitutes meningitis.",
+        "d":  "Three layers surrounding the brain and spinal cord — dura mater, arachnoid, and pia mater; their inflammation is meningitis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6444,7 +6444,7 @@
                   "Neurology",
                   "Psychiatry"
               ],
-        "d":  "Structure in the medial temporal lobe critical for forming new declarative memories; one of the first regions affected in Alzheimer\u0027s disease.",
+        "d":  "Medial temporal lobe structure critical for forming new declarative memories; one of the first regions affected in Alzheimer\u0027s disease.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6476,7 +6476,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "A curved long bone connecting the sternum to the scapula, forming part of the shoulder girdle; the most frequently fractured bone in the upper extremity.",
+        "d":  "Curved bone connecting the sternum to the scapula, forming the shoulder girdle; the most commonly fractured bone in the upper extremity.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6489,7 +6489,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Flat triangular bone of the posterior shoulder girdle articulating with the clavicle and humerus; provides attachment for major upper limb muscles.",
+        "d":  "Flat triangular posterior shoulder bone articulating with the clavicle and humerus; provides attachment for major upper limb muscles.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6503,7 +6503,7 @@
                   "Surgery",
                   "Orthopedics"
               ],
-        "d":  "A flat bone in the anterior midline of the thorax consisting of the manubrium, body, and xiphoid process; articulates with the clavicles and costal cartilages of ribs 1–7.",
+        "d":  "Flat midline thoracic bone with manubrium, body, and xiphoid process; articulates with the clavicles and costal cartilages of ribs 1-7.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6534,7 +6534,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "A triangular sesamoid bone embedded in the quadriceps tendon, articulating with the distal femur; protects the knee joint and improves the mechanical advantage of the quadriceps.",
+        "d":  "Triangular sesamoid bone in the quadriceps tendon articulating with the femur; protects the knee joint and improves quadriceps leverage.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6548,7 +6548,7 @@
                   "Orthopedics",
                   "Surgery"
               ],
-        "d":  "Fibrocartilaginous structure between vertebral bodies with an outer annulus fibrosus and inner nucleus pulposus; absorbs spinal loads and allows flexible movement.",
+        "d":  "Disc between vertebral bodies with an annulus fibrosus and nucleus pulposus; absorbs spinal loads and allows flexible movement.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -6582,7 +6582,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "A cord of dense, regularly arranged collagen fibers that connects skeletal muscle to bone, transmitting the force of muscular contraction to produce movement at a joint.",
+        "d":  "Dense collagen cord connecting skeletal muscle to bone, transmitting the force of muscular contraction to produce joint movement.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6658,7 +6658,7 @@
                   "Anatomy",
                   "Ophthalmology"
               ],
-        "d":  "Light-sensitive layer lining the inner back of the eye; contains photoreceptors (rods and cones) that convert light into neural signals transmitted via the optic nerve.",
+        "d":  "Light-sensitive posterior eye layer containing rods and cones that convert light into neural signals transmitted via the optic nerve.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6676,7 +6676,7 @@
                   "Anatomy",
                   "Otolaryngology"
               ],
-        "d":  "A fluid-filled spiral structure in the inner ear containing hair cells that convert sound vibrations into electrical nerve impulses transmitted to the brain via the auditory nerve.",
+        "d":  "Spiral inner ear structure with hair cells that convert sound vibrations into electrical nerve impulses transmitted via the auditory nerve.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6690,7 +6690,7 @@
                   "Oncology",
                   "Immunology"
               ],
-        "d":  "Small, bean-shaped organs of the immune system distributed along lymphatic vessels that filter lymph fluid and contain immune cells to detect and fight infection and cancer.",
+        "d":  "Small immune organs along lymphatic vessels that filter lymph; concentrate immune cells to detect and respond to infection and malignancy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6710,7 +6710,7 @@
                   "Endocrinology",
                   "Surgery"
               ],
-        "d":  "A butterfly-shaped endocrine gland in the neck that produces thyroid hormones (T3 and T4) regulating metabolism, energy, growth, and body temperature.",
+        "d":  "Butterfly-shaped endocrine gland in the neck producing T3 and T4 hormones that regulate metabolism, energy, growth, and body temperature.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6728,7 +6728,7 @@
                   "Anatomy",
                   "OBGYN"
               ],
-        "d":  "Hollow, pear-shaped muscular organ in the female pelvis where a fetus develops; periodically sheds its inner lining to produce menstrual flow.",
+        "d":  "Hollow, pear-shaped muscular organ in the female pelvis where a fetus develops; periodically sheds its lining to produce menstrual flow.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6746,7 +6746,7 @@
                   "Anatomy",
                   "Urology"
               ],
-        "d":  "A walnut-sized male reproductive gland surrounding the urethra below the bladder that produces seminal fluid nourishing and transporting sperm; commonly affected by benign enlargement and cancer in older men.",
+        "d":  "Male gland surrounding the urethra below the bladder that produces seminal fluid; prone to benign enlargement (BPH) and cancer in older men.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6836,7 +6836,7 @@
                   "Immunology",
                   "General Medicine"
               ],
-        "d":  "The branch of medicine concerned with the structure and function of the immune system, including the study of allergies, autoimmune diseases, and immunodeficiencies.",
+        "d":  "The branch of medicine studying the immune system, including allergic, autoimmune, and immunodeficiency diseases.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6857,7 +6857,7 @@
                   "Anesthesiology",
                   "Surgery"
               ],
-        "d":  "Complete loss of consciousness and sensation induced by anesthetic agents, allowing surgical procedures to be performed without pain or awareness.",
+        "d":  "Complete, reversible loss of consciousness induced by anesthetic agents, allowing painless surgery without awareness.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -6907,7 +6907,7 @@
                   "Anesthesiology",
                   "OBGYN"
               ],
-        "d":  "Injection of local anesthetic into the epidural space of the lumbar spine to block lower-body pain; used in labor analgesia and postoperative pain management.",
+        "d":  "Injection of local anesthetic into the epidural space to block lower-body pain; used in labor and postoperative pain management.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -6926,7 +6926,7 @@
                   "Nephrology",
                   "Urology"
               ],
-        "d":  "The funnel-shaped cavity at the center of each kidney that collects urine draining from the renal calyces and channels it into the ureter for transport to the bladder.",
+        "d":  "Funnel-shaped cavity at the center of each kidney collecting urine from the calyces and channeling it into the ureter.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -6972,7 +6972,7 @@
                   "Anesthesiology",
                   "Surgery"
               ],
-        "d":  "Injection of local anesthetic into the subarachnoid space of the lumbar spine, producing temporary loss of sensation and movement below the injection site.",
+        "d":  "Local anesthetic injection into the lumbar subarachnoid space producing temporary loss of sensation and movement below the injection level.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7009,7 +7009,7 @@
                   "Radiology",
                   "General Medicine"
               ],
-        "d":  "Imaging technique using ionizing radiation to visualize dense structures such as bones and detect pulmonary pathology; the most widely used diagnostic imaging modality.",
+        "d":  "Imaging using ionizing radiation to visualize bone and lung pathology; the most widely used diagnostic imaging modality worldwide.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -7034,7 +7034,7 @@
                   "Rehabilitation Medicine",
                   "General Medicine"
               ],
-        "d":  "Treatment using physical methods such as exercise, manual therapy, and modalities to restore function, reduce pain, and improve mobility after injury or illness.",
+        "d":  "Treatment using exercise, manual therapy, and physical modalities to restore function and mobility and reduce pain after injury or illness.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "s":  [
@@ -7082,7 +7082,7 @@
                   "Rehabilitation Medicine",
                   "Neurology"
               ],
-        "d":  "Therapeutic intervention addressing communication, speech, language, voice, and swallowing disorders caused by neurological or developmental conditions.",
+        "d":  "Therapeutic intervention for communication, speech, language, voice, and swallowing disorders from neurological or developmental conditions.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "s":  [
@@ -7100,7 +7100,7 @@
                   "Oncology",
                   "General Medicine"
               ],
-        "d":  "The use of cytotoxic chemical agents to kill or inhibit the growth of cancer cells, administered orally or intravenously, often causing systemic side effects.",
+        "d":  "Use of cytotoxic drugs to kill or suppress cancer cell growth; administered orally or intravenously, commonly causing systemic side effects.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7121,7 +7121,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "A hollow, muscular organ that pumps blood throughout the body via rhythmic contractions; consists of four chambers — two atria and two ventricles.",
+        "d":  "Hollow muscular organ that circulates blood via rhythmic contractions; consists of four chambers: two atria and two ventricles.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7175,7 +7175,7 @@
                   "Anatomy",
                   "General Medicine"
               ],
-        "d":  "The smallest blood vessels, forming networks between arterioles and venules where exchange of oxygen, nutrients, and waste occurs between blood and tissues.",
+        "d":  "Smallest blood vessels connecting arterioles to venules; the site of gas, nutrient, and waste exchange between blood and tissues.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -7193,7 +7193,7 @@
                   "Anatomy",
                   "Pulmonology"
               ],
-        "d":  "A pair of spongy, air-filled organs in the chest that carry out gas exchange — absorbing oxygen and expelling carbon dioxide with each breath.",
+        "d":  "Paired spongy organs in the thorax performing gas exchange — absorbing oxygen from inhaled air and expelling carbon dioxide per breath.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7269,7 +7269,7 @@
                   "Anatomy",
                   "Gastroenterology"
               ],
-        "d":  "The largest internal organ, located in the upper right abdomen; responsible for metabolism, detoxification, protein synthesis, and bile production.",
+        "d":  "The largest internal organ, in the upper right abdomen; performs metabolism, detoxification, protein synthesis, and bile production.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7287,7 +7287,7 @@
                   "Anatomy",
                   "Gastroenterology"
               ],
-        "d":  "A long, coiled tube (~6–7 m) between the stomach and large intestine consisting of the duodenum, jejunum, and ileum; the primary site of nutrient absorption.",
+        "d":  "Coiled tube (~6-7 m) between the stomach and large intestine — duodenum, jejunum, and ileum — and the primary site of nutrient absorption.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7306,7 +7306,7 @@
                   "Anatomy",
                   "Gastroenterology"
               ],
-        "d":  "The final section of the digestive tract (~1.5 m), consisting of the cecum, colon, and rectum; absorbs water and electrolytes and forms stool.",
+        "d":  "Final section of the digestive tract (~1.5 m) consisting of the cecum, colon, and rectum; absorbs water and electrolytes and forms stool.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7380,7 +7380,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "The central organ of the nervous system enclosed within the skull; controls thought, memory, emotion, sensation, motor skills, and all bodily functions.",
+        "d":  "Central organ of the nervous system enclosed within the skull; controls thought, memory, sensation, movement, and all bodily functions.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7398,7 +7398,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "A bundle of axons enclosed in connective tissue sheaths that transmit electrical signals between the central nervous system and target organs, muscles, and sensory receptors.",
+        "d":  "Bundle of axons in connective sheaths that transmit electrical signals between the CNS and target organs, muscles, and sensory receptors.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7416,7 +7416,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "The fundamental cellular unit of the nervous system; specialized cells that receive, integrate, and transmit information through electrical impulses and chemical synaptic signals.",
+        "d":  "Fundamental nervous system cell that receives, integrates, and transmits information via electrical impulses and chemical synaptic signals.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -7434,7 +7434,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Rigid connective tissue that forms the skeleton; provides structural support, protects organs, enables movement, and produces blood cells in the marrow.",
+        "d":  "Rigid connective tissue forming the skeleton; supports the body, protects organs, enables movement, and produces blood cells in the marrow.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7452,7 +7452,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Contractile tissue classified as skeletal (voluntary), cardiac, or smooth (involuntary); responsible for movement, posture, and organ function.",
+        "d":  "Contractile tissue classified as skeletal (voluntary), cardiac, or smooth (involuntary); produces movement, posture, and organ function.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7470,7 +7470,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Firm but flexible connective tissue covering joint surfaces, forming the nose and ears, and cushioning between vertebrae; lacks blood vessels and heals slowly.",
+        "d":  "Firm, flexible avascular connective tissue covering joint surfaces and forming the nose, ears, and intervertebral cushions; heals slowly.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -7527,7 +7527,7 @@
                   "Anatomy",
                   "Endocrinology"
               ],
-        "d":  "Paired triangular glands above each kidney; cortex produces cortisol, aldosterone, and androgens; medulla secretes epinephrine and norepinephrine during stress.",
+        "d":  "Paired gland above each kidney; cortex produces cortisol and aldosterone; medulla secretes epinephrine and norepinephrine during stress.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7634,7 +7634,7 @@
                   "Anatomy",
                   "Otolaryngology"
               ],
-        "d":  "A thin, cone-shaped membrane separating the outer ear canal from the middle ear; vibrates in response to sound waves and transmits them to the ossicles.",
+        "d":  "Thin membrane separating the outer ear canal from the middle ear; vibrates in response to sound waves and transmits them to the ossicles.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7947,7 +7947,7 @@
                   "Orthopedics",
                   "Rheumatology"
               ],
-        "d":  "Needle aspiration of synovial fluid from a joint space for diagnostic analysis (infection, crystal arthropathy, inflammation) or therapeutic decompression.",
+        "d":  "Needle aspiration of synovial fluid from a joint for diagnostic analysis or therapeutic decompression.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7968,7 +7968,7 @@
                   "Orthopedics",
                   "Surgery"
               ],
-        "d":  "A fiber-optic instrument inserted through a small incision into a joint to visualize its internal structures for diagnosis and surgical treatment.",
+        "d":  "Fiber-optic instrument inserted through a small incision into a joint to visualize structures for diagnosis and minimally invasive surgery.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8332,7 +8332,7 @@
                   "Surgery",
                   "Gastroenterology"
               ],
-        "d":  "A surgical procedure creating an opening (stoma) in the abdominal wall through which a portion of the colon is brought, diverting fecal material into an external pouch.",
+        "d":  "Surgical stoma connecting a portion of the colon to the abdominal surface to divert fecal output into an external collection pouch.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8353,7 +8353,7 @@
                   "Surgery",
                   "Urology"
               ],
-        "d":  "An abnormal fistulous tract between the colon and urinary bladder, typically caused by diverticular disease or colorectal cancer; presents with recurrent urinary tract infections, fecaluria, and pneumaturia.",
+        "d":  "Abnormal colon-to-bladder fistula from diverticular disease or colorectal cancer; presents with fecaluria, pneumaturia, and recurrent UTIs.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8410,7 +8410,7 @@
         "f":  [
                   "Neurosurgery"
               ],
-        "d":  "A surgical procedure in which a section of the skull is temporarily removed to access the brain for tumor resection, hematoma evacuation, or aneurysm repair.",
+        "d":  "Temporary removal of a skull section to access the brain for tumor resection, hematoma evacuation, or aneurysm repair.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8472,7 +8472,7 @@
                   "Radiology",
                   "Gastroenterology"
               ],
-        "d":  "Fluoroscopic examination of the duodenum using contrast medium to evaluate the duodenal mucosa, periampullary region, and surrounding structures.",
+        "d":  "Fluoroscopic examination of the duodenum using contrast medium to evaluate the mucosa, periampullary region, and surrounding structures.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8492,7 +8492,7 @@
         "f":  [
                   "Dentistry"
               ],
-        "d":  "Describing a person who has lost all or most of their natural teeth; requires specialized dental management and specific considerations for airway management under anesthesia.",
+        "d":  "Having lost all natural teeth; requires prosthetic management and special consideration for airway management during anesthesia.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8619,7 +8619,7 @@
                   "Hematology",
                   "Pathology"
               ],
-        "d":  "Mature red blood cells lacking a nucleus, containing hemoglobin that transports oxygen from the lungs to tissues and returns carbon dioxide for exhalation.",
+        "d":  "Anucleate red blood cell containing hemoglobin that transports oxygen from the lungs to tissues and returns carbon dioxide for exhalation.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8946,7 +8946,7 @@
                   "Surgery",
                   "Emergency Medicine"
               ],
-        "d":  "Blockage of the intestine preventing passage of contents; may be mechanical (adhesions, hernias, tumors) or functional (ileus); can cause ischemia requiring urgent management.",
+        "d":  "Intestinal blockage from adhesions, hernias, or tumors preventing content passage; may cause ischemia requiring urgent intervention.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -9017,7 +9017,7 @@
         "f":  [
                   "Surgery"
               ],
-        "d":  "A surgical incision through the abdominal wall to access the peritoneal cavity; performed for diagnostic exploration, urgent intervention in abdominal emergencies, or planned surgical repair.",
+        "d":  "Surgical incision through the abdominal wall to access the peritoneal cavity for exploration, emergency intervention, or planned repair.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9077,7 +9077,7 @@
                   "Hematology",
                   "Pathology"
               ],
-        "d":  "White blood cells forming the cellular immune defense; classified as granulocytes (neutrophils, eosinophils, basophils) and agranulocytes (lymphocytes, monocytes).",
+        "d":  "White blood cell; classified as granulocytes (neutrophils, eosinophils, basophils) and agranulocytes (lymphocytes, monocytes).",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9113,7 +9113,7 @@
                   "Urology",
                   "Surgery"
               ],
-        "d":  "A procedure to fragment kidney stones, gallstones, or ureteral calculi using externally focused shock waves (extracorporeal) or endoscopically delivered laser or ultrasound energy.",
+        "d":  "Procedure to fragment kidney or ureteral stones using focused extracorporeal shock waves or endoscopic laser or ultrasound energy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9155,7 +9155,7 @@
                   "General Medicine",
                   "Pediatrics"
               ],
-        "d":  "A state of nutritional imbalance in which the body receives insufficient, excessive, or disproportionate nutrients, impairing physiological function; encompasses undernutrition, overnutrition, and micronutrient deficiency.",
+        "d":  "Nutritional imbalance impairing physiological function; encompasses undernutrition, overnutrition, and micronutrient deficiency.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -9301,7 +9301,7 @@
                   "Hematology",
                   "Pathology"
               ],
-        "d":  "An immature precursor cell in the bone marrow that develops into granulocytes; abnormally elevated counts are characteristic of acute myeloid leukemia.",
+        "d":  "Immature bone marrow precursor cell that develops into granulocytes; elevated counts are characteristic of acute myeloid leukemia (AML).",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -9341,7 +9341,7 @@
                   "Hematology",
                   "Oncology"
               ],
-        "d":  "A malignant neoplasm of plasma cells in the bone marrow; multiple myeloma is the most common form, causing bone destruction, anemia, hypercalcemia, and impaired immunity.",
+        "d":  "Malignant plasma cell neoplasm in the bone marrow; multiple myeloma causes bone destruction, anemia, hypercalcemia, and immune impairment.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9611,7 +9611,7 @@
                   "Emergency Medicine",
                   "Surgery"
               ],
-        "d":  "A circumferential compression device applied in trauma to stabilize an unstable pelvic fracture, reduce pelvic volume, and control life-threatening hemorrhage.",
+        "d":  "Circumferential compression device for unstable pelvic fractures that reduces pelvic volume and controls life-threatening hemorrhage.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -10014,7 +10014,7 @@
                   "Surgery",
                   "Gastroenterology"
               ],
-        "d":  "A wire loop device deployed through an endoscope to grasp and remove polyps, tumors, or foreign bodies by electrosurgical excision or mechanical avulsion.",
+        "d":  "Wire loop deployed through an endoscope to grasp and remove polyps, tumors, or foreign bodies by electrosurgical or mechanical excision.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -10080,7 +10080,7 @@
                   "Surgery",
                   "Hematology"
               ],
-        "d":  "Surgical removal of the spleen; indicated for traumatic rupture, hematologic disorders such as immune thrombocytopenia, or splenic malignancy.",
+        "d":  "Surgical removal of the spleen; indicated for traumatic rupture, immune thrombocytopenia, or splenic malignancy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -10511,7 +10511,7 @@
                   "Cardiology",
                   "Neurology"
               ],
-        "d":  "Sudden, reversible contraction of a blood vessel reducing its lumen; clinically significant in Raynaud phenomenon and as a complication of subarachnoid hemorrhage.",
+        "d":  "Sudden reversible contraction of a blood vessel narrowing its lumen; significant in Raynaud disease and subarachnoid hemorrhage.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -10655,7 +10655,7 @@
     },
     {
         "en_h":  "Angioplasty",
-        "d":  "A minimally invasive endovascular procedure that widens narrowed or obstructed blood vessels, typically using a balloon catheter with or without stent placement.",
+        "d":  "Minimally invasive endovascular procedure to widen narrowed or obstructed vessels using a balloon catheter, with or without stent placement.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Cardiology",
@@ -10971,7 +10971,7 @@
     },
     {
         "en_h":  "Tracheotomy",
-        "d":  "Surgical incision through the tracheal wall creating an airway; performed for obstruction, prolonged mechanical ventilation, or failed intubation.",
+        "d":  "Incision into the tracheal wall creating a surgical airway; performed for obstruction, prolonged ventilation, or failed intubation.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Emergency Medicine",
@@ -11037,7 +11037,7 @@
     },
     {
         "en_h":  "Adenitis",
-        "d":  "Inflammation of a lymph node or gland, typically in response to regional bacterial or viral infection; presents with local tenderness and swelling.",
+        "d":  "Inflammation of a lymph node or gland in response to regional bacterial or viral infection; presents with local tenderness and swelling.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "General Medicine",
@@ -11606,7 +11606,7 @@
     },
     {
         "en_h":  "Aortic Aneurysm",
-        "d":  "A permanent, abnormal focal dilation of the aorta to more than 1.5 times its normal diameter; most common in the infrarenal abdominal aorta; rupture carries very high mortality.",
+        "d":  "Permanent focal aortic dilation exceeding 1.5 times normal diameter; most common in the infrarenal abdominal aorta; rupture is often fatal.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Vascular Surgery",
@@ -11731,7 +11731,7 @@
                   "Pulmonology",
                   "General Medicine"
               ],
-        "d":  "Low-pitched rattling breath sounds on auscultation, caused by secretions or obstruction in larger airways; may change or clear with coughing.",
+        "d":  "Low-pitched rattling breath sounds on auscultation from secretions or obstruction in larger airways; may clear with coughing.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -12837,7 +12837,7 @@
                   "Ophthalmology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A refractive error caused by an irregularly shaped cornea or lens, preventing light from focusing evenly on the retina and causing blurred or distorted vision at any distance."
+        "d":  "Refractive error from an irregularly curved cornea or lens causing uneven light focus and blurred vision at all distances."
     },
     {
         "en_h":  "Pyloric sphincter",
@@ -12846,7 +12846,7 @@
                   "Gastroenterology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "A ring of smooth muscle at the junction of the stomach and duodenum that regulates the passage of partially digested food into the small intestine."
+        "d":  "Ring of smooth muscle at the stomach-duodenum junction regulating passage of partially digested food into the small intestine."
     },
     {
         "en_h":  "Cardiac sphincter",
@@ -12874,7 +12874,7 @@
                   "Nephrology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A posterior pituitary hormone that promotes water reabsorption in the renal collecting ducts, reducing urine output and regulating plasma osmolality; also called vasopressin."
+        "d":  "Pituitary hormone that promotes renal water reabsorption, reducing urine output and plasma osmolality; also called vasopressin (ADH)."
     },
     {
         "en_h":  "Median nerve",
@@ -12883,7 +12883,7 @@
                   "Neurology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A major peripheral nerve of the upper limb supplying sensation to the palm and motor function to thenar muscles; compressed in carpal tunnel syndrome."
+        "d":  "Major upper limb peripheral nerve supplying palm sensation and thenar motor function; compressed in carpal tunnel syndrome."
     },
     {
         "en_h":  "Antigen",
@@ -12908,7 +12908,7 @@
                   "Neurology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "The lobe of the cerebral cortex located posterior to the frontal lobe; processes sensory information including touch, pressure, temperature, and spatial awareness."
+        "d":  "Cerebral lobe posterior to the frontal lobe that processes sensory input including touch, pressure, temperature, and spatial awareness."
     },
     {
         "en_h":  "Pineal gland",
@@ -12936,7 +12936,7 @@
                   "Endocrinology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Small anatomical sac; ovarian follicles are fluid-filled structures containing an immature egg; skin follicles are tubular structures from which hairs grow."
+        "d":  "Small anatomical sac; ovarian follicles contain developing oocytes; hair follicles are tubular skin structures from which hairs grow."
     },
     {
         "en_h":  "Testis",
@@ -12963,7 +12963,7 @@
                   "Pharmacology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "A class of drugs that reduce pain, fever, and inflammation by inhibiting cyclooxygenase (COX) enzymes; includes ibuprofen, naproxen, and aspirin."
+        "d":  "Drug class reducing pain, fever, and inflammation by inhibiting COX enzymes; includes ibuprofen, naproxen, and aspirin."
     },
     {
         "en_h":  "Pseudocyesis",
@@ -12973,7 +12973,7 @@
                   "Psychiatry"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "A condition in which a person believes they are pregnant and experiences physical symptoms of pregnancy — including abdominal distension and amenorrhea — without an actual fetus."
+        "d":  "Belief in pregnancy with physical symptoms (abdominal distension, amenorrhea) despite the absence of a fetus; also called false pregnancy."
     },
     {
         "en_h":  "Ilium",
@@ -13000,7 +13000,7 @@
                   "Pharmacology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Medication available for purchase without a prescription; used for self-treatment of minor conditions. Contrast: prescription medicine, which requires a physician\u0027s authorization."
+        "d":  "Medication available without a prescription for self-treatment of minor conditions; contrast with prescription medicine."
     },
     {
         "en_h":  "Prescription medicine",
@@ -13010,7 +13010,7 @@
                   "Pharmacology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Medication requiring a physician\u0027s written authorization before dispensing; for conditions needing medical supervision. Contrast: OTC medicine."
+        "d":  "Medication requiring a physician\u0027s written authorization; used for conditions needing medical supervision; contrast with OTC medicine."
     },
     {
         "en_h":  "Fallopian tube",
@@ -13019,7 +13019,7 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "One of the paired ducts that extend from the uterus toward each ovary; the site of fertilization and the pathway for the ovum to reach the uterus."
+        "d":  "Paired duct extending from the uterus toward each ovary; the site of fertilization and the pathway for an ovum to reach the uterus."
     },
     {
         "en_h":  "Vagina",
@@ -13028,7 +13028,7 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "The muscular canal extending from the cervix to the external genitalia; serves as the birth canal during delivery and the passageway for menstrual flow."
+        "d":  "Muscular canal from the cervix to the external genitalia; serves as the birth canal during delivery and the passage for menstrual flow."
     },
     {
         "en_h":  "Vulva",
@@ -13155,7 +13155,7 @@
                   "Anatomy"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "The combined abdominal and pelvic cavities, separated from the thoracic cavity by the diaphragm; contains digestive, reproductive, and urinary organs."
+        "d":  "Combined abdominal and pelvic cavities below the diaphragm; contains the digestive, reproductive, and urinary organs."
     },
     {
         "en_h":  "Peritoneum",
@@ -13183,7 +13183,7 @@
                   "General Medicine"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "One of nine clinical abdominal divisions: right/left hypochondriac, lumbar, inguinal; and central epigastric, umbilical, and hypogastric regions."
+        "d":  "One of nine clinical abdominal divisions: hypochondriac, lumbar, and inguinal (x2); plus epigastric, umbilical, and hypogastric centrally."
     },
     {
         "en_h":  "Medial",
@@ -13223,7 +13223,7 @@
                   "Anatomy"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "The tip or pointed end of a structure; clinically used for the apex of the heart (pointing left and downward) and the apex of the lung (superior tip)."
+        "d":  "The pointed tip of an anatomical structure; clinically refers to the cardiac apex (inferior-left) and the lung apex (superior tip)."
     },
     {
         "en_h":  "Stratum basale",
@@ -13242,7 +13242,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A pigment-producing cell found in the basal layer of the epidermis that synthesizes melanin, which gives skin its color and provides protection against UV radiation."
+        "d":  "Pigment-producing cell in the basal epidermis that synthesizes melanin, giving skin its color and providing protection against UV radiation."
     },
     {
         "en_h":  "Hair follicle",
@@ -13261,7 +13261,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "An exocrine gland in the skin that produces sweat; classified as eccrine (found throughout the body) or apocrine (found in axillary and groin areas)."
+        "d":  "Exocrine skin gland producing sweat; classified as eccrine (widespread) or apocrine (axillary and groin areas)."
     },
     {
         "en_h":  "Sebaceous gland",
@@ -13324,7 +13324,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "A chronic inflammatory condition of the pilosebaceous unit, characterized by comedones, papules, pustules, and nodules; most common in adolescents."
+        "d":  "Chronic inflammatory condition of the pilosebaceous unit with comedones, papules, pustules, and nodules; most common in adolescents."
     },
     {
         "en_h":  "Cutaneous",
@@ -13406,7 +13406,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Widespread redness and scaling involving most of the body surface area; a severe inflammatory skin condition also known as exfoliative dermatitis."
+        "d":  "Widespread redness and scaling involving most of the body surface; a severe inflammatory skin condition also called exfoliative dermatitis."
     },
     {
         "en_h":  "Eschar",
@@ -13432,7 +13432,7 @@
                   "General Medicine"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "An excess of blood in a tissue or organ, resulting in redness and warmth; may be active (increased arterial flow) or passive (venous congestion)."
+        "d":  "Excess blood in a tissue or organ causing redness and warmth; may be active (increased arterial flow) or passive (venous congestion)."
     },
     {
         "en_h":  "Hyperpigmentation",
@@ -13539,7 +13539,7 @@
                   "Rheumatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A chronic autoimmune connective tissue disease causing progressive fibrosis and hardening of the skin and internal organs; formerly called scleroderma."
+        "d":  "Chronic autoimmune disease causing progressive fibrosis and hardening of the skin and internal organs; formerly called scleroderma."
     },
     {
         "en_h":  "Seborrhea",
@@ -13566,7 +13566,7 @@
                   "Gastroenterology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "An open sore on the skin or mucous membrane resulting from tissue breakdown; may be caused by infection, pressure, ischemia, or inflammation."
+        "d":  "Open sore on skin or mucous membrane from tissue breakdown; caused by infection, pressure, ischemia, or inflammation."
     },
     {
         "en_h":  "Vesicle",
@@ -13611,7 +13611,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A chronic inflammatory skin condition affecting the central face, characterized by persistent redness, visible blood vessels, and acne-like papules and pustules."
+        "d":  "Chronic facial skin condition with persistent redness, visible blood vessels, and acne-like papules affecting the central face."
     },
     {
         "en_h":  "Acne vulgaris",
@@ -13620,7 +13620,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "The most common form of acne, involving comedones, papules, pustules, and nodules due to sebaceous gland inflammation and Cutibacterium acnes."
+        "d":  "Common acne involving comedones, papules, pustules, and nodules from sebaceous gland inflammation and Cutibacterium acnes infection."
     },
     {
         "en_h":  "Albinism",
@@ -13639,7 +13639,7 @@
                   "Oncology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "The most common skin cancer, arising from basal cells of the epidermis; locally invasive but rarely metastasizes; typically caused by chronic UV exposure."
+        "d":  "Most common skin cancer, arising from basal cells; locally invasive but rarely metastasizes; strongly associated with chronic UV exposure."
     },
     {
         "en_h":  "Burn",
@@ -13648,7 +13648,7 @@
                   "Emergency Medicine"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Tissue injury caused by heat, chemicals, electricity, or radiation; classified by depth (first, second, third degree) and extent of body surface involved."
+        "d":  "Tissue injury from heat, chemicals, electricity, or radiation; classified by burn depth and percentage of body surface area affected."
     },
     {
         "en_h":  "Cicatrix",
@@ -13668,7 +13668,7 @@
                   "General Medicine"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "A localized injury to skin and underlying tissue resulting from prolonged pressure, typically over bony prominences; also called a pressure ulcer or bedsore."
+        "d":  "Skin and tissue injury from prolonged pressure over bony prominences; also called pressure ulcer or bedsore."
     },
     {
         "en_h":  "Dermatosis",
@@ -13728,7 +13728,7 @@
                   "Pediatrics"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Highly contagious superficial bacterial skin infection in children, caused by Staphylococcus aureus or Streptococcus pyogenes; presents with honey-colored crusted lesions."
+        "d":  "Contagious superficial skin infection in children from Staphylococcus or Streptococcus; presents with honey-colored crusted lesions."
     },
     {
         "en_h":  "Kaposi\u0027s sarcoma",
@@ -13746,7 +13746,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "An overgrowth of fibrous scar tissue beyond the original wound margins; more common in darker-skinned individuals and may cause pruritus or pain."
+        "d":  "Excessive fibrous scar tissue growing beyond the original wound margins; more common in darker skin and may cause itching or pain."
     },
     {
         "en_h":  "Keratosis",
@@ -13793,7 +13793,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "A contagious viral infection characterized by a fine pink rash; dangerous in pregnancy as it causes congenital rubella syndrome in the fetus."
+        "d":  "Contagious viral infection with a fine pink rash; dangerous in pregnancy as it causes congenital rubella syndrome affecting the fetus."
     },
     {
         "en_h":  "Scabies",
@@ -13802,7 +13802,7 @@
                   "Infectious Disease"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A contagious skin infestation by the mite Sarcoptes scabiei, causing intense nocturnal itching and a papular rash, particularly in skin folds."
+        "d":  "Contagious skin infestation by Sarcoptes scabiei mites, causing intense nocturnal itching and a papular rash, especially in skin folds."
     },
     {
         "en_h":  "Sebaceous cyst",
@@ -13821,7 +13821,7 @@
                   "Oncology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A malignant tumor arising from squamous (keratinocyte) cells of the epidermis; may metastasize if untreated; associated with UV exposure and immunosuppression."
+        "d":  "Malignant tumor from keratinocytes of the epidermis; may metastasize if untreated; associated with UV exposure and immunosuppression."
     },
     {
         "en_h":  "Strawberry hemangioma",
@@ -13831,7 +13831,7 @@
                   "Pediatrics"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "A benign vascular birthmark composed of proliferating blood vessels; appears in infancy and typically involutes spontaneously by early childhood."
+        "d":  "Benign vascular birthmark from proliferating blood vessels, appearing in infancy and typically resolving spontaneously by early childhood."
     },
     {
         "en_h":  "Systemic lupus erythematosus",
@@ -13842,7 +13842,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "A chronic systemic autoimmune disease affecting multiple organs; characterized by a butterfly-shaped facial rash, joint pain, and renal involvement."
+        "d":  "Chronic systemic autoimmune disease affecting multiple organs; hallmarks include a butterfly rash, joint pain, and renal involvement."
     },
     {
         "en_h":  "Tinea",
@@ -13852,7 +13852,7 @@
                   "Infectious Disease"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A superficial fungal infection of the skin, hair, or nails caused by dermatophytes; named by body site (e.g., tinea capitis — scalp, tinea pedis — foot)."
+        "d":  "Superficial dermatophyte infection of skin, hair, or nails; named by body site (tinea capitis — scalp, tinea pedis — foot)."
     },
     {
         "en_h":  "Tinea capitis",
@@ -13881,7 +13881,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "A highly contagious primary infection with varicella-zoster virus, presenting with a generalized itchy vesicular rash; can cause serious complications in immunocompromised patients."
+        "d":  "Primary varicella-zoster virus infection with widespread itchy vesicular rash; may cause severe complications in immunocompromised patients."
     },
     {
         "en_h":  "Verruca",
@@ -13890,7 +13890,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A benign epidermal growth caused by human papillomavirus (HPV) infection; types include verruca vulgaris (common wart) and verruca plantaris (plantar wart)."
+        "d":  "Benign epidermal growth caused by HPV; types include verruca vulgaris (common wart) and verruca plantaris (plantar wart)."
     },
     {
         "en_h":  "Vitiligo",
@@ -13907,7 +13907,7 @@
                   "Infectious Disease"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A deep skin infection involving a cluster of interconnected furuncles, typically caused by Staphylococcus aureus; produces a large, painful, pus-filled mass."
+        "d":  "Deep skin infection with clustered interconnected furuncles from Staphylococcus aureus; forms a large, painful, pus-filled mass."
     },
     {
         "en_h":  "Furuncle",
@@ -13925,7 +13925,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "A bacterial infection of the hair shafts in axillary or pubic regions, caused by Corynebacterium species; characterized by yellowish, reddish, or black concretions on hair."
+        "d":  "Corynebacterium infection of axillary or pubic hair shafts; characterized by yellowish, reddish, or black concretions on the hair."
     },
     {
         "en_h":  "Onychia",
@@ -13961,7 +13961,7 @@
                   "Infectious Disease"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "A laboratory test in which a specimen is cultured to identify the causative microorganism and then tested to determine which antibiotics it is susceptible to."
+        "d":  "Laboratory test that cultures a specimen to identify the causative organism and determines which antibiotics it is susceptible to."
     },
     {
         "en_h":  "Excisional biopsy",
@@ -13989,7 +13989,7 @@
                   "Surgery"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A rapid intraoperative histological technique in which tissue is snap-frozen, sectioned, and examined microscopically to guide surgical decisions."
+        "d":  "Rapid intraoperative technique in which snap-frozen tissue is sectioned and examined microscopically to guide surgical decisions."
     },
     {
         "en_h":  "Fungal scrapings",
@@ -13998,7 +13998,7 @@
                   "Pathology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "A diagnostic procedure in which skin, nail, or hair samples are scraped and examined microscopically or cultured to identify fungal infection."
+        "d":  "Diagnostic procedure scraping skin, nail, or hair samples for microscopic examination or culture to identify fungal infection."
     },
     {
         "en_h":  "Allograft",
@@ -14008,7 +14008,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A tissue graft transplanted between genetically non-identical individuals of the same species; used as a temporary biological wound covering."
+        "d":  "Tissue graft from a genetically non-identical donor of the same species; used as temporary biological wound coverage."
     },
     {
         "en_h":  "Autograft",
@@ -14026,7 +14026,7 @@
                   "Surgery"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A surgical instrument used to cut thin slices of skin for grafting; also refers to the area of skin innervated by a single spinal nerve root."
+        "d":  "Surgical instrument cutting thin skin slices for grafting; also refers to the skin area innervated by a single spinal nerve root."
     },
     {
         "en_h":  "Dermatoplasty",
@@ -14074,7 +14074,7 @@
                   "Surgery"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Destruction of abnormal tissue by application of extreme cold, typically using liquid nitrogen; used for warts, actinic keratoses, and skin cancers."
+        "d":  "Destruction of abnormal tissue using extreme cold (typically liquid nitrogen); used for warts, actinic keratoses, and skin cancers."
     },
     {
         "en_h":  "Curettage",
@@ -14120,7 +14120,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Application of a chemical solution to the skin to remove the outer layers, promoting resurfacing; used for acne scars, fine lines, and pigmentation."
+        "d":  "Application of a chemical peel to remove outer skin layers, promoting resurfacing; used for acne scars, fine lines, and pigmentation."
     },
     {
         "en_h":  "Dermabrasion",
@@ -14128,7 +14128,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Mechanical resurfacing of the skin using a rotating abrasive instrument to remove superficial layers; used for scars, wrinkles, and tattoo removal."
+        "d":  "Mechanical skin resurfacing using a rotating abrasive device to remove superficial layers; used for scars, wrinkles, and tattoo removal."
     },
     {
         "en_h":  "Laser therapy",
@@ -14165,7 +14165,7 @@
                   "Pharmacology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "An agent that produces loss of sensation with or without loss of consciousness; classified as local (affecting a specific area) or general (affecting the whole body)."
+        "d":  "Agent producing loss of sensation with or without loss of consciousness; classified as local (specific area) or general (whole body)."
     },
     {
         "en_h":  "Antifungal",
@@ -14183,7 +14183,7 @@
                   "Infectious Disease"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A drug that acts against parasites including protozoa, helminths, and ectoparasites; used to treat conditions such as scabies, pediculosis, and malaria."
+        "d":  "Drug acting against parasites including protozoa, helminths, and ectoparasites; used for scabies, pediculosis, and malaria."
     },
     {
         "en_h":  "Antipruritic",
@@ -14211,6 +14211,6 @@
                   "Pharmacology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "A topical preparation containing a corticosteroid to reduce skin inflammation, itching, and redness; used in eczema, psoriasis, and contact dermatitis."
+        "d":  "Topical corticosteroid preparation reducing skin inflammation, itching, and redness; used for eczema, psoriasis, and contact dermatitis."
     }
 ]

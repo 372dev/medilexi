@@ -323,11 +323,11 @@ export default function KoFlashcardsPage() {
                   <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
                     <button onClick={markUnknown} className="c-btn-pixel"
                       style={{ fontSize: '0.6rem', padding: '0.7rem 1.75rem', background: 'rgba(201,64,64,0.15)', color: '#FCA5A5', border: '1px solid #C94040', boxShadow: 'none' }}>
-                      ← ✗ Review
+                      <kbd>←</kbd> ✗ Review
                     </button>
                     <button onClick={markKnown} className="c-btn-pixel"
                       style={{ fontSize: '0.6rem', padding: '0.7rem 1.75rem', background: 'rgba(59,170,106,0.15)', color: '#6EE7B7', border: '1px solid #3BAA6A', boxShadow: 'none' }}>
-                      ✓ Know It →
+                      ✓ Know It <kbd>→</kbd>
                     </button>
                   </div>
                 ) : (

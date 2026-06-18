@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "en_h": "Hypertension",
     "en_l": "High blood pressure",
@@ -4150,7 +4150,7 @@
       "Gastroenterology",
       "Internal Medicine"
     ],
-    "d": "An abnormal accumulation of protein-rich fluid within the peritoneal cavity.",
+    "d": "An abnormal accumulation of fluid within the peritoneal cavity, most commonly caused by portal hypertension from cirrhosis, malignancy, or heart failure.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -4163,7 +4163,7 @@
       "Gastroenterology",
       "Internal Medicine"
     ],
-    "d": "Late-stage scarring (fibrosis) of the liver tissue caused by chronic liver disease, compromising structural liver functions.",
+    "d": "Irreversible hepatic scarring from chronic liver injury that distorts normal hepatic architecture, impairing synthetic, metabolic, and excretory liver functions; major complications include portal hypertension, hepatic failure, and hepatocellular carcinoma.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "s": [
@@ -4182,7 +4182,7 @@
       "Gastroenterology",
       "Otolaryngology"
     ],
-    "d": "Sensation of difficulty or impairment in the passage of solid or liquid food from the mouth to the stomach.",
+    "d": "Difficulty swallowing solids, liquids, or both; classified as oropharyngeal (impaired transfer from mouth to esophagus) or esophageal (impaired transit through the esophagus) in origin.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "p": [
@@ -4200,7 +4200,7 @@
       "Gastroenterology",
       "Surgery"
     ],
-    "d": "Inflammation or infection of small pouches (diverticula) that can form along the walls of the intestines.",
+    "d": "Inflammation or infection of colonic diverticula, most commonly affecting the sigmoid colon; presents with left lower quadrant pain, fever, and leukocytosis.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "s": [
@@ -4400,7 +4400,7 @@
       "Neurology",
       "Infectious Disease"
     ],
-    "d": "Acute inflammation of the active brain parenchyma, typically caused by viral infection.",
+    "d": "Acute inflammation of the brain parenchyma, most commonly caused by viral infection; presents with fever, headache, altered consciousness, and focal neurological deficits.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -4548,7 +4548,7 @@
       "Urology",
       "Infectious Disease"
     ],
-    "d": "An inflammation of the kidney substance and pelvis, typically resulting from an ascending bacterial infection originating in the urinary tract.",
+    "d": "Bacterial infection of the renal parenchyma and pelvis, typically arising from ascending lower urinary tract infection; presents with fever, flank pain, and costovertebral angle tenderness.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -4592,7 +4592,7 @@
       "Urology",
       "OBGYN"
     ],
-    "d": "The involuntary leakage or loss of control of urine, heavily subcategorized into stress, urge, and overflow types.",
+    "d": "The involuntary loss of urinary control, classified by mechanism into stress (physical exertion), urge (overactive bladder), overflow, and mixed types.",
     "lvl": "⭐⭐⭐ Essential"
   },
   {
@@ -5331,7 +5331,7 @@
       "Ophthalmology",
       "Neurology"
     ],
-    "d": "An abnormal, painful, or intolerant sensitivity of the eyes to light.",
+    "d": "An abnormal and often painful sensitivity to light; commonly associated with migraine, meningitis, uveitis, and corneal injury.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "s": [
@@ -5965,7 +5965,7 @@
       "Surgery",
       "Critical Care"
     ],
-    "d": "Surgical creation of an opening in the trachea below the larynx to secure an airway.",
+    "d": "A surgical procedure creating a direct opening into the trachea through the anterior neck to establish or maintain an airway; common indications include prolonged mechanical ventilation, severe upper airway obstruction, and facilitation of pulmonary secretion management.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -7671,7 +7671,7 @@
       "Orthopedics",
       "Rehabilitation Medicine"
     ],
-    "d": "Movement of a limb away from the midline of the body.",
+    "d": "Movement of a limb or body part away from the midline of the body; in the fingers or toes, away from the central digit.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -7685,7 +7685,7 @@
       "Orthopedics",
       "Rehabilitation Medicine"
     ],
-    "d": "Movement of a limb toward the midline of the body.",
+    "d": "Movement of a limb or body part toward the midline of the body; in the fingers or toes, toward the central digit.",
     "lvl": "⭐⭐ Important"
   },
   {
@@ -7863,7 +7863,7 @@
       "Cardiology",
       "Surgery"
     ],
-    "d": "Narrowing of the aortic valve or aorta, obstructing left ventricular outflow.",
+    "d": "Narrowing of the aortic valve orifice that obstructs left ventricular outflow; severity is graded by valve area and mean pressure gradient.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -7947,7 +7947,7 @@
       "Orthopedics",
       "Rheumatology"
     ],
-    "d": "Aspiration of fluid from a joint space for diagnosis or pain relief.",
+    "d": "Needle aspiration of synovial fluid from a joint space for diagnostic analysis (infection, crystal arthropathy, inflammation) or therapeutic decompression.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -8353,7 +8353,7 @@
       "Surgery",
       "Urology"
     ],
-    "d": "An abnormal colon-bladder connection causing recurrent UTIs and air in urine.",
+    "d": "An abnormal fistulous tract between the colon and urinary bladder, typically caused by diverticular disease or colorectal cancer; presents with recurrent urinary tract infections, fecaluria, and pneumaturia.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -8472,7 +8472,7 @@
       "Radiology",
       "Gastroenterology"
     ],
-    "d": "Radiographic examination of the duodenum using contrast medium.",
+    "d": "Fluoroscopic examination of the duodenum using contrast medium to evaluate the duodenal mucosa, periampullary region, and surrounding structures.",
     "lvl": "⭐ Good to know",
     "parts": {
       "r": [
@@ -9017,7 +9017,7 @@
     "f": [
       "Surgery"
     ],
-    "d": "A surgical incision into the abdominal cavity for diagnostic or therapeutic purposes.",
+    "d": "A surgical incision through the abdominal wall to access the peritoneal cavity; performed for diagnostic exploration, urgent intervention in abdominal emergencies, or planned surgical repair.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -9113,7 +9113,7 @@
       "Urology",
       "Surgery"
     ],
-    "d": "A procedure using shock waves or laser to break up kidney or gallstones.",
+    "d": "A procedure to fragment kidney stones, gallstones, or ureteral calculi using externally focused shock waves (extracorporeal) or endoscopically delivered laser or ultrasound energy.",
     "lvl": "⭐⭐ Important",
     "parts": {
       "r": [
@@ -9155,7 +9155,7 @@
       "General Medicine",
       "Pediatrics"
     ],
-    "d": "A condition from insufficient, excessive, or imbalanced nutrient intake.",
+    "d": "A state of nutritional imbalance in which the body receives insufficient, excessive, or disproportionate nutrients, impairing physiological function; encompasses undernutrition, overnutrition, and micronutrient deficiency.",
     "lvl": "⭐⭐⭐ Essential",
     "parts": {
       "p": [

@@ -6,10 +6,97 @@
         "alt":  "a-, an-"
     },
     {
+        "wp":  "allo-",
+        "t":  "p",
+        "d":  "(Greek) Other, different (from another individual of same species)"
+    },
+    {
         "wp":  "an-",
         "t":  "p",
         "d":  "Without, absence of",
         "alt":  "a-, an-"
+    },
+    {
+        "wp":  "anti-",
+        "t":  "p",
+        "d":  "(Greek) Against"
+    },
+    {
+        "wp":  "contra-",
+        "t":  "p",
+        "d":  "(Latin) Against, opposite"
+    },
+    {
+        "wp":  "de-",
+        "t":  "p",
+        "d":  "(Latin) Down, away from, removal"
+    },
+    {
+        "wp":  "dys-",
+        "t":  "p",
+        "d":  "(Greek) Difficult, painful, abnormal"
+    },
+    {
+        "wp":  "eu-",
+        "t":  "p",
+        "d":  "(Greek: eu-) Normal, good; (Latin: normo-) Normal, standard",
+        "alt":  "eu-, normo-"
+    },
+    {
+        "wp":  "hetero-",
+        "t":  "p",
+        "d":  "(Greek) Different, other"
+    },
+    {
+        "wp":  "homo-",
+        "t":  "p",
+        "d":  "(Greek) Same, alike"
+    },
+    {
+        "wp":  "hyper-",
+        "t":  "p",
+        "d":  "(Greek) Above, excess"
+    },
+    {
+        "wp":  "hypo-",
+        "t":  "p",
+        "d":  "(Greek) Below, under, deficient"
+    },
+    {
+        "wp":  "in-",
+        "t":  "p",
+        "d":  "(Latin) Not, inward, into"
+    },
+    {
+        "wp":  "mal-",
+        "t":  "p",
+        "d":  "(Latin) Bad, abnormal"
+    },
+    {
+        "wp":  "neo-",
+        "t":  "p",
+        "d":  "(Greek) New"
+    },
+    {
+        "wp":  "normo-",
+        "t":  "p",
+        "d":  "(Greek: eu-) Normal, good; (Latin: normo-) Normal, standard",
+        "alt":  "eu-, normo-"
+    },
+    {
+        "wp":  "pseudo-",
+        "t":  "p",
+        "d":  "(Greek) False"
+    },
+    {
+        "wp":  "re-",
+        "t":  "p",
+        "d":  "(Latin) Again, back"
+    },
+    {
+        "wp":  "xeno-",
+        "t":  "p",
+        "d":  "(Greek) Foreign, strange (from a different species)"
     },
     {
         "wp":  "ab-",
@@ -20,23 +107,6 @@
         "wp":  "ad-",
         "t":  "p",
         "d":  "(Latin) Toward, near"
-    },
-    {
-        "wp":  "alb-",
-        "t":  "p",
-        "d":  "(Latin) White"
-    },
-    {
-        "wp":  "ambi-",
-        "t":  "p",
-        "d":  "(Latin) Both, around",
-        "alt":  "ambi-, amphi-"
-    },
-    {
-        "wp":  "amphi-",
-        "t":  "p",
-        "d":  "Both, around",
-        "alt":  "ambi-, amphi-"
     },
     {
         "wp":  "ante-",
@@ -51,81 +121,10 @@
         "alt":  "ante-, antero-"
     },
     {
-        "wp":  "anti-",
-        "t":  "p",
-        "d":  "(Greek) Against"
-    },
-    {
-        "wp":  "auto-",
-        "t":  "p",
-        "d":  "(Greek) Self"
-    },
-    {
-        "wp":  "bi-",
-        "t":  "p",
-        "d":  "(Latin: bi-) Two; (Greek: di-, diplo-) Two, double",
-        "alt":  "bi-, di-, diplo-"
-    },
-    {
-        "wp":  "di-",
-        "t":  "p",
-        "d":  "(Latin: bi-) Two; (Greek: di-, diplo-) Two, double",
-        "alt":  "bi-, di-, diplo-"
-    },
-    {
-        "wp":  "diplo-",
-        "t":  "p",
-        "d":  "(Latin: bi-) Two; (Greek: di-, diplo-) Two, double",
-        "alt":  "bi-, di-, diplo-"
-    },
-    {
-        "wp":  "brady-",
-        "t":  "p",
-        "d":  "(Greek) Slow"
-    },
-    {
-        "wp":  "chloro-",
-        "t":  "p",
-        "d":  "(Greek) Green"
-    },
-    {
-        "wp":  "chromo-",
-        "t":  "p",
-        "d":  "(Greek) Color",
-        "alt":  "chromo-, chromato-"
-    },
-    {
-        "wp":  "chromato-",
-        "t":  "p",
-        "d":  "(Greek) Color",
-        "alt":  "chromo-, chromato-"
-    },
-    {
-        "wp":  "chrono-",
-        "t":  "p",
-        "d":  "(Greek) Time"
-    },
-    {
-        "wp":  "peri-",
-        "t":  "p",
-        "d":  "(Greek: peri-) Around, surrounding; (Latin: circum-) Around, encircling",
-        "alt":  "peri-, circum-"
-    },
-    {
         "wp":  "circum-",
         "t":  "p",
         "d":  "(Greek: peri-) Around, surrounding; (Latin: circum-) Around, encircling",
         "alt":  "peri-, circum-"
-    },
-    {
-        "wp":  "contra-",
-        "t":  "p",
-        "d":  "(Latin) Against, opposite"
-    },
-    {
-        "wp":  "de-",
-        "t":  "p",
-        "d":  "(Latin) Down, away from, removal"
     },
     {
         "wp":  "dextro-",
@@ -150,11 +149,6 @@
         "alt":  "dorsi-, dorso-"
     },
     {
-        "wp":  "dys-",
-        "t":  "p",
-        "d":  "(Greek) Difficult, painful, abnormal"
-    },
-    {
         "wp":  "endo-",
         "t":  "p",
         "d":  "(Greek) Within, inside"
@@ -163,18 +157,6 @@
         "wp":  "epi-",
         "t":  "p",
         "d":  "(Greek) Upon, above, over"
-    },
-    {
-        "wp":  "eu-",
-        "t":  "p",
-        "d":  "(Greek: eu-) Normal, good; (Latin: normo-) Normal, standard",
-        "alt":  "eu-, normo-"
-    },
-    {
-        "wp":  "normo-",
-        "t":  "p",
-        "d":  "(Greek: eu-) Normal, good; (Latin: normo-) Normal, standard",
-        "alt":  "eu-, normo-"
     },
     {
         "wp":  "ex-",
@@ -206,56 +188,6 @@
         "d":  "(Old English) Before, in front of"
     },
     {
-        "wp":  "polio-",
-        "t":  "p",
-        "d":  "(Greek: polio-) Gray, gray matter; (Greek: glauco-) Gray, bluish-gray",
-        "alt":  "polio-, glauco-"
-    },
-    {
-        "wp":  "glauco-",
-        "t":  "p",
-        "d":  "(Greek: polio-) Gray, gray matter; (Greek: glauco-) Gray, bluish-gray",
-        "alt":  "polio-, glauco-"
-    },
-    {
-        "wp":  "hemi-",
-        "t":  "p",
-        "d":  "Half",
-        "alt":  "hemi-, semi-"
-    },
-    {
-        "wp":  "semi-",
-        "t":  "p",
-        "d":  "(Latin) Half, partial",
-        "alt":  "hemi-, semi-"
-    },
-    {
-        "wp":  "hetero-",
-        "t":  "p",
-        "d":  "(Greek) Different, other"
-    },
-    {
-        "wp":  "homo-",
-        "t":  "p",
-        "d":  "(Greek) Same, alike"
-    },
-    {
-        "wp":  "hyper-",
-        "t":  "p",
-        "d":  "(Greek) Above, excess"
-    },
-    {
-        "wp":  "hypo-",
-        "t":  "p",
-        "d":  "(Greek) Below, under, deficient"
-    },
-    {
-        "wp":  "sub-",
-        "t":  "p",
-        "d":  "(Latin: sub-) Below, under; (Latin: infra-) Below, beneath",
-        "alt":  "sub-, infra-"
-    },
-    {
         "wp":  "infra-",
         "t":  "p",
         "d":  "(Latin: sub-) Below, under; (Latin: infra-) Below, beneath",
@@ -284,18 +216,6 @@
         "d":  "(Latin) Same side"
     },
     {
-        "wp":  "iso-",
-        "t":  "p",
-        "d":  "Equal, same",
-        "alt":  "iso-, equi-"
-    },
-    {
-        "wp":  "equi-",
-        "t":  "p",
-        "d":  "(Latin) Equal",
-        "alt":  "iso-, equi-"
-    },
-    {
         "wp":  "juxta-",
         "t":  "p",
         "d":  "(Latin) Near, beside, adjacent"
@@ -312,37 +232,9 @@
         "alt":  "levo-, sinistro-"
     },
     {
-        "wp":  "sinistro-",
-        "t":  "p",
-        "d":  "(Latin) Left side",
-        "alt":  "levo-, sinistro-"
-    },
-    {
-        "wp":  "macro-",
-        "t":  "p",
-        "d":  "(Greek) Large"
-    },
-    {
-        "wp":  "mal-",
-        "t":  "p",
-        "d":  "(Latin) Bad, abnormal"
-    },
-    {
         "wp":  "medi-",
         "t":  "p",
         "d":  "Middle, median"
-    },
-    {
-        "wp":  "mega-",
-        "t":  "p",
-        "d":  "(Greek) Large, enlarged",
-        "alt":  "mega-, megalo-"
-    },
-    {
-        "wp":  "megalo-",
-        "t":  "p",
-        "d":  "(Greek) Large, enlarged",
-        "alt":  "mega-, megalo-"
     },
     {
         "wp":  "meso-",
@@ -350,58 +242,20 @@
         "d":  "(Greek) Middle"
     },
     {
-        "wp":  "meta-",
-        "t":  "p",
-        "d":  "(Greek) Change, beyond, after"
-    },
-    {
-        "wp":  "micro-",
-        "t":  "p",
-        "d":  "(Greek) Small"
-    },
-    {
-        "wp":  "poly-",
-        "t":  "p",
-        "d":  "Many, much",
-        "alt":  "poly-, multi-"
-    },
-    {
-        "wp":  "multi-",
-        "t":  "p",
-        "d":  "(Latin) Many, multiple",
-        "alt":  "poly-, multi-"
-    },
-    {
-        "wp":  "neo-",
-        "t":  "p",
-        "d":  "(Greek) New"
-    },
-    {
-        "wp":  "oligo-",
-        "t":  "p",
-        "d":  "Few, little, scanty"
-    },
-    {
-        "wp":  "pan-",
-        "t":  "p",
-        "d":  "All, entire",
-        "alt":  "pan-, omni-"
-    },
-    {
-        "wp":  "omni-",
-        "t":  "p",
-        "d":  "(Latin) All",
-        "alt":  "pan-, omni-"
-    },
-    {
         "wp":  "para-",
         "t":  "p",
         "d":  "(Greek) Beside, near, abnormal"
     },
     {
-        "wp":  "porphyr-",
+        "wp":  "per-",
         "t":  "p",
-        "d":  "(Greek) Purple"
+        "d":  "(Latin) Through, thoroughly"
+    },
+    {
+        "wp":  "peri-",
+        "t":  "p",
+        "d":  "(Greek: peri-) Around, surrounding; (Latin: circum-) Around, encircling",
+        "alt":  "peri-, circum-"
     },
     {
         "wp":  "post-",
@@ -424,36 +278,21 @@
         "d":  "(Greek/Latin) Before, forward"
     },
     {
-        "wp":  "pseudo-",
-        "t":  "p",
-        "d":  "(Greek) False"
-    },
-    {
-        "wp":  "quad/r-",
-        "t":  "p",
-        "d":  "(Latin) Four",
-        "alt":  "quad/r-, tetra-"
-    },
-    {
-        "wp":  "tetra-",
-        "t":  "p",
-        "d":  "Four",
-        "alt":  "quad/r-, tetra-"
-    },
-    {
-        "wp":  "re-",
-        "t":  "p",
-        "d":  "(Latin) Again, back"
-    },
-    {
         "wp":  "retro-",
         "t":  "p",
         "d":  "(Latin) Behind, backward"
     },
     {
-        "wp":  "rhodo-",
+        "wp":  "sinistro-",
         "t":  "p",
-        "d":  "(Greek) Rose, red"
+        "d":  "(Latin) Left side",
+        "alt":  "levo-, sinistro-"
+    },
+    {
+        "wp":  "sub-",
+        "t":  "p",
+        "d":  "(Latin: sub-) Below, under; (Latin: infra-) Below, beneath",
+        "alt":  "sub-, infra-"
     },
     {
         "wp":  "super-",
@@ -480,14 +319,149 @@
         "alt":  "sym-, syn-"
     },
     {
-        "wp":  "tachy-",
-        "t":  "p",
-        "d":  "(Greek) Fast, rapid"
-    },
-    {
         "wp":  "trans-",
         "t":  "p",
         "d":  "(Latin) Across, through"
+    },
+    {
+        "wp":  "ventri-",
+        "t":  "p",
+        "d":  "(Latin) Front, belly side",
+        "alt":  "ventri-, ventro-"
+    },
+    {
+        "wp":  "ventro-",
+        "t":  "p",
+        "d":  "(Latin) Front, belly side",
+        "alt":  "ventri-, ventro-"
+    },
+    {
+        "wp":  "ambi-",
+        "t":  "p",
+        "d":  "(Latin) Both, around",
+        "alt":  "ambi-, amphi-"
+    },
+    {
+        "wp":  "amphi-",
+        "t":  "p",
+        "d":  "Both, around",
+        "alt":  "ambi-, amphi-"
+    },
+    {
+        "wp":  "bi-",
+        "t":  "p",
+        "d":  "(Latin: bi-) Two; (Greek: di-, diplo-) Two, double",
+        "alt":  "bi-, di-, diplo-"
+    },
+    {
+        "wp":  "di-",
+        "t":  "p",
+        "d":  "(Latin: bi-) Two; (Greek: di-, diplo-) Two, double",
+        "alt":  "bi-, di-, diplo-"
+    },
+    {
+        "wp":  "diplo-",
+        "t":  "p",
+        "d":  "(Latin: bi-) Two; (Greek: di-, diplo-) Two, double",
+        "alt":  "bi-, di-, diplo-"
+    },
+    {
+        "wp":  "equi-",
+        "t":  "p",
+        "d":  "(Latin) Equal",
+        "alt":  "iso-, equi-"
+    },
+    {
+        "wp":  "hemi-",
+        "t":  "p",
+        "d":  "Half",
+        "alt":  "hemi-, semi-"
+    },
+    {
+        "wp":  "iso-",
+        "t":  "p",
+        "d":  "Equal, same",
+        "alt":  "iso-, equi-"
+    },
+    {
+        "wp":  "macro-",
+        "t":  "p",
+        "d":  "(Greek) Large"
+    },
+    {
+        "wp":  "mega-",
+        "t":  "p",
+        "d":  "(Greek) Large, enlarged",
+        "alt":  "mega-, megalo-"
+    },
+    {
+        "wp":  "megalo-",
+        "t":  "p",
+        "d":  "(Greek) Large, enlarged",
+        "alt":  "mega-, megalo-"
+    },
+    {
+        "wp":  "micro-",
+        "t":  "p",
+        "d":  "(Greek) Small"
+    },
+    {
+        "wp":  "mono-",
+        "t":  "p",
+        "d":  "One, single",
+        "alt":  "uni-, mono-"
+    },
+    {
+        "wp":  "multi-",
+        "t":  "p",
+        "d":  "(Latin) Many, multiple",
+        "alt":  "poly-, multi-"
+    },
+    {
+        "wp":  "nulli-",
+        "t":  "p",
+        "d":  "(Latin) None, not any"
+    },
+    {
+        "wp":  "oligo-",
+        "t":  "p",
+        "d":  "Few, little, scanty"
+    },
+    {
+        "wp":  "omni-",
+        "t":  "p",
+        "d":  "(Latin) All",
+        "alt":  "pan-, omni-"
+    },
+    {
+        "wp":  "pan-",
+        "t":  "p",
+        "d":  "All, entire",
+        "alt":  "pan-, omni-"
+    },
+    {
+        "wp":  "poly-",
+        "t":  "p",
+        "d":  "Many, much",
+        "alt":  "poly-, multi-"
+    },
+    {
+        "wp":  "quad/r-",
+        "t":  "p",
+        "d":  "(Latin) Four",
+        "alt":  "quad/r-, tetra-"
+    },
+    {
+        "wp":  "semi-",
+        "t":  "p",
+        "d":  "(Latin) Half, partial",
+        "alt":  "hemi-, semi-"
+    },
+    {
+        "wp":  "tetra-",
+        "t":  "p",
+        "d":  "Four",
+        "alt":  "quad/r-, tetra-"
     },
     {
         "wp":  "tri-",
@@ -506,22 +480,68 @@
         "alt":  "uni-, mono-"
     },
     {
-        "wp":  "mono-",
+        "wp":  "alb-",
         "t":  "p",
-        "d":  "One, single",
-        "alt":  "uni-, mono-"
+        "d":  "(Latin) White"
     },
     {
-        "wp":  "ventri-",
+        "wp":  "chloro-",
         "t":  "p",
-        "d":  "(Latin) Front, belly side",
-        "alt":  "ventri-, ventro-"
+        "d":  "(Greek) Green"
     },
     {
-        "wp":  "ventro-",
+        "wp":  "chromato-",
         "t":  "p",
-        "d":  "(Latin) Front, belly side",
-        "alt":  "ventri-, ventro-"
+        "d":  "(Greek) Color",
+        "alt":  "chromo-, chromato-"
+    },
+    {
+        "wp":  "chromo-",
+        "t":  "p",
+        "d":  "(Greek) Color",
+        "alt":  "chromo-, chromato-"
+    },
+    {
+        "wp":  "cyano-",
+        "t":  "p",
+        "d":  "(Greek) Blue"
+    },
+    {
+        "wp":  "erythro-",
+        "t":  "p",
+        "d":  "(Greek) Red"
+    },
+    {
+        "wp":  "glauco-",
+        "t":  "p",
+        "d":  "(Greek: polio-) Gray, gray matter; (Greek: glauco-) Gray, bluish-gray",
+        "alt":  "polio-, glauco-"
+    },
+    {
+        "wp":  "leuko-",
+        "t":  "p",
+        "d":  "(Greek) White"
+    },
+    {
+        "wp":  "melano-",
+        "t":  "p",
+        "d":  "(Greek) Black, dark"
+    },
+    {
+        "wp":  "polio-",
+        "t":  "p",
+        "d":  "(Greek: polio-) Gray, gray matter; (Greek: glauco-) Gray, bluish-gray",
+        "alt":  "polio-, glauco-"
+    },
+    {
+        "wp":  "porphyr-",
+        "t":  "p",
+        "d":  "(Greek) Purple"
+    },
+    {
+        "wp":  "rhodo-",
+        "t":  "p",
+        "d":  "(Greek) Rose, red"
     },
     {
         "wp":  "xantho-",
@@ -529,61 +549,54 @@
         "d":  "(Greek) Yellow"
     },
     {
-        "wp":  "abdomin/o",
-        "t":  "r",
-        "d":  "(Latin) Abdomen"
+        "wp":  "auto-",
+        "t":  "p",
+        "d":  "(Greek) Self"
     },
     {
-        "wp":  "acous/o",
-        "t":  "r",
-        "d":  "(Greek) Hearing, sound"
+        "wp":  "brachy-",
+        "t":  "p",
+        "d":  "(Greek) Short"
     },
     {
-        "wp":  "acr/o",
-        "t":  "r",
-        "d":  "(Greek) Extremity, tip, height"
+        "wp":  "brady-",
+        "t":  "p",
+        "d":  "(Greek) Slow"
     },
     {
-        "wp":  "aden/o",
-        "t":  "r",
-        "d":  "(Greek) Gland"
+        "wp":  "chrono-",
+        "t":  "p",
+        "d":  "(Greek) Time"
     },
     {
-        "wp":  "lip/o",
-        "t":  "r",
-        "d":  "Fat, lipid",
-        "alt":  "lip/o, adip/o"
+        "wp":  "cortico-",
+        "t":  "p",
+        "d":  "(Latin) Outer layer, cortex"
     },
     {
-        "wp":  "adip/o",
-        "t":  "r",
-        "d":  "(Latin) Fat, adipose",
-        "alt":  "lip/o, adip/o"
+        "wp":  "cryo-",
+        "t":  "p",
+        "d":  "(Greek) Cold, freezing"
     },
     {
-        "wp":  "adren/o",
-        "t":  "r",
-        "d":  "(Latin) Adrenal gland"
+        "wp":  "meta-",
+        "t":  "p",
+        "d":  "(Greek) Change, beyond, after"
     },
     {
-        "wp":  "aer/o",
-        "t":  "r",
-        "d":  "(Greek) Air, gas"
+        "wp":  "photo-",
+        "t":  "p",
+        "d":  "(Greek) Light"
     },
     {
-        "wp":  "andr/o",
-        "t":  "r",
-        "d":  "(Greek) Male, masculine"
+        "wp":  "tachy-",
+        "t":  "p",
+        "d":  "(Greek) Fast, rapid"
     },
     {
         "wp":  "angi/o",
         "t":  "r",
         "d":  "(Greek) Blood vessel"
-    },
-    {
-        "wp":  "ankyl/o",
-        "t":  "r",
-        "d":  "(Greek) Stiff, bent, fused"
     },
     {
         "wp":  "aort/o",
@@ -596,78 +609,14 @@
         "d":  "(Greek) Artery"
     },
     {
-        "wp":  "arthr/o",
+        "wp":  "ather/o",
         "t":  "r",
-        "d":  "Joint",
-        "alt":  "arthr/o, articul/o"
+        "d":  "(Greek) Fatty plaque, porridge-like deposit"
     },
     {
-        "wp":  "articul/o",
+        "wp":  "atri/o",
         "t":  "r",
-        "d":  "(Latin) Joint, articulation",
-        "alt":  "arthr/o, articul/o"
-    },
-    {
-        "wp":  "aur/o",
-        "t":  "r",
-        "d":  "(Latin) Ear",
-        "alt":  "aur/o, ot/o"
-    },
-    {
-        "wp":  "ot/o",
-        "t":  "r",
-        "d":  "Ear",
-        "alt":  "aur/o, ot/o"
-    },
-    {
-        "wp":  "axill/o",
-        "t":  "r",
-        "d":  "(Latin) Armpit, axilla"
-    },
-    {
-        "wp":  "bacter/i",
-        "t":  "r",
-        "d":  "(Greek) Bacteria"
-    },
-    {
-        "wp":  "blast/o",
-        "t":  "r",
-        "d":  "(Greek) Immature cell, germ cell"
-    },
-    {
-        "wp":  "blephar/o",
-        "t":  "r",
-        "d":  "(Greek) Eyelid"
-    },
-    {
-        "wp":  "brachi/o",
-        "t":  "r",
-        "d":  "(Greek) Arm, upper arm"
-    },
-    {
-        "wp":  "brachy-",
-        "t":  "p",
-        "d":  "(Greek) Short"
-    },
-    {
-        "wp":  "bronch/o",
-        "t":  "r",
-        "d":  "(Greek) Bronchial tube"
-    },
-    {
-        "wp":  "bucc/o",
-        "t":  "r",
-        "d":  "(Latin) Cheek"
-    },
-    {
-        "wp":  "capit/o",
-        "t":  "r",
-        "d":  "(Latin) Head"
-    },
-    {
-        "wp":  "carcin/o",
-        "t":  "r",
-        "d":  "(Greek) Cancer, carcinoma"
+        "d":  "(Latin) Atrium, upper heart chamber"
     },
     {
         "wp":  "cardi/o",
@@ -675,183 +624,9 @@
         "d":  "(Greek) Heart"
     },
     {
-        "wp":  "carp/o",
+        "wp":  "coagul/o",
         "t":  "r",
-        "d":  "(Greek) Wrist"
-    },
-    {
-        "wp":  "cephal/o",
-        "t":  "r",
-        "d":  "(Greek) Head"
-    },
-    {
-        "wp":  "cerebell/o",
-        "t":  "r",
-        "d":  "(Latin) Cerebellum"
-    },
-    {
-        "wp":  "cerebr/o",
-        "t":  "r",
-        "d":  "(Latin) Cerebrum, brain"
-    },
-    {
-        "wp":  "chem/o",
-        "t":  "r",
-        "d":  "(Greek) Chemical, drug"
-    },
-    {
-        "wp":  "chol/e",
-        "t":  "r",
-        "d":  "(Greek) Bile, gall"
-    },
-    {
-        "wp":  "cholecyst/o",
-        "t":  "r",
-        "d":  "(Greek) Gallbladder"
-    },
-    {
-        "wp":  "chondr/o",
-        "t":  "r",
-        "d":  "(Greek) Cartilage"
-    },
-    {
-        "wp":  "col/o",
-        "t":  "r",
-        "d":  "(Greek) Colon"
-    },
-    {
-        "wp":  "cost/o",
-        "t":  "r",
-        "d":  "(Latin) Rib"
-    },
-    {
-        "wp":  "crani/o",
-        "t":  "r",
-        "d":  "(Greek) Skull"
-    },
-    {
-        "wp":  "cutane/o",
-        "t":  "r",
-        "d":  "(Latin) Skin"
-    },
-    {
-        "wp":  "cyano-",
-        "t":  "p",
-        "d":  "(Greek) Blue"
-    },
-    {
-        "wp":  "cyst/o",
-        "t":  "r",
-        "d":  "(Greek) Bladder, cyst"
-    },
-    {
-        "wp":  "cyt/o",
-        "t":  "r",
-        "d":  "(Greek) Cell"
-    },
-    {
-        "wp":  "dactyl/o",
-        "t":  "r",
-        "d":  "(Greek) Finger or toe"
-    },
-    {
-        "wp":  "dermat/o",
-        "t":  "r",
-        "d":  "Skin",
-        "alt":  "dermat/o, derm/o"
-    },
-    {
-        "wp":  "derm/o",
-        "t":  "r",
-        "d":  "Skin",
-        "alt":  "dermat/o, derm/o"
-    },
-    {
-        "wp":  "digit/o",
-        "t":  "r",
-        "d":  "(Latin) Finger, toe"
-    },
-    {
-        "wp":  "duoden/o",
-        "t":  "r",
-        "d":  "(Latin) Duodenum"
-    },
-    {
-        "wp":  "encephal/o",
-        "t":  "r",
-        "d":  "(Greek) Brain"
-    },
-    {
-        "wp":  "enter/o",
-        "t":  "r",
-        "d":  "(Greek) Intestine"
-    },
-    {
-        "wp":  "erythro-",
-        "t":  "p",
-        "d":  "(Greek) Red"
-    },
-    {
-        "wp":  "esophag/o",
-        "t":  "r",
-        "d":  "(Greek) Esophagus"
-    },
-    {
-        "wp":  "estr/o",
-        "t":  "r",
-        "d":  "(Greek) Estrogen, female hormone"
-    },
-    {
-        "wp":  "febr/o",
-        "t":  "r",
-        "d":  "(Latin) Fever"
-    },
-    {
-        "wp":  "fibr/o",
-        "t":  "r",
-        "d":  "(Latin) Fiber, fibrous tissue"
-    },
-    {
-        "wp":  "front/o",
-        "t":  "r",
-        "d":  "(Latin) Forehead, frontal bone"
-    },
-    {
-        "wp":  "gastr/o",
-        "t":  "r",
-        "d":  "(Greek) Stomach"
-    },
-    {
-        "wp":  "gen/u",
-        "t":  "r",
-        "d":  "(Latin) Knee"
-    },
-    {
-        "wp":  "gloss/o",
-        "t":  "r",
-        "d":  "Tongue",
-        "alt":  "gloss/o, lingu/o"
-    },
-    {
-        "wp":  "lingu/o",
-        "t":  "r",
-        "d":  "(Latin) Tongue",
-        "alt":  "gloss/o, lingu/o"
-    },
-    {
-        "wp":  "gluc/o",
-        "t":  "r",
-        "d":  "(Greek) Glucose"
-    },
-    {
-        "wp":  "glyc/o",
-        "t":  "r",
-        "d":  "(Greek) Sugar, glycogen"
-    },
-    {
-        "wp":  "gynec/o",
-        "t":  "r",
-        "d":  "(Greek) Female, woman"
+        "d":  "(Latin) Clotting, coagulation"
     },
     {
         "wp":  "hem/o",
@@ -866,31 +641,203 @@
         "alt":  "hem/o, hemat/o"
     },
     {
+        "wp":  "neutr/o",
+        "t":  "r",
+        "d":  "(Latin) Neutral, neither"
+    },
+    {
+        "wp":  "phleb/o",
+        "t":  "r",
+        "d":  "(Greek) Vein"
+    },
+    {
+        "wp":  "thromb/o",
+        "t":  "r",
+        "d":  "(Greek) Clot"
+    },
+    {
+        "wp":  "varic/o",
+        "t":  "r",
+        "d":  "(Latin) Varicose vein, swollen vein"
+    },
+    {
+        "wp":  "vas/o",
+        "t":  "r",
+        "d":  "(Latin) Vessel, duct"
+    },
+    {
+        "wp":  "vascul/o",
+        "t":  "r",
+        "d":  "(Latin) Blood vessel"
+    },
+    {
+        "wp":  "ven/o",
+        "t":  "r",
+        "d":  "(Latin) Vein"
+    },
+    {
+        "wp":  "ventricul/o",
+        "t":  "r",
+        "d":  "(Latin) Ventricle of heart or brain"
+    },
+    {
+        "wp":  "aer/o",
+        "t":  "r",
+        "d":  "(Greek) Air, gas"
+    },
+    {
+        "wp":  "bronch/o",
+        "t":  "r",
+        "d":  "(Greek) Bronchial tube"
+    },
+    {
+        "wp":  "epiglott/o",
+        "t":  "r",
+        "d":  "(Greek) Epiglottis"
+    },
+    {
+        "wp":  "hal/o",
+        "t":  "r",
+        "d":  "(Latin) To breathe"
+    },
+    {
+        "wp":  "laryng/o",
+        "t":  "r",
+        "d":  "(Greek) Larynx, voice box"
+    },
+    {
+        "wp":  "nas/o",
+        "t":  "r",
+        "d":  "(Latin) Nose",
+        "alt":  "nas/o, rhin/o"
+    },
+    {
+        "wp":  "pharyng/o",
+        "t":  "r",
+        "d":  "(Greek) Pharynx, throat"
+    },
+    {
+        "wp":  "pleur/o",
+        "t":  "r",
+        "d":  "(Greek) Pleura, side, rib"
+    },
+    {
+        "wp":  "pneum/o",
+        "t":  "r",
+        "d":  "(Greek) Lung, air"
+    },
+    {
+        "wp":  "pulm/o",
+        "t":  "r",
+        "d":  "(Latin) Lung"
+    },
+    {
+        "wp":  "rhin/o",
+        "t":  "r",
+        "d":  "Nose",
+        "alt":  "nas/o, rhin/o"
+    },
+    {
+        "wp":  "sinus/o",
+        "t":  "r",
+        "d":  "(Latin) Sinus, cavity"
+    },
+    {
+        "wp":  "steth/o",
+        "t":  "r",
+        "d":  "(Greek) Chest"
+    },
+    {
+        "wp":  "thorac/o",
+        "t":  "r",
+        "d":  "(Greek) Chest, thorax"
+    },
+    {
+        "wp":  "trache/o",
+        "t":  "r",
+        "d":  "(Greek) Trachea, windpipe"
+    },
+    {
+        "wp":  "abdomin/o",
+        "t":  "r",
+        "d":  "(Latin) Abdomen"
+    },
+    {
+        "wp":  "append/o",
+        "t":  "r",
+        "d":  "(Latin) Appendix"
+    },
+    {
+        "wp":  "bucc/o",
+        "t":  "r",
+        "d":  "(Latin) Cheek"
+    },
+    {
+        "wp":  "chol/e",
+        "t":  "r",
+        "d":  "(Greek) Bile, gall"
+    },
+    {
+        "wp":  "cholang/o",
+        "t":  "r",
+        "d":  "(Greek) Bile duct"
+    },
+    {
+        "wp":  "cholecyst/o",
+        "t":  "r",
+        "d":  "(Greek) Gallbladder"
+    },
+    {
+        "wp":  "choledoch/o",
+        "t":  "r",
+        "d":  "(Greek) Common bile duct"
+    },
+    {
+        "wp":  "col/o",
+        "t":  "r",
+        "d":  "(Greek) Colon"
+    },
+    {
+        "wp":  "dent/i",
+        "t":  "r",
+        "d":  "(Latin) Tooth",
+        "alt":  "odont/o, dent/i"
+    },
+    {
+        "wp":  "duoden/o",
+        "t":  "r",
+        "d":  "(Latin) Duodenum"
+    },
+    {
+        "wp":  "enter/o",
+        "t":  "r",
+        "d":  "(Greek) Intestine"
+    },
+    {
+        "wp":  "esophag/o",
+        "t":  "r",
+        "d":  "(Greek) Esophagus"
+    },
+    {
+        "wp":  "gastr/o",
+        "t":  "r",
+        "d":  "(Greek) Stomach"
+    },
+    {
+        "wp":  "gingiv/o",
+        "t":  "r",
+        "d":  "(Latin) Gum, gingiva"
+    },
+    {
+        "wp":  "gloss/o",
+        "t":  "r",
+        "d":  "Tongue",
+        "alt":  "gloss/o, lingu/o"
+    },
+    {
         "wp":  "hepat/o",
         "t":  "r",
         "d":  "(Greek) Liver"
-    },
-    {
-        "wp":  "hidr/o",
-        "t":  "r",
-        "d":  "(Greek) Sweat"
-    },
-    {
-        "wp":  "hist/o",
-        "t":  "r",
-        "d":  "(Greek: hist/o) Tissue (general); (Greek: histi/o) Tissue (cell type, histiocyte)",
-        "alt":  "hist/o, histi/o"
-    },
-    {
-        "wp":  "histi/o",
-        "t":  "r",
-        "d":  "(Greek: hist/o) Tissue (general); (Greek: histi/o) Tissue (cell type, histiocyte)",
-        "alt":  "hist/o, histi/o"
-    },
-    {
-        "wp":  "hyster/o",
-        "t":  "r",
-        "d":  "(Greek) Uterus"
     },
     {
         "wp":  "ile/o",
@@ -903,9 +850,9 @@
         "d":  "(Latin) Intestine"
     },
     {
-        "wp":  "kyph/o",
+        "wp":  "jejun/o",
         "t":  "r",
-        "d":  "(Greek) Hump, bent forward"
+        "d":  "(Latin) Jejunum"
     },
     {
         "wp":  "labi/o",
@@ -913,49 +860,213 @@
         "d":  "(Latin) Lip"
     },
     {
-        "wp":  "lacrim/o",
-        "t":  "r",
-        "d":  "(Latin) Tear, tear duct"
-    },
-    {
         "wp":  "lapar/o",
         "t":  "r",
         "d":  "(Greek) Abdomen, abdominal wall"
     },
     {
-        "wp":  "laryng/o",
+        "wp":  "lingu/o",
         "t":  "r",
-        "d":  "(Greek) Larynx, voice box"
+        "d":  "(Latin) Tongue",
+        "alt":  "gloss/o, lingu/o"
     },
     {
-        "wp":  "leuko-",
-        "t":  "p",
-        "d":  "(Greek) White"
-    },
-    {
-        "wp":  "lith/o",
+        "wp":  "odont/o",
         "t":  "r",
-        "d":  "(Greek) Stone, calculus"
+        "d":  "Tooth",
+        "alt":  "odont/o, dent/i"
     },
     {
-        "wp":  "lymph/o",
+        "wp":  "or/o",
         "t":  "r",
-        "d":  "(Latin) Lymph, lymphatic tissue"
+        "d":  "(Latin) Mouth"
     },
     {
-        "wp":  "mamm/o",
+        "wp":  "pancreat/o",
         "t":  "r",
-        "d":  "(Latin) Breast"
+        "d":  "(Greek) Pancreas"
     },
     {
-        "wp":  "melano-",
-        "t":  "p",
-        "d":  "(Greek) Black, dark"
+        "wp":  "peritone/o",
+        "t":  "r",
+        "d":  "(Greek) Peritoneum"
+    },
+    {
+        "wp":  "proct/o",
+        "t":  "r",
+        "d":  "(Greek) Rectum, anus"
+    },
+    {
+        "wp":  "pylor/o",
+        "t":  "r",
+        "d":  "(Greek) Pylorus, stomach outlet"
+    },
+    {
+        "wp":  "rect/o",
+        "t":  "r",
+        "d":  "(Latin) Rectum"
+    },
+    {
+        "wp":  "sigmoid/o",
+        "t":  "r",
+        "d":  "(Greek) Sigmoid colon"
+    },
+    {
+        "wp":  "splanchn/o",
+        "t":  "r",
+        "d":  "(Greek) Viscera, internal organs"
+    },
+    {
+        "wp":  "viscer/o",
+        "t":  "r",
+        "d":  "(Latin) Internal organs, viscera"
+    },
+    {
+        "wp":  "cerebell/o",
+        "t":  "r",
+        "d":  "(Latin) Cerebellum"
+    },
+    {
+        "wp":  "cerebr/o",
+        "t":  "r",
+        "d":  "(Latin) Cerebrum, brain"
+    },
+    {
+        "wp":  "encephal/o",
+        "t":  "r",
+        "d":  "(Greek) Brain"
     },
     {
         "wp":  "mening/o",
         "t":  "r",
         "d":  "(Greek) Meninges"
+    },
+    {
+        "wp":  "myel/o",
+        "t":  "r",
+        "d":  "(Greek) Spinal cord; bone marrow"
+    },
+    {
+        "wp":  "neur/o",
+        "t":  "r",
+        "d":  "(Greek) Nerve"
+    },
+    {
+        "wp":  "phas/o",
+        "t":  "r",
+        "d":  "(Greek) Speech"
+    },
+    {
+        "wp":  "psych/o",
+        "t":  "r",
+        "d":  "(Greek) Mind"
+    },
+    {
+        "wp":  "spin/o",
+        "t":  "r",
+        "d":  "(Latin) Spine, backbone"
+    },
+    {
+        "wp":  "thec/o",
+        "t":  "r",
+        "d":  "(Greek) Sheath, meninges"
+    },
+    {
+        "wp":  "acr/o",
+        "t":  "r",
+        "d":  "(Greek) Extremity, tip, height"
+    },
+    {
+        "wp":  "ankyl/o",
+        "t":  "r",
+        "d":  "(Greek) Stiff, bent, fused"
+    },
+    {
+        "wp":  "arthr/o",
+        "t":  "r",
+        "d":  "Joint",
+        "alt":  "arthr/o, articul/o"
+    },
+    {
+        "wp":  "articul/o",
+        "t":  "r",
+        "d":  "(Latin) Joint, articulation",
+        "alt":  "arthr/o, articul/o"
+    },
+    {
+        "wp":  "brachi/o",
+        "t":  "r",
+        "d":  "(Greek) Arm, upper arm"
+    },
+    {
+        "wp":  "capit/o",
+        "t":  "r",
+        "d":  "(Latin) Head"
+    },
+    {
+        "wp":  "carp/o",
+        "t":  "r",
+        "d":  "(Greek) Wrist"
+    },
+    {
+        "wp":  "cephal/o",
+        "t":  "r",
+        "d":  "(Greek) Head"
+    },
+    {
+        "wp":  "chondr/o",
+        "t":  "r",
+        "d":  "(Greek) Cartilage"
+    },
+    {
+        "wp":  "cost/o",
+        "t":  "r",
+        "d":  "(Latin) Rib"
+    },
+    {
+        "wp":  "crani/o",
+        "t":  "r",
+        "d":  "(Greek) Skull"
+    },
+    {
+        "wp":  "crur/o",
+        "t":  "r",
+        "d":  "(Latin) Leg"
+    },
+    {
+        "wp":  "dactyl/o",
+        "t":  "r",
+        "d":  "(Greek) Finger or toe"
+    },
+    {
+        "wp":  "digit/o",
+        "t":  "r",
+        "d":  "(Latin) Finger, toe"
+    },
+    {
+        "wp":  "fasci/o",
+        "t":  "r",
+        "d":  "(Latin) Fascia, fibrous connective tissue band"
+    },
+    {
+        "wp":  "fibr/o",
+        "t":  "r",
+        "d":  "(Latin) Fiber, fibrous tissue"
+    },
+    {
+        "wp":  "gen/u",
+        "t":  "r",
+        "d":  "(Latin) Knee"
+    },
+    {
+        "wp":  "glute/o",
+        "t":  "r",
+        "d":  "(Greek) Buttock"
+    },
+    {
+        "wp":  "kyph/o",
+        "t":  "r",
+        "d":  "(Greek) Hump, bent forward"
     },
     {
         "wp":  "muscul/o",
@@ -968,31 +1079,168 @@
         "d":  "(Greek) Muscle"
     },
     {
-        "wp":  "myc/o",
+        "wp":  "oste/o",
         "t":  "r",
-        "d":  "(Greek) Fungus"
+        "d":  "(Greek) Bone"
     },
     {
-        "wp":  "myel/o",
+        "wp":  "pelv/o",
         "t":  "r",
-        "d":  "(Greek) Spinal cord; bone marrow"
+        "d":  "(Latin) Pelvis"
     },
     {
-        "wp":  "myring/o",
+        "wp":  "pod/o",
         "t":  "r",
-        "d":  "(Greek) Eardrum, tympanic membrane"
+        "d":  "(Greek) Foot"
     },
     {
-        "wp":  "nas/o",
+        "wp":  "pub/o",
         "t":  "r",
-        "d":  "(Latin) Nose",
-        "alt":  "nas/o, rhin/o"
+        "d":  "(Latin) Pubis, pubic region"
     },
     {
-        "wp":  "rhin/o",
+        "wp":  "sarc/o",
         "t":  "r",
-        "d":  "Nose",
-        "alt":  "nas/o, rhin/o"
+        "d":  "(Greek) Flesh, muscle tissue"
+    },
+    {
+        "wp":  "scoli/o",
+        "t":  "r",
+        "d":  "(Greek) Curved, crooked"
+    },
+    {
+        "wp":  "spondyl/o",
+        "t":  "r",
+        "d":  "(Greek) Vertebra"
+    },
+    {
+        "wp":  "stern/o",
+        "t":  "r",
+        "d":  "(Greek) Sternum, breastbone"
+    },
+    {
+        "wp":  "synov/o",
+        "t":  "r",
+        "d":  "(Greek) Synovial membrane, synovial fluid"
+    },
+    {
+        "wp":  "ten/o",
+        "t":  "r",
+        "d":  "(Greek) Tendon"
+    },
+    {
+        "wp":  "vertebr/o",
+        "t":  "r",
+        "d":  "(Latin) Vertebra, spinal column"
+    },
+    {
+        "wp":  "cutane/o",
+        "t":  "r",
+        "d":  "(Latin) Skin"
+    },
+    {
+        "wp":  "derm/o",
+        "t":  "r",
+        "d":  "Skin",
+        "alt":  "dermat/o, derm/o"
+    },
+    {
+        "wp":  "dermat/o",
+        "t":  "r",
+        "d":  "Skin",
+        "alt":  "dermat/o, derm/o"
+    },
+    {
+        "wp":  "diaphor/o",
+        "t":  "r",
+        "d":  "(Greek) Profuse sweating"
+    },
+    {
+        "wp":  "hidr/o",
+        "t":  "r",
+        "d":  "(Greek) Sweat"
+    },
+    {
+        "wp":  "ichthy/o",
+        "t":  "r",
+        "d":  "(Greek) Dry, scaly, fish-like"
+    },
+    {
+        "wp":  "onych/o",
+        "t":  "r",
+        "d":  "Nail",
+        "alt":  "onych/o, ungu/o"
+    },
+    {
+        "wp":  "rhytid/o",
+        "t":  "r",
+        "d":  "(Greek) Wrinkle"
+    },
+    {
+        "wp":  "seb/o",
+        "t":  "r",
+        "d":  "(Latin) Sebum, oil"
+    },
+    {
+        "wp":  "trich/o",
+        "t":  "r",
+        "d":  "(Greek) Hair"
+    },
+    {
+        "wp":  "ungu/o",
+        "t":  "r",
+        "d":  "(Latin) Nail",
+        "alt":  "onych/o, ungu/o"
+    },
+    {
+        "wp":  "xer/o",
+        "t":  "r",
+        "d":  "(Greek) Dry"
+    },
+    {
+        "wp":  "andr/o",
+        "t":  "r",
+        "d":  "(Greek) Male, masculine"
+    },
+    {
+        "wp":  "cervic/o",
+        "t":  "r",
+        "d":  "(Latin) Neck, cervix"
+    },
+    {
+        "wp":  "cyst/o",
+        "t":  "r",
+        "d":  "(Greek) Bladder, cyst"
+    },
+    {
+        "wp":  "estr/o",
+        "t":  "r",
+        "d":  "(Greek) Estrogen, female hormone"
+    },
+    {
+        "wp":  "glomerul/o",
+        "t":  "r",
+        "d":  "(Latin) Glomerulus, kidney filtering unit"
+    },
+    {
+        "wp":  "gynec/o",
+        "t":  "r",
+        "d":  "(Greek) Female, woman"
+    },
+    {
+        "wp":  "hyster/o",
+        "t":  "r",
+        "d":  "(Greek) Uterus"
+    },
+    {
+        "wp":  "mamm/o",
+        "t":  "r",
+        "d":  "(Latin) Breast"
+    },
+    {
+        "wp":  "men/o",
+        "t":  "r",
+        "d":  "(Greek) Menstruation, month"
     },
     {
         "wp":  "nephr/o",
@@ -1000,9 +1248,97 @@
         "d":  "(Greek) Kidney"
     },
     {
-        "wp":  "neur/o",
+        "wp":  "orchi/o",
         "t":  "r",
-        "d":  "(Greek) Nerve"
+        "d":  "(Greek) Testis"
+    },
+    {
+        "wp":  "ovar/o",
+        "t":  "r",
+        "d":  "(Latin) Ovary"
+    },
+    {
+        "wp":  "prostat/o",
+        "t":  "r",
+        "d":  "(Greek) Prostate gland"
+    },
+    {
+        "wp":  "pyel/o",
+        "t":  "r",
+        "d":  "(Greek) Renal pelvis"
+    },
+    {
+        "wp":  "ren/o",
+        "t":  "r",
+        "d":  "(Latin) Kidney"
+    },
+    {
+        "wp":  "ur/o",
+        "t":  "r",
+        "d":  "Urine, urinary tract",
+        "alt":  "ur/o, urin/o"
+    },
+    {
+        "wp":  "ureter/o",
+        "t":  "r",
+        "d":  "(Greek) Ureter"
+    },
+    {
+        "wp":  "urethr/o",
+        "t":  "r",
+        "d":  "(Greek) Urethra"
+    },
+    {
+        "wp":  "urin/o",
+        "t":  "r",
+        "d":  "(Latin) Urine",
+        "alt":  "ur/o, urin/o"
+    },
+    {
+        "wp":  "vesic/o",
+        "t":  "r",
+        "d":  "(Latin) Bladder, blister"
+    },
+    {
+        "wp":  "acous/o",
+        "t":  "r",
+        "d":  "(Greek) Hearing, sound"
+    },
+    {
+        "wp":  "aur/o",
+        "t":  "r",
+        "d":  "(Latin) Ear",
+        "alt":  "aur/o, ot/o"
+    },
+    {
+        "wp":  "blephar/o",
+        "t":  "r",
+        "d":  "(Greek) Eyelid"
+    },
+    {
+        "wp":  "corne/o",
+        "t":  "r",
+        "d":  "(Latin) Cornea"
+    },
+    {
+        "wp":  "kerat/o",
+        "t":  "r",
+        "d":  "(Greek) Hard, horny tissue, cornea"
+    },
+    {
+        "wp":  "lacrim/o",
+        "t":  "r",
+        "d":  "(Latin) Tear, tear duct"
+    },
+    {
+        "wp":  "macul/o",
+        "t":  "r",
+        "d":  "(Latin) Spot, stain, macula"
+    },
+    {
+        "wp":  "myring/o",
+        "t":  "r",
+        "d":  "(Greek) Eardrum, tympanic membrane"
     },
     {
         "wp":  "ocul/o",
@@ -1017,51 +1353,10 @@
         "alt":  "ocul/o, ophthalm/o"
     },
     {
-        "wp":  "odont/o",
+        "wp":  "ot/o",
         "t":  "r",
-        "d":  "Tooth",
-        "alt":  "odont/o, dent/i"
-    },
-    {
-        "wp":  "dent/i",
-        "t":  "r",
-        "d":  "(Latin) Tooth",
-        "alt":  "odont/o, dent/i"
-    },
-    {
-        "wp":  "onc/o",
-        "t":  "r",
-        "d":  "(Greek) Tumor"
-    },
-    {
-        "wp":  "or/o",
-        "t":  "r",
-        "d":  "(Latin) Mouth"
-    },
-    {
-        "wp":  "orchi/o",
-        "t":  "r",
-        "d":  "(Greek) Testis"
-    },
-    {
-        "wp":  "oste/o",
-        "t":  "r",
-        "d":  "(Greek) Bone"
-    },
-    {
-        "wp":  "path/o",
-        "t":  "r",
-        "d":  "(Greek) Disease"
-    },
-    {
-        "wp":  "pelv/o",
-        "t":  "r",
-        "d":  "(Latin) Pelvis"
-    },
-    {
-        "wp":  "phleb/o",
-        "t":  "r",
-        "d":  "(Greek) Vein"
+        "d":  "Ear",
+        "alt":  "aur/o, ot/o"
     },
     {
         "wp":  "phon/o",
@@ -1069,24 +1364,198 @@
         "d":  "(Greek) Sound, voice"
     },
     {
-        "wp":  "pneum/o",
+        "wp":  "retin/o",
         "t":  "r",
-        "d":  "(Greek) Lung, air"
+        "d":  "(Latin) Retina"
     },
     {
-        "wp":  "proct/o",
+        "wp":  "tympan/o",
         "t":  "r",
-        "d":  "(Greek) Rectum, anus"
+        "d":  "(Greek) Eardrum, tympanic membrane"
     },
     {
-        "wp":  "psych/o",
+        "wp":  "adip/o",
         "t":  "r",
-        "d":  "(Greek) Mind"
+        "d":  "(Latin) Fat, adipose",
+        "alt":  "lip/o, adip/o"
     },
     {
-        "wp":  "pulm/o",
+        "wp":  "axill/o",
         "t":  "r",
-        "d":  "(Latin) Lung"
+        "d":  "(Latin) Armpit, axilla"
+    },
+    {
+        "wp":  "bacter/i",
+        "t":  "r",
+        "d":  "(Greek) Bacteria"
+    },
+    {
+        "wp":  "bi/o",
+        "t":  "r",
+        "d":  "(Greek) Life"
+    },
+    {
+        "wp":  "blast/o",
+        "t":  "r",
+        "d":  "(Greek) Immature cell, germ cell"
+    },
+    {
+        "wp":  "carcin/o",
+        "t":  "r",
+        "d":  "(Greek) Cancer, carcinoma"
+    },
+    {
+        "wp":  "caud/o",
+        "t":  "r",
+        "d":  "(Latin) Tail, tailbone"
+    },
+    {
+        "wp":  "cauter/o",
+        "t":  "r",
+        "d":  "(Greek) To burn, burning agent"
+    },
+    {
+        "wp":  "chem/o",
+        "t":  "r",
+        "d":  "(Greek) Chemical, drug"
+    },
+    {
+        "wp":  "cis/o",
+        "t":  "r",
+        "d":  "(Latin) To cut"
+    },
+    {
+        "wp":  "corpor/o",
+        "t":  "r",
+        "d":  "(Latin) Body, corpus"
+    },
+    {
+        "wp":  "cyt/o",
+        "t":  "r",
+        "d":  "(Greek) Cell"
+    },
+    {
+        "wp":  "dist/o",
+        "t":  "r",
+        "d":  "(Latin) Away from the point of origin or attachment"
+    },
+    {
+        "wp":  "electr/o",
+        "t":  "r",
+        "d":  "(Greek) Electricity"
+    },
+    {
+        "wp":  "epitheli/o",
+        "t":  "r",
+        "d":  "(Greek) Epithelium, surface tissue layer"
+    },
+    {
+        "wp":  "esthesi/o",
+        "t":  "r",
+        "d":  "(Greek) Sensation, feeling, perception"
+    },
+    {
+        "wp":  "febr/o",
+        "t":  "r",
+        "d":  "(Latin) Fever"
+    },
+    {
+        "wp":  "front/o",
+        "t":  "r",
+        "d":  "(Latin) Forehead, frontal bone"
+    },
+    {
+        "wp":  "gnos/o",
+        "t":  "r",
+        "d":  "(Greek) Knowledge, to know"
+    },
+    {
+        "wp":  "hist/o",
+        "t":  "r",
+        "d":  "(Greek: hist/o) Tissue (general); (Greek: histi/o) Tissue (cell type, histiocyte)",
+        "alt":  "hist/o, histi/o"
+    },
+    {
+        "wp":  "histi/o",
+        "t":  "r",
+        "d":  "(Greek: hist/o) Tissue (general); (Greek: histi/o) Tissue (cell type, histiocyte)",
+        "alt":  "hist/o, histi/o"
+    },
+    {
+        "wp":  "hydr/o",
+        "t":  "r",
+        "d":  "(Greek) Water, fluid"
+    },
+    {
+        "wp":  "iatr/o",
+        "t":  "r",
+        "d":  "(Greek) Physician, medicine, treatment"
+    },
+    {
+        "wp":  "infer/o",
+        "t":  "r",
+        "d":  "(Latin) Below, lower"
+    },
+    {
+        "wp":  "inguin/o",
+        "t":  "r",
+        "d":  "(Latin) Groin"
+    },
+    {
+        "wp":  "kal/o",
+        "t":  "r",
+        "d":  "(Greek/Latin) Potassium"
+    },
+    {
+        "wp":  "lip/o",
+        "t":  "r",
+        "d":  "Fat, lipid",
+        "alt":  "lip/o, adip/o"
+    },
+    {
+        "wp":  "lith/o",
+        "t":  "r",
+        "d":  "(Greek) Stone, calculus"
+    },
+    {
+        "wp":  "myc/o",
+        "t":  "r",
+        "d":  "(Greek) Fungus"
+    },
+    {
+        "wp":  "necr/o",
+        "t":  "r",
+        "d":  "(Greek) Death, dead tissue"
+    },
+    {
+        "wp":  "onc/o",
+        "t":  "r",
+        "d":  "(Greek) Tumor"
+    },
+    {
+        "wp":  "orth/o",
+        "t":  "r",
+        "d":  "(Greek) Straight, correct, upright"
+    },
+    {
+        "wp":  "pariet/o",
+        "t":  "r",
+        "d":  "(Latin) Cavity wall, parietal"
+    },
+    {
+        "wp":  "path/o",
+        "t":  "r",
+        "d":  "(Greek) Disease"
+    },
+    {
+        "wp":  "pharmac/o",
+        "t":  "r",
+        "d":  "(Greek) Drug, medicine"
+    },
+    {
+        "wp":  "proxim/o",
+        "t":  "r",
+        "d":  "(Latin) Near, close to the point of origin or attachment"
     },
     {
         "wp":  "py/o",
@@ -1094,29 +1563,24 @@
         "d":  "(Greek) Pus"
     },
     {
-        "wp":  "rect/o",
+        "wp":  "pyr/o",
         "t":  "r",
-        "d":  "(Latin) Rectum"
+        "d":  "(Greek) Fire, heat"
     },
     {
-        "wp":  "ren/o",
+        "wp":  "radi/o",
         "t":  "r",
-        "d":  "(Latin) Kidney"
+        "d":  "(Latin) Radiation, radius"
     },
     {
-        "wp":  "scoli/o",
+        "wp":  "sclero-",
         "t":  "r",
-        "d":  "(Greek) Curved, crooked"
+        "d":  "(Greek) Hard, hardening"
     },
     {
-        "wp":  "sigmoid/o",
+        "wp":  "sept/o",
         "t":  "r",
-        "d":  "(Greek) Sigmoid colon"
-    },
-    {
-        "wp":  "sinus/o",
-        "t":  "r",
-        "d":  "(Latin) Sinus, cavity"
+        "d":  "(Latin) Septum, partition; infection"
     },
     {
         "wp":  "somat/o",
@@ -1124,29 +1588,9 @@
         "d":  "(Greek) Body"
     },
     {
-        "wp":  "splen/o",
+        "wp":  "somn/o",
         "t":  "r",
-        "d":  "(Greek) Spleen"
-    },
-    {
-        "wp":  "splanchn/o",
-        "t":  "r",
-        "d":  "(Greek) Viscera, internal organs"
-    },
-    {
-        "wp":  "spondyl/o",
-        "t":  "r",
-        "d":  "(Greek) Vertebra"
-    },
-    {
-        "wp":  "stern/o",
-        "t":  "r",
-        "d":  "(Greek) Sternum, breastbone"
-    },
-    {
-        "wp":  "steth/o",
-        "t":  "r",
-        "d":  "(Greek) Chest"
+        "d":  "(Latin) Sleep"
     },
     {
         "wp":  "therm/o",
@@ -1154,26 +1598,9 @@
         "d":  "(Greek) Heat, temperature"
     },
     {
-        "wp":  "thorac/o",
+        "wp":  "tom/o",
         "t":  "r",
-        "d":  "(Greek) Chest, thorax"
-    },
-    {
-        "wp":  "thromb/o",
-        "t":  "r",
-        "d":  "(Greek) Clot"
-    },
-    {
-        "wp":  "thyr/o",
-        "t":  "r",
-        "d":  "Thyroid gland",
-        "alt":  "thyr/o, thyroid/o"
-    },
-    {
-        "wp":  "thyroid/o",
-        "t":  "r",
-        "d":  "Thyroid gland",
-        "alt":  "thyr/o, thyroid/o"
+        "d":  "(Greek) To cut, a section"
     },
     {
         "wp":  "ton/o",
@@ -1191,71 +1618,66 @@
         "d":  "(Greek) Poison, toxin"
     },
     {
-        "wp":  "trache/o",
-        "t":  "r",
-        "d":  "(Greek) Trachea, windpipe"
-    },
-    {
-        "wp":  "tympan/o",
-        "t":  "r",
-        "d":  "(Greek) Eardrum, tympanic membrane"
-    },
-    {
         "wp":  "umbilic/o",
         "t":  "r",
         "d":  "(Latin) Navel, umbilicus"
     },
     {
-        "wp":  "ur/o",
+        "wp":  "aden/o",
         "t":  "r",
-        "d":  "Urine, urinary tract",
-        "alt":  "ur/o, urin/o"
+        "d":  "(Greek) Gland"
     },
     {
-        "wp":  "urin/o",
+        "wp":  "adren/o",
         "t":  "r",
-        "d":  "(Latin) Urine",
-        "alt":  "ur/o, urin/o"
+        "d":  "(Latin) Adrenal gland"
     },
     {
-        "wp":  "varic/o",
+        "wp":  "crin/o",
         "t":  "r",
-        "d":  "(Latin) Varicose vein, swollen vein"
+        "d":  "(Greek) Secrete"
     },
     {
-        "wp":  "vascul/o",
+        "wp":  "gluc/o",
         "t":  "r",
-        "d":  "(Latin) Blood vessel"
+        "d":  "(Greek) Glucose"
     },
     {
-        "wp":  "vas/o",
+        "wp":  "glyc/o",
         "t":  "r",
-        "d":  "(Latin) Vessel, duct"
+        "d":  "(Greek) Sugar, glycogen"
     },
     {
-        "wp":  "ven/o",
+        "wp":  "immun/o",
         "t":  "r",
-        "d":  "(Latin) Vein"
+        "d":  "(Latin) Immune, protected"
     },
     {
-        "wp":  "vesic/o",
+        "wp":  "lymph/o",
         "t":  "r",
-        "d":  "(Latin) Bladder, blister"
+        "d":  "(Latin) Lymph, lymphatic tissue"
     },
     {
-        "wp":  "viscer/o",
+        "wp":  "phylax/o",
         "t":  "r",
-        "d":  "(Latin) Internal organs, viscera"
+        "d":  "(Greek) Guard, protect"
     },
     {
-        "wp":  "-algia",
-        "t":  "s",
-        "d":  "(Greek) Pain"
+        "wp":  "splen/o",
+        "t":  "r",
+        "d":  "(Greek) Spleen"
     },
     {
-        "wp":  "-cele",
-        "t":  "s",
-        "d":  "(Greek) Hernia, protrusion"
+        "wp":  "thyr/o",
+        "t":  "r",
+        "d":  "Thyroid gland",
+        "alt":  "thyr/o, thyroid/o"
+    },
+    {
+        "wp":  "thyroid/o",
+        "t":  "r",
+        "d":  "Thyroid gland",
+        "alt":  "thyr/o, thyroid/o"
     },
     {
         "wp":  "-centesis",
@@ -1275,19 +1697,79 @@
         "alt":  "-clasia, -clasis"
     },
     {
+        "wp":  "-desis",
+        "t":  "s",
+        "d":  "(Greek) Binding, surgical fusion"
+    },
+    {
+        "wp":  "-ectomy",
+        "t":  "s",
+        "d":  "(Greek) Surgical removal"
+    },
+    {
+        "wp":  "-opsy",
+        "t":  "s",
+        "d":  "(Greek) To view, examination of tissue"
+    },
+    {
+        "wp":  "-pexy",
+        "t":  "s",
+        "d":  "(Greek) Surgical fixation"
+    },
+    {
+        "wp":  "-plasty",
+        "t":  "s",
+        "d":  "(Greek) Surgical repair"
+    },
+    {
+        "wp":  "-rrhaphy",
+        "t":  "s",
+        "d":  "(Greek) Suture, surgical repair by stitching"
+    },
+    {
+        "wp":  "-scopy",
+        "t":  "s",
+        "d":  "(Greek) Visual examination"
+    },
+    {
+        "wp":  "-stomy",
+        "t":  "s",
+        "d":  "(Greek) Creating an opening"
+    },
+    {
+        "wp":  "-therapy",
+        "t":  "s",
+        "d":  "(Greek) Treatment"
+    },
+    {
+        "wp":  "-tomy",
+        "t":  "s",
+        "d":  "(Greek) Incision, cutting"
+    },
+    {
+        "wp":  "-tripsy",
+        "t":  "s",
+        "d":  "(Greek) Crushing, breaking up"
+    },
+    {
+        "wp":  "-algia",
+        "t":  "s",
+        "d":  "(Greek) Pain"
+    },
+    {
+        "wp":  "-cele",
+        "t":  "s",
+        "d":  "(Greek) Hernia, protrusion"
+    },
+    {
         "wp":  "-constriction",
         "t":  "s",
         "d":  "(Latin) Narrowing, tightening"
     },
     {
-        "wp":  "-cyte",
+        "wp":  "-derma",
         "t":  "s",
-        "d":  "(Greek) Cell"
-    },
-    {
-        "wp":  "-desis",
-        "t":  "s",
-        "d":  "(Greek) Binding, surgical fusion"
+        "d":  "(Greek) Skin condition"
     },
     {
         "wp":  "-dilation",
@@ -1303,11 +1785,6 @@
         "wp":  "-ectasia",
         "t":  "s",
         "d":  "(Greek) Dilation, expansion"
-    },
-    {
-        "wp":  "-ectomy",
-        "t":  "s",
-        "d":  "(Greek) Surgical removal"
     },
     {
         "wp":  "-edema",
@@ -1330,66 +1807,14 @@
         "d":  "(Greek) Widening, dilation of a vessel wall"
     },
     {
-        "wp":  "-genesis",
-        "t":  "s",
-        "d":  "(Greek) Origin, formation"
-    },
-    {
-        "wp":  "-genic",
-        "t":  "s",
-        "d":  "(Greek) Producing, originating from"
-    },
-    {
-        "wp":  "-globin",
-        "t":  "s",
-        "d":  "(Latin) Protein"
-    },
-    {
-        "wp":  "-gram",
-        "t":  "s",
-        "d":  "(Greek) Record, image"
-    },
-    {
-        "wp":  "-graph",
-        "t":  "s",
-        "d":  "(Greek) Instrument for recording"
-    },
-    {
-        "wp":  "-graphy",
-        "t":  "s",
-        "d":  "(Greek) Process of recording or imaging"
-    },
-    {
         "wp":  "-iasis",
         "t":  "s",
         "d":  "(Greek) Abnormal condition, infestation"
     },
     {
-        "wp":  "-icle",
-        "t":  "s",
-        "d":  "(Latin) Small, little (diminutive)"
-    },
-    {
-        "wp":  "-ist",
-        "t":  "s",
-        "d":  "(Greek: -ist) One who; (Latin: -ician) Specialist",
-        "alt":  "-ist, -ician"
-    },
-    {
-        "wp":  "-ician",
-        "t":  "s",
-        "d":  "(Greek: -ist) One who; (Latin: -ician) Specialist",
-        "alt":  "-ist, -ician"
-    },
-    {
         "wp":  "-itis",
         "t":  "s",
         "d":  "(Greek) Inflammation"
-    },
-    {
-        "wp":  "-ium",
-        "t":  "s",
-        "d":  "(Latin) Structure, tissue"
     },
     {
         "wp":  "-kinesia",
@@ -1402,14 +1827,14 @@
         "d":  "(Greek) Seizure"
     },
     {
-        "wp":  "-logist",
-        "t":  "s",
-        "d":  "(Greek) Specialist who studies"
-    },
-    {
         "wp":  "-lysis",
         "t":  "s",
         "d":  "(Greek) Breakdown, destruction"
+    },
+    {
+        "wp":  "-lytic",
+        "t":  "s",
+        "d":  "(Greek) Destruction, dissolving, breaking down"
     },
     {
         "wp":  "-malacia",
@@ -1427,43 +1852,17 @@
         "d":  "(Greek) Enlargement"
     },
     {
-        "wp":  "-meter",
-        "t":  "s",
-        "d":  "(Greek) Instrument to measure"
-    },
-    {
-        "wp":  "-metry",
-        "t":  "s",
-        "d":  "(Greek) Process of measuring"
-    },
-    {
-        "wp":  "-logy",
-        "t":  "s",
-        "d":  "(Greek) Study of"
-    },
-    {
         "wp":  "-oma",
         "t":  "s",
         "d":  "(Greek) Tumor, mass"
     },
     {
-        "wp":  "-opsy",
+        "wp":  "-opia",
         "t":  "s",
-        "d":  "(Greek) To view, examination of tissue"
-    },
-    {
-        "wp":  "-scopy",
-        "t":  "s",
-        "d":  "(Greek) Visual examination"
+        "d":  "(Greek) Vision condition, sight"
     },
     {
         "wp":  "-osis",
-        "t":  "s",
-        "d":  "(Greek: -osis) Abnormal condition or process; (Greek: -pathy) Disease, disorder",
-        "alt":  "-osis, -pathy"
-    },
-    {
-        "wp":  "-pathy",
         "t":  "s",
         "d":  "(Greek: -osis) Abnormal condition or process; (Greek: -pathy) Disease, disorder",
         "alt":  "-osis, -pathy"
@@ -1474,14 +1873,20 @@
         "d":  "(Greek) Slight or partial paralysis"
     },
     {
+        "wp":  "-pathy",
+        "t":  "s",
+        "d":  "(Greek: -osis) Abnormal condition or process; (Greek: -pathy) Disease, disorder",
+        "alt":  "-osis, -pathy"
+    },
+    {
         "wp":  "-penia",
         "t":  "s",
         "d":  "(Greek) Deficiency, lack of"
     },
     {
-        "wp":  "-pexy",
+        "wp":  "-phagia",
         "t":  "s",
-        "d":  "(Greek) Surgical fixation"
+        "d":  "(Greek) Swallowing, eating"
     },
     {
         "wp":  "-phobia",
@@ -1489,9 +1894,9 @@
         "d":  "(Greek) Fear"
     },
     {
-        "wp":  "-plasty",
+        "wp":  "-plasia",
         "t":  "s",
-        "d":  "(Greek) Surgical repair"
+        "d":  "(Greek) Formation, development, growth"
     },
     {
         "wp":  "-plegia",
@@ -1514,6 +1919,11 @@
         "d":  "(Greek) Drooping, prolapse"
     },
     {
+        "wp":  "-ptysis",
+        "t":  "s",
+        "d":  "(Greek) Spitting, coughing up"
+    },
+    {
         "wp":  "-rrhage",
         "t":  "s",
         "d":  "(Greek) Excessive flow",
@@ -1526,19 +1936,14 @@
         "alt":  "-rrhage, -rrhagia"
     },
     {
-        "wp":  "-rrhaphy",
-        "t":  "s",
-        "d":  "(Greek) Suture, surgical repair by stitching"
-    },
-    {
         "wp":  "-rrhea",
         "t":  "s",
         "d":  "(Greek) Flow, discharge"
     },
     {
-        "wp":  "-scope",
+        "wp":  "-rrhexis",
         "t":  "s",
-        "d":  "(Greek) Instrument for viewing"
+        "d":  "(Greek) Rupture"
     },
     {
         "wp":  "-sclerosis",
@@ -1561,29 +1966,9 @@
         "d":  "(Greek) Narrowing"
     },
     {
-        "wp":  "-stomy",
-        "t":  "s",
-        "d":  "(Greek) Creating an opening"
-    },
-    {
-        "wp":  "-therapy",
-        "t":  "s",
-        "d":  "(Greek) Treatment"
-    },
-    {
-        "wp":  "-tomy",
-        "t":  "s",
-        "d":  "(Greek) Incision, cutting"
-    },
-    {
         "wp":  "-toxic",
         "t":  "s",
         "d":  "(Greek) Poisonous, relating to poison"
-    },
-    {
-        "wp":  "-tripsy",
-        "t":  "s",
-        "d":  "(Greek) Crushing, breaking up"
     },
     {
         "wp":  "-trophy",
@@ -1596,114 +1981,56 @@
         "d":  "(Greek) Urine condition"
     },
     {
-        "wp":  "-version",
+        "wp":  "-gram",
         "t":  "s",
-        "d":  "(Latin) Turning"
+        "d":  "(Greek) Record, image"
     },
     {
-        "wp":  "pharmac/o",
-        "t":  "r",
-        "d":  "(Greek) Drug, medicine"
-    },
-    {
-        "wp":  "somn/o",
-        "t":  "r",
-        "d":  "(Latin) Sleep"
-    },
-    {
-        "wp":  "tom/o",
-        "t":  "r",
-        "d":  "(Greek) To cut, a section"
-    },
-    {
-        "wp":  "phas/o",
-        "t":  "r",
-        "d":  "(Greek) Speech"
-    },
-    {
-        "wp":  "pyr/o",
-        "t":  "r",
-        "d":  "(Greek) Fire, heat"
-    },
-    {
-        "wp":  "phylax/o",
-        "t":  "r",
-        "d":  "(Greek) Guard, protect"
-    },
-    {
-        "wp":  "crin/o",
-        "t":  "r",
-        "d":  "(Greek) Secrete"
-    },
-    {
-        "wp":  "radi/o",
-        "t":  "r",
-        "d":  "(Latin) Radiation, radius"
-    },
-    {
-        "wp":  "esthesi/o",
-        "t":  "r",
-        "d":  "(Greek) Sensation, feeling, perception"
-    },
-    {
-        "wp":  "electr/o",
-        "t":  "r",
-        "d":  "(Greek) Electricity"
-    },
-    {
-        "wp":  "pharyng/o",
-        "t":  "r",
-        "d":  "(Greek) Pharynx, throat"
-    },
-    {
-        "wp":  "jejun/o",
-        "t":  "r",
-        "d":  "(Latin) Jejunum"
-    },
-    {
-        "wp":  "prostat/o",
-        "t":  "r",
-        "d":  "(Greek) Prostate gland"
-    },
-    {
-        "wp":  "peritone/o",
-        "t":  "r",
-        "d":  "(Greek) Peritoneum"
-    },
-    {
-        "wp":  "hydr/o",
-        "t":  "r",
-        "d":  "(Greek) Water, fluid"
-    },
-    {
-        "wp":  "macul/o",
-        "t":  "r",
-        "d":  "(Latin) Spot, stain, macula"
-    },
-    {
-        "wp":  "append/o",
-        "t":  "r",
-        "d":  "(Latin) Appendix"
-    },
-    {
-        "wp":  "pancreat/o",
-        "t":  "r",
-        "d":  "(Greek) Pancreas"
-    },
-    {
-        "wp":  "spin/o",
-        "t":  "r",
-        "d":  "(Latin) Spine, backbone"
-    },
-    {
-        "wp":  "-ptysis",
+        "wp":  "-graph",
         "t":  "s",
-        "d":  "(Greek) Spitting, coughing up"
+        "d":  "(Greek) Instrument for recording"
     },
     {
-        "wp":  "gingiv/o",
-        "t":  "r",
-        "d":  "(Latin) Gum, gingiva"
+        "wp":  "-graphy",
+        "t":  "s",
+        "d":  "(Greek) Process of recording or imaging"
+    },
+    {
+        "wp":  "-ician",
+        "t":  "s",
+        "d":  "(Greek: -ist) One who; (Latin: -ician) Specialist",
+        "alt":  "-ist, -ician"
+    },
+    {
+        "wp":  "-ist",
+        "t":  "s",
+        "d":  "(Greek: -ist) One who; (Latin: -ician) Specialist",
+        "alt":  "-ist, -ician"
+    },
+    {
+        "wp":  "-logist",
+        "t":  "s",
+        "d":  "(Greek) Specialist who studies"
+    },
+    {
+        "wp":  "-logy",
+        "t":  "s",
+        "d":  "(Greek) Study of"
+    },
+    {
+        "wp":  "-meter",
+        "t":  "s",
+        "d":  "(Greek) Instrument to measure"
+    },
+    {
+        "wp":  "-metry",
+        "t":  "s",
+        "d":  "(Greek) Process of measuring"
+    },
+    {
+        "wp":  "-scope",
+        "t":  "s",
+        "d":  "(Greek) Instrument for viewing"
     },
     {
         "wp":  "-ac",
@@ -1712,25 +2039,13 @@
         "alt":  "-ac, -ic, -tic"
     },
     {
-        "wp":  "-ic",
+        "wp":  "-ago",
         "t":  "s",
-        "d":  "(Greek) Pertaining to",
-        "alt":  "-ac, -ic, -tic"
-    },
-    {
-        "wp":  "-tic",
-        "t":  "s",
-        "d":  "(Greek) Pertaining to",
-        "alt":  "-ac, -ic, -tic"
+        "d":  "(Greek: -ema) Condition, swelling; (Latin: -ago) Disease condition, affliction",
+        "alt":  "-ema, -ago"
     },
     {
         "wp":  "-al",
-        "t":  "s",
-        "d":  "(Latin) Pertaining to",
-        "alt":  "-al, -ous, -ary"
-    },
-    {
-        "wp":  "-ous",
         "t":  "s",
         "d":  "(Latin) Pertaining to",
         "alt":  "-al, -ous, -ary"
@@ -1742,28 +2057,9 @@
         "alt":  "-al, -ous, -ary"
     },
     {
-        "wp":  "-ism",
+        "wp":  "-cyte",
         "t":  "s",
-        "d":  "(Greek) Condition, process",
-        "alt":  "-ism, -sis"
-    },
-    {
-        "wp":  "-sis",
-        "t":  "s",
-        "d":  "(Greek) Condition, process",
-        "alt":  "-ism, -sis"
-    },
-    {
-        "wp":  "-ia",
-        "t":  "s",
-        "d":  "(Latin) Condition, state",
-        "alt":  "-ia, -y"
-    },
-    {
-        "wp":  "-y",
-        "t":  "s",
-        "d":  "(Latin) Condition, state",
-        "alt":  "-ia, -y"
+        "d":  "(Greek) Cell"
     },
     {
         "wp":  "-ema",
@@ -1772,352 +2068,53 @@
         "alt":  "-ema, -ago"
     },
     {
-        "wp":  "-ago",
+        "wp":  "-genesis",
         "t":  "s",
-        "d":  "(Greek: -ema) Condition, swelling; (Latin: -ago) Disease condition, affliction",
-        "alt":  "-ema, -ago"
+        "d":  "(Greek) Origin, formation"
     },
     {
-        "wp":  "ather/o",
-        "t":  "r",
-        "d":  "(Greek) Fatty plaque, porridge-like deposit"
-    },
-    {
-        "wp":  "pleur/o",
-        "t":  "r",
-        "d":  "(Greek) Pleura, side, rib"
-    },
-    {
-        "wp":  "retin/o",
-        "t":  "r",
-        "d":  "(Latin) Retina"
-    },
-    {
-        "wp":  "orth/o",
-        "t":  "r",
-        "d":  "(Greek) Straight, correct, upright"
-    },
-    {
-        "wp":  "glomerul/o",
-        "t":  "r",
-        "d":  "(Latin) Glomerulus, kidney filtering unit"
-    },
-    {
-        "wp":  "pyel/o",
-        "t":  "r",
-        "d":  "(Greek) Renal pelvis"
-    },
-    {
-        "wp":  "coagul/o",
-        "t":  "r",
-        "d":  "(Latin) Clotting, coagulation"
-    },
-    {
-        "wp":  "sarc/o",
-        "t":  "r",
-        "d":  "(Greek) Flesh, muscle tissue"
-    },
-    {
-        "wp":  "immun/o",
-        "t":  "r",
-        "d":  "(Latin) Immune, protected"
-    },
-    {
-        "wp":  "men/o",
-        "t":  "r",
-        "d":  "(Greek) Menstruation, month"
-    },
-    {
-        "wp":  "iatr/o",
-        "t":  "r",
-        "d":  "(Greek) Physician, medicine, treatment"
-    },
-    {
-        "wp":  "sept/o",
-        "t":  "r",
-        "d":  "(Latin) Septum, partition; infection"
-    },
-    {
-        "wp":  "gnos/o",
-        "t":  "r",
-        "d":  "(Greek) Knowledge, to know"
-    },
-    {
-        "wp":  "neutr/o",
-        "t":  "r",
-        "d":  "(Latin) Neutral, neither"
-    },
-    {
-        "wp":  "atri/o",
-        "t":  "r",
-        "d":  "(Latin) Atrium, upper heart chamber"
-    },
-    {
-        "wp":  "cholang/o",
-        "t":  "r",
-        "d":  "(Greek) Bile duct"
-    },
-    {
-        "wp":  "choledoch/o",
-        "t":  "r",
-        "d":  "(Greek) Common bile duct"
-    },
-    {
-        "wp":  "epiglott/o",
-        "t":  "r",
-        "d":  "(Greek) Epiglottis"
-    },
-    {
-        "wp":  "fasci/o",
-        "t":  "r",
-        "d":  "(Latin) Fascia, fibrous connective tissue band"
-    },
-    {
-        "wp":  "kal/o",
-        "t":  "r",
-        "d":  "(Greek/Latin) Potassium"
-    },
-    {
-        "wp":  "necr/o",
-        "t":  "r",
-        "d":  "(Greek) Death, dead tissue"
-    },
-    {
-        "wp":  "ovar/o",
-        "t":  "r",
-        "d":  "(Latin) Ovary"
-    },
-    {
-        "wp":  "pylor/o",
-        "t":  "r",
-        "d":  "(Greek) Pylorus, stomach outlet"
-    },
-    {
-        "wp":  "synov/o",
-        "t":  "r",
-        "d":  "(Greek) Synovial membrane, synovial fluid"
-    },
-    {
-        "wp":  "ten/o",
-        "t":  "r",
-        "d":  "(Greek) Tendon"
-    },
-    {
-        "wp":  "ventricul/o",
-        "t":  "r",
-        "d":  "(Latin) Ventricle of heart or brain"
-    },
-    {
-        "wp":  "corne/o",
-        "t":  "r",
-        "d":  "(Latin) Cornea"
-    },
-    {
-        "wp":  "ureter/o",
-        "t":  "r",
-        "d":  "(Greek) Ureter"
-    },
-    {
-        "wp":  "urethr/o",
-        "t":  "r",
-        "d":  "(Greek) Urethra"
-    },
-    {
-        "wp":  "-opia",
+        "wp":  "-genic",
         "t":  "s",
-        "d":  "(Greek) Vision condition, sight"
+        "d":  "(Greek) Producing, originating from"
     },
     {
-        "wp":  "in-",
-        "t":  "p",
-        "d":  "(Latin) Not, inward, into"
-    },
-    {
-        "wp":  "per-",
-        "t":  "p",
-        "d":  "(Latin) Through, thoroughly"
-    },
-    {
-        "wp":  "nulli-",
-        "t":  "p",
-        "d":  "(Latin) None, not any"
-    },
-    {
-        "wp":  "cryo-",
-        "t":  "p",
-        "d":  "(Greek) Cold, freezing"
-    },
-    {
-        "wp":  "photo-",
-        "t":  "p",
-        "d":  "(Greek) Light"
-    },
-    {
-        "wp":  "allo-",
-        "t":  "p",
-        "d":  "(Greek) Other, different (from another individual of same species)"
-    },
-    {
-        "wp":  "xeno-",
-        "t":  "p",
-        "d":  "(Greek) Foreign, strange (from a different species)"
-    },
-    {
-        "wp":  "cortico-",
-        "t":  "p",
-        "d":  "(Latin) Outer layer, cortex"
-    },
-    {
-        "wp":  "bi/o",
-        "t":  "r",
-        "d":  "(Greek) Life"
-    },
-    {
-        "wp":  "cis/o",
-        "t":  "r",
-        "d":  "(Latin) To cut"
-    },
-    {
-        "wp":  "caud/o",
-        "t":  "r",
-        "d":  "(Latin) Tail, tailbone"
-    },
-    {
-        "wp":  "cervic/o",
-        "t":  "r",
-        "d":  "(Latin) Neck, cervix"
-    },
-    {
-        "wp":  "crur/o",
-        "t":  "r",
-        "d":  "(Latin) Leg"
-    },
-    {
-        "wp":  "dist/o",
-        "t":  "r",
-        "d":  "(Latin) Away from the point of origin or attachment"
-    },
-    {
-        "wp":  "epitheli/o",
-        "t":  "r",
-        "d":  "(Greek) Epithelium, surface tissue layer"
-    },
-    {
-        "wp":  "glute/o",
-        "t":  "r",
-        "d":  "(Greek) Buttock"
-    },
-    {
-        "wp":  "hal/o",
-        "t":  "r",
-        "d":  "(Latin) To breathe"
-    },
-    {
-        "wp":  "infer/o",
-        "t":  "r",
-        "d":  "(Latin) Below, lower"
-    },
-    {
-        "wp":  "inguin/o",
-        "t":  "r",
-        "d":  "(Latin) Groin"
-    },
-    {
-        "wp":  "pariet/o",
-        "t":  "r",
-        "d":  "(Latin) Cavity wall, parietal"
-    },
-    {
-        "wp":  "pod/o",
-        "t":  "r",
-        "d":  "(Greek) Foot"
-    },
-    {
-        "wp":  "proxim/o",
-        "t":  "r",
-        "d":  "(Latin) Near, close to the point of origin or attachment"
-    },
-    {
-        "wp":  "pub/o",
-        "t":  "r",
-        "d":  "(Latin) Pubis, pubic region"
-    },
-    {
-        "wp":  "thec/o",
-        "t":  "r",
-        "d":  "(Greek) Sheath, meninges"
-    },
-    {
-        "wp":  "vertebr/o",
-        "t":  "r",
-        "d":  "(Latin) Vertebra, spinal column"
-    },
-    {
-        "wp":  "cauter/o",
-        "t":  "r",
-        "d":  "(Greek) To burn, burning agent"
-    },
-    {
-        "wp":  "corpor/o",
-        "t":  "r",
-        "d":  "(Latin) Body, corpus"
-    },
-    {
-        "wp":  "diaphor/o",
-        "t":  "r",
-        "d":  "(Greek) Profuse sweating"
-    },
-    {
-        "wp":  "ichthy/o",
-        "t":  "r",
-        "d":  "(Greek) Dry, scaly, fish-like"
-    },
-    {
-        "wp":  "xer/o",
-        "t":  "r",
-        "d":  "(Greek) Dry"
-    },
-    {
-        "wp":  "kerat/o",
-        "t":  "r",
-        "d":  "(Greek) Hard, horny tissue, cornea"
-    },
-    {
-        "wp":  "onych/o",
-        "t":  "r",
-        "d":  "Nail",
-        "alt":  "onych/o, ungu/o"
-    },
-    {
-        "wp":  "ungu/o",
-        "t":  "r",
-        "d":  "(Latin) Nail",
-        "alt":  "onych/o, ungu/o"
-    },
-    {
-        "wp":  "rhytid/o",
-        "t":  "r",
-        "d":  "(Greek) Wrinkle"
-    },
-    {
-        "wp":  "sclero-",
-        "t":  "r",
-        "d":  "(Greek) Hard, hardening"
-    },
-    {
-        "wp":  "seb/o",
-        "t":  "r",
-        "d":  "(Latin) Sebum, oil"
-    },
-    {
-        "wp":  "trich/o",
-        "t":  "r",
-        "d":  "(Greek) Hair"
-    },
-    {
-        "wp":  "-lytic",
+        "wp":  "-globin",
         "t":  "s",
-        "d":  "(Greek) Destruction, dissolving, breaking down"
+        "d":  "(Latin) Protein"
+    },
+    {
+        "wp":  "-ia",
+        "t":  "s",
+        "d":  "(Latin) Condition, state",
+        "alt":  "-ia, -y"
+    },
+    {
+        "wp":  "-ic",
+        "t":  "s",
+        "d":  "(Greek) Pertaining to",
+        "alt":  "-ac, -ic, -tic"
+    },
+    {
+        "wp":  "-icle",
+        "t":  "s",
+        "d":  "(Latin) Small, little (diminutive)"
+    },
+    {
+        "wp":  "-ism",
+        "t":  "s",
+        "d":  "(Greek) Condition, process",
+        "alt":  "-ism, -sis"
+    },
+    {
+        "wp":  "-ium",
+        "t":  "s",
+        "d":  "(Latin) Structure, tissue"
+    },
+    {
+        "wp":  "-ous",
+        "t":  "s",
+        "d":  "(Latin) Pertaining to",
+        "alt":  "-al, -ous, -ary"
     },
     {
         "wp":  "-plasm",
@@ -2125,23 +2122,26 @@
         "d":  "(Greek) Formation, growth, substance"
     },
     {
-        "wp":  "-rrhexis",
+        "wp":  "-sis",
         "t":  "s",
-        "d":  "(Greek) Rupture"
+        "d":  "(Greek) Condition, process",
+        "alt":  "-ism, -sis"
     },
     {
-        "wp":  "-derma",
+        "wp":  "-tic",
         "t":  "s",
-        "d":  "(Greek) Skin condition"
+        "d":  "(Greek) Pertaining to",
+        "alt":  "-ac, -ic, -tic"
     },
     {
-        "wp":  "-phagia",
+        "wp":  "-version",
         "t":  "s",
-        "d":  "(Greek) Swallowing, eating"
+        "d":  "(Latin) Turning"
     },
     {
-        "wp":  "-plasia",
+        "wp":  "-y",
         "t":  "s",
-        "d":  "(Greek) Formation, development, growth"
+        "d":  "(Latin) Condition, state",
+        "alt":  "-ia, -y"
     }
 ]

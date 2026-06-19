@@ -69,7 +69,8 @@
                        "Antiseptic",
                        "Substance applied to living tissue to inhibit microbial growth"
                    ]
-               ]
+               ],
+        "syn":  ["contra-"]
     },
     {
         "wp":  "contra-",
@@ -93,7 +94,8 @@
                        "Contraction",
                        "Shortening of muscle fibers generating force"
                    ]
-               ]
+               ],
+        "syn":  ["anti-"]
     },
     {
         "wp":  "de-",
@@ -477,7 +479,8 @@
                        "Anteroposterior",
                        "Directed from front to back; standard imaging projection"
                    ]
-               ]
+               ],
+        "syn":  ["pre-"]
     },
     {
         "wp":  "dextro-",
@@ -573,7 +576,8 @@
                        "Endocrine",
                        "Relating to glands that secrete hormones directly into the bloodstream"
                    ]
-               ]
+               ],
+        "syn":  ["intra-, intro-"]
     },
     {
         "wp":  "epi-",
@@ -717,7 +721,8 @@
                        "Intramuscular",
                        "Within the muscle; describes a route of drug injection"
                    ]
-               ]
+               ],
+        "syn":  ["endo-"]
     },
     {
         "wp":  "ipsi-",
@@ -1005,7 +1010,8 @@
                        "Preterm",
                        "Born before 37 completed weeks of gestation"
                    ]
-               ]
+               ],
+        "syn":  ["ante-, antero-"]
     },
     {
         "wp":  "pro-",
@@ -1197,7 +1203,8 @@
                        "Ambiguous genitalia",
                        "External genitalia that cannot be clearly classified as male or female"
                    ]
-               ]
+               ],
+        "syn":  ["amphi-"]
     },
     {
         "wp":  "amphi-",
@@ -1221,7 +1228,8 @@
                        "Amphimixis",
                        "Fusion of two gametes from separate parents in sexual reproduction"
                    ]
-               ]
+               ],
+        "syn":  ["ambi-"]
     },
     {
         "wp":  "bi-, di-, diplo-",
@@ -1341,7 +1349,8 @@
                        "Macrosomia",
                        "Abnormally large fetal or infant size, often above the 90th percentile"
                    ]
-               ]
+               ],
+        "syn":  ["mega-, megalo-"]
     },
     {
         "wp":  "mega-, megalo-",
@@ -1365,7 +1374,8 @@
                        "Megaloblast",
                        "Abnormally large immature red blood cell seen in B12 or folate deficiency"
                    ]
-               ]
+               ],
+        "syn":  ["macro-"]
     },
     {
         "wp":  "micro-",
@@ -1413,7 +1423,8 @@
                        "Monoplegia",
                        "Paralysis confined to a single limb"
                    ]
-               ]
+               ],
+        "syn":  ["uni-"]
     },
     {
         "wp":  "multi-",
@@ -1557,7 +1568,8 @@
                        "Quadrant",
                        "One of four regions dividing the abdomen used in clinical assessment"
                    ]
-               ]
+               ],
+        "syn":  ["tetra-"]
     },
     {
         "wp":  "semi-",
@@ -1605,7 +1617,8 @@
                        "Tetraplegia",
                        "Paralysis of all four limbs; synonym for quadriplegia"
                    ]
-               ]
+               ],
+        "syn":  ["quad/r-"]
     },
     {
         "wp":  "tri-",
@@ -1677,7 +1690,8 @@
                        "Unicellular",
                        "Composed of a single cell; describes the simplest living organisms"
                    ]
-               ]
+               ],
+        "syn":  ["mono-"]
     },
     {
         "wp":  "alb-",
@@ -2157,7 +2171,8 @@
                        "Angiogenesis",
                        "Formation of new blood vessels from pre-existing vasculature"
                    ]
-               ]
+               ],
+        "syn":  ["vascul/o"]
     },
     {
         "wp":  "aort/o",
@@ -2373,7 +2388,8 @@
                        "Phlebitis",
                        "Inflammation of a vein, often associated with thrombosis"
                    ]
-               ]
+               ],
+        "syn":  ["ven/o"]
     },
     {
         "wp":  "thromb/o",
@@ -2469,7 +2485,8 @@
                        "Vasculitis",
                        "Inflammation of blood vessel walls leading to tissue ischemia"
                    ]
-               ]
+               ],
+        "syn":  ["angi/o"]
     },
     {
         "wp":  "ven/o",
@@ -2493,7 +2510,8 @@
                        "Venography",
                        "Imaging of veins using contrast dye to detect occlusion"
                    ]
-               ]
+               ],
+        "syn":  ["phleb/o"]
     },
     {
         "wp":  "ventricul/o",
@@ -2661,7 +2679,8 @@
                        "Nasolacrimal duct",
                        "Duct draining tears from the eye into the nasal cavity"
                    ]
-               ]
+               ],
+        "syn":  ["rhin/o"]
     },
     {
         "wp":  "pharyng/o",
@@ -2733,7 +2752,8 @@
                        "Pneumonectomy",
                        "Surgical removal of an entire lung"
                    ]
-               ]
+               ],
+        "syn":  ["pulm/o"]
     },
     {
         "wp":  "pulm/o",
@@ -2757,7 +2777,8 @@
                        "Pulmonary edema",
                        "Abnormal fluid accumulation in the lung alveoli"
                    ]
-               ]
+               ],
+        "syn":  ["pneum/o"]
     },
     {
         "wp":  "rhin/o",
@@ -2781,7 +2802,8 @@
                        "Rhinoscopy",
                        "Endoscopic examination of the nasal cavity"
                    ]
-               ]
+               ],
+        "syn":  ["nas/o"]
     },
     {
         "wp":  "sinus/o",
@@ -3093,7 +3115,8 @@
                        "Dentalgia",
                        "Tooth pain; toothache"
                    ]
-               ]
+               ],
+        "syn":  ["odont/o"]
     },
     {
         "wp":  "duoden/o",
@@ -3141,7 +3164,8 @@
                        "Enterostomy",
                        "Surgical creation of an opening from the intestine to the body surface"
                    ]
-               ]
+               ],
+        "syn":  ["intestin/o"]
     },
     {
         "wp":  "esophag/o",
@@ -3237,7 +3261,8 @@
                        "Glossectomy",
                        "Surgical removal of part or all of the tongue"
                    ]
-               ]
+               ],
+        "syn":  ["lingu/o"]
     },
     {
         "wp":  "hepat/o",
@@ -3309,7 +3334,8 @@
                        "Intestinal flora",
                        "Microbial community residing in the gastrointestinal tract"
                    ]
-               ]
+               ],
+        "syn":  ["enter/o"]
     },
     {
         "wp":  "jejun/o",
@@ -3405,7 +3431,8 @@
                        "Linguogingival",
                        "Relating to the junction of the tongue-side surface and gum"
                    ]
-               ]
+               ],
+        "syn":  ["gloss/o"]
     },
     {
         "wp":  "odont/o",
@@ -3429,7 +3456,8 @@
                        "Odontoma",
                        "Benign tumor composed of dental tissue elements"
                    ]
-               ]
+               ],
+        "syn":  ["dent/i"]
     },
     {
         "wp":  "or/o",
@@ -3693,7 +3721,8 @@
                        "Cerebrovascular accident",
                        "Sudden disruption of blood supply to the brain; clinical term for stroke"
                    ]
-               ]
+               ],
+        "syn":  ["encephal/o"]
     },
     {
         "wp":  "encephal/o",
@@ -3717,7 +3746,8 @@
                        "Encephalopathy",
                        "Global brain dysfunction from metabolic, toxic, or structural causes"
                    ]
-               ]
+               ],
+        "syn":  ["cerebr/o"]
     },
     {
         "wp":  "mening/o",
@@ -3957,7 +3987,8 @@
                        "Arthroscopy",
                        "Endoscopic examination and treatment within a joint"
                    ]
-               ]
+               ],
+        "syn":  ["articul/o"]
     },
     {
         "wp":  "articul/o",
@@ -3981,7 +4012,8 @@
                        "Articulation",
                        "An anatomical joint; also, production of clear speech sounds"
                    ]
-               ]
+               ],
+        "syn":  ["arthr/o"]
     },
     {
         "wp":  "brachi/o",
@@ -4197,7 +4229,8 @@
                        "Dactylitis",
                        "Diffuse swelling of an entire digit; sausage digit seen in psoriatic arthritis"
                    ]
-               ]
+               ],
+        "syn":  ["digit/o"]
     },
     {
         "wp":  "digit/o",
@@ -4221,7 +4254,8 @@
                        "Flexor digitorum",
                        "Muscle group responsible for flexing the fingers or toes"
                    ]
-               ]
+               ],
+        "syn":  ["dactyl/o"]
     },
     {
         "wp":  "fasci/o",
@@ -4365,7 +4399,8 @@
                        "Muscular dystrophy",
                        "Genetic disorder causing progressive muscle weakness and degeneration"
                    ]
-               ]
+               ],
+        "syn":  ["my/o"]
     },
     {
         "wp":  "my/o",
@@ -4389,7 +4424,8 @@
                        "Myositis",
                        "Inflammation of muscle tissue causing pain and weakness"
                    ]
-               ]
+               ],
+        "syn":  ["muscul/o"]
     },
     {
         "wp":  "oste/o",
@@ -4677,7 +4713,8 @@
                        "Percutaneous coronary intervention",
                        "Catheter-based coronary artery treatment performed through the skin"
                    ]
-               ]
+               ],
+        "syn":  ["dermat/o, derm/o"]
     },
     {
         "wp":  "dermat/o, derm/o",
@@ -4701,7 +4738,8 @@
                        "Dermis",
                        "Middle skin layer containing connective tissue, blood vessels, and nerves"
                    ]
-               ]
+               ],
+        "syn":  ["cutane/o"]
     },
     {
         "wp":  "diaphor/o",
@@ -4989,7 +5027,8 @@
                        "Cystoscopy",
                        "Endoscopic examination of the urinary bladder and urethra"
                    ]
-               ]
+               ],
+        "syn":  ["vesic/o"]
     },
     {
         "wp":  "estr/o",
@@ -5157,7 +5196,8 @@
                        "Nephropathy",
                        "Disease or damage affecting the kidneys"
                    ]
-               ]
+               ],
+        "syn":  ["ren/o"]
     },
     {
         "wp":  "orchi/o",
@@ -5277,7 +5317,8 @@
                        "Renal failure",
                        "Inability of the kidneys to adequately filter metabolic waste"
                    ]
-               ]
+               ],
+        "syn":  ["nephr/o"]
     },
     {
         "wp":  "ur/o",
@@ -5397,7 +5438,8 @@
                        "Vesicostomy",
                        "Surgical creation of an opening from the bladder to the abdominal skin"
                    ]
-               ]
+               ],
+        "syn":  ["cyst/o"]
     },
     {
         "wp":  "acous/o",
@@ -5445,7 +5487,8 @@
                        "Auricular",
                        "Relating to the auricle of the ear or to the ear in general"
                    ]
-               ]
+               ],
+        "syn":  ["ot/o"]
     },
     {
         "wp":  "blephar/o",
@@ -5589,7 +5632,8 @@
                        "Myringitis",
                        "Inflammation of the tympanic membrane"
                    ]
-               ]
+               ],
+        "syn":  ["tympan/o"]
     },
     {
         "wp":  "ocul/o",
@@ -5613,7 +5657,8 @@
                        "Oculomotor",
                        "Relating to eye movement; describes the third cranial nerve"
                    ]
-               ]
+               ],
+        "syn":  ["ophthalm/o"]
     },
     {
         "wp":  "ophthalm/o",
@@ -5637,7 +5682,8 @@
                        "Ophthalmia",
                        "Severe inflammation of the eye or conjunctiva"
                    ]
-               ]
+               ],
+        "syn":  ["ocul/o"]
     },
     {
         "wp":  "ot/o",
@@ -5661,7 +5707,8 @@
                        "Otoscopy",
                        "Examination of the ear canal and eardrum with an otoscope"
                    ]
-               ]
+               ],
+        "syn":  ["aur/o"]
     },
     {
         "wp":  "phon/o",
@@ -5733,7 +5780,8 @@
                        "Tympanosclerosis",
                        "Hardening of middle ear tissues from calcification"
                    ]
-               ]
+               ],
+        "syn":  ["myring/o"]
     },
     {
         "wp":  "adip/o",
@@ -6981,7 +7029,8 @@
                        "Gluconeogenesis",
                        "Synthesis of glucose from non-carbohydrate substrates in the liver"
                    ]
-               ]
+               ],
+        "syn":  ["glyc/o"]
     },
     {
         "wp":  "glyc/o",
@@ -7005,7 +7054,8 @@
                        "Glycolysis",
                        "Metabolic pathway breaking down glucose to produce ATP"
                    ]
-               ]
+               ],
+        "syn":  ["gluc/o"]
     },
     {
         "wp":  "immun/o",
@@ -7461,7 +7511,8 @@
                        "Fibromyalgia",
                        "Chronic condition with widespread musculoskeletal pain and fatigue"
                    ]
-               ]
+               ],
+        "syn":  ["-dynia"]
     },
     {
         "wp":  "-cele",
@@ -7581,7 +7632,8 @@
                        "Coccydynia",
                        "Pain in the region of the coccyx, often from trauma or prolonged sitting"
                    ]
-               ]
+               ],
+        "syn":  ["-algia"]
     },
     {
         "wp":  "-ectasia",

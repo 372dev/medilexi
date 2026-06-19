@@ -12,6 +12,14 @@
                    [
                        "Aphasia",
                        "Loss of ability to speak or understand language"
+                   ],
+                   [
+                       "Apnea",
+                       "Temporary cessation of breathing"
+                   ],
+                   [
+                       "Atrophy",
+                       "Wasting of tissue from disuse or disease"
                    ]
                ]
     },
@@ -28,6 +36,14 @@
                    [
                        "Allogeneic",
                        "Derived from a genetically different individual of same species"
+                   ],
+                   [
+                       "Allodynia",
+                       "Pain provoked by a stimulus that normally does not cause pain"
+                   ],
+                   [
+                       "Alloimmunization",
+                       "Immune response to antigens from a genetically different individual of the same species"
                    ]
                ]
     },
@@ -44,6 +60,14 @@
                    [
                        "Anticoagulant",
                        "Agent that works against blood clotting"
+                   ],
+                   [
+                       "Antifungal",
+                       "Agent that kills or inhibits fungal growth"
+                   ],
+                   [
+                       "Antiseptic",
+                       "Substance applied to living tissue to inhibit microbial growth"
                    ]
                ]
     },
@@ -60,6 +84,14 @@
                    [
                        "Contralateral",
                        "On the opposite side of the body"
+                   ],
+                   [
+                       "Contraceptive",
+                       "Agent or device that prevents fertilization"
+                   ],
+                   [
+                       "Contraction",
+                       "Shortening of muscle fibers generating force"
                    ]
                ]
     },
@@ -76,6 +108,14 @@
                    [
                        "Debridement",
                        "Removal of dead tissue from a wound"
+                   ],
+                   [
+                       "Decubitus",
+                       "Pressure ulcer arising from prolonged contact with a surface"
+                   ],
+                   [
+                       "Denervation",
+                       "Loss of nerve supply to a tissue or organ"
                    ]
                ]
     },
@@ -92,6 +132,14 @@
                    [
                        "Dysphagia",
                        "Difficulty swallowing"
+                   ],
+                   [
+                       "Dysrhythmia",
+                       "Abnormal electrical rhythm of the heart"
+                   ],
+                   [
+                       "Dysphagia",
+                       "Difficulty or discomfort in swallowing"
                    ]
                ]
     },
@@ -108,6 +156,14 @@
                    [
                        "Normotensive",
                        "Having normal blood pressure"
+                   ],
+                   [
+                       "Eupnea",
+                       "Normal respiratory rate and depth at rest"
+                   ],
+                   [
+                       "Normotension",
+                       "Blood pressure within the normal physiological range"
                    ]
                ]
     },
@@ -124,6 +180,14 @@
                    [
                        "Heterograft",
                        "Tissue graft from a different species"
+                   ],
+                   [
+                       "Heterozygous",
+                       "Carrying two different alleles at a given gene locus"
+                   ],
+                   [
+                       "Heterogeneous",
+                       "Composed of structurally or functionally dissimilar elements"
                    ]
                ]
     },
@@ -140,6 +204,14 @@
                    [
                        "Homograft",
                        "Tissue graft from the same species"
+                   ],
+                   [
+                       "Homozygous",
+                       "Carrying two identical alleles at a given gene locus"
+                   ],
+                   [
+                       "Homogeneous",
+                       "Uniform in structure or composition throughout"
                    ]
                ]
     },
@@ -156,6 +228,14 @@
                    [
                        "Hyperglycemia",
                        "Elevated blood glucose level"
+                   ],
+                   [
+                       "Hyperlipidemia",
+                       "Abnormally elevated lipid levels in the blood"
+                   ],
+                   [
+                       "Hypertrophy",
+                       "Increase in organ or tissue size due to enlarged constituent cells"
                    ]
                ]
     },
@@ -172,6 +252,14 @@
                    [
                        "Hypothyroidism",
                        "Underactive thyroid gland"
+                   ],
+                   [
+                       "Hypothyroidism",
+                       "Insufficient thyroid hormone production by the thyroid gland"
+                   ],
+                   [
+                       "Hypoxia",
+                       "Deficient oxygen supply to body tissues"
                    ]
                ]
     },
@@ -188,6 +276,14 @@
                    [
                        "Incision",
                        "A cut made into tissue during surgery"
+                   ],
+                   [
+                       "Infertility",
+                       "Inability to conceive after 12 months of unprotected intercourse"
+                   ],
+                   [
+                       "Incontinence",
+                       "Inability to control bladder or bowel function"
                    ]
                ]
     },
@@ -204,6 +300,14 @@
                    [
                        "Malignant",
                        "Tending to spread and cause death"
+                   ],
+                   [
+                       "Malformation",
+                       "Structural defect arising from abnormal embryonic development"
+                   ],
+                   [
+                       "Malabsorption",
+                       "Impaired intestinal uptake of nutrients"
                    ]
                ]
     },
@@ -220,6 +324,14 @@
                    [
                        "Neonatal",
                        "Pertaining to a newborn infant"
+                   ],
+                   [
+                       "Neovascularization",
+                       "Formation of new blood vessels in tissue"
+                   ],
+                   [
+                       "Neonatology",
+                       "Medical specialty focused on care of newborn infants"
                    ]
                ]
     },
@@ -236,6 +348,14 @@
                    [
                        "Pseudomembrane",
                        "False membrane formed by inflammatory exudate"
+                   ],
+                   [
+                       "Pseudocyst",
+                       "Fluid collection lacking an epithelial lining, resembling a true cyst"
+                   ],
+                   [
+                       "Pseudomembrane",
+                       "False membrane formed by inflammatory exudate on mucosal surfaces"
                    ]
                ]
     },
@@ -252,6 +372,14 @@
                    [
                        "Resection",
                        "Surgical removal and reattachment of a structure"
+                   ],
+                   [
+                       "Relapse",
+                       "Return of disease signs after a period of improvement"
+                   ],
+                   [
+                       "Resection",
+                       "Surgical removal of all or part of a tissue or organ"
                    ]
                ]
     },
@@ -268,6 +396,14 @@
                    [
                        "Xenobiotic",
                        "Foreign chemical substance found within an organism"
+                   ],
+                   [
+                       "Xenobiotic",
+                       "Chemical substance foreign to the biological system of an organism"
+                   ],
+                   [
+                       "Xenotransplantation",
+                       "Transplantation of organs or tissues between different species"
                    ]
                ]
     },
@@ -284,6 +420,14 @@
                    [
                        "Abnormal",
                        "Deviating away from what is normal"
+                   ],
+                   [
+                       "Abduction",
+                       "Movement of a limb away from the body\u0027s midline"
+                   ],
+                   [
+                       "Aberrant",
+                       "Deviating from the normal anatomical course or structure"
                    ]
                ]
     },
@@ -300,6 +444,14 @@
                    [
                        "Adrenal",
                        "Gland situated near the kidney"
+                   ],
+                   [
+                       "Adduction",
+                       "Movement of a limb toward the body\u0027s midline"
+                   ],
+                   [
+                       "Adhesion",
+                       "Abnormal fibrous band binding surfaces that are normally separate"
                    ]
                ]
     },
@@ -316,6 +468,14 @@
                    [
                        "Anteroposterior",
                        "From front to back (e.g., X-ray direction)"
+                   ],
+                   [
+                       "Antepartum",
+                       "Occurring before childbirth"
+                   ],
+                   [
+                       "Anteroposterior",
+                       "Directed from front to back; standard imaging projection"
                    ]
                ]
     },
@@ -332,6 +492,14 @@
                    [
                        "Dextrocardia",
                        "Congenital condition where the heart is positioned on the right side of the chest"
+                   ],
+                   [
+                       "Dextrocardia",
+                       "Congenital condition where the heart is positioned on the right side"
+                   ],
+                   [
+                       "Dextrose",
+                       "Right-rotating form of glucose used in intravenous fluid therapy"
                    ]
                ]
     },
@@ -348,6 +516,14 @@
                    [
                        "Dialysis",
                        "Filtering waste across a membrane"
+                   ],
+                   [
+                       "Diastole",
+                       "Relaxation phase of the cardiac cycle when chambers fill with blood"
+                   ],
+                   [
+                       "Diaphragm",
+                       "Dome-shaped muscle separating the thoracic and abdominal cavities"
                    ]
                ]
     },
@@ -364,6 +540,14 @@
                    [
                        "Dorsolateral",
                        "Toward the back and to the side"
+                   ],
+                   [
+                       "Dorsal",
+                       "Relating to the back or posterior surface of the body"
+                   ],
+                   [
+                       "Dorsiflexion",
+                       "Upward bending of the foot toward the shin"
                    ]
                ]
     },
@@ -380,6 +564,14 @@
                    [
                        "Endocardium",
                        "Inner lining of the heart"
+                   ],
+                   [
+                       "Endocarditis",
+                       "Inflammation of the inner lining of the heart"
+                   ],
+                   [
+                       "Endocrine",
+                       "Relating to glands that secrete hormones directly into the bloodstream"
                    ]
                ]
     },
@@ -396,6 +588,14 @@
                    [
                        "Epiglottis",
                        "Flap above the glottis protecting the airway"
+                   ],
+                   [
+                       "Epigastric",
+                       "Relating to the upper middle abdominal region"
+                   ],
+                   [
+                       "Epicardium",
+                       "Outer layer of the heart wall"
                    ]
                ]
     },
@@ -412,6 +612,14 @@
                    [
                        "Exophthalmos",
                        "Abnormal protrusion of the eyeballs outward"
+                   ],
+                   [
+                       "Exocrine",
+                       "Relating to glands that secrete through ducts to external surfaces"
+                   ],
+                   [
+                       "Exophthalmos",
+                       "Abnormal protrusion of the eyeball from the orbit"
                    ]
                ]
     },
@@ -428,6 +636,14 @@
                    [
                        "Extracorporeal",
                        "Outside the body (e.g., bypass machine)"
+                   ],
+                   [
+                       "Extracellular",
+                       "Located or occurring outside the cell"
+                   ],
+                   [
+                       "Extravasation",
+                       "Leakage of fluid or blood from a vessel into surrounding tissue"
                    ]
                ]
     },
@@ -444,6 +660,14 @@
                    [
                        "Foreskin",
                        "Skin fold in front of the glans penis"
+                   ],
+                   [
+                       "Forearm",
+                       "Portion of the upper limb between elbow and wrist"
+                   ],
+                   [
+                       "Forehead",
+                       "Anterior part of the skull above the orbits; the brow region"
                    ]
                ]
     },
@@ -460,6 +684,14 @@
                    [
                        "Intervertebral",
                        "Between vertebrae"
+                   ],
+                   [
+                       "Intercostal",
+                       "Between the ribs; describes muscles, vessels, and nerves"
+                   ],
+                   [
+                       "Interstitial",
+                       "Relating to the spaces between cells or tissue structures"
                    ]
                ]
     },
@@ -476,6 +708,14 @@
                    [
                        "Intramuscular",
                        "Within a muscle"
+                   ],
+                   [
+                       "Intracranial",
+                       "Within the skull"
+                   ],
+                   [
+                       "Intramuscular",
+                       "Within the muscle; describes a route of drug injection"
                    ]
                ]
     },
@@ -492,6 +732,14 @@
                    [
                        "Ipsilateral reflex",
                        "Reflex arc on the same side as the stimulus"
+                   ],
+                   [
+                       "Ipsilesional",
+                       "On the same side as a brain lesion"
+                   ],
+                   [
+                       "Ipsiversive",
+                       "Turning or gaze deviation toward the side of a brain lesion"
                    ]
                ]
     },
@@ -508,6 +756,14 @@
                    [
                        "Juxtaglomerular",
                        "Adjacent to the glomerulus; juxtaglomerular cells regulate blood pressure"
+                   ],
+                   [
+                       "Juxtaglomerular",
+                       "Adjacent to the renal glomerulus; describes renin-secreting cells"
+                   ],
+                   [
+                       "Juxtamedullary",
+                       "Located near the border of the renal medulla"
                    ]
                ]
     },
@@ -524,6 +780,14 @@
                    [
                        "Laterodorsal",
                        "Toward the side and back"
+                   ],
+                   [
+                       "Lateralization",
+                       "Localization of a neurological function to one hemisphere"
+                   ],
+                   [
+                       "Laterodorsal",
+                       "Toward the side and back; anatomical positional descriptor"
                    ]
                ]
     },
@@ -540,6 +804,14 @@
                    [
                        "Levocardia",
                        "Normal left-sided heart position; term used when situs inversus affects other organs"
+                   ],
+                   [
+                       "Levocardia",
+                       "Normal position of the heart in the left chest"
+                   ],
+                   [
+                       "Sinistral",
+                       "Relating to the left side of the body; left-handed"
                    ]
                ]
     },
@@ -556,6 +828,14 @@
                    [
                        "Mediastinum",
                        "Middle compartment of the thoracic cavity"
+                   ],
+                   [
+                       "Mediastinum",
+                       "Central compartment of the thoracic cavity between the lungs"
+                   ],
+                   [
+                       "Medial malleolus",
+                       "Bony prominence on the inner side of the ankle"
                    ]
                ]
     },
@@ -572,6 +852,14 @@
                    [
                        "Mesentery",
                        "Middle membrane suspending the intestines"
+                   ],
+                   [
+                       "Mesoderm",
+                       "Middle embryonic germ layer giving rise to muscle, bone, and connective tissue"
+                   ],
+                   [
+                       "Mesentery",
+                       "Peritoneal fold attaching the small intestine to the posterior abdominal wall"
                    ]
                ]
     },
@@ -588,6 +876,14 @@
                    [
                        "Parathyroid",
                        "Glands situated beside the thyroid gland"
+                   ],
+                   [
+                       "Paramedic",
+                       "Healthcare professional trained in prehospital emergency care"
+                   ],
+                   [
+                       "Paranoia",
+                       "Persistent irrational beliefs of persecution or special significance"
                    ]
                ]
     },
@@ -604,6 +900,14 @@
                    [
                        "Perfusion",
                        "Passage of blood or fluid through tissue"
+                   ],
+                   [
+                       "Percutaneous",
+                       "Through the skin without an open incision; describes needle procedures"
+                   ],
+                   [
+                       "Perfusion",
+                       "Passage of blood or fluid through a tissue or organ"
                    ]
                ]
     },
@@ -620,6 +924,14 @@
                    [
                        "Circumduction",
                        "Circular movement around a joint"
+                   ],
+                   [
+                       "Perioperative",
+                       "Period encompassing time immediately before, during, and after surgery"
+                   ],
+                   [
+                       "Circumcision",
+                       "Surgical removal of the foreskin of the penis"
                    ]
                ]
     },
@@ -636,6 +948,14 @@
                    [
                        "Postpartum",
                        "After childbirth"
+                   ],
+                   [
+                       "Postoperative",
+                       "Relating to the period following a surgical procedure"
+                   ],
+                   [
+                       "Postmortem",
+                       "After death; also refers to autopsy examination"
                    ]
                ]
     },
@@ -652,6 +972,14 @@
                    [
                        "Posteroanterior",
                        "From back to front (PA chest X-ray)"
+                   ],
+                   [
+                       "Posteroanterior",
+                       "From back to front; standard orientation for chest radiography"
+                   ],
+                   [
+                       "Posterolateral",
+                       "Toward the back and side of the body"
                    ]
                ]
     },
@@ -668,6 +996,14 @@
                    [
                        "Preoperative",
                        "Before surgery"
+                   ],
+                   [
+                       "Prediabetes",
+                       "Blood glucose elevated above normal but below the diabetic diagnostic threshold"
+                   ],
+                   [
+                       "Preterm",
+                       "Born before 37 completed weeks of gestation"
                    ]
                ]
     },
@@ -684,6 +1020,14 @@
                    [
                        "Prophylaxis",
                        "Prevention of disease before it occurs"
+                   ],
+                   [
+                       "Prolapse",
+                       "Downward or forward displacement of an organ from its normal position"
+                   ],
+                   [
+                       "Protrusion",
+                       "Forward projection of a structure beyond its normal boundary"
                    ]
                ]
     },
@@ -700,6 +1044,14 @@
                    [
                        "Retrograde",
                        "Moving backward, as in retrograde amnesia"
+                   ],
+                   [
+                       "Retrograde",
+                       "Moving backward or opposite to the normal direction of flow"
+                   ],
+                   [
+                       "Retroperitoneal",
+                       "Located behind the peritoneum, as the kidneys and aorta"
                    ]
                ]
     },
@@ -716,6 +1068,14 @@
                    [
                        "Infraorbital",
                        "Below the eye socket"
+                   ],
+                   [
+                       "Subcutaneous",
+                       "Beneath the skin; also a route for drug injection"
+                   ],
+                   [
+                       "Infraorbital",
+                       "Below the orbit; describes the nerve and artery of the cheek"
                    ]
                ]
     },
@@ -732,6 +1092,14 @@
                    [
                        "Suprarenal",
                        "Above the kidney (adrenal gland)"
+                   ],
+                   [
+                       "Supine",
+                       "Body position lying face upward on the back"
+                   ],
+                   [
+                       "Supraclavicular",
+                       "Above the clavicle; describes lymph nodes and nerve block sites"
                    ]
                ]
     },
@@ -748,6 +1116,14 @@
                    [
                        "Syndactyly",
                        "Fusion of fingers or toes together"
+                   ],
+                   [
+                       "Syndrome",
+                       "Cluster of signs and symptoms consistently occurring together"
+                   ],
+                   [
+                       "Synaptic",
+                       "Relating to the junction between two neurons"
                    ]
                ]
     },
@@ -764,6 +1140,14 @@
                    [
                        "Transfusion",
                        "Transfer of blood into a recipient"
+                   ],
+                   [
+                       "Transfusion",
+                       "Transfer of blood or blood components into a recipient\u0027s circulation"
+                   ],
+                   [
+                       "Transdermal",
+                       "Administered through the skin for systemic drug delivery"
                    ]
                ]
     },
@@ -780,6 +1164,14 @@
                    [
                        "Ventricle",
                        "Cavity on the front side of the heart or brain"
+                   ],
+                   [
+                       "Ventral",
+                       "Relating to the anterior or front surface of the body"
+                   ],
+                   [
+                       "Ventriculoperitoneal",
+                       "Connecting a brain ventricle to the peritoneal cavity; type of CSF shunt"
                    ]
                ]
     },
@@ -796,6 +1188,14 @@
                    [
                        "Ambivalent",
                        "Having mixed feelings"
+                   ],
+                   [
+                       "Ambisexual",
+                       "Occurring in or involving both sexes"
+                   ],
+                   [
+                       "Ambiguous genitalia",
+                       "External genitalia that cannot be clearly classified as male or female"
                    ]
                ]
     },
@@ -812,6 +1212,14 @@
                    [
                        "Amphipathic",
                        "Having both hydrophilic and hydrophobic regions"
+                   ],
+                   [
+                       "Amphiphilic",
+                       "Having both hydrophilic and hydrophobic regions, as in phospholipids"
+                   ],
+                   [
+                       "Amphimixis",
+                       "Fusion of two gametes from separate parents in sexual reproduction"
                    ]
                ]
     },
@@ -828,6 +1236,14 @@
                    [
                        "Diplopia",
                        "Double vision"
+                   ],
+                   [
+                       "Bilateral",
+                       "Affecting or involving both sides of the body"
+                   ],
+                   [
+                       "Bifurcation",
+                       "Division of a vessel or structure into two branches"
                    ]
                ]
     },
@@ -844,6 +1260,14 @@
                    [
                        "Equidistant",
                        "At equal distances"
+                   ],
+                   [
+                       "Equianalgesic",
+                       "Producing equivalent pain relief; used to convert between opioid doses"
+                   ],
+                   [
+                       "Equinus",
+                       "Plantar flexion foot deformity in which the heel is elevated"
                    ]
                ]
     },
@@ -860,6 +1284,14 @@
                    [
                        "Hemisphere",
                        "Half of a sphere or organ"
+                   ],
+                   [
+                       "Hemianopia",
+                       "Loss of vision in half the visual field in one or both eyes"
+                   ],
+                   [
+                       "Hemispherectomy",
+                       "Surgical removal or disconnection of one cerebral hemisphere"
                    ]
                ]
     },
@@ -876,6 +1308,14 @@
                    [
                        "Isometric",
                        "Muscle contraction with no change in length"
+                   ],
+                   [
+                       "Isometric",
+                       "Muscle contraction with no change in muscle length"
+                   ],
+                   [
+                       "Isotonic",
+                       "Having the same osmolarity as plasma; also equal-tension muscle contraction"
                    ]
                ]
     },
@@ -892,6 +1332,14 @@
                    [
                        "Macroglossia",
                        "Abnormal enlargement of the tongue"
+                   ],
+                   [
+                       "Macrophage",
+                       "Large phagocytic immune cell that engulfs pathogens and cellular debris"
+                   ],
+                   [
+                       "Macrosomia",
+                       "Abnormally large fetal or infant size, often above the 90th percentile"
                    ]
                ]
     },
@@ -908,6 +1356,14 @@
                    [
                        "Megaloblast",
                        "Abnormally large immature blood cell"
+                   ],
+                   [
+                       "Megacolon",
+                       "Abnormal dilation of the colon, as in Hirschsprung disease"
+                   ],
+                   [
+                       "Megaloblast",
+                       "Abnormally large immature red blood cell seen in B12 or folate deficiency"
                    ]
                ]
     },
@@ -924,6 +1380,14 @@
                    [
                        "Microcephaly",
                        "Abnormally small head size"
+                   ],
+                   [
+                       "Microcephaly",
+                       "Abnormally small head circumference due to impaired brain development"
+                   ],
+                   [
+                       "Microorganism",
+                       "Microscopic living entity including bacteria, viruses, and fungi"
                    ]
                ]
     },
@@ -940,6 +1404,14 @@
                    [
                        "Mononucleosis",
                        "Viral infection causing excess mononuclear cells"
+                   ],
+                   [
+                       "Mononucleosis",
+                       "Infectious disease caused by Epstein-Barr virus with lymphadenopathy"
+                   ],
+                   [
+                       "Monoplegia",
+                       "Paralysis confined to a single limb"
                    ]
                ]
     },
@@ -956,6 +1428,14 @@
                    [
                        "Multidrug",
                        "Involving multiple drugs"
+                   ],
+                   [
+                       "Multidisciplinary",
+                       "Involving coordinated care from multiple medical specialties"
+                   ],
+                   [
+                       "Multiparous",
+                       "Having given birth to two or more viable infants"
                    ]
                ]
     },
@@ -972,6 +1452,14 @@
                    [
                        "Nulligravida",
                        "Woman who has never been pregnant"
+                   ],
+                   [
+                       "Nulliparous",
+                       "Describing a woman who has never delivered a viable infant"
+                   ],
+                   [
+                       "Nulliparity",
+                       "State of never having given birth to a viable infant"
                    ]
                ]
     },
@@ -988,6 +1476,14 @@
                    [
                        "Oligospermia",
                        "Low sperm count"
+                   ],
+                   [
+                       "Oligospermia",
+                       "Reduced sperm count in semen, a common cause of male infertility"
+                   ],
+                   [
+                       "Oligodactyly",
+                       "Congenital absence of one or more fingers or toes"
                    ]
                ]
     },
@@ -1004,6 +1500,14 @@
                    [
                        "Pancreatitis",
                        "Inflammation affecting the entire pancreas"
+                   ],
+                   [
+                       "Pandemic",
+                       "Epidemic of infectious disease spread across multiple continents worldwide"
+                   ],
+                   [
+                       "Panhypopituitarism",
+                       "Deficiency of all hormones secreted by the anterior pituitary gland"
                    ]
                ]
     },
@@ -1020,6 +1524,14 @@
                    [
                        "Polypharmacy",
                        "Use of multiple medications simultaneously"
+                   ],
+                   [
+                       "Polycythemia",
+                       "Abnormal increase in the total mass of circulating red blood cells"
+                   ],
+                   [
+                       "Polymorphism",
+                       "Existence of multiple genetic variants at a locus within a population"
                    ]
                ]
     },
@@ -1036,6 +1548,14 @@
                    [
                        "Quadrant",
                        "One of four sections of the abdomen"
+                   ],
+                   [
+                       "Quadriplegia",
+                       "Paralysis of all four limbs from high cervical spinal cord injury"
+                   ],
+                   [
+                       "Quadrant",
+                       "One of four regions dividing the abdomen used in clinical assessment"
                    ]
                ]
     },
@@ -1052,6 +1572,14 @@
                    [
                        "Semilunar",
                        "Half-moon shaped"
+                   ],
+                   [
+                       "Semilunar",
+                       "Half-moon shaped; describes the aortic and pulmonary valves"
+                   ],
+                   [
+                       "Semiconscious",
+                       "State of partial arousal with reduced awareness and responsiveness"
                    ]
                ]
     },
@@ -1068,6 +1596,14 @@
                    [
                        "Tetralogy of Fallot",
                        "Congenital heart defect with four structural abnormalities"
+                   ],
+                   [
+                       "Tetralogy of Fallot",
+                       "Congenital heart defect comprising four structural abnormalities"
+                   ],
+                   [
+                       "Tetraplegia",
+                       "Paralysis of all four limbs; synonym for quadriplegia"
                    ]
                ]
     },
@@ -1084,6 +1620,14 @@
                    [
                        "Trimester",
                        "One of three periods of pregnancy"
+                   ],
+                   [
+                       "Trimester",
+                       "One of three three-month divisions of pregnancy"
+                   ],
+                   [
+                       "Tricuspid valve",
+                       "Right atrioventricular valve with three cusps"
                    ]
                ]
     },
@@ -1100,6 +1644,14 @@
                    [
                        "Ultraviolet",
                        "Light beyond the visible violet spectrum"
+                   ],
+                   [
+                       "Ultrasonography",
+                       "Imaging technique using high-frequency sound waves to visualize structures"
+                   ],
+                   [
+                       "Ultraviolet radiation",
+                       "Electromagnetic radiation beyond visible light; major cause of skin damage"
                    ]
                ]
     },
@@ -1116,6 +1668,14 @@
                    [
                        "Unicellular",
                        "Consisting of a single cell"
+                   ],
+                   [
+                       "Unilateral",
+                       "Occurring on or affecting one side of the body only"
+                   ],
+                   [
+                       "Unicellular",
+                       "Composed of a single cell; describes the simplest living organisms"
                    ]
                ]
     },
@@ -1132,6 +1692,14 @@
                    [
                        "Albuminuria",
                        "Excess albumin protein in the urine; a sign of kidney damage"
+                   ],
+                   [
+                       "Albinism",
+                       "Congenital absence of melanin causing white skin, hair, and light-sensitive eyes"
+                   ],
+                   [
+                       "Albuminuria",
+                       "Presence of albumin in urine, an early indicator of renal damage"
                    ]
                ]
     },
@@ -1148,6 +1716,14 @@
                    [
                        "Chloroma",
                        "Green-colored tumor of myeloid leukemia"
+                   ],
+                   [
+                       "Chloroma",
+                       "Green-hued extramedullary tumor mass composed of myeloid leukemia cells"
+                   ],
+                   [
+                       "Chloropsia",
+                       "Visual disturbance in which objects appear greenish in color"
                    ]
                ]
     },
@@ -1164,6 +1740,14 @@
                    [
                        "Chromosome",
                        "Thread-like structure of DNA and protein carrying genetic information"
+                   ],
+                   [
+                       "Chromosome",
+                       "Thread-like nuclear structure carrying the genetic information of an organism"
+                   ],
+                   [
+                       "Chromatin",
+                       "Complex of DNA and histone proteins comprising the chromosome"
                    ]
                ]
     },
@@ -1180,6 +1764,14 @@
                    [
                        "Cyanosis",
                        "Bluish discoloration of skin due to oxygen deficiency in the blood"
+                   ],
+                   [
+                       "Cyanosis",
+                       "Bluish discoloration of skin and mucous membranes due to low blood oxygen"
+                   ],
+                   [
+                       "Cyanide poisoning",
+                       "Cellular asphyxia caused by inhibition of cytochrome oxidase"
                    ]
                ]
     },
@@ -1196,6 +1788,14 @@
                    [
                        "Erythropoietin",
                        "Hormone stimulating red blood cell production"
+                   ],
+                   [
+                       "Erythropoietin",
+                       "Renal hormone stimulating bone marrow production of red blood cells"
+                   ],
+                   [
+                       "Erythema",
+                       "Redness of the skin resulting from dilation of superficial blood vessels"
                    ]
                ]
     },
@@ -1212,6 +1812,14 @@
                    [
                        "Leukemia",
                        "Cancer of white blood cell precursors"
+                   ],
+                   [
+                       "Leukemia",
+                       "Malignant proliferation of white blood cell precursors in blood and marrow"
+                   ],
+                   [
+                       "Leukopenia",
+                       "Abnormally low white blood cell count increasing susceptibility to infection"
                    ]
                ]
     },
@@ -1228,6 +1836,14 @@
                    [
                        "Melanocyte",
                        "Pigment-producing cell in the skin"
+                   ],
+                   [
+                       "Melanocyte",
+                       "Pigment-producing cell in the basal epidermis responsible for skin color"
+                   ],
+                   [
+                       "Melanoma",
+                       "Malignant tumor arising from melanocytes with high metastatic potential"
                    ]
                ]
     },
@@ -1244,6 +1860,14 @@
                    [
                        "Glaucoma",
                        "Eye disease causing gray-green optic nerve damage"
+                   ],
+                   [
+                       "Poliomyelitis",
+                       "Viral infection destroying anterior horn motor neurons causing paralysis"
+                   ],
+                   [
+                       "Glaucoma",
+                       "Optic nerve damage from elevated intraocular pressure leading to vision loss"
                    ]
                ]
     },
@@ -1260,6 +1884,14 @@
                    [
                        "Porphyria",
                        "Metabolic disorder of heme synthesis causing skin and neurological symptoms"
+                   ],
+                   [
+                       "Coproporphyrin",
+                       "Porphyrin metabolite elevated in stool and urine in certain porphyrias"
+                   ],
+                   [
+                       "Uroporphyrin",
+                       "Porphyrin excreted in urine; markedly elevated in porphyria cutanea tarda"
                    ]
                ]
     },
@@ -1276,6 +1908,14 @@
                    [
                        "Xanthoderma",
                        "Yellow discoloration of the skin"
+                   ],
+                   [
+                       "Xanthelasma",
+                       "Yellow cholesterol-laden plaques on eyelid skin indicating dyslipidemia"
+                   ],
+                   [
+                       "Xanthochromia",
+                       "Yellow CSF discoloration from hemoglobin breakdown after subarachnoid hemorrhage"
                    ]
                ]
     },
@@ -1292,6 +1932,14 @@
                    [
                        "Autograft",
                        "Tissue transplanted from the same person"
+                   ],
+                   [
+                       "Autoimmune",
+                       "Relating to immune-mediated attack on the body\u0027s own tissues"
+                   ],
+                   [
+                       "Autologous",
+                       "Derived from the same individual; describes self-donated blood or tissue grafts"
                    ]
                ]
     },
@@ -1308,6 +1956,14 @@
                    [
                        "Brachytherapy",
                        "Short-distance radiation therapy placed near a tumor"
+                   ],
+                   [
+                       "Brachydactyly",
+                       "Congenital shortening of fingers or toes"
+                   ],
+                   [
+                       "Brachyesophagus",
+                       "Abnormally short esophagus that may predispose to gastroesophageal reflux"
                    ]
                ]
     },
@@ -1324,6 +1980,14 @@
                    [
                        "Bradypnea",
                        "Abnormally slow breathing rate"
+                   ],
+                   [
+                       "Bradykinesia",
+                       "Slowness of voluntary movement, a cardinal feature of Parkinson\u0027s disease"
+                   ],
+                   [
+                       "Bradyarrhythmia",
+                       "Any abnormally slow cardiac rhythm below 60 beats per minute"
                    ]
                ]
     },
@@ -1340,6 +2004,14 @@
                    [
                        "Chronobiology",
                        "Study of biological rhythms and their effects on health and disease"
+                   ],
+                   [
+                       "Chronotherapy",
+                       "Treatment timed to align with the patient\u0027s circadian rhythm"
+                   ],
+                   [
+                       "Circadian rhythm",
+                       "Biological cycle of approximately 24 hours regulating sleep and physiology"
                    ]
                ]
     },
@@ -1356,6 +2028,14 @@
                    [
                        "Cortical",
                        "Pertaining to the outer layer of an organ"
+                   ],
+                   [
+                       "Corticosteroid",
+                       "Steroid hormone from the adrenal cortex; widely used as anti-inflammatory"
+                   ],
+                   [
+                       "Corticospinal tract",
+                       "Descending nerve pathway from cerebral cortex to spinal cord motor neurons"
                    ]
                ]
     },
@@ -1372,6 +2052,14 @@
                    [
                        "Cryosurgery",
                        "Surgical destruction of tissue using freezing temperatures"
+                   ],
+                   [
+                       "Cryotherapy",
+                       "Therapeutic application of extreme cold to destroy abnormal tissue"
+                   ],
+                   [
+                       "Cryopreservation",
+                       "Storage of biological material at ultra-low temperatures for future use"
                    ]
                ]
     },
@@ -1388,6 +2076,14 @@
                    [
                        "Metabolism",
                        "Chemical changes sustaining life in the body"
+                   ],
+                   [
+                       "Metaplasia",
+                       "Reversible substitution of one differentiated cell type by another"
+                   ],
+                   [
+                       "Metabolic syndrome",
+                       "Cluster of cardiovascular risk factors including obesity, hypertension, and dyslipidemia"
                    ]
                ]
     },
@@ -1404,6 +2100,14 @@
                    [
                        "Phototherapy",
                        "Treatment using light, e.g., for jaundice or skin conditions"
+                   ],
+                   [
+                       "Photosensitivity",
+                       "Abnormal skin reaction to sunlight from drugs or systemic disease"
+                   ],
+                   [
+                       "Photocoagulation",
+                       "Laser application to seal retinal vessels or destroy abnormal tissue in the eye"
                    ]
                ]
     },
@@ -1420,6 +2124,14 @@
                    [
                        "Tachypnea",
                        "Abnormally fast breathing rate"
+                   ],
+                   [
+                       "Tachyarrhythmia",
+                       "Any abnormally rapid heart rhythm exceeding 100 beats per minute"
+                   ],
+                   [
+                       "Tachyphylaxis",
+                       "Rapid diminution of response to a drug following repeated doses"
                    ]
                ]
     },

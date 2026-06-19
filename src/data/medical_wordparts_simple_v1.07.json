@@ -428,12 +428,6 @@
         "d":  "Few, little, scanty"
     },
     {
-        "wp":  "omni-",
-        "t":  "p",
-        "d":  "(Latin) All",
-        "alt":  "pan-, omni-"
-    },
-    {
         "wp":  "pan-",
         "t":  "p",
         "d":  "All, entire",
@@ -537,11 +531,6 @@
         "wp":  "porphyr-",
         "t":  "p",
         "d":  "(Greek) Purple"
-    },
-    {
-        "wp":  "rhodo-",
-        "t":  "p",
-        "d":  "(Greek) Rose, red"
     },
     {
         "wp":  "xantho-",

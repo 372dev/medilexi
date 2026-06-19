@@ -790,10 +790,8 @@
         "d":  "(Latin) Both, around",
         "ex":  [
                    [
-                       [
-                           "Ambidextrous",
-                           "Able to use both hands equally well"
-                       ]
+                       "Ambidextrous",
+                       "Able to use both hands equally well"
                    ],
                    [
                        "Ambivalent",
@@ -808,10 +806,8 @@
         "d":  "Both, around",
         "ex":  [
                    [
-                       [
-                           "Amphiarthrosis",
-                           "Joint allowing slight movement on both sides"
-                       ]
+                       "Amphiarthrosis",
+                       "Joint allowing slight movement on both sides"
                    ],
                    [
                        "Amphipathic",
@@ -842,10 +838,8 @@
         "d":  "(Latin) Equal",
         "ex":  [
                    [
-                       [
-                           "Equilibrium",
-                           "State of balance between opposing forces"
-                       ]
+                       "Equilibrium",
+                       "State of balance between opposing forces"
                    ],
                    [
                        "Equidistant",
@@ -860,10 +854,8 @@
         "d":  "Half",
         "ex":  [
                    [
-                       [
-                           "Hemiplegia",
-                           "Paralysis of one body half"
-                       ]
+                       "Hemiplegia",
+                       "Paralysis of one body half"
                    ],
                    [
                        "Hemisphere",
@@ -878,10 +870,8 @@
         "d":  "Equal, same",
         "ex":  [
                    [
-                       [
-                           "Isotonic",
-                           "Equal osmotic pressure between solutions"
-                       ]
+                       "Isotonic",
+                       "Equal osmotic pressure between solutions"
                    ],
                    [
                        "Isometric",
@@ -944,10 +934,8 @@
         "d":  "One, single",
         "ex":  [
                    [
-                       [
-                           "Monoplegia",
-                           "Paralysis of a single limb"
-                       ]
+                       "Monoplegia",
+                       "Paralysis of a single limb"
                    ],
                    [
                        "Mononucleosis",
@@ -962,10 +950,8 @@
         "d":  "(Latin) Many, multiple",
         "ex":  [
                    [
-                       [
-                           "Multifocal",
-                           "Arising from or affecting many locations"
-                       ]
+                       "Multifocal",
+                       "Arising from or affecting many locations"
                    ],
                    [
                        "Multidrug",
@@ -1006,34 +992,14 @@
                ]
     },
     {
-        "wp":  "omni-",
-        "t":  "p",
-        "lvl":  1,
-        "d":  "(Latin) All",
-        "ex":  [
-                   [
-                       [
-                           "Omnivorous",
-                           "Consuming both plant and animal-derived foods"
-                       ]
-                   ],
-                   [
-                       "Omnidirectional",
-                       "Affecting all directions"
-                   ]
-               ]
-    },
-    {
         "wp":  "pan-",
         "t":  "p",
         "lvl":  2,
         "d":  "All, entire",
         "ex":  [
                    [
-                       [
-                           "Pandemic",
-                           "Disease affecting all people across wide regions"
-                       ]
+                       "Pandemic",
+                       "Disease affecting all people across wide regions"
                    ],
                    [
                        "Pancreatitis",
@@ -1048,10 +1014,8 @@
         "d":  "Many, much",
         "ex":  [
                    [
-                       [
-                           "Polyuria",
-                           "Excessive urine output"
-                       ]
+                       "Polyuria",
+                       "Excessive urine output"
                    ],
                    [
                        "Polypharmacy",
@@ -1066,10 +1030,8 @@
         "d":  "(Latin) Four",
         "ex":  [
                    [
-                       [
-                           "Quadriplegia",
-                           "Paralysis of all four limbs"
-                       ]
+                       "Quadriplegia",
+                       "Paralysis of all four limbs"
                    ],
                    [
                        "Quadrant",
@@ -1084,10 +1046,8 @@
         "d":  "(Latin) Half, partial",
         "ex":  [
                    [
-                       [
-                           "Semiconscious",
-                           "Partially conscious"
-                       ]
+                       "Semiconscious",
+                       "Partially conscious"
                    ],
                    [
                        "Semilunar",
@@ -1102,10 +1062,8 @@
         "d":  "Four",
         "ex":  [
                    [
-                       [
-                           "Tetraplegia",
-                           "Paralysis of all four limbs"
-                       ]
+                       "Tetraplegia",
+                       "Paralysis of all four limbs"
                    ],
                    [
                        "Tetralogy of Fallot",
@@ -1152,10 +1110,8 @@
         "d":  "(Latin) One, single",
         "ex":  [
                    [
-                       [
-                           "Unilateral",
-                           "Pertaining to one side only"
-                       ]
+                       "Unilateral",
+                       "Pertaining to one side only"
                    ],
                    [
                        "Unicellular",
@@ -1304,22 +1260,6 @@
                    [
                        "Porphyria",
                        "Metabolic disorder of heme synthesis causing skin and neurological symptoms"
-                   ]
-               ]
-    },
-    {
-        "wp":  "rhodo-",
-        "t":  "p",
-        "lvl":  1,
-        "d":  "(Greek) Rose, red",
-        "ex":  [
-                   [
-                       "Rhodopsin",
-                       "Rose-colored light-sensitive pigment in the retina"
-                   ],
-                   [
-                       "Rhodopsin",
-                       "Light-sensitive pigment in retinal rod cells essential for low-light vision"
                    ]
                ]
     },
@@ -1826,10 +1766,8 @@
         "d":  "(Latin) Nose",
         "ex":  [
                    [
-                       [
-                           "Nasogastric tube",
-                           "Tube passed through the nose into the stomach"
-                       ]
+                       "Nasogastric tube",
+                       "Tube passed through the nose into the stomach"
                    ],
                    [
                        "Nasal cavity",
@@ -1908,10 +1846,8 @@
         "d":  "Nose",
         "ex":  [
                    [
-                       [
-                           "Rhinitis",
-                           "Inflammation of the nasal lining"
-                       ]
+                       "Rhinitis",
+                       "Inflammation of the nasal lining"
                    ],
                    [
                        "Rhinoplasty",
@@ -2118,10 +2054,8 @@
         "d":  "(Latin) Tooth",
         "ex":  [
                    [
-                       [
-                           "Dentist",
-                           "Specialist in the care and treatment of teeth"
-                       ]
+                       "Dentist",
+                       "Specialist in the care and treatment of teeth"
                    ],
                    [
                        "Dentition",
@@ -2216,10 +2150,8 @@
         "d":  "Tongue",
         "ex":  [
                    [
-                       [
-                           "Glossitis",
-                           "Inflammation of the tongue"
-                       ]
+                       "Glossitis",
+                       "Inflammation of the tongue"
                    ],
                    [
                        "Hypoglossal",
@@ -2330,10 +2262,8 @@
         "d":  "(Latin) Tongue",
         "ex":  [
                    [
-                       [
-                           "Sublingual",
-                           "Under the tongue (drug route)"
-                       ]
+                       "Sublingual",
+                       "Under the tongue (drug route)"
                    ],
                    [
                        "Lingual nerve",
@@ -2348,10 +2278,8 @@
         "d":  "Tooth",
         "ex":  [
                    [
-                       [
-                           "Orthodontics",
-                           "Dental specialty correcting tooth and jaw alignment"
-                       ]
+                       "Orthodontics",
+                       "Dental specialty correcting tooth and jaw alignment"
                    ],
                    [
                        "Periodontist",
@@ -2702,10 +2630,8 @@
         "d":  "Joint",
         "ex":  [
                    [
-                       [
-                           "Arthritis",
-                           "Inflammation of one or more joints"
-                       ]
+                       "Arthritis",
+                       "Inflammation of one or more joints"
                    ],
                    [
                        "Arthroscopy",
@@ -2720,10 +2646,8 @@
         "d":  "(Latin) Joint, articulation",
         "ex":  [
                    [
-                       [
-                           "Articular cartilage",
-                           "Smooth cartilage covering joint surfaces"
-                       ]
+                       "Articular cartilage",
+                       "Smooth cartilage covering joint surfaces"
                    ],
                    [
                        "Articulation",
@@ -3266,10 +3190,8 @@
         "d":  "Nail",
         "ex":  [
                    [
-                       [
-                           "Onychomycosis",
-                           "Fungal infection of the fingernails or toenails"
-                       ]
+                       "Onychomycosis",
+                       "Fungal infection of the fingernails or toenails"
                    ],
                    [
                        "Onycholysis",
@@ -3332,10 +3254,8 @@
         "d":  "(Latin) Nail",
         "ex":  [
                    [
-                       [
-                           "Ungual",
-                           "Pertaining to the fingernails or toenails"
-                       ]
+                       "Ungual",
+                       "Pertaining to the fingernails or toenails"
                    ],
                    [
                        "Subungual",
@@ -3606,10 +3526,8 @@
         "d":  "Urine, urinary tract",
         "ex":  [
                    [
-                       [
-                           "Urology",
-                           "Study and treatment of urinary tract diseases"
-                       ]
+                       "Urology",
+                       "Study and treatment of urinary tract diseases"
                    ],
                    [
                        "Uremia",
@@ -3656,10 +3574,8 @@
         "d":  "(Latin) Urine",
         "ex":  [
                    [
-                       [
-                           "Urinalysis",
-                           "Laboratory analysis of urine composition"
-                       ]
+                       "Urinalysis",
+                       "Laboratory analysis of urine composition"
                    ],
                    [
                        "Urinary tract",
@@ -3706,10 +3622,8 @@
         "d":  "(Latin) Ear",
         "ex":  [
                    [
-                       [
-                           "Auricle",
-                           "External visible part of the ear"
-                       ]
+                       "Auricle",
+                       "External visible part of the ear"
                    ],
                    [
                        "Aural",
@@ -3820,10 +3734,8 @@
         "d":  "(Latin) Eye",
         "ex":  [
                    [
-                       [
-                           "Ocular",
-                           "Pertaining to the eye"
-                       ]
+                       "Ocular",
+                       "Pertaining to the eye"
                    ],
                    [
                        "Binocular",
@@ -3838,10 +3750,8 @@
         "d":  "Eye",
         "ex":  [
                    [
-                       [
-                           "Ophthalmoscope",
-                           "Instrument used to examine the interior of the eye"
-                       ]
+                       "Ophthalmoscope",
+                       "Instrument used to examine the interior of the eye"
                    ],
                    [
                        "Ophthalmology",
@@ -3856,10 +3766,8 @@
         "d":  "Ear",
         "ex":  [
                    [
-                       [
-                           "Otitis",
-                           "Inflammation of the ear"
-                       ]
+                       "Otitis",
+                       "Inflammation of the ear"
                    ],
                    [
                        "Otoscope",
@@ -3922,10 +3830,8 @@
         "d":  "(Latin) Fat, adipose",
         "ex":  [
                    [
-                       [
-                           "Adipose tissue",
-                           "Fat-storing connective tissue throughout the body"
-                       ]
+                       "Adipose tissue",
+                       "Fat-storing connective tissue throughout the body"
                    ],
                    [
                        "Adipocyte",
@@ -4324,10 +4230,8 @@
         "d":  "Fat, lipid",
         "ex":  [
                    [
-                       [
-                           "Lipoma",
-                           "Benign tumor composed of fatty tissue"
-                       ]
+                       "Lipoma",
+                       "Benign tumor composed of fatty tissue"
                    ],
                    [
                        "Lipolysis",
@@ -5943,11 +5847,11 @@
         "ex":  [
                    [
                        "Emphysema",
-                       "Condition of air trapped in lung tissue"
+                       "Chronic lung disease with permanent alveolar destruction"
                    ],
                    [
-                       "Emphysema",
-                       "Chronic lung disease with permanent destruction of alveolar walls"
+                       "Lumbago",
+                       "Low back pain; an archaic clinical term for lumbar region pain"
                    ]
                ]
     },

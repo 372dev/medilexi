@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
-import partsData from '@/data/medical_wordparts_v1.07.json'
+import partsData from '@/data/medical_wordparts.json'
 
 interface WordPart {
   wp: string; t: 'p'|'r'|'s'; lvl: 1|2|3

@@ -7140,6 +7140,14 @@
                    [
                        "Thoracentesis",
                        "Needle puncture of the chest to drain pleural fluid"
+                   ],
+                   [
+                       "Arthrocentesis",
+                       "Needle aspiration of fluid from a joint cavity"
+                   ],
+                   [
+                       "Paracentesis",
+                       "Needle drainage of excess fluid from the peritoneal cavity"
                    ]
                ]
     },
@@ -7156,6 +7164,14 @@
                    [
                        "Litholapaxy",
                        "Breaking up of a bladder stone"
+                   ],
+                   [
+                       "Myoclasia",
+                       "Degeneration or fragmentation of muscle tissue"
+                   ],
+                   [
+                       "Angioclasia",
+                       "Rupture or pathological destruction of blood vessel walls"
                    ]
                ]
     },
@@ -7172,6 +7188,14 @@
                    [
                        "Tenodesis",
                        "Surgical anchoring of a tendon to bone"
+                   ],
+                   [
+                       "Spondylodesis",
+                       "Surgical fusion of adjacent vertebrae to stabilize the spine"
+                   ],
+                   [
+                       "Pleurodesis",
+                       "Deliberate obliteration of the pleural space to prevent fluid reaccumulation"
                    ]
                ]
     },
@@ -7188,6 +7212,14 @@
                    [
                        "Cholecystectomy",
                        "Surgical removal of the gallbladder"
+                   ],
+                   [
+                       "Colectomy",
+                       "Surgical removal of part or all of the colon"
+                   ],
+                   [
+                       "Mastectomy",
+                       "Surgical removal of the breast, usually for cancer"
                    ]
                ]
     },
@@ -7204,6 +7236,14 @@
                    [
                        "Autopsy",
                        "Examination of a body after death"
+                   ],
+                   [
+                       "Necropsy",
+                       "Postmortem examination of an animal body; veterinary equivalent of autopsy"
+                   ],
+                   [
+                       "Cryobiopsy",
+                       "Tissue sampling using a cryoprobe to obtain frozen specimens"
                    ]
                ]
     },
@@ -7220,6 +7260,14 @@
                    [
                        "Orchiopexy",
                        "Surgical fixation of an undescended testis"
+                   ],
+                   [
+                       "Mastopexy",
+                       "Surgical breast lift to correct ptosis"
+                   ],
+                   [
+                       "Hysteropexy",
+                       "Surgical fixation of the uterus to correct prolapse"
                    ]
                ]
     },
@@ -7236,6 +7284,14 @@
                    [
                        "Angioplasty",
                        "Surgical repair of a narrowed blood vessel"
+                   ],
+                   [
+                       "Valvuloplasty",
+                       "Surgical repair or dilation of a cardiac valve"
+                   ],
+                   [
+                       "Urethroplasty",
+                       "Surgical reconstruction of the urethra"
                    ]
                ]
     },
@@ -7252,6 +7308,14 @@
                    [
                        "Perineorrhaphy",
                        "Suturing of a torn perineum after childbirth"
+                   ],
+                   [
+                       "Myorrhaphy",
+                       "Suturing of a muscle wound"
+                   ],
+                   [
+                       "Neurorrhaphy",
+                       "Surgical suturing of the ends of a severed nerve"
                    ]
                ]
     },
@@ -7268,6 +7332,14 @@
                    [
                        "Laparoscopy",
                        "Minimally invasive visual examination of the abdominal cavity"
+                   ],
+                   [
+                       "Colposcopy",
+                       "Magnified visual examination of the cervix, vagina, and vulva"
+                   ],
+                   [
+                       "Cystoscopy",
+                       "Endoscopic examination of the urinary bladder and urethra"
                    ]
                ]
     },
@@ -7284,6 +7356,14 @@
                    [
                        "Tracheostomy",
                        "Surgical opening into the trachea for breathing"
+                   ],
+                   [
+                       "Gastrostomy",
+                       "Surgical creation of a stomach opening for tube feeding"
+                   ],
+                   [
+                       "Ileostomy",
+                       "Surgical creation of a permanent opening from the ileum to the body surface"
                    ]
                ]
     },
@@ -7300,6 +7380,14 @@
                    [
                        "Physiotherapy",
                        "Treatment of injury and disease through physical methods"
+                   ],
+                   [
+                       "Physiotherapy",
+                       "Treatment through physical methods such as exercise and manipulation"
+                   ],
+                   [
+                       "Immunotherapy",
+                       "Treatment using immune mechanisms to fight disease"
                    ]
                ]
     },
@@ -7316,6 +7404,14 @@
                    [
                        "Craniotomy",
                        "Surgical incision into the skull"
+                   ],
+                   [
+                       "Craniotomy",
+                       "Surgical opening of the skull to access the brain"
+                   ],
+                   [
+                       "Episiotomy",
+                       "Surgical incision of the perineum to facilitate childbirth"
                    ]
                ]
     },
@@ -7332,6 +7428,14 @@
                    [
                        "Neurotripsy",
                        "Surgical crushing of a nerve to relieve chronic pain"
+                   ],
+                   [
+                       "Cholecystolithotripsy",
+                       "Fragmentation of gallstones using shock waves or ultrasound"
+                   ],
+                   [
+                       "Ureterolithotripsy",
+                       "Endoscopic crushing of a stone lodged within the ureter"
                    ]
                ]
     },
@@ -7348,6 +7452,14 @@
                    [
                        "Myalgia",
                        "Muscle pain or soreness"
+                   ],
+                   [
+                       "Myalgia",
+                       "Muscle pain, often widespread and from systemic causes"
+                   ],
+                   [
+                       "Fibromyalgia",
+                       "Chronic condition with widespread musculoskeletal pain and fatigue"
                    ]
                ]
     },
@@ -7364,6 +7476,14 @@
                    [
                        "Rectocele",
                        "Protrusion of rectum into the vaginal wall"
+                   ],
+                   [
+                       "Rectocele",
+                       "Herniation of the rectum into the posterior vaginal wall"
+                   ],
+                   [
+                       "Spermatocele",
+                       "Cyst containing spermatozoa in the epididymis"
                    ]
                ]
     },
@@ -7380,6 +7500,14 @@
                    [
                        "Bronchoconstriction",
                        "Tightening of airways in the lungs"
+                   ],
+                   [
+                       "Urethroconstriction",
+                       "Narrowing of the urethra reducing urinary flow"
+                   ],
+                   [
+                       "Coronary constriction",
+                       "Reduction in coronary artery diameter limiting myocardial blood flow"
                    ]
                ]
     },
@@ -7396,6 +7524,14 @@
                    [
                        "Xeroderma",
                        "Condition of abnormally dry skin"
+                   ],
+                   [
+                       "Pyoderma",
+                       "Bacterial skin infection producing pus-filled lesions"
+                   ],
+                   [
+                       "Leukoderma",
+                       "Loss of skin pigmentation resulting in pale or white patches"
                    ]
                ]
     },
@@ -7412,6 +7548,14 @@
                    [
                        "Bronchodilation",
                        "Widening of airways to improve breathing"
+                   ],
+                   [
+                       "Pupillary dilation",
+                       "Expansion of the pupil in low light or from certain drugs"
+                   ],
+                   [
+                       "Cervical dilation",
+                       "Widening of the cervical os during labor or as a medical procedure"
                    ]
                ]
     },
@@ -7428,6 +7572,14 @@
                    [
                        "Coccydynia",
                        "Pain in the coccyx or tailbone"
+                   ],
+                   [
+                       "Mastodynia",
+                       "Breast pain, particularly in the premenstrual period"
+                   ],
+                   [
+                       "Coccydynia",
+                       "Pain in the region of the coccyx, often from trauma or prolonged sitting"
                    ]
                ]
     },
@@ -7444,6 +7596,14 @@
                    [
                        "Telangiectasia",
                        "Dilation of small superficial blood vessels in the skin"
+                   ],
+                   [
+                       "Lymphangiectasia",
+                       "Abnormal dilation of lymph vessels causing lymph leakage"
+                   ],
+                   [
+                       "Esophageal ectasia",
+                       "Abnormal dilation of the esophagus"
                    ]
                ]
     },
@@ -7460,6 +7620,14 @@
                    [
                        "Papilledema",
                        "Swelling of the optic disc from raised intracranial pressure"
+                   ],
+                   [
+                       "Papilledema",
+                       "Optic disc swelling from raised intracranial pressure"
+                   ],
+                   [
+                       "Angioedema",
+                       "Rapid deep-skin swelling from an allergic or hereditary trigger"
                    ]
                ]
     },
@@ -7476,6 +7644,14 @@
                    [
                        "Hyperemesis",
                        "Severe excessive vomiting (e.g., in pregnancy)"
+                   ],
+                   [
+                       "Emesis",
+                       "The act of vomiting; general term for expulsion of gastric contents"
+                   ],
+                   [
+                       "Hyperemesis gravidarum",
+                       "Severe persistent vomiting in pregnancy causing dehydration"
                    ]
                ]
     },
@@ -7492,6 +7668,14 @@
                    [
                        "Anemia",
                        "Deficiency of red blood cells or hemoglobin"
+                   ],
+                   [
+                       "Hyperglycemia",
+                       "Abnormally elevated blood glucose level"
+                   ],
+                   [
+                       "Hypercalcemia",
+                       "Abnormally elevated blood calcium level"
                    ]
                ]
     },
@@ -7508,6 +7692,14 @@
                    [
                        "Aortic aneurysm",
                        "Dangerous dilation of the aorta wall"
+                   ],
+                   [
+                       "Cerebral aneurysm",
+                       "Abnormal ballooning of a blood vessel wall in the brain"
+                   ],
+                   [
+                       "Femoral aneurysm",
+                       "Dilation of the femoral artery wall in the thigh"
                    ]
                ]
     },
@@ -7524,6 +7716,14 @@
                    [
                        "Amebiasis",
                        "Intestinal infestation by Entamoeba histolytica"
+                   ],
+                   [
+                       "Urolithiasis",
+                       "Formation of stones in any part of the urinary tract"
+                   ],
+                   [
+                       "Amebiasis",
+                       "Intestinal infection caused by Entamoeba histolytica"
                    ]
                ]
     },
@@ -7540,6 +7740,14 @@
                    [
                        "Tonsillitis",
                        "Inflammation of the tonsils"
+                   ],
+                   [
+                       "Pancreatitis",
+                       "Inflammation of the pancreas causing severe abdominal pain"
+                   ],
+                   [
+                       "Encephalitis",
+                       "Inflammation of the brain from viral or autoimmune causes"
                    ]
                ]
     },
@@ -7556,6 +7764,14 @@
                    [
                        "Bradykinesia",
                        "Slowness of voluntary movement seen in Parkinson disease"
+                   ],
+                   [
+                       "Akinesia",
+                       "Absence or extreme slowness of voluntary movement"
+                   ],
+                   [
+                       "Hyperkinesia",
+                       "Excessive, involuntary movement or muscular activity"
                    ]
                ]
     },
@@ -7572,6 +7788,14 @@
                    [
                        "Narcolepsy",
                        "Sleep disorder with sudden attacks of daytime sleep"
+                   ],
+                   [
+                       "Catalepsy",
+                       "Sudden loss of voluntary muscle control with rigid posturing"
+                   ],
+                   [
+                       "Gelastic epilepsy",
+                       "Seizure type manifesting as uncontrolled laughter from a hypothalamic lesion"
                    ]
                ]
     },
@@ -7588,6 +7812,14 @@
                    [
                        "Thrombolysis",
                        "Breakdown of a blood clot by medication"
+                   ],
+                   [
+                       "Fibrinolysis",
+                       "Enzymatic breakdown of fibrin clots restoring vascular patency"
+                   ],
+                   [
+                       "Glycolysis",
+                       "Metabolic breakdown of glucose to produce ATP"
                    ]
                ]
     },
@@ -7604,6 +7836,14 @@
                    [
                        "-fibrinolytic",
                        "Agent that dissolves fibrin in blood clots"
+                   ],
+                   [
+                       "Fibrinolytic",
+                       "Dissolving fibrin clots; describes thrombolytic drug agents"
+                   ],
+                   [
+                       "Osteolytic",
+                       "Causing breakdown or destruction of bone"
                    ]
                ]
     },
@@ -7620,6 +7860,14 @@
                    [
                        "Chondromalacia",
                        "Softening of cartilage, often beneath the kneecap"
+                   ],
+                   [
+                       "Chondromalacia",
+                       "Softening and degeneration of articular cartilage"
+                   ],
+                   [
+                       "Encephalomalacia",
+                       "Softening of brain tissue from infarction or injury"
                    ]
                ]
     },
@@ -7636,6 +7884,14 @@
                    [
                        "Trichotillomania",
                        "Compulsive urge to pull out one\u0027s own hair"
+                   ],
+                   [
+                       "Kleptomania",
+                       "Recurrent compulsive urge to steal objects"
+                   ],
+                   [
+                       "Hypomania",
+                       "Mild form of mania with elevated mood and increased activity"
                    ]
                ]
     },
@@ -7652,6 +7908,14 @@
                    [
                        "Splenomegaly",
                        "Abnormal enlargement of the spleen"
+                   ],
+                   [
+                       "Acromegaly",
+                       "Hormonal disorder causing abnormal growth of hands, feet, and face"
+                   ],
+                   [
+                       "Visceromegaly",
+                       "Abnormal enlargement of abdominal visceral organs"
                    ]
                ]
     },
@@ -7668,6 +7932,14 @@
                    [
                        "Hepatoma",
                        "Malignant tumor of liver cells"
+                   ],
+                   [
+                       "Lipoma",
+                       "Benign soft tissue tumor composed of adipose cells"
+                   ],
+                   [
+                       "Melanoma",
+                       "Malignant tumor arising from melanocytes in the skin"
                    ]
                ]
     },
@@ -7684,6 +7956,14 @@
                    [
                        "Hyperopia",
                        "Farsightedness; difficulty seeing close objects"
+                   ],
+                   [
+                       "Amblyopia",
+                       "Reduced vision in one eye without structural cause; lazy eye"
+                   ],
+                   [
+                       "Diplopia",
+                       "Double vision from misalignment of the eyes"
                    ]
                ]
     },
@@ -7700,6 +7980,14 @@
                    [
                        "Neuropathy",
                        "Disease or dysfunction of the peripheral nerves"
+                   ],
+                   [
+                       "Thrombosis",
+                       "Formation of a blood clot within a vessel"
+                   ],
+                   [
+                       "Hepatopathy",
+                       "Disease or disorder of the liver"
                    ]
                ]
     },
@@ -7716,6 +8004,14 @@
                    [
                        "Gastroparesis",
                        "Partial paralysis of stomach emptying"
+                   ],
+                   [
+                       "Gastroparesis",
+                       "Delayed gastric emptying from partial paralysis of stomach muscles"
+                   ],
+                   [
+                       "Paraparesis",
+                       "Partial paralysis of the lower limbs"
                    ]
                ]
     },
@@ -7732,6 +8028,14 @@
                    [
                        "Thrombocytopenia",
                        "Deficiency of platelets in the blood"
+                   ],
+                   [
+                       "Neutropenia",
+                       "Abnormally low neutrophil count increasing infection risk"
+                   ],
+                   [
+                       "Osteopenia",
+                       "Reduced bone mineral density below normal but above osteoporosis threshold"
                    ]
                ]
     },
@@ -7748,6 +8052,14 @@
                    [
                        "Aerophagia",
                        "Swallowing excess air causing bloating and discomfort"
+                   ],
+                   [
+                       "Polyphagia",
+                       "Excessive eating or abnormal hunger, as seen in diabetes mellitus"
+                   ],
+                   [
+                       "Aerophagia",
+                       "Habitual swallowing of air causing gastric distension and bloating"
                    ]
                ]
     },
@@ -7764,6 +8076,14 @@
                    [
                        "Claustrophobia",
                        "Fear of confined or enclosed spaces"
+                   ],
+                   [
+                       "Hematophobia",
+                       "Fear of blood, often causing vasovagal syncope"
+                   ],
+                   [
+                       "Pathophobia",
+                       "Fear of disease or illness"
                    ]
                ]
     },
@@ -7780,6 +8100,14 @@
                    [
                        "Aplasia",
                        "Failure of an organ or tissue to develop or form normally"
+                   ],
+                   [
+                       "Aplasia",
+                       "Complete failure of an organ or tissue to develop"
+                   ],
+                   [
+                       "Hypoplasia",
+                       "Incomplete or underdevelopment of a tissue or organ"
                    ]
                ]
     },
@@ -7796,6 +8124,14 @@
                    [
                        "Hemiplegia",
                        "Paralysis of one entire side of the body"
+                   ],
+                   [
+                       "Diplegia",
+                       "Paralysis affecting corresponding parts on both sides of the body"
+                   ],
+                   [
+                       "Ophthalmoplegia",
+                       "Paralysis of the extraocular muscles affecting eye movement"
                    ]
                ]
     },
@@ -7812,6 +8148,14 @@
                    [
                        "Dyspnea",
                        "Labored or difficult breathing"
+                   ],
+                   [
+                       "Bradypnea",
+                       "Abnormally slow respiratory rate"
+                   ],
+                   [
+                       "Orthopnea",
+                       "Difficulty breathing when lying flat, relieved by sitting upright"
                    ]
                ]
     },
@@ -7828,6 +8172,14 @@
                    [
                        "Erythropoiesis",
                        "Specific production of red blood cells"
+                   ],
+                   [
+                       "Thrombopoiesis",
+                       "Formation of platelets from megakaryocytes in the bone marrow"
+                   ],
+                   [
+                       "Leukopoiesis",
+                       "Production of white blood cells in the bone marrow"
                    ]
                ]
     },
@@ -7844,6 +8196,14 @@
                    [
                        "Blepharoptosis",
                        "Drooping of the upper eyelid"
+                   ],
+                   [
+                       "Gastroptosis",
+                       "Downward displacement of the stomach"
+                   ],
+                   [
+                       "Visceroptosis",
+                       "Downward displacement of abdominal organs"
                    ]
                ]
     },
@@ -7860,6 +8220,14 @@
                    [
                        "Melanoptysis",
                        "Coughing up black or dark-colored sputum"
+                   ],
+                   [
+                       "Melanoptysis",
+                       "Expectoration of dark sputum, seen in coal workers\u0027 pneumoconiosis"
+                   ],
+                   [
+                       "Leukoptysis",
+                       "Coughing up of white or pale sputum"
                    ]
                ]
     },
@@ -7876,6 +8244,14 @@
                    [
                        "Menorrhagia",
                        "Abnormally heavy menstrual bleeding"
+                   ],
+                   [
+                       "Otorrhagia",
+                       "Bleeding from the ear canal"
+                   ],
+                   [
+                       "Gastric hemorrhage",
+                       "Bleeding within the stomach from ulcer or varices"
                    ]
                ]
     },
@@ -7892,6 +8268,14 @@
                    [
                        "Rhinorrhea",
                        "Runny nose discharge"
+                   ],
+                   [
+                       "Otorrhea",
+                       "Discharge of fluid from the ear canal"
+                   ],
+                   [
+                       "Amenorrhea",
+                       "Absence of menstrual flow"
                    ]
                ]
     },
@@ -7908,6 +8292,14 @@
                    [
                        "Amniorrhexis",
                        "Rupture of the amniotic sac"
+                   ],
+                   [
+                       "Splenorrhexis",
+                       "Rupture of the spleen, often from blunt trauma"
+                   ],
+                   [
+                       "Myorrhexis",
+                       "Tearing or rupture of muscle tissue"
                    ]
                ]
     },
@@ -7924,6 +8316,14 @@
                    [
                        "Multiple sclerosis",
                        "Hardening of myelin sheaths in the nervous system"
+                   ],
+                   [
+                       "Amyotrophic lateral sclerosis",
+                       "Progressive motor neuron disease causing muscle weakness and paralysis"
+                   ],
+                   [
+                       "Atherosclerosis",
+                       "Hardening and narrowing of arteries from lipid plaque buildup"
                    ]
                ]
     },
@@ -7940,6 +8340,14 @@
                    [
                        "Vasospasm",
                        "Sudden contraction of a blood vessel wall"
+                   ],
+                   [
+                       "Blepharospasm",
+                       "Involuntary repetitive spasm of the eyelid muscles"
+                   ],
+                   [
+                       "Esophagospasm",
+                       "Sudden uncoordinated esophageal muscle contraction causing chest pain"
                    ]
                ]
     },
@@ -7956,6 +8364,14 @@
                    [
                        "Hemostasis",
                        "Physiological process that stops bleeding through clotting and vascular constriction"
+                   ],
+                   [
+                       "Lymphostasis",
+                       "Obstruction or stagnation of lymphatic flow"
+                   ],
+                   [
+                       "Cholestasis",
+                       "Impaired or halted bile flow from the liver"
                    ]
                ]
     },
@@ -7972,6 +8388,14 @@
                    [
                        "Pyloric stenosis",
                        "Narrowing of the stomach outlet"
+                   ],
+                   [
+                       "Pyloric stenosis",
+                       "Narrowing of the pyloric sphincter causing gastric outlet obstruction"
+                   ],
+                   [
+                       "Spinal stenosis",
+                       "Narrowing of the spinal canal compressing the cord or nerve roots"
                    ]
                ]
     },
@@ -7988,6 +8412,14 @@
                    [
                        "Nephrotoxic",
                        "Damaging or destructive to kidney cells"
+                   ],
+                   [
+                       "Cardiotoxic",
+                       "Damaging or destructive to heart muscle cells"
+                   ],
+                   [
+                       "Ototoxic",
+                       "Causing damage to the inner ear or auditory nerve"
                    ]
                ]
     },
@@ -8004,6 +8436,14 @@
                    [
                        "Atrophy",
                        "Wasting away of tissue from disuse or disease"
+                   ],
+                   [
+                       "Dystrophy",
+                       "Abnormal or defective tissue development from inadequate nourishment or genetic factors"
+                   ],
+                   [
+                       "Myotrophic",
+                       "Relating to the nourishment or development of muscle tissue"
                    ]
                ]
     },
@@ -8020,6 +8460,14 @@
                    [
                        "Glycosuria",
                        "Presence of glucose in the urine"
+                   ],
+                   [
+                       "Glucosuria",
+                       "Presence of glucose in the urine, often indicating diabetes"
+                   ],
+                   [
+                       "Bacteriuria",
+                       "Presence of bacteria in the urine, with or without symptoms"
                    ]
                ]
     },
@@ -8036,6 +8484,14 @@
                    [
                        "Mammogram",
                        "X-ray image of breast tissue"
+                   ],
+                   [
+                       "Myelogram",
+                       "Radiographic image of the spinal cord and nerve roots with contrast"
+                   ],
+                   [
+                       "Sialogram",
+                       "X-ray image of salivary gland ducts with contrast dye"
                    ]
                ]
     },
@@ -8052,6 +8508,14 @@
                    [
                        "Encephalograph",
                        "Device that records brain electrical activity"
+                   ],
+                   [
+                       "Angiograph",
+                       "Instrument for producing radiographic images of blood vessels"
+                   ],
+                   [
+                       "Pneumograph",
+                       "Device for recording respiratory movements"
                    ]
                ]
     },
@@ -8068,6 +8532,14 @@
                    [
                        "Angiography",
                        "Imaging of blood vessels using contrast dye"
+                   ],
+                   [
+                       "Sonography",
+                       "Imaging using ultrasound waves to visualize internal structures"
+                   ],
+                   [
+                       "Computed tomography",
+                       "Cross-sectional imaging using X-rays and computer processing"
                    ]
                ]
     },
@@ -8084,6 +8556,14 @@
                    [
                        "Physician",
                        "Licensed medical doctor"
+                   ],
+                   [
+                       "Internist",
+                       "Physician specializing in internal medicine treating adult diseases"
+                   ],
+                   [
+                       "Obstetrician",
+                       "Physician specializing in pregnancy, labor, and childbirth"
                    ]
                ]
     },
@@ -8100,6 +8580,14 @@
                    [
                        "Dermatologist",
                        "Specialist in skin diseases and conditions"
+                   ],
+                   [
+                       "Dermatologist",
+                       "Physician specializing in skin, hair, and nail disorders"
+                   ],
+                   [
+                       "Neurologist",
+                       "Physician specializing in disorders of the nervous system"
                    ]
                ]
     },
@@ -8116,6 +8604,14 @@
                    [
                        "Pathology",
                        "Study of disease processes in the body"
+                   ],
+                   [
+                       "Immunology",
+                       "Study of the immune system and immune responses"
+                   ],
+                   [
+                       "Pharmacology",
+                       "Study of drugs and their effects on the body"
                    ]
                ]
     },
@@ -8132,6 +8628,14 @@
                    [
                        "Sphygmomanometer",
                        "Instrument measuring blood pressure"
+                   ],
+                   [
+                       "Glucometer",
+                       "Device for measuring blood glucose level"
+                   ],
+                   [
+                       "Manometer",
+                       "Instrument for measuring fluid or gas pressure"
                    ]
                ]
     },
@@ -8148,6 +8652,14 @@
                    [
                        "Audiometry",
                        "Measurement of hearing acuity and thresholds"
+                   ],
+                   [
+                       "Tympanometry",
+                       "Measurement of middle ear pressure and eardrum movement"
+                   ],
+                   [
+                       "Tonometry",
+                       "Measurement of intraocular pressure for glaucoma assessment"
                    ]
                ]
     },
@@ -8164,6 +8676,14 @@
                    [
                        "Otoscope",
                        "Instrument for viewing inside the ear canal"
+                   ],
+                   [
+                       "Laryngoscope",
+                       "Instrument for visualizing the larynx and vocal cords"
+                   ],
+                   [
+                       "Bronchoscope",
+                       "Flexible endoscope for examining the tracheobronchial airways"
                    ]
                ]
     },
@@ -8180,6 +8700,14 @@
                    [
                        "Gastric",
                        "Pertaining to the stomach"
+                   ],
+                   [
+                       "Hepatic",
+                       "Pertaining to the liver"
+                   ],
+                   [
+                       "Septic",
+                       "Pertaining to or caused by sepsis or bacterial contamination"
                    ]
                ]
     },
@@ -8196,6 +8724,14 @@
                    [
                        "Cutaneous",
                        "Pertaining to the skin"
+                   ],
+                   [
+                       "Muscular",
+                       "Pertaining to or composed of muscle"
+                   ],
+                   [
+                       "Inflammatory",
+                       "Pertaining to inflammation of a tissue or organ"
                    ]
                ]
     },
@@ -8212,6 +8748,14 @@
                    [
                        "Erythrocyte",
                        "Red blood cell"
+                   ],
+                   [
+                       "Thrombocyte",
+                       "Platelet; cell fragment essential for blood clotting"
+                   ],
+                   [
+                       "Osteocyte",
+                       "Mature bone cell embedded in calcified bone matrix"
                    ]
                ]
     },
@@ -8228,6 +8772,14 @@
                    [
                        "Lumbago",
                        "Low back pain; an archaic clinical term for lumbar region pain"
+                   ],
+                   [
+                       "Edema",
+                       "Abnormal accumulation of fluid in interstitial tissues"
+                   ],
+                   [
+                       "Vitilago",
+                       "Latin precursor of vitiligo; patchy depigmentation of skin"
                    ]
                ]
     },
@@ -8244,6 +8796,14 @@
                    [
                        "Carcinogenesis",
                        "Process by which normal cells become cancerous"
+                   ],
+                   [
+                       "Tumorigenesis",
+                       "Process by which normal cells are transformed into tumor cells"
+                   ],
+                   [
+                       "Organogenesis",
+                       "Formation and differentiation of organs during embryonic development"
                    ]
                ]
     },
@@ -8260,6 +8820,14 @@
                    [
                        "Pathogenic",
                        "Capable of causing disease"
+                   ],
+                   [
+                       "Pyrogenic",
+                       "Producing or inducing fever"
+                   ],
+                   [
+                       "Mutagenic",
+                       "Capable of causing genetic mutations in DNA"
                    ]
                ]
     },
@@ -8276,6 +8844,14 @@
                    [
                        "Myoglobin",
                        "Oxygen-storing protein found in muscle tissue"
+                   ],
+                   [
+                       "Oxyhemoglobin",
+                       "Hemoglobin bound to oxygen; the primary oxygen-carrying form"
+                   ],
+                   [
+                       "Methemoglobin",
+                       "Abnormal hemoglobin with oxidized iron unable to carry oxygen"
                    ]
                ]
     },
@@ -8292,6 +8868,14 @@
                    [
                        "Atrophy",
                        "Wasting away of tissue from disuse or disease"
+                   ],
+                   [
+                       "Tachycardia",
+                       "Resting heart rate above 100 beats per minute"
+                   ],
+                   [
+                       "Atony",
+                       "Loss of muscular tone, as in bladder or uterine atony"
                    ]
                ]
     },
@@ -8308,6 +8892,14 @@
                    [
                        "Follicle",
                        "Small sac or gland in the body"
+                   ],
+                   [
+                       "Ossicle",
+                       "Tiny bone, particularly the three bones of the middle ear"
+                   ],
+                   [
+                       "Follicle",
+                       "Small sac-like structure, as in a hair follicle or ovarian follicle"
                    ]
                ]
     },
@@ -8324,6 +8916,14 @@
                    [
                        "Dialysis",
                        "Process of filtering waste across a membrane"
+                   ],
+                   [
+                       "Hypothyroidism",
+                       "Underactive thyroid gland with insufficient hormone production"
+                   ],
+                   [
+                       "Fibrosis",
+                       "Formation of excess fibrous connective tissue in an organ"
                    ]
                ]
     },
@@ -8340,6 +8940,14 @@
                    [
                        "Endometrium",
                        "Inner mucous membrane lining of the uterus"
+                   ],
+                   [
+                       "Myometrium",
+                       "Middle muscular layer of the uterine wall"
+                   ],
+                   [
+                       "Periosteum",
+                       "Dense fibrous membrane covering the outer surface of bone"
                    ]
                ]
     },
@@ -8356,6 +8964,14 @@
                    [
                        "Cytoplasm",
                        "Fluid-filled substance within a cell"
+                   ],
+                   [
+                       "Sarcoplasm",
+                       "Cytoplasm of a striated muscle fiber containing contractile elements"
+                   ],
+                   [
+                       "Nucleoplasm",
+                       "Substance within the cell nucleus containing the genetic material"
                    ]
                ]
     },
@@ -8372,6 +8988,14 @@
                    [
                        "Inversion",
                        "Turning of a body part inward or upside down"
+                   ],
+                   [
+                       "Cardioversion",
+                       "Electrical or chemical restoration of normal heart rhythm"
+                   ],
+                   [
+                       "Eversion",
+                       "Turning outward; as in foot eversion or eyelid eversion"
                    ]
                ]
     }

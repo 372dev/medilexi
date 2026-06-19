@@ -18,6 +18,61 @@ const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]
 const koMap = Object.fromEntries(ko.map(k => [k.en_h, k]))
 const vocab: MergedEntry[] = base.map(v => ({ ...v, ko_h: koMap[v.en_h]?.ko_h||'', ko_l: koMap[v.en_h]?.ko_l, d_ko: koMap[v.en_h]?.d_ko }))
 
+// ── Hangul jamo search ─────────────────────────────────────────────────────
+const CHO  = ['ㄱ','ㄲ','ㄴ','ㄷ','ㄸ','ㄹ','ㅁ','ㅂ','ㅃ','ㅅ','ㅆ','ㅇ','ㅈ','ㅉ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ']
+const JUNG = ['ㅏ','ㅐ','ㅑ','ㅒ','ㅓ','ㅔ','ㅕ','ㅖ','ㅗ','ㅘ','ㅙ','ㅚ','ㅛ','ㅜ','ㅝ','ㅞ','ㅟ','ㅠ','ㅡ','ㅢ','ㅣ']
+const JONG = ['','ㄱ','ㄲ','ㄳ','ㄴ','ㄵ','ㄶ','ㄷ','ㄹ','ㄺ','ㄻ','ㄼ','ㄽ','ㄾ','ㄿ','ㅀ','ㅁ','ㅂ','ㅄ','ㅅ','ㅆ','ㅇ','ㅈ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ']
+const JONG_SPLIT: Record<string,string[]> = {
+  ㄳ:['ㄱ','ㅅ'], ㄵ:['ㄴ','ㅈ'], ㄶ:['ㄴ','ㅎ'],
+  ㄺ:['ㄹ','ㄱ'], ㄻ:['ㄹ','ㅁ'], ㄼ:['ㄹ','ㅂ'],
+  ㄽ:['ㄹ','ㅅ'], ㄾ:['ㄹ','ㅌ'], ㄿ:['ㄹ','ㅍ'],
+  ㅀ:['ㄹ','ㅎ'], ㅄ:['ㅂ','ㅅ'],
+}
+
+// Returns each character as an array of its component jamo.
+// Syllable blocks are decomposed; lone jamo and ASCII pass through unchanged.
+function syllableGroups(str: string): string[][] {
+  const groups: string[][] = []
+  for (const ch of str) {
+    const cp = ch.charCodeAt(0)
+    if (cp >= 0xAC00 && cp <= 0xD7A3) {
+      const off = cp - 0xAC00
+      const ci  = Math.floor(off / 28 / 21)
+      const vi  = Math.floor(off / 28) % 21
+      const fi  = off % 28
+      const g   = [CHO[ci], JUNG[vi]]
+      if (fi > 0) { const j = JONG[fi]; (JONG_SPLIT[j] ?? [j]).forEach(c => g.push(c)) }
+      groups.push(g)
+    } else {
+      groups.push([ch])
+    }
+  }
+  return groups
+}
+
+// Syllable-by-syllable match. The last query group uses prefix matching so
+// partial syllables (e.g. mid-composition) and initial-consonant shortcuts
+// (ㅎㄱㄷ matching 홍길동) both work naturally.
+function hangulSearch(target: string, query: string): number {
+  if (!query) return 0
+  const t = syllableGroups(target)
+  const q = syllableGroups(query)
+  for (let i = 0; i <= t.length - q.length; i++) {
+    let ok = true
+    for (let j = 0; j < q.length; j++) {
+      const qg = q[j].join(''), tg = t[i + j].join('')
+      if (j === q.length - 1 ? !tg.startsWith(qg) : tg !== qg) { ok = false; break }
+    }
+    if (ok) return i
+  }
+  return -1
+}
+
+function isKorean(str: string) {
+  return /[가-힣ᄀ-ᇿ㄰-㆏]/.test(str)
+}
+// ──────────────────────────────────────────────────────────────────────────
+
 function toLiteral(wp: string) {
   return wp.replace(/^-|-$/g,'').replace(/\/[oiea]$/,'').replace(/\//g,'').toLowerCase()
 }
@@ -125,19 +180,66 @@ export default function KoGlossaryPage() {
       })
     }
 
-    return fuseKo.search(q)
-      .sort((a, b) => {
-        const pa = Math.min(...(a.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
-        const pb = Math.min(...(b.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
-        if (pa !== pb) return pa - pb
-        return (a.score ?? 1) - (b.score ?? 1)
-      })
-      .map(r => r.item)
-      .filter(v => {
-        if (fieldFilter && !v.f.includes(fieldFilter)) return false
-        if (levelFilter && v.lvl !== levelFilter) return false
-        return true
-      })
+    let results: MergedEntry[]
+
+    if (isKorean(q)) {
+      // Score each entry by best Korean field match position
+      type Scored = { entry: MergedEntry; pri: number; pos: number }
+      const scored: Scored[] = []
+      const seen = new Set<string>()
+
+      for (const v of vocab) {
+        let bestPri = Infinity, bestPos = Infinity
+
+        const h = hangulSearch(v.ko_h, q)
+        if (h !== -1) { bestPri = 0; bestPos = h }
+
+        if (bestPri > 2 && v.ko_l) {
+          const l = hangulSearch(v.ko_l, q)
+          if (l !== -1) { bestPri = 2; bestPos = l }
+        }
+
+        if (bestPri > 3 && v.d_ko) {
+          const d = hangulSearch(v.d_ko, q)
+          if (d !== -1) { bestPri = 3; bestPos = d }
+        }
+
+        if (bestPri < Infinity) {
+          scored.push({ entry: v, pri: bestPri, pos: bestPos })
+          seen.add(v.en_h)
+        }
+      }
+
+      scored.sort((a, b) => a.pri !== b.pri ? a.pri - b.pri : a.pos - b.pos)
+
+      // Append Fuse results for English-field matches not already found
+      const fuseRest = fuseKo.search(q)
+        .sort((a, b) => {
+          const pa = Math.min(...(a.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
+          const pb = Math.min(...(b.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
+          if (pa !== pb) return pa - pb
+          return (a.score ?? 1) - (b.score ?? 1)
+        })
+        .map(r => r.item)
+        .filter(v => !seen.has(v.en_h))
+
+      results = [...scored.map(s => s.entry), ...fuseRest]
+    } else {
+      results = fuseKo.search(q)
+        .sort((a, b) => {
+          const pa = Math.min(...(a.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
+          const pb = Math.min(...(b.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
+          if (pa !== pb) return pa - pb
+          return (a.score ?? 1) - (b.score ?? 1)
+        })
+        .map(r => r.item)
+    }
+
+    return results.filter(v => {
+      if (fieldFilter && !v.f.includes(fieldFilter)) return false
+      if (levelFilter && v.lvl !== levelFilter) return false
+      return true
+    })
   }, [searchQuery, fieldFilter, levelFilter])
 
   return (

@@ -183,7 +183,7 @@ export default function KoGlossaryPage() {
             <div style={{ display:'flex', alignItems:'center', gap:'0.5rem' }}>
               <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.42rem', color:'var(--color-text-dim)', whiteSpace:'nowrap', lineHeight:1.8 }}>Definition:</span>
               <div className="c-toggle">
-                <button className={`c-toggle__btn ${defLang==='ko'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('ko')}>한국어</button>
+                <button className={`c-toggle__btn ${defLang==='ko'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('ko')}>Korean</button>
                 <button className={`c-toggle__btn ${defLang==='en'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('en')}>English</button>
               </div>
             </div>

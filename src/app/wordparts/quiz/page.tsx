@@ -20,7 +20,6 @@ interface Question {
 
 /* ─── Static data ─── */
 const ALL = partsData as WordPart[]
-const TYPE_LABEL: Record<string,string> = { p:'Prefix', r:'Root', s:'Suffix' }
 const COUNT_OPTIONS = [10, 20, 30] as const
 const LABELS = ['A','B','C','D']
 
@@ -187,8 +186,7 @@ export default function WordPartsQuiz() {
   function optBorder(i: number) {
     if (!answered) return 'var(--color-border)'
     if (i === q.correctIdx) return '#3BAA6A'
-    if (i === selected)     return '#C94040'
-    return 'var(--color-border)'
+    return '#C94040'
   }
   function optTextColor(i: number) {
     if (!answered) return 'var(--color-text)'
@@ -249,7 +247,7 @@ export default function WordPartsQuiz() {
                   {Math.min(count, poolSize)}
                 </span>
                 <span style={{ fontSize:'0.8rem', color:'var(--color-text-dim)' }}>
-                  {poolSize > count ? `random from ~${poolSize} pool` : 'questions selected'}
+                  {poolSize > count ? `random from ${poolSize} quiz pool` : 'questions selected'}
                 </span>
               </div>
               <div style={{ height:'6px', display:'flex', borderRadius:'3px', overflow:'hidden', marginBottom:'0.55rem', background:'var(--color-border)' }}>
@@ -272,9 +270,6 @@ export default function WordPartsQuiz() {
                   )
                 })}
               </div>
-              <p style={{ fontSize:'0.76rem', color:'var(--color-text-dim)', opacity:0.7 }}>
-                Chosen randomly from pool. ⭐⭐⭐ entries generate 3 questions each.
-              </p>
             </div>
 
             <button className="c-btn-pixel" onClick={startSession} disabled={poolSize===0}
@@ -318,7 +313,6 @@ export default function WordPartsQuiz() {
           {/* Question card */}
           <div style={{ background:'var(--color-panel)', border:'1px solid var(--color-border)', padding:'1.5rem', marginBottom:'1.25rem', boxShadow:'2px 2px 0 0 var(--color-border)' }}>
             <div style={{ display:'flex', gap:'0.5rem', alignItems:'center', marginBottom:'1rem' }}>
-              <span className={`c-badge c-badge--${q.t}`}>{TYPE_LABEL[q.t]}</span>
               <span className={`c-stars c-stars--${q.lvl}`}>{'⭐'.repeat(q.lvl)}</span>
               <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.4rem', color:'var(--color-text-dim)', marginLeft:'auto', opacity:0.45 }}>
                 Type {q.type}
@@ -351,8 +345,8 @@ export default function WordPartsQuiz() {
                   {answered && i === q.correctIdx && (
                     <span style={{ color:'#6EE7B7', flexShrink:0, fontSize:'1rem' }}>✓</span>
                   )}
-                  {answered && i === selected && i !== q.correctIdx && (
-                    <span style={{ color:'#FCA5A5', flexShrink:0, fontSize:'1rem' }}>✗</span>
+                  {answered && i !== q.correctIdx && (
+                    <span style={{ color: i === selected ? '#FCA5A5' : 'var(--color-text-dim)', flexShrink:0, fontSize:'1rem', opacity: i === selected ? 1 : 0.5 }}>✗</span>
                   )}
                 </div>
                 {answered && (

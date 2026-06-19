@@ -13,6 +13,7 @@ const PAGE_TITLES: Record<string, string> = {
   '/glossary/ko':         'Korean Glossary',
   '/wordparts':           'Medical Word Parts',
   '/wordparts/flashcard': 'Word Parts Flashcard',
+  '/wordparts/quiz':      'Word Parts Quiz',
   '/flashcards':          'English Flashcard',
   '/flashcards/ko':       'Korean Flashcard',
   '/about':               'About',

@@ -7,6 +7,7 @@ const rows = [
     tools: [
       { label: 'Prefix · Root · Suffix', href: '/wordparts',           live: true },
       { label: 'Flashcard',              href: '/wordparts/flashcard',  live: true },
+      { label: 'Quiz',                   href: '/wordparts/quiz',       live: true },
     ]
   },
   {

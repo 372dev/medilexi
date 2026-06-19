@@ -69,6 +69,7 @@ A multilingual medical terminology reference and study platform for students, me
 | `/glossary/ko` | Korean–English glossary |
 | `/wordparts` | Word parts glossary |
 | `/wordparts/flashcard` | Word parts flashcard |
+| `/wordparts/quiz` | Word parts quiz |
 | `/flashcards` | English vocab flashcard |
 | `/flashcards/ko` | Korean vocab flashcard |
 | `/about` | About & Sources |

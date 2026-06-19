@@ -6,16 +6,17 @@ import partsData from '@/data/medical_wordparts_v1.07.json'
 
 interface WordPart {
   wp: string; t: 'p'|'r'|'s'; lvl: 1|2|3
-  d: string; ex: [[string,string],[string,string]]
+  d: string; ex: [string,string][]
 }
 
 const parts = partsData as WordPart[]
 const TYPE_LABEL: Record<string,string> = { p:'Prefix', r:'Root', s:'Suffix' }
 
 export default function WordPartsPage() {
-  const [search, setSearch]   = useState('')
-  const [typeFilter, setType] = useState<'all'|'p'|'r'|'s'>('all')
-  const [lvlFilter, setLvl]   = useState<number|null>(null)
+  const [search, setSearch]     = useState('')
+  const [typeFilter, setType]   = useState<'all'|'p'|'r'|'s'>('all')
+  const [lvlFilter, setLvl]     = useState<number|null>(null)
+  const [expanded, setExpanded] = useState<Set<string>>(new Set())
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim()
@@ -24,7 +25,7 @@ export default function WordPartsPage() {
       if (lvlFilter && p.lvl !== lvlFilter) return false
       if (!q) return true
       return p.wp.toLowerCase().includes(q) || p.d.toLowerCase().includes(q)
-        || p.ex[0][0].toLowerCase().includes(q) || p.ex[1][0].toLowerCase().includes(q)
+        || p.ex.some(([term]) => term.toLowerCase().includes(q))
     })
   }, [search, typeFilter, lvlFilter])
 
@@ -34,18 +35,24 @@ export default function WordPartsPage() {
     s: parts.filter(p => p.t==='s').length,
   }), [])
 
+  function toggle(wp: string) {
+    setExpanded(prev => {
+      const next = new Set(prev)
+      if (next.has(wp)) next.delete(wp); else next.add(wp)
+      return next
+    })
+  }
+
   return (
     <>
       {/* ── Sticky filter bar ── */}
       <div className="c-filter-bar">
-        {/* Row 1: search + flashcard button */}
         <div className="c-search-row">
           <input className="c-search" type="text" placeholder="Search word parts, definitions, examples..." value={search} onChange={e => setSearch(e.target.value)} />
           <Link href="/wordparts/flashcard" className="c-btn-pixel" style={{ fontSize:'0.5rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
             Flashcard Quiz →
           </Link>
         </div>
-        {/* Row 2: type pills */}
         <div className="c-filter-row">
           {(['all','p','r','s'] as const).map(t => (
             <button key={t} className={`c-pill ${typeFilter===t?'c-pill--active':''}`} onClick={() => setType(t)}>
@@ -53,7 +60,6 @@ export default function WordPartsPage() {
             </button>
           ))}
         </div>
-        {/* Row 3: level pills */}
         <div className="c-filter-row">
           <button className={`c-pill ${!lvlFilter?'c-pill--active':''}`} onClick={() => setLvl(null)}>All levels</button>
           {([[3,'⭐⭐⭐ Essential'],[2,'⭐⭐ Important'],[1,'⭐ Good to know']] as const).map(([l, label]) => (
@@ -67,26 +73,36 @@ export default function WordPartsPage() {
 
       {/* ── Cards ── */}
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px,1fr))', gap:'1rem' }}>
-        {filtered.map((p,i) => (
-          <div key={i} className="c-card" style={{ borderLeft:`3px solid ${p.t==='p'?'#3B82F6':p.t==='r'?'#3BAA6A':'#C94040'}` }}>
-            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
-              <span className={`c-badge c-badge--${p.t}`}>{TYPE_LABEL[p.t]}</span>
-              <span className={`c-stars c-stars--${p.lvl}`}>{'⭐'.repeat(p.lvl)}</span>
+        {filtered.map((p, i) => {
+          const isOpen = expanded.has(p.wp)
+          return (
+            <div
+              key={i}
+              className="c-card"
+              style={{ borderLeft:`3px solid ${p.t==='p'?'#3B82F6':p.t==='r'?'#3BAA6A':'#C94040'}`, cursor:'pointer', userSelect:'none' }}
+              onClick={() => toggle(p.wp)}
+            >
+              <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
+                <span className={`c-badge c-badge--${p.t}`}>{TYPE_LABEL[p.t]}</span>
+                <span className={`c-stars c-stars--${p.lvl}`}>{'⭐'.repeat(p.lvl)}</span>
+              </div>
+              <div style={{ fontSize:'1.2rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.25rem' }}>{p.wp}</div>
+              <div style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', lineHeight:1.6 }}>{p.d}</div>
+              <div style={{ display:'flex', flexDirection:'column', gap:'0.35rem' }}>
+                {(isOpen ? p.ex : p.ex.slice(0, 2)).map(([term, def], j) => (
+                  <div key={j} className={`c-ex-pill c-ex-pill--${p.t}`}>
+                    <strong>{term}</strong> — {def}
+                  </div>
+                ))}
+              </div>
+              <div style={{ display:'flex', justifyContent:'center', marginTop:'0.75rem' }}>
+                <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', opacity:0.55, pointerEvents:'none' }}>
+                  {isOpen ? '▲ less' : '▾ more'}
+                </span>
+              </div>
             </div>
-            <div style={{ fontSize:'1.2rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.25rem' }}>{p.wp}</div>
-            <div style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', lineHeight:1.6 }}>{p.d}</div>
-            <div style={{ display:'flex', flexDirection:'column', gap:'0.35rem' }}>
-              {p.ex.map(([term,def],j) => (
-                <div key={j} className={`c-ex-pill c-ex-pill--${p.t}`}>
-                  <strong>{term}</strong> — {def}
-                </div>
-              ))}
-            </div>
-            <div style={{ display:'flex', justifyContent:'center', marginTop:'0.75rem' }}>
-              <button className="c-def-toggle" disabled style={{ cursor:'default', opacity:0.4 }}>▾ more</button>
-            </div>
-          </div>
-        ))}
+          )
+        })}
       </div>
       {filtered.length === 0 && <div className="c-empty">No word parts found.</div>}
     </>

@@ -208,7 +208,8 @@ export default function WordPartsFlashcard() {
               <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'0.5rem' }}>
                 <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)' }}>
                   {cardIdx+1} / {deck.length}
-                  {mode==='quiz'  && <span style={{ marginLeft:'0.75rem' }}>✓ {known.size}</span>}
+                  {mode==='quiz'  && <span style={{ marginLeft:'0.75rem', color:'#6EE7B7' }}>✓ {known.size}</span>}
+                  {mode==='quiz'  && <span style={{ marginLeft:'0.5rem', color:'#FCA5A5' }}>✗ {Math.max(0, cardIdx - known.size)}</span>}
                   {mode==='study' && <span style={{ marginLeft:'0.75rem', opacity:0.5 }}>Study</span>}
                 </div>
                 <button onClick={() => setShowSettings(true)}

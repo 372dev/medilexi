@@ -298,7 +298,8 @@ export default function WordPartsQuiz() {
           <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'0.5rem' }}>
             <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)' }}>
               {qIdx + 1} / {questions.length}
-              <span style={{ marginLeft:'0.75rem' }}>✓ {score}</span>
+              <span style={{ marginLeft:'0.75rem', color:'#6EE7B7' }}>✓ {score}</span>
+              <span style={{ marginLeft:'0.5rem', color:'#FCA5A5' }}>✗ {missed.length}</span>
             </div>
             <button onClick={() => setShowSetup(true)}
               style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)', background:'none', border:'1px solid var(--color-border)', padding:'0.2rem 0.55rem', cursor:'pointer', lineHeight:1.8, opacity:0.7 }}>
@@ -307,40 +308,37 @@ export default function WordPartsQuiz() {
           </div>
 
           {/* Progress bar */}
-          <div style={{ height:'6px', background:'var(--color-border)', borderRadius:'3px', overflow:'hidden', marginBottom:'1.5rem' }}>
-            <div style={{ height:'100%', background:'var(--color-gold)', borderRadius:'3px', width:`${(qIdx/questions.length)*100}%`, transition:'width 0.3s' }} />
+          <div style={{ height:'8px', background:'var(--color-border)', borderRadius:'4px', overflow:'hidden', marginBottom:'1.75rem' }}>
+            <div style={{ height:'100%', background:'var(--color-gold)', borderRadius:'4px', width:`${(qIdx/questions.length)*100}%`, transition:'width 0.3s' }} />
           </div>
 
           {/* Question card */}
-          <div style={{ background:'var(--color-panel)', border:'1px solid var(--color-border)', padding:'1.5rem', marginBottom:'1.25rem', boxShadow:'2px 2px 0 0 var(--color-border)' }}>
-            <div style={{ display:'flex', gap:'0.5rem', alignItems:'center', marginBottom:'1rem' }}>
+          <div style={{ background:'var(--color-panel)', borderTop:'3px solid var(--color-gold)', borderRight:'1px solid var(--color-border)', borderBottom:'1px solid var(--color-border)', borderLeft:'1px solid var(--color-border)', padding:'2rem 2rem 1.75rem', marginBottom:'1.25rem' }}>
+            <div style={{ marginBottom:'1rem' }}>
               <span className={`c-stars c-stars--${q.lvl}`}>{'⭐'.repeat(q.lvl)}</span>
-              <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.4rem', color:'var(--color-text-dim)', marginLeft:'auto', opacity:0.45 }}>
-                Type {q.type}
-              </span>
             </div>
-            <div style={{ fontSize:'1.05rem', color:'var(--color-text)', lineHeight:1.6 }}>
+            <div style={{ fontSize:'1.1rem', color:'var(--color-text)', lineHeight:1.65 }}>
               {renderQ(q.question)}
             </div>
           </div>
 
           {/* Options */}
-          <div style={{ display:'flex', flexDirection:'column', gap:'0.5rem', marginBottom:'1.25rem' }}>
+          <div style={{ display:'flex', flexDirection:'column', gap:'0.6rem', marginBottom:'1.5rem' }}>
             {q.options.map((opt, i) => (
               <button key={i} onClick={() => handleAnswer(i)}
                 style={{
-                  display: 'block', width: '100%', padding: '0.85rem 1rem',
+                  display: 'block', width: '100%', padding: '1rem 1.25rem',
                   textAlign: 'left',
                   background: optBg(i),
                   border: `2px solid ${optBorder(i)}`,
                   cursor: answered ? 'default' : 'pointer',
                   transition: 'border-color 0.2s, background 0.2s',
                 }}>
-                <div style={{ display:'flex', alignItems:'flex-start', gap:'0.65rem' }}>
-                  <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:optTextColor(i), flexShrink:0, marginTop:'0.25rem' }}>
+                <div style={{ display:'flex', alignItems:'flex-start', gap:'0.75rem' }}>
+                  <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:optTextColor(i), flexShrink:0, marginTop:'0.3rem' }}>
                     {LABELS[i]}
                   </span>
-                  <span style={{ color:optTextColor(i), fontWeight: answered && i===q.correctIdx ? 600 : 400, fontSize:'0.92rem', lineHeight:1.5, flex:1 }}>
+                  <span style={{ color:optTextColor(i), fontWeight: answered && i===q.correctIdx ? 600 : 400, fontSize:'0.95rem', lineHeight:1.55, flex:1 }}>
                     {opt}
                   </span>
                   {answered && i === q.correctIdx && (

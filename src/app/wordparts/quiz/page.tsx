@@ -196,13 +196,16 @@ export default function WordPartsQuiz() {
     return 'var(--color-text-dim)'
   }
 
-  /* ── Bold renderer ── */
-  function renderQ(text: string) {
-    return text.split('**').map((seg, i) =>
-      i % 2 === 1
-        ? <strong key={i} style={{ color: 'var(--color-gold)', fontFamily: 'var(--font-pixel)', fontSize: '0.85rem', wordBreak: 'break-word' }}>{seg}</strong>
-        : <span key={i}>{seg}</span>
-    )
+  /* ── Question card helpers ── */
+  function qBigTerm(question: string, wp: string) {
+    const m = question.match(/\*\*"?([^"*]+)"?\*\*/)
+    return m ? m[1] : wp
+  }
+  function qInstruction(type: 1|2|3|4) {
+    if (type === 1) return 'What does this mean?'
+    if (type === 2) return 'Which word part means this?'
+    if (type === 3) return 'What does this medical term mean?'
+    return 'Which word part shares the same meaning?'
   }
 
   return (
@@ -313,12 +316,13 @@ export default function WordPartsQuiz() {
           </div>
 
           {/* Question card */}
-          <div style={{ background:'var(--color-panel)', borderTop:'3px solid var(--color-gold)', borderRight:'1px solid var(--color-border)', borderBottom:'1px solid var(--color-border)', borderLeft:'1px solid var(--color-border)', padding:'2rem 2rem 1.75rem', marginBottom:'1.25rem' }}>
-            <div style={{ marginBottom:'1rem' }}>
-              <span className={`c-stars c-stars--${q.lvl}`}>{'⭐'.repeat(q.lvl)}</span>
+          <div style={{ background:'var(--color-panel)', border:'1px solid var(--color-border)', boxShadow:'2px 2px 0 0 var(--color-border)', minHeight:'240px', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'2.5rem 2rem', marginBottom:'1.25rem', textAlign:'center', gap:'0.85rem' }}>
+            <span className={`c-stars c-stars--${q.lvl}`} style={{ fontSize:'1.2rem' }}>{'⭐'.repeat(q.lvl)}</span>
+            <div style={{ fontSize:'2.2rem', fontWeight:700, color:'var(--color-gold)', lineHeight:1.2, wordBreak:'break-word', maxWidth:'100%' }}>
+              {qBigTerm(q.question, q.wp)}
             </div>
-            <div style={{ fontSize:'1.1rem', color:'var(--color-text)', lineHeight:1.65 }}>
-              {renderQ(q.question)}
+            <div style={{ fontSize:'0.9rem', color:'var(--color-text-dim)', lineHeight:1.6 }}>
+              {qInstruction(q.type)}
             </div>
           </div>
 

@@ -186,7 +186,8 @@ export default function WordPartsQuiz() {
   function optBorder(i: number) {
     if (!answered) return 'var(--color-border)'
     if (i === q.correctIdx) return '#3BAA6A'
-    return '#C94040'
+    if (i === selected)     return '#C94040'
+    return 'var(--color-border)'
   }
   function optTextColor(i: number) {
     if (!answered) return 'var(--color-text)'

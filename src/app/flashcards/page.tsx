@@ -220,7 +220,7 @@ export default function FlashcardsPage() {
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                 <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)' }}>
                   {cardIdx + 1} / {deck.length}
-                  {mode === 'quiz' && <span style={{ marginLeft: '0.75rem' }}>✓ {known.size} known</span>}
+                  {mode === 'quiz' && <span style={{ marginLeft: '0.75rem' }}>✓ {known.size}</span>}
                   {mode === 'study' && <span style={{ marginLeft: '0.75rem', opacity: 0.5 }}>Study</span>}
                 </div>
                 <button onClick={() => setShowSettings(true)}
@@ -294,6 +294,24 @@ export default function FlashcardsPage() {
                     <kbd>Space</kbd> · flip &nbsp;&nbsp; <kbd>←</kbd> · review &nbsp;&nbsp; know it · <kbd>→</kbd>
                   </p>
                 )
+              )}
+
+              {/* Stats row */}
+              {mode === 'quiz' && (
+                <div style={{ display:'flex', marginTop:'1.5rem', paddingTop:'1.25rem', borderTop:'1px solid var(--color-border)' }}>
+                  <div style={{ flex:1, textAlign:'center' }}>
+                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.2rem' }}>{Math.max(0, deck.length - cardIdx - 1)}</div>
+                    <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>remaining</div>
+                  </div>
+                  <div style={{ flex:1, textAlign:'center' }}>
+                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.2rem' }}>{known.size}</div>
+                    <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>known</div>
+                  </div>
+                  <div style={{ flex:1, textAlign:'center' }}>
+                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.2rem' }}>{Math.max(0, cardIdx - known.size)}</div>
+                    <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>missed</div>
+                  </div>
+                </div>
               )}
             </>
           )}

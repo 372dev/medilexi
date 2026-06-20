@@ -282,6 +282,24 @@ export default function WordPartsFlashcard() {
                   </p>
                 )
               )}
+
+              {/* Stats row */}
+              {mode === 'quiz' && (
+                <div style={{ display:'flex', marginTop:'1.5rem', paddingTop:'1.25rem', borderTop:'1px solid var(--color-border)' }}>
+                  <div style={{ flex:1, textAlign:'center' }}>
+                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.2rem' }}>{Math.max(0, deck.length - cardIdx - 1)}</div>
+                    <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>remaining</div>
+                  </div>
+                  <div style={{ flex:1, textAlign:'center' }}>
+                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.2rem' }}>{known.size}</div>
+                    <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>known</div>
+                  </div>
+                  <div style={{ flex:1, textAlign:'center' }}>
+                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.2rem' }}>{Math.max(0, cardIdx - known.size)}</div>
+                    <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>missed</div>
+                  </div>
+                </div>
+              )}
             </>
           )}
 

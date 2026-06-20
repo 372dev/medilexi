@@ -26,6 +26,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const pageTitle = PAGE_TITLES[pathname] || 'Medi Lexi'
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  useEffect(() => {
     const saved = localStorage.getItem('theme')
     if (saved === 'day') {
       setIsDay(true)

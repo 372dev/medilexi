@@ -333,7 +333,7 @@ export default function KoFlashcardsPage() {
                   </div>
                 ) : (
                   <p style={{ textAlign: 'center', fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', opacity: 0.55 }}>
-                    <kbd>Space</kbd> · flip &nbsp;&nbsp; <kbd>←</kbd> · review &nbsp;&nbsp; know it · <kbd>→</kbd>
+                    <kbd>Space</kbd> · flip &nbsp;&nbsp; <kbd>←</kbd> · <span style={{ color:'#FCA5A5' }}>review</span> &nbsp;&nbsp; <span style={{ color:'#6EE7B7' }}>know it</span> · <kbd>→</kbd>
                   </p>
                 )
               )}
@@ -342,15 +342,15 @@ export default function KoFlashcardsPage() {
               {mode === 'quiz' && (
                 <div style={{ display:'flex', marginTop:'1.5rem', paddingTop:'1.25rem', borderTop:'1px solid var(--color-border)' }}>
                   <div style={{ flex:1, textAlign:'center' }}>
-                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.2rem' }}>{Math.max(0, deck.length - cardIdx - 1)}</div>
+                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-gold)', marginBottom:'0.2rem' }}>{Math.max(0, deck.length - cardIdx - 1)}</div>
                     <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>remaining</div>
                   </div>
                   <div style={{ flex:1, textAlign:'center' }}>
-                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.2rem' }}>{known.size}</div>
+                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'#6EE7B7', marginBottom:'0.2rem' }}>{known.size}</div>
                     <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>known</div>
                   </div>
                   <div style={{ flex:1, textAlign:'center' }}>
-                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.2rem' }}>{Math.max(0, cardIdx - known.size)}</div>
+                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'#FCA5A5', marginBottom:'0.2rem' }}>{Math.max(0, cardIdx - known.size)}</div>
                     <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>missed</div>
                   </div>
                 </div>

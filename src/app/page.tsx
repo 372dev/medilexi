@@ -53,27 +53,27 @@ export default function Home() {
         </div>
 
         {/* ── ENGLISH + KOREAN ── 2-col grid */}
-        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'0.65rem' }}>
+        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'0.65rem', alignItems:'stretch' }}>
 
-          <div style={tileBase('var(--color-accent)')}>
+          <div style={{ ...tileBase('var(--color-accent)'), display:'flex', flexDirection:'column' }}>
             <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-accent)', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>
               ENGLISH
             </div>
             <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>English</div>
             <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>999 clinical terms</div>
-            <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem' }}>
+            <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
               <Link href="/glossary" style={outline('var(--color-accent)')}>Glossary</Link>
               <Link href="/flashcards" style={outline('var(--color-accent)')}>Flashcard</Link>
             </div>
           </div>
 
-          <div style={tileBase('#3BAA6A')}>
+          <div style={{ ...tileBase('#3BAA6A'), display:'flex', flexDirection:'column' }}>
             <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#3BAA6A', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>
               KOREAN
             </div>
             <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>한국어</div>
             <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>Bilingual · EN↔KO</div>
-            <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem' }}>
+            <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
               <Link href="/glossary/ko" style={outline('#3BAA6A')}>Glossary</Link>
               <Link href="/flashcards/ko" style={outline('#3BAA6A')}>Flashcard</Link>
             </div>

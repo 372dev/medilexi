@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Fuse from 'fuse.js'
 import vocabData from '@/data/medical_vocab.json'
 import partsData from '@/data/medical_wordparts_simple.json'
+import { ALL_LEVELS, STARS, STAR_CLASS } from '@/lib/vocab-constants'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
@@ -65,11 +66,8 @@ function getSegments(en_h: string, parts?: VocabEntry['parts']): Segment[] {
   return segs
 }
 
-const STARS: Record<string,string> = { '⭐⭐⭐ Essential':'⭐⭐⭐', '⭐⭐ Important':'⭐⭐', '⭐ Good to know':'⭐' }
-const STAR_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-stars--3', '⭐⭐ Important':'c-stars--2', '⭐ Good to know':'c-stars--1' }
 const LVL_CARD_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-card--lvl3', '⭐⭐ Important':'c-card--lvl2', '⭐ Good to know':'c-card--lvl1' }
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
-const ALL_LEVELS = ['⭐⭐⭐ Essential','⭐⭐ Important','⭐ Good to know']
 
 function Card({ v, onFieldClick }: { v: VocabEntry; onFieldClick: (f: string) => void }) {
   const [hovered, setHovered] = useState(false)

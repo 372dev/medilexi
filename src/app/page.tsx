@@ -1,7 +1,7 @@
-import React from 'react'
+import type { CSSProperties } from 'react'
 import Link from 'next/link'
 
-const outline = (color: string): React.CSSProperties => ({
+const outline = (color: string): CSSProperties => ({
   display: 'block',
   fontFamily: 'var(--font-pixel)',
   fontSize: '0.5rem',
@@ -15,7 +15,7 @@ const outline = (color: string): React.CSSProperties => ({
   textAlign: 'center',
 })
 
-const tileBase = (accentColor: string): React.CSSProperties => ({
+const tileBase = (accentColor: string): CSSProperties => ({
   background: 'var(--color-panel)',
   borderTop: `3px solid ${accentColor}`,
   borderRight: '1px solid var(--color-border)',

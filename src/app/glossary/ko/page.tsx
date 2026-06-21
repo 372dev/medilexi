@@ -6,6 +6,7 @@ import Fuse from 'fuse.js'
 import baseData from '@/data/medical_vocab.json'
 import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple.json'
+import { ALL_LEVELS, STARS, STAR_CLASS } from '@/lib/vocab-constants'
 
 interface BaseEntry { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: string; parts?: { p?: string[]; r?: string[]; s?: string[] } }
 interface KoEntry { en_h: string; ko_h: string; ko_l?: string; d_ko?: string }
@@ -106,11 +107,8 @@ function getSegments(en_h: string, parts?: BaseEntry['parts']): Segment[] {
   return segs
 }
 
-const STARS: Record<string,string> = { '⭐⭐⭐ Essential':'⭐⭐⭐', '⭐⭐ Important':'⭐⭐', '⭐ Good to know':'⭐' }
-const STAR_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-stars--3', '⭐⭐ Important':'c-stars--2', '⭐ Good to know':'c-stars--1' }
 const LVL_CARD_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-card--lvl3', '⭐⭐ Important':'c-card--lvl2', '⭐ Good to know':'c-card--lvl1' }
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
-const ALL_LEVELS = ['⭐⭐⭐ Essential','⭐⭐ Important','⭐ Good to know']
 
 const KO_FIELD_PRIORITY: Record<string, number> = {
   ko_h: 0, en_h: 0, abbr: 1, ko_l: 2, en_l: 2, d_ko: 3, d: 3,

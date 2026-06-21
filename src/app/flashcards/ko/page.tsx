@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import vocabData from '@/data/medical_vocab.json'
 import koData from '@/data/medical_vocab_ko.json'
+import { ALL_LEVELS, STARS, STAR_CLASS } from '@/lib/vocab-constants'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
@@ -22,13 +23,6 @@ const vocab = (vocabData as VocabEntry[])
   .filter((v): v is MergedEntry => !!koMap[v.en_h])
 
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
-const ALL_LEVELS = ['⭐⭐⭐ Essential', '⭐⭐ Important', '⭐ Good to know']
-const STARS: Record<string, string> = {
-  '⭐⭐⭐ Essential': '⭐⭐⭐', '⭐⭐ Important': '⭐⭐', '⭐ Good to know': '⭐',
-}
-const STAR_CLASS: Record<string, string> = {
-  '⭐⭐⭐ Essential': 'c-stars--3', '⭐⭐ Important': 'c-stars--2', '⭐ Good to know': 'c-stars--1',
-}
 const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
 
 export default function KoFlashcardsPage() {

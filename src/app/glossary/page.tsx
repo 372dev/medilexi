@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
@@ -95,7 +95,7 @@ function Card({ v, onFieldClick }: { v: VocabEntry; onFieldClick: (f: string) =>
   )
 }
 
-export default function GlossaryPage() {
+function GlossaryContent() {
   const params = useSearchParams()
   const [search, setSearch]     = useState(params.get('q') || '')
   const [fieldFilter, setField] = useState<string|null>(null)
@@ -161,4 +161,8 @@ export default function GlossaryPage() {
       {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
     </>
   )
+}
+
+export default function GlossaryPage() {
+  return <Suspense><GlossaryContent /></Suspense>
 }

@@ -1100,7 +1100,7 @@
     {
         "en_h":  "Diabetic Retinopathy",
         "fr_h":  "Rétinopathie diabétique",
-        "d_fr":  "Complications microvasculaires progressives du diabète sucré de longue date affectant les vaisseaux sanguins de la rétine."
+        "d_fr":  "Complication microvasculaire progressive du diabète sucré de longue date affectant les vaisseaux sanguins de la rétine."
     },
     {
         "en_h":  "Thrombocytopenia",
@@ -1508,7 +1508,7 @@
         "en_h":  "Abruptio Placentae",
         "fr_h":  "Hématome rétroplacentaire",
         "fr_l":  "Décollement placentaire",
-        "d_fr":  "Décollement prématuré d\u0027un placenta normalement inséré de la paroi utérine avant le deuxième stade du travail."
+        "d_fr":  "Décollement prématuré d\u0027un placenta normalement inséré de la paroi utérine avant la naissance du fœtus ; urgence obstétricale pouvant entraîner hémorragie maternelle et souffrance fœtale."
     },
     {
         "en_h":  "Postpartum Hemorrhage",
@@ -1534,12 +1534,12 @@
     {
         "en_h":  "Hypertrophy",
         "fr_h":  "Hypertrophie",
-        "d_fr":  "Augmentation de la taille d\u0027un organe ou d\u0027un tissu due à l\u0027hypertrophie des cellules individuelles ; couramment observée dans le muscle cardiaque en réponse à une charge accrue."
+        "d_fr":  "Augmentation de la taille d\u0027un organe ou d\u0027un tissu due à l\u0027augmentation du volume des cellules individuelles ; couramment observée dans le muscle cardiaque en réponse à une charge accrue."
     },
     {
         "en_h":  "Hyperplasia",
         "fr_h":  "Hyperplasie",
-        "d_fr":  "Augmentation du nombre de cellules dans un tissu ou organe entraînant son hypertrophie ; peut être physiologique ou pathologique (ex. : hyperplasie prostatique)."
+        "d_fr":  "Augmentation du nombre de cellules dans un tissu ou organe entraînant une augmentation de son volume ; peut être physiologique ou pathologique (ex. : hyperplasie prostatique)."
     },
     {
         "en_h":  "Sepsis",
@@ -2011,7 +2011,6 @@
     {
         "en_h":  "Local Anesthesia",
         "fr_h":  "Anesthésie locale",
-        "fr_l":  "Anesthésie locorégionale",
         "d_fr":  "Perte de sensibilité réversible dans une région corporelle spécifique par blocage de la conduction nerveuse, sans altération de la conscience."
     },
     {
@@ -2780,7 +2779,7 @@
     },
     {
         "en_h":  "Pelvic binder",
-        "fr_h":  "Ceinture pelvienne",
+        "fr_h":  "Ceinture de contention pelvienne",
         "fr_l":  "Ceintrage pelvien",
         "d_fr":  "Dispositif de compression circonférentielle pour les fractures pelviennes instables réduisant le volume pelvien et contrôlant l\u0027hémorragie."
     },
@@ -2854,7 +2853,7 @@
     },
     {
         "en_h":  "Prosthodontist",
-        "fr_h":  "Prothésiste dentaire",
+        "fr_h":  "Spécialiste en prothèse dentaire",
         "fr_l":  "Prosthodontiste",
         "d_fr":  "Spécialiste dentaire axé sur la restauration et le remplacement des dents à l\u0027aide de prothèses, bridges et implants."
     },
@@ -3064,7 +3063,7 @@
     {
         "en_h":  "Xanthochromia",
         "fr_h":  "Xanthochromie",
-        "d_fr":  "Coloration jaune du LCR due à la dégradation de l\u0027hémoglobine ; finding clé confirmant l\u0027hémorragie sous-arachnoïdienne lorsque le scanner est négatif."
+        "d_fr":  "Coloration jaune du LCR due à la dégradation de l\u0027hémoglobine ; signe clé confirmant l\u0027hémorragie sous-arachnoïdienne lorsque le scanner est négatif."
     },
     {
         "en_h":  "Abdominoplasty",
@@ -3374,7 +3373,7 @@
     {
         "en_h":  "Corneitis",
         "fr_h":  "Kératite",
-        "d_fr":  "Inflammation de la cornée ; également appelée kératite."
+        "d_fr":  "Inflammation de la cornée."
     },
     {
         "en_h":  "Craniosynostosis",
@@ -3484,7 +3483,7 @@
     },
     {
         "en_h":  "Nephroptosis",
-        "fr_h":  "Néphroptosc",
+        "fr_h":  "Néphroptose",
         "fr_l":  "Rein ptôsé",
         "d_fr":  "Déplacement anormal vers le bas du rein en position debout."
     },
@@ -3627,8 +3626,8 @@
     },
     {
         "en_h":  "Acoustic Neuroma",
-        "fr_h":  "Neurinome acoustique",
-        "fr_l":  "Schwannome vestibulaire",
+        "fr_h":  "Schwannome vestibulaire",
+        "fr_l":  "Neurinome acoustique",
         "d_fr":  "Tumeur bénigne issue du nerf vestibulocochléaire, causant perte auditive et acouphènes."
     },
     {
@@ -4384,7 +4383,7 @@
     },
     {
         "en_h":  "Capitate",
-        "fr_h":  "Os capitate",
+        "fr_h":  "Os capitatum",
         "fr_l":  "Grand os du carpe",
         "d_fr":  "Le plus grand des huit os du carpe, situé au centre du poignet."
     },
@@ -5026,7 +5025,7 @@
     },
     {
         "en_h":  "Tinea pedis",
-        "fr_h":  "Tinea pedis",
+        "fr_h":  "Dermatophytose des pieds",
         "fr_l":  "Pied d\u0027athlète",
         "d_fr":  "Infection dermatomycosique fréquente des pieds, notamment entre les orteils ; caractérisée par des démangeaisons, une desquamation et des fissures."
     },
@@ -5047,7 +5046,7 @@
     },
     {
         "en_h":  "Carbuncle",
-        "fr_h":  "Anthrax",
+        "fr_h":  "Furoncle confluent",
         "fr_l":  "Furoncle collecté",
         "d_fr":  "Infection cutanée profonde avec plusieurs furoncles interconnectés due à Staphylococcus aureus ; forme une masse douloureuse et purulente."
     },

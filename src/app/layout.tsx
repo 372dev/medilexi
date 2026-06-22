@@ -8,6 +8,8 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 
+const BASE_URL = 'https://medilexi.vercel.app'
+
 const PAGE_TITLES: Record<string, string> = {
   '/glossary':            'English Glossary',
   '/glossary/ko':         'Korean Glossary',
@@ -20,12 +22,49 @@ const PAGE_TITLES: Record<string, string> = {
   '/privacy':             'Privacy Policy',
 }
 
+const PAGE_DESCRIPTIONS: Record<string, string> = {
+  '/':                    'Free multilingual medical glossary for students, medical interpreters and translators. 999 terms, 408 word parts — in English and Korean.',
+  '/glossary':            'Search 999 medical terms with definitions, clinical specialties, importance levels, and word-part breakdowns.',
+  '/glossary/ko':         'Bilingual English–Korean medical glossary with Korean definitions, IME-safe search, and word-part highlights.',
+  '/wordparts':           '408 medical word parts — prefixes, roots, and suffixes — with meanings, examples, and clinical usage.',
+  '/wordparts/flashcard': 'Study medical word parts with interactive flashcards. Quiz mode, level filters, and missed-card review.',
+  '/wordparts/quiz':      'Test your knowledge of medical word parts with multiple-choice quiz mode.',
+  '/flashcards':          'English medical vocabulary flashcard. Study or quiz mode with level and specialty filters.',
+  '/flashcards/ko':       'English–Korean medical vocabulary flashcard with EN↔KO direction toggle and quiz mode.',
+  '/about':               'About Medi Lexi — multilingual medical glossary for students, interpreters, and translators. Data sources and site info.',
+  '/privacy':             'Medi Lexi privacy policy — how we handle analytics, cookies, and data.',
+}
+
+const SITE_JSON_LD = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${BASE_URL}/#website`,
+      url: BASE_URL,
+      name: 'Medi Lexi',
+      description: 'Free multilingual medical glossary for students, medical interpreters and translators.',
+      inLanguage: ['en', 'ko'],
+    },
+    {
+      '@type': 'EducationalOrganization',
+      '@id': `${BASE_URL}/#org`,
+      name: 'Medi Lexi',
+      url: BASE_URL,
+      description: 'Free multilingual medical terminology reference and study platform.',
+    },
+  ],
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const [isDay, setIsDay] = useState(false)
   const [cookieDismissed, setCookieDismissed] = useState(true)
   const pathname = usePathname()
   const isHome = pathname === '/'
   const pageTitle = PAGE_TITLES[pathname] || 'Medi Lexi'
+  const fullTitle = isHome ? 'Medi Lexi — Multilingual Medical Glossary' : `${pageTitle} — Medi Lexi`
+  const description = PAGE_DESCRIPTIONS[pathname] || PAGE_DESCRIPTIONS['/']
+  const canonicalUrl = `${BASE_URL}${pathname}`
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -62,9 +101,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <title>{pageTitle} — Medi Lexi</title>
-        <meta name="description" content="Medi Lexi — Multilingual Medical Glossary for students, medical interpreters &amp; translators" />
+        <title>{fullTitle}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalUrl} />
         <link rel="icon" href="/images/icon.png" type="image/png" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Medi Lexi" />
+        <meta property="og:title" content={fullTitle} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonicalUrl} />
+
+        {/* JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(SITE_JSON_LD) }}
+        />
       </head>
       <body>
         {isHome ? (

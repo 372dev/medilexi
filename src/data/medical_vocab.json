@@ -252,14 +252,14 @@
     {
         "en_h":  "Vital signs",
         "en_l":  "",
-        "abbr":  "",
         "ko_h":  "활력징후",
         "ko_l":  "",
         "f":  [
                   "Family Medicine"
               ],
         "d":  "Five core measurements assessed at each encounter: blood pressure, heart rate, respiratory rate, body temperature, and oxygen saturation.",
-        "lvl":  "⭐⭐⭐ Essential"
+        "lvl":  "⭐⭐⭐ Essential",
+        "abbr":  "VS"
     },
     {
         "en_h":  "Acute",
@@ -1503,14 +1503,14 @@
     {
         "en_h":  "Pacemaker",
         "en_l":  "",
-        "abbr":  "",
         "ko_h":  "심박동기",
         "ko_l":  "",
         "f":  [
                   "Cardiology"
               ],
         "d":  "Implantable electronic device that delivers electrical impulses to regulate abnormally slow or irregular heartbeats.",
-        "lvl":  "⭐⭐ Important"
+        "lvl":  "⭐⭐ Important",
+        "abbr":  "PPM"
     },
     {
         "en_h":  "Congestive Heart Failure",
@@ -2959,7 +2959,6 @@
     {
         "en_h":  "Appendicitis",
         "en_l":  "Inflammation of the appendix",
-        "abbr":  "Appe",
         "ko_h":  "충수염",
         "ko_l":  "맹장염",
         "f":  [
@@ -3688,7 +3687,6 @@
     {
         "en_h":  "Appendectomy",
         "en_l":  "Appendix removal surgery",
-        "abbr":  "Appe-ectomy",
         "ko_h":  "충수절제술",
         "ko_l":  "맹장 수술",
         "f":  [
@@ -5777,7 +5775,6 @@
     {
         "en_h":  "Intestinal Metaplasia",
         "en_l":  "Stomach lining changing to look like bowel",
-        "abbr":  "IM",
         "ko_h":  "장상피화생",
         "ko_l":  "",
         "f":  [
@@ -6778,7 +6775,7 @@
     {
         "en_h":  "Critical Care Medicine",
         "en_l":  "Intensive care",
-        "abbr":  "ICU",
+        "abbr":  "CCM",
         "ko_h":  "중환자 의학",
         "ko_l":  "중환자실 전문",
         "f":  [
@@ -9257,7 +9254,6 @@
     {
         "en_h":  "Musculoskeletal",
         "en_l":  "Muscles and bones",
-        "abbr":  "",
         "ko_h":  "근골격계의",
         "ko_l":  "근육뼈대의",
         "f":  [
@@ -9271,7 +9267,8 @@
                                 "muscul/o",
                                 "oste/o"
                             ]
-                  }
+                  },
+        "abbr":  "MSK"
     },
     {
         "en_h":  "Mycology",
@@ -10660,7 +10657,8 @@
         "f":  [
                   "Cardiology",
                   "Vascular Surgery"
-              ]
+              ],
+        "abbr":  "PTCA"
     },
     {
         "en_h":  "Aortography",
@@ -11084,7 +11082,8 @@
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Cardiology"
-              ]
+              ],
+        "abbr":  "AS"
     },
     {
         "en_h":  "Blepharitis",
@@ -11568,7 +11567,8 @@
         "f":  [
                   "Pharmacology",
                   "Emergency Medicine"
-              ]
+              ],
+        "abbr":  "Epi"
     },
     {
         "en_h":  "Aerophagia",
@@ -11970,7 +11970,8 @@
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Hematology"
-              ]
+              ],
+        "abbr":  "Hgb"
     },
     {
         "en_h":  "Hemolysis",

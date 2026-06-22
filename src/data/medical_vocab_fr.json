@@ -1,0 +1,4231 @@
+﻿[
+    {
+        "en_h":  "Hypertension",
+        "fr_h":  "Hypertension artérielle",
+        "fr_l":  "Tension haute"
+    },
+    {
+        "en_h":  "Diabetes mellitus",
+        "fr_h":  "Diabète sucré",
+        "fr_l":  "Diabète"
+    },
+    {
+        "en_h":  "Preventive care",
+        "fr_h":  "Soins préventifs",
+        "fr_l":  "Prévention médicale"
+    },
+    {
+        "en_h":  "Comorbidity",
+        "fr_h":  "Comorbidité"
+    },
+    {
+        "en_h":  "Chronic disease management",
+        "fr_h":  "Prise en charge des maladies chroniques"
+    },
+    {
+        "en_h":  "Obesity",
+        "fr_h":  "Obésité"
+    },
+    {
+        "en_h":  "Upper respiratory tract infection",
+        "fr_h":  "Infection des voies respiratoires supérieures",
+        "fr_l":  "Rhume"
+    },
+    {
+        "en_h":  "Consent",
+        "fr_h":  "Consentement éclairé"
+    },
+    {
+        "en_h":  "Chief complaint",
+        "fr_h":  "Motif de consultation",
+        "fr_l":  "Plainte principale"
+    },
+    {
+        "en_h":  "Medical history",
+        "fr_h":  "Antécédents médicaux",
+        "fr_l":  "Dossier médical"
+    },
+    {
+        "en_h":  "Differential Diagnosis",
+        "fr_h":  "Diagnostic différentiel"
+    },
+    {
+        "en_h":  "Prognosis",
+        "fr_h":  "Pronostic"
+    },
+    {
+        "en_h":  "Allergy",
+        "fr_h":  "Allergie"
+    },
+    {
+        "en_h":  "Prescription",
+        "fr_h":  "Ordonnance"
+    },
+    {
+        "en_h":  "Symptom",
+        "fr_h":  "Symptôme"
+    },
+    {
+        "en_h":  "Sign",
+        "fr_h":  "Signe clinique",
+        "fr_l":  "Signe"
+    },
+    {
+        "en_h":  "Vital signs",
+        "fr_h":  "Constantes vitales",
+        "fr_l":  "Signes vitaux"
+    },
+    {
+        "en_h":  "Acute",
+        "fr_h":  "Aigu"
+    },
+    {
+        "en_h":  "Myocardial Infarction",
+        "fr_h":  "Infarctus du myocarde",
+        "fr_l":  "Crise cardiaque"
+    },
+    {
+        "en_h":  "Acute coronary syndrome",
+        "fr_h":  "Syndrome coronarien aigu"
+    },
+    {
+        "en_h":  "Angina Pectoris",
+        "fr_h":  "Angor",
+        "fr_l":  "Angine de poitrine"
+    },
+    {
+        "en_h":  "Heart failure",
+        "fr_h":  "Insuffisance cardiaque"
+    },
+    {
+        "en_h":  "Arrhythmia",
+        "fr_h":  "Arythmie",
+        "fr_l":  "Trouble du rythme cardiaque"
+    },
+    {
+        "en_h":  "Atrial Fibrillation",
+        "fr_h":  "Fibrillation auriculaire"
+    },
+    {
+        "en_h":  "Electrocardiogram",
+        "fr_h":  "Électrocardiogramme",
+        "fr_l":  "ECG"
+    },
+    {
+        "en_h":  "Coronary artery disease",
+        "fr_h":  "Maladie coronarienne",
+        "fr_l":  "Coronaropathie"
+    },
+    {
+        "en_h":  "Atherosclerosis",
+        "fr_h":  "Athérosclérose"
+    },
+    {
+        "en_h":  "Cerebrovascular Accident",
+        "fr_h":  "Accident vasculaire cérébral",
+        "fr_l":  "AVC"
+    },
+    {
+        "en_h":  "Cerebral infarction",
+        "fr_h":  "Infarctus cérébral",
+        "fr_l":  "AVC ischémique"
+    },
+    {
+        "en_h":  "Cerebral hemorrhage",
+        "fr_h":  "Hémorragie cérébrale",
+        "fr_l":  "AVC hémorragique"
+    },
+    {
+        "en_h":  "Ischemia",
+        "fr_h":  "Ischémie"
+    },
+    {
+        "en_h":  "Transient Ischemic Attack",
+        "fr_h":  "Accident ischémique transitoire",
+        "fr_l":  "AIT"
+    },
+    {
+        "en_h":  "Cardiac arrest",
+        "fr_h":  "Arrêt cardiaque"
+    },
+    {
+        "en_h":  "Hemorrhage",
+        "fr_h":  "Hémorragie"
+    },
+    {
+        "en_h":  "Palpitation",
+        "fr_h":  "Palpitation"
+    },
+    {
+        "en_h":  "Diagnosis",
+        "fr_h":  "Diagnostic"
+    },
+    {
+        "en_h":  "Treatment",
+        "fr_h":  "Traitement"
+    },
+    {
+        "en_h":  "Chronic",
+        "fr_h":  "Chronique"
+    },
+    {
+        "en_h":  "Inflammation",
+        "fr_h":  "Inflammation"
+    },
+    {
+        "en_h":  "Infection",
+        "fr_h":  "Infection"
+    },
+    {
+        "en_h":  "Fever",
+        "fr_h":  "Fièvre"
+    },
+    {
+        "en_h":  "Pain",
+        "fr_h":  "Douleur"
+    },
+    {
+        "en_h":  "Biopsy",
+        "fr_h":  "Biopsie"
+    },
+    {
+        "en_h":  "Benign",
+        "fr_h":  "Bénin"
+    },
+    {
+        "en_h":  "Malignant",
+        "fr_h":  "Malin",
+        "fr_l":  "Cancéreux"
+    },
+    {
+        "en_h":  "Metastasis",
+        "fr_h":  "Métastase"
+    },
+    {
+        "en_h":  "Fracture",
+        "fr_h":  "Fracture"
+    },
+    {
+        "en_h":  "Edema",
+        "fr_h":  "Œdème"
+    },
+    {
+        "en_h":  "Nausea",
+        "fr_h":  "Nausée"
+    },
+    {
+        "en_h":  "Dyspnea",
+        "fr_h":  "Dyspnée",
+        "fr_l":  "Essoufflement"
+    },
+    {
+        "en_h":  "Triage",
+        "fr_h":  "Triage"
+    },
+    {
+        "en_h":  "Dementia",
+        "fr_h":  "Démence"
+    },
+    {
+        "en_h":  "Alzheimer\u0027s disease",
+        "fr_h":  "Maladie d\u0027Alzheimer"
+    },
+    {
+        "en_h":  "Epilepsy",
+        "fr_h":  "Épilepsie"
+    },
+    {
+        "en_h":  "Seizure",
+        "fr_h":  "Crise épileptique",
+        "fr_l":  "Convulsion"
+    },
+    {
+        "en_h":  "Parkinson\u0027s disease",
+        "fr_h":  "Maladie de Parkinson"
+    },
+    {
+        "en_h":  "Multiple sclerosis",
+        "fr_h":  "Sclérose en plaques"
+    },
+    {
+        "en_h":  "Headache",
+        "fr_h":  "Céphalée",
+        "fr_l":  "Mal de tête"
+    },
+    {
+        "en_h":  "Migraine",
+        "fr_h":  "Migraine"
+    },
+    {
+        "en_h":  "Neuropathy",
+        "fr_h":  "Neuropathie"
+    },
+    {
+        "en_h":  "Cognitive impairment",
+        "fr_h":  "Trouble cognitif",
+        "fr_l":  "Déclin cognitif"
+    },
+    {
+        "en_h":  "Internal Medicine",
+        "fr_h":  "Médecine interne"
+    },
+    {
+        "en_h":  "Psychiatry",
+        "fr_h":  "Psychiatrie"
+    },
+    {
+        "en_h":  "Pediatrics",
+        "fr_h":  "Pédiatrie"
+    },
+    {
+        "en_h":  "Obstetrics \u0026 Gynecology",
+        "fr_h":  "Obstétrique et gynécologie",
+        "fr_l":  "Gynéco-obstétrique"
+    },
+    {
+        "en_h":  "Surgery",
+        "fr_h":  "Chirurgie"
+    },
+    {
+        "en_h":  "Orthopedics",
+        "fr_h":  "Orthopédie"
+    },
+    {
+        "en_h":  "Neurology",
+        "fr_h":  "Neurologie"
+    },
+    {
+        "en_h":  "Cardiology",
+        "fr_h":  "Cardiologie"
+    },
+    {
+        "en_h":  "Oncology",
+        "fr_h":  "Oncologie"
+    },
+    {
+        "en_h":  "Dyslipidemia",
+        "fr_h":  "Dyslipidémie"
+    },
+    {
+        "en_h":  "Referral",
+        "fr_h":  "Orientation médicale",
+        "fr_l":  "Référence médicale"
+    },
+    {
+        "en_h":  "Polypharmacy",
+        "fr_h":  "Polymédication",
+        "fr_l":  "Polypharmacie"
+    },
+    {
+        "en_h":  "Vaccination / Immunization",
+        "fr_h":  "Vaccination",
+        "fr_l":  "Immunisation"
+    },
+    {
+        "en_h":  "Hypothyroidism",
+        "fr_h":  "Hypothyroïdie"
+    },
+    {
+        "en_h":  "Osteoporosis",
+        "fr_h":  "Ostéoporose"
+    },
+    {
+        "en_h":  "Depression",
+        "fr_h":  "Dépression"
+    },
+    {
+        "en_h":  "Urinary tract infection",
+        "fr_h":  "Infection urinaire",
+        "fr_l":  "Infection des voies urinaires"
+    },
+    {
+        "en_h":  "Body mass index",
+        "fr_h":  "Indice de masse corporelle",
+        "fr_l":  "IMC"
+    },
+    {
+        "en_h":  "Ambulatory care",
+        "fr_h":  "Soins ambulatoires"
+    },
+    {
+        "en_h":  "Follow-up",
+        "fr_h":  "Suivi médical",
+        "fr_l":  "Consultation de suivi"
+    },
+    {
+        "en_h":  "Screening",
+        "fr_h":  "Dépistage"
+    },
+    {
+        "en_h":  "Compliance / Adherence",
+        "fr_h":  "Observance thérapeutique",
+        "fr_l":  "Adhérence au traitement"
+    },
+    {
+        "en_h":  "Insomnia",
+        "fr_h":  "Insomnie"
+    },
+    {
+        "en_h":  "Lower back pain",
+        "fr_h":  "Lombalgie",
+        "fr_l":  "Mal de dos"
+    },
+    {
+        "en_h":  "Anxiety disorder",
+        "fr_h":  "Trouble anxieux",
+        "fr_l":  "Anxiété"
+    },
+    {
+        "en_h":  "Gastroesophageal Reflux Disease",
+        "fr_h":  "Maladie de reflux gastro-œsophagien",
+        "fr_l":  "Reflux gastrique"
+    },
+    {
+        "en_h":  "Anemia",
+        "fr_h":  "Anémie"
+    },
+    {
+        "en_h":  "Echocardiogram",
+        "fr_h":  "Échocardiogramme",
+        "fr_l":  "Écho cardiaque"
+    },
+    {
+        "en_h":  "Percutaneous coronary intervention",
+        "fr_h":  "Intervention coronarienne percutanée",
+        "fr_l":  "Angioplastie coronaire"
+    },
+    {
+        "en_h":  "Ejection fraction",
+        "fr_h":  "Fraction d\u0027éjection"
+    },
+    {
+        "en_h":  "Anticoagulant",
+        "fr_h":  "Anticoagulant"
+    },
+    {
+        "en_h":  "Pacemaker",
+        "fr_h":  "Stimulateur cardiaque",
+        "fr_l":  "Pacemaker"
+    },
+    {
+        "en_h":  "Congestive Heart Failure",
+        "fr_h":  "Insuffisance cardiaque congestive"
+    },
+    {
+        "en_h":  "Cardiopulmonary resuscitation",
+        "fr_h":  "Réanimation cardio-pulmonaire",
+        "fr_l":  "RCP"
+    },
+    {
+        "en_h":  "Magnetic resonance imaging",
+        "fr_h":  "Imagerie par résonance magnétique",
+        "fr_l":  "IRM"
+    },
+    {
+        "en_h":  "Computed tomography",
+        "fr_h":  "Tomodensitométrie",
+        "fr_l":  "Scanner"
+    },
+    {
+        "en_h":  "Lumbar Puncture",
+        "fr_h":  "Ponction lombaire"
+    },
+    {
+        "en_h":  "Meningitis",
+        "fr_h":  "Méningite"
+    },
+    {
+        "en_h":  "Vertigo",
+        "fr_h":  "Vertige"
+    },
+    {
+        "en_h":  "Dizziness",
+        "fr_h":  "Étourdissement",
+        "fr_l":  "Vertige non systématisé"
+    },
+    {
+        "en_h":  "Neurodegenerative disease",
+        "fr_h":  "Maladie neurodégénérative"
+    },
+    {
+        "en_h":  "Spinal cord injury",
+        "fr_h":  "Lésion médullaire",
+        "fr_l":  "Traumatisme médullaire"
+    },
+    {
+        "en_h":  "Electroencephalogram",
+        "fr_h":  "Électroencéphalogramme",
+        "fr_l":  "EEG"
+    },
+    {
+        "en_h":  "Aphasia",
+        "fr_h":  "Aphasie"
+    },
+    {
+        "en_h":  "Tremor",
+        "fr_h":  "Tremblement"
+    },
+    {
+        "en_h":  "Contraindication",
+        "fr_h":  "Contre-indication"
+    },
+    {
+        "en_h":  "Analgesic",
+        "fr_h":  "Analgésique",
+        "fr_l":  "Antidouleur"
+    },
+    {
+        "en_h":  "Antipyretic",
+        "fr_h":  "Antipyrétique",
+        "fr_l":  "Fébrifuge"
+    },
+    {
+        "en_h":  "Intravenous",
+        "fr_h":  "Intraveineux",
+        "fr_l":  "IV"
+    },
+    {
+        "en_h":  "Adverse drug reaction",
+        "fr_h":  "Effet indésirable médicamenteux"
+    },
+    {
+        "en_h":  "Prophylaxis",
+        "fr_h":  "Prophylaxie"
+    },
+    {
+        "en_h":  "Subcutaneous injection",
+        "fr_h":  "Injection sous-cutanée"
+    },
+    {
+        "en_h":  "Intramuscular injection",
+        "fr_h":  "Injection intramusculaire"
+    },
+    {
+        "en_h":  "Sublingual administration",
+        "fr_h":  "Administration sublinguale"
+    },
+    {
+        "en_h":  "Efficacy",
+        "fr_h":  "Efficacité"
+    },
+    {
+        "en_h":  "Endocrinology",
+        "fr_h":  "Endocrinologie"
+    },
+    {
+        "en_h":  "Dermatology",
+        "fr_h":  "Dermatologie"
+    },
+    {
+        "en_h":  "Ophthalmology",
+        "fr_h":  "Ophtalmologie"
+    },
+    {
+        "en_h":  "Otolaryngology",
+        "fr_h":  "Oto-rhino-laryngologie",
+        "fr_l":  "ORL"
+    },
+    {
+        "en_h":  "Urology",
+        "fr_h":  "Urologie"
+    },
+    {
+        "en_h":  "Radiology",
+        "fr_h":  "Radiologie"
+    },
+    {
+        "en_h":  "Emergency Medicine",
+        "fr_h":  "Médecine d\u0027urgence"
+    },
+    {
+        "en_h":  "Anesthesiology",
+        "fr_h":  "Anesthésiologie",
+        "fr_l":  "Anesthésie"
+    },
+    {
+        "en_h":  "Pathology",
+        "fr_h":  "Anatomopathologie",
+        "fr_l":  "Pathologie"
+    },
+    {
+        "en_h":  "Pharmacology",
+        "fr_h":  "Pharmacologie"
+    },
+    {
+        "en_h":  "Infectious Disease",
+        "fr_h":  "Maladies infectieuses",
+        "fr_l":  "Infectiologie"
+    },
+    {
+        "en_h":  "Dentistry",
+        "fr_h":  "Chirurgie dentaire",
+        "fr_l":  "Dentisterie"
+    },
+    {
+        "en_h":  "Rehabilitation Medicine",
+        "fr_h":  "Médecine de réadaptation",
+        "fr_l":  "Rééducation"
+    },
+    {
+        "en_h":  "Beta-blocker",
+        "fr_h":  "Bêtabloquant"
+    },
+    {
+        "en_h":  "Cardiac biomarker",
+        "fr_h":  "Biomarqueur cardiaque"
+    },
+    {
+        "en_h":  "Health literacy",
+        "fr_h":  "Littératie en santé"
+    },
+    {
+        "en_h":  "Advance directive",
+        "fr_h":  "Directives anticipées"
+    },
+    {
+        "en_h":  "Continuity of care",
+        "fr_h":  "Continuité des soins"
+    },
+    {
+        "en_h":  "Palliative Care",
+        "fr_h":  "Soins palliatifs"
+    },
+    {
+        "en_h":  "Plastic Surgery",
+        "fr_h":  "Chirurgie plastique"
+    },
+    {
+        "en_h":  "Thoracic Surgery",
+        "fr_h":  "Chirurgie thoracique"
+    },
+    {
+        "en_h":  "Neurosurgery",
+        "fr_h":  "Neurochirurgie"
+    },
+    {
+        "en_h":  "Rheumatology",
+        "fr_h":  "Rhumatologie"
+    },
+    {
+        "en_h":  "Pulmonology",
+        "fr_h":  "Pneumologie"
+    },
+    {
+        "en_h":  "Nephrology",
+        "fr_h":  "Néphrologie"
+    },
+    {
+        "en_h":  "Gastroenterology",
+        "fr_h":  "Gastro-entérologie"
+    },
+    {
+        "en_h":  "Hematology",
+        "fr_h":  "Hématologie"
+    },
+    {
+        "en_h":  "Nuclear Medicine",
+        "fr_h":  "Médecine nucléaire"
+    },
+    {
+        "en_h":  "Syncope",
+        "fr_h":  "Syncope",
+        "fr_l":  "Évanouissement"
+    },
+    {
+        "en_h":  "Pleuritic Chest Pain",
+        "fr_h":  "Douleur thoracique pleurale"
+    },
+    {
+        "en_h":  "Hematemesis",
+        "fr_h":  "Hématémèse",
+        "fr_l":  "Vomissement de sang"
+    },
+    {
+        "en_h":  "Hemoptysis",
+        "fr_h":  "Hémoptysie"
+    },
+    {
+        "en_h":  "Melena",
+        "fr_h":  "Méléna"
+    },
+    {
+        "en_h":  "Hematochezia",
+        "fr_h":  "Rectorragie"
+    },
+    {
+        "en_h":  "Pruritus",
+        "fr_h":  "Prurit",
+        "fr_l":  "Démangeaison"
+    },
+    {
+        "en_h":  "Cyanosis",
+        "fr_h":  "Cyanose"
+    },
+    {
+        "en_h":  "Pharynx",
+        "fr_h":  "Pharynx"
+    },
+    {
+        "en_h":  "Larynx",
+        "fr_h":  "Larynx"
+    },
+    {
+        "en_h":  "Trachea",
+        "fr_h":  "Trachée"
+    },
+    {
+        "en_h":  "Esophagus",
+        "fr_h":  "Œsophage"
+    },
+    {
+        "en_h":  "Duodenum",
+        "fr_h":  "Duodénum"
+    },
+    {
+        "en_h":  "Jejunum",
+        "fr_h":  "Jéjunum"
+    },
+    {
+        "en_h":  "Ileum",
+        "fr_h":  "Iléon"
+    },
+    {
+        "en_h":  "Pituitary Gland",
+        "fr_h":  "Hypophyse",
+        "fr_l":  "Glande pituitaire"
+    },
+    {
+        "en_h":  "Thymus",
+        "fr_h":  "Thymus"
+    },
+    {
+        "en_h":  "Gallbladder",
+        "fr_h":  "Vésicule biliaire"
+    },
+    {
+        "en_h":  "Benign Prostatic Hyperplasia",
+        "fr_h":  "Hyperplasie bénigne de la prostate",
+        "fr_l":  "Adénome de la prostate"
+    },
+    {
+        "en_h":  "Pneumothorax",
+        "fr_h":  "Pneumothorax"
+    },
+    {
+        "en_h":  "Cholelithiasis",
+        "fr_h":  "Lithiase vésiculaire",
+        "fr_l":  "Calculs biliaires"
+    },
+    {
+        "en_h":  "Chronic Obstructive Pulmonary Disease",
+        "fr_h":  "Bronchopneumopathie chronique obstructive",
+        "fr_l":  "BPCO"
+    },
+    {
+        "en_h":  "Rheumatoid Arthritis",
+        "fr_h":  "Polyarthrite rhumatoïde"
+    },
+    {
+        "en_h":  "Endoscopy",
+        "fr_h":  "Endoscopie"
+    },
+    {
+        "en_h":  "Laparoscopy",
+        "fr_h":  "Cœlioscopie",
+        "fr_l":  "Laparoscopie"
+    },
+    {
+        "en_h":  "Intubation",
+        "fr_h":  "Intubation"
+    },
+    {
+        "en_h":  "Paracentesis",
+        "fr_h":  "Paracentèse"
+    },
+    {
+        "en_h":  "Auscultation",
+        "fr_h":  "Auscultation"
+    },
+    {
+        "en_h":  "Palpation",
+        "fr_h":  "Palpation"
+    },
+    {
+        "en_h":  "Prostate-Specific Antigen",
+        "fr_h":  "Antigène prostatique spécifique",
+        "fr_l":  "PSA"
+    },
+    {
+        "en_h":  "Cholecystitis",
+        "fr_h":  "Cholécystite"
+    },
+    {
+        "en_h":  "Appendicitis",
+        "fr_h":  "Appendicite"
+    },
+    {
+        "en_h":  "Pancreatitis",
+        "fr_h":  "Pancréatite"
+    },
+    {
+        "en_h":  "Peritonitis",
+        "fr_h":  "Péritonite"
+    },
+    {
+        "en_h":  "Nephrolithiasis",
+        "fr_h":  "Lithiase rénale",
+        "fr_l":  "Calculs rénaux"
+    },
+    {
+        "en_h":  "Chronic Kidney Disease",
+        "fr_h":  "Maladie rénale chronique",
+        "fr_l":  "Insuffisance rénale chronique"
+    },
+    {
+        "en_h":  "End-Stage Renal Disease",
+        "fr_h":  "Insuffisance rénale terminale"
+    },
+    {
+        "en_h":  "Hemodialysis",
+        "fr_h":  "Hémodialyse"
+    },
+    {
+        "en_h":  "Peritoneal Dialysis",
+        "fr_h":  "Dialyse péritonéale"
+    },
+    {
+        "en_h":  "Hydronephrosis",
+        "fr_h":  "Hydronéphrose"
+    },
+    {
+        "en_h":  "Benign Paroxysmal Positional Vertigo",
+        "fr_h":  "Vertige paroxystique positionnel bénin",
+        "fr_l":  "VPPB"
+    },
+    {
+        "en_h":  "Otitis Media",
+        "fr_h":  "Otite moyenne"
+    },
+    {
+        "en_h":  "Tinnitus",
+        "fr_h":  "Acouphène"
+    },
+    {
+        "en_h":  "Epistaxis",
+        "fr_h":  "Épistaxis",
+        "fr_l":  "Saignement de nez"
+    },
+    {
+        "en_h":  "Sinusitis",
+        "fr_h":  "Sinusite"
+    },
+    {
+        "en_h":  "Strabismus",
+        "fr_h":  "Strabisme"
+    },
+    {
+        "en_h":  "Cataract",
+        "fr_h":  "Cataracte"
+    },
+    {
+        "en_h":  "Glaucoma",
+        "fr_h":  "Glaucome"
+    },
+    {
+        "en_h":  "Nystagmus",
+        "fr_h":  "Nystagmus"
+    },
+    {
+        "en_h":  "Macular Degeneration",
+        "fr_h":  "Dégénérescence maculaire",
+        "fr_l":  "DMLA"
+    },
+    {
+        "en_h":  "Erythema",
+        "fr_h":  "Érythème",
+        "fr_l":  "Rougeur cutanée"
+    },
+    {
+        "en_h":  "Urticaria",
+        "fr_h":  "Urticaire"
+    },
+    {
+        "en_h":  "Cellulitis",
+        "fr_h":  "Cellulite infectieuse"
+    },
+    {
+        "en_h":  "Atopic Dermatitis",
+        "fr_h":  "Dermatite atopique",
+        "fr_l":  "Eczéma atopique"
+    },
+    {
+        "en_h":  "Psoriasis",
+        "fr_h":  "Psoriasis"
+    },
+    {
+        "en_h":  "Paresthesia",
+        "fr_h":  "Paresthésie",
+        "fr_l":  "Fourmillement"
+    },
+    {
+        "en_h":  "Sciatica",
+        "fr_h":  "Sciatique"
+    },
+    {
+        "en_h":  "Gout",
+        "fr_h":  "Goutte"
+    },
+    {
+        "en_h":  "Kyphosis",
+        "fr_h":  "Cyphose"
+    },
+    {
+        "en_h":  "Hyperthyroidism",
+        "fr_h":  "Hyperthyroïdie"
+    },
+    {
+        "en_h":  "Cushing\u0027s Syndrome",
+        "fr_h":  "Syndrome de Cushing"
+    },
+    {
+        "en_h":  "Diabetes Insipidus",
+        "fr_h":  "Diabète insipide"
+    },
+    {
+        "en_h":  "Diabetic Retinopathy",
+        "fr_h":  "Rétinopathie diabétique"
+    },
+    {
+        "en_h":  "Thrombocytopenia",
+        "fr_h":  "Thrombopénie"
+    },
+    {
+        "en_h":  "Leukocytosis",
+        "fr_h":  "Hyperleucocytose",
+        "fr_l":  "Leucocytose"
+    },
+    {
+        "en_h":  "Polycythemia Vera",
+        "fr_h":  "Polyglobulie de Vaquez",
+        "fr_l":  "Polyglobulie primitive"
+    },
+    {
+        "en_h":  "Deep Vein Thrombosis",
+        "fr_h":  "Thrombose veineuse profonde",
+        "fr_l":  "Phlébite"
+    },
+    {
+        "en_h":  "Pulmonary Embolism",
+        "fr_h":  "Embolie pulmonaire"
+    },
+    {
+        "en_h":  "Aortic Dissection",
+        "fr_h":  "Dissection aortique"
+    },
+    {
+        "en_h":  "Cholecystectomy",
+        "fr_h":  "Cholécystectomie"
+    },
+    {
+        "en_h":  "Appendectomy",
+        "fr_h":  "Appendicectomie"
+    },
+    {
+        "en_h":  "Thoracentesis",
+        "fr_h":  "Thoracocentèse",
+        "fr_l":  "Ponction pleurale"
+    },
+    {
+        "en_h":  "Hysterectomy",
+        "fr_h":  "Hystérectomie"
+    },
+    {
+        "en_h":  "Mammography",
+        "fr_h":  "Mammographie"
+    },
+    {
+        "en_h":  "Colonoscopy",
+        "fr_h":  "Coloscopie"
+    },
+    {
+        "en_h":  "Atheroma",
+        "fr_h":  "Athérome",
+        "fr_l":  "Plaque d\u0027athérome"
+    },
+    {
+        "en_h":  "Cardiomegaly",
+        "fr_h":  "Cardiomégalie"
+    },
+    {
+        "en_h":  "Bradycardia",
+        "fr_h":  "Bradycardie"
+    },
+    {
+        "en_h":  "Tachycardia",
+        "fr_h":  "Tachycardie"
+    },
+    {
+        "en_h":  "Orthostatic Hypotension",
+        "fr_h":  "Hypotension orthostatique"
+    },
+    {
+        "en_h":  "Pericarditis",
+        "fr_h":  "Péricardite"
+    },
+    {
+        "en_h":  "Endocarditis",
+        "fr_h":  "Endocardite"
+    },
+    {
+        "en_h":  "Intermittent Claudication",
+        "fr_h":  "Claudication intermittente"
+    },
+    {
+        "en_h":  "Aneurysm",
+        "fr_h":  "Anévrisme"
+    },
+    {
+        "en_h":  "Atelectasis",
+        "fr_h":  "Atélectasie"
+    },
+    {
+        "en_h":  "Bronchiectasis",
+        "fr_h":  "Bronchectasie",
+        "fr_l":  "Dilatation des bronches"
+    },
+    {
+        "en_h":  "Pleural Effusion",
+        "fr_h":  "Épanchement pleural"
+    },
+    {
+        "en_h":  "Hemothorax",
+        "fr_h":  "Hémothorax"
+    },
+    {
+        "en_h":  "Empyema",
+        "fr_h":  "Empyème"
+    },
+    {
+        "en_h":  "Hypercapnia",
+        "fr_h":  "Hypercapnie"
+    },
+    {
+        "en_h":  "Hypoxemia",
+        "fr_h":  "Hypoxémie"
+    },
+    {
+        "en_h":  "Stridor",
+        "fr_h":  "Stridor"
+    },
+    {
+        "en_h":  "Pulmonary Fibrosis",
+        "fr_h":  "Fibrose pulmonaire"
+    },
+    {
+        "en_h":  "Ascites",
+        "fr_h":  "Ascite"
+    },
+    {
+        "en_h":  "Cirrhosis",
+        "fr_h":  "Cirrhose"
+    },
+    {
+        "en_h":  "Dysphagia",
+        "fr_h":  "Dysphagie"
+    },
+    {
+        "en_h":  "Diverticulitis",
+        "fr_h":  "Diverticulite"
+    },
+    {
+        "en_h":  "Jaundice",
+        "fr_h":  "Ictère",
+        "fr_l":  "Jaunisse"
+    },
+    {
+        "en_h":  "Intussusception",
+        "fr_h":  "Invagination intestinale"
+    },
+    {
+        "en_h":  "Volvulus",
+        "fr_h":  "Volvulus"
+    },
+    {
+        "en_h":  "Gastrointestinal Bleeding",
+        "fr_h":  "Hémorragie digestive"
+    },
+    {
+        "en_h":  "Gastroparesis",
+        "fr_h":  "Gastroparésie"
+    },
+    {
+        "en_h":  "Hydrocephalus",
+        "fr_h":  "Hydrocéphalie"
+    },
+    {
+        "en_h":  "Ataxia",
+        "fr_h":  "Ataxie"
+    },
+    {
+        "en_h":  "Neuralgia",
+        "fr_h":  "Névralgie"
+    },
+    {
+        "en_h":  "Dysarthria",
+        "fr_h":  "Dysarthrie"
+    },
+    {
+        "en_h":  "Encephalopathy",
+        "fr_h":  "Encéphalopathie"
+    },
+    {
+        "en_h":  "Encephalitis",
+        "fr_h":  "Encéphalite"
+    },
+    {
+        "en_h":  "Proteinuria",
+        "fr_h":  "Protéinurie"
+    },
+    {
+        "en_h":  "Hematuria",
+        "fr_h":  "Hématurie"
+    },
+    {
+        "en_h":  "Oliguria",
+        "fr_h":  "Oligurie"
+    },
+    {
+        "en_h":  "Anuria",
+        "fr_h":  "Anurie"
+    },
+    {
+        "en_h":  "Glomerulonephritis",
+        "fr_h":  "Glomérulonéphrite"
+    },
+    {
+        "en_h":  "Nephrotic Syndrome",
+        "fr_h":  "Syndrome néphrotique"
+    },
+    {
+        "en_h":  "Pyelonephritis",
+        "fr_h":  "Pyélonéphrite"
+    },
+    {
+        "en_h":  "Cystitis",
+        "fr_h":  "Cystite"
+    },
+    {
+        "en_h":  "Urinary Incontinence",
+        "fr_h":  "Incontinence urinaire"
+    },
+    {
+        "en_h":  "Dysuria",
+        "fr_h":  "Dysurie",
+        "fr_l":  "Brûlures urinaires"
+    },
+    {
+        "en_h":  "Hyperglycemia",
+        "fr_h":  "Hyperglycémie"
+    },
+    {
+        "en_h":  "Hypoglycemia",
+        "fr_h":  "Hypoglycémie"
+    },
+    {
+        "en_h":  "Diabetic Ketoacidosis",
+        "fr_h":  "Acidocétose diabétique"
+    },
+    {
+        "en_h":  "Gynecomastia",
+        "fr_h":  "Gynécomastie"
+    },
+    {
+        "en_h":  "Acromegaly",
+        "fr_h":  "Acromégalie"
+    },
+    {
+        "en_h":  "Galactorrhea",
+        "fr_h":  "Galactorrhée"
+    },
+    {
+        "en_h":  "Hirsutism",
+        "fr_h":  "Hirsutisme"
+    },
+    {
+        "en_h":  "Hyperparathyroidism",
+        "fr_h":  "Hyperparathyroïdie"
+    },
+    {
+        "en_h":  "Pheochromocytoma",
+        "fr_h":  "Phéochromocytome"
+    },
+    {
+        "en_h":  "Metabolic Syndrome",
+        "fr_h":  "Syndrome métabolique"
+    },
+    {
+        "en_h":  "Pancytopenia",
+        "fr_h":  "Pancytopénie"
+    },
+    {
+        "en_h":  "Neutropenia",
+        "fr_h":  "Neutropénie"
+    },
+    {
+        "en_h":  "Lymphadenopathy",
+        "fr_h":  "Adénopathie",
+        "fr_l":  "Ganglion enflé"
+    },
+    {
+        "en_h":  "Splenomegaly",
+        "fr_h":  "Splénomégalie"
+    },
+    {
+        "en_h":  "Disseminated Intravascular Coagulation",
+        "fr_h":  "Coagulation intravasculaire disséminée",
+        "fr_l":  "CIVD"
+    },
+    {
+        "en_h":  "Carcinoma",
+        "fr_h":  "Carcinome"
+    },
+    {
+        "en_h":  "Sarcoma",
+        "fr_h":  "Sarcome"
+    },
+    {
+        "en_h":  "Immunotherapy",
+        "fr_h":  "Immunothérapie"
+    },
+    {
+        "en_h":  "Adjuvant Therapy",
+        "fr_h":  "Traitement adjuvant"
+    },
+    {
+        "en_h":  "Neoadjuvant Therapy",
+        "fr_h":  "Traitement néoadjuvant"
+    },
+    {
+        "en_h":  "Amenorrhea",
+        "fr_h":  "Aménorrhée"
+    },
+    {
+        "en_h":  "Dysmenorrhea",
+        "fr_h":  "Dysménorrhée",
+        "fr_l":  "Règles douloureuses"
+    },
+    {
+        "en_h":  "Uterine Leiomyoma",
+        "fr_h":  "Léiomyome utérin",
+        "fr_l":  "Fibrome utérin"
+    },
+    {
+        "en_h":  "Abruptio Placentae",
+        "fr_h":  "Hématome rétroplacentaire",
+        "fr_l":  "Décollement placentaire"
+    },
+    {
+        "en_h":  "Postpartum Hemorrhage",
+        "fr_h":  "Hémorragie du post-partum"
+    },
+    {
+        "en_h":  "Anaphylaxis",
+        "fr_h":  "Anaphylaxie",
+        "fr_l":  "Choc anaphylactique"
+    },
+    {
+        "en_h":  "Idiopathic",
+        "fr_h":  "Idiopathique"
+    },
+    {
+        "en_h":  "Iatrogenic",
+        "fr_h":  "Iatrogène"
+    },
+    {
+        "en_h":  "Hypertrophy",
+        "fr_h":  "Hypertrophie"
+    },
+    {
+        "en_h":  "Hyperplasia",
+        "fr_h":  "Hyperplasie"
+    },
+    {
+        "en_h":  "Sepsis",
+        "fr_h":  "Sepsis",
+        "fr_l":  "Septicémie"
+    },
+    {
+        "en_h":  "Agnosia",
+        "fr_h":  "Agnosie"
+    },
+    {
+        "en_h":  "Anosognosia",
+        "fr_h":  "Anosognosie"
+    },
+    {
+        "en_h":  "Catatonia",
+        "fr_h":  "Catatonie"
+    },
+    {
+        "en_h":  "Akathisia",
+        "fr_h":  "Akathisie"
+    },
+    {
+        "en_h":  "Tardive Dyskinesia",
+        "fr_h":  "Dyskinésie tardive"
+    },
+    {
+        "en_h":  "Photophobia",
+        "fr_h":  "Photophobie"
+    },
+    {
+        "en_h":  "Presbycusis",
+        "fr_h":  "Presbyacousie",
+        "fr_l":  "Surdité liée à l\u0027âge"
+    },
+    {
+        "en_h":  "Diplopia",
+        "fr_h":  "Diplopie",
+        "fr_l":  "Vision double"
+    },
+    {
+        "en_h":  "Osteoarthritis",
+        "fr_h":  "Arthrose"
+    },
+    {
+        "en_h":  "Ankylosing Spondylitis",
+        "fr_h":  "Spondylarthrite ankylosante"
+    },
+    {
+        "en_h":  "Sarcopenia",
+        "fr_h":  "Sarcopénie"
+    },
+    {
+        "en_h":  "Myalgia",
+        "fr_h":  "Myalgie",
+        "fr_l":  "Douleur musculaire"
+    },
+    {
+        "en_h":  "Scoliosis",
+        "fr_h":  "Scoliose"
+    },
+    {
+        "en_h":  "Avascular Necrosis",
+        "fr_h":  "Nécrose avasculaire",
+        "fr_l":  "Ostéonécrose"
+    },
+    {
+        "en_h":  "Tenosynovitis",
+        "fr_h":  "Ténosynovite"
+    },
+    {
+        "en_h":  "Alopecia",
+        "fr_h":  "Alopécie",
+        "fr_l":  "Chute de cheveux"
+    },
+    {
+        "en_h":  "Petechiae",
+        "fr_h":  "Pétéchies"
+    },
+    {
+        "en_h":  "Purpura",
+        "fr_h":  "Purpura"
+    },
+    {
+        "en_h":  "Ecchymosis",
+        "fr_h":  "Ecchymose",
+        "fr_l":  "Bleu"
+    },
+    {
+        "en_h":  "Necrotizing Fasciitis",
+        "fr_h":  "Fasciite nécrosante"
+    },
+    {
+        "en_h":  "Ovarian Torsion",
+        "fr_h":  "Torsion ovarienne"
+    },
+    {
+        "en_h":  "Vasovagal Syncope",
+        "fr_h":  "Syncope vasovagale",
+        "fr_l":  "Malaise vagal"
+    },
+    {
+        "en_h":  "Peripheral Artery Disease",
+        "fr_h":  "Artériopathie oblitérante des membres inférieurs",
+        "fr_l":  "Maladie artérielle périphérique"
+    },
+    {
+        "en_h":  "Raynaud\u0027s Phenomenon",
+        "fr_h":  "Phénomène de Raynaud"
+    },
+    {
+        "en_h":  "Lymphedema",
+        "fr_h":  "Lymphœdème"
+    },
+    {
+        "en_h":  "Cardiac Tamponade",
+        "fr_h":  "Tamponnade cardiaque"
+    },
+    {
+        "en_h":  "Choledocholithiasis",
+        "fr_h":  "Lithiase de la voie biliaire principale",
+        "fr_l":  "Calcul de la voie biliaire"
+    },
+    {
+        "en_h":  "Cholangitis",
+        "fr_h":  "Cholangite"
+    },
+    {
+        "en_h":  "Esophageal Varices",
+        "fr_h":  "Varices œsophagiennes"
+    },
+    {
+        "en_h":  "Intestinal Metaplasia",
+        "fr_h":  "Métaplasie intestinale"
+    },
+    {
+        "en_h":  "Ileus",
+        "fr_h":  "Iléus",
+        "fr_l":  "Occlusion fonctionnelle"
+    },
+    {
+        "en_h":  "Orthopnea",
+        "fr_h":  "Orthopnée"
+    },
+    {
+        "en_h":  "Acute Respiratory Distress Syndrome",
+        "fr_h":  "Syndrome de détresse respiratoire aiguë",
+        "fr_l":  "SDRA"
+    },
+    {
+        "en_h":  "Bioavailability",
+        "fr_h":  "Biodisponibilité"
+    },
+    {
+        "en_h":  "Prodrome",
+        "fr_h":  "Prodrome"
+    },
+    {
+        "en_h":  "Sequela",
+        "fr_h":  "Séquelle"
+    },
+    {
+        "en_h":  "Cachexia",
+        "fr_h":  "Cachexie"
+    },
+    {
+        "en_h":  "Septic Shock",
+        "fr_h":  "Choc septique"
+    },
+    {
+        "en_h":  "Hyperkalemia",
+        "fr_h":  "Hyperkaliémie"
+    },
+    {
+        "en_h":  "Tracheostomy",
+        "fr_h":  "Trachéostomie"
+    },
+    {
+        "en_h":  "Diaphragm",
+        "fr_h":  "Diaphragme"
+    },
+    {
+        "en_h":  "Bronchus",
+        "fr_h":  "Bronche"
+    },
+    {
+        "en_h":  "Alveolus",
+        "fr_h":  "Alvéole pulmonaire"
+    },
+    {
+        "en_h":  "Pleura",
+        "fr_h":  "Plèvre"
+    },
+    {
+        "en_h":  "Epiglottis",
+        "fr_h":  "Épiglotte"
+    },
+    {
+        "en_h":  "Myocardium",
+        "fr_h":  "Myocarde"
+    },
+    {
+        "en_h":  "Pericardium",
+        "fr_h":  "Péricarde"
+    },
+    {
+        "en_h":  "Atrium",
+        "fr_h":  "Oreillette"
+    },
+    {
+        "en_h":  "Ventricle",
+        "fr_h":  "Ventricule"
+    },
+    {
+        "en_h":  "Aorta",
+        "fr_h":  "Aorte"
+    },
+    {
+        "en_h":  "Vena Cava",
+        "fr_h":  "Veine cave"
+    },
+    {
+        "en_h":  "Pylorus",
+        "fr_h":  "Pylore"
+    },
+    {
+        "en_h":  "Cecum",
+        "fr_h":  "Cæcum"
+    },
+    {
+        "en_h":  "Appendix",
+        "fr_h":  "Appendice"
+    },
+    {
+        "en_h":  "Colon",
+        "fr_h":  "Côlon"
+    },
+    {
+        "en_h":  "Rectum",
+        "fr_h":  "Rectum"
+    },
+    {
+        "en_h":  "Pancreas",
+        "fr_h":  "Pancréas"
+    },
+    {
+        "en_h":  "Nephron",
+        "fr_h":  "Néphron"
+    },
+    {
+        "en_h":  "Glomerulus",
+        "fr_h":  "Glomérule"
+    },
+    {
+        "en_h":  "Ureter",
+        "fr_h":  "Uretère"
+    },
+    {
+        "en_h":  "Urethra",
+        "fr_h":  "Urètre"
+    },
+    {
+        "en_h":  "Cerebrum",
+        "fr_h":  "Cerveau",
+        "fr_l":  "Hémisphères cérébraux"
+    },
+    {
+        "en_h":  "Cerebellum",
+        "fr_h":  "Cervelet"
+    },
+    {
+        "en_h":  "Brainstem",
+        "fr_h":  "Tronc cérébral"
+    },
+    {
+        "en_h":  "Meninges",
+        "fr_h":  "Méninges"
+    },
+    {
+        "en_h":  "Hippocampus",
+        "fr_h":  "Hippocampe"
+    },
+    {
+        "en_h":  "Spinal Cord",
+        "fr_h":  "Moelle épinière"
+    },
+    {
+        "en_h":  "Clavicle",
+        "fr_h":  "Clavicule"
+    },
+    {
+        "en_h":  "Scapula",
+        "fr_h":  "Omoplate",
+        "fr_l":  "Scapula"
+    },
+    {
+        "en_h":  "Sternum",
+        "fr_h":  "Sternum"
+    },
+    {
+        "en_h":  "Femur",
+        "fr_h":  "Fémur"
+    },
+    {
+        "en_h":  "Patella",
+        "fr_h":  "Rotule"
+    },
+    {
+        "en_h":  "Intervertebral Disc",
+        "fr_h":  "Disque intervertébral"
+    },
+    {
+        "en_h":  "Ligament",
+        "fr_h":  "Ligament"
+    },
+    {
+        "en_h":  "Tendon",
+        "fr_h":  "Tendon"
+    },
+    {
+        "en_h":  "Epidermis",
+        "fr_h":  "Épiderme"
+    },
+    {
+        "en_h":  "Dermis",
+        "fr_h":  "Derme"
+    },
+    {
+        "en_h":  "Cornea",
+        "fr_h":  "Cornée"
+    },
+    {
+        "en_h":  "Retina",
+        "fr_h":  "Rétine"
+    },
+    {
+        "en_h":  "Cochlea",
+        "fr_h":  "Cochlée"
+    },
+    {
+        "en_h":  "Lymph Node",
+        "fr_h":  "Ganglion lymphatique",
+        "fr_l":  "Ganglion"
+    },
+    {
+        "en_h":  "Thyroid Gland",
+        "fr_h":  "Glande thyroïde",
+        "fr_l":  "Thyroïde"
+    },
+    {
+        "en_h":  "Uterus",
+        "fr_h":  "Utérus"
+    },
+    {
+        "en_h":  "Prostate Gland",
+        "fr_h":  "Prostate"
+    },
+    {
+        "en_h":  "Critical Care Medicine",
+        "fr_h":  "Médecine intensive et réanimation",
+        "fr_l":  "Réanimation"
+    },
+    {
+        "en_h":  "Vascular Surgery",
+        "fr_h":  "Chirurgie vasculaire"
+    },
+    {
+        "en_h":  "Colorectal Surgery",
+        "fr_h":  "Chirurgie colorectale"
+    },
+    {
+        "en_h":  "Immunology",
+        "fr_h":  "Immunologie"
+    },
+    {
+        "en_h":  "General Anesthesia",
+        "fr_h":  "Anesthésie générale"
+    },
+    {
+        "en_h":  "Local Anesthesia",
+        "fr_h":  "Anesthésie locale",
+        "fr_l":  "Anesthésie locorégionale"
+    },
+    {
+        "en_h":  "Sedation",
+        "fr_h":  "Sédation"
+    },
+    {
+        "en_h":  "Epidural",
+        "fr_h":  "Péridurale",
+        "fr_l":  "Anesthésie péridurale"
+    },
+    {
+        "en_h":  "Renal Pelvis",
+        "fr_h":  "Bassinet",
+        "fr_l":  "Pelvis rénal"
+    },
+    {
+        "en_h":  "Nerve Block",
+        "fr_h":  "Bloc nerveux"
+    },
+    {
+        "en_h":  "Conscious Sedation",
+        "fr_h":  "Sédation consciente"
+    },
+    {
+        "en_h":  "Spinal Anesthesia",
+        "fr_h":  "Rachianesthésie"
+    },
+    {
+        "en_h":  "Ultrasound",
+        "fr_h":  "Échographie",
+        "fr_l":  "Ultrasonographie"
+    },
+    {
+        "en_h":  "X-ray",
+        "fr_h":  "Radiographie",
+        "fr_l":  "Rayons X"
+    },
+    {
+        "en_h":  "Contrast agent",
+        "fr_h":  "Produit de contraste"
+    },
+    {
+        "en_h":  "Physical therapy",
+        "fr_h":  "Kinésithérapie",
+        "fr_l":  "Physiothérapie"
+    },
+    {
+        "en_h":  "Occupational therapy",
+        "fr_h":  "Ergothérapie"
+    },
+    {
+        "en_h":  "Range of motion",
+        "fr_h":  "Amplitude articulaire",
+        "fr_l":  "Amplitude de mouvement"
+    },
+    {
+        "en_h":  "Speech therapy",
+        "fr_h":  "Orthophonie"
+    },
+    {
+        "en_h":  "Chemotherapy",
+        "fr_h":  "Chimiothérapie"
+    },
+    {
+        "en_h":  "Heart",
+        "fr_h":  "Cœur"
+    },
+    {
+        "en_h":  "Coronary Artery",
+        "fr_h":  "Artère coronaire"
+    },
+    {
+        "en_h":  "Heart Valve",
+        "fr_h":  "Valve cardiaque"
+    },
+    {
+        "en_h":  "Capillary",
+        "fr_h":  "Capillaire"
+    },
+    {
+        "en_h":  "Lung",
+        "fr_h":  "Poumon"
+    },
+    {
+        "en_h":  "Nasal Cavity",
+        "fr_h":  "Cavité nasale",
+        "fr_l":  "Fosse nasale"
+    },
+    {
+        "en_h":  "Paranasal Sinuses",
+        "fr_h":  "Sinus paranasaux"
+    },
+    {
+        "en_h":  "Stomach",
+        "fr_h":  "Estomac"
+    },
+    {
+        "en_h":  "Liver",
+        "fr_h":  "Foie"
+    },
+    {
+        "en_h":  "Small Intestine",
+        "fr_h":  "Intestin grêle"
+    },
+    {
+        "en_h":  "Large Intestine",
+        "fr_h":  "Gros intestin"
+    },
+    {
+        "en_h":  "Sigmoid Colon",
+        "fr_h":  "Côlon sigmoïde",
+        "fr_l":  "Sigmoïde"
+    },
+    {
+        "en_h":  "Kidney",
+        "fr_h":  "Rein"
+    },
+    {
+        "en_h":  "Urinary Bladder",
+        "fr_h":  "Vessie"
+    },
+    {
+        "en_h":  "Brain",
+        "fr_h":  "Encéphale",
+        "fr_l":  "Cerveau"
+    },
+    {
+        "en_h":  "Nerve",
+        "fr_h":  "Nerf"
+    },
+    {
+        "en_h":  "Neuron",
+        "fr_h":  "Neurone"
+    },
+    {
+        "en_h":  "Bone",
+        "fr_h":  "Os"
+    },
+    {
+        "en_h":  "Muscle",
+        "fr_h":  "Muscle"
+    },
+    {
+        "en_h":  "Cartilage",
+        "fr_h":  "Cartilage"
+    },
+    {
+        "en_h":  "Humerus",
+        "fr_h":  "Humérus"
+    },
+    {
+        "en_h":  "Tibia",
+        "fr_h":  "Tibia"
+    },
+    {
+        "en_h":  "Vertebra",
+        "fr_h":  "Vertèbre"
+    },
+    {
+        "en_h":  "Adrenal Gland",
+        "fr_h":  "Glande surrénale",
+        "fr_l":  "Surrénale"
+    },
+    {
+        "en_h":  "Spleen",
+        "fr_h":  "Rate"
+    },
+    {
+        "en_h":  "Ovary",
+        "fr_h":  "Ovaire"
+    },
+    {
+        "en_h":  "Cervix",
+        "fr_h":  "Col de l\u0027utérus",
+        "fr_l":  "Col utérin"
+    },
+    {
+        "en_h":  "Testicle",
+        "fr_h":  "Testicule"
+    },
+    {
+        "en_h":  "Iris",
+        "fr_h":  "Iris"
+    },
+    {
+        "en_h":  "Lens",
+        "fr_h":  "Cristallin"
+    },
+    {
+        "en_h":  "Tympanic Membrane",
+        "fr_h":  "Tympan",
+        "fr_l":  "Membrane tympanique"
+    },
+    {
+        "en_h":  "Abdomen",
+        "fr_h":  "Abdomen",
+        "fr_l":  "Ventre"
+    },
+    {
+        "en_h":  "Abduction",
+        "fr_h":  "Abduction"
+    },
+    {
+        "en_h":  "Adduction",
+        "fr_h":  "Adduction"
+    },
+    {
+        "en_h":  "Adenocarcinoma",
+        "fr_h":  "Adénocarcinome"
+    },
+    {
+        "en_h":  "Adipose tissue",
+        "fr_h":  "Tissu adipeux",
+        "fr_l":  "Tissu graisseux"
+    },
+    {
+        "en_h":  "Adrenocortical",
+        "fr_h":  "Corticosurrénalien"
+    },
+    {
+        "en_h":  "Ambidextrous",
+        "fr_h":  "Ambidextre"
+    },
+    {
+        "en_h":  "Amniotomy",
+        "fr_h":  "Amniotomie",
+        "fr_l":  "Rupture artificielle des membranes"
+    },
+    {
+        "en_h":  "Androgen",
+        "fr_h":  "Androgène"
+    },
+    {
+        "en_h":  "Angiography",
+        "fr_h":  "Angiographie"
+    },
+    {
+        "en_h":  "Anoxia",
+        "fr_h":  "Anoxie"
+    },
+    {
+        "en_h":  "Antibiotic",
+        "fr_h":  "Antibiotique"
+    },
+    {
+        "en_h":  "Aortostenosis",
+        "fr_h":  "Rétrécissement aortique",
+        "fr_l":  "Sténose aortique"
+    },
+    {
+        "en_h":  "Arteriosclerosis",
+        "fr_h":  "Artériosclérose"
+    },
+    {
+        "en_h":  "Brachial Arteritis",
+        "fr_h":  "Artérite brachiale"
+    },
+    {
+        "en_h":  "Arthritis",
+        "fr_h":  "Arthrite"
+    },
+    {
+        "en_h":  "Arthrocentesis",
+        "fr_h":  "Arthrocentèse",
+        "fr_l":  "Ponction articulaire"
+    },
+    {
+        "en_h":  "Arthroscope",
+        "fr_h":  "Arthroscope"
+    },
+    {
+        "en_h":  "Arthroscopy",
+        "fr_h":  "Arthroscopie"
+    },
+    {
+        "en_h":  "Axillary vein",
+        "fr_h":  "Veine axillaire"
+    },
+    {
+        "en_h":  "Bactericide",
+        "fr_h":  "Bactéricide"
+    },
+    {
+        "en_h":  "Biceps",
+        "fr_h":  "Biceps"
+    },
+    {
+        "en_h":  "Blepharospasm",
+        "fr_h":  "Blépharospasme"
+    },
+    {
+        "en_h":  "Brachycephaly",
+        "fr_h":  "Brachycéphalie"
+    },
+    {
+        "en_h":  "Bradypnea",
+        "fr_h":  "Bradypnée"
+    },
+    {
+        "en_h":  "Bronchitis",
+        "fr_h":  "Bronchite"
+    },
+    {
+        "en_h":  "Buccinator",
+        "fr_h":  "Buccinateur"
+    },
+    {
+        "en_h":  "Cardiogenic",
+        "fr_h":  "Cardiogénique"
+    },
+    {
+        "en_h":  "Carpal",
+        "fr_h":  "Carpien"
+    },
+    {
+        "en_h":  "Carpal tunnel",
+        "fr_h":  "Canal carpien"
+    },
+    {
+        "en_h":  "Cephalgia",
+        "fr_h":  "Céphalalgie",
+        "fr_l":  "Céphalée"
+    },
+    {
+        "en_h":  "Cephalocaudal",
+        "fr_h":  "Céphalo-caudal"
+    },
+    {
+        "en_h":  "Cerebellopontine",
+        "fr_h":  "Cérébellopontique"
+    },
+    {
+        "en_h":  "Cerebrospinal fluid",
+        "fr_h":  "Liquide céphalorachidien",
+        "fr_l":  "LCR"
+    },
+    {
+        "en_h":  "Chondroblast",
+        "fr_h":  "Chondroblaste"
+    },
+    {
+        "en_h":  "Chromosome",
+        "fr_h":  "Chromosome"
+    },
+    {
+        "en_h":  "Colostomy",
+        "fr_h":  "Colostomie"
+    },
+    {
+        "en_h":  "Colovesical fistula",
+        "fr_h":  "Fistule colovésicale"
+    },
+    {
+        "en_h":  "Contralateral",
+        "fr_h":  "Controlatéral"
+    },
+    {
+        "en_h":  "Costochondritis",
+        "fr_h":  "Costochondrite"
+    },
+    {
+        "en_h":  "Craniotomy",
+        "fr_h":  "Craniotomie"
+    },
+    {
+        "en_h":  "Cystoscope",
+        "fr_h":  "Cystoscope"
+    },
+    {
+        "en_h":  "Cytotoxic",
+        "fr_h":  "Cytotoxique"
+    },
+    {
+        "en_h":  "Duodenography",
+        "fr_h":  "Duodénographie"
+    },
+    {
+        "en_h":  "Edentulous",
+        "fr_h":  "Édenté"
+    },
+    {
+        "en_h":  "Electrocardiograph",
+        "fr_h":  "Électrocardiographe"
+    },
+    {
+        "en_h":  "Electrocardiography",
+        "fr_h":  "Électrocardiographie"
+    },
+    {
+        "en_h":  "Endocardium",
+        "fr_h":  "Endocarde"
+    },
+    {
+        "en_h":  "Endoscope",
+        "fr_h":  "Endoscope"
+    },
+    {
+        "en_h":  "Enterocolitis",
+        "fr_h":  "Entérocolite"
+    },
+    {
+        "en_h":  "Erythrocyte",
+        "fr_h":  "Érythrocyte",
+        "fr_l":  "Globule rouge"
+    },
+    {
+        "en_h":  "Estrogen",
+        "fr_h":  "Œstrogène"
+    },
+    {
+        "en_h":  "Flexor digitorum",
+        "fr_h":  "Fléchisseur commun des doigts"
+    },
+    {
+        "en_h":  "Frontoparietal",
+        "fr_h":  "Fronto-pariétal"
+    },
+    {
+        "en_h":  "Gastritis",
+        "fr_h":  "Gastrite"
+    },
+    {
+        "en_h":  "Gastrocele",
+        "fr_h":  "Gastrocèle"
+    },
+    {
+        "en_h":  "Genu valgum",
+        "fr_h":  "Genu valgum",
+        "fr_l":  "Genou en X"
+    },
+    {
+        "en_h":  "Genu varum",
+        "fr_h":  "Genu varum",
+        "fr_l":  "Genou en O"
+    },
+    {
+        "en_h":  "Gestational diabetes",
+        "fr_h":  "Diabète gestationnel"
+    },
+    {
+        "en_h":  "Glucometer",
+        "fr_h":  "Glucomètre",
+        "fr_l":  "Lecteur glycémique"
+    },
+    {
+        "en_h":  "Glycolysis",
+        "fr_h":  "Glycolyse"
+    },
+    {
+        "en_h":  "Hemigastrectomy",
+        "fr_h":  "Hémi-gastrectomie"
+    },
+    {
+        "en_h":  "Hemiparesis",
+        "fr_h":  "Hémiparésie"
+    },
+    {
+        "en_h":  "Hemiplegia",
+        "fr_h":  "Hémiplégie"
+    },
+    {
+        "en_h":  "Hemostasis",
+        "fr_h":  "Hémostase"
+    },
+    {
+        "en_h":  "Hepatomegaly",
+        "fr_h":  "Hépatomégalie"
+    },
+    {
+        "en_h":  "Hidradenitis",
+        "fr_h":  "Hidradénite"
+    },
+    {
+        "en_h":  "Intestinal obstruction",
+        "fr_h":  "Occlusion intestinale"
+    },
+    {
+        "en_h":  "Ipsilateral",
+        "fr_h":  "Ipsilatéral",
+        "fr_l":  "Homolatéral"
+    },
+    {
+        "en_h":  "Labiodental",
+        "fr_h":  "Labiodental"
+    },
+    {
+        "en_h":  "Lacrimal gland",
+        "fr_h":  "Glande lacrymale"
+    },
+    {
+        "en_h":  "Laparotomy",
+        "fr_h":  "Laparotomie"
+    },
+    {
+        "en_h":  "Laryngospasm",
+        "fr_h":  "Laryngospasme"
+    },
+    {
+        "en_h":  "Last menstrual period",
+        "fr_h":  "Dernières règles",
+        "fr_l":  "Date des dernières règles"
+    },
+    {
+        "en_h":  "Leukocyte",
+        "fr_h":  "Leucocyte",
+        "fr_l":  "Globule blanc"
+    },
+    {
+        "en_h":  "Linguogingival",
+        "fr_h":  "Linguo-gingival"
+    },
+    {
+        "en_h":  "Lithotripsy",
+        "fr_h":  "Lithotritie",
+        "fr_l":  "Lithotripsie"
+    },
+    {
+        "en_h":  "Macroglossia",
+        "fr_h":  "Macroglossie"
+    },
+    {
+        "en_h":  "Malnutrition",
+        "fr_h":  "Malnutrition",
+        "fr_l":  "Dénutrition"
+    },
+    {
+        "en_h":  "Melanoma",
+        "fr_h":  "Mélanome"
+    },
+    {
+        "en_h":  "Meniscus",
+        "fr_h":  "Ménisque"
+    },
+    {
+        "en_h":  "Metabolism",
+        "fr_h":  "Métabolisme"
+    },
+    {
+        "en_h":  "Metacarpal",
+        "fr_h":  "Métacarpien"
+    },
+    {
+        "en_h":  "Mucositis",
+        "fr_h":  "Mucite"
+    },
+    {
+        "en_h":  "Musculoskeletal",
+        "fr_h":  "Musculosquelettique"
+    },
+    {
+        "en_h":  "Mycology",
+        "fr_h":  "Mycologie"
+    },
+    {
+        "en_h":  "Myeloblast",
+        "fr_h":  "Myéloblaste"
+    },
+    {
+        "en_h":  "Myelogram",
+        "fr_h":  "Myélogramme"
+    },
+    {
+        "en_h":  "Myeloma",
+        "fr_h":  "Myélome"
+    },
+    {
+        "en_h":  "Myringomycosis",
+        "fr_h":  "Myringomycose"
+    },
+    {
+        "en_h":  "Nasopharynx",
+        "fr_h":  "Nasopharynx",
+        "fr_l":  "Rhinopharynx"
+    },
+    {
+        "en_h":  "Neonatal",
+        "fr_h":  "Néonatal"
+    },
+    {
+        "en_h":  "Nephrectomy",
+        "fr_h":  "Néphrectomie"
+    },
+    {
+        "en_h":  "Neurogenesis",
+        "fr_h":  "Neurogénèse"
+    },
+    {
+        "en_h":  "Normotensive",
+        "fr_h":  "Normotensif"
+    },
+    {
+        "en_h":  "Oculomotor",
+        "fr_h":  "Oculomoteur"
+    },
+    {
+        "en_h":  "Oncogene",
+        "fr_h":  "Oncogène"
+    },
+    {
+        "en_h":  "Oropharynx",
+        "fr_h":  "Oropharynx"
+    },
+    {
+        "en_h":  "Osteophyte",
+        "fr_h":  "Ostéophyte",
+        "fr_l":  "Bec de perroquet"
+    },
+    {
+        "en_h":  "Otorrhea",
+        "fr_h":  "Otorrhée"
+    },
+    {
+        "en_h":  "Otoscope",
+        "fr_h":  "Otoscope"
+    },
+    {
+        "en_h":  "Paralysis",
+        "fr_h":  "Paralysie"
+    },
+    {
+        "en_h":  "Pelvic binder",
+        "fr_h":  "Ceinture pelvienne",
+        "fr_l":  "Ceintrage pelvien"
+    },
+    {
+        "en_h":  "Pericardiocentesis",
+        "fr_h":  "Péricardiocentèse"
+    },
+    {
+        "en_h":  "Periodontitis",
+        "fr_h":  "Parodontite",
+        "fr_l":  "Périodontite"
+    },
+    {
+        "en_h":  "Periosteum",
+        "fr_h":  "Périoste"
+    },
+    {
+        "en_h":  "Perivascular",
+        "fr_h":  "Périvasculaire"
+    },
+    {
+        "en_h":  "Phonocardiogram",
+        "fr_h":  "Phonocardiogramme"
+    },
+    {
+        "en_h":  "Pleurodesis",
+        "fr_h":  "Pleurodèse"
+    },
+    {
+        "en_h":  "Polydipsia",
+        "fr_h":  "Polydipsie",
+        "fr_l":  "Soif excessive"
+    },
+    {
+        "en_h":  "Polyuria",
+        "fr_h":  "Polyurie"
+    },
+    {
+        "en_h":  "Postauricular",
+        "fr_h":  "Rétroauriculaire"
+    },
+    {
+        "en_h":  "Postoperative",
+        "fr_h":  "Postopératoire"
+    },
+    {
+        "en_h":  "Postpartum",
+        "fr_h":  "Post-partum"
+    },
+    {
+        "en_h":  "Prenatal",
+        "fr_h":  "Prénatal",
+        "fr_l":  "Anténatal"
+    },
+    {
+        "en_h":  "Preoperative",
+        "fr_h":  "Préopératoire"
+    },
+    {
+        "en_h":  "Prosthodontist",
+        "fr_h":  "Prothésiste dentaire",
+        "fr_l":  "Prosthodontiste"
+    },
+    {
+        "en_h":  "Protrusion",
+        "fr_h":  "Protrusion"
+    },
+    {
+        "en_h":  "Renogram",
+        "fr_h":  "Rénogramme"
+    },
+    {
+        "en_h":  "Rhinoplasty",
+        "fr_h":  "Rhinoplastie"
+    },
+    {
+        "en_h":  "Rhinorrhea",
+        "fr_h":  "Rhinorrhée",
+        "fr_l":  "Écoulement nasal"
+    },
+    {
+        "en_h":  "Rigors",
+        "fr_h":  "Frissons intenses"
+    },
+    {
+        "en_h":  "Sigmoidoscope",
+        "fr_h":  "Sigmoïdoscope"
+    },
+    {
+        "en_h":  "Snare",
+        "fr_h":  "Anse à polypectomie"
+    },
+    {
+        "en_h":  "Somatosensory",
+        "fr_h":  "Somatosensoriel"
+    },
+    {
+        "en_h":  "Spirometer",
+        "fr_h":  "Spiromètre"
+    },
+    {
+        "en_h":  "Splanchnic nerves",
+        "fr_h":  "Nerfs splanchniques"
+    },
+    {
+        "en_h":  "Splenectomy",
+        "fr_h":  "Splénectomie"
+    },
+    {
+        "en_h":  "Spondylosis",
+        "fr_h":  "Spondylose",
+        "fr_l":  "Arthrose vertébrale"
+    },
+    {
+        "en_h":  "Stethoscope",
+        "fr_h":  "Stéthoscope"
+    },
+    {
+        "en_h":  "Sublingual",
+        "fr_h":  "Sublingual",
+        "fr_l":  "Sous-lingual"
+    },
+    {
+        "en_h":  "Supragingival",
+        "fr_h":  "Supragingival"
+    },
+    {
+        "en_h":  "Symptomatic",
+        "fr_h":  "Symptomatique"
+    },
+    {
+        "en_h":  "Tachypnea",
+        "fr_h":  "Tachypnée"
+    },
+    {
+        "en_h":  "Thoracotomy",
+        "fr_h":  "Thoracotomie"
+    },
+    {
+        "en_h":  "Thrombectomy",
+        "fr_h":  "Thrombectomie"
+    },
+    {
+        "en_h":  "Thyrotoxicosis",
+        "fr_h":  "Thyrotoxicose"
+    },
+    {
+        "en_h":  "Tonoclonic seizure",
+        "fr_h":  "Crise tonico-clonique",
+        "fr_l":  "Crise grand mal"
+    },
+    {
+        "en_h":  "Topography",
+        "fr_h":  "Topographie"
+    },
+    {
+        "en_h":  "Toxicology",
+        "fr_h":  "Toxicologie"
+    },
+    {
+        "en_h":  "Transcutaneous",
+        "fr_h":  "Transcutané"
+    },
+    {
+        "en_h":  "Triceps",
+        "fr_h":  "Triceps"
+    },
+    {
+        "en_h":  "Twinge",
+        "fr_h":  "Élancement"
+    },
+    {
+        "en_h":  "Twitch",
+        "fr_h":  "Fasciculation",
+        "fr_l":  "Spasme musculaire"
+    },
+    {
+        "en_h":  "Tympanosclerosis",
+        "fr_h":  "Tympanosclérose"
+    },
+    {
+        "en_h":  "Ulnar",
+        "fr_h":  "Ulnaire",
+        "fr_l":  "Cubital"
+    },
+    {
+        "en_h":  "Umbilical cord",
+        "fr_h":  "Cordon ombilical"
+    },
+    {
+        "en_h":  "Varicose veins",
+        "fr_h":  "Varices"
+    },
+    {
+        "en_h":  "Vasoconstriction",
+        "fr_h":  "Vasoconstriction"
+    },
+    {
+        "en_h":  "Vasodilation",
+        "fr_h":  "Vasodilatation"
+    },
+    {
+        "en_h":  "Vasospasm",
+        "fr_h":  "Vasospasme"
+    },
+    {
+        "en_h":  "Venostasis",
+        "fr_h":  "Stase veineuse"
+    },
+    {
+        "en_h":  "Ventilator",
+        "fr_h":  "Ventilateur",
+        "fr_l":  "Respirateur artificiel"
+    },
+    {
+        "en_h":  "Visceroceptors",
+        "fr_h":  "Viscérocepteurs"
+    },
+    {
+        "en_h":  "Voluntary movement",
+        "fr_h":  "Mouvement volontaire"
+    },
+    {
+        "en_h":  "Weak pulse",
+        "fr_h":  "Pouls faible",
+        "fr_l":  "Pouls filant"
+    },
+    {
+        "en_h":  "Xanthochromia",
+        "fr_h":  "Xanthochromie"
+    },
+    {
+        "en_h":  "Abdominoplasty",
+        "fr_h":  "Abdominoplastie"
+    },
+    {
+        "en_h":  "Adrenalectomy",
+        "fr_h":  "Surrénalectomie"
+    },
+    {
+        "en_h":  "Amniocentesis",
+        "fr_h":  "Amniocentèse"
+    },
+    {
+        "en_h":  "Angiogram",
+        "fr_h":  "Angiogramme"
+    },
+    {
+        "en_h":  "Angioplasty",
+        "fr_h":  "Angioplastie"
+    },
+    {
+        "en_h":  "Aortography",
+        "fr_h":  "Aortographie"
+    },
+    {
+        "en_h":  "Arteriography",
+        "fr_h":  "Artériographie"
+    },
+    {
+        "en_h":  "Bronchoscopy",
+        "fr_h":  "Bronchoscopie"
+    },
+    {
+        "en_h":  "Carpectomy",
+        "fr_h":  "Carpectomie"
+    },
+    {
+        "en_h":  "Cholangiography",
+        "fr_h":  "Cholangiographie"
+    },
+    {
+        "en_h":  "Choledochotomy",
+        "fr_h":  "Cholédochotomie"
+    },
+    {
+        "en_h":  "Cystoscopy",
+        "fr_h":  "Cystoscopie"
+    },
+    {
+        "en_h":  "Duodenoscopy",
+        "fr_h":  "Duodénoscopie"
+    },
+    {
+        "en_h":  "Enteroscopy",
+        "fr_h":  "Entéroscopie"
+    },
+    {
+        "en_h":  "Esophagoscopy",
+        "fr_h":  "Œsophagoscopie"
+    },
+    {
+        "en_h":  "Fasciectomy",
+        "fr_h":  "Fasciectomie"
+    },
+    {
+        "en_h":  "Gastrectomy",
+        "fr_h":  "Gastrectomie"
+    },
+    {
+        "en_h":  "Gingivectomy",
+        "fr_h":  "Gingivectomie"
+    },
+    {
+        "en_h":  "Hysteroscopy",
+        "fr_h":  "Hystéroscopie"
+    },
+    {
+        "en_h":  "Ileostomy",
+        "fr_h":  "Iléostomie"
+    },
+    {
+        "en_h":  "Kyphoplasty",
+        "fr_h":  "Cyphoplastie"
+    },
+    {
+        "en_h":  "Labioplasty",
+        "fr_h":  "Labioplastie"
+    },
+    {
+        "en_h":  "Laryngoscopy",
+        "fr_h":  "Laryngoscopie"
+    },
+    {
+        "en_h":  "Mammogram",
+        "fr_h":  "Mammogramme"
+    },
+    {
+        "en_h":  "Mammoplasty",
+        "fr_h":  "Mammoplastie"
+    },
+    {
+        "en_h":  "Myringotomy",
+        "fr_h":  "Myringotomie",
+        "fr_l":  "Paracentèse du tympan"
+    },
+    {
+        "en_h":  "Neurotripsy",
+        "fr_h":  "Neurotripsie"
+    },
+    {
+        "en_h":  "Orchiectomy",
+        "fr_h":  "Orchidectomie"
+    },
+    {
+        "en_h":  "Ovariotomy",
+        "fr_h":  "Ovariectomie"
+    },
+    {
+        "en_h":  "Pancreatography",
+        "fr_h":  "Pancréatographie"
+    },
+    {
+        "en_h":  "Phlebotomy",
+        "fr_h":  "Phlébotomie",
+        "fr_l":  "Ponction veineuse"
+    },
+    {
+        "en_h":  "Proctoscopy",
+        "fr_h":  "Rectoscopie"
+    },
+    {
+        "en_h":  "Pyelogram",
+        "fr_h":  "Pyélogramme"
+    },
+    {
+        "en_h":  "Pyloromyotomy",
+        "fr_h":  "Pyloromyotomie"
+    },
+    {
+        "en_h":  "Septoplasty",
+        "fr_h":  "Septoplastie"
+    },
+    {
+        "en_h":  "Sigmoidoscopy",
+        "fr_h":  "Sigmoïdoscopie"
+    },
+    {
+        "en_h":  "Sinusotomy",
+        "fr_h":  "Sinusotomie"
+    },
+    {
+        "en_h":  "Sternotomy",
+        "fr_h":  "Sternotomie"
+    },
+    {
+        "en_h":  "Stethoscopy",
+        "fr_h":  "Stéthoscopie"
+    },
+    {
+        "en_h":  "Thyroidectomy",
+        "fr_h":  "Thyroïdectomie"
+    },
+    {
+        "en_h":  "Tomography",
+        "fr_h":  "Tomographie"
+    },
+    {
+        "en_h":  "Tracheotomy",
+        "fr_h":  "Trachéotomie"
+    },
+    {
+        "en_h":  "Tympanoplasty",
+        "fr_h":  "Tympanoplastie"
+    },
+    {
+        "en_h":  "Ureteroscopy",
+        "fr_h":  "Urétéroscopie"
+    },
+    {
+        "en_h":  "Urethroplasty",
+        "fr_h":  "Urétroplastie"
+    },
+    {
+        "en_h":  "Vasectomy",
+        "fr_h":  "Vasectomie"
+    },
+    {
+        "en_h":  "Ventriculography",
+        "fr_h":  "Ventriculographie"
+    },
+    {
+        "en_h":  "Vesicostomy",
+        "fr_h":  "Vésicostomie"
+    },
+    {
+        "en_h":  "Acrophobia",
+        "fr_h":  "Acrophobie",
+        "fr_l":  "Vertige des hauteurs"
+    },
+    {
+        "en_h":  "Adenitis",
+        "fr_h":  "Adénite"
+    },
+    {
+        "en_h":  "Agoraphobia",
+        "fr_h":  "Agoraphobie"
+    },
+    {
+        "en_h":  "Amphiarthrosis",
+        "fr_h":  "Amphiarthrose"
+    },
+    {
+        "en_h":  "Anhidrosis",
+        "fr_h":  "Anhidrose"
+    },
+    {
+        "en_h":  "Ankylosis",
+        "fr_h":  "Ankylose"
+    },
+    {
+        "en_h":  "Aortic Stenosis",
+        "fr_h":  "Rétrécissement aortique",
+        "fr_l":  "Sténose aortique valvulaire"
+    },
+    {
+        "en_h":  "Blepharitis",
+        "fr_h":  "Blépharite"
+    },
+    {
+        "en_h":  "Blepharoptosis",
+        "fr_h":  "Blépharoptose",
+        "fr_l":  "Ptosis"
+    },
+    {
+        "en_h":  "Cerebellitis",
+        "fr_h":  "Cérébellite"
+    },
+    {
+        "en_h":  "Claustrophobia",
+        "fr_h":  "Claustrophobie"
+    },
+    {
+        "en_h":  "Colitis",
+        "fr_h":  "Colite"
+    },
+    {
+        "en_h":  "Corneitis",
+        "fr_h":  "Kératite"
+    },
+    {
+        "en_h":  "Craniosynostosis",
+        "fr_h":  "Craniosynostose"
+    },
+    {
+        "en_h":  "Dacryocystitis",
+        "fr_h":  "Dacryocystite"
+    },
+    {
+        "en_h":  "Dermatitis",
+        "fr_h":  "Dermatite"
+    },
+    {
+        "en_h":  "Duodenitis",
+        "fr_h":  "Duodénite"
+    },
+    {
+        "en_h":  "Enteritis",
+        "fr_h":  "Entérite"
+    },
+    {
+        "en_h":  "Epiglottitis",
+        "fr_h":  "Épiglottite"
+    },
+    {
+        "en_h":  "Esophagitis",
+        "fr_h":  "Œsophagite"
+    },
+    {
+        "en_h":  "Fasciitis",
+        "fr_h":  "Fasciite"
+    },
+    {
+        "en_h":  "Fibromyalgia",
+        "fr_h":  "Fibromyalgie"
+    },
+    {
+        "en_h":  "Fibrosis",
+        "fr_h":  "Fibrose"
+    },
+    {
+        "en_h":  "Gingivitis",
+        "fr_h":  "Gingivite"
+    },
+    {
+        "en_h":  "Glomerulosclerosis",
+        "fr_h":  "Glomérulosclérose"
+    },
+    {
+        "en_h":  "Glossitis",
+        "fr_h":  "Glossite"
+    },
+    {
+        "en_h":  "Hepatitis",
+        "fr_h":  "Hépatite"
+    },
+    {
+        "en_h":  "Hyperhidrosis",
+        "fr_h":  "Hyperhidrose",
+        "fr_l":  "Transpiration excessive"
+    },
+    {
+        "en_h":  "Ileitis",
+        "fr_h":  "Iléite"
+    },
+    {
+        "en_h":  "Jejunitis",
+        "fr_h":  "Jéjunite"
+    },
+    {
+        "en_h":  "Jejunoileitis",
+        "fr_h":  "Jéjuno-iléite"
+    },
+    {
+        "en_h":  "Laryngitis",
+        "fr_h":  "Laryngite"
+    },
+    {
+        "en_h":  "Myringitis",
+        "fr_h":  "Myringite"
+    },
+    {
+        "en_h":  "Necrosis",
+        "fr_h":  "Nécrose"
+    },
+    {
+        "en_h":  "Nephroptosis",
+        "fr_h":  "Néphroptosc",
+        "fr_l":  "Rein ptôsé"
+    },
+    {
+        "en_h":  "Onychomycosis",
+        "fr_h":  "Onychomycose",
+        "fr_l":  "Mycose unguéale"
+    },
+    {
+        "en_h":  "Orchitis",
+        "fr_h":  "Orchite"
+    },
+    {
+        "en_h":  "Osteomyelitis",
+        "fr_h":  "Ostéomyélite"
+    },
+    {
+        "en_h":  "Otitis",
+        "fr_h":  "Otite"
+    },
+    {
+        "en_h":  "Pharyngitis",
+        "fr_h":  "Pharyngite",
+        "fr_l":  "Angine"
+    },
+    {
+        "en_h":  "Phlebitis",
+        "fr_h":  "Phlébite"
+    },
+    {
+        "en_h":  "Pleuritis",
+        "fr_h":  "Pleurésie",
+        "fr_l":  "Pleurite"
+    },
+    {
+        "en_h":  "Poliomyelitis",
+        "fr_h":  "Poliomyélite",
+        "fr_l":  "Polio"
+    },
+    {
+        "en_h":  "Proctitis",
+        "fr_h":  "Rectite",
+        "fr_l":  "Proctite"
+    },
+    {
+        "en_h":  "Prostatitis",
+        "fr_h":  "Prostatite"
+    },
+    {
+        "en_h":  "Psychosis",
+        "fr_h":  "Psychose"
+    },
+    {
+        "en_h":  "Pyloric Stenosis",
+        "fr_h":  "Sténose du pylore",
+        "fr_l":  "Sténose pylorique"
+    },
+    {
+        "en_h":  "Pyromania",
+        "fr_h":  "Pyromanie"
+    },
+    {
+        "en_h":  "Rhinitis",
+        "fr_h":  "Rhinite"
+    },
+    {
+        "en_h":  "Sarcoidosis",
+        "fr_h":  "Sarcoïdose"
+    },
+    {
+        "en_h":  "Sigmoiditis",
+        "fr_h":  "Sigmoïdite"
+    },
+    {
+        "en_h":  "Spinalgia",
+        "fr_h":  "Rachialgie"
+    },
+    {
+        "en_h":  "Spondylitis",
+        "fr_h":  "Spondylite"
+    },
+    {
+        "en_h":  "Synovitis",
+        "fr_h":  "Synovite"
+    },
+    {
+        "en_h":  "Tendonitis",
+        "fr_h":  "Tendinite"
+    },
+    {
+        "en_h":  "Thrombosis",
+        "fr_h":  "Thrombose"
+    },
+    {
+        "en_h":  "Tonsillitis",
+        "fr_h":  "Amygdalite",
+        "fr_l":  "Angine"
+    },
+    {
+        "en_h":  "Tracheitis",
+        "fr_h":  "Trachéite"
+    },
+    {
+        "en_h":  "Trichotillomania",
+        "fr_h":  "Trichotillomanie"
+    },
+    {
+        "en_h":  "Urethritis",
+        "fr_h":  "Urétrite"
+    },
+    {
+        "en_h":  "Venous Thrombosis",
+        "fr_h":  "Thrombose veineuse"
+    },
+    {
+        "en_h":  "Acoustic Neuroma",
+        "fr_h":  "Neurinome acoustique",
+        "fr_l":  "Schwannome vestibulaire"
+    },
+    {
+        "en_h":  "Adenoma",
+        "fr_h":  "Adénome"
+    },
+    {
+        "en_h":  "Adrenaline",
+        "fr_h":  "Adrénaline",
+        "fr_l":  "Épinéphrine"
+    },
+    {
+        "en_h":  "Aerophagia",
+        "fr_h":  "Aérophagie"
+    },
+    {
+        "en_h":  "Amebiasis",
+        "fr_h":  "Amibiase"
+    },
+    {
+        "en_h":  "Andropause",
+        "fr_h":  "Andropause"
+    },
+    {
+        "en_h":  "Anesthesia",
+        "fr_h":  "Anesthésie"
+    },
+    {
+        "en_h":  "Aortic Aneurysm",
+        "fr_h":  "Anévrisme aortique"
+    },
+    {
+        "en_h":  "Apnea",
+        "fr_h":  "Apnée"
+    },
+    {
+        "en_h":  "Arthrodesis",
+        "fr_h":  "Arthrodèse"
+    },
+    {
+        "en_h":  "Atrophy",
+        "fr_h":  "Atrophie"
+    },
+    {
+        "en_h":  "Audiometry",
+        "fr_h":  "Audiométrie"
+    },
+    {
+        "en_h":  "Autoimmune",
+        "fr_h":  "Auto-immun"
+    },
+    {
+        "en_h":  "Autopsy",
+        "fr_h":  "Autopsie"
+    },
+    {
+        "en_h":  "Bacteremia",
+        "fr_h":  "Bactériémie"
+    },
+    {
+        "en_h":  "Brachytherapy",
+        "fr_h":  "Curiethérapie",
+        "fr_l":  "Brachythérapie"
+    },
+    {
+        "en_h":  "Bradykinesia",
+        "fr_h":  "Bradykinésie"
+    },
+    {
+        "en_h":  "Bronchoconstriction",
+        "fr_h":  "Bronchoconstriction"
+    },
+    {
+        "en_h":  "Bronchodilation",
+        "fr_h":  "Bronchodilatation"
+    },
+    {
+        "en_h":  "Bronchospasm",
+        "fr_h":  "Bronchospasme"
+    },
+    {
+        "en_h":  "Wheezing",
+        "fr_h":  "Sifflement bronchique",
+        "fr_l":  "Wheezing"
+    },
+    {
+        "en_h":  "Rhonchi",
+        "fr_h":  "Ronchi",
+        "fr_l":  "Râles ronflants"
+    },
+    {
+        "en_h":  "Cardiologist",
+        "fr_h":  "Cardiologue"
+    },
+    {
+        "en_h":  "Cardioversion",
+        "fr_h":  "Cardioversion"
+    },
+    {
+        "en_h":  "Carpal Tunnel Syndrome",
+        "fr_h":  "Syndrome du canal carpien"
+    },
+    {
+        "en_h":  "Cerebral Palsy",
+        "fr_h":  "Paralysie cérébrale",
+        "fr_l":  "Infirmité motrice cérébrale"
+    },
+    {
+        "en_h":  "Chondroma",
+        "fr_h":  "Chondrome"
+    },
+    {
+        "en_h":  "Chondromalacia",
+        "fr_h":  "Chondromalacie"
+    },
+    {
+        "en_h":  "Coagulation",
+        "fr_h":  "Coagulation"
+    },
+    {
+        "en_h":  "Coccydynia",
+        "fr_h":  "Coccygodynie"
+    },
+    {
+        "en_h":  "Corneal Transplant",
+        "fr_h":  "Greffe de cornée",
+        "fr_l":  "Kératoplastie"
+    },
+    {
+        "en_h":  "Cytokine",
+        "fr_h":  "Cytokine"
+    },
+    {
+        "en_h":  "Debridement",
+        "fr_h":  "Débridement",
+        "fr_l":  "Parage chirurgical"
+    },
+    {
+        "en_h":  "Dehydration",
+        "fr_h":  "Déshydratation"
+    },
+    {
+        "en_h":  "Dentist",
+        "fr_h":  "Chirurgien-dentiste",
+        "fr_l":  "Dentiste"
+    },
+    {
+        "en_h":  "Dermatologist",
+        "fr_h":  "Dermatologue"
+    },
+    {
+        "en_h":  "Dialysis",
+        "fr_h":  "Dialyse"
+    },
+    {
+        "en_h":  "Diarrhea",
+        "fr_h":  "Diarrhée"
+    },
+    {
+        "en_h":  "Dyskinesia",
+        "fr_h":  "Dyskinésie"
+    },
+    {
+        "en_h":  "Dysphasia",
+        "fr_h":  "Dysphasie"
+    },
+    {
+        "en_h":  "Dysphonia",
+        "fr_h":  "Dysphonie"
+    },
+    {
+        "en_h":  "Emphysema",
+        "fr_h":  "Emphysème"
+    },
+    {
+        "en_h":  "Endometrium",
+        "fr_h":  "Endomètre"
+    },
+    {
+        "en_h":  "Erythropoietin",
+        "fr_h":  "Érythropoïétine",
+        "fr_l":  "EPO"
+    },
+    {
+        "en_h":  "Estriol",
+        "fr_h":  "Œstriol"
+    },
+    {
+        "en_h":  "Exocrine",
+        "fr_h":  "Exocrine"
+    },
+    {
+        "en_h":  "Exophthalmos",
+        "fr_h":  "Exophtalmie"
+    },
+    {
+        "en_h":  "Glucagon",
+        "fr_h":  "Glucagon"
+    },
+    {
+        "en_h":  "Glycosuria",
+        "fr_h":  "Glycosurie",
+        "fr_l":  "Sucre dans les urines"
+    },
+    {
+        "en_h":  "Hemoglobin",
+        "fr_h":  "Hémoglobine"
+    },
+    {
+        "en_h":  "Hemolysis",
+        "fr_h":  "Hémolyse"
+    },
+    {
+        "en_h":  "Hepatoma",
+        "fr_h":  "Carcinome hépatocellulaire",
+        "fr_l":  "Hépatocarcinome"
+    },
+    {
+        "en_h":  "Hepatotoxic",
+        "fr_h":  "Hépatotoxique"
+    },
+    {
+        "en_h":  "Herniorrhaphy",
+        "fr_h":  "Herniorrhaphie",
+        "fr_l":  "Cure de hernie"
+    },
+    {
+        "en_h":  "Hyperemesis",
+        "fr_h":  "Hyperémèse",
+        "fr_l":  "Vomissements incoercibles"
+    },
+    {
+        "en_h":  "Hyperesthesia",
+        "fr_h":  "Hyperesthésie"
+    },
+    {
+        "en_h":  "Hyperopia",
+        "fr_h":  "Hypermétropie"
+    },
+    {
+        "en_h":  "Hypertonia",
+        "fr_h":  "Hypertonie"
+    },
+    {
+        "en_h":  "Hypokalemia",
+        "fr_h":  "Hypokaliémie"
+    },
+    {
+        "en_h":  "Hypothermia",
+        "fr_h":  "Hypothermie"
+    },
+    {
+        "en_h":  "Immunodeficiency",
+        "fr_h":  "Immunodéficience",
+        "fr_l":  "Déficit immunitaire"
+    },
+    {
+        "en_h":  "Leukemia",
+        "fr_h":  "Leucémie"
+    },
+    {
+        "en_h":  "Leukopenia",
+        "fr_h":  "Leucopénie"
+    },
+    {
+        "en_h":  "Lipoma",
+        "fr_h":  "Lipome"
+    },
+    {
+        "en_h":  "Litholapaxy",
+        "fr_h":  "Litholapaxie"
+    },
+    {
+        "en_h":  "Lymphoma",
+        "fr_h":  "Lymphome"
+    },
+    {
+        "en_h":  "Macule",
+        "fr_h":  "Macule"
+    },
+    {
+        "en_h":  "Megalocardia",
+        "fr_h":  "Mégalocardie",
+        "fr_l":  "Cardiomégalie"
+    },
+    {
+        "en_h":  "Melanoptysis",
+        "fr_h":  "Mélanoptysie"
+    },
+    {
+        "en_h":  "Meningioma",
+        "fr_h":  "Méningiome"
+    },
+    {
+        "en_h":  "Meningocele",
+        "fr_h":  "Méningocèle"
+    },
+    {
+        "en_h":  "Menopause",
+        "fr_h":  "Ménopause"
+    },
+    {
+        "en_h":  "Menorrhagia",
+        "fr_h":  "Ménorragie",
+        "fr_l":  "Règles abondantes"
+    },
+    {
+        "en_h":  "Microcephaly",
+        "fr_h":  "Microcéphalie"
+    },
+    {
+        "en_h":  "Myelopathy",
+        "fr_h":  "Myélopathie"
+    },
+    {
+        "en_h":  "Myoglobin",
+        "fr_h":  "Myoglobine"
+    },
+    {
+        "en_h":  "Myopathy",
+        "fr_h":  "Myopathie"
+    },
+    {
+        "en_h":  "Myopia",
+        "fr_h":  "Myopie"
+    },
+    {
+        "en_h":  "Narcolepsy",
+        "fr_h":  "Narcolepsie"
+    },
+    {
+        "en_h":  "Neoplasm",
+        "fr_h":  "Néoplasme",
+        "fr_l":  "Tumeur"
+    },
+    {
+        "en_h":  "Nephropexy",
+        "fr_h":  "Néphropexie"
+    },
+    {
+        "en_h":  "Nephrotoxic",
+        "fr_h":  "Néphrotoxique"
+    },
+    {
+        "en_h":  "Neuroblastoma",
+        "fr_h":  "Neuroblastome"
+    },
+    {
+        "en_h":  "Neurologist",
+        "fr_h":  "Neurologue"
+    },
+    {
+        "en_h":  "Neutrophil",
+        "fr_h":  "Neutrophile",
+        "fr_l":  "Polynucléaire neutrophile"
+    },
+    {
+        "en_h":  "Oligospermia",
+        "fr_h":  "Oligospermie"
+    },
+    {
+        "en_h":  "Ophthalmoscope",
+        "fr_h":  "Ophtalmoscope"
+    },
+    {
+        "en_h":  "Orchiopexy",
+        "fr_h":  "Orchidopexie"
+    },
+    {
+        "en_h":  "Orthodontics",
+        "fr_h":  "Orthodontie"
+    },
+    {
+        "en_h":  "Osteomalacia",
+        "fr_h":  "Ostéomalacie"
+    },
+    {
+        "en_h":  "Ovarian Cyst",
+        "fr_h":  "Kyste ovarien"
+    },
+    {
+        "en_h":  "Papilledema",
+        "fr_h":  "Œdème papillaire"
+    },
+    {
+        "en_h":  "Paraplegia",
+        "fr_h":  "Paraplégie"
+    },
+    {
+        "en_h":  "Parathyroid",
+        "fr_h":  "Parathyroïde",
+        "fr_l":  "Glande parathyroïde"
+    },
+    {
+        "en_h":  "Pelvic Inflammatory Disease",
+        "fr_h":  "Maladie inflammatoire pelvienne",
+        "fr_l":  "Salpingite"
+    },
+    {
+        "en_h":  "Pharmacist",
+        "fr_h":  "Pharmacien"
+    },
+    {
+        "en_h":  "Physiotherapy",
+        "fr_h":  "Kinésithérapie",
+        "fr_l":  "Physiothérapie"
+    },
+    {
+        "en_h":  "Pleurodynia",
+        "fr_h":  "Pleurodynie"
+    },
+    {
+        "en_h":  "Pneumonia",
+        "fr_h":  "Pneumonie",
+        "fr_l":  "Pneumopathie"
+    },
+    {
+        "en_h":  "Porphyria",
+        "fr_h":  "Porphyrie"
+    },
+    {
+        "en_h":  "Prostatomegaly",
+        "fr_h":  "Prostatomégalie"
+    },
+    {
+        "en_h":  "Pseudocyst",
+        "fr_h":  "Pseudokyste"
+    },
+    {
+        "en_h":  "Pyoderma",
+        "fr_h":  "Pyodermite"
+    },
+    {
+        "en_h":  "Pyrexia",
+        "fr_h":  "Pyrexie",
+        "fr_l":  "Fièvre"
+    },
+    {
+        "en_h":  "Pyrogen",
+        "fr_h":  "Pyrogène"
+    },
+    {
+        "en_h":  "Pyuria",
+        "fr_h":  "Pyurie",
+        "fr_l":  "Leucocyturie"
+    },
+    {
+        "en_h":  "Quadriplegia",
+        "fr_h":  "Tétraplégie"
+    },
+    {
+        "en_h":  "Rectal Prolapse",
+        "fr_h":  "Prolapsus rectal"
+    },
+    {
+        "en_h":  "Rectocele",
+        "fr_h":  "Rectocèle"
+    },
+    {
+        "en_h":  "Relapse",
+        "fr_h":  "Rechute",
+        "fr_l":  "Récidive"
+    },
+    {
+        "en_h":  "Resection",
+        "fr_h":  "Résection"
+    },
+    {
+        "en_h":  "Retinal Detachment",
+        "fr_h":  "Décollement de rétine"
+    },
+    {
+        "en_h":  "Retinopathy",
+        "fr_h":  "Rétinopathie"
+    },
+    {
+        "en_h":  "Septicemia",
+        "fr_h":  "Septicémie"
+    },
+    {
+        "en_h":  "Somnolence",
+        "fr_h":  "Somnolence"
+    },
+    {
+        "en_h":  "Sphygmomanometer",
+        "fr_h":  "Sphygmomanomètre",
+        "fr_l":  "Tensiomètre"
+    },
+    {
+        "en_h":  "Spirometry",
+        "fr_h":  "Spirométrie"
+    },
+    {
+        "en_h":  "Spondylolisthesis",
+        "fr_h":  "Spondylolisthésis"
+    },
+    {
+        "en_h":  "Synapse",
+        "fr_h":  "Synapse"
+    },
+    {
+        "en_h":  "Synovial Fluid",
+        "fr_h":  "Liquide synovial",
+        "fr_l":  "Liquide articulaire"
+    },
+    {
+        "en_h":  "Telangiectasia",
+        "fr_h":  "Télangiectasie"
+    },
+    {
+        "en_h":  "Tenodesis",
+        "fr_h":  "Ténodèse"
+    },
+    {
+        "en_h":  "Thermometer",
+        "fr_h":  "Thermomètre"
+    },
+    {
+        "en_h":  "Thrombolysis",
+        "fr_h":  "Thrombolyse",
+        "fr_l":  "Fibrinolyse"
+    },
+    {
+        "en_h":  "Tonometer",
+        "fr_h":  "Tonomètre"
+    },
+    {
+        "en_h":  "Toxemia",
+        "fr_h":  "Toxémie"
+    },
+    {
+        "en_h":  "Transdermal",
+        "fr_h":  "Transdermique"
+    },
+    {
+        "en_h":  "Transfusion",
+        "fr_h":  "Transfusion"
+    },
+    {
+        "en_h":  "Tricuspid",
+        "fr_h":  "Tricuspide"
+    },
+    {
+        "en_h":  "Trimester",
+        "fr_h":  "Trimestre"
+    },
+    {
+        "en_h":  "Tympanometry",
+        "fr_h":  "Tympanométrie",
+        "fr_l":  "Impédancemétrie"
+    },
+    {
+        "en_h":  "Umbilical Hernia",
+        "fr_h":  "Hernie ombilicale"
+    },
+    {
+        "en_h":  "Ureterolithiasis",
+        "fr_h":  "Urétérolithiase",
+        "fr_l":  "Calcul urétéral"
+    },
+    {
+        "en_h":  "Urolithiasis",
+        "fr_h":  "Urolithiase",
+        "fr_l":  "Lithiase urinaire"
+    },
+    {
+        "en_h":  "Varicocele",
+        "fr_h":  "Varicocèle"
+    },
+    {
+        "en_h":  "Venipuncture",
+        "fr_h":  "Ponction veineuse"
+    },
+    {
+        "en_h":  "Ventricular Fibrillation",
+        "fr_h":  "Fibrillation ventriculaire"
+    },
+    {
+        "en_h":  "Vesicoureteral Reflux",
+        "fr_h":  "Reflux vésico-urétéral"
+    },
+    {
+        "en_h":  "Visceromegaly",
+        "fr_h":  "Viscéromégalie"
+    },
+    {
+        "en_h":  "Xanthoderma",
+        "fr_h":  "Xanthodermie"
+    },
+    {
+        "en_h":  "Xanthoma",
+        "fr_h":  "Xanthome"
+    },
+    {
+        "en_h":  "Albuminuria",
+        "fr_h":  "Albuminurie"
+    },
+    {
+        "en_h":  "Chlorosis",
+        "fr_h":  "Chlorose"
+    },
+    {
+        "en_h":  "Rhodopsin",
+        "fr_h":  "Rhodopsine"
+    },
+    {
+        "en_h":  "Juxtaglomerular",
+        "fr_h":  "Juxtaglomérulaire"
+    },
+    {
+        "en_h":  "Capitate",
+        "fr_h":  "Os capitate",
+        "fr_l":  "Grand os du carpe"
+    },
+    {
+        "en_h":  "Chronobiology",
+        "fr_h":  "Chronobiologie"
+    },
+    {
+        "en_h":  "Splanchnic",
+        "fr_h":  "Splanchnique"
+    },
+    {
+        "en_h":  "Levocardia",
+        "fr_h":  "Lévocardie"
+    },
+    {
+        "en_h":  "Dextrocardia",
+        "fr_h":  "Dextrocardie"
+    },
+    {
+        "en_h":  "Percutaneous",
+        "fr_h":  "Percutané"
+    },
+    {
+        "en_h":  "Astigmatism",
+        "fr_h":  "Astigmatisme"
+    },
+    {
+        "en_h":  "Pyloric sphincter",
+        "fr_h":  "Sphincter pylorique"
+    },
+    {
+        "en_h":  "Cardiac sphincter",
+        "fr_h":  "Sphincter œsophagien inférieur",
+        "fr_l":  "Cardia"
+    },
+    {
+        "en_h":  "Melatonin",
+        "fr_h":  "Mélatonine"
+    },
+    {
+        "en_h":  "Antidiuretic hormone",
+        "fr_h":  "Hormone antidiurétique",
+        "fr_l":  "Vasopressine"
+    },
+    {
+        "en_h":  "Median nerve",
+        "fr_h":  "Nerf médian"
+    },
+    {
+        "en_h":  "Antigen",
+        "fr_h":  "Antigène"
+    },
+    {
+        "en_h":  "Antibody",
+        "fr_h":  "Anticorps"
+    },
+    {
+        "en_h":  "Parietal lobe",
+        "fr_h":  "Lobe pariétal"
+    },
+    {
+        "en_h":  "Pineal gland",
+        "fr_h":  "Glande pinéale",
+        "fr_l":  "Épiphyse"
+    },
+    {
+        "en_h":  "Ovum",
+        "fr_h":  "Ovule",
+        "fr_l":  "Ovocyte"
+    },
+    {
+        "en_h":  "Follicle",
+        "fr_h":  "Follicule"
+    },
+    {
+        "en_h":  "Testis",
+        "fr_h":  "Testicule",
+        "fr_l":  "Gonade masculine"
+    },
+    {
+        "en_h":  "Vas deferens",
+        "fr_h":  "Canal déférent"
+    },
+    {
+        "en_h":  "Non-Steroidal Anti-Inflammatory Drug",
+        "fr_h":  "Anti-inflammatoire non stéroïdien",
+        "fr_l":  "AINS"
+    },
+    {
+        "en_h":  "Pseudocyesis",
+        "fr_h":  "Pseudocyèse",
+        "fr_l":  "Grossesse nerveuse"
+    },
+    {
+        "en_h":  "Ilium",
+        "fr_h":  "Ilion",
+        "fr_l":  "Os iliaque"
+    },
+    {
+        "en_h":  "Electronic medical record",
+        "fr_h":  "Dossier médical informatisé",
+        "fr_l":  "Dossier patient informatisé"
+    },
+    {
+        "en_h":  "OTC medicine",
+        "fr_h":  "Médicament sans ordonnance",
+        "fr_l":  "Médicament en vente libre"
+    },
+    {
+        "en_h":  "Prescription medicine",
+        "fr_h":  "Médicament sur ordonnance"
+    },
+    {
+        "en_h":  "Fallopian tube",
+        "fr_h":  "Trompe utérine",
+        "fr_l":  "Trompe de Fallope"
+    },
+    {
+        "en_h":  "Vagina",
+        "fr_h":  "Vagin"
+    },
+    {
+        "en_h":  "Vulva",
+        "fr_h":  "Vulve"
+    },
+    {
+        "en_h":  "Epididymis",
+        "fr_h":  "Épididyme"
+    },
+    {
+        "en_h":  "Penis",
+        "fr_h":  "Pénis",
+        "fr_l":  "Verge"
+    },
+    {
+        "en_h":  "Seminal vesicle",
+        "fr_h":  "Vésicule séminale"
+    },
+    {
+        "en_h":  "Sagittal plane",
+        "fr_h":  "Plan sagittal"
+    },
+    {
+        "en_h":  "Frontal plane",
+        "fr_h":  "Plan frontal",
+        "fr_l":  "Plan coronal"
+    },
+    {
+        "en_h":  "Transverse plane",
+        "fr_h":  "Plan transversal",
+        "fr_l":  "Plan axial"
+    },
+    {
+        "en_h":  "Brachial region",
+        "fr_h":  "Région brachiale"
+    },
+    {
+        "en_h":  "Cephalic region",
+        "fr_h":  "Région céphalique"
+    },
+    {
+        "en_h":  "Cervical region",
+        "fr_h":  "Région cervicale"
+    },
+    {
+        "en_h":  "Crural region",
+        "fr_h":  "Région crurale"
+    },
+    {
+        "en_h":  "Cranial cavity",
+        "fr_h":  "Cavité crânienne",
+        "fr_l":  "Boîte crânienne"
+    },
+    {
+        "en_h":  "Spinal cavity",
+        "fr_h":  "Canal vertébral",
+        "fr_l":  "Canal rachidien"
+    },
+    {
+        "en_h":  "Thoracic cavity",
+        "fr_h":  "Cavité thoracique"
+    },
+    {
+        "en_h":  "Abdominopelvic cavity",
+        "fr_h":  "Cavité abdominopelvienne"
+    },
+    {
+        "en_h":  "Peritoneum",
+        "fr_h":  "Péritoine"
+    },
+    {
+        "en_h":  "Abdominal quadrant",
+        "fr_h":  "Quadrant abdominal"
+    },
+    {
+        "en_h":  "Abdominal region",
+        "fr_h":  "Région abdominale"
+    },
+    {
+        "en_h":  "Medial",
+        "fr_h":  "Médial",
+        "fr_l":  "Interne"
+    },
+    {
+        "en_h":  "Lateral",
+        "fr_h":  "Latéral",
+        "fr_l":  "Externe"
+    },
+    {
+        "en_h":  "Proximal",
+        "fr_h":  "Proximal"
+    },
+    {
+        "en_h":  "Distal",
+        "fr_h":  "Distal"
+    },
+    {
+        "en_h":  "Apex",
+        "fr_h":  "Apex",
+        "fr_l":  "Sommet"
+    },
+    {
+        "en_h":  "Stratum basale",
+        "fr_h":  "Stratum basale",
+        "fr_l":  "Couche basale de l\u0027épiderme"
+    },
+    {
+        "en_h":  "Melanocyte",
+        "fr_h":  "Mélanocyte"
+    },
+    {
+        "en_h":  "Hair follicle",
+        "fr_h":  "Follicule pileux"
+    },
+    {
+        "en_h":  "Sudoriferous gland",
+        "fr_h":  "Glande sudoripare"
+    },
+    {
+        "en_h":  "Sebaceous gland",
+        "fr_h":  "Glande sébacée"
+    },
+    {
+        "en_h":  "Sensory receptor",
+        "fr_h":  "Récepteur sensoriel"
+    },
+    {
+        "en_h":  "Nail",
+        "fr_h":  "Ongle"
+    },
+    {
+        "en_h":  "Lunula",
+        "fr_h":  "Lunule"
+    },
+    {
+        "en_h":  "Cuticle",
+        "fr_h":  "Cuticule"
+    },
+    {
+        "en_h":  "Sebum",
+        "fr_h":  "Sébum"
+    },
+    {
+        "en_h":  "Acne",
+        "fr_h":  "Acné"
+    },
+    {
+        "en_h":  "Cutaneous",
+        "fr_h":  "Cutané"
+    },
+    {
+        "en_h":  "Abrasion",
+        "fr_h":  "Abrasion",
+        "fr_l":  "Égratignure"
+    },
+    {
+        "en_h":  "Bulla",
+        "fr_h":  "Bulle"
+    },
+    {
+        "en_h":  "Comedo",
+        "fr_h":  "Comédon",
+        "fr_l":  "Point noir"
+    },
+    {
+        "en_h":  "Contusion",
+        "fr_h":  "Contusion",
+        "fr_l":  "Ecchymose"
+    },
+    {
+        "en_h":  "Cyst",
+        "fr_h":  "Kyste"
+    },
+    {
+        "en_h":  "Depigmentation",
+        "fr_h":  "Dépigmentation"
+    },
+    {
+        "en_h":  "Diaphoresis",
+        "fr_h":  "Diaphorèse",
+        "fr_l":  "Sudation profuse"
+    },
+    {
+        "en_h":  "Erythroderma",
+        "fr_h":  "Érythrodermie"
+    },
+    {
+        "en_h":  "Eschar",
+        "fr_h":  "Escarre"
+    },
+    {
+        "en_h":  "Fissure",
+        "fr_h":  "Fissure",
+        "fr_l":  "Crevasse"
+    },
+    {
+        "en_h":  "Hyperemia",
+        "fr_h":  "Hyperhémie",
+        "fr_l":  "Congestion"
+    },
+    {
+        "en_h":  "Hyperpigmentation",
+        "fr_h":  "Hyperpigmentation"
+    },
+    {
+        "en_h":  "Lesion",
+        "fr_h":  "Lésion"
+    },
+    {
+        "en_h":  "Leukoderma",
+        "fr_h":  "Leucodermie"
+    },
+    {
+        "en_h":  "Nevus",
+        "fr_h":  "Nævus",
+        "fr_l":  "Grain de beauté"
+    },
+    {
+        "en_h":  "Nodule",
+        "fr_h":  "Nodule"
+    },
+    {
+        "en_h":  "Onychomalacia",
+        "fr_h":  "Onychomalacie"
+    },
+    {
+        "en_h":  "Pallor",
+        "fr_h":  "Pâleur"
+    },
+    {
+        "en_h":  "Papule",
+        "fr_h":  "Papule"
+    },
+    {
+        "en_h":  "Photosensitivity",
+        "fr_h":  "Photosensibilité"
+    },
+    {
+        "en_h":  "Purulent",
+        "fr_h":  "Purulent"
+    },
+    {
+        "en_h":  "Pustule",
+        "fr_h":  "Pustule"
+    },
+    {
+        "en_h":  "Systemic sclerosis",
+        "fr_h":  "Sclérodermie systémique"
+    },
+    {
+        "en_h":  "Seborrhea",
+        "fr_h":  "Séborrhée"
+    },
+    {
+        "en_h":  "Suppurative",
+        "fr_h":  "Suppuratif"
+    },
+    {
+        "en_h":  "Ulcer",
+        "fr_h":  "Ulcère"
+    },
+    {
+        "en_h":  "Vesicle",
+        "fr_h":  "Vésicule"
+    },
+    {
+        "en_h":  "Wheal",
+        "fr_h":  "Papule urticarienne"
+    },
+    {
+        "en_h":  "Xerosis",
+        "fr_h":  "Xérose",
+        "fr_l":  "Sécheresse cutanée"
+    },
+    {
+        "en_h":  "Abscess",
+        "fr_h":  "Abcès"
+    },
+    {
+        "en_h":  "Acne rosacea",
+        "fr_h":  "Rosacée"
+    },
+    {
+        "en_h":  "Acne vulgaris",
+        "fr_h":  "Acné vulgaire",
+        "fr_l":  "Acné commune"
+    },
+    {
+        "en_h":  "Albinism",
+        "fr_h":  "Albinisme"
+    },
+    {
+        "en_h":  "Basal cell carcinoma",
+        "fr_h":  "Carcinome basocellulaire"
+    },
+    {
+        "en_h":  "Burn",
+        "fr_h":  "Brûlure"
+    },
+    {
+        "en_h":  "Cicatrix",
+        "fr_h":  "Cicatrice"
+    },
+    {
+        "en_h":  "Decubitus ulcer",
+        "fr_h":  "Escarre de décubitus",
+        "fr_l":  "Ulcère de pression"
+    },
+    {
+        "en_h":  "Dermatosis",
+        "fr_h":  "Dermatose"
+    },
+    {
+        "en_h":  "Gangrene",
+        "fr_h":  "Gangrène"
+    },
+    {
+        "en_h":  "Dry gangrene",
+        "fr_h":  "Gangrène sèche"
+    },
+    {
+        "en_h":  "Wet gangrene",
+        "fr_h":  "Gangrène humide"
+    },
+    {
+        "en_h":  "Eczema",
+        "fr_h":  "Eczéma"
+    },
+    {
+        "en_h":  "Ichthyosis",
+        "fr_h":  "Ichtyose"
+    },
+    {
+        "en_h":  "Impetigo",
+        "fr_h":  "Impétigo"
+    },
+    {
+        "en_h":  "Kaposi\u0027s sarcoma",
+        "fr_h":  "Sarcome de Kaposi"
+    },
+    {
+        "en_h":  "Keloid",
+        "fr_h":  "Chéloïde"
+    },
+    {
+        "en_h":  "Keratosis",
+        "fr_h":  "Kératose"
+    },
+    {
+        "en_h":  "Laceration",
+        "fr_h":  "Lacération",
+        "fr_l":  "Plaie déchiquetée"
+    },
+    {
+        "en_h":  "Malignant melanoma",
+        "fr_h":  "Mélanome malin"
+    },
+    {
+        "en_h":  "Pediculosis",
+        "fr_h":  "Pédiculose"
+    },
+    {
+        "en_h":  "Rubella",
+        "fr_h":  "Rubéole"
+    },
+    {
+        "en_h":  "Scabies",
+        "fr_h":  "Gale"
+    },
+    {
+        "en_h":  "Sebaceous cyst",
+        "fr_h":  "Kyste sébacé",
+        "fr_l":  "Kyste épidermoïde"
+    },
+    {
+        "en_h":  "Squamous cell carcinoma",
+        "fr_h":  "Carcinome épidermoïde",
+        "fr_l":  "Carcinome spinocellulaire"
+    },
+    {
+        "en_h":  "Strawberry hemangioma",
+        "fr_h":  "Hémangiome infantile",
+        "fr_l":  "Hémangiome fraisé"
+    },
+    {
+        "en_h":  "Systemic lupus erythematosus",
+        "fr_h":  "Lupus érythémateux systémique",
+        "fr_l":  "LED"
+    },
+    {
+        "en_h":  "Tinea",
+        "fr_h":  "Dermatophytose",
+        "fr_l":  "Teigne"
+    },
+    {
+        "en_h":  "Tinea capitis",
+        "fr_h":  "Teigne du cuir chevelu"
+    },
+    {
+        "en_h":  "Tinea pedis",
+        "fr_h":  "Tinea pedis",
+        "fr_l":  "Pied d\u0027athlète"
+    },
+    {
+        "en_h":  "Varicella",
+        "fr_h":  "Varicelle"
+    },
+    {
+        "en_h":  "Verruca",
+        "fr_h":  "Verrue"
+    },
+    {
+        "en_h":  "Vitiligo",
+        "fr_h":  "Vitiligo"
+    },
+    {
+        "en_h":  "Carbuncle",
+        "fr_h":  "Anthrax",
+        "fr_l":  "Furoncle collecté"
+    },
+    {
+        "en_h":  "Furuncle",
+        "fr_h":  "Furoncle"
+    },
+    {
+        "en_h":  "Trichomycosis",
+        "fr_h":  "Trichomycose"
+    },
+    {
+        "en_h":  "Onychia",
+        "fr_h":  "Onychie"
+    },
+    {
+        "en_h":  "Onychophagia",
+        "fr_h":  "Onychophagie"
+    },
+    {
+        "en_h":  "Paronychia",
+        "fr_h":  "Paronychie",
+        "fr_l":  "Périonyxis"
+    },
+    {
+        "en_h":  "Culture and sensitivity",
+        "fr_h":  "Culture et antibiogramme"
+    },
+    {
+        "en_h":  "Excisional biopsy",
+        "fr_h":  "Biopsie excisionnelle"
+    },
+    {
+        "en_h":  "Exfoliative cytology",
+        "fr_h":  "Cytologie exfoliative"
+    },
+    {
+        "en_h":  "Frozen section",
+        "fr_h":  "Examen extemporané",
+        "fr_l":  "Coupe congelée"
+    },
+    {
+        "en_h":  "Fungal scrapings",
+        "fr_h":  "Prélèvement mycologique",
+        "fr_l":  "Raclage cutané pour mycose"
+    },
+    {
+        "en_h":  "Allograft",
+        "fr_h":  "Allogreffe",
+        "fr_l":  "Greffe allogénique"
+    },
+    {
+        "en_h":  "Autograft",
+        "fr_h":  "Autogreffe"
+    },
+    {
+        "en_h":  "Dermatome",
+        "fr_h":  "Dermatome"
+    },
+    {
+        "en_h":  "Dermatoplasty",
+        "fr_h":  "Dermatoplastie"
+    },
+    {
+        "en_h":  "Skin graft",
+        "fr_h":  "Greffe cutanée",
+        "fr_l":  "Greffe de peau"
+    },
+    {
+        "en_h":  "Xenograft",
+        "fr_h":  "Xénogreffe"
+    },
+    {
+        "en_h":  "Cauterization",
+        "fr_h":  "Cautérisation"
+    },
+    {
+        "en_h":  "Cryosurgery",
+        "fr_h":  "Cryochirurgie"
+    },
+    {
+        "en_h":  "Curettage",
+        "fr_h":  "Curetage"
+    },
+    {
+        "en_h":  "Electrocautery",
+        "fr_h":  "Électrocautérisation"
+    },
+    {
+        "en_h":  "Incision and drainage",
+        "fr_h":  "Incision et drainage"
+    },
+    {
+        "en_h":  "Onychectomy",
+        "fr_h":  "Onychectomie"
+    },
+    {
+        "en_h":  "Chemabrasion",
+        "fr_h":  "Peeling chimique",
+        "fr_l":  "Dermabrasion chimique"
+    },
+    {
+        "en_h":  "Dermabrasion",
+        "fr_h":  "Dermabrasion"
+    },
+    {
+        "en_h":  "Laser therapy",
+        "fr_h":  "Thérapie laser"
+    },
+    {
+        "en_h":  "Liposuction",
+        "fr_h":  "Liposuccion",
+        "fr_l":  "Lipoaspiration"
+    },
+    {
+        "en_h":  "Rhytidectomy",
+        "fr_h":  "Rhytidectomie",
+        "fr_l":  "Lifting facial"
+    },
+    {
+        "en_h":  "Anesthetic",
+        "fr_h":  "Anesthésique"
+    },
+    {
+        "en_h":  "Antifungal",
+        "fr_h":  "Antifongique"
+    },
+    {
+        "en_h":  "Antiparasitic",
+        "fr_h":  "Antiparasitaire"
+    },
+    {
+        "en_h":  "Antipruritic",
+        "fr_h":  "Antiprurigineux"
+    },
+    {
+        "en_h":  "Antiseptic",
+        "fr_h":  "Antiseptique"
+    },
+    {
+        "en_h":  "Corticosteroid cream",
+        "fr_h":  "Crème corticostéroïde",
+        "fr_l":  "Crème corticoïde"
+    }
+]

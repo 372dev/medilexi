@@ -127,6 +127,35 @@ export default function AboutPage() {
         </p>
       </section>
 
+      {/* ── Terms of Use ── */}
+      <section style={{ marginBottom: '2rem' }}>
+        <h2 style={H2}>Terms of Use &amp; Copyright</h2>
+        <p style={PROSE}>
+          All content on Medi Lexi — including definitions, translations, word-part entries, and the
+          dataset as a whole — is the original work of the Medi Lexi team and is protected under
+          copyright law. © 2026 Medi Lexi. All rights reserved.
+        </p>
+        <p style={PROSE}>
+          You may use this site for <strong style={{ color: 'var(--color-text)' }}>personal and educational purposes</strong> only.
+          The following are not permitted without explicit written permission:
+        </p>
+        <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.4rem', marginBottom: '0.75rem' }}>
+          {[
+            'Reproducing or redistributing content in bulk',
+            'Using the dataset to train AI or machine learning models',
+            'Incorporating content into commercial products or services',
+            'Scraping or automated extraction of data',
+          ].map(item => (
+            <li key={item} style={{ ...PROSE, marginBottom: 0, paddingLeft: '1rem', borderLeft: '2px solid var(--color-border)' }}>
+              {item}
+            </li>
+          ))}
+        </ul>
+        <p style={{ ...PROSE, marginBottom: 0 }}>
+          For licensing inquiries, please use the feedback form below.
+        </p>
+      </section>
+
       {/* ── Feedback ── */}
       <section>
         <h2 style={H2}>Feedback &amp; Contributions</h2>

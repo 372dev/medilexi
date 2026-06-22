@@ -167,7 +167,13 @@ export async function generateMetadata(): Promise<Metadata> {
       title:       fullTitle,
       description,
       url:         `${BASE_URL}${pathname}`,
-      images: [{ url: '/images/OG.png', alt: 'Medi Lexi — Multilingual Medical Glossary' }],
+      images: [{ url: '/images/OG.png', width: 1457, height: 720, alt: 'Medi Lexi — Multilingual Medical Glossary' }],
+    },
+    twitter: {
+      card:        'summary_large_image',
+      title:       fullTitle,
+      description,
+      images:      ['/images/OG.png'],
     },
     verification: {
       google: 'JZ95uplJM3cH6C9ILPnxMIjAgzjgiyrKDjIpmQ20gkQ',

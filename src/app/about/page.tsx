@@ -133,9 +133,14 @@ export default function AboutPage() {
         <p style={PROSE}>
           Found an error, missing term, or translation issue? We'd love to hear from you.
         </p>
-        <p style={{ ...PROSE, marginBottom: 0, opacity: 0.55 }}>
-          Feedback form coming soon.
-        </p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd7lvh6A2B8npmNCo3aarU4E-J7s4k3NxwsCqiTQ-MoYkgJaA/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ display: 'inline-block', fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', padding: '0.55rem 1.1rem', border: '1px solid var(--color-gold)', color: 'var(--color-gold)', textDecoration: 'none', letterSpacing: '0.04em', lineHeight: 2 }}
+        >
+          Open Feedback Form →
+        </a>
       </section>
 
     </div>

@@ -31,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   useEffect(() => {
     const saved = localStorage.getItem('theme')
-    if (saved === 'day') {
+    if (saved !== 'night') {
       setIsDay(true)
       document.body.classList.add('day')
     }

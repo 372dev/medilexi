@@ -35,25 +35,85 @@ const PAGE_DESCRIPTIONS: Record<string, string> = {
   '/privacy':             'Medi Lexi privacy policy — how we handle analytics, cookies, and data.',
 }
 
-const SITE_JSON_LD = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'WebSite',
-      '@id': `${BASE_URL}/#website`,
-      url: BASE_URL,
-      name: 'Medi Lexi',
-      description: 'Free multilingual medical glossary for students, medical interpreters and translators.',
-      inLanguage: ['en', 'ko'],
-    },
-    {
-      '@type': 'EducationalOrganization',
-      '@id': `${BASE_URL}/#org`,
-      name: 'Medi Lexi',
-      url: BASE_URL,
-      description: 'Free multilingual medical terminology reference and study platform.',
-    },
-  ],
+const BASE_GRAPH = [
+  {
+    '@type': 'WebSite',
+    '@id': `${BASE_URL}/#website`,
+    url: BASE_URL,
+    name: 'Medi Lexi',
+    description: 'Free multilingual medical glossary for students, medical interpreters and translators.',
+    inLanguage: ['en', 'ko'],
+  },
+  {
+    '@type': 'EducationalOrganization',
+    '@id': `${BASE_URL}/#org`,
+    name: 'Medi Lexi',
+    url: BASE_URL,
+    description: 'Free multilingual medical terminology reference and study platform.',
+  },
+]
+
+const PAGE_SCHEMA: Record<string, object> = {
+  '/glossary': {
+    '@type': 'LearningResource',
+    learningResourceType: 'reference',
+    educationalLevel: 'university',
+    inLanguage: 'en',
+  },
+  '/glossary/ko': {
+    '@type': 'LearningResource',
+    learningResourceType: 'reference',
+    educationalLevel: 'university',
+    inLanguage: ['en', 'ko'],
+  },
+  '/wordparts': {
+    '@type': ['LearningResource', 'DefinedTermSet'],
+    learningResourceType: 'reference',
+    educationalLevel: 'university',
+    inLanguage: 'en',
+  },
+  '/wordparts/flashcard': {
+    '@type': 'LearningResource',
+    learningResourceType: ['flashcard', 'activity'],
+    educationalLevel: 'university',
+    inLanguage: 'en',
+  },
+  '/wordparts/quiz': {
+    '@type': 'LearningResource',
+    learningResourceType: ['activity', 'quiz'],
+    educationalLevel: 'university',
+    inLanguage: 'en',
+  },
+  '/flashcards': {
+    '@type': 'LearningResource',
+    learningResourceType: ['flashcard', 'activity'],
+    educationalLevel: 'university',
+    inLanguage: 'en',
+  },
+  '/flashcards/ko': {
+    '@type': 'LearningResource',
+    learningResourceType: ['flashcard', 'activity'],
+    educationalLevel: 'university',
+    inLanguage: ['en', 'ko'],
+  },
+}
+
+function getPageJsonLd(pathname: string, title: string, description: string, url: string) {
+  const pageBase = PAGE_SCHEMA[pathname]
+  const graph = pageBase
+    ? [
+        ...BASE_GRAPH,
+        {
+          ...pageBase,
+          name: title,
+          description,
+          url,
+          isPartOf: { '@id': `${BASE_URL}/#website` },
+          provider: { '@id': `${BASE_URL}/#org` },
+        },
+      ]
+    : BASE_GRAPH
+  return { '@context': 'https://schema.org', '@graph': graph }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -112,6 +172,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:title" content={fullTitle} />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={`${BASE_URL}/images/hero-day.png`} />
+        <meta property="og:image:alt" content="Medi Lexi — Multilingual Medical Glossary" />
 
         {/* Google Search Console */}
         <meta name="google-site-verification" content="JZ95uplJM3cH6C9ILPnxMIjAgzjgiyrKDjIpmQ20gkQ" />
@@ -119,7 +181,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* JSON-LD */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(SITE_JSON_LD) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(getPageJsonLd(pathname, fullTitle, description, canonicalUrl)) }}
         />
       </head>
       <body>

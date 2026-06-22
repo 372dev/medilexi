@@ -43,6 +43,11 @@ const BASE_GRAPH = [
     name: 'Medi Lexi',
     description: 'Free multilingual medical glossary for students, medical interpreters and translators.',
     inLanguage: ['en', 'ko'],
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `${BASE_URL}/glossary?q={search_term_string}` },
+      'query-input': 'required name=search_term_string',
+    },
   },
   {
     '@type': 'EducationalOrganization',
@@ -110,21 +115,43 @@ const PAGE_SCHEMA: Record<string, object> = {
   },
 }
 
+const BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> = {
+  '/glossary':            [{ name: 'Home', path: '/' }, { name: 'English Glossary',   path: '/glossary' }],
+  '/glossary/ko':         [{ name: 'Home', path: '/' }, { name: 'Korean Glossary',    path: '/glossary/ko' }],
+  '/wordparts':           [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }],
+  '/wordparts/flashcard': [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }, { name: 'Flashcard', path: '/wordparts/flashcard' }],
+  '/wordparts/quiz':      [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }, { name: 'Quiz',      path: '/wordparts/quiz' }],
+  '/flashcards':          [{ name: 'Home', path: '/' }, { name: 'English Flashcard',  path: '/flashcards' }],
+  '/flashcards/ko':       [{ name: 'Home', path: '/' }, { name: 'Korean Flashcard',   path: '/flashcards/ko' }],
+  '/about':               [{ name: 'Home', path: '/' }, { name: 'About',              path: '/about' }],
+  '/privacy':             [{ name: 'Home', path: '/' }, { name: 'Privacy Policy',     path: '/privacy' }],
+}
+
 function getPageJsonLd(pathname: string, title: string, description: string, url: string) {
   const pageBase = PAGE_SCHEMA[pathname]
-  const graph = pageBase
-    ? [
-        ...BASE_GRAPH,
-        {
-          ...pageBase,
-          name: title,
-          description,
-          url,
-          isPartOf: { '@id': `${BASE_URL}/#website` },
-          provider: { '@id': `${BASE_URL}/#org` },
-        },
-      ]
-    : BASE_GRAPH
+  const crumbs   = BREADCRUMBS[pathname]
+
+  const graph = [
+    ...BASE_GRAPH,
+    ...(pageBase ? [{
+      ...pageBase,
+      name: title,
+      description,
+      url,
+      isPartOf: { '@id': `${BASE_URL}/#website` },
+      provider: { '@id': `${BASE_URL}/#org` },
+    }] : []),
+    ...(crumbs ? [{
+      '@type': 'BreadcrumbList',
+      itemListElement: crumbs.map((c, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: c.name,
+        item: `${BASE_URL}${c.path}`,
+      })),
+    }] : []),
+  ]
+
   return { '@context': 'https://schema.org', '@graph': graph }
 }
 

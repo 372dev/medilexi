@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
 import vocabData from '@/data/medical_vocab.json'
@@ -95,7 +96,8 @@ function Card({ v, onFieldClick }: { v: VocabEntry; onFieldClick: (f: string) =>
 }
 
 export default function GlossaryPage() {
-  const [search, setSearch]     = useState('')
+  const params = useSearchParams()
+  const [search, setSearch]     = useState(params.get('q') || '')
   const [fieldFilter, setField] = useState<string|null>(null)
   const [levelFilter, setLevel] = useState<string|null>(null)
 

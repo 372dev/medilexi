@@ -96,9 +96,14 @@ export default function Home() {
           ⚕ For educational purposes only · Not a substitute for professional medical advice, diagnosis, or treatment ·
           Content is based on standard medical terminology references and may not reflect the latest clinical guidelines
         </p>
-        <Link href="/about" style={{ fontSize:'0.82rem', color:'var(--color-accent)', textDecoration:'underline' }}>
-          About &amp; Sources
-        </Link>
+        <div style={{ display:'flex', gap:'1rem', flexWrap:'wrap', justifyContent:'center' }}>
+          <Link href="/about" style={{ fontSize:'0.82rem', color:'var(--color-accent)', textDecoration:'underline' }}>
+            About &amp; Sources
+          </Link>
+          <Link href="/privacy" style={{ fontSize:'0.82rem', color:'var(--color-accent)', textDecoration:'underline' }}>
+            Privacy Policy
+          </Link>
+        </div>
         <p className="site-footer__copy">© 2026 Medi Lexi · All rights reserved</p>
       </div>
     </>

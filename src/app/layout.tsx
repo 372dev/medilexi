@@ -17,10 +17,12 @@ const PAGE_TITLES: Record<string, string> = {
   '/flashcards':          'English Flashcard',
   '/flashcards/ko':       'Korean Flashcard',
   '/about':               'About',
+  '/privacy':             'Privacy Policy',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const [isDay, setIsDay] = useState(false)
+  const [cookieDismissed, setCookieDismissed] = useState(true)
   const pathname = usePathname()
   const isHome = pathname === '/'
   const pageTitle = PAGE_TITLES[pathname] || 'Medi Lexi'
@@ -35,7 +37,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       setIsDay(true)
       document.body.classList.add('day')
     }
+    if (!localStorage.getItem('cookie-notice')) {
+      setCookieDismissed(false)
+    }
   }, [])
+
+  function dismissCookieNotice() {
+    localStorage.setItem('cookie-notice', '1')
+    setCookieDismissed(true)
+  }
 
   function toggleMode() {
     const next = !isDay
@@ -107,11 +117,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 ⚕ For educational purposes only · Not a substitute for professional medical advice, diagnosis, or treatment ·
                 Content is based on standard medical terminology references and may not reflect the latest clinical guidelines
               </p>
-              <p style={{ fontSize: '0.82rem' }}>
+              <p style={{ fontSize: '0.82rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                 <Link href="/about" style={{ color: 'var(--color-accent)', textDecoration: 'underline' }}>About &amp; Sources</Link>
+                <Link href="/privacy" style={{ color: 'var(--color-accent)', textDecoration: 'underline' }}>Privacy Policy</Link>
               </p>
               <p className="site-footer__copy">© 2026 Medi Lexi · All rights reserved</p>
             </footer>
+            {!cookieDismissed && (
+              <div style={{ position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 200, background: 'var(--color-panel)', borderTop: '1px solid var(--color-border)', padding: '0.75rem 1.25rem', display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+                <p style={{ fontSize: '0.82rem', color: 'var(--color-text-dim)', margin: 0, lineHeight: 1.6 }}>
+                  This site uses cookies for analytics.{' '}
+                  <Link href="/privacy" style={{ color: 'var(--color-accent)', textDecoration: 'underline' }}>Learn more</Link>
+                </p>
+                <button
+                  onClick={dismissCookieNotice}
+                  style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', padding: '0.35rem 0.9rem', background: 'var(--color-gold)', color: 'var(--color-bg)', border: 'none', cursor: 'pointer', letterSpacing: '0.04em', lineHeight: 2 }}
+                >
+                  OK
+                </button>
+              </div>
+            )}
           </>
         )}
         <Analytics />

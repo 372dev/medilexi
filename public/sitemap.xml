@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://medilexi.vercel.app/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://medilexi.vercel.app/glossary</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://medilexi.vercel.app/glossary/ko</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://medilexi.vercel.app/wordparts</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://medilexi.vercel.app/wordparts/flashcard</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://medilexi.vercel.app/flashcards</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://medilexi.vercel.app/flashcards/ko</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://medilexi.vercel.app/about</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://medilexi.vercel.app/privacy</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+</urlset>

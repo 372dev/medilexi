@@ -218,9 +218,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* hreflang alternates */}
         {hreflang && <>
-          <link rel="alternate" hreflang="en"        href={`${BASE_URL}${hreflang.en}`} />
-          <link rel="alternate" hreflang="ko"        href={`${BASE_URL}${hreflang.ko}`} />
-          <link rel="alternate" hreflang="x-default" href={`${BASE_URL}${hreflang.en}`} />
+          <link rel="alternate" hrefLang="en"        href={`${BASE_URL}${hreflang.en}`} />
+          <link rel="alternate" hrefLang="ko"        href={`${BASE_URL}${hreflang.ko}`} />
+          <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}${hreflang.en}`} />
         </>}
 
         {/* Google Search Console */}

@@ -172,7 +172,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:title" content={fullTitle} />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:image" content={`${BASE_URL}/images/hero-day.png`} />
+        <meta property="og:image" content={`${BASE_URL}/images/OG.png`} />
         <meta property="og:image:alt" content="Medi Lexi — Multilingual Medical Glossary" />
 
         {/* Google Search Console */}

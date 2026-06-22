@@ -53,6 +53,18 @@ const BASE_GRAPH = [
   },
 ]
 
+const HREFLANG: Record<string, { en: string; ko: string }> = {
+  '/glossary':      { en: '/glossary',   ko: '/glossary/ko' },
+  '/glossary/ko':   { en: '/glossary',   ko: '/glossary/ko' },
+  '/flashcards':    { en: '/flashcards', ko: '/flashcards/ko' },
+  '/flashcards/ko': { en: '/flashcards', ko: '/flashcards/ko' },
+}
+
+const LANG: Record<string, string> = {
+  '/glossary/ko':   'ko',
+  '/flashcards/ko': 'ko',
+}
+
 const PAGE_SCHEMA: Record<string, object> = {
   '/glossary': {
     '@type': 'LearningResource',
@@ -125,6 +137,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const fullTitle = isHome ? 'Medi Lexi — Multilingual Medical Glossary' : `${pageTitle} — Medi Lexi`
   const description = PAGE_DESCRIPTIONS[pathname] || PAGE_DESCRIPTIONS['/']
   const canonicalUrl = `${BASE_URL}${pathname}`
+  const htmlLang = LANG[pathname] || 'en'
+  const hreflang = HREFLANG[pathname]
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -159,7 +173,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }
 
   return (
-    <html lang="en">
+    <html lang={htmlLang}>
       <head>
         <title>{fullTitle}</title>
         <meta name="description" content={description} />
@@ -174,6 +188,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:image" content={`${BASE_URL}/images/OG.png`} />
         <meta property="og:image:alt" content="Medi Lexi — Multilingual Medical Glossary" />
+
+        {/* hreflang alternates */}
+        {hreflang && <>
+          <link rel="alternate" hreflang="en"        href={`${BASE_URL}${hreflang.en}`} />
+          <link rel="alternate" hreflang="ko"        href={`${BASE_URL}${hreflang.ko}`} />
+          <link rel="alternate" hreflang="x-default" href={`${BASE_URL}${hreflang.en}`} />
+        </>}
 
         {/* Google Search Console */}
         <meta name="google-site-verification" content="JZ95uplJM3cH6C9ILPnxMIjAgzjgiyrKDjIpmQ20gkQ" />

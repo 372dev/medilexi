@@ -23,7 +23,7 @@ const PAGE_TITLES: Record<string, string> = {
 }
 
 const PAGE_DESCRIPTIONS: Record<string, string> = {
-  '/':                    'Free multilingual medical glossary for students, medical interpreters and translators. 999 terms, 408 word parts — in English and Korean.',
+  '/':                    'Learn medical vocabulary with prefix · root · suffix breakdowns, 999-term glossary, flashcards and quiz. Free study tool for medical students.',
   '/glossary':            'Search 999 medical terms with definitions, clinical specialties, importance levels, and word-part breakdowns.',
   '/glossary/ko':         'Bilingual English–Korean medical glossary with Korean definitions, IME-safe search, and word-part highlights.',
   '/wordparts':           '408 medical word parts — prefixes, roots, and suffixes — with meanings, examples, and clinical usage.',
@@ -205,7 +205,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <title>{fullTitle}</title>
         <meta name="description" content={description} />
         <link rel="canonical" href={canonicalUrl} />
-        <link rel="icon" href="/images/icon.png" type="image/png" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />

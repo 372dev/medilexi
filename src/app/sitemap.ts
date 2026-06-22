@@ -1,17 +1,18 @@
 import { MetadataRoute } from 'next'
 
 const BASE_URL = 'https://medilexi.vercel.app'
+const LAST_MOD   = '2026-06-22'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
-    { url: `${BASE_URL}/`,                    changeFrequency: 'monthly', priority: 1.0 },
-    { url: `${BASE_URL}/glossary`,            changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE_URL}/glossary/ko`,         changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/wordparts`,           changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/wordparts/flashcard`, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE_URL}/flashcards`,          changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/flashcards/ko`,       changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE_URL}/about`,               changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${BASE_URL}/privacy`,             changeFrequency: 'yearly',  priority: 0.4 },
+    { url: `${BASE_URL}/`,                    lastModified: LAST_MOD },
+    { url: `${BASE_URL}/glossary`,            lastModified: LAST_MOD },
+    { url: `${BASE_URL}/glossary/ko`,         lastModified: LAST_MOD },
+    { url: `${BASE_URL}/wordparts`,           lastModified: LAST_MOD },
+    { url: `${BASE_URL}/wordparts/flashcard`, lastModified: LAST_MOD },
+    { url: `${BASE_URL}/flashcards`,          lastModified: LAST_MOD },
+    { url: `${BASE_URL}/flashcards/ko`,       lastModified: LAST_MOD },
+    { url: `${BASE_URL}/about`,               lastModified: LAST_MOD },
+    { url: `${BASE_URL}/privacy`,             lastModified: LAST_MOD },
   ]
 }

@@ -113,6 +113,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:description" content={description} />
         <meta property="og:url" content={canonicalUrl} />
 
+        {/* Google Search Console */}
+        <meta name="google-site-verification" content="JZ95uplJM3cH6C9ILPnxMIjAgzjgiyrKDjIpmQ20gkQ" />
+
         {/* JSON-LD */}
         <script
           type="application/ld+json"

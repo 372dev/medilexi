@@ -2,17 +2,20 @@
     {
         "en_h":  "Hypertension",
         "fr_h":  "Hypertension artérielle",
-        "fr_l":  "Tension haute"
+        "fr_l":  "Tension haute",
+        "d_fr":  "Élévation chronique de la pression artérielle ; principal facteur de risque d\u0027accident vasculaire cérébral, d\u0027infarctus du myocarde, d\u0027insuffisance cardiaque et de maladie rénale."
     },
     {
         "en_h":  "Diabetes mellitus",
         "fr_h":  "Diabète sucré",
-        "fr_l":  "Diabète"
+        "fr_l":  "Diabète",
+        "d_fr":  "Trouble métabolique entraînant une hyperglycémie chronique due à des anomalies de la sécrétion ou de l\u0027action de l\u0027insuline ; comprend le diabète de type 1, de type 2 et gestationnel."
     },
     {
         "en_h":  "Preventive care",
         "fr_h":  "Soins préventifs",
-        "fr_l":  "Prévention médicale"
+        "fr_l":  "Prévention médicale",
+        "d_fr":  "Services de santé proactifs — vaccinations, dépistages, conseils — visant à prévenir l\u0027apparition des maladies."
     },
     {
         "en_h":  "Comorbidity",
@@ -24,26 +27,31 @@
     },
     {
         "en_h":  "Obesity",
-        "fr_h":  "Obésité"
+        "fr_h":  "Obésité",
+        "d_fr":  "Excès de masse grasse (IMC ≥ 30) associé à un risque accru de diabète de type 2, de maladies cardiovasculaires, d\u0027hypertension et de certains cancers."
     },
     {
         "en_h":  "Upper respiratory tract infection",
         "fr_h":  "Infection des voies respiratoires supérieures",
-        "fr_l":  "Rhume"
+        "fr_l":  "Rhume",
+        "d_fr":  "Inflammation virale aiguë des voies aériennes supérieures (nez, pharynx, larynx) ; l\u0027une des causes les plus fréquentes de consultation ambulatoire."
     },
     {
         "en_h":  "Consent",
-        "fr_h":  "Consentement éclairé"
+        "fr_h":  "Consentement éclairé",
+        "d_fr":  "Accord volontaire du patient à une intervention médicale proposée, après avoir reçu une information adéquate."
     },
     {
         "en_h":  "Chief complaint",
         "fr_h":  "Motif de consultation",
-        "fr_l":  "Plainte principale"
+        "fr_l":  "Plainte principale",
+        "d_fr":  "Symptôme ou motif principal qui amène le patient à consulter, consigné en début de tout entretien clinique."
     },
     {
         "en_h":  "Medical history",
         "fr_h":  "Antécédents médicaux",
-        "fr_l":  "Dossier médical"
+        "fr_l":  "Dossier médical",
+        "d_fr":  "Ensemble des antécédents médicaux du patient : maladies passées, interventions chirurgicales, traitements, allergies et antécédents familiaux."
     },
     {
         "en_h":  "Differential Diagnosis",
@@ -51,38 +59,46 @@
     },
     {
         "en_h":  "Prognosis",
-        "fr_h":  "Pronostic"
+        "fr_h":  "Pronostic",
+        "d_fr":  "Prévision de l\u0027évolution probable et de l\u0027issue d\u0027une maladie, incluant les chances de guérison ou de progression."
     },
     {
         "en_h":  "Allergy",
-        "fr_h":  "Allergie"
+        "fr_h":  "Allergie",
+        "d_fr":  "Réponse immunitaire anormale à une substance inoffensive (allergène), produisant des symptômes allant d\u0027une légère irritation à l\u0027anaphylaxie potentiellement mortelle."
     },
     {
         "en_h":  "Prescription",
-        "fr_h":  "Ordonnance"
+        "fr_h":  "Ordonnance",
+        "d_fr":  "Instruction écrite ou électronique d\u0027un clinicien habilité précisant un médicament, sa posologie, sa voie d\u0027administration et sa durée."
     },
     {
         "en_h":  "Symptom",
-        "fr_h":  "Symptôme"
+        "fr_h":  "Symptôme",
+        "d_fr":  "Manifestation subjective d\u0027une maladie ressentie et rapportée par le patient (ex. : douleur, fatigue, nausées)."
     },
     {
         "en_h":  "Sign",
         "fr_h":  "Signe clinique",
-        "fr_l":  "Signe"
+        "fr_l":  "Signe",
+        "d_fr":  "Manifestation objective d\u0027une maladie détectée par le clinicien lors de l\u0027examen (ex. : fièvre, œdème, souffle cardiaque anormal)."
     },
     {
         "en_h":  "Vital signs",
         "fr_h":  "Constantes vitales",
-        "fr_l":  "Signes vitaux"
+        "fr_l":  "Signes vitaux",
+        "d_fr":  "Cinq mesures fondamentales évaluées à chaque consultation : pression artérielle, fréquence cardiaque, fréquence respiratoire, température corporelle et saturation en oxygène."
     },
     {
         "en_h":  "Acute",
-        "fr_h":  "Aigu"
+        "fr_h":  "Aigu",
+        "d_fr":  "Condition d\u0027apparition soudaine et de courte durée, souvent d\u0027intensité sévère ; par opposition à chronique."
     },
     {
         "en_h":  "Myocardial Infarction",
         "fr_h":  "Infarctus du myocarde",
-        "fr_l":  "Crise cardiaque"
+        "fr_l":  "Crise cardiaque",
+        "d_fr":  "Nécrose du tissu myocardique due à une occlusion artérielle coronarienne aiguë ; se manifeste par une douleur thoracique, des modifications à l\u0027ECG et une élévation des biomarqueurs cardiaques."
     },
     {
         "en_h":  "Acute coronary syndrome",
@@ -95,12 +111,14 @@
     },
     {
         "en_h":  "Heart failure",
-        "fr_h":  "Insuffisance cardiaque"
+        "fr_h":  "Insuffisance cardiaque",
+        "d_fr":  "Syndrome dans lequel le cœur ne peut assurer un débit sanguin suffisant aux besoins métaboliques, entraînant dyspnée, rétention hydrique et fatigue."
     },
     {
         "en_h":  "Arrhythmia",
         "fr_h":  "Arythmie",
-        "fr_l":  "Trouble du rythme cardiaque"
+        "fr_l":  "Trouble du rythme cardiaque",
+        "d_fr":  "Toute anomalie de la fréquence ou du rythme cardiaque — trop rapide, trop lent ou irrégulier — allant de bénigne à potentiellement mortelle."
     },
     {
         "en_h":  "Atrial Fibrillation",
@@ -109,12 +127,14 @@
     {
         "en_h":  "Electrocardiogram",
         "fr_h":  "Électrocardiogramme",
-        "fr_l":  "ECG"
+        "fr_l":  "ECG",
+        "d_fr":  "Examen diagnostique enregistrant l\u0027activité électrique du cœur ; essentiel pour détecter les arythmies, l\u0027infarctus et les anomalies de conduction."
     },
     {
         "en_h":  "Coronary artery disease",
         "fr_h":  "Maladie coronarienne",
-        "fr_l":  "Coronaropathie"
+        "fr_l":  "Coronaropathie",
+        "d_fr":  "Rétrécissement ou obstruction des artères coronaires par athérosclérose, réduisant l\u0027apport sanguin au myocarde."
     },
     {
         "en_h":  "Atherosclerosis",
@@ -123,7 +143,8 @@
     {
         "en_h":  "Cerebrovascular Accident",
         "fr_h":  "Accident vasculaire cérébral",
-        "fr_l":  "AVC"
+        "fr_l":  "AVC",
+        "d_fr":  "Perte soudaine de la fonction neurologique due à une interruption de l\u0027irrigation cérébrale ; classifié en ischémique ou hémorragique."
     },
     {
         "en_h":  "Cerebral infarction",
@@ -142,15 +163,18 @@
     {
         "en_h":  "Transient Ischemic Attack",
         "fr_h":  "Accident ischémique transitoire",
-        "fr_l":  "AIT"
+        "fr_l":  "AIT",
+        "d_fr":  "Dysfonction neurologique brève due à une ischémie cérébrale transitoire, se résolvant en moins de 24 heures ; signe précurseur important d\u0027un AVC imminent."
     },
     {
         "en_h":  "Cardiac arrest",
-        "fr_h":  "Arrêt cardiaque"
+        "fr_h":  "Arrêt cardiaque",
+        "d_fr":  "Arrêt brutal de la pompe cardiaque entraînant perte de conscience et décès en quelques minutes sans réanimation cardiopulmonaire."
     },
     {
         "en_h":  "Hemorrhage",
-        "fr_h":  "Hémorragie"
+        "fr_h":  "Hémorragie",
+        "d_fr":  "Écoulement de sang hors des vaisseaux rompus, en interne ou en externe ; classifié par origine (artérielle, veineuse, capillaire) et localisation."
     },
     {
         "en_h":  "Palpitation",
@@ -158,90 +182,111 @@
     },
     {
         "en_h":  "Diagnosis",
-        "fr_h":  "Diagnostic"
+        "fr_h":  "Diagnostic",
+        "d_fr":  "Processus d\u0027identification d\u0027une maladie ou d\u0027un trouble basé sur les symptômes, les signes, l\u0027anamnèse et les résultats d\u0027examens."
     },
     {
         "en_h":  "Treatment",
-        "fr_h":  "Traitement"
+        "fr_h":  "Traitement",
+        "d_fr":  "Toute intervention visant à guérir, gérer ou soulager une maladie ou ses symptômes."
     },
     {
         "en_h":  "Chronic",
-        "fr_h":  "Chronique"
+        "fr_h":  "Chronique",
+        "d_fr":  "Qualifie une affection persistant sur une longue durée (généralement ≥ 3 mois), nécessitant habituellement une surveillance et une prise en charge continues."
     },
     {
         "en_h":  "Inflammation",
-        "fr_h":  "Inflammation"
+        "fr_h":  "Inflammation",
+        "d_fr":  "Réponse immunitaire à une lésion tissulaire ou une infection, caractérisée par vasodilatation et infiltration leucocytaire ; se manifeste par rougeur, œdème, chaleur et douleur."
     },
     {
         "en_h":  "Infection",
-        "fr_h":  "Infection"
+        "fr_h":  "Infection",
+        "d_fr":  "Invasion et multiplication d\u0027agents pathogènes — bactéries, virus, champignons ou parasites — au sein d\u0027un hôte, provoquant des lésions tissulaires et une maladie clinique."
     },
     {
         "en_h":  "Fever",
-        "fr_h":  "Fièvre"
+        "fr_h":  "Fièvre",
+        "d_fr":  "Température corporelle supérieure à 38 °C, indiquant généralement une infection ou une inflammation systémique."
     },
     {
         "en_h":  "Pain",
-        "fr_h":  "Douleur"
+        "fr_h":  "Douleur",
+        "d_fr":  "Expérience sensorielle et émotionnelle désagréable associée à une lésion tissulaire réelle ou potentielle, variable en type, durée et intensité."
     },
     {
         "en_h":  "Biopsy",
-        "fr_h":  "Biopsie"
+        "fr_h":  "Biopsie",
+        "d_fr":  "Prélèvement d\u0027un fragment tissulaire pour examen microscopique, afin d\u0027établir ou confirmer un diagnostic, notamment en cas de suspicion de malignité."
     },
     {
         "en_h":  "Benign",
-        "fr_h":  "Bénin"
+        "fr_h":  "Bénin",
+        "d_fr":  "Non malin ; se dit d\u0027une néoplasie ou d\u0027une affection qui n\u0027envahit pas les tissus adjacents, ne métastase pas et présente généralement un pronostic favorable."
     },
     {
         "en_h":  "Malignant",
         "fr_h":  "Malin",
-        "fr_l":  "Cancéreux"
+        "fr_l":  "Cancéreux",
+        "d_fr":  "Qualifie une tumeur qui envahit les tissus environnants et peut métastaser vers d\u0027autres parties de l\u0027organisme."
     },
     {
         "en_h":  "Metastasis",
-        "fr_h":  "Métastase"
+        "fr_h":  "Métastase",
+        "d_fr":  "Dissémination de cellules cancéreuses depuis le site primitif vers des organes ou tissus distants, par voie sanguine ou lymphatique."
     },
     {
         "en_h":  "Fracture",
-        "fr_h":  "Fracture"
+        "fr_h":  "Fracture",
+        "d_fr":  "Rupture ou fissure d\u0027un os due à un traumatisme, un stress répété ou une maladie osseuse sous-jacente telle que l\u0027ostéoporose."
     },
     {
         "en_h":  "Edema",
-        "fr_h":  "Œdème"
+        "fr_h":  "Œdème",
+        "d_fr":  "Accumulation de liquide dans les tissus interstitiels provoquant un gonflement ; causée par une pression capillaire élevée, une hypoalbuminémie ou une obstruction lymphatique."
     },
     {
         "en_h":  "Nausea",
-        "fr_h":  "Nausée"
+        "fr_h":  "Nausée",
+        "d_fr":  "Sensation désagréable de besoin de vomir, ressentie dans l\u0027épigastre ; symptôme non spécifique de nombreuses affections digestives et systémiques."
     },
     {
         "en_h":  "Dyspnea",
         "fr_h":  "Dyspnée",
-        "fr_l":  "Essoufflement"
+        "fr_l":  "Essoufflement",
+        "d_fr":  "Sensation subjective de difficulté ou d\u0027inconfort respiratoire ; symptôme cardinal des maladies cardiaques et respiratoires."
     },
     {
         "en_h":  "Triage",
-        "fr_h":  "Triage"
+        "fr_h":  "Triage",
+        "d_fr":  "Évaluation rapide et priorisation des patients selon la gravité de leur état, afin d\u0027allouer les ressources médicales limitées à ceux qui en bénéficieront le plus."
     },
     {
         "en_h":  "Dementia",
-        "fr_h":  "Démence"
+        "fr_h":  "Démence",
+        "d_fr":  "Déclin progressif de la mémoire, du langage et du raisonnement, suffisamment sévère pour altérer les activités quotidiennes ; la maladie d\u0027Alzheimer en est la cause la plus fréquente."
     },
     {
         "en_h":  "Alzheimer\u0027s disease",
-        "fr_h":  "Maladie d\u0027Alzheimer"
+        "fr_h":  "Maladie d\u0027Alzheimer",
+        "d_fr":  "Maladie neurodégénérative progressive entraînant une démence par accumulation de plaques amyloïdes et d\u0027enchevêtrements de tau, aboutissant à un déclin cognitif irréversible."
     },
     {
         "en_h":  "Epilepsy",
-        "fr_h":  "Épilepsie"
+        "fr_h":  "Épilepsie",
+        "d_fr":  "Trouble neurologique chronique caractérisé par des crises récurrentes et non provoquées, dues à une activité électrique cérébrale anormale."
     },
     {
         "en_h":  "Seizure",
         "fr_h":  "Crise épileptique",
-        "fr_l":  "Convulsion"
+        "fr_l":  "Convulsion",
+        "d_fr":  "Perturbation électrique soudaine et incontrôlée dans le cerveau provoquant des changements transitoires du comportement, des mouvements, des sensations ou de la conscience."
     },
     {
         "en_h":  "Parkinson\u0027s disease",
-        "fr_h":  "Maladie de Parkinson"
+        "fr_h":  "Maladie de Parkinson",
+        "d_fr":  "Maladie neurodégénérative progressive causant tremblement, rigidité et bradykinésie, due à la destruction des neurones dopaminergiques de la substance noire."
     },
     {
         "en_h":  "Multiple sclerosis",
@@ -250,7 +295,8 @@
     {
         "en_h":  "Headache",
         "fr_h":  "Céphalée",
-        "fr_l":  "Mal de tête"
+        "fr_l":  "Mal de tête",
+        "d_fr":  "Douleur dans toute région de la tête ; classifiée en primaire (migraine, céphalée de tension) ou secondaire (infection, pathologie intracrânienne)."
     },
     {
         "en_h":  "Migraine",
@@ -309,7 +355,8 @@
     {
         "en_h":  "Referral",
         "fr_h":  "Orientation médicale",
-        "fr_l":  "Référence médicale"
+        "fr_l":  "Référence médicale",
+        "d_fr":  "Processus formel orientant un patient d\u0027un médecin généraliste vers un spécialiste pour une évaluation ou un traitement complémentaire."
     },
     {
         "en_h":  "Polypharmacy",
@@ -319,7 +366,8 @@
     {
         "en_h":  "Vaccination / Immunization",
         "fr_h":  "Vaccination",
-        "fr_l":  "Immunisation"
+        "fr_l":  "Immunisation",
+        "d_fr":  "Administration d\u0027un vaccin pour stimuler l\u0027immunité et protéger contre des maladies infectieuses spécifiques."
     },
     {
         "en_h":  "Hypothyroidism",
@@ -331,30 +379,36 @@
     },
     {
         "en_h":  "Depression",
-        "fr_h":  "Dépression"
+        "fr_h":  "Dépression",
+        "d_fr":  "Trouble de l\u0027humeur caractérisé par une humeur dépressive persistante et une anhédonie pendant au moins deux semaines, altérant le fonctionnement quotidien ; perturbe le sommeil, l\u0027appétit et l\u0027énergie."
     },
     {
         "en_h":  "Urinary tract infection",
         "fr_h":  "Infection urinaire",
-        "fr_l":  "Infection des voies urinaires"
+        "fr_l":  "Infection des voies urinaires",
+        "d_fr":  "Infection bactérienne du système urinaire (vessie, urètre, reins) ; l\u0027une des infections les plus fréquemment diagnostiquées."
     },
     {
         "en_h":  "Body mass index",
         "fr_h":  "Indice de masse corporelle",
-        "fr_l":  "IMC"
+        "fr_l":  "IMC",
+        "d_fr":  "Rapport du poids (kg) sur le carré de la taille (m²), utilisé comme outil de dépistage de la dénutrition, du surpoids et de l\u0027obésité."
     },
     {
         "en_h":  "Ambulatory care",
-        "fr_h":  "Soins ambulatoires"
+        "fr_h":  "Soins ambulatoires",
+        "d_fr":  "Soins médicaux dispensés sans hospitalisation ; le patient se rend en consultation et rentre chez lui le même jour."
     },
     {
         "en_h":  "Follow-up",
         "fr_h":  "Suivi médical",
-        "fr_l":  "Consultation de suivi"
+        "fr_l":  "Consultation de suivi",
+        "d_fr":  "Visite ultérieure programmée pour surveiller l\u0027état d\u0027un patient, sa réponse au traitement ou l\u0027évolution de sa guérison."
     },
     {
         "en_h":  "Screening",
-        "fr_h":  "Dépistage"
+        "fr_h":  "Dépistage",
+        "d_fr":  "Dépistage de sujets asymptomatiques pour détecter une maladie ou des facteurs de risque avant l\u0027apparition des symptômes."
     },
     {
         "en_h":  "Compliance / Adherence",
@@ -363,17 +417,20 @@
     },
     {
         "en_h":  "Insomnia",
-        "fr_h":  "Insomnie"
+        "fr_h":  "Insomnie",
+        "d_fr":  "Difficulté persistante à s\u0027endormir ou à maintenir le sommeil au moins trois nuits par semaine pendant trois mois ou plus, entraînant une altération diurne significative."
     },
     {
         "en_h":  "Lower back pain",
         "fr_h":  "Lombalgie",
-        "fr_l":  "Mal de dos"
+        "fr_l":  "Mal de dos",
+        "d_fr":  "Douleur de la région lombaire classifiée en aiguë (\u003c 6 semaines), subaiguë (6 à 12 semaines) ou chronique (\u003e 12 semaines) ; première cause mondiale de handicap."
     },
     {
         "en_h":  "Anxiety disorder",
         "fr_h":  "Trouble anxieux",
-        "fr_l":  "Anxiété"
+        "fr_l":  "Anxiété",
+        "d_fr":  "Troubles caractérisés par une peur ou une inquiétude excessive et persistante altérant la vie quotidienne ; comprend le trouble anxieux généralisé, le trouble panique et les phobies."
     },
     {
         "en_h":  "Gastroesophageal Reflux Disease",
@@ -382,7 +439,8 @@
     },
     {
         "en_h":  "Anemia",
-        "fr_h":  "Anémie"
+        "fr_h":  "Anémie",
+        "d_fr":  "Diminution des globules rouges ou de l\u0027hémoglobine réduisant l\u0027apport en oxygène aux tissus ; les principales causes sont la carence en fer, les maladies chroniques et l\u0027hémolyse."
     },
     {
         "en_h":  "Echocardiogram",
@@ -414,7 +472,8 @@
     {
         "en_h":  "Cardiopulmonary resuscitation",
         "fr_h":  "Réanimation cardio-pulmonaire",
-        "fr_l":  "RCP"
+        "fr_l":  "RCP",
+        "d_fr":  "Procédure d\u0027urgence combinant compressions thoraciques et ventilation artificielle pour maintenir la circulation et l\u0027oxygénation lors d\u0027un arrêt cardiaque."
     },
     {
         "en_h":  "Magnetic resonance imaging",
@@ -467,26 +526,31 @@
     },
     {
         "en_h":  "Contraindication",
-        "fr_h":  "Contre-indication"
+        "fr_h":  "Contre-indication",
+        "d_fr":  "Situation clinique ou condition préexistante spécifique dans laquelle un médicament, une procédure ou une intervention ne doit pas être utilisé en raison du risque de préjudice."
     },
     {
         "en_h":  "Analgesic",
         "fr_h":  "Analgésique",
-        "fr_l":  "Antidouleur"
+        "fr_l":  "Antidouleur",
+        "d_fr":  "Médicament soulageant la douleur sans perte de conscience ; comprend les AINS, le paracétamol et les opioïdes."
     },
     {
         "en_h":  "Antipyretic",
         "fr_h":  "Antipyrétique",
-        "fr_l":  "Fébrifuge"
+        "fr_l":  "Fébrifuge",
+        "d_fr":  "Médicament réduisant la température corporelle élevée (fièvre) ; souvent associé aux analgésiques (ex. : paracétamol, ibuprofène)."
     },
     {
         "en_h":  "Intravenous",
         "fr_h":  "Intraveineux",
-        "fr_l":  "IV"
+        "fr_l":  "IV",
+        "d_fr":  "Voie d\u0027administration d\u0027un médicament ou d\u0027un liquide directement dans une veine, permettant une action rapide ; utilisée pour les traitements urgents et la réhydratation."
     },
     {
         "en_h":  "Adverse drug reaction",
-        "fr_h":  "Effet indésirable médicamenteux"
+        "fr_h":  "Effet indésirable médicamenteux",
+        "d_fr":  "Réponse indésirable et nocive survenant aux doses thérapeutiques normales d\u0027un médicament ; distincte du surdosage ou d\u0027une erreur médicamenteuse."
     },
     {
         "en_h":  "Prophylaxis",
@@ -629,7 +693,8 @@
     {
         "en_h":  "Syncope",
         "fr_h":  "Syncope",
-        "fr_l":  "Évanouissement"
+        "fr_l":  "Évanouissement",
+        "d_fr":  "Perte de conscience transitoire et brève, avec hypotonie musculaire, due à une chute temporaire du débit sanguin cérébral."
     },
     {
         "en_h":  "Pleuritic Chest Pain",
@@ -659,7 +724,8 @@
     },
     {
         "en_h":  "Cyanosis",
-        "fr_h":  "Cyanose"
+        "fr_h":  "Cyanose",
+        "d_fr":  "Coloration bleutée de la peau et des muqueuses résultant d\u0027une oxygénation insuffisante du sang."
     },
     {
         "en_h":  "Pharynx",
@@ -709,7 +775,8 @@
     },
     {
         "en_h":  "Pneumothorax",
-        "fr_h":  "Pneumothorax"
+        "fr_h":  "Pneumothorax",
+        "d_fr":  "Présence anormale d\u0027air dans la cavité pleurale entraînant un collapsus pulmonaire ; peut être spontané, traumatique ou iatrogène."
     },
     {
         "en_h":  "Cholelithiasis",
@@ -719,7 +786,8 @@
     {
         "en_h":  "Chronic Obstructive Pulmonary Disease",
         "fr_h":  "Bronchopneumopathie chronique obstructive",
-        "fr_l":  "BPCO"
+        "fr_l":  "BPCO",
+        "d_fr":  "Maladie pulmonaire progressive et peu réversible caractérisée par une limitation chronique du débit aérien, généralement due au tabagisme."
     },
     {
         "en_h":  "Rheumatoid Arthritis",
@@ -736,7 +804,8 @@
     },
     {
         "en_h":  "Intubation",
-        "fr_h":  "Intubation"
+        "fr_h":  "Intubation",
+        "d_fr":  "Mise en place d\u0027un tube plastique flexible dans la trachée, au-delà des cordes vocales, pour maintenir les voies aériennes ouvertes et assister la ventilation."
     },
     {
         "en_h":  "Paracentesis",
@@ -744,11 +813,13 @@
     },
     {
         "en_h":  "Auscultation",
-        "fr_h":  "Auscultation"
+        "fr_h":  "Auscultation",
+        "d_fr":  "Technique clinique consistant à écouter les sons internes du corps à l\u0027aide d\u0027un stéthoscope, pour évaluer les bruits du cœur, les murmures vésiculaires et les bruits intestinaux."
     },
     {
         "en_h":  "Palpation",
-        "fr_h":  "Palpation"
+        "fr_h":  "Palpation",
+        "d_fr":  "Technique d\u0027examen physique utilisant une pression manuelle pour évaluer la taille, la consistance, la sensibilité et la position des structures corporelles."
     },
     {
         "en_h":  "Prostate-Specific Antigen",
@@ -761,7 +832,8 @@
     },
     {
         "en_h":  "Appendicitis",
-        "fr_h":  "Appendicite"
+        "fr_h":  "Appendicite",
+        "d_fr":  "Inflammation aiguë de l\u0027appendice, avec douleur en fosse iliaque droite, nausées et fièvre ; traitée chirurgicalement ou par antibiotiques dans les formes légères."
     },
     {
         "en_h":  "Pancreatitis",
@@ -779,7 +851,8 @@
     {
         "en_h":  "Chronic Kidney Disease",
         "fr_h":  "Maladie rénale chronique",
-        "fr_l":  "Insuffisance rénale chronique"
+        "fr_l":  "Insuffisance rénale chronique",
+        "d_fr":  "Perte progressive, graduelle et irréversible de la fonction rénale persistant depuis trois mois ou plus."
     },
     {
         "en_h":  "End-Stage Renal Disease",
@@ -912,15 +985,18 @@
     {
         "en_h":  "Deep Vein Thrombosis",
         "fr_h":  "Thrombose veineuse profonde",
-        "fr_l":  "Phlébite"
+        "fr_l":  "Phlébite",
+        "d_fr":  "Thrombus dans les veines profondes, généralement des membres inférieurs ; peut emboliser vers la circulation pulmonaire, causant une embolie pulmonaire."
     },
     {
         "en_h":  "Pulmonary Embolism",
-        "fr_h":  "Embolie pulmonaire"
+        "fr_h":  "Embolie pulmonaire",
+        "d_fr":  "Obstruction soudaine d\u0027une artère pulmonaire par un caillot sanguin, habituellement issu d\u0027une thrombose veineuse profonde, provoquant une détresse respiratoire aiguë."
     },
     {
         "en_h":  "Aortic Dissection",
-        "fr_h":  "Dissection aortique"
+        "fr_h":  "Dissection aortique",
+        "d_fr":  "Déchirure de la paroi aortique permettant au sang de s\u0027infiltrer entre les couches, créant une fausse lumière ; urgence cardiovasculaire potentiellement mortelle."
     },
     {
         "en_h":  "Cholecystectomy",
@@ -941,11 +1017,13 @@
     },
     {
         "en_h":  "Mammography",
-        "fr_h":  "Mammographie"
+        "fr_h":  "Mammographie",
+        "d_fr":  "Examen radiologique à faible dose permettant de visualiser le tissu mammaire interne pour le dépistage précoce du cancer du sein."
     },
     {
         "en_h":  "Colonoscopy",
-        "fr_h":  "Coloscopie"
+        "fr_h":  "Coloscopie",
+        "d_fr":  "Examen endoscopique explorant la paroi interne du côlon et du rectum à l\u0027aide d\u0027un endoscope vidéo souple."
     },
     {
         "en_h":  "Atheroma",
@@ -1027,7 +1105,8 @@
     },
     {
         "en_h":  "Cirrhosis",
-        "fr_h":  "Cirrhose"
+        "fr_h":  "Cirrhose",
+        "d_fr":  "Cicatrisation hépatique irréversible due à une agression chronique, altérant la fonction hépatique ; les complications incluent l\u0027hypertension portale et l\u0027insuffisance hépatique."
     },
     {
         "en_h":  "Dysphagia",
@@ -1040,7 +1119,8 @@
     {
         "en_h":  "Jaundice",
         "fr_h":  "Ictère",
-        "fr_l":  "Jaunisse"
+        "fr_l":  "Jaunisse",
+        "d_fr":  "Coloration jaune de la peau, des sclérotiques et des muqueuses due à une hyperbilirubinémie."
     },
     {
         "en_h":  "Intussusception",
@@ -1052,7 +1132,8 @@
     },
     {
         "en_h":  "Gastrointestinal Bleeding",
-        "fr_h":  "Hémorragie digestive"
+        "fr_h":  "Hémorragie digestive",
+        "d_fr":  "Tout saignement provenant du tractus digestif, classé en hémorragie digestive haute ou basse selon sa localisation."
     },
     {
         "en_h":  "Gastroparesis",
@@ -1088,7 +1169,8 @@
     },
     {
         "en_h":  "Hematuria",
-        "fr_h":  "Hématurie"
+        "fr_h":  "Hématurie",
+        "d_fr":  "Présence anormale de globules rouges dans l\u0027urine, distinguée en hématurie macroscopique (visible) et microscopique."
     },
     {
         "en_h":  "Oliguria",
@@ -1112,28 +1194,34 @@
     },
     {
         "en_h":  "Cystitis",
-        "fr_h":  "Cystite"
+        "fr_h":  "Cystite",
+        "d_fr":  "Inflammation de la paroi vésicale, le plus souvent causée par une infection bactérienne ascendante."
     },
     {
         "en_h":  "Urinary Incontinence",
-        "fr_h":  "Incontinence urinaire"
+        "fr_h":  "Incontinence urinaire",
+        "d_fr":  "Perte involontaire d\u0027urine ; classifiée en incontinence d\u0027effort, d\u0027urgence (vessie hyperactive), par regorgement ou mixte."
     },
     {
         "en_h":  "Dysuria",
         "fr_h":  "Dysurie",
-        "fr_l":  "Brûlures urinaires"
+        "fr_l":  "Brûlures urinaires",
+        "d_fr":  "Douleur, brûlure ou inconfort ressenti lors de la miction, typique des infections des voies urinaires basses."
     },
     {
         "en_h":  "Hyperglycemia",
-        "fr_h":  "Hyperglycémie"
+        "fr_h":  "Hyperglycémie",
+        "d_fr":  "Élévation de la glycémie au-dessus des valeurs normales ; caractéristique du diabète sucré et facteur de risque des complications diabétiques aiguës et chroniques."
     },
     {
         "en_h":  "Hypoglycemia",
-        "fr_h":  "Hypoglycémie"
+        "fr_h":  "Hypoglycémie",
+        "d_fr":  "Glycémie basse (\u003c 70 mg/dL) provoquant des symptômes autonomes tels que transpiration et tremblements, et des effets neuroglycopéniques tels que la confusion."
     },
     {
         "en_h":  "Diabetic Ketoacidosis",
-        "fr_h":  "Acidocétose diabétique"
+        "fr_h":  "Acidocétose diabétique",
+        "d_fr":  "Complication diabétique mettant en jeu le pronostic vital, associant hyperglycémie sévère, acidose métabolique et élévation des corps cétoniques ; plus fréquente dans le diabète de type 1."
     },
     {
         "en_h":  "Gynecomastia",
@@ -1187,7 +1275,8 @@
     },
     {
         "en_h":  "Carcinoma",
-        "fr_h":  "Carcinome"
+        "fr_h":  "Carcinome",
+        "d_fr":  "Néoplasie maligne d\u0027origine épithéliale ; la catégorie de cancer la plus fréquente, englobant les tumeurs du poumon, du sein, du côlon, de la prostate et d\u0027autres organes."
     },
     {
         "en_h":  "Sarcoma",
@@ -1207,12 +1296,14 @@
     },
     {
         "en_h":  "Amenorrhea",
-        "fr_h":  "Aménorrhée"
+        "fr_h":  "Aménorrhée",
+        "d_fr":  "Absence de menstruation ; classifiée en primaire (ménarche jamais survenue) ou secondaire (arrêt d\u0027une menstruation antérieurement régulière)."
     },
     {
         "en_h":  "Dysmenorrhea",
         "fr_h":  "Dysménorrhée",
-        "fr_l":  "Règles douloureuses"
+        "fr_l":  "Règles douloureuses",
+        "d_fr":  "Menstruations douloureuses ou crampes utérines sévères pendant les règles, entraînant une altération fonctionnelle."
     },
     {
         "en_h":  "Uterine Leiomyoma",
@@ -1226,12 +1317,14 @@
     },
     {
         "en_h":  "Postpartum Hemorrhage",
-        "fr_h":  "Hémorragie du post-partum"
+        "fr_h":  "Hémorragie du post-partum",
+        "d_fr":  "Perte sanguine importante dépassant 500 mL (accouchement voie basse) ou 1 000 mL (césarienne) dans les 24 heures suivant l\u0027accouchement."
     },
     {
         "en_h":  "Anaphylaxis",
         "fr_h":  "Anaphylaxie",
-        "fr_l":  "Choc anaphylactique"
+        "fr_l":  "Choc anaphylactique",
+        "d_fr":  "Réaction d\u0027hypersensibilité systémique rapide, sévère et potentiellement mortelle, entraînant une obstruction des voies aériennes et un collapsus vasculaire."
     },
     {
         "en_h":  "Idiopathic",
@@ -1252,7 +1345,8 @@
     {
         "en_h":  "Sepsis",
         "fr_h":  "Sepsis",
-        "fr_l":  "Septicémie"
+        "fr_l":  "Septicémie",
+        "d_fr":  "Dysfonction organique menaçant le pronostic vital due à une réponse de l\u0027hôte dérégulée à une infection ; définie par une augmentation aiguë du score SOFA ≥ 2."
     },
     {
         "en_h":  "Agnosia",
@@ -1290,7 +1384,8 @@
     },
     {
         "en_h":  "Osteoarthritis",
-        "fr_h":  "Arthrose"
+        "fr_h":  "Arthrose",
+        "d_fr":  "Maladie articulaire dégénérative due à l\u0027usure du cartilage ; forme d\u0027arthrite la plus répandue, causant douleur, raideur et réduction de la mobilité articulaire."
     },
     {
         "en_h":  "Ankylosing Spondylitis",
@@ -1352,7 +1447,8 @@
     {
         "en_h":  "Peripheral Artery Disease",
         "fr_h":  "Artériopathie oblitérante des membres inférieurs",
-        "fr_l":  "Maladie artérielle périphérique"
+        "fr_l":  "Maladie artérielle périphérique",
+        "d_fr":  "Rétrécissement athérosclérotique des artères des membres réduisant le débit sanguin ; se manifeste classiquement par une claudication intermittente à l\u0027effort."
     },
     {
         "en_h":  "Raynaud\u0027s Phenomenon",
@@ -1395,7 +1491,8 @@
     {
         "en_h":  "Acute Respiratory Distress Syndrome",
         "fr_h":  "Syndrome de détresse respiratoire aiguë",
-        "fr_l":  "SDRA"
+        "fr_l":  "SDRA",
+        "d_fr":  "Lésion pulmonaire inflammatoire sévère provoquant des dommages alvéolaires diffus et une hypoxémie ; déclenchée le plus souvent par un sepsis, une pneumonie ou un traumatisme."
     },
     {
         "en_h":  "Bioavailability",
@@ -1415,11 +1512,13 @@
     },
     {
         "en_h":  "Septic Shock",
-        "fr_h":  "Choc septique"
+        "fr_h":  "Choc septique",
+        "d_fr":  "Forme de sepsis avec défaillance circulatoire, définie par la nécessité de vasopresseurs et un lactate \u003e 2 mmol/L malgré un remplissage vasculaire adéquat."
     },
     {
         "en_h":  "Hyperkalemia",
-        "fr_h":  "Hyperkaliémie"
+        "fr_h":  "Hyperkaliémie",
+        "d_fr":  "Élévation de la kaliémie (\u003e 5,5 mEq/L) pouvant entraîner des arythmies cardiaques potentiellement mortelles, dont la fibrillation ventriculaire."
     },
     {
         "en_h":  "Tracheostomy",
@@ -1624,12 +1723,14 @@
     },
     {
         "en_h":  "General Anesthesia",
-        "fr_h":  "Anesthésie générale"
+        "fr_h":  "Anesthésie générale",
+        "d_fr":  "Perte de conscience complète et réversible induite par des agents anesthésiques, permettant une chirurgie indolore sans mémorisation."
     },
     {
         "en_h":  "Local Anesthesia",
         "fr_h":  "Anesthésie locale",
-        "fr_l":  "Anesthésie locorégionale"
+        "fr_l":  "Anesthésie locorégionale",
+        "d_fr":  "Perte de sensibilité réversible dans une région corporelle spécifique par blocage de la conduction nerveuse, sans altération de la conscience."
     },
     {
         "en_h":  "Sedation",
@@ -1660,12 +1761,14 @@
     {
         "en_h":  "Ultrasound",
         "fr_h":  "Échographie",
-        "fr_l":  "Ultrasonographie"
+        "fr_l":  "Ultrasonographie",
+        "d_fr":  "Technique d\u0027imagerie utilisant des ultrasons à haute fréquence pour visualiser les organes et structures internes en temps réel, sans rayonnement ionisant."
     },
     {
         "en_h":  "X-ray",
         "fr_h":  "Radiographie",
-        "fr_l":  "Rayons X"
+        "fr_l":  "Rayons X",
+        "d_fr":  "Imagerie utilisant des rayonnements ionisants pour visualiser les pathologies osseuses et pulmonaires ; la modalité d\u0027imagerie diagnostique la plus utilisée dans le monde."
     },
     {
         "en_h":  "Contrast agent",
@@ -1674,7 +1777,8 @@
     {
         "en_h":  "Physical therapy",
         "fr_h":  "Kinésithérapie",
-        "fr_l":  "Physiothérapie"
+        "fr_l":  "Physiothérapie",
+        "d_fr":  "Traitement utilisant l\u0027exercice, la thérapie manuelle et des modalités physiques pour restaurer la fonction, la mobilité et réduire la douleur après une blessure ou une maladie."
     },
     {
         "en_h":  "Occupational therapy",
@@ -1691,11 +1795,13 @@
     },
     {
         "en_h":  "Chemotherapy",
-        "fr_h":  "Chimiothérapie"
+        "fr_h":  "Chimiothérapie",
+        "d_fr":  "Utilisation de médicaments cytotoxiques pour détruire ou freiner la croissance des cellules cancéreuses ; administrée par voie orale ou intraveineuse, provoquant fréquemment des effets indésirables systémiques."
     },
     {
         "en_h":  "Heart",
-        "fr_h":  "Cœur"
+        "fr_h":  "Cœur",
+        "d_fr":  "Organe musculaire creux assurant la circulation sanguine par des contractions rythmiques ; composé de quatre cavités : deux oreillettes et deux ventricules."
     },
     {
         "en_h":  "Coronary Artery",
@@ -1711,7 +1817,8 @@
     },
     {
         "en_h":  "Lung",
-        "fr_h":  "Poumon"
+        "fr_h":  "Poumon",
+        "d_fr":  "Organes pairs et spongieux dans le thorax assurant les échanges gazeux — absorption d\u0027oxygène de l\u0027air inspiré et expulsion du dioxyde de carbone à chaque expiration."
     },
     {
         "en_h":  "Nasal Cavity",
@@ -1724,19 +1831,23 @@
     },
     {
         "en_h":  "Stomach",
-        "fr_h":  "Estomac"
+        "fr_h":  "Estomac",
+        "d_fr":  "Organe musculaire en forme de J entre l\u0027œsophage et l\u0027intestin grêle, stockant les aliments, sécrétant l\u0027acide gastrique et amorçant la digestion des protéines."
     },
     {
         "en_h":  "Liver",
-        "fr_h":  "Foie"
+        "fr_h":  "Foie",
+        "d_fr":  "Plus grand organe interne, situé dans l\u0027hypochondre droit ; assure le métabolisme, la détoxification, la synthèse protéique et la production de bile."
     },
     {
         "en_h":  "Small Intestine",
-        "fr_h":  "Intestin grêle"
+        "fr_h":  "Intestin grêle",
+        "d_fr":  "Tube enroulé d\u0027environ 6 à 7 mètres entre l\u0027estomac et le gros intestin — comprenant le duodénum, le jéjunum et l\u0027iléon — principal site d\u0027absorption des nutriments."
     },
     {
         "en_h":  "Large Intestine",
-        "fr_h":  "Gros intestin"
+        "fr_h":  "Gros intestin",
+        "d_fr":  "Segment terminal du tube digestif (environ 1,5 m), comprenant le cæcum, le côlon et le rectum ; absorbe l\u0027eau et les électrolytes et forme les selles."
     },
     {
         "en_h":  "Sigmoid Colon",
@@ -1745,20 +1856,24 @@
     },
     {
         "en_h":  "Kidney",
-        "fr_h":  "Rein"
+        "fr_h":  "Rein",
+        "d_fr":  "Paire d\u0027organes en forme de haricot dans le rétropéritoine, filtrant le sang, régulant l\u0027équilibre hydro-électrolytique et produisant l\u0027urine."
     },
     {
         "en_h":  "Urinary Bladder",
-        "fr_h":  "Vessie"
+        "fr_h":  "Vessie",
+        "d_fr":  "Organe musculaire creux dans le pelvis qui stocke l\u0027urine produite par les reins jusqu\u0027à son expulsion par l\u0027urètre."
     },
     {
         "en_h":  "Brain",
         "fr_h":  "Encéphale",
-        "fr_l":  "Cerveau"
+        "fr_l":  "Cerveau",
+        "d_fr":  "Organe central du système nerveux enfermé dans le crâne ; contrôle la pensée, la mémoire, les sensations, les mouvements et toutes les fonctions corporelles."
     },
     {
         "en_h":  "Nerve",
-        "fr_h":  "Nerf"
+        "fr_h":  "Nerf",
+        "d_fr":  "Faisceau d\u0027axones gainés de tissu conjonctif transmettant des signaux électriques entre le système nerveux central et les organes cibles, les muscles et les récepteurs sensoriels."
     },
     {
         "en_h":  "Neuron",
@@ -1766,11 +1881,13 @@
     },
     {
         "en_h":  "Bone",
-        "fr_h":  "Os"
+        "fr_h":  "Os",
+        "d_fr":  "Tissu conjonctif rigide formant le squelette ; soutient le corps, protège les organes, permet les mouvements et produit des cellules sanguines dans la moelle osseuse."
     },
     {
         "en_h":  "Muscle",
-        "fr_h":  "Muscle"
+        "fr_h":  "Muscle",
+        "d_fr":  "Tissu contractile classifié en muscles squelettiques (volontaires), cardiaques ou lisses (involontaires) ; assure les mouvements, la posture et le fonctionnement des organes."
     },
     {
         "en_h":  "Cartilage",
@@ -1826,7 +1943,8 @@
     {
         "en_h":  "Abdomen",
         "fr_h":  "Abdomen",
-        "fr_l":  "Ventre"
+        "fr_l":  "Ventre",
+        "d_fr":  "Région du corps entre le thorax et le pelvis, contenant l\u0027estomac, les intestins, le foie, le pancréas et les reins."
     },
     {
         "en_h":  "Abduction",
@@ -1872,7 +1990,8 @@
     },
     {
         "en_h":  "Antibiotic",
-        "fr_h":  "Antibiotique"
+        "fr_h":  "Antibiotique",
+        "d_fr":  "Médicament qui détruit les bactéries ou inhibe leur croissance ; classifié comme bactéricide ou bactériostatique."
     },
     {
         "en_h":  "Aortostenosis",
@@ -1889,7 +2008,8 @@
     },
     {
         "en_h":  "Arthritis",
-        "fr_h":  "Arthrite"
+        "fr_h":  "Arthrite",
+        "d_fr":  "Inflammation d\u0027une ou plusieurs articulations provoquant douleur, gonflement et raideur ; englobe plus de 100 affections distinctes."
     },
     {
         "en_h":  "Arthrocentesis",
@@ -1930,7 +2050,8 @@
     },
     {
         "en_h":  "Bronchitis",
-        "fr_h":  "Bronchite"
+        "fr_h":  "Bronchite",
+        "d_fr":  "Inflammation des bronches ; aiguë (généralement virale) ou chronique (plus de 3 mois par an pendant 2 ans ou plus)."
     },
     {
         "en_h":  "Buccinator",
@@ -1951,7 +2072,8 @@
     {
         "en_h":  "Cephalgia",
         "fr_h":  "Céphalalgie",
-        "fr_l":  "Céphalée"
+        "fr_l":  "Céphalée",
+        "d_fr":  "Douleur dans toute partie de la tête ; primaire (migraine, céphalée de tension) ou secondaire (infection, hypertension, pathologie intracrânienne)."
     },
     {
         "en_h":  "Cephalocaudal",
@@ -1964,7 +2086,8 @@
     {
         "en_h":  "Cerebrospinal fluid",
         "fr_h":  "Liquide céphalorachidien",
-        "fr_l":  "LCR"
+        "fr_l":  "LCR",
+        "d_fr":  "Liquide clair circulant autour du cerveau et de la moelle épinière pour amortir les chocs et éliminer les déchets ; prélevé par ponction lombaire."
     },
     {
         "en_h":  "Chondroblast",
@@ -2049,7 +2172,8 @@
     },
     {
         "en_h":  "Gastritis",
-        "fr_h":  "Gastrite"
+        "fr_h":  "Gastrite",
+        "d_fr":  "Inflammation de la muqueuse gastrique due à H. pylori, aux AINS ou à l\u0027alcool ; provoque une douleur épigastrique et des nausées."
     },
     {
         "en_h":  "Gastrocele",
@@ -2067,7 +2191,8 @@
     },
     {
         "en_h":  "Gestational diabetes",
-        "fr_h":  "Diabète gestationnel"
+        "fr_h":  "Diabète gestationnel",
+        "d_fr":  "Intolérance au glucose diagnostiquée pour la première fois pendant la grossesse ; augmente le risque de complications et prédispose au diabète de type 2."
     },
     {
         "en_h":  "Glucometer",
@@ -2092,7 +2217,8 @@
     },
     {
         "en_h":  "Hemostasis",
-        "fr_h":  "Hémostase"
+        "fr_h":  "Hémostase",
+        "d_fr":  "Processus physiologique arrêtant le saignement par vasoconstriction, agrégation plaquettaire et coagulation."
     },
     {
         "en_h":  "Hepatomegaly",
@@ -2104,7 +2230,8 @@
     },
     {
         "en_h":  "Intestinal obstruction",
-        "fr_h":  "Occlusion intestinale"
+        "fr_h":  "Occlusion intestinale",
+        "d_fr":  "Occlusion intestinale due à des adhérences, des hernies ou des tumeurs empêchant le transit ; peut provoquer une ischémie nécessitant une intervention urgente."
     },
     {
         "en_h":  "Ipsilateral",
@@ -2130,7 +2257,8 @@
     {
         "en_h":  "Last menstrual period",
         "fr_h":  "Dernières règles",
-        "fr_l":  "Date des dernières règles"
+        "fr_l":  "Date des dernières règles",
+        "d_fr":  "Premier jour des dernières règles ; sert à calculer l\u0027âge gestationnel et la date prévue d\u0027accouchement."
     },
     {
         "en_h":  "Leukocyte",
@@ -2153,7 +2281,8 @@
     {
         "en_h":  "Malnutrition",
         "fr_h":  "Malnutrition",
-        "fr_l":  "Dénutrition"
+        "fr_l":  "Dénutrition",
+        "d_fr":  "Déséquilibre nutritionnel altérant les fonctions physiologiques ; englobe la dénutrition, la surnutrition et les carences en micronutriments."
     },
     {
         "en_h":  "Melanoma",
@@ -2165,7 +2294,8 @@
     },
     {
         "en_h":  "Metabolism",
-        "fr_h":  "Métabolisme"
+        "fr_h":  "Métabolisme",
+        "d_fr":  "Ensemble des réactions chimiques maintenant la vie ; comprend le catabolisme et l\u0027anabolisme."
     },
     {
         "en_h":  "Metacarpal",
@@ -2206,7 +2336,8 @@
     },
     {
         "en_h":  "Neonatal",
-        "fr_h":  "Néonatal"
+        "fr_h":  "Néonatal",
+        "d_fr":  "Relatif aux 28 premiers jours de vie ; période critique pour le dépistage des affections congénitales."
     },
     {
         "en_h":  "Nephrectomy",
@@ -2247,7 +2378,8 @@
     },
     {
         "en_h":  "Paralysis",
-        "fr_h":  "Paralysie"
+        "fr_h":  "Paralysie",
+        "d_fr":  "Perte complète de la motricité volontaire due à une lésion du système nerveux ; peut être temporaire ou permanente."
     },
     {
         "en_h":  "Pelvic binder",
@@ -2294,20 +2426,24 @@
     },
     {
         "en_h":  "Postoperative",
-        "fr_h":  "Postopératoire"
+        "fr_h":  "Postopératoire",
+        "d_fr":  "Relatif à la période suivant une intervention chirurgicale ; comprend la gestion de la douleur, les soins de la plaie et la surveillance."
     },
     {
         "en_h":  "Postpartum",
-        "fr_h":  "Post-partum"
+        "fr_h":  "Post-partum",
+        "d_fr":  "Survenant après l\u0027accouchement ; la période post-partum désigne généralement les six semaines suivant la délivrance."
     },
     {
         "en_h":  "Prenatal",
         "fr_h":  "Prénatal",
-        "fr_l":  "Anténatal"
+        "fr_l":  "Anténatal",
+        "d_fr":  "Survenant avant la naissance ; les soins prénataux comprennent les consultations et les dépistages pendant la grossesse."
     },
     {
         "en_h":  "Preoperative",
-        "fr_h":  "Préopératoire"
+        "fr_h":  "Préopératoire",
+        "d_fr":  "Relatif à la période précédant une intervention chirurgicale ; comprend l\u0027anamnèse, l\u0027examen, les examens complémentaires et le consentement."
     },
     {
         "en_h":  "Prosthodontist",
@@ -2329,7 +2465,8 @@
     {
         "en_h":  "Rhinorrhea",
         "fr_h":  "Rhinorrhée",
-        "fr_l":  "Écoulement nasal"
+        "fr_l":  "Écoulement nasal",
+        "d_fr":  "Écoulement nasal excessif ; peut être clair (rhinite virale, allergie, fuite de LCR) ou purulent (sinusite bactérienne)."
     },
     {
         "en_h":  "Rigors",
@@ -2366,7 +2503,8 @@
     },
     {
         "en_h":  "Stethoscope",
-        "fr_h":  "Stéthoscope"
+        "fr_h":  "Stéthoscope",
+        "d_fr":  "Instrument médical utilisé pour ausculter les bruits internes du corps, notamment les bruits du cœur et des poumons."
     },
     {
         "en_h":  "Sublingual",
@@ -2438,7 +2576,8 @@
     },
     {
         "en_h":  "Umbilical cord",
-        "fr_h":  "Cordon ombilical"
+        "fr_h":  "Cordon ombilical",
+        "d_fr":  "Cordon flexible reliant le fœtus au placenta ; contient deux artères et une veine ombilicales."
     },
     {
         "en_h":  "Varicose veins",
@@ -2463,7 +2602,8 @@
     {
         "en_h":  "Ventilator",
         "fr_h":  "Ventilateur",
-        "fr_l":  "Respirateur artificiel"
+        "fr_l":  "Respirateur artificiel",
+        "d_fr":  "Appareil assistant mécaniquement ou remplaçant la respiration spontanée chez les patients ne pouvant pas respirer de façon adéquate."
     },
     {
         "en_h":  "Visceroceptors",
@@ -2576,7 +2716,8 @@
     },
     {
         "en_h":  "Mammogram",
-        "fr_h":  "Mammogramme"
+        "fr_h":  "Mammogramme",
+        "d_fr":  "Image radiologique à faible dose du tissu mammaire, utilisée pour le dépistage ou le diagnostic du cancer du sein."
     },
     {
         "en_h":  "Mammoplasty",
@@ -2606,7 +2747,8 @@
     {
         "en_h":  "Phlebotomy",
         "fr_h":  "Phlébotomie",
-        "fr_l":  "Ponction veineuse"
+        "fr_l":  "Ponction veineuse",
+        "d_fr":  "Ponction veineuse à l\u0027aiguille pour prélever du sang à des fins d\u0027analyse, pour une saignée thérapeutique ou un don du sang."
     },
     {
         "en_h":  "Proctoscopy",
@@ -2650,7 +2792,8 @@
     },
     {
         "en_h":  "Tracheotomy",
-        "fr_h":  "Trachéotomie"
+        "fr_h":  "Trachéotomie",
+        "d_fr":  "Incision de la paroi trachéale créant une voie aérienne chirurgicale ; réalisée en cas d\u0027obstruction, de ventilation prolongée ou d\u0027intubation impossible."
     },
     {
         "en_h":  "Tympanoplasty",
@@ -2741,7 +2884,8 @@
     },
     {
         "en_h":  "Dermatitis",
-        "fr_h":  "Dermatite"
+        "fr_h":  "Dermatite",
+        "d_fr":  "Inflammation cutanée provoquant rougeur, prurit et éruption ; plusieurs sous-types existent."
     },
     {
         "en_h":  "Duodenitis",
@@ -2753,7 +2897,8 @@
     },
     {
         "en_h":  "Epiglottitis",
-        "fr_h":  "Épiglottite"
+        "fr_h":  "Épiglottite",
+        "d_fr":  "Inflammation aiguë de l\u0027épiglotte ; urgence respiratoire potentiellement mortelle."
     },
     {
         "en_h":  "Esophagitis",
@@ -2785,7 +2930,8 @@
     },
     {
         "en_h":  "Hepatitis",
-        "fr_h":  "Hépatite"
+        "fr_h":  "Hépatite",
+        "d_fr":  "Inflammation du foie ; les causes incluent les infections virales (A, B, C), l\u0027alcool et les maladies auto-immunes."
     },
     {
         "en_h":  "Hyperhidrosis",
@@ -2814,7 +2960,8 @@
     },
     {
         "en_h":  "Necrosis",
-        "fr_h":  "Nécrose"
+        "fr_h":  "Nécrose",
+        "d_fr":  "Mort tissulaire due à une blessure, une infection ou un défaut d\u0027irrigation sanguine."
     },
     {
         "en_h":  "Nephroptosis",
@@ -2836,12 +2983,14 @@
     },
     {
         "en_h":  "Otitis",
-        "fr_h":  "Otite"
+        "fr_h":  "Otite",
+        "d_fr":  "Inflammation de l\u0027oreille ; classifiée en otite externe ou en otite moyenne."
     },
     {
         "en_h":  "Pharyngitis",
         "fr_h":  "Pharyngite",
-        "fr_l":  "Angine"
+        "fr_l":  "Angine",
+        "d_fr":  "Inflammation du pharynx provoquant un mal de gorge ; le plus souvent d\u0027origine virale, parfois streptococcique."
     },
     {
         "en_h":  "Phlebitis",
@@ -2868,7 +3017,8 @@
     },
     {
         "en_h":  "Psychosis",
-        "fr_h":  "Psychose"
+        "fr_h":  "Psychose",
+        "d_fr":  "Trouble mental sévère impliquant une perte de contact avec la réalité, des hallucinations ou des idées délirantes."
     },
     {
         "en_h":  "Pyloric Stenosis",
@@ -2909,12 +3059,14 @@
     },
     {
         "en_h":  "Thrombosis",
-        "fr_h":  "Thrombose"
+        "fr_h":  "Thrombose",
+        "d_fr":  "Formation d\u0027un caillot sanguin à l\u0027intérieur d\u0027un vaisseau, obstruant le débit sanguin."
     },
     {
         "en_h":  "Tonsillitis",
         "fr_h":  "Amygdalite",
-        "fr_l":  "Angine"
+        "fr_l":  "Angine",
+        "d_fr":  "Inflammation des amygdales, le plus souvent causée par une infection virale ou streptococcique."
     },
     {
         "en_h":  "Tracheitis",
@@ -2930,7 +3082,8 @@
     },
     {
         "en_h":  "Venous Thrombosis",
-        "fr_h":  "Thrombose veineuse"
+        "fr_h":  "Thrombose veineuse",
+        "d_fr":  "Formation d\u0027un caillot dans une veine ; comprend la thrombose veineuse profonde et la thrombophlébite superficielle."
     },
     {
         "en_h":  "Acoustic Neuroma",
@@ -2944,7 +3097,8 @@
     {
         "en_h":  "Adrenaline",
         "fr_h":  "Adrénaline",
-        "fr_l":  "Épinéphrine"
+        "fr_l":  "Épinéphrine",
+        "d_fr":  "Hormone catécholaminergique sécrétée par la médullosurrénale ; déclenche la réponse de combat ou de fuite."
     },
     {
         "en_h":  "Aerophagia",
@@ -2960,15 +3114,18 @@
     },
     {
         "en_h":  "Anesthesia",
-        "fr_h":  "Anesthésie"
+        "fr_h":  "Anesthésie",
+        "d_fr":  "Perte de sensation induite par voie pharmacologique pour les interventions chirurgicales ou diagnostiques."
     },
     {
         "en_h":  "Aortic Aneurysm",
-        "fr_h":  "Anévrisme aortique"
+        "fr_h":  "Anévrisme aortique",
+        "d_fr":  "Dilatation focale permanente de l\u0027aorte dépassant 1,5 fois son diamètre normal ; la plus fréquente dans l\u0027aorte abdominale sous-rénale ; la rupture est souvent fatale."
     },
     {
         "en_h":  "Apnea",
-        "fr_h":  "Apnée"
+        "fr_h":  "Apnée",
+        "d_fr":  "Cessation complète de la respiration ; peut être obstructive, centrale ou mixte."
     },
     {
         "en_h":  "Arthrodesis",
@@ -2976,7 +3133,8 @@
     },
     {
         "en_h":  "Atrophy",
-        "fr_h":  "Atrophie"
+        "fr_h":  "Atrophie",
+        "d_fr":  "Réduction de la taille d\u0027un tissu ou d\u0027un organe par suite de désutilisation, de dénutrition ou d\u0027une maladie."
     },
     {
         "en_h":  "Audiometry",
@@ -2984,7 +3142,8 @@
     },
     {
         "en_h":  "Autoimmune",
-        "fr_h":  "Auto-immun"
+        "fr_h":  "Auto-immun",
+        "d_fr":  "Relatif à une affection dans laquelle le système immunitaire attaque les propres tissus de l\u0027organisme."
     },
     {
         "en_h":  "Autopsy",
@@ -2992,7 +3151,8 @@
     },
     {
         "en_h":  "Bacteremia",
-        "fr_h":  "Bactériémie"
+        "fr_h":  "Bactériémie",
+        "d_fr":  "Présence de bactéries viables dans le sang circulant ; peut évoluer vers un sepsis."
     },
     {
         "en_h":  "Brachytherapy",
@@ -3018,7 +3178,8 @@
     {
         "en_h":  "Wheezing",
         "fr_h":  "Sifflement bronchique",
-        "fr_l":  "Wheezing"
+        "fr_l":  "Wheezing",
+        "d_fr":  "Sifflement aigu entendu à la respiration, dû au rétrécissement des voies aériennes ; associé à l\u0027asthme, à la BPCO et à l\u0027anaphylaxie."
     },
     {
         "en_h":  "Rhonchi",
@@ -3035,7 +3196,8 @@
     },
     {
         "en_h":  "Carpal Tunnel Syndrome",
-        "fr_h":  "Syndrome du canal carpien"
+        "fr_h":  "Syndrome du canal carpien",
+        "d_fr":  "Compression du nerf médian au niveau du poignet provoquant engourdissement, picotements et faiblesse."
     },
     {
         "en_h":  "Cerebral Palsy",
@@ -3052,7 +3214,8 @@
     },
     {
         "en_h":  "Coagulation",
-        "fr_h":  "Coagulation"
+        "fr_h":  "Coagulation",
+        "d_fr":  "Processus par lequel le sang forme des caillots pour arrêter un saignement."
     },
     {
         "en_h":  "Coccydynia",
@@ -3074,7 +3237,8 @@
     },
     {
         "en_h":  "Dehydration",
-        "fr_h":  "Déshydratation"
+        "fr_h":  "Déshydratation",
+        "d_fr":  "Déficit en eau corporelle entraînant un déséquilibre électrolytique et une altération des fonctions physiologiques."
     },
     {
         "en_h":  "Dentist",
@@ -3087,11 +3251,13 @@
     },
     {
         "en_h":  "Dialysis",
-        "fr_h":  "Dialyse"
+        "fr_h":  "Dialyse",
+        "d_fr":  "Procédure médicale filtrant les déchets, l\u0027excès de liquide et les toxines du sang en cas d\u0027insuffisance rénale."
     },
     {
         "en_h":  "Diarrhea",
-        "fr_h":  "Diarrhée"
+        "fr_h":  "Diarrhée",
+        "d_fr":  "Émission fréquente de selles molles ou liquides ; symptôme de nombreuses affections gastro-intestinales."
     },
     {
         "en_h":  "Dyskinesia",
@@ -3107,7 +3273,8 @@
     },
     {
         "en_h":  "Emphysema",
-        "fr_h":  "Emphysème"
+        "fr_h":  "Emphysème",
+        "d_fr":  "Maladie pulmonaire chronique avec destruction permanente des alvéoles, réduisant la surface d\u0027échanges gazeux."
     },
     {
         "en_h":  "Endometrium",
@@ -3141,7 +3308,8 @@
     },
     {
         "en_h":  "Hemoglobin",
-        "fr_h":  "Hémoglobine"
+        "fr_h":  "Hémoglobine",
+        "d_fr":  "Protéine contenant du fer dans les globules rouges, transportant l\u0027oxygène des poumons aux tissus."
     },
     {
         "en_h":  "Hemolysis",
@@ -3184,7 +3352,8 @@
     },
     {
         "en_h":  "Hypothermia",
-        "fr_h":  "Hypothermie"
+        "fr_h":  "Hypothermie",
+        "d_fr":  "Température centrale dangereusement basse, inférieure à 35 °C (95 °F)."
     },
     {
         "en_h":  "Immunodeficiency",
@@ -3193,7 +3362,8 @@
     },
     {
         "en_h":  "Leukemia",
-        "fr_h":  "Leucémie"
+        "fr_h":  "Leucémie",
+        "d_fr":  "Prolifération maligne des précurseurs des globules blancs dans la moelle osseuse et le sang."
     },
     {
         "en_h":  "Leukopenia",
@@ -3209,7 +3379,8 @@
     },
     {
         "en_h":  "Lymphoma",
-        "fr_h":  "Lymphome"
+        "fr_h":  "Lymphome",
+        "d_fr":  "Cancer du tissu lymphatique ; comprend les sous-types hodgkinien et non hodgkinien."
     },
     {
         "en_h":  "Macule",
@@ -3234,12 +3405,14 @@
     },
     {
         "en_h":  "Menopause",
-        "fr_h":  "Ménopause"
+        "fr_h":  "Ménopause",
+        "d_fr":  "Arrêt définitif des menstruations marquant la fin de la capacité reproductive féminine."
     },
     {
         "en_h":  "Menorrhagia",
         "fr_h":  "Ménorragie",
-        "fr_l":  "Règles abondantes"
+        "fr_l":  "Règles abondantes",
+        "d_fr":  "Saignements menstruels anormalement abondants ou prolongés."
     },
     {
         "en_h":  "Microcephaly",
@@ -3268,7 +3441,8 @@
     {
         "en_h":  "Neoplasm",
         "fr_h":  "Néoplasme",
-        "fr_l":  "Tumeur"
+        "fr_l":  "Tumeur",
+        "d_fr":  "Toute prolifération tissulaire nouvelle et anormale ; peut être bénigne ou maligne."
     },
     {
         "en_h":  "Nephropexy",
@@ -3313,7 +3487,8 @@
     },
     {
         "en_h":  "Ovarian Cyst",
-        "fr_h":  "Kyste ovarien"
+        "fr_h":  "Kyste ovarien",
+        "d_fr":  "Sac rempli de liquide situé sur ou dans l\u0027ovaire ; la plupart sont bénins et se résorbent spontanément."
     },
     {
         "en_h":  "Papilledema",
@@ -3321,7 +3496,8 @@
     },
     {
         "en_h":  "Paraplegia",
-        "fr_h":  "Paraplégie"
+        "fr_h":  "Paraplégie",
+        "d_fr":  "Paralysie du bas du corps et des jambes due à une lésion ou à une maladie de la moelle épinière."
     },
     {
         "en_h":  "Parathyroid",
@@ -3331,7 +3507,8 @@
     {
         "en_h":  "Pelvic Inflammatory Disease",
         "fr_h":  "Maladie inflammatoire pelvienne",
-        "fr_l":  "Salpingite"
+        "fr_l":  "Salpingite",
+        "d_fr":  "Infection de la partie supérieure de l\u0027appareil génital féminin ; complication fréquente des infections sexuellement transmissibles."
     },
     {
         "en_h":  "Pharmacist",
@@ -3340,7 +3517,8 @@
     {
         "en_h":  "Physiotherapy",
         "fr_h":  "Kinésithérapie",
-        "fr_l":  "Physiothérapie"
+        "fr_l":  "Physiothérapie",
+        "d_fr":  "Traitement thérapeutique utilisant des méthodes physiques pour restaurer les mouvements et les fonctions."
     },
     {
         "en_h":  "Pleurodynia",
@@ -3349,7 +3527,8 @@
     {
         "en_h":  "Pneumonia",
         "fr_h":  "Pneumonie",
-        "fr_l":  "Pneumopathie"
+        "fr_l":  "Pneumopathie",
+        "d_fr":  "Infection inflammatoire du parenchyme pulmonaire causée par des bactéries, des virus ou des champignons."
     },
     {
         "en_h":  "Porphyria",
@@ -3370,7 +3549,8 @@
     {
         "en_h":  "Pyrexia",
         "fr_h":  "Pyrexie",
-        "fr_l":  "Fièvre"
+        "fr_l":  "Fièvre",
+        "d_fr":  "Température corporelle supérieure à la normale ; terme clinique désignant la fièvre."
     },
     {
         "en_h":  "Pyrogen",
@@ -3383,7 +3563,8 @@
     },
     {
         "en_h":  "Quadriplegia",
-        "fr_h":  "Tétraplégie"
+        "fr_h":  "Tétraplégie",
+        "d_fr":  "Paralysie complète des quatre membres due à une lésion cervicale haute de la moelle épinière."
     },
     {
         "en_h":  "Rectal Prolapse",
@@ -3396,7 +3577,8 @@
     {
         "en_h":  "Relapse",
         "fr_h":  "Rechute",
-        "fr_l":  "Récidive"
+        "fr_l":  "Récidive",
+        "d_fr":  "Réapparition ou aggravation d\u0027une maladie après une période d\u0027amélioration ou de rémission."
     },
     {
         "en_h":  "Resection",
@@ -3404,15 +3586,18 @@
     },
     {
         "en_h":  "Retinal Detachment",
-        "fr_h":  "Décollement de rétine"
+        "fr_h":  "Décollement de rétine",
+        "d_fr":  "Décollement de la rétine de l\u0027épithélium pigmentaire rétinien sous-jacent."
     },
     {
         "en_h":  "Retinopathy",
-        "fr_h":  "Rétinopathie"
+        "fr_h":  "Rétinopathie",
+        "d_fr":  "Maladie non inflammatoire de la rétine ; le plus souvent d\u0027origine diabétique ou hypertensive."
     },
     {
         "en_h":  "Septicemia",
-        "fr_h":  "Septicémie"
+        "fr_h":  "Septicémie",
+        "d_fr":  "Infection du sang par des bactéries en prolifération ; terme clinique largement remplacé par sepsis."
     },
     {
         "en_h":  "Somnolence",
@@ -3421,7 +3606,8 @@
     {
         "en_h":  "Sphygmomanometer",
         "fr_h":  "Sphygmomanomètre",
-        "fr_l":  "Tensiomètre"
+        "fr_l":  "Tensiomètre",
+        "d_fr":  "Appareil utilisé pour mesurer la pression artérielle."
     },
     {
         "en_h":  "Spirometry",
@@ -3455,7 +3641,8 @@
     {
         "en_h":  "Thrombolysis",
         "fr_h":  "Thrombolyse",
-        "fr_l":  "Fibrinolyse"
+        "fr_l":  "Fibrinolyse",
+        "d_fr":  "Dissolution pharmacologique d\u0027un caillot sanguin à l\u0027aide d\u0027agents thrombolytiques."
     },
     {
         "en_h":  "Tonometer",
@@ -3471,7 +3658,8 @@
     },
     {
         "en_h":  "Transfusion",
-        "fr_h":  "Transfusion"
+        "fr_h":  "Transfusion",
+        "d_fr":  "Transfert de sang ou de dérivés sanguins d\u0027un donneur dans la circulation d\u0027un receveur."
     },
     {
         "en_h":  "Tricuspid",
@@ -3479,7 +3667,8 @@
     },
     {
         "en_h":  "Trimester",
-        "fr_h":  "Trimestre"
+        "fr_h":  "Trimestre",
+        "d_fr":  "Chacune des trois périodes de trois mois successifs composant une grossesse."
     },
     {
         "en_h":  "Tympanometry",
@@ -3498,7 +3687,8 @@
     {
         "en_h":  "Urolithiasis",
         "fr_h":  "Urolithiase",
-        "fr_l":  "Lithiase urinaire"
+        "fr_l":  "Lithiase urinaire",
+        "d_fr":  "Formation de calculs dans les voies urinaires."
     },
     {
         "en_h":  "Varicocele",
@@ -3506,11 +3696,13 @@
     },
     {
         "en_h":  "Venipuncture",
-        "fr_h":  "Ponction veineuse"
+        "fr_h":  "Ponction veineuse",
+        "d_fr":  "Ponction d\u0027une veine à l\u0027aiguille pour prélever du sang ou administrer un traitement."
     },
     {
         "en_h":  "Ventricular Fibrillation",
-        "fr_h":  "Fibrillation ventriculaire"
+        "fr_h":  "Fibrillation ventriculaire",
+        "d_fr":  "Arythmie potentiellement mortelle caractérisée par une activité électrique ventriculaire chaotique et une absence de débit cardiaque efficace."
     },
     {
         "en_h":  "Vesicoureteral Reflux",
@@ -3633,7 +3825,8 @@
     {
         "en_h":  "Non-Steroidal Anti-Inflammatory Drug",
         "fr_h":  "Anti-inflammatoire non stéroïdien",
-        "fr_l":  "AINS"
+        "fr_l":  "AINS",
+        "d_fr":  "Classe de médicaments réduisant la douleur, la fièvre et l\u0027inflammation en inhibant les enzymes COX ; comprend l\u0027ibuprofène, le naproxène et l\u0027aspirine."
     },
     {
         "en_h":  "Pseudocyesis",
@@ -3648,16 +3841,19 @@
     {
         "en_h":  "Electronic medical record",
         "fr_h":  "Dossier médical informatisé",
-        "fr_l":  "Dossier patient informatisé"
+        "fr_l":  "Dossier patient informatisé",
+        "d_fr":  "Version numérique du dossier médical d\u0027un patient — antécédents, diagnostics, traitements et médicaments — tenue par un professionnel de santé."
     },
     {
         "en_h":  "OTC medicine",
         "fr_h":  "Médicament sans ordonnance",
-        "fr_l":  "Médicament en vente libre"
+        "fr_l":  "Médicament en vente libre",
+        "d_fr":  "Médicament disponible sans ordonnance pour le traitement autonome de troubles bénins ; par opposition aux médicaments sur ordonnance."
     },
     {
         "en_h":  "Prescription medicine",
-        "fr_h":  "Médicament sur ordonnance"
+        "fr_h":  "Médicament sur ordonnance",
+        "d_fr":  "Médicament nécessitant une autorisation médicale écrite ; utilisé pour des affections requérant une supervision médicale ; par opposition aux médicaments en vente libre."
     },
     {
         "en_h":  "Fallopian tube",
@@ -3666,7 +3862,8 @@
     },
     {
         "en_h":  "Vagina",
-        "fr_h":  "Vagin"
+        "fr_h":  "Vagin",
+        "d_fr":  "Canal musculaire du col de l\u0027utérus aux organes génitaux externes ; sert de voie d\u0027accouchement et de passage pour les écoulements menstruels."
     },
     {
         "en_h":  "Vulva",
@@ -3679,7 +3876,8 @@
     {
         "en_h":  "Penis",
         "fr_h":  "Pénis",
-        "fr_l":  "Verge"
+        "fr_l":  "Verge",
+        "d_fr":  "Organe reproducteur et urinaire externe masculin par lequel l\u0027urine et le sperme sont expulsés."
     },
     {
         "en_h":  "Seminal vesicle",
@@ -3739,7 +3937,8 @@
     },
     {
         "en_h":  "Abdominal quadrant",
-        "fr_h":  "Quadrant abdominal"
+        "fr_h":  "Quadrant abdominal",
+        "d_fr":  "L\u0027une des quatre régions abdominales cliniques — QSD, QID, QSG, QIG — utilisées pour localiser la douleur, les organes et les données de l\u0027examen."
     },
     {
         "en_h":  "Abdominal region",
@@ -3748,20 +3947,24 @@
     {
         "en_h":  "Medial",
         "fr_h":  "Médial",
-        "fr_l":  "Interne"
+        "fr_l":  "Interne",
+        "d_fr":  "Terme directionnel indiquant une position plus proche du plan médian du corps."
     },
     {
         "en_h":  "Lateral",
         "fr_h":  "Latéral",
-        "fr_l":  "Externe"
+        "fr_l":  "Externe",
+        "d_fr":  "Terme directionnel indiquant une position plus éloignée du plan médian du corps."
     },
     {
         "en_h":  "Proximal",
-        "fr_h":  "Proximal"
+        "fr_h":  "Proximal",
+        "d_fr":  "Terme directionnel indiquant une position plus proche du point d\u0027attache ou d\u0027origine d\u0027un membre."
     },
     {
         "en_h":  "Distal",
-        "fr_h":  "Distal"
+        "fr_h":  "Distal",
+        "d_fr":  "Terme directionnel indiquant une position plus éloignée du point d\u0027attache ou d\u0027origine d\u0027un membre."
     },
     {
         "en_h":  "Apex",
@@ -3811,7 +4014,8 @@
     },
     {
         "en_h":  "Acne",
-        "fr_h":  "Acné"
+        "fr_h":  "Acné",
+        "d_fr":  "Affection inflammatoire chronique de l\u0027unité pilosébacée avec comédons, papules, pustules et nodules ; la plus répandue chez les adolescents."
     },
     {
         "en_h":  "Cutaneous",
@@ -3834,11 +4038,13 @@
     {
         "en_h":  "Contusion",
         "fr_h":  "Contusion",
-        "fr_l":  "Ecchymose"
+        "fr_l":  "Ecchymose",
+        "d_fr":  "Lésion des tissus mous provoquant une hémorragie sous-cutanée avec peau intacte, entraînant ecchymose et douleur ; communément appelée bleu ou hématome superficiel."
     },
     {
         "en_h":  "Cyst",
-        "fr_h":  "Kyste"
+        "fr_h":  "Kyste",
+        "d_fr":  "Sac fermé, tapissé d\u0027épithélium et rempli d\u0027un contenu liquide, semi-liquide ou solide ; peut être bénin ou malin."
     },
     {
         "en_h":  "Depigmentation",
@@ -3873,7 +4079,8 @@
     },
     {
         "en_h":  "Lesion",
-        "fr_h":  "Lésion"
+        "fr_h":  "Lésion",
+        "d_fr":  "Toute modification anormale de la structure tissulaire due à une maladie ou à une blessure ; terme générique englobant plaies, ulcères, tumeurs et éruptions."
     },
     {
         "en_h":  "Leukoderma",
@@ -3894,7 +4101,8 @@
     },
     {
         "en_h":  "Pallor",
-        "fr_h":  "Pâleur"
+        "fr_h":  "Pâleur",
+        "d_fr":  "Pâleur anormale de la peau, des muqueuses ou des ongles, évocatrice d\u0027une anémie, d\u0027un choc ou d\u0027une mauvaise perfusion."
     },
     {
         "en_h":  "Papule",
@@ -3926,7 +4134,8 @@
     },
     {
         "en_h":  "Ulcer",
-        "fr_h":  "Ulcère"
+        "fr_h":  "Ulcère",
+        "d_fr":  "Plaie ouverte sur la peau ou une muqueuse résultant d\u0027une destruction tissulaire ; due à une infection, une pression, une ischémie ou une inflammation."
     },
     {
         "en_h":  "Vesicle",
@@ -3943,7 +4152,8 @@
     },
     {
         "en_h":  "Abscess",
-        "fr_h":  "Abcès"
+        "fr_h":  "Abcès",
+        "d_fr":  "Collection localisée de pus dans une cavité formée par la destruction tissulaire, entourée de tissu inflammatoire ; nécessite un drainage."
     },
     {
         "en_h":  "Acne rosacea",
@@ -3964,7 +4174,8 @@
     },
     {
         "en_h":  "Burn",
-        "fr_h":  "Brûlure"
+        "fr_h":  "Brûlure",
+        "d_fr":  "Lésion tissulaire due à la chaleur, à des produits chimiques, à l\u0027électricité ou aux rayonnements ; classée selon la profondeur et le pourcentage de surface corporelle atteint."
     },
     {
         "en_h":  "Cicatrix",
@@ -3973,7 +4184,8 @@
     {
         "en_h":  "Decubitus ulcer",
         "fr_h":  "Escarre de décubitus",
-        "fr_l":  "Ulcère de pression"
+        "fr_l":  "Ulcère de pression",
+        "d_fr":  "Lésion de la peau et des tissus due à une pression prolongée sur les proéminences osseuses ; aussi appelée escarre ou plaie de pression."
     },
     {
         "en_h":  "Dermatosis",
@@ -3993,7 +4205,8 @@
     },
     {
         "en_h":  "Eczema",
-        "fr_h":  "Eczéma"
+        "fr_h":  "Eczéma",
+        "d_fr":  "Affection cutanée inflammatoire chronique provoquant prurit, rougeur et plaques squameuses ; souvent utilisé de façon interchangeable avec dermatite atopique."
     },
     {
         "en_h":  "Ichthyosis",
@@ -4018,11 +4231,13 @@
     {
         "en_h":  "Laceration",
         "fr_h":  "Lacération",
-        "fr_l":  "Plaie déchiquetée"
+        "fr_l":  "Plaie déchiquetée",
+        "d_fr":  "Déchirure ou coupure irrégulière de la peau ou des tissus mous, généralement traumatique ; nécessite habituellement une fermeture de plaie."
     },
     {
         "en_h":  "Malignant melanoma",
-        "fr_h":  "Mélanome malin"
+        "fr_h":  "Mélanome malin",
+        "d_fr":  "Cancer agressif issu des mélanocytes ; la forme de cancer de la peau la plus dangereuse en raison de sa forte propension à métastaser."
     },
     {
         "en_h":  "Pediculosis",
@@ -4030,7 +4245,8 @@
     },
     {
         "en_h":  "Rubella",
-        "fr_h":  "Rubéole"
+        "fr_h":  "Rubéole",
+        "d_fr":  "Infection virale contagieuse avec éruption rose fine ; dangereuse pendant la grossesse car elle cause le syndrome de rubéole congénitale affectant le fœtus."
     },
     {
         "en_h":  "Scabies",
@@ -4054,7 +4270,8 @@
     {
         "en_h":  "Systemic lupus erythematosus",
         "fr_h":  "Lupus érythémateux systémique",
-        "fr_l":  "LED"
+        "fr_l":  "LED",
+        "d_fr":  "Maladie auto-immune systémique chronique touchant de multiples organes ; les signes caractéristiques sont un érythème en ailes de papillon, des douleurs articulaires et une atteinte rénale."
     },
     {
         "en_h":  "Tinea",
@@ -4072,7 +4289,8 @@
     },
     {
         "en_h":  "Varicella",
-        "fr_h":  "Varicelle"
+        "fr_h":  "Varicelle",
+        "d_fr":  "Infection primaire par le virus varicelle-zona, avec éruption vésiculaire prurigineuse généralisée ; peut entraîner des complications graves chez les patients immunodéprimés."
     },
     {
         "en_h":  "Verruca",
@@ -4110,7 +4328,8 @@
     },
     {
         "en_h":  "Culture and sensitivity",
-        "fr_h":  "Culture et antibiogramme"
+        "fr_h":  "Culture et antibiogramme",
+        "d_fr":  "Examen de laboratoire mettant en culture un prélèvement pour identifier l\u0027agent pathogène responsable et déterminer les antibiotiques auxquels il est sensible."
     },
     {
         "en_h":  "Excisional biopsy",
@@ -4150,7 +4369,8 @@
     {
         "en_h":  "Skin graft",
         "fr_h":  "Greffe cutanée",
-        "fr_l":  "Greffe de peau"
+        "fr_l":  "Greffe de peau",
+        "d_fr":  "Transplantation de peau saine pour couvrir une plaie où la peau a été perdue suite à des brûlures, un traumatisme ou une chirurgie."
     },
     {
         "en_h":  "Xenograft",
@@ -4174,7 +4394,8 @@
     },
     {
         "en_h":  "Incision and drainage",
-        "fr_h":  "Incision et drainage"
+        "fr_h":  "Incision et drainage",
+        "d_fr":  "Procédure chirurgicale mineure consistant à inciser et drainer un abcès cutané ou un kyste infecté, soulageant la douleur et facilitant la guérison."
     },
     {
         "en_h":  "Onychectomy",
@@ -4205,7 +4426,8 @@
     },
     {
         "en_h":  "Anesthetic",
-        "fr_h":  "Anesthésique"
+        "fr_h":  "Anesthésique",
+        "d_fr":  "Agent provoquant une perte de sensibilité avec ou sans perte de conscience ; classifié en anesthésique local (zone spécifique) ou général (corps entier)."
     },
     {
         "en_h":  "Antifungal",
@@ -4221,11 +4443,13 @@
     },
     {
         "en_h":  "Antiseptic",
-        "fr_h":  "Antiseptique"
+        "fr_h":  "Antiseptique",
+        "d_fr":  "Substance appliquée sur les tissus vivants pour prévenir ou inhiber la croissance des micro-organismes et réduire le risque d\u0027infection."
     },
     {
         "en_h":  "Corticosteroid cream",
         "fr_h":  "Crème corticostéroïde",
-        "fr_l":  "Crème corticoïde"
+        "fr_l":  "Crème corticoïde",
+        "d_fr":  "Préparation topique à base de corticostéroïdes réduisant l\u0027inflammation cutanée, le prurit et les rougeurs ; utilisée pour l\u0027eczéma, le psoriasis et la dermatite de contact."
     }
 ]

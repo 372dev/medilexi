@@ -14,6 +14,8 @@ const PAGE_TITLES: Record<string, string> = {
   '/flashcards':          'English Flashcard',
   '/flashcards/ko':       'Korean Flashcard',
   '/flashcards/abbr':    'Abbreviation Flashcard',
+  '/glossary/fr':        'French Glossary',
+  '/flashcards/fr':      'French Flashcard',
   '/about':               'About',
   '/privacy':             'Privacy Policy',
 }
@@ -28,6 +30,8 @@ const PAGE_DESCRIPTIONS: Record<string, string> = {
   '/flashcards':          'English medical vocabulary flashcard. Study or quiz mode with level and specialty filters.',
   '/flashcards/ko':       'English–Korean medical vocabulary flashcard with EN↔KO direction toggle and quiz mode.',
   '/flashcards/abbr':    'Medical abbreviation flashcard. Study 135+ abbreviations with Abbr→Term and Term→Abbr direction toggle, quiz mode, and specialty filters.',
+  '/glossary/fr':        'Bilingual English–French medical glossary with French definitions, field and level filters, and word-part highlights.',
+  '/flashcards/fr':      'English–French medical vocabulary flashcard with EN↔FR direction toggle, quiz mode, and specialty filters.',
   '/about':               'About Medi Lexi — multilingual medical glossary for students, interpreters, and translators. Data sources and site info.',
   '/privacy':             'Medi Lexi privacy policy — how we handle analytics, cookies, and data.',
 }
@@ -35,13 +39,17 @@ const PAGE_DESCRIPTIONS: Record<string, string> = {
 const LANG: Record<string, string> = {
   '/glossary/ko':   'ko',
   '/flashcards/ko': 'ko',
+  '/glossary/fr':   'fr',
+  '/flashcards/fr': 'fr',
 }
 
-const HREFLANG: Record<string, { en: string; ko: string }> = {
-  '/glossary':      { en: '/glossary',   ko: '/glossary/ko' },
-  '/glossary/ko':   { en: '/glossary',   ko: '/glossary/ko' },
-  '/flashcards':    { en: '/flashcards', ko: '/flashcards/ko' },
-  '/flashcards/ko': { en: '/flashcards', ko: '/flashcards/ko' },
+const HREFLANG: Record<string, Record<string, string>> = {
+  '/glossary':      { en: '/glossary',   ko: '/glossary/ko',   fr: '/glossary/fr' },
+  '/glossary/ko':   { en: '/glossary',   ko: '/glossary/ko',   fr: '/glossary/fr' },
+  '/glossary/fr':   { en: '/glossary',   ko: '/glossary/ko',   fr: '/glossary/fr' },
+  '/flashcards':    { en: '/flashcards', ko: '/flashcards/ko', fr: '/flashcards/fr' },
+  '/flashcards/ko': { en: '/flashcards', ko: '/flashcards/ko', fr: '/flashcards/fr' },
+  '/flashcards/fr': { en: '/flashcards', ko: '/flashcards/ko', fr: '/flashcards/fr' },
 }
 
 const BASE_GRAPH = [
@@ -116,6 +124,18 @@ const PAGE_SCHEMA: Record<string, object> = {
     educationalLevel: 'university',
     inLanguage: 'en',
   },
+  '/glossary/fr': {
+    '@type': 'LearningResource',
+    learningResourceType: 'reference',
+    educationalLevel: 'university',
+    inLanguage: ['en', 'fr'],
+  },
+  '/flashcards/fr': {
+    '@type': 'LearningResource',
+    learningResourceType: ['flashcard', 'activity'],
+    educationalLevel: 'university',
+    inLanguage: ['en', 'fr'],
+  },
 }
 
 const BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> = {
@@ -127,6 +147,8 @@ const BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> = {
   '/flashcards':          [{ name: 'Home', path: '/' }, { name: 'English Flashcard',       path: '/flashcards' }],
   '/flashcards/ko':       [{ name: 'Home', path: '/' }, { name: 'Korean Flashcard',       path: '/flashcards/ko' }],
   '/flashcards/abbr':    [{ name: 'Home', path: '/' }, { name: 'Abbreviation Flashcard', path: '/flashcards/abbr' }],
+  '/glossary/fr':        [{ name: 'Home', path: '/' }, { name: 'French Glossary',        path: '/glossary/fr' }],
+  '/flashcards/fr':      [{ name: 'Home', path: '/' }, { name: 'French Flashcard',       path: '/flashcards/fr' }],
   '/about':               [{ name: 'Home', path: '/' }, { name: 'About',              path: '/about' }],
   '/privacy':             [{ name: 'Home', path: '/' }, { name: 'Privacy Policy',     path: '/privacy' }],
 }
@@ -192,8 +214,7 @@ export async function generateMetadata(): Promise<Metadata> {
   if (hreflang) {
     meta.alternates = {
       languages: {
-        en:          `${BASE_URL}${hreflang.en}`,
-        ko:          `${BASE_URL}${hreflang.ko}`,
+        ...Object.fromEntries(Object.entries(hreflang).map(([lang, path]) => [lang, `${BASE_URL}${path}`])),
         'x-default': `${BASE_URL}${hreflang.en}`,
       },
     }

@@ -95,12 +95,17 @@ export default function Home() {
           </div>
         </div>
 
-        {/* ── FRENCH ── coming soon */}
-        <div style={{ ...tileBase('#3B82F6'), borderRight:'1px dashed var(--color-border)', borderBottom:'1px dashed var(--color-border)', borderLeft:'1px dashed var(--color-border)', opacity:0.45 }}>
+        {/* ── FRENCH ── */}
+        <div style={{ ...tileBase('#3B82F6'), display:'flex', flexDirection:'column' }}>
           <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#3B82F6', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>
-            FRENCH · COMING SOON
+            FRENCH
           </div>
-          <div style={{ fontSize:'0.9rem', color:'var(--color-text)' }}>Français</div>
+          <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Français</div>
+          <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>Bilingual · EN↔FR</div>
+          <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
+            <Link href="/glossary/fr" style={outline('#3B82F6')}>Glossary</Link>
+            <Link href="/flashcards/fr" style={outline('#3B82F6')}>Flashcard</Link>
+          </div>
         </div>
 
       </nav>

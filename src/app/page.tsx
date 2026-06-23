@@ -52,13 +52,11 @@ export default function Home() {
           </div>
         </div>
 
-        {/* ── ENGLISH + KOREAN ── 2-col grid */}
-        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'0.65rem', alignItems:'stretch' }}>
+        {/* ── EN · ABBR · KO · FR ── 2×2 equal grid */}
+        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'0.65rem' }}>
 
           <div style={{ ...tileBase('var(--color-accent)'), display:'flex', flexDirection:'column' }}>
-            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-accent)', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>
-              ENGLISH
-            </div>
+            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-accent)', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>ENGLISH</div>
             <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>English</div>
             <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>1,000+ clinical terms</div>
             <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
@@ -67,10 +65,17 @@ export default function Home() {
             </div>
           </div>
 
-          <div style={{ ...tileBase('#3BAA6A'), display:'flex', flexDirection:'column' }}>
-            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#3BAA6A', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>
-              KOREAN
+          <div style={{ ...tileBase('#C94040'), display:'flex', flexDirection:'column' }}>
+            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#C94040', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>ABBREVIATIONS</div>
+            <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Medical Abbr</div>
+            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>135+ · Abbr ↔ Term</div>
+            <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
+              <Link href="/flashcards/abbr" style={outline('#C94040')}>Flashcard</Link>
             </div>
+          </div>
+
+          <div style={{ ...tileBase('#3BAA6A'), display:'flex', flexDirection:'column' }}>
+            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#3BAA6A', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>KOREAN</div>
             <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>한국어</div>
             <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>Bilingual · EN↔KO</div>
             <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
@@ -79,33 +84,16 @@ export default function Home() {
             </div>
           </div>
 
-        </div>
+          <div style={{ ...tileBase('#3B82F6'), display:'flex', flexDirection:'column' }}>
+            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#3B82F6', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>FRENCH</div>
+            <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Français</div>
+            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>Bilingual · EN↔FR</div>
+            <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
+              <Link href="/glossary/fr" style={outline('#3B82F6')}>Glossary</Link>
+              <Link href="/flashcards/fr" style={outline('#3B82F6')}>Flashcard</Link>
+            </div>
+          </div>
 
-        {/* ── ABBREVIATIONS ── */}
-        <div style={tileBase('#C94040')}>
-          <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#C94040', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>
-            ABBREVIATIONS
-          </div>
-          <div style={{ fontSize:'1rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Medical Abbreviations</div>
-          <div style={{ fontSize:'0.82rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>
-            135+ abbreviations · Abbr ↔ Term flashcard
-          </div>
-          <div style={{ display:'flex', gap:'0.5rem', flexWrap:'wrap' }}>
-            <Link href="/flashcards/abbr" style={outline('#C94040')}>Flashcard</Link>
-          </div>
-        </div>
-
-        {/* ── FRENCH ── */}
-        <div style={{ ...tileBase('#3B82F6'), display:'flex', flexDirection:'column' }}>
-          <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#3B82F6', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>
-            FRENCH
-          </div>
-          <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Français</div>
-          <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>Bilingual · EN↔FR</div>
-          <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
-            <Link href="/glossary/fr" style={outline('#3B82F6')}>Glossary</Link>
-            <Link href="/flashcards/fr" style={outline('#3B82F6')}>Flashcard</Link>
-          </div>
         </div>
 
       </nav>

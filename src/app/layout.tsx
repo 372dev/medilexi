@@ -18,10 +18,10 @@ const PAGE_TITLES: Record<string, string> = {
 }
 
 const PAGE_DESCRIPTIONS: Record<string, string> = {
-  '/':                    'Learn medical vocabulary with prefix · root · suffix breakdowns, 999-term glossary, flashcards and quiz. Free study tool for medical students.',
-  '/glossary':            'Search 999 medical terms with definitions, clinical specialties, importance levels, and word-part breakdowns.',
+  '/':                    'Learn medical vocabulary with prefix · root · suffix breakdowns, 1,000+ term glossary, flashcards and quiz. Free study tool for medical students.',
+  '/glossary':            'Search 1,000+ medical terms with definitions, clinical specialties, importance levels, and word-part breakdowns.',
   '/glossary/ko':         'Bilingual English–Korean medical glossary with Korean definitions, IME-safe search, and word-part highlights.',
-  '/wordparts':           '408 medical word parts — prefixes, roots, and suffixes — with meanings, examples, and clinical usage.',
+  '/wordparts':           '400+ medical word parts — prefixes, roots, and suffixes — with meanings, examples, and clinical usage.',
   '/wordparts/flashcard': 'Study medical word parts with interactive flashcards. Quiz mode, level filters, and missed-card review.',
   '/wordparts/quiz':      'Test your knowledge of medical word parts with multiple-choice quiz mode.',
   '/flashcards':          'English medical vocabulary flashcard. Study or quiz mode with level and specialty filters.',

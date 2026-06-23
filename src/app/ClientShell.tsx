@@ -10,11 +10,14 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 const PAGE_TITLES: Record<string, string> = {
   '/glossary':            'English Glossary',
   '/glossary/ko':         'Korean Glossary',
+  '/glossary/fr':         'French Glossary',
   '/wordparts':           'Medical Word Parts',
   '/wordparts/flashcard': 'Word Parts Flashcard',
   '/wordparts/quiz':      'Word Parts Quiz',
   '/flashcards':          'English Flashcard',
   '/flashcards/ko':       'Korean Flashcard',
+  '/flashcards/abbr':     'Abbreviation Flashcard',
+  '/flashcards/fr':       'French Flashcard',
   '/about':               'About',
   '/privacy':             'Privacy Policy',
 }

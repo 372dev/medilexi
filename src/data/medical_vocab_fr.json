@@ -5656,5 +5656,34 @@
         "fr_h":  "Carcinome corticosurrénalien",
         "fr_l":  "Cancer de la surrénale",
         "d_fr":  "Tumeur maligne rare et agressive du cortex surrénalien; peut sécréter un excès de cortisol, d\u0027androgènes ou d\u0027aldostérone entraînant des syndromes hormonaux; souvent diagnostiquée à un stade avancé."
+    },
+    {
+        "en_h":  "Xerostomia",
+        "fr_h":  "Xérostomie",
+        "fr_l":  "Bouche sèche",
+        "d_fr":  "Sécheresse anormale de la bouche due à une réduction ou à l\u0027absence de salive; causes fréquentes : médicaments, radiothérapie et syndrome de Sjögren."
+    },
+    {
+        "en_h":  "Tenesmus",
+        "fr_h":  "Ténesme",
+        "fr_l":  "Faux besoins",
+        "d_fr":  "Sensation douloureuse d\u0027urgence à déféquer avec peu ou pas de selles émises; associé aux maladies inflammatoires intestinales, au cancer colorectal et aux troubles anorectaux."
+    },
+    {
+        "en_h":  "Otalgia",
+        "fr_h":  "Otalgie",
+        "fr_l":  "Mal d\u0027oreille",
+        "d_fr":  "Douleur à l\u0027oreille due à une cause primaire locale ou à une douleur référée depuis une structure distante telle que la mâchoire, le pharynx ou le rachis cervical."
+    },
+    {
+        "en_h":  "Trismus",
+        "fr_h":  "Trisme",
+        "fr_l":  "Mâchoire bloquée",
+        "d_fr":  "Limitation de l\u0027ouverture buccale due à un spasme ou une fibrose des muscles masticateurs; causes : infection, traumatisme, radiothérapie et tétanos."
+    },
+    {
+        "en_h":  "Anhedonia",
+        "fr_h":  "Anhédonie",
+        "d_fr":  "Incapacité ou diminution de la capacité à éprouver du plaisir dans des activités autrefois appréciées; symptôme central de la dépression et d\u0027autres troubles psychiatriques."
     }
 ]

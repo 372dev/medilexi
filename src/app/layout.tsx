@@ -13,6 +13,7 @@ const PAGE_TITLES: Record<string, string> = {
   '/wordparts/quiz':      'Word Parts Quiz',
   '/flashcards':          'English Flashcard',
   '/flashcards/ko':       'Korean Flashcard',
+  '/flashcards/abbr':    'Abbreviation Flashcard',
   '/about':               'About',
   '/privacy':             'Privacy Policy',
 }
@@ -26,6 +27,7 @@ const PAGE_DESCRIPTIONS: Record<string, string> = {
   '/wordparts/quiz':      'Test your knowledge of medical word parts with multiple-choice quiz mode.',
   '/flashcards':          'English medical vocabulary flashcard. Study or quiz mode with level and specialty filters.',
   '/flashcards/ko':       'English–Korean medical vocabulary flashcard with EN↔KO direction toggle and quiz mode.',
+  '/flashcards/abbr':    'Medical abbreviation flashcard. Study 135+ abbreviations with Abbr→Term and Term→Abbr direction toggle, quiz mode, and specialty filters.',
   '/about':               'About Medi Lexi — multilingual medical glossary for students, interpreters, and translators. Data sources and site info.',
   '/privacy':             'Medi Lexi privacy policy — how we handle analytics, cookies, and data.',
 }
@@ -108,6 +110,12 @@ const PAGE_SCHEMA: Record<string, object> = {
     educationalLevel: 'university',
     inLanguage: ['en', 'ko'],
   },
+  '/flashcards/abbr': {
+    '@type': 'LearningResource',
+    learningResourceType: ['flashcard', 'activity'],
+    educationalLevel: 'university',
+    inLanguage: 'en',
+  },
 }
 
 const BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> = {
@@ -116,8 +124,9 @@ const BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> = {
   '/wordparts':           [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }],
   '/wordparts/flashcard': [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }, { name: 'Flashcard', path: '/wordparts/flashcard' }],
   '/wordparts/quiz':      [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }, { name: 'Quiz',      path: '/wordparts/quiz' }],
-  '/flashcards':          [{ name: 'Home', path: '/' }, { name: 'English Flashcard',  path: '/flashcards' }],
-  '/flashcards/ko':       [{ name: 'Home', path: '/' }, { name: 'Korean Flashcard',   path: '/flashcards/ko' }],
+  '/flashcards':          [{ name: 'Home', path: '/' }, { name: 'English Flashcard',       path: '/flashcards' }],
+  '/flashcards/ko':       [{ name: 'Home', path: '/' }, { name: 'Korean Flashcard',       path: '/flashcards/ko' }],
+  '/flashcards/abbr':    [{ name: 'Home', path: '/' }, { name: 'Abbreviation Flashcard', path: '/flashcards/abbr' }],
   '/about':               [{ name: 'Home', path: '/' }, { name: 'About',              path: '/about' }],
   '/privacy':             [{ name: 'Home', path: '/' }, { name: 'Privacy Policy',     path: '/privacy' }],
 }

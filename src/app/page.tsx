@@ -81,6 +81,20 @@ export default function Home() {
 
         </div>
 
+        {/* ── ABBREVIATIONS ── */}
+        <div style={tileBase('#C94040')}>
+          <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#C94040', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>
+            ABBREVIATIONS
+          </div>
+          <div style={{ fontSize:'1rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Medical Abbreviations</div>
+          <div style={{ fontSize:'0.82rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>
+            135+ abbreviations · Abbr ↔ Term flashcard
+          </div>
+          <div style={{ display:'flex', gap:'0.5rem', flexWrap:'wrap' }}>
+            <Link href="/flashcards/abbr" style={outline('#C94040')}>Flashcard</Link>
+          </div>
+        </div>
+
         {/* ── FRENCH ── coming soon */}
         <div style={{ ...tileBase('#3B82F6'), borderRight:'1px dashed var(--color-border)', borderBottom:'1px dashed var(--color-border)', borderLeft:'1px dashed var(--color-border)', opacity:0.45 }}>
           <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#3B82F6', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>

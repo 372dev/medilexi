@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/wordparts/quiz`,        lastModified: LAST_MOD },
     { url: `${BASE_URL}/flashcards`,            lastModified: LAST_MOD },
     { url: `${BASE_URL}/flashcards/ko`,         lastModified: LAST_MOD },
+    { url: `${BASE_URL}/flashcards/abbr`,       lastModified: LAST_MOD },
     { url: `${BASE_URL}/about`,                 lastModified: LAST_MOD },
     { url: `${BASE_URL}/privacy`,               lastModified: LAST_MOD },
   ]

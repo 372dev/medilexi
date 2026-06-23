@@ -3,14 +3,19 @@
 import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import vocabData from '@/data/medical_vocab.json'
+import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, STARS, STAR_CLASS } from '@/lib/vocab-constants'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
   f: string[]; d: string; lvl: string
+  parts?: { p?: string[]; r?: string[]; s?: string[] }
 }
+interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
-const vocab = vocabData as VocabEntry[]
+const vocab    = vocabData as VocabEntry[]
+const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
+const PART_COLOR = { p: '#3B82F6', r: '#3BAA6A', s: '#C94040' } as const
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
 
@@ -245,6 +250,21 @@ export default function FlashcardsPage() {
                     <div style={{ fontSize: '1.3rem', fontWeight: 700, color: 'var(--color-text)' }}>{card.en_h}</div>
                     {card.en_l && <div style={{ fontSize: '1rem', color: 'var(--color-text-dim)' }}>{card.en_l}</div>}
                     <p style={{ fontSize: '0.92rem', color: 'var(--color-text-dim)', lineHeight: 1.7 }}>{card.d}</p>
+                    {card.parts && (['p','r','s'] as const).some(t => (card.parts?.[t]?.length ?? 0) > 0) && (
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem' }}>
+                        {(['p','r','s'] as const).flatMap(t =>
+                          (card.parts?.[t] ?? []).map(wp => {
+                            const color = PART_COLOR[t]
+                            const meaning = partsMap[wp]?.d ?? ''
+                            return (
+                              <span key={wp} style={{ fontSize: '0.75rem', padding: '0.1rem 0.45rem', border: `1px solid ${color}`, color, lineHeight: 1.8 }}>
+                                {wp}{meaning ? ` · ${meaning}` : ''}
+                              </span>
+                            )
+                          })
+                        )}
+                      </div>
+                    )}
                     <div style={{ marginTop: 'auto', display: 'flex', flexWrap: 'wrap', gap: '0.3rem', alignItems: 'center' }}>
                       <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} style={{ fontSize: '0.8rem', marginRight: '0.25rem' }}>{STARS[card.lvl]}</span>
                       {card.f.map(f => <span key={f} className="c-field-badge">{f}</span>)}

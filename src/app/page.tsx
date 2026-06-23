@@ -31,7 +31,7 @@ export default function Home() {
         Multilingual Medical Glossary
       </p>
       <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.7, maxWidth:'460px', textAlign:'center', marginBottom:'1.75rem' }}>
-        999 medical terms · 408 word parts · for students, medical interpreters &amp; translators
+        1,000+ medical terms · 400+ word parts · for students, medical interpreters &amp; translators
       </p>
 
       <nav style={{ width:'100%', maxWidth:'520px', display:'flex', flexDirection:'column', gap:'0.65rem' }}>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div style={{ fontSize:'1rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Prefix · Root · Suffix</div>
           <div style={{ fontSize:'0.82rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>
-            408 entries · Build medical vocabulary from the ground up
+            400+ entries · Build medical vocabulary from the ground up
           </div>
           <div style={{ display:'flex', gap:'0.5rem', flexWrap:'wrap' }}>
             <Link href="/wordparts" style={outline('var(--color-gold)')}>Glossary</Link>
@@ -60,7 +60,7 @@ export default function Home() {
               ENGLISH
             </div>
             <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>English</div>
-            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>999 clinical terms</div>
+            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>1,000+ clinical terms</div>
             <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
               <Link href="/glossary" style={outline('var(--color-accent)')}>Glossary</Link>
               <Link href="/flashcards" style={outline('var(--color-accent)')}>Flashcard</Link>

@@ -20,8 +20,8 @@ const PROSE: React.CSSProperties = {
 }
 
 const STATS = [
-  { n: '999',                       label: 'Medical Terms',        sub: '20+ clinical specialties' },
-  { n: '408',                      label: 'Word Parts',           sub: 'Prefix · Root · Suffix' },
+  { n: '1,000+',                    label: 'Medical Terms',        sub: '20+ clinical specialties' },
+  { n: '400+',                     label: 'Word Parts',           sub: 'Prefix · Root · Suffix' },
   { n: String(multilingualCount),  label: 'Multilingual Entries', sub: 'with full definitions' },
 ]
 

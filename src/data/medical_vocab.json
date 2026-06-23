@@ -10705,7 +10705,7 @@
     },
     {
         "en_h":  "Duodenoscopy",
-        "d":  "Endoscopic examination of the duodenum.",
+        "d":  "Endoscopic examination of the duodenum; used to diagnose duodenal ulcers, tumors, and celiac disease, and to perform biopsies or therapeutic interventions.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Gastroenterology"
@@ -10713,7 +10713,7 @@
     },
     {
         "en_h":  "Enteroscopy",
-        "d":  "Endoscopic visual examination of the small intestine.",
+        "d":  "Endoscopic visual examination of the small intestine; used to detect bleeding, Crohn\u0027s disease, and tumors beyond the reach of standard upper endoscopy.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Gastroenterology"
@@ -10807,7 +10807,7 @@
     },
     {
         "en_h":  "Mammoplasty",
-        "d":  "Surgical reshaping or reconstruction of the breast.",
+        "d":  "Surgical reshaping or reconstruction of the breast; includes augmentation, reduction, and reconstruction following mastectomy.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Plastic Surgery",
@@ -10961,7 +10961,7 @@
     },
     {
         "en_h":  "Tympanoplasty",
-        "d":  "Surgical repair of the tympanic membrane.",
+        "d":  "Surgical repair of the tympanic membrane, typically performed to close perforations caused by chronic infection or trauma and to restore hearing.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Otolaryngology"
@@ -11110,7 +11110,7 @@
     },
     {
         "en_h":  "Corneitis",
-        "d":  "Inflammation of the cornea; also called keratitis.",
+        "d":  "Inflammation of the cornea (also called keratitis) caused by bacterial, viral (especially herpes simplex), or fungal infection; a leading cause of corneal blindness worldwide.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Ophthalmology"
@@ -11261,7 +11261,7 @@
     },
     {
         "en_h":  "Jejunoileitis",
-        "d":  "Simultaneous inflammation of the jejunum and ileum.",
+        "d":  "Simultaneous inflammation of the jejunum and ileum; most commonly a manifestation of Crohn\u0027s disease, causing abdominal pain, diarrhea, and malabsorption.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Gastroenterology"
@@ -11405,7 +11405,7 @@
     },
     {
         "en_h":  "Pyromania",
-        "d":  "Impulse control disorder characterized by compulsive fire-setting.",
+        "d":  "An impulse control disorder characterized by compulsive fire-setting for tension relief rather than material gain; classified in DSM-5 under disruptive, impulse-control, and conduct disorders.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Psychiatry"
@@ -11422,7 +11422,7 @@
     },
     {
         "en_h":  "Sarcoidosis",
-        "d":  "Multisystem inflammatory disease characterized by non-caseating granulomas.",
+        "d":  "A multisystem inflammatory disease characterized by non-caseating granulomas, most commonly affecting the lungs, lymph nodes, skin, and eyes; often found incidentally on chest imaging.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Pulmonology",
@@ -11431,7 +11431,7 @@
     },
     {
         "en_h":  "Sigmoiditis",
-        "d":  "Inflammation of the sigmoid colon.",
+        "d":  "Inflammation of the sigmoid colon; causes include inflammatory bowel disease, ischemia, and infection, presenting with lower left abdominal pain and altered bowel habits.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Gastroenterology"
@@ -11624,7 +11624,7 @@
     },
     {
         "en_h":  "Audiometry",
-        "d":  "Standardized testing of hearing sensitivity across frequencies.",
+        "d":  "Standardized testing of hearing sensitivity across frequencies; used to diagnose and classify hearing loss as conductive, sensorineural, or mixed.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Otolaryngology"
@@ -11753,7 +11753,7 @@
     },
     {
         "en_h":  "Chondroma",
-        "d":  "Benign tumor composed of mature cartilage tissue.",
+        "d":  "A benign tumor composed of mature cartilage tissue; may arise within bone (enchondroma) or on its surface (ecchondroma), most commonly in the small bones of the hand.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Orthopedics",
@@ -11869,7 +11869,7 @@
     },
     {
         "en_h":  "Dysphonia",
-        "d":  "Difficulty or abnormality in voice production.",
+        "d":  "Difficulty or abnormality in voice production; caused by laryngeal disorders, vocal cord lesions, or nerve damage, and assessed by laryngoscopy.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Otolaryngology"
@@ -11974,7 +11974,7 @@
     },
     {
         "en_h":  "Hepatotoxic",
-        "d":  "Causing damage or injury to liver cells.",
+        "d":  "Causing damage or injury to liver cells; hepatotoxic agents include alcohol, acetaminophen in overdose, and certain drugs such as isoniazid and statins.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Pharmacology",
@@ -12016,7 +12016,7 @@
     },
     {
         "en_h":  "Hypertonia",
-        "d":  "Abnormally increased muscle tone or tension.",
+        "d":  "Abnormally increased muscle tone or tension; may be spastic (upper motor neuron lesion) or rigid (basal ganglia disease such as Parkinson\u0027s).",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Neurology"
@@ -12144,7 +12144,7 @@
     },
     {
         "en_h":  "Menorrhagia",
-        "d":  "Abnormally heavy or prolonged menstrual bleeding.",
+        "d":  "Abnormally heavy or prolonged menstrual bleeding, defined as blood loss greater than 80 mL per cycle; causes include fibroids, coagulopathy, and hormonal imbalance.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Obstetrics \u0026 Gynecology"
@@ -12161,7 +12161,7 @@
     },
     {
         "en_h":  "Myelopathy",
-        "d":  "Disease or dysfunction of the spinal cord.",
+        "d":  "Disease or dysfunction of the spinal cord; causes include disc compression, demyelination, and ischemia, presenting with limb weakness and sensory loss.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Neurology",
@@ -12220,7 +12220,7 @@
     },
     {
         "en_h":  "Nephrotoxic",
-        "d":  "Capable of causing damage to kidney tissue.",
+        "d":  "Capable of causing damage to kidney tissue; nephrotoxic agents include NSAIDs, aminoglycoside antibiotics, contrast dye, and some chemotherapy drugs.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Nephrology",
@@ -12383,7 +12383,7 @@
     },
     {
         "en_h":  "Prostatomegaly",
-        "d":  "Abnormal enlargement of the prostate gland.",
+        "d":  "Abnormal enlargement of the prostate gland; typically caused by benign prostatic hyperplasia or prostate cancer, and may obstruct urinary flow.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Urology"
@@ -12399,7 +12399,7 @@
     },
     {
         "en_h":  "Pyoderma",
-        "d":  "Bacterial skin infection producing pus-filled lesions.",
+        "d":  "A bacterial skin infection producing pus-filled lesions; common forms include impetigo and ecthyma, and pyoderma gangrenosum may signal underlying systemic disease.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Dermatology"
@@ -12653,7 +12653,7 @@
     },
     {
         "en_h":  "Ureterolithiasis",
-        "d":  "Presence of calculi (stones) within the ureter.",
+        "d":  "Presence of calculi (stones) within the ureter; causes severe flank pain (renal colic) and may obstruct urine flow, requiring ureteroscopy or lithotripsy.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Urology"
@@ -12661,7 +12661,7 @@
     },
     {
         "en_h":  "Urolithiasis",
-        "d":  "Formation of stones within the urinary tract.",
+        "d":  "Formation of stones within the urinary tract including the kidneys, ureters, and bladder; most stones are calcium-based and cause flank pain, hematuria, and obstruction.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Urology"
@@ -15037,7 +15037,7 @@
                   "Psychiatry",
                   "Pharmacology"
               ],
-        "d":  "A class of medications that treat depression and anxiety disorders by modulating neurotransmitter activity; fluoxetine (Prozac), sertraline (Zoloft), and escitalopram (Lexapro) are widely prescribed SSRIs.",
+        "d":  "A class of medications treating depression and anxiety disorders by modulating neurotransmitter activity; fluoxetine (Prozac), sertraline (Zoloft), and escitalopram (Lexapro) are first-line SSRIs.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -15269,7 +15269,7 @@
                   "Anatomy",
                   "Endocrinology"
               ],
-        "d":  "The outer layer of the adrenal gland that produces three classes of steroid hormones: glucocorticoids (cortisol), mineralocorticoids (aldosterone), and androgens; diseases include Cushing\u0027s syndrome and Addison\u0027s disease.",
+        "d":  "The outer layer of the adrenal gland producing glucocorticoids (cortisol), mineralocorticoids (aldosterone), and androgens; diseases include Cushing\u0027s syndrome and Addison\u0027s disease.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [

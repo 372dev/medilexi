@@ -6,16 +6,16 @@ import Link from 'next/link'
 import Fuse from 'fuse.js'
 import vocabData from '@/data/medical_vocab.json'
 import partsData from '@/data/medical_wordparts_simple.json'
-import { ALL_LEVELS, STARS, STAR_CLASS } from '@/lib/vocab-constants'
+import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, normalizeLvl } from '@/lib/vocab-constants'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
-  f: string[]; d: string; lvl: string
+  f: string[]; d: string; lvl: number
   parts?: { p?: string[]; r?: string[]; s?: string[] }
 }
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
-const vocab = vocabData as VocabEntry[]
+const vocab = (vocabData as any[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) })) as VocabEntry[]
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 
 const FIELD_PRIORITY: Record<string, number> = { en_h: 0, abbr: 1, en_l: 2, d: 3 }
@@ -67,7 +67,6 @@ function getSegments(en_h: string, parts?: VocabEntry['parts']): Segment[] {
   return segs
 }
 
-const LVL_CARD_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-card--lvl3', '⭐⭐ Important':'c-card--lvl2', '⭐ Good to know':'c-card--lvl1' }
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 
 function Card({ v, onFieldClick }: { v: VocabEntry; onFieldClick: (f: string) => void }) {
@@ -99,7 +98,7 @@ function GlossaryContent() {
   const params = useSearchParams()
   const [search, setSearch]     = useState(params.get('q') || '')
   const [fieldFilter, setField] = useState<string|null>(null)
-  const [levelFilter, setLevel] = useState<string|null>(null)
+  const [levelFilter, setLevel] = useState<number|null>(null)
 
   const filtered = useMemo(() => {
     const q = search.trim()

@@ -5,11 +5,11 @@ import Link from 'next/link'
 import vocabData from '@/data/medical_vocab.json'
 import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple.json'
-import { ALL_LEVELS, STARS, STAR_CLASS } from '@/lib/vocab-constants'
+import { ALL_LEVELS, STARS, STAR_CLASS, normalizeLvl } from '@/lib/vocab-constants'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
-  f: string[]; d: string; lvl: string
+  f: string[]; d: string; lvl: number
   parts?: { p?: string[]; r?: string[]; s?: string[] }
 }
 interface KoEntry {
@@ -24,8 +24,8 @@ const partsMap   = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, 
 const PART_COLOR = { p: '#3B82F6', r: '#3BAA6A', s: '#C94040' } as const
 
 const koMap = Object.fromEntries((koData as KoEntry[]).map(k => [k.en_h, k]))
-const vocab = (vocabData as VocabEntry[])
-  .map(v => ({ ...v, ...koMap[v.en_h] }))
+const vocab = (vocabData as any[])
+  .map(v => ({ ...v, ...koMap[v.en_h], lvl: normalizeLvl(v.lvl) }))
   .filter((v): v is MergedEntry => !!koMap[v.en_h])
 
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
@@ -36,7 +36,7 @@ export default function KoFlashcardsPage() {
   const [showSettings, setShowSettings] = useState(true)
   const [mode,        setMode]      = useState<'study' | 'quiz'>('quiz')
   const [direction,   setDirection] = useState<'en-ko' | 'ko-en'>('en-ko')
-  const [lvlFilter,   setLvl]       = useState<string | null>(null)
+  const [lvlFilter,   setLvl]       = useState<number | null>(null)
   const [countLimit,  setCount]     = useState<number | null>(null)
   const [fieldFilter, setField]     = useState<string | null>(null)
 
@@ -199,14 +199,14 @@ export default function KoFlashcardsPage() {
                 </span>
               </div>
               <div style={{ height: '6px', display: 'flex', borderRadius: '3px', overflow: 'hidden', marginBottom: '0.55rem', background: 'var(--color-border)' }}>
-                {(['⭐⭐⭐ Essential','⭐⭐ Important','⭐ Good to know'] as const).map((lvl, i) => {
+                {([3, 2, 1] as const).map((lvl, i) => {
                   const cnt = filtered.filter(v => v.lvl === lvl).length
                   const color = i === 0 ? '#F0B429' : i === 1 ? '#9B8FEF' : '#3D36A0'
                   return cnt > 0 ? <div key={lvl} style={{ width: `${(cnt/filtered.length)*100}%`, background: color, transition: 'width 0.3s' }} /> : null
                 })}
               </div>
               <div style={{ display: 'flex', gap: '1rem' }}>
-                {([['⭐⭐⭐ Essential','⭐⭐⭐','#F0B429'],['⭐⭐ Important','⭐⭐','#9B8FEF'],['⭐ Good to know','⭐','#5A5490']] as const).map(([lvl, label, color]) => (
+                {([[3,'⭐⭐⭐','#F0B429'],[2,'⭐⭐','#9B8FEF'],[1,'⭐','#5A5490']] as const).map(([lvl, label, color]) => (
                   <span key={lvl} style={{ fontSize: '0.78rem', color: 'var(--color-text-dim)' }}>
                     <span style={{ color }}>{label}</span> {filtered.filter(v => v.lvl === lvl).length}
                   </span>

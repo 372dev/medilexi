@@ -6,14 +6,14 @@ import Fuse from 'fuse.js'
 import baseData from '@/data/medical_vocab.json'
 import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple.json'
-import { ALL_LEVELS, STARS, STAR_CLASS } from '@/lib/vocab-constants'
+import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, normalizeLvl } from '@/lib/vocab-constants'
 
-interface BaseEntry { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: string; parts?: { p?: string[]; r?: string[]; s?: string[] } }
+interface BaseEntry { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: number; parts?: { p?: string[]; r?: string[]; s?: string[] } }
 interface KoEntry { en_h: string; ko_h: string; ko_l?: string; d_ko?: string }
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 interface MergedEntry extends BaseEntry { ko_h: string; ko_l?: string; d_ko?: string }
 
-const base = baseData as BaseEntry[]
+const base = (baseData as any[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) })) as BaseEntry[]
 const ko = koData as KoEntry[]
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 const koMap = Object.fromEntries(ko.map(k => [k.en_h, k]))
@@ -107,7 +107,6 @@ function getSegments(en_h: string, parts?: BaseEntry['parts']): Segment[] {
   return segs
 }
 
-const LVL_CARD_CLASS: Record<string,string> = { '⭐⭐⭐ Essential':'c-card--lvl3', '⭐⭐ Important':'c-card--lvl2', '⭐ Good to know':'c-card--lvl1' }
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 
 const KO_FIELD_PRIORITY: Record<string, number> = {
@@ -164,7 +163,7 @@ export default function KoGlossaryPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const composingRef = useRef(false)
   const [fieldFilter, setField] = useState<string|null>(null)
-  const [levelFilter, setLevel] = useState<string|null>(null)
+  const [levelFilter, setLevel] = useState<number|null>(null)
   const [defLang, setDefLang]   = useState<'ko'|'en'>('ko')
 
   const filtered = useMemo(() => {

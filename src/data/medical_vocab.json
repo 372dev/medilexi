@@ -4816,7 +4816,7 @@
                   "Hematology",
                   "Oncology"
               ],
-        "d":  "Simultaneous reduction in all three blood cell lines; caused by bone marrow failure, nutritional deficiency, or malignancy.",
+        "d":  "Simultaneous reduction in red blood cells, white blood cells, and platelets, caused by bone marrow failure, nutritional deficiency, or malignancy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -4930,7 +4930,7 @@
                   "Oncology",
                   "Pathology"
               ],
-        "d":  "Malignant epithelial neoplasm; the most common cancer category, encompassing tumors of the lung, breast, colon, prostate, and other organs.",
+        "d":  "Malignant neoplasm of epithelial origin, the most common cancer category, encompassing tumors of the lung, breast, colon, prostate, and other organs.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -5028,7 +5028,7 @@
                   "Obstetrics \u0026 Gynecology",
                   "Endocrinology"
               ],
-        "d":  "Absence of menstruation; classified as primary (menarche has never occurred) or secondary (previously regular menstruation has stopped).",
+        "d":  "Absence of menstruation, classified as primary (menarche never occurred) or secondary (cessation of previously established cycles).",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -5178,7 +5178,7 @@
                   "Cardiology",
                   "Pathology"
               ],
-        "d":  "Increase in organ or tissue size due to enlargement of individual cells; commonly seen in cardiac muscle responding to increased workload.",
+        "d":  "Increase in organ or tissue size from enlargement of individual cells, commonly seen in cardiac muscle responding to sustained increased workload.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -5200,7 +5200,7 @@
                   "Urology",
                   "Oncology"
               ],
-        "d":  "Increase in cell number within a tissue or organ causing enlargement; may be physiological or pathological (e.g. prostatic hyperplasia).",
+        "d":  "Increase in cell number within a tissue or organ causing enlargement, occurring as a physiological response or pathological process such as prostatic hyperplasia.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -5222,7 +5222,7 @@
                   "Critical Care",
                   "Emergency Medicine"
               ],
-        "d":  "Life-threatening organ dysfunction from a dysregulated host response to infection; defined by acute SOFA score increase of \u003e=2 points.",
+        "d":  "Life-threatening organ dysfunction caused by a dysregulated host response to infection, representing a medical emergency requiring prompt treatment.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -5261,7 +5261,7 @@
                   "Neurology",
                   "Psychiatry"
               ],
-        "d":  "Neurological deficit in which a patient is unaware of or denies their own disability or illness; commonly seen after stroke or in dementia.",
+        "d":  "Neurological condition in which a patient is unaware of or denies their own disability or illness, commonly seen after stroke or in dementia.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -5328,7 +5328,7 @@
                   "Ophthalmology",
                   "Neurology"
               ],
-        "d":  "An abnormal and often painful sensitivity to light; commonly associated with migraine, meningitis, uveitis, and corneal injury.",
+        "d":  "Abnormal and often painful sensitivity to light, commonly associated with migraine, meningitis, uveitis, and corneal injury.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "s":  [
@@ -5358,7 +5358,7 @@
                   "Ophthalmology",
                   "Neurology"
               ],
-        "d":  "The perception of two images of a single object; commonly caused by extraocular muscle weakness.",
+        "d":  "Perception of two images of a single object, most commonly caused by extraocular muscle weakness or cranial nerve palsy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -5379,7 +5379,7 @@
                   "Orthopedics",
                   "Rheumatology"
               ],
-        "d":  "Degenerative joint disease from cartilage breakdown; the most common form of arthritis, causing pain, stiffness, and reduced joint mobility.",
+        "d":  "Degenerative joint disease from progressive cartilage breakdown, the most common form of arthritis, causing pain, stiffness, and reduced joint mobility.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -5446,7 +5446,7 @@
                   "Rheumatology",
                   "Orthopedics"
               ],
-        "d":  "Pain in one or more muscles; may be localized (due to trauma or overuse) or diffuse (as in viral illness, fibromyalgia, or statin myopathy).",
+        "d":  "Pain in one or more muscles, occurring as localized (trauma, overuse) or diffuse (viral illness, fibromyalgia, statin myopathy) presentations.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5467,7 +5467,7 @@
                   "Orthopedics",
                   "Pediatrics"
               ],
-        "d":  "Lateral spinal curvature exceeding 10 degrees; typically presents in adolescence and may be idiopathic, congenital, or neuromuscular.",
+        "d":  "Abnormal lateral curvature of the spine, typically presenting in adolescence and classified as idiopathic, congenital, or neuromuscular in origin.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5562,7 +5562,7 @@
                   "Dermatology",
                   "Pediatrics"
               ],
-        "d":  "Non-blanching purple skin discoloration from subdermal bleeding; may indicate platelet disorders, vasculitis, or coagulopathy.",
+        "d":  "Non-blanching purple skin discoloration from subdermal bleeding, indicating platelet disorders, vasculitis, or coagulopathy.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -5643,7 +5643,7 @@
                   "Cardiology",
                   "Surgery"
               ],
-        "d":  "Atherosclerotic narrowing of limb arteries reducing blood flow; classically presents as intermittent claudication during physical activity.",
+        "d":  "Atherosclerotic narrowing of peripheral arteries reducing limb blood flow, classically presenting as intermittent claudication during physical activity.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -5718,7 +5718,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "Presence of gallstones in the common bile duct; may cause biliary obstruction, jaundice, cholangitis, or pancreatitis.",
+        "d":  "Presence of gallstones in the common bile duct, potentially causing biliary obstruction, jaundice, cholangitis, or pancreatitis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5741,7 +5741,7 @@
                   "Surgery",
                   "Infectious Disease"
               ],
-        "d":  "Bacterial biliary infection from obstruction; classically presents with Charcot\u0027s triad: fever, jaundice, and right upper quadrant pain.",
+        "d":  "Bacterial infection of the bile ducts from biliary obstruction, classically presenting with fever, jaundice, and right upper quadrant pain.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5762,7 +5762,7 @@
                   "Gastroenterology",
                   "Emergency Medicine"
               ],
-        "d":  "Dilated submucosal veins in the esophagus from portal hypertension; rupture causes potentially fatal upper gastrointestinal hemorrhage.",
+        "d":  "Dilated submucosal veins in the esophagus caused by portal hypertension, with rupture causing potentially fatal upper gastrointestinal hemorrhage.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5804,7 +5804,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "Failure of intestinal peristalsis causing functional obstruction; presents with distension, nausea, vomiting, and absent bowel sounds.",
+        "d":  "Failure of intestinal peristalsis causing functional bowel obstruction, presenting with abdominal distension, nausea, vomiting, and absent bowel sounds.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5844,7 +5844,7 @@
                   "Pulmonology",
                   "Emergency Medicine"
               ],
-        "d":  "Severe inflammatory lung injury causing diffuse alveolar damage and hypoxemia; most often triggered by sepsis, pneumonia, or trauma.",
+        "d":  "Severe inflammatory lung injury causing diffuse alveolar damage and hypoxemia, most often triggered by sepsis, pneumonia, or major trauma.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -5961,7 +5961,7 @@
                   "Surgery",
                   "Critical Care"
               ],
-        "d":  "Surgical opening through the anterior neck into the trachea; indicated for prolonged mechanical ventilation or upper airway obstruction.",
+        "d":  "Surgical creation of an opening through the anterior neck into the trachea, indicated for prolonged mechanical ventilation or upper airway obstruction.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -5982,7 +5982,7 @@
                   "Anatomy",
                   "Pulmonology"
               ],
-        "d":  "Dome-shaped musculotendinous partition separating the thoracic and abdominal cavities; the principal muscle of inhalation.",
+        "d":  "Dome-shaped musculotendinous partition separating the thoracic and abdominal cavities, serving as the principal muscle of inhalation.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -6027,7 +6027,7 @@
                   "Pulmonology",
                   "Surgery"
               ],
-        "d":  "Double-layered membrane lining the thoracic cavity and covering each lung; the pleural space allows frictionless respiratory movement.",
+        "d":  "Double-layered serous membrane lining the thoracic cavity and covering each lung, with the intervening pleural space allowing frictionless respiratory movement.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6089,7 +6089,7 @@
                   "Cardiology",
                   "Surgery"
               ],
-        "d":  "Fibroserous double-walled sac enclosing the heart; inner serous layers secrete fluid to reduce friction during cardiac contraction.",
+        "d":  "Fibroserous double-walled sac enclosing the heart, with inner serous layers secreting fluid to reduce friction during cardiac contraction.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -6113,7 +6113,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "One of the two upper heart chambers; the right receives deoxygenated blood from the body, the left receives oxygenated blood from the lungs.",
+        "d":  "One of the two upper heart chambers, with the right receiving deoxygenated blood from the body and the left receiving oxygenated blood from the lungs.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6169,7 +6169,7 @@
                   "Cardiology",
                   "Surgery"
               ],
-        "d":  "One of two large veins returning deoxygenated blood to the right atrium; SVC from the upper body, IVC from the lower body and abdomen.",
+        "d":  "One of two large veins returning deoxygenated blood to the right atrium, with the superior vena cava draining the upper body and the inferior vena cava the lower body.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [

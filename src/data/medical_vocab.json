@@ -11356,7 +11356,7 @@
     },
     {
         "en_h":  "Prostatitis",
-        "d":  "Inflammation of the prostate gland; can be acute bacterial, chronic bacterial, or non-bacterial.",
+        "d":  "Inflammation of the prostate gland classified as acute bacterial, chronic bacterial, or non-bacterial, presenting with pelvic pain and urinary symptoms.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Urology"
@@ -11372,7 +11372,7 @@
     },
     {
         "en_h":  "Pyloric Stenosis",
-        "d":  "Narrowing of the pyloric outlet obstructing gastric emptying; common in male infants.",
+        "d":  "Narrowing of the pyloric outlet that obstructs gastric emptying, typically presenting in male infants with projectile vomiting and requiring surgical correction.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Surgery",
@@ -11381,7 +11381,7 @@
     },
     {
         "en_h":  "Pyromania",
-        "d":  "An impulse control disorder characterized by compulsive fire-setting for tension relief rather than material gain; classified in DSM-5 under disruptive, impulse-control, and conduct disorders.",
+        "d":  "Impulse control disorder characterized by compulsive fire-setting driven by tension relief rather than material gain, classified under disruptive and impulse-control disorders.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Psychiatry"
@@ -11398,7 +11398,7 @@
     },
     {
         "en_h":  "Sarcoidosis",
-        "d":  "A multisystem inflammatory disease characterized by non-caseating granulomas, most commonly affecting the lungs, lymph nodes, skin, and eyes; often found incidentally on chest imaging.",
+        "d":  "Multisystem inflammatory disease characterized by non-caseating granulomas most commonly affecting the lungs, lymph nodes, skin, and eyes, often discovered incidentally on chest imaging.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Pulmonology",
@@ -11407,7 +11407,7 @@
     },
     {
         "en_h":  "Sigmoiditis",
-        "d":  "Inflammation of the sigmoid colon; causes include inflammatory bowel disease, ischemia, and infection, presenting with lower left abdominal pain and altered bowel habits.",
+        "d":  "Inflammation of the sigmoid colon caused by inflammatory bowel disease, ischemia, or infection, presenting with lower left abdominal pain and altered bowel habits.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Gastroenterology"
@@ -11415,7 +11415,7 @@
     },
     {
         "en_h":  "Spinalgia",
-        "d":  "Pain along the spine; may arise from muscle, nerve, or vertebral pathology.",
+        "d":  "Pain along the spine arising from muscular, neural, or vertebral pathology.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Orthopedics",
@@ -11424,7 +11424,7 @@
     },
     {
         "en_h":  "Spondylitis",
-        "d":  "Inflammation of one or more vertebrae; as in ankylosing spondylitis.",
+        "d":  "Inflammation of one or more vertebrae, most notably in ankylosing spondylitis, an immune-mediated condition causing progressive spinal fusion.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Rheumatology",
@@ -11468,7 +11468,7 @@
     },
     {
         "en_h":  "Tracheitis",
-        "d":  "Inflammation of the trachea, often bacterial; can cause croup-like symptoms.",
+        "d":  "Inflammation of the trachea, often of bacterial origin, causing stridor, barking cough, and respiratory distress.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Otolaryngology",
@@ -11494,7 +11494,7 @@
     },
     {
         "en_h":  "Venous Thrombosis",
-        "d":  "Formation of a blood clot within a vein; includes DVT and superficial thrombophlebitis.",
+        "d":  "Formation of a blood clot within a vein, encompassing deep vein thrombosis and superficial thrombophlebitis.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Hematology",
@@ -11512,7 +11512,7 @@
     },
     {
         "en_h":  "Adenoma",
-        "d":  "Benign epithelial tumor arising from glandular tissue; can occur in thyroid, colon, pituitary.",
+        "d":  "Benign epithelial tumor arising from glandular tissue, occurring in organs such as the thyroid, colon, and pituitary gland.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Oncology",
@@ -11521,7 +11521,7 @@
     },
     {
         "en_h":  "Adrenaline",
-        "d":  "Catecholamine hormone secreted by the adrenal medulla; triggers the fight-or-flight response.",
+        "d":  "Catecholamine hormone secreted by the adrenal medulla that triggers the fight-or-flight response by increasing heart rate, blood pressure, and blood glucose.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Pharmacology",
@@ -11539,7 +11539,7 @@
     },
     {
         "en_h":  "Amebiasis",
-        "d":  "Intestinal infection caused by Entamoeba histolytica; may cause dysentery or liver abscess.",
+        "d":  "Intestinal infection caused by the protozoan Entamoeba histolytica, ranging from asymptomatic colonization to dysentery and hepatic abscess.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Infectious Disease",
@@ -11548,7 +11548,7 @@
     },
     {
         "en_h":  "Andropause",
-        "d":  "Age-related gradual decline in testosterone levels in men; also called late-onset hypogonadism.",
+        "d":  "Age-related gradual decline in testosterone levels in men, also termed late-onset hypogonadism, associated with fatigue, reduced libido, and mood changes.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Endocrinology",
@@ -11565,7 +11565,7 @@
     },
     {
         "en_h":  "Aortic Aneurysm",
-        "d":  "Permanent focal aortic dilation exceeding 1.5 times normal diameter; most common in the infrarenal abdominal aorta; rupture is often fatal.",
+        "d":  "Permanent focal dilation of the aortic wall, most common in the infrarenal abdominal segment, with rupture carrying a high mortality risk.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Vascular Surgery",
@@ -11574,7 +11574,7 @@
     },
     {
         "en_h":  "Apnea",
-        "d":  "Complete cessation of breathing; may be obstructive, central, or mixed.",
+        "d":  "Complete cessation of breathing, classified as obstructive (airway blockage), central (absent respiratory drive), or mixed.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Pulmonology",
@@ -11600,7 +11600,7 @@
     },
     {
         "en_h":  "Audiometry",
-        "d":  "Standardized testing of hearing sensitivity across frequencies; used to diagnose and classify hearing loss as conductive, sensorineural, or mixed.",
+        "d":  "Standardized testing of hearing sensitivity used to diagnose and classify hearing loss as conductive, sensorineural, or mixed.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Otolaryngology"
@@ -11625,7 +11625,7 @@
     },
     {
         "en_h":  "Bacteremia",
-        "d":  "Presence of viable bacteria in the bloodstream; may lead to sepsis.",
+        "d":  "Presence of viable bacteria in the bloodstream, a condition that may progress to sepsis if the immune response is inadequate.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Infectious Disease"
@@ -11642,7 +11642,7 @@
     },
     {
         "en_h":  "Bradykinesia",
-        "d":  "Slowness of voluntary movement; a cardinal feature of Parkinson\u0027s disease.",
+        "d":  "Slowness of voluntary movement, a cardinal feature of Parkinson\u0027s disease and other parkinsonian disorders.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Neurology"
@@ -11650,7 +11650,7 @@
     },
     {
         "en_h":  "Bronchoconstriction",
-        "d":  "Narrowing of the bronchial airways due to smooth muscle contraction; occurs in asthma.",
+        "d":  "Narrowing of the bronchial airways from smooth muscle contraction, the primary mechanism underlying airflow obstruction in asthma.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Pulmonology"
@@ -11658,7 +11658,7 @@
     },
     {
         "en_h":  "Bronchodilation",
-        "d":  "Widening of the bronchial airways to improve airflow; achieved by bronchodilator drugs.",
+        "d":  "Widening of the bronchial airways to improve airflow, achieved by bronchodilator medications or as a physiological response to sympathetic stimulation.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Pulmonology",
@@ -11680,7 +11680,7 @@
                   "Pulmonology",
                   "Emergency Medicine"
               ],
-        "d":  "A high-pitched whistling sound heard during breathing, caused by narrowed airways; associated with asthma, COPD, and anaphylaxis.",
+        "d":  "A high-pitched whistling respiratory sound caused by narrowed airways, associated with asthma, COPD, and anaphylaxis.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -11689,7 +11689,7 @@
                   "Pulmonology",
                   "General Medicine"
               ],
-        "d":  "Low-pitched rattling breath sounds on auscultation from secretions or obstruction in larger airways; may clear with coughing.",
+        "d":  "Low-pitched rattling breath sounds heard on auscultation from secretions or partial obstruction in larger airways, often clearing with coughing.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -11729,7 +11729,7 @@
     },
     {
         "en_h":  "Chondroma",
-        "d":  "A benign tumor composed of mature cartilage tissue; may arise within bone (enchondroma) or on its surface (ecchondroma), most commonly in the small bones of the hand.",
+        "d":  "Benign tumor composed of mature cartilage tissue, arising within bone (enchondroma) or on its surface (ecchondroma), most commonly in the small bones of the hand.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Orthopedics",
@@ -11820,7 +11820,7 @@
     },
     {
         "en_h":  "Diarrhea",
-        "d":  "Frequent passage of loose or watery stools; a symptom of many gastrointestinal conditions.",
+        "d":  "Frequent passage of loose or watery stools, a common symptom of gastrointestinal infection, inflammatory bowel disease, and other digestive disorders.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "General Medicine",
@@ -11829,7 +11829,7 @@
     },
     {
         "en_h":  "Dyskinesia",
-        "d":  "Impaired or involuntary abnormal movements; a complication of long-term levodopa therapy.",
+        "d":  "Involuntary abnormal movements, commonly occurring as a complication of long-term levodopa therapy in Parkinson\u0027s disease.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Neurology"
@@ -11845,7 +11845,7 @@
     },
     {
         "en_h":  "Dysphonia",
-        "d":  "Difficulty or abnormality in voice production; caused by laryngeal disorders, vocal cord lesions, or nerve damage, and assessed by laryngoscopy.",
+        "d":  "Difficulty or abnormality in voice production caused by laryngeal disorders, vocal cord lesions, or nerve damage, assessed by laryngoscopy.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Otolaryngology"
@@ -11861,7 +11861,7 @@
     },
     {
         "en_h":  "Endometrium",
-        "d":  "The inner mucous membrane lining the uterus; shed during menstruation.",
+        "d":  "The inner mucous membrane lining the uterine cavity, which thickens under hormonal influence and is shed during menstruation.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
@@ -11897,7 +11897,7 @@
     },
     {
         "en_h":  "Exophthalmos",
-        "d":  "Abnormal protrusion of one or both eyeballs; associated with Graves\u0027 disease.",
+        "d":  "Abnormal protrusion of one or both eyeballs from the orbit, most commonly associated with Graves\u0027 disease and thyroid-associated orbitopathy.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Endocrinology",
@@ -11915,7 +11915,7 @@
     },
     {
         "en_h":  "Glycosuria",
-        "d":  "Presence of glucose in the urine; a sign of uncontrolled diabetes mellitus.",
+        "d":  "Presence of glucose in the urine, typically indicating uncontrolled diabetes mellitus or a lowered renal glucose threshold.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Endocrinology",
@@ -11941,7 +11941,7 @@
     },
     {
         "en_h":  "Hepatoma",
-        "d":  "Malignant tumor of hepatocytes; also called hepatocellular carcinoma.",
+        "d":  "Malignant tumor arising from hepatocytes, also termed hepatocellular carcinoma, the most common primary liver cancer and a major complication of cirrhosis.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Oncology",
@@ -11950,7 +11950,7 @@
     },
     {
         "en_h":  "Hepatotoxic",
-        "d":  "Causing damage or injury to liver cells; hepatotoxic agents include alcohol, acetaminophen in overdose, and certain drugs such as isoniazid and statins.",
+        "d":  "Describing a substance capable of causing damage to liver cells, including alcohol, acetaminophen in overdose, and medications such as isoniazid.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Pharmacology",
@@ -11967,7 +11967,7 @@
     },
     {
         "en_h":  "Hyperemesis",
-        "d":  "Severe, uncontrollable vomiting; hyperemesis gravidarum occurs in early pregnancy.",
+        "d":  "Severe, uncontrollable vomiting, as in hyperemesis gravidarum which occurs in early pregnancy and can cause dehydration and electrolyte imbalance.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
@@ -11992,7 +11992,7 @@
     },
     {
         "en_h":  "Hypertonia",
-        "d":  "Abnormally increased muscle tone or tension; may be spastic (upper motor neuron lesion) or rigid (basal ganglia disease such as Parkinson\u0027s).",
+        "d":  "Abnormally increased muscle tone, presenting as spasticity from upper motor neuron lesions or rigidity from basal ganglia disease such as Parkinson\u0027s.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Neurology"
@@ -12000,7 +12000,7 @@
     },
     {
         "en_h":  "Hypokalemia",
-        "d":  "Abnormally low potassium concentration in the blood; causes muscle weakness and arrhythmia.",
+        "d":  "Abnormally low potassium concentration in the blood, causing muscle weakness, cramps, and potentially life-threatening cardiac arrhythmias.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "General Medicine",
@@ -12043,7 +12043,7 @@
     },
     {
         "en_h":  "Lipoma",
-        "d":  "Benign soft tissue tumor composed of mature fat cells; usually painless.",
+        "d":  "Benign soft tissue tumor composed of mature adipocytes, typically presenting as a painless, mobile subcutaneous mass.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Dermatology",
@@ -12060,7 +12060,7 @@
     },
     {
         "en_h":  "Lymphoma",
-        "d":  "Cancer of lymphatic tissue; includes Hodgkin and non-Hodgkin subtypes.",
+        "d":  "Cancer of lymphatic tissue, broadly classified as Hodgkin or non-Hodgkin lymphoma, presenting with lymphadenopathy and systemic symptoms.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Hematology",
@@ -12069,7 +12069,7 @@
     },
     {
         "en_h":  "Macule",
-        "d":  "Flat, discolored skin lesion less than 1 cm in diameter; not raised or palpable.",
+        "d":  "Flat, circumscribed area of skin discoloration that is not raised or palpable, distinct from a papule by the absence of surface elevation.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Dermatology"
@@ -12077,7 +12077,7 @@
     },
     {
         "en_h":  "Megalocardia",
-        "d":  "Abnormal enlargement of the heart; also called cardiomegaly.",
+        "d":  "Abnormal enlargement of the heart, also termed cardiomegaly, resulting from hypertrophy or dilation and indicating underlying cardiac disease.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Cardiology"
@@ -12085,7 +12085,7 @@
     },
     {
         "en_h":  "Melanoptysis",
-        "d":  "Coughing up black or dark-colored sputum; seen in coal workers\u0027 pneumoconiosis.",
+        "d":  "Expectoration of black or dark-colored sputum, a characteristic finding in coal workers\u0027 pneumoconiosis.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Pulmonology"
@@ -12120,7 +12120,7 @@
     },
     {
         "en_h":  "Menorrhagia",
-        "d":  "Abnormally heavy or prolonged menstrual bleeding, defined as blood loss greater than 80 mL per cycle; causes include fibroids, coagulopathy, and hormonal imbalance.",
+        "d":  "Abnormally heavy or prolonged menstrual bleeding caused by fibroids, coagulopathy, or hormonal imbalance, often significantly impairing quality of life.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Obstetrics \u0026 Gynecology"
@@ -12137,7 +12137,7 @@
     },
     {
         "en_h":  "Myelopathy",
-        "d":  "Disease or dysfunction of the spinal cord; causes include disc compression, demyelination, and ischemia, presenting with limb weakness and sensory loss.",
+        "d":  "Disease or dysfunction of the spinal cord caused by disc compression, demyelination, or ischemia, presenting with limb weakness and sensory disturbance.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Neurology",
@@ -12146,7 +12146,7 @@
     },
     {
         "en_h":  "Myoglobin",
-        "d":  "Oxygen-binding protein in muscle tissue; released into blood after muscle injury.",
+        "d":  "Oxygen-binding heme protein in muscle tissue released into the bloodstream after muscle injury, serving as a marker of rhabdomyolysis.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "General Medicine",
@@ -12179,7 +12179,7 @@
     },
     {
         "en_h":  "Neoplasm",
-        "d":  "Any new and abnormal tissue growth; may be benign or malignant.",
+        "d":  "Any new and abnormal growth of tissue, classified as benign or malignant based on cell type, origin, and invasive behavior.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Oncology",
@@ -12196,7 +12196,7 @@
     },
     {
         "en_h":  "Nephrotoxic",
-        "d":  "Capable of causing damage to kidney tissue; nephrotoxic agents include NSAIDs, aminoglycoside antibiotics, contrast dye, and some chemotherapy drugs.",
+        "d":  "Describing a substance capable of causing renal tubular or glomerular damage, including NSAIDs, aminoglycoside antibiotics, and iodinated contrast agents.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Nephrology",
@@ -12205,7 +12205,7 @@
     },
     {
         "en_h":  "Neuroblastoma",
-        "d":  "Malignant tumor arising from immature nerve cells; most common in children under 5.",
+        "d":  "Malignant tumor arising from immature sympathetic nerve cells, the most common extracranial solid cancer in young children.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Oncology",
@@ -12222,7 +12222,7 @@
     },
     {
         "en_h":  "Neutrophil",
-        "d":  "The most abundant white blood cell; a key component of innate immune defense.",
+        "d":  "The most abundant circulating white blood cell and a key effector of innate immunity, recruited early to sites of infection or tissue injury.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Hematology",
@@ -12231,7 +12231,7 @@
     },
     {
         "en_h":  "Oligospermia",
-        "d":  "Abnormally low sperm count in semen; a common cause of male infertility.",
+        "d":  "Abnormally low sperm concentration in semen, a common cause of male factor infertility.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Urology"
@@ -12273,7 +12273,7 @@
     },
     {
         "en_h":  "Ovarian Cyst",
-        "d":  "Fluid-filled sac on or within the ovary; most are benign and resolve spontaneously.",
+        "d":  "Fluid-filled sac on or within the ovary, most of which are benign and resolve spontaneously, though some require monitoring or intervention.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Obstetrics \u0026 Gynecology"
@@ -12308,7 +12308,7 @@
     },
     {
         "en_h":  "Pelvic Inflammatory Disease",
-        "d":  "Infection of the female upper reproductive tract; a complication of STIs.",
+        "d":  "Infection of the female upper reproductive tract including the uterus, fallopian tubes, and ovaries, most commonly a complication of sexually transmitted infections.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
@@ -12359,7 +12359,7 @@
     },
     {
         "en_h":  "Prostatomegaly",
-        "d":  "Abnormal enlargement of the prostate gland; typically caused by benign prostatic hyperplasia or prostate cancer, and may obstruct urinary flow.",
+        "d":  "Abnormal enlargement of the prostate gland caused by benign prostatic hyperplasia or malignancy, potentially obstructing urinary flow.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Urology"

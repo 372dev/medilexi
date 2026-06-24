@@ -1546,7 +1546,7 @@
     },
     {
         "en_h":  "Magnetic resonance imaging",
-        "en_l":  "Brain scan",
+        "en_l":  "MRI scan",
         "abbr":  "MRI",
         "ko_h":  "자기공명영상",
         "ko_l":  "뇌 촬영",
@@ -2698,7 +2698,7 @@
         "en_h":  "Gallbladder",
         "en_l":  "Bile sac",
         "abbr":  "GB",
-        "ko_h":  "담낭 / 쓸개",
+        "ko_h":  "담낭",
         "ko_l":  "쓸개",
         "f":  [
                   "Anatomy",
@@ -6269,7 +6269,6 @@
     },
     {
         "en_h":  "Pancreas",
-        "en_l":  "Pancreas organ",
         "abbr":  "",
         "ko_h":  "췌장 / 이자",
         "ko_l":  "",
@@ -6538,7 +6537,7 @@
         "en_h":  "Intervertebral Disc",
         "en_l":  "Spine cushion",
         "abbr":  "IVD",
-        "ko_h":  "추간판 / 척추사이원반",
+        "ko_h":  "추간판",
         "ko_l":  "디스크",
         "f":  [
                   "Anatomy",
@@ -7163,7 +7162,7 @@
         "en_h":  "Lung",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "폐 / 허파",
+        "ko_h":  "폐",
         "ko_l":  "허파",
         "f":  [
                   "Anatomy",
@@ -7314,7 +7313,7 @@
         "en_h":  "Kidney",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "신장 / 콩팥",
+        "ko_h":  "신장",
         "ko_l":  "콩팥",
         "f":  [
                   "Anatomy",
@@ -7386,7 +7385,7 @@
         "en_h":  "Neuron",
         "en_l":  "Nerve cell",
         "abbr":  "",
-        "ko_h":  "신경세포 / 뉴런",
+        "ko_h":  "신경세포",
         "ko_l":  "뉴런",
         "f":  [
                   "Anatomy",
@@ -10286,7 +10285,6 @@
     },
     {
         "en_h":  "Transcutaneous",
-        "en_l":  "Through the skin",
         "abbr":  "",
         "ko_h":  "경피적인",
         "ko_l":  "피부를 통한",

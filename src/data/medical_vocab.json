@@ -6187,7 +6187,7 @@
                   "Anatomy",
                   "Gastroenterology"
               ],
-        "d":  "Distal stomach outlet connecting to the duodenum; the pyloric sphincter regulates the rate of gastric emptying into the small intestine.",
+        "d":  "Distal stomach outlet connecting to the duodenum, where the pyloric sphincter regulates the rate of gastric emptying into the small intestine.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -6206,7 +6206,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "Blind-ended pouch at the junction of the ileum and ascending colon; the appendix projects from its wall.",
+        "d":  "Blind-ended pouch at the junction of the ileum and ascending colon, from whose wall the vermiform appendix projects.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6239,7 +6239,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "Major portion of the large intestine from cecum to rectum; absorbs water and electrolytes and compacts fecal matter into stool.",
+        "d":  "Major portion of the large intestine extending from the cecum to the rectum, absorbing water and electrolytes and compacting fecal matter into stool.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6258,7 +6258,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "Terminal segment of the large intestine (~12-15 cm) connecting the sigmoid colon to the anal canal; stores formed stool until defecation.",
+        "d":  "Terminal segment of the large intestine connecting the sigmoid colon to the anal canal, serving as the reservoir for formed stool until defecation.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6276,7 +6276,7 @@
                   "Endocrinology",
                   "Gastroenterology"
               ],
-        "d":  "Mixed gland posterior to the stomach; exocrine portion secretes digestive enzymes, while endocrine islets secrete insulin and glucagon.",
+        "d":  "Mixed gland posterior to the stomach whose exocrine portion secretes digestive enzymes and whose endocrine islets secrete insulin and glucagon.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6294,7 +6294,7 @@
                   "Anatomy",
                   "Nephrology"
               ],
-        "d":  "Kidney functional unit comprising a glomerulus and tubules that filter blood to produce urine; each kidney contains ~1 million nephrons.",
+        "d":  "Functional unit of the kidney comprising a glomerulus and tubular system that filters blood and produces urine.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -6313,7 +6313,7 @@
                   "Nephrology",
                   "Pathology"
               ],
-        "d":  "Tuft of capillaries within Bowman\u0027s capsule in the renal cortex; the site of plasma ultrafiltration and first step in urine formation.",
+        "d":  "Tuft of capillaries within Bowman\u0027s capsule in the renal cortex, serving as the site of plasma ultrafiltration and the first step in urine formation.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -6349,7 +6349,7 @@
                   "Anatomy",
                   "Urology"
               ],
-        "d":  "The tube that conveys urine from the bladder to the exterior of the body; in males, also serves as the ejaculatory duct.",
+        "d":  "Tube conveying urine from the bladder to the exterior of the body, which in males also serves as the passage for ejaculation.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6368,7 +6368,7 @@
                   "Neurology",
                   "Surgery"
               ],
-        "d":  "Largest brain region in two hemispheres and four lobes; governs thought, memory, language, sensation, and voluntary movement.",
+        "d":  "Largest brain region, divided into two hemispheres and four lobes, governing thought, memory, language, sensation, and voluntary movement.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6406,7 +6406,7 @@
                   "Neurology",
                   "Surgery"
               ],
-        "d":  "Connects the cerebrum to the spinal cord via the medulla, pons, and midbrain; controls vital functions including breathing and heart rate.",
+        "d":  "Structure connecting the cerebrum to the spinal cord via the medulla, pons, and midbrain, controlling vital functions including breathing and heart rate.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -6420,7 +6420,7 @@
                   "Neurology",
                   "Infectious Disease"
               ],
-        "d":  "Three layers surrounding the brain and spinal cord — dura mater, arachnoid, and pia mater; their inflammation is meningitis.",
+        "d":  "Three protective layers surrounding the brain and spinal cord — dura mater, arachnoid mater, and pia mater — whose inflammation constitutes meningitis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6439,7 +6439,7 @@
                   "Neurology",
                   "Psychiatry"
               ],
-        "d":  "Medial temporal lobe structure critical for forming new declarative memories; one of the first regions affected in Alzheimer\u0027s disease.",
+        "d":  "Medial temporal lobe structure critical for forming new declarative memories and one of the earliest regions affected in Alzheimer\u0027s disease.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6471,7 +6471,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Curved bone connecting the sternum to the scapula, forming the shoulder girdle; the most commonly fractured bone in the upper extremity.",
+        "d":  "Curved bone connecting the sternum to the scapula and forming the shoulder girdle, the most commonly fractured bone in the upper extremity.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6484,7 +6484,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Flat triangular posterior shoulder bone articulating with the clavicle and humerus; provides attachment for major upper limb muscles.",
+        "d":  "Flat triangular posterior shoulder bone articulating with the clavicle and humerus, providing attachment for major upper limb muscles.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6498,7 +6498,7 @@
                   "Surgery",
                   "Orthopedics"
               ],
-        "d":  "Flat midline thoracic bone with manubrium, body, and xiphoid process; articulates with the clavicles and costal cartilages of ribs 1-7.",
+        "d":  "Flat midline thoracic bone comprising the manubrium, body, and xiphoid process, articulating with the clavicles and costal cartilages of the upper ribs.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6516,7 +6516,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The longest and strongest bone in the body, extending from the hip joint proximally to the knee joint distally; the only bone of the thigh.",
+        "d":  "The longest and strongest bone in the body, extending from the hip to the knee as the sole bone of the thigh.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -6529,7 +6529,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Triangular sesamoid bone in the quadriceps tendon articulating with the femur; protects the knee joint and improves quadriceps leverage.",
+        "d":  "Triangular sesamoid bone embedded in the quadriceps tendon that articulates with the femur, protecting the knee joint and improving quadriceps leverage.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -6543,7 +6543,7 @@
                   "Orthopedics",
                   "Surgery"
               ],
-        "d":  "Disc between vertebral bodies with an annulus fibrosus and nucleus pulposus; absorbs spinal loads and allows flexible movement.",
+        "d":  "Fibrocartilaginous disc between vertebral bodies consisting of an annulus fibrosus and nucleus pulposus, absorbing spinal loads and enabling flexible movement.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -6635,7 +6635,7 @@
                   "Anatomy",
                   "Ophthalmology"
               ],
-        "d":  "Transparent, dome-shaped outermost layer of the eye covering the iris and pupil; refracts light and protects the eye from foreign material.",
+        "d":  "Transparent dome-shaped outermost layer of the eye that refracts incoming light and protects the iris and pupil from foreign material.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6685,7 +6685,7 @@
                   "Oncology",
                   "Immunology"
               ],
-        "d":  "Small immune organs along lymphatic vessels that filter lymph; concentrate immune cells to detect and respond to infection and malignancy.",
+        "d":  "Small immune organs along lymphatic vessels that filter lymph and concentrate immune cells to detect and respond to infection and malignancy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6723,7 +6723,7 @@
                   "Anatomy",
                   "Obstetrics \u0026 Gynecology"
               ],
-        "d":  "Hollow, pear-shaped muscular organ in the female pelvis where a fetus develops; periodically sheds its lining to produce menstrual flow.",
+        "d":  "Hollow, pear-shaped muscular organ in the female pelvis that houses a developing fetus and periodically sheds its lining to produce menstrual flow.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6741,7 +6741,7 @@
                   "Anatomy",
                   "Urology"
               ],
-        "d":  "Male gland surrounding the urethra below the bladder that produces seminal fluid; prone to benign enlargement (BPH) and cancer in older men.",
+        "d":  "Male gland surrounding the urethra below the bladder that contributes to seminal fluid production, prone to benign enlargement and malignancy with aging.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -6881,7 +6881,7 @@
                   "Anesthesiology",
                   "Obstetrics \u0026 Gynecology"
               ],
-        "d":  "Injection of local anesthetic into the epidural space to block lower-body pain; used in labor and postoperative pain management.",
+        "d":  "Injection of local anesthetic into the epidural space to block lower-body pain, used in labor analgesia and postoperative pain management.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -6965,7 +6965,7 @@
                   "Radiology",
                   "General Medicine"
               ],
-        "d":  "Imaging technique using high-frequency sound waves to visualize internal organs and structures in real time; no ionizing radiation involved.",
+        "d":  "Imaging technique using high-frequency sound waves to visualize internal organs and structures in real time without ionizing radiation.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -6983,7 +6983,7 @@
                   "Radiology",
                   "General Medicine"
               ],
-        "d":  "Imaging using ionizing radiation to visualize bone and lung pathology; the most widely used diagnostic imaging modality worldwide.",
+        "d":  "Imaging modality using ionizing radiation to visualize bone and lung pathology, the most widely used diagnostic imaging technique worldwide.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {

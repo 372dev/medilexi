@@ -1080,7 +1080,7 @@
                                 "neur/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -1100,7 +1100,7 @@
                                 "cardi/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -1120,7 +1120,7 @@
                                 "onc/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -1940,7 +1940,7 @@
                                 "crin/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -1960,7 +1960,7 @@
                                 "dermat/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -1980,7 +1980,7 @@
                                 "ophthalm/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -2001,7 +2001,7 @@
                                 "laryng/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -2021,7 +2021,7 @@
                                 "ur/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -2041,7 +2041,7 @@
                                 "radi/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -2073,7 +2073,7 @@
                                 "esthesi/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -2093,7 +2093,7 @@
                                 "path/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -2113,7 +2113,7 @@
                                 "pharmac/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -2315,7 +2315,7 @@
                                 "pulm/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -2335,7 +2335,7 @@
                                 "nephr/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -2356,7 +2356,7 @@
                                 "enter/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -2376,7 +2376,7 @@
                                 "hemat/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -3529,7 +3529,7 @@
                                 "retin/o"
                             ],
                       "s":  [
-                                "-osis, -pathy"
+                                "-pathy"
                             ]
                   }
     },
@@ -3575,7 +3575,7 @@
                                 "cyt/o"
                             ],
                       "s":  [
-                                "-osis, -pathy"
+                                "-osis"
                             ]
                   }
     },
@@ -3593,7 +3593,7 @@
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
-                                "poly-, multi-"
+                                "poly-"
                             ],
                       "r":  [
                                 "cyt/o"
@@ -3621,7 +3621,7 @@
                                 "thromb/o"
                             ],
                       "s":  [
-                                "-osis, -pathy"
+                                "-osis"
                             ]
                   }
     },
@@ -3911,7 +3911,7 @@
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
-                                "peri-, circum-"
+                                "peri-"
                             ],
                       "r":  [
                                 "cardi/o"
@@ -4043,7 +4043,7 @@
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
-                                "hem/o, hemat/o",
+                                "hem/o",
                                 "thorac/o"
                             ]
                   }
@@ -4134,7 +4134,7 @@
                                 "fibr/o"
                             ],
                       "s":  [
-                                "-osis, -pathy"
+                                "-osis"
                             ]
                   }
     },
@@ -4165,7 +4165,7 @@
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "s":  [
-                                "-osis, -pathy"
+                                "-osis"
                             ]
                   }
     },
@@ -4363,7 +4363,7 @@
                                 "dys-"
                             ],
                       "r":  [
-                                "arthr/o, articul/o"
+                                "arthr/o"
                             ]
                   }
     },
@@ -6752,27 +6752,6 @@
                   }
     },
     {
-        "en_h":  "Obstetrics \u0026 Gynecology",
-        "en_l":  "Women\u0027s medicine",
-        "abbr":  "OBGYN",
-        "ko_h":  "산부인과",
-        "ko_l":  "여성 전문",
-        "f":  [
-                  "Obstetrics \u0026 Gynecology",
-                  "General Medicine"
-              ],
-        "d":  "Medical specialty combining obstetrics (pregnancy and childbirth) and gynecology (female reproductive system health).",
-        "lvl":  "⭐⭐ Important",
-        "parts":  {
-                      "r":  [
-                                "gynec/o"
-                            ],
-                      "s":  [
-                                "-ology"
-                            ]
-                  }
-    },
-    {
         "en_h":  "Critical Care Medicine",
         "en_l":  "Intensive care",
         "abbr":  "CCM",
@@ -6840,7 +6819,7 @@
                                 "immun/o"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -9267,7 +9246,7 @@
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },
@@ -10301,7 +10280,7 @@
                                 "tox/i"
                             ],
                       "s":  [
-                                "-ology"
+                                "-logy"
                             ]
                   }
     },

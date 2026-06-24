@@ -14178,7 +14178,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Toward the front of the body; opposite of posterior. Used to describe the relative position of anatomical structures.",
+        "d":  "Toward the front of the body; opposite of posterior.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -14194,7 +14194,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Toward the back of the body; opposite of anterior. Used in anatomical descriptions to indicate a structure\u0027s relative position.",
+        "d":  "Toward the back of the body; opposite of anterior.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -14210,7 +14210,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Toward the head or upper part of the body; opposite of inferior. The heart is superior to the stomach.",
+        "d":  "Toward the head or upper part of the body; opposite of inferior.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -14226,7 +14226,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Toward the feet or lower part of the body; opposite of superior. The kidneys are inferior to the diaphragm.",
+        "d":  "Toward the feet or lower part of the body; opposite of superior.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -14858,7 +14858,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Located close to or on the surface of the body; opposite of deep. Used to describe the relative position of anatomical structures.",
+        "d":  "Located close to or on the surface of the body; opposite of deep.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [

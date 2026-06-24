@@ -1304,7 +1304,7 @@
                   "General Medicine",
                   "Family Medicine"
               ],
-        "d":  "Medical care provided without hospital admission; the patient visits a clinic and returns home the same day.",
+        "d":  "Outpatient medical care provided without hospital admission, where the patient is seen and returns home the same day.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -1373,7 +1373,7 @@
                   "Orthopedics",
                   "Rehabilitation Medicine"
               ],
-        "d":  "Lumbar spine pain classified as acute (\u003c6 weeks), subacute (6-12 weeks), or chronic (\u003e12 weeks); a leading cause of disability worldwide.",
+        "d":  "Lumbar spine pain classified as acute (under 6 weeks), subacute (6-12 weeks), or chronic (over 12 weeks), and a leading cause of musculoskeletal disability worldwide.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -1386,7 +1386,7 @@
                   "Psychiatry",
                   "Family Medicine"
               ],
-        "d":  "Disorders marked by excessive, persistent fear or worry impairing daily life; includes generalized anxiety, panic disorder, and phobias.",
+        "d":  "Disorders characterized by excessive, persistent fear or worry impairing daily life, including generalized anxiety disorder, panic disorder, and phobias.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -1399,7 +1399,7 @@
                   "Gastroenterology",
                   "Family Medicine"
               ],
-        "d":  "Chronic condition in which gastric acid refluxes into the esophagus, causing heartburn; may progress to esophagitis or Barrett\u0027s esophagus.",
+        "d":  "Chronic retrograde flow of gastric acid into the esophagus causing heartburn and potentially progressing to esophagitis or Barrett\u0027s esophagus.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -1419,7 +1419,7 @@
                   "Family Medicine",
                   "Internal Medicine"
               ],
-        "d":  "Below-normal red blood cells or hemoglobin impairing oxygen delivery; main causes are iron deficiency, chronic disease, and hemolysis.",
+        "d":  "Reduction in circulating red blood cells or hemoglobin impairing oxygen delivery, most commonly from iron deficiency, chronic disease, or hemolysis.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -1476,7 +1476,7 @@
         "f":  [
                   "Cardiology"
               ],
-        "d":  "Percentage of blood pumped out of the left ventricle with each heartbeat; key measure of heart function (normal ≥55%).",
+        "d":  "Percentage of blood ejected from the left ventricle per heartbeat, a key measure of cardiac function with normal values at or above 55%.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -1522,7 +1522,7 @@
                   "Cardiology",
                   "Internal Medicine"
               ],
-        "d":  "Heart failure with fluid congestion in the lungs and periphery; presents as dyspnea, peripheral edema, and reduced exercise tolerance.",
+        "d":  "Heart failure with fluid congestion in the lungs and periphery, presenting as dyspnea, peripheral edema, and reduced exercise tolerance.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -1567,7 +1567,7 @@
                   "Neurology",
                   "Emergency Medicine"
               ],
-        "d":  "X-ray-based imaging producing cross-sectional images; first-line modality for acute trauma, stroke, and thoracic and abdominal assessment.",
+        "d":  "X-ray-based imaging that produces cross-sectional anatomical images, serving as the first-line modality for acute trauma, stroke, and thoracic and abdominal assessment.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -1623,7 +1623,7 @@
                   "Otolaryngology",
                   "Neurology"
               ],
-        "d":  "An illusory sensation of spinning of oneself or the environment due to vestibular pathology; distinct from non-specific dizziness.",
+        "d":  "An illusory sensation of spinning of oneself or the surroundings caused by vestibular pathology, distinct from nonspecific dizziness.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -1636,7 +1636,7 @@
                   "Neurology",
                   "Family Medicine"
               ],
-        "d":  "Non-specific sensation of lightheadedness or unsteadiness without a true spinning quality; distinct from vertigo.",
+        "d":  "Nonspecific sensation of lightheadedness or unsteadiness without a spinning quality, distinct from vestibular vertigo.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -1684,7 +1684,7 @@
         "f":  [
                   "Neurology"
               ],
-        "d":  "Recording of electrical activity of the brain via scalp electrodes; primary diagnostic tool for epilepsy and seizure disorders.",
+        "d":  "Recording of the brain\u0027s electrical activity via scalp electrodes, used as the primary diagnostic tool for epilepsy and seizure disorders.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -1725,7 +1725,7 @@
         "f":  [
                   "Neurology"
               ],
-        "d":  "Involuntary rhythmic muscle contraction causing shaking of one or more body parts; a hallmark symptom of Parkinson\u0027s disease.",
+        "d":  "Involuntary rhythmic muscle contraction causing shaking of one or more body parts, a hallmark feature of Parkinson\u0027s disease and essential tremor.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -1799,7 +1799,7 @@
                   "Pharmacology",
                   "Emergency Medicine"
               ],
-        "d":  "Route of drug or fluid administration directly into a vein, allowing rapid onset; used for urgent treatments and hydration.",
+        "d":  "Route of drug or fluid administration directly into a vein, allowing rapid onset and used for urgent treatments, medication delivery, and hydration.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -1820,7 +1820,7 @@
                   "Pharmacology",
                   "General Medicine"
               ],
-        "d":  "An unintended, harmful response occurring at normal therapeutic doses of a drug; distinct from overdose or medication error.",
+        "d":  "An unintended, harmful response to a drug occurring at normal therapeutic doses, distinct from overdose or medication error.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -1855,7 +1855,7 @@
                   "Pharmacology",
                   "General Medicine"
               ],
-        "d":  "Drug administration into the fatty tissue just beneath the skin; slower absorption than IV; used for insulin, heparin.",
+        "d":  "Drug administration into the fatty tissue just beneath the skin, providing slower absorption than intravenous injection and commonly used for insulin and heparin.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -1876,7 +1876,7 @@
                   "Pharmacology",
                   "General Medicine"
               ],
-        "d":  "Drug administration directly into muscle tissue, providing faster absorption than subcutaneous; used for vaccines and some antibiotics.",
+        "d":  "Drug administration directly into muscle tissue, providing faster absorption than subcutaneous injection and used for vaccines and some antibiotics.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -1917,7 +1917,7 @@
                   "Pharmacology",
                   "General Medicine"
               ],
-        "d":  "Ability of a treatment to produce the desired effect under controlled conditions; distinct from effectiveness in real-world settings.",
+        "d":  "Ability of a treatment to produce the desired therapeutic effect under controlled trial conditions, distinct from effectiveness in real-world practice.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -2105,7 +2105,7 @@
         "f":  [
                   "General Medicine"
               ],
-        "d":  "Study of how drugs interact with biological systems; foundational to prescribing and understanding medication effects.",
+        "d":  "Study of how drugs interact with biological systems, encompassing their mechanisms, therapeutic uses, and adverse effects.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -2415,7 +2415,7 @@
                   "Pulmonology",
                   "Emergency Medicine"
               ],
-        "d":  "Sharp, stabbing chest pain that worsens with deep inspiration, coughing, or moving the thorax; indicates pleural inflammation.",
+        "d":  "Sharp, stabbing chest pain that worsens with deep inspiration, coughing, or thoracic movement, indicating pleural inflammation or irritation.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -2433,7 +2433,7 @@
                   "Gastroenterology",
                   "Emergency Medicine"
               ],
-        "d":  "Vomiting of blood from the upper gastrointestinal tract; appears bright red or as dark coffee-ground material depending on bleeding rate.",
+        "d":  "Vomiting of blood originating from the upper gastrointestinal tract, appearing bright red or as coffee-ground material depending on the rate of bleeding.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -2509,7 +2509,7 @@
                   "Family Medicine",
                   "Immunology"
               ],
-        "d":  "An unpleasant, irritating sensation of the skin that provokes the urge to scratch; may be localised or generalised.",
+        "d":  "An unpleasant skin sensation provoking the urge to scratch, occurring as a localized or generalized symptom of dermatological or systemic disease.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -2742,7 +2742,7 @@
                   "Pulmonology",
                   "Surgery"
               ],
-        "d":  "The abnormal presence of air in the pleural cavity causing lung collapse; may be spontaneous, traumatic, or iatrogenic.",
+        "d":  "Abnormal accumulation of air in the pleural cavity causing lung collapse, classified as spontaneous, traumatic, or iatrogenic.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -2926,7 +2926,7 @@
                   "Urology",
                   "Oncology"
               ],
-        "d":  "A glycoprotein manufactured by the prostate gland; blood concentrations serve as a clinical marker for BPH or malignancy screening.",
+        "d":  "A glycoprotein secreted by the prostate gland whose blood levels serve as a clinical marker for benign prostatic hyperplasia and prostate cancer screening.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -2964,7 +2964,7 @@
                   "Emergency Medicine",
                   "Surgery"
               ],
-        "d":  "Acute appendix inflammation with right lower quadrant pain, nausea, and fever; treated surgically or with antibiotics in mild cases.",
+        "d":  "Acute inflammation of the vermiform appendix presenting with right lower quadrant pain, nausea, and fever, treated surgically or with antibiotics.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -3006,7 +3006,7 @@
                   "Emergency Medicine",
                   "Surgery"
               ],
-        "d":  "Peritoneum inflammation from bacterial contamination after visceral perforation; presents with diffuse abdominal pain, rigidity, and fever.",
+        "d":  "Inflammation of the peritoneum, typically from bacterial contamination after visceral perforation, presenting with diffuse abdominal pain, rigidity, and fever.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [

@@ -14077,7 +14077,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Application of a chemical peel to remove outer skin layers, promoting resurfacing; used for acne scars, fine lines, and pigmentation."
+        "d":  "Application of a chemical peel to remove outer skin layers and promote resurfacing, used to treat acne scars, fine lines, and pigmentation irregularities."
     },
     {
         "en_h":  "Dermabrasion",
@@ -14085,7 +14085,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Mechanical skin resurfacing using a rotating abrasive device to remove superficial layers; used for scars, wrinkles, and tattoo removal."
+        "d":  "Mechanical skin resurfacing using a rotating abrasive device to remove superficial skin layers, used for scars, wrinkles, and tattoo removal."
     },
     {
         "en_h":  "Laser therapy",
@@ -14103,7 +14103,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A surgical procedure that removes subcutaneous fat deposits by suction through small incisions; used for body contouring."
+        "d":  "A surgical procedure that removes subcutaneous fat deposits by suction through small incisions, used for body contouring."
     },
     {
         "en_h":  "Rhytidectomy",
@@ -14122,7 +14122,7 @@
                   "Pharmacology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Agent producing loss of sensation with or without loss of consciousness; classified as local (specific area) or general (whole body)."
+        "d":  "Agent that produces loss of sensation with or without loss of consciousness, classified as local (affecting a specific area) or general (affecting the whole body)."
     },
     {
         "en_h":  "Antifungal",
@@ -14149,7 +14149,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "An agent that relieves or prevents itching; includes antihistamines, topical corticosteroids, and calamine lotion."
+        "d":  "An agent that relieves or prevents itching, including antihistamines, topical corticosteroids, and soothing preparations such as calamine lotion."
     },
     {
         "en_h":  "Antiseptic",
@@ -14210,7 +14210,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Toward the head or upper part of the body; opposite of inferior.",
+        "d":  "Toward the head or upper part of the body, opposite of inferior.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -14226,7 +14226,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Toward the feet or lower part of the body; opposite of superior.",
+        "d":  "Toward the feet or lower part of the body, opposite of superior.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -14266,7 +14266,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "The posterior lobe of the cerebral cortex dedicated to visual processing; damage causes visual field defects or cortical blindness.",
+        "d":  "The posterior lobe of the cerebral cortex dedicated to visual processing, whose damage causes visual field defects or cortical blindness.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -14276,7 +14276,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "Central relay station of the brain that routes sensory and motor signals to the cerebral cortex; also regulates consciousness and alertness.",
+        "d":  "Central relay station of the brain that routes sensory and motor signals to the cerebral cortex and plays a role in regulating consciousness and alertness.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -14303,7 +14303,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "The two-leaflet valve between the left atrium and left ventricle; mitral regurgitation and stenosis are common cardiac pathologies.",
+        "d":  "The two-leaflet valve between the left atrium and left ventricle, whose dysfunction causes mitral regurgitation or mitral stenosis.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -14315,7 +14315,7 @@
                   "Cardiology",
                   "Pulmonology"
               ],
-        "d":  "The artery carrying deoxygenated blood from the right ventricle to the lungs; the only artery in the body that carries deoxygenated blood.",
+        "d":  "The artery carrying deoxygenated blood from the right ventricle to the lungs, the only artery in the body that carries deoxygenated blood.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -14334,7 +14334,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "The bony structure encasing and protecting the brain, composed of the cranium and 22 bones total; forms the calvarium and skull base.",
+        "d":  "The bony structure encasing and protecting the brain, formed by the calvarium above and the skull base below.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -14350,7 +14350,7 @@
                   "Orthopedics",
                   "Obstetrics \u0026 Gynecology"
               ],
-        "d":  "The bowl-shaped bony structure at the base of the spine connecting the vertebral column to the lower limbs; supports abdominal organs and forms the birth canal in females.",
+        "d":  "Bowl-shaped bony structure at the base of the spine connecting the vertebral column to the lower limbs, supporting the abdominal organs and forming the birth canal in females.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -14366,7 +14366,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The point of connection between two or more bones; classified as fibrous, cartilaginous, or synovial based on structure and range of movement.",
+        "d":  "The point of connection between two or more bones, classified as fibrous, cartilaginous, or synovial based on structure and degree of movement permitted.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -14381,7 +14381,7 @@
                   "Anatomy",
                   "Obstetrics \u0026 Gynecology"
               ],
-        "d":  "The vascular organ developing during pregnancy that supplies the fetus with oxygen and nutrients via the umbilical cord; also produces pregnancy-sustaining hormones.",
+        "d":  "The vascular organ that develops during pregnancy to supply the fetus with oxygen and nutrients via the umbilical cord, also producing hormones that sustain the pregnancy.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -14391,7 +14391,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "The three-leaflet semilunar valve between the left ventricle and aorta; aortic stenosis is the most common valvular heart disease in adults.",
+        "d":  "The three-leaflet semilunar valve between the left ventricle and aorta, whose stenosis is the most common valvular heart disease requiring intervention in adults.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14409,7 +14409,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "The semilunar valve between the right ventricle and pulmonary artery; prevents backflow from the pulmonary circulation into the heart.",
+        "d":  "The semilunar valve between the right ventricle and pulmonary artery that prevents backflow from the pulmonary circulation into the right heart.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14425,7 +14425,7 @@
                   "Cardiology",
                   "Pulmonology"
               ],
-        "d":  "The four veins returning oxygenated blood from the lungs to the left atrium; the only veins in the body that carry oxygenated blood.",
+        "d":  "The veins returning oxygenated blood from the lungs to the left atrium, the only veins in the body that carry oxygenated blood.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14441,7 +14441,7 @@
                   "Cardiology",
                   "Neurology"
               ],
-        "d":  "The major paired arteries supplying the head and neck; the internal branch supplies the brain, the external branch the face; a common site of atherosclerosis.",
+        "d":  "The major paired arteries supplying the head and neck, with the internal carotid supplying the brain and the external carotid supplying the face, and a common site of atherosclerosis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14457,7 +14457,7 @@
                   "Cardiology",
                   "Orthopedics"
               ],
-        "d":  "The major artery of the thigh; used as a common access site for cardiac catheterization and peripheral vascular procedures.",
+        "d":  "The major artery of the thigh, commonly used as a vascular access site for cardiac catheterization and peripheral vascular procedures.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14473,7 +14473,7 @@
                   "Neurology",
                   "Orthopedics"
               ],
-        "d":  "The longest nerve in the body, running from the lower back through the buttock and down each leg; compression by a herniated disc causes sciatica.",
+        "d":  "The longest peripheral nerve in the body, running from the lower back through the buttock and down each leg, whose compression by a herniated disc causes sciatica.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14489,7 +14489,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "The tenth cranial nerve (CN X) controlling parasympathetic function of the heart, lungs, and digestive tract; involved in the vasovagal reflex.",
+        "d":  "The tenth cranial nerve controlling parasympathetic function of the heart, lungs, and digestive tract, and involved in the vasovagal reflex.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14506,7 +14506,7 @@
                   "Neurology",
                   "Ophthalmology"
               ],
-        "d":  "The second cranial nerve (CN II) transmitting visual signals from the retina to the brain; compression or inflammation causes visual field defects.",
+        "d":  "The second cranial nerve transmitting visual signals from the retina to the brain, whose compression or inflammation causes visual field defects or vision loss.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14523,7 +14523,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "The seventh cranial nerve (CN VII) controlling facial muscle movement and taste from the anterior two-thirds of the tongue; damaged in Bell\u0027s palsy.",
+        "d":  "The seventh cranial nerve controlling facial muscle movement and taste sensation, whose damage causes the characteristic facial weakness of Bell\u0027s palsy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14540,7 +14540,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The four-muscle group on the anterior thigh responsible for knee extension; commonly tested via the patellar tendon reflex (L4).",
+        "d":  "The four-muscle group on the anterior thigh responsible for knee extension, whose integrity is assessed via the patellar tendon reflex.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -14556,7 +14556,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The three-muscle group on the posterior thigh responsible for knee flexion and hip extension; commonly strained in athletes.",
+        "d":  "The three-muscle group on the posterior thigh responsible for knee flexion and hip extension, commonly strained in athletic activity.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -14567,7 +14567,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The lateral forearm bone on the thumb side; frequently fractured in falls on an outstretched hand (Colles\u0027 fracture).",
+        "d":  "The lateral forearm bone on the thumb side, frequently fractured in falls on an outstretched hand in the classic Colles\u0027 fracture pattern.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14583,7 +14583,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The medial forearm bone forming the point of the elbow (olecranon); articulates with the humerus at the elbow joint.",
+        "d":  "The medial forearm bone whose proximal end forms the olecranon (point of the elbow) and articulates with the humerus at the elbow joint.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -14594,7 +14594,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The slender lateral bone of the lower leg; provides muscle attachment and ankle stability but bears minimal body weight.",
+        "d":  "The slender lateral bone of the lower leg that provides muscle attachment and ankle stability while bearing minimal body weight.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -14606,7 +14606,7 @@
                   "Anatomy",
                   "Dentistry"
               ],
-        "d":  "The lower jaw bone; the only movable bone of the skull, essential for mastication and speech.",
+        "d":  "The lower jaw bone and the only movable bone of the skull, essential for mastication, swallowing, and speech.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -14617,7 +14617,7 @@
                   "Gastroenterology",
                   "Otolaryngology"
               ],
-        "d":  "The muscular organ in the oral cavity essential for taste, mastication, swallowing, and speech; inflammation is called glossitis.",
+        "d":  "The muscular organ in the oral cavity essential for taste, mastication, swallowing, and speech, whose inflammation is termed glossitis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14635,7 +14635,7 @@
                   "Oncology",
                   "Obstetrics \u0026 Gynecology"
               ],
-        "d":  "The glandular tissue on the anterior chest wall that produces milk in females; the most common site of cancer in women.",
+        "d":  "The glandular tissue on the anterior chest wall that produces milk in females, and the most common site of cancer in women worldwide.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -14652,7 +14652,7 @@
                   "Gastroenterology",
                   "Otolaryngology"
               ],
-        "d":  "Exocrine glands producing saliva to initiate digestion; the three major pairs are the parotid, submandibular, and sublingual glands.",
+        "d":  "Exocrine glands producing saliva to lubricate the oral cavity and initiate digestion, with three major pairs: parotid, submandibular, and sublingual.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -14662,7 +14662,7 @@
                   "Anatomy",
                   "Gastroenterology"
               ],
-        "d":  "The terminal opening of the gastrointestinal tract through which stool is expelled; controlled by the internal and external anal sphincters.",
+        "d":  "The terminal opening of the gastrointestinal tract through which stool is expelled, controlled by the internal and external anal sphincters.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -14687,7 +14687,7 @@
                   "Anatomy",
                   "Dermatology"
               ],
-        "d":  "The deepest skin layer below the dermis composed mainly of adipose tissue; provides insulation, cushioning, and energy storage.",
+        "d":  "The deepest layer of the skin below the dermis, composed mainly of adipose tissue and providing insulation, cushioning, and energy storage.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -14705,7 +14705,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "A group of subcortical nuclei coordinating motor control and learning; dysfunction causes movement disorders such as Parkinson\u0027s disease.",
+        "d":  "A group of subcortical nuclei coordinating motor control, habit formation, and reward processing, whose dysfunction causes movement disorders such as Parkinson\u0027s disease.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -14730,7 +14730,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "The major veins draining blood from the head and neck; jugular venous pressure is assessed clinically to estimate central venous pressure.",
+        "d":  "The major veins draining blood from the head and neck, with jugular venous pressure assessed clinically to estimate right heart filling pressure.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -14746,7 +14746,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "The artery on the thumb side of the forearm; used for pulse measurement, arterial blood gas sampling, and coronary catheterization access.",
+        "d":  "The artery on the thumb side of the forearm, used for pulse measurement, arterial blood gas sampling, and coronary catheterization access.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -14763,7 +14763,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The largest joint in the body, formed by the femur, tibia, and patella; supported by the ACL, PCL, medial and lateral collateral ligaments, and menisci.",
+        "d":  "The largest joint in the body, formed by the femur, tibia, and patella and stabilized by the cruciate and collateral ligaments and the menisci.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -14779,7 +14779,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The ball-and-socket joint between the femoral head and the acetabulum of the pelvis; a common site of osteoarthritis and fragility fracture in the elderly.",
+        "d":  "The ball-and-socket joint between the femoral head and the acetabulum, a common site of osteoarthritis and fragility fracture in older adults.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -14796,7 +14796,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The ball-and-socket joint between the humeral head and the glenoid fossa of the scapula; the most mobile and frequently dislocated joint in the body.",
+        "d":  "The ball-and-socket joint between the humeral head and the glenoid fossa of the scapula, the most mobile and the most frequently dislocated joint in the body.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -14811,7 +14811,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Affecting or relating to both sides of the body or an organ; opposite of unilateral.",
+        "d":  "Affecting or relating to both sides of the body or a paired organ, opposite of unilateral.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -14827,7 +14827,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Relating to the back or posterior surface of the body; in the hand, the dorsal surface is the back of the hand, opposite the palm.",
+        "d":  "Relating to the back or posterior surface of the body, as in the dorsal surface of the hand which faces away from the palm.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -14843,7 +14843,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Relating to the front or anterior surface of the body; used interchangeably with anterior in standard human anatomical descriptions.",
+        "d":  "Relating to the front or anterior surface of the body, used interchangeably with anterior in standard human anatomical descriptions.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -14858,7 +14858,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Located close to or on the surface of the body; opposite of deep.",
+        "d":  "Located close to or on the surface of the body, opposite of deep.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -14873,7 +14873,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Dense connective tissue that surrounds and separates muscles, nerves, and organs; involved in compartment syndrome and conditions such as plantar fasciitis.",
+        "d":  "Dense connective tissue that surrounds and separates muscles, nerves, and organs, involved in compartment syndrome and conditions such as plantar fasciitis.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -14888,7 +14888,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "One of the 12 pairs of curved bones forming the thoracic cage that protect the heart and lungs; ribs 1–7 are true, 8–10 false, and 11–12 floating ribs.",
+        "d":  "One of 12 pairs of curved bones forming the thoracic cage, protecting the heart and lungs and classified as true, false, or floating based on sternal attachment.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -14913,7 +14913,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "A mood disorder characterized by alternating episodes of mania or hypomania and depression; formerly called manic-depressive illness.",
+        "d":  "A mood disorder characterized by alternating episodes of mania or hypomania and depression, formerly called manic-depressive illness.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -14939,7 +14939,7 @@
                   "Psychiatry",
                   "Pediatrics"
               ],
-        "d":  "A neurodevelopmental disorder characterized by persistent inattention, hyperactivity, and impulsivity that impairs daily functioning; commonly diagnosed in childhood.",
+        "d":  "A neurodevelopmental disorder characterized by persistent inattention, hyperactivity, and impulsivity that impairs daily functioning, commonly diagnosed in childhood.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -14962,7 +14962,7 @@
                   "Psychiatry",
                   "Pediatrics"
               ],
-        "d":  "A neurodevelopmental condition characterized by differences in social communication, restricted interests, and repetitive behaviors; severity varies widely.",
+        "d":  "A neurodevelopmental condition characterized by differences in social communication, restricted interests, and repetitive behaviors, with severity varying widely across individuals.",
         "lvl":  "⭐⭐⭐ Essential",
         "en_l":  "Autism"
     },

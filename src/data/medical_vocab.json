@@ -12367,7 +12367,7 @@
     },
     {
         "en_h":  "Pseudocyst",
-        "d":  "Collection of fluid resembling a true cyst but lacking an epithelial lining; common in pancreatitis.",
+        "d":  "Collection of fluid resembling a true cyst but lacking an epithelial lining, most commonly occurring as a complication of acute pancreatitis.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Gastroenterology"
@@ -12375,7 +12375,7 @@
     },
     {
         "en_h":  "Pyoderma",
-        "d":  "A bacterial skin infection producing pus-filled lesions; common forms include impetigo and ecthyma, and pyoderma gangrenosum may signal underlying systemic disease.",
+        "d":  "Bacterial skin infection producing pus-filled lesions, with common forms including impetigo and ecthyma, while pyoderma gangrenosum may signal underlying systemic disease.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Dermatology"
@@ -12383,7 +12383,7 @@
     },
     {
         "en_h":  "Pyrexia",
-        "d":  "Elevated body temperature above normal range; a clinical term for fever.",
+        "d":  "Elevated body temperature above the normal range, used as a clinical synonym for fever.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "General Medicine"
@@ -12400,7 +12400,7 @@
     },
     {
         "en_h":  "Pyuria",
-        "d":  "Presence of white blood cells in urine; indicates urinary tract infection or inflammation.",
+        "d":  "Presence of white blood cells in the urine, indicating urinary tract infection or urinary tract inflammation.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Urology",
@@ -12460,7 +12460,7 @@
     },
     {
         "en_h":  "Retinopathy",
-        "d":  "Non-inflammatory disease of the retina; most commonly diabetic or hypertensive.",
+        "d":  "Non-inflammatory disease of the retina, most commonly caused by diabetes mellitus or hypertension, potentially leading to vision loss.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Ophthalmology",
@@ -12469,7 +12469,7 @@
     },
     {
         "en_h":  "Septicemia",
-        "d":  "Bloodstream infection with proliferating bacteria; a clinical term largely replaced by sepsis.",
+        "d":  "Bloodstream infection characterized by proliferating bacteria, a clinical term now largely replaced by the broader concept of sepsis.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Infectious Disease"
@@ -12477,7 +12477,7 @@
     },
     {
         "en_h":  "Somnolence",
-        "d":  "Excessive drowsiness or sleepiness; may indicate CNS depression or metabolic disorder.",
+        "d":  "Excessive drowsiness or sleepiness, which may indicate central nervous system depression, metabolic disorder, or medication side effect.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Neurology",
@@ -12595,7 +12595,7 @@
     },
     {
         "en_h":  "Tricuspid",
-        "d":  "Having three cusps; refers to the tricuspid valve between the right atrium and ventricle.",
+        "d":  "Having three cusps, as in the tricuspid valve separating the right atrium and right ventricle, which prevents backflow during ventricular contraction.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Cardiology",
@@ -12629,7 +12629,7 @@
     },
     {
         "en_h":  "Ureterolithiasis",
-        "d":  "Presence of calculi (stones) within the ureter; causes severe flank pain (renal colic) and may obstruct urine flow, requiring ureteroscopy or lithotripsy.",
+        "d":  "Presence of calculi within the ureter causing severe flank pain (renal colic) and potentially obstructing urine flow, treated with ureteroscopy or lithotripsy.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Urology"
@@ -12637,7 +12637,7 @@
     },
     {
         "en_h":  "Urolithiasis",
-        "d":  "Formation of stones within the urinary tract including the kidneys, ureters, and bladder; most stones are calcium-based and cause flank pain, hematuria, and obstruction.",
+        "d":  "Formation of stones within the urinary tract — kidneys, ureters, or bladder — causing flank pain, hematuria, and potentially obstructing urine flow.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Urology"
@@ -12704,7 +12704,7 @@
     },
     {
         "en_h":  "Albuminuria",
-        "d":  "Presence of albumin protein in the urine; an early marker of kidney damage.",
+        "d":  "Presence of albumin in the urine, an early and sensitive marker of glomerular damage and chronic kidney disease progression.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Nephrology"
@@ -12729,7 +12729,7 @@
     },
     {
         "en_h":  "Juxtaglomerular",
-        "d":  "Adjacent to the glomerulus; juxtaglomerular cells regulate blood pressure via renin secretion.",
+        "d":  "Adjacent to the glomerulus, as in the juxtaglomerular cells that regulate blood pressure by secreting renin into the circulation.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Nephrology",
@@ -12755,7 +12755,7 @@
     },
     {
         "en_h":  "Splanchnic",
-        "d":  "Pertaining to the visceral organs of the abdomen; splanchnic nerves supply the abdominal organs.",
+        "d":  "Pertaining to the visceral organs of the abdomen, as in the splanchnic nerves that supply the abdominal and pelvic organs.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Anatomy",
@@ -12764,7 +12764,7 @@
     },
     {
         "en_h":  "Levocardia",
-        "d":  "Normal left-sided positioning of the heart; the term is used when situs inversus affects other organs.",
+        "d":  "Normal left-sided positioning of the heart, a term used clinically when situs inversus affects other thoracic or abdominal organs.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Cardiology",
@@ -12814,7 +12814,7 @@
                   "Gastroenterology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "The lower esophageal sphincter located at the junction of the esophagus and stomach; prevents reflux of gastric contents into the esophagus."
+        "d":  "The lower esophageal sphincter at the gastroesophageal junction that prevents reflux of gastric contents into the esophagus."
     },
     {
         "en_h":  "Melatonin",
@@ -12833,7 +12833,7 @@
                   "Nephrology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Pituitary hormone that promotes renal water reabsorption, reducing urine output and plasma osmolality; also called vasopressin (ADH)."
+        "d":  "Pituitary hormone that promotes renal water reabsorption to reduce urine output and regulate plasma osmolality, also called vasopressin."
     },
     {
         "en_h":  "Median nerve",
@@ -12842,7 +12842,7 @@
                   "Neurology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Major upper limb peripheral nerve supplying palm sensation and thenar motor function; compressed in carpal tunnel syndrome."
+        "d":  "Major peripheral nerve of the upper limb supplying sensation to the palm and motor function to the thenar muscles, compressed in carpal tunnel syndrome."
     },
     {
         "en_h":  "Antigen",
@@ -12886,7 +12886,7 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "The mature female reproductive cell (gamete) released from the ovary during ovulation; if fertilized by a sperm, it develops into an embryo."
+        "d":  "The mature female gamete released from the ovary during ovulation, which develops into an embryo if fertilized by a spermatozoon."
     },
     {
         "en_h":  "Follicle",
@@ -12895,7 +12895,7 @@
                   "Endocrinology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Small anatomical sac; ovarian follicles contain developing oocytes; hair follicles are tubular skin structures from which hairs grow."
+        "d":  "Small anatomical sac, referring either to ovarian follicles containing developing oocytes or to hair follicles from which hairs emerge."
     },
     {
         "en_h":  "Testis",
@@ -12904,7 +12904,7 @@
                   "Urology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "One of the paired male gonads located in the scrotum; produces sperm and testosterone."
+        "d":  "One of the paired male gonads located in the scrotum, responsible for producing spermatozoa and secreting testosterone."
     },
     {
         "en_h":  "Vas deferens",
@@ -12932,7 +12932,7 @@
                   "Psychiatry"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Belief in pregnancy with physical symptoms (abdominal distension, amenorrhea) despite the absence of a fetus; also called false pregnancy."
+        "d":  "Firm belief in being pregnant accompanied by physical symptoms such as abdominal distension and amenorrhea, despite the absence of a fetus."
     },
     {
         "en_h":  "Ilium",
@@ -12959,7 +12959,7 @@
                   "Pharmacology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Medication available without a prescription for self-treatment of minor conditions; contrast with prescription medicine."
+        "d":  "Medication available without a prescription, approved for self-treatment of minor conditions and sold directly to consumers."
     },
     {
         "en_h":  "Prescription medicine",
@@ -12968,7 +12968,7 @@
                   "Pharmacology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Medication requiring a physician\u0027s written authorization; used for conditions needing medical supervision; contrast with OTC medicine."
+        "d":  "Medication requiring a licensed prescriber\u0027s authorization, used for conditions that necessitate medical diagnosis and supervision."
     },
     {
         "en_h":  "Fallopian tube",
@@ -12977,7 +12977,7 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Paired duct extending from the uterus toward each ovary; the site of fertilization and the pathway for an ovum to reach the uterus."
+        "d":  "Paired duct extending from each side of the uterus toward the ovary, serving as the site of fertilization and the pathway for the ovum to the uterus."
     },
     {
         "en_h":  "Vagina",
@@ -12986,7 +12986,7 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Muscular canal from the cervix to the external genitalia; serves as the birth canal during delivery and the passage for menstrual flow."
+        "d":  "Muscular canal extending from the cervix to the external genitalia, serving as the birth canal during delivery and the passage for menstrual flow."
     },
     {
         "en_h":  "Vulva",
@@ -13030,7 +13030,7 @@
                   "Anatomy"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "An anatomical plane that divides the body into left and right portions; the midsagittal (median) plane passes through the midline."
+        "d":  "Anatomical plane that divides the body into left and right portions, with the midsagittal plane passing precisely through the body\u0027s midline."
     },
     {
         "en_h":  "Frontal plane",
@@ -13038,7 +13038,7 @@
                   "Anatomy"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "An anatomical plane that divides the body into anterior and posterior portions; also called the coronal plane."
+        "d":  "Anatomical plane that divides the body into anterior and posterior portions, also called the coronal plane."
     },
     {
         "en_h":  "Transverse plane",
@@ -13046,7 +13046,7 @@
                   "Anatomy"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "An anatomical plane that divides the body into superior and inferior portions; the basis of CT scan cross-sectional imaging."
+        "d":  "Anatomical plane that divides the body into superior and inferior portions, forming the basis of cross-sectional imaging such as CT."
     },
     {
         "en_h":  "Brachial region",
@@ -13070,7 +13070,7 @@
                   "Anatomy"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "The anatomical region pertaining to the neck; also refers to the cervical spine (C1–C7 vertebrae)."
+        "d":  "The anatomical region of the neck, also referring to the cervical spine comprising the uppermost vertebrae from the skull to the thorax."
     },
     {
         "en_h":  "Crural region",
@@ -13111,7 +13111,7 @@
                   "Anatomy"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Combined abdominal and pelvic cavities below the diaphragm; contains the digestive, reproductive, and urinary organs."
+        "d":  "The combined abdominal and pelvic cavities below the diaphragm, housing the digestive, reproductive, and urinary organs."
     },
     {
         "en_h":  "Peritoneum",
@@ -13120,7 +13120,7 @@
                   "Surgery"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "The serous membrane lining the abdominal cavity and covering most abdominal organs; inflammation constitutes peritonitis."
+        "d":  "Serous membrane lining the abdominal cavity and covering most abdominal organs, whose inflammation constitutes peritonitis."
     },
     {
         "en_h":  "Abdominal quadrant",
@@ -13139,7 +13139,7 @@
                   "General Medicine"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "One of nine clinical abdominal divisions: hypochondriac, lumbar, and inguinal (x2); plus epigastric, umbilical, and hypogastric centrally."
+        "d":  "One of the nine clinical divisions of the abdomen used to describe the location of organs and symptoms."
     },
     {
         "en_h":  "Medial",
@@ -13179,7 +13179,7 @@
                   "Anatomy"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "The pointed tip of an anatomical structure; clinically refers to the cardiac apex (inferior-left) and the lung apex (superior tip)."
+        "d":  "The pointed tip of an anatomical structure, clinically applied to the cardiac apex at the inferior-left chest and the superior tip of each lung."
     },
     {
         "en_h":  "Stratum basale",
@@ -13189,7 +13189,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "The deepest layer of the epidermis where keratinocytes actively divide and melanocytes reside; responsible for continuous skin cell renewal."
+        "d":  "The deepest epidermal layer where keratinocytes actively divide and melanocytes reside, responsible for continuous skin cell renewal."
     },
     {
         "en_h":  "Melanocyte",
@@ -13207,7 +13207,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A tube-like structure in the skin from which a hair grows; associated with sebaceous glands and arrector pili muscles."
+        "d":  "Tubular skin structure from which a hair grows, associated with sebaceous glands and arrector pili muscles that cause the hair to erect."
     },
     {
         "en_h":  "Sudoriferous gland",
@@ -13217,7 +13217,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Exocrine skin gland producing sweat; classified as eccrine (widespread) or apocrine (axillary and groin areas)."
+        "d":  "Exocrine skin gland that produces sweat, classified as eccrine (distributed widely across the skin) or apocrine (concentrated in the axillary and groin regions)."
     },
     {
         "en_h":  "Sebaceous gland",
@@ -13245,7 +13245,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A hard keratinized plate covering the dorsal surface of the distal phalanges; protects fingertips and aids fine manipulation."
+        "d":  "Hard keratinized plate covering the dorsal surface of the distal phalanges, protecting the fingertips and aiding fine manipulation."
     },
     {
         "en_h":  "Lunula",
@@ -13280,7 +13280,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Chronic inflammatory condition of the pilosebaceous unit with comedones, papules, pustules, and nodules; most common in adolescents."
+        "d":  "Chronic inflammatory condition of the pilosebaceous unit producing comedones, papules, pustules, and nodules, most prevalent during adolescence."
     },
     {
         "en_h":  "Cutaneous",
@@ -13308,7 +13308,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A fluid-filled skin lesion greater than 1 cm in diameter; seen in burns, pemphigus, and severe contact dermatitis."
+        "d":  "A large fluid-filled skin blister, seen in burns, pemphigus vulgaris, and severe contact dermatitis."
     },
     {
         "en_h":  "Comedo",
@@ -13317,7 +13317,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "A plugged hair follicle filled with sebum and dead skin cells; open comedones appear as blackheads, closed comedones as whiteheads."
+        "d":  "A plugged hair follicle filled with sebum and dead cells, presenting as an open comedone (blackhead) or a closed comedone (whitehead)."
     },
     {
         "en_h":  "Contusion",
@@ -13327,7 +13327,7 @@
                   "Emergency Medicine"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "An injury to soft tissue causing hemorrhage beneath the intact skin, resulting in discoloration and tenderness; commonly called a bruise."
+        "d":  "Soft tissue injury causing hemorrhage beneath intact skin, resulting in discoloration and tenderness, commonly called a bruise."
     },
     {
         "en_h":  "Cyst",
@@ -13336,7 +13336,7 @@
                   "General Medicine"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "A closed, epithelium-lined sac filled with fluid, semifluid, or solid material; may be benign or malignant."
+        "d":  "A closed, epithelium-lined sac containing fluid, semifluid, or solid material, occurring in many tissues and ranging from benign to malignant."
     },
     {
         "en_h":  "Depigmentation",
@@ -13354,7 +13354,7 @@
                   "General Medicine"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Profuse, abnormal sweating occurring without physical exertion; may indicate fever, shock, hypoglycemia, or autonomic dysfunction."
+        "d":  "Profuse, abnormal sweating occurring without physical exertion, indicating fever, shock, hypoglycemia, or autonomic dysfunction."
     },
     {
         "en_h":  "Erythroderma",
@@ -13362,7 +13362,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Widespread redness and scaling involving most of the body surface; a severe inflammatory skin condition also called exfoliative dermatitis."
+        "d":  "Severe inflammatory skin condition causing widespread redness and scaling across most of the body surface, also called exfoliative dermatitis."
     },
     {
         "en_h":  "Eschar",
@@ -13371,7 +13371,7 @@
                   "Surgery"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A dry, leathery crust of dead tissue formed over a wound or burn; must be removed (debrided) to allow healing."
+        "d":  "Dry, leathery crust of necrotic tissue forming over a wound or burn that must be debrided to allow healing."
     },
     {
         "en_h":  "Fissure",
@@ -13379,7 +13379,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A narrow linear crack or tear in the skin surface extending into the dermis; commonly seen on the heels, fingertips, and lips."
+        "d":  "Narrow linear crack in the skin extending into the dermis, commonly occurring on the heels, fingertips, and lips."
     },
     {
         "en_h":  "Hyperemia",
@@ -13388,7 +13388,7 @@
                   "General Medicine"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Excess blood in a tissue or organ causing redness and warmth; may be active (increased arterial flow) or passive (venous congestion)."
+        "d":  "Excess blood in a tissue or organ causing redness and warmth, classified as active (increased arterial inflow) or passive (venous congestion)."
     },
     {
         "en_h":  "Hyperpigmentation",
@@ -13396,7 +13396,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Darkening of skin areas due to excess melanin production; causes include sun exposure, hormonal changes, and inflammation."
+        "d":  "Darkening of localized skin areas from excess melanin production, caused by sun exposure, hormonal changes, or post-inflammatory pigmentation."
     },
     {
         "en_h":  "Lesion",
@@ -13405,7 +13405,7 @@
                   "General Medicine"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Any abnormal change in tissue structure caused by disease or injury; a general term encompassing wounds, sores, tumors, and rashes."
+        "d":  "Any abnormal change in tissue structure caused by disease or injury, a broad term encompassing wounds, sores, tumors, and rashes."
     },
     {
         "en_h":  "Leukoderma",
@@ -13413,7 +13413,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "A condition of localized loss of skin pigmentation, resulting in white patches; may be idiopathic or associated with systemic conditions."
+        "d":  "Localized loss of skin pigmentation resulting in white patches, occurring as an idiopathic condition or associated with systemic disease."
     },
     {
         "en_h":  "Nevus",

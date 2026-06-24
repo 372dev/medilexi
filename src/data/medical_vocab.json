@@ -13422,7 +13422,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A benign proliferation of melanocytes forming a pigmented skin lesion; may become malignant (melanoma) if certain changes occur."
+        "d":  "A benign proliferation of melanocytes forming a pigmented skin lesion that may undergo malignant transformation into melanoma if certain changes occur."
     },
     {
         "en_h":  "Nodule",
@@ -13458,7 +13458,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A small, solid, raised skin lesion less than 1 cm in diameter without visible fluid; seen in acne, eczema, and psoriasis."
+        "d":  "A small, solid, raised skin lesion without visible fluid, seen in acne, eczema, and psoriasis."
     },
     {
         "en_h":  "Photosensitivity",
@@ -13467,7 +13467,7 @@
                   "Pharmacology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Abnormal or exaggerated skin reaction to sunlight or UV radiation; may be drug-induced or associated with autoimmune conditions such as SLE."
+        "d":  "Abnormal or exaggerated skin reaction to sunlight or UV radiation, occurring as a drug-induced effect or in autoimmune conditions such as systemic lupus erythematosus."
     },
     {
         "en_h":  "Purulent",
@@ -13476,7 +13476,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Containing, consisting of, or forming pus; indicates active bacterial infection."
+        "d":  "Containing, consisting of, or producing pus, indicating an active bacterial infection with neutrophil accumulation."
     },
     {
         "en_h":  "Pustule",
@@ -13484,7 +13484,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A small, raised skin lesion filled with pus; common in acne, folliculitis, and impetigo."
+        "d":  "A small, raised skin lesion filled with pus, common in acne, folliculitis, and impetigo."
     },
     {
         "en_h":  "Systemic sclerosis",
@@ -13495,7 +13495,7 @@
                   "Rheumatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Chronic autoimmune disease causing progressive fibrosis and hardening of the skin and internal organs; formerly called scleroderma."
+        "d":  "Chronic autoimmune disease causing progressive fibrosis and hardening of the skin and internal organs, formerly known as scleroderma."
     },
     {
         "en_h":  "Seborrhea",
@@ -13503,7 +13503,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Excessive secretion of sebum from the sebaceous glands, resulting in oily skin and scalp; associated with seborrheic dermatitis."
+        "d":  "Excessive secretion of sebum from the sebaceous glands resulting in oily skin and scalp, associated with seborrheic dermatitis."
     },
     {
         "en_h":  "Suppurative",
@@ -13513,7 +13513,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Characterized by the production of pus; describing an infection involving pus formation."
+        "d":  "Characterized by the production of pus, describing infections or inflammatory processes involving pus formation."
     },
     {
         "en_h":  "Ulcer",
@@ -13522,7 +13522,7 @@
                   "Gastroenterology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Open sore on skin or mucous membrane from tissue breakdown; caused by infection, pressure, ischemia, or inflammation."
+        "d":  "Open sore on skin or mucous membrane resulting from tissue breakdown caused by infection, pressure, ischemia, or chronic inflammation."
     },
     {
         "en_h":  "Vesicle",
@@ -13531,7 +13531,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A small, fluid-filled skin lesion less than 1 cm in diameter; seen in herpes, chickenpox, and contact dermatitis."
+        "d":  "A small, fluid-filled skin blister seen in herpes simplex, chickenpox, and contact dermatitis."
     },
     {
         "en_h":  "Wheal",
@@ -13540,7 +13540,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A transient, raised, pale skin lesion surrounded by erythema caused by localized edema in the dermis; the primary lesion of urticaria."
+        "d":  "A transient, raised, pale skin lesion surrounded by erythema caused by localized dermal edema, the primary lesion of urticaria."
     },
     {
         "en_h":  "Xerosis",
@@ -13549,7 +13549,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Abnormal dryness of the skin due to decreased sebum production or impaired skin barrier function; also called xerosis cutis."
+        "d":  "Abnormal dryness of the skin from decreased sebum production or impaired skin barrier function, also termed xerosis cutis."
     },
     {
         "en_h":  "Abscess",
@@ -13558,7 +13558,7 @@
                   "Surgery"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "A localized collection of pus within a cavity formed by tissue breakdown, surrounded by inflamed tissue; requires drainage."
+        "d":  "A localized collection of pus within a cavity formed by tissue breakdown, surrounded by inflamed tissue, typically requiring incision and drainage."
     },
     {
         "en_h":  "Acne rosacea",
@@ -13595,7 +13595,7 @@
                   "Oncology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Most common skin cancer, arising from basal cells; locally invasive but rarely metastasizes; strongly associated with chronic UV exposure."
+        "d":  "The most common skin cancer, arising from epidermal basal cells and strongly associated with chronic UV exposure, locally invasive but rarely metastasizing."
     },
     {
         "en_h":  "Burn",
@@ -13604,7 +13604,7 @@
                   "Emergency Medicine"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Tissue injury from heat, chemicals, electricity, or radiation; classified by burn depth and percentage of body surface area affected."
+        "d":  "Tissue injury caused by heat, chemicals, electricity, or radiation, classified by depth of tissue destruction and extent of body surface involvement."
     },
     {
         "en_h":  "Cicatrix",
@@ -13624,7 +13624,7 @@
                   "General Medicine"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Skin and tissue injury from prolonged pressure over bony prominences; also called pressure ulcer or bedsore."
+        "d":  "Skin and tissue injury from sustained pressure over bony prominences, also called a pressure ulcer or bedsore, occurring in immobile patients."
     },
     {
         "en_h":  "Dermatosis",
@@ -13641,7 +13641,7 @@
                   "Emergency Medicine"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Death of body tissue due to loss of blood supply or severe bacterial infection; classified as dry (ischemic) or wet (infectious)."
+        "d":  "Death of body tissue from loss of blood supply or severe bacterial infection, classified as dry (ischemic) or wet (infectious) based on the mechanism."
     },
     {
         "en_h":  "Dry gangrene",
@@ -13650,7 +13650,7 @@
                   "Emergency Medicine"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Ischemic necrosis of tissue without bacterial infection, typically in the extremities; the tissue desiccates and mummifies."
+        "d":  "Ischemic necrosis of tissue without bacterial involvement, typically affecting the extremities, where the tissue gradually desiccates and mummifies."
     },
     {
         "en_h":  "Wet gangrene",
@@ -13667,7 +13667,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Chronic inflammatory skin condition causing itching, redness, and a scaly rash; often used interchangeably with atopic dermatitis."
+        "d":  "Chronic inflammatory skin condition causing itching, redness, and a scaly rash, often used interchangeably with atopic dermatitis."
     },
     {
         "en_h":  "Ichthyosis",
@@ -13675,7 +13675,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "A group of genetic skin disorders characterized by dry, thickened, scaly skin resembling fish scales; ranges from mild to severe."
+        "d":  "A group of genetic skin disorders characterized by dry, thickened, scaly skin resembling fish scales, ranging from mild to severe forms."
     },
     {
         "en_h":  "Impetigo",
@@ -13684,7 +13684,7 @@
                   "Pediatrics"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Contagious superficial skin infection in children from Staphylococcus or Streptococcus; presents with honey-colored crusted lesions."
+        "d":  "Contagious superficial bacterial skin infection caused by Staphylococcus or Streptococcus, presenting with characteristic honey-colored crusted lesions."
     },
     {
         "en_h":  "Kaposi\u0027s sarcoma",
@@ -13694,7 +13694,7 @@
                   "Oncology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A malignant vascular tumor of the skin and mucous membranes caused by human herpesvirus 8 (HHV-8); strongly associated with HIV/AIDS."
+        "d":  "Malignant vascular tumor of the skin and mucous membranes caused by human herpesvirus 8 (HHV-8), strongly associated with HIV/AIDS and immunosuppression."
     },
     {
         "en_h":  "Keloid",
@@ -13702,7 +13702,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Excessive fibrous scar tissue growing beyond the original wound margins; more common in darker skin and may cause itching or pain."
+        "d":  "Excessive fibrous scar tissue growing beyond the original wound margins, more prevalent in darker skin types and causing itching or pain."
     },
     {
         "en_h":  "Keratosis",
@@ -13710,7 +13710,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Abnormal thickening of the outer layer of skin (keratin); includes actinic keratosis (precancerous) and seborrheic keratosis (benign)."
+        "d":  "Abnormal thickening of the skin\u0027s outer keratin layer, encompassing actinic keratosis (precancerous) and seborrheic keratosis (benign)."
     },
     {
         "en_h":  "Laceration",
@@ -13719,7 +13719,7 @@
                   "Emergency Medicine"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "An irregular tear or cut in the skin or soft tissue, typically caused by trauma; usually requires wound closure."
+        "d":  "An irregular tear or cut in the skin or soft tissue caused by trauma, typically requiring wound closure and tetanus prophylaxis."
     },
     {
         "en_h":  "Malignant melanoma",
@@ -13729,7 +13729,7 @@
                   "Oncology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "An aggressive cancer arising from melanocytes; the most dangerous form of skin cancer due to its high propensity for metastasis."
+        "d":  "Aggressive malignant tumor arising from melanocytes, the most dangerous skin cancer due to its high propensity for early metastasis."
     },
     {
         "en_h":  "Pediculosis",
@@ -13739,7 +13739,7 @@
                   "Infectious Disease"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Infestation of the skin or hair by parasitic lice (Pediculus species); causes intense itching and may be transmitted through close contact."
+        "d":  "Infestation of the skin or hair by parasitic lice, causing intense itching and transmitted through close personal contact or shared items."
     },
     {
         "en_h":  "Rubella",
@@ -13749,7 +13749,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Contagious viral infection with a fine pink rash; dangerous in pregnancy as it causes congenital rubella syndrome affecting the fetus."
+        "d":  "Contagious viral infection presenting with a fine pink rash, dangerous during pregnancy as it causes congenital rubella syndrome with serious fetal defects."
     },
     {
         "en_h":  "Scabies",
@@ -13778,7 +13778,7 @@
                   "Oncology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Malignant tumor from keratinocytes of the epidermis; may metastasize if untreated; associated with UV exposure and immunosuppression."
+        "d":  "Malignant tumor arising from epidermal keratinocytes, associated with UV exposure and immunosuppression, with metastatic potential if left untreated."
     },
     {
         "en_h":  "Infantile hemangioma",
@@ -13800,7 +13800,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Chronic systemic autoimmune disease affecting multiple organs; hallmarks include a butterfly rash, joint pain, and renal involvement."
+        "d":  "Chronic systemic autoimmune disease affecting multiple organs, with hallmarks including a butterfly facial rash, joint pain, and renal involvement."
     },
     {
         "en_h":  "Tinea",
@@ -13810,7 +13810,7 @@
                   "Infectious Disease"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Superficial dermatophyte infection of skin, hair, or nails; named by body site (tinea capitis — scalp, tinea pedis — foot)."
+        "d":  "Superficial dermatophyte fungal infection of skin, hair, or nails, named according to the affected body site, such as tinea capitis on the scalp or tinea pedis on the feet."
     },
     {
         "en_h":  "Tinea capitis",
@@ -13820,7 +13820,7 @@
                   "Pediatrics"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Dermatophyte fungal infection of the scalp and hair shafts; predominantly affects children and may cause hair loss."
+        "d":  "Dermatophyte fungal infection of the scalp and hair shafts, predominantly affecting children and potentially causing patchy hair loss."
     },
     {
         "en_h":  "Tinea pedis",
@@ -13829,7 +13829,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A common dermatophyte infection of the feet, particularly between the toes; characterized by itching, scaling, and fissures."
+        "d":  "Common dermatophyte infection of the feet, particularly between the toes, characterized by itching, scaling, and fissures."
     },
     {
         "en_h":  "Varicella",
@@ -13839,7 +13839,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐⭐ Essential",
-        "d":  "Primary varicella-zoster virus infection with widespread itchy vesicular rash; may cause severe complications in immunocompromised patients."
+        "d":  "Primary varicella-zoster virus infection presenting with a widespread itchy vesicular rash, with potentially severe complications in immunocompromised patients."
     },
     {
         "en_h":  "Verruca",
@@ -13848,7 +13848,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Benign epidermal growth caused by HPV; types include verruca vulgaris (common wart) and verruca plantaris (plantar wart)."
+        "d":  "Benign epidermal growth caused by human papillomavirus, with types including verruca vulgaris (common wart) and verruca plantaris (plantar wart)."
     },
     {
         "en_h":  "Vitiligo",
@@ -13865,7 +13865,7 @@
                   "Infectious Disease"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Deep skin infection with clustered interconnected furuncles from Staphylococcus aureus; forms a large, painful, pus-filled mass."
+        "d":  "Deep skin infection consisting of clustered, interconnected furuncles caused by Staphylococcus aureus, forming a large, painful, pus-filled mass."
     },
     {
         "en_h":  "Furuncle",
@@ -13875,7 +13875,7 @@
                   "Infectious Disease"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A deep bacterial infection of a hair follicle and surrounding tissue, forming a painful, pus-filled nodule; caused by Staphylococcus aureus."
+        "d":  "Deep bacterial infection of a hair follicle and surrounding tissue caused by Staphylococcus aureus, forming a painful, pus-filled nodule."
     },
     {
         "en_h":  "Trichomycosis",
@@ -13883,7 +13883,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Corynebacterium infection of axillary or pubic hair shafts; characterized by yellowish, reddish, or black concretions on the hair."
+        "d":  "Corynebacterium infection of axillary or pubic hair shafts, characterized by yellowish, reddish, or black concretions adhering to the hair."
     },
     {
         "en_h":  "Onychia",
@@ -13901,7 +13901,7 @@
                   "Psychiatry"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Compulsive biting or chewing of the nails; may be habitual or associated with anxiety disorders."
+        "d":  "Compulsive biting or chewing of the nails, occurring as a habitual behavior or in association with anxiety disorders."
     },
     {
         "en_h":  "Paronychia",
@@ -13909,7 +13909,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Infection of the skin surrounding the nail, causing redness, swelling, and pus; may be acute (bacterial) or chronic (fungal)."
+        "d":  "Infection of the skin surrounding the nail causing redness, swelling, and pus formation, classified as acute (bacterial) or chronic (fungal)."
     },
     {
         "en_h":  "Culture and sensitivity",
@@ -13937,7 +13937,7 @@
                   "Pathology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Microscopic examination of cells shed from a body surface or obtained by scraping; used to detect malignancy or infection."
+        "d":  "Microscopic examination of cells shed from a body surface or obtained by scraping, used to detect malignancy, infection, or other cellular abnormalities."
     },
     {
         "en_h":  "Frozen section",
@@ -13966,7 +13966,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Tissue graft from a genetically non-identical donor of the same species; used as temporary biological wound coverage."
+        "d":  "Tissue graft from a genetically non-identical donor of the same species, used as biological wound coverage in burns and reconstructive surgery."
     },
     {
         "en_h":  "Autograft",
@@ -13975,7 +13975,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "A tissue graft harvested from and transplanted to the same individual; the gold standard for permanent skin replacement."
+        "d":  "A tissue graft harvested from and transplanted to the same individual, regarded as the gold standard for permanent skin replacement."
     },
     {
         "en_h":  "Dermatome",
@@ -13984,7 +13984,7 @@
                   "Surgery"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Surgical instrument cutting thin skin slices for grafting; also refers to the skin area innervated by a single spinal nerve root."
+        "d":  "A surgical instrument that cuts thin skin slices for grafting, and also the term for the skin area innervated by a single spinal nerve root."
     },
     {
         "en_h":  "Dermatoplasty",
@@ -14013,7 +14013,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "A tissue graft taken from a donor of a different species (e.g., porcine skin); used as a temporary wound covering."
+        "d":  "A tissue graft taken from a donor of a different species, such as porcine skin, used as a temporary biological wound covering."
     },
     {
         "en_h":  "Cauterization",
@@ -14031,7 +14031,7 @@
                   "Surgery"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Destruction of abnormal tissue using extreme cold (typically liquid nitrogen); used for warts, actinic keratoses, and skin cancers."
+        "d":  "Destruction of abnormal tissue using extreme cold, typically applied with liquid nitrogen, to treat warts, actinic keratoses, and superficial skin cancers."
     },
     {
         "en_h":  "Curettage",
@@ -14040,7 +14040,7 @@
                   "Surgery"
               ],
         "lvl":  "⭐⭐ Important",
-        "d":  "Removal of tissue from a body cavity or surface using a curette (spoon-shaped instrument); used to sample or remove skin lesions."
+        "d":  "Removal of tissue from a body cavity or surface using a curette, a spoon-shaped instrument, used to sample or ablate skin lesions."
     },
     {
         "en_h":  "Electrocautery",
@@ -14068,7 +14068,7 @@
                   "Dermatology"
               ],
         "lvl":  "⭐ Good to know",
-        "d":  "Surgical removal of all or part of a nail; performed for severe infection, ingrown nail, or tumor."
+        "d":  "Surgical removal of all or part of a nail, performed for severe infection, ingrown nail, or nail unit tumor."
     },
     {
         "en_h":  "Chemabrasion",
@@ -14178,7 +14178,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Toward the front of the body; opposite of posterior.",
+        "d":  "Toward the front of the body, opposite of posterior.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -14194,7 +14194,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Toward the back of the body; opposite of anterior.",
+        "d":  "Toward the back of the body, opposite of anterior.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [

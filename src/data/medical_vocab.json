@@ -14975,7 +14975,7 @@
                   "Psychiatry",
                   "Emergency Medicine"
               ],
-        "d":  "Thoughts of ending one\u0027s own life, ranging from passive wishes to die to active planning; a psychiatric emergency requiring immediate risk assessment.",
+        "d":  "Recurrent thoughts of ending one\u0027s own life, ranging from passive death wishes to active planning, requiring immediate psychiatric assessment.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -14985,7 +14985,7 @@
                   "Psychiatry",
                   "Neurology"
               ],
-        "d":  "A sensory perception (auditory, visual, tactile, olfactory, or gustatory) that occurs without an external stimulus; a key feature of psychotic disorders.",
+        "d":  "A sensory perception experienced without an external stimulus, occurring in any sensory modality and associated with psychosis, substance use, or neurological conditions.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -14994,7 +14994,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "A fixed false belief held firmly despite clear evidence to the contrary; a core symptom of psychosis and certain mood disorders.",
+        "d":  "A fixed false belief held with conviction despite contradictory evidence, a core feature of psychotic disorders such as schizophrenia.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -15056,7 +15056,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "A structured, evidence-based psychotherapy that identifies and changes distorted thought patterns and maladaptive behaviors; first-line treatment for depression, anxiety, and OCD.",
+        "d":  "A structured psychotherapy that identifies and modifies maladaptive thought patterns and behaviors, with strong evidence across mood, anxiety, and eating disorders.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -15065,7 +15065,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "A group of psychiatric conditions characterized by abnormal eating behaviors and distorted body image; includes anorexia nervosa, bulimia nervosa, and binge-eating disorder.",
+        "d":  "A mental health condition characterized by persistent disturbances in eating behavior and body image that significantly impair physical health or psychosocial functioning.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -15085,7 +15085,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "A distinct period of abnormally elevated or irritable mood, increased energy, decreased need for sleep, and impulsive behavior; a defining feature of bipolar I disorder.",
+        "d":  "A distinct period of abnormally elevated or expansive mood with increased energy, decreased need for sleep, and impaired judgment, a defining feature of bipolar disorder.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "s":  [
@@ -15110,7 +15110,7 @@
                   "Psychiatry",
                   "Emergency Medicine"
               ],
-        "d":  "Deliberate injury to one\u0027s own body without suicidal intent, often used as a coping mechanism for emotional distress; requires psychiatric evaluation.",
+        "d":  "Deliberate injury to one\u0027s own body without suicidal intent, most commonly by cutting or burning, used as a maladaptive coping mechanism for emotional distress.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -15144,7 +15144,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "An intense, irrational fear of a specific object, situation, or activity that leads to avoidance and significant distress; classified as specific, social, or agoraphobia.",
+        "d":  "An intense, persistent, and irrational fear of a specific object or situation that provokes anxiety and leads to avoidance behavior.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "s":  [
@@ -15158,7 +15158,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "A disruption in the normal integration of consciousness, memory, identity, or perception; ranges from mild detachment to dissociative identity disorder.",
+        "d":  "A disruption in the normally integrated experience of consciousness, identity, memory, or perception, ranging from mild detachment to dissociative identity disorder.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -15168,7 +15168,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "The observable expression of emotion as assessed clinically; descriptors include flat, blunted, labile, and constricted; distinct from mood, which is the patient\u0027s subjective emotional state.",
+        "d":  "The observable outward expression of a person\u0027s emotional state, assessed in terms of range, intensity, and appropriateness to context.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -15179,7 +15179,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "An eating disorder characterized by severely restricted food intake, intense fear of weight gain, and distorted body image; associated with serious medical complications.",
+        "d":  "An eating disorder characterized by restricted food intake, intense fear of weight gain, and a distorted body image, leading to significantly low body weight.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -15201,7 +15201,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "A procedure in which brief electrical stimulation of the brain under general anesthesia induces a seizure; used for severe, treatment-resistant depression and acute mania.",
+        "d":  "A psychiatric treatment delivering a controlled electrical current through the brain under general anesthesia to induce a brief seizure, used for severe or treatment-resistant depression.",
         "lvl":  "⭐ Good to know",
         "en_l":  "Shock therapy"
     },
@@ -15211,7 +15211,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "A condition in which distressing physical symptoms cause significant impairment disproportionate to any underlying medical diagnosis; previously called somatization disorder.",
+        "d":  "A condition in which a person experiences significant distress from physical symptoms that cannot be fully explained by a medical diagnosis.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -15235,7 +15235,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "A repetitive behavior or mental act performed in response to an obsession or rigid rules, aimed at neutralizing anxiety; a defining feature of OCD.",
+        "d":  "A repetitive behavior or mental act performed in response to an obsession or rigid rules to reduce anxiety, a core feature of obsessive-compulsive disorder.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -15245,7 +15245,7 @@
                   "Anatomy",
                   "Endocrinology"
               ],
-        "d":  "The outer layer of the adrenal gland producing glucocorticoids (cortisol), mineralocorticoids (aldosterone), and androgens; diseases include Cushing\u0027s syndrome and Addison\u0027s disease.",
+        "d":  "The outer layer of the adrenal gland that produces steroid hormones including cortisol, aldosterone, and androgens essential for metabolism and stress response.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -15261,7 +15261,7 @@
                   "Oncology",
                   "Endocrinology"
               ],
-        "d":  "A rare and aggressive malignant tumor of the adrenal cortex; may secrete excess cortisol, androgens, or aldosterone causing hormonal syndromes; often diagnosed at an advanced stage.",
+        "d":  "A rare malignant tumor arising from the adrenal cortex that may secrete excess steroid hormones and carries a poor prognosis due to late presentation.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -15279,7 +15279,7 @@
                   "Dentistry",
                   "Pharmacology"
               ],
-        "d":  "Abnormal dryness of the mouth due to reduced or absent saliva; commonly caused by medications, radiation therapy, or Sjögren\u0027s syndrome.",
+        "d":  "Subjective sensation of dry mouth resulting from reduced or absent salivary flow, associated with medications, radiation therapy, and Sjogren\u0027s syndrome.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -15294,7 +15294,7 @@
         "f":  [
                   "Gastroenterology"
               ],
-        "d":  "A painful sensation of urgently needing to defecate with little or no stool passed; associated with inflammatory bowel disease, colorectal cancer, and anorectal disorders.",
+        "d":  "A persistent urge to defecate or urinate with the passage of little or no material, associated with colorectal inflammation, infection, or malignancy.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -15324,7 +15324,7 @@
                   "Dentistry",
                   "Otolaryngology"
               ],
-        "d":  "Restricted opening of the mouth due to spasm or fibrosis of the jaw muscles; causes include infection, trauma, radiation, and tetanus.",
+        "d":  "Restricted mouth opening due to spasm or fibrosis of the masticatory muscles, associated with tetanus, temporomandibular disorders, and post-radiation fibrosis.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -15333,7 +15333,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "The inability or reduced ability to feel pleasure from activities that were previously enjoyable; a core symptom of depression and other psychiatric disorders.",
+        "d":  "Diminished ability to experience pleasure from activities previously found enjoyable, a core symptom of major depressive disorder and schizophrenia.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [

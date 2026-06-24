@@ -3182,7 +3182,7 @@
                   "Otolaryngology",
                   "Neurology"
               ],
-        "d":  "The perception of noise or ringing in the ears or head when no external sound is present; may be continuous or intermittent.",
+        "d":  "Perception of noise or ringing in the ears when no external sound source is present, occurring as a symptom of cochlear, auditory nerve, or systemic conditions.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -3213,7 +3213,7 @@
                   "Otolaryngology",
                   "Family Medicine"
               ],
-        "d":  "Paranasal sinus inflammation triggered by viral upper respiratory infection in most cases; bacterial superinfection occurs in a minority.",
+        "d":  "Inflammation of the paranasal sinuses, most commonly triggered by viral upper respiratory infection, with bacterial superinfection occurring in a minority of cases.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -3292,7 +3292,7 @@
         "f":  [
                   "Ophthalmology"
               ],
-        "d":  "Deterioration of the macula causing central vision loss while peripheral vision is preserved; leading cause of blindness in older adults.",
+        "d":  "Deterioration of the macula causing central vision loss with preserved peripheral vision, the leading cause of blindness in adults over 50.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -3329,7 +3329,7 @@
                   "Dermatology",
                   "Immunology"
               ],
-        "d":  "Transient raised, itchy wheals (hives) caused by histamine release from mast cells; triggers include allergens, medications, and infections.",
+        "d":  "Transient raised, pruritic wheals caused by histamine release from dermal mast cells, triggered by allergens, medications, or infections.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -3386,7 +3386,7 @@
                   "Rheumatology",
                   "Immunology"
               ],
-        "d":  "Chronic immune-mediated skin disorder causing well-demarcated, scaly erythematous plaques; commonly affects the scalp, elbows, and knees.",
+        "d":  "Chronic immune-mediated skin disorder causing well-demarcated, scaly erythematous plaques, most commonly on the scalp, elbows, and knees.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -3434,7 +3434,7 @@
                   "Rheumatology",
                   "Orthopedics"
               ],
-        "d":  "Form of inflammatory arthritis caused by urate crystal deposition in joints; classically presents with sudden, severe pain in the big toe.",
+        "d":  "Inflammatory arthritis caused by monosodium urate crystal deposition in joints, classically presenting with sudden, severe pain in the first metatarsophalangeal joint.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -3613,7 +3613,7 @@
                   "Cardiology",
                   "Surgery"
               ],
-        "d":  "Thrombus in the deep veins, typically the lower limbs; may embolize to the pulmonary circulation, causing pulmonary embolism.",
+        "d":  "Thrombus formation in the deep veins, typically of the lower limbs, with risk of embolization to the pulmonary circulation causing pulmonary embolism.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -3654,7 +3654,7 @@
                   "Cardiology",
                   "Surgery"
               ],
-        "d":  "Aortic wall tear allowing blood to split between layers, creating a false lumen; a life-threatening cardiovascular emergency.",
+        "d":  "Aortic wall tear that allows blood to split between layers creating a false lumen, constituting a life-threatening cardiovascular emergency.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -3672,7 +3672,7 @@
                   "Surgery",
                   "Gastroenterology"
               ],
-        "d":  "Surgical removal of the gallbladder, most commonly by laparoscopy; primary treatment for symptomatic cholelithiasis and acute cholecystitis.",
+        "d":  "Surgical removal of the gallbladder, most commonly by laparoscopy, serving as the primary treatment for symptomatic cholelithiasis and acute cholecystitis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -3692,7 +3692,7 @@
                   "Surgery",
                   "Emergency Medicine"
               ],
-        "d":  "Surgical removal of the vermiform appendix; the standard treatment for acute appendicitis, performed by open or laparoscopic technique.",
+        "d":  "Surgical removal of the vermiform appendix, the standard treatment for acute appendicitis, performed by open or laparoscopic technique.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -3735,7 +3735,7 @@
                   "Obstetrics \u0026 Gynecology",
                   "Surgery"
               ],
-        "d":  "Surgical removal of the uterus for fibroids, endometriosis, abnormal uterine bleeding, or gynecologic malignancy; may be partial or total.",
+        "d":  "Surgical removal of the uterus for fibroids, endometriosis, abnormal uterine bleeding, or gynecologic malignancy, performed as a partial or total procedure.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -3986,7 +3986,7 @@
                   "Anesthesiology",
                   "Surgery"
               ],
-        "d":  "Lung tissue collapse or incomplete expansion impairing gas exchange; common postoperatively and with mucus plugging or external compression.",
+        "d":  "Lung tissue collapse or incomplete expansion impairing gas exchange, occurring postoperatively or from mucus plugging and external compression.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -4058,7 +4058,7 @@
                   "Surgery",
                   "Infectious Disease"
               ],
-        "d":  "Accumulation of pus within a body cavity, most commonly the pleural space; typically caused by pneumonia, thoracic surgery, or chest trauma.",
+        "d":  "Accumulation of pus within a body cavity, most commonly the pleural space, typically resulting from pneumonia, thoracic surgery, or chest trauma.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -4072,7 +4072,7 @@
                   "Anesthesiology",
                   "Emergency Medicine"
               ],
-        "d":  "Elevated arterial CO2 (PaCO2 \u003e45 mmHg), typically indicating respiratory failure or hypoventilation; may cause respiratory acidosis.",
+        "d":  "Abnormal elevation of arterial carbon dioxide, typically from hypoventilation or respiratory failure, leading to respiratory acidosis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -4125,7 +4125,7 @@
         "f":  [
                   "Pulmonology"
               ],
-        "d":  "Chronic progressive scarring of the lung interstitium impairing gas exchange; the idiopathic form (IPF) is the most common.",
+        "d":  "Chronic progressive scarring of the lung interstitium impairing gas exchange, with idiopathic pulmonary fibrosis (IPF) being the most common form.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -4147,7 +4147,7 @@
                   "Gastroenterology",
                   "Internal Medicine"
               ],
-        "d":  "Fluid accumulation in the peritoneal cavity; most commonly caused by portal hypertension from cirrhosis, malignancy, or heart failure.",
+        "d":  "Abnormal fluid accumulation in the peritoneal cavity, most commonly caused by portal hypertension from cirrhosis, malignancy, or heart failure.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -4160,7 +4160,7 @@
                   "Gastroenterology",
                   "Internal Medicine"
               ],
-        "d":  "Irreversible liver scarring from chronic injury impairing hepatic function; complications include portal hypertension and liver failure.",
+        "d":  "Irreversible hepatic scarring from chronic liver injury that impairs function, with complications including portal hypertension and liver failure.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "s":  [
@@ -4197,7 +4197,7 @@
                   "Gastroenterology",
                   "Surgery"
               ],
-        "d":  "Inflammation of colonic diverticula, most commonly in the sigmoid colon; presents with left lower quadrant pain, fever, and leukocytosis.",
+        "d":  "Inflammation of colonic diverticula, most commonly in the sigmoid colon, presenting with left lower quadrant pain, fever, and leukocytosis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "s":  [
@@ -4376,7 +4376,7 @@
                   "Neurology",
                   "Internal Medicine"
               ],
-        "d":  "Brain dysfunction presenting with confusion or altered consciousness; causes include metabolic, toxic, infectious, and structural insults.",
+        "d":  "Brain dysfunction presenting with confusion or altered consciousness, arising from metabolic, toxic, infectious, or structural causes.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -4397,7 +4397,7 @@
                   "Neurology",
                   "Infectious Disease"
               ],
-        "d":  "Acute brain parenchyma inflammation, usually viral; presents with fever, headache, altered consciousness, and focal neurological deficits.",
+        "d":  "Acute inflammation of the brain parenchyma, usually viral, presenting with fever, headache, altered consciousness, and focal neurological deficits.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -4479,7 +4479,7 @@
                   "Nephrology",
                   "Critical Care"
               ],
-        "d":  "Non-passage of urine, clinically defined as less than 100 mL of urine output per day; indicates severe kidney failure.",
+        "d":  "Cessation or near-complete absence of urine production indicating severe acute or chronic kidney failure.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -4545,7 +4545,7 @@
                   "Urology",
                   "Infectious Disease"
               ],
-        "d":  "Bacterial infection of the renal parenchyma from ascending urinary tract infection; presents with fever, flank pain, and CVA tenderness.",
+        "d":  "Bacterial infection of the renal parenchyma, typically from ascending urinary tract infection, presenting with fever, flank pain, and costovertebral angle tenderness.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -4589,7 +4589,7 @@
                   "Urology",
                   "Obstetrics \u0026 Gynecology"
               ],
-        "d":  "Involuntary loss of urine; classified as stress (exertion-triggered), urge (overactive bladder), overflow, or mixed type.",
+        "d":  "Involuntary loss of urine classified as stress (exertion-triggered), urge (overactive bladder), overflow, or mixed type.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -4624,7 +4624,7 @@
                   "Endocrinology",
                   "Internal Medicine"
               ],
-        "d":  "Elevated blood glucose above normal; hallmark of diabetes mellitus and risk factor for acute and chronic diabetic complications.",
+        "d":  "Elevation of blood glucose above normal levels, the hallmark of diabetes mellitus and a risk factor for acute and chronic diabetic complications.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -4673,7 +4673,7 @@
                   "Endocrinology",
                   "Critical Care"
               ],
-        "d":  "Life-threatening diabetes complication with severe hyperglycemia, metabolic acidosis, and elevated ketones; most common in type 1 diabetes.",
+        "d":  "Life-threatening complication of diabetes characterized by severe hyperglycemia, metabolic acidosis, and elevated ketones, most common in type 1 diabetes.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {

@@ -10,7 +10,7 @@
                   "Cardiology",
                   "Internal Medicine"
               ],
-        "d":  "Chronic elevation of arterial blood pressure; major risk factor for stroke, myocardial infarction, heart failure, and kidney disease.",
+        "d":  "Chronic elevation of arterial blood pressure, a major risk factor for stroke, heart failure, and kidney disease.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -32,7 +32,7 @@
                   "Internal Medicine",
                   "Endocrinology"
               ],
-        "d":  "Metabolic disorder causing chronic hyperglycemia from defects in insulin secretion or action; types include type 1, type 2, and gestational.",
+        "d":  "Metabolic disorder causing chronic hyperglycemia from defects in insulin secretion or action, encompassing type 1, type 2, and gestational forms.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -102,7 +102,7 @@
                   "Infectious Disease",
                   "Pediatrics"
               ],
-        "d":  "Acute viral inflammation of the upper airways (nose, pharynx, larynx); one of the most common reasons for outpatient medical consultation.",
+        "d":  "Acute viral inflammation of the upper airways including the nose, pharynx, and larynx.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -270,7 +270,7 @@
         "f":  [
                   "Family Medicine"
               ],
-        "d":  "Sudden-onset, short-duration condition of often intense severity; contrasted with chronic.",
+        "d":  "Sudden-onset, short-duration condition of often intense severity, contrasted with chronic.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -283,7 +283,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Death of myocardial tissue from acute coronary artery occlusion; presents with chest pain, ECG changes, and elevated cardiac biomarkers.",
+        "d":  "Death of myocardial tissue from acute coronary artery occlusion, presenting with chest pain, ECG changes, and elevated cardiac biomarkers.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -302,7 +302,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Spectrum of conditions from acute coronary flow reduction, including unstable angina, NSTEMI, and STEMI; all require urgent evaluation.",
+        "d":  "Spectrum of conditions from acute coronary flow reduction, including unstable angina, NSTEMI, and STEMI, all requiring urgent evaluation.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -377,7 +377,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Diagnostic test recording electrical activity of the heart; essential for detecting arrhythmias, MI, and conduction abnormalities.",
+        "d":  "Diagnostic test recording electrical activity of the heart to detect arrhythmias, myocardial infarction, and conduction abnormalities.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -417,7 +417,7 @@
                   "Cardiology",
                   "Internal Medicine"
               ],
-        "d":  "Lipid plaque buildup in arterial walls causing progressive vessel narrowing; the primary cause of coronary artery disease and stroke.",
+        "d":  "Lipid plaque buildup in arterial walls causing progressive vessel narrowing, the primary cause of coronary artery disease and stroke.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -439,7 +439,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Sudden loss of neurological function due to an interruption of blood supply to the brain; classified as ischemic or hemorrhagic.",
+        "d":  "Sudden loss of neurological function from interruption of blood supply to the brain, classified as ischemic or hemorrhagic.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -459,7 +459,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Ischemic stroke caused by blockage of a cerebral artery; accounts for ~85% of all strokes.",
+        "d":  "Ischemic stroke caused by blockage of a cerebral artery, accounting for approximately 85% of all strokes.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -478,7 +478,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Stroke from blood vessel rupture within or around the brain, causing intracerebral or subarachnoid bleeding; accounts for ~15% of strokes.",
+        "d":  "Stroke from blood vessel rupture within or around the brain, causing intracerebral or subarachnoid bleeding.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -520,7 +520,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Brief neurological dysfunction from temporary cerebral ischemia, resolving within 24 hours; a strong warning sign of impending stroke.",
+        "d":  "Brief neurological dysfunction from temporary cerebral ischemia that resolves within 24 hours without permanent infarction.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -557,7 +557,7 @@
                   "Neurology",
                   "Cardiology"
               ],
-        "d":  "Escape of blood from ruptured vessels, internally or externally; classified by source (arterial, venous, capillary) and location.",
+        "d":  "Escape of blood from ruptured vessels, internally or externally, classified by source (arterial, venous, or capillary) and location.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -577,7 +577,7 @@
         "f":  [
                   "Cardiology"
               ],
-        "d":  "Subjective awareness of an abnormally fast, slow, or irregular heartbeat; often a presenting symptom of arrhythmia or anxiety.",
+        "d":  "Subjective awareness of an abnormally fast, slow, or irregular heartbeat, commonly from arrhythmia or anxiety.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -633,7 +633,7 @@
         "f":  [
                   "General Medicine"
               ],
-        "d":  "Immune response to tissue injury or infection with vasodilation and leukocyte infiltration; manifests as redness, swelling, heat, and pain.",
+        "d":  "Immune response to tissue injury or infection with vasodilation and leukocyte infiltration, manifesting as redness, swelling, heat, and pain.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -703,7 +703,7 @@
                   "General Medicine",
                   "Oncology"
               ],
-        "d":  "Non-malignant; a neoplasm or condition that does not invade adjacent tissue or metastasize and generally carries a favorable prognosis.",
+        "d":  "A neoplasm or condition that is non-malignant, does not invade adjacent tissue or metastasize, and carries a favorable prognosis.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -769,7 +769,7 @@
                   "Cardiology",
                   "Internal Medicine"
               ],
-        "d":  "Fluid accumulation in interstitial tissues causing swelling; caused by elevated capillary pressure, low albumin, or lymphatic obstruction.",
+        "d":  "Fluid accumulation in interstitial tissues causing swelling, due to elevated capillary pressure, low albumin, or lymphatic obstruction.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "s":  [
@@ -786,7 +786,7 @@
         "f":  [
                   "General Medicine"
               ],
-        "d":  "Unpleasant urge to vomit arising from the upper abdomen; a nonspecific symptom of many gastrointestinal and systemic conditions.",
+        "d":  "An unpleasant urge to vomit arising from the upper abdomen, occurring as a nonspecific symptom of gastrointestinal and systemic conditions.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -800,7 +800,7 @@
                   "Emergency Medicine",
                   "Cardiology"
               ],
-        "d":  "Subjective sensation of difficulty or discomfort in breathing; a cardinal symptom of cardiac and respiratory disease.",
+        "d":  "Subjective sensation of difficulty or discomfort in breathing, a cardinal symptom of cardiac and pulmonary disease.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -833,7 +833,7 @@
                   "Neurology",
                   "Psychiatry"
               ],
-        "d":  "Progressive decline in memory, language, and reasoning severe enough to impair daily life; Alzheimer\u0027s disease is the most common cause.",
+        "d":  "Progressive decline in memory, language, and reasoning severe enough to impair daily life, most commonly caused by Alzheimer\u0027s disease.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -925,7 +925,7 @@
                   "Neurology",
                   "Family Medicine"
               ],
-        "d":  "Pain in any head region; classified as primary (migraine, tension-type) or secondary (due to infection or intracranial pathology).",
+        "d":  "Pain in any head region, classified as primary (migraine, tension-type) or secondary (infection, hypertension, or intracranial pathology).",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -1172,7 +1172,7 @@
                   "Internal Medicine",
                   "Pharmacology"
               ],
-        "d":  "Concurrent use of multiple medications in one patient, increasing interaction and adverse effect risk; commonly defined as \u003e=5 drugs.",
+        "d":  "Concurrent use of five or more medications in one patient, increasing the risk of drug interactions and adverse effects.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -1238,7 +1238,7 @@
                   "Orthopedics",
                   "Endocrinology"
               ],
-        "d":  "Skeletal disorder with low bone mass and fragility, raising fracture risk; most prevalent in postmenopausal women and older adults.",
+        "d":  "Skeletal disorder with low bone mass and increased fragility raising fracture risk, most prevalent in postmenopausal women and older adults.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -1259,7 +1259,7 @@
                   "Psychiatry",
                   "Family Medicine"
               ],
-        "d":  "Mood disorder with persistent low mood and anhedonia lasting \u003e=2 weeks, impairing daily function; affects sleep, appetite, and energy.",
+        "d":  "Mood disorder with persistent low mood and anhedonia lasting two or more weeks, impairing sleep, appetite, energy, and daily function.",
         "lvl":  "⭐⭐⭐ Essential"
     },
     {
@@ -1273,7 +1273,7 @@
                   "Family Medicine",
                   "Urology"
               ],
-        "d":  "Bacterial infection of the urinary system (bladder, urethra, kidneys); one of the most common infectious diagnoses.",
+        "d":  "Bacterial infection of the urinary system including the bladder, urethra, or kidneys.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [

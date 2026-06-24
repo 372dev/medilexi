@@ -9950,7 +9950,7 @@
         "f":  [
                   "Gastroenterology"
               ],
-        "d":  "An endoscopic instrument for examining the sigmoid colon and rectum; used for screening and polyp removal.",
+        "d":  "Endoscopic instrument used to examine the sigmoid colon and rectum for screening, biopsy, and polyp removal.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -10001,7 +10001,7 @@
         "f":  [
                   "Pulmonology"
               ],
-        "d":  "A device measuring volume and speed of air inhaled and exhaled; used in pulmonary function testing.",
+        "d":  "Device that measures the volume and flow rate of air inhaled and exhaled, used in pulmonary function testing to assess respiratory capacity.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "s":  [
@@ -10019,7 +10019,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "Nerves supplying the viscera; carry sympathetic fibres regulating gut motility and vascular tone.",
+        "d":  "Nerves supplying the abdominal and pelvic viscera, carrying sympathetic fibers that regulate gut motility and splanchnic vascular tone.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -10037,7 +10037,7 @@
                   "Surgery",
                   "Hematology"
               ],
-        "d":  "Surgical removal of the spleen; indicated for traumatic rupture, immune thrombocytopenia, or splenic malignancy.",
+        "d":  "Surgical removal of the spleen, indicated for traumatic rupture, immune thrombocytopenia, or splenic malignancy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -10058,7 +10058,7 @@
                   "Orthopedics",
                   "Neurology"
               ],
-        "d":  "Degenerative spinal changes including osteophyte formation and disc degeneration; a common cause of back pain.",
+        "d":  "Degenerative spinal changes including osteophyte formation and disc degeneration, a common cause of neck and back pain in older adults.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -10099,7 +10099,7 @@
                   "General Medicine",
                   "Pharmacology"
               ],
-        "d":  "Located or administered under the tongue; allows rapid bloodstream absorption (e.g. GTN for angina).",
+        "d":  "Located or administered under the tongue, allowing rapid absorption directly into the bloodstream and bypassing first-pass metabolism.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -10119,7 +10119,7 @@
         "f":  [
                   "Dentistry"
               ],
-        "d":  "Located above the gum line; supragingival tartar is removed during routine dental cleaning.",
+        "d":  "Located above the gum line, as in supragingival calculus removed during routine dental scaling.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -10136,7 +10136,7 @@
         "f":  [
                   "General Medicine"
               ],
-        "d":  "Exhibiting symptoms of disease; contrasted with asymptomatic.",
+        "d":  "Exhibiting clinical signs or symptoms of disease, contrasted with asymptomatic presentation in which disease is present but undetected or unfelt.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -10149,7 +10149,7 @@
                   "Emergency Medicine",
                   "Pulmonology"
               ],
-        "d":  "Abnormally rapid breathing (above 20 breaths per minute); a sign of respiratory distress or metabolic acidosis.",
+        "d":  "Abnormally rapid breathing rate, a sign of respiratory distress, fever, metabolic acidosis, or anxiety.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -10191,7 +10191,7 @@
                   "Surgery",
                   "Vascular Surgery"
               ],
-        "d":  "Surgical or catheter-based removal of a blood clot; used urgently in stroke, DVT, and PE.",
+        "d":  "Surgical or catheter-based removal of a blood clot, used urgently in ischemic stroke, deep vein thrombosis, and pulmonary embolism.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -10211,7 +10211,7 @@
         "f":  [
                   "Endocrinology"
               ],
-        "d":  "Excess thyroid hormone action; presents with weight loss, palpitations, tremor, and heat intolerance.",
+        "d":  "Clinical syndrome resulting from excess thyroid hormone action, presenting with weight loss, palpitations, tremor, and heat intolerance.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -10232,7 +10232,7 @@
                   "Neurology",
                   "Emergency Medicine"
               ],
-        "d":  "A generalised seizure with tonic (stiffening) then clonic (jerking) phases; formerly called grand mal.",
+        "d":  "A generalized seizure characterized by a tonic (stiffening) phase followed by a clonic (rhythmic jerking) phase, formerly known as grand mal.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -10271,7 +10271,7 @@
                   "Pharmacology",
                   "Pathology"
               ],
-        "d":  "The study of adverse effects of chemicals and drugs; clinical toxicology manages poisoning and overdose.",
+        "d":  "The study of the adverse effects of chemicals and drugs on living organisms, with clinical toxicology focused on managing poisoning and overdose.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -10291,7 +10291,7 @@
                   "General Medicine",
                   "Pharmacology"
               ],
-        "d":  "Administered or occurring through the skin; patches allow sustained drug absorption.",
+        "d":  "Administered or occurring through the intact skin, as in transdermal patches that provide sustained systemic drug delivery.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -10312,7 +10312,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "A three-headed muscle on the back of the upper arm responsible for elbow extension; tests radial nerve (C7).",
+        "d":  "Three-headed muscle on the posterior upper arm responsible for elbow extension, whose reflex tests radial nerve integrity.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -10332,7 +10332,7 @@
         "f":  [
                   "General Medicine"
               ],
-        "d":  "A sudden, sharp, brief pain; describes fleeting musculoskeletal or nerve-related discomfort.",
+        "d":  "A sudden, sharp, brief pain used to describe fleeting musculoskeletal or nerve-related discomfort.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -10345,7 +10345,7 @@
                   "Neurology",
                   "General Medicine"
               ],
-        "d":  "A brief involuntary muscle contraction; may be benign or a sign of neuromuscular disease.",
+        "d":  "A brief, involuntary contraction of a muscle or muscle group, which may be benign or a sign of neuromuscular disease.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -10357,7 +10357,7 @@
         "f":  [
                   "Otolaryngology"
               ],
-        "d":  "Calcification and scarring of the tympanic membrane from recurrent otitis media; can cause hearing loss.",
+        "d":  "Calcification and scarring of the tympanic membrane and middle ear structures from recurrent otitis media, which can cause conductive hearing loss.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -10378,7 +10378,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Relating to the ulna, the medial forearm bone; the ulnar nerve runs alongside it.",
+        "d":  "Relating to the ulna, the medial forearm bone, alongside which the ulnar nerve courses to supply the hand.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -10391,7 +10391,7 @@
                   "Obstetrics \u0026 Gynecology",
                   "Pediatrics"
               ],
-        "d":  "The flexible cord connecting the fetus to the placenta; contains two arteries and one vein.",
+        "d":  "Flexible vascular cord connecting the fetus to the placenta, containing two umbilical arteries and one umbilical vein.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -10409,7 +10409,7 @@
                   "Vascular Surgery",
                   "General Medicine"
               ],
-        "d":  "Enlarged, twisted veins usually in the legs; caused by weakened venous valves.",
+        "d":  "Enlarged, tortuous superficial veins most commonly in the legs, caused by incompetent venous valves and venous hypertension.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -10428,7 +10428,7 @@
                   "General Medicine",
                   "Cardiology"
               ],
-        "d":  "Narrowing of blood vessels by smooth muscle contraction; raises blood pressure and reduces peripheral flow.",
+        "d":  "Narrowing of blood vessel lumens by smooth muscle contraction, raising blood pressure and reducing peripheral blood flow.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -10449,7 +10449,7 @@
                   "General Medicine",
                   "Cardiology"
               ],
-        "d":  "Widening of blood vessels by smooth muscle relaxation; lowers blood pressure and increases blood flow.",
+        "d":  "Widening of blood vessel lumens by smooth muscle relaxation, lowering blood pressure and increasing tissue blood flow.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -10467,7 +10467,7 @@
                   "Cardiology",
                   "Neurology"
               ],
-        "d":  "Sudden reversible contraction of a blood vessel narrowing its lumen; significant in Raynaud disease and subarachnoid hemorrhage.",
+        "d":  "Sudden reversible contraction of a blood vessel that narrows its lumen, clinically significant in Raynaud disease and after subarachnoid hemorrhage.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -10488,7 +10488,7 @@
                   "Vascular Surgery",
                   "General Medicine"
               ],
-        "d":  "Slowing or stagnation of venous blood flow; predisposes to deep vein thrombosis.",
+        "d":  "Slowing or stagnation of venous blood flow, a major predisposing factor for deep vein thrombosis.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -10540,7 +10540,7 @@
                   "Neurology",
                   "Rehabilitation Medicine"
               ],
-        "d":  "Consciously controlled movement via the motor cortex; impaired in upper motor neuron lesions.",
+        "d":  "Consciously controlled movement initiated by the motor cortex, impaired by upper motor neuron lesions affecting the corticospinal tract.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -10553,7 +10553,7 @@
                   "Emergency Medicine",
                   "Cardiology"
               ],
-        "d":  "A pulse difficult to palpate from reduced stroke volume or vasoconstriction; indicates shock or cardiac compromise.",
+        "d":  "A pulse difficult to palpate due to reduced stroke volume or vasoconstriction, indicating shock or significant cardiac compromise.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -10566,7 +10566,7 @@
                   "Neurology",
                   "Pathology"
               ],
-        "d":  "Yellow discoloration of CSF from hemoglobin breakdown; key finding confirming subarachnoid hemorrhage when CT is negative.",
+        "d":  "Yellow discoloration of cerebrospinal fluid from hemoglobin breakdown, a key finding confirming subarachnoid hemorrhage when initial CT is negative.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -10576,7 +10576,7 @@
     },
     {
         "en_h":  "Abdominoplasty",
-        "d":  "Surgical reshaping and tightening of the abdominal wall; removes excess skin and fat.",
+        "d":  "Surgical reshaping and tightening of the abdominal wall by removing excess skin and fat, commonly performed after significant weight loss or pregnancy.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Surgery",
@@ -10585,7 +10585,7 @@
     },
     {
         "en_h":  "Adrenalectomy",
-        "d":  "Surgical removal of one or both adrenal glands; performed for tumors or hyperfunction.",
+        "d":  "Surgical removal of one or both adrenal glands, performed for adrenal tumors, pheochromocytoma, or primary hyperaldosteronism.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Surgery",
@@ -10681,7 +10681,7 @@
     },
     {
         "en_h":  "Duodenoscopy",
-        "d":  "Endoscopic examination of the duodenum; used to diagnose duodenal ulcers, tumors, and celiac disease, and to perform biopsies or therapeutic interventions.",
+        "d":  "Endoscopic examination of the duodenum used to diagnose ulcers, tumors, and celiac disease, and to perform biopsies or therapeutic interventions.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Gastroenterology"
@@ -10689,7 +10689,7 @@
     },
     {
         "en_h":  "Enteroscopy",
-        "d":  "Endoscopic visual examination of the small intestine; used to detect bleeding, Crohn\u0027s disease, and tumors beyond the reach of standard upper endoscopy.",
+        "d":  "Endoscopic examination of the small intestine used to detect bleeding, Crohn\u0027s disease, and tumors beyond the reach of standard upper endoscopy.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Gastroenterology"
@@ -10705,7 +10705,7 @@
     },
     {
         "en_h":  "Fasciectomy",
-        "d":  "Surgical removal of fascia tissue; used to treat Dupuytren\u0027s contracture or compartment syndrome.",
+        "d":  "Surgical removal or release of fascia, performed to treat Dupuytren\u0027s contracture or relieve compartment syndrome.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Surgery",
@@ -10714,7 +10714,7 @@
     },
     {
         "en_h":  "Gastrectomy",
-        "d":  "Surgical removal of all or part of the stomach; performed for cancer or severe ulcer disease.",
+        "d":  "Surgical removal of all or part of the stomach, performed for gastric cancer or severe peptic ulcer disease.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Surgery",
@@ -10783,7 +10783,7 @@
     },
     {
         "en_h":  "Mammoplasty",
-        "d":  "Surgical reshaping or reconstruction of the breast; includes augmentation, reduction, and reconstruction following mastectomy.",
+        "d":  "Surgical reshaping or reconstruction of the breast, encompassing augmentation, reduction, and post-mastectomy reconstruction.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Plastic Surgery",
@@ -10808,7 +10808,7 @@
     },
     {
         "en_h":  "Orchiectomy",
-        "d":  "Surgical removal of one or both testes; performed for testicular cancer or hormone therapy.",
+        "d":  "Surgical removal of one or both testes, performed for testicular cancer or as part of hormone therapy for prostate cancer.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Urology",
@@ -10817,7 +10817,7 @@
     },
     {
         "en_h":  "Ovariotomy",
-        "d":  "Surgical removal of an ovary; performed for cysts, tumors, or torsion.",
+        "d":  "Surgical removal of an ovary, performed for ovarian cysts, tumors, or torsion.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Obstetrics \u0026 Gynecology"
@@ -10928,7 +10928,7 @@
     },
     {
         "en_h":  "Tracheotomy",
-        "d":  "Incision into the tracheal wall creating a surgical airway; performed for obstruction, prolonged ventilation, or failed intubation.",
+        "d":  "Incision into the tracheal wall to create a surgical airway, performed for upper airway obstruction, prolonged ventilation, or failed intubation.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Emergency Medicine",
@@ -10986,7 +10986,7 @@
     },
     {
         "en_h":  "Acrophobia",
-        "d":  "A persistent, irrational fear of heights that triggers significant anxiety or avoidance behavior; classified as a specific phobia.",
+        "d":  "Persistent, irrational fear of heights that triggers significant anxiety or avoidance behavior, classified as a specific phobia.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Psychiatry"
@@ -10994,7 +10994,7 @@
     },
     {
         "en_h":  "Adenitis",
-        "d":  "Inflammation of a lymph node or gland in response to regional bacterial or viral infection; presents with local tenderness and swelling.",
+        "d":  "Inflammation of a lymph node or gland in response to regional bacterial or viral infection, presenting with local tenderness and swelling.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "General Medicine",
@@ -11078,7 +11078,7 @@
     },
     {
         "en_h":  "Colitis",
-        "d":  "Inflammation of the colon; causes include infection, IBD, and ischemia.",
+        "d":  "Inflammation of the colon caused by infection, inflammatory bowel disease, or ischemia, presenting with diarrhea, cramping, and rectal bleeding.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Gastroenterology"
@@ -11086,7 +11086,7 @@
     },
     {
         "en_h":  "Corneitis",
-        "d":  "Inflammation of the cornea (also called keratitis) caused by bacterial, viral (especially herpes simplex), or fungal infection; a leading cause of corneal blindness worldwide.",
+        "d":  "Inflammation of the cornea, also termed keratitis, caused by bacterial, viral, or fungal infection and a leading cause of corneal blindness worldwide.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Ophthalmology"
@@ -11111,7 +11111,7 @@
     },
     {
         "en_h":  "Dermatitis",
-        "d":  "Inflammation of the skin causing redness, itching, and rash; multiple subtypes exist.",
+        "d":  "Inflammation of the skin causing redness, itching, and rash, occurring in multiple forms including contact, atopic, and seborrheic dermatitis.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Dermatology"
@@ -11152,7 +11152,7 @@
     },
     {
         "en_h":  "Fasciitis",
-        "d":  "Inflammation of the fascia; includes plantar fasciitis and necrotizing fasciitis.",
+        "d":  "Inflammation of the fascia, encompassing conditions ranging from plantar fasciitis to the life-threatening necrotizing fasciitis.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Orthopedics",
@@ -11204,7 +11204,7 @@
     },
     {
         "en_h":  "Hepatitis",
-        "d":  "Inflammation of the liver; causes include viral infection (A, B, C), alcohol, and autoimmune disease.",
+        "d":  "Inflammation of the liver caused by viral infection (hepatitis A, B, or C), alcohol, medications, or autoimmune disease.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Gastroenterology",
@@ -11221,7 +11221,7 @@
     },
     {
         "en_h":  "Ileitis",
-        "d":  "Inflammation of the ileum; a common manifestation of Crohn\u0027s disease.",
+        "d":  "Inflammation of the ileum, most commonly a manifestation of Crohn\u0027s disease but also caused by infection or ischemia.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Gastroenterology"
@@ -11237,7 +11237,7 @@
     },
     {
         "en_h":  "Jejunoileitis",
-        "d":  "Simultaneous inflammation of the jejunum and ileum; most commonly a manifestation of Crohn\u0027s disease, causing abdominal pain, diarrhea, and malabsorption.",
+        "d":  "Simultaneous inflammation of the jejunum and ileum, most commonly a manifestation of Crohn\u0027s disease, causing abdominal pain, diarrhea, and malabsorption.",
         "lvl":  "⭐ Good to know",
         "f":  [
                   "Gastroenterology"
@@ -11303,7 +11303,7 @@
     },
     {
         "en_h":  "Otitis",
-        "d":  "Inflammation of the ear; classified as otitis externa (outer) or otitis media (middle).",
+        "d":  "Inflammation of the ear, classified as otitis externa (outer ear canal) or otitis media (middle ear), each with distinct causes and management.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "Otolaryngology",
@@ -11312,7 +11312,7 @@
     },
     {
         "en_h":  "Pharyngitis",
-        "d":  "Inflammation of the pharynx causing sore throat; usually viral, sometimes streptococcal.",
+        "d":  "Inflammation of the pharynx causing sore throat, most commonly viral but sometimes caused by group A Streptococcus requiring antibiotic treatment.",
         "lvl":  "⭐⭐⭐ Essential",
         "f":  [
                   "General Medicine",
@@ -11347,7 +11347,7 @@
     },
     {
         "en_h":  "Proctitis",
-        "d":  "Inflammation of the rectal lining; causes include IBD, infection, and radiation.",
+        "d":  "Inflammation of the rectal mucosa caused by inflammatory bowel disease, sexually transmitted infection, or radiation therapy.",
         "lvl":  "⭐⭐ Important",
         "f":  [
                   "Gastroenterology",

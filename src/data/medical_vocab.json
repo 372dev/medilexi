@@ -7043,7 +7043,7 @@
                   "Rehabilitation Medicine",
                   "Orthopedics"
               ],
-        "d":  "The extent of movement possible at a joint; measured to assess injury, monitor recovery, and guide rehabilitation exercises.",
+        "d":  "The extent of movement achievable at a joint, measured to assess injury, monitor recovery, and guide rehabilitation.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -7074,7 +7074,7 @@
                   "Oncology",
                   "General Medicine"
               ],
-        "d":  "Use of cytotoxic drugs to kill or suppress cancer cell growth; administered orally or intravenously, commonly causing systemic side effects.",
+        "d":  "Use of cytotoxic drugs to kill or suppress cancer cell growth, administered orally or intravenously and commonly causing systemic side effects.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7095,7 +7095,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "Hollow muscular organ that circulates blood via rhythmic contractions; consists of four chambers: two atria and two ventricles.",
+        "d":  "Hollow muscular organ that circulates blood via rhythmic contractions, consisting of four chambers: two atria and two ventricles.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7113,7 +7113,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "Blood vessels that supply oxygenated blood directly to the heart muscle; blockage leads to angina or myocardial infarction.",
+        "d":  "Blood vessels supplying oxygenated blood directly to the heart muscle, whose blockage causes angina or myocardial infarction.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7149,7 +7149,7 @@
                   "Anatomy",
                   "General Medicine"
               ],
-        "d":  "Smallest blood vessels connecting arterioles to venules; the site of gas, nutrient, and waste exchange between blood and tissues.",
+        "d":  "Smallest blood vessels connecting arterioles to venules, serving as the site of gas, nutrient, and waste exchange between blood and tissues.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -7203,7 +7203,7 @@
                   "Anatomy",
                   "Otolaryngology"
               ],
-        "d":  "Air-filled cavities in the skull bones surrounding the nasal cavity; commonly inflamed in sinusitis.",
+        "d":  "Air-filled cavities within the skull bones surrounding the nasal cavity, which become inflamed in sinusitis.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -7243,7 +7243,7 @@
                   "Anatomy",
                   "Gastroenterology"
               ],
-        "d":  "The largest internal organ, in the upper right abdomen; performs metabolism, detoxification, protein synthesis, and bile production.",
+        "d":  "The largest internal organ, located in the upper right abdomen, performing metabolism, detoxification, protein synthesis, and bile production.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7280,7 +7280,7 @@
                   "Anatomy",
                   "Gastroenterology"
               ],
-        "d":  "Final section of the digestive tract (~1.5 m) consisting of the cecum, colon, and rectum; absorbs water and electrolytes and forms stool.",
+        "d":  "Final section of the digestive tract consisting of the cecum, colon, and rectum, absorbing water and electrolytes and forming stool.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7299,7 +7299,7 @@
                   "Anatomy",
                   "Gastroenterology"
               ],
-        "d":  "The S-shaped final segment of the colon connecting to the rectum; a common site for diverticulosis and colorectal cancer.",
+        "d":  "The S-shaped final segment of the colon connecting to the rectum, a common site for diverticulosis and colorectal cancer.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -7354,7 +7354,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "Central organ of the nervous system enclosed within the skull; controls thought, memory, sensation, movement, and all bodily functions.",
+        "d":  "Central organ of the nervous system enclosed within the skull, governing thought, memory, sensation, movement, and autonomic bodily functions.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7408,7 +7408,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Rigid connective tissue forming the skeleton; supports the body, protects organs, enables movement, and produces blood cells in the marrow.",
+        "d":  "Rigid connective tissue forming the skeleton that supports the body, protects organs, enables movement, and produces blood cells in the marrow.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7426,7 +7426,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Contractile tissue classified as skeletal (voluntary), cardiac, or smooth (involuntary); produces movement, posture, and organ function.",
+        "d":  "Contractile tissue classified as skeletal (voluntary), cardiac, or smooth (involuntary), producing movement, maintaining posture, and driving organ function.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7444,7 +7444,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Firm, flexible avascular connective tissue covering joint surfaces and forming the nose, ears, and intervertebral cushions; heals slowly.",
+        "d":  "Firm, flexible avascular connective tissue covering joint surfaces and forming the nose, ears, and intervertebral cushions, with limited capacity for self-repair.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -7457,7 +7457,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The long bone of the upper arm extending from the shoulder joint to the elbow; commonly fractured in falls.",
+        "d":  "The long bone of the upper arm extending from the shoulder joint to the elbow, commonly fractured in falls on an outstretched hand.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -7470,7 +7470,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "The larger of the two lower leg bones; bears most of the body weight and forms the medial side of the ankle joint.",
+        "d":  "The larger of the two lower leg bones, bearing most of the body weight and forming the medial aspect of the ankle joint.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -7483,7 +7483,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "One of the 33 bones forming the vertebral column; protects the spinal cord and provides structural support for the trunk.",
+        "d":  "One of the bones forming the vertebral column, protecting the spinal cord and providing structural support for the trunk.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7501,7 +7501,7 @@
                   "Anatomy",
                   "Endocrinology"
               ],
-        "d":  "Paired gland above each kidney; cortex produces cortisol and aldosterone; medulla secretes epinephrine and norepinephrine during stress.",
+        "d":  "Paired endocrine gland above each kidney whose cortex secretes cortisol and aldosterone and whose medulla secretes epinephrine and norepinephrine during stress.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7556,7 +7556,7 @@
                   "Anatomy",
                   "Obstetrics \u0026 Gynecology"
               ],
-        "d":  "The lower, narrow portion of the uterus connecting to the vagina; subject to routine screening for cancer via Pap smear.",
+        "d":  "The lower, narrow portion of the uterus connecting to the vagina, routinely screened for cancer via cervical cytology.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -7595,7 +7595,7 @@
                   "Anatomy",
                   "Ophthalmology"
               ],
-        "d":  "A transparent, biconvex structure behind the iris that focuses light onto the retina; becomes opaque in cataract.",
+        "d":  "Transparent biconvex structure behind the iris that focuses light onto the retina, becoming opaque in cataract.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -7608,7 +7608,7 @@
                   "Anatomy",
                   "Otolaryngology"
               ],
-        "d":  "Thin membrane separating the outer ear canal from the middle ear; vibrates in response to sound waves and transmits them to the ossicles.",
+        "d":  "Thin membrane separating the outer ear canal from the middle ear that vibrates in response to sound waves and transmits them to the ossicles.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7645,7 +7645,7 @@
                   "Orthopedics",
                   "Rehabilitation Medicine"
               ],
-        "d":  "Movement of a limb or body part away from the midline of the body; in the fingers or toes, away from the central digit.",
+        "d":  "Movement of a limb or body part away from the midline of the body, or in the digits, away from the central finger or toe.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -7659,7 +7659,7 @@
                   "Orthopedics",
                   "Rehabilitation Medicine"
               ],
-        "d":  "Movement of a limb or body part toward the midline of the body; in the fingers or toes, toward the central digit.",
+        "d":  "Movement of a limb or body part toward the midline of the body, or in the digits, toward the central finger or toe.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -7672,7 +7672,7 @@
                   "Oncology",
                   "Pathology"
               ],
-        "d":  "A malignant tumour from glandular epithelial cells; the most common cancer type in lung, colon, breast, and prostate.",
+        "d":  "Malignant tumor arising from glandular epithelial cells, the most common cancer type in the lung, colon, breast, and prostate.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7711,7 +7711,7 @@
         "f":  [
                   "General Medicine"
               ],
-        "d":  "Able to use both hands equally; relevant in neurological and occupational assessments.",
+        "d":  "Able to use both hands with equal skill, a characteristic noted in neurological and occupational assessments.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -7745,7 +7745,7 @@
         "f":  [
                   "Endocrinology"
               ],
-        "d":  "Hormones including testosterone promoting male characteristics; produced in testes, ovaries, and adrenal glands.",
+        "d":  "Hormones including testosterone that promote male secondary characteristics, produced by the testes, ovaries, and adrenal glands.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7784,7 +7784,7 @@
                   "Emergency Medicine",
                   "Critical Care"
               ],
-        "d":  "Complete absence of oxygen to tissues; more severe than hypoxia, causing rapid cell death.",
+        "d":  "Complete absence of oxygen delivery to tissues, more severe than hypoxia and causing rapid cell death if prolonged.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -7820,7 +7820,7 @@
                   "Cardiology",
                   "Surgery"
               ],
-        "d":  "Narrowing of the aortic valve orifice that obstructs left ventricular outflow; severity is graded by valve area and mean pressure gradient.",
+        "d":  "Narrowing of the aortic valve orifice that obstructs left ventricular outflow, graded by severity from mild to critical based on hemodynamic parameters.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7841,7 +7841,7 @@
                   "Cardiology",
                   "Internal Medicine"
               ],
-        "d":  "Hardening and loss of elasticity of arterial walls; broader than atherosclerosis.",
+        "d":  "Hardening and loss of elasticity of arterial walls, a broader category that encompasses atherosclerosis and other vessel-stiffening processes.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -7862,7 +7862,7 @@
                   "Vascular Surgery",
                   "Rheumatology"
               ],
-        "d":  "Inflammation of the brachial artery; associated with systemic vasculitis or trauma.",
+        "d":  "Inflammation of the brachial artery, associated with systemic vasculitis or local trauma.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -7883,7 +7883,7 @@
                   "Orthopedics",
                   "Rheumatology"
               ],
-        "d":  "Inflammation of one or more joints causing pain, swelling, and stiffness; encompasses over 100 conditions.",
+        "d":  "Inflammation of one or more joints causing pain, swelling, and stiffness, encompassing a broad range of conditions including osteoarthritis and rheumatoid arthritis.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -7967,7 +7967,7 @@
                   "Anatomy",
                   "Vascular Surgery"
               ],
-        "d":  "The major vein draining the arm and shoulder; commonly accessed for central venous catheter placement.",
+        "d":  "The major vein draining the arm and shoulder, commonly accessed for central venous catheter placement.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -7985,7 +7985,7 @@
                   "Pharmacology",
                   "Infectious Disease"
               ],
-        "d":  "An agent that kills bacteria; includes antibiotics, disinfectants, and antiseptics.",
+        "d":  "An agent that kills bacteria, including antibiotics, disinfectants, and antiseptics.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8024,7 +8024,7 @@
                   "Ophthalmology",
                   "Neurology"
               ],
-        "d":  "Involuntary forceful contraction of the eyelid muscles; may be benign or a neurological sign.",
+        "d":  "Involuntary forceful contraction of the eyelid muscles, occurring as an isolated benign condition or a sign of neurological disease.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "s":  [
@@ -8042,7 +8042,7 @@
                   "Pediatrics",
                   "Neurology"
               ],
-        "d":  "A short, broad skull from premature coronal suture fusion; seen in genetic syndromes and positional deformity.",
+        "d":  "Abnormally short, broad skull shape resulting from premature coronal suture fusion or positional deformity, associated with certain genetic syndromes.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8060,7 +8060,7 @@
                   "Emergency Medicine",
                   "Pulmonology"
               ],
-        "d":  "Abnormally slow breathing (fewer than 12 breaths per minute); may indicate CNS depression or opioid overdose.",
+        "d":  "Abnormally slow breathing rate, indicating central nervous system depression, opioid overdose, or other causes of respiratory suppression.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -8081,7 +8081,7 @@
                   "Pulmonology",
                   "Family Medicine"
               ],
-        "d":  "Inflammation of the bronchial tubes; acute (usually viral) or chronic (\u003e3 months/year for 2+ years).",
+        "d":  "Inflammation of the bronchial tubes, classified as acute (usually viral and self-limiting) or chronic (persistent mucus-producing cough recurring over successive years).",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -8102,7 +8102,7 @@
                   "Anatomy",
                   "Otolaryngology"
               ],
-        "d":  "The principal cheek muscle; compresses cheeks during chewing and is important in speech and swallowing.",
+        "d":  "The principal cheek muscle that compresses the cheeks during chewing and contributes to speech and swallowing.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8120,7 +8120,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Originating from the heart; cardiogenic shock is life-threatening cardiac pump failure.",
+        "d":  "Originating from or caused by the heart, as in cardiogenic shock, which is life-threatening circulatory failure from cardiac pump dysfunction.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8159,7 +8159,7 @@
                   "Orthopedics",
                   "Neurology"
               ],
-        "d":  "A narrow wrist passageway for the median nerve and flexor tendons; compression causes numbness and weakness.",
+        "d":  "Narrow passageway at the wrist through which the median nerve and flexor tendons pass, whose compression causes numbness, tingling, and hand weakness.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8177,7 +8177,7 @@
                   "Neurology",
                   "General Medicine"
               ],
-        "d":  "Pain in any part of the head; primary (migraine, tension) or secondary (infection, hypertension, intracranial pathology).",
+        "d":  "Pain in any part of the head, classified as primary (migraine, tension-type) or secondary (due to infection, hypertension, or intracranial pathology).",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -8197,7 +8197,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Direction or development from head toward feet; used in growth patterns and neurological development.",
+        "d":  "Describing direction or developmental progression from head toward feet, applied to growth patterns and neurological maturation.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8215,7 +8215,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "Relating to the angle between the cerebellum and pons; a common site for acoustic neuromas.",
+        "d":  "Relating to the anatomical angle between the cerebellum and pons, a common site for vestibular schwannomas and other posterior fossa tumors.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8233,7 +8233,7 @@
                   "Neurology",
                   "Emergency Medicine"
               ],
-        "d":  "Clear fluid circulating around the brain and spinal cord for cushioning and waste removal; sampled via lumbar puncture.",
+        "d":  "Clear fluid circulating around the brain and spinal cord that provides cushioning and waste removal, sampled via lumbar puncture for diagnostic purposes.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -8252,7 +8252,7 @@
                   "Anatomy",
                   "Pathology"
               ],
-        "d":  "An immature cell producing cartilage matrix; important in bone development and repair.",
+        "d":  "Immature cell responsible for producing cartilage matrix, playing an important role in skeletal development and cartilage repair.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8271,7 +8271,7 @@
                   "Pathology",
                   "General Medicine"
               ],
-        "d":  "Thread-like DNA-protein structures; humans have 46 chromosomes carrying genetic information.",
+        "d":  "Thread-like structures of DNA and protein within cell nuclei that carry the genetic information governing cell function and heredity.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8310,7 +8310,7 @@
                   "Surgery",
                   "Urology"
               ],
-        "d":  "Abnormal colon-to-bladder fistula from diverticular disease or colorectal cancer; presents with fecaluria, pneumaturia, and recurrent UTIs.",
+        "d":  "Abnormal connection between the colon and bladder, most commonly from diverticular disease or colorectal cancer, presenting with fecaluria, pneumaturia, and recurrent UTIs.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8329,7 +8329,7 @@
                   "General Medicine",
                   "Neurology"
               ],
-        "d":  "Relating to the opposite side of the body; used in neurological deficits and anatomical descriptions.",
+        "d":  "Relating to or affecting the opposite side of the body, commonly used in neurological and anatomical descriptions.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -8408,7 +8408,7 @@
                   "Pharmacology",
                   "Oncology"
               ],
-        "d":  "Toxic to living cells; cytotoxic drugs destroy rapidly dividing cancer cells.",
+        "d":  "Toxic to living cells, a property exploited by chemotherapy drugs that target rapidly dividing cancer cells.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8449,7 +8449,7 @@
         "f":  [
                   "Dentistry"
               ],
-        "d":  "Having lost all natural teeth; requires prosthetic management and special consideration for airway management during anesthesia.",
+        "d":  "Having lost all natural teeth, requiring prosthetic management and special airway consideration during anesthesia.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8487,7 +8487,7 @@
         "f":  [
                   "Cardiology"
               ],
-        "d":  "Recording cardiac electrical activity via skin electrodes; diagnoses arrhythmias, MI, and conduction abnormalities.",
+        "d":  "Recording of cardiac electrical activity via skin electrodes, used to diagnose arrhythmias, myocardial infarction, and conduction abnormalities.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [

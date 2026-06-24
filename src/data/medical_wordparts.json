@@ -70,7 +70,9 @@
                        "Substance applied to living tissue to inhibit microbial growth"
                    ]
                ],
-        "syn":  ["contra-"]
+        "syn":  [
+                    "contra-"
+                ]
     },
     {
         "wp":  "contra-",
@@ -95,7 +97,9 @@
                        "Shortening of muscle fibers generating force"
                    ]
                ],
-        "syn":  ["anti-"]
+        "syn":  [
+                    "anti-"
+                ]
     },
     {
         "wp":  "de-",
@@ -128,8 +132,10 @@
         "d":  "(Greek) Difficult, painful, abnormal",
         "ex":  [
                    [
-                       "Dyspnea",
-                       "Difficulty breathing"
+                       [
+                           "Dyspnea",
+                           "Difficulty breathing"
+                       ]
                    ],
                    [
                        "Dysphagia",
@@ -140,8 +146,8 @@
                        "Abnormal electrical rhythm of the heart"
                    ],
                    [
-                       "Dysphagia",
-                       "Difficulty or discomfort in swallowing"
+                       "Dysfunction",
+                       "Abnormal or impaired functioning of a body part or system"
                    ]
                ]
     },
@@ -152,16 +158,18 @@
         "d":  "(Greek: eu-) Normal, good; (Latin: normo-) Normal, standard",
         "ex":  [
                    [
-                       "Eupnea",
-                       "Normal breathing"
+                       [
+                           "Eupnea",
+                           "Normal breathing"
+                       ]
                    ],
                    [
                        "Normotensive",
                        "Having normal blood pressure"
                    ],
                    [
-                       "Eupnea",
-                       "Normal respiratory rate and depth at rest"
+                       "Euthyroid",
+                       "Having normal thyroid gland function and hormone levels"
                    ],
                    [
                        "Normotension",
@@ -176,8 +184,10 @@
         "d":  "(Greek) Different, other",
         "ex":  [
                    [
-                       "Heterogeneous",
-                       "Composed of different elements"
+                       [
+                           "Heterogeneous",
+                           "Composed of different elements"
+                       ]
                    ],
                    [
                        "Heterograft",
@@ -188,8 +198,8 @@
                        "Carrying two different alleles at a given gene locus"
                    ],
                    [
-                       "Heterogeneous",
-                       "Composed of structurally or functionally dissimilar elements"
+                       "Heterotopia",
+                       "Displacement of normal tissue to an abnormal site in the body"
                    ]
                ]
     },
@@ -200,8 +210,10 @@
         "d":  "(Greek) Same, alike",
         "ex":  [
                    [
-                       "Homogeneous",
-                       "Uniform in composition throughout"
+                       [
+                           "Homogeneous",
+                           "Uniform in composition throughout"
+                       ]
                    ],
                    [
                        "Homograft",
@@ -212,8 +224,8 @@
                        "Carrying two identical alleles at a given gene locus"
                    ],
                    [
-                       "Homogeneous",
-                       "Uniform in structure or composition throughout"
+                       "Homologous",
+                       "Having the same evolutionary origin or function; used in matched transplantation"
                    ]
                ]
     },
@@ -248,16 +260,18 @@
         "d":  "(Greek) Below, under, deficient",
         "ex":  [
                    [
-                       "Hypoglycemia",
-                       "Low blood sugar"
+                       [
+                           "Hypoglycemia",
+                           "Low blood sugar"
+                       ]
                    ],
                    [
                        "Hypothyroidism",
                        "Underactive thyroid gland"
                    ],
                    [
-                       "Hypothyroidism",
-                       "Insufficient thyroid hormone production by the thyroid gland"
+                       "Hypotension",
+                       "Abnormally low blood pressure"
                    ],
                    [
                        "Hypoxia",
@@ -344,6 +358,12 @@
         "d":  "(Greek) False",
         "ex":  [
                    [
+                       [
+                           "Pseudomonas",
+                           "Genus of gram-negative bacteria; P. aeruginosa causes opportunistic hospital-acquired infections"
+                       ]
+                   ],
+                   [
                        "Pseudocyst",
                        "Fluid collection resembling a true cyst"
                    ],
@@ -352,12 +372,8 @@
                        "False membrane formed by inflammatory exudate"
                    ],
                    [
-                       "Pseudocyst",
-                       "Fluid collection lacking an epithelial lining, resembling a true cyst"
-                   ],
-                   [
-                       "Pseudomembrane",
-                       "False membrane formed by inflammatory exudate on mucosal surfaces"
+                       "Pseudofracture",
+                       "Radiolucent line mimicking a fracture; seen in osteomalacia"
                    ]
                ]
     },
@@ -368,20 +384,22 @@
         "d":  "(Latin) Again, back",
         "ex":  [
                    [
-                       "Relapse",
-                       "Return of disease after remission"
+                       [
+                           "Relapse",
+                           "Return of disease after remission"
+                       ]
                    ],
                    [
                        "Resection",
                        "Surgical removal and reattachment of a structure"
                    ],
                    [
-                       "Relapse",
-                       "Return of disease signs after a period of improvement"
+                       "Remission",
+                       "Temporary or permanent decrease or disappearance of disease signs and symptoms"
                    ],
                    [
-                       "Resection",
-                       "Surgical removal of all or part of a tissue or organ"
+                       "Rehabilitation",
+                       "Restoration of function through therapy following illness, injury, or surgery"
                    ]
                ]
     },
@@ -392,16 +410,18 @@
         "d":  "(Greek) Foreign, strange (from a different species)",
         "ex":  [
                    [
-                       "Xenograft",
-                       "Tissue graft transplanted from a different species"
+                       [
+                           "Xenograft",
+                           "Tissue graft transplanted from a different species"
+                       ]
                    ],
                    [
                        "Xenobiotic",
                        "Foreign chemical substance found within an organism"
                    ],
                    [
-                       "Xenobiotic",
-                       "Chemical substance foreign to the biological system of an organism"
+                       "Xenoantigen",
+                       "Antigen from a different species that triggers immune rejection in transplantation"
                    ],
                    [
                        "Xenotransplantation",
@@ -416,16 +436,18 @@
         "d":  "(Latin) Away from",
         "ex":  [
                    [
-                       "Abduction",
-                       "Moving a limb away from body midline"
+                       [
+                           "Abduction",
+                           "Moving a limb away from body midline"
+                       ]
                    ],
                    [
                        "Abnormal",
                        "Deviating away from what is normal"
                    ],
                    [
-                       "Abduction",
-                       "Movement of a limb away from the body\u0027s midline"
+                       "Ablation",
+                       "Removal or destruction of tissue by surgery, heat, or other means"
                    ],
                    [
                        "Aberrant",
@@ -440,20 +462,22 @@
         "d":  "(Latin) Toward, near",
         "ex":  [
                    [
-                       "Adduction",
-                       "Moving a limb toward body midline"
+                       [
+                           "Adduction",
+                           "Moving a limb toward body midline"
+                       ]
                    ],
                    [
                        "Adrenal",
                        "Gland situated near the kidney"
                    ],
                    [
-                       "Adduction",
-                       "Movement of a limb toward the body\u0027s midline"
-                   ],
-                   [
                        "Adhesion",
                        "Abnormal fibrous band binding surfaces that are normally separate"
+                   ],
+                   [
+                       "Adnexal",
+                       "Relating to accessory structures adjacent to an organ such as the ovaries and tubes"
                    ]
                ]
     },
@@ -464,23 +488,27 @@
         "d":  "(Latin) Before, in front",
         "ex":  [
                    [
-                       "Antepartum",
-                       "Before childbirth"
+                       [
+                           "Antepartum",
+                           "Before childbirth"
+                       ]
                    ],
                    [
                        "Anteroposterior",
                        "From front to back (e.g., X-ray direction)"
                    ],
                    [
-                       "Antepartum",
-                       "Occurring before childbirth"
+                       "Antecubital",
+                       "Situated in front of the elbow; common site for venipuncture"
                    ],
                    [
-                       "Anteroposterior",
-                       "Directed from front to back; standard imaging projection"
+                       "Anterolateral",
+                       "Located in front and to the side of a structure"
                    ]
                ],
-        "syn":  ["pre-"]
+        "syn":  [
+                    "pre-"
+                ]
     },
     {
         "wp":  "dextro-",
@@ -489,20 +517,22 @@
         "d":  "(Latin) Right side",
         "ex":  [
                    [
+                       [
+                           "Dextrose",
+                           "Simple sugar (glucose) used in intravenous fluids and as a primary energy source"
+                       ]
+                   ],
+                   [
                        "Dextrocardia",
                        "Heart positioned on the right side of the chest"
                    ],
                    [
-                       "Dextrocardia",
-                       "Congenital condition where the heart is positioned on the right side of the chest"
+                       "Dextromethorphan",
+                       "Cough suppressant acting on the central nervous system to suppress the cough reflex"
                    ],
                    [
-                       "Dextrocardia",
-                       "Congenital condition where the heart is positioned on the right side"
-                   ],
-                   [
-                       "Dextrose",
-                       "Right-rotating form of glucose used in intravenous fluid therapy"
+                       "Dextrorotatory",
+                       "Rotating the plane of polarized light to the right; denoted (+) or d-"
                    ]
                ]
     },
@@ -537,20 +567,22 @@
         "d":  "(Latin) Back, posterior surface",
         "ex":  [
                    [
-                       "Dorsiflexion",
-                       "Bending the foot upward toward the shin"
-                   ],
-                   [
-                       "Dorsolateral",
-                       "Toward the back and to the side"
+                       [
+                           "Dorsiflexion",
+                           "Bending the foot upward toward the shin"
+                       ]
                    ],
                    [
                        "Dorsal",
                        "Relating to the back or posterior surface of the body"
                    ],
                    [
-                       "Dorsiflexion",
-                       "Upward bending of the foot toward the shin"
+                       "Dorsolateral",
+                       "Toward the back and to the side"
+                   ],
+                   [
+                       "Dorsoventral",
+                       "Extending from the dorsal to the ventral surface of the body"
                    ]
                ]
     },
@@ -577,7 +609,9 @@
                        "Relating to glands that secrete hormones directly into the bloodstream"
                    ]
                ],
-        "syn":  ["intra-, intro-"]
+        "syn":  [
+                    "intra-, intro-"
+                ]
     },
     {
         "wp":  "epi-",
@@ -610,8 +644,10 @@
         "d":  "(Greek) Outside, out of",
         "ex":  [
                    [
-                       "Exocrine",
-                       "Gland that secretes outward through ducts"
+                       [
+                           "Excision",
+                           "Surgical cutting out or removal of tissue or an organ"
+                       ]
                    ],
                    [
                        "Exophthalmos",
@@ -619,11 +655,11 @@
                    ],
                    [
                        "Exocrine",
-                       "Relating to glands that secrete through ducts to external surfaces"
+                       "Gland that secretes outward through ducts"
                    ],
                    [
-                       "Exophthalmos",
-                       "Abnormal protrusion of the eyeball from the orbit"
+                       "Exostosis",
+                       "Benign bony outgrowth projecting from the surface of a bone"
                    ]
                ]
     },
@@ -634,20 +670,22 @@
         "d":  "(Latin) Outside, beyond",
         "ex":  [
                    [
-                       "Extracellular",
-                       "Outside the cell"
+                       [
+                           "Extracellular",
+                           "Outside the cell"
+                       ]
                    ],
                    [
                        "Extracorporeal",
                        "Outside the body (e.g., bypass machine)"
                    ],
                    [
-                       "Extracellular",
-                       "Located or occurring outside the cell"
-                   ],
-                   [
                        "Extravasation",
                        "Leakage of fluid or blood from a vessel into surrounding tissue"
+                   ],
+                   [
+                       "Extraperitoneal",
+                       "Located outside the peritoneal cavity; behind or below the peritoneum"
                    ]
                ]
     },
@@ -658,20 +696,22 @@
         "d":  "(Old English) Before, in front of",
         "ex":  [
                    [
-                       "Forearm",
-                       "Segment of arm in front of the elbow"
+                       [
+                           "Forearm",
+                           "Segment of arm in front of the elbow"
+                       ]
                    ],
                    [
                        "Foreskin",
                        "Skin fold in front of the glans penis"
                    ],
                    [
-                       "Forearm",
-                       "Portion of the upper limb between elbow and wrist"
-                   ],
-                   [
                        "Forehead",
                        "Anterior part of the skull above the orbits; the brow region"
+                   ],
+                   [
+                       "Forefoot",
+                       "Anterior portion of the foot including the toes and metatarsal bones"
                    ]
                ]
     },
@@ -682,20 +722,22 @@
         "d":  "(Latin) Between",
         "ex":  [
                    [
-                       "Intercostal",
-                       "Between the ribs"
+                       [
+                           "Intercostal",
+                           "Between the ribs"
+                       ]
                    ],
                    [
                        "Intervertebral",
                        "Between vertebrae"
                    ],
                    [
-                       "Intercostal",
-                       "Between the ribs; describes muscles, vessels, and nerves"
-                   ],
-                   [
                        "Interstitial",
                        "Relating to the spaces between cells or tissue structures"
+                   ],
+                   [
+                       "Interdigital",
+                       "Located between the digits; pertaining to spaces between fingers or toes"
                    ]
                ]
     },
@@ -706,8 +748,10 @@
         "d":  "(Latin) Within, into",
         "ex":  [
                    [
-                       "Intravenous",
-                       "Within a vein"
+                       [
+                           "Intravenous",
+                           "Within a vein"
+                       ]
                    ],
                    [
                        "Intramuscular",
@@ -718,11 +762,13 @@
                        "Within the skull"
                    ],
                    [
-                       "Intramuscular",
-                       "Within the muscle; describes a route of drug injection"
+                       "Intradermal",
+                       "Within the layers of the skin; used for tuberculin and allergy testing"
                    ]
                ],
-        "syn":  ["endo-"]
+        "syn":  [
+                    "endo-"
+                ]
     },
     {
         "wp":  "ipsi-",
@@ -755,20 +801,22 @@
         "d":  "(Latin) Near, beside, adjacent",
         "ex":  [
                    [
-                       "Juxtaglomerular",
-                       "Adjacent to the glomerulus in the kidney"
-                   ],
-                   [
-                       "Juxtaglomerular",
-                       "Adjacent to the glomerulus; juxtaglomerular cells regulate blood pressure"
-                   ],
-                   [
-                       "Juxtaglomerular",
-                       "Adjacent to the renal glomerulus; describes renin-secreting cells"
+                       [
+                           "Juxtaglomerular",
+                           "Adjacent to the glomerulus in the kidney"
+                       ]
                    ],
                    [
                        "Juxtamedullary",
                        "Located near the border of the renal medulla"
+                   ],
+                   [
+                       "Juxtacortical",
+                       "Located adjacent to the cortex of a bone or the cerebral cortex"
+                   ],
+                   [
+                       "Juxta-articular",
+                       "Situated near or adjacent to a joint"
                    ]
                ]
     },
@@ -779,12 +827,10 @@
         "d":  "(Latin) Side, lateral",
         "ex":  [
                    [
-                       "Lateral",
-                       "Away from the midline of the body"
-                   ],
-                   [
-                       "Laterodorsal",
-                       "Toward the side and back"
+                       [
+                           "Lateral",
+                           "Away from the midline of the body"
+                       ]
                    ],
                    [
                        "Lateralization",
@@ -792,7 +838,11 @@
                    ],
                    [
                        "Laterodorsal",
-                       "Toward the side and back; anatomical positional descriptor"
+                       "Toward the side and back"
+                   ],
+                   [
+                       "Lateroflexion",
+                       "Lateral bending or flexion of the spine or a body part to one side"
                    ]
                ]
     },
@@ -803,16 +853,18 @@
         "d":  "(Latin) Left side",
         "ex":  [
                    [
+                       [
+                           "Levodopa",
+                           "Precursor to dopamine used as primary pharmacotherapy for Parkinson\u0027s disease"
+                       ]
+                   ],
+                   [
+                       "Levothyroxine",
+                       "Synthetic thyroxine (T4) used to treat hypothyroidism"
+                   ],
+                   [
                        "Levocardia",
                        "Normal left-sided position of the heart"
-                   ],
-                   [
-                       "Levocardia",
-                       "Normal left-sided heart position; term used when situs inversus affects other organs"
-                   ],
-                   [
-                       "Levocardia",
-                       "Normal position of the heart in the left chest"
                    ],
                    [
                        "Sinistral",
@@ -827,20 +879,22 @@
         "d":  "Middle, median",
         "ex":  [
                    [
-                       "Medial",
-                       "Toward the midline of the body"
+                       [
+                           "Medial",
+                           "Toward the midline of the body"
+                       ]
                    ],
                    [
                        "Mediastinum",
                        "Middle compartment of the thoracic cavity"
                    ],
                    [
-                       "Mediastinum",
-                       "Central compartment of the thoracic cavity between the lungs"
+                       "Medial malleolus",
+                       "Bony prominence on the medial side of the ankle; distal end of the tibia"
                    ],
                    [
-                       "Medial malleolus",
-                       "Bony prominence on the inner side of the ankle"
+                       "Mediastinoscopy",
+                       "Endoscopic examination of the mediastinum for tissue biopsy and lymph node staging"
                    ]
                ]
     },
@@ -851,20 +905,22 @@
         "d":  "(Greek) Middle",
         "ex":  [
                    [
-                       "Mesoderm",
-                       "Middle embryonic tissue layer"
+                       [
+                           "Mesoderm",
+                           "Middle embryonic tissue layer"
+                       ]
                    ],
                    [
                        "Mesentery",
                        "Middle membrane suspending the intestines"
                    ],
                    [
-                       "Mesoderm",
-                       "Middle embryonic germ layer giving rise to muscle, bone, and connective tissue"
+                       "Mesothelioma",
+                       "Malignant tumor arising from mesothelial cells lining the pleura or peritoneum"
                    ],
                    [
-                       "Mesentery",
-                       "Peritoneal fold attaching the small intestine to the posterior abdominal wall"
+                       "Mesothelium",
+                       "Single layer of flat cells lining serous body cavities including the pleura and peritoneum"
                    ]
                ]
     },
@@ -899,20 +955,22 @@
         "d":  "(Latin) Through, thoroughly",
         "ex":  [
                    [
-                       "Percutaneous",
-                       "Performed through the skin"
+                       [
+                           "Percutaneous",
+                           "Performed through the skin"
+                       ]
                    ],
                    [
                        "Perfusion",
                        "Passage of blood or fluid through tissue"
                    ],
                    [
-                       "Percutaneous",
-                       "Through the skin without an open incision; describes needle procedures"
+                       "Peroral",
+                       "Administered by or through the mouth"
                    ],
                    [
-                       "Perfusion",
-                       "Passage of blood or fluid through a tissue or organ"
+                       "Permeation",
+                       "Process by which a substance passes through or penetrates a membrane or tissue"
                    ]
                ]
     },
@@ -947,20 +1005,22 @@
         "d":  "(Latin) After",
         "ex":  [
                    [
-                       "Postoperative",
-                       "After surgery"
+                       [
+                           "Postoperative",
+                           "After surgery"
+                       ]
                    ],
                    [
                        "Postpartum",
                        "After childbirth"
                    ],
                    [
-                       "Postoperative",
-                       "Relating to the period following a surgical procedure"
-                   ],
-                   [
                        "Postmortem",
                        "After death; also refers to autopsy examination"
+                   ],
+                   [
+                       "Postprandial",
+                       "Occurring after a meal; used in glucose testing and symptom assessment"
                    ]
                ]
     },
@@ -971,20 +1031,22 @@
         "d":  "(Latin) Behind, toward the back",
         "ex":  [
                    [
+                       [
+                           "Posteroanterior",
+                           "From back to front (PA chest X-ray)"
+                       ]
+                   ],
+                   [
                        "Posterolateral",
                        "Toward the back and to the side"
                    ],
                    [
-                       "Posteroanterior",
-                       "From back to front (PA chest X-ray)"
+                       "Posteroinferior",
+                       "Situated behind and below a reference point"
                    ],
                    [
-                       "Posteroanterior",
-                       "From back to front; standard orientation for chest radiography"
-                   ],
-                   [
-                       "Posterolateral",
-                       "Toward the back and side of the body"
+                       "Posterosuperior",
+                       "Situated behind and above a reference point"
                    ]
                ]
     },
@@ -1011,7 +1073,9 @@
                        "Born before 37 completed weeks of gestation"
                    ]
                ],
-        "syn":  ["ante-, antero-"]
+        "syn":  [
+                    "ante-, antero-"
+                ]
     },
     {
         "wp":  "pro-",
@@ -1044,20 +1108,22 @@
         "d":  "(Latin) Behind, backward",
         "ex":  [
                    [
-                       "Retroperitoneal",
-                       "Behind the peritoneum"
+                       [
+                           "Retroperitoneal",
+                           "Behind the peritoneum"
+                       ]
                    ],
                    [
                        "Retrograde",
                        "Moving backward, as in retrograde amnesia"
                    ],
                    [
-                       "Retrograde",
-                       "Moving backward or opposite to the normal direction of flow"
+                       "Retroflexion",
+                       "Backward bending of an organ on itself; commonly refers to the uterus"
                    ],
                    [
-                       "Retroperitoneal",
-                       "Located behind the peritoneum, as the kidneys and aorta"
+                       "Retrosternal",
+                       "Located behind the sternum; describes chest pain or goiter position"
                    ]
                ]
     },
@@ -1068,20 +1134,22 @@
         "d":  "(Latin: sub-) Below, under; (Latin: infra-) Below, beneath",
         "ex":  [
                    [
-                       "Subcutaneous",
-                       "Under the skin"
+                       [
+                           "Subcutaneous",
+                           "Under the skin"
+                       ]
+                   ],
+                   [
+                       "Sublingual",
+                       "Under the tongue; route for rapid drug absorption into systemic circulation"
                    ],
                    [
                        "Infraorbital",
                        "Below the eye socket"
                    ],
                    [
-                       "Subcutaneous",
-                       "Beneath the skin; also a route for drug injection"
-                   ],
-                   [
-                       "Infraorbital",
-                       "Below the orbit; describes the nerve and artery of the cheek"
+                       "Infrapatellar",
+                       "Below the patella; refers to the infrapatellar bursa or tendon"
                    ]
                ]
     },
@@ -1092,20 +1160,22 @@
         "d":  "(Latin) Above, beyond",
         "ex":  [
                    [
-                       "Supraclavicular",
-                       "Above the clavicle"
+                       [
+                           "Supraclavicular",
+                           "Above the clavicle"
+                       ]
                    ],
                    [
                        "Suprarenal",
                        "Above the kidney (adrenal gland)"
                    ],
                    [
-                       "Supine",
-                       "Body position lying face upward on the back"
+                       "Suprapubic",
+                       "Above the pubic symphysis; used for catheter placement or bladder access"
                    ],
                    [
-                       "Supraclavicular",
-                       "Above the clavicle; describes lymph nodes and nerve block sites"
+                       "Suprasternal",
+                       "Above the sternum; the suprasternal notch is a landmark at the top of the manubrium"
                    ]
                ]
     },
@@ -1140,20 +1210,22 @@
         "d":  "(Latin) Across, through",
         "ex":  [
                    [
-                       "Transdermal",
-                       "Through the skin (drug delivery)"
+                       [
+                           "Transdermal",
+                           "Through the skin (drug delivery)"
+                       ]
                    ],
                    [
                        "Transfusion",
                        "Transfer of blood into a recipient"
                    ],
                    [
-                       "Transfusion",
-                       "Transfer of blood or blood components into a recipient\u0027s circulation"
+                       "Transplant",
+                       "Transfer of tissue or an organ from a donor to a recipient"
                    ],
                    [
-                       "Transdermal",
-                       "Administered through the skin for systemic drug delivery"
+                       "Transection",
+                       "Complete cross-sectional division or cutting through of a structure"
                    ]
                ]
     },
@@ -1164,20 +1236,22 @@
         "d":  "(Latin) Front, belly side",
         "ex":  [
                    [
-                       "Ventral",
-                       "Pertaining to the front or belly surface"
+                       [
+                           "Ventral",
+                           "Pertaining to the front or belly surface"
+                       ]
                    ],
                    [
                        "Ventricle",
                        "Cavity on the front side of the heart or brain"
                    ],
                    [
-                       "Ventral",
-                       "Relating to the anterior or front surface of the body"
-                   ],
-                   [
                        "Ventriculoperitoneal",
                        "Connecting a brain ventricle to the peritoneal cavity; type of CSF shunt"
+                   ],
+                   [
+                       "Ventromedial",
+                       "Pertaining to both the ventral and medial surfaces of an organ or structure"
                    ]
                ]
     },
@@ -1204,7 +1278,9 @@
                        "External genitalia that cannot be clearly classified as male or female"
                    ]
                ],
-        "syn":  ["amphi-"]
+        "syn":  [
+                    "amphi-"
+                ]
     },
     {
         "wp":  "amphi-",
@@ -1229,7 +1305,9 @@
                        "Fusion of two gametes from separate parents in sexual reproduction"
                    ]
                ],
-        "syn":  ["ambi-"]
+        "syn":  [
+                    "ambi-"
+                ]
     },
     {
         "wp":  "bi-, di-, diplo-",
@@ -1238,20 +1316,22 @@
         "d":  "(Latin: bi-) Two; (Greek: di-, diplo-) Two, double",
         "ex":  [
                    [
-                       "Bilateral",
-                       "Pertaining to both sides of the body"
+                       [
+                           "Bilateral",
+                           "Pertaining to both sides of the body"
+                       ]
+                   ],
+                   [
+                       "Bifurcation",
+                       "Division of a vessel or structure into two branches"
                    ],
                    [
                        "Diplopia",
                        "Double vision"
                    ],
                    [
-                       "Bilateral",
-                       "Affecting or involving both sides of the body"
-                   ],
-                   [
-                       "Bifurcation",
-                       "Division of a vessel or structure into two branches"
+                       "Binocular",
+                       "Relating to or using both eyes simultaneously"
                    ]
                ]
     },
@@ -1310,20 +1390,22 @@
         "d":  "Equal, same",
         "ex":  [
                    [
-                       "Isotonic",
-                       "Equal osmotic pressure between solutions"
+                       [
+                           "Isotonic",
+                           "Equal osmotic pressure between solutions"
+                       ]
                    ],
                    [
                        "Isometric",
                        "Muscle contraction with no change in length"
                    ],
                    [
-                       "Isometric",
-                       "Muscle contraction with no change in muscle length"
+                       "Isoflurane",
+                       "Inhaled halogenated ether used for maintenance of general anesthesia"
                    ],
                    [
-                       "Isotonic",
-                       "Having the same osmolarity as plasma; also equal-tension muscle contraction"
+                       "Isoimmunization",
+                       "Antibody response to antigens from a member of the same species, as in Rh incompatibility"
                    ]
                ]
     },
@@ -1350,7 +1432,9 @@
                        "Abnormally large fetal or infant size, often above the 90th percentile"
                    ]
                ],
-        "syn":  ["mega-, megalo-"]
+        "syn":  [
+                    "mega-, megalo-"
+                ]
     },
     {
         "wp":  "mega-, megalo-",
@@ -1359,23 +1443,27 @@
         "d":  "(Greek) Large, enlarged",
         "ex":  [
                    [
-                       "Megalocardia",
-                       "Abnormal enlargement of the heart"
+                       [
+                           "Megacolon",
+                           "Abnormal dilation of the colon, as in Hirschsprung disease"
+                       ]
                    ],
                    [
                        "Megaloblast",
                        "Abnormally large immature blood cell"
                    ],
                    [
-                       "Megacolon",
-                       "Abnormal dilation of the colon, as in Hirschsprung disease"
+                       "Megakaryocyte",
+                       "Large bone marrow cell with multilobed nucleus that produces blood platelets"
                    ],
                    [
-                       "Megaloblast",
-                       "Abnormally large immature red blood cell seen in B12 or folate deficiency"
+                       "Megalocardia",
+                       "Abnormal enlargement of the heart"
                    ]
                ],
-        "syn":  ["macro-"]
+        "syn":  [
+                    "macro-"
+                ]
     },
     {
         "wp":  "micro-",
@@ -1384,20 +1472,22 @@
         "d":  "(Greek) Small",
         "ex":  [
                    [
+                       [
+                           "Microorganism",
+                           "Living organism visible only under a microscope, including bacteria and viruses"
+                       ]
+                   ],
+                   [
+                       "Microscope",
+                       "Optical or electron instrument used to examine objects too small to see with the naked eye"
+                   ],
+                   [
+                       "Microsurgery",
+                       "Surgery on minute structures performed with a microscope and specialized instruments"
+                   ],
+                   [
                        "Microcephaly",
                        "Abnormally small head circumference due to impaired brain development"
-                   ],
-                   [
-                       "Microcephaly",
-                       "Abnormally small head size"
-                   ],
-                   [
-                       "Microcephaly",
-                       "Abnormally small head circumference due to impaired brain development"
-                   ],
-                   [
-                       "Microorganism",
-                       "Microscopic living entity including bacteria, viruses, and fungi"
                    ]
                ]
     },
@@ -1408,23 +1498,27 @@
         "d":  "One, single",
         "ex":  [
                    [
+                       [
+                           "Mononucleosis",
+                           "Viral infection causing excess mononuclear cells"
+                       ]
+                   ],
+                   [
                        "Monoplegia",
                        "Paralysis of a single limb"
                    ],
                    [
-                       "Mononucleosis",
-                       "Viral infection causing excess mononuclear cells"
+                       "Monocyte",
+                       "Large mononuclear leukocyte that matures into a macrophage in tissues"
                    ],
                    [
-                       "Mononucleosis",
-                       "Infectious disease caused by Epstein-Barr virus with lymphadenopathy"
-                   ],
-                   [
-                       "Monoplegia",
-                       "Paralysis confined to a single limb"
+                       "Monoclonal antibody",
+                       "Antibody produced by a single B-cell clone, used in targeted therapy and diagnostics"
                    ]
                ],
-        "syn":  ["uni-"]
+        "syn":  [
+                    "uni-"
+                ]
     },
     {
         "wp":  "multi-",
@@ -1481,16 +1575,18 @@
         "d":  "Few, little, scanty",
         "ex":  [
                    [
-                       "Oliguria",
-                       "Decreased urine output"
+                       [
+                           "Oliguria",
+                           "Decreased urine output"
+                       ]
+                   ],
+                   [
+                       "Oligohydramnios",
+                       "Abnormally low volume of amniotic fluid; associated with fetal renal abnormalities"
                    ],
                    [
                        "Oligospermia",
                        "Low sperm count"
-                   ],
-                   [
-                       "Oligospermia",
-                       "Reduced sperm count in semen, a common cause of male infertility"
                    ],
                    [
                        "Oligodactyly",
@@ -1505,16 +1601,18 @@
         "d":  "All, entire",
         "ex":  [
                    [
-                       "Pandemic",
-                       "Disease affecting all people across wide regions"
+                       [
+                           "Pandemic",
+                           "Disease affecting all people across wide regions"
+                       ]
                    ],
                    [
                        "Pancreatitis",
                        "Inflammation affecting the entire pancreas"
                    ],
                    [
-                       "Pandemic",
-                       "Epidemic of infectious disease spread across multiple continents worldwide"
+                       "Pancytopenia",
+                       "Deficiency of all blood cell types: erythrocytes, leukocytes, and thrombocytes"
                    ],
                    [
                        "Panhypopituitarism",
@@ -1553,23 +1651,27 @@
         "d":  "(Latin) Four",
         "ex":  [
                    [
-                       "Quadriplegia",
-                       "Paralysis of all four limbs"
+                       [
+                           "Quadriplegia",
+                           "Paralysis of all four limbs"
+                       ]
                    ],
                    [
                        "Quadrant",
                        "One of four sections of the abdomen"
                    ],
                    [
-                       "Quadriplegia",
-                       "Paralysis of all four limbs from high cervical spinal cord injury"
+                       "Quadriceps",
+                       "Group of four anterior thigh muscles that extend the knee joint"
                    ],
                    [
-                       "Quadrant",
-                       "One of four regions dividing the abdomen used in clinical assessment"
+                       "Quadruplet",
+                       "One of four offspring born from a single pregnancy"
                    ]
                ],
-        "syn":  ["tetra-"]
+        "syn":  [
+                    "tetra-"
+                ]
     },
     {
         "wp":  "semi-",
@@ -1578,20 +1680,22 @@
         "d":  "(Latin) Half, partial",
         "ex":  [
                    [
+                       [
+                           "Semilunar",
+                           "Half-moon shaped"
+                       ]
+                   ],
+                   [
                        "Semiconscious",
                        "Partially conscious"
                    ],
                    [
-                       "Semilunar",
-                       "Half-moon shaped"
+                       "Semicircular canal",
+                       "Fluid-filled bony loop in the inner ear that detects rotational acceleration"
                    ],
                    [
-                       "Semilunar",
-                       "Half-moon shaped; describes the aortic and pulmonary valves"
-                   ],
-                   [
-                       "Semiconscious",
-                       "State of partial arousal with reduced awareness and responsiveness"
+                       "Semitendinosus",
+                       "Posterior thigh muscle that flexes the knee and extends the hip"
                    ]
                ]
     },
@@ -1602,23 +1706,27 @@
         "d":  "Four",
         "ex":  [
                    [
-                       "Tetraplegia",
-                       "Paralysis of all four limbs"
+                       [
+                           "Tetraplegia",
+                           "Paralysis of all four limbs"
+                       ]
                    ],
                    [
                        "Tetralogy of Fallot",
                        "Congenital heart defect with four structural abnormalities"
                    ],
                    [
-                       "Tetralogy of Fallot",
-                       "Congenital heart defect comprising four structural abnormalities"
+                       "Tetracycline",
+                       "Broad-spectrum bacteriostatic antibiotic inhibiting protein synthesis"
                    ],
                    [
-                       "Tetraplegia",
-                       "Paralysis of all four limbs; synonym for quadriplegia"
+                       "Tetradactyly",
+                       "Condition of having four fingers or toes on a hand or foot"
                    ]
                ],
-        "syn":  ["quad/r-"]
+        "syn":  [
+                    "quad/r-"
+                ]
     },
     {
         "wp":  "tri-",
@@ -1627,20 +1735,22 @@
         "d":  "(Greek/Latin) Three",
         "ex":  [
                    [
-                       "Tricuspid",
-                       "Having three cusps (tricuspid valve)"
+                       [
+                           "Tricuspid valve",
+                           "Three-leaflet atrioventricular valve between the right atrium and right ventricle"
+                       ]
                    ],
                    [
                        "Trimester",
                        "One of three periods of pregnancy"
                    ],
                    [
-                       "Trimester",
-                       "One of three three-month divisions of pregnancy"
+                       "Triceps",
+                       "Three-headed muscle of the posterior upper arm responsible for elbow extension"
                    ],
                    [
-                       "Tricuspid valve",
-                       "Right atrioventricular valve with three cusps"
+                       "Trigeminal nerve",
+                       "Fifth cranial nerve providing facial sensation and controlling muscles of mastication"
                    ]
                ]
     },
@@ -1675,23 +1785,27 @@
         "d":  "(Latin) One, single",
         "ex":  [
                    [
-                       "Unilateral",
-                       "Pertaining to one side only"
+                       [
+                           "Unilateral",
+                           "Pertaining to one side only"
+                       ]
                    ],
                    [
                        "Unicellular",
                        "Consisting of a single cell"
                    ],
                    [
-                       "Unilateral",
-                       "Occurring on or affecting one side of the body only"
+                       "Uninucleated",
+                       "Containing a single nucleus; characteristic of most mature mammalian cells"
                    ],
                    [
-                       "Unicellular",
-                       "Composed of a single cell; describes the simplest living organisms"
+                       "Unicornuate uterus",
+                       "Uterus with a single horn due to incomplete Mullerian duct development"
                    ]
                ],
-        "syn":  ["mono-"]
+        "syn":  [
+                    "mono-"
+                ]
     },
     {
         "wp":  "alb-",
@@ -1700,8 +1814,10 @@
         "d":  "(Latin) White",
         "ex":  [
                    [
-                       "Albinism",
-                       "Absence of pigment causing white skin and hair"
+                       [
+                           "Albumin",
+                           "Most abundant plasma protein; maintains oncotic pressure and transports substances in blood"
+                       ]
                    ],
                    [
                        "Albuminuria",
@@ -1709,11 +1825,11 @@
                    ],
                    [
                        "Albinism",
-                       "Congenital absence of melanin causing white skin, hair, and light-sensitive eyes"
+                       "Absence of pigment causing white skin and hair"
                    ],
                    [
-                       "Albuminuria",
-                       "Presence of albumin in urine, an early indicator of renal damage"
+                       "Candida albicans",
+                       "Fungal pathogen causing oral thrush, vaginal candidiasis, and systemic candidiasis"
                    ]
                ]
     },
@@ -1724,20 +1840,22 @@
         "d":  "(Greek) Green",
         "ex":  [
                    [
-                       "Chlorosis",
-                       "Condition of greenish-yellow skin pallor from iron deficiency"
+                       [
+                           "Chlorosis",
+                           "Condition of greenish-yellow skin pallor from iron deficiency"
+                       ]
                    ],
                    [
                        "Chloroma",
                        "Green-colored tumor of myeloid leukemia"
                    ],
                    [
-                       "Chloroma",
-                       "Green-hued extramedullary tumor mass composed of myeloid leukemia cells"
-                   ],
-                   [
                        "Chloropsia",
                        "Visual disturbance in which objects appear greenish in color"
+                   ],
+                   [
+                       "Chlorhexidine",
+                       "Broad-spectrum antiseptic used for skin preparation, wound care, and oral hygiene"
                    ]
                ]
     },
@@ -1748,20 +1866,22 @@
         "d":  "(Greek) Color",
         "ex":  [
                    [
-                       "Chromosome",
-                       "Color-staining body in the cell nucleus"
-                   ],
-                   [
-                       "Chromosome",
-                       "Thread-like structure of DNA and protein carrying genetic information"
-                   ],
-                   [
-                       "Chromosome",
-                       "Thread-like nuclear structure carrying the genetic information of an organism"
+                       [
+                           "Chromosome",
+                           "Color-staining body in the cell nucleus"
+                       ]
                    ],
                    [
                        "Chromatin",
                        "Complex of DNA and histone proteins comprising the chromosome"
+                   ],
+                   [
+                       "Chromatography",
+                       "Laboratory technique separating compounds based on differential migration through a medium"
+                   ],
+                   [
+                       "Chromocyte",
+                       "Pigmented cell; any cell staining with a particular chromatic dye"
                    ]
                ]
     },
@@ -1772,20 +1892,22 @@
         "d":  "(Greek) Blue",
         "ex":  [
                    [
-                       "Cyanosis",
-                       "Bluish skin discoloration from low oxygen"
-                   ],
-                   [
-                       "Cyanosis",
-                       "Bluish discoloration of skin due to oxygen deficiency in the blood"
-                   ],
-                   [
-                       "Cyanosis",
-                       "Bluish discoloration of skin and mucous membranes due to low blood oxygen"
+                       [
+                           "Cyanosis",
+                           "Bluish skin discoloration from low oxygen"
+                       ]
                    ],
                    [
                        "Cyanide poisoning",
                        "Cellular asphyxia caused by inhibition of cytochrome oxidase"
+                   ],
+                   [
+                       "Cyanocobalamin",
+                       "Active form of vitamin B12 essential for red blood cell formation and nerve function"
+                   ],
+                   [
+                       "Cyanobacteria",
+                       "Photosynthetic prokaryotes capable of producing harmful cyanotoxins in water bodies"
                    ]
                ]
     },
@@ -1796,20 +1918,22 @@
         "d":  "(Greek) Red",
         "ex":  [
                    [
-                       "Erythrocyte",
-                       "Red blood cell"
+                       [
+                           "Erythrocyte",
+                           "Red blood cell"
+                       ]
+                   ],
+                   [
+                       "Erythema",
+                       "Superficial redness of the skin caused by dilation and engorgement of capillaries"
                    ],
                    [
                        "Erythropoietin",
                        "Hormone stimulating red blood cell production"
                    ],
                    [
-                       "Erythropoietin",
-                       "Renal hormone stimulating bone marrow production of red blood cells"
-                   ],
-                   [
-                       "Erythema",
-                       "Redness of the skin resulting from dilation of superficial blood vessels"
+                       "Erythromycin",
+                       "Macrolide antibiotic inhibiting bacterial protein synthesis; used for respiratory and skin infections"
                    ]
                ]
     },
@@ -1820,20 +1944,22 @@
         "d":  "(Greek) White",
         "ex":  [
                    [
-                       "Leukocyte",
-                       "White blood cell"
+                       [
+                           "Leukocyte",
+                           "White blood cell"
+                       ]
                    ],
                    [
                        "Leukemia",
                        "Cancer of white blood cell precursors"
                    ],
                    [
-                       "Leukemia",
-                       "Malignant proliferation of white blood cell precursors in blood and marrow"
-                   ],
-                   [
                        "Leukopenia",
                        "Abnormally low white blood cell count increasing susceptibility to infection"
+                   ],
+                   [
+                       "Leukoplakia",
+                       "White plaque on mucous membranes that cannot be scraped off; may be premalignant"
                    ]
                ]
     },
@@ -1844,20 +1970,22 @@
         "d":  "(Greek) Black, dark",
         "ex":  [
                    [
-                       "Melanoma",
-                       "Malignant cancer of pigment-producing skin cells"
+                       [
+                           "Melanoma",
+                           "Malignant cancer of pigment-producing skin cells"
+                       ]
                    ],
                    [
                        "Melanocyte",
                        "Pigment-producing cell in the skin"
                    ],
                    [
-                       "Melanocyte",
-                       "Pigment-producing cell in the basal epidermis responsible for skin color"
+                       "Melanin",
+                       "Dark pigment produced by melanocytes responsible for skin, hair, and eye coloration"
                    ],
                    [
-                       "Melanoma",
-                       "Malignant tumor arising from melanocytes with high metastatic potential"
+                       "Melasma",
+                       "Acquired hyperpigmentation disorder causing symmetric dark patches; common in pregnancy"
                    ]
                ]
     },
@@ -1868,20 +1996,22 @@
         "d":  "(Greek: polio-) Gray, gray matter; (Greek: glauco-) Gray, bluish-gray",
         "ex":  [
                    [
-                       "Poliomyelitis",
-                       "Viral infection of gray matter of the spinal cord"
+                       [
+                           "Poliomyelitis",
+                           "Viral infection of gray matter of the spinal cord"
+                       ]
                    ],
                    [
                        "Glaucoma",
                        "Eye disease causing gray-green optic nerve damage"
                    ],
                    [
-                       "Poliomyelitis",
-                       "Viral infection destroying anterior horn motor neurons causing paralysis"
+                       "Poliovirus",
+                       "Enterovirus responsible for paralytic poliomyelitis; transmitted via fecal-oral route"
                    ],
                    [
-                       "Glaucoma",
-                       "Optic nerve damage from elevated intraocular pressure leading to vision loss"
+                       "Poliodystrophy",
+                       "Degenerative disorder of the gray matter of the brain"
                    ]
                ]
     },
@@ -1892,12 +2022,10 @@
         "d":  "(Greek) Purple",
         "ex":  [
                    [
-                       "Porphyria",
-                       "Disorder causing purple pigment buildup in tissues"
-                   ],
-                   [
-                       "Porphyria",
-                       "Metabolic disorder of heme synthesis causing skin and neurological symptoms"
+                       [
+                           "Porphyria",
+                           "Disorder causing purple pigment buildup in tissues"
+                       ]
                    ],
                    [
                        "Coproporphyrin",
@@ -1906,6 +2034,10 @@
                    [
                        "Uroporphyrin",
                        "Porphyrin excreted in urine; markedly elevated in porphyria cutanea tarda"
+                   ],
+                   [
+                       "Porphyrinuria",
+                       "Excess excretion of porphyrins in the urine; a marker of porphyria"
                    ]
                ]
     },
@@ -1940,20 +2072,22 @@
         "d":  "(Greek) Self",
         "ex":  [
                    [
-                       "Autoimmune",
-                       "Immune system attacks self"
+                       [
+                           "Autoimmune",
+                           "Immune system attacks self"
+                       ]
+                   ],
+                   [
+                       "Autologous",
+                       "Derived from the same individual; describes blood or tissue donated for one\u0027s own use"
                    ],
                    [
                        "Autograft",
                        "Tissue transplanted from the same person"
                    ],
                    [
-                       "Autoimmune",
-                       "Relating to immune-mediated attack on the body\u0027s own tissues"
-                   ],
-                   [
-                       "Autologous",
-                       "Derived from the same individual; describes self-donated blood or tissue grafts"
+                       "Autopsy",
+                       "Postmortem examination of a body to determine the cause and manner of death"
                    ]
                ]
     },
@@ -1964,16 +2098,18 @@
         "d":  "(Greek) Short",
         "ex":  [
                    [
+                       [
+                           "Brachytherapy",
+                           "Short-distance radiation therapy placed near a tumor"
+                       ]
+                   ],
+                   [
                        "Brachydactyly",
                        "Abnormal shortness of the fingers or toes"
                    ],
                    [
-                       "Brachytherapy",
-                       "Short-distance radiation therapy placed near a tumor"
-                   ],
-                   [
-                       "Brachydactyly",
-                       "Congenital shortening of fingers or toes"
+                       "Brachycephaly",
+                       "Disproportionate shortness and broadness of the skull; flat back of head"
                    ],
                    [
                        "Brachyesophagus",
@@ -2012,20 +2148,22 @@
         "d":  "(Greek) Time",
         "ex":  [
                    [
-                       "Chronobiology",
-                       "Study of time-based biological rhythms"
-                   ],
-                   [
-                       "Chronobiology",
-                       "Study of biological rhythms and their effects on health and disease"
+                       [
+                           "Chronobiology",
+                           "Study of time-based biological rhythms"
+                       ]
                    ],
                    [
                        "Chronotherapy",
                        "Treatment timed to align with the patient\u0027s circadian rhythm"
                    ],
                    [
-                       "Circadian rhythm",
-                       "Biological cycle of approximately 24 hours regulating sleep and physiology"
+                       "Chronotropy",
+                       "Effect on the rate of heartbeat; positive chronotropy increases heart rate"
+                   ],
+                   [
+                       "Chronopharmacology",
+                       "Study of the relationship between biological circadian rhythms and drug effects"
                    ]
                ]
     },
@@ -2036,16 +2174,18 @@
         "d":  "(Latin) Outer layer, cortex",
         "ex":  [
                    [
-                       "Corticosteroid",
-                       "Steroid hormone produced by the adrenal cortex"
+                       [
+                           "Corticosteroid",
+                           "Steroid hormone produced by the adrenal cortex"
+                       ]
                    ],
                    [
                        "Cortical",
                        "Pertaining to the outer layer of an organ"
                    ],
                    [
-                       "Corticosteroid",
-                       "Steroid hormone from the adrenal cortex; widely used as anti-inflammatory"
+                       "Corticotropin",
+                       "ACTH; pituitary hormone that stimulates cortisol release from the adrenal cortex"
                    ],
                    [
                        "Corticospinal tract",
@@ -2060,20 +2200,22 @@
         "d":  "(Greek) Cold, freezing",
         "ex":  [
                    [
-                       "Cryotherapy",
-                       "Use of extreme cold to treat diseased tissue"
+                       [
+                           "Cryotherapy",
+                           "Use of extreme cold to treat diseased tissue"
+                       ]
                    ],
                    [
                        "Cryosurgery",
                        "Surgical destruction of tissue using freezing temperatures"
                    ],
                    [
-                       "Cryotherapy",
-                       "Therapeutic application of extreme cold to destroy abnormal tissue"
-                   ],
-                   [
                        "Cryopreservation",
                        "Storage of biological material at ultra-low temperatures for future use"
+                   ],
+                   [
+                       "Cryoablation",
+                       "Destruction of pathological tissue by application of extreme cold; used in oncology and cardiology"
                    ]
                ]
     },
@@ -2172,7 +2314,9 @@
                        "Formation of new blood vessels from pre-existing vasculature"
                    ]
                ],
-        "syn":  ["vascul/o"]
+        "syn":  [
+                    "vascul/o"
+                ]
     },
     {
         "wp":  "aort/o",
@@ -2389,7 +2533,9 @@
                        "Inflammation of a vein, often associated with thrombosis"
                    ]
                ],
-        "syn":  ["ven/o"]
+        "syn":  [
+                    "ven/o"
+                ]
     },
     {
         "wp":  "thromb/o",
@@ -2486,7 +2632,9 @@
                        "Inflammation of blood vessel walls leading to tissue ischemia"
                    ]
                ],
-        "syn":  ["angi/o"]
+        "syn":  [
+                    "angi/o"
+                ]
     },
     {
         "wp":  "ven/o",
@@ -2511,7 +2659,9 @@
                        "Imaging of veins using contrast dye to detect occlusion"
                    ]
                ],
-        "syn":  ["phleb/o"]
+        "syn":  [
+                    "phleb/o"
+                ]
     },
     {
         "wp":  "ventricul/o",
@@ -2680,7 +2830,9 @@
                        "Duct draining tears from the eye into the nasal cavity"
                    ]
                ],
-        "syn":  ["rhin/o"]
+        "syn":  [
+                    "rhin/o"
+                ]
     },
     {
         "wp":  "pharyng/o",
@@ -2753,7 +2905,9 @@
                        "Surgical removal of an entire lung"
                    ]
                ],
-        "syn":  ["pulm/o"]
+        "syn":  [
+                    "pulm/o"
+                ]
     },
     {
         "wp":  "pulm/o",
@@ -2778,7 +2932,9 @@
                        "Abnormal fluid accumulation in the lung alveoli"
                    ]
                ],
-        "syn":  ["pneum/o"]
+        "syn":  [
+                    "pneum/o"
+                ]
     },
     {
         "wp":  "rhin/o",
@@ -2803,7 +2959,9 @@
                        "Endoscopic examination of the nasal cavity"
                    ]
                ],
-        "syn":  ["nas/o"]
+        "syn":  [
+                    "nas/o"
+                ]
     },
     {
         "wp":  "sinus/o",
@@ -3116,7 +3274,9 @@
                        "Tooth pain; toothache"
                    ]
                ],
-        "syn":  ["odont/o"]
+        "syn":  [
+                    "odont/o"
+                ]
     },
     {
         "wp":  "duoden/o",
@@ -3165,7 +3325,9 @@
                        "Surgical creation of an opening from the intestine to the body surface"
                    ]
                ],
-        "syn":  ["intestin/o"]
+        "syn":  [
+                    "intestin/o"
+                ]
     },
     {
         "wp":  "esophag/o",
@@ -3262,7 +3424,9 @@
                        "Surgical removal of part or all of the tongue"
                    ]
                ],
-        "syn":  ["lingu/o"]
+        "syn":  [
+                    "lingu/o"
+                ]
     },
     {
         "wp":  "hepat/o",
@@ -3335,7 +3499,9 @@
                        "Microbial community residing in the gastrointestinal tract"
                    ]
                ],
-        "syn":  ["enter/o"]
+        "syn":  [
+                    "enter/o"
+                ]
     },
     {
         "wp":  "jejun/o",
@@ -3432,7 +3598,9 @@
                        "Relating to the junction of the tongue-side surface and gum"
                    ]
                ],
-        "syn":  ["gloss/o"]
+        "syn":  [
+                    "gloss/o"
+                ]
     },
     {
         "wp":  "odont/o",
@@ -3457,7 +3625,9 @@
                        "Benign tumor composed of dental tissue elements"
                    ]
                ],
-        "syn":  ["dent/i"]
+        "syn":  [
+                    "dent/i"
+                ]
     },
     {
         "wp":  "or/o",
@@ -3722,7 +3892,9 @@
                        "Sudden disruption of blood supply to the brain; clinical term for stroke"
                    ]
                ],
-        "syn":  ["encephal/o"]
+        "syn":  [
+                    "encephal/o"
+                ]
     },
     {
         "wp":  "encephal/o",
@@ -3747,7 +3919,9 @@
                        "Global brain dysfunction from metabolic, toxic, or structural causes"
                    ]
                ],
-        "syn":  ["cerebr/o"]
+        "syn":  [
+                    "cerebr/o"
+                ]
     },
     {
         "wp":  "mening/o",
@@ -3988,7 +4162,9 @@
                        "Endoscopic examination and treatment within a joint"
                    ]
                ],
-        "syn":  ["articul/o"]
+        "syn":  [
+                    "articul/o"
+                ]
     },
     {
         "wp":  "articul/o",
@@ -4013,7 +4189,9 @@
                        "An anatomical joint; also, production of clear speech sounds"
                    ]
                ],
-        "syn":  ["arthr/o"]
+        "syn":  [
+                    "arthr/o"
+                ]
     },
     {
         "wp":  "brachi/o",
@@ -4230,7 +4408,9 @@
                        "Diffuse swelling of an entire digit; sausage digit seen in psoriatic arthritis"
                    ]
                ],
-        "syn":  ["digit/o"]
+        "syn":  [
+                    "digit/o"
+                ]
     },
     {
         "wp":  "digit/o",
@@ -4239,23 +4419,27 @@
         "d":  "(Latin) Finger, toe",
         "ex":  [
                    [
-                       "Digital",
-                       "Pertaining to the fingers or toes"
+                       [
+                           "Digital",
+                           "Pertaining to the fingers or toes"
+                       ]
                    ],
                    [
-                       "Flexor Digitorum",
-                       "Muscle that flexes the fingers or toes"
-                   ],
-                   [
-                       "Digital",
-                       "Relating to a finger or toe"
+                       "Digitalis",
+                       "Cardiac glycoside derived from foxglove; used to treat heart failure and atrial fibrillation"
                    ],
                    [
                        "Flexor digitorum",
                        "Muscle group responsible for flexing the fingers or toes"
+                   ],
+                   [
+                       "Digital gangrene",
+                       "Necrosis of a finger or toe due to ischemia, infection, or vascular disease"
                    ]
                ],
-        "syn":  ["dactyl/o"]
+        "syn":  [
+                    "dactyl/o"
+                ]
     },
     {
         "wp":  "fasci/o",
@@ -4400,7 +4584,9 @@
                        "Genetic disorder causing progressive muscle weakness and degeneration"
                    ]
                ],
-        "syn":  ["my/o"]
+        "syn":  [
+                    "my/o"
+                ]
     },
     {
         "wp":  "my/o",
@@ -4425,7 +4611,9 @@
                        "Inflammation of muscle tissue causing pain and weakness"
                    ]
                ],
-        "syn":  ["muscul/o"]
+        "syn":  [
+                    "muscul/o"
+                ]
     },
     {
         "wp":  "oste/o",
@@ -4714,7 +4902,9 @@
                        "Catheter-based coronary artery treatment performed through the skin"
                    ]
                ],
-        "syn":  ["dermat/o, derm/o"]
+        "syn":  [
+                    "dermat/o, derm/o"
+                ]
     },
     {
         "wp":  "dermat/o, derm/o",
@@ -4739,7 +4929,9 @@
                        "Middle skin layer containing connective tissue, blood vessels, and nerves"
                    ]
                ],
-        "syn":  ["cutane/o"]
+        "syn":  [
+                    "cutane/o"
+                ]
     },
     {
         "wp":  "diaphor/o",
@@ -5028,7 +5220,9 @@
                        "Endoscopic examination of the urinary bladder and urethra"
                    ]
                ],
-        "syn":  ["vesic/o"]
+        "syn":  [
+                    "vesic/o"
+                ]
     },
     {
         "wp":  "estr/o",
@@ -5197,7 +5391,9 @@
                        "Disease or damage affecting the kidneys"
                    ]
                ],
-        "syn":  ["ren/o"]
+        "syn":  [
+                    "ren/o"
+                ]
     },
     {
         "wp":  "orchi/o",
@@ -5318,7 +5514,9 @@
                        "Inability of the kidneys to adequately filter metabolic waste"
                    ]
                ],
-        "syn":  ["nephr/o"]
+        "syn":  [
+                    "nephr/o"
+                ]
     },
     {
         "wp":  "ur/o",
@@ -5439,7 +5637,9 @@
                        "Surgical creation of an opening from the bladder to the abdominal skin"
                    ]
                ],
-        "syn":  ["cyst/o"]
+        "syn":  [
+                    "cyst/o"
+                ]
     },
     {
         "wp":  "acous/o",
@@ -5488,7 +5688,9 @@
                        "Relating to the auricle of the ear or to the ear in general"
                    ]
                ],
-        "syn":  ["ot/o"]
+        "syn":  [
+                    "ot/o"
+                ]
     },
     {
         "wp":  "blephar/o",
@@ -5633,7 +5835,9 @@
                        "Inflammation of the tympanic membrane"
                    ]
                ],
-        "syn":  ["tympan/o"]
+        "syn":  [
+                    "tympan/o"
+                ]
     },
     {
         "wp":  "ocul/o",
@@ -5658,7 +5862,9 @@
                        "Relating to eye movement; describes the third cranial nerve"
                    ]
                ],
-        "syn":  ["ophthalm/o"]
+        "syn":  [
+                    "ophthalm/o"
+                ]
     },
     {
         "wp":  "ophthalm/o",
@@ -5683,7 +5889,9 @@
                        "Severe inflammation of the eye or conjunctiva"
                    ]
                ],
-        "syn":  ["ocul/o"]
+        "syn":  [
+                    "ocul/o"
+                ]
     },
     {
         "wp":  "ot/o",
@@ -5708,7 +5916,9 @@
                        "Examination of the ear canal and eardrum with an otoscope"
                    ]
                ],
-        "syn":  ["aur/o"]
+        "syn":  [
+                    "aur/o"
+                ]
     },
     {
         "wp":  "phon/o",
@@ -5781,7 +5991,9 @@
                        "Hardening of middle ear tissues from calcification"
                    ]
                ],
-        "syn":  ["myring/o"]
+        "syn":  [
+                    "myring/o"
+                ]
     },
     {
         "wp":  "adip/o",
@@ -7030,7 +7242,9 @@
                        "Synthesis of glucose from non-carbohydrate substrates in the liver"
                    ]
                ],
-        "syn":  ["glyc/o"]
+        "syn":  [
+                    "glyc/o"
+                ]
     },
     {
         "wp":  "glyc/o",
@@ -7055,7 +7269,9 @@
                        "Metabolic pathway breaking down glucose to produce ATP"
                    ]
                ],
-        "syn":  ["gluc/o"]
+        "syn":  [
+                    "gluc/o"
+                ]
     },
     {
         "wp":  "immun/o",
@@ -7512,7 +7728,9 @@
                        "Chronic condition with widespread musculoskeletal pain and fatigue"
                    ]
                ],
-        "syn":  ["-dynia"]
+        "syn":  [
+                    "-dynia"
+                ]
     },
     {
         "wp":  "-cele",
@@ -7633,7 +7851,9 @@
                        "Pain in the region of the coccyx, often from trauma or prolonged sitting"
                    ]
                ],
-        "syn":  ["-algia"]
+        "syn":  [
+                    "-algia"
+                ]
     },
     {
         "wp":  "-ectasia",

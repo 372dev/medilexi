@@ -8509,7 +8509,7 @@
                   "Anatomy",
                   "Cardiology"
               ],
-        "d":  "The smooth membrane lining heart chambers and valves; inflamed in endocarditis.",
+        "d":  "Smooth membrane lining the inner surfaces of the heart chambers and valves, whose inflammation constitutes endocarditis.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -8554,7 +8554,7 @@
                   "Gastroenterology",
                   "Pediatrics"
               ],
-        "d":  "Inflammation of both small intestine and colon; causes include infection and Crohn\u0027s disease.",
+        "d":  "Simultaneous inflammation of the small intestine and colon, caused by infection, Crohn\u0027s disease, or other inflammatory conditions.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8613,7 +8613,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Forearm muscles flexing the fingers; tested in hand and nerve injury assessment.",
+        "d":  "Forearm muscles that flex the fingers at the interphalangeal joints, assessed in hand and peripheral nerve injury evaluation.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8649,7 +8649,7 @@
                   "Gastroenterology",
                   "Family Medicine"
               ],
-        "d":  "Inflammation of the stomach lining from H. pylori, NSAIDs, or alcohol; causes epigastric pain and nausea.",
+        "d":  "Inflammation of the gastric mucosa caused by H. pylori, NSAIDs, or alcohol, presenting with epigastric pain and nausea.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -8688,7 +8688,7 @@
                   "Orthopedics",
                   "Pediatrics"
               ],
-        "d":  "Knees angling inward; normal in young children, pathological if persistent or severe.",
+        "d":  "Medial angulation of the knees toward the midline, a normal developmental finding in young children but pathological when persistent or pronounced.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -8701,7 +8701,7 @@
                   "Orthopedics",
                   "Pediatrics"
               ],
-        "d":  "Legs bowing outward at the knees; normal in infants under age 2, pathological if persistent.",
+        "d":  "Lateral bowing of the legs at the knees, a normal finding in early infancy that becomes pathological when persistent beyond typical developmental resolution.",
         "lvl":  "⭐⭐ Important"
     },
     {
@@ -8714,7 +8714,7 @@
                   "Obstetrics \u0026 Gynecology",
                   "Endocrinology"
               ],
-        "d":  "Glucose intolerance first diagnosed during pregnancy; increases complication risk and predisposes to type 2 diabetes.",
+        "d":  "Glucose intolerance first diagnosed during pregnancy that increases perinatal complication risk and predisposes the mother to type 2 diabetes.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -8732,7 +8732,7 @@
                   "General Medicine",
                   "Endocrinology"
               ],
-        "d":  "A portable device measuring blood glucose from a small sample; essential for diabetes monitoring.",
+        "d":  "Portable device that measures blood glucose concentration from a small capillary sample, essential for diabetes self-monitoring.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8753,7 +8753,7 @@
                   "Pathology",
                   "General Medicine"
               ],
-        "d":  "The metabolic breakdown of glucose into pyruvate to produce ATP; the first step in cellular respiration.",
+        "d":  "Metabolic pathway that breaks down glucose into pyruvate to produce ATP, serving as the first and universal step in cellular respiration.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8861,7 +8861,7 @@
                   "Gastroenterology",
                   "Internal Medicine"
               ],
-        "d":  "Abnormal liver enlargement; caused by hepatitis, cirrhosis, heart failure, or malignancy.",
+        "d":  "Abnormal enlargement of the liver, caused by hepatitis, cirrhosis, congestive heart failure, or hepatic malignancy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -8903,7 +8903,7 @@
                   "Surgery",
                   "Emergency Medicine"
               ],
-        "d":  "Intestinal blockage from adhesions, hernias, or tumors preventing content passage; may cause ischemia requiring urgent intervention.",
+        "d":  "Blockage of intestinal content passage from adhesions, hernias, or tumors, potentially causing bowel ischemia and requiring urgent intervention.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -8921,7 +8921,7 @@
                   "General Medicine",
                   "Neurology"
               ],
-        "d":  "Relating to the same side of the body; used in neurological and anatomical descriptions.",
+        "d":  "Relating to or affecting the same side of the body, commonly used in neurological and anatomical descriptions.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -8938,7 +8938,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Relating to both lips and teeth; sounds produced with upper teeth and lower lip (e.g. /f/, /v/).",
+        "d":  "Relating to both the lips and teeth, as in sounds produced by contact between the upper teeth and lower lip, such as /f/ and /v/.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -8995,7 +8995,7 @@
                   "Emergency Medicine",
                   "Otolaryngology"
               ],
-        "d":  "Sudden involuntary laryngeal muscle contraction causing vocal cord closure; a medical emergency.",
+        "d":  "Sudden involuntary contraction of the laryngeal muscles causing vocal cord closure and airway obstruction, constituting a medical emergency.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -9016,7 +9016,7 @@
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
               ],
-        "d":  "The first day of the most recent menstrual period; used to calculate gestational age and due date.",
+        "d":  "The first day of the most recent menstrual period, used as the reference point for calculating gestational age and estimated due date.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -9034,7 +9034,7 @@
                   "Hematology",
                   "Pathology"
               ],
-        "d":  "White blood cell; classified as granulocytes (neutrophils, eosinophils, basophils) and agranulocytes (lymphocytes, monocytes).",
+        "d":  "White blood cell classified as granulocytes (neutrophils, eosinophils, basophils) or agranulocytes (lymphocytes, monocytes), collectively forming the cellular immune defense.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9052,7 +9052,7 @@
         "f":  [
                   "Anatomy"
               ],
-        "d":  "Relating to both tongue and gum; used in dental anatomy for structures at the tongue-gingiva interface.",
+        "d":  "Relating to both the tongue and gingiva, used in dental anatomy to describe structures or surfaces at their interface.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -9091,7 +9091,7 @@
                   "Otolaryngology",
                   "Pathology"
               ],
-        "d":  "Abnormal tongue enlargement; associated with Down syndrome, acromegaly, and hypothyroidism.",
+        "d":  "Abnormal enlargement of the tongue, associated with Down syndrome, acromegaly, hypothyroidism, and amyloidosis.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -9112,7 +9112,7 @@
                   "General Medicine",
                   "Pediatrics"
               ],
-        "d":  "Nutritional imbalance impairing physiological function; encompasses undernutrition, overnutrition, and micronutrient deficiency.",
+        "d":  "Nutritional imbalance that impairs physiological function, encompassing undernutrition, overnutrition, and micronutrient deficiency.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -9130,7 +9130,7 @@
                   "Oncology",
                   "Dermatology"
               ],
-        "d":  "A malignant tumour from melanocytes; the most dangerous skin cancer with high metastatic potential.",
+        "d":  "Malignant tumor arising from melanocytes, the most dangerous form of skin cancer due to its high metastatic potential.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9151,7 +9151,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "One of two C-shaped fibrocartilage structures in the knee; commonly torn in sports injuries.",
+        "d":  "One of two C-shaped fibrocartilaginous structures in the knee joint that cushion and stabilize the joint, commonly torn in sports injuries.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -9164,7 +9164,7 @@
                   "General Medicine",
                   "Endocrinology"
               ],
-        "d":  "The sum of all chemical reactions maintaining life; includes catabolism and anabolism.",
+        "d":  "The sum of all chemical reactions in living cells that maintain life, comprising catabolic (breakdown) and anabolic (synthesis) processes.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -9203,7 +9203,7 @@
                   "Oncology",
                   "Gastroenterology"
               ],
-        "d":  "Inflammation and ulceration of mucous membranes; a common painful side effect of chemotherapy.",
+        "d":  "Inflammation and ulceration of mucous membranes, a common and painful complication of chemotherapy and radiation therapy.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "s":  [
@@ -9220,7 +9220,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Relating to the muscles and skeleton together; provides structure, movement, and organ protection.",
+        "d":  "Relating to the muscles and skeleton as a combined system that provides structure, enables movement, and protects vital organs.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -9258,7 +9258,7 @@
                   "Hematology",
                   "Pathology"
               ],
-        "d":  "Immature bone marrow precursor cell that develops into granulocytes; elevated counts are characteristic of acute myeloid leukemia (AML).",
+        "d":  "Immature bone marrow precursor cell that develops into granulocytes, with elevated circulating counts characteristic of acute myeloid leukemia.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -9298,7 +9298,7 @@
                   "Hematology",
                   "Oncology"
               ],
-        "d":  "Malignant plasma cell neoplasm in the bone marrow; multiple myeloma causes bone destruction, anemia, hypercalcemia, and immune impairment.",
+        "d":  "Malignant proliferation of plasma cells in the bone marrow causing bone destruction, anemia, hypercalcemia, and immune impairment.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9318,7 +9318,7 @@
         "f":  [
                   "Otolaryngology"
               ],
-        "d":  "Fungal infection of the tympanic membrane; associated with prolonged antibiotic use.",
+        "d":  "Fungal infection of the tympanic membrane, typically associated with prolonged antibiotic use or chronic ear moisture.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -9336,7 +9336,7 @@
                   "Anatomy",
                   "Otolaryngology"
               ],
-        "d":  "The upper pharynx behind the nasal cavity; contains adenoids and Eustachian tube openings.",
+        "d":  "The uppermost region of the pharynx lying behind the nasal cavity, containing the adenoids and the openings of the Eustachian tubes.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9354,7 +9354,7 @@
         "f":  [
                   "Pediatrics"
               ],
-        "d":  "Relating to the first 28 days of life; critical for identifying congenital conditions.",
+        "d":  "Relating to the first 28 days of life, a critical period for identifying and managing congenital conditions and birth-related complications.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -9393,7 +9393,7 @@
                   "Neurology",
                   "Pathology"
               ],
-        "d":  "The formation of new neurons; primarily during fetal development with limited adult continuation.",
+        "d":  "The formation of new neurons, occurring primarily during fetal development with limited continuation in certain adult brain regions.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -9435,7 +9435,7 @@
                   "Anatomy",
                   "Neurology"
               ],
-        "d":  "Relating to eye movement; CN III controls most eye movements, pupil constriction, and eyelid elevation.",
+        "d":  "Relating to eye movement, with cranial nerve III controlling most extraocular movements, pupillary constriction, and eyelid elevation.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "r":  [
@@ -9453,7 +9453,7 @@
                   "Oncology",
                   "Pathology"
               ],
-        "d":  "A mutated gene promoting uncontrolled cell division; derived from normal proto-oncogenes.",
+        "d":  "A mutated or overexpressed gene that promotes uncontrolled cell division, derived from normal proto-oncogenes by mutation or amplification.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9471,7 +9471,7 @@
                   "Anatomy",
                   "Otolaryngology"
               ],
-        "d":  "The middle pharynx with tonsils, soft palate, and tongue base; a site for tonsillitis and HPV-related cancer.",
+        "d":  "The middle region of the pharynx containing the tonsils, soft palate, and tongue base, and a site for tonsillitis and HPV-related oropharyngeal cancer.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9489,7 +9489,7 @@
                   "Orthopedics",
                   "Radiology"
               ],
-        "d":  "A bony projection at joint edges from cartilage degeneration; can cause pain and restrict movement.",
+        "d":  "A bony outgrowth at the margins of a joint resulting from cartilage degeneration, causing pain and restricting movement in osteoarthritis.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9506,7 +9506,7 @@
         "f":  [
                   "Otolaryngology"
               ],
-        "d":  "Ear canal discharge; may be watery (CSF leak), purulent (infection), or bloody (trauma).",
+        "d":  "Discharge from the ear canal, which may be watery (cerebrospinal fluid leak), purulent (infection), or bloody (trauma).",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "r":  [
@@ -9547,7 +9547,7 @@
                   "Neurology",
                   "Emergency Medicine"
               ],
-        "d":  "Complete loss of voluntary muscle function from nervous system damage; may be temporary or permanent.",
+        "d":  "Complete loss of voluntary muscle function resulting from nervous system damage, which may be temporary or permanent depending on the cause.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -9586,7 +9586,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Needle aspiration of pericardial fluid; performed emergently for cardiac tamponade.",
+        "d":  "Needle aspiration of fluid from the pericardial sac, performed as an emergency procedure to relieve cardiac tamponade.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -9609,7 +9609,7 @@
         "f":  [
                   "Dentistry"
               ],
-        "d":  "Serious gum and bone infection from plaque bacteria; a leading cause of tooth loss.",
+        "d":  "Serious bacterial infection of the gums and supporting bone caused by plaque accumulation, and a leading cause of tooth loss in adults.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -9630,7 +9630,7 @@
                   "Anatomy",
                   "Orthopedics"
               ],
-        "d":  "Dense fibrous membrane covering bone surfaces; contains blood vessels and osteoblasts for bone repair.",
+        "d":  "Dense fibrous membrane covering the outer surfaces of bone, containing blood vessels and osteoblasts that supply nutrition and enable bone repair.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -9651,7 +9651,7 @@
                   "Anatomy",
                   "Pathology"
               ],
-        "d":  "Surrounding blood vessels; perivascular inflammation is seen in vasculitis and autoimmune diseases.",
+        "d":  "Surrounding or adjacent to blood vessels, a term applied to inflammatory infiltrates seen in vasculitis and autoimmune conditions.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -9710,7 +9710,7 @@
                   "Endocrinology",
                   "General Medicine"
               ],
-        "d":  "Abnormally excessive thirst; a classic symptom of diabetes mellitus and diabetes insipidus.",
+        "d":  "Abnormally excessive thirst, a classic symptom of diabetes mellitus and diabetes insipidus.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -9728,7 +9728,7 @@
                   "Endocrinology",
                   "Nephrology"
               ],
-        "d":  "Abnormally large urine production (\u003e3 litres/day); a cardinal symptom of diabetes mellitus and insipidus.",
+        "d":  "Abnormally large daily urine output, a cardinal symptom of diabetes mellitus, diabetes insipidus, and other conditions impairing urinary concentration.",
         "lvl":  "⭐⭐ Important",
         "parts":  {
                       "p":  [
@@ -9749,7 +9749,7 @@
                   "Anatomy",
                   "Otolaryngology"
               ],
-        "d":  "Located behind the ear; used for cochlear implant incisions and lymph node assessment.",
+        "d":  "Located behind the ear, a region used for cochlear implant surgical incisions and lymph node assessment.",
         "lvl":  "⭐ Good to know",
         "parts":  {
                       "p":  [
@@ -9770,7 +9770,7 @@
                   "General Medicine",
                   "Surgery"
               ],
-        "d":  "Relating to the period following surgery; includes pain management, wound care, and monitoring.",
+        "d":  "Relating to the period immediately following surgery, encompassing pain management, wound care, and clinical monitoring.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -9788,7 +9788,7 @@
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
               ],
-        "d":  "Occurring after childbirth; the postpartum period typically refers to the six weeks following delivery.",
+        "d":  "Occurring after childbirth, with the postpartum period typically spanning the first six weeks following delivery.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -9806,7 +9806,7 @@
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
               ],
-        "d":  "Occurring before birth; prenatal care includes check-ups and screening during pregnancy.",
+        "d":  "Occurring or provided before birth, encompassing the medical care, monitoring, and screening performed during pregnancy.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -9824,7 +9824,7 @@
                   "General Medicine",
                   "Surgery"
               ],
-        "d":  "Relating to the period before surgery; includes history, examination, investigations, and consent.",
+        "d":  "Relating to the period before surgery, encompassing history taking, physical examination, investigations, and informed consent.",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "p":  [
@@ -9862,7 +9862,7 @@
                   "General Medicine",
                   "Orthopedics"
               ],
-        "d":  "Extension forward beyond a surface; in dentistry refers to jaw position, in neurology to disc herniation.",
+        "d":  "Extension of a structure forward beyond its normal surface, referring in dentistry to jaw position and in spinal medicine to disc herniation.",
         "lvl":  "⭐ Good to know"
     },
     {
@@ -9917,7 +9917,7 @@
                   "Otolaryngology",
                   "Family Medicine"
               ],
-        "d":  "Excessive nasal discharge; may be clear (viral URI, allergy, CSF leak) or purulent (bacterial sinusitis).",
+        "d":  "Excessive nasal discharge that may be clear (viral infection, allergy, or cerebrospinal fluid leak) or purulent (bacterial sinusitis).",
         "lvl":  "⭐⭐⭐ Essential",
         "parts":  {
                       "r":  [
@@ -9938,7 +9938,7 @@
                   "General Medicine",
                   "Emergency Medicine"
               ],
-        "d":  "Episodes of intense, uncontrollable shivering accompanied by a rapid rise in body temperature; a classic sign of bacteremia or sepsis.",
+        "d":  "Episodes of intense, uncontrollable shivering accompanied by a rapid rise in body temperature, a classic sign of bacteremia or sepsis.",
         "lvl":  "⭐⭐ Important"
     },
     {

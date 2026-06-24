@@ -1476,7 +1476,7 @@
         "f":  [
                   "Cardiology"
               ],
-        "d":  "Percentage of blood ejected from the left ventricle per heartbeat, a key measure of cardiac function with normal values at or above 55%.",
+        "d":  "Percentage of blood ejected from the left ventricle per heartbeat, a key measure of cardiac function used to classify heart failure severity.",
         "lvl":  "⭐⭐ Important"
     },
     {

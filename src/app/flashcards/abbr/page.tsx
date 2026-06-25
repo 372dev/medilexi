@@ -25,7 +25,7 @@ export default function AbbrFlashcardsPage() {
   /* ── Settings ── */
   const [showSettings, setShowSettings] = useState(true)
   const [mode,        setMode]      = useState<'study' | 'quiz'>('quiz')
-  const [direction,   setDirection] = useState<'abbr-en' | 'en-abbr'>('abbr-en')
+  const [direction,   setDirection] = useState<'abbr-en' | 'en-abbr'>('en-abbr')
   const [lvlFilter,   setLvl]       = useState<number | null>(null)
   const [countLimit,  setCount]     = useState<number | null>(null)
   const [fieldFilter, setField]     = useState<string | null>(null)
@@ -142,8 +142,8 @@ export default function AbbrFlashcardsPage() {
             <div style={{ marginBottom: '1.25rem' }}>
               <div style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)', marginBottom: '0.5rem' }}>Direction</div>
               <div className="c-toggle">
-                <button className={`c-toggle__btn ${!isEnAbbr ? 'c-toggle__btn--active' : ''}`} onClick={() => setDirection('abbr-en')}>Abbr → Term</button>
                 <button className={`c-toggle__btn ${isEnAbbr  ? 'c-toggle__btn--active' : ''}`} onClick={() => setDirection('en-abbr')}>Term → Abbr</button>
+                <button className={`c-toggle__btn ${!isEnAbbr ? 'c-toggle__btn--active' : ''}`} onClick={() => setDirection('abbr-en')}>Abbr → Term</button>
               </div>
             </div>
 

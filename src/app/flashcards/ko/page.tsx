@@ -260,7 +260,7 @@ export default function KoFlashcardsPage() {
               {/* Flip card */}
               <div onClick={() => setFlipped(f => !f)}
                 style={{ perspective: '1000px', height: '380px', cursor: 'pointer', marginBottom: '1.25rem' }}>
-                <div style={{ position: 'relative', width: '100%', height: '100%', transformStyle: 'preserve-3d', transition: 'transform 0.45s ease', transform: flipped ? 'rotateY(180deg)' : 'none' }}>
+                <div style={{ position: 'relative', width: '100%', height: '100%', transformStyle: 'preserve-3d', transition: 'transform 0.2s ease', transform: flipped ? 'rotateY(180deg)' : 'none' }}>
                   {/* Front */}
                   <div style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '0.75rem', padding: '2rem', background: 'var(--color-panel)', border: '1px solid var(--color-border)', boxShadow: '2px 2px 0 0 var(--color-border)' }}>
                     <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} style={{ fontSize: '1rem' }}>{STARS[card.lvl]}</span>

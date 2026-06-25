@@ -89,11 +89,24 @@ export default function WordPartsPage() {
               <div style={{ fontSize:'1.2rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.25rem' }}>{p.wp}</div>
               <div style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', lineHeight:1.6 }}>{p.d}</div>
               <div style={{ display:'flex', flexDirection:'column', gap:'0.35rem' }}>
-                {(isOpen ? p.ex : p.ex.slice(0, 2)).map(([term, def], j) => (
+                {p.ex.slice(0, 2).map(([term, def], j) => (
                   <div key={j} className={`c-ex-pill c-ex-pill--${p.t}`}>
                     <strong>{term}</strong> — {def}
                   </div>
                 ))}
+                {p.ex.length > 2 && (
+                  <div className={`c-expand-wrap${isOpen ? ' c-expand-wrap--open' : ''}`}>
+                    <div>
+                      <div style={{ display:'flex', flexDirection:'column', gap:'0.35rem', paddingTop:'0.35rem' }}>
+                        {p.ex.slice(2).map(([term, def], j) => (
+                          <div key={j} className={`c-ex-pill c-ex-pill--${p.t}`}>
+                            <strong>{term}</strong> — {def}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
               <div style={{ display:'flex', justifyContent:'center', marginTop:'0.75rem' }}>
                 <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', opacity:0.55, pointerEvents:'none' }}>

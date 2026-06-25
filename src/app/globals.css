@@ -398,6 +398,28 @@ body.day .c-part-s { background: rgba(201,64,64,0.1); border-bottom: 2px solid #
 body.day .c-ex-pill--p, body.day .c-ex-pill--r, body.day .c-ex-pill--s { color: #374151; }
 body.day .c-ex-pill strong { color: #111827; }
 
+/* Word part card example expand animation */
+.c-expand-wrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.22s ease;
+}
+.c-expand-wrap--open { grid-template-rows: 1fr; }
+.c-expand-wrap > div { overflow: hidden; }
+
+/* Search match highlight */
+.c-search-match {
+  background: rgba(240,180,41,0.22);
+  color: var(--color-gold);
+  border-radius: 2px;
+  font-style: normal;
+  padding: 0 1px;
+}
+body.day .c-search-match {
+  background: rgba(24,95,165,0.13);
+  color: var(--color-gold);
+}
+
 /* Definition expand toggle */
 .c-def-toggle {
   background: none;

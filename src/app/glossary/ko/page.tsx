@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo, useRef } from 'react'
+import { useState, useMemo, useRef, type ReactNode } from 'react'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
 import baseData from '@/data/medical_vocab.json'
@@ -109,6 +109,20 @@ function getSegments(en_h: string, parts?: BaseEntry['parts']): Segment[] {
 
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 
+type MatchMap = Partial<Record<string, readonly [number,number][]>>
+
+function hi(text: string, idx?: readonly [number,number][]): ReactNode {
+  if (!idx?.length) return text
+  const parts: ReactNode[] = []; let cur = 0
+  for (const [s, e] of idx) {
+    if (s > cur) parts.push(text.slice(cur, s))
+    parts.push(<mark key={s} className="c-search-match">{text.slice(s, e+1)}</mark>)
+    cur = e + 1
+  }
+  if (cur < text.length) parts.push(text.slice(cur))
+  return <>{parts}</>
+}
+
 const KO_FIELD_PRIORITY: Record<string, number> = {
   ko_h: 0, en_h: 0, abbr: 1, ko_l: 2, en_l: 2, d_ko: 3, d: 3,
 }
@@ -130,25 +144,26 @@ const fuseKo = new Fuse(vocab, {
   includeMatches: true,
 })
 
-function KoCard({ v, defLang, onFieldClick }: { v: MergedEntry; defLang: 'ko' | 'en'; onFieldClick: (f: string) => void }) {
+function KoCard({ v, defLang, onFieldClick, mm }: { v: MergedEntry; defLang: 'ko' | 'en'; onFieldClick: (f: string) => void; mm?: MatchMap }) {
   const [hovered, setHovered] = useState(false)
   const segs = useMemo(() => getSegments(v.en_h, v.parts), [v])
   const definition = defLang === 'en' ? v.d : (v.d_ko || v.d)
+  const defKey = defLang === 'en' ? 'd' : 'd_ko'
   return (
     <div className={`c-card ${LVL_CARD_CLASS[v.lvl]||''}`} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
         <span className={`c-stars ${STAR_CLASS[v.lvl]||''}`}>{STARS[v.lvl]}</span>
-        {v.abbr && <span className="c-abbr">{v.abbr}</span>}
+        {v.abbr && <span className="c-abbr">{hi(v.abbr, mm?.abbr)}</span>}
       </div>
       <div style={{ fontSize:'1.15rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.15rem', lineHeight:1.3 }}>
         {hovered && v.parts ? segs.map((s,i) => s.wp
           ? <span key={i} className={`c-part-highlight c-part-${s.type}`} data-tooltip={`${s.wp} · ${s.meaning}`}>{s.text}</span>
-          : <span key={i}>{s.text}</span>) : v.en_h}
+          : <span key={i}>{s.text}</span>) : hi(v.en_h, mm?.en_h)}
       </div>
-      {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.3rem' }}>{v.en_l}</div>}
-      {v.ko_h && <div className="ko-h">{v.ko_h}</div>}
-      {v.ko_l && <div className="ko-l">{v.ko_l}</div>}
-      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem' }}>{definition}</p>
+      {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.3rem' }}>{hi(v.en_l, mm?.en_l)}</div>}
+      {v.ko_h && <div className="ko-h">{hi(v.ko_h, mm?.ko_h)}</div>}
+      {v.ko_l && <div className="ko-l">{hi(v.ko_l, mm?.ko_l)}</div>}
+      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem' }}>{hi(definition, mm?.[defKey])}</p>
       <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>
         {v.f.map(f => (
           <button key={f} className="c-field-badge" onClick={() => onFieldClick(f)}>{f}</button>
@@ -166,7 +181,9 @@ export default function KoGlossaryPage() {
   const [levelFilter, setLevel] = useState<number|null>(null)
   const [defLang, setDefLang]   = useState<'ko'|'en'>('ko')
 
-  const filtered = useMemo(() => {
+  type CardEntry = MergedEntry & { _mm?: MatchMap }
+
+  const filtered = useMemo((): CardEntry[] => {
     const q = searchQuery.trim()
 
     if (!q) {
@@ -177,7 +194,7 @@ export default function KoGlossaryPage() {
       })
     }
 
-    let results: MergedEntry[]
+    let results: CardEntry[]
 
     if (isKorean(q)) {
       // Score each entry by best Korean field match position
@@ -217,7 +234,7 @@ export default function KoGlossaryPage() {
           if (pa !== pb) return pa - pb
           return (a.score ?? 1) - (b.score ?? 1)
         })
-        .map(r => r.item)
+        .map(r => ({ ...r.item, _mm: Object.fromEntries(r.matches?.map(m => [m.key!, m.indices]) ?? []) as MatchMap }))
         .filter(v => !seen.has(v.en_h))
 
       results = [...scored.map(s => s.entry), ...fuseRest]
@@ -229,7 +246,7 @@ export default function KoGlossaryPage() {
           if (pa !== pb) return pa - pb
           return (a.score ?? 1) - (b.score ?? 1)
         })
-        .map(r => r.item)
+        .map(r => ({ ...r.item, _mm: Object.fromEntries(r.matches?.map(m => [m.key!, m.indices]) ?? []) as MatchMap }))
     }
 
     return results.filter(v => {
@@ -293,7 +310,7 @@ export default function KoGlossaryPage() {
 
       {/* ── Cards ── */}
       <div className="c-grid">
-        {filtered.map((v,i) => <KoCard key={i} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} />)}
+        {filtered.map((v,i) => <KoCard key={i} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
       </div>
       {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
     </>

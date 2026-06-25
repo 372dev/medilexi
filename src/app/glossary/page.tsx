@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo, Suspense } from 'react'
+import { useState, useMemo, Suspense, type ReactNode } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
@@ -69,22 +69,36 @@ function getSegments(en_h: string, parts?: VocabEntry['parts']): Segment[] {
 
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 
-function Card({ v, onFieldClick }: { v: VocabEntry; onFieldClick: (f: string) => void }) {
+type MatchMap = Partial<Record<string, readonly [number,number][]>>
+
+function hi(text: string, idx?: readonly [number,number][]): ReactNode {
+  if (!idx?.length) return text
+  const parts: ReactNode[] = []; let cur = 0
+  for (const [s, e] of idx) {
+    if (s > cur) parts.push(text.slice(cur, s))
+    parts.push(<mark key={s} className="c-search-match">{text.slice(s, e+1)}</mark>)
+    cur = e + 1
+  }
+  if (cur < text.length) parts.push(text.slice(cur))
+  return <>{parts}</>
+}
+
+function Card({ v, onFieldClick, mm }: { v: VocabEntry; onFieldClick: (f: string) => void; mm?: MatchMap }) {
   const [hovered, setHovered] = useState(false)
   const segs = useMemo(() => getSegments(v.en_h, v.parts), [v])
   return (
     <div className={`c-card ${LVL_CARD_CLASS[v.lvl]||''}`} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
         <span className={`c-stars ${STAR_CLASS[v.lvl]||''}`}>{STARS[v.lvl]}</span>
-        {v.abbr && <span className="c-abbr">{v.abbr}</span>}
+        {v.abbr && <span className="c-abbr">{hi(v.abbr, mm?.abbr)}</span>}
       </div>
       <div style={{ fontSize:'1.15rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.15rem', lineHeight:1.3 }}>
         {hovered && v.parts ? segs.map((s,i) => s.wp
           ? <span key={i} className={`c-part-highlight c-part-${s.type}`} data-tooltip={`${s.wp} · ${s.meaning}`}>{s.text}</span>
-          : <span key={i}>{s.text}</span>) : v.en_h}
+          : <span key={i}>{s.text}</span>) : hi(v.en_h, mm?.en_h)}
       </div>
-      {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.4rem' }}>{v.en_l}</div>}
-      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem' }}>{v.d}</p>
+      {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.4rem' }}>{hi(v.en_l, mm?.en_l)}</div>}
+      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem' }}>{hi(v.d, mm?.d)}</p>
       <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>
         {v.f.map(f => (
           <button key={f} className="c-field-badge" onClick={() => onFieldClick(f)}>{f}</button>
@@ -100,7 +114,9 @@ function GlossaryContent() {
   const [fieldFilter, setField] = useState<string|null>(null)
   const [levelFilter, setLevel] = useState<number|null>(null)
 
-  const filtered = useMemo(() => {
+  type CardEntry = VocabEntry & { _mm?: MatchMap }
+
+  const filtered = useMemo((): CardEntry[] => {
     const q = search.trim()
 
     if (!q) {
@@ -118,7 +134,10 @@ function GlossaryContent() {
         if (pa !== pb) return pa - pb
         return (a.score ?? 1) - (b.score ?? 1)
       })
-      .map(r => r.item)
+      .map(r => ({
+        ...r.item,
+        _mm: Object.fromEntries(r.matches?.map(m => [m.key!, m.indices]) ?? []) as MatchMap,
+      }))
       .filter(v => {
         if (fieldFilter && !v.f.includes(fieldFilter)) return false
         if (levelFilter && v.lvl !== levelFilter) return false
@@ -155,7 +174,7 @@ function GlossaryContent() {
 
       {/* ── Cards ── */}
       <div className="c-grid">
-        {filtered.map((v,i) => <Card key={i} v={v} onFieldClick={f => setField(f === fieldFilter ? null : f)} />)}
+        {filtered.map((v,i) => <Card key={i} v={v} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
       </div>
       {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
     </>

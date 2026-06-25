@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 const BASE_URL = 'https://medilexi.vercel.app'
-const LAST_MOD   = '2026-06-23'
+const LAST_MOD   = '2026-06-25'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

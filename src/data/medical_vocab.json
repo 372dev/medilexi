@@ -3,8 +3,6 @@
         "en_h":  "Hypertension",
         "en_l":  "High blood pressure",
         "abbr":  "HTN",
-        "ko_h":  "고혈압",
-        "ko_l":  "혈압이 높음",
         "f":  [
                   "Family Medicine",
                   "Cardiology",
@@ -25,8 +23,6 @@
         "en_h":  "Diabetes mellitus",
         "en_l":  "Sugar diabetes",
         "abbr":  "DM",
-        "ko_h":  "당뇨병",
-        "ko_l":  "당뇨",
         "f":  [
                   "Family Medicine",
                   "Internal Medicine",
@@ -44,8 +40,6 @@
         "en_h":  "Preventive care",
         "en_l":  "Check-up / screening",
         "abbr":  "",
-        "ko_h":  "예방 의료",
-        "ko_l":  "검진 / 예방 관리",
         "f":  [
                   "Family Medicine"
               ],
@@ -56,8 +50,6 @@
         "en_h":  "Comorbidity",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "동반 질환",
-        "ko_l":  "",
         "f":  [
                   "Family Medicine",
                   "Internal Medicine"
@@ -69,8 +61,6 @@
         "en_h":  "Chronic disease management",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "만성 질환 관리",
-        "ko_l":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -81,8 +71,6 @@
         "en_h":  "Obesity",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "비만",
-        "ko_l":  "",
         "f":  [
                   "Family Medicine",
                   "Internal Medicine",
@@ -95,8 +83,6 @@
         "en_h":  "Upper respiratory tract infection",
         "en_l":  "Common cold",
         "abbr":  "URI",
-        "ko_h":  "상기도 감염",
-        "ko_l":  "감기",
         "f":  [
                   "Family Medicine",
                   "Infectious Disease",
@@ -109,8 +95,6 @@
         "en_h":  "Consent",
         "en_l":  "Agreement to treatment",
         "abbr":  "",
-        "ko_h":  "동의",
-        "ko_l":  "치료 동의",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -122,8 +106,6 @@
         "en_h":  "Chief complaint",
         "en_l":  "Main problem",
         "abbr":  "CC",
-        "ko_h":  "주호소",
-        "ko_l":  "주된 증상",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -135,8 +117,6 @@
         "en_h":  "Medical history",
         "en_l":  "Past health record",
         "abbr":  "",
-        "ko_h":  "병력",
-        "ko_l":  "과거 병력",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -148,8 +128,6 @@
         "en_h":  "Differential Diagnosis",
         "en_l":  "Possible diagnoses",
         "abbr":  "DDx",
-        "ko_h":  "감별진단",
-        "ko_l":  "감별진단 후보",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -169,8 +147,6 @@
         "en_h":  "Prognosis",
         "en_l":  "Expected outcome",
         "abbr":  "Px",
-        "ko_h":  "예후",
-        "ko_l":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine",
@@ -191,8 +167,6 @@
         "en_h":  "Allergy",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "알레르기",
-        "ko_l":  "",
         "f":  [
                   "Family Medicine",
                   "Immunology"
@@ -204,8 +178,6 @@
         "en_h":  "Prescription",
         "en_l":  "Doctor\u0027s order",
         "abbr":  "",
-        "ko_h":  "처방",
-        "ko_l":  "처방전",
         "f":  [
                   "Family Medicine",
                   "Pharmacology"
@@ -222,8 +194,6 @@
         "en_h":  "Symptom",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "증상",
-        "ko_l":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -240,8 +210,6 @@
         "en_h":  "Sign",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "징후",
-        "ko_l":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -252,8 +220,6 @@
     {
         "en_h":  "Vital signs",
         "en_l":  "",
-        "ko_h":  "활력징후",
-        "ko_l":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -265,8 +231,6 @@
         "en_h":  "Acute",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "급성",
-        "ko_l":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -277,8 +241,6 @@
         "en_h":  "Myocardial Infarction",
         "en_l":  "Heart attack",
         "abbr":  "MI",
-        "ko_h":  "심근경색증",
-        "ko_l":  "심장마비",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -296,8 +258,6 @@
         "en_h":  "Acute coronary syndrome",
         "en_l":  "",
         "abbr":  "ACS",
-        "ko_h":  "급성 관상동맥 증후군",
-        "ko_l":  "",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -309,8 +269,6 @@
         "en_h":  "Angina Pectoris",
         "en_l":  "Chest pain",
         "abbr":  "Angina",
-        "ko_h":  "협심증",
-        "ko_l":  "가슴 통증",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -322,8 +280,6 @@
         "en_h":  "Heart failure",
         "en_l":  "Weak heart",
         "abbr":  "HF",
-        "ko_h":  "심부전",
-        "ko_l":  "심장이 약해짐",
         "f":  [
                   "Cardiology",
                   "Internal Medicine"
@@ -335,8 +291,6 @@
         "en_h":  "Arrhythmia",
         "en_l":  "Irregular heartbeat",
         "abbr":  "",
-        "ko_h":  "부정맥",
-        "ko_l":  "심장 박동 불규칙",
         "f":  [
                   "Cardiology"
               ],
@@ -352,8 +306,6 @@
         "en_h":  "Atrial Fibrillation",
         "en_l":  "Irregular heartbeat",
         "abbr":  "AFib",
-        "ko_h":  "심방세동",
-        "ko_l":  "심장이 불규칙하게 뜀",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -371,8 +323,6 @@
         "en_h":  "Electrocardiogram",
         "en_l":  "Heart tracing",
         "abbr":  "ECG / EKG",
-        "ko_h":  "심전도",
-        "ko_l":  "심전도 검사",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -393,8 +343,6 @@
         "en_h":  "Coronary artery disease",
         "en_l":  "Blocked heart arteries",
         "abbr":  "CAD",
-        "ko_h":  "관상동맥질환",
-        "ko_l":  "심장 혈관 막힘",
         "f":  [
                   "Cardiology",
                   "Internal Medicine"
@@ -411,8 +359,6 @@
         "en_h":  "Atherosclerosis",
         "en_l":  "Artery hardening",
         "abbr":  "",
-        "ko_h":  "동맥경화증",
-        "ko_l":  "혈관이 딱딱해짐",
         "f":  [
                   "Cardiology",
                   "Internal Medicine"
@@ -432,8 +378,6 @@
         "en_h":  "Cerebrovascular Accident",
         "en_l":  "Stroke",
         "abbr":  "CVA",
-        "ko_h":  "뇌혈관 사고",
-        "ko_l":  "뇌졸중",
         "f":  [
                   "Neurology",
                   "Cardiology",
@@ -452,8 +396,6 @@
         "en_h":  "Cerebral infarction",
         "en_l":  "Ischemic stroke",
         "abbr":  "",
-        "ko_h":  "뇌경색",
-        "ko_l":  "허혈성 뇌졸중",
         "f":  [
                   "Neurology",
                   "Cardiology",
@@ -471,8 +413,6 @@
         "en_h":  "Cerebral hemorrhage",
         "en_l":  "Hemorrhagic stroke",
         "abbr":  "",
-        "ko_h":  "뇌출혈",
-        "ko_l":  "출혈성 뇌졸중",
         "f":  [
                   "Neurology",
                   "Cardiology",
@@ -494,8 +434,6 @@
         "en_h":  "Ischemia",
         "en_l":  "Lack of blood flow",
         "abbr":  "",
-        "ko_h":  "허혈",
-        "ko_l":  "피가 안 통함",
         "f":  [
                   "Neurology",
                   "Cardiology",
@@ -513,8 +451,6 @@
         "en_h":  "Transient Ischemic Attack",
         "en_l":  "Mini-stroke",
         "abbr":  "TIA",
-        "ko_h":  "일과성 허혈 발작",
-        "ko_l":  "미니 뇌졸중",
         "f":  [
                   "Neurology",
                   "Cardiology",
@@ -532,8 +468,6 @@
         "en_h":  "Cardiac arrest",
         "en_l":  "Heart stops",
         "abbr":  "",
-        "ko_h":  "심정지",
-        "ko_l":  "심장이 멈춤",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -550,8 +484,6 @@
         "en_h":  "Hemorrhage",
         "en_l":  "Bleeding",
         "abbr":  "",
-        "ko_h":  "출혈",
-        "ko_l":  "피가 남",
         "f":  [
                   "Emergency Medicine",
                   "Neurology",
@@ -572,8 +504,6 @@
         "en_h":  "Palpitation",
         "en_l":  "Racing / fluttering heartbeat",
         "abbr":  "",
-        "ko_h":  "심계항진",
-        "ko_l":  "가슴이 두근거림",
         "f":  [
                   "Cardiology"
               ],
@@ -584,8 +514,6 @@
         "en_h":  "Diagnosis",
         "en_l":  "",
         "abbr":  "Dx",
-        "ko_h":  "진단",
-        "ko_l":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -604,8 +532,6 @@
         "en_h":  "Treatment",
         "en_l":  "",
         "abbr":  "Tx",
-        "ko_h":  "치료",
-        "ko_l":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -616,8 +542,6 @@
         "en_h":  "Chronic",
         "en_l":  "Long-term",
         "abbr":  "",
-        "ko_h":  "만성",
-        "ko_l":  "오래된",
         "f":  [
                   "General Medicine"
               ],
@@ -628,8 +552,6 @@
         "en_h":  "Inflammation",
         "en_l":  "Swelling and redness",
         "abbr":  "",
-        "ko_h":  "염증",
-        "ko_l":  "붓고 빨개짐",
         "f":  [
                   "General Medicine"
               ],
@@ -640,8 +562,6 @@
         "en_h":  "Infection",
         "en_l":  "Germ invasion",
         "abbr":  "",
-        "ko_h":  "감염",
-        "ko_l":  "세균 침입",
         "f":  [
                   "General Medicine",
                   "Infectious Disease"
@@ -653,8 +573,6 @@
         "en_h":  "Fever",
         "en_l":  "High temperature",
         "abbr":  "",
-        "ko_h":  "발열",
-        "ko_l":  "열이 남",
         "f":  [
                   "General Medicine",
                   "Infectious Disease"
@@ -666,8 +584,6 @@
         "en_h":  "Pain",
         "en_l":  "Hurt",
         "abbr":  "",
-        "ko_h":  "통증",
-        "ko_l":  "아픔",
         "f":  [
                   "General Medicine"
               ],
@@ -678,8 +594,6 @@
         "en_h":  "Biopsy",
         "en_l":  "Tissue sample",
         "abbr":  "Bx",
-        "ko_h":  "생검 / 조직검사",
-        "ko_l":  "조직 검사",
         "f":  [
                   "General Medicine",
                   "Pathology",
@@ -697,8 +611,6 @@
         "en_h":  "Benign",
         "en_l":  "Non-cancerous",
         "abbr":  "",
-        "ko_h":  "양성",
-        "ko_l":  "암이 아님",
         "f":  [
                   "General Medicine",
                   "Oncology"
@@ -710,8 +622,6 @@
         "en_h":  "Malignant",
         "en_l":  "Cancerous",
         "abbr":  "",
-        "ko_h":  "악성",
-        "ko_l":  "암",
         "f":  [
                   "General Medicine",
                   "Oncology"
@@ -728,8 +638,6 @@
         "en_h":  "Metastasis",
         "en_l":  "Cancer spread",
         "abbr":  "",
-        "ko_h":  "전이",
-        "ko_l":  "암이 퍼짐",
         "f":  [
                   "Oncology",
                   "General Medicine"
@@ -749,8 +657,6 @@
         "en_h":  "Fracture",
         "en_l":  "Broken bone",
         "abbr":  "Fx",
-        "ko_h":  "골절",
-        "ko_l":  "뼈가 부러짐",
         "f":  [
                   "Orthopedics",
                   "Emergency Medicine"
@@ -762,8 +668,6 @@
         "en_h":  "Edema",
         "en_l":  "Swelling",
         "abbr":  "",
-        "ko_h":  "부종",
-        "ko_l":  "부음",
         "f":  [
                   "General Medicine",
                   "Cardiology",
@@ -781,8 +685,6 @@
         "en_h":  "Nausea",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "메스꺼움",
-        "ko_l":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -793,8 +695,6 @@
         "en_h":  "Dyspnea",
         "en_l":  "Shortness of breath",
         "abbr":  "SOB",
-        "ko_h":  "호흡곤란",
-        "ko_l":  "숨 가쁨",
         "f":  [
                   "General Medicine",
                   "Emergency Medicine",
@@ -815,8 +715,6 @@
         "en_h":  "Triage",
         "en_l":  "Sorting by urgency",
         "abbr":  "",
-        "ko_h":  "중증도 분류",
-        "ko_l":  "응급 분류",
         "f":  [
                   "Emergency Medicine"
               ],
@@ -827,8 +725,6 @@
         "en_h":  "Dementia",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "치매",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Psychiatry"
@@ -840,8 +736,6 @@
         "en_h":  "Alzheimer\u0027s disease",
         "en_l":  "",
         "abbr":  "AD",
-        "ko_h":  "알츠하이머병",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Psychiatry"
@@ -853,8 +747,6 @@
         "en_h":  "Epilepsy",
         "en_l":  "Seizure disorder",
         "abbr":  "",
-        "ko_h":  "뇌전증",
-        "ko_l":  "간질",
         "f":  [
                   "Neurology"
               ],
@@ -873,8 +765,6 @@
         "en_h":  "Seizure",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "발작",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Emergency Medicine"
@@ -886,8 +776,6 @@
         "en_h":  "Parkinson\u0027s disease",
         "en_l":  "",
         "abbr":  "PD",
-        "ko_h":  "파킨슨병",
-        "ko_l":  "",
         "f":  [
                   "Neurology"
               ],
@@ -898,8 +786,6 @@
         "en_h":  "Multiple sclerosis",
         "en_l":  "",
         "abbr":  "MS",
-        "ko_h":  "다발성 경화증",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Immunology"
@@ -919,8 +805,6 @@
         "en_h":  "Headache",
         "en_l":  "Head pain",
         "abbr":  "",
-        "ko_h":  "두통",
-        "ko_l":  "머리가 아픔",
         "f":  [
                   "Neurology",
                   "Family Medicine"
@@ -932,8 +816,6 @@
         "en_h":  "Migraine",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "편두통",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Family Medicine"
@@ -945,8 +827,6 @@
         "en_h":  "Neuropathy",
         "en_l":  "Nerve damage",
         "abbr":  "",
-        "ko_h":  "신경병증",
-        "ko_l":  "신경 손상",
         "f":  [
                   "Neurology",
                   "Internal Medicine"
@@ -966,8 +846,6 @@
         "en_h":  "Cognitive impairment",
         "en_l":  "Thinking problems",
         "abbr":  "",
-        "ko_h":  "인지 장애",
-        "ko_l":  "생각하는 능력이 떨어짐",
         "f":  [
                   "Neurology",
                   "Psychiatry"
@@ -979,8 +857,6 @@
         "en_h":  "Internal Medicine",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "내과",
-        "ko_l":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -991,8 +867,6 @@
         "en_h":  "Psychiatry",
         "en_l":  "Mental health medicine",
         "abbr":  "",
-        "ko_h":  "정신건강의학과",
-        "ko_l":  "정신과",
         "f":  [
                   "General Medicine"
               ],
@@ -1009,8 +883,6 @@
         "en_h":  "Pediatrics",
         "en_l":  "Children\u0027s medicine",
         "abbr":  "",
-        "ko_h":  "소아청소년과",
-        "ko_l":  "소아과",
         "f":  [
                   "General Medicine"
               ],
@@ -1021,8 +893,6 @@
         "en_h":  "Obstetrics \u0026 Gynecology",
         "en_l":  "",
         "abbr":  "OB-GYN",
-        "ko_h":  "산부인과",
-        "ko_l":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
@@ -1039,8 +909,6 @@
         "en_h":  "Surgery",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "외과",
-        "ko_l":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1051,8 +919,6 @@
         "en_h":  "Orthopedics",
         "en_l":  "Bone and joint medicine",
         "abbr":  "",
-        "ko_h":  "정형외과",
-        "ko_l":  "뼈·관절 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -1068,8 +934,6 @@
         "en_h":  "Neurology",
         "en_l":  "Brain and nerve medicine",
         "abbr":  "",
-        "ko_h":  "신경과",
-        "ko_l":  "신경 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -1088,8 +952,6 @@
         "en_h":  "Cardiology",
         "en_l":  "Heart medicine",
         "abbr":  "",
-        "ko_h":  "심장내과",
-        "ko_l":  "심장과",
         "f":  [
                   "General Medicine"
               ],
@@ -1108,8 +970,6 @@
         "en_h":  "Oncology",
         "en_l":  "Cancer medicine",
         "abbr":  "",
-        "ko_h":  "종양내과",
-        "ko_l":  "암 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -1128,8 +988,6 @@
         "en_h":  "Dyslipidemia",
         "en_l":  "Abnormal cholesterol",
         "abbr":  "",
-        "ko_h":  "이상지질혈증",
-        "ko_l":  "콜레스테롤 이상",
         "f":  [
                   "Cardiology",
                   "Family Medicine",
@@ -1153,8 +1011,6 @@
         "en_h":  "Referral",
         "en_l":  "Sending to a specialist",
         "abbr":  "",
-        "ko_h":  "진료 의뢰",
-        "ko_l":  "전문의에게 보냄",
         "f":  [
                   "Family Medicine"
               ],
@@ -1165,8 +1021,6 @@
         "en_h":  "Polypharmacy",
         "en_l":  "Taking many medications",
         "abbr":  "",
-        "ko_h":  "다약제처방 / 다제복용",
-        "ko_l":  "약을 많이 먹음",
         "f":  [
                   "General Medicine",
                   "Internal Medicine",
@@ -1187,8 +1041,6 @@
         "en_h":  "Vaccination / Immunization",
         "en_l":  "Getting a shot",
         "abbr":  "",
-        "ko_h":  "예방접종",
-        "ko_l":  "예방주사 / 백신",
         "f":  [
                   "Infectious Disease",
                   "Pediatrics",
@@ -1206,8 +1058,6 @@
         "en_h":  "Hypothyroidism",
         "en_l":  "Underactive thyroid",
         "abbr":  "",
-        "ko_h":  "갑상선 기능 저하증",
-        "ko_l":  "갑상선 저하",
         "f":  [
                   "Endocrinology",
                   "Family Medicine",
@@ -1231,8 +1081,6 @@
         "en_h":  "Osteoporosis",
         "en_l":  "Brittle bones",
         "abbr":  "",
-        "ko_h":  "골다공증",
-        "ko_l":  "뼈 약해짐",
         "f":  [
                   "Family Medicine",
                   "Orthopedics",
@@ -1253,8 +1101,6 @@
         "en_h":  "Depression",
         "en_l":  "Low mood",
         "abbr":  "",
-        "ko_h":  "우울증",
-        "ko_l":  "우울함",
         "f":  [
                   "Psychiatry",
                   "Family Medicine"
@@ -1266,8 +1112,6 @@
         "en_h":  "Urinary tract infection",
         "en_l":  "Bladder infection",
         "abbr":  "UTI",
-        "ko_h":  "요로 감염",
-        "ko_l":  "방광염 / 오줌소태",
         "f":  [
                   "Infectious Disease",
                   "Family Medicine",
@@ -1285,8 +1129,6 @@
         "en_h":  "Body mass index",
         "en_l":  "",
         "abbr":  "BMI",
-        "ko_h":  "체질량지수",
-        "ko_l":  "",
         "f":  [
                   "Family Medicine",
                   "Internal Medicine"
@@ -1298,8 +1140,6 @@
         "en_h":  "Ambulatory care",
         "en_l":  "Outpatient care",
         "abbr":  "",
-        "ko_h":  "외래 진료",
-        "ko_l":  "통원 치료",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -1311,8 +1151,6 @@
         "en_h":  "Follow-up",
         "en_l":  "Return visit",
         "abbr":  "",
-        "ko_h":  "추적 관찰",
-        "ko_l":  "후속 진료",
         "f":  [
                   "Family Medicine"
               ],
@@ -1323,8 +1161,6 @@
         "en_h":  "Screening",
         "en_l":  "Preventive test",
         "abbr":  "",
-        "ko_h":  "선별검사",
-        "ko_l":  "조기 검사",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -1336,8 +1172,6 @@
         "en_h":  "Compliance / Adherence",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "순응도",
-        "ko_l":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -1348,8 +1182,6 @@
         "en_h":  "Insomnia",
         "en_l":  "Sleeplessness",
         "abbr":  "",
-        "ko_h":  "불면증",
-        "ko_l":  "잠을 못 잠",
         "f":  [
                   "Psychiatry",
                   "Family Medicine"
@@ -1366,8 +1198,6 @@
         "en_h":  "Lower back pain",
         "en_l":  "Back ache",
         "abbr":  "",
-        "ko_h":  "요통",
-        "ko_l":  "허리 통증",
         "f":  [
                   "Family Medicine",
                   "Orthopedics",
@@ -1380,8 +1210,6 @@
         "en_h":  "Anxiety disorder",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "불안장애",
-        "ko_l":  "",
         "f":  [
                   "Psychiatry",
                   "Family Medicine"
@@ -1393,8 +1221,6 @@
         "en_h":  "Gastroesophageal Reflux Disease",
         "en_l":  "Acid reflux",
         "abbr":  "GERD",
-        "ko_h":  "위식도 역류질환",
-        "ko_l":  "속쓰림",
         "f":  [
                   "Gastroenterology",
                   "Family Medicine"
@@ -1412,8 +1238,6 @@
         "en_h":  "Anemia",
         "en_l":  "Low blood count",
         "abbr":  "",
-        "ko_h":  "빈혈",
-        "ko_l":  "적혈구 부족",
         "f":  [
                   "Hematology",
                   "Family Medicine",
@@ -1434,8 +1258,6 @@
         "en_h":  "Echocardiogram",
         "en_l":  "Heart ultrasound",
         "abbr":  "Echo",
-        "ko_h":  "심장 초음파 검사",
-        "ko_l":  "심장 초음파",
         "f":  [
                   "Cardiology"
               ],
@@ -1454,8 +1276,6 @@
         "en_h":  "Percutaneous coronary intervention",
         "en_l":  "Stent procedure",
         "abbr":  "PCI",
-        "ko_h":  "경피적 관상동맥 중재술",
-        "ko_l":  "스텐트 시술",
         "f":  [
                   "Cardiology"
               ],
@@ -1471,8 +1291,6 @@
         "en_h":  "Ejection fraction",
         "en_l":  "",
         "abbr":  "EF",
-        "ko_h":  "박출률",
-        "ko_l":  "",
         "f":  [
                   "Cardiology"
               ],
@@ -1483,8 +1301,6 @@
         "en_h":  "Anticoagulant",
         "en_l":  "Blood thinner",
         "abbr":  "",
-        "ko_h":  "항응고제",
-        "ko_l":  "피를 묽게 하는 약",
         "f":  [
                   "Pharmacology",
                   "Cardiology"
@@ -1503,8 +1319,6 @@
     {
         "en_h":  "Pacemaker",
         "en_l":  "",
-        "ko_h":  "심박동기",
-        "ko_l":  "",
         "f":  [
                   "Cardiology"
               ],
@@ -1516,8 +1330,6 @@
         "en_h":  "Congestive Heart Failure",
         "en_l":  "Weak pumping heart",
         "abbr":  "CHF",
-        "ko_h":  "울혈성 심부전",
-        "ko_l":  "심장 힘이 떨어짐",
         "f":  [
                   "Cardiology",
                   "Internal Medicine"
@@ -1529,8 +1341,6 @@
         "en_h":  "Cardiopulmonary resuscitation",
         "en_l":  "",
         "abbr":  "CPR",
-        "ko_h":  "심폐소생술",
-        "ko_l":  "",
         "f":  [
                   "Emergency Medicine",
                   "Cardiology"
@@ -1547,8 +1357,6 @@
     {
         "en_h":  "Magnetic resonance imaging",
         "abbr":  "MRI",
-        "ko_h":  "자기공명영상",
-        "ko_l":  "뇌 촬영",
         "f":  [
                   "Radiology",
                   "Neurology"
@@ -1560,8 +1368,6 @@
         "en_h":  "Computed tomography",
         "en_l":  "CT scan",
         "abbr":  "CT",
-        "ko_h":  "컴퓨터 단층촬영",
-        "ko_l":  "CT 촬영",
         "f":  [
                   "Radiology",
                   "Neurology",
@@ -1582,8 +1388,6 @@
         "en_h":  "Lumbar Puncture",
         "en_l":  "Spinal tap",
         "abbr":  "LP",
-        "ko_h":  "요추천자",
-        "ko_l":  "척추 주사",
         "f":  [
                   "Neurology",
                   "Emergency Medicine"
@@ -1595,8 +1399,6 @@
         "en_h":  "Meningitis",
         "en_l":  "Brain lining infection",
         "abbr":  "",
-        "ko_h":  "뇌수막염",
-        "ko_l":  "뇌막 염증",
         "f":  [
                   "Neurology",
                   "Infectious Disease",
@@ -1617,8 +1419,6 @@
         "en_h":  "Vertigo",
         "en_l":  "Spinning dizziness",
         "abbr":  "",
-        "ko_h":  "회전성 어지럼증",
-        "ko_l":  "빙빙 도는 어지럼증",
         "f":  [
                   "Otolaryngology",
                   "Neurology"
@@ -1630,8 +1430,6 @@
         "en_h":  "Dizziness",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "어지럼증",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Family Medicine"
@@ -1643,8 +1441,6 @@
         "en_h":  "Neurodegenerative disease",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "신경퇴행성 질환",
-        "ko_l":  "",
         "f":  [
                   "Neurology"
               ],
@@ -1660,8 +1456,6 @@
         "en_h":  "Spinal cord injury",
         "en_l":  "Spinal nerve damage",
         "abbr":  "SCI",
-        "ko_h":  "척수 손상",
-        "ko_l":  "척추 신경 손상",
         "f":  [
                   "Emergency Medicine",
                   "Neurology",
@@ -1679,8 +1473,6 @@
         "en_h":  "Electroencephalogram",
         "en_l":  "Brain wave test",
         "abbr":  "EEG",
-        "ko_h":  "뇌파 검사",
-        "ko_l":  "뇌파",
         "f":  [
                   "Neurology"
               ],
@@ -1700,8 +1492,6 @@
         "en_h":  "Aphasia",
         "en_l":  "Loss of speech",
         "abbr":  "",
-        "ko_h":  "실어증",
-        "ko_l":  "언어 상실",
         "f":  [
                   "Neurology"
               ],
@@ -1720,8 +1510,6 @@
         "en_h":  "Tremor",
         "en_l":  "Shaking",
         "abbr":  "",
-        "ko_h":  "진전",
-        "ko_l":  "떨림",
         "f":  [
                   "Neurology"
               ],
@@ -1732,8 +1520,6 @@
         "en_h":  "Contraindication",
         "en_l":  "Must not use",
         "abbr":  "CI",
-        "ko_h":  "금기 사항",
-        "ko_l":  "금기",
         "f":  [
                   "Pharmacology",
                   "General Medicine"
@@ -1750,8 +1536,6 @@
         "en_h":  "Analgesic",
         "en_l":  "Painkiller",
         "abbr":  "",
-        "ko_h":  "진통제",
-        "ko_l":  "통증 완화제",
         "f":  [
                   "Pharmacology",
                   "Family Medicine"
@@ -1771,8 +1555,6 @@
         "en_h":  "Antipyretic",
         "en_l":  "Fever reducer",
         "abbr":  "",
-        "ko_h":  "해열제",
-        "ko_l":  "열 내리는 약",
         "f":  [
                   "Pharmacology",
                   "Family Medicine"
@@ -1792,8 +1574,6 @@
         "en_h":  "Intravenous",
         "en_l":  "IV drip / IV line",
         "abbr":  "IV",
-        "ko_h":  "정맥 주사",
-        "ko_l":  "혈관 주사 / 링거",
         "f":  [
                   "General Medicine",
                   "Pharmacology",
@@ -1814,8 +1594,6 @@
         "en_h":  "Adverse drug reaction",
         "en_l":  "Drug side effect",
         "abbr":  "ADR",
-        "ko_h":  "약물 유해반응",
-        "ko_l":  "부작용",
         "f":  [
                   "Pharmacology",
                   "General Medicine"
@@ -1827,8 +1605,6 @@
         "en_h":  "Prophylaxis",
         "en_l":  "Preventive treatment",
         "abbr":  "",
-        "ko_h":  "예방요법",
-        "ko_l":  "예방 처치",
         "f":  [
                   "Pharmacology",
                   "Infectious Disease",
@@ -1849,8 +1625,6 @@
         "en_h":  "Subcutaneous injection",
         "en_l":  "Under-skin injection",
         "abbr":  "SC",
-        "ko_h":  "피하 주사",
-        "ko_l":  "피부 아래 주사",
         "f":  [
                   "Pharmacology",
                   "General Medicine"
@@ -1870,8 +1644,6 @@
         "en_h":  "Intramuscular injection",
         "en_l":  "Muscle injection",
         "abbr":  "IM",
-        "ko_h":  "근육 주사",
-        "ko_l":  "근육에 놓는 주사",
         "f":  [
                   "Pharmacology",
                   "General Medicine"
@@ -1891,8 +1663,6 @@
         "en_h":  "Sublingual administration",
         "en_l":  "Under-tongue medication",
         "abbr":  "",
-        "ko_h":  "설하 투여",
-        "ko_l":  "혀 밑에 녹이는 약",
         "f":  [
                   "Pharmacology"
               ],
@@ -1911,8 +1681,6 @@
         "en_h":  "Efficacy",
         "en_l":  "Drug effectiveness",
         "abbr":  "",
-        "ko_h":  "효능",
-        "ko_l":  "약효",
         "f":  [
                   "Pharmacology",
                   "General Medicine"
@@ -1924,8 +1692,6 @@
         "en_h":  "Endocrinology",
         "en_l":  "Hormone medicine",
         "abbr":  "",
-        "ko_h":  "내분비내과",
-        "ko_l":  "호르몬 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -1947,8 +1713,6 @@
         "en_h":  "Dermatology",
         "en_l":  "Skin medicine",
         "abbr":  "",
-        "ko_h":  "피부과",
-        "ko_l":  "피부 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -1967,8 +1731,6 @@
         "en_h":  "Ophthalmology",
         "en_l":  "Eye medicine",
         "abbr":  "",
-        "ko_h":  "안과",
-        "ko_l":  "눈 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -1987,8 +1749,6 @@
         "en_h":  "Otolaryngology",
         "en_l":  "Ear, nose and throat medicine",
         "abbr":  "ENT",
-        "ko_h":  "이비인후과",
-        "ko_l":  "귀·코·목 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -2008,8 +1768,6 @@
         "en_h":  "Urology",
         "en_l":  "Urinary tract medicine",
         "abbr":  "",
-        "ko_h":  "비뇨의학과",
-        "ko_l":  "비뇨기과",
         "f":  [
                   "General Medicine"
               ],
@@ -2028,8 +1786,6 @@
         "en_h":  "Radiology",
         "en_l":  "Imaging / X-ray",
         "abbr":  "",
-        "ko_h":  "영상의학과",
-        "ko_l":  "방사선과",
         "f":  [
                   "General Medicine"
               ],
@@ -2048,8 +1804,6 @@
         "en_h":  "Emergency Medicine",
         "en_l":  "ER / emergency care",
         "abbr":  "",
-        "ko_h":  "응급의학과",
-        "ko_l":  "응급실",
         "f":  [
                   "General Medicine"
               ],
@@ -2060,8 +1814,6 @@
         "en_h":  "Anesthesiology",
         "en_l":  "Anaesthesia / sedation",
         "abbr":  "",
-        "ko_h":  "마취통증의학과",
-        "ko_l":  "마취과",
         "f":  [
                   "General Medicine"
               ],
@@ -2080,8 +1832,6 @@
         "en_h":  "Pathology",
         "en_l":  "Lab / tissue diagnosis",
         "abbr":  "",
-        "ko_h":  "병리과",
-        "ko_l":  "조직 검사 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -2100,8 +1850,6 @@
         "en_h":  "Pharmacology",
         "en_l":  "Drug science",
         "abbr":  "",
-        "ko_h":  "약리학",
-        "ko_l":  "약학",
         "f":  [
                   "General Medicine"
               ],
@@ -2120,8 +1868,6 @@
         "en_h":  "Infectious Disease",
         "en_l":  "Infection specialist",
         "abbr":  "",
-        "ko_h":  "감염내과",
-        "ko_l":  "감염 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -2132,8 +1878,6 @@
         "en_h":  "Dentistry",
         "en_l":  "Dental care",
         "abbr":  "",
-        "ko_h":  "치과",
-        "ko_l":  "치과 치료",
         "f":  [
                   "General Medicine"
               ],
@@ -2149,8 +1893,6 @@
         "en_h":  "Rehabilitation Medicine",
         "en_l":  "Rehab / physio",
         "abbr":  "",
-        "ko_h":  "재활의학과",
-        "ko_l":  "재활과",
         "f":  [
                   "General Medicine"
               ],
@@ -2161,8 +1903,6 @@
         "en_h":  "Beta-blocker",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "베타차단제",
-        "ko_l":  "",
         "f":  [
                   "Pharmacology",
                   "Cardiology"
@@ -2174,8 +1914,6 @@
         "en_h":  "Cardiac biomarker",
         "en_l":  "Heart enzyme test",
         "abbr":  "",
-        "ko_h":  "심장 표지자",
-        "ko_l":  "심장 효소 검사",
         "f":  [
                   "Cardiology",
                   "Pathology"
@@ -2192,8 +1930,6 @@
         "en_h":  "Health literacy",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "건강 문해력",
-        "ko_l":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2205,8 +1941,6 @@
         "en_h":  "Advance directive",
         "en_l":  "Living will",
         "abbr":  "",
-        "ko_h":  "사전 연명의료 의향서",
-        "ko_l":  "연명치료 거부 서류",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2218,8 +1952,6 @@
         "en_h":  "Continuity of care",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "지속적 진료",
-        "ko_l":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2231,8 +1963,6 @@
         "en_h":  "Palliative Care",
         "en_l":  "Comfort care",
         "abbr":  "",
-        "ko_h":  "완화 치료",
-        "ko_l":  "편안한 돌봄",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2244,8 +1974,6 @@
         "en_h":  "Plastic Surgery",
         "en_l":  "Cosmetic / reconstructive surgery",
         "abbr":  "",
-        "ko_h":  "성형외과",
-        "ko_l":  "성형 수술",
         "f":  [
                   "General Medicine"
               ],
@@ -2256,8 +1984,6 @@
         "en_h":  "Thoracic Surgery",
         "en_l":  "Chest surgery",
         "abbr":  "",
-        "ko_h":  "흉부외과",
-        "ko_l":  "흉부 수술",
         "f":  [
                   "General Medicine"
               ],
@@ -2273,8 +1999,6 @@
         "en_h":  "Neurosurgery",
         "en_l":  "Brain / spine surgery",
         "abbr":  "",
-        "ko_h":  "신경외과",
-        "ko_l":  "뇌·척추 수술",
         "f":  [
                   "General Medicine"
               ],
@@ -2290,8 +2014,6 @@
         "en_h":  "Rheumatology",
         "en_l":  "Joint and autoimmune medicine",
         "abbr":  "",
-        "ko_h":  "류마티스내과",
-        "ko_l":  "류마티스과",
         "f":  [
                   "General Medicine"
               ],
@@ -2302,8 +2024,6 @@
         "en_h":  "Pulmonology",
         "en_l":  "Lung medicine",
         "abbr":  "",
-        "ko_h":  "호흡기내과",
-        "ko_l":  "폐 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -2322,8 +2042,6 @@
         "en_h":  "Nephrology",
         "en_l":  "Kidney medicine",
         "abbr":  "",
-        "ko_h":  "신장내과",
-        "ko_l":  "콩팥 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -2342,8 +2060,6 @@
         "en_h":  "Gastroenterology",
         "en_l":  "Gut / digestive medicine",
         "abbr":  "",
-        "ko_h":  "소화기내과",
-        "ko_l":  "소화기 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -2363,8 +2079,6 @@
         "en_h":  "Hematology",
         "en_l":  "Blood medicine",
         "abbr":  "",
-        "ko_h":  "혈액내과",
-        "ko_l":  "혈액 전문",
         "f":  [
                   "General Medicine"
               ],
@@ -2383,8 +2097,6 @@
         "en_h":  "Nuclear Medicine",
         "en_l":  "Radioactive scan / tracer imaging",
         "abbr":  "",
-        "ko_h":  "핵의학과",
-        "ko_l":  "방사성 동위원소 검사",
         "f":  [
                   "General Medicine"
               ],
@@ -2395,8 +2107,6 @@
         "en_h":  "Syncope",
         "en_l":  "Fainting / passing out",
         "abbr":  "",
-        "ko_h":  "실신",
-        "ko_l":  "기절 / 기절함",
         "f":  [
                   "Emergency Medicine",
                   "Neurology",
@@ -2409,8 +2119,6 @@
         "en_h":  "Pleuritic Chest Pain",
         "en_l":  "Sharp pain when inhaling",
         "abbr":  "",
-        "ko_h":  "흉막성 흉통",
-        "ko_l":  "숨쉴 때 찌르는 가슴 통증",
         "f":  [
                   "Pulmonology",
                   "Emergency Medicine"
@@ -2427,8 +2135,6 @@
         "en_h":  "Hematemesis",
         "en_l":  "Vomiting blood",
         "abbr":  "",
-        "ko_h":  "토혈",
-        "ko_l":  "피를 토함",
         "f":  [
                   "Gastroenterology",
                   "Emergency Medicine"
@@ -2448,8 +2154,6 @@
         "en_h":  "Hemoptysis",
         "en_l":  "Coughing up blood",
         "abbr":  "",
-        "ko_h":  "객혈",
-        "ko_l":  "기침할 때 피가 섞여 나옴",
         "f":  [
                   "Pulmonology",
                   "Emergency Medicine"
@@ -2469,8 +2173,6 @@
         "en_h":  "Melena",
         "en_l":  "Black tarry stool",
         "abbr":  "",
-        "ko_h":  "흑색변",
-        "ko_l":  "검은 변",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine",
@@ -2483,8 +2185,6 @@
         "en_h":  "Hematochezia",
         "en_l":  "Blood in stool",
         "abbr":  "",
-        "ko_h":  "혈변",
-        "ko_l":  "피 섞인 변",
         "f":  [
                   "Gastroenterology",
                   "Surgery",
@@ -2502,8 +2202,6 @@
         "en_h":  "Pruritus",
         "en_l":  "Itching",
         "abbr":  "",
-        "ko_h":  "소양증",
-        "ko_l":  "가려움증",
         "f":  [
                   "Dermatology",
                   "Family Medicine",
@@ -2516,8 +2214,6 @@
         "en_h":  "Cyanosis",
         "en_l":  "Blueness of the skin",
         "abbr":  "",
-        "ko_h":  "청색증",
-        "ko_l":  "피부나 입술이 파래지는 현상",
         "f":  [
                   "Emergency Medicine",
                   "Cardiology",
@@ -2538,8 +2234,6 @@
         "en_h":  "Pharynx",
         "en_l":  "Throat",
         "abbr":  "",
-        "ko_h":  "인두",
-        "ko_l":  "목구멍",
         "f":  [
                   "Anatomy",
                   "Otolaryngology",
@@ -2557,8 +2251,6 @@
         "en_h":  "Larynx",
         "en_l":  "Voice box",
         "abbr":  "",
-        "ko_h":  "후두",
-        "ko_l":  "성대가 있는 곳",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -2575,8 +2267,6 @@
         "en_h":  "Trachea",
         "en_l":  "Windpipe",
         "abbr":  "",
-        "ko_h":  "기관",
-        "ko_l":  "숨통",
         "f":  [
                   "Anatomy",
                   "Pulmonology",
@@ -2594,8 +2284,6 @@
         "en_h":  "Esophagus",
         "en_l":  "Food pipe",
         "abbr":  "",
-        "ko_h":  "식도",
-        "ko_l":  "음식이 내려가는 관",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -2613,8 +2301,6 @@
         "en_h":  "Duodenum",
         "en_l":  "First part of small intestine",
         "abbr":  "",
-        "ko_h":  "십이지장",
-        "ko_l":  "소장의 첫 번째 부위",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -2631,8 +2317,6 @@
         "en_h":  "Jejunum",
         "en_l":  "Middle part of small intestine",
         "abbr":  "",
-        "ko_h":  "공장",
-        "ko_l":  "소장의 중간 부위",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -2650,8 +2334,6 @@
         "en_h":  "Ileum",
         "en_l":  "Last part of small intestine",
         "abbr":  "",
-        "ko_h":  "회장",
-        "ko_l":  "소장의 마지막 부위",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -2669,8 +2351,6 @@
         "en_h":  "Pituitary Gland",
         "en_l":  "Master hormone gland",
         "abbr":  "",
-        "ko_h":  "뇌하수체",
-        "ko_l":  "호르몬 조절 샘",
         "f":  [
                   "Anatomy",
                   "Endocrinology",
@@ -2683,8 +2363,6 @@
         "en_h":  "Thymus",
         "en_l":  "T-cell training organ",
         "abbr":  "",
-        "ko_h":  "흉선 / 가슴샘",
-        "ko_l":  "가슴속 면역 기관",
         "f":  [
                   "Anatomy",
                   "Immunology",
@@ -2697,8 +2375,6 @@
         "en_h":  "Gallbladder",
         "en_l":  "Bile sac",
         "abbr":  "GB",
-        "ko_h":  "담낭",
-        "ko_l":  "쓸개",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -2711,8 +2387,6 @@
         "en_h":  "Benign Prostatic Hyperplasia",
         "en_l":  "Enlarged prostate",
         "abbr":  "BPH",
-        "ko_h":  "전립선 비대증",
-        "ko_l":  "전립선 비대",
         "f":  [
                   "Urology",
                   "Family Medicine"
@@ -2735,8 +2409,6 @@
         "en_h":  "Pneumothorax",
         "en_l":  "Collapsed lung",
         "abbr":  "PTX",
-        "ko_h":  "기흉",
-        "ko_l":  "폐 허탈",
         "f":  [
                   "Emergency Medicine",
                   "Pulmonology",
@@ -2755,8 +2427,6 @@
         "en_h":  "Cholelithiasis",
         "en_l":  "Gallstones",
         "abbr":  "",
-        "ko_h":  "담석증",
-        "ko_l":  "담석",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -2777,8 +2447,6 @@
         "en_h":  "Chronic Obstructive Pulmonary Disease",
         "en_l":  "Long-term lung damage",
         "abbr":  "COPD",
-        "ko_h":  "만성 폐쇄성 폐질환",
-        "ko_l":  "",
         "f":  [
                   "Pulmonology",
                   "Internal Medicine"
@@ -2795,8 +2463,6 @@
         "en_h":  "Rheumatoid Arthritis",
         "en_l":  "Autoimmune joint inflammation",
         "abbr":  "RA",
-        "ko_h":  "류마티스 관절염",
-        "ko_l":  "",
         "f":  [
                   "Rheumatology",
                   "Orthopedics",
@@ -2817,8 +2483,6 @@
         "en_h":  "Endoscopy",
         "en_l":  "Scope test",
         "abbr":  "",
-        "ko_h":  "내시경 검사",
-        "ko_l":  "내시경",
         "f":  [
                   "Gastroenterology",
                   "General Medicine"
@@ -2838,8 +2502,6 @@
         "en_h":  "Laparoscopy",
         "en_l":  "Keyhole surgery",
         "abbr":  "",
-        "ko_h":  "복강경 수술",
-        "ko_l":  "복강경",
         "f":  [
                   "Surgery",
                   "Obstetrics \u0026 Gynecology"
@@ -2859,8 +2521,6 @@
         "en_h":  "Intubation",
         "en_l":  "Breathing tube",
         "abbr":  "ETT",
-        "ko_h":  "기관내 삽관",
-        "ko_l":  "숨관 삽입",
         "f":  [
                   "Emergency Medicine",
                   "Anesthesiology",
@@ -2873,8 +2533,6 @@
         "en_h":  "Paracentesis",
         "en_l":  "Draining belly fluid",
         "abbr":  "",
-        "ko_h":  "복수천자",
-        "ko_l":  "복수 빼는 시술",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine"
@@ -2894,8 +2552,6 @@
         "en_h":  "Auscultation",
         "en_l":  "Listening with a stethoscope",
         "abbr":  "",
-        "ko_h":  "청진",
-        "ko_l":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2907,8 +2563,6 @@
         "en_h":  "Palpation",
         "en_l":  "Examining by touch",
         "abbr":  "",
-        "ko_h":  "촉진",
-        "ko_l":  "손으로 만져서 진찰하는 것",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2920,8 +2574,6 @@
         "en_h":  "Prostate-Specific Antigen",
         "en_l":  "Prostate blood marker",
         "abbr":  "PSA",
-        "ko_h":  "전립선 특이 항원",
-        "ko_l":  "전립선 수치 혈액검사",
         "f":  [
                   "Urology",
                   "Oncology"
@@ -2938,8 +2590,6 @@
         "en_h":  "Cholecystitis",
         "en_l":  "Inflammation of the gallbladder",
         "abbr":  "",
-        "ko_h":  "담낭염",
-        "ko_l":  "쓸개에 염증이 생김",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -2958,8 +2608,6 @@
     {
         "en_h":  "Appendicitis",
         "en_l":  "Inflammation of the appendix",
-        "ko_h":  "충수염",
-        "ko_l":  "맹장염",
         "f":  [
                   "Emergency Medicine",
                   "Surgery"
@@ -2979,8 +2627,6 @@
         "en_h":  "Pancreatitis",
         "en_l":  "Inflammation of the pancreas",
         "abbr":  "",
-        "ko_h":  "췌장염",
-        "ko_l":  "췌장에 염증이 생김",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine"
@@ -3000,8 +2646,6 @@
         "en_h":  "Peritonitis",
         "en_l":  "Inflammation of the abdominal lining",
         "abbr":  "",
-        "ko_h":  "복막염",
-        "ko_l":  "배 안의 막에 염증이 생김",
         "f":  [
                   "Emergency Medicine",
                   "Surgery"
@@ -3024,8 +2668,6 @@
         "en_h":  "Nephrolithiasis",
         "en_l":  "Kidney stones",
         "abbr":  "",
-        "ko_h":  "신결석증 / 신장결석",
-        "ko_l":  "신장결석",
         "f":  [
                   "Urology",
                   "Nephrology"
@@ -3046,8 +2688,6 @@
         "en_h":  "Chronic Kidney Disease",
         "en_l":  "Long-term kidney damage",
         "abbr":  "CKD",
-        "ko_h":  "만성 신장 질환",
-        "ko_l":  "만성 신장 기능 저하",
         "f":  [
                   "Nephrology",
                   "Internal Medicine"
@@ -3059,8 +2699,6 @@
         "en_h":  "End-Stage Renal Disease",
         "en_l":  "Kidney failure",
         "abbr":  "ESRD",
-        "ko_h":  "말기 신질환",
-        "ko_l":  "신부전 말기 상태",
         "f":  [
                   "Nephrology",
                   "Internal Medicine"
@@ -3077,8 +2715,6 @@
         "en_h":  "Hemodialysis",
         "en_l":  "Kidney machine treatment",
         "abbr":  "HD",
-        "ko_h":  "혈액투석",
-        "ko_l":  "인공신장기로 피를 걸러줌",
         "f":  [
                   "Nephrology",
                   "Internal Medicine"
@@ -3098,8 +2734,6 @@
         "en_h":  "Peritoneal Dialysis",
         "en_l":  "Belly-lining filtering treatment",
         "abbr":  "PD",
-        "ko_h":  "복막투석",
-        "ko_l":  "배 안의 막을 이용한 투석",
         "f":  [
                   "Nephrology",
                   "Internal Medicine"
@@ -3119,8 +2753,6 @@
         "en_h":  "Hydronephrosis",
         "en_l":  "Swollen kidney",
         "abbr":  "",
-        "ko_h":  "수신증",
-        "ko_l":  "신장 부음",
         "f":  [
                   "Urology",
                   "Radiology",
@@ -3142,8 +2774,6 @@
         "en_h":  "Benign Paroxysmal Positional Vertigo",
         "en_l":  "Positional dizziness",
         "abbr":  "BPPV",
-        "ko_h":  "양성 발작성 체위성 현훈",
-        "ko_l":  "이석증",
         "f":  [
                   "Otolaryngology",
                   "Neurology"
@@ -3155,8 +2785,6 @@
         "en_h":  "Otitis Media",
         "en_l":  "Middle ear infection",
         "abbr":  "OM",
-        "ko_h":  "중이염",
-        "ko_l":  "귀 중간 부분의 염증",
         "f":  [
                   "Otolaryngology",
                   "Pediatrics"
@@ -3176,8 +2804,6 @@
         "en_h":  "Tinnitus",
         "en_l":  "Ringing in ears",
         "abbr":  "",
-        "ko_h":  "이명",
-        "ko_l":  "귀울림",
         "f":  [
                   "Otolaryngology",
                   "Neurology"
@@ -3189,8 +2815,6 @@
         "en_h":  "Epistaxis",
         "en_l":  "Nosebleed",
         "abbr":  "",
-        "ko_h":  "비출혈 / 코피",
-        "ko_l":  "코피",
         "f":  [
                   "Otolaryngology",
                   "Emergency Medicine"
@@ -3207,8 +2831,6 @@
         "en_h":  "Sinusitis",
         "en_l":  "Sinus infection",
         "abbr":  "",
-        "ko_h":  "부비동염",
-        "ko_l":  "축농증",
         "f":  [
                   "Otolaryngology",
                   "Family Medicine"
@@ -3228,8 +2850,6 @@
         "en_h":  "Strabismus",
         "en_l":  "Crossed eyes",
         "abbr":  "",
-        "ko_h":  "사시",
-        "ko_l":  "눈 정렬이 맞지 않음",
         "f":  [
                   "Ophthalmology",
                   "Pediatrics"
@@ -3241,8 +2861,6 @@
         "en_h":  "Cataract",
         "en_l":  "Clouding of the eye lens",
         "abbr":  "",
-        "ko_h":  "백내장",
-        "ko_l":  "",
         "f":  [
                   "Ophthalmology"
               ],
@@ -3253,8 +2871,6 @@
         "en_h":  "Glaucoma",
         "en_l":  "Eye pressure buildup",
         "abbr":  "",
-        "ko_h":  "녹내장",
-        "ko_l":  "",
         "f":  [
                   "Ophthalmology"
               ],
@@ -3273,8 +2889,6 @@
         "en_h":  "Nystagmus",
         "en_l":  "Involuntary eye movement",
         "abbr":  "",
-        "ko_h":  "안구진탕",
-        "ko_l":  "눈 떨림",
         "f":  [
                   "Ophthalmology",
                   "Neurology",
@@ -3287,8 +2901,6 @@
         "en_h":  "Macular Degeneration",
         "en_l":  "Loss of central vision",
         "abbr":  "AMD",
-        "ko_h":  "황반변성",
-        "ko_l":  "눈 망막 중심부가 손상됨",
         "f":  [
                   "Ophthalmology"
               ],
@@ -3304,8 +2916,6 @@
         "en_h":  "Erythema",
         "en_l":  "Skin redness",
         "abbr":  "",
-        "ko_h":  "홍반",
-        "ko_l":  "피부 붉어짐",
         "f":  [
                   "Dermatology",
                   "Family Medicine",
@@ -3323,8 +2933,6 @@
         "en_h":  "Urticaria",
         "en_l":  "Hives",
         "abbr":  "",
-        "ko_h":  "두드러기",
-        "ko_l":  "",
         "f":  [
                   "Dermatology",
                   "Immunology"
@@ -3336,8 +2944,6 @@
         "en_h":  "Cellulitis",
         "en_l":  "Deep skin infection",
         "abbr":  "",
-        "ko_h":  "연조직염",
-        "ko_l":  "피부 깊은 곳 감염",
         "f":  [
                   "Infectious Disease",
                   "Dermatology"
@@ -3354,8 +2960,6 @@
         "en_h":  "Atopic Dermatitis",
         "en_l":  "Eczema",
         "abbr":  "",
-        "ko_h":  "아토피 피부염",
-        "ko_l":  "아토피성 가려운 피부염",
         "f":  [
                   "Dermatology",
                   "Pediatrics",
@@ -3379,8 +2983,6 @@
         "en_h":  "Psoriasis",
         "en_l":  "Scaly silver skin patches",
         "abbr":  "",
-        "ko_h":  "건선",
-        "ko_l":  "",
         "f":  [
                   "Dermatology",
                   "Rheumatology",
@@ -3393,8 +2995,6 @@
         "en_h":  "Paresthesia",
         "en_l":  "Pins and needles sensation",
         "abbr":  "",
-        "ko_h":  "감각이상",
-        "ko_l":  "저림 / 남의 살 같은 느낌",
         "f":  [
                   "Neurology",
                   "Orthopedics"
@@ -3414,8 +3014,6 @@
         "en_h":  "Sciatica",
         "en_l":  "Leg shooting pain from spine",
         "abbr":  "",
-        "ko_h":  "좌골신경통",
-        "ko_l":  "",
         "f":  [
                   "Orthopedics",
                   "Neurology",
@@ -3428,8 +3026,6 @@
         "en_h":  "Gout",
         "en_l":  "Uric acid arthritis",
         "abbr":  "",
-        "ko_h":  "통풍",
-        "ko_l":  "",
         "f":  [
                   "Rheumatology",
                   "Orthopedics"
@@ -3441,8 +3037,6 @@
         "en_h":  "Kyphosis",
         "en_l":  "Hunchback",
         "abbr":  "",
-        "ko_h":  "척추후만증",
-        "ko_l":  "등이 뒤로 굽는 증상",
         "f":  [
                   "Orthopedics"
               ],
@@ -3461,8 +3055,6 @@
         "en_h":  "Hyperthyroidism",
         "en_l":  "Overactive thyroid gland",
         "abbr":  "",
-        "ko_h":  "갑상선 기능 항진증",
-        "ko_l":  "갑상선 호르몬 과다 분비",
         "f":  [
                   "Endocrinology",
                   "Internal Medicine"
@@ -3485,8 +3077,6 @@
         "en_h":  "Cushing\u0027s Syndrome",
         "en_l":  "Cortisol hormone excess",
         "abbr":  "",
-        "ko_h":  "쿠싱 증후군",
-        "ko_l":  "",
         "f":  [
                   "Endocrinology"
               ],
@@ -3497,8 +3087,6 @@
         "en_h":  "Diabetes Insipidus",
         "en_l":  "Extreme urination disorder",
         "abbr":  "DI",
-        "ko_h":  "요붕증",
-        "ko_l":  "",
         "f":  [
                   "Endocrinology",
                   "Nephrology"
@@ -3515,8 +3103,6 @@
         "en_h":  "Diabetic Retinopathy",
         "en_l":  "Diabetic eye damage",
         "abbr":  "DR",
-        "ko_h":  "당뇨망막병증",
-        "ko_l":  "당뇨 눈 합병증",
         "f":  [
                   "Ophthalmology",
                   "Endocrinology"
@@ -3536,8 +3122,6 @@
         "en_h":  "Thrombocytopenia",
         "en_l":  "Low platelet count",
         "abbr":  "",
-        "ko_h":  "혈소판감소증",
-        "ko_l":  "혈소판 감소",
         "f":  [
                   "Hematology",
                   "Oncology"
@@ -3558,8 +3142,6 @@
         "en_h":  "Leukocytosis",
         "en_l":  "High white blood cell count",
         "abbr":  "",
-        "ko_h":  "백혈구 증가증",
-        "ko_l":  "",
         "f":  [
                   "Hematology",
                   "Infectious Disease"
@@ -3582,8 +3164,6 @@
         "en_h":  "Polycythemia Vera",
         "en_l":  "Thick overproduced blood",
         "abbr":  "PV",
-        "ko_h":  "진성적혈구증가증",
-        "ko_l":  "",
         "f":  [
                   "Hematology",
                   "Oncology"
@@ -3606,8 +3186,6 @@
         "en_h":  "Deep Vein Thrombosis",
         "en_l":  "Blood clot in deep legs",
         "abbr":  "DVT",
-        "ko_h":  "심부정맥 혈전증",
-        "ko_l":  "다리 혈전",
         "f":  [
                   "Hematology",
                   "Cardiology",
@@ -3628,8 +3206,6 @@
         "en_h":  "Pulmonary Embolism",
         "en_l":  "Blood clot in lung",
         "abbr":  "PE",
-        "ko_h":  "폐색전증",
-        "ko_l":  "폐혈전",
         "f":  [
                   "Pulmonology",
                   "Cardiology",
@@ -3647,8 +3223,6 @@
         "en_h":  "Aortic Dissection",
         "en_l":  "Torn tearing chest artery",
         "abbr":  "",
-        "ko_h":  "대동맥 박리",
-        "ko_l":  "",
         "f":  [
                   "Emergency Medicine",
                   "Cardiology",
@@ -3666,8 +3240,6 @@
         "en_h":  "Cholecystectomy",
         "en_l":  "Gallbladder removal surgery",
         "abbr":  "",
-        "ko_h":  "담낭절제술",
-        "ko_l":  "쓸개를 떼어내는 수술",
         "f":  [
                   "Surgery",
                   "Gastroenterology"
@@ -3686,8 +3258,6 @@
     {
         "en_h":  "Appendectomy",
         "en_l":  "Appendix removal surgery",
-        "ko_h":  "충수절제술",
-        "ko_l":  "맹장 수술",
         "f":  [
                   "Surgery",
                   "Emergency Medicine"
@@ -3707,8 +3277,6 @@
         "en_h":  "Thoracentesis",
         "en_l":  "Draining lung fluid",
         "abbr":  "",
-        "ko_h":  "흉수천자",
-        "ko_l":  "흉수 빼는 시술",
         "f":  [
                   "Pulmonology",
                   "Radiology",
@@ -3729,8 +3297,6 @@
         "en_h":  "Hysterectomy",
         "en_l":  "Womb removal surgery",
         "abbr":  "",
-        "ko_h":  "자궁적출술",
-        "ko_l":  "자궁을 제거하는 수술",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Surgery"
@@ -3750,8 +3316,6 @@
         "en_h":  "Mammography",
         "en_l":  "Breast X-ray",
         "abbr":  "",
-        "ko_h":  "유방촬영술",
-        "ko_l":  "유방 엑스레이 검사",
         "f":  [
                   "Radiology",
                   "Oncology"
@@ -3771,8 +3335,6 @@
         "en_h":  "Colonoscopy",
         "en_l":  "Large bowel scope test",
         "abbr":  "",
-        "ko_h":  "대장내시경 검사",
-        "ko_l":  "대장내시경",
         "f":  [
                   "Gastroenterology",
                   "Surgery",
@@ -3793,8 +3355,6 @@
         "en_h":  "Atheroma",
         "en_l":  "Fatty plaque buildup in artery",
         "abbr":  "",
-        "ko_h":  "죽종",
-        "ko_l":  "혈관 벽에 기름때가 끼는 것",
         "f":  [
                   "Cardiology",
                   "Pathology"
@@ -3814,8 +3374,6 @@
         "en_h":  "Cardiomegaly",
         "en_l":  "Enlarged heart",
         "abbr":  "",
-        "ko_h":  "심장비대",
-        "ko_l":  "",
         "f":  [
                   "Cardiology",
                   "Radiology"
@@ -3835,8 +3393,6 @@
         "en_h":  "Bradycardia",
         "en_l":  "Slow heart rate",
         "abbr":  "",
-        "ko_h":  "서맥",
-        "ko_l":  "맥박이 느림",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -3856,8 +3412,6 @@
         "en_h":  "Tachycardia",
         "en_l":  "Fast heart rate",
         "abbr":  "Tachy",
-        "ko_h":  "빈맥",
-        "ko_l":  "맥박이 빠름",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -3877,8 +3431,6 @@
         "en_h":  "Orthostatic Hypotension",
         "en_l":  "Dizzy when standing up",
         "abbr":  "",
-        "ko_h":  "기립성 저혈압",
-        "ko_l":  "일어설 때 어지러움",
         "f":  [
                   "General Medicine",
                   "Cardiology",
@@ -3900,8 +3452,6 @@
         "en_h":  "Pericarditis",
         "en_l":  "Inflammation of the heart sac",
         "abbr":  "",
-        "ko_h":  "심낭염",
-        "ko_l":  "",
         "f":  [
                   "Cardiology",
                   "Internal Medicine"
@@ -3924,8 +3474,6 @@
         "en_h":  "Endocarditis",
         "en_l":  "Heart valve infection",
         "abbr":  "",
-        "ko_h":  "심내막염",
-        "ko_l":  "심장 판막에 균이 감염됨",
         "f":  [
                   "Cardiology",
                   "Infectious Disease"
@@ -3948,8 +3496,6 @@
         "en_h":  "Intermittent Claudication",
         "en_l":  "Leg cramping during walking",
         "abbr":  "",
-        "ko_h":  "간헐성 파행",
-        "ko_l":  "걸을 때 다리 통증",
         "f":  [
                   "Cardiology",
                   "Surgery"
@@ -3961,8 +3507,6 @@
         "en_h":  "Aneurysm",
         "en_l":  "Bulging blood vessel",
         "abbr":  "",
-        "ko_h":  "동맥류",
-        "ko_l":  "혈관이 부풀어 오름",
         "f":  [
                   "Cardiology",
                   "Surgery"
@@ -3979,8 +3523,6 @@
         "en_h":  "Atelectasis",
         "en_l":  "Collapsed lung air sacs",
         "abbr":  "",
-        "ko_h":  "무기폐",
-        "ko_l":  "",
         "f":  [
                   "Pulmonology",
                   "Anesthesiology",
@@ -3993,8 +3535,6 @@
         "en_h":  "Bronchiectasis",
         "en_l":  "Damaged widened airways",
         "abbr":  "",
-        "ko_h":  "기관지확장증",
-        "ko_l":  "",
         "f":  [
                   "Pulmonology"
               ],
@@ -4013,8 +3553,6 @@
         "en_h":  "Pleural Effusion",
         "en_l":  "Fluid around lungs",
         "abbr":  "",
-        "ko_h":  "흉막 삼출액",
-        "ko_l":  "흉수",
         "f":  [
                   "Pulmonology",
                   "Internal Medicine"
@@ -4031,8 +3569,6 @@
         "en_h":  "Hemothorax",
         "en_l":  "Blood in the chest cavity",
         "abbr":  "",
-        "ko_h":  "혈흉",
-        "ko_l":  "가슴방(흉막강)에 피가 고임",
         "f":  [
                   "Emergency Medicine",
                   "Pulmonology",
@@ -4051,8 +3587,6 @@
         "en_h":  "Empyema",
         "en_l":  "Pus around lungs",
         "abbr":  "",
-        "ko_h":  "농흉",
-        "ko_l":  "흉막강에 고름이 차는 증상",
         "f":  [
                   "Pulmonology",
                   "Surgery",
@@ -4065,8 +3599,6 @@
         "en_h":  "Hypercapnia",
         "en_l":  "Carbon dioxide buildup in blood",
         "abbr":  "",
-        "ko_h":  "고탄산혈증",
-        "ko_l":  "혈중 이산화탄소 과다",
         "f":  [
                   "Pulmonology",
                   "Anesthesiology",
@@ -4084,8 +3616,6 @@
         "en_h":  "Hypoxemia",
         "en_l":  "Low blood oxygen",
         "abbr":  "",
-        "ko_h":  "저산소혈증",
-        "ko_l":  "혈중 산소 부족",
         "f":  [
                   "Pulmonology",
                   "Anesthesiology",
@@ -4106,8 +3636,6 @@
         "en_h":  "Stridor",
         "en_l":  "High-pitched breathing sound",
         "abbr":  "",
-        "ko_h":  "협착음",
-        "ko_l":  "숨쉴 때 거친 소리",
         "f":  [
                   "Emergency Medicine",
                   "Pulmonology",
@@ -4120,8 +3648,6 @@
         "en_h":  "Pulmonary Fibrosis",
         "en_l":  "Scarred lungs",
         "abbr":  "PF",
-        "ko_h":  "폐섬유증",
-        "ko_l":  "폐가 딱딱하게 굳어가는 병",
         "f":  [
                   "Pulmonology"
               ],
@@ -4141,8 +3667,6 @@
         "en_h":  "Ascites",
         "en_l":  "Fluid accumulation in abdomen",
         "abbr":  "",
-        "ko_h":  "복수",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine"
@@ -4154,8 +3678,6 @@
         "en_h":  "Cirrhosis",
         "en_l":  "Liver scarring",
         "abbr":  "",
-        "ko_h":  "간경변증",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine"
@@ -4172,8 +3694,6 @@
         "en_h":  "Dysphagia",
         "en_l":  "Difficulty swallowing",
         "abbr":  "",
-        "ko_h":  "연하곤란",
-        "ko_l":  "음식물을 삼키기 어려운 증상",
         "f":  [
                   "Neurology",
                   "Gastroenterology",
@@ -4191,8 +3711,6 @@
         "en_h":  "Diverticulitis",
         "en_l":  "Inflammation of bowel pockets",
         "abbr":  "",
-        "ko_h":  "게실염",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -4209,8 +3727,6 @@
         "en_h":  "Jaundice",
         "en_l":  "Yellowing of skin and eyes",
         "abbr":  "",
-        "ko_h":  "황달",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine",
@@ -4223,8 +3739,6 @@
         "en_h":  "Intussusception",
         "en_l":  "Telescoping bowel",
         "abbr":  "",
-        "ko_h":  "장중첩증",
-        "ko_l":  "",
         "f":  [
                   "Pediatrics",
                   "Surgery"
@@ -4236,8 +3750,6 @@
         "en_h":  "Volvulus",
         "en_l":  "Twisted bowel",
         "abbr":  "",
-        "ko_h":  "장염전",
-        "ko_l":  "장꼬임",
         "f":  [
                   "Surgery",
                   "Gastroenterology"
@@ -4249,8 +3761,6 @@
         "en_h":  "Gastrointestinal Bleeding",
         "en_l":  "Bleeding in digestive tract",
         "abbr":  "GI bleed",
-        "ko_h":  "위장관 출혈",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Emergency Medicine"
@@ -4269,8 +3779,6 @@
         "en_h":  "Gastroparesis",
         "en_l":  "Delayed stomach emptying",
         "abbr":  "",
-        "ko_h":  "위배출지연증",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Endocrinology"
@@ -4290,8 +3798,6 @@
         "en_h":  "Hydrocephalus",
         "en_l":  "Water on the brain",
         "abbr":  "",
-        "ko_h":  "수두증",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Surgery",
@@ -4310,8 +3816,6 @@
         "en_h":  "Ataxia",
         "en_l":  "Loss of coordination",
         "abbr":  "",
-        "ko_h":  "운동실조",
-        "ko_l":  "비틀거림",
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
@@ -4328,8 +3832,6 @@
         "en_h":  "Neuralgia",
         "en_l":  "Nerve pain",
         "abbr":  "",
-        "ko_h":  "신경통",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Pharmacology"
@@ -4349,8 +3851,6 @@
         "en_h":  "Dysarthria",
         "en_l":  "Slurred speech",
         "abbr":  "",
-        "ko_h":  "구어장애",
-        "ko_l":  "발음 장애",
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
@@ -4370,8 +3870,6 @@
         "en_h":  "Encephalopathy",
         "en_l":  "Altered brain function",
         "abbr":  "",
-        "ko_h":  "뇌병증",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Internal Medicine"
@@ -4391,8 +3889,6 @@
         "en_h":  "Encephalitis",
         "en_l":  "Inflammation of brain tissue",
         "abbr":  "",
-        "ko_h":  "뇌염",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Infectious Disease"
@@ -4412,8 +3908,6 @@
         "en_h":  "Proteinuria",
         "en_l":  "Protein in urine",
         "abbr":  "",
-        "ko_h":  "단백뇨",
-        "ko_l":  "",
         "f":  [
                   "Nephrology",
                   "Internal Medicine"
@@ -4430,8 +3924,6 @@
         "en_h":  "Hematuria",
         "en_l":  "Blood in urine",
         "abbr":  "",
-        "ko_h":  "혈뇨",
-        "ko_l":  "소변에 피가 섞여 나옴",
         "f":  [
                   "Urology",
                   "Nephrology"
@@ -4451,8 +3943,6 @@
         "en_h":  "Oliguria",
         "en_l":  "Low urine output",
         "abbr":  "",
-        "ko_h":  "핍뇨",
-        "ko_l":  "소변량 감소",
         "f":  [
                   "Critical Care",
                   "Nephrology",
@@ -4473,8 +3963,6 @@
         "en_h":  "Anuria",
         "en_l":  "No urine output",
         "abbr":  "",
-        "ko_h":  "무뇨",
-        "ko_l":  "",
         "f":  [
                   "Nephrology",
                   "Critical Care"
@@ -4494,8 +3982,6 @@
         "en_h":  "Glomerulonephritis",
         "en_l":  "Inflammation of kidney filters",
         "abbr":  "GN",
-        "ko_h":  "사구체신염",
-        "ko_l":  "",
         "f":  [
                   "Nephrology",
                   "Internal Medicine",
@@ -4517,8 +4003,6 @@
         "en_h":  "Nephrotic Syndrome",
         "en_l":  "Kidney leakage syndrome",
         "abbr":  "",
-        "ko_h":  "신증후군",
-        "ko_l":  "",
         "f":  [
                   "Nephrology",
                   "Pediatrics"
@@ -4538,8 +4022,6 @@
         "en_h":  "Pyelonephritis",
         "en_l":  "Kidney infection",
         "abbr":  "APN",
-        "ko_h":  "신우신염",
-        "ko_l":  "",
         "f":  [
                   "Nephrology",
                   "Urology",
@@ -4561,8 +4043,6 @@
         "en_h":  "Cystitis",
         "en_l":  "Bladder infection",
         "abbr":  "",
-        "ko_h":  "방광염",
-        "ko_l":  "오줌소태",
         "f":  [
                   "Family Medicine",
                   "Urology",
@@ -4583,8 +4063,6 @@
         "en_h":  "Urinary Incontinence",
         "en_l":  "Involuntary urine leaking",
         "abbr":  "",
-        "ko_h":  "요실금",
-        "ko_l":  "",
         "f":  [
                   "Urology",
                   "Obstetrics \u0026 Gynecology"
@@ -4596,8 +4074,6 @@
         "en_h":  "Dysuria",
         "en_l":  "Painful urination",
         "abbr":  "",
-        "ko_h":  "배뇨통",
-        "ko_l":  "소변볼 때 따가움",
         "f":  [
                   "Family Medicine",
                   "Urology",
@@ -4618,8 +4094,6 @@
         "en_h":  "Hyperglycemia",
         "en_l":  "High blood sugar",
         "abbr":  "",
-        "ko_h":  "고혈당증",
-        "ko_l":  "혈당이 높음",
         "f":  [
                   "Endocrinology",
                   "Internal Medicine"
@@ -4642,8 +4116,6 @@
         "en_h":  "Hypoglycemia",
         "en_l":  "Low blood sugar",
         "abbr":  "",
-        "ko_h":  "저혈당증",
-        "ko_l":  "혈당이 낮음",
         "f":  [
                   "Emergency Medicine",
                   "Endocrinology"
@@ -4666,8 +4138,6 @@
         "en_h":  "Diabetic Ketoacidosis",
         "en_l":  "Acidic blood condition in diabetes",
         "abbr":  "DKA",
-        "ko_h":  "당뇨병성 케토산증",
-        "ko_l":  "",
         "f":  [
                   "Emergency Medicine",
                   "Endocrinology",
@@ -4680,8 +4150,6 @@
         "en_h":  "Gynecomastia",
         "en_l":  "Male breast development",
         "abbr":  "",
-        "ko_h":  "여성형 유방증",
-        "ko_l":  "",
         "f":  [
                   "Endocrinology",
                   "Surgery"
@@ -4701,8 +4169,6 @@
         "en_h":  "Acromegaly",
         "en_l":  "Gigantism hormone disorder",
         "abbr":  "",
-        "ko_h":  "말단비대증",
-        "ko_l":  "",
         "f":  [
                   "Endocrinology",
                   "Surgery"
@@ -4722,8 +4188,6 @@
         "en_h":  "Galactorrhea",
         "en_l":  "Abnormal breast milk secretion",
         "abbr":  "",
-        "ko_h":  "유즙누출증",
-        "ko_l":  "비정상 모유 분비",
         "f":  [
                   "Endocrinology",
                   "Obstetrics \u0026 Gynecology"
@@ -4735,8 +4199,6 @@
         "en_h":  "Hirsutism",
         "en_l":  "Excessive male-pattern hair growth in women",
         "abbr":  "",
-        "ko_h":  "다모증",
-        "ko_l":  "",
         "f":  [
                   "Endocrinology",
                   "Dermatology",
@@ -4749,8 +4211,6 @@
         "en_h":  "Hyperparathyroidism",
         "en_l":  "Calcium-leaching hormone disorder",
         "abbr":  "",
-        "ko_h":  "부갑상선 기능 항진증",
-        "ko_l":  "",
         "f":  [
                   "Endocrinology",
                   "Surgery"
@@ -4774,8 +4234,6 @@
         "en_h":  "Pheochromocytoma",
         "en_l":  "Adrenal tumor causing high blood pressure spike",
         "abbr":  "",
-        "ko_h":  "갈색세포종",
-        "ko_l":  "",
         "f":  [
                   "Endocrinology",
                   "Urology",
@@ -4796,8 +4254,6 @@
         "en_h":  "Metabolic Syndrome",
         "en_l":  "Insulin resistance syndrome",
         "abbr":  "",
-        "ko_h":  "대사 증후군",
-        "ko_l":  "",
         "f":  [
                   "Family Medicine",
                   "Cardiology",
@@ -4810,8 +4266,6 @@
         "en_h":  "Pancytopenia",
         "en_l":  "Red, white, and platelet cell drop",
         "abbr":  "",
-        "ko_h":  "범혈구감소증",
-        "ko_l":  "",
         "f":  [
                   "Hematology",
                   "Oncology"
@@ -4834,8 +4288,6 @@
         "en_h":  "Neutropenia",
         "en_l":  "Low infection-fighting cells",
         "abbr":  "",
-        "ko_h":  "호중구감소증",
-        "ko_l":  "",
         "f":  [
                   "Hematology",
                   "Oncology",
@@ -4856,8 +4308,6 @@
         "en_h":  "Lymphadenopathy",
         "en_l":  "Swollen glands",
         "abbr":  "LNopathy",
-        "ko_h":  "림프절병증",
-        "ko_l":  "림프선 부음",
         "f":  [
                   "Oncology",
                   "Internal Medicine",
@@ -4879,8 +4329,6 @@
         "en_h":  "Splenomegaly",
         "en_l":  "Enlarged spleen",
         "abbr":  "",
-        "ko_h":  "비장비대 / 지라비대",
-        "ko_l":  "비장이 커짐",
         "f":  [
                   "Hematology",
                   "Gastroenterology",
@@ -4901,8 +4349,6 @@
         "en_h":  "Disseminated Intravascular Coagulation",
         "en_l":  "Uncontrolled bleeding and clotting emergency",
         "abbr":  "DIC",
-        "ko_h":  "파종성 혈관내 응고증",
-        "ko_l":  "",
         "f":  [
                   "Critical Care",
                   "Hematology",
@@ -4924,8 +4370,6 @@
         "en_h":  "Carcinoma",
         "en_l":  "Epithelial tissue cancer",
         "abbr":  "Ca",
-        "ko_h":  "암종",
-        "ko_l":  "상피세포 암",
         "f":  [
                   "Oncology",
                   "Pathology"
@@ -4945,8 +4389,6 @@
         "en_h":  "Sarcoma",
         "en_l":  "Bone or muscle cancer",
         "abbr":  "",
-        "ko_h":  "육종",
-        "ko_l":  "결합조직 암",
         "f":  [
                   "Oncology",
                   "Orthopedics",
@@ -4967,8 +4409,6 @@
         "en_h":  "Immunotherapy",
         "en_l":  "Target body\u0027s immune system to fight cancer",
         "abbr":  "",
-        "ko_h":  "면역항암요법",
-        "ko_l":  "면역 치료",
         "f":  [
                   "Oncology",
                   "Immunology"
@@ -4988,8 +4428,6 @@
         "en_h":  "Adjuvant Therapy",
         "en_l":  "Post-surgery preventive therapy",
         "abbr":  "",
-        "ko_h":  "보조요법",
-        "ko_l":  "보조 항암 치료",
         "f":  [
                   "Oncology",
                   "Surgery"
@@ -5001,8 +4439,6 @@
         "en_h":  "Neoadjuvant Therapy",
         "en_l":  "Pre-surgery shrink treatment",
         "abbr":  "",
-        "ko_h":  "선행보조요법",
-        "ko_l":  "수술 전 항암 치료",
         "f":  [
                   "Oncology",
                   "Surgery"
@@ -5022,8 +4458,6 @@
         "en_h":  "Amenorrhea",
         "en_l":  "Absence of menstruation",
         "abbr":  "",
-        "ko_h":  "무월경",
-        "ko_l":  "생리 없음",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Endocrinology"
@@ -5046,8 +4480,6 @@
         "en_h":  "Dysmenorrhea",
         "en_l":  "Menstrual cramps",
         "abbr":  "",
-        "ko_h":  "월경곤란증",
-        "ko_l":  "생리통",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Family Medicine"
@@ -5070,8 +4502,6 @@
         "en_h":  "Uterine Leiomyoma",
         "en_l":  "Fibroids in womb",
         "abbr":  "",
-        "ko_h":  "자궁근종",
-        "ko_l":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Surgery"
@@ -5083,8 +4513,6 @@
         "en_h":  "Abruptio Placentae",
         "en_l":  "Placenta separating early",
         "abbr":  "",
-        "ko_h":  "태반조기박리",
-        "ko_l":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Emergency Medicine"
@@ -5096,8 +4524,6 @@
         "en_h":  "Postpartum Hemorrhage",
         "en_l":  "Heavy bleeding after birth",
         "abbr":  "PPH",
-        "ko_h":  "산후출혈",
-        "ko_l":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Emergency Medicine"
@@ -5120,8 +4546,6 @@
         "en_h":  "Anaphylaxis",
         "en_l":  "Severe systemic allergic shock",
         "abbr":  "",
-        "ko_h":  "아나필락시스 쇼크",
-        "ko_l":  "심한 알레르기 쇼크",
         "f":  [
                   "Emergency Medicine",
                   "Immunology"
@@ -5133,8 +4557,6 @@
         "en_h":  "Idiopathic",
         "en_l":  "Of unknown cause",
         "abbr":  "",
-        "ko_h":  "특발성",
-        "ko_l":  "원인 불명",
         "f":  [
                   "General Medicine",
                   "Pathology"
@@ -5151,8 +4573,6 @@
         "en_h":  "Iatrogenic",
         "en_l":  "Caused by medical treatment",
         "abbr":  "",
-        "ko_h":  "의원성",
-        "ko_l":  "의료 행위로 인한 부작용",
         "f":  [
                   "General Medicine",
                   "Pathology"
@@ -5172,8 +4592,6 @@
         "en_h":  "Hypertrophy",
         "en_l":  "Increase in cell size",
         "abbr":  "",
-        "ko_h":  "비대",
-        "ko_l":  "",
         "f":  [
                   "Cardiology",
                   "Pathology"
@@ -5193,8 +4611,6 @@
         "en_h":  "Hyperplasia",
         "en_l":  "Increase in cell count",
         "abbr":  "",
-        "ko_h":  "과형성",
-        "ko_l":  "",
         "f":  [
                   "Pathology",
                   "Urology",
@@ -5215,8 +4631,6 @@
         "en_h":  "Sepsis",
         "en_l":  "Severe blood infection",
         "abbr":  "",
-        "ko_h":  "패혈증",
-        "ko_l":  "",
         "f":  [
                   "Infectious Disease",
                   "Critical Care",
@@ -5237,8 +4651,6 @@
         "en_h":  "Agnosia",
         "en_l":  "Inability to recognize objects or faces",
         "abbr":  "",
-        "ko_h":  "실인증",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Psychiatry"
@@ -5255,8 +4667,6 @@
         "en_h":  "Anosognosia",
         "en_l":  "Lack of awareness of one\u0027s own illness",
         "abbr":  "",
-        "ko_h":  "병식 부전",
-        "ko_l":  "",
         "f":  [
                   "Neurology",
                   "Psychiatry"
@@ -5273,8 +4683,6 @@
         "en_h":  "Catatonia",
         "en_l":  "Abnormal movement and responsiveness",
         "abbr":  "",
-        "ko_h":  "긴장증",
-        "ko_l":  "",
         "f":  [
                   "Psychiatry",
                   "Neurology"
@@ -5286,8 +4694,6 @@
         "en_h":  "Akathisia",
         "en_l":  "Inability to sit still",
         "abbr":  "",
-        "ko_h":  "정좌불능증",
-        "ko_l":  "",
         "f":  [
                   "Psychiatry",
                   "Neurology",
@@ -5300,8 +4706,6 @@
         "en_h":  "Tardive Dyskinesia",
         "en_l":  "Involuntary repetitive facial movements",
         "abbr":  "TD",
-        "ko_h":  "지체성 운동장애",
-        "ko_l":  "",
         "f":  [
                   "Psychiatry",
                   "Neurology",
@@ -5322,8 +4726,6 @@
         "en_h":  "Photophobia",
         "en_l":  "Extreme sensitivity to light",
         "abbr":  "",
-        "ko_h":  "광과민증",
-        "ko_l":  "빛 민감증",
         "f":  [
                   "Ophthalmology",
                   "Neurology"
@@ -5340,8 +4742,6 @@
         "en_h":  "Presbycusis",
         "en_l":  "Age-related hearing loss",
         "abbr":  "",
-        "ko_h":  "노인성 난청",
-        "ko_l":  "",
         "f":  [
                   "Otolaryngology"
               ],
@@ -5352,8 +4752,6 @@
         "en_h":  "Diplopia",
         "en_l":  "Double vision",
         "abbr":  "",
-        "ko_h":  "복시",
-        "ko_l":  "",
         "f":  [
                   "Ophthalmology",
                   "Neurology"
@@ -5373,8 +4771,6 @@
         "en_h":  "Osteoarthritis",
         "en_l":  "Wear-and-tear arthritis",
         "abbr":  "OA",
-        "ko_h":  "골관절염",
-        "ko_l":  "",
         "f":  [
                   "Orthopedics",
                   "Rheumatology"
@@ -5395,8 +4791,6 @@
         "en_h":  "Ankylosing Spondylitis",
         "en_l":  "Chronic spinal arthritis that fuses bones",
         "abbr":  "AS",
-        "ko_h":  "강직성 척추염",
-        "ko_l":  "",
         "f":  [
                   "Rheumatology",
                   "Orthopedics",
@@ -5418,8 +4812,6 @@
         "en_h":  "Sarcopenia",
         "en_l":  "Age-related muscle loss",
         "abbr":  "",
-        "ko_h":  "근감소증",
-        "ko_l":  "",
         "f":  [
                   "General Medicine",
                   "Orthopedics"
@@ -5439,8 +4831,6 @@
         "en_h":  "Myalgia",
         "en_l":  "Muscle pain",
         "abbr":  "",
-        "ko_h":  "근육통",
-        "ko_l":  "",
         "f":  [
                   "General Medicine",
                   "Rheumatology",
@@ -5461,8 +4851,6 @@
         "en_h":  "Scoliosis",
         "en_l":  "Curved spine",
         "abbr":  "",
-        "ko_h":  "척추측만증",
-        "ko_l":  "",
         "f":  [
                   "Orthopedics",
                   "Pediatrics"
@@ -5482,8 +4870,6 @@
         "en_h":  "Avascular Necrosis",
         "en_l":  "Bone tissue death from lack of blood supply",
         "abbr":  "AVN",
-        "ko_h":  "무혈성 괴사",
-        "ko_l":  "",
         "f":  [
                   "Orthopedics"
               ],
@@ -5506,8 +4892,6 @@
         "en_h":  "Tenosynovitis",
         "en_l":  "Inflammation of tendon sheath",
         "abbr":  "",
-        "ko_h":  "힘줄윤활막염 / 건막염",
-        "ko_l":  "힘줄 염증",
         "f":  [
                   "Orthopedics",
                   "Rheumatology"
@@ -5528,8 +4912,6 @@
         "en_h":  "Alopecia",
         "en_l":  "Hair loss",
         "abbr":  "",
-        "ko_h":  "탈모증",
-        "ko_l":  "",
         "f":  [
                   "Dermatology",
                   "Endocrinology"
@@ -5541,8 +4923,6 @@
         "en_h":  "Petechiae",
         "en_l":  "Tiny purple or red skin spots",
         "abbr":  "",
-        "ko_h":  "점상출혈",
-        "ko_l":  "",
         "f":  [
                   "Dermatology",
                   "Hematology",
@@ -5555,8 +4935,6 @@
         "en_h":  "Purpura",
         "en_l":  "Purple skin blotches from internal bleeding",
         "abbr":  "",
-        "ko_h":  "자반증",
-        "ko_l":  "",
         "f":  [
                   "Hematology",
                   "Dermatology",
@@ -5569,8 +4947,6 @@
         "en_h":  "Ecchymosis",
         "en_l":  "Large bruise",
         "abbr":  "",
-        "ko_h":  "반상출혈",
-        "ko_l":  "멍",
         "f":  [
                   "Dermatology",
                   "Orthopedics"
@@ -5582,8 +4958,6 @@
         "en_h":  "Necrotizing Fasciitis",
         "en_l":  "Flesh-eating bacteria infection",
         "abbr":  "NF",
-        "ko_h":  "괴사성 근막염",
-        "ko_l":  "",
         "f":  [
                   "Infectious Disease",
                   "Surgery",
@@ -5605,8 +4979,6 @@
         "en_h":  "Ovarian Torsion",
         "en_l":  "Twisted ovary",
         "abbr":  "",
-        "ko_h":  "난소염전",
-        "ko_l":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Emergency Medicine"
@@ -5623,8 +4995,6 @@
         "en_h":  "Vasovagal Syncope",
         "en_l":  "Fainting from sudden blood pressure drop",
         "abbr":  "VVS",
-        "ko_h":  "혈관미주신경성 실신",
-        "ko_l":  "",
         "f":  [
                   "Cardiology",
                   "Neurology",
@@ -5637,8 +5007,6 @@
         "en_h":  "Peripheral Artery Disease",
         "en_l":  "Blocked leg arteries",
         "abbr":  "PAD",
-        "ko_h":  "말초동맥질환",
-        "ko_l":  "",
         "f":  [
                   "Cardiology",
                   "Surgery"
@@ -5658,8 +5026,6 @@
         "en_h":  "Raynaud\u0027s Phenomenon",
         "en_l":  "White fingers from cold or stress",
         "abbr":  "",
-        "ko_h":  "레이노 현상",
-        "ko_l":  "",
         "f":  [
                   "Rheumatology",
                   "Cardiology"
@@ -5671,8 +5037,6 @@
         "en_h":  "Lymphedema",
         "en_l":  "Swelling caused by fluid buildup",
         "abbr":  "",
-        "ko_h":  "림프부종",
-        "ko_l":  "",
         "f":  [
                   "Oncology",
                   "Surgery",
@@ -5693,8 +5057,6 @@
         "en_h":  "Cardiac Tamponade",
         "en_l":  "Fluid compression around heart",
         "abbr":  "",
-        "ko_h":  "심장눌림증",
-        "ko_l":  "",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine",
@@ -5712,8 +5074,6 @@
         "en_h":  "Choledocholithiasis",
         "en_l":  "Stones in the main bile duct",
         "abbr":  "",
-        "ko_h":  "총담관결석증",
-        "ko_l":  "총담관 담석",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -5734,8 +5094,6 @@
         "en_h":  "Cholangitis",
         "en_l":  "Bile duct infection",
         "abbr":  "",
-        "ko_h":  "담관염",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery",
@@ -5756,8 +5114,6 @@
         "en_h":  "Esophageal Varices",
         "en_l":  "Swollen veins in food pipe",
         "abbr":  "EV",
-        "ko_h":  "식도정맥류",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Emergency Medicine"
@@ -5774,8 +5130,6 @@
     {
         "en_h":  "Intestinal Metaplasia",
         "en_l":  "Stomach lining changing to look like bowel",
-        "ko_h":  "장상피화생",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Pathology"
@@ -5798,8 +5152,6 @@
         "en_h":  "Ileus",
         "en_l":  "Lack of bowel movement",
         "abbr":  "",
-        "ko_h":  "장폐색증",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -5816,8 +5168,6 @@
         "en_h":  "Orthopnea",
         "en_l":  "Breathing difficulty when lying flat",
         "abbr":  "",
-        "ko_h":  "기좌호흡",
-        "ko_l":  "누우면 숨이 참",
         "f":  [
                   "Cardiology",
                   "Pulmonology"
@@ -5837,8 +5187,6 @@
         "en_h":  "Acute Respiratory Distress Syndrome",
         "en_l":  "Sudden severe lung failure",
         "abbr":  "ARDS",
-        "ko_h":  "급성 호흡곤란 증후군",
-        "ko_l":  "",
         "f":  [
                   "Critical Care",
                   "Pulmonology",
@@ -5851,8 +5199,6 @@
         "en_h":  "Bioavailability",
         "en_l":  "Percentage of drug absorbed into blood",
         "abbr":  "BA",
-        "ko_h":  "생체이용률",
-        "ko_l":  "",
         "f":  [
                   "Pharmacology",
                   "General Medicine"
@@ -5864,8 +5210,6 @@
         "en_h":  "Prodrome",
         "en_l":  "Early warning signs before illness",
         "abbr":  "",
-        "ko_h":  "전구증상",
-        "ko_l":  "발병 전 초기 증상",
         "f":  [
                   "Infectious Disease",
                   "Neurology",
@@ -5883,8 +5227,6 @@
         "en_h":  "Sequela",
         "en_l":  "Conditions left behind after a disease",
         "abbr":  "",
-        "ko_h":  "후유증",
-        "ko_l":  "",
         "f":  [
                   "General Medicine",
                   "Rehabilitation Medicine",
@@ -5897,8 +5239,6 @@
         "en_h":  "Cachexia",
         "en_l":  "Severe wasting from advanced disease",
         "abbr":  "",
-        "ko_h":  "악액질",
-        "ko_l":  "극심한 체중 감소",
         "f":  [
                   "Oncology",
                   "Internal Medicine"
@@ -5910,8 +5250,6 @@
         "en_h":  "Septic Shock",
         "en_l":  "Dangerously low blood pressure from blood infection",
         "abbr":  "",
-        "ko_h":  "패혈성 쇼크",
-        "ko_l":  "",
         "f":  [
                   "Critical Care",
                   "Emergency Medicine",
@@ -5929,8 +5267,6 @@
         "en_h":  "Hyperkalemia",
         "en_l":  "High potassium in blood",
         "abbr":  "",
-        "ko_h":  "고칼륨혈증",
-        "ko_l":  "칼륨 수치가 높음",
         "f":  [
                   "Nephrology",
                   "Emergency Medicine",
@@ -5954,8 +5290,6 @@
         "en_h":  "Tracheostomy",
         "en_l":  "Neck breathing hole operation",
         "abbr":  "",
-        "ko_h":  "기관절개술",
-        "ko_l":  "",
         "f":  [
                   "Otolaryngology",
                   "Surgery",
@@ -5976,8 +5310,6 @@
         "en_h":  "Diaphragm",
         "en_l":  "Belly breathing muscle",
         "abbr":  "",
-        "ko_h":  "횡격막",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Pulmonology"
@@ -5989,8 +5321,6 @@
         "en_h":  "Bronchus",
         "en_l":  "Main airway branches",
         "abbr":  "",
-        "ko_h":  "기관지",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Pulmonology"
@@ -6007,8 +5337,6 @@
         "en_h":  "Alveolus",
         "en_l":  "Air sacs",
         "abbr":  "",
-        "ko_h":  "폐포 / 허파꽈리",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Pulmonology"
@@ -6020,8 +5348,6 @@
         "en_h":  "Pleura",
         "en_l":  "Lung lining",
         "abbr":  "",
-        "ko_h":  "흉막 / 가슴막",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Pulmonology",
@@ -6039,8 +5365,6 @@
         "en_h":  "Epiglottis",
         "en_l":  "Flap over windpipe",
         "abbr":  "",
-        "ko_h":  "후두개",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -6060,8 +5384,6 @@
         "en_h":  "Myocardium",
         "en_l":  "Heart muscle wall",
         "abbr":  "",
-        "ko_h":  "심근",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -6082,8 +5404,6 @@
         "en_h":  "Pericardium",
         "en_l":  "Heart sac",
         "abbr":  "",
-        "ko_h":  "심낭",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology",
@@ -6107,8 +5427,6 @@
         "en_h":  "Atrium",
         "en_l":  "Upper heart chamber",
         "abbr":  "",
-        "ko_h":  "심방",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -6125,8 +5443,6 @@
         "en_h":  "Ventricle",
         "en_l":  "Lower heart pump",
         "abbr":  "",
-        "ko_h":  "심실",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -6143,8 +5459,6 @@
         "en_h":  "Aorta",
         "en_l":  "Main body artery",
         "abbr":  "",
-        "ko_h":  "대동맥",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology",
@@ -6162,8 +5476,6 @@
         "en_h":  "Vena Cava",
         "en_l":  "Main body vein",
         "abbr":  "",
-        "ko_h":  "대정맥",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology",
@@ -6181,8 +5493,6 @@
         "en_h":  "Pylorus",
         "en_l":  "Stomach exit",
         "abbr":  "",
-        "ko_h":  "유문",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -6199,8 +5509,6 @@
         "en_h":  "Cecum",
         "en_l":  "Pouch at start of large intestine",
         "abbr":  "",
-        "ko_h":  "맹장",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -6213,8 +5521,6 @@
         "en_h":  "Appendix",
         "en_l":  "Appendix pouch",
         "abbr":  "",
-        "ko_h":  "충수돌기 / 충수",
-        "ko_l":  "맹장",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -6232,8 +5538,6 @@
         "en_h":  "Colon",
         "en_l":  "Large bowel",
         "abbr":  "",
-        "ko_h":  "결장 / 대장",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -6251,8 +5555,6 @@
         "en_h":  "Rectum",
         "en_l":  "Stool storage before anus",
         "abbr":  "",
-        "ko_h":  "직장",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -6269,8 +5571,6 @@
     {
         "en_h":  "Pancreas",
         "abbr":  "",
-        "ko_h":  "췌장 / 이자",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Endocrinology",
@@ -6288,8 +5588,6 @@
         "en_h":  "Nephron",
         "en_l":  "Kidney filtering unit",
         "abbr":  "",
-        "ko_h":  "네프론 / 신단위",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Nephrology"
@@ -6306,8 +5604,6 @@
         "en_h":  "Glomerulus",
         "en_l":  "Blood vessel sieve",
         "abbr":  "",
-        "ko_h":  "사구체",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Nephrology",
@@ -6325,8 +5621,6 @@
         "en_h":  "Ureter",
         "en_l":  "Kidney-to-bladder tube",
         "abbr":  "",
-        "ko_h":  "요관",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Urology"
@@ -6343,8 +5637,6 @@
         "en_h":  "Urethra",
         "en_l":  "Urine exit tube",
         "abbr":  "",
-        "ko_h":  "요도",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Urology"
@@ -6361,8 +5653,6 @@
         "en_h":  "Cerebrum",
         "en_l":  "Main big brain",
         "abbr":  "",
-        "ko_h":  "대뇌",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6380,8 +5670,6 @@
         "en_h":  "Cerebellum",
         "en_l":  "Balance brain",
         "abbr":  "",
-        "ko_h":  "소뇌",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6399,8 +5687,6 @@
         "en_h":  "Brainstem",
         "en_l":  "Life support brain core",
         "abbr":  "",
-        "ko_h":  "뇌간",
-        "ko_l":  "뇌줄기",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6413,8 +5699,6 @@
         "en_h":  "Meninges",
         "en_l":  "Brain protective layers",
         "abbr":  "",
-        "ko_h":  "뇌수막",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6432,8 +5716,6 @@
         "en_h":  "Hippocampus",
         "en_l":  "Memory center",
         "abbr":  "",
-        "ko_h":  "해마",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6446,8 +5728,6 @@
         "en_h":  "Spinal Cord",
         "en_l":  "Main back nerve cord",
         "abbr":  "",
-        "ko_h":  "척수",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6465,8 +5745,6 @@
         "en_h":  "Clavicle",
         "en_l":  "Collarbone",
         "abbr":  "",
-        "ko_h":  "쇄골",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6478,8 +5756,6 @@
         "en_h":  "Scapula",
         "en_l":  "Shoulder blade",
         "abbr":  "",
-        "ko_h":  "견갑골",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6491,8 +5767,6 @@
         "en_h":  "Sternum",
         "en_l":  "Breastbone",
         "abbr":  "",
-        "ko_h":  "흉골",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Surgery",
@@ -6510,8 +5784,6 @@
         "en_h":  "Femur",
         "en_l":  "Thigh bone",
         "abbr":  "",
-        "ko_h":  "대퇴골",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6523,8 +5795,6 @@
         "en_h":  "Patella",
         "en_l":  "Kneecap",
         "abbr":  "",
-        "ko_h":  "슬개골",
-        "ko_l":  "무릎뼈",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6536,8 +5806,6 @@
         "en_h":  "Intervertebral Disc",
         "en_l":  "Spine cushion",
         "abbr":  "IVD",
-        "ko_h":  "추간판",
-        "ko_l":  "디스크",
         "f":  [
                   "Anatomy",
                   "Orthopedics",
@@ -6558,8 +5826,6 @@
         "en_h":  "Ligament",
         "en_l":  "Bone-to-bone cord",
         "abbr":  "",
-        "ko_h":  "인대",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6571,8 +5837,6 @@
         "en_h":  "Tendon",
         "en_l":  "Muscle-to-bone cord",
         "abbr":  "",
-        "ko_h":  "건 / 힘줄",
-        "ko_l":  "힘줄",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6589,8 +5853,6 @@
         "en_h":  "Epidermis",
         "en_l":  "Outer skin layer",
         "abbr":  "",
-        "ko_h":  "표피",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Dermatology",
@@ -6611,8 +5873,6 @@
         "en_h":  "Dermis",
         "en_l":  "Deep skin layer",
         "abbr":  "",
-        "ko_h":  "진피",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Dermatology"
@@ -6629,8 +5889,6 @@
         "en_h":  "Cornea",
         "en_l":  "Clear eye window",
         "abbr":  "",
-        "ko_h":  "각막",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Ophthalmology"
@@ -6647,8 +5905,6 @@
         "en_h":  "Retina",
         "en_l":  "Eye screen lining",
         "abbr":  "",
-        "ko_h":  "망막",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Ophthalmology"
@@ -6665,8 +5921,6 @@
         "en_h":  "Cochlea",
         "en_l":  "Hearing canal shell",
         "abbr":  "",
-        "ko_h":  "와우",
-        "ko_l":  "달팽이관",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -6678,8 +5932,6 @@
         "en_h":  "Lymph Node",
         "en_l":  "Lymph gland nodes",
         "abbr":  "LN",
-        "ko_h":  "림프절",
-        "ko_l":  "임파선",
         "f":  [
                   "Anatomy",
                   "Oncology",
@@ -6698,8 +5950,6 @@
         "en_h":  "Thyroid Gland",
         "en_l":  "Thyroid",
         "abbr":  "",
-        "ko_h":  "갑상선 / 갑상샘",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Endocrinology",
@@ -6717,8 +5967,6 @@
         "en_h":  "Uterus",
         "en_l":  "Womb",
         "abbr":  "",
-        "ko_h":  "자궁",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Obstetrics \u0026 Gynecology"
@@ -6735,8 +5983,6 @@
         "en_h":  "Prostate Gland",
         "en_l":  "Prostate",
         "abbr":  "",
-        "ko_h":  "전립선",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Urology"
@@ -6753,8 +5999,6 @@
         "en_h":  "Critical Care Medicine",
         "en_l":  "Intensive care",
         "abbr":  "CCM",
-        "ko_h":  "중환자 의학",
-        "ko_l":  "중환자실 전문",
         "f":  [
                   "Critical Care",
                   "Emergency Medicine",
@@ -6767,8 +6011,6 @@
         "en_h":  "Vascular Surgery",
         "en_l":  "Blood vessel surgery",
         "abbr":  "",
-        "ko_h":  "혈관외과",
-        "ko_l":  "혈관 수술",
         "f":  [
                   "Surgery",
                   "General Medicine"
@@ -6785,8 +6027,6 @@
         "en_h":  "Colorectal Surgery",
         "en_l":  "Colon and rectal surgery",
         "abbr":  "",
-        "ko_h":  "대장항문외과",
-        "ko_l":  "대장 수술",
         "f":  [
                   "Surgery",
                   "General Medicine"
@@ -6804,8 +6044,6 @@
         "en_h":  "Immunology",
         "en_l":  "Immune system medicine",
         "abbr":  "",
-        "ko_h":  "면역학",
-        "ko_l":  "면역 전문",
         "f":  [
                   "Immunology",
                   "General Medicine"
@@ -6825,8 +6063,6 @@
         "en_h":  "General Anesthesia",
         "en_l":  "Being put to sleep",
         "abbr":  "GA",
-        "ko_h":  "전신마취",
-        "ko_l":  "잠에 드는 마취",
         "f":  [
                   "Anesthesiology",
                   "Surgery"
@@ -6843,8 +6079,6 @@
         "en_h":  "Local Anesthesia",
         "en_l":  "Numbing injection",
         "abbr":  "",
-        "ko_h":  "국소마취",
-        "ko_l":  "부분 마취 주사",
         "f":  [
                   "Anesthesiology",
                   "Surgery"
@@ -6861,8 +6095,6 @@
         "en_h":  "Sedation",
         "en_l":  "Calming medication",
         "abbr":  "",
-        "ko_h":  "진정",
-        "ko_l":  "진정제 투여",
         "f":  [
                   "Anesthesiology",
                   "Critical Care",
@@ -6875,8 +6107,6 @@
         "en_h":  "Epidural",
         "en_l":  "Epidural injection",
         "abbr":  "",
-        "ko_h":  "경막외 마취",
-        "ko_l":  "허리 마취",
         "f":  [
                   "Anesthesiology",
                   "Obstetrics \u0026 Gynecology"
@@ -6893,8 +6123,6 @@
         "en_h":  "Renal Pelvis",
         "en_l":  "Kidney funnel",
         "abbr":  "",
-        "ko_h":  "신우",
-        "ko_l":  "콩팥 깔때기",
         "f":  [
                   "Anatomy",
                   "Nephrology",
@@ -6914,8 +6142,6 @@
         "en_h":  "Nerve Block",
         "en_l":  "Numbing a nerve",
         "abbr":  "",
-        "ko_h":  "신경 차단",
-        "ko_l":  "신경 마취 주사",
         "f":  [
                   "Anesthesiology",
                   "Surgery"
@@ -6927,8 +6153,6 @@
         "en_h":  "Conscious Sedation",
         "en_l":  "Light sedation",
         "abbr":  "",
-        "ko_h":  "의식하 진정",
-        "ko_l":  "약하게 재우는 진정",
         "f":  [
                   "Anesthesiology",
                   "Emergency Medicine"
@@ -6940,8 +6164,6 @@
         "en_h":  "Spinal Anesthesia",
         "en_l":  "Spinal block",
         "abbr":  "",
-        "ko_h":  "척추 마취",
-        "ko_l":  "허리 마취",
         "f":  [
                   "Anesthesiology",
                   "Surgery"
@@ -6959,8 +6181,6 @@
         "en_h":  "Ultrasound",
         "en_l":  "Sound wave scan",
         "abbr":  "US",
-        "ko_h":  "초음파 검사",
-        "ko_l":  "초음파",
         "f":  [
                   "Radiology",
                   "General Medicine"
@@ -6977,8 +6197,6 @@
         "en_h":  "X-ray",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "엑스레이",
-        "ko_l":  "",
         "f":  [
                   "Radiology",
                   "General Medicine"
@@ -6990,8 +6208,6 @@
         "en_h":  "Contrast agent",
         "en_l":  "Dye for scans",
         "abbr":  "",
-        "ko_h":  "조영제",
-        "ko_l":  "검사용 염료",
         "f":  [
                   "Radiology"
               ],
@@ -7002,8 +6218,6 @@
         "en_h":  "Physical therapy",
         "en_l":  "Physio",
         "abbr":  "PT",
-        "ko_h":  "물리치료",
-        "ko_l":  "",
         "f":  [
                   "Rehabilitation Medicine",
                   "General Medicine"
@@ -7020,8 +6234,6 @@
         "en_h":  "Occupational therapy",
         "en_l":  "Daily living therapy",
         "abbr":  "OT",
-        "ko_h":  "작업치료",
-        "ko_l":  "일상생활 훈련 치료",
         "f":  [
                   "Rehabilitation Medicine"
               ],
@@ -7037,8 +6249,6 @@
         "en_h":  "Range of motion",
         "en_l":  "Joint movement",
         "abbr":  "ROM",
-        "ko_h":  "관절 운동 범위",
-        "ko_l":  "관절이 움직이는 범위",
         "f":  [
                   "Rehabilitation Medicine",
                   "Orthopedics"
@@ -7050,8 +6260,6 @@
         "en_h":  "Speech therapy",
         "en_l":  "Speech rehab",
         "abbr":  "ST",
-        "ko_h":  "언어치료",
-        "ko_l":  "말하기 재활",
         "f":  [
                   "Rehabilitation Medicine",
                   "Neurology"
@@ -7068,8 +6276,6 @@
         "en_h":  "Chemotherapy",
         "en_l":  "Chemo",
         "abbr":  "",
-        "ko_h":  "항암화학요법",
-        "ko_l":  "항암치료",
         "f":  [
                   "Oncology",
                   "General Medicine"
@@ -7089,8 +6295,6 @@
         "en_h":  "Heart",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "심장",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -7107,8 +6311,6 @@
         "en_h":  "Coronary Artery",
         "en_l":  "Heart artery",
         "abbr":  "",
-        "ko_h":  "관상동맥",
-        "ko_l":  "심장 혈관",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -7125,8 +6327,6 @@
         "en_h":  "Heart Valve",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "심장 판막",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -7143,8 +6343,6 @@
         "en_h":  "Capillary",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "모세혈관",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "General Medicine"
@@ -7161,8 +6359,6 @@
         "en_h":  "Lung",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "폐",
-        "ko_l":  "허파",
         "f":  [
                   "Anatomy",
                   "Pulmonology"
@@ -7179,8 +6375,6 @@
         "en_h":  "Nasal Cavity",
         "en_l":  "Inside of the nose",
         "abbr":  "",
-        "ko_h":  "비강",
-        "ko_l":  "콧속",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -7197,8 +6391,6 @@
         "en_h":  "Paranasal Sinuses",
         "en_l":  "Sinuses",
         "abbr":  "",
-        "ko_h":  "부비동",
-        "ko_l":  "코 옆 공기 공간",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -7219,8 +6411,6 @@
         "en_h":  "Stomach",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "위",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -7237,8 +6427,6 @@
         "en_h":  "Liver",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "간",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -7255,8 +6443,6 @@
         "en_h":  "Small Intestine",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "소장",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -7274,8 +6460,6 @@
         "en_h":  "Large Intestine",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "대장",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -7293,8 +6477,6 @@
         "en_h":  "Sigmoid Colon",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "에스결장 / 구불결장",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -7312,8 +6494,6 @@
         "en_h":  "Kidney",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "신장",
-        "ko_l":  "콩팥",
         "f":  [
                   "Anatomy",
                   "Nephrology"
@@ -7330,8 +6510,6 @@
         "en_h":  "Urinary Bladder",
         "en_l":  "Bladder",
         "abbr":  "",
-        "ko_h":  "방광",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Urology"
@@ -7348,8 +6526,6 @@
         "en_h":  "Brain",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "뇌",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -7366,8 +6542,6 @@
         "en_h":  "Nerve",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "신경",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -7384,8 +6558,6 @@
         "en_h":  "Neuron",
         "en_l":  "Nerve cell",
         "abbr":  "",
-        "ko_h":  "신경세포",
-        "ko_l":  "뉴런",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -7402,8 +6574,6 @@
         "en_h":  "Bone",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "뼈",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7420,8 +6590,6 @@
         "en_h":  "Muscle",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "근육",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7438,8 +6606,6 @@
         "en_h":  "Cartilage",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "연골",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7451,8 +6617,6 @@
         "en_h":  "Humerus",
         "en_l":  "Upper arm bone",
         "abbr":  "",
-        "ko_h":  "상완골",
-        "ko_l":  "위팔뼈",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7464,8 +6628,6 @@
         "en_h":  "Tibia",
         "en_l":  "Shin bone",
         "abbr":  "",
-        "ko_h":  "경골",
-        "ko_l":  "정강이뼈",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7477,8 +6639,6 @@
         "en_h":  "Vertebra",
         "en_l":  "Spinal bone",
         "abbr":  "",
-        "ko_h":  "척추뼈",
-        "ko_l":  "등뼈",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7495,8 +6655,6 @@
         "en_h":  "Adrenal Gland",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "부신",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Endocrinology"
@@ -7514,8 +6672,6 @@
         "en_h":  "Spleen",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "비장 / 지라",
-        "ko_l":  "지라",
         "f":  [
                   "Anatomy",
                   "Hematology"
@@ -7532,8 +6688,6 @@
         "en_h":  "Ovary",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "난소",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Obstetrics \u0026 Gynecology"
@@ -7550,8 +6704,6 @@
         "en_h":  "Cervix",
         "en_l":  "Neck of the womb",
         "abbr":  "",
-        "ko_h":  "자궁경부",
-        "ko_l":  "자궁 목",
         "f":  [
                   "Anatomy",
                   "Obstetrics \u0026 Gynecology"
@@ -7563,8 +6715,6 @@
         "en_h":  "Testicle",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "고환",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Urology"
@@ -7576,8 +6726,6 @@
         "en_h":  "Iris",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "홍채",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Ophthalmology"
@@ -7589,8 +6737,6 @@
         "en_h":  "Lens",
         "en_l":  "Eye lens",
         "abbr":  "",
-        "ko_h":  "수정체",
-        "ko_l":  "눈 렌즈",
         "f":  [
                   "Anatomy",
                   "Ophthalmology"
@@ -7602,8 +6748,6 @@
         "en_h":  "Tympanic Membrane",
         "en_l":  "Eardrum",
         "abbr":  "",
-        "ko_h":  "고막",
-        "ko_l":  "귀청",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -7620,8 +6764,6 @@
         "en_h":  "Abdomen",
         "en_l":  "Belly",
         "abbr":  "",
-        "ko_h":  "복부",
-        "ko_l":  "배",
         "f":  [
                   "Anatomy",
                   "General Medicine"
@@ -7638,8 +6780,6 @@
         "en_h":  "Abduction",
         "en_l":  "Moving limb away from body",
         "abbr":  "",
-        "ko_h":  "외전",
-        "ko_l":  "팔다리를 몸에서 멀리 움직임",
         "f":  [
                   "Anatomy",
                   "Orthopedics",
@@ -7652,8 +6792,6 @@
         "en_h":  "Adduction",
         "en_l":  "Moving limb toward body",
         "abbr":  "",
-        "ko_h":  "내전",
-        "ko_l":  "팔다리를 몸쪽으로 움직임",
         "f":  [
                   "Anatomy",
                   "Orthopedics",
@@ -7666,8 +6804,6 @@
         "en_h":  "Adenocarcinoma",
         "en_l":  "Glandular cancer",
         "abbr":  "",
-        "ko_h":  "선암종",
-        "ko_l":  "샘암",
         "f":  [
                   "Oncology",
                   "Pathology"
@@ -7688,8 +6824,6 @@
         "en_h":  "Adipose tissue",
         "en_l":  "Body fat tissue",
         "abbr":  "",
-        "ko_h":  "지방 조직",
-        "ko_l":  "지방",
         "f":  [
                   "Anatomy",
                   "General Medicine"
@@ -7706,8 +6840,6 @@
         "en_h":  "Ambidextrous",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "양손잡이",
-        "ko_l":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -7723,8 +6855,6 @@
         "en_h":  "Amniotomy",
         "en_l":  "Breaking the water",
         "abbr":  "",
-        "ko_h":  "인공파막",
-        "ko_l":  "양막 인공 파열",
         "f":  [
                   "Obstetrics \u0026 Gynecology"
               ],
@@ -7740,8 +6870,6 @@
         "en_h":  "Androgen",
         "en_l":  "Male hormone",
         "abbr":  "",
-        "ko_h":  "안드로겐",
-        "ko_l":  "남성호르몬",
         "f":  [
                   "Endocrinology"
               ],
@@ -7757,8 +6885,6 @@
         "en_h":  "Angiography",
         "en_l":  "Blood vessel imaging",
         "abbr":  "",
-        "ko_h":  "혈관조영술",
-        "ko_l":  "혈관 촬영",
         "f":  [
                   "Radiology",
                   "Cardiology"
@@ -7778,8 +6904,6 @@
         "en_h":  "Anoxia",
         "en_l":  "Absence of oxygen",
         "abbr":  "",
-        "ko_h":  "무산소증",
-        "ko_l":  "산소 없음",
         "f":  [
                   "Emergency Medicine",
                   "Critical Care"
@@ -7796,8 +6920,6 @@
         "en_h":  "Antibiotic",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "항생제",
-        "ko_l":  "",
         "f":  [
                   "Pharmacology",
                   "Infectious Disease"
@@ -7814,8 +6936,6 @@
         "en_h":  "Aortostenosis",
         "en_l":  "Aortic narrowing",
         "abbr":  "",
-        "ko_h":  "대동맥협착증",
-        "ko_l":  "대동맥 좁아짐",
         "f":  [
                   "Cardiology",
                   "Surgery"
@@ -7835,8 +6955,6 @@
         "en_h":  "Arteriosclerosis",
         "en_l":  "Artery hardening",
         "abbr":  "",
-        "ko_h":  "동맥경화",
-        "ko_l":  "혈관 굳음",
         "f":  [
                   "Cardiology",
                   "Internal Medicine"
@@ -7856,8 +6974,6 @@
         "en_h":  "Brachial Arteritis",
         "en_l":  "Brachial artery inflammation",
         "abbr":  "",
-        "ko_h":  "상완동맥염",
-        "ko_l":  "위팔 혈관 염증",
         "f":  [
                   "Vascular Surgery",
                   "Rheumatology"
@@ -7877,8 +6993,6 @@
         "en_h":  "Arthritis",
         "en_l":  "Joint inflammation",
         "abbr":  "",
-        "ko_h":  "관절염",
-        "ko_l":  "",
         "f":  [
                   "Orthopedics",
                   "Rheumatology"
@@ -7898,8 +7012,6 @@
         "en_h":  "Arthrocentesis",
         "en_l":  "Joint fluid tap",
         "abbr":  "",
-        "ko_h":  "관절천자",
-        "ko_l":  "관절 물 빼기",
         "f":  [
                   "Orthopedics",
                   "Rheumatology"
@@ -7919,8 +7031,6 @@
         "en_h":  "Arthroscope",
         "en_l":  "Joint camera",
         "abbr":  "",
-        "ko_h":  "관절경",
-        "ko_l":  "관절 카메라",
         "f":  [
                   "Orthopedics",
                   "Surgery"
@@ -7940,8 +7050,6 @@
         "en_h":  "Arthroscopy",
         "en_l":  "Joint examination",
         "abbr":  "",
-        "ko_h":  "관절경 검사",
-        "ko_l":  "관절 내시경",
         "f":  [
                   "Orthopedics",
                   "Surgery"
@@ -7961,8 +7069,6 @@
         "en_h":  "Axillary vein",
         "en_l":  "Armpit vein",
         "abbr":  "",
-        "ko_h":  "액와정맥",
-        "ko_l":  "겨드랑 정맥",
         "f":  [
                   "Anatomy",
                   "Vascular Surgery"
@@ -7979,8 +7085,6 @@
         "en_h":  "Bactericide",
         "en_l":  "Bacteria-killing agent",
         "abbr":  "",
-        "ko_h":  "살균제",
-        "ko_l":  "균 죽이는 약",
         "f":  [
                   "Pharmacology",
                   "Infectious Disease"
@@ -7997,8 +7101,6 @@
         "en_h":  "Biceps",
         "en_l":  "Front upper arm muscle",
         "abbr":  "",
-        "ko_h":  "이두근",
-        "ko_l":  "알통 근육",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -8018,8 +7120,6 @@
         "en_h":  "Blepharospasm",
         "en_l":  "Eyelid spasm",
         "abbr":  "",
-        "ko_h":  "안검경련",
-        "ko_l":  "눈꺼풀 경련",
         "f":  [
                   "Ophthalmology",
                   "Neurology"
@@ -8036,8 +7136,6 @@
         "en_h":  "Brachycephaly",
         "en_l":  "Short rounded skull",
         "abbr":  "",
-        "ko_h":  "단두증",
-        "ko_l":  "",
         "f":  [
                   "Pediatrics",
                   "Neurology"
@@ -8054,8 +7152,6 @@
         "en_h":  "Bradypnea",
         "en_l":  "Slow breathing",
         "abbr":  "",
-        "ko_h":  "서호흡",
-        "ko_l":  "느린 호흡",
         "f":  [
                   "Emergency Medicine",
                   "Pulmonology"
@@ -8075,8 +7171,6 @@
         "en_h":  "Bronchitis",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "기관지염",
-        "ko_l":  "",
         "f":  [
                   "Pulmonology",
                   "Family Medicine"
@@ -8096,8 +7190,6 @@
         "en_h":  "Buccinator",
         "en_l":  "Cheek muscle",
         "abbr":  "",
-        "ko_h":  "협근",
-        "ko_l":  "볼근",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -8114,8 +7206,6 @@
         "en_h":  "Cardiogenic",
         "en_l":  "Heart-caused",
         "abbr":  "",
-        "ko_h":  "심장성의",
-        "ko_l":  "심장이 원인인",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -8135,8 +7225,6 @@
         "en_h":  "Carpal",
         "en_l":  "Of the wrist bones",
         "abbr":  "",
-        "ko_h":  "수근골의",
-        "ko_l":  "손목뼈의",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -8153,8 +7241,6 @@
         "en_h":  "Carpal tunnel",
         "en_l":  "Wrist nerve channel",
         "abbr":  "",
-        "ko_h":  "수근 터널",
-        "ko_l":  "손목 터널",
         "f":  [
                   "Orthopedics",
                   "Neurology"
@@ -8171,8 +7257,6 @@
         "en_h":  "Cephalgia",
         "en_l":  "Headache",
         "abbr":  "",
-        "ko_h":  "두통",
-        "ko_l":  "머리 아픔",
         "f":  [
                   "Neurology",
                   "General Medicine"
@@ -8192,8 +7276,6 @@
         "en_h":  "Cephalocaudal",
         "en_l":  "Head to tail direction",
         "abbr":  "",
-        "ko_h":  "두미측의",
-        "ko_l":  "머리에서 발끝 방향",
         "f":  [
                   "Anatomy"
               ],
@@ -8209,8 +7291,6 @@
         "en_h":  "Cerebellopontine",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "소뇌교각의",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -8227,8 +7307,6 @@
         "en_h":  "Cerebrospinal fluid",
         "en_l":  "Brain and spine fluid",
         "abbr":  "CSF",
-        "ko_h":  "뇌척수액",
-        "ko_l":  "뇌와 척수 사이 액체",
         "f":  [
                   "Neurology",
                   "Emergency Medicine"
@@ -8246,8 +7324,6 @@
         "en_h":  "Chondroblast",
         "en_l":  "Cartilage-forming cell",
         "abbr":  "",
-        "ko_h":  "연골모세포",
-        "ko_l":  "",
         "f":  [
                   "Anatomy",
                   "Pathology"
@@ -8265,8 +7341,6 @@
         "en_h":  "Chromosome",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "염색체",
-        "ko_l":  "",
         "f":  [
                   "Pathology",
                   "General Medicine"
@@ -8283,8 +7357,6 @@
         "en_h":  "Colostomy",
         "en_l":  "Bowel diversion surgery",
         "abbr":  "",
-        "ko_h":  "결장조루술",
-        "ko_l":  "인공항문",
         "f":  [
                   "Surgery",
                   "Gastroenterology"
@@ -8304,8 +7376,6 @@
         "en_h":  "Colovesical fistula",
         "en_l":  "Bowel-bladder connection",
         "abbr":  "",
-        "ko_h":  "대장방광루",
-        "ko_l":  "",
         "f":  [
                   "Surgery",
                   "Urology"
@@ -8323,8 +7393,6 @@
         "en_h":  "Contralateral",
         "en_l":  "Opposite side",
         "abbr":  "",
-        "ko_h":  "대측성",
-        "ko_l":  "반대쪽",
         "f":  [
                   "General Medicine",
                   "Neurology"
@@ -8341,8 +7409,6 @@
         "en_h":  "Costochondritis",
         "en_l":  "Rib cartilage inflammation",
         "abbr":  "",
-        "ko_h":  "늑연골염",
-        "ko_l":  "갈비연골염",
         "f":  [
                   "Orthopedics",
                   "Emergency Medicine"
@@ -8362,8 +7428,6 @@
         "en_h":  "Craniotomy",
         "en_l":  "Skull surgery",
         "abbr":  "",
-        "ko_h":  "개두술",
-        "ko_l":  "두개골 수술",
         "f":  [
                   "Neurosurgery"
               ],
@@ -8382,8 +7446,6 @@
         "en_h":  "Cystoscope",
         "en_l":  "Bladder camera",
         "abbr":  "",
-        "ko_h":  "방광경",
-        "ko_l":  "방광 카메라",
         "f":  [
                   "Urology"
               ],
@@ -8402,8 +7464,6 @@
         "en_h":  "Cytotoxic",
         "en_l":  "Cell-killing",
         "abbr":  "",
-        "ko_h":  "세포독성의",
-        "ko_l":  "세포를 죽이는",
         "f":  [
                   "Pharmacology",
                   "Oncology"
@@ -8423,8 +7483,6 @@
         "en_h":  "Duodenography",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "십이지장조영술",
-        "ko_l":  "",
         "f":  [
                   "Radiology",
                   "Gastroenterology"
@@ -8444,8 +7502,6 @@
         "en_h":  "Edentulous",
         "en_l":  "Toothless",
         "abbr":  "",
-        "ko_h":  "무치악의",
-        "ko_l":  "이가 없는",
         "f":  [
                   "Dentistry"
               ],
@@ -8461,8 +7517,6 @@
         "en_h":  "Electrocardiograph",
         "en_l":  "ECG machine",
         "abbr":  "",
-        "ko_h":  "심전도계",
-        "ko_l":  "심전도 기계",
         "f":  [
                   "Cardiology"
               ],
@@ -8482,8 +7536,6 @@
         "en_h":  "Electrocardiography",
         "en_l":  "ECG recording process",
         "abbr":  "",
-        "ko_h":  "심전도검사법",
-        "ko_l":  "심전도 검사",
         "f":  [
                   "Cardiology"
               ],
@@ -8503,8 +7555,6 @@
         "en_h":  "Endocardium",
         "en_l":  "Heart inner lining",
         "abbr":  "",
-        "ko_h":  "심장 내막",
-        "ko_l":  "심장 안쪽 막",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -8527,8 +7577,6 @@
         "en_h":  "Endoscope",
         "en_l":  "Scope instrument",
         "abbr":  "",
-        "ko_h":  "내시경",
-        "ko_l":  "",
         "f":  [
                   "General Medicine",
                   "Surgery"
@@ -8548,8 +7596,6 @@
         "en_h":  "Enterocolitis",
         "en_l":  "Bowel inflammation",
         "abbr":  "",
-        "ko_h":  "장염",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Pediatrics"
@@ -8570,8 +7616,6 @@
         "en_h":  "Erythrocyte",
         "en_l":  "Red blood cell",
         "abbr":  "RBC",
-        "ko_h":  "적혈구",
-        "ko_l":  "빨간 피세포",
         "f":  [
                   "Hematology",
                   "Pathology"
@@ -8589,8 +7633,6 @@
         "en_h":  "Estrogen",
         "en_l":  "Female hormone",
         "abbr":  "",
-        "ko_h":  "에스트로겐",
-        "ko_l":  "여성호르몬",
         "f":  [
                   "Endocrinology",
                   "Obstetrics \u0026 Gynecology"
@@ -8607,8 +7649,6 @@
         "en_h":  "Flexor digitorum",
         "en_l":  "Finger flexor muscle",
         "abbr":  "",
-        "ko_h":  "지굴근",
-        "ko_l":  "손가락굽힘근",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -8625,8 +7665,6 @@
         "en_h":  "Frontoparietal",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "전두두정의",
-        "ko_l":  "이마마루의",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -8643,8 +7681,6 @@
         "en_h":  "Gastritis",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "위염",
-        "ko_l":  "",
         "f":  [
                   "Gastroenterology",
                   "Family Medicine"
@@ -8664,8 +7700,6 @@
         "en_h":  "Gastrocele",
         "en_l":  "Stomach hernia",
         "abbr":  "",
-        "ko_h":  "위탈출",
-        "ko_l":  "위 탈장",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -8682,8 +7716,6 @@
         "en_h":  "Genu valgum",
         "en_l":  "Knock-knees",
         "abbr":  "",
-        "ko_h":  "외반슬",
-        "ko_l":  "밖굽이무릎",
         "f":  [
                   "Orthopedics",
                   "Pediatrics"
@@ -8695,8 +7727,6 @@
         "en_h":  "Genu varum",
         "en_l":  "Bow-legs",
         "abbr":  "",
-        "ko_h":  "내반슬",
-        "ko_l":  "안짱다리",
         "f":  [
                   "Orthopedics",
                   "Pediatrics"
@@ -8708,8 +7738,6 @@
         "en_h":  "Gestational diabetes",
         "en_l":  "Pregnancy diabetes",
         "abbr":  "GDM",
-        "ko_h":  "임신성 당뇨",
-        "ko_l":  "임신 중 당뇨",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Endocrinology"
@@ -8726,8 +7754,6 @@
         "en_h":  "Glucometer",
         "en_l":  "Blood sugar meter",
         "abbr":  "",
-        "ko_h":  "혈당측정기",
-        "ko_l":  "혈당계",
         "f":  [
                   "General Medicine",
                   "Endocrinology"
@@ -8747,8 +7773,6 @@
         "en_h":  "Glycolysis",
         "en_l":  "Sugar breakdown",
         "abbr":  "",
-        "ko_h":  "당분해",
-        "ko_l":  "포도당 분해",
         "f":  [
                   "Pathology",
                   "General Medicine"
@@ -8768,8 +7792,6 @@
         "en_h":  "Hemigastrectomy",
         "en_l":  "Partial stomach removal",
         "abbr":  "",
-        "ko_h":  "반위절제",
-        "ko_l":  "위 절반 절제술",
         "f":  [
                   "Surgery",
                   "Gastroenterology"
@@ -8792,8 +7814,6 @@
         "en_h":  "Hemiparesis",
         "en_l":  "One-sided weakness",
         "abbr":  "",
-        "ko_h":  "편측 부전마비",
-        "ko_l":  "한쪽 힘 빠짐",
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
@@ -8813,8 +7833,6 @@
         "en_h":  "Hemiplegia",
         "en_l":  "One-sided paralysis",
         "abbr":  "",
-        "ko_h":  "반신 불수",
-        "ko_l":  "한쪽 마비",
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
@@ -8834,8 +7852,6 @@
         "en_h":  "Hemostasis",
         "en_l":  "Stopping bleeding",
         "abbr":  "",
-        "ko_h":  "지혈",
-        "ko_l":  "피를 멈춤",
         "f":  [
                   "Surgery",
                   "Emergency Medicine"
@@ -8855,8 +7871,6 @@
         "en_h":  "Hepatomegaly",
         "en_l":  "Enlarged liver",
         "abbr":  "",
-        "ko_h":  "간비대",
-        "ko_l":  "간이 커짐",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine"
@@ -8876,8 +7890,6 @@
         "en_h":  "Hidradenitis",
         "en_l":  "Sweat gland inflammation",
         "abbr":  "",
-        "ko_h":  "화농성 한선염",
-        "ko_l":  "땀샘염",
         "f":  [
                   "Dermatology"
               ],
@@ -8897,8 +7909,6 @@
         "en_h":  "Intestinal obstruction",
         "en_l":  "Bowel blockage",
         "abbr":  "",
-        "ko_h":  "장폐색",
-        "ko_l":  "장이 막힘",
         "f":  [
                   "Surgery",
                   "Emergency Medicine"
@@ -8915,8 +7925,6 @@
         "en_h":  "Ipsilateral",
         "en_l":  "Same side",
         "abbr":  "",
-        "ko_h":  "동측성",
-        "ko_l":  "같은 쪽",
         "f":  [
                   "General Medicine",
                   "Neurology"
@@ -8933,8 +7941,6 @@
         "en_h":  "Labiodental",
         "en_l":  "Lip and tooth sound",
         "abbr":  "",
-        "ko_h":  "순치음의",
-        "ko_l":  "입술치아소리의",
         "f":  [
                   "Anatomy"
               ],
@@ -8951,8 +7957,6 @@
         "en_h":  "Lacrimal gland",
         "en_l":  "Tear gland",
         "abbr":  "",
-        "ko_h":  "누선",
-        "ko_l":  "눈물샘",
         "f":  [
                   "Anatomy",
                   "Ophthalmology"
@@ -8969,8 +7973,6 @@
         "en_h":  "Laparotomy",
         "en_l":  "Open abdominal surgery",
         "abbr":  "",
-        "ko_h":  "개복술",
-        "ko_l":  "배 열고 하는 수술",
         "f":  [
                   "Surgery"
               ],
@@ -8989,8 +7991,6 @@
         "en_h":  "Laryngospasm",
         "en_l":  "Voice box spasm",
         "abbr":  "",
-        "ko_h":  "후두경련",
-        "ko_l":  "목구멍 경련",
         "f":  [
                   "Emergency Medicine",
                   "Otolaryngology"
@@ -9010,8 +8010,6 @@
         "en_h":  "Last menstrual period",
         "en_l":  "Last period",
         "abbr":  "LMP",
-        "ko_h":  "최종 월경",
-        "ko_l":  "마지막 생리",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
@@ -9028,8 +8026,6 @@
         "en_h":  "Leukocyte",
         "en_l":  "White blood cell",
         "abbr":  "WBC",
-        "ko_h":  "백혈구",
-        "ko_l":  "흰 피세포",
         "f":  [
                   "Hematology",
                   "Pathology"
@@ -9047,8 +8043,6 @@
         "en_h":  "Linguogingival",
         "en_l":  "Tongue and gum",
         "abbr":  "",
-        "ko_h":  "설치은의",
-        "ko_l":  "혀잇몸의",
         "f":  [
                   "Anatomy"
               ],
@@ -9064,8 +8058,6 @@
         "en_h":  "Lithotripsy",
         "en_l":  "Stone crushing",
         "abbr":  "",
-        "ko_h":  "쇄석술",
-        "ko_l":  "결석 부수는 시술",
         "f":  [
                   "Urology",
                   "Surgery"
@@ -9085,8 +8077,6 @@
         "en_h":  "Macroglossia",
         "en_l":  "Enlarged tongue",
         "abbr":  "",
-        "ko_h":  "설비대증",
-        "ko_l":  "혀 비대",
         "f":  [
                   "Otolaryngology",
                   "Pathology"
@@ -9106,8 +8096,6 @@
         "en_h":  "Malnutrition",
         "en_l":  "Poor nutrition",
         "abbr":  "",
-        "ko_h":  "영양실조",
-        "ko_l":  "영양 부족",
         "f":  [
                   "General Medicine",
                   "Pediatrics"
@@ -9124,8 +8112,6 @@
         "en_h":  "Melanoma",
         "en_l":  "Skin cancer",
         "abbr":  "",
-        "ko_h":  "흑색종",
-        "ko_l":  "피부 암",
         "f":  [
                   "Oncology",
                   "Dermatology"
@@ -9145,8 +8131,6 @@
         "en_h":  "Meniscus",
         "en_l":  "Knee cartilage",
         "abbr":  "",
-        "ko_h":  "반월판",
-        "ko_l":  "무릎 연골",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -9158,8 +8142,6 @@
         "en_h":  "Metabolism",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "신진대사",
-        "ko_l":  "몸의 에너지 대사",
         "f":  [
                   "General Medicine",
                   "Endocrinology"
@@ -9176,8 +8158,6 @@
         "en_h":  "Metacarpal",
         "en_l":  "Hand bones",
         "abbr":  "",
-        "ko_h":  "중수골의",
-        "ko_l":  "손허리뼈의",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -9197,8 +8177,6 @@
         "en_h":  "Mucositis",
         "en_l":  "Mouth sore inflammation",
         "abbr":  "",
-        "ko_h":  "점막염",
-        "ko_l":  "점막 염증",
         "f":  [
                   "Oncology",
                   "Gastroenterology"
@@ -9214,8 +8192,6 @@
     {
         "en_h":  "Musculoskeletal",
         "en_l":  "Muscles and bones",
-        "ko_h":  "근골격계의",
-        "ko_l":  "근육뼈대의",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -9234,8 +8210,6 @@
         "en_h":  "Mycology",
         "en_l":  "Study of fungi",
         "abbr":  "",
-        "ko_h":  "균학",
-        "ko_l":  "곰팡이 연구",
         "f":  [
                   "Infectious Disease",
                   "Pathology"
@@ -9252,8 +8226,6 @@
         "en_h":  "Myeloblast",
         "en_l":  "Bone marrow stem cell",
         "abbr":  "",
-        "ko_h":  "골수모세포",
-        "ko_l":  "",
         "f":  [
                   "Hematology",
                   "Pathology"
@@ -9271,8 +8243,6 @@
         "en_h":  "Myelogram",
         "en_l":  "Spinal cord image",
         "abbr":  "",
-        "ko_h":  "척수조영도",
-        "ko_l":  "척수 영상",
         "f":  [
                   "Radiology",
                   "Neurology"
@@ -9292,8 +8262,6 @@
         "en_h":  "Myeloma",
         "en_l":  "Bone marrow cancer",
         "abbr":  "",
-        "ko_h":  "골수종",
-        "ko_l":  "골수 암",
         "f":  [
                   "Hematology",
                   "Oncology"
@@ -9313,8 +8281,6 @@
         "en_h":  "Myringomycosis",
         "en_l":  "Fungal eardrum infection",
         "abbr":  "",
-        "ko_h":  "고막진균증",
-        "ko_l":  "고막 곰팡이 감염",
         "f":  [
                   "Otolaryngology"
               ],
@@ -9330,8 +8296,6 @@
         "en_h":  "Nasopharynx",
         "en_l":  "Nose throat",
         "abbr":  "",
-        "ko_h":  "비인두",
-        "ko_l":  "코 뒤 목구멍",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -9349,8 +8313,6 @@
         "en_h":  "Neonatal",
         "en_l":  "Of the newborn",
         "abbr":  "",
-        "ko_h":  "신생아의",
-        "ko_l":  "갓난아기의",
         "f":  [
                   "Pediatrics"
               ],
@@ -9366,8 +8328,6 @@
         "en_h":  "Nephrectomy",
         "en_l":  "Kidney removal",
         "abbr":  "",
-        "ko_h":  "신절제술",
-        "ko_l":  "신장 제거 수술",
         "f":  [
                   "Urology",
                   "Surgery"
@@ -9387,8 +8347,6 @@
         "en_h":  "Neurogenesis",
         "en_l":  "New nerve growth",
         "abbr":  "",
-        "ko_h":  "신경세포생성",
-        "ko_l":  "신경세포 새로 생김",
         "f":  [
                   "Neurology",
                   "Pathology"
@@ -9408,8 +8366,6 @@
         "en_h":  "Normotensive",
         "en_l":  "Normal blood pressure",
         "abbr":  "",
-        "ko_h":  "정상 혈압인",
-        "ko_l":  "혈압이 정상인",
         "f":  [
                   "General Medicine",
                   "Cardiology"
@@ -9429,8 +8385,6 @@
         "en_h":  "Oculomotor",
         "en_l":  "Eye movement",
         "abbr":  "",
-        "ko_h":  "눈운동의",
-        "ko_l":  "눈을 움직이는",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -9447,8 +8401,6 @@
         "en_h":  "Oncogene",
         "en_l":  "Cancer-causing gene",
         "abbr":  "",
-        "ko_h":  "발암유전자",
-        "ko_l":  "",
         "f":  [
                   "Oncology",
                   "Pathology"
@@ -9465,8 +8417,6 @@
         "en_h":  "Oropharynx",
         "en_l":  "Mouth throat",
         "abbr":  "",
-        "ko_h":  "구인두",
-        "ko_l":  "입인두",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -9483,8 +8433,6 @@
         "en_h":  "Osteophyte",
         "en_l":  "Bone spur",
         "abbr":  "",
-        "ko_h":  "골극",
-        "ko_l":  "뼈 가시",
         "f":  [
                   "Orthopedics",
                   "Radiology"
@@ -9501,8 +8449,6 @@
         "en_h":  "Otorrhea",
         "en_l":  "Ear discharge",
         "abbr":  "",
-        "ko_h":  "이루",
-        "ko_l":  "귀물",
         "f":  [
                   "Otolaryngology"
               ],
@@ -9521,8 +8467,6 @@
         "en_h":  "Otoscope",
         "en_l":  "Ear viewer",
         "abbr":  "",
-        "ko_h":  "이경",
-        "ko_l":  "귀 보는 기구",
         "f":  [
                   "Otolaryngology"
               ],
@@ -9541,8 +8485,6 @@
         "en_h":  "Paralysis",
         "en_l":  "Loss of movement",
         "abbr":  "",
-        "ko_h":  "마비",
-        "ko_l":  "움직임 없음",
         "f":  [
                   "Neurology",
                   "Emergency Medicine"
@@ -9562,8 +8504,6 @@
         "en_h":  "Pelvic binder",
         "en_l":  "Pelvis stabilizer",
         "abbr":  "",
-        "ko_h":  "골반 결합기",
-        "ko_l":  "골반 고정기",
         "f":  [
                   "Emergency Medicine",
                   "Surgery"
@@ -9580,8 +8520,6 @@
         "en_h":  "Pericardiocentesis",
         "en_l":  "Heart sac fluid drain",
         "abbr":  "",
-        "ko_h":  "심낭천자",
-        "ko_l":  "심낭 물 빼기",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -9604,8 +8542,6 @@
         "en_h":  "Periodontitis",
         "en_l":  "Gum disease",
         "abbr":  "",
-        "ko_h":  "치주염",
-        "ko_l":  "풍치",
         "f":  [
                   "Dentistry"
               ],
@@ -9624,8 +8560,6 @@
         "en_h":  "Periosteum",
         "en_l":  "Bone outer membrane",
         "abbr":  "",
-        "ko_h":  "골막",
-        "ko_l":  "뼈 겉 막",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -9645,8 +8579,6 @@
         "en_h":  "Perivascular",
         "en_l":  "Around blood vessels",
         "abbr":  "",
-        "ko_h":  "혈관 주위의",
-        "ko_l":  "혈관 주변의",
         "f":  [
                   "Anatomy",
                   "Pathology"
@@ -9666,8 +8598,6 @@
         "en_h":  "Phonocardiogram",
         "en_l":  "Heart sound recording",
         "abbr":  "PCG",
-        "ko_h":  "심음도",
-        "ko_l":  "심장 소리 기록",
         "f":  [
                   "Cardiology"
               ],
@@ -9686,8 +8616,6 @@
         "en_h":  "Pleurodesis",
         "en_l":  "Pleural space sealing",
         "abbr":  "",
-        "ko_h":  "흉막유착술",
-        "ko_l":  "흉막 붙이는 시술",
         "f":  [
                   "Pulmonology",
                   "Surgery"
@@ -9704,8 +8632,6 @@
         "en_h":  "Polydipsia",
         "en_l":  "Excessive thirst",
         "abbr":  "",
-        "ko_h":  "다갈증",
-        "ko_l":  "물을 많이 마심",
         "f":  [
                   "Endocrinology",
                   "General Medicine"
@@ -9722,8 +8648,6 @@
         "en_h":  "Polyuria",
         "en_l":  "Excessive urination",
         "abbr":  "",
-        "ko_h":  "다뇨증",
-        "ko_l":  "소변을 많이 봄",
         "f":  [
                   "Endocrinology",
                   "Nephrology"
@@ -9743,8 +8667,6 @@
         "en_h":  "Postauricular",
         "en_l":  "Behind the ear",
         "abbr":  "",
-        "ko_h":  "이개후의",
-        "ko_l":  "귀 뒤쪽의",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -9764,8 +8686,6 @@
         "en_h":  "Postoperative",
         "en_l":  "After surgery",
         "abbr":  "post-op",
-        "ko_h":  "수술 후의",
-        "ko_l":  "수술 뒤",
         "f":  [
                   "General Medicine",
                   "Surgery"
@@ -9782,8 +8702,6 @@
         "en_h":  "Postpartum",
         "en_l":  "After birth",
         "abbr":  "",
-        "ko_h":  "산후의",
-        "ko_l":  "출산 후",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
@@ -9800,8 +8718,6 @@
         "en_h":  "Prenatal",
         "en_l":  "Before birth",
         "abbr":  "",
-        "ko_h":  "산전의",
-        "ko_l":  "출산 전",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
@@ -9818,8 +8734,6 @@
         "en_h":  "Preoperative",
         "en_l":  "Before surgery",
         "abbr":  "pre-op",
-        "ko_h":  "수술 전의",
-        "ko_l":  "수술 전",
         "f":  [
                   "General Medicine",
                   "Surgery"
@@ -9836,8 +8750,6 @@
         "en_h":  "Prosthodontist",
         "en_l":  "Dental prosthetics specialist",
         "abbr":  "",
-        "ko_h":  "의치전문가",
-        "ko_l":  "틀니 전문의",
         "f":  [
                   "Dentistry"
               ],
@@ -9856,8 +8768,6 @@
         "en_h":  "Protrusion",
         "en_l":  "Sticking out",
         "abbr":  "",
-        "ko_h":  "돌출",
-        "ko_l":  "앞으로 튀어나옴",
         "f":  [
                   "General Medicine",
                   "Orthopedics"
@@ -9869,8 +8779,6 @@
         "en_h":  "Renogram",
         "en_l":  "Kidney function scan",
         "abbr":  "",
-        "ko_h":  "신장기능도",
-        "ko_l":  "신장 기능 검사",
         "f":  [
                   "Radiology",
                   "Nephrology"
@@ -9890,8 +8798,6 @@
         "en_h":  "Rhinoplasty",
         "en_l":  "Nose surgery",
         "abbr":  "",
-        "ko_h":  "코성형술",
-        "ko_l":  "코 수술",
         "f":  [
                   "Surgery",
                   "Otolaryngology"
@@ -9911,8 +8817,6 @@
         "en_h":  "Rhinorrhea",
         "en_l":  "Runny nose",
         "abbr":  "",
-        "ko_h":  "비루",
-        "ko_l":  "콧물",
         "f":  [
                   "Otolaryngology",
                   "Family Medicine"
@@ -9932,8 +8836,6 @@
         "en_h":  "Rigors",
         "en_l":  "Severe chills",
         "abbr":  "",
-        "ko_h":  "오한",
-        "ko_l":  "심한 떨림",
         "f":  [
                   "General Medicine",
                   "Emergency Medicine"
@@ -9945,8 +8847,6 @@
         "en_h":  "Sigmoidoscope",
         "en_l":  "Sigmoid colon camera",
         "abbr":  "",
-        "ko_h":  "S상결장경",
-        "ko_l":  "에스결장 카메라",
         "f":  [
                   "Gastroenterology"
               ],
@@ -9965,8 +8865,6 @@
         "en_h":  "Snare",
         "en_l":  "Surgical loop tool",
         "abbr":  "",
-        "ko_h":  "올가미",
-        "ko_l":  "수술용 올가미",
         "f":  [
                   "Surgery",
                   "Gastroenterology"
@@ -9978,8 +8876,6 @@
         "en_h":  "Somatosensory",
         "en_l":  "Body sensation",
         "abbr":  "",
-        "ko_h":  "체성감각의",
-        "ko_l":  "몸 감각의",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -9996,8 +8892,6 @@
         "en_h":  "Spirometer",
         "en_l":  "Lung capacity meter",
         "abbr":  "",
-        "ko_h":  "폐활량계",
-        "ko_l":  "폐 용량 재는 기구",
         "f":  [
                   "Pulmonology"
               ],
@@ -10013,8 +8907,6 @@
         "en_h":  "Splanchnic nerves",
         "en_l":  "Visceral nerves",
         "abbr":  "",
-        "ko_h":  "내장신경",
-        "ko_l":  "장기 신경",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -10031,8 +8923,6 @@
         "en_h":  "Splenectomy",
         "en_l":  "Spleen removal",
         "abbr":  "",
-        "ko_h":  "비장절제술",
-        "ko_l":  "비장 제거 수술",
         "f":  [
                   "Surgery",
                   "Hematology"
@@ -10052,8 +8942,6 @@
         "en_h":  "Spondylosis",
         "en_l":  "Spinal degeneration",
         "abbr":  "",
-        "ko_h":  "척추증",
-        "ko_l":  "척추 퇴행",
         "f":  [
                   "Orthopedics",
                   "Neurology"
@@ -10073,8 +8961,6 @@
         "en_h":  "Stethoscope",
         "en_l":  "",
         "abbr":  "",
-        "ko_h":  "청진기",
-        "ko_l":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -10093,8 +8979,6 @@
         "en_h":  "Sublingual",
         "en_l":  "Under the tongue",
         "abbr":  "",
-        "ko_h":  "설하의",
-        "ko_l":  "혀 밑의",
         "f":  [
                   "General Medicine",
                   "Pharmacology"
@@ -10114,8 +8998,6 @@
         "en_h":  "Supragingival",
         "en_l":  "Above the gum",
         "abbr":  "",
-        "ko_h":  "치은설상의",
-        "ko_l":  "잇몸 위의",
         "f":  [
                   "Dentistry"
               ],
@@ -10131,8 +9013,6 @@
         "en_h":  "Symptomatic",
         "en_l":  "Showing symptoms",
         "abbr":  "",
-        "ko_h":  "증상이 있는",
-        "ko_l":  "증상이 나타나는",
         "f":  [
                   "General Medicine"
               ],
@@ -10143,8 +9023,6 @@
         "en_h":  "Tachypnea",
         "en_l":  "Fast breathing",
         "abbr":  "",
-        "ko_h":  "빈호흡",
-        "ko_l":  "빠른 호흡",
         "f":  [
                   "Emergency Medicine",
                   "Pulmonology"
@@ -10164,8 +9042,6 @@
         "en_h":  "Thoracotomy",
         "en_l":  "Chest cavity surgery",
         "abbr":  "",
-        "ko_h":  "개흉술",
-        "ko_l":  "흉부 절개 수술",
         "f":  [
                   "Surgery",
                   "Pulmonology"
@@ -10185,8 +9061,6 @@
         "en_h":  "Thrombectomy",
         "en_l":  "Clot removal",
         "abbr":  "",
-        "ko_h":  "혈전제거술",
-        "ko_l":  "혈전 제거 수술",
         "f":  [
                   "Surgery",
                   "Vascular Surgery"
@@ -10206,8 +9080,6 @@
         "en_h":  "Thyrotoxicosis",
         "en_l":  "Thyroid hormone excess",
         "abbr":  "",
-        "ko_h":  "갑상선독증",
-        "ko_l":  "갑상선 호르몬 과다",
         "f":  [
                   "Endocrinology"
               ],
@@ -10226,8 +9098,6 @@
         "en_h":  "Tonic-clonic seizure",
         "en_l":  "Grand mal seizure",
         "abbr":  "",
-        "ko_h":  "긴장간대발작",
-        "ko_l":  "강직간대 발작",
         "f":  [
                   "Neurology",
                   "Emergency Medicine"
@@ -10244,8 +9114,6 @@
         "en_h":  "Topography",
         "en_l":  "Surface anatomy mapping",
         "abbr":  "",
-        "ko_h":  "국소해부학",
-        "ko_l":  "부위별 해부학",
         "f":  [
                   "Anatomy",
                   "General Medicine"
@@ -10265,8 +9133,6 @@
         "en_h":  "Toxicology",
         "en_l":  "Study of poisons",
         "abbr":  "",
-        "ko_h":  "독성학",
-        "ko_l":  "독 연구",
         "f":  [
                   "Pharmacology",
                   "Pathology"
@@ -10285,8 +9151,6 @@
     {
         "en_h":  "Transcutaneous",
         "abbr":  "",
-        "ko_h":  "경피적인",
-        "ko_l":  "피부를 통한",
         "f":  [
                   "General Medicine",
                   "Pharmacology"
@@ -10306,8 +9170,6 @@
         "en_h":  "Triceps",
         "en_l":  "Back upper arm muscle",
         "abbr":  "",
-        "ko_h":  "삼두근",
-        "ko_l":  "뒤팔 근육",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -10327,8 +9189,6 @@
         "en_h":  "Twinge",
         "en_l":  "Sharp brief pain",
         "abbr":  "",
-        "ko_h":  "찌릿한 통증",
-        "ko_l":  "찌르르한 느낌",
         "f":  [
                   "General Medicine"
               ],
@@ -10339,8 +9199,6 @@
         "en_h":  "Twitch",
         "en_l":  "Muscle jerk",
         "abbr":  "",
-        "ko_h":  "씰룩거림",
-        "ko_l":  "근육 경련",
         "f":  [
                   "Neurology",
                   "General Medicine"
@@ -10352,8 +9210,6 @@
         "en_h":  "Tympanosclerosis",
         "en_l":  "Eardrum scarring",
         "abbr":  "",
-        "ko_h":  "고막경화증",
-        "ko_l":  "고막 굳음",
         "f":  [
                   "Otolaryngology"
               ],
@@ -10372,8 +9228,6 @@
         "en_h":  "Ulnar",
         "en_l":  "Of the ulna bone",
         "abbr":  "",
-        "ko_h":  "척골의",
-        "ko_l":  "자뼈의",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -10385,8 +9239,6 @@
         "en_h":  "Umbilical cord",
         "en_l":  "Baby\u0027s cord",
         "abbr":  "",
-        "ko_h":  "제대",
-        "ko_l":  "탯줄",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Pediatrics"
@@ -10403,8 +9255,6 @@
         "en_h":  "Varicose veins",
         "en_l":  "Swollen veins",
         "abbr":  "",
-        "ko_h":  "하지정맥류",
-        "ko_l":  "다리 혈관 부음",
         "f":  [
                   "Vascular Surgery",
                   "General Medicine"
@@ -10422,8 +9272,6 @@
         "en_h":  "Vasoconstriction",
         "en_l":  "Blood vessel narrowing",
         "abbr":  "",
-        "ko_h":  "혈관수축",
-        "ko_l":  "혈관이 좁아짐",
         "f":  [
                   "General Medicine",
                   "Cardiology"
@@ -10443,8 +9291,6 @@
         "en_h":  "Vasodilation",
         "en_l":  "Blood vessel widening",
         "abbr":  "",
-        "ko_h":  "혈관확장",
-        "ko_l":  "혈관이 넓어짐",
         "f":  [
                   "General Medicine",
                   "Cardiology"
@@ -10461,8 +9307,6 @@
         "en_h":  "Vasospasm",
         "en_l":  "Blood vessel spasm",
         "abbr":  "",
-        "ko_h":  "혈관경련",
-        "ko_l":  "혈관 경련",
         "f":  [
                   "Cardiology",
                   "Neurology"
@@ -10482,8 +9326,6 @@
         "en_h":  "Venostasis",
         "en_l":  "Venous blood pooling",
         "abbr":  "",
-        "ko_h":  "정맥정체",
-        "ko_l":  "정맥 울혈",
         "f":  [
                   "Vascular Surgery",
                   "General Medicine"
@@ -10503,8 +9345,6 @@
         "en_h":  "Ventilator",
         "en_l":  "Breathing machine",
         "abbr":  "",
-        "ko_h":  "인공호흡기",
-        "ko_l":  "숨쉬는 기계",
         "f":  [
                   "Critical Care",
                   "Emergency Medicine"
@@ -10516,8 +9356,6 @@
         "en_h":  "Visceroceptors",
         "en_l":  "Internal organ sensors",
         "abbr":  "",
-        "ko_h":  "내장수용기",
-        "ko_l":  "장기 감각 수용기",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -10534,8 +9372,6 @@
         "en_h":  "Voluntary movement",
         "en_l":  "Intentional movement",
         "abbr":  "",
-        "ko_h":  "수의운동",
-        "ko_l":  "자발적운동",
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
@@ -10547,8 +9383,6 @@
         "en_h":  "Weak pulse",
         "en_l":  "Faint heartbeat",
         "abbr":  "",
-        "ko_h":  "약맥",
-        "ko_l":  "맥이 약함",
         "f":  [
                   "Emergency Medicine",
                   "Cardiology"
@@ -10560,8 +9394,6 @@
         "en_h":  "Xanthochromia",
         "en_l":  "Yellow-stained fluid",
         "abbr":  "",
-        "ko_h":  "황색변색증",
-        "ko_l":  "노란 색 변색",
         "f":  [
                   "Neurology",
                   "Pathology"
@@ -13767,8 +12599,7 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "A benign, slow-growing cyst beneath the skin formed by the accumulation of keratin and sebum within a follicular sac.",
-        "ko_h":  "표피낭종"
+        "d":  "A benign, slow-growing cyst beneath the skin formed by the accumulation of keratin and sebum within a follicular sac."
     },
     {
         "en_h":  "Squamous cell carcinoma",
@@ -13788,8 +12619,7 @@
                   "Pediatrics"
               ],
         "lvl":  1,
-        "d":  "Benign vascular birthmark from proliferating blood vessels, appearing in infancy and typically resolving spontaneously by early childhood.",
-        "ko_h":  "영아혈관종"
+        "d":  "Benign vascular birthmark from proliferating blood vessels, appearing in infancy and typically resolving spontaneously by early childhood."
     },
     {
         "en_h":  "Systemic lupus erythematosus",
@@ -14173,8 +13003,6 @@
     {
         "en_h":  "Anterior",
         "en_l":  "Front",
-        "ko_h":  "전방",
-        "ko_l":  "앞쪽",
         "f":  [
                   "Anatomy"
               ],
@@ -14189,8 +13017,6 @@
     {
         "en_h":  "Posterior",
         "en_l":  "Back",
-        "ko_h":  "후방",
-        "ko_l":  "뒤쪽",
         "f":  [
                   "Anatomy"
               ],
@@ -14205,8 +13031,6 @@
     {
         "en_h":  "Superior",
         "en_l":  "Above",
-        "ko_h":  "상방",
-        "ko_l":  "위쪽",
         "f":  [
                   "Anatomy"
               ],
@@ -14221,8 +13045,6 @@
     {
         "en_h":  "Inferior",
         "en_l":  "Below",
-        "ko_h":  "하방",
-        "ko_l":  "아래쪽",
         "f":  [
                   "Anatomy"
               ],
@@ -14236,7 +13058,6 @@
     },
     {
         "en_h":  "Frontal lobe",
-        "ko_h":  "전두엽",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -14251,7 +13072,6 @@
     },
     {
         "en_h":  "Temporal lobe",
-        "ko_h":  "측두엽",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -14261,7 +13081,6 @@
     },
     {
         "en_h":  "Occipital lobe",
-        "ko_h":  "후두엽",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -14271,7 +13090,6 @@
     },
     {
         "en_h":  "Thalamus",
-        "ko_h":  "시상",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -14281,7 +13099,6 @@
     },
     {
         "en_h":  "Hypothalamus",
-        "ko_h":  "시상하부",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -14297,8 +13114,6 @@
     },
     {
         "en_h":  "Mitral valve",
-        "ko_h":  "승모판",
-        "ko_l":  "이첨판",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -14308,7 +13123,6 @@
     },
     {
         "en_h":  "Pulmonary artery",
-        "ko_h":  "폐동맥",
         "abbr":  "PA",
         "f":  [
                   "Anatomy",
@@ -14329,8 +13143,6 @@
     {
         "en_h":  "Cranium",
         "en_l":  "Skull",
-        "ko_h":  "두개골",
-        "ko_l":  "머리뼈",
         "f":  [
                   "Anatomy"
               ],
@@ -14344,7 +13156,6 @@
     },
     {
         "en_h":  "Pelvis",
-        "ko_h":  "골반",
         "f":  [
                   "Anatomy",
                   "Orthopedics",
@@ -14361,7 +13172,6 @@
     {
         "en_h":  "Articulation",
         "en_l":  "Joint",
-        "ko_h":  "관절",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -14376,7 +13186,6 @@
     },
     {
         "en_h":  "Placenta",
-        "ko_h":  "태반",
         "f":  [
                   "Anatomy",
                   "Obstetrics \u0026 Gynecology"
@@ -14386,7 +13195,6 @@
     },
     {
         "en_h":  "Aortic valve",
-        "ko_h":  "대동맥판",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -14404,7 +13212,6 @@
     },
     {
         "en_h":  "Pulmonary valve",
-        "ko_h":  "폐동맥판",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -14419,7 +13226,6 @@
     },
     {
         "en_h":  "Pulmonary vein",
-        "ko_h":  "폐정맥",
         "f":  [
                   "Anatomy",
                   "Cardiology",
@@ -14435,7 +13241,6 @@
     },
     {
         "en_h":  "Carotid artery",
-        "ko_h":  "경동맥",
         "f":  [
                   "Anatomy",
                   "Cardiology",
@@ -14451,7 +13256,6 @@
     },
     {
         "en_h":  "Femoral artery",
-        "ko_h":  "대퇴동맥",
         "f":  [
                   "Anatomy",
                   "Cardiology",
@@ -14467,7 +13271,6 @@
     },
     {
         "en_h":  "Sciatic nerve",
-        "ko_h":  "좌골신경",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -14483,7 +13286,6 @@
     },
     {
         "en_h":  "Vagus nerve",
-        "ko_h":  "미주신경",
         "abbr":  "CN X",
         "f":  [
                   "Anatomy",
@@ -14499,7 +13301,6 @@
     },
     {
         "en_h":  "Optic nerve",
-        "ko_h":  "시신경",
         "abbr":  "CN II",
         "f":  [
                   "Anatomy",
@@ -14517,7 +13318,6 @@
     },
     {
         "en_h":  "Facial nerve",
-        "ko_h":  "안면신경",
         "abbr":  "CN VII",
         "f":  [
                   "Anatomy",
@@ -14534,8 +13334,6 @@
     {
         "en_h":  "Quadriceps",
         "en_l":  "Quads",
-        "ko_h":  "대퇴사두근",
-        "ko_l":  "넓적다리 네갈래근",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -14550,8 +13348,6 @@
     },
     {
         "en_h":  "Hamstring",
-        "ko_h":  "슬굴곡근",
-        "ko_l":  "햄스트링",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -14561,8 +13357,6 @@
     },
     {
         "en_h":  "Radius",
-        "ko_h":  "요골",
-        "ko_l":  "노뼈",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -14577,8 +13371,6 @@
     },
     {
         "en_h":  "Ulna",
-        "ko_h":  "척골",
-        "ko_l":  "자뼈",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -14588,8 +13380,6 @@
     },
     {
         "en_h":  "Fibula",
-        "ko_h":  "비골",
-        "ko_l":  "종아리뼈",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -14600,8 +13390,6 @@
     {
         "en_h":  "Mandible",
         "en_l":  "Lower jaw",
-        "ko_h":  "하악골",
-        "ko_l":  "아래턱뼈",
         "f":  [
                   "Anatomy",
                   "Dentistry"
@@ -14611,7 +13399,6 @@
     },
     {
         "en_h":  "Tongue",
-        "ko_h":  "혀",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -14628,8 +13415,6 @@
     },
     {
         "en_h":  "Breast",
-        "ko_h":  "유방",
-        "ko_l":  "가슴",
         "f":  [
                   "Anatomy",
                   "Oncology",
@@ -14645,8 +13430,6 @@
     },
     {
         "en_h":  "Salivary gland",
-        "ko_h":  "타액선",
-        "ko_l":  "침샘",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -14657,7 +13440,6 @@
     },
     {
         "en_h":  "Anus",
-        "ko_h":  "항문",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -14667,7 +13449,6 @@
     },
     {
         "en_h":  "Cerebral cortex",
-        "ko_h":  "대뇌피질",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -14682,7 +13463,6 @@
     },
     {
         "en_h":  "Subcutaneous tissue",
-        "ko_h":  "피하조직",
         "f":  [
                   "Anatomy",
                   "Dermatology"
@@ -14700,7 +13480,6 @@
     },
     {
         "en_h":  "Basal ganglia",
-        "ko_h":  "기저핵",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -14710,7 +13489,6 @@
     },
     {
         "en_h":  "Corpus callosum",
-        "ko_h":  "뇌량",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -14725,7 +13503,6 @@
     },
     {
         "en_h":  "Jugular vein",
-        "ko_h":  "경정맥",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -14740,8 +13517,6 @@
     },
     {
         "en_h":  "Radial artery",
-        "ko_h":  "요골동맥",
-        "ko_l":  "노동맥",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -14757,8 +13532,6 @@
     },
     {
         "en_h":  "Knee joint",
-        "ko_h":  "슬관절",
-        "ko_l":  "무릎관절",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -14773,8 +13546,6 @@
     },
     {
         "en_h":  "Hip joint",
-        "ko_h":  "고관절",
-        "ko_l":  "엉덩관절",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -14790,8 +13561,6 @@
     {
         "en_h":  "Glenohumeral joint",
         "en_l":  "Shoulder joint",
-        "ko_h":  "견관절",
-        "ko_l":  "어깨관절",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -14806,8 +13575,6 @@
     },
     {
         "en_h":  "Bilateral",
-        "ko_h":  "양측성",
-        "ko_l":  "양쪽",
         "f":  [
                   "Anatomy"
               ],
@@ -14822,8 +13589,6 @@
     {
         "en_h":  "Dorsal",
         "en_l":  "Back side",
-        "ko_h":  "배측",
-        "ko_l":  "등쪽",
         "f":  [
                   "Anatomy"
               ],
@@ -14838,8 +13603,6 @@
     {
         "en_h":  "Ventral",
         "en_l":  "Front side",
-        "ko_h":  "복측",
-        "ko_l":  "배쪽",
         "f":  [
                   "Anatomy"
               ],
@@ -14853,8 +13616,6 @@
     },
     {
         "en_h":  "Superficial",
-        "ko_h":  "표재성",
-        "ko_l":  "얕은",
         "f":  [
                   "Anatomy"
               ],
@@ -14868,7 +13629,6 @@
     },
     {
         "en_h":  "Fascia",
-        "ko_h":  "근막",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -14883,8 +13643,6 @@
     },
     {
         "en_h":  "Rib",
-        "ko_h":  "늑골",
-        "ko_l":  "갈비뼈",
         "f":  [
                   "Anatomy"
               ],
@@ -14898,8 +13656,6 @@
     },
     {
         "en_h":  "Schizophrenia",
-        "ko_h":  "조현병",
-        "ko_l":  "정신분열증",
         "f":  [
                   "Psychiatry"
               ],
@@ -14908,8 +13664,6 @@
     },
     {
         "en_h":  "Bipolar disorder",
-        "ko_h":  "양극성 장애",
-        "ko_l":  "조울증",
         "f":  [
                   "Psychiatry"
               ],
@@ -14924,7 +13678,6 @@
     {
         "en_h":  "Post-traumatic stress disorder",
         "abbr":  "PTSD",
-        "ko_h":  "외상 후 스트레스 장애",
         "f":  [
                   "Psychiatry"
               ],
@@ -14934,7 +13687,6 @@
     {
         "en_h":  "Attention deficit hyperactivity disorder",
         "abbr":  "ADHD",
-        "ko_h":  "주의력결핍 과잉행동장애",
         "f":  [
                   "Psychiatry",
                   "Pediatrics"
@@ -14945,8 +13697,6 @@
     {
         "en_h":  "Obsessive-compulsive disorder",
         "abbr":  "OCD",
-        "ko_h":  "강박장애",
-        "ko_l":  "강박증",
         "f":  [
                   "Psychiatry"
               ],
@@ -14956,8 +13706,6 @@
     {
         "en_h":  "Autism spectrum disorder",
         "abbr":  "ASD",
-        "ko_h":  "자폐 스펙트럼 장애",
-        "ko_l":  "자폐증",
         "f":  [
                   "Psychiatry",
                   "Pediatrics"
@@ -14969,8 +13717,6 @@
     {
         "en_h":  "Suicidal ideation",
         "en_l":  "Suicidal thoughts",
-        "ko_h":  "자살 사고",
-        "ko_l":  "자살 생각",
         "f":  [
                   "Psychiatry",
                   "Emergency Medicine"
@@ -14980,7 +13726,6 @@
     },
     {
         "en_h":  "Hallucination",
-        "ko_h":  "환각",
         "f":  [
                   "Psychiatry",
                   "Neurology"
@@ -14990,7 +13735,6 @@
     },
     {
         "en_h":  "Delusion",
-        "ko_h":  "망상",
         "f":  [
                   "Psychiatry"
               ],
@@ -14999,7 +13743,6 @@
     },
     {
         "en_h":  "Panic disorder",
-        "ko_h":  "공황장애",
         "f":  [
                   "Psychiatry"
               ],
@@ -15008,7 +13751,6 @@
     },
     {
         "en_h":  "Antidepressant",
-        "ko_h":  "항우울제",
         "f":  [
                   "Psychiatry",
                   "Pharmacology"
@@ -15023,7 +13765,6 @@
     },
     {
         "en_h":  "Antipsychotic",
-        "ko_h":  "항정신병 약물",
         "f":  [
                   "Psychiatry",
                   "Pharmacology"
@@ -15041,7 +13782,6 @@
     },
     {
         "en_h":  "Mood stabilizer",
-        "ko_h":  "기분 안정제",
         "f":  [
                   "Psychiatry",
                   "Pharmacology"
@@ -15052,7 +13792,6 @@
     {
         "en_h":  "Cognitive behavioral therapy",
         "abbr":  "CBT",
-        "ko_h":  "인지행동치료",
         "f":  [
                   "Psychiatry"
               ],
@@ -15061,7 +13800,6 @@
     },
     {
         "en_h":  "Eating disorder",
-        "ko_h":  "섭식장애",
         "f":  [
                   "Psychiatry"
               ],
@@ -15071,8 +13809,6 @@
     {
         "en_h":  "Substance use disorder",
         "en_l":  "Addiction",
-        "ko_h":  "물질 사용 장애",
-        "ko_l":  "중독",
         "f":  [
                   "Psychiatry"
               ],
@@ -15081,7 +13817,6 @@
     },
     {
         "en_h":  "Mania",
-        "ko_h":  "조증",
         "f":  [
                   "Psychiatry"
               ],
@@ -15096,7 +13831,6 @@
     {
         "en_h":  "Borderline personality disorder",
         "abbr":  "BPD",
-        "ko_h":  "경계성 성격장애",
         "f":  [
                   "Psychiatry"
               ],
@@ -15105,7 +13839,6 @@
     },
     {
         "en_h":  "Self-harm",
-        "ko_h":  "자해",
         "f":  [
                   "Psychiatry",
                   "Emergency Medicine"
@@ -15116,7 +13849,6 @@
     {
         "en_h":  "Mental status examination",
         "abbr":  "MSE",
-        "ko_h":  "정신 상태 검사",
         "f":  [
                   "Psychiatry"
               ],
@@ -15126,7 +13858,6 @@
     {
         "en_h":  "Psychotherapy",
         "en_l":  "Talk therapy",
-        "ko_h":  "정신치료",
         "f":  [
                   "Psychiatry"
               ],
@@ -15140,7 +13871,6 @@
     },
     {
         "en_h":  "Phobia",
-        "ko_h":  "공포증",
         "f":  [
                   "Psychiatry"
               ],
@@ -15154,7 +13884,6 @@
     },
     {
         "en_h":  "Dissociation",
-        "ko_h":  "해리",
         "f":  [
                   "Psychiatry"
               ],
@@ -15163,8 +13892,6 @@
     },
     {
         "en_h":  "Affect",
-        "ko_h":  "정동",
-        "ko_l":  "감정 표현",
         "f":  [
                   "Psychiatry"
               ],
@@ -15174,8 +13901,6 @@
     {
         "en_h":  "Anorexia nervosa",
         "en_l":  "Anorexia",
-        "ko_h":  "신경성 식욕부진증",
-        "ko_l":  "거식증",
         "f":  [
                   "Psychiatry"
               ],
@@ -15185,8 +13910,6 @@
     {
         "en_h":  "Bulimia nervosa",
         "en_l":  "Bulimia",
-        "ko_h":  "신경성 폭식증",
-        "ko_l":  "폭식증",
         "f":  [
                   "Psychiatry"
               ],
@@ -15196,8 +13919,6 @@
     {
         "en_h":  "Electroconvulsive therapy",
         "abbr":  "ECT",
-        "ko_h":  "전기경련치료",
-        "ko_l":  "전기충격치료",
         "f":  [
                   "Psychiatry"
               ],
@@ -15207,7 +13928,6 @@
     },
     {
         "en_h":  "Somatic symptom disorder",
-        "ko_h":  "신체증상장애",
         "f":  [
                   "Psychiatry"
               ],
@@ -15221,8 +13941,6 @@
     },
     {
         "en_h":  "Personality disorder",
-        "ko_h":  "인격장애",
-        "ko_l":  "성격장애",
         "f":  [
                   "Psychiatry"
               ],
@@ -15231,7 +13949,6 @@
     },
     {
         "en_h":  "Compulsion",
-        "ko_h":  "강박행동",
         "f":  [
                   "Psychiatry"
               ],
@@ -15240,7 +13957,6 @@
     },
     {
         "en_h":  "Adrenal cortex",
-        "ko_h":  "부신피질",
         "f":  [
                   "Anatomy",
                   "Endocrinology"
@@ -15256,7 +13972,6 @@
     {
         "en_h":  "Adrenocortical carcinoma",
         "abbr":  "ACC",
-        "ko_h":  "부신피질암",
         "f":  [
                   "Oncology",
                   "Endocrinology"
@@ -15273,8 +13988,6 @@
     {
         "en_h":  "Xerostomia",
         "en_l":  "Dry mouth",
-        "ko_h":  "구강건조증",
-        "ko_l":  "입 마름",
         "f":  [
                   "Dentistry",
                   "Pharmacology"
@@ -15289,8 +14002,6 @@
     },
     {
         "en_h":  "Tenesmus",
-        "ko_h":  "후중감",
-        "ko_l":  "잔변감",
         "f":  [
                   "Gastroenterology"
               ],
@@ -15300,8 +14011,6 @@
     {
         "en_h":  "Otalgia",
         "en_l":  "Ear pain",
-        "ko_h":  "이통",
-        "ko_l":  "귀앓이",
         "f":  [
                   "Otolaryngology"
               ],
@@ -15319,7 +14028,6 @@
     {
         "en_h":  "Trismus",
         "en_l":  "Lockjaw",
-        "ko_h":  "개구장애",
         "f":  [
                   "Dentistry",
                   "Otolaryngology"
@@ -15329,7 +14037,6 @@
     },
     {
         "en_h":  "Anhedonia",
-        "ko_h":  "무쾌감증",
         "f":  [
                   "Psychiatry"
               ],

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo, type ReactNode } from 'react'
+import { useState, useMemo, useEffect, type ReactNode } from 'react'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
 import baseData from '@/data/medical_vocab.json'
@@ -119,7 +119,29 @@ function FrCard({ v, defLang, onFieldClick, mm }: { v: MergedEntry; defLang: 'fr
   )
 }
 
+function FrGlossarySkeleton() {
+  return (
+    <div className="c-grid">
+      {Array.from({ length: 9 }).map((_, i) => (
+        <div key={i} className="c-skeleton-card">
+          <div style={{ display:'flex', justifyContent:'space-between', marginBottom:'0.75rem' }}>
+            <div className="c-skeleton-line" style={{ width:'4rem', height:'0.85rem' }} />
+          </div>
+          <div className="c-skeleton-line" style={{ width:'70%', height:'1.1rem', marginBottom:'0.35rem' }} />
+          <div className="c-skeleton-line" style={{ width:'50%', height:'0.95rem', marginBottom:'0.35rem' }} />
+          <div className="c-skeleton-line" style={{ width:'40%', height:'0.9rem', marginBottom:'0.75rem' }} />
+          <div className="c-skeleton-line" style={{ width:'100%', height:'0.75rem', marginBottom:'0.3rem' }} />
+          <div className="c-skeleton-line" style={{ width:'80%', height:'0.75rem' }} />
+        </div>
+      ))}
+    </div>
+  )
+}
+
 export default function FrGlossaryPage() {
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
+
   const [search, setSearch]     = useState('')
   const [fieldFilter, setField] = useState<string|null>(null)
   const [levelFilter, setLevel] = useState<number|null>(null)
@@ -196,10 +218,14 @@ export default function FrGlossaryPage() {
       </div>
 
       {/* ── Cards ── */}
-      <div className="c-grid">
-        {filtered.map((v,i) => <FrCard key={i} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
-      </div>
-      {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
+      {!mounted ? <FrGlossarySkeleton /> : (
+        <>
+          <div className="c-grid">
+            {filtered.map(v => <FrCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
+          </div>
+          {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
+        </>
+      )}
     </>
   )
 }

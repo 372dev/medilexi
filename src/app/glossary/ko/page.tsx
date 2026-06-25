@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo, useRef, type ReactNode } from 'react'
+import { useState, useMemo, useRef, useEffect, type ReactNode } from 'react'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
 import baseData from '@/data/medical_vocab.json'
@@ -173,7 +173,29 @@ function KoCard({ v, defLang, onFieldClick, mm }: { v: MergedEntry; defLang: 'ko
   )
 }
 
+function KoGlossarySkeleton() {
+  return (
+    <div className="c-grid">
+      {Array.from({ length: 9 }).map((_, i) => (
+        <div key={i} className="c-skeleton-card">
+          <div style={{ display:'flex', justifyContent:'space-between', marginBottom:'0.75rem' }}>
+            <div className="c-skeleton-line" style={{ width:'4rem', height:'0.85rem' }} />
+          </div>
+          <div className="c-skeleton-line" style={{ width:'70%', height:'1.1rem', marginBottom:'0.35rem' }} />
+          <div className="c-skeleton-line" style={{ width:'50%', height:'0.95rem', marginBottom:'0.35rem' }} />
+          <div className="c-skeleton-line" style={{ width:'40%', height:'0.9rem', marginBottom:'0.75rem' }} />
+          <div className="c-skeleton-line" style={{ width:'100%', height:'0.75rem', marginBottom:'0.3rem' }} />
+          <div className="c-skeleton-line" style={{ width:'80%', height:'0.75rem' }} />
+        </div>
+      ))}
+    </div>
+  )
+}
+
 export default function KoGlossaryPage() {
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
+
   const [inputValue, setInputValue]   = useState('')
   const [searchQuery, setSearchQuery] = useState('')
   const composingRef = useRef(false)
@@ -309,10 +331,14 @@ export default function KoGlossaryPage() {
       </div>
 
       {/* ── Cards ── */}
-      <div className="c-grid">
-        {filtered.map((v,i) => <KoCard key={i} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
-      </div>
-      {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
+      {!mounted ? <KoGlossarySkeleton /> : (
+        <>
+          <div className="c-grid">
+            {filtered.map(v => <KoCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
+          </div>
+          {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
+        </>
+      )}
     </>
   )
 }

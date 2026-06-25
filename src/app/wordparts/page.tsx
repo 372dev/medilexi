@@ -73,11 +73,11 @@ export default function WordPartsPage() {
 
       {/* ── Cards ── */}
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px,1fr))', gap:'1rem' }}>
-        {filtered.map((p, i) => {
+        {filtered.map((p) => {
           const isOpen = expanded.has(p.wp)
           return (
             <div
-              key={i}
+              key={p.wp}
               className="c-card"
               style={{ borderLeft:`3px solid ${p.t==='p'?'#3B82F6':p.t==='r'?'#3BAA6A':'#C94040'}`, cursor:'pointer', userSelect:'none' }}
               onClick={() => toggle(p.wp)}

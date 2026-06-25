@@ -260,6 +260,11 @@ button { font-family: var(--font-body); }
   .c-grid { grid-template-columns: 1fr; }
 }
 
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: none; }
+}
+
 /* Base card */
 .c-card {
   background: var(--color-panel);
@@ -267,6 +272,7 @@ button { font-family: var(--font-body); }
   padding: 1rem;
   box-shadow: 3px 3px 0 0 rgba(150,140,255,0.3);
   transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+  animation: card-in 0.18s ease both;
 }
 .c-card:hover {
   border-color: var(--color-gold-dim);
@@ -418,6 +424,22 @@ body.day .c-ex-pill strong { color: #111827; }
 body.day .c-search-match {
   background: rgba(180,83,9,0.13);
   color: var(--color-gold);
+}
+
+/* Skeleton loading cards */
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.45; }
+  50%       { opacity: 0.9; }
+}
+.c-skeleton-card {
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  padding: 1rem;
+  animation: skeleton-pulse 1.4s ease-in-out infinite;
+}
+.c-skeleton-line {
+  background: var(--color-border);
+  border-radius: 3px;
 }
 
 /* Definition expand toggle */

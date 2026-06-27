@@ -405,11 +405,7 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
-                                "coron/o",
-                                "arteri/o"
-                            ],
-                      "s":  [
-                                "-ary"
+                                "coron/o"
                             ]
                   }
     },
@@ -2457,12 +2453,7 @@
                   "Gastroenterology"
               ],
         "d":  "A hollow, muscular tube connecting the oral and nasal cavities to the esophagus and larynx, serving as a common pathway for food and air.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "pharyng/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Larynx",
@@ -2473,12 +2464,7 @@
                   "Otolaryngology"
               ],
         "d":  "The cartilaginous organ located at the top of the trachea that houses the vocal cords and controls airflow during breathing and phonation.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "laryng/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Trachea",
@@ -2649,8 +2635,7 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
-                                "pneum/o",
-                                "thorac/o"
+                                "pneum/o"
                             ]
                   }
     },
@@ -2898,9 +2883,6 @@
         "parts":  {
                       "p":  [
                                 "peri-"
-                            ],
-                      "r":  [
-                                "peritone/o"
                             ],
                       "s":  [
                                 "-itis"
@@ -3191,9 +3173,6 @@
         "d":  "Redness of skin or mucous membranes from increased blood flow in superficial capillaries, associated with inflammation or infection.",
         "lvl":  2,
         "parts":  {
-                      "r":  [
-                                "erythro-"
-                            ],
                       "s":  [
                                 "-ema"
                             ]
@@ -3884,8 +3863,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "hem/o",
-                                "thorac/o"
+                                "hem/o"
                             ]
                   }
     },
@@ -4091,7 +4069,6 @@
         "parts":  {
                       "r":  [
                                 "gastr/o",
-                                "enter/o",
                                 "intestin/o"
                             ],
                       "s":  [
@@ -5148,7 +5125,12 @@
                   "Otolaryngology"
               ],
         "d":  "The gradual, progressive, and bilateral loss of hearing that occurs naturally with aging.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-cusis"
+                            ]
+                  }
     },
     {
         "en_h":  "Diplopia",
@@ -5286,6 +5268,7 @@
                                 "necr/o"
                             ],
                       "s":  [
+                                "-ar",
                                 "-osis"
                             ]
                   }
@@ -5354,7 +5337,12 @@
                   "Orthopedics"
               ],
         "d":  "A subcutaneous spot of bleeding larger than 1 centimeter in diameter resulting from vascular leakage.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Necrotizing Fasciitis",
@@ -5389,7 +5377,10 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "ovar/o"
+                                "ovari/o"
+                            ],
+                      "s":  [
+                                "-an"
                             ]
                   }
     },
@@ -5403,7 +5394,18 @@
                   "Emergency Medicine"
               ],
         "d":  "A transient loss of consciousness mediated by an inappropriate reflex causing bradycardia and vasodilation.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "syn-"
+                            ],
+                      "r":  [
+                                "vas/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Peripheral Artery Disease",
@@ -5419,8 +5421,8 @@
                       "p":  [
                                 "peri-"
                             ],
-                      "r":  [
-                                "arteri/o"
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -5469,6 +5471,9 @@
         "parts":  {
                       "r":  [
                                 "cardi/o"
+                            ],
+                      "s":  [
+                                "-ac"
                             ]
                   }
     },
@@ -5526,6 +5531,9 @@
                       "r":  [
                                 "esophag/o",
                                 "varic/o"
+                            ],
+                      "s":  [
+                                "-eal"
                             ]
                   }
     },
@@ -5546,6 +5554,7 @@
                                 "intestin/o"
                             ],
                       "s":  [
+                                "-al",
                                 "-plasia"
                             ]
                   }
@@ -5595,7 +5604,15 @@
                   "Emergency Medicine"
               ],
         "d":  "Severe inflammatory lung injury causing diffuse alveolar damage and hypoxemia, most often triggered by sepsis, pneumonia, or major trauma.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "spir/o"
+                            ],
+                      "s":  [
+                                "-ory"
+                            ]
+                  }
     },
     {
         "en_h":  "Bioavailability",
@@ -5606,7 +5623,12 @@
                   "General Medicine"
               ],
         "d":  "The fraction of an administered drug dose that reaches the systemic circulation unchanged.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "bi/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Prodrome",
@@ -5660,8 +5682,8 @@
         "d":  "Subset of sepsis with circulatory failure, defined by vasopressor requirement and lactate \u003e2 mmol/L despite adequate fluid resuscitation.",
         "lvl":  3,
         "parts":  {
-                      "r":  [
-                                "sept/o"
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -5717,7 +5739,12 @@
                   "Pulmonology"
               ],
         "d":  "Dome-shaped musculotendinous partition separating the thoracic and abdominal cavities, serving as the principal muscle of inhalation.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "dia-"
+                            ]
+                  }
     },
     {
         "en_h":  "Bronchus",
@@ -5850,12 +5877,7 @@
                   "Cardiology"
               ],
         "d":  "Either of the two lower heart chambers that eject blood: the right pumps to the lungs, the left pumps oxygenated blood to the body.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "ventricul/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Aorta",
@@ -5917,7 +5939,12 @@
                   "Surgery"
               ],
         "d":  "Blind-ended pouch at the junction of the ileum and ascending colon, from whose wall the vermiform appendix projects.",
-        "lvl":  1
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "cec/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Appendix",
@@ -5949,7 +5976,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "col/o"
+                                "colon/o"
                             ]
                   }
     },
@@ -5979,12 +6006,7 @@
                   "Gastroenterology"
               ],
         "d":  "Mixed gland posterior to the stomach whose exocrine portion secretes digestive enzymes and whose endocrine islets secrete insulin and glucagon.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "pancreat/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Nephron",
@@ -6140,6 +6162,9 @@
         "parts":  {
                       "r":  [
                                 "spin/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -6202,7 +6227,12 @@
                   "Orthopedics"
               ],
         "d":  "Triangular sesamoid bone embedded in the quadriceps tendon that articulates with the femur, protecting the knee joint and improving quadriceps leverage.",
-        "lvl":  1
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "patell/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Intervertebral Disc",
@@ -6220,7 +6250,10 @@
                                 "inter-"
                             ],
                       "r":  [
-                                "spondyl/o"
+                                "vertebr/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -6328,7 +6361,12 @@
                   "Otolaryngology"
               ],
         "d":  "Spiral inner ear structure with hair cells that convert sound vibrations into electrical nerve impulses transmitted via the auditory nerve.",
-        "lvl":  1
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "cochle/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Lymph Node",
@@ -6343,8 +6381,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "lymph/o",
-                                "aden/o"
+                                "lymph/o"
                             ]
                   }
     },
@@ -6377,7 +6414,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "hyster/o"
+                                "uter/o"
                             ]
                   }
     },
@@ -6422,6 +6459,9 @@
         "parts":  {
                       "r":  [
                                 "vascul/o"
+                            ],
+                      "s":  [
+                                "-ar"
                             ]
                   }
     },
@@ -6439,6 +6479,9 @@
                       "r":  [
                                 "col/o",
                                 "rect/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -6472,8 +6515,14 @@
         "d":  "Complete, reversible loss of consciousness induced by anesthetic agents, allowing painless surgery without awareness.",
         "lvl":  3,
         "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
                       "r":  [
                                 "esthesi/o"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -6488,8 +6537,14 @@
         "d":  "Reversible loss of sensation in a specific body area by blocking nerve conduction, without affecting consciousness.",
         "lvl":  3,
         "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
                       "r":  [
                                 "esthesi/o"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -6518,6 +6573,12 @@
         "parts":  {
                       "p":  [
                                 "epi-"
+                            ],
+                      "r":  [
+                                "dur/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -6535,8 +6596,10 @@
         "parts":  {
                       "r":  [
                                 "ren/o",
-                                "pyel/o",
                                 "pelv/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -6573,9 +6636,16 @@
         "d":  "Local anesthetic injection into the lumbar subarachnoid space producing temporary loss of sensation and movement below the injection level.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
                       "r":  [
                                 "spin/o",
                                 "esthesi/o"
+                            ],
+                      "s":  [
+                                "-al",
+                                "-ia"
                             ]
                   }
     },
@@ -6702,12 +6772,7 @@
                   "Cardiology"
               ],
         "d":  "Hollow muscular organ that circulates blood via rhythmic contractions, consisting of four chambers: two atria and two ventricles.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "cardi/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Coronary Artery",
@@ -6721,7 +6786,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "arteri/o"
+                                "coron/o"
                             ]
                   }
     },
@@ -6734,12 +6799,7 @@
                   "Cardiology"
               ],
         "d":  "One of four structures (mitral, tricuspid, aortic, pulmonary) that ensure unidirectional blood flow through the heart chambers.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "cardi/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Capillary",
@@ -6750,12 +6810,7 @@
                   "General Medicine"
               ],
         "d":  "Smallest blood vessels connecting arterioles to venules, serving as the site of gas, nutrient, and waste exchange between blood and tissues.",
-        "lvl":  1,
-        "parts":  {
-                      "r":  [
-                                "vascul/o"
-                            ]
-                  }
+        "lvl":  1
     },
     {
         "en_h":  "Lung",
@@ -6766,12 +6821,7 @@
                   "Pulmonology"
               ],
         "d":  "Paired spongy organs in the thorax performing gas exchange — absorbing oxygen from inhaled air and expelling carbon dioxide per breath.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "pulm/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Nasal Cavity",
@@ -6818,12 +6868,7 @@
                   "Gastroenterology"
               ],
         "d":  "A muscular, J-shaped organ between the esophagus and small intestine that stores food, secretes gastric acid, and begins protein digestion.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "gastr/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Liver",
@@ -6834,12 +6879,7 @@
                   "Gastroenterology"
               ],
         "d":  "The largest internal organ, located in the upper right abdomen, performing metabolism, detoxification, protein synthesis, and bile production.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "hepat/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Small Intestine",
@@ -6853,7 +6893,6 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
-                                "enter/o",
                                 "intestin/o"
                             ]
                   }
@@ -6870,7 +6909,6 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
-                                "col/o",
                                 "intestin/o"
                             ]
                   }
@@ -6901,12 +6939,7 @@
                   "Nephrology"
               ],
         "d":  "A pair of bean-shaped organs in the retroperitoneum that filter blood, regulate fluid and electrolyte balance, and produce urine.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "nephr/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Urinary Bladder",
@@ -6917,12 +6950,7 @@
                   "Urology"
               ],
         "d":  "A hollow, muscular organ in the pelvis that stores urine produced by the kidneys until it is expelled through the urethra.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "cyst/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Brain",
@@ -6933,12 +6961,7 @@
                   "Neurology"
               ],
         "d":  "Central organ of the nervous system enclosed within the skull, governing thought, memory, sensation, movement, and autonomic bodily functions.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "encephal/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Nerve",
@@ -6949,12 +6972,7 @@
                   "Neurology"
               ],
         "d":  "Bundle of axons in connective sheaths that transmit electrical signals between the CNS and target organs, muscles, and sensory receptors.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "neur/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Neuron",
@@ -6981,12 +6999,7 @@
                   "Orthopedics"
               ],
         "d":  "Rigid connective tissue forming the skeleton that supports the body, protects organs, enables movement, and produces blood cells in the marrow.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "oste/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Muscle",
@@ -6997,12 +7010,7 @@
                   "Orthopedics"
               ],
         "d":  "Contractile tissue classified as skeletal (voluntary), cardiac, or smooth (involuntary), producing movement, maintaining posture, and driving organ function.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "my/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Cartilage",
@@ -7049,7 +7057,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "spondyl/o"
+                                "vertebr/o"
                             ]
                   }
     },
@@ -7079,12 +7087,7 @@
                   "Hematology"
               ],
         "d":  "A fist-sized lymphoid organ in the upper left abdomen that filters blood, recycles red blood cells, and plays a role in immune response.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "splen/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Ovary",
@@ -7095,12 +7098,7 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "d":  "A pair of female reproductive glands that produce eggs (ova) and secrete the hormones estrogen and progesterone.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "ovar/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Cervix",
@@ -7171,12 +7169,7 @@
                   "General Medicine"
               ],
         "d":  "The region between the thorax and pelvis, containing the stomach, intestines, liver, pancreas, and kidneys.",
-        "lvl":  3,
-        "parts":  {
-                      "r":  [
-                                "abdomin/o"
-                            ]
-                  }
+        "lvl":  3
     },
     {
         "en_h":  "Abduction",
@@ -7476,12 +7469,7 @@
                   "Vascular Surgery"
               ],
         "d":  "The major vein draining the arm and shoulder, commonly accessed for central venous catheter placement.",
-        "lvl":  1,
-        "parts":  {
-                      "r":  [
-                                "ven/o"
-                            ]
-                  }
+        "lvl":  1
     },
     {
         "en_h":  "Bactericide",
@@ -7512,9 +7500,6 @@
         "parts":  {
                       "p":  [
                                 "bi-"
-                            ],
-                      "r":  [
-                                "cephal/o"
                             ]
                   }
     },
@@ -7787,7 +7772,7 @@
         "parts":  {
                       "r":  [
                                 "col/o",
-                                "cyst/o"
+                                "vesic/o"
                             ]
                   }
     },
@@ -8602,8 +8587,7 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "muscul/o",
-                                "oste/o"
+                                "muscul/o"
                             ]
                   },
         "abbr":  "MSK"
@@ -8690,7 +8674,7 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "tympan/o"
+                                "myring/o"
                             ]
                   }
     },
@@ -8706,8 +8690,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "nas/o",
-                                "pharyng/o"
+                                "nas/o"
                             ]
                   }
     },
@@ -8824,12 +8807,7 @@
                   "Otolaryngology"
               ],
         "d":  "The middle region of the pharynx containing the tonsils, soft palate, and tongue base, and a site for tonsillitis and HPV-related oropharyngeal cancer.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "pharyng/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Osteophyte",
@@ -9489,7 +9467,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "thyroid/o"
+                                "thyr/o"
                             ],
                       "s":  [
                                 "-osis"
@@ -9581,9 +9559,6 @@
         "parts":  {
                       "p":  [
                                 "tri-"
-                            ],
-                      "r":  [
-                                "cephal/o"
                             ]
                   }
     },
@@ -9665,8 +9640,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "varic/o",
-                                "ven/o"
+                                "varic/o"
                             ]
                   }
     },
@@ -9682,7 +9656,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "vascul/o"
+                                "vas/o"
                             ],
                       "s":  [
                                 "-constriction"
@@ -9701,7 +9675,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "vascul/o"
+                                "vas/o"
                             ]
                   }
     },
@@ -9717,7 +9691,7 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "vascul/o"
+                                "vas/o"
                             ],
                       "s":  [
                                 "-spasm"
@@ -13582,7 +13556,7 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
-                                "arthr/o"
+                                "articul/o"
                             ]
                   }
     },
@@ -13649,12 +13623,7 @@
                   "Neurology"
               ],
         "d":  "The major paired arteries supplying the head and neck, with the internal carotid supplying the brain and the external carotid supplying the face, and a common site of atherosclerosis.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "arteri/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Femoral artery",
@@ -13667,7 +13636,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "arteri/o"
+                                "femor/o"
                             ]
                   }
     },
@@ -13679,12 +13648,7 @@
                   "Orthopedics"
               ],
         "d":  "The longest peripheral nerve in the body, running from the lower back through the buttock and down each leg, whose compression by a herniated disc causes sciatica.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "neur/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Vagus nerve",
@@ -13694,12 +13658,7 @@
                   "Neurology"
               ],
         "d":  "The tenth cranial nerve controlling parasympathetic function of the heart, lungs, and digestive tract, and involved in the vasovagal reflex.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "neur/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Optic nerve",
@@ -13713,8 +13672,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "neur/o",
-                                "ocul/o"
+                                "optic/o"
                             ]
                   }
     },
@@ -13726,12 +13684,7 @@
                   "Neurology"
               ],
         "d":  "The seventh cranial nerve controlling facial muscle movement and taste sensation, whose damage causes the characteristic facial weakness of Bell\u0027s palsy.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "neur/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Quadriceps",
@@ -13807,13 +13760,7 @@
                   "Otolaryngology"
               ],
         "d":  "The muscular organ in the oral cavity essential for taste, mastication, swallowing, and speech, whose inflammation is termed glossitis.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "gloss/o",
-                                "lingu/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Breast",
@@ -13823,12 +13770,7 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "d":  "The glandular tissue on the anterior chest wall that produces milk in females, and the most common site of cancer in women worldwide.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "mamm/o"
-                            ]
-                  }
+        "lvl":  2
     },
     {
         "en_h":  "Salivary gland",
@@ -13896,12 +13838,7 @@
                   "Neurology"
               ],
         "d":  "The large bundle of nerve fibres connecting the left and right cerebral hemispheres, enabling interhemispheric communication.",
-        "lvl":  1,
-        "parts":  {
-                      "r":  [
-                                "corpor/o"
-                            ]
-                  }
+        "lvl":  1
     },
     {
         "en_h":  "Jugular vein",
@@ -13910,12 +13847,7 @@
                   "Cardiology"
               ],
         "d":  "The major veins draining blood from the head and neck, with jugular venous pressure assessed clinically to estimate right heart filling pressure.",
-        "lvl":  1,
-        "parts":  {
-                      "r":  [
-                                "ven/o"
-                            ]
-                  }
+        "lvl":  1
     },
     {
         "en_h":  "Radial artery",
@@ -13927,8 +13859,7 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "radi/o",
-                                "arteri/o"
+                                "radi/o"
                             ]
                   }
     },
@@ -13939,12 +13870,7 @@
                   "Orthopedics"
               ],
         "d":  "The largest joint in the body, formed by the femur, tibia, and patella and stabilized by the cruciate and collateral ligaments and the menisci.",
-        "lvl":  1,
-        "parts":  {
-                      "r":  [
-                                "arthr/o"
-                            ]
-                  }
+        "lvl":  1
     },
     {
         "en_h":  "Hip joint",
@@ -13953,12 +13879,7 @@
                   "Orthopedics"
               ],
         "d":  "The ball-and-socket joint between the femoral head and the acetabulum, a common site of osteoarthritis and fragility fracture in older adults.",
-        "lvl":  1,
-        "parts":  {
-                      "r":  [
-                                "arthr/o"
-                            ]
-                  }
+        "lvl":  1
     },
     {
         "en_h":  "Glenohumeral joint",
@@ -13968,12 +13889,7 @@
                   "Orthopedics"
               ],
         "d":  "The ball-and-socket joint between the humeral head and the glenoid fossa of the scapula, the most mobile and the most frequently dislocated joint in the body.",
-        "lvl":  1,
-        "parts":  {
-                      "r":  [
-                                "arthr/o"
-                            ]
-                  }
+        "lvl":  1
     },
     {
         "en_h":  "Bilateral",
@@ -14049,12 +13965,7 @@
                   "Anatomy"
               ],
         "d":  "One of 12 pairs of curved bones forming the thoracic cage, protecting the heart and lungs and classified as true, false, or floating based on sternal attachment.",
-        "lvl":  1,
-        "parts":  {
-                      "r":  [
-                                "cost/o"
-                            ]
-                  }
+        "lvl":  1
     },
     {
         "en_h":  "Schizophrenia",

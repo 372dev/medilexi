@@ -13578,5 +13578,125 @@
                        "Body-wide blood circuit, as distinct from the pulmonary circuit"
                    ]
                ]
+    },
+    {
+        "wp":  "co-, con-",
+        "t":  "p",
+        "lvl":  3,
+        "d":  "(Latin) With, together",
+        "ex":  [
+                   [
+                       "Congenital",
+                       "Present from birth"
+                   ],
+                   [
+                       "Connective tissue",
+                       "Tissue that supports, binds, and separates other body tissues"
+                   ],
+                   [
+                       "Comorbidity",
+                       "Presence of two or more diseases at the same time"
+                   ],
+                   [
+                       "Coinfection",
+                       "Simultaneous infection by more than one pathogen"
+                   ]
+               ]
+    },
+    {
+        "wp":  "chron/o",
+        "t":  "r",
+        "lvl":  3,
+        "d":  "(Greek) Time",
+        "ex":  [
+                   [
+                       "Chronic",
+                       "Persisting over a long period of time"
+                   ],
+                   [
+                       "Chronological",
+                       "Arranged in the order in which events occur in time"
+                   ],
+                   [
+                       "Synchronous",
+                       "Occurring at the same time"
+                   ],
+                   [
+                       "Chronobiology",
+                       "Study of biological rhythms and their timing"
+                   ]
+               ]
+    },
+    {
+        "wp":  "spir/o",
+        "t":  "r",
+        "lvl":  3,
+        "d":  "(Latin) To breathe",
+        "ex":  [
+                   [
+                       "Respiratory",
+                       "Pertaining to breathing"
+                   ],
+                   [
+                       "Inspiration",
+                       "Drawing of air into the lungs; inhalation"
+                   ],
+                   [
+                       "Spirometer",
+                       "Instrument that measures the volume of air breathed"
+                   ],
+                   [
+                       "Aspiration",
+                       "Inhalation of foreign material, or withdrawal of fluid by suction"
+                   ]
+               ]
+    },
+    {
+        "wp":  "morb/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Disease",
+        "ex":  [
+                   [
+                       "Morbidity",
+                       "The condition of being diseased; the rate of disease in a population"
+                   ],
+                   [
+                       "Comorbidity",
+                       "Presence of one or more additional diseases alongside a primary one"
+                   ],
+                   [
+                       "Morbid",
+                       "Pertaining to or affected by disease"
+                   ],
+                   [
+                       "Premorbid",
+                       "Existing before the onset of disease"
+                   ]
+               ]
+    },
+    {
+        "wp":  "echo-",
+        "t":  "p",
+        "lvl":  2,
+        "d":  "(Greek) Reflected sound, echo",
+        "ex":  [
+                   [
+                       "Echocardiogram",
+                       "Ultrasound image of the heart"
+                   ],
+                   [
+                       "Echography",
+                       "Imaging of body structures using reflected ultrasound waves"
+                   ],
+                   [
+                       "Echogenic",
+                       "Producing echoes on ultrasound imaging"
+                   ],
+                   [
+                       "Echolalia",
+                       "Involuntary repetition of words spoken by another person"
+                   ]
+               ]
     }
 ]

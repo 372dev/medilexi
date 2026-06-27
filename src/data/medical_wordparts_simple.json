@@ -3202,5 +3202,37 @@
         "t":  "p",
         "d":  "(Latin) First",
         "alt":  "prim-, primi-"
+    },
+    {
+        "wp":  "co-",
+        "t":  "p",
+        "d":  "(Latin) With, together",
+        "alt":  "co-, con-"
+    },
+    {
+        "wp":  "con-",
+        "t":  "p",
+        "d":  "(Latin) With, together",
+        "alt":  "co-, con-"
+    },
+    {
+        "wp":  "chron/o",
+        "t":  "r",
+        "d":  "(Greek) Time"
+    },
+    {
+        "wp":  "spir/o",
+        "t":  "r",
+        "d":  "(Latin) To breathe"
+    },
+    {
+        "wp":  "morb/o",
+        "t":  "r",
+        "d":  "(Latin) Disease"
+    },
+    {
+        "wp":  "echo-",
+        "t":  "p",
+        "d":  "(Greek) Reflected sound, echo"
     }
 ]

@@ -14,8 +14,8 @@
                       "p":  [
                                 "hyper-"
                             ],
-                      "r":  [
-                                "ten/o"
+                      "s":  [
+                                "-tension"
                             ]
                   }
     },
@@ -55,7 +55,15 @@
                   "Internal Medicine"
               ],
         "d":  "The co-occurrence of two or more distinct medical conditions in the same individual, either related or unrelated to the primary diagnosis.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "co-"
+                            ],
+                      "r":  [
+                                "morb/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Chronic disease management",
@@ -65,7 +73,15 @@
                   "Family Medicine"
               ],
         "d":  "Ongoing, coordinated care strategies to control long-lasting conditions and maintain quality of life.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "chron/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Obesity",
@@ -89,7 +105,15 @@
                   "Pediatrics"
               ],
         "d":  "Acute viral inflammation of the upper airways including the nose, pharynx, and larynx.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "spir/o"
+                            ],
+                      "s":  [
+                                "-ory"
+                            ]
+                  }
     },
     {
         "en_h":  "Consent",
@@ -100,7 +124,12 @@
                   "Family Medicine"
               ],
         "d":  "Patient\u0027s voluntary agreement to a proposed medical intervention after receiving adequate information.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "con-"
+                            ]
+                  }
     },
     {
         "en_h":  "Chief complaint",
@@ -201,8 +230,8 @@
         "d":  "Subjective evidence of disease experienced and reported by the patient (e.g. pain, fatigue, nausea).",
         "lvl":  3,
         "parts":  {
-                      "r":  [
-                                "tom/o"
+                      "p":  [
+                                "sym-"
                             ]
                   }
     },
@@ -251,6 +280,9 @@
                       "r":  [
                                 "my/o",
                                 "cardi/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -263,7 +295,18 @@
                   "Emergency Medicine"
               ],
         "d":  "Spectrum of conditions from acute coronary flow reduction, including unstable angina, NSTEMI, and STEMI, all requiring urgent evaluation.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "syn-"
+                            ],
+                      "r":  [
+                                "coron/o"
+                            ],
+                      "s":  [
+                                "-ary"
+                            ]
+                  }
     },
     {
         "en_h":  "Angina Pectoris",
@@ -274,7 +317,12 @@
                   "Emergency Medicine"
               ],
         "d":  "Paroxysmal chest pain or discomfort caused by transient myocardial ischemia, typically triggered by exertion or stress.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "pector/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Heart failure",
@@ -299,6 +347,9 @@
         "parts":  {
                       "p":  [
                                 "a-"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -316,6 +367,9 @@
                       "r":  [
                                 "atri/o",
                                 "fibr/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -351,7 +405,11 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
+                                "coron/o",
                                 "arteri/o"
+                            ],
+                      "s":  [
+                                "-ary"
                             ]
                   }
     },
@@ -389,6 +447,9 @@
                       "r":  [
                                 "cerebr/o",
                                 "vascul/o"
+                            ],
+                      "s":  [
+                                "-ar"
                             ]
                   }
     },
@@ -406,6 +467,9 @@
         "parts":  {
                       "r":  [
                                 "cerebr/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -426,7 +490,8 @@
                                 "hem/o"
                             ],
                       "s":  [
-                                "-rrhage"
+                                "-rrhage",
+                                "-al"
                             ]
                   }
     },
@@ -442,6 +507,9 @@
         "d":  "Insufficient blood supply to a tissue or organ, causing oxygen deprivation and risk of cell death.",
         "lvl":  2,
         "parts":  {
+                      "r":  [
+                                "isch/o"
+                            ],
                       "s":  [
                                 "-emia"
                             ]
@@ -461,6 +529,12 @@
         "parts":  {
                       "p":  [
                                 "trans-"
+                            ],
+                      "r":  [
+                                "isch/o"
+                            ],
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -477,6 +551,9 @@
         "parts":  {
                       "r":  [
                                 "cardi/o"
+                            ],
+                      "s":  [
+                                "-ac"
                             ]
                   }
     },
@@ -546,7 +623,15 @@
                   "General Medicine"
               ],
         "d":  "Describing a condition persisting over a long period (generally \u003e=3 months), typically requiring ongoing monitoring and management.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "chron/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Inflammation",
@@ -602,6 +687,9 @@
         "d":  "Removal of a tissue sample for microscopic examination to establish or confirm a diagnosis, particularly for suspected malignancy.",
         "lvl":  3,
         "parts":  {
+                      "r":  [
+                                "bi/o"
+                            ],
                       "s":  [
                                 "-opsy"
                             ]
@@ -730,7 +818,18 @@
                   "Psychiatry"
               ],
         "d":  "Progressive decline in memory, language, and reasoning severe enough to impair daily life, most commonly caused by Alzheimer\u0027s disease.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "de-"
+                            ],
+                      "r":  [
+                                "ment/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Alzheimer\u0027s disease",
@@ -887,7 +986,16 @@
                   "General Medicine"
               ],
         "d":  "Specialty devoted to the health and medical care of infants, children, and adolescents up to age 18.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ped/o",
+                                "iatr/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Obstetrics \u0026 Gynecology",
@@ -902,6 +1010,9 @@
         "parts":  {
                       "r":  [
                                 "gynec/o"
+                            ],
+                      "s":  [
+                                "-logy"
                             ]
                   }
     },
@@ -926,7 +1037,11 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "orth/o"
+                                "orth/o",
+                                "ped/o"
+                            ],
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -1106,7 +1221,12 @@
                   "Family Medicine"
               ],
         "d":  "Mood disorder with persistent low mood and anhedonia lasting two or more weeks, impairing sleep, appetite, energy, and daily function.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "de-"
+                            ]
+                  }
     },
     {
         "en_h":  "Urinary tract infection",
@@ -1122,6 +1242,9 @@
         "parts":  {
                       "r":  [
                                 "ur/o"
+                            ],
+                      "s":  [
+                                "-ary"
                             ]
                   }
     },
@@ -1189,8 +1312,14 @@
         "d":  "Persistent difficulty falling or staying asleep at least three nights weekly for \u003e=3 months, causing significant daytime dysfunction.",
         "lvl":  3,
         "parts":  {
+                      "p":  [
+                                "in-"
+                            ],
                       "r":  [
                                 "somn/o"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -1231,6 +1360,9 @@
                       "r":  [
                                 "gastr/o",
                                 "esophag/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -1264,6 +1396,9 @@
         "d":  "A non-invasive diagnostic procedure utilizing ultrasound waves to evaluate the real-time structure and function of the heart.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "echo-"
+                            ],
                       "r":  [
                                 "cardi/o"
                             ],
@@ -1282,8 +1417,16 @@
         "d":  "Minimally invasive procedure to open blocked coronary arteries, typically using a balloon and stent.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "per-"
+                            ],
                       "r":  [
-                                "cutane/o"
+                                "cutane/o",
+                                "coron/o"
+                            ],
+                      "s":  [
+                                "-ous",
+                                "-ary"
                             ]
                   }
     },
@@ -1335,7 +1478,12 @@
                   "Internal Medicine"
               ],
         "d":  "Heart failure with fluid congestion in the lungs and periphery, presenting as dyspnea, peripheral edema, and reduced exercise tolerance.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "con-"
+                            ]
+                  }
     },
     {
         "en_h":  "Cardiopulmonary resuscitation",
@@ -1351,6 +1499,9 @@
                       "r":  [
                                 "cardi/o",
                                 "pulm/o"
+                            ],
+                      "s":  [
+                                "-ary"
                             ]
                   }
     },
@@ -1393,7 +1544,15 @@
                   "Emergency Medicine"
               ],
         "d":  "Needle insertion into the lumbar subarachnoid space to collect cerebrospinal fluid for diagnosis or to administer intrathecal medication.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "lumb/o"
+                            ],
+                      "s":  [
+                                "-ar"
+                            ]
+                  }
     },
     {
         "en_h":  "Meningitis",
@@ -1447,6 +1606,9 @@
         "d":  "Group of diseases characterized by progressive loss of nerve cell structure or function, including Alzheimer\u0027s and Parkinson\u0027s.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "de-"
+                            ],
                       "r":  [
                                 "neur/o"
                             ]
@@ -1466,6 +1628,9 @@
         "parts":  {
                       "r":  [
                                 "spin/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -1503,6 +1668,9 @@
                             ],
                       "r":  [
                                 "phas/o"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -1546,8 +1714,11 @@
                       "p":  [
                                 "an-"
                             ],
+                      "r":  [
+                                "alges/o"
+                            ],
                       "s":  [
-                                "-algia"
+                                "-ic"
                             ]
                   }
     },
@@ -1587,6 +1758,9 @@
                             ],
                       "r":  [
                                 "ven/o"
+                            ],
+                      "s":  [
+                                "-ous"
                             ]
                   }
     },
@@ -1637,6 +1811,9 @@
                             ],
                       "r":  [
                                 "cutane/o"
+                            ],
+                      "s":  [
+                                "-ous"
                             ]
                   }
     },
@@ -1656,6 +1833,9 @@
                             ],
                       "r":  [
                                 "muscul/o"
+                            ],
+                      "s":  [
+                                "-ar"
                             ]
                   }
     },
@@ -1674,6 +1854,9 @@
                             ],
                       "r":  [
                                 "lingu/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -1820,6 +2003,9 @@
         "d":  "Specialty responsible for administering anesthesia and managing pain before, during, and after surgical and procedural interventions.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
                       "r":  [
                                 "esthesi/o"
                             ],
@@ -1922,7 +2108,11 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "cardi/o"
+                                "cardi/o",
+                                "bi/o"
+                            ],
+                      "s":  [
+                                "-ac"
                             ]
                   }
     },
@@ -1992,6 +2182,9 @@
         "parts":  {
                       "r":  [
                                 "thorac/o"
+                            ],
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -2018,7 +2211,12 @@
                   "General Medicine"
               ],
         "d":  "Subspecialty focused on autoimmune and inflammatory diseases of the joints, muscles, and connective tissue.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-logy"
+                            ]
+                  }
     },
     {
         "en_h":  "Pulmonology",
@@ -2101,7 +2299,15 @@
                   "General Medicine"
               ],
         "d":  "Specialty using radioactive substances to visualise and treat diseases, including PET and bone scans.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "nucle/o"
+                            ],
+                      "s":  [
+                                "-ar"
+                            ]
+                  }
     },
     {
         "en_h":  "Syncope",
@@ -2113,7 +2319,12 @@
                   "Cardiology"
               ],
         "d":  "A temporary loss of consciousness and muscle tone caused by a transient drop in blood flow to the brain.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "syn-"
+                            ]
+                  }
     },
     {
         "en_h":  "Pleuritic Chest Pain",
@@ -2128,6 +2339,9 @@
         "parts":  {
                       "r":  [
                                 "pleur/o"
+                            ],
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -2195,6 +2409,9 @@
         "parts":  {
                       "r":  [
                                 "hemat/o"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -2357,7 +2574,15 @@
                   "Neurology"
               ],
         "d":  "The master endocrine gland at the base of the brain that regulates growth, reproduction, and hormone secretion from other endocrine glands.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "pituit/o"
+                            ],
+                      "s":  [
+                                "-ary"
+                            ]
+                  }
     },
     {
         "en_h":  "Thymus",
@@ -2369,7 +2594,12 @@
                   "Infectious Disease"
               ],
         "d":  "A primary lymphoid organ in the superior mediastinum where bone marrow-derived T-lymphocytes differentiate and mature.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "thym/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Gallbladder",
@@ -2401,7 +2631,8 @@
                                 "prostat/o"
                             ],
                       "s":  [
-                                "-plasia"
+                                "-plasia",
+                                "-ic"
                             ]
                   }
     },
@@ -2455,7 +2686,12 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
-                                "pulm/o"
+                                "chron/o",
+                                "pulmon/o"
+                            ],
+                      "s":  [
+                                "-ic",
+                                "-ary"
                             ]
                   }
     },
@@ -2475,7 +2711,8 @@
                                 "arthr/o"
                             ],
                       "s":  [
-                                "-itis"
+                                "-itis",
+                                "-oid"
                             ]
                   }
     },
@@ -2581,8 +2818,14 @@
         "d":  "A glycoprotein secreted by the prostate gland whose blood levels serve as a clinical marker for benign prostatic hyperplasia and prostate cancer screening.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "anti-"
+                            ],
                       "r":  [
                                 "prostat/o"
+                            ],
+                      "s":  [
+                                "-gen"
                             ]
                   }
     },
@@ -2693,7 +2936,15 @@
                   "Internal Medicine"
               ],
         "d":  "Gradual, progressive, and irreversible loss of renal function lasting for three months or longer.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "chron/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "End-Stage Renal Disease",
@@ -2708,6 +2959,9 @@
         "parts":  {
                       "r":  [
                                 "ren/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -2722,6 +2976,9 @@
         "d":  "Extracorporeal procedure using a dialyzer to filter toxins, waste, and excess fluid from blood in patients with kidney failure.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "dia-"
+                            ],
                       "r":  [
                                 "hem/o"
                             ],
@@ -2741,11 +2998,15 @@
         "d":  "Dialysis method using the patient\u0027s peritoneum as a semipermeable membrane to remove waste products and excess fluid from the blood.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "dia-"
+                            ],
                       "r":  [
                                 "peritone/o"
                             ],
                       "s":  [
-                                "-lysis"
+                                "-lysis",
+                                "-eal"
                             ]
                   }
     },
@@ -2907,8 +3168,14 @@
         "d":  "Deterioration of the macula causing central vision loss with preserved peripheral vision, the leading cause of blindness in adults over 50.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "de-"
+                            ],
                       "r":  [
                                 "macul/o"
+                            ],
+                      "s":  [
+                                "-ar"
                             ]
                   }
     },
@@ -2926,6 +3193,9 @@
         "parts":  {
                       "r":  [
                                 "erythro-"
+                            ],
+                      "s":  [
+                                "-ema"
                             ]
                   }
     },
@@ -2972,10 +3242,12 @@
                                 "a-"
                             ],
                       "r":  [
+                                "top/o",
                                 "dermat/o"
                             ],
                       "s":  [
-                                "-itis"
+                                "-itis",
+                                "-ic"
                             ]
                   }
     },
@@ -2989,7 +3261,12 @@
                   "Immunology"
               ],
         "d":  "Chronic immune-mediated skin disorder causing well-demarcated, scaly erythematous plaques, most commonly on the scalp, elbows, and knees.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-iasis"
+                            ]
+                  }
     },
     {
         "en_h":  "Paresthesia",
@@ -3007,6 +3284,9 @@
                             ],
                       "r":  [
                                 "esthesi/o"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -3110,11 +3390,15 @@
         "d":  "Progressive microvascular complications of long-standing diabetes mellitus affecting the blood vessels of the retina.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "dia-"
+                            ],
                       "r":  [
                                 "retin/o"
                             ],
                       "s":  [
-                                "-pathy"
+                                "-pathy",
+                                "-ic"
                             ]
                   }
     },
@@ -3215,7 +3499,12 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
-                                "pulm/o"
+                                "pulmon/o",
+                                "embol/o"
+                            ],
+                      "s":  [
+                                "-ary",
+                                "-ism"
                             ]
                   }
     },
@@ -3231,8 +3520,14 @@
         "d":  "Aortic wall tear that allows blood to split between layers creating a false lumen, constituting a life-threatening cardiovascular emergency.",
         "lvl":  3,
         "parts":  {
+                      "p":  [
+                                "dis-"
+                            ],
                       "r":  [
                                 "aort/o"
+                            ],
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -3344,7 +3639,7 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
-                                "col/o"
+                                "colon/o"
                             ],
                       "s":  [
                                 "-scopy"
@@ -3443,8 +3738,11 @@
                                 "hypo-"
                             ],
                       "r":  [
-                                "orth/o",
-                                "ten/o"
+                                "orth/o"
+                            ],
+                      "s":  [
+                                "-tension",
+                                "-ic"
                             ]
                   }
     },
@@ -3529,7 +3827,12 @@
                   "Surgery"
               ],
         "d":  "Lung tissue collapse or incomplete expansion impairing gas exchange, occurring postoperatively or from mucus plugging and external compression.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-ectasia"
+                            ]
+                  }
     },
     {
         "en_h":  "Bronchiectasis",
@@ -3562,6 +3865,9 @@
         "parts":  {
                       "r":  [
                                 "pleur/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -3593,7 +3899,15 @@
                   "Infectious Disease"
               ],
         "d":  "Accumulation of pus within a body cavity, most commonly the pleural space, typically resulting from pneumonia, thoracic surgery, or chest trauma.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "py/o"
+                            ],
+                      "s":  [
+                                "-ema"
+                            ]
+                  }
     },
     {
         "en_h":  "Hypercapnia",
@@ -3609,6 +3923,9 @@
         "parts":  {
                       "p":  [
                                 "hyper-"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -3655,10 +3972,11 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "pulm/o",
+                                "pulmon/o",
                                 "fibr/o"
                             ],
                       "s":  [
+                                "-ary",
                                 "-osis"
                             ]
                   }
@@ -3704,6 +4022,9 @@
         "parts":  {
                       "p":  [
                                 "dys-"
+                            ],
+                      "s":  [
+                                "-phagia"
                             ]
                   }
     },
@@ -3772,6 +4093,9 @@
                                 "gastr/o",
                                 "enter/o",
                                 "intestin/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -3825,6 +4149,9 @@
         "parts":  {
                       "p":  [
                                 "a-"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -3861,8 +4188,8 @@
                       "p":  [
                                 "dys-"
                             ],
-                      "r":  [
-                                "arthr/o"
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -4014,7 +4341,7 @@
                                 "nephr/o"
                             ],
                       "s":  [
-                                "-osis"
+                                "-ic"
                             ]
                   }
     },
@@ -4068,7 +4395,15 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "d":  "Involuntary loss of urine classified as stress (exertion-triggered), urge (overactive bladder), overflow, or mixed type.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "urin/o"
+                            ],
+                      "s":  [
+                                "-ary"
+                            ]
+                  }
     },
     {
         "en_h":  "Dysuria",
@@ -4144,7 +4479,16 @@
                   "Critical Care"
               ],
         "d":  "Life-threatening complication of diabetes characterized by severe hyperglycemia, metabolic acidosis, and elevated ketones, most common in type 1 diabetes.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "ket/o"
+                            ],
+                      "s":  [
+                                "-ic",
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Gynecomastia",
@@ -4158,7 +4502,8 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "gynec/o"
+                                "gynec/o",
+                                "mast/o"
                             ],
                       "s":  [
                                 "-ia"
@@ -4193,7 +4538,12 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "d":  "The spontaneous, inappropriate secretion of breast milk unrelated to childbearing or nursing, often linked to hyperprolactinemia.",
-        "lvl":  1
+        "lvl":  1,
+        "parts":  {
+                      "s":  [
+                                "-rrhea"
+                            ]
+                  }
     },
     {
         "en_h":  "Hirsutism",
@@ -4205,7 +4555,12 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "d":  "Excessive growth of thick, dark hair in females following a male-like distribution pattern, resulting from androgen excess.",
-        "lvl":  1
+        "lvl":  1,
+        "parts":  {
+                      "s":  [
+                                "-ism"
+                            ]
+                  }
     },
     {
         "en_h":  "Hyperparathyroidism",
@@ -4260,7 +4615,15 @@
                   "Endocrinology"
               ],
         "d":  "Cluster of metabolic risk factors — abdominal obesity, dyslipidemia, hypertension, and hyperglycemia — that elevates cardiovascular risk.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "meta-"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Pancytopenia",
@@ -4507,7 +4870,17 @@
                   "Surgery"
               ],
         "d":  "A benign non-cancerous tumor of the uterine smooth muscle tissue, extremely common in women of reproductive age.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "uter/o",
+                                "my/o"
+                            ],
+                      "s":  [
+                                "-ine",
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Abruptio Placentae",
@@ -4565,7 +4938,11 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
+                                "idi/o",
                                 "path/o"
+                            ],
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -4639,11 +5016,8 @@
         "d":  "Life-threatening organ dysfunction caused by a dysregulated host response to infection, representing a medical emergency requiring prompt treatment.",
         "lvl":  3,
         "parts":  {
-                      "r":  [
-                                "sept/o"
-                            ],
                       "s":  [
-                                "-osis"
+                                "-sis"
                             ]
                   }
     },
@@ -4658,8 +5032,14 @@
         "d":  "The inability to process sensory information and recognize objects or persons despite intact sensory organs.",
         "lvl":  1,
         "parts":  {
+                      "p":  [
+                                "a-"
+                            ],
                       "r":  [
                                 "gnos/o"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -4674,8 +5054,14 @@
         "d":  "Neurological condition in which a patient is unaware of or denies their own disability or illness, commonly seen after stroke or in dementia.",
         "lvl":  1,
         "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
                       "r":  [
                                 "gnos/o"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -4688,7 +5074,15 @@
                   "Neurology"
               ],
         "d":  "A behavioral syndrome characterized by abnormal movements, immobility, mutism, or extreme unresponsiveness.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ton/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Akathisia",
@@ -4700,7 +5094,15 @@
                   "Pharmacology"
               ],
         "d":  "A movement disorder characterized by a subjective feeling of inner restlessness and a compelling need to move.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "a-"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Tardive Dyskinesia",

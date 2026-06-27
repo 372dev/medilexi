@@ -2868,8 +2868,8 @@
                        "Surgical removal of a paranasal sinus"
                    ],
                    [
-                       "Sinography",
-                       "Radiographic imaging of a sinus with contrast material"
+                       "Pansinusitis",
+                       "Inflammation of all the paranasal sinuses"
                    ]
                ]
     },
@@ -5659,16 +5659,16 @@
                        "Gland that produces tears"
                    ],
                    [
-                       "Dacryocystitis",
-                       "Inflammation of the lacrimal sac"
+                       "Lacrimation",
+                       "Production and secretion of tears"
                    ],
                    [
                        "Nasolacrimal duct obstruction",
                        "Blockage of the tear drainage pathway causing excess tearing"
                    ],
                    [
-                       "Lacrimation",
-                       "Production and secretion of tears by the lacrimal glands"
+                       "Lacrimotomy",
+                       "Surgical incision into the lacrimal duct or sac"
                    ]
                ]
     },
@@ -6319,7 +6319,7 @@
         "ex":  [
                    [
                        "Diagnosis",
-                       "Complete determination of the nature of a disease"
+                       "Determination of the nature of a disease"
                    ],
                    [
                        "Prognosis",
@@ -6330,8 +6330,8 @@
                        "Inability to recognize objects despite intact sensory function"
                    ],
                    [
-                       "Pathognomonic",
-                       "Sign or symptom uniquely characteristic of a specific disease"
+                       "Anosognosia",
+                       "Inability to recognize one\u0027s own illness or neurological deficit"
                    ]
                ]
     },
@@ -7312,8 +7312,8 @@
                        "Intentional surgical fracturing of a bone to correct deformity"
                    ],
                    [
-                       "Litholapaxy",
-                       "Breaking up of a bladder stone"
+                       "Arthroclasia",
+                       "Surgical breaking of a stiff joint to restore movement"
                    ],
                    [
                        "Myoclasia",
@@ -8587,7 +8587,7 @@
         "ex":  [
                    [
                        "Hypertrophy",
-                       "Excessive growth of an organ or tissue"
+                       "Excessive growth or enlargement of an organ or tissue"
                    ],
                    [
                        "Atrophy",
@@ -8595,11 +8595,11 @@
                    ],
                    [
                        "Dystrophy",
-                       "Abnormal or defective tissue development from inadequate nourishment or genetic factors"
+                       "Abnormal or defective tissue development"
                    ],
                    [
-                       "Myotrophic",
-                       "Relating to the nourishment or development of muscle tissue"
+                       "Hypotrophy",
+                       "Underdevelopment or insufficient growth of a tissue"
                    ]
                ]
     },
@@ -8882,12 +8882,12 @@
                        "Pertaining to the skin"
                    ],
                    [
-                       "Muscular",
-                       "Pertaining to or composed of muscle"
+                       "Coronary",
+                       "Pertaining to the arteries that supply the heart"
                    ],
                    [
-                       "Inflammatory",
-                       "Pertaining to inflammation of a tissue or organ"
+                       "Pulmonary",
+                       "Pertaining to the lungs"
                    ]
                ]
     },
@@ -8946,8 +8946,8 @@
         "d":  "(Greek) Origin, formation",
         "ex":  [
                    [
-                       "Hematopoiesis",
-                       "Formation of blood cells in bone marrow"
+                       "Pathogenesis",
+                       "Development or origin of a disease"
                    ],
                    [
                        "Carcinogenesis",
@@ -10582,8 +10582,8 @@
                        "Condition of fatigue and weakness attributed to the nerves"
                    ],
                    [
-                       "Asthenopia",
-                       "Eye strain and visual fatigue"
+                       "Asthenia",
+                       "Generalized weakness or loss of strength"
                    ],
                    [
                        "Psychasthenia",
@@ -10630,8 +10630,8 @@
                        "Removal of white blood cells from the blood"
                    ],
                    [
-                       "Plateletpheresis",
-                       "Collection of platelets from a donor\u0027s blood"
+                       "Erythrocytapheresis",
+                       "Removal and exchange of red blood cells from the blood"
                    ],
                    [
                        "Apheresis",
@@ -11830,8 +11830,8 @@
                        "Pain along a spinal nerve root"
                    ],
                    [
-                       "Radicotomy",
-                       "Surgical cutting of a spinal nerve root"
+                       "Radiculography",
+                       "Radiographic imaging of the spinal nerve roots"
                    ]
                ]
     },
@@ -12694,8 +12694,8 @@
                        "Diminished thirst"
                    ],
                    [
-                       "Dipsomania",
-                       "Compulsive craving for alcohol"
+                       "Hyperdipsia",
+                       "Abnormally intense thirst"
                    ]
                ]
     },
@@ -12868,7 +12868,7 @@
                ]
     },
     {
-        "wp":  "primi-",
+        "wp":  "prim-, primi-",
         "t":  "p",
         "lvl":  2,
         "d":  "(Latin) First",

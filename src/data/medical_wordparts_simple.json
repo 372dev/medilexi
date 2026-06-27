@@ -2927,7 +2927,8 @@
     {
         "wp":  "primi-",
         "t":  "p",
-        "d":  "(Latin) First"
+        "d":  "(Latin) First",
+        "alt":  "prim-, primi-"
     },
     {
         "wp":  "alges/o",
@@ -3195,5 +3196,11 @@
         "t":  "r",
         "d":  "(Latin) Ear, auricle",
         "alt":  "aur/o, ot/o, auricul/o"
+    },
+    {
+        "wp":  "prim-",
+        "t":  "p",
+        "d":  "(Latin) First",
+        "alt":  "prim-, primi-"
     }
 ]

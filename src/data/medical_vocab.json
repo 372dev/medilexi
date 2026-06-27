@@ -13580,7 +13580,15 @@
         "lvl":  3,
         "f":  [
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "sphygm/o"
+                            ],
+                      "s":  [
+                                "-meter"
+                            ]
+                  }
     },
     {
         "en_h":  "Spirometry",
@@ -13588,7 +13596,15 @@
         "lvl":  2,
         "f":  [
                   "Pulmonology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "spir/o"
+                            ],
+                      "s":  [
+                                "-metry"
+                            ]
+                  }
     },
     {
         "en_h":  "Spondylolisthesis",
@@ -13597,7 +13613,15 @@
         "f":  [
                   "Orthopedics",
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "spondyl/o"
+                            ],
+                      "s":  [
+                                "-listhesis"
+                            ]
+                  }
     },
     {
         "en_h":  "Synapse",
@@ -13606,7 +13630,12 @@
         "f":  [
                   "Anatomy",
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "syn-"
+                            ]
+                  }
     },
     {
         "en_h":  "Synovial Fluid",
@@ -13615,7 +13644,15 @@
         "f":  [
                   "Anatomy",
                   "Rheumatology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "synov/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Telangiectasia",
@@ -13623,7 +13660,15 @@
         "lvl":  2,
         "f":  [
                   "Dermatology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "angi/o"
+                            ],
+                      "s":  [
+                                "-ectasia"
+                            ]
+                  }
     },
     {
         "en_h":  "Tenodesis",
@@ -13631,7 +13676,15 @@
         "lvl":  1,
         "f":  [
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ten/o"
+                            ],
+                      "s":  [
+                                "-desis"
+                            ]
+                  }
     },
     {
         "en_h":  "Thermometer",
@@ -13639,7 +13692,15 @@
         "lvl":  2,
         "f":  [
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "therm/o"
+                            ],
+                      "s":  [
+                                "-meter"
+                            ]
+                  }
     },
     {
         "en_h":  "Thrombolysis",
@@ -13648,7 +13709,15 @@
         "f":  [
                   "Hematology",
                   "Emergency Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "thromb/o"
+                            ],
+                      "s":  [
+                                "-lysis"
+                            ]
+                  }
     },
     {
         "en_h":  "Tonometer",
@@ -13656,7 +13725,15 @@
         "lvl":  1,
         "f":  [
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ton/o"
+                            ],
+                      "s":  [
+                                "-meter"
+                            ]
+                  }
     },
     {
         "en_h":  "Toxemia",
@@ -13665,7 +13742,15 @@
         "f":  [
                   "Infectious Disease",
                   "Obstetrics \u0026 Gynecology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "tox/i"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
     },
     {
         "en_h":  "Transdermal",
@@ -13673,7 +13758,18 @@
         "lvl":  2,
         "f":  [
                   "Pharmacology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "trans-"
+                            ],
+                      "r":  [
+                                "derm/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Transfusion",
@@ -13681,7 +13777,12 @@
         "lvl":  3,
         "f":  [
                   "Hematology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "trans-"
+                            ]
+                  }
     },
     {
         "en_h":  "Tricuspid",
@@ -13690,7 +13791,12 @@
         "f":  [
                   "Cardiology",
                   "Anatomy"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "tri-"
+                            ]
+                  }
     },
     {
         "en_h":  "Trimester",
@@ -13698,7 +13804,12 @@
         "lvl":  3,
         "f":  [
                   "Obstetrics \u0026 Gynecology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "tri-"
+                            ]
+                  }
     },
     {
         "en_h":  "Tympanometry",
@@ -13706,7 +13817,15 @@
         "lvl":  2,
         "f":  [
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "tympan/o"
+                            ],
+                      "s":  [
+                                "-metry"
+                            ]
+                  }
     },
     {
         "en_h":  "Umbilical Hernia",
@@ -13715,7 +13834,15 @@
         "f":  [
                   "Surgery",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "umbilic/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Ureterolithiasis",
@@ -13723,7 +13850,16 @@
         "lvl":  2,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ureter/o",
+                                "lith/o"
+                            ],
+                      "s":  [
+                                "-iasis"
+                            ]
+                  }
     },
     {
         "en_h":  "Urolithiasis",
@@ -13731,7 +13867,16 @@
         "lvl":  3,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ur/o",
+                                "lith/o"
+                            ],
+                      "s":  [
+                                "-iasis"
+                            ]
+                  }
     },
     {
         "en_h":  "Varicocele",
@@ -13739,7 +13884,15 @@
         "lvl":  2,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "varic/o"
+                            ],
+                      "s":  [
+                                "-cele"
+                            ]
+                  }
     },
     {
         "en_h":  "Venipuncture",
@@ -13747,7 +13900,12 @@
         "lvl":  3,
         "f":  [
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ven/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Ventricular Fibrillation",
@@ -13756,7 +13914,15 @@
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ventricul/o"
+                            ],
+                      "s":  [
+                                "-ar"
+                            ]
+                  }
     },
     {
         "en_h":  "Vesicoureteral Reflux",
@@ -13765,7 +13931,16 @@
         "f":  [
                   "Urology",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "vesic/o",
+                                "ureter/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Visceromegaly",
@@ -13773,7 +13948,15 @@
         "lvl":  1,
         "f":  [
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "viscer/o"
+                            ],
+                      "s":  [
+                                "-megaly"
+                            ]
+                  }
     },
     {
         "en_h":  "Xanthoderma",
@@ -13781,7 +13964,13 @@
         "lvl":  1,
         "f":  [
                   "Dermatology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "xantho-",
+                                "derm/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Xanthoma",
@@ -13790,7 +13979,15 @@
         "f":  [
                   "Dermatology",
                   "Endocrinology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "xantho-"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Albuminuria",
@@ -13798,7 +13995,12 @@
         "lvl":  1,
         "f":  [
                   "Nephrology"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-uria"
+                            ]
+                  }
     },
     {
         "en_h":  "Chlorosis",
@@ -13806,7 +14008,12 @@
         "lvl":  1,
         "f":  [
                   "Hematology"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Rhodopsin",
@@ -13824,7 +14031,18 @@
         "f":  [
                   "Nephrology",
                   "Anatomy"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "juxta-"
+                            ],
+                      "r":  [
+                                "glomerul/o"
+                            ],
+                      "s":  [
+                                "-ar"
+                            ]
+                  }
     },
     {
         "en_h":  "Capitate",
@@ -13833,7 +14051,12 @@
         "f":  [
                   "Anatomy",
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "capit/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Chronobiology",
@@ -13841,7 +14064,16 @@
         "lvl":  1,
         "f":  [
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "chron/o",
+                                "bi/o"
+                            ],
+                      "s":  [
+                                "-logy"
+                            ]
+                  }
     },
     {
         "en_h":  "Splanchnic",
@@ -13850,7 +14082,15 @@
         "f":  [
                   "Anatomy",
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "splanchn/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Levocardia",
@@ -13859,7 +14099,18 @@
         "f":  [
                   "Cardiology",
                   "Anatomy"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "levo-"
+                            ],
+                      "r":  [
+                                "cardi/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Dextrocardia",
@@ -13867,7 +14118,18 @@
         "lvl":  1,
         "f":  [
                   "Cardiology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "dextro-"
+                            ],
+                      "r":  [
+                                "cardi/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Percutaneous",
@@ -13877,7 +14139,18 @@
                   "Radiology"
               ],
         "lvl":  2,
-        "d":  "Describing any procedure or drug delivery method that passes through the skin rather than through a natural body opening."
+        "d":  "Describing any procedure or drug delivery method that passes through the skin rather than through a natural body opening.",
+        "parts":  {
+                      "p":  [
+                                "per-"
+                            ],
+                      "r":  [
+                                "cutane/o"
+                            ],
+                      "s":  [
+                                "-ous"
+                            ]
+                  }
     },
     {
         "en_h":  "Astigmatism",
@@ -13886,7 +14159,15 @@
                   "Ophthalmology"
               ],
         "lvl":  2,
-        "d":  "Refractive error from an irregularly curved cornea or lens causing uneven light focus and blurred vision at all distances."
+        "d":  "Refractive error from an irregularly curved cornea or lens causing uneven light focus and blurred vision at all distances.",
+        "parts":  {
+                      "p":  [
+                                "a-"
+                            ],
+                      "s":  [
+                                "-ism"
+                            ]
+                  }
     },
     {
         "en_h":  "Pyloric sphincter",
@@ -13895,7 +14176,15 @@
                   "Gastroenterology"
               ],
         "lvl":  1,
-        "d":  "Ring of smooth muscle at the stomach-duodenum junction regulating passage of partially digested food into the small intestine."
+        "d":  "Ring of smooth muscle at the stomach-duodenum junction regulating passage of partially digested food into the small intestine.",
+        "parts":  {
+                      "r":  [
+                                "pylor/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Cardiac sphincter",
@@ -13904,7 +14193,15 @@
                   "Gastroenterology"
               ],
         "lvl":  1,
-        "d":  "The lower esophageal sphincter at the gastroesophageal junction that prevents reflux of gastric contents into the esophagus."
+        "d":  "The lower esophageal sphincter at the gastroesophageal junction that prevents reflux of gastric contents into the esophagus.",
+        "parts":  {
+                      "r":  [
+                                "cardi/o"
+                            ],
+                      "s":  [
+                                "-ac"
+                            ]
+                  }
     },
     {
         "en_h":  "Melatonin",
@@ -13923,7 +14220,18 @@
                   "Nephrology"
               ],
         "lvl":  2,
-        "d":  "Pituitary hormone that promotes renal water reabsorption to reduce urine output and regulate plasma osmolality, also called vasopressin."
+        "d":  "Pituitary hormone that promotes renal water reabsorption to reduce urine output and regulate plasma osmolality, also called vasopressin.",
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ],
+                      "r":  [
+                                "ur/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Median nerve",
@@ -13940,7 +14248,15 @@
                   "Immunology"
               ],
         "lvl":  2,
-        "d":  "Any substance, typically a protein, that the immune system recognizes as foreign and mounts a specific immune response against."
+        "d":  "Any substance, typically a protein, that the immune system recognizes as foreign and mounts a specific immune response against.",
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ],
+                      "s":  [
+                                "-gen"
+                            ]
+                  }
     },
     {
         "en_h":  "Antibody",
@@ -13948,7 +14264,12 @@
                   "Immunology"
               ],
         "lvl":  2,
-        "d":  "A protein (immunoglobulin) produced by B lymphocytes that binds specifically to an antigen to neutralize it or mark it for destruction."
+        "d":  "A protein (immunoglobulin) produced by B lymphocytes that binds specifically to an antigen to neutralize it or mark it for destruction.",
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ]
+                  }
     },
     {
         "en_h":  "Parietal lobe",
@@ -13957,7 +14278,15 @@
                   "Neurology"
               ],
         "lvl":  2,
-        "d":  "Cerebral lobe posterior to the frontal lobe that processes sensory input including touch, pressure, temperature, and spatial awareness."
+        "d":  "Cerebral lobe posterior to the frontal lobe that processes sensory input including touch, pressure, temperature, and spatial awareness.",
+        "parts":  {
+                      "r":  [
+                                "pariet/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Pineal gland",
@@ -13976,7 +14305,12 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "lvl":  2,
-        "d":  "The mature female gamete released from the ovary during ovulation, which develops into an embryo if fertilized by a spermatozoon."
+        "d":  "The mature female gamete released from the ovary during ovulation, which develops into an embryo if fertilized by a spermatozoon.",
+        "parts":  {
+                      "r":  [
+                                "ov/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Follicle",
@@ -14003,7 +14337,12 @@
                   "Urology"
               ],
         "lvl":  2,
-        "d":  "The muscular duct that transports sperm from the epididymis to the ejaculatory duct during ejaculation."
+        "d":  "The muscular duct that transports sperm from the epididymis to the ejaculatory duct during ejaculation.",
+        "parts":  {
+                      "r":  [
+                                "vas/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Non-Steroidal Anti-Inflammatory Drug",
@@ -14012,7 +14351,12 @@
                   "Pharmacology"
               ],
         "lvl":  3,
-        "d":  "A drug class that reduces pain, fever, and inflammation by inhibiting COX enzymes; ibuprofen (Advil), naproxen (Aleve), and celecoxib (Celebrex) are common examples."
+        "d":  "A drug class that reduces pain, fever, and inflammation by inhibiting COX enzymes; ibuprofen (Advil), naproxen (Aleve), and celecoxib (Celebrex) are common examples.",
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ]
+                  }
     },
     {
         "en_h":  "Pseudocyesis",
@@ -14022,7 +14366,15 @@
                   "Psychiatry"
               ],
         "lvl":  1,
-        "d":  "Firm belief in being pregnant accompanied by physical symptoms such as abdominal distension and amenorrhea, despite the absence of a fetus."
+        "d":  "Firm belief in being pregnant accompanied by physical symptoms such as abdominal distension and amenorrhea, despite the absence of a fetus.",
+        "parts":  {
+                      "p":  [
+                                "pseudo-"
+                            ],
+                      "s":  [
+                                "-cyesis"
+                            ]
+                  }
     },
     {
         "en_h":  "Ilium",
@@ -14031,7 +14383,12 @@
                   "Orthopedics"
               ],
         "lvl":  2,
-        "d":  "The largest and uppermost bone of the pelvis, forming the prominent hip structure palpable on each side of the body."
+        "d":  "The largest and uppermost bone of the pelvis, forming the prominent hip structure palpable on each side of the body.",
+        "parts":  {
+                      "r":  [
+                                "ili/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Electronic medical record",
@@ -14076,7 +14433,12 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "lvl":  3,
-        "d":  "Muscular canal extending from the cervix to the external genitalia, serving as the birth canal during delivery and the passage for menstrual flow."
+        "d":  "Muscular canal extending from the cervix to the external genitalia, serving as the birth canal during delivery and the passage for menstrual flow.",
+        "parts":  {
+                      "r":  [
+                                "vagin/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Vulva",
@@ -14085,7 +14447,12 @@
                   "Obstetrics \u0026 Gynecology"
               ],
         "lvl":  2,
-        "d":  "The collective term for the external female genitalia, including the labia majora, labia minora, clitoris, and vaginal opening."
+        "d":  "The collective term for the external female genitalia, including the labia majora, labia minora, clitoris, and vaginal opening.",
+        "parts":  {
+                      "r":  [
+                                "vulv/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Epididymis",
@@ -14094,7 +14461,12 @@
                   "Urology"
               ],
         "lvl":  2,
-        "d":  "A coiled tube located on the posterior surface of each testis where sperm mature and are stored before ejaculation."
+        "d":  "A coiled tube located on the posterior surface of each testis where sperm mature and are stored before ejaculation.",
+        "parts":  {
+                      "p":  [
+                                "epi-"
+                            ]
+                  }
     },
     {
         "en_h":  "Penis",
@@ -14112,7 +14484,15 @@
                   "Urology"
               ],
         "lvl":  2,
-        "d":  "One of a pair of glands located posterior to the bladder that secretes fructose-rich fluid contributing to seminal fluid volume."
+        "d":  "One of a pair of glands located posterior to the bladder that secretes fructose-rich fluid contributing to seminal fluid volume.",
+        "parts":  {
+                      "r":  [
+                                "vesic/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Sagittal plane",
@@ -14128,7 +14508,15 @@
                   "Anatomy"
               ],
         "lvl":  1,
-        "d":  "Anatomical plane that divides the body into anterior and posterior portions, also called the coronal plane."
+        "d":  "Anatomical plane that divides the body into anterior and posterior portions, also called the coronal plane.",
+        "parts":  {
+                      "r":  [
+                                "front/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Transverse plane",
@@ -14136,7 +14524,12 @@
                   "Anatomy"
               ],
         "lvl":  1,
-        "d":  "Anatomical plane that divides the body into superior and inferior portions, forming the basis of cross-sectional imaging such as CT."
+        "d":  "Anatomical plane that divides the body into superior and inferior portions, forming the basis of cross-sectional imaging such as CT.",
+        "parts":  {
+                      "p":  [
+                                "trans-"
+                            ]
+                  }
     },
     {
         "en_h":  "Brachial region",
@@ -14144,7 +14537,15 @@
                   "Anatomy"
               ],
         "lvl":  1,
-        "d":  "The anatomical region corresponding to the upper arm, between the shoulder and elbow."
+        "d":  "The anatomical region corresponding to the upper arm, between the shoulder and elbow.",
+        "parts":  {
+                      "r":  [
+                                "brachi/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Cephalic region",
@@ -14152,7 +14553,15 @@
                   "Anatomy"
               ],
         "lvl":  1,
-        "d":  "The anatomical region pertaining to the head."
+        "d":  "The anatomical region pertaining to the head.",
+        "parts":  {
+                      "r":  [
+                                "cephal/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Cervical region",
@@ -14160,7 +14569,15 @@
                   "Anatomy"
               ],
         "lvl":  1,
-        "d":  "The anatomical region of the neck, also referring to the cervical spine comprising the uppermost vertebrae from the skull to the thorax."
+        "d":  "The anatomical region of the neck, also referring to the cervical spine comprising the uppermost vertebrae from the skull to the thorax.",
+        "parts":  {
+                      "r":  [
+                                "cervic/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Crural region",
@@ -14168,7 +14585,15 @@
                   "Anatomy"
               ],
         "lvl":  1,
-        "d":  "The anatomical region corresponding to the leg (shin), between the knee and ankle."
+        "d":  "The anatomical region corresponding to the leg (shin), between the knee and ankle.",
+        "parts":  {
+                      "r":  [
+                                "crur/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Cranial cavity",
@@ -14176,7 +14601,15 @@
                   "Anatomy"
               ],
         "lvl":  2,
-        "d":  "The bony cavity formed by the skull that houses and protects the brain and its coverings (meninges)."
+        "d":  "The bony cavity formed by the skull that houses and protects the brain and its coverings (meninges).",
+        "parts":  {
+                      "r":  [
+                                "crani/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Spinal cavity",
@@ -14185,7 +14618,15 @@
                   "Anatomy"
               ],
         "lvl":  1,
-        "d":  "The canal formed by the vertebral column that encloses and protects the spinal cord."
+        "d":  "The canal formed by the vertebral column that encloses and protects the spinal cord.",
+        "parts":  {
+                      "r":  [
+                                "spin/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Thoracic cavity",
@@ -14193,7 +14634,15 @@
                   "Anatomy"
               ],
         "lvl":  2,
-        "d":  "The body cavity enclosed by the rib cage and diaphragm, containing the heart, lungs, and major vessels."
+        "d":  "The body cavity enclosed by the rib cage and diaphragm, containing the heart, lungs, and major vessels.",
+        "parts":  {
+                      "r":  [
+                                "thorac/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Abdominopelvic cavity",
@@ -14201,7 +14650,16 @@
                   "Anatomy"
               ],
         "lvl":  2,
-        "d":  "The combined abdominal and pelvic cavities below the diaphragm, housing the digestive, reproductive, and urinary organs."
+        "d":  "The combined abdominal and pelvic cavities below the diaphragm, housing the digestive, reproductive, and urinary organs.",
+        "parts":  {
+                      "r":  [
+                                "abdomin/o",
+                                "pelv/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Peritoneum",
@@ -14210,7 +14668,12 @@
                   "Surgery"
               ],
         "lvl":  2,
-        "d":  "Serous membrane lining the abdominal cavity and covering most abdominal organs, whose inflammation constitutes peritonitis."
+        "d":  "Serous membrane lining the abdominal cavity and covering most abdominal organs, whose inflammation constitutes peritonitis.",
+        "parts":  {
+                      "r":  [
+                                "peritone/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Abdominal quadrant",
@@ -14220,7 +14683,15 @@
                   "General Medicine"
               ],
         "lvl":  3,
-        "d":  "One of four clinical abdominal regions — RUQ, RLQ, LUQ, LLQ — used to localize pain, organs, and examination findings."
+        "d":  "One of four clinical abdominal regions — RUQ, RLQ, LUQ, LLQ — used to localize pain, organs, and examination findings.",
+        "parts":  {
+                      "r":  [
+                                "abdomin/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Abdominal region",
@@ -14229,7 +14700,15 @@
                   "General Medicine"
               ],
         "lvl":  2,
-        "d":  "One of the nine clinical divisions of the abdomen used to describe the location of organs and symptoms."
+        "d":  "One of the nine clinical divisions of the abdomen used to describe the location of organs and symptoms.",
+        "parts":  {
+                      "r":  [
+                                "abdomin/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Medial",
@@ -14253,7 +14732,15 @@
                   "Anatomy"
               ],
         "lvl":  3,
-        "d":  "Directional term indicating a position closer to the point of attachment or origin of a limb."
+        "d":  "Directional term indicating a position closer to the point of attachment or origin of a limb.",
+        "parts":  {
+                      "r":  [
+                                "proxim/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Distal",
@@ -14261,7 +14748,15 @@
                   "Anatomy"
               ],
         "lvl":  3,
-        "d":  "Directional term indicating a position farther from the point of attachment or origin of a limb."
+        "d":  "Directional term indicating a position farther from the point of attachment or origin of a limb.",
+        "parts":  {
+                      "r":  [
+                                "dist/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Apex",
@@ -14288,7 +14783,13 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "Pigment-producing cell in the basal epidermis that synthesizes melanin, giving skin its color and providing protection against UV radiation."
+        "d":  "Pigment-producing cell in the basal epidermis that synthesizes melanin, giving skin its color and providing protection against UV radiation.",
+        "parts":  {
+                      "r":  [
+                                "melano-",
+                                "cyt/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Hair follicle",
@@ -14317,7 +14818,15 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "A gland in the skin that secretes sebum into hair follicles to lubricate and waterproof the skin and hair."
+        "d":  "A gland in the skin that secretes sebum into hair follicles to lubricate and waterproof the skin and hair.",
+        "parts":  {
+                      "r":  [
+                                "seb/o"
+                            ],
+                      "s":  [
+                                "-ous"
+                            ]
+                  }
     },
     {
         "en_h":  "Sensory receptor",
@@ -14361,7 +14870,12 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "The oily substance secreted by sebaceous glands that lubricates the skin and hair and has mild antimicrobial properties."
+        "d":  "The oily substance secreted by sebaceous glands that lubricates the skin and hair and has mild antimicrobial properties.",
+        "parts":  {
+                      "r":  [
+                                "seb/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Acne",
@@ -14379,7 +14893,15 @@
                   "General Medicine"
               ],
         "lvl":  2,
-        "d":  "Pertaining to or affecting the skin."
+        "d":  "Pertaining to or affecting the skin.",
+        "parts":  {
+                      "r":  [
+                                "cutane/o"
+                            ],
+                      "s":  [
+                                "-ous"
+                            ]
+                  }
     },
     {
         "en_h":  "Abrasion",
@@ -14426,7 +14948,12 @@
                   "General Medicine"
               ],
         "lvl":  3,
-        "d":  "A closed, epithelium-lined sac containing fluid, semifluid, or solid material, occurring in many tissues and ranging from benign to malignant."
+        "d":  "A closed, epithelium-lined sac containing fluid, semifluid, or solid material, occurring in many tissues and ranging from benign to malignant.",
+        "parts":  {
+                      "r":  [
+                                "cyst/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Depigmentation",
@@ -14434,7 +14961,12 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Partial or complete loss of skin pigment (melanin), resulting in lighter or white patches."
+        "d":  "Partial or complete loss of skin pigment (melanin), resulting in lighter or white patches.",
+        "parts":  {
+                      "p":  [
+                                "de-"
+                            ]
+                  }
     },
     {
         "en_h":  "Diaphoresis",
@@ -14444,7 +14976,15 @@
                   "General Medicine"
               ],
         "lvl":  2,
-        "d":  "Profuse, abnormal sweating occurring without physical exertion, indicating fever, shock, hypoglycemia, or autonomic dysfunction."
+        "d":  "Profuse, abnormal sweating occurring without physical exertion, indicating fever, shock, hypoglycemia, or autonomic dysfunction.",
+        "parts":  {
+                      "p":  [
+                                "dia-"
+                            ],
+                      "s":  [
+                                "-phoresis"
+                            ]
+                  }
     },
     {
         "en_h":  "Erythroderma",
@@ -14452,7 +14992,13 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Severe inflammatory skin condition causing widespread redness and scaling across most of the body surface, also called exfoliative dermatitis."
+        "d":  "Severe inflammatory skin condition causing widespread redness and scaling across most of the body surface, also called exfoliative dermatitis.",
+        "parts":  {
+                      "r":  [
+                                "erythro-",
+                                "derm/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Eschar",
@@ -14478,7 +15024,15 @@
                   "General Medicine"
               ],
         "lvl":  1,
-        "d":  "Excess blood in a tissue or organ causing redness and warmth, classified as active (increased arterial inflow) or passive (venous congestion)."
+        "d":  "Excess blood in a tissue or organ causing redness and warmth, classified as active (increased arterial inflow) or passive (venous congestion).",
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
     },
     {
         "en_h":  "Hyperpigmentation",
@@ -14486,7 +15040,12 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "Darkening of localized skin areas from excess melanin production, caused by sun exposure, hormonal changes, or post-inflammatory pigmentation."
+        "d":  "Darkening of localized skin areas from excess melanin production, caused by sun exposure, hormonal changes, or post-inflammatory pigmentation.",
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ]
+                  }
     },
     {
         "en_h":  "Lesion",
@@ -14503,7 +15062,13 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Localized loss of skin pigmentation resulting in white patches, occurring as an idiopathic condition or associated with systemic disease."
+        "d":  "Localized loss of skin pigmentation resulting in white patches, occurring as an idiopathic condition or associated with systemic disease.",
+        "parts":  {
+                      "r":  [
+                                "leuko-",
+                                "derm/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Nevus",
@@ -14530,7 +15095,15 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Abnormal softening of the nails, often associated with nutritional deficiency or chemical exposure."
+        "d":  "Abnormal softening of the nails, often associated with nutritional deficiency or chemical exposure.",
+        "parts":  {
+                      "r":  [
+                                "onych/o"
+                            ],
+                      "s":  [
+                                "-malacia"
+                            ]
+                  }
     },
     {
         "en_h":  "Pallor",
@@ -14585,7 +15158,12 @@
                   "Rheumatology"
               ],
         "lvl":  2,
-        "d":  "Chronic autoimmune disease causing progressive fibrosis and hardening of the skin and internal organs, formerly known as scleroderma."
+        "d":  "Chronic autoimmune disease causing progressive fibrosis and hardening of the skin and internal organs, formerly known as scleroderma.",
+        "parts":  {
+                      "s":  [
+                                "-sclerosis"
+                            ]
+                  }
     },
     {
         "en_h":  "Seborrhea",
@@ -14593,7 +15171,15 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Excessive secretion of sebum from the sebaceous glands resulting in oily skin and scalp, associated with seborrheic dermatitis."
+        "d":  "Excessive secretion of sebum from the sebaceous glands resulting in oily skin and scalp, associated with seborrheic dermatitis.",
+        "parts":  {
+                      "r":  [
+                                "seb/o"
+                            ],
+                      "s":  [
+                                "-rrhea"
+                            ]
+                  }
     },
     {
         "en_h":  "Suppurative",
@@ -14621,7 +15207,12 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "A small, fluid-filled skin blister seen in herpes simplex, chickenpox, and contact dermatitis."
+        "d":  "A small, fluid-filled skin blister seen in herpes simplex, chickenpox, and contact dermatitis.",
+        "parts":  {
+                      "r":  [
+                                "vesic/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Wheal",
@@ -14639,7 +15230,15 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Abnormal dryness of the skin from decreased sebum production or impaired skin barrier function, also termed xerosis cutis."
+        "d":  "Abnormal dryness of the skin from decreased sebum production or impaired skin barrier function, also termed xerosis cutis.",
+        "parts":  {
+                      "r":  [
+                                "xer/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Abscess",
@@ -14685,7 +15284,16 @@
                   "Oncology"
               ],
         "lvl":  2,
-        "d":  "The most common skin cancer, arising from epidermal basal cells and strongly associated with chronic UV exposure, locally invasive but rarely metastasizing."
+        "d":  "The most common skin cancer, arising from epidermal basal cells and strongly associated with chronic UV exposure, locally invasive but rarely metastasizing.",
+        "parts":  {
+                      "r":  [
+                                "carcin/o"
+                            ],
+                      "s":  [
+                                "-al",
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Burn",
@@ -14722,7 +15330,15 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "A general term for any non-inflammatory skin disease or disorder."
+        "d":  "A general term for any non-inflammatory skin disease or disorder.",
+        "parts":  {
+                      "r":  [
+                                "dermat/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Gangrene",
@@ -14765,7 +15381,15 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "A group of genetic skin disorders characterized by dry, thickened, scaly skin resembling fish scales, ranging from mild to severe forms."
+        "d":  "A group of genetic skin disorders characterized by dry, thickened, scaly skin resembling fish scales, ranging from mild to severe forms.",
+        "parts":  {
+                      "r":  [
+                                "ichthy/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Impetigo",
@@ -14800,7 +15424,15 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "Abnormal thickening of the skin\u0027s outer keratin layer, encompassing actinic keratosis (precancerous) and seborrheic keratosis (benign)."
+        "d":  "Abnormal thickening of the skin\u0027s outer keratin layer, encompassing actinic keratosis (precancerous) and seborrheic keratosis (benign).",
+        "parts":  {
+                      "r":  [
+                                "kerat/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Laceration",
@@ -14819,7 +15451,15 @@
                   "Oncology"
               ],
         "lvl":  3,
-        "d":  "Aggressive malignant tumor arising from melanocytes, the most dangerous skin cancer due to its high propensity for early metastasis."
+        "d":  "Aggressive malignant tumor arising from melanocytes, the most dangerous skin cancer due to its high propensity for early metastasis.",
+        "parts":  {
+                      "r":  [
+                                "melano-"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Pediculosis",
@@ -14829,7 +15469,15 @@
                   "Infectious Disease"
               ],
         "lvl":  2,
-        "d":  "Infestation of the skin or hair by parasitic lice, causing intense itching and transmitted through close personal contact or shared items."
+        "d":  "Infestation of the skin or hair by parasitic lice, causing intense itching and transmitted through close personal contact or shared items.",
+        "parts":  {
+                      "r":  [
+                                "pedicul/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Rubella",
@@ -14857,7 +15505,19 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "A benign, slow-growing cyst beneath the skin formed by the accumulation of keratin and sebum within a follicular sac."
+        "d":  "A benign, slow-growing cyst beneath the skin formed by the accumulation of keratin and sebum within a follicular sac.",
+        "parts":  {
+                      "p":  [
+                                "epi-"
+                            ],
+                      "r":  [
+                                "derm/o",
+                                "cyst/o"
+                            ],
+                      "s":  [
+                                "-oid"
+                            ]
+                  }
     },
     {
         "en_h":  "Squamous cell carcinoma",
@@ -14867,7 +15527,15 @@
                   "Oncology"
               ],
         "lvl":  2,
-        "d":  "Malignant tumor arising from epidermal keratinocytes, associated with UV exposure and immunosuppression, with metastatic potential if left untreated."
+        "d":  "Malignant tumor arising from epidermal keratinocytes, associated with UV exposure and immunosuppression, with metastatic potential if left untreated.",
+        "parts":  {
+                      "r":  [
+                                "carcin/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Infantile hemangioma",
@@ -14877,7 +15545,16 @@
                   "Pediatrics"
               ],
         "lvl":  1,
-        "d":  "Benign vascular birthmark from proliferating blood vessels, appearing in infancy and typically resolving spontaneously by early childhood."
+        "d":  "Benign vascular birthmark from proliferating blood vessels, appearing in infancy and typically resolving spontaneously by early childhood.",
+        "parts":  {
+                      "r":  [
+                                "hem/o",
+                                "angi/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Systemic lupus erythematosus",
@@ -14908,7 +15585,12 @@
                   "Pediatrics"
               ],
         "lvl":  1,
-        "d":  "Dermatophyte fungal infection of the scalp and hair shafts, predominantly affecting children and potentially causing patchy hair loss."
+        "d":  "Dermatophyte fungal infection of the scalp and hair shafts, predominantly affecting children and potentially causing patchy hair loss.",
+        "parts":  {
+                      "r":  [
+                                "capit/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Tinea pedis",
@@ -14917,7 +15599,12 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "Common dermatophyte infection of the feet, particularly between the toes, characterized by itching, scaling, and fissures."
+        "d":  "Common dermatophyte infection of the feet, particularly between the toes, characterized by itching, scaling, and fissures.",
+        "parts":  {
+                      "r":  [
+                                "ped/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Varicella",
@@ -14971,7 +15658,16 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Corynebacterium infection of axillary or pubic hair shafts, characterized by yellowish, reddish, or black concretions adhering to the hair."
+        "d":  "Corynebacterium infection of axillary or pubic hair shafts, characterized by yellowish, reddish, or black concretions adhering to the hair.",
+        "parts":  {
+                      "r":  [
+                                "trich/o",
+                                "myc/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Onychia",
@@ -14979,7 +15675,15 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Inflammation of the nail matrix, often causing pain, swelling, and nail deformity."
+        "d":  "Inflammation of the nail matrix, often causing pain, swelling, and nail deformity.",
+        "parts":  {
+                      "r":  [
+                                "onych/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Onychophagia",
@@ -14989,7 +15693,15 @@
                   "Psychiatry"
               ],
         "lvl":  1,
-        "d":  "Compulsive biting or chewing of the nails, occurring as a habitual behavior or in association with anxiety disorders."
+        "d":  "Compulsive biting or chewing of the nails, occurring as a habitual behavior or in association with anxiety disorders.",
+        "parts":  {
+                      "r":  [
+                                "onych/o"
+                            ],
+                      "s":  [
+                                "-phagia"
+                            ]
+                  }
     },
     {
         "en_h":  "Paronychia",
@@ -14997,7 +15709,15 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "Infection of the skin surrounding the nail causing redness, swelling, and pus formation, classified as acute (bacterial) or chronic (fungal)."
+        "d":  "Infection of the skin surrounding the nail causing redness, swelling, and pus formation, classified as acute (bacterial) or chronic (fungal).",
+        "parts":  {
+                      "r":  [
+                                "onych/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Culture and sensitivity",
@@ -15025,7 +15745,15 @@
                   "Pathology"
               ],
         "lvl":  1,
-        "d":  "Microscopic examination of cells shed from a body surface or obtained by scraping, used to detect malignancy, infection, or other cellular abnormalities."
+        "d":  "Microscopic examination of cells shed from a body surface or obtained by scraping, used to detect malignancy, infection, or other cellular abnormalities.",
+        "parts":  {
+                      "r":  [
+                                "cyt/o"
+                            ],
+                      "s":  [
+                                "-logy"
+                            ]
+                  }
     },
     {
         "en_h":  "Frozen section",
@@ -15054,7 +15782,12 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "Tissue graft from a genetically non-identical donor of the same species, used as biological wound coverage in burns and reconstructive surgery."
+        "d":  "Tissue graft from a genetically non-identical donor of the same species, used as biological wound coverage in burns and reconstructive surgery.",
+        "parts":  {
+                      "p":  [
+                                "allo-"
+                            ]
+                  }
     },
     {
         "en_h":  "Autograft",
@@ -15063,7 +15796,12 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "A tissue graft harvested from and transplanted to the same individual, regarded as the gold standard for permanent skin replacement."
+        "d":  "A tissue graft harvested from and transplanted to the same individual, regarded as the gold standard for permanent skin replacement.",
+        "parts":  {
+                      "p":  [
+                                "auto-"
+                            ]
+                  }
     },
     {
         "en_h":  "Dermatome",
@@ -15072,7 +15810,15 @@
                   "Surgery"
               ],
         "lvl":  2,
-        "d":  "A surgical instrument that cuts thin skin slices for grafting, and also the term for the skin area innervated by a single spinal nerve root."
+        "d":  "A surgical instrument that cuts thin skin slices for grafting, and also the term for the skin area innervated by a single spinal nerve root.",
+        "parts":  {
+                      "r":  [
+                                "dermat/o"
+                            ],
+                      "s":  [
+                                "-tome"
+                            ]
+                  }
     },
     {
         "en_h":  "Dermatoplasty",
@@ -15082,7 +15828,15 @@
                   "Surgery"
               ],
         "lvl":  1,
-        "d":  "Surgical repair or reconstruction of the skin, typically using grafting techniques."
+        "d":  "Surgical repair or reconstruction of the skin, typically using grafting techniques.",
+        "parts":  {
+                      "r":  [
+                                "dermat/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
     },
     {
         "en_h":  "Skin graft",
@@ -15101,7 +15855,12 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "A tissue graft taken from a donor of a different species, such as porcine skin, used as a temporary biological wound covering."
+        "d":  "A tissue graft taken from a donor of a different species, such as porcine skin, used as a temporary biological wound covering.",
+        "parts":  {
+                      "p":  [
+                                "xeno-"
+                            ]
+                  }
     },
     {
         "en_h":  "Cauterization",
@@ -15110,7 +15869,12 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "Destruction of tissue using heat, cold, electricity, or chemicals to stop bleeding, remove lesions, or prevent infection."
+        "d":  "Destruction of tissue using heat, cold, electricity, or chemicals to stop bleeding, remove lesions, or prevent infection.",
+        "parts":  {
+                      "r":  [
+                                "cauter/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Cryosurgery",
@@ -15137,7 +15901,13 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "Use of a high-frequency electric current to cut tissue or coagulate blood vessels to control bleeding during surgery."
+        "d":  "Use of a high-frequency electric current to cut tissue or coagulate blood vessels to control bleeding during surgery.",
+        "parts":  {
+                      "r":  [
+                                "electr/o",
+                                "cauter/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Incision and drainage",
@@ -15156,7 +15926,15 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Surgical removal of all or part of a nail, performed for severe infection, ingrown nail, or nail unit tumor."
+        "d":  "Surgical removal of all or part of a nail, performed for severe infection, ingrown nail, or nail unit tumor.",
+        "parts":  {
+                      "r":  [
+                                "onych/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Chemabrasion",

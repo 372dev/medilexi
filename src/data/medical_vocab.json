@@ -11663,7 +11663,15 @@
         "lvl":  2,
         "f":  [
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ten/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Thrombosis",
@@ -11672,7 +11680,15 @@
         "f":  [
                   "Hematology",
                   "Vascular Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "thromb/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Tonsillitis",
@@ -11681,7 +11697,15 @@
         "f":  [
                   "Otolaryngology",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "tonsill/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Tracheitis",
@@ -11690,7 +11714,15 @@
         "f":  [
                   "Otolaryngology",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "trache/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Trichotillomania",
@@ -11698,7 +11730,15 @@
         "lvl":  1,
         "f":  [
                   "Psychiatry"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "trich/o"
+                            ],
+                      "s":  [
+                                "-mania"
+                            ]
+                  }
     },
     {
         "en_h":  "Urethritis",
@@ -11707,7 +11747,15 @@
         "f":  [
                   "Urology",
                   "Infectious Disease"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "urethr/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Venous Thrombosis",
@@ -11716,7 +11764,16 @@
         "f":  [
                   "Hematology",
                   "Vascular Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ven/o",
+                                "thromb/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Acoustic Neuroma",
@@ -11725,7 +11782,17 @@
         "f":  [
                   "Otolaryngology",
                   "Neurosurgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "acous/o",
+                                "neur/o"
+                            ],
+                      "s":  [
+                                "-ic",
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Adenoma",
@@ -11734,7 +11801,15 @@
         "f":  [
                   "Oncology",
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "aden/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Adrenaline",
@@ -11744,7 +11819,15 @@
                   "Pharmacology",
                   "Emergency Medicine"
               ],
-        "abbr":  "Epi"
+        "abbr":  "Epi",
+        "parts":  {
+                      "r":  [
+                                "adren/o"
+                            ],
+                      "s":  [
+                                "-ine"
+                            ]
+                  }
     },
     {
         "en_h":  "Aerophagia",
@@ -11752,7 +11835,15 @@
         "lvl":  1,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "aer/o"
+                            ],
+                      "s":  [
+                                "-phagia"
+                            ]
+                  }
     },
     {
         "en_h":  "Amebiasis",
@@ -11761,7 +11852,12 @@
         "f":  [
                   "Infectious Disease",
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-iasis"
+                            ]
+                  }
     },
     {
         "en_h":  "Andropause",
@@ -11770,7 +11866,12 @@
         "f":  [
                   "Endocrinology",
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "andr/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Anesthesia",
@@ -11778,7 +11879,18 @@
         "lvl":  3,
         "f":  [
                   "Anesthesiology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
+                      "r":  [
+                                "esthesi/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Aortic Aneurysm",
@@ -11787,7 +11899,16 @@
         "f":  [
                   "Vascular Surgery",
                   "Cardiology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "aort/o"
+                            ],
+                      "s":  [
+                                "-ic",
+                                "-eurysm"
+                            ]
+                  }
     },
     {
         "en_h":  "Apnea",
@@ -11796,7 +11917,15 @@
         "f":  [
                   "Pulmonology",
                   "Emergency Medicine"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "a-"
+                            ],
+                      "s":  [
+                                "-pnea"
+                            ]
+                  }
     },
     {
         "en_h":  "Arthrodesis",
@@ -11804,7 +11933,15 @@
         "lvl":  1,
         "f":  [
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "arthr/o"
+                            ],
+                      "s":  [
+                                "-desis"
+                            ]
+                  }
     },
     {
         "en_h":  "Atrophy",
@@ -11813,7 +11950,15 @@
         "f":  [
                   "General Medicine",
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "a-"
+                            ],
+                      "s":  [
+                                "-trophy"
+                            ]
+                  }
     },
     {
         "en_h":  "Audiometry",
@@ -11821,7 +11966,15 @@
         "lvl":  2,
         "f":  [
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "audi/o"
+                            ],
+                      "s":  [
+                                "-metry"
+                            ]
+                  }
     },
     {
         "en_h":  "Autoimmune",
@@ -11830,7 +11983,15 @@
         "f":  [
                   "Immunology",
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "auto-"
+                            ],
+                      "r":  [
+                                "immun/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Autopsy",
@@ -11838,7 +11999,12 @@
         "lvl":  2,
         "f":  [
                   "Pathology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "auto-"
+                            ]
+                  }
     },
     {
         "en_h":  "Bacteremia",
@@ -11846,7 +12012,15 @@
         "lvl":  3,
         "f":  [
                   "Infectious Disease"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "bacter/i"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
     },
     {
         "en_h":  "Brachytherapy",
@@ -11855,7 +12029,15 @@
         "f":  [
                   "Oncology",
                   "Radiology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "brachy-"
+                            ],
+                      "s":  [
+                                "-therapy"
+                            ]
+                  }
     },
     {
         "en_h":  "Bradykinesia",
@@ -11863,7 +12045,15 @@
         "lvl":  2,
         "f":  [
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "brady-"
+                            ],
+                      "s":  [
+                                "-kinesia"
+                            ]
+                  }
     },
     {
         "en_h":  "Bronchoconstriction",
@@ -11871,7 +12061,15 @@
         "lvl":  2,
         "f":  [
                   "Pulmonology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "bronch/o"
+                            ],
+                      "s":  [
+                                "-constriction"
+                            ]
+                  }
     },
     {
         "en_h":  "Bronchodilation",
@@ -11880,7 +12078,12 @@
         "f":  [
                   "Pulmonology",
                   "Pharmacology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "bronch/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Bronchospasm",
@@ -11889,7 +12092,15 @@
         "f":  [
                   "Pulmonology",
                   "Emergency Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "bronch/o"
+                            ],
+                      "s":  [
+                                "-spasm"
+                            ]
+                  }
     },
     {
         "en_h":  "Wheezing",
@@ -11915,7 +12126,15 @@
         "lvl":  2,
         "f":  [
                   "Cardiology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "cardi/o"
+                            ],
+                      "s":  [
+                                "-logist"
+                            ]
+                  }
     },
     {
         "en_h":  "Cardioversion",
@@ -11924,7 +12143,15 @@
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "cardi/o"
+                            ],
+                      "s":  [
+                                "-version"
+                            ]
+                  }
     },
     {
         "en_h":  "Carpal Tunnel Syndrome",
@@ -11933,7 +12160,15 @@
         "f":  [
                   "Orthopedics",
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "carp/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Cerebral Palsy",
@@ -11942,7 +12177,15 @@
         "f":  [
                   "Neurology",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "cerebr/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Chondroma",
@@ -11951,7 +12194,15 @@
         "f":  [
                   "Orthopedics",
                   "Oncology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "chondr/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Chondromalacia",
@@ -11959,7 +12210,15 @@
         "lvl":  2,
         "f":  [
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "chondr/o"
+                            ],
+                      "s":  [
+                                "-malacia"
+                            ]
+                  }
     },
     {
         "en_h":  "Coagulation",
@@ -11967,7 +12226,12 @@
         "lvl":  3,
         "f":  [
                   "Hematology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "coagul/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Coccydynia",
@@ -11975,7 +12239,12 @@
         "lvl":  1,
         "f":  [
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-dynia"
+                            ]
+                  }
     },
     {
         "en_h":  "Corneal Transplant",
@@ -11983,7 +12252,15 @@
         "lvl":  2,
         "f":  [
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "corne/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Cytokine",
@@ -11991,7 +12268,12 @@
         "lvl":  2,
         "f":  [
                   "Immunology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "cyt/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Debridement",
@@ -12009,7 +12291,15 @@
         "f":  [
                   "General Medicine",
                   "Emergency Medicine"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "de-"
+                            ],
+                      "r":  [
+                                "hydr/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Dentist",
@@ -12017,7 +12307,15 @@
         "lvl":  2,
         "f":  [
                   "Dentistry"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ],
+                      "s":  [
+                                "-ist"
+                            ]
+                  }
     },
     {
         "en_h":  "Dermatologist",
@@ -12025,7 +12323,15 @@
         "lvl":  2,
         "f":  [
                   "Dermatology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "dermat/o"
+                            ],
+                      "s":  [
+                                "-logist"
+                            ]
+                  }
     },
     {
         "en_h":  "Dialysis",
@@ -12033,7 +12339,15 @@
         "lvl":  3,
         "f":  [
                   "Nephrology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "dia-"
+                            ],
+                      "s":  [
+                                "-lysis"
+                            ]
+                  }
     },
     {
         "en_h":  "Diarrhea",
@@ -12042,7 +12356,15 @@
         "f":  [
                   "General Medicine",
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "dia-"
+                            ],
+                      "s":  [
+                                "-rrhea"
+                            ]
+                  }
     },
     {
         "en_h":  "Dyskinesia",
@@ -12050,7 +12372,15 @@
         "lvl":  2,
         "f":  [
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "dys-"
+                            ],
+                      "s":  [
+                                "-kinesia"
+                            ]
+                  }
     },
     {
         "en_h":  "Dysphasia",
@@ -12058,7 +12388,15 @@
         "lvl":  2,
         "f":  [
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "dys-"
+                            ],
+                      "s":  [
+                                "-phasia"
+                            ]
+                  }
     },
     {
         "en_h":  "Dysphonia",
@@ -12066,7 +12404,18 @@
         "lvl":  2,
         "f":  [
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "dys-"
+                            ],
+                      "r":  [
+                                "phon/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Emphysema",
@@ -12074,7 +12423,12 @@
         "lvl":  3,
         "f":  [
                   "Pulmonology"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-ema"
+                            ]
+                  }
     },
     {
         "en_h":  "Endometrium",
@@ -12083,7 +12437,18 @@
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Anatomy"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "endo-"
+                            ],
+                      "r":  [
+                                "metr/o"
+                            ],
+                      "s":  [
+                                "-ium"
+                            ]
+                  }
     },
     {
         "en_h":  "Erythropoietin",
@@ -12092,7 +12457,12 @@
         "f":  [
                   "Hematology",
                   "Nephrology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "erythro-"
+                            ]
+                  }
     },
     {
         "en_h":  "Estriol",
@@ -12101,7 +12471,12 @@
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Endocrinology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "estr/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Exocrine",
@@ -12110,7 +12485,12 @@
         "f":  [
                   "Anatomy",
                   "Pharmacology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "exo-"
+                            ]
+                  }
     },
     {
         "en_h":  "Exophthalmos",
@@ -12119,7 +12499,15 @@
         "f":  [
                   "Endocrinology",
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "exo-"
+                            ],
+                      "r":  [
+                                "ophthalm/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Glucagon",
@@ -12128,7 +12516,12 @@
         "f":  [
                   "Endocrinology",
                   "Pharmacology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "gluc/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Glycosuria",
@@ -12137,7 +12530,15 @@
         "f":  [
                   "Endocrinology",
                   "Nephrology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "glyc/o"
+                            ],
+                      "s":  [
+                                "-uria"
+                            ]
+                  }
     },
     {
         "en_h":  "Hemoglobin",
@@ -12146,7 +12547,12 @@
         "f":  [
                   "Hematology"
               ],
-        "abbr":  "Hgb"
+        "abbr":  "Hgb",
+        "parts":  {
+                      "r":  [
+                                "hem/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Hemolysis",
@@ -12154,7 +12560,15 @@
         "lvl":  2,
         "f":  [
                   "Hematology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "hem/o"
+                            ],
+                      "s":  [
+                                "-lysis"
+                            ]
+                  }
     },
     {
         "en_h":  "Hepatoma",
@@ -12163,7 +12577,15 @@
         "f":  [
                   "Oncology",
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "hepat/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Hepatotoxic",
@@ -12172,7 +12594,15 @@
         "f":  [
                   "Pharmacology",
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "hepat/o"
+                            ],
+                      "s":  [
+                                "-toxic"
+                            ]
+                  }
     },
     {
         "en_h":  "Herniorrhaphy",
@@ -12180,7 +12610,12 @@
         "lvl":  2,
         "f":  [
                   "Surgery"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-rrhaphy"
+                            ]
+                  }
     },
     {
         "en_h":  "Hyperemesis",
@@ -12189,7 +12624,15 @@
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ],
+                      "s":  [
+                                "-emesis"
+                            ]
+                  }
     },
     {
         "en_h":  "Hyperesthesia",
@@ -12197,7 +12640,18 @@
         "lvl":  2,
         "f":  [
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ],
+                      "r":  [
+                                "esthesi/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Hyperopia",
@@ -12205,7 +12659,15 @@
         "lvl":  2,
         "f":  [
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ],
+                      "s":  [
+                                "-opia"
+                            ]
+                  }
     },
     {
         "en_h":  "Hypertonia",
@@ -12213,7 +12675,18 @@
         "lvl":  2,
         "f":  [
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ],
+                      "r":  [
+                                "ton/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Hypokalemia",
@@ -12222,7 +12695,18 @@
         "f":  [
                   "General Medicine",
                   "Nephrology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "hypo-"
+                            ],
+                      "r":  [
+                                "kal/o"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
     },
     {
         "en_h":  "Hypothermia",
@@ -12230,7 +12714,18 @@
         "lvl":  3,
         "f":  [
                   "Emergency Medicine"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "hypo-"
+                            ],
+                      "r":  [
+                                "therm/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Immunodeficiency",
@@ -12239,7 +12734,12 @@
         "f":  [
                   "Immunology",
                   "Infectious Disease"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "immun/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Leukemia",
@@ -12248,7 +12748,12 @@
         "f":  [
                   "Hematology",
                   "Oncology"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
     },
     {
         "en_h":  "Leukopenia",
@@ -12256,7 +12761,15 @@
         "lvl":  2,
         "f":  [
                   "Hematology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "leuko-"
+                            ],
+                      "s":  [
+                                "-penia"
+                            ]
+                  }
     },
     {
         "en_h":  "Lipoma",
@@ -12265,7 +12778,15 @@
         "f":  [
                   "Dermatology",
                   "Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "lip/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Litholapaxy",
@@ -12273,7 +12794,12 @@
         "lvl":  1,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "lith/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Lymphoma",
@@ -12282,7 +12808,15 @@
         "f":  [
                   "Hematology",
                   "Oncology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "lymph/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Macule",
@@ -12290,7 +12824,12 @@
         "lvl":  2,
         "f":  [
                   "Dermatology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "macul/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Megalocardia",
@@ -12298,7 +12837,15 @@
         "lvl":  1,
         "f":  [
                   "Cardiology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "cardi/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Melanoptysis",
@@ -12306,7 +12853,15 @@
         "lvl":  1,
         "f":  [
                   "Pulmonology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "melano-"
+                            ],
+                      "s":  [
+                                "-ptysis"
+                            ]
+                  }
     },
     {
         "en_h":  "Meningioma",
@@ -12315,7 +12870,15 @@
         "f":  [
                   "Neurosurgery",
                   "Oncology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "mening/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Meningocele",
@@ -12324,7 +12887,15 @@
         "f":  [
                   "Neurosurgery",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "mening/o"
+                            ],
+                      "s":  [
+                                "-cele"
+                            ]
+                  }
     },
     {
         "en_h":  "Menopause",
@@ -12333,7 +12904,12 @@
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Endocrinology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "men/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Menorrhagia",
@@ -12341,7 +12917,15 @@
         "lvl":  3,
         "f":  [
                   "Obstetrics \u0026 Gynecology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "men/o"
+                            ],
+                      "s":  [
+                                "-rrhagia"
+                            ]
+                  }
     },
     {
         "en_h":  "Microcephaly",
@@ -12350,7 +12934,15 @@
         "f":  [
                   "Pediatrics",
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "micro-"
+                            ],
+                      "r":  [
+                                "cephal/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Myelopathy",
@@ -12359,7 +12951,15 @@
         "f":  [
                   "Neurology",
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "myel/o"
+                            ],
+                      "s":  [
+                                "-pathy"
+                            ]
+                  }
     },
     {
         "en_h":  "Myoglobin",
@@ -12368,7 +12968,12 @@
         "f":  [
                   "General Medicine",
                   "Hematology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "my/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Myopathy",
@@ -12376,7 +12981,15 @@
         "lvl":  2,
         "f":  [
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "my/o"
+                            ],
+                      "s":  [
+                                "-pathy"
+                            ]
+                  }
     },
     {
         "en_h":  "Myopia",
@@ -12384,7 +12997,12 @@
         "lvl":  2,
         "f":  [
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-opia"
+                            ]
+                  }
     },
     {
         "en_h":  "Narcolepsy",
@@ -12392,7 +13010,12 @@
         "lvl":  2,
         "f":  [
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-lepsy"
+                            ]
+                  }
     },
     {
         "en_h":  "Neoplasm",
@@ -12401,7 +13024,15 @@
         "f":  [
                   "Oncology",
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "neo-"
+                            ],
+                      "s":  [
+                                "-plasm"
+                            ]
+                  }
     },
     {
         "en_h":  "Nephropexy",
@@ -12409,7 +13040,15 @@
         "lvl":  1,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "nephr/o"
+                            ],
+                      "s":  [
+                                "-pexy"
+                            ]
+                  }
     },
     {
         "en_h":  "Nephrotoxic",
@@ -12418,7 +13057,15 @@
         "f":  [
                   "Nephrology",
                   "Pharmacology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "nephr/o"
+                            ],
+                      "s":  [
+                                "-toxic"
+                            ]
+                  }
     },
     {
         "en_h":  "Neuroblastoma",
@@ -12427,7 +13074,16 @@
         "f":  [
                   "Oncology",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "neur/o",
+                                "blast/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
     },
     {
         "en_h":  "Neurologist",
@@ -12435,7 +13091,15 @@
         "lvl":  2,
         "f":  [
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "neur/o"
+                            ],
+                      "s":  [
+                                "-logist"
+                            ]
+                  }
     },
     {
         "en_h":  "Neutrophil",
@@ -12444,7 +13108,15 @@
         "f":  [
                   "Hematology",
                   "Immunology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "neutr/o"
+                            ],
+                      "s":  [
+                                "-phil"
+                            ]
+                  }
     },
     {
         "en_h":  "Oligospermia",
@@ -12452,7 +13124,15 @@
         "lvl":  2,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "oligo-"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Ophthalmoscope",
@@ -12460,7 +13140,15 @@
         "lvl":  2,
         "f":  [
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ophthalm/o"
+                            ],
+                      "s":  [
+                                "-scope"
+                            ]
+                  }
     },
     {
         "en_h":  "Orchiopexy",
@@ -12469,7 +13157,15 @@
         "f":  [
                   "Urology",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "orchi/o"
+                            ],
+                      "s":  [
+                                "-pexy"
+                            ]
+                  }
     },
     {
         "en_h":  "Orthodontics",
@@ -12477,7 +13173,13 @@
         "lvl":  2,
         "f":  [
                   "Dentistry"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "orth/o",
+                                "odont/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Osteomalacia",
@@ -12486,7 +13188,15 @@
         "f":  [
                   "Endocrinology",
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "oste/o"
+                            ],
+                      "s":  [
+                                "-malacia"
+                            ]
+                  }
     },
     {
         "en_h":  "Ovarian Cyst",
@@ -12494,7 +13204,16 @@
         "lvl":  3,
         "f":  [
                   "Obstetrics \u0026 Gynecology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ovari/o",
+                                "cyst/o"
+                            ],
+                      "s":  [
+                                "-an"
+                            ]
+                  }
     },
     {
         "en_h":  "Papilledema",
@@ -12503,7 +13222,15 @@
         "f":  [
                   "Neurology",
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "papill/o"
+                            ],
+                      "s":  [
+                                "-edema"
+                            ]
+                  }
     },
     {
         "en_h":  "Paraplegia",
@@ -12512,7 +13239,15 @@
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "para-"
+                            ],
+                      "s":  [
+                                "-plegia"
+                            ]
+                  }
     },
     {
         "en_h":  "Parathyroid",
@@ -12521,7 +13256,15 @@
         "f":  [
                   "Endocrinology",
                   "Anatomy"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "para-"
+                            ],
+                      "r":  [
+                                "thyroid/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Pelvic Inflammatory Disease",
@@ -12530,7 +13273,15 @@
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Infectious Disease"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pelv/o"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Pharmacist",
@@ -12538,7 +13289,15 @@
         "lvl":  2,
         "f":  [
                   "Pharmacology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pharmac/o"
+                            ],
+                      "s":  [
+                                "-ist"
+                            ]
+                  }
     },
     {
         "en_h":  "Physiotherapy",
@@ -12546,7 +13305,12 @@
         "lvl":  3,
         "f":  [
                   "Rehabilitation Medicine"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-therapy"
+                            ]
+                  }
     },
     {
         "en_h":  "Pleurodynia",
@@ -12554,7 +13318,15 @@
         "lvl":  1,
         "f":  [
                   "Pulmonology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pleur/o"
+                            ],
+                      "s":  [
+                                "-dynia"
+                            ]
+                  }
     },
     {
         "en_h":  "Pneumonia",
@@ -12563,7 +13335,15 @@
         "f":  [
                   "Pulmonology",
                   "Infectious Disease"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pneum/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Porphyria",
@@ -12580,7 +13360,15 @@
         "lvl":  2,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "prostat/o"
+                            ],
+                      "s":  [
+                                "-megaly"
+                            ]
+                  }
     },
     {
         "en_h":  "Pseudocyst",
@@ -12588,7 +13376,15 @@
         "lvl":  1,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "pseudo-"
+                            ],
+                      "r":  [
+                                "cyst/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Pyoderma",
@@ -12596,7 +13392,13 @@
         "lvl":  1,
         "f":  [
                   "Dermatology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "py/o",
+                                "derm/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Pyrexia",
@@ -12604,7 +13406,15 @@
         "lvl":  3,
         "f":  [
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pyr/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Pyrogen",
@@ -12613,7 +13423,15 @@
         "f":  [
                   "Pharmacology",
                   "Immunology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pyr/o"
+                            ],
+                      "s":  [
+                                "-gen"
+                            ]
+                  }
     },
     {
         "en_h":  "Pyuria",
@@ -12622,7 +13440,15 @@
         "f":  [
                   "Urology",
                   "Nephrology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "py/o"
+                            ],
+                      "s":  [
+                                "-uria"
+                            ]
+                  }
     },
     {
         "en_h":  "Quadriplegia",
@@ -12631,7 +13457,12 @@
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-plegia"
+                            ]
+                  }
     },
     {
         "en_h":  "Rectal Prolapse",
@@ -12640,7 +13471,15 @@
         "f":  [
                   "Surgery",
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "rect/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Rectocele",
@@ -12649,7 +13488,15 @@
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "rect/o"
+                            ],
+                      "s":  [
+                                "-cele"
+                            ]
+                  }
     },
     {
         "en_h":  "Relapse",
@@ -12673,7 +13520,15 @@
         "lvl":  3,
         "f":  [
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "retin/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Retinopathy",
@@ -12682,7 +13537,15 @@
         "f":  [
                   "Ophthalmology",
                   "Endocrinology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "retin/o"
+                            ],
+                      "s":  [
+                                "-pathy"
+                            ]
+                  }
     },
     {
         "en_h":  "Septicemia",
@@ -12690,7 +13553,12 @@
         "lvl":  3,
         "f":  [
                   "Infectious Disease"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
     },
     {
         "en_h":  "Somnolence",
@@ -12699,7 +13567,12 @@
         "f":  [
                   "Neurology",
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "somn/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Sphygmomanometer",

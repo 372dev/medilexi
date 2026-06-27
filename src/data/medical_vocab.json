@@ -4575,6 +4575,7 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
+                                "chromo-",
                                 "cyt/o"
                             ],
                       "s":  [
@@ -7181,7 +7182,15 @@
                   "Rehabilitation Medicine"
               ],
         "d":  "Movement of a limb or body part away from the midline of the body, or in the digits, away from the central finger or toe.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "ab-"
+                            ],
+                      "r":  [
+                                "duct/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Adduction",
@@ -7193,7 +7202,15 @@
                   "Rehabilitation Medicine"
               ],
         "d":  "Movement of a limb or body part toward the midline of the body, or in the digits, toward the central finger or toe.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "ad-"
+                            ],
+                      "r":  [
+                                "duct/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Adenocarcinoma",
@@ -7256,6 +7273,9 @@
         "d":  "Deliberate artificial rupture of the amniotic membranes using a sterile instrument to induce or accelerate labor.",
         "lvl":  1,
         "parts":  {
+                      "r":  [
+                                "amni/o"
+                            ],
                       "s":  [
                                 "-tomy"
                             ]
@@ -7273,6 +7293,9 @@
         "parts":  {
                       "r":  [
                                 "andr/o"
+                            ],
+                      "s":  [
+                                "-gen"
                             ]
                   }
     },
@@ -7308,6 +7331,9 @@
         "parts":  {
                       "p":  [
                                 "an-"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -7324,6 +7350,12 @@
         "parts":  {
                       "p":  [
                                 "anti-"
+                            ],
+                      "r":  [
+                                "bi/o"
+                            ],
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -7377,9 +7409,11 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
+                                "brachi/o",
                                 "arteri/o"
                             ],
                       "s":  [
+                                "-al",
                                 "-itis"
                             ]
                   }
@@ -7469,7 +7503,15 @@
                   "Vascular Surgery"
               ],
         "d":  "The major vein draining the arm and shoulder, commonly accessed for central venous catheter placement.",
-        "lvl":  1
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "axill/o"
+                            ],
+                      "s":  [
+                                "-ary"
+                            ]
+                  }
     },
     {
         "en_h":  "Bactericide",
@@ -7484,6 +7526,9 @@
         "parts":  {
                       "r":  [
                                 "bacter/i"
+                            ],
+                      "s":  [
+                                "-cide"
                             ]
                   }
     },
@@ -7514,6 +7559,9 @@
         "d":  "Involuntary forceful contraction of the eyelid muscles, occurring as an isolated benign condition or a sign of neurological disease.",
         "lvl":  1,
         "parts":  {
+                      "r":  [
+                                "blephar/o"
+                            ],
                       "s":  [
                                 "-spasm"
                             ]
@@ -7530,6 +7578,9 @@
         "d":  "Abnormally short, broad skull shape resulting from premature coronal suture fusion or positional deformity, associated with certain genetic syndromes.",
         "lvl":  1,
         "parts":  {
+                      "p":  [
+                                "brachy-"
+                            ],
                       "r":  [
                                 "cephal/o"
                             ]
@@ -7621,6 +7672,9 @@
         "parts":  {
                       "r":  [
                                 "carp/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -7637,6 +7691,9 @@
         "parts":  {
                       "r":  [
                                 "carp/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -7670,7 +7727,11 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "cephal/o"
+                                "cephal/o",
+                                "caud/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -7686,7 +7747,11 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "cerebell/o"
+                                "cerebell/o",
+                                "pont/o"
+                            ],
+                      "s":  [
+                                "-ine"
                             ]
                   }
     },
@@ -7704,6 +7769,9 @@
                       "r":  [
                                 "cerebr/o",
                                 "spin/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -7804,6 +7872,7 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
+                                "cost/o",
                                 "chondr/o"
                             ],
                       "s":  [
@@ -8029,6 +8098,9 @@
         "parts":  {
                       "r":  [
                                 "estr/o"
+                            ],
+                      "s":  [
+                                "-gen"
                             ]
                   }
     },
@@ -8060,7 +8132,11 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "front/o"
+                                "front/o",
+                                "pariet/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -8096,6 +8172,9 @@
         "parts":  {
                       "r":  [
                                 "gastr/o"
+                            ],
+                      "s":  [
+                                "-cele"
                             ]
                   }
     },
@@ -8305,6 +8384,9 @@
         "parts":  {
                       "r":  [
                                 "intestin/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -8437,7 +8519,11 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "lingu/o"
+                                "lingu/o",
+                                "gingiv/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -8476,6 +8562,9 @@
                             ],
                       "r":  [
                                 "gloss/o"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -8538,6 +8627,9 @@
         "parts":  {
                       "p":  [
                                 "meta-"
+                            ],
+                      "s":  [
+                                "-ism"
                             ]
                   }
     },
@@ -8557,6 +8649,9 @@
                             ],
                       "r":  [
                                 "carp/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -8588,6 +8683,9 @@
         "parts":  {
                       "r":  [
                                 "muscul/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   },
         "abbr":  "MSK"
@@ -8603,6 +8701,9 @@
         "d":  "The study of fungi including medically important species causing candidiasis and aspergillosis.",
         "lvl":  2,
         "parts":  {
+                      "r":  [
+                                "myc/o"
+                            ],
                       "s":  [
                                 "-logy"
                             ]
@@ -8674,7 +8775,11 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "myring/o"
+                                "myring/o",
+                                "myc/o"
+                            ],
+                      "s":  [
+                                "-osis"
                             ]
                   }
     },
@@ -8706,6 +8811,12 @@
         "parts":  {
                       "p":  [
                                 "neo-"
+                            ],
+                      "r":  [
+                                "nat/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -8760,9 +8871,6 @@
         "parts":  {
                       "p":  [
                                 "normo-"
-                            ],
-                      "r":  [
-                                "ten/o"
                             ]
                   }
     },
@@ -8795,6 +8903,9 @@
         "parts":  {
                       "r":  [
                                 "onc/o"
+                            ],
+                      "s":  [
+                                "-gen"
                             ]
                   }
     },
@@ -8807,7 +8918,12 @@
                   "Otolaryngology"
               ],
         "d":  "The middle region of the pharynx containing the tonsils, soft palate, and tongue base, and a site for tonsillitis and HPV-related oropharyngeal cancer.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "or/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Osteophyte",
@@ -8893,6 +9009,9 @@
         "parts":  {
                       "r":  [
                                 "pelv/o"
+                            ],
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -8930,6 +9049,9 @@
         "parts":  {
                       "p":  [
                                 "peri-"
+                            ],
+                      "r":  [
+                                "odont/o"
                             ],
                       "s":  [
                                 "-itis"
@@ -8971,6 +9093,9 @@
                             ],
                       "r":  [
                                 "vascul/o"
+                            ],
+                      "s":  [
+                                "-ar"
                             ]
                   }
     },
@@ -8985,6 +9110,7 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
+                                "phon/o",
                                 "cardi/o"
                             ],
                       "s":  [
@@ -9005,6 +9131,9 @@
         "parts":  {
                       "r":  [
                                 "pleur/o"
+                            ],
+                      "s":  [
+                                "-desis"
                             ]
                   }
     },
@@ -9058,7 +9187,10 @@
                                 "post-"
                             ],
                       "r":  [
-                                "aur/o"
+                                "auricul/o"
+                            ],
+                      "s":  [
+                                "-ar"
                             ]
                   }
     },
@@ -9107,6 +9239,12 @@
         "parts":  {
                       "p":  [
                                 "pre-"
+                            ],
+                      "r":  [
+                                "nat/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -9153,7 +9291,12 @@
                   "Orthopedics"
               ],
         "d":  "Extension of a structure forward beyond its normal surface, referring in dentistry to jaw position and in spinal medicine to disc herniation.",
-        "lvl":  1
+        "lvl":  1,
+        "parts":  {
+                      "p":  [
+                                "pro-"
+                            ]
+                  }
     },
     {
         "en_h":  "Renogram",
@@ -9278,6 +9421,9 @@
         "d":  "Device that measures the volume and flow rate of air inhaled and exhaled, used in pulmonary function testing to assess respiratory capacity.",
         "lvl":  2,
         "parts":  {
+                      "r":  [
+                                "spir/o"
+                            ],
                       "s":  [
                                 "-meter"
                             ]
@@ -9386,6 +9532,12 @@
         "parts":  {
                       "p":  [
                                 "supra-"
+                            ],
+                      "r":  [
+                                "gingiv/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -9397,7 +9549,15 @@
                   "General Medicine"
               ],
         "d":  "Exhibiting clinical signs or symptoms of disease, contrasted with asymptomatic presentation in which disease is present but undetected or unfelt.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "sym-"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Tachypnea",
@@ -9467,7 +9627,8 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "thyr/o"
+                                "thyr/o",
+                                "tox/i"
                             ],
                       "s":  [
                                 "-osis"
@@ -9487,6 +9648,9 @@
         "parts":  {
                       "r":  [
                                 "ton/o"
+                            ],
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -9610,7 +9774,15 @@
                   "Orthopedics"
               ],
         "d":  "Relating to the ulna, the medial forearm bone, alongside which the ulnar nerve courses to supply the hand.",
-        "lvl":  1
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "uln/o"
+                            ],
+                      "s":  [
+                                "-ar"
+                            ]
+                  }
     },
     {
         "en_h":  "Umbilical cord",
@@ -9779,6 +9951,9 @@
         "parts":  {
                       "r":  [
                                 "xantho-"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -9789,7 +9964,15 @@
         "f":  [
                   "Surgery",
                   "Plastic Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "abdomin/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
     },
     {
         "en_h":  "Adrenalectomy",
@@ -9798,7 +9981,15 @@
         "f":  [
                   "Surgery",
                   "Endocrinology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "adrenal/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Amniocentesis",
@@ -9806,7 +9997,15 @@
         "lvl":  2,
         "f":  [
                   "Obstetrics \u0026 Gynecology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "amni/o"
+                            ],
+                      "s":  [
+                                "-centesis"
+                            ]
+                  }
     },
     {
         "en_h":  "Angiogram",
@@ -9815,7 +10014,15 @@
         "f":  [
                   "Radiology",
                   "Cardiology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "angi/o"
+                            ],
+                      "s":  [
+                                "-gram"
+                            ]
+                  }
     },
     {
         "en_h":  "Angioplasty",
@@ -9825,7 +10032,15 @@
                   "Cardiology",
                   "Vascular Surgery"
               ],
-        "abbr":  "PTCA"
+        "abbr":  "PTCA",
+        "parts":  {
+                      "r":  [
+                                "angi/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
     },
     {
         "en_h":  "Aortography",
@@ -9834,7 +10049,15 @@
         "f":  [
                   "Radiology",
                   "Vascular Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "aort/o"
+                            ],
+                      "s":  [
+                                "-graphy"
+                            ]
+                  }
     },
     {
         "en_h":  "Arteriography",
@@ -9843,7 +10066,15 @@
         "f":  [
                   "Radiology",
                   "Vascular Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "arteri/o"
+                            ],
+                      "s":  [
+                                "-graphy"
+                            ]
+                  }
     },
     {
         "en_h":  "Bronchoscopy",
@@ -9851,7 +10082,15 @@
         "lvl":  2,
         "f":  [
                   "Pulmonology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "bronch/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Carpectomy",
@@ -9859,7 +10098,15 @@
         "lvl":  1,
         "f":  [
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "carp/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Cholangiography",
@@ -9868,7 +10115,15 @@
         "f":  [
                   "Radiology",
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "cholang/o"
+                            ],
+                      "s":  [
+                                "-graphy"
+                            ]
+                  }
     },
     {
         "en_h":  "Choledochotomy",
@@ -9877,7 +10132,15 @@
         "f":  [
                   "Surgery",
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "choledoch/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Cystoscopy",
@@ -9885,7 +10148,15 @@
         "lvl":  2,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "cyst/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Duodenoscopy",
@@ -9893,7 +10164,15 @@
         "lvl":  1,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "duoden/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Enteroscopy",
@@ -9901,7 +10180,15 @@
         "lvl":  1,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "enter/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Esophagoscopy",
@@ -9909,7 +10196,15 @@
         "lvl":  1,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "esophag/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Fasciectomy",
@@ -9918,7 +10213,15 @@
         "f":  [
                   "Surgery",
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "fasci/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Gastrectomy",
@@ -9927,7 +10230,15 @@
         "f":  [
                   "Surgery",
                   "Oncology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "gastr/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Gingivectomy",
@@ -9935,7 +10246,15 @@
         "lvl":  1,
         "f":  [
                   "Dentistry"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "gingiv/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Hysteroscopy",
@@ -9943,7 +10262,15 @@
         "lvl":  2,
         "f":  [
                   "Obstetrics \u0026 Gynecology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "hyster/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Ileostomy",
@@ -9952,7 +10279,15 @@
         "f":  [
                   "Surgery",
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ile/o"
+                            ],
+                      "s":  [
+                                "-stomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Kyphoplasty",
@@ -9961,7 +10296,15 @@
         "f":  [
                   "Orthopedics",
                   "Neurosurgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "kyph/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
     },
     {
         "en_h":  "Labioplasty",
@@ -9970,7 +10313,15 @@
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Plastic Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "labi/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
     },
     {
         "en_h":  "Laryngoscopy",
@@ -9978,7 +10329,15 @@
         "lvl":  2,
         "f":  [
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "laryng/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Mammogram",
@@ -9987,7 +10346,15 @@
         "f":  [
                   "Radiology",
                   "Oncology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "mamm/o"
+                            ],
+                      "s":  [
+                                "-gram"
+                            ]
+                  }
     },
     {
         "en_h":  "Mammoplasty",
@@ -9996,7 +10363,15 @@
         "f":  [
                   "Plastic Surgery",
                   "Oncology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "mamm/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
     },
     {
         "en_h":  "Myringotomy",
@@ -10004,7 +10379,15 @@
         "lvl":  2,
         "f":  [
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "myring/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Neurotripsy",
@@ -10012,7 +10395,15 @@
         "lvl":  1,
         "f":  [
                   "Neurosurgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "neur/o"
+                            ],
+                      "s":  [
+                                "-tripsy"
+                            ]
+                  }
     },
     {
         "en_h":  "Orchiectomy",
@@ -10021,7 +10412,15 @@
         "f":  [
                   "Urology",
                   "Oncology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "orchi/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Ovariotomy",
@@ -10029,7 +10428,15 @@
         "lvl":  1,
         "f":  [
                   "Obstetrics \u0026 Gynecology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ovari/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Pancreatography",
@@ -10038,7 +10445,15 @@
         "f":  [
                   "Radiology",
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pancreat/o"
+                            ],
+                      "s":  [
+                                "-graphy"
+                            ]
+                  }
     },
     {
         "en_h":  "Phlebotomy",
@@ -10047,7 +10462,15 @@
         "f":  [
                   "General Medicine",
                   "Hematology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "phleb/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Proctoscopy",
@@ -10056,7 +10479,15 @@
         "f":  [
                   "Gastroenterology",
                   "Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "proct/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Pyelogram",
@@ -10065,7 +10496,15 @@
         "f":  [
                   "Radiology",
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pyel/o"
+                            ],
+                      "s":  [
+                                "-gram"
+                            ]
+                  }
     },
     {
         "en_h":  "Pyloromyotomy",
@@ -10074,7 +10513,16 @@
         "f":  [
                   "Surgery",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pylor/o",
+                                "my/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Septoplasty",
@@ -10082,7 +10530,15 @@
         "lvl":  2,
         "f":  [
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "sept/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
     },
     {
         "en_h":  "Sigmoidoscopy",
@@ -10090,7 +10546,15 @@
         "lvl":  2,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "sigmoid/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Sinusotomy",
@@ -10098,7 +10562,15 @@
         "lvl":  1,
         "f":  [
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "sinus/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Sternotomy",
@@ -10107,7 +10579,15 @@
         "f":  [
                   "Cardiology",
                   "Thoracic Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "stern/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Stethoscopy",
@@ -10115,7 +10595,15 @@
         "lvl":  1,
         "f":  [
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "steth/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Thyroidectomy",
@@ -10124,7 +10612,15 @@
         "f":  [
                   "Surgery",
                   "Endocrinology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "thyroid/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Tomography",
@@ -10132,7 +10628,15 @@
         "lvl":  2,
         "f":  [
                   "Radiology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "tom/o"
+                            ],
+                      "s":  [
+                                "-graphy"
+                            ]
+                  }
     },
     {
         "en_h":  "Tracheotomy",
@@ -10141,7 +10645,15 @@
         "f":  [
                   "Emergency Medicine",
                   "Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "trache/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Tympanoplasty",
@@ -10149,7 +10661,15 @@
         "lvl":  1,
         "f":  [
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "tympan/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
     },
     {
         "en_h":  "Ureteroscopy",
@@ -10157,7 +10677,15 @@
         "lvl":  1,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ureter/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
     },
     {
         "en_h":  "Urethroplasty",
@@ -10165,7 +10693,15 @@
         "lvl":  1,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "urethr/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
     },
     {
         "en_h":  "Vasectomy",
@@ -10173,7 +10709,15 @@
         "lvl":  2,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "vas/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Ventriculography",
@@ -10182,7 +10726,15 @@
         "f":  [
                   "Radiology",
                   "Cardiology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ventricul/o"
+                            ],
+                      "s":  [
+                                "-graphy"
+                            ]
+                  }
     },
     {
         "en_h":  "Vesicostomy",
@@ -10190,7 +10742,15 @@
         "lvl":  1,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "vesic/o"
+                            ],
+                      "s":  [
+                                "-stomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Acrophobia",
@@ -10198,7 +10758,15 @@
         "lvl":  1,
         "f":  [
                   "Psychiatry"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "acr/o"
+                            ],
+                      "s":  [
+                                "-phobia"
+                            ]
+                  }
     },
     {
         "en_h":  "Adenitis",
@@ -10207,7 +10775,15 @@
         "f":  [
                   "General Medicine",
                   "Infectious Disease"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "aden/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Agoraphobia",
@@ -10215,7 +10791,12 @@
         "lvl":  2,
         "f":  [
                   "Psychiatry"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-phobia"
+                            ]
+                  }
     },
     {
         "en_h":  "Amphiarthrosis",
@@ -10223,7 +10804,18 @@
         "lvl":  1,
         "f":  [
                   "Anatomy"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "amphi-"
+                            ],
+                      "r":  [
+                                "arthr/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Anhidrosis",
@@ -10232,7 +10824,18 @@
         "f":  [
                   "Dermatology",
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
+                      "r":  [
+                                "hidr/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Ankylosis",
@@ -10241,7 +10844,15 @@
         "f":  [
                   "Orthopedics",
                   "Rheumatology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ankyl/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Aortic Stenosis",
@@ -10250,7 +10861,16 @@
         "f":  [
                   "Cardiology"
               ],
-        "abbr":  "AS"
+        "abbr":  "AS",
+        "parts":  {
+                      "r":  [
+                                "aort/o"
+                            ],
+                      "s":  [
+                                "-ic",
+                                "-stenosis"
+                            ]
+                  }
     },
     {
         "en_h":  "Blepharitis",
@@ -10258,7 +10878,15 @@
         "lvl":  2,
         "f":  [
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "blephar/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Blepharoptosis",
@@ -10266,7 +10894,15 @@
         "lvl":  2,
         "f":  [
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "blephar/o"
+                            ],
+                      "s":  [
+                                "-ptosis"
+                            ]
+                  }
     },
     {
         "en_h":  "Cerebellitis",
@@ -10274,7 +10910,15 @@
         "lvl":  1,
         "f":  [
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "cerebell/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Claustrophobia",
@@ -10282,7 +10926,12 @@
         "lvl":  2,
         "f":  [
                   "Psychiatry"
-              ]
+              ],
+        "parts":  {
+                      "s":  [
+                                "-phobia"
+                            ]
+                  }
     },
     {
         "en_h":  "Colitis",
@@ -10290,7 +10939,15 @@
         "lvl":  2,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "col/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Corneitis",
@@ -10298,7 +10955,15 @@
         "lvl":  1,
         "f":  [
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "corne/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Craniosynostosis",
@@ -10307,7 +10972,18 @@
         "f":  [
                   "Pediatrics",
                   "Neurosurgery"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "syn-"
+                            ],
+                      "r":  [
+                                "crani/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Dacryocystitis",
@@ -10315,7 +10991,16 @@
         "lvl":  1,
         "f":  [
                   "Ophthalmology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "dacry/o",
+                                "cyst/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Dermatitis",
@@ -10323,7 +11008,15 @@
         "lvl":  3,
         "f":  [
                   "Dermatology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "dermat/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Duodenitis",
@@ -10331,7 +11024,15 @@
         "lvl":  1,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "duoden/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Enteritis",
@@ -10339,7 +11040,15 @@
         "lvl":  2,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "enter/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Epiglottitis",
@@ -10348,7 +11057,15 @@
         "f":  [
                   "Emergency Medicine",
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "epiglott/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Esophagitis",
@@ -10356,7 +11073,15 @@
         "lvl":  2,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "esophag/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Fasciitis",
@@ -10365,7 +11090,15 @@
         "f":  [
                   "Orthopedics",
                   "Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "fasci/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Fibromyalgia",
@@ -10374,7 +11107,16 @@
         "f":  [
                   "Rheumatology",
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "fibr/o",
+                                "my/o"
+                            ],
+                      "s":  [
+                                "-algia"
+                            ]
+                  }
     },
     {
         "en_h":  "Fibrosis",
@@ -10383,7 +11125,15 @@
         "f":  [
                   "General Medicine",
                   "Pathology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "fibr/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Gingivitis",
@@ -10391,7 +11141,15 @@
         "lvl":  2,
         "f":  [
                   "Dentistry"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "gingiv/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Glomerulosclerosis",
@@ -10399,7 +11157,15 @@
         "lvl":  1,
         "f":  [
                   "Nephrology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "glomerul/o"
+                            ],
+                      "s":  [
+                                "-sclerosis"
+                            ]
+                  }
     },
     {
         "en_h":  "Glossitis",
@@ -10408,7 +11174,15 @@
         "f":  [
                   "General Medicine",
                   "Dentistry"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "gloss/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Hepatitis",
@@ -10417,7 +11191,15 @@
         "f":  [
                   "Gastroenterology",
                   "Infectious Disease"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "hepat/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Hyperhidrosis",
@@ -10425,7 +11207,18 @@
         "lvl":  2,
         "f":  [
                   "Dermatology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ],
+                      "r":  [
+                                "hidr/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Ileitis",
@@ -10433,7 +11226,15 @@
         "lvl":  1,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ile/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Jejunitis",
@@ -10441,7 +11242,15 @@
         "lvl":  1,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "jejun/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Jejunoileitis",
@@ -10449,7 +11258,16 @@
         "lvl":  1,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "jejun/o",
+                                "ile/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Laryngitis",
@@ -10457,7 +11275,15 @@
         "lvl":  2,
         "f":  [
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "laryng/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Myringitis",
@@ -10465,7 +11291,15 @@
         "lvl":  1,
         "f":  [
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "myring/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Necrosis",
@@ -10474,7 +11308,15 @@
         "f":  [
                   "General Medicine",
                   "Pathology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "necr/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Nephroptosis",
@@ -10482,7 +11324,15 @@
         "lvl":  1,
         "f":  [
                   "Nephrology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "nephr/o"
+                            ],
+                      "s":  [
+                                "-ptosis"
+                            ]
+                  }
     },
     {
         "en_h":  "Onychomycosis",
@@ -10490,7 +11340,16 @@
         "lvl":  2,
         "f":  [
                   "Dermatology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "onych/o",
+                                "myc/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Orchitis",
@@ -10498,7 +11357,15 @@
         "lvl":  2,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "orchi/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Osteomyelitis",
@@ -10507,7 +11374,16 @@
         "f":  [
                   "Orthopedics",
                   "Infectious Disease"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "oste/o",
+                                "myel/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Otitis",
@@ -10516,7 +11392,15 @@
         "f":  [
                   "Otolaryngology",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "ot/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Pharyngitis",
@@ -10525,7 +11409,15 @@
         "f":  [
                   "General Medicine",
                   "Otolaryngology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pharyng/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Phlebitis",
@@ -10534,7 +11426,15 @@
         "f":  [
                   "Vascular Surgery",
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "phleb/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Pleuritis",
@@ -10542,7 +11442,15 @@
         "lvl":  1,
         "f":  [
                   "Pulmonology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pleur/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Poliomyelitis",
@@ -10551,7 +11459,18 @@
         "f":  [
                   "Infectious Disease",
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "p":  [
+                                "polio-"
+                            ],
+                      "r":  [
+                                "myel/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Proctitis",
@@ -10560,7 +11479,15 @@
         "f":  [
                   "Gastroenterology",
                   "Surgery"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "proct/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Prostatitis",
@@ -10568,7 +11495,15 @@
         "lvl":  2,
         "f":  [
                   "Urology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "prostat/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Psychosis",
@@ -10576,7 +11511,15 @@
         "lvl":  3,
         "f":  [
                   "Psychiatry"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "psych/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Pyloric Stenosis",
@@ -10585,7 +11528,16 @@
         "f":  [
                   "Surgery",
                   "Pediatrics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pylor/o"
+                            ],
+                      "s":  [
+                                "-ic",
+                                "-stenosis"
+                            ]
+                  }
     },
     {
         "en_h":  "Pyromania",
@@ -10593,7 +11545,15 @@
         "lvl":  1,
         "f":  [
                   "Psychiatry"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "pyr/o"
+                            ],
+                      "s":  [
+                                "-mania"
+                            ]
+                  }
     },
     {
         "en_h":  "Rhinitis",
@@ -10602,7 +11562,15 @@
         "f":  [
                   "Otolaryngology",
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "rhin/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Sarcoidosis",
@@ -10611,7 +11579,16 @@
         "f":  [
                   "Pulmonology",
                   "General Medicine"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "sarc/o"
+                            ],
+                      "s":  [
+                                "-oid",
+                                "-osis"
+                            ]
+                  }
     },
     {
         "en_h":  "Sigmoiditis",
@@ -10619,7 +11596,15 @@
         "lvl":  1,
         "f":  [
                   "Gastroenterology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "sigmoid/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Spinalgia",
@@ -10628,7 +11613,15 @@
         "f":  [
                   "Orthopedics",
                   "Neurology"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "spin/o"
+                            ],
+                      "s":  [
+                                "-algia"
+                            ]
+                  }
     },
     {
         "en_h":  "Spondylitis",
@@ -10637,7 +11630,15 @@
         "f":  [
                   "Rheumatology",
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "spondyl/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Synovitis",
@@ -10646,7 +11647,15 @@
         "f":  [
                   "Rheumatology",
                   "Orthopedics"
-              ]
+              ],
+        "parts":  {
+                      "r":  [
+                                "synov/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
     },
     {
         "en_h":  "Tendonitis",

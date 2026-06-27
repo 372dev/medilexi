@@ -88,9 +88,11 @@ export default function Home() {
             <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#3B82F6', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>FRENCH</div>
             <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Français</div>
             <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>Bilingual · EN↔FR</div>
+            {/* FR links disabled on landing page for now — routes (/glossary/fr,
+                /flashcards/fr) remain live for direct access. Restore the two
+                <Link> buttons below to re-enable. */}
             <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
-              <Link href="/glossary/fr" style={outline('#3B82F6')}>Glossary</Link>
-              <Link href="/flashcards/fr" style={outline('#3B82F6')}>Flashcard</Link>
+              <span style={{ ...outline('#3B82F6'), opacity:0.4, cursor:'not-allowed' }} aria-disabled="true">Coming soon</span>
             </div>
           </div>
 

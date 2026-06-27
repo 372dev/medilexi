@@ -145,20 +145,18 @@ button { font-family: var(--font-body); }
   align-items: start;
 }
 
+/* Ad slots hidden for now — blended into the background but kept in the
+   grid (reserved column width + min-height) so they can be re-enabled later. */
 .site-ad {
   position: sticky;
   top: 72px;
   min-height: 400px;
-  border: 1px dashed rgba(80,70,180,0.5);
-  border-radius: 4px;
+  border: none;
+  background: transparent;
+  color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-pixel);
-  font-size: 0.38rem;
-  color: var(--color-text-dim);
-  opacity: 0.4;
-  letter-spacing: 0.05em;
 }
 
 .site-content {

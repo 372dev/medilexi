@@ -718,7 +718,8 @@
     {
         "wp":  "pulm/o",
         "t":  "r",
-        "d":  "(Latin) Lung"
+        "d":  "(Latin) Lung",
+        "alt":  "pulm/o, pulmon/o"
     },
     {
         "wp":  "rhin/o",
@@ -754,7 +755,8 @@
     {
         "wp":  "append/o",
         "t":  "r",
-        "d":  "(Latin) Appendix"
+        "d":  "(Latin) Appendix",
+        "alt":  "append/o, appendic/o"
     },
     {
         "wp":  "bucc/o",
@@ -784,7 +786,8 @@
     {
         "wp":  "col/o",
         "t":  "r",
-        "d":  "(Greek) Colon"
+        "d":  "(Greek) Colon",
+        "alt":  "col/o, colon/o"
     },
     {
         "wp":  "dent/i",
@@ -928,7 +931,8 @@
     {
         "wp":  "mening/o",
         "t":  "r",
-        "d":  "(Greek) Meninges"
+        "d":  "(Greek) Meninges",
+        "alt":  "mening/o, meningi/o"
     },
     {
         "wp":  "myel/o",
@@ -1115,7 +1119,8 @@
     {
         "wp":  "ten/o",
         "t":  "r",
-        "d":  "(Greek) Tendon"
+        "d":  "(Greek) Tendon",
+        "alt":  "ten/o, tend/o, tendin/o"
     },
     {
         "wp":  "vertebr/o",
@@ -1242,7 +1247,7 @@
         "d":  "(Greek) Testis"
     },
     {
-        "wp":  "ovar/o",
+        "wp":  "ovari/o",
         "t":  "r",
         "d":  "(Latin) Ovary"
     },
@@ -1297,7 +1302,7 @@
         "wp":  "aur/o",
         "t":  "r",
         "d":  "(Latin) Ear",
-        "alt":  "aur/o, ot/o"
+        "alt":  "aur/o, ot/o, auricul/o"
     },
     {
         "wp":  "blephar/o",
@@ -1345,7 +1350,7 @@
         "wp":  "ot/o",
         "t":  "r",
         "d":  "Ear",
-        "alt":  "aur/o, ot/o"
+        "alt":  "aur/o, ot/o, auricul/o"
     },
     {
         "wp":  "phon/o",
@@ -1619,7 +1624,8 @@
     {
         "wp":  "adren/o",
         "t":  "r",
-        "d":  "(Latin) Adrenal gland"
+        "d":  "(Latin) Adrenal gland",
+        "alt":  "adren/o, adrenal/o"
     },
     {
         "wp":  "crin/o",
@@ -1723,7 +1729,8 @@
     {
         "wp":  "-stomy",
         "t":  "s",
-        "d":  "(Greek) Creating an opening"
+        "d":  "(Greek) Creating an opening",
+        "alt":  "-stomy, -ostomy"
     },
     {
         "wp":  "-therapy",
@@ -1733,7 +1740,8 @@
     {
         "wp":  "-tomy",
         "t":  "s",
-        "d":  "(Greek) Incision, cutting"
+        "d":  "(Greek) Incision, cutting",
+        "alt":  "-tomy, -otomy"
     },
     {
         "wp":  "-tripsy",
@@ -1773,7 +1781,8 @@
     {
         "wp":  "-ectasia",
         "t":  "s",
-        "d":  "(Greek) Dilation, expansion"
+        "d":  "(Greek) Dilation, expansion",
+        "alt":  "-ectasia, -ectasis"
     },
     {
         "wp":  "-edema",
@@ -1848,7 +1857,8 @@
     {
         "wp":  "-opia",
         "t":  "s",
-        "d":  "(Greek) Vision condition, sight"
+        "d":  "(Greek) Vision condition, sight",
+        "alt":  "-opia, -opsia"
     },
     {
         "wp":  "-osis",
@@ -2132,5 +2142,1058 @@
         "t":  "s",
         "d":  "(Latin) Condition, state",
         "alt":  "-ia, -y"
+    },
+    {
+        "wp":  "-ar",
+        "t":  "s",
+        "d":  "(Latin) Pertaining to"
+    },
+    {
+        "wp":  "-ical",
+        "t":  "s",
+        "d":  "(Latin) Pertaining to"
+    },
+    {
+        "wp":  "-atic",
+        "t":  "s",
+        "d":  "(Greek) Pertaining to"
+    },
+    {
+        "wp":  "-gen",
+        "t":  "s",
+        "d":  "(Greek) Producing, that which generates"
+    },
+    {
+        "wp":  "-eal",
+        "t":  "s",
+        "d":  "(Latin) Pertaining to"
+    },
+    {
+        "wp":  "-tension",
+        "t":  "s",
+        "d":  "(Latin) Pressure"
+    },
+    {
+        "wp":  "dis-",
+        "t":  "p",
+        "d":  "(Latin) Apart, away, reversal"
+    },
+    {
+        "wp":  "lumb/o",
+        "t":  "r",
+        "d":  "(Latin) Lower back, loin"
+    },
+    {
+        "wp":  "sacr/o",
+        "t":  "r",
+        "d":  "(Latin) Sacrum"
+    },
+    {
+        "wp":  "femor/o",
+        "t":  "r",
+        "d":  "(Latin) Femur, thigh bone"
+    },
+    {
+        "wp":  "flex/o",
+        "t":  "r",
+        "d":  "(Latin) To bend"
+    },
+    {
+        "wp":  "extens/o",
+        "t":  "r",
+        "d":  "(Latin) To stretch out, extend"
+    },
+    {
+        "wp":  "coron/o",
+        "t":  "r",
+        "d":  "(Latin) Crown; coronary vessels of the heart"
+    },
+    {
+        "wp":  "isch/o",
+        "t":  "r",
+        "d":  "(Greek) To hold back, suppress"
+    },
+    {
+        "wp":  "tonsill/o",
+        "t":  "r",
+        "d":  "(Latin) Tonsil"
+    },
+    {
+        "wp":  "septic/o",
+        "t":  "r",
+        "d":  "(Greek) Infection, putrefaction"
+    },
+    {
+        "wp":  "an/o",
+        "t":  "r",
+        "d":  "(Latin) Anus"
+    },
+    {
+        "wp":  "uter/o",
+        "t":  "r",
+        "d":  "(Latin) Uterus, womb"
+    },
+    {
+        "wp":  "vagin/o",
+        "t":  "r",
+        "d":  "(Latin) Vagina, sheath"
+    },
+    {
+        "wp":  "mast/o",
+        "t":  "r",
+        "d":  "(Greek) Breast"
+    },
+    {
+        "wp":  "fet/o",
+        "t":  "r",
+        "d":  "(Latin) Fetus"
+    },
+    {
+        "wp":  "lact/o",
+        "t":  "r",
+        "d":  "(Latin) Milk"
+    },
+    {
+        "wp":  "conjunctiv/o",
+        "t":  "r",
+        "d":  "(Latin) Conjunctiva (membrane lining the eyelid and eye)"
+    },
+    {
+        "wp":  "opt/o",
+        "t":  "r",
+        "d":  "(Greek) Vision, eye",
+        "alt":  "opt/o, optic/o"
+    },
+    {
+        "wp":  "audi/o",
+        "t":  "r",
+        "d":  "(Latin) Hearing",
+        "alt":  "audi/o, audit/o"
+    },
+    {
+        "wp":  "humer/o",
+        "t":  "r",
+        "d":  "(Latin) Humerus (upper arm bone)"
+    },
+    {
+        "wp":  "ili/o",
+        "t":  "r",
+        "d":  "(Latin) Ilium (upper part of the hip bone)"
+    },
+    {
+        "wp":  "ischi/o",
+        "t":  "r",
+        "d":  "(Greek) Ischium (lower part of the hip bone)"
+    },
+    {
+        "wp":  "lamin/o",
+        "t":  "r",
+        "d":  "(Latin) Lamina (flattened part of the vertebral arch)"
+    },
+    {
+        "wp":  "lord/o",
+        "t":  "r",
+        "d":  "(Greek) Bent backward; inward curve of the spine"
+    },
+    {
+        "wp":  "mandibul/o",
+        "t":  "r",
+        "d":  "(Latin) Mandible (lower jaw)"
+    },
+    {
+        "wp":  "maxill/o",
+        "t":  "r",
+        "d":  "(Latin) Maxilla (upper jaw)"
+    },
+    {
+        "wp":  "medull/o",
+        "t":  "r",
+        "d":  "(Latin) Medulla (inner region; marrow)"
+    },
+    {
+        "wp":  "patell/o",
+        "t":  "r",
+        "d":  "(Latin) Patella (kneecap)"
+    },
+    {
+        "wp":  "phalang/o",
+        "t":  "r",
+        "d":  "(Greek) Phalanges (finger and toe bones)"
+    },
+    {
+        "wp":  "scapul/o",
+        "t":  "r",
+        "d":  "(Latin) Scapula (shoulder blade)"
+    },
+    {
+        "wp":  "tibi/o",
+        "t":  "r",
+        "d":  "(Latin) Tibia (shin bone)"
+    },
+    {
+        "wp":  "uln/o",
+        "t":  "r",
+        "d":  "(Latin) Ulna (forearm bone on the little-finger side)"
+    },
+    {
+        "wp":  "clavicul/o",
+        "t":  "r",
+        "d":  "(Latin) Clavicle (collarbone)"
+    },
+    {
+        "wp":  "burs/o",
+        "t":  "r",
+        "d":  "(Latin) Bursa (fluid-filled sac that cushions a joint)"
+    },
+    {
+        "wp":  "tars/o",
+        "t":  "r",
+        "d":  "(Greek) Tarsus (ankle bones; also the firm plate of the eyelid)"
+    },
+    {
+        "wp":  "pector/o",
+        "t":  "r",
+        "d":  "(Latin) Chest, breast"
+    },
+    {
+        "wp":  "bas/o",
+        "t":  "r",
+        "d":  "(Greek) Base; basic (alkaline)"
+    },
+    {
+        "wp":  "pedicul/o",
+        "t":  "r",
+        "d":  "(Latin) Lice"
+    },
+    {
+        "wp":  "prosthet/o",
+        "t":  "r",
+        "d":  "(Greek) Prosthesis (artificial body part)"
+    },
+    {
+        "wp":  "kinesi/o",
+        "t":  "r",
+        "d":  "(Greek) Movement"
+    },
+    {
+        "wp":  "plant/o",
+        "t":  "r",
+        "d":  "(Latin) Sole of the foot"
+    },
+    {
+        "wp":  "duct/o",
+        "t":  "r",
+        "d":  "(Latin) To lead or carry; a duct"
+    },
+    {
+        "wp":  "-ory",
+        "t":  "s",
+        "d":  "(Latin) Pertaining to"
+    },
+    {
+        "wp":  "-ose",
+        "t":  "s",
+        "d":  "(Latin) Full of; (in chemistry) a sugar"
+    },
+    {
+        "wp":  "-ile",
+        "t":  "s",
+        "d":  "(Latin) Capable of; pertaining to"
+    },
+    {
+        "wp":  "-ine",
+        "t":  "s",
+        "d":  "(Latin) Pertaining to; a substance"
+    },
+    {
+        "wp":  "-tome",
+        "t":  "s",
+        "d":  "(Greek) Instrument for cutting"
+    },
+    {
+        "wp":  "-blast",
+        "t":  "s",
+        "d":  "(Greek) Immature or developing cell"
+    },
+    {
+        "wp":  "-listhesis",
+        "t":  "s",
+        "d":  "(Greek) Slipping, displacement"
+    },
+    {
+        "wp":  "-ule",
+        "t":  "s",
+        "d":  "(Latin) Small, diminutive"
+    },
+    {
+        "wp":  "-ole",
+        "t":  "s",
+        "d":  "(Latin) Small, diminutive"
+    },
+    {
+        "wp":  "-ior",
+        "t":  "s",
+        "d":  "(Latin) Pertaining to position; more"
+    },
+    {
+        "wp":  "-tonia",
+        "t":  "s",
+        "d":  "(Greek) Tone or tension, especially of muscle"
+    },
+    {
+        "wp":  "-asthenia",
+        "t":  "s",
+        "d":  "(Greek) Weakness"
+    },
+    {
+        "wp":  "-phoresis",
+        "t":  "s",
+        "d":  "(Greek) Carrying, transmission"
+    },
+    {
+        "wp":  "-apheresis",
+        "t":  "s",
+        "d":  "(Greek) Removal, separation by withdrawal"
+    },
+    {
+        "wp":  "-oid",
+        "t":  "s",
+        "d":  "(Greek) Resembling, like"
+    },
+    {
+        "wp":  "-phil",
+        "t":  "s",
+        "d":  "(Greek) Cell or thing having an affinity for"
+    },
+    {
+        "wp":  "-philia",
+        "t":  "s",
+        "d":  "(Greek) Affinity for; condition of attraction"
+    },
+    {
+        "wp":  "-globulin",
+        "t":  "s",
+        "d":  "(Latin) A globular protein"
+    },
+    {
+        "wp":  "-crit",
+        "t":  "s",
+        "d":  "(Greek) To separate; a measured proportion"
+    },
+    {
+        "wp":  "-prandial",
+        "t":  "s",
+        "d":  "(Latin) Pertaining to a meal"
+    },
+    {
+        "wp":  "embol/o",
+        "t":  "r",
+        "d":  "(Greek) Embolus; a plug or obstruction"
+    },
+    {
+        "wp":  "fibrin/o",
+        "t":  "r",
+        "d":  "(Latin) Fibrin (a clotting protein)"
+    },
+    {
+        "wp":  "son/o",
+        "t":  "r",
+        "d":  "(Latin) Sound"
+    },
+    {
+        "wp":  "valv/o",
+        "t":  "r",
+        "d":  "(Latin) Valve",
+        "alt":  "valv/o, valvul/o"
+    },
+    {
+        "wp":  "peripher/o",
+        "t":  "r",
+        "d":  "(Greek) Periphery, away from the center"
+    },
+    {
+        "wp":  "agglutin/o",
+        "t":  "r",
+        "d":  "(Latin) Clumping, sticking together"
+    },
+    {
+        "wp":  "eosin/o",
+        "t":  "r",
+        "d":  "(Greek) Rosy red (eosin dye)"
+    },
+    {
+        "wp":  "granul/o",
+        "t":  "r",
+        "d":  "(Latin) Granule, small grain"
+    },
+    {
+        "wp":  "morph/o",
+        "t":  "r",
+        "d":  "(Greek) Form, shape"
+    },
+    {
+        "wp":  "phag/o",
+        "t":  "r",
+        "d":  "(Greek) To eat, engulf"
+    },
+    {
+        "wp":  "fus/o",
+        "t":  "r",
+        "d":  "(Latin) To pour, fuse together"
+    },
+    {
+        "wp":  "thym/o",
+        "t":  "r",
+        "d":  "(Greek) Thymus gland"
+    },
+    {
+        "wp":  "nucle/o",
+        "t":  "r",
+        "d":  "(Latin) Nucleus, central core"
+    },
+    {
+        "wp":  "adenoid/o",
+        "t":  "r",
+        "d":  "(Greek) Adenoids"
+    },
+    {
+        "wp":  "lymphaden/o",
+        "t":  "r",
+        "d":  "(Latin) Lymph node"
+    },
+    {
+        "wp":  "lymphangi/o",
+        "t":  "r",
+        "d":  "(Greek) Lymphatic vessel"
+    },
+    {
+        "wp":  "cec/o",
+        "t":  "r",
+        "d":  "(Latin) Cecum (first part of the large intestine)"
+    },
+    {
+        "wp":  "bar/o",
+        "t":  "r",
+        "d":  "(Greek) Weight, pressure"
+    },
+    {
+        "wp":  "diverticul/o",
+        "t":  "r",
+        "d":  "(Latin) Diverticulum (a pouch in a hollow organ)"
+    },
+    {
+        "wp":  "palat/o",
+        "t":  "r",
+        "d":  "(Latin) Palate (roof of the mouth)"
+    },
+    {
+        "wp":  "polyp/o",
+        "t":  "r",
+        "d":  "(Latin) Polyp (a growth from a mucous membrane)"
+    },
+    {
+        "wp":  "azot/o",
+        "t":  "r",
+        "d":  "(Greek) Nitrogen, nitrogenous waste"
+    },
+    {
+        "wp":  "idi/o",
+        "t":  "r",
+        "d":  "(Greek) Individual, distinct, unknown"
+    },
+    {
+        "wp":  "meat/o",
+        "t":  "r",
+        "d":  "(Latin) Meatus, a passage or opening"
+    },
+    {
+        "wp":  "colp/o",
+        "t":  "r",
+        "d":  "(Greek) Vagina"
+    },
+    {
+        "wp":  "salping/o",
+        "t":  "r",
+        "d":  "(Greek) Fallopian tube; also the auditory tube"
+    },
+    {
+        "wp":  "oophor/o",
+        "t":  "r",
+        "d":  "(Greek) Ovary"
+    },
+    {
+        "wp":  "perine/o",
+        "t":  "r",
+        "d":  "(Greek) Perineum (region between the genitals and anus)"
+    },
+    {
+        "wp":  "amni/o",
+        "t":  "r",
+        "d":  "(Greek) Amnion (innermost membrane around the fetus)"
+    },
+    {
+        "wp":  "chori/o",
+        "t":  "r",
+        "d":  "(Greek) Chorion (outer fetal membrane)"
+    },
+    {
+        "wp":  "embry/o",
+        "t":  "r",
+        "d":  "(Greek) Embryo"
+    },
+    {
+        "wp":  "metr/o",
+        "t":  "r",
+        "d":  "(Greek) Uterus"
+    },
+    {
+        "wp":  "nat/o",
+        "t":  "r",
+        "d":  "(Latin) Birth"
+    },
+    {
+        "wp":  "vulv/o",
+        "t":  "r",
+        "d":  "(Latin) Vulva (external female genitals)"
+    },
+    {
+        "wp":  "episi/o",
+        "t":  "r",
+        "d":  "(Greek) Vulva"
+    },
+    {
+        "wp":  "genit/o",
+        "t":  "r",
+        "d":  "(Latin) Genitals; reproductive organs"
+    },
+    {
+        "wp":  "pen/o",
+        "t":  "r",
+        "d":  "(Latin) Penis"
+    },
+    {
+        "wp":  "balan/o",
+        "t":  "r",
+        "d":  "(Greek) Glans penis"
+    },
+    {
+        "wp":  "epididym/o",
+        "t":  "r",
+        "d":  "(Greek) Epididymis"
+    },
+    {
+        "wp":  "spermat/o",
+        "t":  "r",
+        "d":  "(Greek) Sperm, semen"
+    },
+    {
+        "wp":  "testicul/o",
+        "t":  "r",
+        "d":  "(Latin) Testis"
+    },
+    {
+        "wp":  "vesicul/o",
+        "t":  "r",
+        "d":  "(Latin) Seminal vesicle; small sac"
+    },
+    {
+        "wp":  "crypt/o",
+        "t":  "r",
+        "d":  "(Greek) Hidden"
+    },
+    {
+        "wp":  "radicul/o",
+        "t":  "r",
+        "d":  "(Latin) Nerve root of the spine"
+    },
+    {
+        "wp":  "oo/o",
+        "t":  "r",
+        "d":  "(Greek) Egg, ovum"
+    },
+    {
+        "wp":  "ov/o",
+        "t":  "r",
+        "d":  "(Latin) Egg, ovum",
+        "alt":  "ov/o, ov/i"
+    },
+    {
+        "wp":  "calc/o",
+        "t":  "r",
+        "d":  "(Latin) Calcium"
+    },
+    {
+        "wp":  "gonad/o",
+        "t":  "r",
+        "d":  "(Greek) Gonad, sex gland"
+    },
+    {
+        "wp":  "iod/o",
+        "t":  "r",
+        "d":  "(Greek) Iodine"
+    },
+    {
+        "wp":  "kal/i",
+        "t":  "r",
+        "d":  "(Modern Latin) Potassium"
+    },
+    {
+        "wp":  "mineral/o",
+        "t":  "r",
+        "d":  "(Latin) Minerals, electrolytes"
+    },
+    {
+        "wp":  "natr/o",
+        "t":  "r",
+        "d":  "(Modern Latin) Sodium"
+    },
+    {
+        "wp":  "parathyroid/o",
+        "t":  "r",
+        "d":  "(Greek) Parathyroid gland"
+    },
+    {
+        "wp":  "pituit/o",
+        "t":  "r",
+        "d":  "(Latin) Pituitary gland",
+        "alt":  "pituit/o, pituitar/o"
+    },
+    {
+        "wp":  "cycl/o",
+        "t":  "r",
+        "d":  "(Greek) Ciliary body of the eye; circular"
+    },
+    {
+        "wp":  "dacry/o",
+        "t":  "r",
+        "d":  "(Greek) Tears; tear duct"
+    },
+    {
+        "wp":  "ir/o",
+        "t":  "r",
+        "d":  "(Greek) Iris of the eye",
+        "alt":  "ir/o, irid/o"
+    },
+    {
+        "wp":  "phac/o",
+        "t":  "r",
+        "d":  "(Greek) Lens of the eye"
+    },
+    {
+        "wp":  "presby/o",
+        "t":  "r",
+        "d":  "(Greek) Old age"
+    },
+    {
+        "wp":  "pupill/o",
+        "t":  "r",
+        "d":  "(Latin) Pupil of the eye"
+    },
+    {
+        "wp":  "uve/o",
+        "t":  "r",
+        "d":  "(Latin) Uvea (middle vascular layer of the eye)"
+    },
+    {
+        "wp":  "vitre/o",
+        "t":  "r",
+        "d":  "(Latin) Vitreous body (gel filling the eye)"
+    },
+    {
+        "wp":  "papill/o",
+        "t":  "r",
+        "d":  "(Latin) Nipple-like projection (optic disk; papilla)"
+    },
+    {
+        "wp":  "ambly/o",
+        "t":  "r",
+        "d":  "(Greek) Dull, dim"
+    },
+    {
+        "wp":  "cerumin/o",
+        "t":  "r",
+        "d":  "(Latin) Cerumen (earwax)"
+    },
+    {
+        "wp":  "cochle/o",
+        "t":  "r",
+        "d":  "(Greek) Cochlea (spiral organ of hearing)"
+    },
+    {
+        "wp":  "labyrinth/o",
+        "t":  "r",
+        "d":  "(Greek) Labyrinth (inner ear)"
+    },
+    {
+        "wp":  "staped/o",
+        "t":  "r",
+        "d":  "(Latin) Stapes (stirrup bone of the middle ear)"
+    },
+    {
+        "wp":  "vestibul/o",
+        "t":  "r",
+        "d":  "(Latin) Vestibule (entrance; balance organ of the inner ear)"
+    },
+    {
+        "wp":  "-orexia",
+        "t":  "s",
+        "d":  "(Greek) Appetite"
+    },
+    {
+        "wp":  "-pepsia",
+        "t":  "s",
+        "d":  "(Greek) Digestion"
+    },
+    {
+        "wp":  "-lith",
+        "t":  "s",
+        "d":  "(Greek) Stone, calculus"
+    },
+    {
+        "wp":  "-cyesis",
+        "t":  "s",
+        "d":  "(Greek) Pregnancy"
+    },
+    {
+        "wp":  "-gravida",
+        "t":  "s",
+        "d":  "(Latin) Pregnant woman"
+    },
+    {
+        "wp":  "-para",
+        "t":  "s",
+        "d":  "(Latin) To bear offspring"
+    },
+    {
+        "wp":  "-partum",
+        "t":  "s",
+        "d":  "(Latin) Childbirth"
+    },
+    {
+        "wp":  "-tocia",
+        "t":  "s",
+        "d":  "(Greek) Labor, childbirth"
+    },
+    {
+        "wp":  "-arche",
+        "t":  "s",
+        "d":  "(Greek) Beginning, onset"
+    },
+    {
+        "wp":  "-cide",
+        "t":  "s",
+        "d":  "(Latin) To kill; a killing agent"
+    },
+    {
+        "wp":  "-dipsia",
+        "t":  "s",
+        "d":  "(Greek) Thirst"
+    },
+    {
+        "wp":  "-tropic",
+        "t":  "s",
+        "d":  "(Greek) Turning toward; stimulating"
+    },
+    {
+        "wp":  "-tropin",
+        "t":  "s",
+        "d":  "(Greek) Hormone that stimulates"
+    },
+    {
+        "wp":  "-tropia",
+        "t":  "s",
+        "d":  "(Greek) Turned condition of the eye"
+    },
+    {
+        "wp":  "-cusis",
+        "t":  "s",
+        "d":  "(Greek) Hearing"
+    },
+    {
+        "wp":  "-phasia",
+        "t":  "s",
+        "d":  "(Greek) Speech"
+    },
+    {
+        "wp":  "eso-",
+        "t":  "p",
+        "d":  "(Greek) Inward"
+    },
+    {
+        "wp":  "non-",
+        "t":  "p",
+        "d":  "(Latin) Not, absence of"
+    },
+    {
+        "wp":  "primi-",
+        "t":  "p",
+        "d":  "(Latin) First"
+    },
+    {
+        "wp":  "alges/o",
+        "t":  "r",
+        "d":  "(Greek) Sensitivity to pain"
+    },
+    {
+        "wp":  "astr/o",
+        "t":  "r",
+        "d":  "(Greek) Star; star-shaped"
+    },
+    {
+        "wp":  "dur/o",
+        "t":  "r",
+        "d":  "(Latin) Dura mater (tough outer membrane of the brain and cord)"
+    },
+    {
+        "wp":  "gli/o",
+        "t":  "r",
+        "d":  "(Greek) Glue; neuroglia (supportive nerve tissue)"
+    },
+    {
+        "wp":  "ment/o",
+        "t":  "r",
+        "d":  "(Latin) Mind"
+    },
+    {
+        "wp":  "ped/o",
+        "t":  "r",
+        "d":  "(Greek) Child; (Latin) foot",
+        "alt":  "ped/o, pedi-"
+    },
+    {
+        "wp":  "pont/o",
+        "t":  "r",
+        "d":  "(Latin) Pons (part of the brainstem)"
+    },
+    {
+        "wp":  "thalam/o",
+        "t":  "r",
+        "d":  "(Greek) Thalamus (relay center of the brain)"
+    },
+    {
+        "wp":  "un-",
+        "t":  "p",
+        "d":  "(English) Not, reversal of"
+    },
+    {
+        "wp":  "-an",
+        "t":  "s",
+        "d":  "(Latin) Pertaining to"
+    },
+    {
+        "wp":  "coccyg/o",
+        "t":  "r",
+        "d":  "(Greek) Coccyx (tailbone)"
+    },
+    {
+        "wp":  "fibul/o",
+        "t":  "r",
+        "d":  "(Latin) Fibula (smaller bone of the lower leg)"
+    },
+    {
+        "wp":  "metatars/o",
+        "t":  "r",
+        "d":  "(Greek) Metatarsus (bones of the midfoot)"
+    },
+    {
+        "wp":  "sphygm/o",
+        "t":  "r",
+        "d":  "(Greek) Pulse"
+    },
+    {
+        "wp":  "venul/o",
+        "t":  "r",
+        "d":  "(Latin) Venule (small vein)"
+    },
+    {
+        "wp":  "arteriol/o",
+        "t":  "r",
+        "d":  "(Latin) Arteriole (small artery)"
+    },
+    {
+        "wp":  "sanguin/o",
+        "t":  "r",
+        "d":  "(Latin) Blood"
+    },
+    {
+        "wp":  "sialaden/o",
+        "t":  "r",
+        "d":  "(Greek) Salivary gland"
+    },
+    {
+        "wp":  "hymen/o",
+        "t":  "r",
+        "d":  "(Greek) Hymen"
+    },
+    {
+        "wp":  "culd/o",
+        "t":  "r",
+        "d":  "(French) Cul-de-sac (rectouterine pouch)"
+    },
+    {
+        "wp":  "pareun/o",
+        "t":  "r",
+        "d":  "(Greek) Sexual intercourse"
+    },
+    {
+        "wp":  "pineal/o",
+        "t":  "r",
+        "d":  "(Latin) Pineal gland"
+    },
+    {
+        "wp":  "centr/o",
+        "t":  "r",
+        "d":  "(Greek) Center"
+    },
+    {
+        "wp":  "-cardia",
+        "t":  "s",
+        "d":  "(Greek) Heart rate or rhythm condition"
+    },
+    {
+        "wp":  "-cytosis",
+        "t":  "s",
+        "d":  "(Greek) Abnormal increase in cells"
+    },
+    {
+        "wp":  "-tonic",
+        "t":  "s",
+        "d":  "(Greek) Relating to tone or osmotic pressure"
+    },
+    {
+        "wp":  "ket/o",
+        "t":  "r",
+        "d":  "(Greek) Ketones",
+        "alt":  "ket/o, keton/o"
+    },
+    {
+        "wp":  "-spermia",
+        "t":  "s",
+        "d":  "(Greek) Condition of the sperm or semen"
+    },
+    {
+        "wp":  "system/o",
+        "t":  "r",
+        "d":  "(Greek) Body system; affecting the whole body"
+    },
+    {
+        "wp":  "optic/o",
+        "t":  "r",
+        "d":  "(Greek) Vision, eye",
+        "alt":  "opt/o, optic/o"
+    },
+    {
+        "wp":  "audit/o",
+        "t":  "r",
+        "d":  "(Latin) Hearing",
+        "alt":  "audi/o, audit/o"
+    },
+    {
+        "wp":  "valvul/o",
+        "t":  "r",
+        "d":  "(Latin) Valve",
+        "alt":  "valv/o, valvul/o"
+    },
+    {
+        "wp":  "irid/o",
+        "t":  "r",
+        "d":  "(Greek) Iris of the eye",
+        "alt":  "ir/o, irid/o"
+    },
+    {
+        "wp":  "ov/i",
+        "t":  "r",
+        "d":  "(Latin) Egg, ovum",
+        "alt":  "ov/o, ov/i"
+    },
+    {
+        "wp":  "pituitar/o",
+        "t":  "r",
+        "d":  "(Latin) Pituitary gland",
+        "alt":  "pituit/o, pituitar/o"
+    },
+    {
+        "wp":  "pedi-",
+        "t":  "r",
+        "d":  "(Greek) Child; (Latin) foot",
+        "alt":  "ped/o, pedi-"
+    },
+    {
+        "wp":  "keton/o",
+        "t":  "r",
+        "d":  "(Greek) Ketones",
+        "alt":  "ket/o, keton/o"
+    },
+    {
+        "wp":  "pulmon/o",
+        "t":  "r",
+        "d":  "(Latin) Lung",
+        "alt":  "pulm/o, pulmon/o"
+    },
+    {
+        "wp":  "colon/o",
+        "t":  "r",
+        "d":  "(Greek) Colon",
+        "alt":  "col/o, colon/o"
+    },
+    {
+        "wp":  "appendic/o",
+        "t":  "r",
+        "d":  "(Latin) Appendix",
+        "alt":  "append/o, appendic/o"
+    },
+    {
+        "wp":  "tend/o",
+        "t":  "r",
+        "d":  "(Greek) Tendon",
+        "alt":  "ten/o, tend/o, tendin/o"
+    },
+    {
+        "wp":  "tendin/o",
+        "t":  "r",
+        "d":  "(Greek) Tendon",
+        "alt":  "ten/o, tend/o, tendin/o"
+    },
+    {
+        "wp":  "adrenal/o",
+        "t":  "r",
+        "d":  "(Latin) Adrenal gland",
+        "alt":  "adren/o, adrenal/o"
+    },
+    {
+        "wp":  "-ostomy",
+        "t":  "s",
+        "d":  "(Greek) Creating an opening",
+        "alt":  "-stomy, -ostomy"
+    },
+    {
+        "wp":  "-otomy",
+        "t":  "s",
+        "d":  "(Greek) Incision, cutting",
+        "alt":  "-tomy, -otomy"
+    },
+    {
+        "wp":  "-ectasis",
+        "t":  "s",
+        "d":  "(Greek) Dilation, expansion",
+        "alt":  "-ectasia, -ectasis"
+    },
+    {
+        "wp":  "meningi/o",
+        "t":  "r",
+        "d":  "(Greek) Meninges",
+        "alt":  "mening/o, meningi/o"
+    },
+    {
+        "wp":  "-opsia",
+        "t":  "s",
+        "d":  "(Greek) Vision condition, sight",
+        "alt":  "-opia, -opsia"
+    },
+    {
+        "wp":  "auricul/o",
+        "t":  "r",
+        "d":  "(Latin) Ear, auricle",
+        "alt":  "aur/o, ot/o, auricul/o"
     }
 ]

@@ -2207,7 +2207,7 @@
     {
         "wp":  "aort/o",
         "t":  "r",
-        "lvl":  3,
+        "lvl":  2,
         "d":  "(Greek) Aorta",
         "ex":  [
                    [
@@ -2255,7 +2255,7 @@
     {
         "wp":  "ather/o",
         "t":  "r",
-        "lvl":  3,
+        "lvl":  2,
         "d":  "(Greek) Fatty plaque, porridge-like deposit",
         "ex":  [
                    [
@@ -2279,7 +2279,7 @@
     {
         "wp":  "atri/o",
         "t":  "r",
-        "lvl":  3,
+        "lvl":  2,
         "d":  "(Latin) Atrium, upper heart chamber",
         "ex":  [
                    [
@@ -2552,7 +2552,7 @@
     {
         "wp":  "ventricul/o",
         "t":  "r",
-        "lvl":  3,
+        "lvl":  2,
         "d":  "(Latin) Ventricle of heart or brain",
         "ex":  [
                    [
@@ -2747,7 +2747,7 @@
     {
         "wp":  "pleur/o",
         "t":  "r",
-        "lvl":  3,
+        "lvl":  2,
         "d":  "(Greek) Pleura, side, rib",
         "ex":  [
                    [
@@ -2792,11 +2792,11 @@
                    ]
                ],
         "syn":  [
-                    "pulm/o"
+                    "pulm/o, pulmon/o"
                 ]
     },
     {
-        "wp":  "pulm/o",
+        "wp":  "pulm/o, pulmon/o",
         "t":  "r",
         "lvl":  3,
         "d":  "(Latin) Lung",
@@ -2970,7 +2970,7 @@
                ]
     },
     {
-        "wp":  "append/o",
+        "wp":  "append/o, appendic/o",
         "t":  "r",
         "lvl":  2,
         "d":  "(Latin) Appendix",
@@ -3114,7 +3114,7 @@
                ]
     },
     {
-        "wp":  "col/o",
+        "wp":  "col/o, colon/o",
         "t":  "r",
         "lvl":  3,
         "d":  "(Greek) Colon",
@@ -3614,7 +3614,7 @@
     {
         "wp":  "pylor/o",
         "t":  "r",
-        "lvl":  3,
+        "lvl":  2,
         "d":  "(Greek) Pylorus, stomach outlet",
         "ex":  [
                    [
@@ -3810,7 +3810,7 @@
                 ]
     },
     {
-        "wp":  "mening/o",
+        "wp":  "mening/o, meningi/o",
         "t":  "r",
         "lvl":  3,
         "d":  "(Greek) Meninges",
@@ -4598,7 +4598,7 @@
     {
         "wp":  "sarc/o",
         "t":  "r",
-        "lvl":  3,
+        "lvl":  2,
         "d":  "(Greek) Flesh, muscle tissue",
         "ex":  [
                    [
@@ -4716,7 +4716,7 @@
                ]
     },
     {
-        "wp":  "ten/o",
+        "wp":  "ten/o, tend/o, tendin/o",
         "t":  "r",
         "lvl":  2,
         "d":  "(Greek) Tendon",
@@ -5135,7 +5135,7 @@
     {
         "wp":  "glomerul/o",
         "t":  "r",
-        "lvl":  3,
+        "lvl":  2,
         "d":  "(Latin) Glomerulus, kidney filtering unit",
         "ex":  [
                    [
@@ -5304,26 +5304,26 @@
                ]
     },
     {
-        "wp":  "ovar/o",
+        "wp":  "ovari/o",
         "t":  "r",
         "lvl":  2,
         "d":  "(Latin) Ovary",
         "ex":  [
                    [
-                       "Ovarian cyst",
-                       "Fluid-filled sac on or within the ovary"
+                       "Ovarian",
+                       "Pertaining to an ovary"
                    ],
                    [
-                       "Ovariotomy",
+                       "Ovariectomy",
                        "Surgical removal of an ovary"
                    ],
                    [
-                       "Oophorectomy",
-                       "Surgical removal of one or both ovaries"
+                       "Ovariocele",
+                       "Hernia containing an ovary"
                    ],
                    [
-                       "Ovarialgia",
-                       "Pain originating in the ovary"
+                       "Ovariocentesis",
+                       "Puncture of an ovary to withdraw fluid"
                    ]
                ]
     },
@@ -5354,7 +5354,7 @@
     {
         "wp":  "pyel/o",
         "t":  "r",
-        "lvl":  3,
+        "lvl":  2,
         "d":  "(Greek) Renal pelvis",
         "ex":  [
                    [
@@ -5550,7 +5550,7 @@
                ]
     },
     {
-        "wp":  "aur/o",
+        "wp":  "aur/o, auricul/o",
         "t":  "r",
         "lvl":  2,
         "d":  "(Latin) Ear",
@@ -5801,7 +5801,7 @@
                    ]
                ],
         "syn":  [
-                    "aur/o"
+                    "aur/o, auricul/o"
                 ]
     },
     {
@@ -6218,7 +6218,7 @@
     {
         "wp":  "epitheli/o",
         "t":  "r",
-        "lvl":  3,
+        "lvl":  2,
         "d":  "(Greek) Epithelium, surface tissue layer",
         "ex":  [
                    [
@@ -7056,7 +7056,7 @@
                ]
     },
     {
-        "wp":  "adren/o",
+        "wp":  "adren/o, adrenal/o",
         "t":  "r",
         "lvl":  3,
         "d":  "(Latin) Adrenal gland",
@@ -7494,7 +7494,7 @@
                ]
     },
     {
-        "wp":  "-stomy",
+        "wp":  "-stomy, -ostomy",
         "t":  "s",
         "lvl":  3,
         "d":  "(Greek) Creating an opening",
@@ -7542,7 +7542,7 @@
                ]
     },
     {
-        "wp":  "-tomy",
+        "wp":  "-tomy, -otomy",
         "t":  "s",
         "lvl":  3,
         "d":  "(Greek) Incision, cutting",
@@ -7740,7 +7740,7 @@
                 ]
     },
     {
-        "wp":  "-ectasia",
+        "wp":  "-ectasia, -ectasis",
         "t":  "s",
         "lvl":  2,
         "d":  "(Greek) Dilation, expansion",
@@ -8100,7 +8100,7 @@
                ]
     },
     {
-        "wp":  "-opia",
+        "wp":  "-opia, -opsia",
         "t":  "s",
         "lvl":  2,
         "d":  "(Greek) Vision condition, sight",
@@ -9152,6 +9152,4430 @@
                    [
                        "Retroversion",
                        "Backward tilting of an organ such as the uterus"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-ar",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Pertaining to",
+        "ex":  [
+                   [
+                       "Vascular",
+                       "Pertaining to or composed of blood vessels"
+                   ],
+                   [
+                       "Muscular",
+                       "Pertaining to muscle or its action"
+                   ],
+                   [
+                       "Alveolar",
+                       "Pertaining to the air sacs of the lungs or a tooth socket"
+                   ],
+                   [
+                       "Articular",
+                       "Pertaining to a joint"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-ical",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Pertaining to",
+        "ex":  [
+                   [
+                       "Surgical",
+                       "Pertaining to surgery or operative treatment"
+                   ],
+                   [
+                       "Anatomical",
+                       "Pertaining to the structure of the body"
+                   ],
+                   [
+                       "Clinical",
+                       "Pertaining to the direct examination and treatment of patients"
+                   ],
+                   [
+                       "Physical",
+                       "Pertaining to the body or its material nature"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-atic",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Pertaining to",
+        "ex":  [
+                   [
+                       "Lymphatic",
+                       "Pertaining to lymph or the lymphatic system"
+                   ],
+                   [
+                       "Asthmatic",
+                       "Pertaining to or affected by asthma"
+                   ],
+                   [
+                       "Traumatic",
+                       "Pertaining to or resulting from injury"
+                   ],
+                   [
+                       "Rheumatic",
+                       "Pertaining to inflammatory disease of joints and connective tissue"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-gen",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Producing, that which generates",
+        "ex":  [
+                   [
+                       "Pathogen",
+                       "Agent that produces disease"
+                   ],
+                   [
+                       "Carcinogen",
+                       "Substance that promotes the development of cancer"
+                   ],
+                   [
+                       "Antigen",
+                       "Substance that provokes an immune response"
+                   ],
+                   [
+                       "Allergen",
+                       "Substance that triggers an allergic reaction"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-eal",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Pertaining to",
+        "ex":  [
+                   [
+                       "Tracheal",
+                       "Pertaining to the windpipe"
+                   ],
+                   [
+                       "Esophageal",
+                       "Pertaining to the esophagus"
+                   ],
+                   [
+                       "Corneal",
+                       "Pertaining to the cornea of the eye"
+                   ],
+                   [
+                       "Perineal",
+                       "Pertaining to the region between the anus and the genitals"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-tension",
+        "t":  "s",
+        "lvl":  3,
+        "d":  "(Latin) Pressure",
+        "ex":  [
+                   [
+                       "Hypertension",
+                       "Abnormally high blood pressure"
+                   ],
+                   [
+                       "Hypotension",
+                       "Abnormally low blood pressure"
+                   ],
+                   [
+                       "Portal hypertension",
+                       "Elevated pressure within the portal venous system"
+                   ],
+                   [
+                       "Normotension",
+                       "Blood pressure within the normal range"
+                   ]
+               ]
+    },
+    {
+        "wp":  "dis-",
+        "t":  "p",
+        "lvl":  3,
+        "d":  "(Latin) Apart, away, reversal",
+        "ex":  [
+                   [
+                       "Disorder",
+                       "Disruption of normal structure or function"
+                   ],
+                   [
+                       "Dislocation",
+                       "Displacement of a bone from its joint"
+                   ],
+                   [
+                       "Dissection",
+                       "Separation of tissues; also a tear within a vessel wall"
+                   ],
+                   [
+                       "Disarticulation",
+                       "Separation or amputation through a joint"
+                   ]
+               ]
+    },
+    {
+        "wp":  "lumb/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Lower back, loin",
+        "ex":  [
+                   [
+                       "Lumbar",
+                       "Pertaining to the lower back"
+                   ],
+                   [
+                       "Lumbosacral",
+                       "Pertaining to the lower back and the sacrum"
+                   ],
+                   [
+                       "Lumbar puncture",
+                       "Needle sampling of cerebrospinal fluid from the lower spine"
+                   ],
+                   [
+                       "Lumbalgia",
+                       "Pain in the lower back"
+                   ]
+               ]
+    },
+    {
+        "wp":  "sacr/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Sacrum",
+        "ex":  [
+                   [
+                       "Sacral",
+                       "Pertaining to the sacrum"
+                   ],
+                   [
+                       "Sacroiliac",
+                       "Pertaining to the joint between the sacrum and the ilium"
+                   ],
+                   [
+                       "Sacrectomy",
+                       "Surgical removal of the sacrum"
+                   ],
+                   [
+                       "Sacrococcygeal",
+                       "Pertaining to the sacrum and the coccyx"
+                   ]
+               ]
+    },
+    {
+        "wp":  "femor/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Femur, thigh bone",
+        "ex":  [
+                   [
+                       "Femoral",
+                       "Pertaining to the femur or thigh"
+                   ],
+                   [
+                       "Femoropopliteal",
+                       "Pertaining to the femoral and popliteal arteries"
+                   ],
+                   [
+                       "Femoral hernia",
+                       "Protrusion of tissue through the femoral canal in the groin"
+                   ],
+                   [
+                       "Femoroplasty",
+                       "Surgical repair or reshaping of the femur"
+                   ]
+               ]
+    },
+    {
+        "wp":  "flex/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) To bend",
+        "ex":  [
+                   [
+                       "Flexion",
+                       "Bending of a joint that decreases its angle"
+                   ],
+                   [
+                       "Flexor",
+                       "Muscle that bends a joint"
+                   ],
+                   [
+                       "Dorsiflexion",
+                       "Upward bending of the foot or hand toward the body"
+                   ],
+                   [
+                       "Plantarflexion",
+                       "Downward bending of the foot away from the body"
+                   ]
+               ]
+    },
+    {
+        "wp":  "extens/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) To stretch out, extend",
+        "ex":  [
+                   [
+                       "Extension",
+                       "Straightening of a joint that increases its angle"
+                   ],
+                   [
+                       "Extensor",
+                       "Muscle that straightens a joint"
+                   ],
+                   [
+                       "Hyperextension",
+                       "Extension of a joint beyond its normal range"
+                   ]
+               ]
+    },
+    {
+        "wp":  "coron/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Crown; coronary vessels of the heart",
+        "ex":  [
+                   [
+                       "Coronary artery",
+                       "Blood vessel supplying the heart muscle"
+                   ],
+                   [
+                       "Coronary angiography",
+                       "Contrast imaging of the coronary arteries"
+                   ],
+                   [
+                       "Coronary thrombosis",
+                       "Clot formation within a coronary artery"
+                   ],
+                   [
+                       "Coronary artery disease",
+                       "Narrowing of the heart\u0027s arteries from plaque buildup"
+                   ]
+               ]
+    },
+    {
+        "wp":  "isch/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) To hold back, suppress",
+        "ex":  [
+                   [
+                       "Ischemia",
+                       "Reduced blood supply to a tissue or organ"
+                   ],
+                   [
+                       "Ischemic stroke",
+                       "Brain injury caused by blocked blood flow to brain tissue"
+                   ],
+                   [
+                       "Myocardial ischemia",
+                       "Insufficient blood flow to the heart muscle"
+                   ],
+                   [
+                       "Ischemic colitis",
+                       "Inflammation of the colon from reduced blood flow"
+                   ]
+               ]
+    },
+    {
+        "wp":  "tonsill/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Tonsil",
+        "ex":  [
+                   [
+                       "Tonsillitis",
+                       "Inflammation of the tonsils"
+                   ],
+                   [
+                       "Tonsillectomy",
+                       "Surgical removal of the tonsils"
+                   ],
+                   [
+                       "Tonsillar",
+                       "Pertaining to a tonsil"
+                   ],
+                   [
+                       "Peritonsillar abscess",
+                       "Collection of pus beside a tonsil"
+                   ]
+               ]
+    },
+    {
+        "wp":  "septic/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Infection, putrefaction",
+        "ex":  [
+                   [
+                       "Septicemia",
+                       "Presence of harmful microorganisms in the bloodstream"
+                   ],
+                   [
+                       "Septic shock",
+                       "Life-threatening drop in blood pressure caused by severe infection"
+                   ],
+                   [
+                       "Antiseptic",
+                       "Substance applied to tissue to prevent the growth of infectious microorganisms"
+                   ],
+                   [
+                       "Septicopyemia",
+                       "Blood infection accompanied by pus-forming abscesses throughout the body"
+                   ]
+               ]
+    },
+    {
+        "wp":  "an/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Anus",
+        "ex":  [
+                   [
+                       "Anal",
+                       "Pertaining to the anus"
+                   ],
+                   [
+                       "Anorectal",
+                       "Pertaining to the anus and rectum"
+                   ],
+                   [
+                       "Perianal",
+                       "Located around the anus"
+                   ],
+                   [
+                       "Anoscopy",
+                       "Visual examination of the anus and lower rectum with a scope"
+                   ]
+               ]
+    },
+    {
+        "wp":  "uter/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Uterus, womb",
+        "ex":  [
+                   [
+                       "Uterine",
+                       "Pertaining to the uterus"
+                   ],
+                   [
+                       "Intrauterine",
+                       "Located or occurring within the uterus"
+                   ],
+                   [
+                       "Uteroplacental",
+                       "Pertaining to the uterus and placenta"
+                   ],
+                   [
+                       "Uterosacral",
+                       "Connecting the uterus to the sacrum, as a supporting ligament"
+                   ]
+               ]
+    },
+    {
+        "wp":  "vagin/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Vagina, sheath",
+        "ex":  [
+                   [
+                       "Vaginal",
+                       "Pertaining to the vagina"
+                   ],
+                   [
+                       "Vaginitis",
+                       "Inflammation of the vagina"
+                   ],
+                   [
+                       "Vaginosis",
+                       "Vaginal condition from altered microbial balance, often without inflammation"
+                   ],
+                   [
+                       "Vaginoplasty",
+                       "Surgical repair or construction of the vagina"
+                   ]
+               ]
+    },
+    {
+        "wp":  "mast/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Breast",
+        "ex":  [
+                   [
+                       "Mastectomy",
+                       "Surgical removal of a breast"
+                   ],
+                   [
+                       "Mastitis",
+                       "Inflammation of breast tissue"
+                   ],
+                   [
+                       "Gynecomastia",
+                       "Enlargement of breast tissue in males"
+                   ],
+                   [
+                       "Mastalgia",
+                       "Pain in the breast"
+                   ]
+               ]
+    },
+    {
+        "wp":  "fet/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Fetus",
+        "ex":  [
+                   [
+                       "Fetal",
+                       "Pertaining to a fetus"
+                   ],
+                   [
+                       "Alpha-fetoprotein",
+                       "Fetal protein measured in maternal screening tests"
+                   ],
+                   [
+                       "Fetometry",
+                       "Measurement of the fetus, typically by ultrasound"
+                   ],
+                   [
+                       "Fetoscopy",
+                       "Direct visual examination of a fetus in the womb"
+                   ]
+               ]
+    },
+    {
+        "wp":  "lact/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Milk",
+        "ex":  [
+                   [
+                       "Lactation",
+                       "Production and secretion of milk by the breasts"
+                   ],
+                   [
+                       "Lactose",
+                       "The sugar found in milk"
+                   ],
+                   [
+                       "Lactic acid",
+                       "Acid produced by muscle activity and by fermentation"
+                   ],
+                   [
+                       "Prolactin",
+                       "Hormone that stimulates milk production"
+                   ]
+               ]
+    },
+    {
+        "wp":  "conjunctiv/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Conjunctiva (membrane lining the eyelid and eye)",
+        "ex":  [
+                   [
+                       "Conjunctivitis",
+                       "Inflammation of the conjunctiva"
+                   ],
+                   [
+                       "Conjunctival",
+                       "Pertaining to the conjunctiva"
+                   ],
+                   [
+                       "Subconjunctival",
+                       "Located beneath the conjunctiva"
+                   ],
+                   [
+                       "Conjunctivoplasty",
+                       "Surgical repair of the conjunctiva"
+                   ]
+               ]
+    },
+    {
+        "wp":  "opt/o, optic/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Vision, eye",
+        "ex":  [
+                   [
+                       "Optometry",
+                       "Examination of the eyes and testing of vision"
+                   ],
+                   [
+                       "Optometrist",
+                       "Professional who examines eyes and prescribes corrective lenses"
+                   ],
+                   [
+                       "Optic nerve",
+                       "Nerve carrying visual signals from the eye to the brain"
+                   ],
+                   [
+                       "Optokinetic",
+                       "Pertaining to eye movements that track moving objects"
+                   ]
+               ]
+    },
+    {
+        "wp":  "audi/o, audit/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Hearing",
+        "ex":  [
+                   [
+                       "Auditory",
+                       "Pertaining to hearing"
+                   ],
+                   [
+                       "Audiology",
+                       "Study and assessment of hearing"
+                   ],
+                   [
+                       "Audiometry",
+                       "Measurement of hearing acuity"
+                   ],
+                   [
+                       "Audiogram",
+                       "Graph of a person\u0027s hearing sensitivity across frequencies"
+                   ]
+               ]
+    },
+    {
+        "wp":  "humer/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Humerus (upper arm bone)",
+        "ex":  [
+                   [
+                       "Humeral",
+                       "Pertaining to the humerus"
+                   ],
+                   [
+                       "Humeroradial",
+                       "Pertaining to the humerus and the radius"
+                   ],
+                   [
+                       "Humeroulnar",
+                       "Pertaining to the humerus and the ulna"
+                   ],
+                   [
+                       "Humeroscapular",
+                       "Pertaining to the humerus and the scapula"
+                   ]
+               ]
+    },
+    {
+        "wp":  "ili/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Ilium (upper part of the hip bone)",
+        "ex":  [
+                   [
+                       "Iliac",
+                       "Pertaining to the ilium"
+                   ],
+                   [
+                       "Iliopsoas",
+                       "Combined muscle of the ilium and the psoas"
+                   ],
+                   [
+                       "Ilioinguinal",
+                       "Pertaining to the ilium and the groin"
+                   ],
+                   [
+                       "Iliotibial",
+                       "Pertaining to the ilium and the tibia, as in the iliotibial band"
+                   ]
+               ]
+    },
+    {
+        "wp":  "ischi/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Ischium (lower part of the hip bone)",
+        "ex":  [
+                   [
+                       "Ischial",
+                       "Pertaining to the ischium"
+                   ],
+                   [
+                       "Ischiorectal",
+                       "Pertaining to the ischium and the rectum"
+                   ],
+                   [
+                       "Ischiofemoral",
+                       "Pertaining to the ischium and the femur"
+                   ],
+                   [
+                       "Ischiopubic",
+                       "Pertaining to the ischium and the pubis"
+                   ]
+               ]
+    },
+    {
+        "wp":  "lamin/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Lamina (flattened part of the vertebral arch)",
+        "ex":  [
+                   [
+                       "Laminectomy",
+                       "Surgical removal of a vertebral lamina"
+                   ],
+                   [
+                       "Laminotomy",
+                       "Surgical incision into a vertebral lamina"
+                   ],
+                   [
+                       "Laminoplasty",
+                       "Surgical reshaping of a vertebral lamina to relieve pressure"
+                   ],
+                   [
+                       "Laminar",
+                       "Arranged in or pertaining to thin layers"
+                   ]
+               ]
+    },
+    {
+        "wp":  "lord/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Bent backward; inward curve of the spine",
+        "ex":  [
+                   [
+                       "Lordosis",
+                       "Inward forward curvature of the lower spine"
+                   ],
+                   [
+                       "Hyperlordosis",
+                       "Excessive inward curvature of the spine"
+                   ],
+                   [
+                       "Lordoscoliosis",
+                       "Combined inward and sideways curvature of the spine"
+                   ],
+                   [
+                       "Lordotic",
+                       "Pertaining to or showing lordosis"
+                   ]
+               ]
+    },
+    {
+        "wp":  "mandibul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Mandible (lower jaw)",
+        "ex":  [
+                   [
+                       "Mandibular",
+                       "Pertaining to the lower jaw"
+                   ],
+                   [
+                       "Submandibular",
+                       "Located beneath the lower jaw"
+                   ],
+                   [
+                       "Mandibulectomy",
+                       "Surgical removal of the lower jaw"
+                   ],
+                   [
+                       "Mandibulofacial",
+                       "Pertaining to the lower jaw and the face"
+                   ]
+               ]
+    },
+    {
+        "wp":  "maxill/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Maxilla (upper jaw)",
+        "ex":  [
+                   [
+                       "Maxillary",
+                       "Pertaining to the upper jaw"
+                   ],
+                   [
+                       "Maxillofacial",
+                       "Pertaining to the upper jaw and the face"
+                   ],
+                   [
+                       "Maxillectomy",
+                       "Surgical removal of the upper jaw"
+                   ],
+                   [
+                       "Submaxillary",
+                       "Located beneath the upper jaw"
+                   ]
+               ]
+    },
+    {
+        "wp":  "medull/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Medulla (inner region; marrow)",
+        "ex":  [
+                   [
+                       "Medullary",
+                       "Pertaining to the inner region or marrow of a structure"
+                   ],
+                   [
+                       "Adrenal medulla",
+                       "Inner core of the adrenal gland that secretes adrenaline"
+                   ],
+                   [
+                       "Medulloblastoma",
+                       "Malignant brain tumor arising in the cerebellum"
+                   ],
+                   [
+                       "Medullary cavity",
+                       "Central marrow-containing space within a long bone"
+                   ]
+               ]
+    },
+    {
+        "wp":  "patell/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Patella (kneecap)",
+        "ex":  [
+                   [
+                       "Patellar",
+                       "Pertaining to the kneecap"
+                   ],
+                   [
+                       "Patellofemoral",
+                       "Pertaining to the kneecap and the femur"
+                   ],
+                   [
+                       "Patellectomy",
+                       "Surgical removal of the kneecap"
+                   ],
+                   [
+                       "Suprapatellar",
+                       "Located above the kneecap"
+                   ]
+               ]
+    },
+    {
+        "wp":  "phalang/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Phalanges (finger and toe bones)",
+        "ex":  [
+                   [
+                       "Phalangeal",
+                       "Pertaining to a finger or toe bone"
+                   ],
+                   [
+                       "Interphalangeal",
+                       "Pertaining to the joint between two phalanges"
+                   ],
+                   [
+                       "Phalangectomy",
+                       "Surgical removal of a finger or toe bone"
+                   ],
+                   [
+                       "Polyphalangia",
+                       "Presence of extra bones in a finger or toe"
+                   ]
+               ]
+    },
+    {
+        "wp":  "scapul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Scapula (shoulder blade)",
+        "ex":  [
+                   [
+                       "Scapular",
+                       "Pertaining to the shoulder blade"
+                   ],
+                   [
+                       "Subscapular",
+                       "Located beneath the shoulder blade"
+                   ],
+                   [
+                       "Scapulothoracic",
+                       "Pertaining to the shoulder blade and the rib cage"
+                   ],
+                   [
+                       "Scapulectomy",
+                       "Surgical removal of the shoulder blade"
+                   ]
+               ]
+    },
+    {
+        "wp":  "tibi/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Tibia (shin bone)",
+        "ex":  [
+                   [
+                       "Tibial",
+                       "Pertaining to the shin bone"
+                   ],
+                   [
+                       "Tibiofibular",
+                       "Pertaining to the tibia and the fibula"
+                   ],
+                   [
+                       "Tibiotalar",
+                       "Pertaining to the tibia and the talus, forming the ankle joint"
+                   ],
+                   [
+                       "Tibialis",
+                       "Muscle of the lower leg attached to the tibia"
+                   ]
+               ]
+    },
+    {
+        "wp":  "uln/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Ulna (forearm bone on the little-finger side)",
+        "ex":  [
+                   [
+                       "Ulnar",
+                       "Pertaining to the ulna"
+                   ],
+                   [
+                       "Ulnar nerve",
+                       "Nerve of the forearm and hand, the source of the funny-bone sensation"
+                   ],
+                   [
+                       "Radioulnar",
+                       "Pertaining to the radius and the ulna"
+                   ],
+                   [
+                       "Ulnocarpal",
+                       "Pertaining to the ulna and the wrist bones"
+                   ]
+               ]
+    },
+    {
+        "wp":  "clavicul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Clavicle (collarbone)",
+        "ex":  [
+                   [
+                       "Clavicular",
+                       "Pertaining to the collarbone"
+                   ],
+                   [
+                       "Sternoclavicular",
+                       "Pertaining to the breastbone and the collarbone"
+                   ],
+                   [
+                       "Costoclavicular",
+                       "Pertaining to the ribs and the collarbone"
+                   ],
+                   [
+                       "Claviculectomy",
+                       "Surgical removal of the collarbone"
+                   ]
+               ]
+    },
+    {
+        "wp":  "burs/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Bursa (fluid-filled sac that cushions a joint)",
+        "ex":  [
+                   [
+                       "Bursitis",
+                       "Inflammation of a bursa"
+                   ],
+                   [
+                       "Bursectomy",
+                       "Surgical removal of a bursa"
+                   ],
+                   [
+                       "Subacromial bursa",
+                       "Bursa beneath the acromion of the shoulder"
+                   ],
+                   [
+                       "Bursopathy",
+                       "Any disease of a bursa"
+                   ]
+               ]
+    },
+    {
+        "wp":  "tars/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Tarsus (ankle bones; also the firm plate of the eyelid)",
+        "ex":  [
+                   [
+                       "Tarsal",
+                       "Pertaining to the ankle bones or the eyelid plate"
+                   ],
+                   [
+                       "Metatarsal",
+                       "Pertaining to the bones of the midfoot, beyond the tarsus"
+                   ],
+                   [
+                       "Tarsectomy",
+                       "Surgical removal of ankle bones"
+                   ],
+                   [
+                       "Tarsorrhaphy",
+                       "Surgical suturing together of the eyelids"
+                   ]
+               ]
+    },
+    {
+        "wp":  "pector/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Chest, breast",
+        "ex":  [
+                   [
+                       "Pectoral",
+                       "Pertaining to the chest"
+                   ],
+                   [
+                       "Pectoralis",
+                       "Muscle of the chest wall"
+                   ],
+                   [
+                       "Pectus excavatum",
+                       "Congenital sunken or hollowed chest"
+                   ],
+                   [
+                       "Pectoriloquy",
+                       "Transmission of voice sounds through the chest wall heard on auscultation"
+                   ]
+               ]
+    },
+    {
+        "wp":  "bas/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Base; basic (alkaline)",
+        "ex":  [
+                   [
+                       "Basophil",
+                       "White blood cell that stains with basic dyes"
+                   ],
+                   [
+                       "Basal cell",
+                       "Cell in the deepest layer of the epidermis"
+                   ],
+                   [
+                       "Basilar",
+                       "Pertaining to the base of a structure, as the basilar artery"
+                   ],
+                   [
+                       "Basaloid",
+                       "Resembling basal cells"
+                   ]
+               ]
+    },
+    {
+        "wp":  "pedicul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Lice",
+        "ex":  [
+                   [
+                       "Pediculosis",
+                       "Infestation with lice"
+                   ],
+                   [
+                       "Pediculicide",
+                       "Agent that kills lice"
+                   ],
+                   [
+                       "Pediculosis capitis",
+                       "Infestation of the scalp with head lice"
+                   ],
+                   [
+                       "Pediculosis pubis",
+                       "Infestation of the pubic region with lice"
+                   ]
+               ]
+    },
+    {
+        "wp":  "prosthet/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Prosthesis (artificial body part)",
+        "ex":  [
+                   [
+                       "Prosthetic",
+                       "Pertaining to an artificial body part"
+                   ],
+                   [
+                       "Prosthesis",
+                       "Artificial device replacing a missing body part"
+                   ],
+                   [
+                       "Prosthetist",
+                       "Professional who makes and fits prostheses"
+                   ],
+                   [
+                       "Prosthodontics",
+                       "Dental specialty in replacing missing teeth"
+                   ]
+               ]
+    },
+    {
+        "wp":  "kinesi/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Movement",
+        "ex":  [
+                   [
+                       "Kinesiology",
+                       "Study of body movement"
+                   ],
+                   [
+                       "Kinesthesia",
+                       "Sense of body position and movement"
+                   ],
+                   [
+                       "Kinesiotherapy",
+                       "Treatment of disease through structured movement and exercise"
+                   ],
+                   [
+                       "Kinesiotaping",
+                       "Application of elastic tape to support movement and muscles"
+                   ]
+               ]
+    },
+    {
+        "wp":  "plant/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Sole of the foot",
+        "ex":  [
+                   [
+                       "Plantar",
+                       "Pertaining to the sole of the foot"
+                   ],
+                   [
+                       "Plantar fasciitis",
+                       "Inflammation of the connective tissue along the sole of the foot"
+                   ],
+                   [
+                       "Plantarflexion",
+                       "Downward movement of the foot at the ankle"
+                   ],
+                   [
+                       "Plantar wart",
+                       "Wart on the sole of the foot"
+                   ]
+               ]
+    },
+    {
+        "wp":  "duct/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) To lead or carry; a duct",
+        "ex":  [
+                   [
+                       "Abduction",
+                       "Movement of a limb away from the midline"
+                   ],
+                   [
+                       "Adduction",
+                       "Movement of a limb toward the midline"
+                   ],
+                   [
+                       "Abductor",
+                       "Muscle that moves a part away from the midline"
+                   ],
+                   [
+                       "Ductus arteriosus",
+                       "Fetal blood vessel connecting the pulmonary artery and the aorta"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-ory",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Pertaining to",
+        "ex":  [
+                   [
+                       "Respiratory",
+                       "Pertaining to breathing"
+                   ],
+                   [
+                       "Sensory",
+                       "Pertaining to sensation"
+                   ],
+                   [
+                       "Auditory",
+                       "Pertaining to hearing"
+                   ],
+                   [
+                       "Circulatory",
+                       "Pertaining to the circulation of blood"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-ose",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Full of; (in chemistry) a sugar",
+        "ex":  [
+                   [
+                       "Glucose",
+                       "The principal sugar the body uses for energy"
+                   ],
+                   [
+                       "Adipose",
+                       "Composed of or full of fat"
+                   ],
+                   [
+                       "Comatose",
+                       "In a state of coma"
+                   ],
+                   [
+                       "Varicose",
+                       "Marked by swollen, twisted veins"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-ile",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Capable of; pertaining to",
+        "ex":  [
+                   [
+                       "Febrile",
+                       "Marked by fever"
+                   ],
+                   [
+                       "Sterile",
+                       "Free from microorganisms; unable to reproduce"
+                   ],
+                   [
+                       "Erectile",
+                       "Capable of becoming erect"
+                   ],
+                   [
+                       "Penile",
+                       "Pertaining to the penis"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-ine",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Pertaining to; a substance",
+        "ex":  [
+                   [
+                       "Uterine",
+                       "Pertaining to the uterus"
+                   ],
+                   [
+                       "Endocrine",
+                       "Pertaining to glands that secrete hormones into the blood"
+                   ],
+                   [
+                       "Saline",
+                       "A salt solution"
+                   ],
+                   [
+                       "Alkaline",
+                       "Having the properties of a base"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-tome",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Instrument for cutting",
+        "ex":  [
+                   [
+                       "Dermatome",
+                       "Instrument for cutting thin skin slices; also a skin area supplied by one spinal nerve"
+                   ],
+                   [
+                       "Microtome",
+                       "Instrument for cutting very thin tissue slices for microscopy"
+                   ],
+                   [
+                       "Osteotome",
+                       "Chisel-like instrument for cutting bone"
+                   ],
+                   [
+                       "Myotome",
+                       "Instrument for cutting muscle; also a muscle group supplied by one spinal nerve"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-blast",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Immature or developing cell",
+        "ex":  [
+                   [
+                       "Fibroblast",
+                       "Cell that produces connective tissue fibers"
+                   ],
+                   [
+                       "Osteoblast",
+                       "Cell that forms new bone"
+                   ],
+                   [
+                       "Erythroblast",
+                       "Immature red blood cell"
+                   ],
+                   [
+                       "Neuroblast",
+                       "Immature nerve cell"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-listhesis",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Slipping, displacement",
+        "ex":  [
+                   [
+                       "Spondylolisthesis",
+                       "Forward slippage of one vertebra over another"
+                   ],
+                   [
+                       "Retrolisthesis",
+                       "Backward slippage of one vertebra over another"
+                   ],
+                   [
+                       "Anterolisthesis",
+                       "Forward slippage of a vertebra"
+                   ],
+                   [
+                       "Laterolisthesis",
+                       "Sideways slippage of a vertebra"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-ule",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Small, diminutive",
+        "ex":  [
+                   [
+                       "Nodule",
+                       "Small rounded lump"
+                   ],
+                   [
+                       "Venule",
+                       "Small vein"
+                   ],
+                   [
+                       "Tubule",
+                       "Small tube"
+                   ],
+                   [
+                       "Pustule",
+                       "Small pus-filled blister"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-ole",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Small, diminutive",
+        "ex":  [
+                   [
+                       "Arteriole",
+                       "Small artery"
+                   ],
+                   [
+                       "Bronchiole",
+                       "Small airway branch in the lung"
+                   ],
+                   [
+                       "Vacuole",
+                       "Small fluid-filled space within a cell"
+                   ],
+                   [
+                       "Centriole",
+                       "Small cylindrical structure involved in cell division"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-ior",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Pertaining to position; more",
+        "ex":  [
+                   [
+                       "Anterior",
+                       "Situated toward the front"
+                   ],
+                   [
+                       "Posterior",
+                       "Situated toward the back"
+                   ],
+                   [
+                       "Superior",
+                       "Situated above"
+                   ],
+                   [
+                       "Inferior",
+                       "Situated below"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-tonia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Tone or tension, especially of muscle",
+        "ex":  [
+                   [
+                       "Dystonia",
+                       "Sustained abnormal muscle contractions causing twisting movements"
+                   ],
+                   [
+                       "Hypertonia",
+                       "Increased muscle tone"
+                   ],
+                   [
+                       "Hypotonia",
+                       "Decreased muscle tone"
+                   ],
+                   [
+                       "Atonia",
+                       "Absence of muscle tone"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-asthenia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Weakness",
+        "ex":  [
+                   [
+                       "Myasthenia gravis",
+                       "Autoimmune disease causing fluctuating muscle weakness"
+                   ],
+                   [
+                       "Neurasthenia",
+                       "Condition of fatigue and weakness attributed to the nerves"
+                   ],
+                   [
+                       "Asthenopia",
+                       "Eye strain and visual fatigue"
+                   ],
+                   [
+                       "Psychasthenia",
+                       "State of mental fatigue and weakness"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-phoresis",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Carrying, transmission",
+        "ex":  [
+                   [
+                       "Electrophoresis",
+                       "Separation of molecules by their movement in an electric field"
+                   ],
+                   [
+                       "Diaphoresis",
+                       "Profuse sweating"
+                   ],
+                   [
+                       "Iontophoresis",
+                       "Delivery of medication through the skin using an electric current"
+                   ],
+                   [
+                       "Cataphoresis",
+                       "Movement of charged particles toward the negative pole in an electric field"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-apheresis",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Removal, separation by withdrawal",
+        "ex":  [
+                   [
+                       "Plasmapheresis",
+                       "Withdrawal of blood to remove plasma, returning the cells"
+                   ],
+                   [
+                       "Leukapheresis",
+                       "Removal of white blood cells from the blood"
+                   ],
+                   [
+                       "Plateletpheresis",
+                       "Collection of platelets from a donor\u0027s blood"
+                   ],
+                   [
+                       "Apheresis",
+                       "Procedure of withdrawing blood and separating out one component"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-oid",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Resembling, like",
+        "ex":  [
+                   [
+                       "Rheumatoid",
+                       "Resembling rheumatism, as in rheumatoid arthritis"
+                   ],
+                   [
+                       "Fibroid",
+                       "Benign tumor resembling fibrous tissue"
+                   ],
+                   [
+                       "Lymphoid",
+                       "Resembling or pertaining to lymphatic tissue"
+                   ],
+                   [
+                       "Sigmoid",
+                       "S-shaped, resembling the Greek letter sigma"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-phil",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Cell or thing having an affinity for",
+        "ex":  [
+                   [
+                       "Neutrophil",
+                       "White blood cell that stains with neutral dyes"
+                   ],
+                   [
+                       "Eosinophil",
+                       "White blood cell that stains with eosin dye"
+                   ],
+                   [
+                       "Basophil",
+                       "White blood cell that stains with basic dyes"
+                   ],
+                   [
+                       "Acidophil",
+                       "Cell that stains readily with acidic dyes"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-philia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Affinity for; condition of attraction",
+        "ex":  [
+                   [
+                       "Hemophilia",
+                       "Inherited deficiency of blood clotting"
+                   ],
+                   [
+                       "Eosinophilia",
+                       "Abnormal increase in eosinophils"
+                   ],
+                   [
+                       "Hydrophilia",
+                       "Tendency to attract or absorb water"
+                   ],
+                   [
+                       "Necrophilia",
+                       "Pathological attraction to dead bodies"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-globulin",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) A globular protein",
+        "ex":  [
+                   [
+                       "Immunoglobulin",
+                       "Antibody protein produced by the immune system"
+                   ],
+                   [
+                       "Gamma globulin",
+                       "Blood protein fraction that includes antibodies"
+                   ],
+                   [
+                       "Thyroglobulin",
+                       "Thyroid protein used to produce thyroid hormones"
+                   ],
+                   [
+                       "Cryoglobulin",
+                       "Abnormal blood protein that clumps together in the cold"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-crit",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) To separate; a measured proportion",
+        "ex":  [
+                   [
+                       "Hematocrit",
+                       "Proportion of blood volume occupied by red blood cells"
+                   ],
+                   [
+                       "Leukocrit",
+                       "Proportion of blood volume occupied by white blood cells"
+                   ],
+                   [
+                       "Lipocrit",
+                       "Proportion of blood volume occupied by lipids"
+                   ],
+                   [
+                       "Plasmacrit",
+                       "Proportion of blood volume occupied by plasma"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-prandial",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Pertaining to a meal",
+        "ex":  [
+                   [
+                       "Postprandial",
+                       "Occurring after a meal"
+                   ],
+                   [
+                       "Preprandial",
+                       "Occurring before a meal"
+                   ],
+                   [
+                       "Intraprandial",
+                       "Occurring during a meal"
+                   ]
+               ]
+    },
+    {
+        "wp":  "embol/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Embolus; a plug or obstruction",
+        "ex":  [
+                   [
+                       "Embolism",
+                       "Sudden blockage of a vessel by a traveling clot or other material"
+                   ],
+                   [
+                       "Pulmonary embolism",
+                       "Blockage of a lung artery by a traveling clot"
+                   ],
+                   [
+                       "Embolus",
+                       "Clot or mass that travels in the blood until it lodges in a vessel"
+                   ],
+                   [
+                       "Embolectomy",
+                       "Surgical removal of an embolus"
+                   ]
+               ]
+    },
+    {
+        "wp":  "fibrin/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Fibrin (a clotting protein)",
+        "ex":  [
+                   [
+                       "Fibrinogen",
+                       "Blood protein that converts to fibrin during clotting"
+                   ],
+                   [
+                       "Fibrinolysis",
+                       "Breakdown of fibrin to dissolve a clot"
+                   ],
+                   [
+                       "Fibrinous",
+                       "Composed of or containing fibrin"
+                   ],
+                   [
+                       "Afibrinogenemia",
+                       "Absence of fibrinogen in the blood"
+                   ]
+               ]
+    },
+    {
+        "wp":  "son/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Sound",
+        "ex":  [
+                   [
+                       "Sonography",
+                       "Imaging of body structures using sound waves"
+                   ],
+                   [
+                       "Sonogram",
+                       "Image produced by ultrasound"
+                   ],
+                   [
+                       "Echosonography",
+                       "Imaging using reflected sound waves"
+                   ],
+                   [
+                       "Sonolucent",
+                       "Permitting the passage of ultrasound without echoes"
+                   ]
+               ]
+    },
+    {
+        "wp":  "valv/o, valvul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Valve",
+        "ex":  [
+                   [
+                       "Valvular",
+                       "Pertaining to a valve"
+                   ],
+                   [
+                       "Valvuloplasty",
+                       "Surgical repair of a heart valve"
+                   ],
+                   [
+                       "Valvotomy",
+                       "Surgical incision into a valve to widen it"
+                   ],
+                   [
+                       "Valvulitis",
+                       "Inflammation of a heart valve"
+                   ]
+               ]
+    },
+    {
+        "wp":  "peripher/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Periphery, away from the center",
+        "ex":  [
+                   [
+                       "Peripheral",
+                       "Located away from the center of the body"
+                   ],
+                   [
+                       "Peripheral neuropathy",
+                       "Damage to nerves outside the brain and spinal cord"
+                   ],
+                   [
+                       "Peripheral artery disease",
+                       "Narrowing of the arteries supplying the limbs"
+                   ],
+                   [
+                       "Peripheral vascular disease",
+                       "Disease of blood vessels outside the heart and brain"
+                   ]
+               ]
+    },
+    {
+        "wp":  "agglutin/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Clumping, sticking together",
+        "ex":  [
+                   [
+                       "Agglutination",
+                       "Clumping of cells or particles, as in blood typing"
+                   ],
+                   [
+                       "Agglutinin",
+                       "Antibody that causes clumping of cells"
+                   ],
+                   [
+                       "Hemagglutination",
+                       "Clumping of red blood cells"
+                   ],
+                   [
+                       "Agglutinogen",
+                       "Antigen that stimulates production of an agglutinin"
+                   ]
+               ]
+    },
+    {
+        "wp":  "eosin/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Rosy red (eosin dye)",
+        "ex":  [
+                   [
+                       "Eosinophil",
+                       "White blood cell that stains red with eosin dye"
+                   ],
+                   [
+                       "Eosinophilia",
+                       "Abnormal increase in eosinophils"
+                   ],
+                   [
+                       "Eosinophilic",
+                       "Staining readily with eosin; pertaining to eosinophils"
+                   ],
+                   [
+                       "Eosinopenia",
+                       "Abnormally low number of eosinophils"
+                   ]
+               ]
+    },
+    {
+        "wp":  "granul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Granule, small grain",
+        "ex":  [
+                   [
+                       "Granuloma",
+                       "Nodular cluster of immune cells forming in response to infection or inflammation"
+                   ],
+                   [
+                       "Granulocyte",
+                       "White blood cell containing granules"
+                   ],
+                   [
+                       "Granulation tissue",
+                       "New connective tissue and vessels forming on a healing wound"
+                   ],
+                   [
+                       "Granulomatosis",
+                       "Condition marked by multiple granulomas"
+                   ]
+               ]
+    },
+    {
+        "wp":  "morph/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Form, shape",
+        "ex":  [
+                   [
+                       "Morphology",
+                       "Study of the form and structure of organisms"
+                   ],
+                   [
+                       "Dysmorphic",
+                       "Having an abnormal shape or structure"
+                   ],
+                   [
+                       "Polymorphic",
+                       "Occurring in several different forms"
+                   ],
+                   [
+                       "Amorphous",
+                       "Without a definite shape"
+                   ]
+               ]
+    },
+    {
+        "wp":  "phag/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) To eat, engulf",
+        "ex":  [
+                   [
+                       "Phagocyte",
+                       "Cell that engulfs and digests pathogens and debris"
+                   ],
+                   [
+                       "Phagocytosis",
+                       "Process by which a cell engulfs particles"
+                   ],
+                   [
+                       "Phagosome",
+                       "Vesicle that forms around a particle engulfed by a cell"
+                   ],
+                   [
+                       "Phagolysosome",
+                       "Structure formed when a phagosome fuses with a lysosome to digest its contents"
+                   ]
+               ]
+    },
+    {
+        "wp":  "fus/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) To pour, fuse together",
+        "ex":  [
+                   [
+                       "Transfusion",
+                       "Transfer of blood or blood components into the bloodstream"
+                   ],
+                   [
+                       "Infusion",
+                       "Slow introduction of fluid or medication into a vein"
+                   ],
+                   [
+                       "Diffusion",
+                       "Movement of molecules from a higher to a lower concentration"
+                   ],
+                   [
+                       "Perfusion",
+                       "Flow of blood through the tissues of an organ"
+                   ]
+               ]
+    },
+    {
+        "wp":  "thym/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Thymus gland",
+        "ex":  [
+                   [
+                       "Thymoma",
+                       "Tumor of the thymus gland"
+                   ],
+                   [
+                       "Thymectomy",
+                       "Surgical removal of the thymus gland"
+                   ],
+                   [
+                       "Thymic",
+                       "Pertaining to the thymus"
+                   ],
+                   [
+                       "Thymocyte",
+                       "Developing T cell within the thymus"
+                   ]
+               ]
+    },
+    {
+        "wp":  "nucle/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Nucleus, central core",
+        "ex":  [
+                   [
+                       "Nuclear",
+                       "Pertaining to a nucleus"
+                   ],
+                   [
+                       "Nucleotide",
+                       "Building-block unit of DNA and RNA"
+                   ],
+                   [
+                       "Enucleation",
+                       "Surgical removal of an organ or eyeball whole, or removal of a nucleus"
+                   ],
+                   [
+                       "Multinucleated",
+                       "Having more than one nucleus"
+                   ]
+               ]
+    },
+    {
+        "wp":  "adenoid/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Adenoids",
+        "ex":  [
+                   [
+                       "Adenoidectomy",
+                       "Surgical removal of the adenoids"
+                   ],
+                   [
+                       "Adenoid hypertrophy",
+                       "Enlargement of the adenoids"
+                   ],
+                   [
+                       "Adenoiditis",
+                       "Inflammation of the adenoids"
+                   ],
+                   [
+                       "Adenoidal",
+                       "Pertaining to the adenoids"
+                   ]
+               ]
+    },
+    {
+        "wp":  "lymphaden/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Lymph node",
+        "ex":  [
+                   [
+                       "Lymphadenopathy",
+                       "Disease or enlargement of the lymph nodes"
+                   ],
+                   [
+                       "Lymphadenitis",
+                       "Inflammation of a lymph node"
+                   ],
+                   [
+                       "Lymphadenectomy",
+                       "Surgical removal of lymph nodes"
+                   ],
+                   [
+                       "Lymphadenogram",
+                       "Radiographic image of lymph nodes"
+                   ]
+               ]
+    },
+    {
+        "wp":  "lymphangi/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Lymphatic vessel",
+        "ex":  [
+                   [
+                       "Lymphangitis",
+                       "Inflammation of lymphatic vessels"
+                   ],
+                   [
+                       "Lymphangiography",
+                       "Imaging of lymphatic vessels using contrast dye"
+                   ],
+                   [
+                       "Lymphangioma",
+                       "Benign tumor of lymphatic vessels"
+                   ],
+                   [
+                       "Lymphangiectasia",
+                       "Abnormal dilation of lymphatic vessels"
+                   ]
+               ]
+    },
+    {
+        "wp":  "cec/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Cecum (first part of the large intestine)",
+        "ex":  [
+                   [
+                       "Cecal",
+                       "Pertaining to the cecum"
+                   ],
+                   [
+                       "Ileocecal",
+                       "Pertaining to the junction of the ileum and the cecum"
+                   ],
+                   [
+                       "Cecostomy",
+                       "Surgical creation of an opening into the cecum"
+                   ],
+                   [
+                       "Cecopexy",
+                       "Surgical fixation of the cecum"
+                   ]
+               ]
+    },
+    {
+        "wp":  "bar/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Weight, pressure",
+        "ex":  [
+                   [
+                       "Bariatric",
+                       "Pertaining to the medical treatment of obesity and weight"
+                   ],
+                   [
+                       "Barotrauma",
+                       "Tissue injury caused by a change in pressure"
+                   ],
+                   [
+                       "Hyperbaric",
+                       "Pertaining to pressure greater than normal atmospheric pressure"
+                   ],
+                   [
+                       "Baroreceptor",
+                       "Sensor that detects changes in blood pressure"
+                   ]
+               ]
+    },
+    {
+        "wp":  "diverticul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Diverticulum (a pouch in a hollow organ)",
+        "ex":  [
+                   [
+                       "Diverticulitis",
+                       "Inflammation of diverticula in the colon"
+                   ],
+                   [
+                       "Diverticulosis",
+                       "Presence of multiple diverticula in the colon"
+                   ],
+                   [
+                       "Diverticulum",
+                       "Abnormal pouch protruding from the wall of a hollow organ"
+                   ],
+                   [
+                       "Diverticulectomy",
+                       "Surgical removal of a diverticulum"
+                   ]
+               ]
+    },
+    {
+        "wp":  "palat/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Palate (roof of the mouth)",
+        "ex":  [
+                   [
+                       "Cleft palate",
+                       "Congenital split in the roof of the mouth"
+                   ],
+                   [
+                       "Palatal",
+                       "Pertaining to the palate"
+                   ],
+                   [
+                       "Palatoplasty",
+                       "Surgical repair of the palate"
+                   ],
+                   [
+                       "Palatoschisis",
+                       "Congenital fissure of the palate"
+                   ]
+               ]
+    },
+    {
+        "wp":  "polyp/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Polyp (a growth from a mucous membrane)",
+        "ex":  [
+                   [
+                       "Polyp",
+                       "Small growth protruding from a mucous membrane"
+                   ],
+                   [
+                       "Polypectomy",
+                       "Surgical removal of a polyp"
+                   ],
+                   [
+                       "Polyposis",
+                       "Condition of having many polyps"
+                   ],
+                   [
+                       "Polypoid",
+                       "Resembling a polyp"
+                   ]
+               ]
+    },
+    {
+        "wp":  "azot/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Nitrogen, nitrogenous waste",
+        "ex":  [
+                   [
+                       "Azotemia",
+                       "Buildup of nitrogen-containing waste in the blood"
+                   ],
+                   [
+                       "Azoturia",
+                       "Excess nitrogen-containing compounds in the urine"
+                   ],
+                   [
+                       "Hyperazotemia",
+                       "Abnormally high level of nitrogen waste in the blood"
+                   ],
+                   [
+                       "Azotorrhea",
+                       "Excess nitrogen in the feces"
+                   ]
+               ]
+    },
+    {
+        "wp":  "idi/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Individual, distinct, unknown",
+        "ex":  [
+                   [
+                       "Idiopathic",
+                       "Arising from an unknown cause"
+                   ],
+                   [
+                       "Idiosyncrasy",
+                       "Individual peculiarity, as an unusual reaction to a drug"
+                   ],
+                   [
+                       "Idioventricular",
+                       "Originating independently within the ventricles of the heart"
+                   ],
+                   [
+                       "Idiotype",
+                       "Unique part of an antibody that distinguishes it from others"
+                   ]
+               ]
+    },
+    {
+        "wp":  "meat/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Meatus, a passage or opening",
+        "ex":  [
+                   [
+                       "Meatal",
+                       "Pertaining to a meatus"
+                   ],
+                   [
+                       "Meatotomy",
+                       "Surgical enlargement of the urinary meatus"
+                   ],
+                   [
+                       "Meatoplasty",
+                       "Surgical repair or reconstruction of a meatus"
+                   ],
+                   [
+                       "Meatoscopy",
+                       "Visual examination of a meatus"
+                   ]
+               ]
+    },
+    {
+        "wp":  "colp/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Vagina",
+        "ex":  [
+                   [
+                       "Colposcopy",
+                       "Examination of the vagina and cervix with a magnifying scope"
+                   ],
+                   [
+                       "Colpitis",
+                       "Inflammation of the vagina"
+                   ],
+                   [
+                       "Colporrhaphy",
+                       "Surgical repair of the vaginal wall"
+                   ],
+                   [
+                       "Colpoplasty",
+                       "Surgical repair or reconstruction of the vagina"
+                   ]
+               ]
+    },
+    {
+        "wp":  "salping/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Fallopian tube; also the auditory tube",
+        "ex":  [
+                   [
+                       "Salpingitis",
+                       "Inflammation of a fallopian tube"
+                   ],
+                   [
+                       "Salpingectomy",
+                       "Surgical removal of a fallopian tube"
+                   ],
+                   [
+                       "Salpingo-oophorectomy",
+                       "Surgical removal of a fallopian tube and ovary"
+                   ],
+                   [
+                       "Salpingography",
+                       "Imaging of the fallopian tubes using contrast"
+                   ]
+               ]
+    },
+    {
+        "wp":  "oophor/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Ovary",
+        "ex":  [
+                   [
+                       "Oophorectomy",
+                       "Surgical removal of an ovary"
+                   ],
+                   [
+                       "Salpingo-oophorectomy",
+                       "Surgical removal of a fallopian tube and ovary"
+                   ],
+                   [
+                       "Oophoritis",
+                       "Inflammation of an ovary"
+                   ],
+                   [
+                       "Oophoropexy",
+                       "Surgical fixation of an ovary"
+                   ]
+               ]
+    },
+    {
+        "wp":  "perine/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Perineum (region between the genitals and anus)",
+        "ex":  [
+                   [
+                       "Perineal",
+                       "Pertaining to the perineum"
+                   ],
+                   [
+                       "Perineorrhaphy",
+                       "Surgical repair of the perineum"
+                   ],
+                   [
+                       "Perineoplasty",
+                       "Surgical reconstruction of the perineum"
+                   ],
+                   [
+                       "Perineotomy",
+                       "Surgical incision of the perineum"
+                   ]
+               ]
+    },
+    {
+        "wp":  "amni/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Amnion (innermost membrane around the fetus)",
+        "ex":  [
+                   [
+                       "Amniotic",
+                       "Pertaining to the amnion"
+                   ],
+                   [
+                       "Amniocentesis",
+                       "Withdrawal of amniotic fluid for testing"
+                   ],
+                   [
+                       "Amnioscopy",
+                       "Visual examination of the amniotic sac and fluid"
+                   ],
+                   [
+                       "Amniorrhexis",
+                       "Rupture of the amniotic membrane"
+                   ]
+               ]
+    },
+    {
+        "wp":  "chori/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Chorion (outer fetal membrane)",
+        "ex":  [
+                   [
+                       "Chorionic",
+                       "Pertaining to the chorion"
+                   ],
+                   [
+                       "Chorioamnionitis",
+                       "Inflammation of the fetal membranes"
+                   ],
+                   [
+                       "Choriocarcinoma",
+                       "Malignant tumor arising from chorionic tissue"
+                   ],
+                   [
+                       "Chorioretinitis",
+                       "Inflammation of the choroid and retina of the eye"
+                   ]
+               ]
+    },
+    {
+        "wp":  "embry/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Embryo",
+        "ex":  [
+                   [
+                       "Embryonic",
+                       "Pertaining to an embryo"
+                   ],
+                   [
+                       "Embryology",
+                       "Study of the development of the embryo"
+                   ],
+                   [
+                       "Embryogenesis",
+                       "Formation and development of an embryo"
+                   ],
+                   [
+                       "Embryotomy",
+                       "Cutting apart of a fetus to permit removal when delivery is impossible"
+                   ]
+               ]
+    },
+    {
+        "wp":  "metr/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Uterus",
+        "ex":  [
+                   [
+                       "Endometrium",
+                       "Inner lining of the uterus"
+                   ],
+                   [
+                       "Endometriosis",
+                       "Growth of uterine lining tissue outside the uterus"
+                   ],
+                   [
+                       "Metrorrhagia",
+                       "Uterine bleeding between menstrual periods"
+                   ],
+                   [
+                       "Metritis",
+                       "Inflammation of the uterus"
+                   ]
+               ]
+    },
+    {
+        "wp":  "nat/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Birth",
+        "ex":  [
+                   [
+                       "Prenatal",
+                       "Occurring before birth"
+                   ],
+                   [
+                       "Neonatal",
+                       "Pertaining to the newborn period"
+                   ],
+                   [
+                       "Postnatal",
+                       "Occurring after birth"
+                   ],
+                   [
+                       "Perinatal",
+                       "Occurring around the time of birth"
+                   ]
+               ]
+    },
+    {
+        "wp":  "vulv/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Vulva (external female genitals)",
+        "ex":  [
+                   [
+                       "Vulvar",
+                       "Pertaining to the vulva"
+                   ],
+                   [
+                       "Vulvitis",
+                       "Inflammation of the vulva"
+                   ],
+                   [
+                       "Vulvovaginitis",
+                       "Inflammation of the vulva and vagina"
+                   ],
+                   [
+                       "Vulvectomy",
+                       "Surgical removal of the vulva"
+                   ]
+               ]
+    },
+    {
+        "wp":  "episi/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Vulva",
+        "ex":  [
+                   [
+                       "Episiotomy",
+                       "Surgical incision of the perineum to ease childbirth"
+                   ],
+                   [
+                       "Episiorrhaphy",
+                       "Surgical repair of the vulva or a perineal tear"
+                   ],
+                   [
+                       "Episioplasty",
+                       "Surgical reconstruction of the vulva"
+                   ],
+                   [
+                       "Episiostenosis",
+                       "Narrowing of the vulvar opening"
+                   ]
+               ]
+    },
+    {
+        "wp":  "genit/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Genitals; reproductive organs",
+        "ex":  [
+                   [
+                       "Genitourinary",
+                       "Pertaining to the reproductive and urinary systems"
+                   ],
+                   [
+                       "Genitalia",
+                       "The reproductive organs"
+                   ],
+                   [
+                       "Congenital",
+                       "Present from birth"
+                   ],
+                   [
+                       "Genitoplasty",
+                       "Surgical repair or reconstruction of the genitals"
+                   ]
+               ]
+    },
+    {
+        "wp":  "pen/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Penis",
+        "ex":  [
+                   [
+                       "Penile",
+                       "Pertaining to the penis"
+                   ],
+                   [
+                       "Penoscrotal",
+                       "Pertaining to the penis and scrotum"
+                   ],
+                   [
+                       "Penectomy",
+                       "Surgical removal of the penis"
+                   ],
+                   [
+                       "Peniscopy",
+                       "Examination of the penis with a magnifying scope"
+                   ]
+               ]
+    },
+    {
+        "wp":  "balan/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Glans penis",
+        "ex":  [
+                   [
+                       "Balanitis",
+                       "Inflammation of the glans penis"
+                   ],
+                   [
+                       "Balanoposthitis",
+                       "Inflammation of the glans penis and foreskin"
+                   ],
+                   [
+                       "Balanoplasty",
+                       "Surgical repair of the glans penis"
+                   ],
+                   [
+                       "Balanorrhea",
+                       "Discharge from the glans penis"
+                   ]
+               ]
+    },
+    {
+        "wp":  "epididym/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Epididymis",
+        "ex":  [
+                   [
+                       "Epididymitis",
+                       "Inflammation of the epididymis"
+                   ],
+                   [
+                       "Epididymo-orchitis",
+                       "Inflammation of the epididymis and testis"
+                   ],
+                   [
+                       "Epididymal",
+                       "Pertaining to the epididymis"
+                   ],
+                   [
+                       "Epididymectomy",
+                       "Surgical removal of the epididymis"
+                   ]
+               ]
+    },
+    {
+        "wp":  "spermat/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Sperm, semen",
+        "ex":  [
+                   [
+                       "Spermatozoa",
+                       "Mature male reproductive cells"
+                   ],
+                   [
+                       "Spermatogenesis",
+                       "Formation and development of sperm"
+                   ],
+                   [
+                       "Spermatocele",
+                       "Cyst containing sperm in the epididymis"
+                   ],
+                   [
+                       "Spermaturia",
+                       "Presence of sperm in the urine"
+                   ]
+               ]
+    },
+    {
+        "wp":  "testicul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Testis",
+        "ex":  [
+                   [
+                       "Testicular",
+                       "Pertaining to the testis"
+                   ],
+                   [
+                       "Testicular torsion",
+                       "Twisting of the testis that cuts off its blood supply"
+                   ],
+                   [
+                       "Testiculectomy",
+                       "Surgical removal of a testis"
+                   ],
+                   [
+                       "Testiculoma",
+                       "Tumor of the testis"
+                   ]
+               ]
+    },
+    {
+        "wp":  "vesicul/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Latin) Seminal vesicle; small sac",
+        "ex":  [
+                   [
+                       "Seminal vesicle",
+                       "Gland that contributes fluid to semen"
+                   ],
+                   [
+                       "Vesiculitis",
+                       "Inflammation of a seminal vesicle"
+                   ],
+                   [
+                       "Vesiculectomy",
+                       "Surgical removal of a seminal vesicle"
+                   ],
+                   [
+                       "Vesiculography",
+                       "Imaging of the seminal vesicles"
+                   ]
+               ]
+    },
+    {
+        "wp":  "crypt/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Hidden",
+        "ex":  [
+                   [
+                       "Cryptorchidism",
+                       "Failure of a testis to descend into the scrotum"
+                   ],
+                   [
+                       "Cryptogenic",
+                       "Of unknown or hidden origin"
+                   ],
+                   [
+                       "Cryptococcus",
+                       "Fungus that can cause meningitis"
+                   ],
+                   [
+                       "Cryptosporidium",
+                       "Parasite that causes intestinal infection"
+                   ]
+               ]
+    },
+    {
+        "wp":  "radicul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Nerve root of the spine",
+        "ex":  [
+                   [
+                       "Radiculopathy",
+                       "Disease of a spinal nerve root, often causing pain and weakness"
+                   ],
+                   [
+                       "Radiculitis",
+                       "Inflammation of a spinal nerve root"
+                   ],
+                   [
+                       "Radiculalgia",
+                       "Pain along a spinal nerve root"
+                   ],
+                   [
+                       "Radicotomy",
+                       "Surgical cutting of a spinal nerve root"
+                   ]
+               ]
+    },
+    {
+        "wp":  "oo/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Egg, ovum",
+        "ex":  [
+                   [
+                       "Oocyte",
+                       "Immature egg cell"
+                   ],
+                   [
+                       "Oogenesis",
+                       "Formation and development of egg cells"
+                   ],
+                   [
+                       "Oogonium",
+                       "Precursor cell that gives rise to oocytes"
+                   ],
+                   [
+                       "Ootid",
+                       "Nearly mature egg cell stage"
+                   ]
+               ]
+    },
+    {
+        "wp":  "ov/o, ov/i",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Latin) Egg, ovum",
+        "ex":  [
+                   [
+                       "Ovulation",
+                       "Release of an egg from the ovary"
+                   ],
+                   [
+                       "Ovum",
+                       "A mature egg cell"
+                   ],
+                   [
+                       "Oviduct",
+                       "Tube through which the egg travels; the fallopian tube"
+                   ],
+                   [
+                       "Ovoid",
+                       "Egg-shaped"
+                   ]
+               ]
+    },
+    {
+        "wp":  "calc/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Calcium",
+        "ex":  [
+                   [
+                       "Hypercalcemia",
+                       "Abnormally high level of calcium in the blood"
+                   ],
+                   [
+                       "Calcification",
+                       "Deposit of calcium salts in tissue"
+                   ],
+                   [
+                       "Hypocalcemia",
+                       "Abnormally low level of calcium in the blood"
+                   ],
+                   [
+                       "Calcipenia",
+                       "Deficiency of calcium in the body"
+                   ]
+               ]
+    },
+    {
+        "wp":  "gonad/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Gonad, sex gland",
+        "ex":  [
+                   [
+                       "Gonadotropin",
+                       "Hormone that stimulates the ovaries or testes"
+                   ],
+                   [
+                       "Gonadal",
+                       "Pertaining to the ovaries or testes"
+                   ],
+                   [
+                       "Hypogonadism",
+                       "Reduced function of the sex glands"
+                   ],
+                   [
+                       "Gonadectomy",
+                       "Surgical removal of an ovary or testis"
+                   ]
+               ]
+    },
+    {
+        "wp":  "iod/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Iodine",
+        "ex":  [
+                   [
+                       "Iodine",
+                       "Element essential for making thyroid hormones"
+                   ],
+                   [
+                       "Radioiodine",
+                       "Radioactive iodine used to image or treat the thyroid"
+                   ],
+                   [
+                       "Iodinated",
+                       "Combined or treated with iodine"
+                   ],
+                   [
+                       "Iodism",
+                       "Toxicity from excess iodine"
+                   ]
+               ]
+    },
+    {
+        "wp":  "kal/i",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Modern Latin) Potassium",
+        "ex":  [
+                   [
+                       "Hyperkalemia",
+                       "Abnormally high level of potassium in the blood"
+                   ],
+                   [
+                       "Hypokalemia",
+                       "Abnormally low level of potassium in the blood"
+                   ],
+                   [
+                       "Kaliuresis",
+                       "Excretion of potassium in the urine"
+                   ],
+                   [
+                       "Normokalemia",
+                       "Normal level of potassium in the blood"
+                   ]
+               ]
+    },
+    {
+        "wp":  "mineral/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Minerals, electrolytes",
+        "ex":  [
+                   [
+                       "Mineralocorticoid",
+                       "Adrenal hormone that regulates salt and water balance"
+                   ],
+                   [
+                       "Demineralization",
+                       "Loss of minerals, especially from bone"
+                   ],
+                   [
+                       "Mineralization",
+                       "Deposit of minerals in tissue such as bone"
+                   ],
+                   [
+                       "Remineralization",
+                       "Restoration of minerals to tissue such as tooth enamel"
+                   ]
+               ]
+    },
+    {
+        "wp":  "natr/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Modern Latin) Sodium",
+        "ex":  [
+                   [
+                       "Hyponatremia",
+                       "Abnormally low level of sodium in the blood"
+                   ],
+                   [
+                       "Hypernatremia",
+                       "Abnormally high level of sodium in the blood"
+                   ],
+                   [
+                       "Natriuretic",
+                       "Promoting the excretion of sodium in the urine"
+                   ],
+                   [
+                       "Natriuresis",
+                       "Excretion of sodium in the urine"
+                   ]
+               ]
+    },
+    {
+        "wp":  "parathyroid/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Parathyroid gland",
+        "ex":  [
+                   [
+                       "Hyperparathyroidism",
+                       "Overactivity of the parathyroid glands"
+                   ],
+                   [
+                       "Parathyroidectomy",
+                       "Surgical removal of a parathyroid gland"
+                   ],
+                   [
+                       "Hypoparathyroidism",
+                       "Underactivity of the parathyroid glands"
+                   ],
+                   [
+                       "Parathyroid hormone",
+                       "Hormone that regulates the level of calcium in the blood"
+                   ]
+               ]
+    },
+    {
+        "wp":  "pituit/o, pituitar/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Pituitary gland",
+        "ex":  [
+                   [
+                       "Hypopituitarism",
+                       "Underactivity of the pituitary gland"
+                   ],
+                   [
+                       "Hyperpituitarism",
+                       "Overactivity of the pituitary gland"
+                   ],
+                   [
+                       "Panhypopituitarism",
+                       "Deficiency of all pituitary hormones"
+                   ],
+                   [
+                       "Pituitary",
+                       "Pertaining to the master gland at the base of the brain"
+                   ]
+               ]
+    },
+    {
+        "wp":  "cycl/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Ciliary body of the eye; circular",
+        "ex":  [
+                   [
+                       "Cycloplegia",
+                       "Paralysis of the ciliary muscle, preventing focusing"
+                   ],
+                   [
+                       "Cyclitis",
+                       "Inflammation of the ciliary body"
+                   ],
+                   [
+                       "Cyclodialysis",
+                       "Surgical separation of the ciliary body to lower eye pressure"
+                   ],
+                   [
+                       "Cyclophotocoagulation",
+                       "Laser treatment of the ciliary body to reduce eye pressure"
+                   ]
+               ]
+    },
+    {
+        "wp":  "dacry/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Tears; tear duct",
+        "ex":  [
+                   [
+                       "Dacryocystitis",
+                       "Inflammation of the tear sac"
+                   ],
+                   [
+                       "Dacryoadenitis",
+                       "Inflammation of the tear gland"
+                   ],
+                   [
+                       "Dacryorrhea",
+                       "Excessive flow of tears"
+                   ],
+                   [
+                       "Dacryolith",
+                       "Stone in the tear duct"
+                   ]
+               ]
+    },
+    {
+        "wp":  "ir/o, irid/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Iris of the eye",
+        "ex":  [
+                   [
+                       "Iritis",
+                       "Inflammation of the iris"
+                   ],
+                   [
+                       "Iridectomy",
+                       "Surgical removal of part of the iris"
+                   ],
+                   [
+                       "Iridoplegia",
+                       "Paralysis of the iris"
+                   ],
+                   [
+                       "Iridodialysis",
+                       "Separation of the iris from its attachment"
+                   ]
+               ]
+    },
+    {
+        "wp":  "phac/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Lens of the eye",
+        "ex":  [
+                   [
+                       "Phacoemulsification",
+                       "Ultrasonic breakup and removal of a cataract lens"
+                   ],
+                   [
+                       "Phacolysis",
+                       "Dissolution or breakdown of the lens"
+                   ],
+                   [
+                       "Phacosclerosis",
+                       "Hardening of the lens"
+                   ],
+                   [
+                       "Phacomalacia",
+                       "Softening of the lens"
+                   ]
+               ]
+    },
+    {
+        "wp":  "presby/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Old age",
+        "ex":  [
+                   [
+                       "Presbyopia",
+                       "Age-related loss of the ability to focus on near objects"
+                   ],
+                   [
+                       "Presbycusis",
+                       "Age-related hearing loss"
+                   ],
+                   [
+                       "Presbyophrenia",
+                       "Memory loss and disorientation associated with old age"
+                   ],
+                   [
+                       "Presbyatrics",
+                       "Medical care of the elderly"
+                   ]
+               ]
+    },
+    {
+        "wp":  "pupill/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Pupil of the eye",
+        "ex":  [
+                   [
+                       "Pupillary",
+                       "Pertaining to the pupil"
+                   ],
+                   [
+                       "Pupillometry",
+                       "Measurement of pupil size and reactivity"
+                   ],
+                   [
+                       "Pupilloplegia",
+                       "Paralysis of the pupil"
+                   ],
+                   [
+                       "Pupilloscopy",
+                       "Examination of the pupil"
+                   ]
+               ]
+    },
+    {
+        "wp":  "uve/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Uvea (middle vascular layer of the eye)",
+        "ex":  [
+                   [
+                       "Uveitis",
+                       "Inflammation of the uvea"
+                   ],
+                   [
+                       "Uveal",
+                       "Pertaining to the uvea"
+                   ],
+                   [
+                       "Uveoscleral",
+                       "Pertaining to the uvea and the sclera"
+                   ],
+                   [
+                       "Uveoparotitis",
+                       "Inflammation of the uvea and the parotid gland"
+                   ]
+               ]
+    },
+    {
+        "wp":  "vitre/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Vitreous body (gel filling the eye)",
+        "ex":  [
+                   [
+                       "Vitreous",
+                       "The clear gel that fills the eyeball"
+                   ],
+                   [
+                       "Vitrectomy",
+                       "Surgical removal of the vitreous gel"
+                   ],
+                   [
+                       "Vitreoretinal",
+                       "Pertaining to the vitreous and the retina"
+                   ],
+                   [
+                       "Vitreopathy",
+                       "Any disease of the vitreous body"
+                   ]
+               ]
+    },
+    {
+        "wp":  "papill/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Nipple-like projection (optic disk; papilla)",
+        "ex":  [
+                   [
+                       "Papilloma",
+                       "Benign nipple-like growth on skin or a mucous membrane"
+                   ],
+                   [
+                       "Papilledema",
+                       "Swelling of the optic disk from raised pressure in the skull"
+                   ],
+                   [
+                       "Papillary",
+                       "Resembling or pertaining to a nipple-like projection"
+                   ],
+                   [
+                       "Papillitis",
+                       "Inflammation of the optic disk"
+                   ]
+               ]
+    },
+    {
+        "wp":  "ambly/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Dull, dim",
+        "ex":  [
+                   [
+                       "Amblyopia",
+                       "Reduced vision in one eye from abnormal visual development; lazy eye"
+                   ],
+                   [
+                       "Amblyoscope",
+                       "Instrument used to train or test the eyes in amblyopia"
+                   ],
+                   [
+                       "Amblyogenic",
+                       "Tending to cause amblyopia"
+                   ],
+                   [
+                       "Amblyaphia",
+                       "Reduced sense of touch"
+                   ]
+               ]
+    },
+    {
+        "wp":  "cerumin/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Cerumen (earwax)",
+        "ex":  [
+                   [
+                       "Cerumen impaction",
+                       "Blockage of the ear canal by hardened earwax"
+                   ],
+                   [
+                       "Ceruminous",
+                       "Pertaining to or producing earwax"
+                   ],
+                   [
+                       "Ceruminolytic",
+                       "Agent that softens and breaks down earwax"
+                   ],
+                   [
+                       "Ceruminoma",
+                       "Tumor of the earwax-producing glands"
+                   ]
+               ]
+    },
+    {
+        "wp":  "cochle/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Cochlea (spiral organ of hearing)",
+        "ex":  [
+                   [
+                       "Cochlear",
+                       "Pertaining to the cochlea"
+                   ],
+                   [
+                       "Cochlear implant",
+                       "Device that restores hearing by stimulating the cochlea"
+                   ],
+                   [
+                       "Cochleitis",
+                       "Inflammation of the cochlea"
+                   ],
+                   [
+                       "Cochleovestibular",
+                       "Pertaining to the cochlea and the vestibular system"
+                   ]
+               ]
+    },
+    {
+        "wp":  "labyrinth/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Labyrinth (inner ear)",
+        "ex":  [
+                   [
+                       "Labyrinthitis",
+                       "Inflammation of the inner ear causing vertigo"
+                   ],
+                   [
+                       "Labyrinthectomy",
+                       "Surgical removal of the labyrinth"
+                   ],
+                   [
+                       "Labyrinthine",
+                       "Pertaining to the inner ear"
+                   ],
+                   [
+                       "Membranous labyrinth",
+                       "Fluid-filled system of channels in the inner ear"
+                   ]
+               ]
+    },
+    {
+        "wp":  "staped/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Latin) Stapes (stirrup bone of the middle ear)",
+        "ex":  [
+                   [
+                       "Stapedectomy",
+                       "Surgical removal of the stapes to treat hearing loss"
+                   ],
+                   [
+                       "Stapedial",
+                       "Pertaining to the stapes"
+                   ],
+                   [
+                       "Stapediotomy",
+                       "Creation of a small opening in the stapes"
+                   ],
+                   [
+                       "Stapedius",
+                       "Smallest skeletal muscle, attached to the stapes"
+                   ]
+               ]
+    },
+    {
+        "wp":  "vestibul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Vestibule (entrance; balance organ of the inner ear)",
+        "ex":  [
+                   [
+                       "Vestibular",
+                       "Pertaining to the inner-ear balance system"
+                   ],
+                   [
+                       "Vestibulocochlear",
+                       "Pertaining to the balance and hearing organs of the inner ear"
+                   ],
+                   [
+                       "Vestibulitis",
+                       "Inflammation of a vestibule"
+                   ],
+                   [
+                       "Vestibuloplasty",
+                       "Surgical reshaping of the vestibule of the mouth"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-orexia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Appetite",
+        "ex":  [
+                   [
+                       "Anorexia",
+                       "Loss of appetite"
+                   ],
+                   [
+                       "Anorexia nervosa",
+                       "Eating disorder marked by self-starvation"
+                   ],
+                   [
+                       "Hyperorexia",
+                       "Excessive appetite"
+                   ],
+                   [
+                       "Dysorexia",
+                       "Disordered or impaired appetite"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-pepsia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Digestion",
+        "ex":  [
+                   [
+                       "Dyspepsia",
+                       "Indigestion or upper abdominal discomfort"
+                   ],
+                   [
+                       "Eupepsia",
+                       "Normal, healthy digestion"
+                   ],
+                   [
+                       "Bradypepsia",
+                       "Slow digestion"
+                   ],
+                   [
+                       "Apepsia",
+                       "Absence of digestion"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-lith",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Stone, calculus",
+        "ex":  [
+                   [
+                       "Nephrolith",
+                       "Kidney stone"
+                   ],
+                   [
+                       "Cholelith",
+                       "Gallstone"
+                   ],
+                   [
+                       "Urolith",
+                       "Stone in the urinary tract"
+                   ],
+                   [
+                       "Fecalith",
+                       "Hardened mass of stool"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-cyesis",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Pregnancy",
+        "ex":  [
+                   [
+                       "Pseudocyesis",
+                       "False pregnancy"
+                   ],
+                   [
+                       "Polycyesis",
+                       "Multiple pregnancy"
+                   ],
+                   [
+                       "Ovariocyesis",
+                       "Pregnancy within an ovary"
+                   ],
+                   [
+                       "Salpingocyesis",
+                       "Pregnancy within a fallopian tube"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-gravida",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Pregnant woman",
+        "ex":  [
+                   [
+                       "Primigravida",
+                       "Woman pregnant for the first time"
+                   ],
+                   [
+                       "Multigravida",
+                       "Woman who has been pregnant more than once"
+                   ],
+                   [
+                       "Nulligravida",
+                       "Woman who has never been pregnant"
+                   ],
+                   [
+                       "Secundigravida",
+                       "Woman pregnant for the second time"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-para",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) To bear offspring",
+        "ex":  [
+                   [
+                       "Primipara",
+                       "Woman who has given birth once"
+                   ],
+                   [
+                       "Multipara",
+                       "Woman who has given birth more than once"
+                   ],
+                   [
+                       "Nullipara",
+                       "Woman who has never given birth"
+                   ],
+                   [
+                       "Grand multipara",
+                       "Woman who has given birth five or more times"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-partum",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Childbirth",
+        "ex":  [
+                   [
+                       "Postpartum",
+                       "Occurring after childbirth"
+                   ],
+                   [
+                       "Antepartum",
+                       "Occurring before childbirth"
+                   ],
+                   [
+                       "Intrapartum",
+                       "Occurring during childbirth"
+                   ],
+                   [
+                       "Peripartum",
+                       "Occurring around the time of childbirth"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-tocia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Labor, childbirth",
+        "ex":  [
+                   [
+                       "Dystocia",
+                       "Difficult or obstructed labor"
+                   ],
+                   [
+                       "Eutocia",
+                       "Normal labor"
+                   ],
+                   [
+                       "Bradytocia",
+                       "Slow labor"
+                   ],
+                   [
+                       "Oxytocia",
+                       "Unusually rapid labor"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-arche",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Beginning, onset",
+        "ex":  [
+                   [
+                       "Menarche",
+                       "Onset of menstruation"
+                   ],
+                   [
+                       "Thelarche",
+                       "Onset of breast development"
+                   ],
+                   [
+                       "Adrenarche",
+                       "Onset of androgen production by the adrenal glands"
+                   ],
+                   [
+                       "Pubarche",
+                       "Onset of pubic hair growth"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-cide",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) To kill; a killing agent",
+        "ex":  [
+                   [
+                       "Spermicide",
+                       "Agent that kills sperm"
+                   ],
+                   [
+                       "Bactericide",
+                       "Agent that kills bacteria"
+                   ],
+                   [
+                       "Fungicide",
+                       "Agent that kills fungi"
+                   ],
+                   [
+                       "Virucide",
+                       "Agent that destroys viruses"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-dipsia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Thirst",
+        "ex":  [
+                   [
+                       "Polydipsia",
+                       "Excessive thirst"
+                   ],
+                   [
+                       "Adipsia",
+                       "Absence of thirst"
+                   ],
+                   [
+                       "Oligodipsia",
+                       "Diminished thirst"
+                   ],
+                   [
+                       "Dipsomania",
+                       "Compulsive craving for alcohol"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-tropic",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Turning toward; stimulating",
+        "ex":  [
+                   [
+                       "Psychotropic",
+                       "Acting on the mind"
+                   ],
+                   [
+                       "Gonadotropic",
+                       "Stimulating the ovaries or testes"
+                   ],
+                   [
+                       "Thyrotropic",
+                       "Stimulating the thyroid gland"
+                   ],
+                   [
+                       "Adrenotropic",
+                       "Stimulating the adrenal gland"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-tropin",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Hormone that stimulates",
+        "ex":  [
+                   [
+                       "Gonadotropin",
+                       "Hormone that stimulates the ovaries or testes"
+                   ],
+                   [
+                       "Somatotropin",
+                       "Growth hormone"
+                   ],
+                   [
+                       "Corticotropin",
+                       "Hormone that stimulates the adrenal cortex"
+                   ],
+                   [
+                       "Thyrotropin",
+                       "Hormone that stimulates the thyroid gland"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-tropia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Turned condition of the eye",
+        "ex":  [
+                   [
+                       "Esotropia",
+                       "Inward turning of an eye"
+                   ],
+                   [
+                       "Exotropia",
+                       "Outward turning of an eye"
+                   ],
+                   [
+                       "Hypertropia",
+                       "Upward turning of an eye"
+                   ],
+                   [
+                       "Hypotropia",
+                       "Downward turning of an eye"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-cusis",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Hearing",
+        "ex":  [
+                   [
+                       "Presbycusis",
+                       "Age-related hearing loss"
+                   ],
+                   [
+                       "Hyperacusis",
+                       "Abnormal sensitivity to sound"
+                   ],
+                   [
+                       "Anacusis",
+                       "Total loss of hearing"
+                   ],
+                   [
+                       "Hypacusis",
+                       "Diminished hearing"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-phasia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Speech",
+        "ex":  [
+                   [
+                       "Aphasia",
+                       "Loss of the ability to speak or understand language"
+                   ],
+                   [
+                       "Dysphasia",
+                       "Impaired ability to produce or understand speech"
+                   ],
+                   [
+                       "Paraphasia",
+                       "Use of wrong or jumbled words in speech"
+                   ],
+                   [
+                       "Bradyphasia",
+                       "Abnormally slow speech"
+                   ]
+               ]
+    },
+    {
+        "wp":  "eso-",
+        "t":  "p",
+        "lvl":  2,
+        "d":  "(Greek) Inward",
+        "ex":  [
+                   [
+                       "Esotropia",
+                       "Inward turning of an eye"
+                   ],
+                   [
+                       "Esophoria",
+                       "Tendency of an eye to turn inward"
+                   ],
+                   [
+                       "Esodeviation",
+                       "Inward deviation of an eye"
+                   ],
+                   [
+                       "Esophoric",
+                       "Pertaining to inward turning of an eye"
+                   ]
+               ]
+    },
+    {
+        "wp":  "non-",
+        "t":  "p",
+        "lvl":  2,
+        "d":  "(Latin) Not, absence of",
+        "ex":  [
+                   [
+                       "Noninvasive",
+                       "Not requiring entry into the body"
+                   ],
+                   [
+                       "Nonspecific",
+                       "Not specific to a particular cause or disease"
+                   ],
+                   [
+                       "Nonunion",
+                       "Failure of a fractured bone to heal together"
+                   ],
+                   [
+                       "Noncompliance",
+                       "Failure to follow a prescribed treatment"
+                   ]
+               ]
+    },
+    {
+        "wp":  "primi-",
+        "t":  "p",
+        "lvl":  2,
+        "d":  "(Latin) First",
+        "ex":  [
+                   [
+                       "Primary",
+                       "First in order, time, or importance"
+                   ],
+                   [
+                       "Primigravida",
+                       "Woman pregnant for the first time"
+                   ],
+                   [
+                       "Primipara",
+                       "Woman who has given birth for the first time"
+                   ],
+                   [
+                       "Primordial",
+                       "Existing from the beginning; earliest formed"
+                   ]
+               ]
+    },
+    {
+        "wp":  "alges/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Sensitivity to pain",
+        "ex":  [
+                   [
+                       "Analgesic",
+                       "Drug that relieves pain"
+                   ],
+                   [
+                       "Analgesia",
+                       "Absence of pain"
+                   ],
+                   [
+                       "Hyperalgesia",
+                       "Increased sensitivity to pain"
+                   ],
+                   [
+                       "Algesimeter",
+                       "Instrument that measures sensitivity to pain"
+                   ]
+               ]
+    },
+    {
+        "wp":  "astr/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Star; star-shaped",
+        "ex":  [
+                   [
+                       "Astrocyte",
+                       "Star-shaped supporting cell of the nervous system"
+                   ],
+                   [
+                       "Astrocytoma",
+                       "Tumor arising from astrocytes"
+                   ],
+                   [
+                       "Astroglia",
+                       "Star-shaped glial cells considered collectively"
+                   ],
+                   [
+                       "Astroblast",
+                       "Immature astrocyte"
+                   ]
+               ]
+    },
+    {
+        "wp":  "dur/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Dura mater (tough outer membrane of the brain and cord)",
+        "ex":  [
+                   [
+                       "Epidural",
+                       "Located above or outside the dura mater"
+                   ],
+                   [
+                       "Subdural",
+                       "Located beneath the dura mater"
+                   ],
+                   [
+                       "Dural",
+                       "Pertaining to the dura mater"
+                   ],
+                   [
+                       "Durotomy",
+                       "Surgical incision of the dura mater"
+                   ]
+               ]
+    },
+    {
+        "wp":  "gli/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Glue; neuroglia (supportive nerve tissue)",
+        "ex":  [
+                   [
+                       "Glioma",
+                       "Tumor of the glial cells"
+                   ],
+                   [
+                       "Glioblastoma",
+                       "Aggressive malignant brain tumor of glial origin"
+                   ],
+                   [
+                       "Glial",
+                       "Pertaining to the supportive tissue of the nervous system"
+                   ],
+                   [
+                       "Gliosis",
+                       "Scarring of nervous tissue from proliferation of glial cells"
+                   ]
+               ]
+    },
+    {
+        "wp":  "ment/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Mind",
+        "ex":  [
+                   [
+                       "Mental",
+                       "Pertaining to the mind"
+                   ],
+                   [
+                       "Dementia",
+                       "Progressive decline in memory and thinking"
+                   ],
+                   [
+                       "Mentation",
+                       "Mental activity"
+                   ],
+                   [
+                       "Amentia",
+                       "Severe deficiency of mental development"
+                   ]
+               ]
+    },
+    {
+        "wp":  "ped/o, pedi-",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Child; (Latin) foot",
+        "ex":  [
+                   [
+                       "Pediatrics",
+                       "Branch of medicine that cares for children"
+                   ],
+                   [
+                       "Pedodontics",
+                       "Dentistry for children"
+                   ],
+                   [
+                       "Pedal",
+                       "Pertaining to the foot, as in pedal edema"
+                   ],
+                   [
+                       "Pedicure",
+                       "Cosmetic and hygienic care of the feet and toenails"
+                   ]
+               ]
+    },
+    {
+        "wp":  "pont/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Latin) Pons (part of the brainstem)",
+        "ex":  [
+                   [
+                       "Pontine",
+                       "Pertaining to the pons"
+                   ],
+                   [
+                       "Pontomedullary",
+                       "Pertaining to the pons and the medulla"
+                   ],
+                   [
+                       "Pontocerebellar",
+                       "Pertaining to the pons and the cerebellum"
+                   ],
+                   [
+                       "Pontine hemorrhage",
+                       "Bleeding within the pons"
+                   ]
+               ]
+    },
+    {
+        "wp":  "thalam/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Thalamus (relay center of the brain)",
+        "ex":  [
+                   [
+                       "Thalamic",
+                       "Pertaining to the thalamus"
+                   ],
+                   [
+                       "Thalamotomy",
+                       "Surgical destruction of part of the thalamus"
+                   ],
+                   [
+                       "Thalamocortical",
+                       "Pertaining to the thalamus and the cerebral cortex"
+                   ],
+                   [
+                       "Thalamostriate",
+                       "Pertaining to the thalamus and the striate body"
+                   ]
+               ]
+    },
+    {
+        "wp":  "un-",
+        "t":  "p",
+        "lvl":  1,
+        "d":  "(English) Not, reversal of",
+        "ex":  [
+                   [
+                       "Unconscious",
+                       "Not awake or aware"
+                   ],
+                   [
+                       "Unresponsive",
+                       "Not reacting to stimuli"
+                   ],
+                   [
+                       "Unremarkable",
+                       "Showing nothing abnormal"
+                   ],
+                   [
+                       "Unstable",
+                       "Not steady; liable to change suddenly"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-an",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Latin) Pertaining to",
+        "ex":  [
+                   [
+                       "Ovarian",
+                       "Pertaining to an ovary"
+                   ],
+                   [
+                       "Median",
+                       "Situated in the middle"
+                   ],
+                   [
+                       "Fallopian",
+                       "Pertaining to the fallopian tubes"
+                   ],
+                   [
+                       "Eustachian",
+                       "Pertaining to the eustachian tube of the ear"
+                   ]
+               ]
+    },
+    {
+        "wp":  "coccyg/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Coccyx (tailbone)",
+        "ex":  [
+                   [
+                       "Coccygeal",
+                       "Pertaining to the coccyx"
+                   ],
+                   [
+                       "Coccydynia",
+                       "Pain in the coccyx"
+                   ],
+                   [
+                       "Coccygectomy",
+                       "Surgical removal of the coccyx"
+                   ],
+                   [
+                       "Sacrococcygeal",
+                       "Pertaining to the sacrum and the coccyx"
+                   ]
+               ]
+    },
+    {
+        "wp":  "fibul/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Fibula (smaller bone of the lower leg)",
+        "ex":  [
+                   [
+                       "Fibular",
+                       "Pertaining to the fibula"
+                   ],
+                   [
+                       "Tibiofibular",
+                       "Pertaining to the tibia and the fibula"
+                   ],
+                   [
+                       "Common fibular nerve",
+                       "Lower-leg nerve that wraps around the fibula"
+                   ],
+                   [
+                       "Fibulectomy",
+                       "Surgical removal of the fibula"
+                   ]
+               ]
+    },
+    {
+        "wp":  "metatars/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Metatarsus (bones of the midfoot)",
+        "ex":  [
+                   [
+                       "Metatarsal",
+                       "Pertaining to the bones of the midfoot"
+                   ],
+                   [
+                       "Metatarsalgia",
+                       "Pain in the metatarsal region"
+                   ],
+                   [
+                       "Metatarsectomy",
+                       "Surgical removal of a metatarsal bone"
+                   ],
+                   [
+                       "Tarsometatarsal",
+                       "Pertaining to the tarsus and the metatarsus"
+                   ]
+               ]
+    },
+    {
+        "wp":  "sphygm/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Pulse",
+        "ex":  [
+                   [
+                       "Sphygmomanometer",
+                       "Instrument for measuring blood pressure"
+                   ],
+                   [
+                       "Sphygmograph",
+                       "Instrument that records the pulse"
+                   ],
+                   [
+                       "Sphygmometer",
+                       "Instrument for measuring the pulse"
+                   ],
+                   [
+                       "Sphygmic",
+                       "Pertaining to the pulse"
+                   ]
+               ]
+    },
+    {
+        "wp":  "venul/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Latin) Venule (small vein)",
+        "ex":  [
+                   [
+                       "Venule",
+                       "Small vein that drains blood from the capillaries"
+                   ],
+                   [
+                       "Venular",
+                       "Pertaining to a venule"
+                   ],
+                   [
+                       "Postcapillary venule",
+                       "Small vein located just beyond a capillary bed"
+                   ],
+                   [
+                       "Venulitis",
+                       "Inflammation of the venules"
+                   ]
+               ]
+    },
+    {
+        "wp":  "arteriol/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Latin) Arteriole (small artery)",
+        "ex":  [
+                   [
+                       "Arteriole",
+                       "Small artery that leads into the capillaries"
+                   ],
+                   [
+                       "Arteriolar",
+                       "Pertaining to an arteriole"
+                   ],
+                   [
+                       "Arteriolosclerosis",
+                       "Hardening of the walls of the arterioles"
+                   ],
+                   [
+                       "Arteriolitis",
+                       "Inflammation of the arterioles"
+                   ]
+               ]
+    },
+    {
+        "wp":  "sanguin/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Latin) Blood",
+        "ex":  [
+                   [
+                       "Exsanguination",
+                       "Severe loss of blood"
+                   ],
+                   [
+                       "Consanguinity",
+                       "Blood relationship between people"
+                   ],
+                   [
+                       "Sanguineous",
+                       "Pertaining to or containing blood"
+                   ],
+                   [
+                       "Sanguinolent",
+                       "Tinged with blood"
+                   ]
+               ]
+    },
+    {
+        "wp":  "sialaden/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Salivary gland",
+        "ex":  [
+                   [
+                       "Sialadenitis",
+                       "Inflammation of a salivary gland"
+                   ],
+                   [
+                       "Sialadenectomy",
+                       "Surgical removal of a salivary gland"
+                   ],
+                   [
+                       "Sialadenosis",
+                       "Non-inflammatory enlargement of the salivary glands"
+                   ],
+                   [
+                       "Sialadenography",
+                       "Imaging of the salivary glands"
+                   ]
+               ]
+    },
+    {
+        "wp":  "hymen/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Hymen",
+        "ex":  [
+                   [
+                       "Hymenal",
+                       "Pertaining to the hymen"
+                   ],
+                   [
+                       "Imperforate hymen",
+                       "Hymen that completely closes the vaginal opening"
+                   ],
+                   [
+                       "Hymenectomy",
+                       "Surgical removal of the hymen"
+                   ],
+                   [
+                       "Hymenotomy",
+                       "Surgical incision of the hymen"
+                   ]
+               ]
+    },
+    {
+        "wp":  "culd/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(French) Cul-de-sac (rectouterine pouch)",
+        "ex":  [
+                   [
+                       "Culdocentesis",
+                       "Withdrawal of fluid from the rectouterine pouch"
+                   ],
+                   [
+                       "Culdoscopy",
+                       "Endoscopic examination of the rectouterine pouch"
+                   ],
+                   [
+                       "Culdotomy",
+                       "Surgical incision into the rectouterine pouch"
+                   ],
+                   [
+                       "Culdoplasty",
+                       "Surgical repair of the rectouterine pouch"
+                   ]
+               ]
+    },
+    {
+        "wp":  "pareun/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Sexual intercourse",
+        "ex":  [
+                   [
+                       "Dyspareunia",
+                       "Painful sexual intercourse"
+                   ],
+                   [
+                       "Apareunia",
+                       "Inability to have sexual intercourse"
+                   ],
+                   [
+                       "Eupareunia",
+                       "Normal and satisfactory sexual intercourse"
+                   ]
+               ]
+    },
+    {
+        "wp":  "pineal/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Latin) Pineal gland",
+        "ex":  [
+                   [
+                       "Pinealoma",
+                       "Tumor of the pineal gland"
+                   ],
+                   [
+                       "Pinealectomy",
+                       "Surgical removal of the pineal gland"
+                   ],
+                   [
+                       "Pinealocyte",
+                       "Cell of the pineal gland"
+                   ],
+                   [
+                       "Pineal",
+                       "Pertaining to the pineal gland"
+                   ]
+               ]
+    },
+    {
+        "wp":  "centr/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Center",
+        "ex":  [
+                   [
+                       "Centromere",
+                       "Constricted central region of a chromosome"
+                   ],
+                   [
+                       "Centrosome",
+                       "Cell structure that organizes microtubules during division"
+                   ],
+                   [
+                       "Centriole",
+                       "Small cylindrical structure within the centrosome"
+                   ],
+                   [
+                       "Centrencephalic",
+                       "Pertaining to the center of the brain"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-cardia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Heart rate or rhythm condition",
+        "ex":  [
+                   [
+                       "Tachycardia",
+                       "Abnormally rapid heart rate"
+                   ],
+                   [
+                       "Bradycardia",
+                       "Abnormally slow heart rate"
+                   ],
+                   [
+                       "Dextrocardia",
+                       "Congenital positioning of the heart toward the right side"
+                   ],
+                   [
+                       "Levocardia",
+                       "Normal leftward positioning of the heart"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-cytosis",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Abnormal increase in cells",
+        "ex":  [
+                   [
+                       "Leukocytosis",
+                       "Increased number of white blood cells"
+                   ],
+                   [
+                       "Thrombocytosis",
+                       "Increased number of platelets"
+                   ],
+                   [
+                       "Erythrocytosis",
+                       "Increased number of red blood cells"
+                   ],
+                   [
+                       "Lymphocytosis",
+                       "Increased number of lymphocytes"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-tonic",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Relating to tone or osmotic pressure",
+        "ex":  [
+                   [
+                       "Hypertonic",
+                       "Having a greater solute concentration than another solution"
+                   ],
+                   [
+                       "Hypotonic",
+                       "Having a lower solute concentration than another solution"
+                   ],
+                   [
+                       "Isotonic",
+                       "Having an equal solute concentration to another solution"
+                   ],
+                   [
+                       "Atonic",
+                       "Lacking normal muscle tone"
+                   ]
+               ]
+    },
+    {
+        "wp":  "ket/o, keton/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Ketones",
+        "ex":  [
+                   [
+                       "Ketoacidosis",
+                       "Dangerous buildup of ketones and acid in the blood"
+                   ],
+                   [
+                       "Ketosis",
+                       "Metabolic state of elevated ketones"
+                   ],
+                   [
+                       "Ketonuria",
+                       "Presence of ketones in the urine"
+                   ],
+                   [
+                       "Ketogenic",
+                       "Producing ketones, as a high-fat diet"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-spermia",
+        "t":  "s",
+        "lvl":  2,
+        "d":  "(Greek) Condition of the sperm or semen",
+        "ex":  [
+                   [
+                       "Azoospermia",
+                       "Absence of sperm in the semen"
+                   ],
+                   [
+                       "Oligospermia",
+                       "Abnormally low sperm count"
+                   ],
+                   [
+                       "Asthenospermia",
+                       "Reduced sperm motility"
+                   ],
+                   [
+                       "Necrospermia",
+                       "Presence of dead or nonmotile sperm"
+                   ]
+               ]
+    },
+    {
+        "wp":  "system/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Body system; affecting the whole body",
+        "ex":  [
+                   [
+                       "Systemic",
+                       "Affecting the entire body rather than a single part"
+                   ],
+                   [
+                       "Multisystem",
+                       "Involving multiple organ systems"
+                   ],
+                   [
+                       "Systemic circulation",
+                       "Body-wide blood circuit, as distinct from the pulmonary circuit"
                    ]
                ]
     }

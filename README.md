@@ -1,6 +1,6 @@
 # Medi Lexi
 
-**v1.188** · [medilexi.vercel.app](https://medilexi.vercel.app) · Built by [372dev](https://github.com/372dev)
+**v1.191** · [medilexi.vercel.app](https://medilexi.vercel.app) · Built by [372dev](https://github.com/372dev)
 
 A multilingual medical terminology reference and study platform for students, medical interpreters, and translators — a structured glossary plus flashcards and word-part breakdowns.
 
@@ -9,8 +9,6 @@ A multilingual medical terminology reference and study platform for students, me
 - Flashcards (study & quiz) · day / night theme · IME-safe fuzzy search
 
 Built with Next.js 14 (App Router), TypeScript, and Fuse.js. Auto-deploys to Vercel on every push.
-
-Full patch notes: [CHANGELOG.md](CHANGELOG.md)
 
 ---
 

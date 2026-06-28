@@ -2851,12 +2851,12 @@
     {
         "wp":  "-gravida",
         "t":  "s",
-        "d":  "(Latin) Pregnant woman"
+        "d":  "(Latin) Pregnant woman (pregnancies)"
     },
     {
         "wp":  "-para",
         "t":  "s",
-        "d":  "(Latin) To bear offspring"
+        "d":  "(Latin) Woman who has given birth (births)"
     },
     {
         "wp":  "-partum",

@@ -12508,7 +12508,7 @@
         "wp":  "-gravida",
         "t":  "s",
         "lvl":  2,
-        "d":  "(Latin) Pregnant woman",
+        "d":  "(Latin) Pregnant woman (pregnancies)",
         "ex":  [
                    [
                        "Primigravida",
@@ -12532,7 +12532,7 @@
         "wp":  "-para",
         "t":  "s",
         "lvl":  2,
-        "d":  "(Latin) To bear offspring",
+        "d":  "(Latin) Woman who has given birth (births)",
         "ex":  [
                    [
                        "Primipara",

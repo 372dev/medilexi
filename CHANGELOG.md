@@ -1,13 +1,13 @@
 # Changelog
 
 Notable changes to **Medi Lexi**, newest first. The site auto-deploys to Vercel on
-every push, so each dated group is roughly one day's batch of work. "Version" refers
-to the banner version in `README.md`; sections without a version are unreleased work
-on top of the last tagged version.
+every push. From **v1.188** the version number tracks the commit count — each notable
+change is logged as the next number (v1.189, v1.190, …). Earlier entries (v1.19, v1.20)
+used the older semantic scheme.
 
 ---
 
-## Unreleased — on top of v1.20
+## v1.188 — 2026-06-28
 
 ### 2026-06-28 — Search ranking overhaul
 - **Relevance-tier ranking** across the English, French, and Korean glossaries and the word-parts page, replacing the old "which field matched" sort: exact → field prefix → word-start → substring → fuzzy term → definition-only. An exact abbreviation (e.g. `EEG`) now ranks first instead of being buried under stray fuzzy hits.

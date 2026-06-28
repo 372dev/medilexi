@@ -1569,33 +1569,6 @@
                ]
     },
     {
-        "wp":  "quad/r-",
-        "t":  "p",
-        "lvl":  1,
-        "d":  "(Latin) Four",
-        "ex":  [
-                   [
-                       "Quadriplegia",
-                       "Paralysis of all four limbs"
-                   ],
-                   [
-                       "Quadrant",
-                       "One of four sections of the abdomen"
-                   ],
-                   [
-                       "Quadriceps",
-                       "Group of four anterior thigh muscles that extend the knee joint"
-                   ],
-                   [
-                       "Quadruplet",
-                       "One of four offspring born from a single pregnancy"
-                   ]
-               ],
-        "syn":  [
-                    "tetra-"
-                ]
-    },
-    {
         "wp":  "semi-",
         "t":  "p",
         "lvl":  2,
@@ -13936,6 +13909,150 @@
                    [
                        "Anaplasia",
                        "Loss of cell differentiation characteristic of malignancy"
+                   ]
+               ]
+    },
+    {
+        "wp":  "mot/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Movement",
+        "ex":  [
+                   [
+                       "Locomotor",
+                       "Relating to movement from place to place"
+                   ],
+                   [
+                       "Oculomotor",
+                       "Relating to or controlling movements of the eye"
+                   ],
+                   [
+                       "Vasomotor",
+                       "Controlling the diameter of blood vessels"
+                   ],
+                   [
+                       "Psychomotor",
+                       "Relating to movement arising from mental activity"
+                   ]
+               ]
+    },
+    {
+        "wp":  "physi/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Nature, function",
+        "ex":  [
+                   [
+                       "Physiology",
+                       "Study of the normal functions of living organisms"
+                   ],
+                   [
+                       "Physiotherapy",
+                       "Treatment using physical methods to restore movement and function"
+                   ],
+                   [
+                       "Physiologic",
+                       "Relating to normal body function"
+                   ],
+                   [
+                       "Physiatrist",
+                       "Physician specializing in physical medicine and rehabilitation"
+                   ]
+               ]
+    },
+    {
+        "wp":  "cortic/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Cortex, outer layer",
+        "ex":  [
+                   [
+                       "Corticosteroid",
+                       "Steroid hormone of the adrenal cortex or its synthetic analog"
+                   ],
+                   [
+                       "Corticospinal",
+                       "Relating to the motor pathway from cerebral cortex to spinal cord"
+                   ],
+                   [
+                       "Adrenocortical",
+                       "Relating to the cortex of the adrenal gland"
+                   ],
+                   [
+                       "Corticotropin",
+                       "Hormone that stimulates the adrenal cortex to produce steroids"
+                   ]
+               ]
+    },
+    {
+        "wp":  "medi/o",
+        "t":  "r",
+        "lvl":  3,
+        "d":  "(Latin) Middle",
+        "ex":  [
+                   [
+                       "Medial",
+                       "Pertaining to or located toward the midline"
+                   ],
+                   [
+                       "Median",
+                       "Situated in the middle of the body or a structure"
+                   ],
+                   [
+                       "Mediastinum",
+                       "Central compartment of the chest between the lungs"
+                   ],
+                   [
+                       "Mediolateral",
+                       "Extending from the midline toward the side"
+                   ]
+               ]
+    },
+    {
+        "wp":  "part/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Childbirth, labor",
+        "ex":  [
+                   [
+                       "Parturition",
+                       "The process of giving birth"
+                   ],
+                   [
+                       "Postpartum",
+                       "Occurring in the period after childbirth"
+                   ],
+                   [
+                       "Antepartum",
+                       "Occurring in the period before childbirth"
+                   ],
+                   [
+                       "Parturient",
+                       "About to give birth; a woman in labor"
+                   ]
+               ]
+    },
+    {
+        "wp":  "quadri-",
+        "t":  "p",
+        "lvl":  2,
+        "d":  "(Latin) Four",
+        "ex":  [
+                   [
+                       "Quadriplegia",
+                       "Paralysis of all four limbs"
+                   ],
+                   [
+                       "Quadriceps",
+                       "The four-headed muscle group at the front of the thigh"
+                   ],
+                   [
+                       "Quadrant",
+                       "One of four regions, as in the quadrants of the abdomen"
+                   ],
+                   [
+                       "Quadripara",
+                       "A woman who has given birth four times"
                    ]
                ]
     }

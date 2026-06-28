@@ -3036,7 +3036,8 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "ot/o"
+                                "ot/o",
+                                "medi/o"
                             ],
                       "s":  [
                                 "-itis"
@@ -4892,6 +4893,7 @@
                                 "post-"
                             ],
                       "r":  [
+                                "part/o",
                                 "hem/o"
                             ],
                       "s":  [
@@ -6716,6 +6718,9 @@
         "d":  "Treatment using exercise, manual therapy, and physical modalities to restore function and mobility and reduce pain after injury or illness.",
         "lvl":  3,
         "parts":  {
+                      "r":  [
+                                "physi/o"
+                            ],
                       "s":  [
                                 "-therapy"
                             ]
@@ -6745,7 +6750,12 @@
                   "Orthopedics"
               ],
         "d":  "The extent of movement achievable at a joint, measured to assess injury, monitor recovery, and guide rehabilitation.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "mot/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Speech therapy",
@@ -8919,7 +8929,8 @@
         "lvl":  1,
         "parts":  {
                       "r":  [
-                                "ocul/o"
+                                "ocul/o",
+                                "mot/o"
                             ]
                   }
     },
@@ -9256,6 +9267,9 @@
         "parts":  {
                       "p":  [
                                 "post-"
+                            ],
+                      "r":  [
+                                "part/o"
                             ]
                   }
     },
@@ -13340,6 +13354,9 @@
                   "Rehabilitation Medicine"
               ],
         "parts":  {
+                      "r":  [
+                                "physi/o"
+                            ],
                       "s":  [
                                 "-therapy"
                             ]
@@ -13492,6 +13509,9 @@
                   "Rehabilitation Medicine"
               ],
         "parts":  {
+                      "p":  [
+                                "quadri-"
+                            ],
                       "s":  [
                                 "-plegia"
                             ]
@@ -14273,7 +14293,12 @@
                   "Neurology"
               ],
         "lvl":  2,
-        "d":  "Major peripheral nerve of the upper limb supplying sensation to the palm and motor function to the thenar muscles, compressed in carpal tunnel syndrome."
+        "d":  "Major peripheral nerve of the upper limb supplying sensation to the palm and motor function to the thenar muscles, compressed in carpal tunnel syndrome.",
+        "parts":  {
+                      "r":  [
+                                "medi/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Antigen",
@@ -14749,7 +14774,15 @@
                   "Anatomy"
               ],
         "lvl":  3,
-        "d":  "Directional term indicating a position closer to the midline of the body."
+        "d":  "Directional term indicating a position closer to the midline of the body.",
+        "parts":  {
+                      "r":  [
+                                "medi/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Lateral",
@@ -16153,7 +16186,15 @@
                   "Pharmacology"
               ],
         "lvl":  3,
-        "d":  "A topical corticosteroid preparation that reduces skin inflammation, itching, and redness; hydrocortisone (Cortaid), triamcinolone (Kenalog), and betamethasone (Diprolene) are common formulations."
+        "d":  "A topical corticosteroid preparation that reduces skin inflammation, itching, and redness; hydrocortisone (Cortaid), triamcinolone (Kenalog), and betamethasone (Diprolene) are common formulations.",
+        "parts":  {
+                      "r":  [
+                                "cortic/o"
+                            ],
+                      "s":  [
+                                "-oid"
+                            ]
+                  }
     },
     {
         "en_h":  "Anterior",
@@ -16498,7 +16539,7 @@
         "lvl":  2,
         "parts":  {
                       "p":  [
-                                "quad/r-"
+                                "quadri-"
                             ]
                   }
     },
@@ -17176,6 +17217,7 @@
         "parts":  {
                       "r":  [
                                 "adren/o",
+                                "cortic/o",
                                 "carcin/o"
                             ],
                       "s":  [

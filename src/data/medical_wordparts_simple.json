@@ -440,12 +440,6 @@
         "alt":  "poly-, multi-"
     },
     {
-        "wp":  "quad/r-",
-        "t":  "p",
-        "d":  "(Latin) Four",
-        "alt":  "quad/r-, tetra-"
-    },
-    {
         "wp":  "semi-",
         "t":  "p",
         "d":  "(Latin) Half, partial",
@@ -3284,5 +3278,35 @@
         "wp":  "ana-",
         "t":  "p",
         "d":  "(Greek) Up, apart, again"
+    },
+    {
+        "wp":  "mot/o",
+        "t":  "r",
+        "d":  "(Latin) Movement"
+    },
+    {
+        "wp":  "physi/o",
+        "t":  "r",
+        "d":  "(Greek) Nature, function"
+    },
+    {
+        "wp":  "cortic/o",
+        "t":  "r",
+        "d":  "(Latin) Cortex, outer layer"
+    },
+    {
+        "wp":  "medi/o",
+        "t":  "r",
+        "d":  "(Latin) Middle"
+    },
+    {
+        "wp":  "part/o",
+        "t":  "r",
+        "d":  "(Latin) Childbirth, labor"
+    },
+    {
+        "wp":  "quadri-",
+        "t":  "p",
+        "d":  "(Latin) Four"
     }
 ]

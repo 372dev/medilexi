@@ -1726,7 +1726,7 @@
                   "Pharmacology",
                   "Family Medicine"
               ],
-        "d":  "A medication that reduces elevated body temperature (fever); commonly combined with analgesics (e.g. acetaminophen, ibuprofen).",
+        "d":  "A medication that reduces elevated body temperature (fever); acetaminophen (Tylenol), ibuprofen (Advil), and aspirin (Bayer) are common agents.",
         "lvl":  3,
         "parts":  {
                       "p":  [
@@ -16100,7 +16100,7 @@
                   "Pharmacology"
               ],
         "lvl":  3,
-        "d":  "Agent that produces loss of sensation with or without loss of consciousness, classified as local (affecting a specific area) or general (affecting the whole body).",
+        "d":  "A drug that produces reversible loss of sensation (local) or consciousness (general); lidocaine (Xylocaine), propofol (Diprivan), and sevoflurane (Ultane) are common agents.",
         "parts":  {
                       "p":  [
                                 "an-"

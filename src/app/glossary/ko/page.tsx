@@ -131,7 +131,7 @@ function matchTierKo(item: MergedEntry, matches: readonly { key?: string }[] | u
   const nonEmpty = terms.filter(t => t !== '')
   if (nonEmpty.some(t => t === ql)) return 0
   if (nonEmpty.some(t => t.startsWith(ql))) return 1
-  const wordStart = (s: string) => s.split(/[^\p{L}\p{N}]+/u).some(w => w.startsWith(ql))
+  const wordStart = (s: string) => s.split(/[\s\-/]+/).some(w => w.startsWith(ql))
   if (nonEmpty.some(t => wordStart(t))) return 2
   if (nonEmpty.some(t => t.includes(ql))) return 3
   const keys = new Set((matches ?? []).map(m => m.key))

@@ -15943,7 +15943,12 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Application of a chemical peel to remove outer skin layers and promote resurfacing, used to treat acne scars, fine lines, and pigmentation irregularities."
+        "d":  "Application of a chemical peel to remove outer skin layers and promote resurfacing, used to treat acne scars, fine lines, and pigmentation irregularities.",
+        "parts":  {
+                      "r":  [
+                                "chem/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Dermabrasion",
@@ -15951,7 +15956,12 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Mechanical skin resurfacing using a rotating abrasive device to remove superficial skin layers, used for scars, wrinkles, and tattoo removal."
+        "d":  "Mechanical skin resurfacing using a rotating abrasive device to remove superficial skin layers, used for scars, wrinkles, and tattoo removal.",
+        "parts":  {
+                      "r":  [
+                                "derm/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Laser therapy",
@@ -15960,7 +15970,12 @@
                   "Surgery"
               ],
         "lvl":  2,
-        "d":  "Use of focused light energy to treat skin conditions including vascular lesions, pigmentation, scars, hair removal, and skin resurfacing."
+        "d":  "Use of focused light energy to treat skin conditions including vascular lesions, pigmentation, scars, hair removal, and skin resurfacing.",
+        "parts":  {
+                      "s":  [
+                                "-therapy"
+                            ]
+                  }
     },
     {
         "en_h":  "Liposuction",
@@ -15969,7 +15984,12 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "A surgical procedure that removes subcutaneous fat deposits by suction through small incisions, used for body contouring."
+        "d":  "A surgical procedure that removes subcutaneous fat deposits by suction through small incisions, used for body contouring.",
+        "parts":  {
+                      "r":  [
+                                "lip/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Rhytidectomy",
@@ -15979,7 +15999,15 @@
                   "Dermatology"
               ],
         "lvl":  1,
-        "d":  "Surgical removal of excess facial skin and tightening of underlying tissues to reduce the appearance of wrinkles and facial sagging."
+        "d":  "Surgical removal of excess facial skin and tightening of underlying tissues to reduce the appearance of wrinkles and facial sagging.",
+        "parts":  {
+                      "r":  [
+                                "rhytid/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     },
     {
         "en_h":  "Anesthetic",
@@ -15988,7 +16016,15 @@
                   "Pharmacology"
               ],
         "lvl":  3,
-        "d":  "Agent that produces loss of sensation with or without loss of consciousness, classified as local (affecting a specific area) or general (affecting the whole body)."
+        "d":  "Agent that produces loss of sensation with or without loss of consciousness, classified as local (affecting a specific area) or general (affecting the whole body).",
+        "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Antifungal",
@@ -15997,7 +16033,15 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "A drug that kills or inhibits fungal growth; fluconazole (Diflucan), terbinafine (Lamisil), and clotrimazole (Lotrimin) are commonly used agents."
+        "d":  "A drug that kills or inhibits fungal growth; fluconazole (Diflucan), terbinafine (Lamisil), and clotrimazole (Lotrimin) are commonly used agents.",
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Antiparasitic",
@@ -16006,7 +16050,15 @@
                   "Infectious Disease"
               ],
         "lvl":  2,
-        "d":  "A drug acting against parasites including protozoa, helminths, and ectoparasites; metronidazole (Flagyl), ivermectin (Stromectol), and albendazole (Albenza) are key agents."
+        "d":  "A drug acting against parasites including protozoa, helminths, and ectoparasites; metronidazole (Flagyl), ivermectin (Stromectol), and albendazole (Albenza) are key agents.",
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Antipruritic",
@@ -16015,7 +16067,15 @@
                   "Dermatology"
               ],
         "lvl":  2,
-        "d":  "An agent that relieves or prevents itching, including antihistamines, topical corticosteroids, and soothing preparations such as calamine lotion."
+        "d":  "An agent that relieves or prevents itching, including antihistamines, topical corticosteroids, and soothing preparations such as calamine lotion.",
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Antiseptic",
@@ -16024,7 +16084,15 @@
                   "Dermatology"
               ],
         "lvl":  3,
-        "d":  "A substance applied to living tissue to prevent or inhibit the growth of microorganisms and reduce the risk of infection."
+        "d":  "A substance applied to living tissue to prevent or inhibit the growth of microorganisms and reduce the risk of infection.",
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ],
+                      "s":  [
+                                "-ic"
+                            ]
+                  }
     },
     {
         "en_h":  "Corticosteroid cream",
@@ -16103,6 +16171,9 @@
         "parts":  {
                       "r":  [
                                 "front/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -16131,7 +16202,12 @@
                   "Neurology"
               ],
         "d":  "Central relay station of the brain that routes sensory and motor signals to the cerebral cortex and plays a role in regulating consciousness and alertness.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "thalam/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Hypothalamus",
@@ -16145,6 +16221,9 @@
         "parts":  {
                       "p":  [
                                 "hypo-"
+                            ],
+                      "r":  [
+                                "thalam/o"
                             ]
                   }
     },
@@ -16169,7 +16248,7 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
-                                "pulm/o"
+                                "pulmon/o"
                             ],
                       "s":  [
                                 "-ary"
@@ -16256,7 +16335,10 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "pulm/o"
+                                "pulmon/o"
+                            ],
+                      "s":  [
+                                "-ary"
                             ]
                   }
     },
@@ -16271,7 +16353,10 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "pulm/o"
+                                "pulmon/o"
+                            ],
+                      "s":  [
+                                "-ary"
                             ]
                   }
     },
@@ -16391,7 +16476,12 @@
                   "Orthopedics"
               ],
         "d":  "The medial forearm bone whose proximal end forms the olecranon (point of the elbow) and articulates with the humerus at the elbow joint.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "uln/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Fibula",
@@ -16400,7 +16490,12 @@
                   "Orthopedics"
               ],
         "d":  "The slender lateral bone of the lower leg that provides muscle attachment and ankle stability while bearing minimal body weight.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "fibul/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Mandible",
@@ -16449,7 +16544,12 @@
                   "Gastroenterology"
               ],
         "d":  "The terminal opening of the gastrointestinal tract through which stool is expelled, controlled by the internal and external anal sphincters.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "an/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Cerebral cortex",
@@ -16462,6 +16562,9 @@
         "parts":  {
                       "r":  [
                                 "cerebr/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -16479,6 +16582,9 @@
                             ],
                       "r":  [
                                 "cutane/o"
+                            ],
+                      "s":  [
+                                "-ous"
                             ]
                   }
     },
@@ -16561,6 +16667,9 @@
         "parts":  {
                       "p":  [
                                 "bi-"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -16655,7 +16764,12 @@
                   "Psychiatry"
               ],
         "d":  "A psychiatric disorder triggered by experiencing or witnessing a traumatic event, marked by intrusive memories, avoidance, hyperarousal, and negative mood changes.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "post-"
+                            ]
+                  }
     },
     {
         "en_h":  "Attention deficit hyperactivity disorder",
@@ -16665,7 +16779,12 @@
                   "Pediatrics"
               ],
         "d":  "A neurodevelopmental disorder characterized by persistent inattention, hyperactivity, and impulsivity that impairs daily functioning, commonly diagnosed in childhood.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ]
+                  }
     },
     {
         "en_h":  "Obsessive-compulsive disorder",
@@ -16769,7 +16888,12 @@
                   "Psychiatry"
               ],
         "d":  "A structured psychotherapy that identifies and modifies maladaptive thought patterns and behaviors, with strong evidence across mood, anxiety, and eating disorders.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-therapy"
+                            ]
+                  }
     },
     {
         "en_h":  "Eating disorder",
@@ -16839,6 +16963,9 @@
         "parts":  {
                       "r":  [
                                 "psych/o"
+                            ],
+                      "s":  [
+                                "-therapy"
                             ]
                   }
     },
@@ -16861,7 +16988,12 @@
                   "Psychiatry"
               ],
         "d":  "A disruption in the normally integrated experience of consciousness, identity, memory, or perception, ranging from mild detachment to dissociative identity disorder.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "dis-"
+                            ]
+                  }
     },
     {
         "en_h":  "Affect",
@@ -16878,7 +17010,15 @@
                   "Psychiatry"
               ],
         "d":  "An eating disorder characterized by restricted food intake, intense fear of weight gain, and a distorted body image, leading to significantly low body weight.",
-        "lvl":  1
+        "lvl":  1,
+        "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
+                      "s":  [
+                                "-orexia"
+                            ]
+                  }
     },
     {
         "en_h":  "Bulimia nervosa",
@@ -16897,7 +17037,15 @@
               ],
         "d":  "A psychiatric treatment delivering a controlled electrical current through the brain under general anesthesia to induce a brief seizure, used for severe or treatment-resistant depression.",
         "lvl":  1,
-        "en_l":  "Shock therapy"
+        "en_l":  "Shock therapy",
+        "parts":  {
+                      "r":  [
+                                "electr/o"
+                            ],
+                      "s":  [
+                                "-therapy"
+                            ]
+                  }
     },
     {
         "en_h":  "Somatic symptom disorder",
@@ -16909,6 +17057,9 @@
         "parts":  {
                       "r":  [
                                 "somat/o"
+                            ],
+                      "s":  [
+                                "-ic"
                             ]
                   }
     },
@@ -16939,6 +17090,9 @@
         "parts":  {
                       "r":  [
                                 "adren/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -16955,6 +17109,10 @@
                       "r":  [
                                 "adren/o",
                                 "carcin/o"
+                            ],
+                      "s":  [
+                                "-al",
+                                "-oma"
                             ]
                   }
     },
@@ -16970,6 +17128,9 @@
         "parts":  {
                       "r":  [
                                 "xer/o"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     },
@@ -17018,6 +17179,9 @@
         "parts":  {
                       "p":  [
                                 "an-"
+                            ],
+                      "s":  [
+                                "-ia"
                             ]
                   }
     }

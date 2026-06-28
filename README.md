@@ -8,10 +8,10 @@ A multilingual medical terminology reference and study platform for students, me
 
 ## Version history
 
-| Version | Notes |
-|---|---|
-| v1.20 | Jamo-level Korean fuzzy search · word parts expanded to 4 examples each · click-to-expand cards · UI accuracy pass |
-| v1.19 | Korean glossary & flashcard · word parts glossary & flashcard · EN↔KO direction toggle |
+Full patch notes live in [CHANGELOG.md](CHANGELOG.md). Most recent:
+
+- **v1.20** — Jamo-level Korean fuzzy search · word parts expanded to 4 examples each · click-to-expand cards
+- **Unreleased** — relevance-tier search ranking (EN/FR/KO + word parts) · Korean typo-tolerant jamo fallback · vocab word-part tagging across all 1,083 entries
 
 ---
 

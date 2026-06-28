@@ -3108,7 +3108,12 @@
                   "Ophthalmology"
               ],
         "d":  "Progressive opacification or clouding of the natural crystalline lens of the eye, obstructing the transmission of light onto the retina.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "cata-"
+                            ]
+                  }
     },
     {
         "en_h":  "Glaucoma",
@@ -4459,7 +4464,8 @@
         "lvl":  3,
         "parts":  {
                       "r":  [
-                                "ket/o"
+                                "ket/o",
+                                "acid/o"
                             ],
                       "s":  [
                                 "-ic",
@@ -4902,7 +4908,12 @@
                   "Immunology"
               ],
         "d":  "A rapid, severe, and potentially life-threatening systemic hypersensitivity reaction causing airway occlusion and vascular collapse.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "ana-"
+                            ]
+                  }
     },
     {
         "en_h":  "Idiopathic",
@@ -5054,6 +5065,9 @@
         "d":  "A behavioral syndrome characterized by abnormal movements, immobility, mutism, or extreme unresponsiveness.",
         "lvl":  2,
         "parts":  {
+                      "p":  [
+                                "cata-"
+                            ],
                       "r":  [
                                 "ton/o"
                             ],
@@ -5113,6 +5127,9 @@
         "d":  "Abnormal and often painful sensitivity to light, commonly associated with migraine, meningitis, uveitis, and corneal injury.",
         "lvl":  2,
         "parts":  {
+                      "r":  [
+                                "phot/o"
+                            ],
                       "s":  [
                                 "-phobia"
                             ]
@@ -5401,7 +5418,8 @@
                                 "syn-"
                             ],
                       "r":  [
-                                "vas/o"
+                                "vas/o",
+                                "vag/o"
                             ],
                       "s":  [
                                 "-al"
@@ -7857,6 +7875,12 @@
         "parts":  {
                       "p":  [
                                 "contra-"
+                            ],
+                      "r":  [
+                                "later/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -8403,6 +8427,12 @@
         "parts":  {
                       "p":  [
                                 "ipsi-"
+                            ],
+                      "r":  [
+                                "later/o"
+                            ],
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -8666,6 +8696,9 @@
         "d":  "Inflammation and ulceration of mucous membranes, a common and painful complication of chemotherapy and radiation therapy.",
         "lvl":  2,
         "parts":  {
+                      "r":  [
+                                "muc/o"
+                            ],
                       "s":  [
                                 "-itis"
                             ]
@@ -14724,7 +14757,15 @@
                   "Anatomy"
               ],
         "lvl":  3,
-        "d":  "Directional term indicating a position farther from the midline of the body."
+        "d":  "Directional term indicating a position farther from the midline of the body.",
+        "parts":  {
+                      "r":  [
+                                "later/o"
+                            ],
+                      "s":  [
+                                "-al"
+                            ]
+                  }
     },
     {
         "en_h":  "Proximal",
@@ -15130,7 +15171,12 @@
                   "Pharmacology"
               ],
         "lvl":  2,
-        "d":  "Abnormal or exaggerated skin reaction to sunlight or UV radiation, occurring as a drug-induced effect or in autoimmune conditions such as systemic lupus erythematosus."
+        "d":  "Abnormal or exaggerated skin reaction to sunlight or UV radiation, occurring as a drug-induced effect or in autoimmune conditions such as systemic lupus erythematosus.",
+        "parts":  {
+                      "r":  [
+                                "phot/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Purulent",
@@ -15883,7 +15929,12 @@
                   "Surgery"
               ],
         "lvl":  2,
-        "d":  "Destruction of abnormal tissue using extreme cold, typically applied with liquid nitrogen, to treat warts, actinic keratoses, and superficial skin cancers."
+        "d":  "Destruction of abnormal tissue using extreme cold, typically applied with liquid nitrogen, to treat warts, actinic keratoses, and superficial skin cancers.",
+        "parts":  {
+                      "r":  [
+                                "cry/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Curettage",
@@ -16403,7 +16454,12 @@
                   "Neurology"
               ],
         "d":  "The tenth cranial nerve controlling parasympathetic function of the heart, lungs, and digestive tract, and involved in the vasovagal reflex.",
-        "lvl":  2
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "vag/o"
+                            ]
+                  }
     },
     {
         "en_h":  "Optic nerve",
@@ -16668,6 +16724,9 @@
                       "p":  [
                                 "bi-"
                             ],
+                      "r":  [
+                                "later/o"
+                            ],
                       "s":  [
                                 "-al"
                             ]
@@ -16742,7 +16801,16 @@
                   "Psychiatry"
               ],
         "d":  "A chronic psychotic disorder characterized by hallucinations, delusions, disorganized thinking, and negative symptoms such as flat affect and social withdrawal.",
-        "lvl":  3
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "schiz/o",
+                                "phren/o"
+                            ],
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
     },
     {
         "en_h":  "Bipolar disorder",

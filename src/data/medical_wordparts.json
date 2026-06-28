@@ -13698,5 +13698,245 @@
                        "Involuntary repetition of words spoken by another person"
                    ]
                ]
+    },
+    {
+        "wp":  "phot/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Light",
+        "ex":  [
+                   [
+                       "Photophobia",
+                       "Abnormal sensitivity to or discomfort from light"
+                   ],
+                   [
+                       "Photosensitivity",
+                       "Heightened skin reaction to light or ultraviolet radiation"
+                   ],
+                   [
+                       "Phototherapy",
+                       "Treatment of disease using exposure to specific light wavelengths"
+                   ],
+                   [
+                       "Photocoagulation",
+                       "Use of focused light to seal tissue or blood vessels"
+                   ]
+               ]
+    },
+    {
+        "wp":  "cry/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Cold",
+        "ex":  [
+                   [
+                       "Cryotherapy",
+                       "Treatment that uses extreme cold to destroy or numb tissue"
+                   ],
+                   [
+                       "Cryosurgery",
+                       "Surgical destruction of tissue by freezing"
+                   ],
+                   [
+                       "Cryoablation",
+                       "Destruction of abnormal tissue by application of extreme cold"
+                   ],
+                   [
+                       "Cryoprecipitate",
+                       "Blood product rich in clotting factors recovered by controlled thawing"
+                   ]
+               ]
+    },
+    {
+        "wp":  "muc/o",
+        "t":  "r",
+        "lvl":  3,
+        "d":  "(Latin) Mucus",
+        "ex":  [
+                   [
+                       "Mucosa",
+                       "Moist membrane lining internal body cavities and organs"
+                   ],
+                   [
+                       "Mucositis",
+                       "Inflammation of a mucous membrane, often from chemotherapy or radiation"
+                   ],
+                   [
+                       "Mucolytic",
+                       "Agent that thins or dissolves mucus to ease its clearance"
+                   ],
+                   [
+                       "Mucopurulent",
+                       "Containing both mucus and pus"
+                   ]
+               ]
+    },
+    {
+        "wp":  "later/o",
+        "t":  "r",
+        "lvl":  3,
+        "d":  "(Latin) Side",
+        "ex":  [
+                   [
+                       "Lateral",
+                       "Pertaining to or located toward the side"
+                   ],
+                   [
+                       "Bilateral",
+                       "Affecting or involving both sides"
+                   ],
+                   [
+                       "Contralateral",
+                       "Pertaining to or affecting the opposite side"
+                   ],
+                   [
+                       "Ipsilateral",
+                       "Pertaining to or affecting the same side"
+                   ]
+               ]
+    },
+    {
+        "wp":  "vag/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Vagus nerve",
+        "ex":  [
+                   [
+                       "Vagal",
+                       "Relating to the vagus nerve"
+                   ],
+                   [
+                       "Vagotomy",
+                       "Surgical cutting of the vagus nerve to reduce gastric acid secretion"
+                   ],
+                   [
+                       "Vagolytic",
+                       "Inhibiting activity of the vagus nerve"
+                   ],
+                   [
+                       "Vagovagal reflex",
+                       "Reflex arc whose limbs both travel through the vagus nerve"
+                   ]
+               ]
+    },
+    {
+        "wp":  "acid/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Latin) Acid, sour",
+        "ex":  [
+                   [
+                       "Acidosis",
+                       "Abnormal increase in body acidity from accumulated acid or lost base"
+                   ],
+                   [
+                       "Acidemia",
+                       "Abnormally low blood pH from increased acid in the blood"
+                   ],
+                   [
+                       "Antacid",
+                       "Agent that neutralizes stomach acid"
+                   ],
+                   [
+                       "Acidophilic",
+                       "Readily stained by or thriving in acidic conditions"
+                   ]
+               ]
+    },
+    {
+        "wp":  "schiz/o",
+        "t":  "r",
+        "lvl":  2,
+        "d":  "(Greek) Split, cleft",
+        "ex":  [
+                   [
+                       "Schizophrenia",
+                       "Chronic psychotic disorder with disordered thought and perception"
+                   ],
+                   [
+                       "Schizoid",
+                       "Personality pattern marked by detachment and limited emotional expression"
+                   ],
+                   [
+                       "Schizotypal",
+                       "Personality pattern with eccentric behavior and distorted thinking"
+                   ],
+                   [
+                       "Schizocyte",
+                       "Fragmented red blood cell seen in certain hemolytic conditions"
+                   ]
+               ]
+    },
+    {
+        "wp":  "phren/o",
+        "t":  "r",
+        "lvl":  1,
+        "d":  "(Greek) Mind; diaphragm",
+        "ex":  [
+                   [
+                       "Phrenic nerve",
+                       "Nerve supplying motor control to the diaphragm"
+                   ],
+                   [
+                       "Schizophrenia",
+                       "Chronic psychotic disorder with disordered thought and perception"
+                   ],
+                   [
+                       "Hebephrenia",
+                       "Form of schizophrenia marked by disorganized behavior and affect"
+                   ],
+                   [
+                       "Phrenicotomy",
+                       "Surgical division of the phrenic nerve"
+                   ]
+               ]
+    },
+    {
+        "wp":  "cata-",
+        "t":  "p",
+        "lvl":  1,
+        "d":  "(Greek) Down",
+        "ex":  [
+                   [
+                       "Catabolism",
+                       "Metabolic breakdown of complex molecules into simpler ones"
+                   ],
+                   [
+                       "Catatonia",
+                       "Behavioral syndrome of abnormal movement and unresponsiveness"
+                   ],
+                   [
+                       "Cataplexy",
+                       "Sudden loss of muscle tone triggered by strong emotion"
+                   ],
+                   [
+                       "Catalepsy",
+                       "Trance-like state with rigid posture and reduced response to stimuli"
+                   ]
+               ]
+    },
+    {
+        "wp":  "ana-",
+        "t":  "p",
+        "lvl":  2,
+        "d":  "(Greek) Up, apart, again",
+        "ex":  [
+                   [
+                       "Anabolism",
+                       "Metabolic building of complex molecules from simpler ones"
+                   ],
+                   [
+                       "Anastomosis",
+                       "Surgical or natural connection between two tubular structures"
+                   ],
+                   [
+                       "Anaphylaxis",
+                       "Severe, rapid systemic allergic reaction"
+                   ],
+                   [
+                       "Anaplasia",
+                       "Loss of cell differentiation characteristic of malignancy"
+                   ]
+               ]
     }
 ]

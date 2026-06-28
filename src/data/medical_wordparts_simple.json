@@ -3234,5 +3234,55 @@
         "wp":  "echo-",
         "t":  "p",
         "d":  "(Greek) Reflected sound, echo"
+    },
+    {
+        "wp":  "phot/o",
+        "t":  "r",
+        "d":  "(Greek) Light"
+    },
+    {
+        "wp":  "cry/o",
+        "t":  "r",
+        "d":  "(Greek) Cold"
+    },
+    {
+        "wp":  "muc/o",
+        "t":  "r",
+        "d":  "(Latin) Mucus"
+    },
+    {
+        "wp":  "later/o",
+        "t":  "r",
+        "d":  "(Latin) Side"
+    },
+    {
+        "wp":  "vag/o",
+        "t":  "r",
+        "d":  "(Latin) Vagus nerve"
+    },
+    {
+        "wp":  "acid/o",
+        "t":  "r",
+        "d":  "(Latin) Acid, sour"
+    },
+    {
+        "wp":  "schiz/o",
+        "t":  "r",
+        "d":  "(Greek) Split, cleft"
+    },
+    {
+        "wp":  "phren/o",
+        "t":  "r",
+        "d":  "(Greek) Mind; diaphragm"
+    },
+    {
+        "wp":  "cata-",
+        "t":  "p",
+        "d":  "(Greek) Down"
+    },
+    {
+        "wp":  "ana-",
+        "t":  "p",
+        "d":  "(Greek) Up, apart, again"
     }
 ]

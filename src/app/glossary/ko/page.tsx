@@ -69,9 +69,22 @@ function hangulSearch(target: string, query: string): number {
   return -1
 }
 
+// Flat jamo string (한글 -> "ㅎㅏㄴㄱㅡㄹ") for typo-tolerant fuzzy matching.
+function jamoFlat(str: string): string {
+  return syllableGroups(str).map(g => g.join('')).join('')
+}
+
 function isKorean(str: string) {
   return /[가-힣ᄀ-ᇿ㄰-㆏]/.test(str)
 }
+
+// Typo-tolerant fuzzy index over flattened jamo — a single mistyped jamo (간염 -> 감염)
+// still surfaces results, used as a fallback ranked below exact hangul matches.
+const vocabByEn: Record<string, MergedEntry> = Object.fromEntries(vocab.map(v => [v.en_h, v]))
+const fuseJamo = new Fuse(
+  vocab.map(v => ({ en_h: v.en_h, jh: jamoFlat(v.ko_h), jl: v.ko_l ? jamoFlat(v.ko_l) : '' })),
+  { keys: [{ name: 'jh', weight: 2 }, { name: 'jl', weight: 1 }], threshold: 0.3, ignoreLocation: true, minMatchCharLength: 2, includeScore: true },
+)
 // ──────────────────────────────────────────────────────────────────────────
 
 function toLiteral(wp: string) {
@@ -261,6 +274,18 @@ export default function KoGlossaryPage() {
 
       scored.sort((a, b) => a.pri !== b.pri ? a.pri - b.pri : a.pos - b.pos)
 
+      // Typo-tolerant fallback: fuzzy-match the flattened jamo so a single mistyped
+      // jamo (간염 -> 감염) still surfaces results, ranked below the exact matches above.
+      const qj = jamoFlat(q)
+      const jamoHits: CardEntry[] = []
+      if (qj.length >= 2) {
+        for (const r of fuseJamo.search(qj)) {
+          if (seen.has(r.item.en_h)) continue
+          seen.add(r.item.en_h)
+          jamoHits.push(vocabByEn[r.item.en_h])
+        }
+      }
+
       // Append Fuse results for English-field matches not already found
       const fuseRest = fuseKo.search(q)
         .sort((a, b) => {
@@ -272,7 +297,7 @@ export default function KoGlossaryPage() {
         .map(r => ({ ...r.item, _mm: Object.fromEntries(r.matches?.map(m => [m.key!, m.indices]) ?? []) as MatchMap }))
         .filter(v => !seen.has(v.en_h))
 
-      results = [...scored.map(s => s.entry), ...fuseRest]
+      results = [...scored.map(s => s.entry), ...jamoHits, ...fuseRest]
     } else {
       results = fuseKo.search(q)
         .sort((a, b) => {
@@ -291,11 +316,19 @@ export default function KoGlossaryPage() {
     })
   }, [searchQuery, fieldFilter, levelFilter])
 
-  // True when the query has no exact/prefix/substring hit — only fuzzy "related" results.
-  // Skipped for Korean (jamo) queries, whose partial/초성 matches are intentional.
+  // True when the query has no exact hit — only fuzzy "related" results. For Korean,
+  // an exact match means the top result still matches at the jamo level (precise/초성/
+  // partial); if only the typo-tolerant jamo fallback matched, it's "related".
   const noExact = useMemo(() => {
     const q = searchQuery.trim()
-    if (!q || isKorean(q) || filtered.length === 0) return false
+    if (!q || filtered.length === 0) return false
+    if (isKorean(q)) {
+      const top = filtered[0]
+      const exact = hangulSearch(top.ko_h, q) !== -1
+        || (!!top.ko_l && hangulSearch(top.ko_l, q) !== -1)
+        || (!!top.d_ko && hangulSearch(top.d_ko, q) !== -1)
+      return !exact
+    }
     return matchTierKo(filtered[0], [], q.toLowerCase()) >= 4
   }, [searchQuery, filtered])
 

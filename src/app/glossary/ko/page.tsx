@@ -291,6 +291,14 @@ export default function KoGlossaryPage() {
     })
   }, [searchQuery, fieldFilter, levelFilter])
 
+  // True when the query has no exact/prefix/substring hit — only fuzzy "related" results.
+  // Skipped for Korean (jamo) queries, whose partial/초성 matches are intentional.
+  const noExact = useMemo(() => {
+    const q = searchQuery.trim()
+    if (!q || isKorean(q) || filtered.length === 0) return false
+    return matchTierKo(filtered[0], [], q.toLowerCase()) >= 4
+  }, [searchQuery, filtered])
+
   return (
     <>
       {/* ── Sticky filter bar ── */}
@@ -346,6 +354,7 @@ export default function KoGlossaryPage() {
       {/* ── Cards ── */}
       {!mounted ? <KoGlossarySkeleton /> : (
         <>
+          {noExact && <div className="c-search-note">No exact match for “{searchQuery.trim()}” — showing related terms.</div>}
           <div className="c-grid">
             {filtered.map(v => <KoCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
           </div>

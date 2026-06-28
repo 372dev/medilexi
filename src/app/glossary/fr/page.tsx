@@ -188,6 +188,13 @@ export default function FrGlossaryPage() {
       })
   }, [search, fieldFilter, levelFilter])
 
+  // True when the query has no exact/prefix/substring hit — only fuzzy "related" results.
+  const noExact = useMemo(() => {
+    const q = search.trim()
+    if (!q || filtered.length === 0) return false
+    return matchTierFr(filtered[0], [], q.toLowerCase()) >= 4
+  }, [search, filtered])
+
   return (
     <>
       {/* ── Sticky filter bar ── */}
@@ -233,6 +240,7 @@ export default function FrGlossaryPage() {
       {/* ── Cards ── */}
       {!mounted ? <FrGlossarySkeleton /> : (
         <>
+          {noExact && <div className="c-search-note">No exact match for “{search.trim()}” — showing related terms.</div>}
           <div className="c-grid">
             {filtered.map(v => <FrCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
           </div>

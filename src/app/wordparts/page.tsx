@@ -45,6 +45,15 @@ export default function WordPartsPage() {
       .map(x => x.p)
   }, [search, typeFilter, lvlFilter])
 
+  // True when the top hit matched neither the word part nor its definition — i.e. only an
+  // example word matched, so there's no real word-part match for the query.
+  const noExact = useMemo(() => {
+    const q = search.toLowerCase().trim()
+    if (!q || filtered.length === 0) return false
+    const top = filtered[0]
+    return !top.wp.toLowerCase().includes(q) && !top.d.toLowerCase().includes(q)
+  }, [search, filtered])
+
   const counts = useMemo(() => ({
     p: parts.filter(p => p.t==='p').length,
     r: parts.filter(p => p.t==='r').length,
@@ -86,6 +95,8 @@ export default function WordPartsPage() {
         </div>
         <div className="c-count">{filtered.length} entries</div>
       </div>
+
+      {noExact && <div className="c-search-note">No matching word part — showing parts that use “{search.trim()}” as an example.</div>}
 
       {/* ── Cards ── */}
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px,1fr))', gap:'1rem' }}>

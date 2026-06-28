@@ -462,6 +462,19 @@ body.day .c-search-match {
   padding: 4rem 0;
 }
 
+/* Soft notice shown when a search has no exact/strong match — only fuzzy "related" hits */
+.c-search-note {
+  font-size: 0.82rem;
+  color: var(--color-text-dim);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-gold-dim);
+  border-radius: 4px;
+  padding: 0.5rem 0.85rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
 /* Pixel button (landing page, flashcard start) */
 .c-btn-pixel {
   font-family: var(--font-pixel);

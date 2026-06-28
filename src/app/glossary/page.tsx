@@ -162,6 +162,13 @@ function GlossaryContent() {
       })
   }, [search, fieldFilter, levelFilter])
 
+  // True when the query has no exact/prefix/substring hit — only fuzzy "related" results.
+  const noExact = useMemo(() => {
+    const q = search.trim()
+    if (!q || filtered.length === 0) return false
+    return matchTier(filtered[0], [], q.toLowerCase()) >= 4
+  }, [search, filtered])
+
   return (
     <>
       {/* ── Sticky filter bar ── */}
@@ -188,6 +195,8 @@ function GlossaryContent() {
           <span className="c-count" style={{ marginBottom:0 }}>{filtered.length} terms</span>
         </div>
       </div>
+
+      {noExact && <div className="c-search-note">No exact match for “{search.trim()}” — showing related terms.</div>}
 
       {/* ── Cards ── */}
       <div className="c-grid">

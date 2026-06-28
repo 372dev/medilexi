@@ -20,13 +20,29 @@ export default function WordPartsPage() {
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim()
-    return parts.filter(p => {
+    const matched = parts.filter(p => {
       if (typeFilter !== 'all' && p.t !== typeFilter) return false
       if (lvlFilter && p.lvl !== lvlFilter) return false
       if (!q) return true
       return p.wp.toLowerCase().includes(q) || p.d.toLowerCase().includes(q)
         || p.ex.some(([term]) => term.toLowerCase().includes(q))
     })
+    if (!q) return matched
+    // Relevance: exact word-part (hyphens/slashes stripped) first, then wp substring,
+    // then definition, then example-word-only matches last — so searching "trophy"
+    // surfaces the "-trophy" card above prefix/root cards that merely cite it as an example.
+    const wpClean = (wp: string) => wp.replace(/^-|-$/g, '').replace(/\//g, '').toLowerCase()
+    const tier = (p: WordPart) => {
+      const wp = p.wp.toLowerCase()
+      if (wpClean(p.wp) === q || wp === q) return 0
+      if (wp.includes(q)) return 1
+      if (p.d.toLowerCase().includes(q)) return 2
+      return 3
+    }
+    return matched
+      .map((p, i) => ({ p, i, t: tier(p) }))
+      .sort((a, b) => a.t - b.t || a.i - b.i)
+      .map(x => x.p)
   }, [search, typeFilter, lvlFilter])
 
   const counts = useMemo(() => ({

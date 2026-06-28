@@ -123,8 +123,20 @@ function hi(text: string, idx?: readonly [number,number][]): ReactNode {
   return <>{parts}</>
 }
 
-const KO_FIELD_PRIORITY: Record<string, number> = {
-  ko_h: 0, en_h: 0, abbr: 1, ko_l: 2, en_l: 2, d_ko: 3, d: 3,
+// Relevance tier (lower = better) for the Fuse (English / romaji) path: exact term/abbr
+// → field prefix → word-start → substring → fuzzy term match → definition-only (last).
+// The Korean (jamo) path keeps its own position-based scoring below.
+function matchTierKo(item: MergedEntry, matches: readonly { key?: string }[] | undefined, ql: string): number {
+  const terms = [item.ko_h, item.en_h, item.abbr ?? '', item.ko_l ?? '', item.en_l ?? ''].map(s => (s ?? '').toLowerCase())
+  const nonEmpty = terms.filter(t => t !== '')
+  if (nonEmpty.some(t => t === ql)) return 0
+  if (nonEmpty.some(t => t.startsWith(ql))) return 1
+  const wordStart = (s: string) => s.split(/[^\p{L}\p{N}]+/u).some(w => w.startsWith(ql))
+  if (nonEmpty.some(t => wordStart(t))) return 2
+  if (nonEmpty.some(t => t.includes(ql))) return 3
+  const keys = new Set((matches ?? []).map(m => m.key))
+  if (['ko_h', 'en_h', 'abbr', 'ko_l', 'en_l'].some(k => keys.has(k))) return 4
+  return 5
 }
 
 const fuseKo = new Fuse(vocab, {
@@ -137,7 +149,7 @@ const fuseKo = new Fuse(vocab, {
     { name: 'd_ko', weight: 0.5 },
     { name: 'd',    weight: 0.5 },
   ],
-  threshold: 0.4,
+  threshold: 0.3,
   minMatchCharLength: 2,
   ignoreLocation: true,
   includeScore: true,
@@ -216,6 +228,7 @@ export default function KoGlossaryPage() {
       })
     }
 
+    const ql = q.toLowerCase()
     let results: CardEntry[]
 
     if (isKorean(q)) {
@@ -251,9 +264,9 @@ export default function KoGlossaryPage() {
       // Append Fuse results for English-field matches not already found
       const fuseRest = fuseKo.search(q)
         .sort((a, b) => {
-          const pa = Math.min(...(a.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
-          const pb = Math.min(...(b.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
-          if (pa !== pb) return pa - pb
+          const ta = matchTierKo(a.item, a.matches, ql)
+          const tb = matchTierKo(b.item, b.matches, ql)
+          if (ta !== tb) return ta - tb
           return (a.score ?? 1) - (b.score ?? 1)
         })
         .map(r => ({ ...r.item, _mm: Object.fromEntries(r.matches?.map(m => [m.key!, m.indices]) ?? []) as MatchMap }))
@@ -263,9 +276,9 @@ export default function KoGlossaryPage() {
     } else {
       results = fuseKo.search(q)
         .sort((a, b) => {
-          const pa = Math.min(...(a.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
-          const pb = Math.min(...(b.matches?.map(m => KO_FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
-          if (pa !== pb) return pa - pb
+          const ta = matchTierKo(a.item, a.matches, ql)
+          const tb = matchTierKo(b.item, b.matches, ql)
+          if (ta !== tb) return ta - tb
           return (a.score ?? 1) - (b.score ?? 1)
         })
         .map(r => ({ ...r.item, _mm: Object.fromEntries(r.matches?.map(m => [m.key!, m.indices]) ?? []) as MatchMap }))

@@ -18,7 +18,23 @@ interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 const vocab = (vocabData as any[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) })) as VocabEntry[]
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 
-const FIELD_PRIORITY: Record<string, number> = { en_h: 0, abbr: 1, en_l: 2, d: 3 }
+// Relevance tier (lower = better). Exact term/abbr matches rank first, then field
+// prefix, word-start, substring, fuzzy term match, and definition-only matches last —
+// so an exact abbr like "EEG" always beats a stray fuzzy en_h hit, and quality
+// (Fuse score) only decides within a tier.
+function matchTier(item: VocabEntry, matches: readonly { key?: string }[] | undefined, ql: string): number {
+  const en = item.en_h.toLowerCase()
+  const ab = (item.abbr ?? '').toLowerCase()
+  const el = (item.en_l ?? '').toLowerCase()
+  if (en === ql || ab === ql || el === ql) return 0
+  if (en.startsWith(ql) || ab.startsWith(ql) || (el !== '' && el.startsWith(ql))) return 1
+  const wordStart = (s: string) => s.split(/[^a-z0-9]+/).some(w => w.startsWith(ql))
+  if (wordStart(en) || (el !== '' && wordStart(el))) return 2
+  if (en.includes(ql) || ab.includes(ql) || (el !== '' && el.includes(ql))) return 3
+  const keys = new Set((matches ?? []).map(m => m.key))
+  if (keys.has('en_h') || keys.has('abbr') || keys.has('en_l')) return 4
+  return 5
+}
 
 const fuse = new Fuse(vocab, {
   keys: [
@@ -27,7 +43,7 @@ const fuse = new Fuse(vocab, {
     { name: 'en_l', weight: 1   },
     { name: 'd',    weight: 0.5 },
   ],
-  threshold: 0.4,
+  threshold: 0.3,
   minMatchCharLength: 2,
   ignoreLocation: true,
   includeScore: true,
@@ -127,11 +143,12 @@ function GlossaryContent() {
       })
     }
 
+    const ql = q.toLowerCase()
     return fuse.search(q)
       .sort((a, b) => {
-        const pa = Math.min(...(a.matches?.map(m => FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
-        const pb = Math.min(...(b.matches?.map(m => FIELD_PRIORITY[m.key ?? ''] ?? 99) ?? [99]))
-        if (pa !== pb) return pa - pb
+        const ta = matchTier(a.item, a.matches, ql)
+        const tb = matchTier(b.item, b.matches, ql)
+        if (ta !== tb) return ta - tb
         return (a.score ?? 1) - (b.score ?? 1)
       })
       .map(r => ({

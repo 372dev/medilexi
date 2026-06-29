@@ -92,7 +92,7 @@
                   "Internal Medicine",
                   "Endocrinology"
               ],
-        "d":  "Excess body fat (BMI \u003e=30) linked to increased risk of type 2 diabetes, cardiovascular disease, hypertension, and certain cancers.",
+        "d":  "Excess body fat above the healthy range, linked to increased risk of type 2 diabetes, cardiovascular disease, hypertension, and certain cancers.",
         "lvl":  3
     },
     {
@@ -458,7 +458,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Ischemic stroke caused by blockage of a cerebral artery, accounting for approximately 85% of all strokes.",
+        "d":  "Ischemic stroke caused by blockage of a cerebral artery, the most common type of stroke.",
         "lvl":  2,
         "parts":  {
                       "r":  [
@@ -520,7 +520,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "Brief neurological dysfunction from temporary cerebral ischemia that resolves within 24 hours without permanent infarction.",
+        "d":  "Brief neurological dysfunction from temporary cerebral ischemia that resolves quickly without permanent infarction, serving as a warning sign of impending stroke.",
         "lvl":  3,
         "parts":  {
                       "p":  [
@@ -618,7 +618,7 @@
         "f":  [
                   "General Medicine"
               ],
-        "d":  "Describing a condition persisting over a long period (generally \u003e=3 months), typically requiring ongoing monitoring and management.",
+        "d":  "Describing a condition persisting over a long period, typically requiring ongoing monitoring and management, contrasted with acute.",
         "lvl":  3,
         "parts":  {
                       "r":  [
@@ -658,7 +658,7 @@
                   "General Medicine",
                   "Infectious Disease"
               ],
-        "d":  "Body temperature above 38°C (100.4°F), typically indicating infection or systemic inflammation.",
+        "d":  "Body temperature elevated above the normal range, typically indicating infection or systemic inflammation.",
         "lvl":  3
     },
     {
@@ -981,7 +981,7 @@
         "f":  [
                   "General Medicine"
               ],
-        "d":  "Specialty devoted to the health and medical care of infants, children, and adolescents up to age 18.",
+        "d":  "Specialty devoted to the health and medical care of infants, children, and adolescents.",
         "lvl":  2,
         "parts":  {
                       "r":  [
@@ -1305,7 +1305,7 @@
                   "Psychiatry",
                   "Family Medicine"
               ],
-        "d":  "Persistent difficulty falling or staying asleep at least three nights weekly for \u003e=3 months, causing significant daytime dysfunction.",
+        "d":  "Persistent difficulty falling or staying asleep despite adequate opportunity, occurring on most nights and causing significant daytime dysfunction.",
         "lvl":  3,
         "parts":  {
                       "p":  [
@@ -1328,7 +1328,7 @@
                   "Orthopedics",
                   "Rehabilitation Medicine"
               ],
-        "d":  "Lumbar spine pain classified as acute (under 6 weeks), subacute (6-12 weeks), or chronic (over 12 weeks), and a leading cause of musculoskeletal disability worldwide.",
+        "d":  "Lumbar spine pain classified as acute, subacute, or chronic by duration, and a leading cause of musculoskeletal disability worldwide.",
         "lvl":  3
     },
     {

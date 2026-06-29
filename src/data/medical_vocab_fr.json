@@ -30,7 +30,7 @@
     {
         "en_h":  "Obesity",
         "fr_h":  "Obésité",
-        "d_fr":  "Excès de masse grasse (IMC ≥ 30) associé à un risque accru de diabète de type 2, de maladies cardiovasculaires, d\u0027hypertension et de certains cancers."
+        "d_fr":  "Excès de masse grasse au-delà de la normale, associé à un risque accru de diabète de type 2, de maladies cardiovasculaires, d\u0027hypertension et de certains cancers."
     },
     {
         "en_h":  "Upper respiratory tract infection",
@@ -157,13 +157,13 @@
         "en_h":  "Cerebral infarction",
         "fr_h":  "Infarctus cérébral",
         "fr_l":  "AVC ischémique",
-        "d_fr":  "AVC ischémique causé par l\u0027obstruction d\u0027une artère cérébrale ; représente environ 85 % de tous les AVC."
+        "d_fr":  "AVC ischémique causé par l\u0027obstruction d\u0027une artère cérébrale ; il s\u0027agit du type d\u0027AVC le plus fréquent."
     },
     {
         "en_h":  "Cerebral hemorrhage",
         "fr_h":  "Hémorragie cérébrale",
         "fr_l":  "AVC hémorragique",
-        "d_fr":  "AVC hémorragique dû à la rupture d\u0027un vaisseau sanguin dans ou autour du cerveau, causant un saignement intracérébral ou sous-arachnoïdien ; représente environ 15 % des AVC."
+        "d_fr":  "AVC hémorragique dû à la rupture d\u0027un vaisseau sanguin dans ou autour du cerveau, causant un saignement intracérébral ou sous-arachnoïdien ; plus rare mais de mortalité plus élevée."
     },
     {
         "en_h":  "Ischemia",
@@ -174,7 +174,7 @@
         "en_h":  "Transient Ischemic Attack",
         "fr_h":  "Accident ischémique transitoire",
         "fr_l":  "AIT",
-        "d_fr":  "Dysfonction neurologique brève due à une ischémie cérébrale transitoire, se résolvant en moins de 24 heures ; signe précurseur important d\u0027un AVC imminent."
+        "d_fr":  "Dysfonction neurologique brève due à une ischémie cérébrale transitoire, se résolvant rapidement sans infarctus permanent ; signe précurseur important d\u0027un AVC imminent."
     },
     {
         "en_h":  "Cardiac arrest",
@@ -204,7 +204,7 @@
     {
         "en_h":  "Chronic",
         "fr_h":  "Chronique",
-        "d_fr":  "Qualifie une affection persistant sur une longue durée (généralement ≥ 3 mois), nécessitant habituellement une surveillance et une prise en charge continues."
+        "d_fr":  "Qualifie une affection persistant sur une longue durée, nécessitant habituellement une surveillance et une prise en charge continues ; par opposition à aiguë."
     },
     {
         "en_h":  "Inflammation",
@@ -219,7 +219,7 @@
     {
         "en_h":  "Fever",
         "fr_h":  "Fièvre",
-        "d_fr":  "Température corporelle supérieure à 38 °C, indiquant généralement une infection ou une inflammation systémique."
+        "d_fr":  "Température corporelle élevée au-dessus de la normale, indiquant généralement une infection ou une inflammation systémique."
     },
     {
         "en_h":  "Pain",
@@ -339,7 +339,7 @@
     {
         "en_h":  "Pediatrics",
         "fr_h":  "Pédiatrie",
-        "d_fr":  "Spécialité dédiée à la santé et aux soins médicaux des nourrissons, enfants et adolescents jusqu\u0027à 18 ans."
+        "d_fr":  "Spécialité dédiée à la santé et aux soins médicaux des nourrissons, enfants et adolescents."
     },
     {
         "en_h":  "Obstetrics \u0026 Gynecology",
@@ -447,13 +447,13 @@
     {
         "en_h":  "Insomnia",
         "fr_h":  "Insomnie",
-        "d_fr":  "Difficulté persistante à s\u0027endormir ou à maintenir le sommeil au moins trois nuits par semaine pendant trois mois ou plus, entraînant une altération diurne significative."
+        "d_fr":  "Difficulté persistante à s\u0027endormir ou à maintenir le sommeil malgré des conditions propices, survenant la plupart des nuits et entraînant une altération diurne significative."
     },
     {
         "en_h":  "Lower back pain",
         "fr_h":  "Lombalgie",
         "fr_l":  "Mal de dos",
-        "d_fr":  "Douleur de la région lombaire classifiée en aiguë (\u003c 6 semaines), subaiguë (6 à 12 semaines) ou chronique (\u003e 12 semaines) ; première cause mondiale de handicap."
+        "d_fr":  "Douleur de la région lombaire classifiée en aiguë, subaiguë ou chronique selon la durée ; première cause mondiale de handicap."
     },
     {
         "en_h":  "Anxiety disorder",
@@ -487,7 +487,7 @@
     {
         "en_h":  "Ejection fraction",
         "fr_h":  "Fraction d\u0027éjection",
-        "d_fr":  "Pourcentage de sang éjecté du ventricule gauche à chaque battement cardiaque ; mesure clé de la fonction cardiaque (normale ≥ 55 %)."
+        "d_fr":  "Pourcentage de sang éjecté du ventricule gauche à chaque battement cardiaque ; mesure clé de la fonction cardiaque et de la sévérité de l\u0027insuffisance cardiaque."
     },
     {
         "en_h":  "Anticoagulant",

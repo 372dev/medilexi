@@ -2917,7 +2917,7 @@
                   "Nephrology",
                   "Internal Medicine"
               ],
-        "d":  "Gradual, progressive, and irreversible loss of renal function lasting for three months or longer.",
+        "d":  "Gradual, progressive, and irreversible loss of renal function persisting over the long term.",
         "lvl":  3,
         "parts":  {
                       "r":  [
@@ -3153,7 +3153,7 @@
         "f":  [
                   "Ophthalmology"
               ],
-        "d":  "Deterioration of the macula causing central vision loss with preserved peripheral vision, the leading cause of blindness in adults over 50.",
+        "d":  "Deterioration of the macula causing central vision loss with preserved peripheral vision, a leading cause of blindness in older adults.",
         "lvl":  2,
         "parts":  {
                       "p":  [

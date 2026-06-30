@@ -3716,7 +3716,7 @@
                   "Cardiology",
                   "Neurology"
               ],
-        "d":  "A sudden drop in blood pressure (typically \u003e20 mmHg systolic or \u003e10 mmHg diastolic) that occurs when transitioning to an upright position.",
+        "d":  "A sudden, significant drop in blood pressure that occurs when moving to an upright position.",
         "lvl":  2,
         "parts":  {
                       "p":  [
@@ -3922,7 +3922,7 @@
                   "Anesthesiology",
                   "Emergency Medicine"
               ],
-        "d":  "Abnormally low oxygen levels in arterial blood (PaO2 \u003c80 mmHg or SpO2 \u003c95%), indicating impaired respiratory or circulatory function.",
+        "d":  "Abnormally low oxygen levels in arterial blood, indicating impaired respiratory or circulatory function.",
         "lvl":  2,
         "parts":  {
                       "p":  [
@@ -4258,7 +4258,7 @@
                   "Nephrology",
                   "Emergency Medicine"
               ],
-        "d":  "The production of abnormally small amounts of urine, usually defined as less than 400 or 500 mL per day in adults.",
+        "d":  "The production of an abnormally small volume of urine, often indicating kidney dysfunction or reduced renal perfusion.",
         "lvl":  2,
         "parts":  {
                       "p":  [
@@ -4438,7 +4438,7 @@
                   "Emergency Medicine",
                   "Endocrinology"
               ],
-        "d":  "Low blood glucose (\u003c70 mg/dL) causing autonomic symptoms such as sweating and tremor, and neuroglycopenic effects such as confusion.",
+        "d":  "Abnormally low blood glucose causing autonomic symptoms such as sweating and tremor, and neuroglycopenic effects such as confusion.",
         "lvl":  3,
         "parts":  {
                       "p":  [
@@ -4886,7 +4886,7 @@
                   "Obstetrics \u0026 Gynecology",
                   "Emergency Medicine"
               ],
-        "d":  "Heavy blood loss exceeding 500 mL (vaginal) or 1000 mL (C-section) within 24 hours following childbirth.",
+        "d":  "Excessive blood loss following childbirth, after either vaginal delivery or cesarean section, constituting an obstetric emergency.",
         "lvl":  3,
         "parts":  {
                       "p":  [
@@ -5356,7 +5356,7 @@
                   "Dermatology",
                   "Orthopedics"
               ],
-        "d":  "A subcutaneous spot of bleeding larger than 1 centimeter in diameter resulting from vascular leakage.",
+        "d":  "A larger area of subcutaneous bleeding resulting from vascular leakage, commonly known as a bruise.",
         "lvl":  2,
         "parts":  {
                       "s":  [

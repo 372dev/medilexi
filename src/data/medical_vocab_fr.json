@@ -1190,7 +1190,7 @@
     {
         "en_h":  "Orthostatic Hypotension",
         "fr_h":  "Hypotension orthostatique",
-        "d_fr":  "Chute soudaine de la pression artérielle (\u003e 20 mmHg systolique ou \u003e 10 mmHg diastolique) survenant lors du passage en position debout."
+        "d_fr":  "Chute soudaine et significative de la pression artérielle survenant lors du passage en position debout, provoquant vertiges ou évanouissement."
     },
     {
         "en_h":  "Pericarditis",
@@ -1241,12 +1241,12 @@
     {
         "en_h":  "Hypercapnia",
         "fr_h":  "Hypercapnie",
-        "d_fr":  "Élévation du CO2 artériel (PaCO2 \u003e 45 mmHg), indiquant généralement une insuffisance respiratoire ou une hypoventilation ; peut causer une acidose respiratoire."
+        "d_fr":  "Élévation anormale du CO2 artériel, généralement due à une hypoventilation ou une insuffisance respiratoire, pouvant causer une acidose respiratoire."
     },
     {
         "en_h":  "Hypoxemia",
         "fr_h":  "Hypoxémie",
-        "d_fr":  "Taux d\u0027oxygène anormalement bas dans le sang artériel (PaO2 \u003c 80 mmHg ou SpO2 \u003c 95 %), indiquant une altération de la fonction respiratoire ou circulatoire."
+        "d_fr":  "Taux d\u0027oxygène anormalement bas dans le sang artériel, indiquant une altération de la fonction respiratoire ou circulatoire."
     },
     {
         "en_h":  "Stridor",
@@ -1347,12 +1347,12 @@
     {
         "en_h":  "Oliguria",
         "fr_h":  "Oligurie",
-        "d_fr":  "Production anormalement faible d\u0027urine, généralement définie comme inférieure à 400 ou 500 mL par jour chez l\u0027adulte."
+        "d_fr":  "Production anormalement faible d\u0027urine, signalant souvent une insuffisance rénale ou une hypoperfusion rénale."
     },
     {
         "en_h":  "Anuria",
         "fr_h":  "Anurie",
-        "d_fr":  "Absence de production d\u0027urine, définie cliniquement comme moins de 100 mL par jour ; indique une insuffisance rénale sévère."
+        "d_fr":  "Arrêt ou quasi-absence de production d\u0027urine, indiquant une insuffisance rénale aiguë ou chronique sévère."
     },
     {
         "en_h":  "Glomerulonephritis",
@@ -1393,7 +1393,7 @@
     {
         "en_h":  "Hypoglycemia",
         "fr_h":  "Hypoglycémie",
-        "d_fr":  "Glycémie basse (\u003c 70 mg/dL) provoquant des symptômes autonomes tels que transpiration et tremblements, et des effets neuroglycopéniques tels que la confusion."
+        "d_fr":  "Glycémie anormalement basse provoquant des symptômes autonomes tels que transpiration et tremblements, et des effets neuroglycopéniques tels que la confusion."
     },
     {
         "en_h":  "Diabetic Ketoacidosis",
@@ -1513,7 +1513,7 @@
     {
         "en_h":  "Postpartum Hemorrhage",
         "fr_h":  "Hémorragie du post-partum",
-        "d_fr":  "Perte sanguine importante dépassant 500 mL (accouchement voie basse) ou 1 000 mL (césarienne) dans les 24 heures suivant l\u0027accouchement."
+        "d_fr":  "Perte sanguine excessive survenant après un accouchement par voie basse ou par césarienne, constituant une urgence obstétricale."
     },
     {
         "en_h":  "Anaphylaxis",
@@ -1545,7 +1545,7 @@
         "en_h":  "Sepsis",
         "fr_h":  "Sepsis",
         "fr_l":  "Septicémie",
-        "d_fr":  "Dysfonction organique menaçant le pronostic vital due à une réponse de l\u0027hôte dérégulée à une infection ; définie par une augmentation aiguë du score SOFA ≥ 2."
+        "d_fr":  "Dysfonction organique menaçant le pronostic vital due à une réponse dérégulée de l\u0027hôte à une infection ; constitue une urgence médicale."
     },
     {
         "en_h":  "Agnosia",
@@ -1613,7 +1613,7 @@
     {
         "en_h":  "Scoliosis",
         "fr_h":  "Scoliose",
-        "d_fr":  "Courbure latérale de la colonne vertébrale supérieure à 10 degrés ; se manifeste typiquement à l\u0027adolescence et peut être idiopathique, congénitale ou neuromusculaire."
+        "d_fr":  "Courbure latérale anormale de la colonne vertébrale ; se manifeste typiquement à l\u0027adolescence, d\u0027origine idiopathique, congénitale ou neuromusculaire."
     },
     {
         "en_h":  "Avascular Necrosis",
@@ -1646,7 +1646,7 @@
         "en_h":  "Ecchymosis",
         "fr_h":  "Ecchymose",
         "fr_l":  "Bleu",
-        "d_fr":  "Tache sous-cutanée de saignement de plus d\u0027un centimètre de diamètre résultant d\u0027une extravasation vasculaire."
+        "d_fr":  "Zone étendue de saignement sous-cutané résultant d\u0027une extravasation vasculaire, communément appelée bleu."
     },
     {
         "en_h":  "Necrotizing Fasciitis",

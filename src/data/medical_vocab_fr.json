@@ -2877,8 +2877,7 @@
     {
         "en_h":  "Sublingual",
         "fr_h":  "Sublingual",
-        "fr_l":  "Sous-lingual",
-        "d_fr":  "Situé ou administré sous la langue ; permet une absorption rapide dans la circulation (ex. : TNT pour l\u0027angor)."
+        "d_fr":  "Situé ou administré sous la langue ; permet une absorption rapide dans la circulation en contournant le premier passage hépatique."
     },
     {
         "en_h":  "Supragingival",
@@ -2934,7 +2933,7 @@
     {
         "en_h":  "Triceps",
         "fr_h":  "Triceps",
-        "d_fr":  "Muscle à trois chefs sur la face postérieure du bras, responsable de l\u0027extension du coude ; teste le nerf radial (C7)."
+        "d_fr":  "Muscle à trois chefs sur la face postérieure du bras, responsable de l\u0027extension du coude ; teste le nerf radial."
     },
     {
         "en_h":  "Twinge",
@@ -2955,7 +2954,6 @@
     {
         "en_h":  "Ulnar",
         "fr_h":  "Ulnaire",
-        "fr_l":  "Cubital",
         "d_fr":  "Relatif à l\u0027ulna, l\u0027os médial de l\u0027avant-bras ; le nerf ulnaire chemine à son côté."
     },
     {
@@ -3007,7 +3005,6 @@
     {
         "en_h":  "Weak pulse",
         "fr_h":  "Pouls faible",
-        "fr_l":  "Pouls filant",
         "d_fr":  "Pouls difficile à palper du fait d\u0027un faible volume d\u0027éjection ou d\u0027une vasoconstriction ; indique un choc ou une défaillance cardiaque."
     },
     {
@@ -3143,7 +3140,6 @@
     {
         "en_h":  "Myringotomy",
         "fr_h":  "Myringotomie",
-        "fr_l":  "Paracentèse du tympan",
         "d_fr":  "Incision chirurgicale du tympan pour drainer le liquide de l\u0027oreille moyenne."
     },
     {
@@ -3291,7 +3287,6 @@
     {
         "en_h":  "Aortic Stenosis",
         "fr_h":  "Rétrécissement aortique",
-        "fr_l":  "Sténose aortique valvulaire",
         "d_fr":  "Rétrécissement de l\u0027orifice valvulaire aortique obstruant l\u0027éjection ventriculaire gauche ; la sévérité est graduée par la surface valvulaire et le gradient de pression moyen."
     },
     {
@@ -3302,7 +3297,6 @@
     {
         "en_h":  "Blepharoptosis",
         "fr_h":  "Blépharoptose",
-        "fr_l":  "Ptosis",
         "d_fr":  "Ptosis de la paupière supérieure dû à une faiblesse musculaire ou à une lésion nerveuse."
     },
     {

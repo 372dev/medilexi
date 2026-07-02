@@ -5282,7 +5282,7 @@
         "en_h":  "Cranium",
         "fr_h":  "Crâne",
         "fr_l":  "Boîte crânienne",
-        "d_fr":  "Structure osseuse renfermant et protégeant le cerveau, composée du crâne et de 22 os au total; forme la calvaria et la base du crâne."
+        "d_fr":  "Structure osseuse renfermant et protégeant le cerveau ; forme la calvaria et la base du crâne."
     },
     {
         "en_h":  "Pelvis",
@@ -5345,13 +5345,13 @@
     {
         "en_h":  "Facial nerve",
         "fr_h":  "Nerf facial",
-        "d_fr":  "Septième nerf crânien (NC VII) contrôlant la motricité des muscles du visage et le goût des deux tiers antérieurs de la langue; lésé dans la paralysie de Bell."
+        "d_fr":  "Septième nerf crânien (NC VII) contrôlant la motricité des muscles du visage et le goût ; lésé dans la paralysie de Bell."
     },
     {
         "en_h":  "Quadriceps",
         "fr_h":  "Quadriceps",
         "fr_l":  "Quadriceps fémoral",
-        "d_fr":  "Groupe de quatre muscles de la face antérieure de la cuisse assurant l\u0027extension du genou; exploré par le réflexe rotulien (L4)."
+        "d_fr":  "Groupe de quatre muscles de la face antérieure de la cuisse assurant l\u0027extension du genou ; exploré par le réflexe rotulien."
     },
     {
         "en_h":  "Hamstring",
@@ -5524,7 +5524,7 @@
     {
         "en_h":  "Hallucination",
         "fr_h":  "Hallucination",
-        "d_fr":  "Perception sensorielle (auditive, visuelle, tactile, olfactive ou gustative) survenant sans stimulus externe; symptôme caractéristique des troubles psychotiques, les hallucinations auditives étant les plus fréquentes."
+        "d_fr":  "Perception sensorielle survenant sans stimulus externe, dans toute modalité sensorielle ; symptôme des troubles psychotiques, l\u0027hallucination auditive étant la plus fréquente."
     },
     {
         "en_h":  "Delusion",
@@ -5551,17 +5551,17 @@
         "en_h":  "Mood stabilizer",
         "fr_h":  "Thymorégulateur",
         "fr_l":  "Stabilisateur de l\u0027humeur",
-        "d_fr":  "Classe de médicaments réduisant la fréquence et la sévérité des épisodes thymiques dans le trouble bipolaire; le lithium est l\u0027agent prototypique."
+        "d_fr":  "Classe de médicaments réduisant la fréquence et la sévérité des épisodes thymiques dans le trouble bipolaire."
     },
     {
         "en_h":  "Cognitive behavioral therapy",
         "fr_h":  "Thérapie cognitive et comportementale",
-        "d_fr":  "Psychothérapie structurée et fondée sur des preuves qui identifie et modifie les schémas de pensée distordus et les comportements inadaptés; traitement de première intention de la dépression, des troubles anxieux et du TOC."
+        "d_fr":  "Psychothérapie structurée et fondée sur des preuves qui modifie les schémas de pensée et comportements inadaptés ; traitement de première intention des troubles de l\u0027humeur, anxieux et du TOC."
     },
     {
         "en_h":  "Eating disorder",
         "fr_h":  "Trouble du comportement alimentaire",
-        "d_fr":  "Groupe de troubles psychiatriques caractérisés par des comportements alimentaires anormaux et une perception déformée du corps; inclut l\u0027anorexie mentale, la boulimie nerveuse et l\u0027hyperphagie boulimique."
+        "d_fr":  "Groupe de troubles caractérisés par des comportements alimentaires anormaux et une perception déformée du corps ; inclut l\u0027anorexie mentale, la boulimie nerveuse et l\u0027hyperphagie boulimique."
     },
     {
         "en_h":  "Substance use disorder",
@@ -5572,7 +5572,7 @@
     {
         "en_h":  "Mania",
         "fr_h":  "Manie",
-        "d_fr":  "Période nettement distincte d\u0027humeur anormalement élevée ou irritable, d\u0027augmentation de l\u0027énergie, de diminution du besoin de sommeil et de comportements impulsifs; signe cardinal du trouble bipolaire de type I."
+        "d_fr":  "Période nettement distincte d\u0027humeur anormalement élevée ou irritable, avec énergie accrue, besoin de sommeil réduit et comportements impulsifs ; signe cardinal du trouble bipolaire de type I."
     },
     {
         "en_h":  "Borderline personality disorder",
@@ -5588,18 +5588,18 @@
     {
         "en_h":  "Mental status examination",
         "fr_h":  "Examen de l\u0027état mental",
-        "d_fr":  "Évaluation clinique structurée du fonctionnement psychologique d\u0027un patient couvrant l\u0027apparence, le comportement, le discours, l\u0027humeur, l\u0027affect, le contenu de la pensée, la cognition et le jugement."
+        "d_fr":  "Évaluation clinique structurée du fonctionnement psychologique couvrant l\u0027apparence, le comportement, le discours, l\u0027humeur, l\u0027affect, la pensée, la cognition et le jugement."
     },
     {
         "en_h":  "Psychotherapy",
         "fr_h":  "Psychothérapie",
         "fr_l":  "Thérapie",
-        "d_fr":  "Ensemble d\u0027approches thérapeutiques fondées sur des échanges structurés entre un thérapeute et un patient pour traiter les troubles mentaux et les difficultés émotionnelles; inclut la TCC, la psychanalyse et d\u0027autres méthodes."
+        "d_fr":  "Ensemble d\u0027approches thérapeutiques fondées sur des échanges structurés entre thérapeute et patient pour traiter les troubles mentaux et les difficultés émotionnelles."
     },
     {
         "en_h":  "Phobia",
         "fr_h":  "Phobie",
-        "d_fr":  "Peur intense et irrationnelle d\u0027un objet, d\u0027une situation ou d\u0027une activité spécifique entraînant un évitement et une détresse significative; classifiée en phobie spécifique, phobie sociale ou agoraphobie."
+        "d_fr":  "Peur intense et irrationnelle d\u0027un objet ou d\u0027une situation spécifique entraînant évitement et détresse ; classifiée en phobie spécifique, sociale ou agoraphobie."
     },
     {
         "en_h":  "Dissociation",
@@ -5616,7 +5616,7 @@
         "en_h":  "Anorexia nervosa",
         "fr_h":  "Anorexie mentale",
         "fr_l":  "Anorexie",
-        "d_fr":  "Trouble du comportement alimentaire caractérisé par une restriction sévère des apports alimentaires, une peur intense de prendre du poids et une image corporelle déformée; associé à de graves complications médicales."
+        "d_fr":  "Trouble du comportement alimentaire caractérisé par une restriction alimentaire sévère, une peur intense de prendre du poids et une image corporelle déformée ; entraîne un poids très bas."
     },
     {
         "en_h":  "Bulimia nervosa",
@@ -5649,7 +5649,7 @@
     {
         "en_h":  "Adrenal cortex",
         "fr_h":  "Cortex surrénalien",
-        "d_fr":  "Couche externe de la glande surrénale produisant trois classes d\u0027hormones stéroïdiennes: glucocorticoïdes (cortisol), minéralocorticoïdes (aldostérone) et androgènes; les maladies associées incluent le syndrome de Cushing et la maladie d\u0027Addison."
+        "d_fr":  "Couche externe de la glande surrénale sécrétant des hormones stéroïdiennes (cortisol, aldostérone, androgènes) essentielles au métabolisme et à la réponse au stress."
     },
     {
         "en_h":  "Adrenocortical carcinoma",

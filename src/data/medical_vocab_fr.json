@@ -1845,7 +1845,6 @@
     {
         "en_h":  "Cerebrum",
         "fr_h":  "Cerveau",
-        "fr_l":  "Hémisphères cérébraux",
         "d_fr":  "La plus grande région cérébrale, en deux hémisphères et quatre lobes ; gouverne la pensée, la mémoire, le langage, la sensibilité et les mouvements volontaires."
     },
     {
@@ -1881,7 +1880,6 @@
     {
         "en_h":  "Scapula",
         "fr_h":  "Omoplate",
-        "fr_l":  "Scapula",
         "d_fr":  "Os plat triangulaire de la face postérieure de l\u0027épaule s\u0027articulant avec la clavicule et l\u0027humérus ; fournit les insertions des principaux muscles du membre supérieur."
     },
     {
@@ -2000,13 +1998,11 @@
     {
         "en_h":  "Epidural",
         "fr_h":  "Péridurale",
-        "fr_l":  "Anesthésie péridurale",
         "d_fr":  "Injection d\u0027un anesthésique local dans l\u0027espace épidural pour bloquer la douleur du bas du corps ; utilisée lors de l\u0027accouchement et en analgésie postopératoire."
     },
     {
         "en_h":  "Renal Pelvis",
         "fr_h":  "Bassinet",
-        "fr_l":  "Pelvis rénal",
         "d_fr":  "Cavité en entonnoir au centre de chaque rein, collectant l\u0027urine des calices et l\u0027acheminant vers l\u0027uretère."
     },
     {
@@ -2027,7 +2023,6 @@
     {
         "en_h":  "Ultrasound",
         "fr_h":  "Échographie",
-        "fr_l":  "Ultrasonographie",
         "d_fr":  "Technique d\u0027imagerie utilisant des ultrasons à haute fréquence pour visualiser les organes et structures internes en temps réel, sans rayonnement ionisant."
     },
     {
@@ -2044,7 +2039,6 @@
     {
         "en_h":  "Physical therapy",
         "fr_h":  "Kinésithérapie",
-        "fr_l":  "Physiothérapie",
         "d_fr":  "Traitement utilisant l\u0027exercice, la thérapie manuelle et des modalités physiques pour restaurer la fonction, la mobilité et réduire la douleur après une blessure ou une maladie."
     },
     {
@@ -2055,7 +2049,6 @@
     {
         "en_h":  "Range of motion",
         "fr_h":  "Amplitude articulaire",
-        "fr_l":  "Amplitude de mouvement",
         "d_fr":  "Amplitude de mouvement possible au niveau d\u0027une articulation ; mesurée pour évaluer les blessures, surveiller la récupération et guider les exercices de rééducation."
     },
     {
@@ -2096,7 +2089,6 @@
     {
         "en_h":  "Nasal Cavity",
         "fr_h":  "Cavité nasale",
-        "fr_l":  "Fosse nasale",
         "d_fr":  "Espace creux à l\u0027intérieur du nez qui réchauffe, humidifie et filtre l\u0027air inhalé avant qu\u0027il n\u0027atteigne les voies respiratoires inférieures."
     },
     {
@@ -2127,7 +2119,6 @@
     {
         "en_h":  "Sigmoid Colon",
         "fr_h":  "Côlon sigmoïde",
-        "fr_l":  "Sigmoïde",
         "d_fr":  "Segment final en forme de S du côlon reliant le côlon descendant au rectum ; site fréquent de la diverticulose et du cancer colorectal."
     },
     {
@@ -2189,7 +2180,6 @@
     {
         "en_h":  "Adrenal Gland",
         "fr_h":  "Glande surrénale",
-        "fr_l":  "Surrénale",
         "d_fr":  "Glande paire au-dessus de chaque rein ; le cortex produit cortisol et aldostérone ; la médullosurrénale sécrète adrénaline et noradrénaline lors du stress."
     },
     {
@@ -2205,7 +2195,6 @@
     {
         "en_h":  "Cervix",
         "fr_h":  "Col de l\u0027utérus",
-        "fr_l":  "Col utérin",
         "d_fr":  "Partie inférieure et étroite de l\u0027utérus communiquant avec le vagin ; soumise au dépistage systématique du cancer par frottis cervical."
     },
     {
@@ -2226,7 +2215,6 @@
     {
         "en_h":  "Tympanic Membrane",
         "fr_h":  "Tympan",
-        "fr_l":  "Membrane tympanique",
         "d_fr":  "Fine membrane séparant le conduit auditif externe de l\u0027oreille moyenne ; vibre en réponse aux ondes sonores et les transmet aux osselets."
     },
     {
@@ -2264,7 +2252,6 @@
     {
         "en_h":  "Amniotomy",
         "fr_h":  "Amniotomie",
-        "fr_l":  "Rupture artificielle des membranes",
         "d_fr":  "Rupture artificielle délibérée des membranes amniotiques à l\u0027aide d\u0027un instrument stérile pour déclencher ou accélérer le travail."
     },
     {
@@ -2290,7 +2277,7 @@
     {
         "en_h":  "Aortostenosis",
         "fr_h":  "Rétrécissement aortique",
-        "fr_l":  "Sténose aortique"
+        "d_fr":  "Rétrécissement de l\u0027orifice de la valve aortique obstruant l\u0027éjection du ventricule gauche ; gradé de léger à critique selon les paramètres hémodynamiques."
     },
     {
         "en_h":  "Arteriosclerosis",

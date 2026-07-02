@@ -3428,7 +3428,6 @@
     {
         "en_h":  "Nephroptosis",
         "fr_h":  "Néphroptose",
-        "fr_l":  "Rein ptôsé",
         "d_fr":  "Déplacement anormal vers le bas du rein en position debout."
     },
     {
@@ -3466,7 +3465,6 @@
     {
         "en_h":  "Pleuritis",
         "fr_h":  "Pleurésie",
-        "fr_l":  "Pleurite",
         "d_fr":  "Inflammation de la plèvre causant une douleur thoracique aiguë s\u0027aggravant à la respiration."
     },
     {
@@ -3478,7 +3476,6 @@
     {
         "en_h":  "Proctitis",
         "fr_h":  "Rectite",
-        "fr_l":  "Proctite",
         "d_fr":  "Inflammation de la muqueuse rectale ; les causes comprennent les MICI, les infections et les radiations."
     },
     {
@@ -3494,7 +3491,6 @@
     {
         "en_h":  "Pyloric Stenosis",
         "fr_h":  "Sténose du pylore",
-        "fr_l":  "Sténose pylorique",
         "d_fr":  "Rétrécissement du pylore obstruant la vidange gastrique ; fréquent chez les nourrissons de sexe masculin."
     },
     {
@@ -3582,7 +3578,6 @@
     {
         "en_h":  "Adrenaline",
         "fr_h":  "Adrénaline",
-        "fr_l":  "Épinéphrine",
         "d_fr":  "Hormone catécholaminergique sécrétée par la médullosurrénale ; déclenche la réponse de combat ou de fuite."
     },
     {
@@ -3648,7 +3643,6 @@
     {
         "en_h":  "Brachytherapy",
         "fr_h":  "Curiethérapie",
-        "fr_l":  "Brachythérapie",
         "d_fr":  "Radiothérapie délivrée en plaçant une source radioactive directement dans ou à proximité d\u0027une tumeur."
     },
     {
@@ -3674,7 +3668,6 @@
     {
         "en_h":  "Wheezing",
         "fr_h":  "Sifflement bronchique",
-        "fr_l":  "Wheezing",
         "d_fr":  "Sifflement aigu entendu à la respiration, dû au rétrécissement des voies aériennes ; associé à l\u0027asthme, à la BPCO et à l\u0027anaphylaxie."
     },
     {
@@ -3727,7 +3720,6 @@
     {
         "en_h":  "Corneal Transplant",
         "fr_h":  "Greffe de cornée",
-        "fr_l":  "Kératoplastie",
         "d_fr":  "Remplacement chirurgical d\u0027une cornée endommagée ou malade par un tissu donneur."
     },
     {
@@ -3738,7 +3730,6 @@
     {
         "en_h":  "Debridement",
         "fr_h":  "Débridement",
-        "fr_l":  "Parage chirurgical",
         "d_fr":  "Ablation de tissu mort, endommagé ou infecté pour favoriser la cicatrisation d\u0027une plaie."
     },
     {
@@ -3837,7 +3828,6 @@
     {
         "en_h":  "Hepatoma",
         "fr_h":  "Carcinome hépatocellulaire",
-        "fr_l":  "Hépatocarcinome",
         "d_fr":  "Tumeur maligne des hépatocytes ; aussi appelé carcinome hépatocellulaire."
     },
     {
@@ -3854,7 +3844,6 @@
     {
         "en_h":  "Hyperemesis",
         "fr_h":  "Hyperémèse",
-        "fr_l":  "Vomissements incoercibles",
         "d_fr":  "Vomissements sévères et incontrôlables ; l\u0027hyperemesis gravidarum survient en début de grossesse."
     },
     {
@@ -3885,7 +3874,6 @@
     {
         "en_h":  "Immunodeficiency",
         "fr_h":  "Immunodéficience",
-        "fr_l":  "Déficit immunitaire",
         "d_fr":  "État d\u0027altération de la fonction immunitaire laissant l\u0027organisme vulnérable aux infections."
     },
     {
@@ -3921,7 +3909,6 @@
     {
         "en_h":  "Megalocardia",
         "fr_h":  "Mégalocardie",
-        "fr_l":  "Cardiomégalie",
         "d_fr":  "Hypertrophie anormale du cœur ; également appelée cardiomégalie."
     },
     {

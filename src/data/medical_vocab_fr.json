@@ -4721,7 +4721,7 @@
     {
         "en_h":  "Bulla",
         "fr_h":  "Bulle",
-        "d_fr":  "Lésion cutanée remplie de liquide de plus d\u0027un centimètre de diamètre ; observée dans les brûlures, le pemphigus et la dermatite de contact sévère."
+        "d_fr":  "Grande lésion cutanée remplie de liquide ; observée dans les brûlures, le pemphigus et la dermatite de contact sévère."
     },
     {
         "en_h":  "Comedo",
@@ -4797,7 +4797,7 @@
     {
         "en_h":  "Nodule",
         "fr_h":  "Nodule",
-        "d_fr":  "Lésion cutanée solide et surélevée de plus d\u0027un centimètre de diamètre, s\u0027étendant plus profondément dans le derme ou le tissu sous-cutané qu\u0027une papule."
+        "d_fr":  "Lésion cutanée solide et surélevée s\u0027étendant plus profondément dans le derme ou le tissu sous-cutané qu\u0027une papule."
     },
     {
         "en_h":  "Onychomalacia",
@@ -4812,7 +4812,7 @@
     {
         "en_h":  "Papule",
         "fr_h":  "Papule",
-        "d_fr":  "Petite lésion cutanée solide et surélevée de moins d\u0027un centimètre de diamètre sans liquide visible ; observée dans l\u0027acné, l\u0027eczéma et le psoriasis."
+        "d_fr":  "Petite lésion cutanée solide et surélevée sans liquide visible ; observée dans l\u0027acné, l\u0027eczéma et le psoriasis."
     },
     {
         "en_h":  "Photosensitivity",
@@ -4852,7 +4852,7 @@
     {
         "en_h":  "Vesicle",
         "fr_h":  "Vésicule",
-        "d_fr":  "Petite lésion cutanée remplie de liquide de moins d\u0027un centimètre de diamètre ; observée dans l\u0027herpès, la varicelle et la dermatite de contact."
+        "d_fr":  "Petite lésion cutanée remplie de liquide ; observée dans l\u0027herpès, la varicelle et la dermatite de contact."
     },
     {
         "en_h":  "Wheal",

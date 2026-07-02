@@ -1746,12 +1746,12 @@
     {
         "en_h":  "Septic Shock",
         "fr_h":  "Choc septique",
-        "d_fr":  "Forme de sepsis avec défaillance circulatoire, définie par la nécessité de vasopresseurs et un lactate \u003e 2 mmol/L malgré un remplissage vasculaire adéquat."
+        "d_fr":  "Forme de sepsis avec défaillance circulatoire, définie par la nécessité de vasopresseurs et une élévation du lactate malgré un remplissage vasculaire adéquat."
     },
     {
         "en_h":  "Hyperkalemia",
         "fr_h":  "Hyperkaliémie",
-        "d_fr":  "Élévation de la kaliémie (\u003e 5,5 mEq/L) pouvant entraîner des arythmies cardiaques potentiellement mortelles, dont la fibrillation ventriculaire."
+        "d_fr":  "Élévation de la kaliémie pouvant entraîner des arythmies cardiaques potentiellement mortelles, dont la fibrillation ventriculaire."
     },
     {
         "en_h":  "Tracheostomy",
@@ -1846,7 +1846,7 @@
     {
         "en_h":  "Nephron",
         "fr_h":  "Néphron",
-        "d_fr":  "Unité fonctionnelle du rein comprenant un glomérule et des tubules qui filtrent le sang pour produire l\u0027urine ; chaque rein en compte environ 1 million."
+        "d_fr":  "Unité fonctionnelle du rein comprenant un glomérule et des tubules qui filtrent le sang pour produire l\u0027urine."
     },
     {
         "en_h":  "Glomerulus",
@@ -1908,7 +1908,7 @@
     {
         "en_h":  "Sternum",
         "fr_h":  "Sternum",
-        "d_fr":  "Os thoracique plat sur la ligne médiane avec manubrium, corps et processus xiphoïde ; s\u0027articule avec les clavicules et les cartilages costaux des côtes 1 à 7."
+        "d_fr":  "Os thoracique plat sur la ligne médiane avec manubrium, corps et processus xiphoïde ; s\u0027articule avec les clavicules et les cartilages costaux des côtes supérieures."
     },
     {
         "en_h":  "Femur",
@@ -2087,7 +2087,7 @@
     {
         "en_h":  "Chemotherapy",
         "fr_h":  "Chimiothérapie",
-        "d_fr":  "Utilisation de médicaments cytotoxiques pour détruire ou freiner la croissance des cellules cancéreuses ; administrée par voie orale ou intraveineuse, provoquant fréquemment des effets indésirables systémiques."
+        "d_fr":  "Médicaments cytotoxiques détruisant ou freinant la croissance des cellules cancéreuses ; administrés par voie orale ou intraveineuse, avec des effets indésirables systémiques fréquents."
     },
     {
         "en_h":  "Heart",
@@ -2143,7 +2143,7 @@
     {
         "en_h":  "Large Intestine",
         "fr_h":  "Gros intestin",
-        "d_fr":  "Segment terminal du tube digestif (environ 1,5 m), comprenant le cæcum, le côlon et le rectum ; absorbe l\u0027eau et les électrolytes et forme les selles."
+        "d_fr":  "Segment terminal du tube digestif, comprenant le cæcum, le côlon et le rectum ; absorbe l\u0027eau et les électrolytes et forme les selles."
     },
     {
         "en_h":  "Sigmoid Colon",
@@ -2205,7 +2205,7 @@
     {
         "en_h":  "Vertebra",
         "fr_h":  "Vertèbre",
-        "d_fr":  "L\u0027un des 33 os formant la colonne vertébrale ; protège la moelle épinière et assure le soutien structural du tronc."
+        "d_fr":  "L\u0027un des os formant la colonne vertébrale ; protège la moelle épinière et assure le soutien structural du tronc."
     },
     {
         "en_h":  "Adrenal Gland",

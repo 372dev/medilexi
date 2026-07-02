@@ -5700,7 +5700,7 @@
                   "Emergency Medicine",
                   "Infectious Disease"
               ],
-        "d":  "Subset of sepsis with circulatory failure, defined by vasopressor requirement and lactate \u003e2 mmol/L despite adequate fluid resuscitation.",
+        "d":  "Subset of sepsis with circulatory failure, defined by persistent hypotension requiring vasopressors and elevated lactate despite adequate fluid resuscitation.",
         "lvl":  3,
         "parts":  {
                       "s":  [
@@ -5717,7 +5717,7 @@
                   "Emergency Medicine",
                   "Critical Care"
               ],
-        "d":  "Elevated serum potassium (\u003e5.5 mEq/L) that can cause life-threatening cardiac arrhythmias including ventricular fibrillation.",
+        "d":  "Elevated serum potassium that can cause life-threatening cardiac arrhythmias including ventricular fibrillation.",
         "lvl":  3,
         "parts":  {
                       "p":  [

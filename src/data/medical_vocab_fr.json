@@ -3659,7 +3659,7 @@
     {
         "en_h":  "Aortic Aneurysm",
         "fr_h":  "Anévrisme aortique",
-        "d_fr":  "Dilatation focale permanente de l\u0027aorte dépassant 1,5 fois son diamètre normal ; la plus fréquente dans l\u0027aorte abdominale sous-rénale ; la rupture est souvent fatale."
+        "d_fr":  "Dilatation focale permanente de l\u0027aorte ; la plus fréquente dans l\u0027aorte abdominale sous-rénale ; la rupture est souvent fatale."
     },
     {
         "en_h":  "Apnea",
@@ -3931,7 +3931,7 @@
     {
         "en_h":  "Hypothermia",
         "fr_h":  "Hypothermie",
-        "d_fr":  "Température centrale dangereusement basse, inférieure à 35 °C (95 °F)."
+        "d_fr":  "Température corporelle centrale dangereusement basse."
     },
     {
         "en_h":  "Immunodeficiency",
@@ -3967,7 +3967,7 @@
     {
         "en_h":  "Macule",
         "fr_h":  "Macule",
-        "d_fr":  "Lésion cutanée plate et décolorée de moins d\u0027un centimètre de diamètre ; non surélevée ni palpable."
+        "d_fr":  "Lésion cutanée plate et décolorée, non surélevée ni palpable, distincte d\u0027une papule par l\u0027absence de relief."
     },
     {
         "en_h":  "Megalocardia",

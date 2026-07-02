@@ -12757,7 +12757,7 @@
     },
     {
         "en_h":  "Hypothermia",
-        "d":  "Dangerously low core body temperature below 35°C (95°F).",
+        "d":  "Dangerously low core body temperature that impairs normal physiological function.",
         "lvl":  3,
         "f":  [
                   "Emergency Medicine"

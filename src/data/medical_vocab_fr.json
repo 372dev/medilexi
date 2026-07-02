@@ -2368,7 +2368,6 @@
     {
         "en_h":  "Cephalgia",
         "fr_h":  "Céphalalgie",
-        "fr_l":  "Céphalée",
         "d_fr":  "Douleur dans toute partie de la tête ; primaire (migraine, céphalée de tension) ou secondaire (infection, hypertension, pathologie intracrânienne)."
     },
     {
@@ -2384,7 +2383,6 @@
     {
         "en_h":  "Cerebrospinal fluid",
         "fr_h":  "Liquide céphalorachidien",
-        "fr_l":  "LCR",
         "d_fr":  "Liquide clair circulant autour du cerveau et de la moelle épinière pour amortir les chocs et éliminer les déchets ; prélevé par ponction lombaire."
     },
     {
@@ -2564,7 +2562,6 @@
     {
         "en_h":  "Ipsilateral",
         "fr_h":  "Ipsilatéral",
-        "fr_l":  "Homolatéral",
         "d_fr":  "Relatif au même côté du corps ; utilisé dans les descriptions neurologiques et anatomiques."
     },
     {
@@ -2590,7 +2587,6 @@
     {
         "en_h":  "Last menstrual period",
         "fr_h":  "Dernières règles",
-        "fr_l":  "Date des dernières règles",
         "d_fr":  "Premier jour des dernières règles ; sert à calculer l\u0027âge gestationnel et la date prévue d\u0027accouchement."
     },
     {
@@ -2607,7 +2603,6 @@
     {
         "en_h":  "Lithotripsy",
         "fr_h":  "Lithotritie",
-        "fr_l":  "Lithotripsie",
         "d_fr":  "Procédure de fragmentation des calculs rénaux ou urétéraux par ondes de choc extracorporelles focalisées ou par laser endoscopique."
     },
     {
@@ -2618,7 +2613,6 @@
     {
         "en_h":  "Malnutrition",
         "fr_h":  "Malnutrition",
-        "fr_l":  "Dénutrition",
         "d_fr":  "Déséquilibre nutritionnel altérant les fonctions physiologiques ; englobe la dénutrition, la surnutrition et les carences en micronutriments."
     },
     {
@@ -2679,7 +2673,6 @@
     {
         "en_h":  "Nasopharynx",
         "fr_h":  "Nasopharynx",
-        "fr_l":  "Rhinopharynx",
         "d_fr":  "Partie supérieure du pharynx derrière la cavité nasale ; contient les végétations adénoïdes et les orifices des trompes d\u0027Eustache."
     },
     {
@@ -2741,7 +2734,6 @@
     {
         "en_h":  "Pelvic binder",
         "fr_h":  "Ceinture de contention pelvienne",
-        "fr_l":  "Ceintrage pelvien",
         "d_fr":  "Dispositif de compression circonférentielle pour les fractures pelviennes instables réduisant le volume pelvien et contrôlant l\u0027hémorragie."
     },
     {
@@ -2752,7 +2744,6 @@
     {
         "en_h":  "Periodontitis",
         "fr_h":  "Parodontite",
-        "fr_l":  "Périodontite",
         "d_fr":  "Infection grave des gencives et de l\u0027os par des bactéries de la plaque dentaire ; principale cause de perte dentaire."
     },
     {
@@ -2804,7 +2795,6 @@
     {
         "en_h":  "Prenatal",
         "fr_h":  "Prénatal",
-        "fr_l":  "Anténatal",
         "d_fr":  "Survenant avant la naissance ; les soins prénataux comprennent les consultations et les dépistages pendant la grossesse."
     },
     {
@@ -2815,7 +2805,6 @@
     {
         "en_h":  "Prosthodontist",
         "fr_h":  "Spécialiste en prothèse dentaire",
-        "fr_l":  "Prosthodontiste",
         "d_fr":  "Spécialiste dentaire axé sur la restauration et le remplacement des dents à l\u0027aide de prothèses, bridges et implants."
     },
     {

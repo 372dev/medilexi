@@ -1600,7 +1600,6 @@
     {
         "en_h":  "Avascular Necrosis",
         "fr_h":  "Nécrose avasculaire",
-        "fr_l":  "Ostéonécrose",
         "d_fr":  "Mort cellulaire du tissu osseux due à une interruption temporaire ou permanente de la vascularisation."
     },
     {
@@ -1670,7 +1669,6 @@
     {
         "en_h":  "Choledocholithiasis",
         "fr_h":  "Lithiase de la voie biliaire principale",
-        "fr_l":  "Calcul de la voie biliaire",
         "d_fr":  "Présence de calculs dans le canal cholédoque ; peut causer une obstruction biliaire, un ictère, une cholangite ou une pancréatite."
     },
     {
@@ -1691,7 +1689,6 @@
     {
         "en_h":  "Ileus",
         "fr_h":  "Iléus",
-        "fr_l":  "Occlusion fonctionnelle",
         "d_fr":  "Défaillance du péristaltisme intestinal causant une occlusion fonctionnelle ; se manifeste par distension, nausées, vomissements et absence de bruits intestinaux."
     },
     {

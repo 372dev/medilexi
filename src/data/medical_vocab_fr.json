@@ -771,7 +771,6 @@
     {
         "en_h":  "Hematemesis",
         "fr_h":  "Hématémèse",
-        "fr_l":  "Vomissement de sang",
         "d_fr":  "Vomissement de sang provenant du tractus digestif supérieur ; rouge vif ou comme du marc de café selon la vitesse du saignement."
     },
     {
@@ -838,7 +837,6 @@
     {
         "en_h":  "Pituitary Gland",
         "fr_h":  "Hypophyse",
-        "fr_l":  "Glande pituitaire",
         "d_fr":  "Glande endocrine maîtresse à la base du cerveau qui régule la croissance, la reproduction et la sécrétion hormonale des autres glandes endocrines."
     },
     {
@@ -1097,13 +1095,11 @@
     {
         "en_h":  "Leukocytosis",
         "fr_h":  "Hyperleucocytose",
-        "fr_l":  "Leucocytose",
         "d_fr":  "Augmentation du nombre de globules blancs circulants au-dessus de la normale, généralement en réponse à une infection ou à une inflammation sévère."
     },
     {
         "en_h":  "Polycythemia Vera",
         "fr_h":  "Polyglobulie de Vaquez",
-        "fr_l":  "Polyglobulie primitive",
         "d_fr":  "Trouble myéloprolifératif avec surproduction incontrôlée de globules rouges, augmentant la viscosité sanguine et le risque de thrombose et d\u0027AVC."
     },
     {
@@ -1156,7 +1152,6 @@
     {
         "en_h":  "Atheroma",
         "fr_h":  "Athérome",
-        "fr_l":  "Plaque d\u0027athérome",
         "d_fr":  "Dépôt ou plaque lipidique se formant sur la couche interne de la paroi artérielle, caractéristique de l\u0027athérosclérose."
     },
     {

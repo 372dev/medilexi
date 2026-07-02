@@ -4050,7 +4050,7 @@
     {
         "en_h":  "Neuroblastoma",
         "fr_h":  "Neuroblastome",
-        "d_fr":  "Tumeur maligne issue de cellules nerveuses immatures ; plus fréquente chez les enfants de moins de 5 ans."
+        "d_fr":  "Tumeur maligne issue de cellules nerveuses immatures ; plus fréquente chez le jeune enfant."
     },
     {
         "en_h":  "Neurologist",
@@ -4486,7 +4486,7 @@
         "en_h":  "Non-Steroidal Anti-Inflammatory Drug",
         "fr_h":  "Anti-inflammatoire non stéroïdien",
         "fr_l":  "AINS",
-        "d_fr":  "Classe de médicaments réduisant la douleur, la fièvre et l\u0027inflammation en inhibant les enzymes COX ; comprend l\u0027ibuprofène, le naproxène et l\u0027aspirine."
+        "d_fr":  "Classe de médicaments réduisant la douleur, la fièvre et l\u0027inflammation en inhibant les enzymes COX."
     },
     {
         "en_h":  "Pseudocyesis",

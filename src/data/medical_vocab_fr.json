@@ -2326,7 +2326,7 @@
     {
         "en_h":  "Arthritis",
         "fr_h":  "Arthrite",
-        "d_fr":  "Inflammation d\u0027une ou plusieurs articulations provoquant douleur, gonflement et raideur ; englobe plus de 100 affections distinctes."
+        "d_fr":  "Inflammation d\u0027une ou plusieurs articulations provoquant douleur, gonflement et raideur ; englobe de nombreuses affections distinctes."
     },
     {
         "en_h":  "Arthrocentesis",
@@ -2372,12 +2372,12 @@
     {
         "en_h":  "Bradypnea",
         "fr_h":  "Bradypnée",
-        "d_fr":  "Respiration anormalement lente (moins de 12 respirations par minute) ; peut indiquer une dépression du SNC ou un surdosage aux opioïdes."
+        "d_fr":  "Respiration anormalement lente ; peut indiquer une dépression du SNC ou un surdosage aux opioïdes."
     },
     {
         "en_h":  "Bronchitis",
         "fr_h":  "Bronchite",
-        "d_fr":  "Inflammation des bronches ; aiguë (généralement virale) ou chronique (plus de 3 mois par an pendant 2 ans ou plus)."
+        "d_fr":  "Inflammation des bronches ; aiguë (généralement virale) ou chronique (toux productive persistante et récidivante)."
     },
     {
         "en_h":  "Buccinator",
@@ -2542,7 +2542,7 @@
         "en_h":  "Genu varum",
         "fr_h":  "Genu varum",
         "fr_l":  "Genou en O",
-        "d_fr":  "Jambes arquées vers l\u0027extérieur au niveau des genoux ; normal chez les nourrissons de moins de 2 ans, pathologique si persistant."
+        "d_fr":  "Jambes arquées vers l\u0027extérieur au niveau des genoux ; normal chez le jeune nourrisson, pathologique si persistant."
     },
     {
         "en_h":  "Gestational diabetes",
@@ -2734,7 +2734,7 @@
     {
         "en_h":  "Normotensive",
         "fr_h":  "Normotensif",
-        "d_fr":  "Ayant une pression artérielle normale (systolique \u003c 120 et diastolique \u003c 80 mmHg)."
+        "d_fr":  "Ayant une pression artérielle dans les valeurs normales."
     },
     {
         "en_h":  "Oculomotor",
@@ -2818,7 +2818,7 @@
     {
         "en_h":  "Polyuria",
         "fr_h":  "Polyurie",
-        "d_fr":  "Production urinaire anormalement abondante (\u003e 3 litres/jour) ; symptôme cardinal du diabète sucré et insipide."
+        "d_fr":  "Production urinaire anormalement abondante ; symptôme cardinal du diabète sucré et insipide."
     },
     {
         "en_h":  "Postauricular",
@@ -2833,7 +2833,7 @@
     {
         "en_h":  "Postpartum",
         "fr_h":  "Post-partum",
-        "d_fr":  "Survenant après l\u0027accouchement ; la période post-partum désigne généralement les six semaines suivant la délivrance."
+        "d_fr":  "Survenant après l\u0027accouchement ; la période post-partum désigne les semaines suivant la délivrance."
     },
     {
         "en_h":  "Prenatal",

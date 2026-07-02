@@ -8909,7 +8909,7 @@
                   "General Medicine",
                   "Cardiology"
               ],
-        "d":  "Having normal blood pressure (systolic \u003c120 and diastolic \u003c80 mmHg).",
+        "d":  "Having blood pressure within the normal range.",
         "lvl":  2,
         "parts":  {
                       "p":  [
@@ -9262,7 +9262,7 @@
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
               ],
-        "d":  "Occurring after childbirth, with the postpartum period typically spanning the first six weeks following delivery.",
+        "d":  "Occurring after childbirth, referring to the period following delivery as the mother\u0027s body recovers.",
         "lvl":  3,
         "parts":  {
                       "p":  [

@@ -1137,7 +1137,7 @@
                   "Internal Medicine",
                   "Pharmacology"
               ],
-        "d":  "Concurrent use of five or more medications in one patient, increasing the risk of drug interactions and adverse effects.",
+        "d":  "Concurrent use of multiple medications in one patient, increasing the risk of drug interactions and adverse effects.",
         "lvl":  2,
         "parts":  {
                       "p":  [

@@ -14,7 +14,6 @@
     {
         "en_h":  "Preventive care",
         "fr_h":  "Soins préventifs",
-        "fr_l":  "Prévention médicale",
         "d_fr":  "Services de santé proactifs — vaccinations, dépistages, conseils — visant à prévenir l\u0027apparition des maladies."
     },
     {
@@ -46,13 +45,11 @@
     {
         "en_h":  "Chief complaint",
         "fr_h":  "Motif de consultation",
-        "fr_l":  "Plainte principale",
         "d_fr":  "Symptôme ou motif principal qui amène le patient à consulter, consigné en début de tout entretien clinique."
     },
     {
         "en_h":  "Medical history",
         "fr_h":  "Antécédents médicaux",
-        "fr_l":  "Dossier médical",
         "d_fr":  "Ensemble des antécédents médicaux du patient : maladies passées, interventions chirurgicales, traitements, allergies et antécédents familiaux."
     },
     {
@@ -83,7 +80,6 @@
     {
         "en_h":  "Sign",
         "fr_h":  "Signe clinique",
-        "fr_l":  "Signe",
         "d_fr":  "Manifestation objective d\u0027une maladie détectée par le clinicien lors de l\u0027examen (ex. : fièvre, œdème, souffle cardiaque anormal)."
     },
     {
@@ -139,7 +135,6 @@
     {
         "en_h":  "Coronary artery disease",
         "fr_h":  "Maladie coronarienne",
-        "fr_l":  "Coronaropathie",
         "d_fr":  "Rétrécissement ou obstruction des artères coronaires par athérosclérose, réduisant l\u0027apport sanguin au myocarde."
     },
     {
@@ -323,7 +318,6 @@
     {
         "en_h":  "Cognitive impairment",
         "fr_h":  "Trouble cognitif",
-        "fr_l":  "Déclin cognitif",
         "d_fr":  "Déclin des capacités de mémoire, de langage, de jugement ou d\u0027autres fonctions cognitives, allant du léger (TCL) au sévère (démence)."
     },
     {
@@ -380,14 +374,12 @@
     {
         "en_h":  "Referral",
         "fr_h":  "Orientation médicale",
-        "fr_l":  "Référence médicale",
         "d_fr":  "Processus formel orientant un patient d\u0027un médecin généraliste vers un spécialiste pour une évaluation ou un traitement complémentaire."
     },
     {
         "en_h":  "Polypharmacy",
         "fr_h":  "Polymédication",
-        "fr_l":  "Polypharmacie",
-        "d_fr":  "Utilisation concomitante de plusieurs médicaments chez un même patient, augmentant le risque d\u0027interactions et d\u0027effets indésirables ; généralement définie comme ≥ 5 médicaments."
+        "d_fr":  "Utilisation concomitante de plusieurs médicaments chez un même patient, augmentant le risque d\u0027interactions et d\u0027effets indésirables."
     },
     {
         "en_h":  "Vaccination / Immunization",
@@ -408,12 +400,11 @@
     {
         "en_h":  "Depression",
         "fr_h":  "Dépression",
-        "d_fr":  "Trouble de l\u0027humeur caractérisé par une humeur dépressive persistante et une anhédonie pendant au moins deux semaines, altérant le fonctionnement quotidien ; perturbe le sommeil, l\u0027appétit et l\u0027énergie."
+        "d_fr":  "Trouble de l\u0027humeur avec humeur dépressive persistante et anhédonie pendant au moins deux semaines, altérant le sommeil, l\u0027appétit, l\u0027énergie et le fonctionnement quotidien."
     },
     {
         "en_h":  "Urinary tract infection",
         "fr_h":  "Infection urinaire",
-        "fr_l":  "Infection des voies urinaires",
         "d_fr":  "Infection bactérienne du système urinaire (vessie, urètre, reins) ; l\u0027une des infections les plus fréquemment diagnostiquées."
     },
     {
@@ -430,7 +421,6 @@
     {
         "en_h":  "Follow-up",
         "fr_h":  "Suivi médical",
-        "fr_l":  "Consultation de suivi",
         "d_fr":  "Visite ultérieure programmée pour surveiller l\u0027état d\u0027un patient, sa réponse au traitement ou l\u0027évolution de sa guérison."
     },
     {
@@ -441,7 +431,6 @@
     {
         "en_h":  "Compliance / Adherence",
         "fr_h":  "Observance thérapeutique",
-        "fr_l":  "Adhérence au traitement",
         "d_fr":  "Degré auquel un patient suit correctement le plan de traitement prescrit, incluant les médicaments et les modifications du mode de vie."
     },
     {
@@ -541,7 +530,6 @@
     {
         "en_h":  "Dizziness",
         "fr_h":  "Étourdissement",
-        "fr_l":  "Vertige non systématisé",
         "d_fr":  "Sensation non spécifique de tête légère ou d\u0027instabilité sans véritable sensation de rotation ; à distinguer du vertige."
     },
     {
@@ -552,7 +540,6 @@
     {
         "en_h":  "Spinal cord injury",
         "fr_h":  "Lésion médullaire",
-        "fr_l":  "Traumatisme médullaire",
         "d_fr":  "Lésion de la moelle épinière entraînant une perte des fonctions motrices, sensitives ou autonomes en dessous du niveau de la lésion."
     },
     {

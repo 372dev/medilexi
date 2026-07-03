@@ -9,6 +9,7 @@ import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { getSegments } from '@/lib/word-segments'
+import { rankTier } from '@/lib/search-rank'
 
 interface BaseEntry { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: number; parts?: { p?: string[]; r?: string[]; s?: string[] } }
 interface FrEntry  { en_h: string; fr_h: string; fr_l?: string; d_fr?: string }
@@ -39,20 +40,15 @@ function hi(text: string, idx?: readonly [number,number][]): ReactNode {
   return <>{parts}</>
 }
 
-// Relevance tier (lower = better): exact term/abbr → field prefix → word-start →
-// substring → fuzzy term match → definition-only (last). Quality (Fuse score) decides
-// within a tier, so an exact term/abbr always beats a stray fuzzy hit.
+// Relevance tier (lower = better) — see rankTier. Exact term/abbr beats a stray
+// fuzzy hit; the Fuse score only decides within a tier.
 function matchTierFr(item: MergedEntry, matches: readonly { key?: string }[] | undefined, ql: string): number {
-  const terms = [item.fr_h, item.en_h, item.abbr ?? '', item.fr_l ?? '', item.en_l ?? ''].map(s => (s ?? '').toLowerCase())
-  const nonEmpty = terms.filter(t => t !== '')
-  if (nonEmpty.some(t => t === ql)) return 0
-  if (nonEmpty.some(t => t.startsWith(ql))) return 1
-  const wordStart = (s: string) => s.split(/[\s\-/]+/).some(w => w.startsWith(ql))
-  if (nonEmpty.some(t => wordStart(t))) return 2
-  if (nonEmpty.some(t => t.includes(ql))) return 3
-  const keys = new Set((matches ?? []).map(m => m.key))
-  if (['fr_h', 'en_h', 'abbr', 'fr_l', 'en_l'].some(k => keys.has(k))) return 4
-  return 5
+  return rankTier(
+    [item.fr_h, item.en_h, item.abbr, item.fr_l, item.en_l],
+    (matches ?? []).map(m => m.key ?? ''),
+    ['fr_h', 'en_h', 'abbr', 'fr_l', 'en_l'],
+    ql,
+  )
 }
 
 const fuseFr = new Fuse(vocab, {

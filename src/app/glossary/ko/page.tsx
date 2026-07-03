@@ -10,6 +10,7 @@ import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, LVL_TEXT, normalizeLvl }
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { hangulSearch, jamoFlat, isKorean } from '@/lib/hangul'
 import { getSegments } from '@/lib/word-segments'
+import { rankTier } from '@/lib/search-rank'
 
 interface BaseEntry { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: number; parts?: { p?: string[]; r?: string[]; s?: string[] } }
 interface KoEntry { en_h: string; ko_h: string; ko_l?: string; d_ko?: string }
@@ -47,20 +48,15 @@ function hi(text: string, idx?: readonly [number,number][]): ReactNode {
   return <>{parts}</>
 }
 
-// Relevance tier (lower = better) for the Fuse (English / romaji) path: exact term/abbr
-// → field prefix → word-start → substring → fuzzy term match → definition-only (last).
+// Relevance tier (lower = better) for the Fuse (English / romaji) path — see rankTier.
 // The Korean (jamo) path keeps its own position-based scoring below.
 function matchTierKo(item: MergedEntry, matches: readonly { key?: string }[] | undefined, ql: string): number {
-  const terms = [item.ko_h, item.en_h, item.abbr ?? '', item.ko_l ?? '', item.en_l ?? ''].map(s => (s ?? '').toLowerCase())
-  const nonEmpty = terms.filter(t => t !== '')
-  if (nonEmpty.some(t => t === ql)) return 0
-  if (nonEmpty.some(t => t.startsWith(ql))) return 1
-  const wordStart = (s: string) => s.split(/[\s\-/]+/).some(w => w.startsWith(ql))
-  if (nonEmpty.some(t => wordStart(t))) return 2
-  if (nonEmpty.some(t => t.includes(ql))) return 3
-  const keys = new Set((matches ?? []).map(m => m.key))
-  if (['ko_h', 'en_h', 'abbr', 'ko_l', 'en_l'].some(k => keys.has(k))) return 4
-  return 5
+  return rankTier(
+    [item.ko_h, item.en_h, item.abbr, item.ko_l, item.en_l],
+    (matches ?? []).map(m => m.key ?? ''),
+    ['ko_h', 'en_h', 'abbr', 'ko_l', 'en_l'],
+    ql,
+  )
 }
 
 const fuseKo = new Fuse(vocab, {

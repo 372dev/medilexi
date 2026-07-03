@@ -9,6 +9,7 @@ import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { getSegments } from '@/lib/word-segments'
+import { rankTier } from '@/lib/search-rank'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
@@ -20,22 +21,15 @@ interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 const vocab = (vocabData as any[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) })) as VocabEntry[]
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 
-// Relevance tier (lower = better). Exact term/abbr matches rank first, then field
-// prefix, word-start, substring, fuzzy term match, and definition-only matches last —
-// so an exact abbr like "EEG" always beats a stray fuzzy en_h hit, and quality
-// (Fuse score) only decides within a tier.
+// Relevance tier (lower = better) — see rankTier. Exact term/abbr beats a stray
+// fuzzy hit; the Fuse score only decides within a tier.
 function matchTier(item: VocabEntry, matches: readonly { key?: string }[] | undefined, ql: string): number {
-  const en = item.en_h.toLowerCase()
-  const ab = (item.abbr ?? '').toLowerCase()
-  const el = (item.en_l ?? '').toLowerCase()
-  if (en === ql || ab === ql || el === ql) return 0
-  if (en.startsWith(ql) || ab.startsWith(ql) || (el !== '' && el.startsWith(ql))) return 1
-  const wordStart = (s: string) => s.split(/[^a-z0-9]+/).some(w => w.startsWith(ql))
-  if (wordStart(en) || (el !== '' && wordStart(el))) return 2
-  if (en.includes(ql) || ab.includes(ql) || (el !== '' && el.includes(ql))) return 3
-  const keys = new Set((matches ?? []).map(m => m.key))
-  if (keys.has('en_h') || keys.has('abbr') || keys.has('en_l')) return 4
-  return 5
+  return rankTier(
+    [item.en_h, item.abbr, item.en_l],
+    (matches ?? []).map(m => m.key ?? ''),
+    ['en_h', 'abbr', 'en_l'],
+    ql,
+  )
 }
 
 const fuse = new Fuse(vocab, {

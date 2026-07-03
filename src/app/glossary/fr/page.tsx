@@ -155,14 +155,21 @@ export default function FrGlossaryPage() {
   useEffect(() => setMounted(true), [])
 
   const [search, setSearch]     = useState('')
+  const [query, setQuery]       = useState('')   // debounced value that actually drives search
   const [fieldFilter, setField] = useState<string|null>(null)
   const [levelFilter, setLevel] = useState<number|null>(null)
   const [defLang, setDefLang]   = useState<'fr'|'en'>('fr')
 
+  // Debounce: don't re-run Fuse + re-render all cards on every keystroke.
+  useEffect(() => {
+    const t = setTimeout(() => setQuery(search), 150)
+    return () => clearTimeout(t)
+  }, [search])
+
   type CardEntry = MergedEntry & { _mm?: MatchMap }
 
   const filtered = useMemo((): CardEntry[] => {
-    const q = search.trim()
+    const q = query.trim()
 
     if (!q) {
       return vocab.filter(v => {
@@ -186,14 +193,14 @@ export default function FrGlossaryPage() {
         if (levelFilter && v.lvl !== levelFilter) return false
         return true
       })
-  }, [search, fieldFilter, levelFilter])
+  }, [query, fieldFilter, levelFilter])
 
   // True when the query has no exact/prefix/substring hit — only fuzzy "related" results.
   const noExact = useMemo(() => {
-    const q = search.trim()
+    const q = query.trim()
     if (!q || filtered.length === 0) return false
     return matchTierFr(filtered[0], [], q.toLowerCase()) >= 4
-  }, [search, filtered])
+  }, [query, filtered])
 
   return (
     <>
@@ -240,7 +247,7 @@ export default function FrGlossaryPage() {
       {/* ── Cards ── */}
       {!mounted ? <FrGlossarySkeleton /> : (
         <>
-          {noExact && <div className="c-search-note">No exact match for “{search.trim()}” — showing related terms.</div>}
+          {noExact && <div className="c-search-note">No exact match for “{query.trim()}” — showing related terms.</div>}
           <div className="c-grid">
             {filtered.map(v => <FrCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
           </div>

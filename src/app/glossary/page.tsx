@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo, Suspense, type ReactNode } from 'react'
+import { useState, useMemo, useEffect, Suspense, type ReactNode } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
@@ -127,13 +127,20 @@ function Card({ v, onFieldClick, mm }: { v: VocabEntry; onFieldClick: (f: string
 function GlossaryContent() {
   const params = useSearchParams()
   const [search, setSearch]     = useState(params.get('q') || '')
+  const [query, setQuery]       = useState(search)   // debounced value that actually drives search
   const [fieldFilter, setField] = useState<string|null>(null)
   const [levelFilter, setLevel] = useState<number|null>(null)
+
+  // Debounce: don't re-run Fuse + re-render all cards on every keystroke.
+  useEffect(() => {
+    const t = setTimeout(() => setQuery(search), 150)
+    return () => clearTimeout(t)
+  }, [search])
 
   type CardEntry = VocabEntry & { _mm?: MatchMap }
 
   const filtered = useMemo((): CardEntry[] => {
-    const q = search.trim()
+    const q = query.trim()
 
     if (!q) {
       return vocab.filter(v => {
@@ -160,14 +167,14 @@ function GlossaryContent() {
         if (levelFilter && v.lvl !== levelFilter) return false
         return true
       })
-  }, [search, fieldFilter, levelFilter])
+  }, [query, fieldFilter, levelFilter])
 
   // True when the query has no exact/prefix/substring hit — only fuzzy "related" results.
   const noExact = useMemo(() => {
-    const q = search.trim()
+    const q = query.trim()
     if (!q || filtered.length === 0) return false
     return matchTier(filtered[0], [], q.toLowerCase()) >= 4
-  }, [search, filtered])
+  }, [query, filtered])
 
   return (
     <>
@@ -196,7 +203,7 @@ function GlossaryContent() {
         </div>
       </div>
 
-      {noExact && <div className="c-search-note">No exact match for “{search.trim()}” — showing related terms.</div>}
+      {noExact && <div className="c-search-note">No exact match for “{query.trim()}” — showing related terms.</div>}
 
       {/* ── Cards ── */}
       <div className="c-grid">

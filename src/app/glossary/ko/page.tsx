@@ -223,15 +223,22 @@ export default function KoGlossaryPage() {
 
   const [inputValue, setInputValue]   = useState('')
   const [searchQuery, setSearchQuery] = useState('')
+  const [deferredQuery, setDeferredQuery] = useState('')   // debounced value that actually drives search
   const composingRef = useRef(false)
   const [fieldFilter, setField] = useState<string|null>(null)
   const [levelFilter, setLevel] = useState<number|null>(null)
   const [defLang, setDefLang]   = useState<'ko'|'en'>('ko')
 
+  // Debounce: don't re-run the Korean/jamo + Fuse search and re-render all cards on every keystroke.
+  useEffect(() => {
+    const t = setTimeout(() => setDeferredQuery(searchQuery), 150)
+    return () => clearTimeout(t)
+  }, [searchQuery])
+
   type CardEntry = MergedEntry & { _mm?: MatchMap }
 
   const filtered = useMemo((): CardEntry[] => {
-    const q = searchQuery.trim()
+    const q = deferredQuery.trim()
 
     if (!q) {
       return vocab.filter(v => {
@@ -314,13 +321,13 @@ export default function KoGlossaryPage() {
       if (levelFilter && v.lvl !== levelFilter) return false
       return true
     })
-  }, [searchQuery, fieldFilter, levelFilter])
+  }, [deferredQuery, fieldFilter, levelFilter])
 
   // True when the query has no exact hit — only fuzzy "related" results. For Korean,
   // an exact match means the top result still matches at the jamo level (precise/초성/
   // partial); if only the typo-tolerant jamo fallback matched, it's "related".
   const noExact = useMemo(() => {
-    const q = searchQuery.trim()
+    const q = deferredQuery.trim()
     if (!q || filtered.length === 0) return false
     if (isKorean(q)) {
       const top = filtered[0]
@@ -330,7 +337,7 @@ export default function KoGlossaryPage() {
       return !exact
     }
     return matchTierKo(filtered[0], [], q.toLowerCase()) >= 4
-  }, [searchQuery, filtered])
+  }, [deferredQuery, filtered])
 
   return (
     <>
@@ -387,7 +394,7 @@ export default function KoGlossaryPage() {
       {/* ── Cards ── */}
       {!mounted ? <KoGlossarySkeleton /> : (
         <>
-          {noExact && <div className="c-search-note">No exact match for “{searchQuery.trim()}” — showing related terms.</div>}
+          {noExact && <div className="c-search-note">No exact match for “{deferredQuery.trim()}” — showing related terms.</div>}
           <div className="c-grid">
             {filtered.map(v => <KoCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
           </div>

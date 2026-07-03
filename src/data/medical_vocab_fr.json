@@ -4646,7 +4646,6 @@
     {
         "en_h":  "Contusion",
         "fr_h":  "Contusion",
-        "fr_l":  "Ecchymose",
         "d_fr":  "Lésion des tissus mous provoquant une hémorragie sous-cutanée avec peau intacte, entraînant ecchymose et douleur ; communément appelée bleu ou hématome superficiel."
     },
     {
@@ -4662,7 +4661,6 @@
     {
         "en_h":  "Diaphoresis",
         "fr_h":  "Diaphorèse",
-        "fr_l":  "Sudation profuse",
         "d_fr":  "Transpiration profuse et anormale survenant sans effort physique ; peut indiquer de la fièvre, un choc, une hypoglycémie ou une dysfonction autonome."
     },
     {
@@ -4684,7 +4682,6 @@
     {
         "en_h":  "Hyperemia",
         "fr_h":  "Hyperhémie",
-        "fr_l":  "Congestion",
         "d_fr":  "Excès de sang dans un tissu ou organe causant rougeur et chaleur ; peut être active (augmentation du flux artériel) ou passive (congestion veineuse)."
     },
     {
@@ -4818,7 +4815,6 @@
     {
         "en_h":  "Decubitus ulcer",
         "fr_h":  "Escarre de décubitus",
-        "fr_l":  "Ulcère de pression",
         "d_fr":  "Lésion de la peau et des tissus due à une pression prolongée sur les proéminences osseuses ; aussi appelée escarre ou plaie de pression."
     },
     {
@@ -4874,7 +4870,6 @@
     {
         "en_h":  "Laceration",
         "fr_h":  "Lacération",
-        "fr_l":  "Plaie déchiquetée",
         "d_fr":  "Déchirure ou coupure irrégulière de la peau ou des tissus mous, généralement traumatique ; nécessite habituellement une fermeture de plaie."
     },
     {
@@ -4906,7 +4901,6 @@
     {
         "en_h":  "Squamous cell carcinoma",
         "fr_h":  "Carcinome épidermoïde",
-        "fr_l":  "Carcinome spinocellulaire",
         "d_fr":  "Tumeur maligne issue des kératinocytes de l\u0027épiderme ; peut métastaser si non traité ; associé à l\u0027exposition aux UV et à l\u0027immunosuppression."
     },
     {
@@ -4918,7 +4912,7 @@
     {
         "en_h":  "Systemic lupus erythematosus",
         "fr_h":  "Lupus érythémateux systémique",
-        "fr_l":  "LED",
+        "fr_l":  "Lupus",
         "d_fr":  "Maladie auto-immune systémique chronique touchant de multiples organes ; les signes caractéristiques sont un érythème en ailes de papillon, des douleurs articulaires et une atteinte rénale."
     },
     {
@@ -4956,7 +4950,6 @@
     {
         "en_h":  "Carbuncle",
         "fr_h":  "Furoncle confluent",
-        "fr_l":  "Furoncle collecté",
         "d_fr":  "Infection cutanée profonde avec plusieurs furoncles interconnectés due à Staphylococcus aureus ; forme une masse douloureuse et purulente."
     },
     {
@@ -4982,7 +4975,6 @@
     {
         "en_h":  "Paronychia",
         "fr_h":  "Paronychie",
-        "fr_l":  "Périonyxis",
         "d_fr":  "Infection de la peau entourant l\u0027ongle causant rougeur, gonflement et pus ; peut être aiguë (bactérienne) ou chronique (fongique)."
     },
     {
@@ -5003,19 +4995,16 @@
     {
         "en_h":  "Frozen section",
         "fr_h":  "Examen extemporané",
-        "fr_l":  "Coupe congelée",
         "d_fr":  "Technique peropératoire rapide dans laquelle le tissu congelé est sectionné et examiné au microscope pour guider les décisions chirurgicales."
     },
     {
         "en_h":  "Fungal scrapings",
         "fr_h":  "Prélèvement mycologique",
-        "fr_l":  "Raclage cutané pour mycose",
         "d_fr":  "Procédure diagnostique consistant à gratter la peau, les ongles ou les cheveux pour un examen microscopique ou une culture afin d\u0027identifier une infection fongique."
     },
     {
         "en_h":  "Allograft",
         "fr_h":  "Allogreffe",
-        "fr_l":  "Greffe allogénique",
         "d_fr":  "Greffe de tissu provenant d\u0027un donneur génétiquement non identique de la même espèce ; utilisée comme couverture biologique temporaire de plaies."
     },
     {
@@ -5077,7 +5066,6 @@
     {
         "en_h":  "Chemabrasion",
         "fr_h":  "Peeling chimique",
-        "fr_l":  "Dermabrasion chimique",
         "d_fr":  "Application d\u0027un peeling chimique pour retirer les couches superficielles de la peau, favorisant le resurfaçage ; utilisée pour les cicatrices d\u0027acné, les rides et la pigmentation."
     },
     {
@@ -5093,7 +5081,6 @@
     {
         "en_h":  "Liposuction",
         "fr_h":  "Liposuccion",
-        "fr_l":  "Lipoaspiration",
         "d_fr":  "Procédure chirurgicale qui aspire les dépôts de graisse sous-cutanée par de petites incisions ; utilisée pour le remodelage corporel."
     },
     {

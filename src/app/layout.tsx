@@ -1,24 +1,10 @@
 import { headers } from 'next/headers'
 import type { Metadata } from 'next'
 import ClientShell from './ClientShell'
+import { PAGE_TITLES } from '@/lib/page-titles'
 import './globals.css'
 
 const BASE_URL = 'https://medilexi.vercel.app'
-
-const PAGE_TITLES: Record<string, string> = {
-  '/glossary':            'English Glossary',
-  '/glossary/ko':         'Korean Glossary',
-  '/wordparts':           'Medical Word Parts',
-  '/wordparts/flashcard': 'Word Parts Flashcard',
-  '/wordparts/quiz':      'Word Parts Quiz',
-  '/flashcards':          'English Flashcard',
-  '/flashcards/ko':       'Korean Flashcard',
-  '/flashcards/abbr':    'Abbreviation Flashcard',
-  '/glossary/fr':        'French Glossary',
-  '/flashcards/fr':      'French Flashcard',
-  '/about':               'About',
-  '/privacy':             'Privacy Policy',
-}
 
 const PAGE_DESCRIPTIONS: Record<string, string> = {
   '/':                    'Learn medical vocabulary with prefix · root · suffix breakdowns, 1,000+ term glossary, flashcards and quiz. Free study tool for medical students.',

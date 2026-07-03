@@ -13,7 +13,7 @@ interface VocabEntry {
 }
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
-const vocab    = (vocabData as any[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) })) as VocabEntry[]
+const vocab    = (vocabData as unknown as VocabEntry[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) }))
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 const PART_COLOR = { p: '#3B82F6', r: '#3BAA6A', s: '#C94040' } as const
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()

@@ -16,7 +16,7 @@ interface FrEntry  { en_h: string; fr_h: string; fr_l?: string; d_fr?: string }
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 interface MergedEntry extends BaseEntry { fr_h: string; fr_l?: string; d_fr?: string }
 
-const base     = (baseData as any[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) })) as BaseEntry[]
+const base     = (baseData as unknown as BaseEntry[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) }))
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 const frMap    = Object.fromEntries((frData as FrEntry[]).map(k => [k.en_h, k]))
 const vocab: MergedEntry[] = base

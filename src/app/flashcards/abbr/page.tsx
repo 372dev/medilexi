@@ -13,7 +13,7 @@ interface VocabEntry {
 }
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
-const abbrVocab  = (vocabData as any[])
+const abbrVocab  = (vocabData as unknown as VocabEntry[])
   .map(v => ({ ...v, lvl: normalizeLvl(v.lvl) }))
   .filter((v): v is VocabEntry => !!v.abbr)
 const partsMap   = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))

@@ -17,7 +17,7 @@ interface KoEntry { en_h: string; ko_h: string; ko_l?: string; d_ko?: string }
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 interface MergedEntry extends BaseEntry { ko_h: string; ko_l?: string; d_ko?: string }
 
-const base = (baseData as any[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) })) as BaseEntry[]
+const base = (baseData as unknown as BaseEntry[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) }))
 const ko = koData as KoEntry[]
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 const koMap = Object.fromEntries(ko.map(k => [k.en_h, k]))

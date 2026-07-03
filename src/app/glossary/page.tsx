@@ -7,6 +7,7 @@ import Fuse from 'fuse.js'
 import vocabData from '@/data/medical_vocab.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, normalizeLvl } from '@/lib/vocab-constants'
+import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
@@ -176,6 +177,8 @@ function GlossaryContent() {
     return matchTier(filtered[0], [], q.toLowerCase()) >= 4
   }, [query, filtered])
 
+  const { visible, sentinelRef } = useInfiniteReveal(filtered.length, filtered)
+
   return (
     <>
       {/* ── Sticky filter bar ── */}
@@ -207,8 +210,9 @@ function GlossaryContent() {
 
       {/* ── Cards ── */}
       <div className="c-grid">
-        {filtered.map(v => <Card key={v.en_h} v={v} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
+        {filtered.slice(0, visible).map(v => <Card key={v.en_h} v={v} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
       </div>
+      <div ref={sentinelRef} aria-hidden="true" />
       {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
     </>
   )

@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import partsData from '@/data/medical_wordparts.json'
+import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 
 interface WordPart {
   wp: string; t: 'p'|'r'|'s'; lvl: 1|2|3
@@ -60,6 +61,8 @@ export default function WordPartsPage() {
     s: parts.filter(p => p.t==='s').length,
   }), [])
 
+  const { visible, sentinelRef } = useInfiniteReveal(filtered.length, filtered)
+
   function toggle(wp: string) {
     setExpanded(prev => {
       const next = new Set(prev)
@@ -100,7 +103,7 @@ export default function WordPartsPage() {
 
       {/* ── Cards ── */}
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px,1fr))', gap:'1rem' }}>
-        {filtered.map((p) => {
+        {filtered.slice(0, visible).map((p) => {
           const isOpen = expanded.has(p.wp)
           return (
             <div
@@ -144,6 +147,7 @@ export default function WordPartsPage() {
           )
         })}
       </div>
+      <div ref={sentinelRef} aria-hidden="true" />
       {filtered.length === 0 && <div className="c-empty">No word parts found.</div>}
     </>
   )

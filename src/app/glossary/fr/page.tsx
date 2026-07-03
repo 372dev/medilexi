@@ -7,6 +7,7 @@ import baseData from '@/data/medical_vocab.json'
 import frData from '@/data/medical_vocab_fr.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, normalizeLvl } from '@/lib/vocab-constants'
+import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 
 interface BaseEntry { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: number; parts?: { p?: string[]; r?: string[]; s?: string[] } }
 interface FrEntry  { en_h: string; fr_h: string; fr_l?: string; d_fr?: string }
@@ -202,6 +203,8 @@ export default function FrGlossaryPage() {
     return matchTierFr(filtered[0], [], q.toLowerCase()) >= 4
   }, [query, filtered])
 
+  const { visible, sentinelRef } = useInfiniteReveal(filtered.length, filtered)
+
   return (
     <>
       {/* ── Sticky filter bar ── */}
@@ -249,8 +252,9 @@ export default function FrGlossaryPage() {
         <>
           {noExact && <div className="c-search-note">No exact match for “{query.trim()}” — showing related terms.</div>}
           <div className="c-grid">
-            {filtered.map(v => <FrCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
+            {filtered.slice(0, visible).map(v => <FrCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
           </div>
+          <div ref={sentinelRef} aria-hidden="true" />
           {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
         </>
       )}

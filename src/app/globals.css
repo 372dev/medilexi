@@ -272,6 +272,11 @@ button { font-family: var(--font-body); }
   transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
   animation: card-in 0.18s ease both;
 }
+
+/* Respect the OS "reduce motion" setting — skip the card entrance animation. */
+@media (prefers-reduced-motion: reduce) {
+  .c-card { animation: none; }
+}
 .c-card:hover {
   border-color: var(--color-gold-dim);
   box-shadow: 3px 3px 0 0 rgba(240,180,41,0.35);

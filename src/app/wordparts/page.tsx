@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import partsData from '@/data/medical_wordparts.json'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
+import { LVL_TEXT } from '@/lib/vocab-constants'
 
 interface WordPart {
   wp: string; t: 'p'|'r'|'s'; lvl: 1|2|3
@@ -104,7 +105,7 @@ export default function WordPartsPage() {
             >
               <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
                 <span className={`c-badge c-badge--${p.t}`}>{TYPE_LABEL[p.t]}</span>
-                <span className={`c-stars c-stars--${p.lvl}`}>{'⭐'.repeat(p.lvl)}</span>
+                <span className={`c-stars c-stars--${p.lvl}`} role="img" aria-label={`Importance: ${LVL_TEXT[p.lvl]}`}>{'⭐'.repeat(p.lvl)}</span>
               </div>
               <div style={{ fontSize:'1.2rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.25rem' }}>{p.wp}</div>
               <div style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', lineHeight:1.6 }}>{p.d}</div>

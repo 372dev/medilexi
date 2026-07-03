@@ -17,6 +17,11 @@ export const LVL_LABEL: Record<number, string> = {
   3: '⭐⭐⭐ Essential', 2: '⭐⭐ Important', 1: '⭐ Good to know',
 }
 
+// Emoji-free label for screen readers (used as aria-label on the star spans).
+export const LVL_TEXT: Record<number, string> = {
+  3: 'Essential', 2: 'Important', 1: 'Good to know',
+}
+
 export function normalizeLvl(v: unknown): LvlNum {
   if (v === 3 || v === '⭐⭐⭐ Essential') return 3
   if (v === 2 || v === '⭐⭐ Important') return 2

@@ -3,6 +3,7 @@
 import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import partsData from '@/data/medical_wordparts.json'
+import { LVL_TEXT } from '@/lib/vocab-constants'
 
 interface WordPart {
   wp: string; t: 'p'|'r'|'s'; lvl: 1|2|3
@@ -134,7 +135,7 @@ export default function WordPartsFlashcard() {
               <div className="c-filter-row" style={{ marginBottom:0 }}>
                 <button className={`c-pill ${!lvlFilter?'c-pill--active':''}`} onClick={() => setLvl(null)}>All</button>
                 {[3,2,1].map(l => (
-                  <button key={l} className={`c-pill c-pill--star ${lvlFilter===l?'c-pill--active':''}`} onClick={() => setLvl(lvlFilter===l?null:l)}>
+                  <button key={l} className={`c-pill c-pill--star ${lvlFilter===l?'c-pill--active':''}`} aria-label={LVL_TEXT[l]} onClick={() => setLvl(lvlFilter===l?null:l)}>
                     {'⭐'.repeat(l)}
                   </button>
                 ))}
@@ -230,7 +231,7 @@ export default function WordPartsFlashcard() {
                   <div style={{ position:'absolute', inset:0, backfaceVisibility:'hidden', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', gap:'0.75rem', padding:'2rem', background:'var(--color-panel)', border:'1px solid var(--color-border)', boxShadow:'2px 2px 0 0 var(--color-border)' }}>
                     <span className={`c-badge c-badge--${card.t}`}>{TYPE_LABEL[card.t]}</span>
                     <div style={{ fontSize:'2.8rem', fontWeight:700, color:'var(--color-text)', textAlign:'center' }}>{card.wp}</div>
-                    <span className={`c-stars c-stars--${card.lvl}`} style={{ fontSize:'1.4rem' }}>{'⭐'.repeat(card.lvl)}</span>
+                    <span className={`c-stars c-stars--${card.lvl}`} role="img" aria-label={`Importance: ${LVL_TEXT[card.lvl]}`} style={{ fontSize:'1.4rem' }}>{'⭐'.repeat(card.lvl)}</span>
                     <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginTop:'auto' }}><kbd>Space</kbd> or tap to reveal</p>
                   </div>
                   {/* Back */}

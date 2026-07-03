@@ -5,7 +5,7 @@ import Link from 'next/link'
 import vocabData from '@/data/medical_vocab.json'
 import frData from '@/data/medical_vocab_fr.json'
 import partsData from '@/data/medical_wordparts_simple.json'
-import { ALL_LEVELS, STARS, STAR_CLASS, normalizeLvl } from '@/lib/vocab-constants'
+import { ALL_LEVELS, STARS, STAR_CLASS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
@@ -158,7 +158,7 @@ export default function FrFlashcardsPage() {
                 <button className={`c-pill ${!lvlFilter ? 'c-pill--active' : ''}`} onClick={() => setLvl(null)}>All</button>
                 {ALL_LEVELS.map(lvl => (
                   <button key={lvl} className={`c-pill c-pill--star ${lvlFilter === lvl ? 'c-pill--active' : ''}`}
-                    onClick={() => setLvl(lvlFilter === lvl ? null : lvl)}>{STARS[lvl]}</button>
+                    aria-label={LVL_TEXT[lvl]} onClick={() => setLvl(lvlFilter === lvl ? null : lvl)}>{STARS[lvl]}</button>
                 ))}
               </div>
             </div>
@@ -258,7 +258,7 @@ export default function FrFlashcardsPage() {
 
                   {/* Front */}
                   <div style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '0.75rem', padding: '2rem', background: 'var(--color-panel)', border: '1px solid var(--color-border)', boxShadow: '2px 2px 0 0 var(--color-border)' }}>
-                    <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} style={{ fontSize: '1rem' }}>{STARS[card.lvl]}</span>
+                    <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} role="img" aria-label={`Importance: ${LVL_TEXT[card.lvl]}`} style={{ fontSize: '1rem' }}>{STARS[card.lvl]}</span>
                     {isFrEn ? (
                       <>
                         <div style={{ fontSize: '1.8rem', fontWeight: 700, color: 'var(--color-text)', textAlign: 'center', lineHeight: 1.35, wordBreak: 'break-word' }}>{card.fr_h}</div>
@@ -304,7 +304,7 @@ export default function FrFlashcardsPage() {
                       </div>
                     )}
                     <div style={{ marginTop: 'auto', display: 'flex', flexWrap: 'wrap', gap: '0.3rem', alignItems: 'center' }}>
-                      <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} style={{ fontSize: '0.8rem', marginRight: '0.25rem' }}>{STARS[card.lvl]}</span>
+                      <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} role="img" aria-label={`Importance: ${LVL_TEXT[card.lvl]}`} style={{ fontSize: '0.8rem', marginRight: '0.25rem' }}>{STARS[card.lvl]}</span>
                       {card.f.map(f => <span key={f} className="c-field-badge">{f}</span>)}
                     </div>
                   </div>

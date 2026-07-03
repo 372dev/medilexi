@@ -6,7 +6,7 @@ import Fuse from 'fuse.js'
 import baseData from '@/data/medical_vocab.json'
 import frData from '@/data/medical_vocab_fr.json'
 import partsData from '@/data/medical_wordparts_simple.json'
-import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, normalizeLvl } from '@/lib/vocab-constants'
+import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 
 interface BaseEntry { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: number; parts?: { p?: string[]; r?: string[]; s?: string[] } }
@@ -111,7 +111,7 @@ function FrCard({ v, defLang, onFieldClick, mm }: { v: MergedEntry; defLang: 'fr
   return (
     <div className={`c-card ${LVL_CARD_CLASS[v.lvl]||''}`} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
-        <span className={`c-stars ${STAR_CLASS[v.lvl]||''}`}>{STARS[v.lvl]}</span>
+        <span className={`c-stars ${STAR_CLASS[v.lvl]||''}`} role="img" aria-label={`Importance: ${LVL_TEXT[v.lvl]}`}>{STARS[v.lvl]}</span>
         {v.abbr && <span className="c-abbr">{hi(v.abbr, mm?.abbr)}</span>}
       </div>
       <div style={{ fontSize:'1.15rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.15rem', lineHeight:1.3 }}>
@@ -231,7 +231,7 @@ export default function FrGlossaryPage() {
             <div className="c-filter-row" style={{ marginBottom:0 }}>
               <button className={`c-pill ${!levelFilter?'c-pill--active':''}`} onClick={() => setLevel(null)}>All</button>
               {ALL_LEVELS.map(lvl => (
-                <button key={lvl} className={`c-pill c-pill--star ${levelFilter===lvl?'c-pill--active':''}`} onClick={() => setLevel(levelFilter===lvl?null:lvl)}>
+                <button key={lvl} className={`c-pill c-pill--star ${levelFilter===lvl?'c-pill--active':''}`} aria-label={LVL_TEXT[lvl]} onClick={() => setLevel(levelFilter===lvl?null:lvl)}>
                   {STARS[lvl]}
                 </button>
               ))}

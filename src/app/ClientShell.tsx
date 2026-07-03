@@ -98,9 +98,9 @@ export default function ClientShell({ children }: { children: React.ReactNode })
             </div>
           </header>
           <div className="site-body">
-            <aside className="site-ad">Ad</aside>
+            <aside className="site-ad" aria-hidden="true">Ad</aside>
             <main className="site-content">{children}</main>
-            <aside className="site-ad">Ad</aside>
+            <aside className="site-ad" aria-hidden="true">Ad</aside>
           </div>
           <footer className="site-footer">
             <p className="site-footer__disclaimer">

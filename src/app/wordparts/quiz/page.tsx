@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import partsData from '@/data/medical_wordparts.json'
+import { LVL_TEXT } from '@/lib/vocab-constants'
 
 /* ─── Types ─── */
 interface WordPart {
@@ -226,7 +227,7 @@ export default function WordPartsQuiz() {
                 <button className={`c-pill ${!lvlFilter ? 'c-pill--active' : ''}`} onClick={() => setLvl(null)}>All</button>
                 {[3,2,1].map(l => (
                   <button key={l} className={`c-pill c-pill--star ${lvlFilter===l ? 'c-pill--active' : ''}`}
-                    onClick={() => setLvl(lvlFilter===l ? null : l)}>
+                    aria-label={LVL_TEXT[l]} onClick={() => setLvl(lvlFilter===l ? null : l)}>
                     {'⭐'.repeat(l)}
                   </button>
                 ))}
@@ -317,7 +318,7 @@ export default function WordPartsQuiz() {
 
           {/* Question card */}
           <div style={{ background:'var(--color-panel)', border:'1px solid var(--color-border)', boxShadow:'2px 2px 0 0 var(--color-border)', minHeight:'240px', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'2.5rem 2rem', marginBottom:'1.25rem', textAlign:'center', gap:'0.85rem' }}>
-            <span className={`c-stars c-stars--${q.lvl}`} style={{ fontSize:'1.2rem' }}>{'⭐'.repeat(q.lvl)}</span>
+            <span className={`c-stars c-stars--${q.lvl}`} role="img" aria-label={`Importance: ${LVL_TEXT[q.lvl]}`} style={{ fontSize:'1.2rem' }}>{'⭐'.repeat(q.lvl)}</span>
             <div style={{ fontSize:'2.2rem', fontWeight:700, color:'var(--color-gold)', lineHeight:1.2, wordBreak:'break-word', maxWidth:'100%' }}>
               {qBigTerm(q.question, q.wp)}
             </div>

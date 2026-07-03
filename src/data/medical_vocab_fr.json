@@ -5124,25 +5124,25 @@
         "en_h":  "Anterior",
         "fr_h":  "Antérieur",
         "fr_l":  "Avant",
-        "d_fr":  "Vers la face antérieure du corps; contraire de postérieur. Utilisé pour décrire la position relative des structures anatomiques."
+        "d_fr":  "Vers la face antérieure du corps; contraire de postérieur."
     },
     {
         "en_h":  "Posterior",
         "fr_h":  "Postérieur",
         "fr_l":  "Arrière",
-        "d_fr":  "Vers la face postérieure du corps; contraire d\u0027antérieur. Utilisé pour indiquer la position relative d\u0027une structure anatomique."
+        "d_fr":  "Vers la face postérieure du corps; contraire d\u0027antérieur."
     },
     {
         "en_h":  "Superior",
         "fr_h":  "Supérieur",
         "fr_l":  "Au-dessus",
-        "d_fr":  "Vers la tête ou la partie haute du corps; contraire d\u0027inférieur. Le cœur est supérieur à l\u0027estomac."
+        "d_fr":  "Vers la tête ou la partie haute du corps; contraire d\u0027inférieur."
     },
     {
         "en_h":  "Inferior",
         "fr_h":  "Inférieur",
         "fr_l":  "En dessous",
-        "d_fr":  "Vers les pieds ou la partie basse du corps; contraire de supérieur. Les reins sont inférieurs au diaphragme."
+        "d_fr":  "Vers les pieds ou la partie basse du corps; contraire de supérieur."
     },
     {
         "en_h":  "Frontal lobe",
@@ -5251,7 +5251,6 @@
     {
         "en_h":  "Quadriceps",
         "fr_h":  "Quadriceps",
-        "fr_l":  "Quadriceps fémoral",
         "d_fr":  "Groupe de quatre muscles de la face antérieure de la cuisse assurant l\u0027extension du genou ; exploré par le réflexe rotulien."
     },
     {
@@ -5290,7 +5289,6 @@
     {
         "en_h":  "Breast",
         "fr_h":  "Sein",
-        "fr_l":  "Glande mammaire",
         "d_fr":  "Tissu glandulaire de la paroi thoracique antérieure produisant du lait chez la femme; site le plus fréquent de cancer chez la femme."
     },
     {
@@ -5311,13 +5309,11 @@
     {
         "en_h":  "Subcutaneous tissue",
         "fr_h":  "Tissu sous-cutané",
-        "fr_l":  "Hypoderme",
         "d_fr":  "Couche la plus profonde de la peau, sous le derme, composée principalement de tissu adipeux; assure l\u0027isolation thermique, le rembourrage et le stockage d\u0027énergie."
     },
     {
         "en_h":  "Basal ganglia",
         "fr_h":  "Noyaux gris centraux",
-        "fr_l":  "Ganglions de la base",
         "d_fr":  "Groupe de noyaux sous-corticaux coordonnant le contrôle moteur et l\u0027apprentissage; leur dysfonctionnement provoque des troubles du mouvement tels que la maladie de Parkinson."
     },
     {
@@ -5370,12 +5366,11 @@
     {
         "en_h":  "Superficial",
         "fr_h":  "Superficiel",
-        "d_fr":  "Situé près de la surface du corps ou à la surface; contraire de profond. Utilisé pour décrire la position relative des structures anatomiques."
+        "d_fr":  "Situé près de la surface du corps ou à la surface; contraire de profond."
     },
     {
         "en_h":  "Fascia",
         "fr_h":  "Fascia",
-        "fr_l":  "Aponévrose",
         "d_fr":  "Tissu conjonctif dense entourant et séparant les muscles, les nerfs et les organes; impliqué dans le syndrome des loges et des affections telles que la fasciite plantaire."
     },
     {
@@ -5478,7 +5473,6 @@
     {
         "en_h":  "Borderline personality disorder",
         "fr_h":  "Trouble de la personnalité borderline",
-        "fr_l":  "Personnalité borderline",
         "d_fr":  "Trouble de la personnalité caractérisé par une instabilité des relations, de l\u0027image de soi et des émotions, ainsi qu\u0027une impulsivité et des comportements d\u0027automutilation ou suicidaires récurrents."
     },
     {

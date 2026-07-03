@@ -59,7 +59,7 @@ const BASE_GRAPH = [
     url: BASE_URL,
     name: 'Medi Lexi',
     description: 'Free multilingual medical glossary for students, medical interpreters and translators.',
-    inLanguage: ['en', 'ko'],
+    inLanguage: ['en', 'ko', 'fr'],
     potentialAction: {
       '@type': 'SearchAction',
       target: { '@type': 'EntryPoint', urlTemplate: `${BASE_URL}/glossary?q={search_term_string}` },

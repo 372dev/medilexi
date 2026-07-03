@@ -3996,7 +3996,6 @@
     {
         "en_h":  "Neutrophil",
         "fr_h":  "Neutrophile",
-        "fr_l":  "Polynucléaire neutrophile",
         "d_fr":  "Le globule blanc le plus abondant ; composant clé de la défense immunitaire innée."
     },
     {
@@ -4042,13 +4041,11 @@
     {
         "en_h":  "Parathyroid",
         "fr_h":  "Parathyroïde",
-        "fr_l":  "Glande parathyroïde",
         "d_fr":  "Quatre petites glandes endocrines adjacentes à la thyroïde régulant le calcium et le phosphate."
     },
     {
         "en_h":  "Pelvic Inflammatory Disease",
         "fr_h":  "Maladie inflammatoire pelvienne",
-        "fr_l":  "Salpingite",
         "d_fr":  "Infection de la partie supérieure de l\u0027appareil génital féminin ; complication fréquente des infections sexuellement transmissibles."
     },
     {
@@ -4059,7 +4056,6 @@
     {
         "en_h":  "Physiotherapy",
         "fr_h":  "Kinésithérapie",
-        "fr_l":  "Physiothérapie",
         "d_fr":  "Traitement thérapeutique utilisant des méthodes physiques pour restaurer les mouvements et les fonctions."
     },
     {
@@ -4070,7 +4066,6 @@
     {
         "en_h":  "Pneumonia",
         "fr_h":  "Pneumonie",
-        "fr_l":  "Pneumopathie",
         "d_fr":  "Infection inflammatoire du parenchyme pulmonaire causée par des bactéries, des virus ou des champignons."
     },
     {
@@ -4107,7 +4102,6 @@
     {
         "en_h":  "Pyuria",
         "fr_h":  "Pyurie",
-        "fr_l":  "Leucocyturie",
         "d_fr":  "Présence de globules blancs dans l\u0027urine ; indique une infection ou une inflammation urinaire."
     },
     {
@@ -4128,7 +4122,6 @@
     {
         "en_h":  "Relapse",
         "fr_h":  "Rechute",
-        "fr_l":  "Récidive",
         "d_fr":  "Réapparition ou aggravation d\u0027une maladie après une période d\u0027amélioration ou de rémission."
     },
     {
@@ -4201,7 +4194,6 @@
     {
         "en_h":  "Thrombolysis",
         "fr_h":  "Thrombolyse",
-        "fr_l":  "Fibrinolyse",
         "d_fr":  "Dissolution pharmacologique d\u0027un caillot sanguin à l\u0027aide d\u0027agents thrombolytiques."
     },
     {
@@ -4237,7 +4229,6 @@
     {
         "en_h":  "Tympanometry",
         "fr_h":  "Tympanométrie",
-        "fr_l":  "Impédancemétrie",
         "d_fr":  "Test diagnostique mesurant le mouvement du tympan en réponse à une variation de pression d\u0027air."
     },
     {
@@ -4254,7 +4245,6 @@
     {
         "en_h":  "Urolithiasis",
         "fr_h":  "Urolithiase",
-        "fr_l":  "Lithiase urinaire",
         "d_fr":  "Formation de calculs dans les voies urinaires."
     },
     {
@@ -4356,7 +4346,6 @@
     {
         "en_h":  "Cardiac sphincter",
         "fr_h":  "Sphincter œsophagien inférieur",
-        "fr_l":  "Cardia",
         "d_fr":  "Sphincter œsophagien inférieur situé à la jonction œsophage-estomac ; prévient le reflux du contenu gastrique dans l\u0027œsophage."
     },
     {
@@ -4367,7 +4356,6 @@
     {
         "en_h":  "Antidiuretic hormone",
         "fr_h":  "Hormone antidiurétique",
-        "fr_l":  "Vasopressine",
         "d_fr":  "Hormone hypophysaire qui favorise la réabsorption rénale de l\u0027eau, réduisant la diurèse et l\u0027osmolalité plasmatique ; aussi appelée vasopressine (ADH)."
     },
     {
@@ -4393,13 +4381,11 @@
     {
         "en_h":  "Pineal gland",
         "fr_h":  "Glande pinéale",
-        "fr_l":  "Épiphyse",
         "d_fr":  "Petite glande endocrine dans le cerveau sécrétant la mélatonine, régulant les rythmes circadiens et le cycle veille-sommeil."
     },
     {
         "en_h":  "Ovum",
         "fr_h":  "Ovule",
-        "fr_l":  "Ovocyte",
         "d_fr":  "Cellule reproductive femelle mature (gamète) libérée par l\u0027ovaire lors de l\u0027ovulation ; si fécondée par un spermatozoïde, elle se développe en embryon."
     },
     {
@@ -4410,7 +4396,6 @@
     {
         "en_h":  "Testis",
         "fr_h":  "Testicule",
-        "fr_l":  "Gonade masculine",
         "d_fr":  "L\u0027une des paires de gonades masculines situées dans le scrotum ; produit le sperme et la testostérone."
     },
     {
@@ -4433,19 +4418,16 @@
     {
         "en_h":  "Ilium",
         "fr_h":  "Ilion",
-        "fr_l":  "Os iliaque",
         "d_fr":  "L\u0027os le plus grand et le plus haut du bassin, formant la saillie iliaque palpable de chaque côté du corps."
     },
     {
         "en_h":  "Electronic medical record",
         "fr_h":  "Dossier médical informatisé",
-        "fr_l":  "Dossier patient informatisé",
         "d_fr":  "Version numérique du dossier médical d\u0027un patient — antécédents, diagnostics, traitements et médicaments — tenue par un professionnel de santé."
     },
     {
         "en_h":  "OTC medicine",
         "fr_h":  "Médicament sans ordonnance",
-        "fr_l":  "Médicament en vente libre",
         "d_fr":  "Médicament disponible sans ordonnance pour le traitement autonome de troubles bénins ; par opposition aux médicaments sur ordonnance."
     },
     {
@@ -4477,7 +4459,6 @@
     {
         "en_h":  "Penis",
         "fr_h":  "Pénis",
-        "fr_l":  "Verge",
         "d_fr":  "Organe reproducteur et urinaire externe masculin par lequel l\u0027urine et le sperme sont expulsés."
     },
     {
@@ -4493,13 +4474,11 @@
     {
         "en_h":  "Frontal plane",
         "fr_h":  "Plan frontal",
-        "fr_l":  "Plan coronal",
         "d_fr":  "Plan anatomique divisant le corps en portions antérieure et postérieure ; également appelé plan coronal."
     },
     {
         "en_h":  "Transverse plane",
         "fr_h":  "Plan transversal",
-        "fr_l":  "Plan axial",
         "d_fr":  "Plan anatomique divisant le corps en portions supérieure et inférieure ; base des coupes transversales en scanner."
     },
     {
@@ -4531,7 +4510,6 @@
     {
         "en_h":  "Spinal cavity",
         "fr_h":  "Canal vertébral",
-        "fr_l":  "Canal rachidien",
         "d_fr":  "Canal formé par la colonne vertébrale qui renferme et protège la moelle épinière."
     },
     {

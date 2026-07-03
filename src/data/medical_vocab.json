@@ -6709,7 +6709,7 @@
     },
     {
         "en_h":  "Physical therapy",
-        "en_l":  "Physio",
+        "en_l":  "Physiotherapy",
         "abbr":  "PT",
         "f":  [
                   "Rehabilitation Medicine",
@@ -7384,25 +7384,6 @@
                             ],
                       "s":  [
                                 "-ic"
-                            ]
-                  }
-    },
-    {
-        "en_h":  "Aortostenosis",
-        "en_l":  "Aortic narrowing",
-        "abbr":  "",
-        "f":  [
-                  "Cardiology",
-                  "Surgery"
-              ],
-        "d":  "Narrowing of the aortic valve orifice that obstructs left ventricular outflow, graded by severity from mild to critical based on hemodynamic parameters.",
-        "lvl":  2,
-        "parts":  {
-                      "r":  [
-                                "aort/o"
-                            ],
-                      "s":  [
-                                "-stenosis"
                             ]
                   }
     },
@@ -10903,6 +10884,7 @@
     },
     {
         "en_h":  "Aortic Stenosis",
+        "en_l":  "Aortic narrowing",
         "d":  "Narrowing of the aortic valve opening, obstructing blood flow from the left ventricle.",
         "lvl":  2,
         "f":  [
@@ -12879,22 +12861,6 @@
                   }
     },
     {
-        "en_h":  "Megalocardia",
-        "d":  "Abnormal enlargement of the heart, also termed cardiomegaly, resulting from hypertrophy or dilation and indicating underlying cardiac disease.",
-        "lvl":  1,
-        "f":  [
-                  "Cardiology"
-              ],
-        "parts":  {
-                      "r":  [
-                                "cardi/o"
-                            ],
-                      "s":  [
-                                "-ia"
-                            ]
-                  }
-    },
-    {
         "en_h":  "Melanoptysis",
         "d":  "Expectoration of black or dark-colored sputum, a characteristic finding in coal workers\u0027 pneumoconiosis.",
         "lvl":  1,
@@ -13343,22 +13309,6 @@
                             ],
                       "s":  [
                                 "-ist"
-                            ]
-                  }
-    },
-    {
-        "en_h":  "Physiotherapy",
-        "d":  "Therapeutic treatment using physical methods to restore movement and function.",
-        "lvl":  3,
-        "f":  [
-                  "Rehabilitation Medicine"
-              ],
-        "parts":  {
-                      "r":  [
-                                "physi/o"
-                            ],
-                      "s":  [
-                                "-therapy"
                             ]
                   }
     },

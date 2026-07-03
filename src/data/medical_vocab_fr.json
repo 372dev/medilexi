@@ -2275,11 +2275,6 @@
         "d_fr":  "Médicament qui détruit les bactéries ou inhibe leur croissance ; classifié comme bactéricide ou bactériostatique."
     },
     {
-        "en_h":  "Aortostenosis",
-        "fr_h":  "Rétrécissement aortique",
-        "d_fr":  "Rétrécissement de l\u0027orifice de la valve aortique obstruant l\u0027éjection du ventricule gauche ; gradé de léger à critique selon les paramètres hémodynamiques."
-    },
-    {
         "en_h":  "Arteriosclerosis",
         "fr_h":  "Artériosclérose",
         "d_fr":  "Durcissement et perte d\u0027élasticité des parois artérielles ; terme plus large que l\u0027athérosclérose."
@@ -3907,11 +3902,6 @@
         "d_fr":  "Lésion cutanée plate et décolorée, non surélevée ni palpable, distincte d\u0027une papule par l\u0027absence de relief."
     },
     {
-        "en_h":  "Megalocardia",
-        "fr_h":  "Mégalocardie",
-        "d_fr":  "Hypertrophie anormale du cœur ; également appelée cardiomégalie."
-    },
-    {
         "en_h":  "Melanoptysis",
         "fr_h":  "Mélanoptysie",
         "d_fr":  "Expectoration de crachats noirs ou foncés ; observée dans la pneumoconiose des mineurs de charbon."
@@ -4052,11 +4042,6 @@
         "en_h":  "Pharmacist",
         "fr_h":  "Pharmacien",
         "d_fr":  "Professionnel de santé agréé qui prépare, dispense et conseille sur les médicaments."
-    },
-    {
-        "en_h":  "Physiotherapy",
-        "fr_h":  "Kinésithérapie",
-        "d_fr":  "Traitement thérapeutique utilisant des méthodes physiques pour restaurer les mouvements et les fonctions."
     },
     {
         "en_h":  "Pleurodynia",

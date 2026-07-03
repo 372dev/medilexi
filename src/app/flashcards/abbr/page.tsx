@@ -14,7 +14,7 @@ interface VocabEntry {
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
 const abbrVocab  = (vocabData as unknown as VocabEntry[])
-  .map(v => ({ ...v, lvl: normalizeLvl(v.lvl) }))
+  .map((v): VocabEntry => ({ ...v, lvl: normalizeLvl(v.lvl) }))
   .filter((v): v is VocabEntry => !!v.abbr)
 const partsMap   = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 const PART_COLOR = { p: '#3B82F6', r: '#3BAA6A', s: '#C94040' } as const

@@ -18,7 +18,7 @@ interface VocabEntry {
 }
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
-const vocab = (vocabData as unknown as VocabEntry[]).map(v => ({ ...v, lvl: normalizeLvl(v.lvl) }))
+const vocab = (vocabData as unknown as VocabEntry[]).map((v): VocabEntry => ({ ...v, lvl: normalizeLvl(v.lvl) }))
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 
 // Relevance tier (lower = better) — see rankTier. Exact term/abbr beats a stray

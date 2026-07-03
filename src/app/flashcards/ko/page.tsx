@@ -25,7 +25,7 @@ const PART_COLOR = { p: '#3B82F6', r: '#3BAA6A', s: '#C94040' } as const
 
 const koMap = Object.fromEntries((koData as KoEntry[]).map(k => [k.en_h, k]))
 const vocab = (vocabData as unknown as VocabEntry[])
-  .map(v => ({ ...v, ...koMap[v.en_h], lvl: normalizeLvl(v.lvl) }))
+  .map((v): MergedEntry => ({ ...v, ...koMap[v.en_h], lvl: normalizeLvl(v.lvl) }))
   .filter((v): v is MergedEntry => !!koMap[v.en_h])
 
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()

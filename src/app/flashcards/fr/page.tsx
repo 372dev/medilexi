@@ -18,7 +18,7 @@ interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
 const frMap    = Object.fromEntries((frData as FrEntry[]).map(k => [k.en_h, k]))
 const vocab    = (vocabData as unknown as VocabEntry[])
-  .map(v => ({ ...v, ...frMap[v.en_h], lvl: normalizeLvl(v.lvl) }))
+  .map((v): MergedEntry => ({ ...v, ...frMap[v.en_h], lvl: normalizeLvl(v.lvl) }))
   .filter((v): v is MergedEntry => !!(v as MergedEntry).fr_h)
 const partsMap   = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 const PART_COLOR = { p: '#3B82F6', r: '#3BAA6A', s: '#C94040' } as const

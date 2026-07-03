@@ -34,14 +34,19 @@ export default function ClientShell({ children }: { children: React.ReactNode })
   }, [pathname])
 
   useEffect(() => {
-    const saved = localStorage.getItem('theme')
-    if (saved !== 'night') {
-      setIsDay(true)
-      document.body.classList.add('day')
+    const mq = window.matchMedia('(prefers-color-scheme: dark)')
+    // Explicit saved preference wins; otherwise follow the OS. Re-applies live
+    // when the OS theme changes, unless the user has manually overridden it.
+    const apply = () => {
+      const saved = localStorage.getItem('theme')
+      const night = saved ? saved === 'night' : mq.matches
+      setIsDay(!night)
+      document.body.classList.toggle('day', !night)
     }
-    if (!localStorage.getItem('cookie-notice')) {
-      setCookieDismissed(false)
-    }
+    apply()
+    mq.addEventListener('change', apply)
+    if (!localStorage.getItem('cookie-notice')) setCookieDismissed(false)
+    return () => mq.removeEventListener('change', apply)
   }, [])
 
   function dismissCookieNotice() {

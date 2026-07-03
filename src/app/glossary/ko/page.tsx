@@ -8,6 +8,7 @@ import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
+import { hangulSearch, jamoFlat, isKorean } from '@/lib/hangul'
 
 interface BaseEntry { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: number; parts?: { p?: string[]; r?: string[]; s?: string[] } }
 interface KoEntry { en_h: string; ko_h: string; ko_l?: string; d_ko?: string }
@@ -19,65 +20,6 @@ const ko = koData as KoEntry[]
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 const koMap = Object.fromEntries(ko.map(k => [k.en_h, k]))
 const vocab: MergedEntry[] = base.map(v => ({ ...v, ko_h: koMap[v.en_h]?.ko_h||'', ko_l: koMap[v.en_h]?.ko_l, d_ko: koMap[v.en_h]?.d_ko }))
-
-// ── Hangul jamo search ─────────────────────────────────────────────────────
-const CHO  = ['ㄱ','ㄲ','ㄴ','ㄷ','ㄸ','ㄹ','ㅁ','ㅂ','ㅃ','ㅅ','ㅆ','ㅇ','ㅈ','ㅉ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ']
-const JUNG = ['ㅏ','ㅐ','ㅑ','ㅒ','ㅓ','ㅔ','ㅕ','ㅖ','ㅗ','ㅘ','ㅙ','ㅚ','ㅛ','ㅜ','ㅝ','ㅞ','ㅟ','ㅠ','ㅡ','ㅢ','ㅣ']
-const JONG = ['','ㄱ','ㄲ','ㄳ','ㄴ','ㄵ','ㄶ','ㄷ','ㄹ','ㄺ','ㄻ','ㄼ','ㄽ','ㄾ','ㄿ','ㅀ','ㅁ','ㅂ','ㅄ','ㅅ','ㅆ','ㅇ','ㅈ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ']
-const JONG_SPLIT: Record<string,string[]> = {
-  ㄳ:['ㄱ','ㅅ'], ㄵ:['ㄴ','ㅈ'], ㄶ:['ㄴ','ㅎ'],
-  ㄺ:['ㄹ','ㄱ'], ㄻ:['ㄹ','ㅁ'], ㄼ:['ㄹ','ㅂ'],
-  ㄽ:['ㄹ','ㅅ'], ㄾ:['ㄹ','ㅌ'], ㄿ:['ㄹ','ㅍ'],
-  ㅀ:['ㄹ','ㅎ'], ㅄ:['ㅂ','ㅅ'],
-}
-
-// Returns each character as an array of its component jamo.
-// Syllable blocks are decomposed; lone jamo and ASCII pass through unchanged.
-function syllableGroups(str: string): string[][] {
-  const groups: string[][] = []
-  for (const ch of str) {
-    const cp = ch.charCodeAt(0)
-    if (cp >= 0xAC00 && cp <= 0xD7A3) {
-      const off = cp - 0xAC00
-      const ci  = Math.floor(off / 28 / 21)
-      const vi  = Math.floor(off / 28) % 21
-      const fi  = off % 28
-      const g   = [CHO[ci], JUNG[vi]]
-      if (fi > 0) { const j = JONG[fi]; (JONG_SPLIT[j] ?? [j]).forEach(c => g.push(c)) }
-      groups.push(g)
-    } else {
-      groups.push([ch])
-    }
-  }
-  return groups
-}
-
-// Syllable-by-syllable match. The last query group uses prefix matching so
-// partial syllables (e.g. mid-composition) and initial-consonant shortcuts
-// (ㅎㄱㄷ matching 홍길동) both work naturally.
-function hangulSearch(target: string, query: string): number {
-  if (!query) return 0
-  const t = syllableGroups(target)
-  const q = syllableGroups(query)
-  for (let i = 0; i <= t.length - q.length; i++) {
-    let ok = true
-    for (let j = 0; j < q.length; j++) {
-      const qg = q[j].join(''), tg = t[i + j].join('')
-      if (j === q.length - 1 ? !tg.startsWith(qg) : tg !== qg) { ok = false; break }
-    }
-    if (ok) return i
-  }
-  return -1
-}
-
-// Flat jamo string (한글 -> "ㅎㅏㄴㄱㅡㄹ") for typo-tolerant fuzzy matching.
-function jamoFlat(str: string): string {
-  return syllableGroups(str).map(g => g.join('')).join('')
-}
-
-function isKorean(str: string) {
-  return /[가-힣ᄀ-ᇿ㄰-㆏]/.test(str)
-}
 
 // Typo-tolerant fuzzy index over flattened jamo — a single mistyped jamo (간염 -> 감염)
 // still surfaces results, used as a fallback ranked below exact hangul matches.

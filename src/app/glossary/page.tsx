@@ -8,6 +8,7 @@ import vocabData from '@/data/medical_vocab.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
+import { getSegments } from '@/lib/word-segments'
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
@@ -51,39 +52,6 @@ const fuse = new Fuse(vocab, {
   includeMatches: true,
 })
 
-function toLiteral(wp: string) {
-  return wp.replace(/^-|-$/g,'').replace(/\/[oiea]$/,'').replace(/\//g,'').toLowerCase()
-}
-interface Segment { text: string; wp?: string; type?: 'p'|'r'|'s'; meaning?: string }
-function getSegments(en_h: string, parts?: VocabEntry['parts']): Segment[] {
-  if (!parts) return [{ text: en_h }]
-  const typeMap: Record<string,'p'|'r'|'s'> = { p:'p', r:'r', s:'s' }
-  const allParts = Object.entries(parts).flatMap(([ptype, wpList]) =>
-    (wpList as string[]).map(wp => ({ literal: toLiteral(wp), wp, type: typeMap[ptype], meaning: partsMap[wp]?.d||'' }))
-  ).filter(p => p.literal.length >= 2)
-  if (!allParts.length) return [{ text: en_h }]
-  const lower = en_h.toLowerCase()
-  const matches: { start:number; end:number; wp:string; type:'p'|'r'|'s'; meaning:string }[] = []
-  for (const part of allParts) {
-    let idx = lower.indexOf(part.literal)
-    while (idx !== -1) {
-      if (!matches.some(m => idx < m.end && idx + part.literal.length > m.start))
-        matches.push({ start:idx, end:idx+part.literal.length, wp:part.wp, type:part.type, meaning:part.meaning })
-      idx = lower.indexOf(part.literal, idx+1)
-    }
-  }
-  if (!matches.length) return [{ text: en_h }]
-  matches.sort((a,b) => a.start-b.start)
-  const segs: Segment[] = []; let cursor = 0
-  for (const m of matches) {
-    if (m.start > cursor) segs.push({ text: en_h.slice(cursor, m.start) })
-    segs.push({ text: en_h.slice(m.start, m.end), wp:m.wp, type:m.type, meaning:m.meaning })
-    cursor = m.end
-  }
-  if (cursor < en_h.length) segs.push({ text: en_h.slice(cursor) })
-  return segs
-}
-
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 
 type MatchMap = Partial<Record<string, readonly [number,number][]>>
@@ -102,7 +70,7 @@ function hi(text: string, idx?: readonly [number,number][]): ReactNode {
 
 function Card({ v, onFieldClick, mm }: { v: VocabEntry; onFieldClick: (f: string) => void; mm?: MatchMap }) {
   const [hovered, setHovered] = useState(false)
-  const segs = useMemo(() => getSegments(v.en_h, v.parts), [v])
+  const segs = useMemo(() => getSegments(v.en_h, v.parts, wp => partsMap[wp]?.d || ''), [v])
   return (
     <div className={`c-card ${LVL_CARD_CLASS[v.lvl]||''}`} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>

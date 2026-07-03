@@ -350,6 +350,7 @@ export default function KoGlossaryPage() {
           <input
             className="c-search"
             type="text"
+            aria-label="Search medical terms in English or Korean"
             placeholder="Search terms in English or Korean..."
             value={inputValue}
             onChange={e => {
@@ -364,7 +365,7 @@ export default function KoGlossaryPage() {
               setSearchQuery(v)
             }}
           />
-          <select className="c-field-drop" value={fieldFilter||''} onChange={e => setField(e.target.value||null)}>
+          <select className="c-field-drop" aria-label="Filter by specialty" value={fieldFilter||''} onChange={e => setField(e.target.value||null)}>
             <option value="">All Fields</option>
             {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
           </select>

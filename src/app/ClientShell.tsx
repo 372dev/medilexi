@@ -69,8 +69,9 @@ export default function ClientShell({ children }: { children: React.ReactNode })
             className="site-header__toggle"
             onClick={toggleMode}
             style={{ position:'absolute', top:'1rem', right:'1rem' }}
+            aria-label={isDay ? 'Switch to night mode' : 'Switch to day mode'}
             title={isDay ? 'Switch to night mode' : 'Switch to day mode'}
-          >{isDay ? '🌙' : '☀️'}</button>
+          ><span aria-hidden="true">{isDay ? '🌙' : '☀️'}</span></button>
           <Image
             src={isDay ? '/images/hero-day.png' : '/images/hero.jpg'}
             alt="Medi Lexi — Multilingual Glossary · Bridging the Language of Health Care"
@@ -91,8 +92,8 @@ export default function ClientShell({ children }: { children: React.ReactNode })
             <div style={{ display:'flex', alignItems:'center', gap:'0.75rem', justifySelf:'end' }}>
               <Link href="/about" style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', textDecoration:'none', lineHeight:1.8, opacity:0.7 }}
                 title="About & Sources">About</Link>
-              <button className="site-header__toggle" onClick={toggleMode} title={isDay ? 'Switch to night mode' : 'Switch to day mode'}>
-                {isDay ? '🌙' : '☀️'}
+              <button className="site-header__toggle" onClick={toggleMode} aria-label={isDay ? 'Switch to night mode' : 'Switch to day mode'} title={isDay ? 'Switch to night mode' : 'Switch to day mode'}>
+                <span aria-hidden="true">{isDay ? '🌙' : '☀️'}</span>
               </button>
             </div>
           </header>

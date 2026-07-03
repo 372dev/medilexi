@@ -276,6 +276,7 @@ button { font-family: var(--font-body); }
 /* Respect the OS "reduce motion" setting — skip the card entrance animation. */
 @media (prefers-reduced-motion: reduce) {
   .c-card { animation: none; }
+  .c-expand-wrap { transition: none; }
 }
 .c-card:hover {
   border-color: var(--color-gold-dim);
@@ -407,14 +408,29 @@ body.day .c-part-s { background: rgba(201,64,64,0.1); border-bottom: 2px solid #
 body.day .c-ex-pill--p, body.day .c-ex-pill--r, body.day .c-ex-pill--s { color: #374151; }
 body.day .c-ex-pill strong { color: #111827; }
 
-/* Word part card example expand animation */
+/* Word part card — focus-driven example reveal + glow highlight.
+   The focused card (keyboard Tab OR mouse click, via tabindex=0) expands its
+   extra examples and gets a gold glow ring, so it's clear which card you're on;
+   it collapses when focus moves to another card. */
 .c-expand-wrap {
   display: grid;
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.22s ease;
 }
-.c-expand-wrap--open { grid-template-rows: 1fr; }
+.c-wp-card:focus-within .c-expand-wrap { grid-template-rows: 1fr; }
 .c-expand-wrap > div { overflow: hidden; }
+
+.c-wp-card:focus-within {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-gold), 0 0 14px 2px rgba(240,180,41,0.45);
+}
+body.day .c-wp-card:focus-within {
+  box-shadow: 0 0 0 2px var(--color-gold), 0 0 14px 2px rgba(180,83,9,0.28);
+}
+
+/* Expand hint — flips ▾/▲ via CSS on focus (decorative; aria-hidden in markup). */
+.c-wp-hint::after { content: '▾ more'; }
+.c-wp-card:focus-within .c-wp-hint::after { content: '▲ less'; }
 
 /* Search match highlight */
 .c-search-match {

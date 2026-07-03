@@ -184,8 +184,8 @@ function GlossaryContent() {
       {/* ── Sticky filter bar ── */}
       <div className="c-filter-bar">
         <div className="c-search-row">
-          <input className="c-search" type="text" placeholder="Search terms, abbreviations, definitions..." value={search} onChange={e => setSearch(e.target.value)} />
-          <select className="c-field-drop" value={fieldFilter||''} onChange={e => setField(e.target.value||null)}>
+          <input className="c-search" type="text" aria-label="Search medical terms" placeholder="Search terms, abbreviations, definitions..." value={search} onChange={e => setSearch(e.target.value)} />
+          <select className="c-field-drop" aria-label="Filter by specialty" value={fieldFilter||''} onChange={e => setField(e.target.value||null)}>
             <option value="">All Fields</option>
             {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
           </select>

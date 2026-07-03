@@ -17,7 +17,6 @@ export default function WordPartsPage() {
   const [search, setSearch]     = useState('')
   const [typeFilter, setType]   = useState<'all'|'p'|'r'|'s'>('all')
   const [lvlFilter, setLvl]     = useState<number|null>(null)
-  const [expanded, setExpanded] = useState<Set<string>>(new Set())
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim()
@@ -63,20 +62,12 @@ export default function WordPartsPage() {
 
   const { visible, sentinelRef } = useInfiniteReveal(filtered.length, filtered)
 
-  function toggle(wp: string) {
-    setExpanded(prev => {
-      const next = new Set(prev)
-      if (next.has(wp)) next.delete(wp); else next.add(wp)
-      return next
-    })
-  }
-
   return (
     <>
       {/* ── Sticky filter bar ── */}
       <div className="c-filter-bar">
         <div className="c-search-row">
-          <input className="c-search" type="text" placeholder="Search word parts, definitions, examples..." value={search} onChange={e => setSearch(e.target.value)} />
+          <input className="c-search" type="text" aria-label="Search word parts" placeholder="Search word parts, definitions, examples..." value={search} onChange={e => setSearch(e.target.value)} />
           <Link href="/wordparts/flashcard" className="c-btn-pixel" style={{ fontSize:'0.5rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
             Flashcard Quiz →
           </Link>
@@ -104,13 +95,12 @@ export default function WordPartsPage() {
       {/* ── Cards ── */}
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px,1fr))', gap:'1rem' }}>
         {filtered.slice(0, visible).map((p) => {
-          const isOpen = expanded.has(p.wp)
           return (
             <div
               key={p.wp}
-              className="c-card"
+              className="c-card c-wp-card"
               style={{ borderLeft:`3px solid ${p.t==='p'?'#3B82F6':p.t==='r'?'#3BAA6A':'#C94040'}`, cursor:'pointer', userSelect:'none' }}
-              onClick={() => toggle(p.wp)}
+              tabIndex={0}
             >
               <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
                 <span className={`c-badge c-badge--${p.t}`}>{TYPE_LABEL[p.t]}</span>
@@ -125,7 +115,7 @@ export default function WordPartsPage() {
                   </div>
                 ))}
                 {p.ex.length > 2 && (
-                  <div className={`c-expand-wrap${isOpen ? ' c-expand-wrap--open' : ''}`}>
+                  <div className="c-expand-wrap">
                     <div>
                       <div style={{ display:'flex', flexDirection:'column', gap:'0.35rem', paddingTop:'0.35rem' }}>
                         {p.ex.slice(2).map(([term, def], j) => (
@@ -139,9 +129,7 @@ export default function WordPartsPage() {
                 )}
               </div>
               <div style={{ display:'flex', justifyContent:'center', marginTop:'0.75rem' }}>
-                <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', opacity:0.55, pointerEvents:'none' }}>
-                  {isOpen ? '▲ less' : '▾ more'}
-                </span>
+                <span className="c-wp-hint" aria-hidden="true" style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', opacity:0.55, pointerEvents:'none' }} />
               </div>
             </div>
           )

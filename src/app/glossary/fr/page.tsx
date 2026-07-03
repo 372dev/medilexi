@@ -213,11 +213,12 @@ export default function FrGlossaryPage() {
           <input
             className="c-search"
             type="text"
+            aria-label="Search medical terms in French or English"
             placeholder="Search terms in French or English..."
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
-          <select className="c-field-drop" value={fieldFilter||''} onChange={e => setField(e.target.value||null)}>
+          <select className="c-field-drop" aria-label="Filter by specialty" value={fieldFilter||''} onChange={e => setField(e.target.value||null)}>
             <option value="">All Fields</option>
             {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
           </select>

@@ -75,6 +75,7 @@ export default function ClientShell({ children }: { children: React.ReactNode })
         </div>
       ) : (
         <>
+          <a href="#main-content" className="skip-link">Skip to content</a>
           <header className="site-header">
             <Link href="/" className="site-header__brand">
               <span>Medi Lexi</span>
@@ -90,7 +91,7 @@ export default function ClientShell({ children }: { children: React.ReactNode })
           </header>
           <div className="site-body">
             <aside className="site-ad" aria-hidden="true">Ad</aside>
-            <main className="site-content">{children}</main>
+            <main id="main-content" className="site-content">{children}</main>
             <aside className="site-ad" aria-hidden="true">Ad</aside>
           </div>
           <footer className="site-footer">

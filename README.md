@@ -1,6 +1,6 @@
 # Medi Lexi
 
-**v1.191** · [medilexi.vercel.app](https://medilexi.vercel.app) · Built by [372dev](https://github.com/372dev)
+**v1.230** · [medilexi.vercel.app](https://medilexi.vercel.app) · Built by [372dev](https://github.com/372dev)
 
 A multilingual medical terminology reference and study platform for students, medical interpreters, and translators — a structured glossary plus flashcards and word-part breakdowns.
 

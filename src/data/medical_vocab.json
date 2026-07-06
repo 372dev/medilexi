@@ -17457,5 +17457,161 @@
               ],
         "d":  "A painful sensation of intense cold in a body region, often linked to nerve dysfunction or cold exposure.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Mild pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain of low intensity that is easily tolerated and does not interfere much with daily activity.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Moderate pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain of medium intensity that is noticeable and limits some activities but remains bearable.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Severe pain",
+        "en_l":  "Intense pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain of high intensity that is difficult to tolerate and markedly interferes with daily activity.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Excruciating pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain of extreme, barely tolerable intensity that overwhelms the person\u0027s ability to function.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Agonizing pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain so severe that it causes intense anguish and torment.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Unbearable pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain so intense that the person feels unable to endure or tolerate it.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Sickening pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain intense or deep enough to provoke nausea or a feeling of faintness.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Blinding pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain so sudden and intense that it momentarily overwhelms the senses.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Exhausting pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Persistent pain that drains the person\u0027s energy and leaves them worn out.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Nagging pain",
+        "en_l":  "Troublesome pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A mild but persistent pain that continually bothers the person without being severe.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Miserable pain",
+        "en_l":  "Wretched pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain that causes ongoing distress and unhappiness, wearing the person down over time.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Constant pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain that is continuously present without letting up.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Intermittent pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain that comes and goes, with pain-free periods between episodes.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Brief pain",
+        "en_l":  "Fleeting pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain that lasts only a short moment before fading.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Migrating pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain that moves from one part of the body to another over time.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Referred pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain felt in a part of the body away from its actual source.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Localized pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain confined to a single, well-defined area of the body.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Recurrent pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain that returns in repeated episodes over time.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Progressive pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain that gradually worsens in intensity over time.",
+        "lvl":  2
     }
 ]

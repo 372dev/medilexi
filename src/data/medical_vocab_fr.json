@@ -5702,5 +5702,104 @@
         "fr_h":  "Douleur froide",
         "fr_l":  "Douleur glaciale",
         "d_fr":  "Sensation de froid intense et douloureuse dans une région du corps, souvent liée à une atteinte nerveuse ou au froid."
+    },
+    {
+        "en_h":  "Mild pain",
+        "fr_h":  "Douleur légère",
+        "d_fr":  "Douleur de faible intensité, facile à supporter et gênant peu les activités quotidiennes."
+    },
+    {
+        "en_h":  "Moderate pain",
+        "fr_h":  "Douleur modérée",
+        "d_fr":  "Douleur d\u0027intensité moyenne, nettement perçue et limitant certaines activités tout en restant supportable."
+    },
+    {
+        "en_h":  "Severe pain",
+        "fr_h":  "Douleur sévère",
+        "fr_l":  "Douleur intense",
+        "d_fr":  "Douleur de forte intensité, difficile à supporter et gênant nettement les activités quotidiennes."
+    },
+    {
+        "en_h":  "Excruciating pain",
+        "fr_h":  "Douleur atroce",
+        "d_fr":  "Douleur d\u0027une intensité extrême, à peine tolérable, qui dépasse la capacité de fonctionner."
+    },
+    {
+        "en_h":  "Agonizing pain",
+        "fr_h":  "Douleur torturante",
+        "d_fr":  "Douleur si intense qu\u0027elle provoque une angoisse et un supplice profonds."
+    },
+    {
+        "en_h":  "Unbearable pain",
+        "fr_h":  "Douleur insupportable",
+        "d_fr":  "Douleur si intense que la personne se sent incapable de la supporter."
+    },
+    {
+        "en_h":  "Sickening pain",
+        "fr_h":  "Douleur écœurante",
+        "d_fr":  "Douleur assez intense ou profonde pour provoquer des nausées ou une sensation de malaise."
+    },
+    {
+        "en_h":  "Blinding pain",
+        "fr_h":  "Douleur aveuglante",
+        "d_fr":  "Douleur si soudaine et intense qu\u0027elle submerge momentanément les sens."
+    },
+    {
+        "en_h":  "Exhausting pain",
+        "fr_h":  "Douleur épuisante",
+        "d_fr":  "Douleur persistante qui épuise l\u0027énergie et laisse la personne exténuée."
+    },
+    {
+        "en_h":  "Nagging pain",
+        "fr_h":  "Douleur tenace",
+        "fr_l":  "Douleur gênante",
+        "d_fr":  "Douleur légère mais persistante qui gêne continuellement sans être sévère."
+    },
+    {
+        "en_h":  "Miserable pain",
+        "fr_h":  "Douleur pénible",
+        "fr_l":  "Douleur affligeante",
+        "d_fr":  "Douleur qui provoque une détresse et un abattement durables, épuisant peu à peu la personne."
+    },
+    {
+        "en_h":  "Constant pain",
+        "fr_h":  "Douleur constante",
+        "d_fr":  "Douleur présente en permanence, sans répit."
+    },
+    {
+        "en_h":  "Intermittent pain",
+        "fr_h":  "Douleur intermittente",
+        "d_fr":  "Douleur qui apparaît et disparaît, avec des périodes sans douleur entre les épisodes."
+    },
+    {
+        "en_h":  "Brief pain",
+        "fr_h":  "Douleur brève",
+        "fr_l":  "Douleur fugace",
+        "d_fr":  "Douleur qui ne dure qu\u0027un court instant avant de s\u0027estomper."
+    },
+    {
+        "en_h":  "Migrating pain",
+        "fr_h":  "Douleur migratrice",
+        "d_fr":  "Douleur qui se déplace d\u0027une partie du corps à une autre au fil du temps."
+    },
+    {
+        "en_h":  "Referred pain",
+        "fr_h":  "Douleur projetée",
+        "d_fr":  "Douleur ressentie dans une partie du corps éloignée de sa source réelle."
+    },
+    {
+        "en_h":  "Localized pain",
+        "fr_h":  "Douleur localisée",
+        "d_fr":  "Douleur circonscrite à une seule zone bien définie du corps."
+    },
+    {
+        "en_h":  "Recurrent pain",
+        "fr_h":  "Douleur récurrente",
+        "d_fr":  "Douleur qui revient par épisodes répétés au fil du temps."
+    },
+    {
+        "en_h":  "Progressive pain",
+        "fr_h":  "Douleur progressive",
+        "d_fr":  "Douleur dont l\u0027intensité s\u0027aggrave peu à peu avec le temps."
     }
 ]

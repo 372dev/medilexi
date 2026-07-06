@@ -5565,5 +5565,142 @@
         "en_h":  "Anhedonia",
         "fr_h":  "Anhédonie",
         "d_fr":  "Incapacité ou diminution de la capacité à éprouver du plaisir dans des activités autrefois appréciées; symptôme central de la dépression et d\u0027autres troubles psychiatriques."
+    },
+    {
+        "en_h":  "Ache",
+        "fr_h":  "Endolorissement",
+        "d_fr":  "Douleur sourde et continue, de faible intensité et mal localisée, qui persiste dans le temps."
+    },
+    {
+        "en_h":  "Dull pain",
+        "fr_h":  "Douleur sourde",
+        "d_fr":  "Douleur diffuse de faible intensité, difficile à localiser, ressentie comme une pression plutôt qu\u0027en un point précis."
+    },
+    {
+        "en_h":  "Sharp pain",
+        "fr_h":  "Douleur vive",
+        "d_fr":  "Douleur soudaine, intense et bien localisée, de qualité coupante ou pointue."
+    },
+    {
+        "en_h":  "Stabbing pain",
+        "fr_h":  "Douleur en coup de poignard",
+        "fr_l":  "Douleur transperçante",
+        "d_fr":  "Douleur soudaine et pénétrante, comme si un objet pointu s\u0027enfonçait dans le corps."
+    },
+    {
+        "en_h":  "Shooting pain",
+        "fr_h":  "Douleur fulgurante",
+        "d_fr":  "Douleur qui se propage rapidement le long d\u0027un trajet, souvent dans un membre, par brèves décharges."
+    },
+    {
+        "en_h":  "Radiating pain",
+        "fr_h":  "Douleur irradiante",
+        "d_fr":  "Douleur qui se propage de son point d\u0027origine vers des zones voisines ou plus éloignées."
+    },
+    {
+        "en_h":  "Throbbing pain",
+        "fr_h":  "Douleur pulsatile",
+        "fr_l":  "Douleur battante",
+        "d_fr":  "Douleur rythmée qui s\u0027intensifie et s\u0027atténue au rythme des battements du cœur."
+    },
+    {
+        "en_h":  "Tenderness",
+        "fr_h":  "Sensibilité à la palpation",
+        "d_fr":  "Douleur ou gêne ressentie lorsqu\u0027une zone du corps est touchée ou pressée."
+    },
+    {
+        "en_h":  "Soreness",
+        "fr_h":  "Courbature",
+        "d_fr":  "Endolorissement léger d\u0027un muscle ou d\u0027un tissu, ressenti surtout au mouvement ou à la pression."
+    },
+    {
+        "en_h":  "Gnawing pain",
+        "fr_h":  "Douleur rongeante",
+        "d_fr":  "Douleur sourde et persistante donnant l\u0027impression que quelque chose ronge lentement la zone atteinte."
+    },
+    {
+        "en_h":  "Splitting pain",
+        "fr_h":  "Douleur fendante",
+        "d_fr":  "Douleur intense, surtout à la tête, donnant l\u0027impression que la zone se fend en deux."
+    },
+    {
+        "en_h":  "Pinching pain",
+        "fr_h":  "Douleur pinçante",
+        "d_fr":  "Douleur vive et localisée, comme si le tissu était pincé entre deux points."
+    },
+    {
+        "en_h":  "Crushing pain",
+        "fr_h":  "Douleur écrasante",
+        "d_fr":  "Douleur intense et pesante, comme si la zone était comprimée sous un grand poids."
+    },
+    {
+        "en_h":  "Tearing pain",
+        "fr_h":  "Douleur déchirante",
+        "d_fr":  "Douleur soudaine et intense, comme si un tissu se déchirait."
+    },
+    {
+        "en_h":  "Squeezing pain",
+        "fr_h":  "Douleur constrictive",
+        "d_fr":  "Douleur donnant l\u0027impression que la zone est serrée ou comprimée."
+    },
+    {
+        "en_h":  "Cramping pain",
+        "fr_h":  "Douleur spasmodique",
+        "fr_l":  "Crampe",
+        "d_fr":  "Douleur intermittente et serrée causée par une contraction musculaire involontaire."
+    },
+    {
+        "en_h":  "Heaviness",
+        "fr_h":  "Sensation de pesanteur",
+        "fr_l":  "Lourdeur",
+        "d_fr":  "Sensation de poids ou de pression dans une région du corps, souvent accompagnée de douleur ou de fatigue."
+    },
+    {
+        "en_h":  "Colicky pain",
+        "fr_h":  "Douleur colique",
+        "d_fr":  "Douleur survenant par vagues, montant puis diminuant, causée par la contraction d\u0027un organe creux."
+    },
+    {
+        "en_h":  "Boring pain",
+        "fr_h":  "Douleur térébrante",
+        "d_fr":  "Douleur profonde et pénétrante donnant l\u0027impression de forer régulièrement dans le corps."
+    },
+    {
+        "en_h":  "Pressure-like pain",
+        "fr_h":  "Douleur compressive",
+        "d_fr":  "Douleur ressentie comme une pression constante ou un serrement de la zone atteinte."
+    },
+    {
+        "en_h":  "Numbness",
+        "fr_h":  "Engourdissement",
+        "d_fr":  "Perte partielle ou complète de la sensibilité dans une région du corps."
+    },
+    {
+        "en_h":  "Burning pain",
+        "fr_h":  "Douleur brûlante",
+        "fr_l":  "Douleur cuisante",
+        "d_fr":  "Douleur chaude évoquant une brûlure, souvent due à une irritation nerveuse."
+    },
+    {
+        "en_h":  "Stinging pain",
+        "fr_h":  "Douleur piquante",
+        "d_fr":  "Douleur superficielle, vive et picotante, semblable à une piqûre d\u0027insecte."
+    },
+    {
+        "en_h":  "Electric-shock pain",
+        "fr_h":  "Douleur en décharge électrique",
+        "d_fr":  "Douleur brève et fulgurante ressemblant à une décharge électrique, typiquement le long d\u0027un nerf."
+    },
+    {
+        "en_h":  "Formication",
+        "fr_h":  "Formication",
+        "fr_l":  "Sensation de reptation",
+        "d_fr":  "Sensation d\u0027insectes rampant sur ou sous la peau, survenant sans cause physique réelle."
+    },
+    {
+        "en_h":  "Cold pain",
+        "fr_h":  "Douleur froide",
+        "fr_l":  "Douleur glaciale",
+        "d_fr":  "Sensation de froid intense et douloureuse dans une région du corps, souvent liée à une atteinte nerveuse ou au froid."
     }
 ]

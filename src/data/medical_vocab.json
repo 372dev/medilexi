@@ -17244,5 +17244,218 @@
                                 "-ia"
                             ]
                   }
+    },
+    {
+        "en_h":  "Ache",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A dull, steady, low-intensity pain that is poorly localized and tends to persist over time.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Dull pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A vague, low-intensity pain that is diffuse and hard to pinpoint, felt more as pressure than a distinct point.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Sharp pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A sudden, intense, well-localized pain with a distinct cutting or pointed quality.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Stabbing pain",
+        "en_l":  "Piercing pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A sudden, penetrating pain that feels as though a pointed object is being thrust into the body.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Shooting pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A pain that travels rapidly along a path, often down a limb, in brief bursts.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Radiating pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain that spreads from its point of origin outward to nearby or more distant areas of the body.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Throbbing pain",
+        "en_l":  "Pounding pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A rhythmic, pulsing pain that rises and falls in time with the heartbeat.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Tenderness",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Pain or discomfort felt when an area of the body is touched or pressed.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Soreness",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A mild, aching tenderness in muscle or tissue, typically felt with movement or pressure.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Gnawing pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A persistent, dull, aching pain that feels as though something is slowly wearing at the area.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Splitting pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A severe pain, most often in the head, that feels as though the area is being cleaved apart.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Pinching pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A localized, sharp pain that feels as though tissue is being squeezed between two points.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Crushing pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "An intense, heavy pain that feels as though the area is being compressed under great weight.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Tearing pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A sudden, severe pain that feels as though tissue is being ripped apart.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Squeezing pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A pain that feels as though the affected area is being tightly gripped or compressed.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Cramping pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "An intermittent, gripping pain caused by involuntary muscle contraction.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Heaviness",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A sensation of weight or pressure in a body region, often felt alongside pain or fatigue.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Colicky pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A pain that comes in waves, building to a peak and easing off, caused by contraction of a hollow organ.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Boring pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A deep, penetrating pain that feels as though it is drilling steadily into the body.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Pressure-like pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A pain felt as steady pushing or tightness, as though the area is being pressed.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Numbness",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A partial or complete loss of sensation in an area of the body.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Burning pain",
+        "en_l":  "Searing pain",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A hot, stinging pain resembling the sensation of being burned, often arising from nerve irritation.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Stinging pain",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A sharp, prickling surface pain resembling an insect sting.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Electric-shock pain",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A brief, jolting pain that feels like a sudden electric shock, typically running along a nerve.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Formication",
+        "en_l":  "Crawling sensation",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A sensation of insects crawling on or under the skin that occurs without any physical cause.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Cold pain",
+        "en_l":  "Freezing pain",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A painful sensation of intense cold in a body region, often linked to nerve dysfunction or cold exposure.",
+        "lvl":  2
     }
 ]

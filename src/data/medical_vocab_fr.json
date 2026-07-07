@@ -5873,5 +5873,31 @@
         "en_h":  "Sensory system",
         "fr_h":  "Système sensoriel",
         "d_fr":  "Parties du système nerveux qui détectent et traitent les stimuli comme la vue, l\u0027ouïe, l\u0027odorat, le goût, le toucher et l\u0027équilibre."
+    },
+    {
+        "en_h":  "Anatomy",
+        "fr_h":  "Anatomie",
+        "d_fr":  "Branche de la science qui étudie la structure corporelle de l\u0027être humain et les relations entre les parties du corps."
+    },
+    {
+        "en_h":  "Critical Care",
+        "fr_h":  "Soins intensifs",
+        "fr_l":  "Réanimation",
+        "d_fr":  "Spécialité médicale qui prend en charge les patients atteints d\u0027une maladie ou d\u0027une blessure mettant leur vie en danger, généralement en unité de soins intensifs."
+    },
+    {
+        "en_h":  "Family Medicine",
+        "fr_h":  "Médecine familiale",
+        "d_fr":  "Spécialité médicale offrant des soins complets et continus aux personnes et aux familles, à tout âge et pour toutes les affections."
+    },
+    {
+        "en_h":  "General Medicine",
+        "fr_h":  "Médecine générale",
+        "d_fr":  "Vaste domaine de la médecine consacré au diagnostic et au traitement non chirurgical d\u0027un large éventail d\u0027affections courantes."
+    },
+    {
+        "en_h":  "Genetics",
+        "fr_h":  "Génétique",
+        "d_fr":  "Domaine de la médecine et de la biologie qui étudie l\u0027hérédité et la variation des caractères et des maladies transmis."
     }
 ]

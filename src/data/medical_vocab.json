@@ -17766,5 +17766,50 @@
               ],
         "d":  "The parts of the nervous system that detect and process stimuli such as sight, sound, smell, taste, touch, and balance.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Anatomy",
+        "en_l":  "Body structure",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The branch of science concerned with the bodily structure of humans and the relationships between body parts.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Critical Care",
+        "en_l":  "Intensive care",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Medical specialty that manages patients with life-threatening illness or injury, usually in an intensive care unit.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Family Medicine",
+        "en_l":  "Family practice",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Medical specialty providing comprehensive, continuing care for individuals and families across all ages and conditions.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "General Medicine",
+        "en_l":  "General practice",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Broad field of medicine concerned with the diagnosis and nonsurgical treatment of a wide range of common conditions.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Genetics",
+        "en_l":  "Study of heredity",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Field of medicine and biology concerned with heredity and the variation of inherited traits and disorders.",
+        "lvl":  2
     }
 ]

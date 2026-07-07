@@ -5899,5 +5899,105 @@
         "en_h":  "Genetics",
         "fr_h":  "Génétique",
         "d_fr":  "Domaine de la médecine et de la biologie qui étudie l\u0027hérédité et la variation des caractères et des maladies transmis."
+    },
+    {
+        "en_h":  "Efferent nerve",
+        "fr_h":  "Nerf efférent",
+        "fr_l":  "Nerf moteur",
+        "d_fr":  "Nerf qui transporte les signaux du système nerveux central vers les muscles ou les glandes."
+    },
+    {
+        "en_h":  "Afferent nerve",
+        "fr_h":  "Nerf afférent",
+        "fr_l":  "Nerf sensitif",
+        "d_fr":  "Nerf qui transporte les signaux sensoriels du corps vers le système nerveux central."
+    },
+    {
+        "en_h":  "Encephalocele",
+        "fr_h":  "Encéphalocèle",
+        "d_fr":  "Malformation congénitale dans laquelle le tissu cérébral et ses enveloppes font saillie à travers une ouverture du crâne."
+    },
+    {
+        "en_h":  "Anencephaly",
+        "fr_h":  "Anencéphalie",
+        "d_fr":  "Grave malformation congénitale dans laquelle le bébé naît sans une grande partie du cerveau et du crâne."
+    },
+    {
+        "en_h":  "Olfactory groove",
+        "fr_h":  "Gouttière olfactive",
+        "d_fr":  "Dépression à l\u0027avant de la base du crâne, le long de la lame criblée, où reposent les bulbes olfactifs."
+    },
+    {
+        "en_h":  "Arachnoid mater",
+        "fr_h":  "Arachnoïde",
+        "d_fr":  "Membrane intermédiaire, en forme de toile d\u0027araignée, des trois enveloppes du cerveau et de la moelle épinière."
+    },
+    {
+        "en_h":  "Dura mater",
+        "fr_h":  "Dure-mère",
+        "d_fr":  "Membrane fibreuse, épaisse et externe qui enveloppe le cerveau et la moelle épinière."
+    },
+    {
+        "en_h":  "Pia mater",
+        "fr_h":  "Pie-mère",
+        "d_fr":  "Fine membrane la plus interne, adhérant étroitement à la surface du cerveau et de la moelle épinière."
+    },
+    {
+        "en_h":  "Petroclival meningioma",
+        "fr_h":  "Méningiome pétroclival",
+        "d_fr":  "Tumeur méningée bénigne se développant à la jonction de l\u0027os pétreux et du clivus, à la base du crâne."
+    },
+    {
+        "en_h":  "Traumatic brain injury",
+        "fr_h":  "Traumatisme cranio-cérébral",
+        "fr_l":  "Traumatisme crânien",
+        "d_fr":  "Lésion du cerveau causée par une force externe telle qu\u0027un coup ou une secousse à la tête."
+    },
+    {
+        "en_h":  "Bell\u0027s palsy",
+        "fr_h":  "Paralysie de Bell",
+        "fr_l":  "Paralysie faciale",
+        "d_fr":  "Faiblesse ou paralysie soudaine, généralement temporaire, d\u0027un côté du visage due à une atteinte du nerf facial."
+    },
+    {
+        "en_h":  "Vestibular nerve",
+        "fr_h":  "Nerf vestibulaire",
+        "d_fr":  "Branche du nerf vestibulocochléaire qui transmet les informations d\u0027équilibre de l\u0027oreille interne au cerveau."
+    },
+    {
+        "en_h":  "Peripheral nerve",
+        "fr_h":  "Nerf périphérique",
+        "d_fr":  "Nerf situé hors du cerveau et de la moelle épinière qui relie le système nerveux central au reste du corps."
+    },
+    {
+        "en_h":  "Nerve conduction study",
+        "fr_h":  "Étude de conduction nerveuse",
+        "d_fr":  "Test qui mesure la vitesse et l\u0027intensité de la transmission des signaux électriques le long d\u0027un nerf."
+    },
+    {
+        "en_h":  "Action potential",
+        "fr_h":  "Potentiel d\u0027action",
+        "d_fr":  "Signal électrique rapide qui se propage le long de la membrane d\u0027une cellule nerveuse ou musculaire pour transmettre l\u0027information."
+    },
+    {
+        "en_h":  "Amyotrophic lateral sclerosis",
+        "fr_h":  "Sclérose latérale amyotrophique",
+        "fr_l":  "Maladie de Charcot",
+        "d_fr":  "Maladie neurodégénérative progressive qui détruit les motoneurones commandant les mouvements musculaires volontaires."
+    },
+    {
+        "en_h":  "Guillain-Barré syndrome",
+        "fr_h":  "Syndrome de Guillain-Barré",
+        "d_fr":  "Maladie auto-immune dans laquelle le système immunitaire attaque les nerfs périphériques, provoquant une faiblesse musculaire d\u0027apparition rapide."
+    },
+    {
+        "en_h":  "Cupulolithiasis",
+        "fr_h":  "Cupulolithiase",
+        "d_fr":  "Forme de vertige positionnel où des débris calciques adhèrent à la cupule d\u0027un canal semi-circulaire."
+    },
+    {
+        "en_h":  "Canalolithiasis",
+        "fr_h":  "Canalolithiase",
+        "d_fr":  "Forme de vertige positionnel où des débris calciques flottent librement dans un canal semi-circulaire."
     }
 ]

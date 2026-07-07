@@ -17811,5 +17811,230 @@
               ],
         "d":  "Field of medicine and biology concerned with heredity and the variation of inherited traits and disorders.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Efferent nerve",
+        "en_l":  "Motor nerve",
+        "f":  [
+                  "Anatomy",
+                  "Neurology"
+              ],
+        "d":  "A nerve that carries signals away from the central nervous system to muscles or glands.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Afferent nerve",
+        "en_l":  "Sensory nerve",
+        "f":  [
+                  "Anatomy",
+                  "Neurology"
+              ],
+        "d":  "A nerve that carries sensory signals from the body toward the central nervous system.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Encephalocele",
+        "f":  [
+                  "Neurosurgery",
+                  "Neurology"
+              ],
+        "d":  "A congenital defect in which brain tissue and its coverings protrude through an opening in the skull.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "encephal/o"
+                            ],
+                      "s":  [
+                                "-cele"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Anencephaly",
+        "f":  [
+                  "Neurology",
+                  "Pediatrics"
+              ],
+        "d":  "A serious birth defect in which a baby is born missing major portions of the brain and skull.",
+        "lvl":  1,
+        "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
+                      "r":  [
+                                "encephal/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Olfactory groove",
+        "f":  [
+                  "Anatomy",
+                  "Neurosurgery"
+              ],
+        "d":  "A depression at the front base of the skull, along the cribriform plate, where the olfactory bulbs rest.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Arachnoid mater",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The web-like middle membrane of the three layers covering the brain and spinal cord.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Dura mater",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The tough, fibrous outermost membrane covering the brain and spinal cord.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Pia mater",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The delicate innermost membrane that closely adheres to the surface of the brain and spinal cord.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Petroclival meningioma",
+        "f":  [
+                  "Neurosurgery",
+                  "Oncology"
+              ],
+        "d":  "A benign meningeal tumor arising at the junction of the petrous and clival bones at the skull base.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "meningi/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Traumatic brain injury",
+        "abbr":  "TBI",
+        "f":  [
+                  "Neurology",
+                  "Emergency Medicine"
+              ],
+        "d":  "Damage to the brain caused by an external force such as a blow or jolt to the head.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Bell\u0027s palsy",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "Sudden, usually temporary weakness or paralysis of one side of the face caused by facial nerve dysfunction.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Vestibular nerve",
+        "f":  [
+                  "Anatomy",
+                  "Otolaryngology"
+              ],
+        "d":  "The branch of the vestibulocochlear nerve that carries balance information from the inner ear to the brain.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "vestibul/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Peripheral nerve",
+        "f":  [
+                  "Anatomy",
+                  "Neurology"
+              ],
+        "d":  "A nerve outside the brain and spinal cord that links the central nervous system to the rest of the body.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Nerve conduction study",
+        "abbr":  "NCS",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A test that measures how quickly and strongly electrical signals travel along a nerve.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Action potential",
+        "f":  [
+                  "Neurology",
+                  "Anatomy"
+              ],
+        "d":  "A rapid electrical signal that travels along a nerve or muscle cell to transmit information.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Amyotrophic lateral sclerosis",
+        "en_l":  "Lou Gehrig\u0027s disease",
+        "abbr":  "ALS",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A progressive neurodegenerative disease that destroys the motor neurons controlling voluntary muscle movement.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "my/o",
+                                "later/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Guillain-Barré syndrome",
+        "abbr":  "GBS",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "An autoimmune disorder in which the immune system attacks the peripheral nerves, causing rapid-onset muscle weakness.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Cupulolithiasis",
+        "f":  [
+                  "Otolaryngology",
+                  "Neurology"
+              ],
+        "d":  "A cause of positional vertigo in which calcium debris adheres to the cupula of a semicircular canal.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "lith/o"
+                            ],
+                      "s":  [
+                                "-iasis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Canalolithiasis",
+        "f":  [
+                  "Otolaryngology",
+                  "Neurology"
+              ],
+        "d":  "A cause of positional vertigo in which calcium debris floats freely within a semicircular canal.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "lith/o"
+                            ],
+                      "s":  [
+                                "-iasis"
+                            ]
+                  }
     }
 ]

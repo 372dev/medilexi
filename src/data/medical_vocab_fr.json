@@ -5801,5 +5801,77 @@
         "en_h":  "Progressive pain",
         "fr_h":  "Douleur progressive",
         "d_fr":  "Douleur dont l\u0027intensité s\u0027aggrave peu à peu avec le temps."
+    },
+    {
+        "en_h":  "Musculoskeletal system",
+        "fr_h":  "Système musculosquelettique",
+        "d_fr":  "Système d\u0027organes formé des os, des muscles, des articulations et des tissus conjonctifs qui soutient le corps, protège les organes et permet le mouvement."
+    },
+    {
+        "en_h":  "Cardiovascular system",
+        "fr_h":  "Système cardiovasculaire",
+        "fr_l":  "Système circulatoire",
+        "d_fr":  "Système d\u0027organes formé du cœur et des vaisseaux sanguins qui fait circuler le sang pour apporter oxygène et nutriments et évacuer les déchets."
+    },
+    {
+        "en_h":  "Hematologic system",
+        "fr_h":  "Système hématologique",
+        "fr_l":  "Système sanguin",
+        "d_fr":  "Système du sang, de la moelle osseuse et des organes associés qui produit les cellules sanguines et transporte oxygène, nutriments et cellules immunitaires."
+    },
+    {
+        "en_h":  "Immune system",
+        "fr_h":  "Système immunitaire",
+        "d_fr":  "Réseau de cellules, de tissus et d\u0027organes qui défend le corps contre les infections, les maladies et les substances étrangères."
+    },
+    {
+        "en_h":  "Lymphatic system",
+        "fr_h":  "Système lymphatique",
+        "d_fr":  "Réseau de vaisseaux, de ganglions et d\u0027organes qui draine l\u0027excès de liquide des tissus, le filtre et soutient la défense immunitaire."
+    },
+    {
+        "en_h":  "Respiratory system",
+        "fr_h":  "Système respiratoire",
+        "d_fr":  "Système d\u0027organes formé des voies aériennes et des poumons qui apporte l\u0027oxygène au corps et élimine le dioxyde de carbone."
+    },
+    {
+        "en_h":  "Digestive system",
+        "fr_h":  "Système digestif",
+        "d_fr":  "Système d\u0027organes qui décompose les aliments, absorbe les nutriments et élimine les déchets, de la bouche à l\u0027anus."
+    },
+    {
+        "en_h":  "Urinary system",
+        "fr_h":  "Système urinaire",
+        "d_fr":  "Système d\u0027organes formé des reins, des uretères, de la vessie et de l\u0027urètre qui filtre le sang et élimine les déchets sous forme d\u0027urine."
+    },
+    {
+        "en_h":  "Reproductive system",
+        "fr_h":  "Système reproducteur",
+        "d_fr":  "Système d\u0027organes chargé de la reproduction, comprenant les gonades et les structures reproductrices associées."
+    },
+    {
+        "en_h":  "Endocrine system",
+        "fr_h":  "Système endocrinien",
+        "d_fr":  "Ensemble de glandes qui produisent des hormones pour réguler le métabolisme, la croissance, l\u0027humeur et d\u0027autres fonctions du corps."
+    },
+    {
+        "en_h":  "Nervous system",
+        "fr_h":  "Système nerveux",
+        "d_fr":  "Système d\u0027organes formé du cerveau, de la moelle épinière et des nerfs qui commande et coordonne les fonctions du corps par des signaux électriques et chimiques."
+    },
+    {
+        "en_h":  "Mental health",
+        "fr_h":  "Santé mentale",
+        "d_fr":  "Bien-être émotionnel, psychologique et social d\u0027une personne, qui influe sur sa façon de penser, de ressentir, de gérer le stress et d\u0027interagir avec autrui."
+    },
+    {
+        "en_h":  "Integumentary system",
+        "fr_h":  "Système tégumentaire",
+        "d_fr":  "Système d\u0027organes formé de la peau, des poils, des ongles et des glandes associées qui recouvre et protège le corps."
+    },
+    {
+        "en_h":  "Sensory system",
+        "fr_h":  "Système sensoriel",
+        "d_fr":  "Parties du système nerveux qui détectent et traitent les stimuli comme la vue, l\u0027ouïe, l\u0027odorat, le goût, le toucher et l\u0027équilibre."
     }
 ]

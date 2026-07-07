@@ -17613,5 +17613,158 @@
               ],
         "d":  "Pain that gradually worsens in intensity over time.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Musculoskeletal system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The organ system of bones, muscles, joints, and connective tissues that supports the body, protects organs, and enables movement.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "muscul/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cardiovascular system",
+        "en_l":  "Circulatory system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The organ system of the heart and blood vessels that circulates blood to deliver oxygen and nutrients and carry away waste.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "cardi/o",
+                                "vascul/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hematologic system",
+        "en_l":  "Blood system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The system of blood, bone marrow, and related organs that produces blood cells and transports oxygen, nutrients, and immune cells.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "hemat/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Immune system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The network of cells, tissues, and organs that defends the body against infection, disease, and foreign substances.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "immun/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Lymphatic system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The network of vessels, nodes, and organs that drains excess fluid from tissues, filters it, and supports immune defense.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "lymph/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Respiratory system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The organ system of the airways and lungs that brings oxygen into the body and removes carbon dioxide.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Digestive system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The organ system that breaks down food, absorbs nutrients, and eliminates waste, extending from the mouth to the anus.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Urinary system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The organ system of the kidneys, ureters, bladder, and urethra that filters blood and removes waste as urine.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "urin/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Reproductive system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The organ system responsible for producing offspring, comprising the gonads and associated reproductive structures.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Endocrine system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The system of glands that produce hormones to regulate metabolism, growth, mood, and other body functions.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "endo-"
+                            ],
+                      "r":  [
+                                "crin/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Nervous system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The organ system of the brain, spinal cord, and nerves that controls and coordinates body functions through electrical and chemical signals.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Mental health",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A person\u0027s emotional, psychological, and social well-being, affecting how they think, feel, cope with stress, and relate to others.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Integumentary system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The organ system of the skin, hair, nails, and associated glands that covers and protects the body.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Sensory system",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The parts of the nervous system that detect and process stimuli such as sight, sound, smell, taste, touch, and balance.",
+        "lvl":  2
     }
 ]

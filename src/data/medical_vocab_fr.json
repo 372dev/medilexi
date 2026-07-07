@@ -5999,5 +5999,125 @@
         "en_h":  "Canalolithiasis",
         "fr_h":  "Canalolithiase",
         "d_fr":  "Forme de vertige positionnel où des débris calciques flottent librement dans un canal semi-circulaire."
+    },
+    {
+        "en_h":  "Aphrodisiac",
+        "fr_h":  "Aphrodisiaque",
+        "d_fr":  "Substance prise pour stimuler le désir sexuel ou améliorer les performances sexuelles."
+    },
+    {
+        "en_h":  "Intersex",
+        "fr_h":  "Intersexuation",
+        "d_fr":  "État d\u0027une personne née avec une anatomie sexuelle ne correspondant pas aux catégories masculine ou féminine typiques, autrefois appelé hermaphrodisme."
+    },
+    {
+        "en_h":  "Priapism",
+        "fr_h":  "Priapisme",
+        "d_fr":  "Érection persistante, souvent douloureuse, qui se prolonge bien après la fin de la stimulation sexuelle."
+    },
+    {
+        "en_h":  "Endometriosis",
+        "fr_h":  "Endométriose",
+        "d_fr":  "Affection dans laquelle un tissu semblable à la muqueuse utérine se développe hors de l\u0027utérus, causant douleur et parfois infertilité."
+    },
+    {
+        "en_h":  "Uterine prolapse",
+        "fr_h":  "Prolapsus utérin",
+        "d_fr":  "Descente de l\u0027utérus dans le vagin ou à l\u0027extérieur, due à un affaiblissement du soutien pelvien."
+    },
+    {
+        "en_h":  "Episiotomy",
+        "fr_h":  "Épisiotomie",
+        "d_fr":  "Incision chirurgicale du périnée pratiquée pendant l\u0027accouchement pour élargir l\u0027ouverture vaginale."
+    },
+    {
+        "en_h":  "Perineum",
+        "fr_h":  "Périnée",
+        "d_fr":  "Région du corps située entre l\u0027anus et les organes génitaux externes."
+    },
+    {
+        "en_h":  "Dilation and curettage",
+        "fr_h":  "Dilatation et curetage",
+        "d_fr":  "Intervention qui dilate le col de l\u0027utérus et racle la muqueuse utérine à des fins de diagnostic ou pour vider l\u0027utérus."
+    },
+    {
+        "en_h":  "Colpocystocele",
+        "fr_h":  "Colpocystocèle",
+        "d_fr":  "Prolapsus dans lequel la vessie fait saillie dans la paroi antérieure du vagin."
+    },
+    {
+        "en_h":  "Hematosalpinx",
+        "fr_h":  "Hématosalpinx",
+        "d_fr":  "Accumulation de sang dans une trompe de Fallope."
+    },
+    {
+        "en_h":  "Pudendal block",
+        "fr_h":  "Bloc pudendal",
+        "d_fr":  "Injection d\u0027anesthésique local qui insensibilise la région périnéale pendant l\u0027accouchement."
+    },
+    {
+        "en_h":  "Placenta previa",
+        "fr_h":  "Placenta praevia",
+        "d_fr":  "État dans lequel le placenta recouvre partiellement ou totalement le col de l\u0027utérus, avec un risque de saignement pendant la grossesse et l\u0027accouchement."
+    },
+    {
+        "en_h":  "Eclampsia",
+        "fr_h":  "Éclampsie",
+        "d_fr":  "Grave complication de la grossesse marquée par des convulsions, évoluant à partir d\u0027une pré-éclampsie sévère."
+    },
+    {
+        "en_h":  "Ectopic pregnancy",
+        "fr_h":  "Grossesse extra-utérine",
+        "d_fr":  "Grossesse où l\u0027œuf fécondé s\u0027implante hors de l\u0027utérus, le plus souvent dans une trompe de Fallope."
+    },
+    {
+        "en_h":  "Myometritis",
+        "fr_h":  "Myométrite",
+        "d_fr":  "Inflammation de la paroi musculaire de l\u0027utérus."
+    },
+    {
+        "en_h":  "Laparohysteropexy",
+        "fr_h":  "Laparohystéropexie",
+        "d_fr":  "Intervention chirurgicale qui fixe en place un utérus prolabé par voie abdominale."
+    },
+    {
+        "en_h":  "Abnormal uterine bleeding",
+        "fr_h":  "Saignements utérins anormaux",
+        "d_fr":  "Saignements menstruels anormaux par leur quantité, leur moment ou leur durée, terme moderne remplaçant d\u0027anciens libellés comme la ménorragie et la métrorragie."
+    },
+    {
+        "en_h":  "Bacterial vaginosis",
+        "fr_h":  "Vaginose bactérienne",
+        "d_fr":  "Affection vaginale fréquente causée par un déséquilibre de la flore bactérienne normale du vagin."
+    },
+    {
+        "en_h":  "Contraception",
+        "fr_h":  "Contraception",
+        "d_fr":  "Prévention volontaire de la grossesse au moyen de médicaments, de dispositifs ou d\u0027autres méthodes."
+    },
+    {
+        "en_h":  "Pelvic examination",
+        "fr_h":  "Examen pelvien",
+        "d_fr":  "Examen physique des organes pelviens de la femme, dont le vagin, le col, l\u0027utérus et les ovaires."
+    },
+    {
+        "en_h":  "Polycystic ovary syndrome",
+        "fr_h":  "Syndrome des ovaires polykystiques",
+        "d_fr":  "Trouble hormonal entraînant des ovaires élargis porteurs de petits kystes, des règles irrégulières et un excès d\u0027androgènes."
+    },
+    {
+        "en_h":  "Colposcopy",
+        "fr_h":  "Colposcopie",
+        "d_fr":  "Examen du col de l\u0027utérus et du vagin à l\u0027aide d\u0027un instrument grossissant appelé colposcope."
+    },
+    {
+        "en_h":  "Tubal ligation",
+        "fr_h":  "Ligature des trompes",
+        "d_fr":  "Méthode de stérilisation féminine permanente consistant à couper ou bloquer les trompes de Fallope."
+    },
+    {
+        "en_h":  "Myomectomy",
+        "fr_h":  "Myomectomie",
+        "d_fr":  "Ablation chirurgicale des fibromes utérins tout en préservant l\u0027utérus."
     }
 ]

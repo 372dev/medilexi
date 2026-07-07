@@ -18036,5 +18036,318 @@
                                 "-iasis"
                             ]
                   }
+    },
+    {
+        "en_h":  "Aphrodisiac",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "A substance taken to stimulate sexual desire or enhance sexual performance.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Intersex",
+        "f":  [
+                  "Genetics",
+                  "Endocrinology"
+              ],
+        "d":  "A condition in which a person is born with sexual anatomy that does not fit typical male or female categories, formerly called hermaphroditism.",
+        "lvl":  1,
+        "parts":  {
+                      "p":  [
+                                "inter-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Priapism",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "A persistent, often painful erection that continues long after sexual stimulation has ended.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Endometriosis",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A condition in which tissue resembling the uterine lining grows outside the uterus, causing pain and sometimes infertility.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "endo-"
+                            ],
+                      "r":  [
+                                "metr/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Uterine prolapse",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "Downward displacement of the uterus into or through the vagina due to weakened pelvic support.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "uter/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Episiotomy",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A surgical incision of the perineum made during childbirth to widen the vaginal opening.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "episi/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Perineum",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The region of the body between the anus and the external genitalia.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "perine/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dilation and curettage",
+        "abbr":  "D\u0026C",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A procedure that widens the cervix and scrapes the uterine lining for diagnosis or to empty the uterus.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Colpocystocele",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Urology"
+              ],
+        "d":  "A prolapse in which the bladder bulges into the front wall of the vagina.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "colp/o",
+                                "cyst/o"
+                            ],
+                      "s":  [
+                                "-cele"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hematosalpinx",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The accumulation of blood within a fallopian tube.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "hemat/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pudendal block",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Anesthesiology"
+              ],
+        "d":  "A local anesthetic injection that numbs the perineal region during childbirth.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Placenta previa",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A condition in which the placenta partly or completely covers the cervix, risking bleeding in pregnancy and delivery.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Eclampsia",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A serious pregnancy complication marked by seizures, developing from severe pre-eclampsia.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Ectopic pregnancy",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Emergency Medicine"
+              ],
+        "d":  "A pregnancy in which the fertilized egg implants outside the uterus, most often in a fallopian tube.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Myometritis",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "Inflammation of the muscular wall of the uterus.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "my/o",
+                                "metr/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Laparohysteropexy",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A surgical procedure that fixes a prolapsed uterus in place through an abdominal approach.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "lapar/o",
+                                "hyster/o"
+                            ],
+                      "s":  [
+                                "-pexy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Abnormal uterine bleeding",
+        "abbr":  "AUB",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "Menstrual bleeding that is abnormal in amount, timing, or duration, the modern umbrella term that replaced older labels such as menorrhagia and metrorrhagia.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "uter/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Bacterial vaginosis",
+        "abbr":  "BV",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Infectious Disease"
+              ],
+        "d":  "A common vaginal condition caused by an imbalance of the normal vaginal bacteria.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "bacter/i",
+                                "vagin/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Contraception",
+        "en_l":  "Birth control",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Family Medicine"
+              ],
+        "d":  "The deliberate prevention of pregnancy using drugs, devices, or other methods.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "contra-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pelvic examination",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A physical examination of the female pelvic organs, including the vagina, cervix, uterus, and ovaries.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Polycystic ovary syndrome",
+        "abbr":  "PCOS",
+        "f":  [
+                  "Endocrinology",
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A hormonal disorder causing enlarged ovaries with small cysts, irregular periods, and excess androgen effects.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "poly-"
+                            ],
+                      "r":  [
+                                "cyst/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Colposcopy",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "Examination of the cervix and vagina using a magnifying instrument called a colposcope.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "colp/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Tubal ligation",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A permanent method of female sterilization in which the fallopian tubes are cut or blocked.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Myomectomy",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "Surgical removal of uterine fibroids while preserving the uterus.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "my/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
     }
 ]

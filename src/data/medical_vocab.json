@@ -18520,5 +18520,222 @@
               ],
         "d":  "A nurse who assists the surgical team within the sterile field during an operation.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Physical therapist",
+        "en_l":  "Physiotherapist",
+        "abbr":  "PT",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "A therapist who helps patients restore movement, strength, and function through exercise and physical techniques.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Occupational therapist",
+        "abbr":  "OT",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "A therapist who helps patients regain the skills needed for daily activities and work after illness or injury.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Speech-language pathologist",
+        "en_l":  "Speech therapist",
+        "abbr":  "SLP",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "A specialist who evaluates and treats disorders of speech, language, and swallowing.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "path/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Respiratory therapist",
+        "abbr":  "RT",
+        "f":  [
+                  "Pulmonology"
+              ],
+        "d":  "A specialist who evaluates and treats patients with breathing disorders, often managing ventilators and oxygen therapy.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Audiologist",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A specialist who evaluates, diagnoses, and treats hearing and balance disorders.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "audi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dietitian",
+        "en_l":  "Nutritionist",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A specialist in nutrition who plans and advises on diets to promote health and manage disease.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Medical social worker",
+        "en_l":  "Social worker",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "A professional who helps patients and families cope with the social, emotional, and practical effects of illness.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Case manager",
+        "en_l":  "Care coordinator",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "A professional who coordinates a patient\u0027s care, services, and resources across providers and settings.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Radiologic technologist",
+        "en_l":  "X-ray technician",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "A technician trained to perform imaging examinations such as X-rays for diagnosis.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "radi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Medical assistant",
+        "abbr":  "MA",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A staff member who performs routine clinical and administrative tasks to support physicians in outpatient settings.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Sonographer",
+        "en_l":  "Ultrasound technician",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "A technician trained to perform ultrasound imaging of the body for diagnosis.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "son/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Paramedic",
+        "f":  [
+                  "Emergency Medicine"
+              ],
+        "d":  "An emergency medical professional trained to provide advanced life support and care outside the hospital.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "para-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Emergency medical technician",
+        "abbr":  "EMT",
+        "f":  [
+                  "Emergency Medicine"
+              ],
+        "d":  "An emergency responder trained to provide basic life support and care at the scene and during transport.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Medical laboratory technician",
+        "en_l":  "Lab technician",
+        "abbr":  "MLT",
+        "f":  [
+                  "Pathology"
+              ],
+        "d":  "A technician who performs laboratory tests on blood, tissue, and other samples to aid diagnosis.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Optometrist",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "An eye-care professional who examines vision, prescribes corrective lenses, and detects eye disorders.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "opt/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Podiatrist",
+        "en_l":  "Foot doctor",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "A specialist who diagnoses and treats disorders of the foot, ankle, and lower leg.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "pod/o",
+                                "iatr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Psychologist",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A professional who studies mental processes and behavior and provides assessment and therapy for psychological conditions.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "psych/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Chiropractor",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "A practitioner who treats musculoskeletal problems, chiefly of the spine, mainly through manual adjustment.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Doula",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A trained companion who provides continuous physical and emotional support to a person during pregnancy and childbirth.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Counselor",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A trained professional who provides guidance and talk therapy to help people manage emotional, mental, or life difficulties.",
+        "lvl":  2
     }
 ]

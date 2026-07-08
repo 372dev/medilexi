@@ -6218,5 +6218,112 @@
         "fr_h":  "Infirmier instrumentiste",
         "fr_l":  "Infirmier de bloc opératoire",
         "d_fr":  "Infirmier qui assiste l\u0027équipe chirurgicale dans le champ stérile pendant une opération."
+    },
+    {
+        "en_h":  "Physical therapist",
+        "fr_h":  "Physiothérapeute",
+        "fr_l":  "Kinésithérapeute",
+        "d_fr":  "Thérapeute qui aide les patients à retrouver mouvement, force et fonction par l\u0027exercice et des techniques physiques."
+    },
+    {
+        "en_h":  "Occupational therapist",
+        "fr_h":  "Ergothérapeute",
+        "d_fr":  "Thérapeute qui aide les patients à retrouver les habiletés nécessaires aux activités quotidiennes et au travail après une maladie ou une blessure."
+    },
+    {
+        "en_h":  "Speech-language pathologist",
+        "fr_h":  "Orthophoniste",
+        "d_fr":  "Spécialiste qui évalue et traite les troubles de la parole, du langage et de la déglutition."
+    },
+    {
+        "en_h":  "Respiratory therapist",
+        "fr_h":  "Inhalothérapeute",
+        "d_fr":  "Spécialiste qui évalue et traite les patients ayant des troubles respiratoires, gérant souvent les ventilateurs et l\u0027oxygénothérapie."
+    },
+    {
+        "en_h":  "Audiologist",
+        "fr_h":  "Audiologiste",
+        "d_fr":  "Spécialiste qui évalue, diagnostique et traite les troubles de l\u0027audition et de l\u0027équilibre."
+    },
+    {
+        "en_h":  "Dietitian",
+        "fr_h":  "Diététiste",
+        "fr_l":  "Nutritionniste",
+        "d_fr":  "Spécialiste de la nutrition qui planifie et conseille des régimes pour favoriser la santé et gérer la maladie."
+    },
+    {
+        "en_h":  "Medical social worker",
+        "fr_h":  "Travailleur social médical",
+        "fr_l":  "Travailleur social",
+        "d_fr":  "Professionnel qui aide les patients et les familles à composer avec les effets sociaux, émotionnels et pratiques de la maladie."
+    },
+    {
+        "en_h":  "Case manager",
+        "fr_h":  "Gestionnaire de cas",
+        "fr_l":  "Coordonnateur de soins",
+        "d_fr":  "Professionnel qui coordonne les soins, les services et les ressources d\u0027un patient entre les prestataires et les milieux."
+    },
+    {
+        "en_h":  "Radiologic technologist",
+        "fr_h":  "Technologue en radiologie",
+        "d_fr":  "Technicien formé pour réaliser des examens d\u0027imagerie comme les radiographies à des fins de diagnostic."
+    },
+    {
+        "en_h":  "Medical assistant",
+        "fr_h":  "Assistant médical",
+        "d_fr":  "Membre du personnel qui effectue des tâches cliniques et administratives courantes pour soutenir les médecins en clinique externe."
+    },
+    {
+        "en_h":  "Sonographer",
+        "fr_h":  "Échographiste",
+        "d_fr":  "Technicien formé pour réaliser l\u0027imagerie du corps par ultrasons à des fins de diagnostic."
+    },
+    {
+        "en_h":  "Paramedic",
+        "fr_h":  "Paramédic",
+        "d_fr":  "Professionnel des soins d\u0027urgence formé pour fournir des soins avancés de maintien des fonctions vitales hors de l\u0027hôpital."
+    },
+    {
+        "en_h":  "Emergency medical technician",
+        "fr_h":  "Technicien ambulancier",
+        "d_fr":  "Intervenant d\u0027urgence formé pour fournir des soins de base de maintien des fonctions vitales sur les lieux et durant le transport."
+    },
+    {
+        "en_h":  "Medical laboratory technician",
+        "fr_h":  "Technologue de laboratoire médical",
+        "fr_l":  "Technicien de laboratoire",
+        "d_fr":  "Technicien qui effectue des analyses de laboratoire sur le sang, les tissus et d\u0027autres échantillons pour aider au diagnostic."
+    },
+    {
+        "en_h":  "Optometrist",
+        "fr_h":  "Optométriste",
+        "d_fr":  "Professionnel des soins oculaires qui examine la vue, prescrit des verres correcteurs et dépiste les troubles oculaires."
+    },
+    {
+        "en_h":  "Podiatrist",
+        "fr_h":  "Podiatre",
+        "fr_l":  "Podologue",
+        "d_fr":  "Spécialiste qui diagnostique et traite les affections du pied, de la cheville et du bas de la jambe."
+    },
+    {
+        "en_h":  "Psychologist",
+        "fr_h":  "Psychologue",
+        "d_fr":  "Professionnel qui étudie les processus mentaux et le comportement et offre évaluation et thérapie pour les troubles psychologiques."
+    },
+    {
+        "en_h":  "Chiropractor",
+        "fr_h":  "Chiropraticien",
+        "d_fr":  "Praticien qui traite les problèmes musculosquelettiques, surtout de la colonne, principalement par manipulation manuelle."
+    },
+    {
+        "en_h":  "Doula",
+        "fr_h":  "Doula",
+        "fr_l":  "Accompagnante à la naissance",
+        "d_fr":  "Accompagnante formée qui offre un soutien physique et émotionnel continu pendant la grossesse et l\u0027accouchement."
+    },
+    {
+        "en_h":  "Counselor",
+        "fr_h":  "Conseiller",
+        "d_fr":  "Professionnel formé qui offre du counseling et de la thérapie par la parole pour aider à gérer des difficultés émotionnelles, mentales ou de vie."
     }
 ]

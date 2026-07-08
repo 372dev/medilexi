@@ -18349,5 +18349,176 @@
                                 "-ectomy"
                             ]
                   }
+    },
+    {
+        "en_h":  "Physician",
+        "en_l":  "Doctor",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A medical professional trained and licensed to diagnose and treat illness and injury.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Physician associate",
+        "en_l":  "Physician assistant",
+        "abbr":  "PA",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A licensed clinician who examines, diagnoses, and treats patients under the supervision of a physician.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Nurse practitioner",
+        "abbr":  "NP",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "An advanced-practice nurse who can diagnose conditions, order tests, and prescribe treatment, often independently.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Attending physician",
+        "en_l":  "Attending doctor",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "The senior physician with primary responsibility for a patient\u0027s care, often supervising residents and students.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Resident physician",
+        "en_l":  "Resident doctor",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A physician in postgraduate training who cares for patients under supervision after medical school.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Intern",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A first-year resident physician in the earliest stage of postgraduate clinical training.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fellow",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A physician receiving advanced subspecialty training after completing residency.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Hospitalist",
+        "f":  [
+                  "Internal Medicine"
+              ],
+        "d":  "A physician who specializes in the care of patients while they are admitted to the hospital.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Primary care provider",
+        "abbr":  "PCP",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "The main clinician a patient sees for routine care, prevention, and coordination of overall health.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Surgeon",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "A physician trained to treat disease and injury by operative procedures.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Midwife",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A trained professional who provides care during pregnancy, labor, and childbirth.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Registered nurse",
+        "abbr":  "RN",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A licensed nurse who provides and coordinates patient care across clinical settings.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Licensed practical nurse",
+        "abbr":  "LPN",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A nurse who provides basic bedside care under the direction of a registered nurse or physician.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Certified nursing assistant",
+        "abbr":  "CNA",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A trained aide who helps patients with daily activities and basic care under nursing supervision.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Charge nurse",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A registered nurse who supervises and coordinates the nursing staff and patient flow on a unit during a shift.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Nurse anesthetist",
+        "abbr":  "CRNA",
+        "f":  [
+                  "Anesthesiology"
+              ],
+        "d":  "An advanced-practice nurse who administers anesthesia and monitors patients during procedures.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Triage nurse",
+        "f":  [
+                  "Emergency Medicine",
+                  "General Medicine"
+              ],
+        "d":  "A nurse who assesses incoming patients and prioritizes their care based on the urgency of their condition.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Phlebotomist",
+        "f":  [
+                  "Pathology",
+                  "General Medicine"
+              ],
+        "d":  "A technician trained to draw blood from patients for laboratory testing, transfusion, or donation.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "phleb/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Scrub nurse",
+        "en_l":  "Operating room nurse",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "A nurse who assists the surgical team within the sterile field during an operation.",
+        "lvl":  2
     }
 ]

@@ -6119,5 +6119,104 @@
         "en_h":  "Myomectomy",
         "fr_h":  "Myomectomie",
         "d_fr":  "Ablation chirurgicale des fibromes utérins tout en préservant l\u0027utérus."
+    },
+    {
+        "en_h":  "Physician",
+        "fr_h":  "Médecin",
+        "fr_l":  "Docteur",
+        "d_fr":  "Professionnel de la santé formé et autorisé à diagnostiquer et à traiter les maladies et les blessures."
+    },
+    {
+        "en_h":  "Physician associate",
+        "fr_h":  "Adjoint au médecin",
+        "d_fr":  "Clinicien autorisé qui examine, diagnostique et traite les patients sous la supervision d\u0027un médecin."
+    },
+    {
+        "en_h":  "Nurse practitioner",
+        "fr_h":  "Infirmier praticien spécialisé",
+        "d_fr":  "Infirmier de pratique avancée pouvant diagnostiquer des affections, prescrire des examens et des traitements, souvent de façon autonome."
+    },
+    {
+        "en_h":  "Attending physician",
+        "fr_h":  "Médecin traitant",
+        "d_fr":  "Médecin principalement responsable des soins d\u0027un patient, qui supervise souvent les résidents et les étudiants."
+    },
+    {
+        "en_h":  "Resident physician",
+        "fr_h":  "Médecin résident",
+        "fr_l":  "Résident",
+        "d_fr":  "Médecin en formation postdoctorale qui soigne des patients sous supervision après ses études de médecine."
+    },
+    {
+        "en_h":  "Intern",
+        "fr_h":  "Interne",
+        "d_fr":  "Résident de première année, au tout début de la formation clinique postdoctorale."
+    },
+    {
+        "en_h":  "Fellow",
+        "fr_h":  "Moniteur clinique",
+        "fr_l":  "Fellow",
+        "d_fr":  "Médecin suivant une formation surspécialisée après avoir terminé sa résidence."
+    },
+    {
+        "en_h":  "Hospitalist",
+        "fr_h":  "Hospitaliste",
+        "d_fr":  "Médecin spécialisé dans la prise en charge des patients pendant leur hospitalisation."
+    },
+    {
+        "en_h":  "Primary care provider",
+        "fr_h":  "Fournisseur de soins primaires",
+        "d_fr":  "Principal clinicien qu\u0027un patient consulte pour les soins courants, la prévention et la coordination de sa santé."
+    },
+    {
+        "en_h":  "Surgeon",
+        "fr_h":  "Chirurgien",
+        "d_fr":  "Médecin formé pour traiter les maladies et les blessures par des interventions opératoires."
+    },
+    {
+        "en_h":  "Midwife",
+        "fr_h":  "Sage-femme",
+        "d_fr":  "Professionnel formé qui prodigue des soins pendant la grossesse, le travail et l\u0027accouchement."
+    },
+    {
+        "en_h":  "Registered nurse",
+        "fr_h":  "Infirmier autorisé",
+        "d_fr":  "Infirmier autorisé qui prodigue et coordonne les soins aux patients dans divers milieux cliniques."
+    },
+    {
+        "en_h":  "Licensed practical nurse",
+        "fr_h":  "Infirmier auxiliaire",
+        "d_fr":  "Infirmier qui prodigue des soins de base au chevet du patient sous la direction d\u0027un infirmier autorisé ou d\u0027un médecin."
+    },
+    {
+        "en_h":  "Certified nursing assistant",
+        "fr_h":  "Préposé aux bénéficiaires",
+        "d_fr":  "Aide formé qui assiste les patients dans leurs activités quotidiennes et leurs soins de base sous supervision infirmière."
+    },
+    {
+        "en_h":  "Charge nurse",
+        "fr_h":  "Infirmier responsable",
+        "d_fr":  "Infirmier autorisé qui supervise et coordonne le personnel infirmier et le flux des patients d\u0027une unité durant un quart de travail."
+    },
+    {
+        "en_h":  "Nurse anesthetist",
+        "fr_h":  "Infirmier anesthésiste",
+        "d_fr":  "Infirmier de pratique avancée qui administre l\u0027anesthésie et surveille les patients durant les interventions."
+    },
+    {
+        "en_h":  "Triage nurse",
+        "fr_h":  "Infirmier de triage",
+        "d_fr":  "Infirmier qui évalue les patients à leur arrivée et établit la priorité des soins selon l\u0027urgence de leur état."
+    },
+    {
+        "en_h":  "Phlebotomist",
+        "fr_h":  "Phlébotomiste",
+        "d_fr":  "Technicien formé pour prélever du sang chez les patients à des fins d\u0027analyse, de transfusion ou de don."
+    },
+    {
+        "en_h":  "Scrub nurse",
+        "fr_h":  "Infirmier instrumentiste",
+        "fr_l":  "Infirmier de bloc opératoire",
+        "d_fr":  "Infirmier qui assiste l\u0027équipe chirurgicale dans le champ stérile pendant une opération."
     }
 ]

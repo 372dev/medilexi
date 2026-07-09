@@ -6569,5 +6569,112 @@
         "en_h":  "Ureteropelvic junction obstruction",
         "fr_h":  "Syndrome de la jonction pyélo-urétérale",
         "d_fr":  "Blocage au point de connexion entre le bassinet du rein et l\u0027uretère, entravant l\u0027écoulement de l\u0027urine depuis le rein."
+    },
+    {
+        "en_h":  "Scleroderma",
+        "fr_h":  "Sclérodermie",
+        "d_fr":  "Groupe de maladies auto-immunes provoquant le durcissement et l\u0027épaississement de la peau et des tissus conjonctifs, pouvant atteindre les organes internes."
+    },
+    {
+        "en_h":  "Antiperspirant",
+        "fr_h":  "Antitranspirant",
+        "d_fr":  "Produit topique qui réduit la transpiration des aisselles en bloquant temporairement les glandes sudoripares."
+    },
+    {
+        "en_h":  "Potassium hydroxide preparation",
+        "fr_h":  "Examen à l\u0027hydroxyde de potassium",
+        "d_fr":  "Examen microscopique utilisant une solution d\u0027hydroxyde de potassium pour dissoudre les cellules cutanées et révéler des éléments fongiques dans des prélèvements de peau, de cheveux ou d\u0027ongles."
+    },
+    {
+        "en_h":  "Exacerbation",
+        "fr_h":  "Exacerbation",
+        "fr_l":  "Poussée",
+        "d_fr":  "Aggravation soudaine des symptômes d\u0027une affection chronique."
+    },
+    {
+        "en_h":  "Mycosis",
+        "fr_h":  "Mycose",
+        "d_fr":  "Toute maladie causée par une infection fongique."
+    },
+    {
+        "en_h":  "Oral ulcer",
+        "fr_h":  "Ulcère buccal",
+        "d_fr":  "Plaie ouverte et douloureuse sur la muqueuse de l\u0027intérieur de la bouche."
+    },
+    {
+        "en_h":  "Staphylococcus",
+        "fr_h":  "Staphylocoque",
+        "d_fr":  "Genre de bactéries à Gram positif présentes sur la peau et les muqueuses, pouvant causer diverses infections."
+    },
+    {
+        "en_h":  "Streptococcus",
+        "fr_h":  "Streptocoque",
+        "d_fr":  "Genre de bactéries à Gram positif pouvant causer un large éventail d\u0027infections, dont l\u0027angine et la pneumonie."
+    },
+    {
+        "en_h":  "Pneumococcus",
+        "fr_h":  "Pneumocoque",
+        "d_fr":  "Bactérie Streptococcus pneumoniae, cause majeure de pneumonie communautaire, de méningite et d\u0027autres infections invasives."
+    },
+    {
+        "en_h":  "Oral candidiasis",
+        "fr_h":  "Candidose buccale",
+        "fr_l":  "Muguet",
+        "d_fr":  "Infection fongique de la bouche due à la prolifération de Candida, se présentant souvent sous forme de plaques blanches."
+    },
+    {
+        "en_h":  "Pertussis",
+        "fr_h":  "Coqueluche",
+        "d_fr":  "Infection respiratoire bactérienne très contagieuse caractérisée par de sévères quintes de toux."
+    },
+    {
+        "en_h":  "Diphtheria",
+        "fr_h":  "Diphtérie",
+        "d_fr":  "Infection bactérienne grave provoquant un enduit gris épais dans la gorge et pouvant entraîner des lésions cardiaques et nerveuses."
+    },
+    {
+        "en_h":  "Tetanus",
+        "fr_h":  "Tétanos",
+        "d_fr":  "Maladie bactérienne grave causant des spasmes musculaires douloureux et une raideur, souvent à la suite d\u0027une plaie contaminée."
+    },
+    {
+        "en_h":  "Tdap vaccine",
+        "fr_h":  "Vaccin dcaT",
+        "d_fr":  "Vaccin combiné protégeant contre le tétanos, la diphtérie et la coqueluche."
+    },
+    {
+        "en_h":  "Herpes zoster",
+        "fr_h":  "Zona",
+        "d_fr":  "Éruption douloureuse causée par la réactivation du virus varicelle-zona, typiquement selon une distribution dermatomale."
+    },
+    {
+        "en_h":  "Lyme disease",
+        "fr_h":  "Maladie de Lyme",
+        "d_fr":  "Infection bactérienne transmise par les tiques pouvant causer une éruption, de la fièvre et, plus tard, des atteintes articulaires, cardiaques ou neurologiques."
+    },
+    {
+        "en_h":  "Gonorrhea",
+        "fr_h":  "Gonorrhée",
+        "d_fr":  "Infection bactérienne sexuellement transmissible courante touchant les voies génitales, le rectum ou la gorge."
+    },
+    {
+        "en_h":  "Chlamydia",
+        "fr_h":  "Chlamydiose",
+        "d_fr":  "Infection bactérienne sexuellement transmissible courante, souvent asymptomatique mais pouvant causer des complications reproductives."
+    },
+    {
+        "en_h":  "Syphilis",
+        "fr_h":  "Syphilis",
+        "d_fr":  "Infection bactérienne sexuellement transmissible évoluant par stades si elle n\u0027est pas traitée, pouvant atteindre de multiples organes."
+    },
+    {
+        "en_h":  "Sudden infant death syndrome",
+        "fr_h":  "Syndrome de mort subite du nourrisson",
+        "d_fr":  "Décès soudain et inexpliqué d\u0027un nourrisson apparemment en bonne santé pendant son sommeil."
+    },
+    {
+        "en_h":  "Latch",
+        "fr_h":  "Prise du sein",
+        "d_fr":  "Manière dont un nourrisson s\u0027attache au sein pendant l\u0027allaitement pour extraire efficacement le lait."
     }
 ]

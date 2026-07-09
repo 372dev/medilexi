@@ -19405,5 +19405,237 @@
                                 "ureter/o"
                             ]
                   }
+    },
+    {
+        "en_h":  "Scleroderma",
+        "f":  [
+                  "Rheumatology",
+                  "Dermatology"
+              ],
+        "d":  "A group of autoimmune diseases causing hardening and tightening of the skin and connective tissues, sometimes affecting internal organs.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "sclero-",
+                                "derm/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Antiperspirant",
+        "f":  [
+                  "Dermatology"
+              ],
+        "d":  "A topical product that reduces underarm sweating by temporarily blocking sweat glands.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Potassium hydroxide preparation",
+        "abbr":  "KOH",
+        "f":  [
+                  "Dermatology"
+              ],
+        "d":  "A microscopic diagnostic test using potassium hydroxide solution to dissolve skin cells and reveal fungal elements in samples from skin, hair, or nails.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Exacerbation",
+        "en_l":  "Flare-up",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A sudden worsening of symptoms in a chronic medical condition.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Mycosis",
+        "en_l":  "Fungal infection",
+        "f":  [
+                  "Dermatology"
+              ],
+        "d":  "Any disease caused by a fungal infection.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "myc/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Oral ulcer",
+        "en_l":  "Mouth sore",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A painful open sore on the mucous membrane inside the mouth.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "or/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Staphylococcus",
+        "en_l":  "Staph",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A genus of gram-positive bacteria commonly found on skin and mucous membranes that can cause various infections.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Streptococcus",
+        "en_l":  "Strep",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A genus of gram-positive bacteria that can cause a wide range of infections including strep throat and pneumonia.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Pneumococcus",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "The bacterium Streptococcus pneumoniae, a leading cause of community-acquired pneumonia, meningitis, and other invasive infections.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "pneum/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Oral candidiasis",
+        "en_l":  "Thrush",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A fungal infection of the mouth caused by overgrowth of Candida species, often presenting as white patches.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "or/o"
+                            ],
+                      "s":  [
+                                "-iasis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pertussis",
+        "en_l":  "Whooping cough",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A highly contagious bacterial respiratory infection characterized by severe coughing fits.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "per-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Diphtheria",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A serious bacterial infection causing a thick gray coating in the throat and potentially leading to heart and nerve damage.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-ia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Tetanus",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A serious bacterial disease causing painful muscle spasms and stiffness, often from wound contamination.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Tdap vaccine",
+        "f":  [
+                  "Infectious Disease",
+                  "Pediatrics"
+              ],
+        "d":  "A combination vaccine protecting against tetanus, diphtheria, and pertussis.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Herpes zoster",
+        "en_l":  "Shingles",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A painful rash caused by reactivation of the varicella-zoster virus, typically in a dermatomal distribution.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Lyme disease",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A tick-borne bacterial infection that can cause rash, fever, and later joint, heart, or nervous system problems.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Gonorrhea",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A common sexually transmitted bacterial infection affecting the genital tract, rectum, or throat.",
+        "lvl":  3,
+        "parts":  {
+                      "s":  [
+                                "-rrhea"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Chlamydia",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A common sexually transmitted bacterial infection, often asymptomatic but potentially causing reproductive complications.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Syphilis",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A sexually transmitted bacterial infection progressing through stages if untreated, potentially affecting multiple organs.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Sudden infant death syndrome",
+        "abbr":  "SIDS",
+        "f":  [
+                  "Pediatrics"
+              ],
+        "d":  "The sudden, unexplained death of an apparently healthy infant during sleep.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Latch",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The way an infant attaches to the breast during breastfeeding to effectively extract milk.",
+        "lvl":  3
     }
 ]

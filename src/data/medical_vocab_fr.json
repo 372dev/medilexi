@@ -6325,5 +6325,101 @@
         "en_h":  "Counselor",
         "fr_h":  "Conseiller",
         "d_fr":  "Professionnel formé qui offre du counseling et de la thérapie par la parole pour aider à gérer des difficultés émotionnelles, mentales ou de vie."
+    },
+    {
+        "en_h":  "Open surgery",
+        "fr_h":  "Chirurgie ouverte",
+        "d_fr":  "Opération traditionnelle réalisée par une grande incision qui expose entièrement le site chirurgical, contrairement aux techniques peu invasives."
+    },
+    {
+        "en_h":  "Open heart surgery",
+        "fr_h":  "Chirurgie à cœur ouvert",
+        "d_fr":  "Chirurgie pratiquée sur le cœur, thorax ouvert, généralement pendant qu\u0027un cœur-poumon artificiel maintient la circulation."
+    },
+    {
+        "en_h":  "Radial artery harvest",
+        "fr_h":  "Prélèvement de l\u0027artère radiale",
+        "d_fr":  "Prélèvement de l\u0027artère radiale à l\u0027avant-bras pour l\u0027utiliser comme greffon lors d\u0027un pontage coronarien."
+    },
+    {
+        "en_h":  "Tricuspid valve",
+        "fr_h":  "Valve tricuspide",
+        "d_fr":  "Valve cardiaque située entre l\u0027oreillette droite et le ventricule droit, qui empêche le reflux du sang."
+    },
+    {
+        "en_h":  "Ventricular tachycardia",
+        "fr_h":  "Tachycardie ventriculaire",
+        "d_fr":  "Rythme cardiaque rapide prenant naissance dans les ventricules, pouvant gêner la circulation et menacer la vie."
+    },
+    {
+        "en_h":  "Hypovolemic shock",
+        "fr_h":  "Choc hypovolémique",
+        "d_fr":  "Chute dangereuse de la pression artérielle et de la perfusion des tissus causée par une perte importante de sang ou de liquide."
+    },
+    {
+        "en_h":  "Angiopathy",
+        "fr_h":  "Angiopathie",
+        "d_fr":  "Toute maladie des vaisseaux sanguins."
+    },
+    {
+        "en_h":  "Infarction",
+        "fr_h":  "Infarctus",
+        "d_fr":  "Mort d\u0027un tissu causée par l\u0027obstruction de l\u0027apport sanguin à la zone touchée."
+    },
+    {
+        "en_h":  "Extracorporeal membrane oxygenation",
+        "fr_h":  "Oxygénation par membrane extracorporelle",
+        "d_fr":  "Technique de maintien des fonctions vitales qui oxygène le sang hors du corps lorsque le cœur ou les poumons ne fonctionnent pas adéquatement."
+    },
+    {
+        "en_h":  "Respiratory depression",
+        "fr_h":  "Dépression respiratoire",
+        "d_fr":  "Respiration lente ou superficielle qui réduit l\u0027apport d\u0027oxygène et l\u0027élimination du dioxyde de carbone, souvent due à des médicaments ou à une maladie."
+    },
+    {
+        "en_h":  "Sleep apnea",
+        "fr_h":  "Apnée du sommeil",
+        "d_fr":  "Trouble dans lequel la respiration s\u0027arrête et reprend de façon répétée pendant le sommeil."
+    },
+    {
+        "en_h":  "Sputum",
+        "fr_h":  "Expectoration",
+        "fr_l":  "Crachat",
+        "d_fr":  "Mucus expulsé des voies respiratoires inférieures par la toux, souvent analysé pour aider au diagnostic."
+    },
+    {
+        "en_h":  "Forced vital capacity",
+        "fr_h":  "Capacité vitale forcée",
+        "d_fr":  "Quantité totale d\u0027air qu\u0027une personne peut expirer avec force après avoir inspiré le plus profondément possible."
+    },
+    {
+        "en_h":  "Functional dyspnea",
+        "fr_h":  "Dyspnée fonctionnelle",
+        "d_fr":  "Essoufflement survenant sans cause physique décelable dans les poumons ou le cœur."
+    },
+    {
+        "en_h":  "Hyperventilation",
+        "fr_h":  "Hyperventilation",
+        "d_fr":  "Respiration anormalement rapide ou profonde qui abaisse le taux de dioxyde de carbone dans le sang."
+    },
+    {
+        "en_h":  "Rhinovirus",
+        "fr_h":  "Rhinovirus",
+        "d_fr":  "Virus courant qui infecte le nez et la gorge et constitue la principale cause du rhume."
+    },
+    {
+        "en_h":  "Doppler ultrasound",
+        "fr_h":  "Échographie Doppler",
+        "d_fr":  "Examen d\u0027imagerie qui utilise des ondes sonores pour mesurer le flux sanguin dans les vaisseaux."
+    },
+    {
+        "en_h":  "Pulmonary edema",
+        "fr_h":  "Œdème pulmonaire",
+        "d_fr":  "Accumulation de liquide dans les poumons qui gêne la respiration, souvent causée par une insuffisance cardiaque."
+    },
+    {
+        "en_h":  "Cor pulmonale",
+        "fr_h":  "Cœur pulmonaire",
+        "d_fr":  "Hypertrophie et défaillance du côté droit du cœur causées par une maladie pulmonaire chronique."
     }
 ]

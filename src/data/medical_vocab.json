@@ -18737,5 +18737,245 @@
               ],
         "d":  "A trained professional who provides guidance and talk therapy to help people manage emotional, mental, or life difficulties.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Open surgery",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "A traditional operation performed through a large incision that fully exposes the surgical site, unlike minimally invasive techniques.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Open heart surgery",
+        "f":  [
+                  "Thoracic Surgery",
+                  "Cardiology"
+              ],
+        "d":  "Surgery performed on the heart with the chest opened, usually while a heart-lung machine maintains circulation.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Radial artery harvest",
+        "f":  [
+                  "Thoracic Surgery",
+                  "Vascular Surgery"
+              ],
+        "d":  "The removal of the radial artery from the forearm for use as a graft in coronary bypass surgery.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Tricuspid valve",
+        "f":  [
+                  "Anatomy",
+                  "Cardiology"
+              ],
+        "d":  "The heart valve between the right atrium and right ventricle that prevents backflow of blood.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "tri-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Ventricular tachycardia",
+        "abbr":  "VT",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A rapid heart rhythm arising in the ventricles that can impair blood flow and become life-threatening.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "tachy-"
+                            ],
+                      "r":  [
+                                "ventricul/o",
+                                "cardi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hypovolemic shock",
+        "f":  [
+                  "Emergency Medicine",
+                  "Critical Care"
+              ],
+        "d":  "A dangerous drop in blood pressure and tissue perfusion caused by severe loss of blood or fluid.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "hypo-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Angiopathy",
+        "f":  [
+                  "Vascular Surgery",
+                  "Cardiology"
+              ],
+        "d":  "Any disease of the blood vessels.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "angi/o"
+                            ],
+                      "s":  [
+                                "-pathy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Infarction",
+        "f":  [
+                  "Pathology",
+                  "General Medicine"
+              ],
+        "d":  "Tissue death caused by an obstruction of the blood supply to the affected area.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Extracorporeal membrane oxygenation",
+        "abbr":  "ECMO",
+        "f":  [
+                  "Critical Care",
+                  "Thoracic Surgery"
+              ],
+        "d":  "A life-support technique that oxygenates the blood outside the body when the heart or lungs cannot function adequately.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "extra-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Respiratory depression",
+        "f":  [
+                  "Anesthesiology",
+                  "Pulmonology"
+              ],
+        "d":  "Slow or shallow breathing that reduces oxygen intake and carbon dioxide removal, often from drugs or illness.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Sleep apnea",
+        "f":  [
+                  "Pulmonology",
+                  "Otolaryngology"
+              ],
+        "d":  "A disorder in which breathing repeatedly stops and starts during sleep.",
+        "lvl":  3,
+        "parts":  {
+                      "s":  [
+                                "-pnea"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Sputum",
+        "en_l":  "Phlegm",
+        "f":  [
+                  "Pulmonology"
+              ],
+        "d":  "Mucus coughed up from the lower airways, often examined to help diagnose respiratory disease.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Forced vital capacity",
+        "abbr":  "FVC",
+        "f":  [
+                  "Pulmonology"
+              ],
+        "d":  "The total amount of air a person can forcibly exhale after taking the deepest possible breath.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Functional dyspnea",
+        "f":  [
+                  "Pulmonology"
+              ],
+        "d":  "Shortness of breath that occurs without an identifiable physical cause in the lungs or heart.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "dys-"
+                            ],
+                      "s":  [
+                                "-pnea"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hyperventilation",
+        "f":  [
+                  "Pulmonology",
+                  "General Medicine"
+              ],
+        "d":  "Abnormally rapid or deep breathing that lowers the level of carbon dioxide in the blood.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Rhinovirus",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A common virus that infects the nose and throat and is the leading cause of the common cold.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "rhin/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Doppler ultrasound",
+        "f":  [
+                  "Radiology",
+                  "Vascular Surgery"
+              ],
+        "d":  "An imaging test that uses sound waves to measure blood flow through vessels.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "ultra-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pulmonary edema",
+        "f":  [
+                  "Pulmonology",
+                  "Cardiology"
+              ],
+        "d":  "A buildup of fluid in the lungs that impairs breathing, often caused by heart failure.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "pulmon/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cor pulmonale",
+        "en_l":  "Pulmonary heart disease",
+        "f":  [
+                  "Cardiology",
+                  "Pulmonology"
+              ],
+        "d":  "Enlargement and failure of the right side of the heart caused by chronic lung disease.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "pulmon/o"
+                            ]
+                  }
     }
 ]

@@ -6421,5 +6421,153 @@
         "en_h":  "Cor pulmonale",
         "fr_h":  "Cœur pulmonaire",
         "d_fr":  "Hypertrophie et défaillance du côté droit du cœur causées par une maladie pulmonaire chronique."
+    },
+    {
+        "en_h":  "Mitral valve prolapse",
+        "fr_h":  "Prolapsus de la valve mitrale",
+        "d_fr":  "Condition dans laquelle les valves de la valvule mitrale ne se ferment pas correctement et bombent dans l\u0027oreillette gauche lors de la contraction."
+    },
+    {
+        "en_h":  "Stenosis",
+        "fr_h":  "Sténose",
+        "d_fr":  "Rétrécissement anormal d\u0027un canal, d\u0027un conduit ou d\u0027un orifice corporel."
+    },
+    {
+        "en_h":  "Regurgitation",
+        "fr_h":  "Régurgitation",
+        "d_fr":  "Reflux de sang à travers une valvule cardiaque endommagée ou de nourriture non digérée provenant de l\u0027estomac."
+    },
+    {
+        "en_h":  "Nevus simplex",
+        "fr_h":  "Nævus simplex",
+        "fr_l":  "Tache de saumon",
+        "d_fr":  "Malformation capillaire bénigne et fréquente se manifestant par une tache rose et plane sur la peau d\u0027un nouveau-né."
+    },
+    {
+        "en_h":  "Nitroglycerin",
+        "fr_h":  "Nitroglycérine",
+        "d_fr":  "Médicament vasodilatateur utilisé pour prévenir ou traiter l\u0027angine de poitrine causée par une baisse du flux sanguin vers le cœur."
+    },
+    {
+        "en_h":  "Coronary artery bypass graft",
+        "fr_h":  "Pontage aortocoronarien",
+        "d_fr":  "Intervention chirurgicale consistant à contourner une artère coronaire rétrécie ou obstruée afin d\u0027améliorer l\u0027irrigation du cœur."
+    },
+    {
+        "en_h":  "Premature atrial contraction",
+        "fr_h":  "Contraction auriculaire prématurée",
+        "fr_l":  "Extrasystole auriculaire",
+        "d_fr":  "Arythmie cardiaque courante caractérisée par des battements de cœur prématurés prenant naissance dans les oreillettes."
+    },
+    {
+        "en_h":  "Hemangioma",
+        "fr_h":  "Hémangiome",
+        "d_fr":  "Tumeur bénigne formée par une accumulation anormale de vaisseaux sanguins sur la peau ou les organes internes."
+    },
+    {
+        "en_h":  "Vasculitis",
+        "fr_h":  "Vascularite",
+        "fr_l":  "Angéite",
+        "d_fr":  "Groupe d\u0027affections caractérisées par l\u0027inflammation et la destruction des vaisseaux sanguins."
+    },
+    {
+        "en_h":  "Hypovolemia",
+        "fr_h":  "Hypovolémie",
+        "d_fr":  "Diminution anormale du volume de sang ou de liquides circulant dans l\u0027organisme, souvent due à une hémorragie ou déshydratation."
+    },
+    {
+        "en_h":  "Pneumoconiosis",
+        "fr_h":  "Pneumoconiose",
+        "d_fr":  "Maladie pulmonaire professionnelle causée par l\u0027inhalation chronique de poussières minérales ou métalliques."
+    },
+    {
+        "en_h":  "Proctologist",
+        "fr_h":  "Proctologue",
+        "d_fr":  "Médecin chirurgien spécialisé dans le diagnostic et le traitement des affections du côlon, du rectum et de l\u0027anus."
+    },
+    {
+        "en_h":  "Stool guaiac test",
+        "fr_h":  "Test au gaïac",
+        "d_fr":  "Méthode de diagnostic utilisée pour détecter la présence de sang occulte, invisible à l\u0027œil nu, dans les selles."
+    },
+    {
+        "en_h":  "Cholangioenterostomy",
+        "fr_h":  "Cholangio-entérostomie",
+        "d_fr":  "Intervention chirurgicale consistant à relier directement un canal biliaire à une partie de l\u0027intestin grêle."
+    },
+    {
+        "en_h":  "Cholelithotripsy",
+        "fr_h":  "Cholélithotripsie",
+        "d_fr":  "Broyage de calculs biliaires à l\u0027intérieur de la vésicule ou des canaux biliaires à l\u0027aide d\u0027ondes de choc."
+    },
+    {
+        "en_h":  "Cholelithotomy",
+        "fr_h":  "Cholélithotomie",
+        "d_fr":  "Incision chirurgicale de la vésicule biliaire ou d\u0027un canal biliaire pour en extraire des calculs."
+    },
+    {
+        "en_h":  "Aerogastria",
+        "fr_h":  "Aérogastrie",
+        "d_fr":  "Présence excessive d\u0027air ou de gaz dans l\u0027estomac, entraînant souvent des ballonnements et une distension."
+    },
+    {
+        "en_h":  "Common bile duct",
+        "fr_h":  "Canal cholédoque",
+        "d_fr":  "Canal formé par la réunion du canal hépatique et du canal cystique, transportant la bile dans le duodénum."
+    },
+    {
+        "en_h":  "Hepatic fibrosis",
+        "fr_h":  "Fibrose hépatique",
+        "d_fr":  "Accumulation excessive de protéines de la matrice extracellulaire, comme le collagène, survenant dans les maladies chroniques du foie."
+    },
+    {
+        "en_h":  "Nephrosis",
+        "fr_h":  "Néphrose",
+        "d_fr":  "Toute maladie dégénérative des tubules rénaux se développant en l\u0027absence d\u0027inflammation importante."
+    },
+    {
+        "en_h":  "Nocturia",
+        "fr_h":  "Nycturie",
+        "d_fr":  "Condition caractérisée par le besoin de se lever plusieurs fois par nuit pour uriner."
+    },
+    {
+        "en_h":  "Hypospadias",
+        "fr_h":  "Hypospadias",
+        "d_fr":  "Malformation congénitale masculine dans laquelle l\u0027orifice de l\u0027urètre est situé sur la face inférieure du pénis plutôt qu\u0027à l\u0027extrémité."
+    },
+    {
+        "en_h":  "Hydrocele",
+        "fr_h":  "Hydrocèle",
+        "d_fr":  "Accumulation de liquide dans une poche entourant le testicule, entraînant un gonflement du scrotum."
+    },
+    {
+        "en_h":  "Cryptorchidism",
+        "fr_h":  "Cryptorchidie",
+        "d_fr":  "Absence de descente d\u0027un ou des deux testicules de l\u0027abdomen vers le scrotum."
+    },
+    {
+        "en_h":  "Transurethral resection of the prostate",
+        "fr_h":  "Résection transurétrale de la prostate",
+        "d_fr":  "Intervention chirurgicale visant à traiter les troubles urinaires dus à une hypertrophie de la prostate en retirant du tissu via l\u0027urètre."
+    },
+    {
+        "en_h":  "Varicocelectomy",
+        "fr_h":  "Varicocélectomie",
+        "d_fr":  "Intervention chirurgicale pratiquée pour ligaturer et retirer les veines dilatées à l\u0027intérieur du scrotum."
+    },
+    {
+        "en_h":  "Nephrolithotomy",
+        "fr_h":  "Néphrolithotomie",
+        "d_fr":  "Intervention chirurgicale consistant à extraire des calculs rénaux par une incision pratiquée directement dans le rein."
+    },
+    {
+        "en_h":  "Nephrolithotripsy",
+        "fr_h":  "Néphrolithotripsie",
+        "d_fr":  "Procédure médicale consistant à fragmenter des calculs rénaux à l\u0027intérieur de l\u0027organisme à l\u0027aide d\u0027ondes de choc ou de lasers."
+    },
+    {
+        "en_h":  "Ureteropelvic junction obstruction",
+        "fr_h":  "Syndrome de la jonction pyélo-urétérale",
+        "d_fr":  "Blocage au point de connexion entre le bassinet du rein et l\u0027uretère, entravant l\u0027écoulement de l\u0027urine depuis le rein."
     }
 ]

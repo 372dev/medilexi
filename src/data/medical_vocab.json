@@ -18977,5 +18977,433 @@
                                 "pulmon/o"
                             ]
                   }
+    },
+    {
+        "en_h":  "Mitral valve prolapse",
+        "abbr":  "MVP",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A condition in which the flaps of the mitral valve do not close smoothly, bulging upward into the left atrium during contraction.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Stenosis",
+        "f":  [
+                  "General Medicine",
+                  "Cardiology"
+              ],
+        "d":  "The abnormal narrowing of a bodily passage, canal, or opening.",
+        "lvl":  3,
+        "parts":  {
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Regurgitation",
+        "f":  [
+                  "Cardiology",
+                  "Gastroenterology"
+              ],
+        "d":  "The backward flowing of blood through a damaged heart valve or of undigested food from the stomach.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Nevus simplex",
+        "en_l":  "Stork bite",
+        "f":  [
+                  "Pediatrics",
+                  "Dermatology"
+              ],
+        "d":  "A common, benign capillary vascular malformation appearing as a flat pink patch on a newborn\u0027s skin.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Nitroglycerin",
+        "f":  [
+                  "Pharmacology",
+                  "Cardiology"
+              ],
+        "d":  "A vasodilator medication used to prevent or treat chest pain caused by reduced blood flow to the heart.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Coronary artery bypass graft",
+        "abbr":  "CABG",
+        "f":  [
+                  "Cardiology",
+                  "Surgery"
+              ],
+        "d":  "A surgical procedure that diverts blood around narrowed or clogged parts of the major arteries to improve blood flow to the heart.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "coron/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Premature atrial contraction",
+        "abbr":  "PAC",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A common cardiac arrhythmia characterized by premature heartbeats originating in the atria.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "atri/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hemangioma",
+        "f":  [
+                  "Dermatology",
+                  "Pediatrics"
+              ],
+        "d":  "A benign tumor made up of newly formed blood vessels, clustering on the skin or internal organs.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "hem/o",
+                                "angi/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Vasculitis",
+        "f":  [
+                  "Rheumatology",
+                  "Cardiology"
+              ],
+        "d":  "A group of conditions characterized by the inflammation of and damage to blood vessels.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "vascul/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hypovolemia",
+        "f":  [
+                  "Emergency Medicine",
+                  "Critical Care"
+              ],
+        "d":  "A state of abnormally low extracellular fluid volume in the body, typically due to blood or fluid loss.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "hypo-"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pneumoconiosis",
+        "f":  [
+                  "Pulmonology"
+              ],
+        "d":  "An occupational lung disease caused by the chronic inhalation of mineral or metallic dust particles.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "pneum/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Proctologist",
+        "f":  [
+                  "Gastroenterology",
+                  "Surgery"
+              ],
+        "d":  "A surgical physician specialized in diagnosing and treating disorders of the colon, rectum, and anus.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "proct/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Stool guaiac test",
+        "en_l":  "Guaiac test",
+        "f":  [
+                  "Gastroenterology",
+                  "General Medicine"
+              ],
+        "d":  "A diagnostic method used to detect fecal occult blood that is not visible to the naked eye.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Cholangioenterostomy",
+        "f":  [
+                  "Gastroenterology",
+                  "Surgery"
+              ],
+        "d":  "A surgical procedure connecting a bile duct directly to a portion of the small intestine.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "chol/e",
+                                "angi/o",
+                                "enter/o"
+                            ],
+                      "s":  [
+                                "-stomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cholelithotripsy",
+        "f":  [
+                  "Gastroenterology",
+                  "Surgery"
+              ],
+        "d":  "The crushing of gallstones within the gallbladder or bile ducts using shock waves.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "chol/e",
+                                "lith/o"
+                            ],
+                      "s":  [
+                                "-tripsy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cholelithotomy",
+        "f":  [
+                  "Gastroenterology",
+                  "Surgery"
+              ],
+        "d":  "A surgical incision made into the gallbladder or bile duct to remove gallstones.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "chol/e",
+                                "lith/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Aerogastria",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "An excess of air or gas inside the stomach, often leading to bloating and distension.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "aer/o",
+                                "gastr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Common bile duct",
+        "f":  [
+                  "Anatomy",
+                  "Gastroenterology"
+              ],
+        "d":  "The duct formed by the junction of the hepatic and cystic ducts that carries bile into the duodenum.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Hepatic fibrosis",
+        "f":  [
+                  "Gastroenterology",
+                  "Pathology"
+              ],
+        "d":  "The excessive accumulation of extracellular matrix proteins, including collagen, that occurs in most types of chronic liver disease.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "hepat/o",
+                                "fibr/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Nephrosis",
+        "f":  [
+                  "Nephrology"
+              ],
+        "d":  "Any degenerative disease of the kidney tubules without significant inflammation.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "nephr/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Nocturia",
+        "f":  [
+                  "Urology",
+                  "Family Medicine"
+              ],
+        "d":  "A condition in which a person wakes up multiple times during the night to urinate.",
+        "lvl":  3,
+        "parts":  {
+                      "s":  [
+                                "-uria"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hypospadias",
+        "f":  [
+                  "Urology",
+                  "Pediatrics"
+              ],
+        "d":  "A congenital birth defect in males where the opening of the urethra is on the underside of the penis rather than at the tip.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "hypo-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hydrocele",
+        "f":  [
+                  "Urology",
+                  "Pediatrics"
+              ],
+        "d":  "A fluid-filled sac surrounding a testicle, resulting in swelling of the scrotum.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "hydr/o"
+                            ],
+                      "s":  [
+                                "-cele"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cryptorchidism",
+        "f":  [
+                  "Urology",
+                  "Pediatrics"
+              ],
+        "d":  "A condition in which one or both of the testes fail to descend from the abdomen into the scrotum.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "crypt/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Transurethral resection of the prostate",
+        "abbr":  "TURP",
+        "f":  [
+                  "Urology",
+                  "Surgery"
+              ],
+        "d":  "A surgical procedure used to treat urinary problems due to an enlarged prostate by removing tissue through the urethra.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "trans-"
+                            ],
+                      "r":  [
+                                "urethr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Varicocelectomy",
+        "f":  [
+                  "Urology",
+                  "Surgery"
+              ],
+        "d":  "A surgical procedure performed to ligate and remove enlarged veins within the scrotum.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "varic/o"
+                            ],
+                      "s":  [
+                                "-cele",
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Nephrolithotomy",
+        "f":  [
+                  "Urology",
+                  "Surgery"
+              ],
+        "d":  "A surgical procedure for removing kidney stones through an incision made directly into the kidney.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "nephr/o",
+                                "lith/o"
+                            ],
+                      "s":  [
+                                "-tomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Nephrolithotripsy",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "A medical procedure that breaks up kidney stones inside the body using shock waves or lasers.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "nephr/o",
+                                "lith/o"
+                            ],
+                      "s":  [
+                                "-tripsy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Ureteropelvic junction obstruction",
+        "f":  [
+                  "Urology",
+                  "Nephrology"
+              ],
+        "d":  "A blockage at the point where the renal pelvis connects to the ureter, impeding urine flow from the kidney.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "ureter/o"
+                            ]
+                  }
     }
 ]

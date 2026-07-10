@@ -53,7 +53,7 @@
         "d_fr":  "Ensemble des antécédents médicaux du patient : maladies passées, interventions chirurgicales, traitements, allergies et antécédents familiaux."
     },
     {
-        "en_h":  "Differential Diagnosis",
+        "en_h":  "Differential diagnosis",
         "fr_h":  "Diagnostic différentiel",
         "d_fr":  "Processus clinique distinguant des affections similaires pour déterminer le diagnostic le plus probable sur la base des signes, symptômes et résultats d\u0027examens."
     },
@@ -94,7 +94,7 @@
         "d_fr":  "Condition d\u0027apparition soudaine et de courte durée, souvent d\u0027intensité sévère ; par opposition à chronique."
     },
     {
-        "en_h":  "Myocardial Infarction",
+        "en_h":  "Myocardial infarction",
         "fr_h":  "Infarctus du myocarde",
         "fr_l":  "Crise cardiaque",
         "d_fr":  "Nécrose du tissu myocardique due à une occlusion artérielle coronarienne aiguë ; se manifeste par une douleur thoracique, des modifications à l\u0027ECG et une élévation des biomarqueurs cardiaques."
@@ -105,7 +105,7 @@
         "d_fr":  "Spectre de conditions issues d\u0027une réduction aiguë du débit coronarien, incluant l\u0027angor instable, le NSTEMI et le STEMI ; nécessite une évaluation urgente."
     },
     {
-        "en_h":  "Angina Pectoris",
+        "en_h":  "Angina pectoris",
         "fr_h":  "Angor",
         "fr_l":  "Angine de poitrine",
         "d_fr":  "Douleur ou gêne thoracique paroxystique due à une ischémie myocardique transitoire, typiquement déclenchée par l\u0027effort ou le stress."
@@ -122,7 +122,7 @@
         "d_fr":  "Toute anomalie de la fréquence ou du rythme cardiaque — trop rapide, trop lent ou irrégulier — allant de bénigne à potentiellement mortelle."
     },
     {
-        "en_h":  "Atrial Fibrillation",
+        "en_h":  "Atrial fibrillation",
         "fr_h":  "Fibrillation auriculaire",
         "d_fr":  "Arythmie supraventriculaire avec activité électrique atriale chaotique entraînant un rythme cardiaque irrégulier et un risque accru d\u0027AVC et d\u0027embolie."
     },
@@ -143,7 +143,7 @@
         "d_fr":  "Accumulation de plaques lipidiques dans les parois artérielles provoquant un rétrécissement progressif ; principale cause de la maladie coronarienne et de l\u0027AVC."
     },
     {
-        "en_h":  "Cerebrovascular Accident",
+        "en_h":  "Cerebrovascular accident",
         "fr_h":  "Accident vasculaire cérébral",
         "fr_l":  "AVC",
         "d_fr":  "Perte soudaine de la fonction neurologique due à une interruption de l\u0027irrigation cérébrale ; classifié en ischémique ou hémorragique."
@@ -166,7 +166,7 @@
         "d_fr":  "Apport sanguin insuffisant à un tissu ou organe, entraînant une privation en oxygène et un risque de mort cellulaire."
     },
     {
-        "en_h":  "Transient Ischemic Attack",
+        "en_h":  "Transient ischemic attack",
         "fr_h":  "Accident ischémique transitoire",
         "fr_l":  "AIT",
         "d_fr":  "Dysfonction neurologique brève due à une ischémie cérébrale transitoire, se résolvant rapidement sans infarctus permanent ; signe précurseur important d\u0027un AVC imminent."
@@ -382,7 +382,7 @@
         "d_fr":  "Utilisation concomitante de plusieurs médicaments chez un même patient, augmentant le risque d\u0027interactions et d\u0027effets indésirables."
     },
     {
-        "en_h":  "Vaccination / Immunization",
+        "en_h":  "Vaccination / immunization",
         "fr_h":  "Vaccination",
         "fr_l":  "Immunisation",
         "d_fr":  "Administration d\u0027un vaccin pour stimuler l\u0027immunité et protéger contre des maladies infectieuses spécifiques."
@@ -429,7 +429,7 @@
         "d_fr":  "Dépistage de sujets asymptomatiques pour détecter une maladie ou des facteurs de risque avant l\u0027apparition des symptômes."
     },
     {
-        "en_h":  "Compliance / Adherence",
+        "en_h":  "Compliance / adherence",
         "fr_h":  "Observance thérapeutique",
         "d_fr":  "Degré auquel un patient suit correctement le plan de traitement prescrit, incluant les médicaments et les modifications du mode de vie."
     },
@@ -451,7 +451,7 @@
         "d_fr":  "Troubles caractérisés par une peur ou une inquiétude excessive et persistante altérant la vie quotidienne ; comprend le trouble anxieux généralisé, le trouble panique et les phobies."
     },
     {
-        "en_h":  "Gastroesophageal Reflux Disease",
+        "en_h":  "Gastroesophageal reflux disease",
         "fr_h":  "Maladie de reflux gastro-œsophagien",
         "fr_l":  "Reflux gastrique",
         "d_fr":  "Affection chronique dans laquelle l\u0027acide gastrique reflue dans l\u0027œsophage, provoquant des brûlures d\u0027estomac ; peut évoluer vers une œsophagite ou un œsophage de Barrett."
@@ -490,7 +490,7 @@
         "d_fr":  "Dispositif électronique implantable qui délivre des impulsions électriques pour réguler les rythmes cardiaques anormalement lents ou irréguliers."
     },
     {
-        "en_h":  "Congestive Heart Failure",
+        "en_h":  "Congestive heart failure",
         "fr_h":  "Insuffisance cardiaque congestive",
         "d_fr":  "Insuffisance cardiaque avec congestion liquidienne dans les poumons et en périphérie ; se manifeste par dyspnée, œdème périphérique et intolérance à l\u0027effort."
     },
@@ -513,7 +513,7 @@
         "d_fr":  "Imagerie radiologique produisant des images en coupe ; modalité de première intention pour les traumatismes aigus, l\u0027AVC et l\u0027évaluation thoracique et abdominale."
     },
     {
-        "en_h":  "Lumbar Puncture",
+        "en_h":  "Lumbar puncture",
         "fr_h":  "Ponction lombaire",
         "d_fr":  "Insertion d\u0027une aiguille dans l\u0027espace sous-arachnoïdien lombaire pour prélever du LCR à des fins diagnostiques ou administrer un traitement intrathécal."
     },
@@ -764,7 +764,7 @@
         "d_fr":  "Perte de conscience transitoire et brève, avec hypotonie musculaire, due à une chute temporaire du débit sanguin cérébral."
     },
     {
-        "en_h":  "Pleuritic Chest Pain",
+        "en_h":  "Pleuritic chest pain",
         "fr_h":  "Douleur thoracique pleurale",
         "d_fr":  "Douleur thoracique aiguë et lancinante s\u0027aggravant à l\u0027inspiration profonde, à la toux ou aux mouvements du thorax ; indique une inflammation pleurale."
     },
@@ -835,7 +835,7 @@
         "d_fr":  "Segment terminal de l\u0027intestin grêle, responsable de l\u0027absorption de la vitamine B12 et des sels biliaires avant de rejoindre le gros intestin."
     },
     {
-        "en_h":  "Pituitary Gland",
+        "en_h":  "Pituitary gland",
         "fr_h":  "Hypophyse",
         "d_fr":  "Glande endocrine maîtresse à la base du cerveau qui régule la croissance, la reproduction et la sécrétion hormonale des autres glandes endocrines."
     },
@@ -850,7 +850,7 @@
         "d_fr":  "Petit organe piriforme sous le foie qui stocke et concentre la bile avant de la libérer dans le duodénum lors de la digestion."
     },
     {
-        "en_h":  "Benign Prostatic Hyperplasia",
+        "en_h":  "Benign prostatic hyperplasia",
         "fr_h":  "Hyperplasie bénigne de la prostate",
         "fr_l":  "Adénome de la prostate",
         "d_fr":  "Hypertrophie prostatique non cancéreuse fréquente chez l\u0027homme vieillissant, causant des symptômes urinaires bas tels que jet faible, urgences et pollakiurie."
@@ -867,13 +867,13 @@
         "d_fr":  "Présence ou formation de calculs dans la vésicule biliaire, pouvant causer une colique biliaire ou évoluer vers une cholécystite."
     },
     {
-        "en_h":  "Chronic Obstructive Pulmonary Disease",
+        "en_h":  "Chronic obstructive pulmonary disease",
         "fr_h":  "Bronchopneumopathie chronique obstructive",
         "fr_l":  "BPCO",
         "d_fr":  "Maladie pulmonaire progressive et peu réversible caractérisée par une limitation chronique du débit aérien, généralement due au tabagisme."
     },
     {
-        "en_h":  "Rheumatoid Arthritis",
+        "en_h":  "Rheumatoid arthritis",
         "fr_h":  "Polyarthrite rhumatoïde",
         "d_fr":  "Maladie auto-immune systémique chronique caractérisée par une arthrite inflammatoire symétrique, ciblant principalement les articulations synoviales."
     },
@@ -909,7 +909,7 @@
         "d_fr":  "Technique d\u0027examen physique utilisant une pression manuelle pour évaluer la taille, la consistance, la sensibilité et la position des structures corporelles."
     },
     {
-        "en_h":  "Prostate-Specific Antigen",
+        "en_h":  "Prostate-specific antigen",
         "fr_h":  "Antigène prostatique spécifique",
         "fr_l":  "PSA",
         "d_fr":  "Glycoprotéine produite par la prostate ; les concentrations sanguines servent de marqueur clinique pour le dépistage de l\u0027HBP ou d\u0027une malignité."
@@ -941,13 +941,13 @@
         "d_fr":  "Formation de calculs cristallins dans le bassinet rénal ou les calices, causant de vives douleurs en flanc, hématurie et obstruction urinaire."
     },
     {
-        "en_h":  "Chronic Kidney Disease",
+        "en_h":  "Chronic kidney disease",
         "fr_h":  "Maladie rénale chronique",
         "fr_l":  "Insuffisance rénale chronique",
         "d_fr":  "Perte progressive, graduelle et irréversible de la fonction rénale persistant sur le long terme."
     },
     {
-        "en_h":  "End-Stage Renal Disease",
+        "en_h":  "End-stage renal disease",
         "fr_h":  "Insuffisance rénale terminale",
         "d_fr":  "Défaillance rénale totale et permanente nécessitant une thérapie de suppléance à long terme (dialyse ou transplantation rénale)."
     },
@@ -957,7 +957,7 @@
         "d_fr":  "Procédure extracorporelle utilisant un dialyseur pour filtrer les toxines, les déchets et l\u0027excès de liquide du sang en cas d\u0027insuffisance rénale."
     },
     {
-        "en_h":  "Peritoneal Dialysis",
+        "en_h":  "Peritoneal dialysis",
         "fr_h":  "Dialyse péritonéale",
         "d_fr":  "Méthode de dialyse utilisant le péritoine du patient comme membrane semi-perméable pour éliminer les déchets et l\u0027excès de liquide du sang."
     },
@@ -967,13 +967,13 @@
         "d_fr":  "Distension et dilatation du bassinet rénal due à une obstruction du flux urinaire, pouvant entraîner des lésions rénales si non traitée."
     },
     {
-        "en_h":  "Benign Paroxysmal Positional Vertigo",
+        "en_h":  "Benign paroxysmal positional vertigo",
         "fr_h":  "Vertige paroxystique positionnel bénin",
         "fr_l":  "VPPB",
         "d_fr":  "Trouble de l\u0027oreille interne caractérisé par de brefs épisodes récurrents de vertige rotatoire déclenchés par des changements spécifiques de position de la tête."
     },
     {
-        "en_h":  "Otitis Media",
+        "en_h":  "Otitis media",
         "fr_h":  "Otite moyenne",
         "d_fr":  "Inflammation bactérienne ou virale de l\u0027oreille moyenne se manifestant par otalgie, fièvre et épanchement rétrotympanal."
     },
@@ -1014,7 +1014,7 @@
         "d_fr":  "Oscillation involontaire, rapide et rythmique des globes oculaires, qui peut être horizontale, verticale ou rotatoire."
     },
     {
-        "en_h":  "Macular Degeneration",
+        "en_h":  "Macular degeneration",
         "fr_h":  "Dégénérescence maculaire",
         "fr_l":  "DMLA",
         "d_fr":  "Dégénérescence de la macula provoquant une perte de la vision centrale, la vision périphérique restant intacte ; première cause de cécité chez les adultes âgés."
@@ -1036,7 +1036,7 @@
         "d_fr":  "Infection bactérienne aiguë et diffuse du derme profond et du tissu sous-cutané, se manifestant par rougeur, chaleur, gonflement et douleur."
     },
     {
-        "en_h":  "Atopic Dermatitis",
+        "en_h":  "Atopic dermatitis",
         "fr_h":  "Dermatite atopique",
         "fr_l":  "Eczéma atopique",
         "d_fr":  "Maladie cutanée inflammatoire chronique et prurigineuse débutant typiquement dans la petite enfance et évoluant de façon récurrente."
@@ -1073,17 +1073,17 @@
         "d_fr":  "Excès de production d\u0027hormones thyroïdiennes causant un état hypermétabolique avec perte de poids, palpitations, intolérance à la chaleur et tremblements."
     },
     {
-        "en_h":  "Cushing\u0027s Syndrome",
+        "en_h":  "Cushing\u0027s syndrome",
         "fr_h":  "Syndrome de Cushing",
         "d_fr":  "Trouble métabolique causé par une exposition systémique prolongée à des taux anormalement élevés de glucocorticoïdes (cortisol)."
     },
     {
-        "en_h":  "Diabetes Insipidus",
+        "en_h":  "Diabetes insipidus",
         "fr_h":  "Diabète insipide",
         "d_fr":  "Trouble rare du métabolisme hydrique dû à un déficit en ADH ou à une résistance rénale, causant une polyurie importante, une soif intense et une déshydratation."
     },
     {
-        "en_h":  "Diabetic Retinopathy",
+        "en_h":  "Diabetic retinopathy",
         "fr_h":  "Rétinopathie diabétique",
         "d_fr":  "Complication microvasculaire progressive du diabète sucré de longue date affectant les vaisseaux sanguins de la rétine."
     },
@@ -1098,23 +1098,23 @@
         "d_fr":  "Augmentation du nombre de globules blancs circulants au-dessus de la normale, généralement en réponse à une infection ou à une inflammation sévère."
     },
     {
-        "en_h":  "Polycythemia Vera",
+        "en_h":  "Polycythemia vera",
         "fr_h":  "Polyglobulie de Vaquez",
         "d_fr":  "Trouble myéloprolifératif avec surproduction incontrôlée de globules rouges, augmentant la viscosité sanguine et le risque de thrombose et d\u0027AVC."
     },
     {
-        "en_h":  "Deep Vein Thrombosis",
+        "en_h":  "Deep vein thrombosis",
         "fr_h":  "Thrombose veineuse profonde",
         "fr_l":  "Phlébite",
         "d_fr":  "Thrombus dans les veines profondes, généralement des membres inférieurs ; peut emboliser vers la circulation pulmonaire, causant une embolie pulmonaire."
     },
     {
-        "en_h":  "Pulmonary Embolism",
+        "en_h":  "Pulmonary embolism",
         "fr_h":  "Embolie pulmonaire",
         "d_fr":  "Obstruction soudaine d\u0027une artère pulmonaire par un caillot sanguin, habituellement issu d\u0027une thrombose veineuse profonde, provoquant une détresse respiratoire aiguë."
     },
     {
-        "en_h":  "Aortic Dissection",
+        "en_h":  "Aortic dissection",
         "fr_h":  "Dissection aortique",
         "d_fr":  "Déchirure de la paroi aortique permettant au sang de s\u0027infiltrer entre les couches, créant une fausse lumière ; urgence cardiovasculaire potentiellement mortelle."
     },
@@ -1170,7 +1170,7 @@
         "d_fr":  "Arythmie cardiaque caractérisée par une fréquence cardiaque rapide, généralement supérieure à 100 battements par minute au repos chez l\u0027adulte."
     },
     {
-        "en_h":  "Orthostatic Hypotension",
+        "en_h":  "Orthostatic hypotension",
         "fr_h":  "Hypotension orthostatique",
         "d_fr":  "Chute soudaine et significative de la pression artérielle survenant lors du passage en position debout, provoquant vertiges ou évanouissement."
     },
@@ -1185,7 +1185,7 @@
         "d_fr":  "Infection de l\u0027endocarde, touchant le plus souvent les valves cardiaques, généralement causée par des bactéries pénétrant dans la circulation sanguine."
     },
     {
-        "en_h":  "Intermittent Claudication",
+        "en_h":  "Intermittent claudication",
         "fr_h":  "Claudication intermittente",
         "d_fr":  "Douleur et faiblesse crampoïdes dans les jambes induites par l\u0027effort et soulagées par le repos, causées par une artériopathie oblitérante des membres inférieurs."
     },
@@ -1206,7 +1206,7 @@
         "d_fr":  "Maladie respiratoire chronique et progressive caractérisée par une dilatation permanente et une destruction des parois bronchiques."
     },
     {
-        "en_h":  "Pleural Effusion",
+        "en_h":  "Pleural effusion",
         "fr_h":  "Épanchement pleural",
         "d_fr":  "Accumulation anormale de liquide dans la cavité pleurale entourant les poumons."
     },
@@ -1236,7 +1236,7 @@
         "d_fr":  "Son respiratoire aigu et vibrant causé par un flux d\u0027air turbulent dans une voie aérienne supérieure partiellement obstruée."
     },
     {
-        "en_h":  "Pulmonary Fibrosis",
+        "en_h":  "Pulmonary fibrosis",
         "fr_h":  "Fibrose pulmonaire",
         "d_fr":  "Cicatrisation progressive chronique du tissu pulmonaire interstitiel altérant les échanges gazeux ; la forme idiopathique (FPI) est la plus fréquente."
     },
@@ -1277,7 +1277,7 @@
         "d_fr":  "Torsion d\u0027une anse intestinale sur elle-même et sur son mésentère, provoquant une occlusion intestinale mécanique."
     },
     {
-        "en_h":  "Gastrointestinal Bleeding",
+        "en_h":  "Gastrointestinal bleeding",
         "fr_h":  "Hémorragie digestive",
         "d_fr":  "Tout saignement provenant du tractus digestif, classé en hémorragie digestive haute ou basse selon sa localisation."
     },
@@ -1342,7 +1342,7 @@
         "d_fr":  "Inflammation à médiation immunologique des glomérules, les unités de filtration microscopiques du rein."
     },
     {
-        "en_h":  "Nephrotic Syndrome",
+        "en_h":  "Nephrotic syndrome",
         "fr_h":  "Syndrome néphrotique",
         "d_fr":  "Ensemble de signes cliniques causés par une atteinte rénale, incluant protéinurie massive, hypoalbuminémie, hyperlipidémie et œdème sévère."
     },
@@ -1357,7 +1357,7 @@
         "d_fr":  "Inflammation de la paroi vésicale, le plus souvent causée par une infection bactérienne ascendante."
     },
     {
-        "en_h":  "Urinary Incontinence",
+        "en_h":  "Urinary incontinence",
         "fr_h":  "Incontinence urinaire",
         "d_fr":  "Perte involontaire d\u0027urine ; classifiée en incontinence d\u0027effort, d\u0027urgence (vessie hyperactive), par regorgement ou mixte."
     },
@@ -1378,7 +1378,7 @@
         "d_fr":  "Glycémie anormalement basse provoquant des symptômes autonomes tels que transpiration et tremblements, et des effets neuroglycopéniques tels que la confusion."
     },
     {
-        "en_h":  "Diabetic Ketoacidosis",
+        "en_h":  "Diabetic ketoacidosis",
         "fr_h":  "Acidocétose diabétique",
         "d_fr":  "Complication diabétique mettant en jeu le pronostic vital, associant hyperglycémie sévère, acidose métabolique et élévation des corps cétoniques ; plus fréquente dans le diabète de type 1."
     },
@@ -1413,7 +1413,7 @@
         "d_fr":  "Tumeur neuroendocrine rare de la médullosurrénale ou du tissu chromaffine extra-surrénalien sécrétant des catécholamines."
     },
     {
-        "en_h":  "Metabolic Syndrome",
+        "en_h":  "Metabolic syndrome",
         "fr_h":  "Syndrome métabolique",
         "d_fr":  "Ensemble de facteurs de risque métaboliques — obésité abdominale, dyslipidémie, hypertension et hyperglycémie — élevant le risque cardiovasculaire."
     },
@@ -1439,7 +1439,7 @@
         "d_fr":  "Hypertrophie pathologique de la rate, résultant fréquemment d\u0027une hypertension portale, d\u0027hémopathies malignes ou d\u0027infections chroniques."
     },
     {
-        "en_h":  "Disseminated Intravascular Coagulation",
+        "en_h":  "Disseminated intravascular coagulation",
         "fr_h":  "Coagulation intravasculaire disséminée",
         "fr_l":  "CIVD",
         "d_fr":  "Coagulopathie systémique qui consomme les facteurs de coagulation, causant simultanément thromboses diffuses et hémorragies."
@@ -1460,12 +1460,12 @@
         "d_fr":  "Type de traitement anticancéreux qui stimule ou restaure les mécanismes naturels du système immunitaire pour détecter et combattre les cellules malignes."
     },
     {
-        "en_h":  "Adjuvant Therapy",
+        "en_h":  "Adjuvant therapy",
         "fr_h":  "Traitement adjuvant",
         "d_fr":  "Traitement anticancéreux complémentaire administré après le traitement principal (tel que la chirurgie) pour réduire le risque de récidive."
     },
     {
-        "en_h":  "Neoadjuvant Therapy",
+        "en_h":  "Neoadjuvant therapy",
         "fr_h":  "Traitement néoadjuvant",
         "d_fr":  "Traitement (chimiothérapie, radiothérapie ou thérapie ciblée) administré avant la chirurgie pour réduire le volume tumoral et améliorer la résécabilité."
     },
@@ -1481,19 +1481,19 @@
         "d_fr":  "Menstruations douloureuses ou crampes utérines sévères pendant les règles, entraînant une altération fonctionnelle."
     },
     {
-        "en_h":  "Uterine Leiomyoma",
+        "en_h":  "Uterine leiomyoma",
         "fr_h":  "Léiomyome utérin",
         "fr_l":  "Fibrome utérin",
         "d_fr":  "Tumeur bénigne non cancéreuse du tissu musculaire lisse utérin, extrêmement fréquente chez les femmes en âge de procréer."
     },
     {
-        "en_h":  "Abruptio Placentae",
+        "en_h":  "Abruptio placentae",
         "fr_h":  "Hématome rétroplacentaire",
         "fr_l":  "Décollement placentaire",
         "d_fr":  "Décollement prématuré d\u0027un placenta normalement inséré de la paroi utérine avant la naissance du fœtus ; urgence obstétricale pouvant entraîner hémorragie maternelle et souffrance fœtale."
     },
     {
-        "en_h":  "Postpartum Hemorrhage",
+        "en_h":  "Postpartum hemorrhage",
         "fr_h":  "Hémorragie du post-partum",
         "d_fr":  "Perte sanguine excessive survenant après un accouchement par voie basse ou par césarienne, constituant une urgence obstétricale."
     },
@@ -1550,7 +1550,7 @@
         "d_fr":  "Trouble du mouvement caractérisé par une sensation subjective d\u0027agitation interne et un besoin impérieux de bouger."
     },
     {
-        "en_h":  "Tardive Dyskinesia",
+        "en_h":  "Tardive dyskinesia",
         "fr_h":  "Dyskinésie tardive",
         "d_fr":  "Trouble neurologique avec mouvements faciaux involontaires et répétitifs causés par l\u0027utilisation prolongée de médicaments neuroleptiques."
     },
@@ -1577,7 +1577,7 @@
         "d_fr":  "Maladie articulaire dégénérative due à l\u0027usure du cartilage ; forme d\u0027arthrite la plus répandue, causant douleur, raideur et réduction de la mobilité articulaire."
     },
     {
-        "en_h":  "Ankylosing Spondylitis",
+        "en_h":  "Ankylosing spondylitis",
         "fr_h":  "Spondylarthrite ankylosante",
         "d_fr":  "Arthrite inflammatoire chronique et progressive affectant les articulations sacro-iliaques et le squelette axial."
     },
@@ -1598,7 +1598,7 @@
         "d_fr":  "Courbure latérale anormale de la colonne vertébrale ; se manifeste typiquement à l\u0027adolescence, d\u0027origine idiopathique, congénitale ou neuromusculaire."
     },
     {
-        "en_h":  "Avascular Necrosis",
+        "en_h":  "Avascular necrosis",
         "fr_h":  "Nécrose avasculaire",
         "d_fr":  "Mort cellulaire du tissu osseux due à une interruption temporaire ou permanente de la vascularisation."
     },
@@ -1630,29 +1630,29 @@
         "d_fr":  "Zone étendue de saignement sous-cutané résultant d\u0027une extravasation vasculaire, communément appelée bleu."
     },
     {
-        "en_h":  "Necrotizing Fasciitis",
+        "en_h":  "Necrotizing fasciitis",
         "fr_h":  "Fasciite nécrosante",
         "d_fr":  "Infection destructive rapidement progressive et potentiellement mortelle du tissu sous-cutané et du fascia."
     },
     {
-        "en_h":  "Ovarian Torsion",
+        "en_h":  "Ovarian torsion",
         "fr_h":  "Torsion ovarienne",
         "d_fr":  "Urgence gynécologique impliquant la rotation de l\u0027ovaire, compromettant l\u0027afflux artériel."
     },
     {
-        "en_h":  "Vasovagal Syncope",
+        "en_h":  "Vasovagal syncope",
         "fr_h":  "Syncope vasovagale",
         "fr_l":  "Malaise vagal",
         "d_fr":  "Perte de conscience transitoire médiée par un réflexe inapproprié causant bradycardie et vasodilatation."
     },
     {
-        "en_h":  "Peripheral Artery Disease",
+        "en_h":  "Peripheral artery disease",
         "fr_h":  "Artériopathie oblitérante des membres inférieurs",
         "fr_l":  "Maladie artérielle périphérique",
         "d_fr":  "Rétrécissement athérosclérotique des artères des membres réduisant le débit sanguin ; se manifeste classiquement par une claudication intermittente à l\u0027effort."
     },
     {
-        "en_h":  "Raynaud\u0027s Phenomenon",
+        "en_h":  "Raynaud\u0027s phenomenon",
         "fr_h":  "Phénomène de Raynaud",
         "d_fr":  "Vasospasme digital épisodique déclenché par le froid ou le stress, entraînant une séquence de pâleur, cyanose et érythème des doigts ou orteils."
     },
@@ -1662,7 +1662,7 @@
         "d_fr":  "Gonflement chronique des tissus causé par une accumulation de liquide lymphatique due à une obstruction."
     },
     {
-        "en_h":  "Cardiac Tamponade",
+        "en_h":  "Cardiac tamponade",
         "fr_h":  "Tamponnade cardiaque",
         "d_fr":  "Compression du cœur menaçant le pronostic vital due à l\u0027accumulation rapide de liquide dans le sac péricardique."
     },
@@ -1677,12 +1677,12 @@
         "d_fr":  "Infection bactérienne des voies biliaires due à une obstruction ; se manifeste classiquement par la triade de Charcot : fièvre, ictère et douleur en hypochondre droit."
     },
     {
-        "en_h":  "Esophageal Varices",
+        "en_h":  "Esophageal varices",
         "fr_h":  "Varices œsophagiennes",
         "d_fr":  "Veines sous-muqueuses dilatées dans l\u0027œsophage dues à une hypertension portale ; leur rupture cause une hémorragie digestive haute potentiellement fatale."
     },
     {
-        "en_h":  "Intestinal Metaplasia",
+        "en_h":  "Intestinal metaplasia",
         "fr_h":  "Métaplasie intestinale",
         "d_fr":  "Transformation de la muqueuse gastrique en un phénotype cellulaire ressemblant à la muqueuse intestinale."
     },
@@ -1697,7 +1697,7 @@
         "d_fr":  "Dyspnée survenant en décubitus dorsal, obligeant l\u0027individu à rester en position verticale pour respirer."
     },
     {
-        "en_h":  "Acute Respiratory Distress Syndrome",
+        "en_h":  "Acute respiratory distress syndrome",
         "fr_h":  "Syndrome de détresse respiratoire aiguë",
         "fr_l":  "SDRA",
         "d_fr":  "Lésion pulmonaire inflammatoire sévère provoquant des dommages alvéolaires diffus et une hypoxémie ; déclenchée le plus souvent par un sepsis, une pneumonie ou un traumatisme."
@@ -1723,7 +1723,7 @@
         "d_fr":  "Perte de poids progressive, fonte musculaire et fatigue associées à un cancer avancé, une insuffisance cardiaque ou une infection chronique."
     },
     {
-        "en_h":  "Septic Shock",
+        "en_h":  "Septic shock",
         "fr_h":  "Choc septique",
         "d_fr":  "Forme de sepsis avec défaillance circulatoire, définie par la nécessité de vasopresseurs et une élévation du lactate malgré un remplissage vasculaire adéquat."
     },
@@ -1788,7 +1788,7 @@
         "d_fr":  "La plus grande artère du corps, issue du ventricule gauche et distribuant le sang oxygéné à travers la circulation systémique."
     },
     {
-        "en_h":  "Vena Cava",
+        "en_h":  "Vena cava",
         "fr_h":  "Veine cave",
         "d_fr":  "L\u0027une des deux grandes veines ramenant le sang désoxygéné à l\u0027oreillette droite : VCS depuis la partie supérieure du corps, VCI depuis la partie inférieure."
     },
@@ -1868,7 +1868,7 @@
         "d_fr":  "Structure du lobe temporal médial essentielle à la formation de nouvelles mémoires déclaratives ; l\u0027une des premières régions atteintes dans la maladie d\u0027Alzheimer."
     },
     {
-        "en_h":  "Spinal Cord",
+        "en_h":  "Spinal cord",
         "fr_h":  "Moelle épinière",
         "d_fr":  "Colonne de tissu nerveux dans le canal vertébral transmettant les signaux moteurs du cerveau vers le corps et les signaux sensitifs du corps vers le cerveau."
     },
@@ -1898,7 +1898,7 @@
         "d_fr":  "Os sésamoïde triangulaire dans le tendon quadricipital s\u0027articulant avec le fémur ; protège le genou et améliore le bras de levier du quadriceps."
     },
     {
-        "en_h":  "Intervertebral Disc",
+        "en_h":  "Intervertebral disc",
         "fr_h":  "Disque intervertébral",
         "d_fr":  "Disque entre les corps vertébraux avec un anneau fibreux et un noyau pulpeux ; absorbe les charges spinales et permet un mouvement flexible."
     },
@@ -1938,13 +1938,13 @@
         "d_fr":  "Structure en spirale de l\u0027oreille interne dont les cellules ciliées convertissent les vibrations sonores en signaux nerveux transmis par le nerf auditif."
     },
     {
-        "en_h":  "Lymph Node",
+        "en_h":  "Lymph node",
         "fr_h":  "Ganglion lymphatique",
         "fr_l":  "Ganglion",
         "d_fr":  "Petits organes immunitaires le long des vaisseaux lymphatiques filtrant la lymphe ; concentrent les cellules immunitaires pour détecter et combattre les infections et malignités."
     },
     {
-        "en_h":  "Thyroid Gland",
+        "en_h":  "Thyroid gland",
         "fr_h":  "Glande thyroïde",
         "fr_l":  "Thyroïde",
         "d_fr":  "Glande endocrine en forme de papillon dans le cou produisant les hormones T3 et T4 qui régulent le métabolisme, l\u0027énergie, la croissance et la température corporelle."
@@ -1955,7 +1955,7 @@
         "d_fr":  "Organe musculaire creux en forme de poire dans le pelvis féminin où le fœtus se développe ; sa muqueuse se desquame périodiquement lors des menstruations."
     },
     {
-        "en_h":  "Prostate Gland",
+        "en_h":  "Prostate gland",
         "fr_h":  "Prostate",
         "d_fr":  "Glande masculine entourant l\u0027urètre sous la vessie et produisant du liquide séminal ; sujette à l\u0027hypertrophie bénigne (HBP) et au cancer chez les hommes plus âgés."
     },
@@ -1981,12 +1981,12 @@
         "d_fr":  "Branche de la médecine étudiant le système immunitaire, notamment les maladies allergiques, auto-immunes et d\u0027immunodéficience."
     },
     {
-        "en_h":  "General Anesthesia",
+        "en_h":  "General anesthesia",
         "fr_h":  "Anesthésie générale",
         "d_fr":  "Perte de conscience complète et réversible induite par des agents anesthésiques, permettant une chirurgie indolore sans mémorisation."
     },
     {
-        "en_h":  "Local Anesthesia",
+        "en_h":  "Local anesthesia",
         "fr_h":  "Anesthésie locale",
         "d_fr":  "Perte de sensibilité réversible dans une région corporelle spécifique par blocage de la conduction nerveuse, sans altération de la conscience."
     },
@@ -2001,22 +2001,22 @@
         "d_fr":  "Injection d\u0027un anesthésique local dans l\u0027espace épidural pour bloquer la douleur du bas du corps ; utilisée lors de l\u0027accouchement et en analgésie postopératoire."
     },
     {
-        "en_h":  "Renal Pelvis",
+        "en_h":  "Renal pelvis",
         "fr_h":  "Bassinet",
         "d_fr":  "Cavité en entonnoir au centre de chaque rein, collectant l\u0027urine des calices et l\u0027acheminant vers l\u0027uretère."
     },
     {
-        "en_h":  "Nerve Block",
+        "en_h":  "Nerve block",
         "fr_h":  "Bloc nerveux",
         "d_fr":  "Injection d\u0027un anesthésique local autour d\u0027un nerf ou d\u0027un faisceau nerveux spécifique pour bloquer la sensation dans une zone ciblée sans affecter la conscience."
     },
     {
-        "en_h":  "Conscious Sedation",
+        "en_h":  "Conscious sedation",
         "fr_h":  "Sédation consciente",
         "d_fr":  "État de conscience réduit induit par des médicaments permettant au patient de répondre aux commandes verbales ; utilisé pour les procédures mineures."
     },
     {
-        "en_h":  "Spinal Anesthesia",
+        "en_h":  "Spinal anesthesia",
         "fr_h":  "Rachianesthésie",
         "d_fr":  "Injection d\u0027un anesthésique local dans l\u0027espace sous-arachnoïdien lombaire produisant une perte temporaire de sensation et de motricité sous le niveau d\u0027injection."
     },
@@ -2067,12 +2067,12 @@
         "d_fr":  "Organe musculaire creux assurant la circulation sanguine par des contractions rythmiques ; composé de quatre cavités : deux oreillettes et deux ventricules."
     },
     {
-        "en_h":  "Coronary Artery",
+        "en_h":  "Coronary artery",
         "fr_h":  "Artère coronaire",
         "d_fr":  "Vaisseaux sanguins apportant du sang oxygéné directement au myocarde ; leur obstruction entraîne angor ou infarctus du myocarde."
     },
     {
-        "en_h":  "Heart Valve",
+        "en_h":  "Heart valve",
         "fr_h":  "Valve cardiaque",
         "d_fr":  "L\u0027une des quatre structures (mitrale, tricuspide, aortique, pulmonaire) assurant le flux sanguin unidirectionnel à travers les cavités cardiaques."
     },
@@ -2087,12 +2087,12 @@
         "d_fr":  "Organes pairs et spongieux dans le thorax assurant les échanges gazeux — absorption d\u0027oxygène de l\u0027air inspiré et expulsion du dioxyde de carbone à chaque expiration."
     },
     {
-        "en_h":  "Nasal Cavity",
+        "en_h":  "Nasal cavity",
         "fr_h":  "Cavité nasale",
         "d_fr":  "Espace creux à l\u0027intérieur du nez qui réchauffe, humidifie et filtre l\u0027air inhalé avant qu\u0027il n\u0027atteigne les voies respiratoires inférieures."
     },
     {
-        "en_h":  "Paranasal Sinuses",
+        "en_h":  "Paranasal sinuses",
         "fr_h":  "Sinus paranasaux",
         "d_fr":  "Cavités aériques dans les os du crâne entourant la cavité nasale ; fréquemment enflammées dans la sinusite."
     },
@@ -2107,17 +2107,17 @@
         "d_fr":  "Plus grand organe interne, situé dans l\u0027hypochondre droit ; assure le métabolisme, la détoxification, la synthèse protéique et la production de bile."
     },
     {
-        "en_h":  "Small Intestine",
+        "en_h":  "Small intestine",
         "fr_h":  "Intestin grêle",
         "d_fr":  "Tube enroulé d\u0027environ 6 à 7 mètres entre l\u0027estomac et le gros intestin — comprenant le duodénum, le jéjunum et l\u0027iléon — principal site d\u0027absorption des nutriments."
     },
     {
-        "en_h":  "Large Intestine",
+        "en_h":  "Large intestine",
         "fr_h":  "Gros intestin",
         "d_fr":  "Segment terminal du tube digestif, comprenant le cæcum, le côlon et le rectum ; absorbe l\u0027eau et les électrolytes et forme les selles."
     },
     {
-        "en_h":  "Sigmoid Colon",
+        "en_h":  "Sigmoid colon",
         "fr_h":  "Côlon sigmoïde",
         "d_fr":  "Segment final en forme de S du côlon reliant le côlon descendant au rectum ; site fréquent de la diverticulose et du cancer colorectal."
     },
@@ -2127,7 +2127,7 @@
         "d_fr":  "Paire d\u0027organes en forme de haricot dans le rétropéritoine, filtrant le sang, régulant l\u0027équilibre hydro-électrolytique et produisant l\u0027urine."
     },
     {
-        "en_h":  "Urinary Bladder",
+        "en_h":  "Urinary bladder",
         "fr_h":  "Vessie",
         "d_fr":  "Organe musculaire creux dans le pelvis qui stocke l\u0027urine produite par les reins jusqu\u0027à son expulsion par l\u0027urètre."
     },
@@ -2178,7 +2178,7 @@
         "d_fr":  "L\u0027un des os formant la colonne vertébrale ; protège la moelle épinière et assure le soutien structural du tronc."
     },
     {
-        "en_h":  "Adrenal Gland",
+        "en_h":  "Adrenal gland",
         "fr_h":  "Glande surrénale",
         "d_fr":  "Glande paire au-dessus de chaque rein ; le cortex produit cortisol et aldostérone ; la médullosurrénale sécrète adrénaline et noradrénaline lors du stress."
     },
@@ -2213,7 +2213,7 @@
         "d_fr":  "Structure transparente et biconvexe derrière l\u0027iris qui focalise la lumière sur la rétine ; devient opaque dans la cataracte."
     },
     {
-        "en_h":  "Tympanic Membrane",
+        "en_h":  "Tympanic membrane",
         "fr_h":  "Tympan",
         "d_fr":  "Fine membrane séparant le conduit auditif externe de l\u0027oreille moyenne ; vibre en réponse aux ondes sonores et les transmet aux osselets."
     },
@@ -2280,7 +2280,7 @@
         "d_fr":  "Durcissement et perte d\u0027élasticité des parois artérielles ; terme plus large que l\u0027athérosclérose."
     },
     {
-        "en_h":  "Brachial Arteritis",
+        "en_h":  "Brachial arteritis",
         "fr_h":  "Artérite brachiale",
         "d_fr":  "Inflammation de l\u0027artère brachiale ; associée à une vascularite systémique ou à un traumatisme."
     },
@@ -3280,7 +3280,7 @@
         "d_fr":  "Raideur et immobilité articulaire due à la fusion osseuse ou du tissu fibreux."
     },
     {
-        "en_h":  "Aortic Stenosis",
+        "en_h":  "Aortic stenosis",
         "fr_h":  "Rétrécissement aortique",
         "d_fr":  "Rétrécissement de l\u0027orifice valvulaire aortique obstruant l\u0027éjection ventriculaire gauche ; la sévérité est graduée par la surface valvulaire et le gradient de pression moyen."
     },
@@ -3484,7 +3484,7 @@
         "d_fr":  "Trouble mental sévère impliquant une perte de contact avec la réalité, des hallucinations ou des idées délirantes."
     },
     {
-        "en_h":  "Pyloric Stenosis",
+        "en_h":  "Pyloric stenosis",
         "fr_h":  "Sténose du pylore",
         "d_fr":  "Rétrécissement du pylore obstruant la vidange gastrique ; fréquent chez les nourrissons de sexe masculin."
     },
@@ -3555,12 +3555,12 @@
         "d_fr":  "Inflammation de l\u0027urètre, fréquemment causée par des infections sexuellement transmissibles."
     },
     {
-        "en_h":  "Venous Thrombosis",
+        "en_h":  "Venous thrombosis",
         "fr_h":  "Thrombose veineuse",
         "d_fr":  "Formation d\u0027un caillot dans une veine ; comprend la thrombose veineuse profonde et la thrombophlébite superficielle."
     },
     {
-        "en_h":  "Acoustic Neuroma",
+        "en_h":  "Acoustic neuroma",
         "fr_h":  "Schwannome vestibulaire",
         "fr_l":  "Neurinome acoustique",
         "d_fr":  "Tumeur bénigne issue du nerf vestibulocochléaire, causant perte auditive et acouphènes."
@@ -3596,7 +3596,7 @@
         "d_fr":  "Perte de sensation induite par voie pharmacologique pour les interventions chirurgicales ou diagnostiques."
     },
     {
-        "en_h":  "Aortic Aneurysm",
+        "en_h":  "Aortic aneurysm",
         "fr_h":  "Anévrisme aortique",
         "d_fr":  "Dilatation focale permanente de l\u0027aorte ; la plus fréquente dans l\u0027aorte abdominale sous-rénale ; la rupture est souvent fatale."
     },
@@ -3682,12 +3682,12 @@
         "d_fr":  "Restauration d\u0027un rythme cardiaque normal par choc électrique synchronisé ou médicament."
     },
     {
-        "en_h":  "Carpal Tunnel Syndrome",
+        "en_h":  "Carpal tunnel syndrome",
         "fr_h":  "Syndrome du canal carpien",
         "d_fr":  "Compression du nerf médian au niveau du poignet provoquant engourdissement, picotements et faiblesse."
     },
     {
-        "en_h":  "Cerebral Palsy",
+        "en_h":  "Cerebral palsy",
         "fr_h":  "Paralysie cérébrale",
         "fr_l":  "Infirmité motrice cérébrale",
         "d_fr":  "Groupe de troubles permanents du mouvement et de la posture causés par une lésion cérébrale avant ou pendant la naissance."
@@ -3713,7 +3713,7 @@
         "d_fr":  "Douleur persistante dans la région du coccyx, souvent à la suite d\u0027un traumatisme."
     },
     {
-        "en_h":  "Corneal Transplant",
+        "en_h":  "Corneal transplant",
         "fr_h":  "Greffe de cornée",
         "d_fr":  "Remplacement chirurgical d\u0027une cornée endommagée ou malade par un tissu donneur."
     },
@@ -4014,7 +4014,7 @@
         "d_fr":  "Ramollissement des os dû à une minéralisation déficiente, souvent due à une carence en vitamine D."
     },
     {
-        "en_h":  "Ovarian Cyst",
+        "en_h":  "Ovarian cyst",
         "fr_h":  "Kyste ovarien",
         "d_fr":  "Sac rempli de liquide situé sur ou dans l\u0027ovaire ; la plupart sont bénins et se résorbent spontanément."
     },
@@ -4034,7 +4034,7 @@
         "d_fr":  "Quatre petites glandes endocrines adjacentes à la thyroïde régulant le calcium et le phosphate."
     },
     {
-        "en_h":  "Pelvic Inflammatory Disease",
+        "en_h":  "Pelvic inflammatory disease",
         "fr_h":  "Maladie inflammatoire pelvienne",
         "d_fr":  "Infection de la partie supérieure de l\u0027appareil génital féminin ; complication fréquente des infections sexuellement transmissibles."
     },
@@ -4095,7 +4095,7 @@
         "d_fr":  "Paralysie complète des quatre membres due à une lésion cervicale haute de la moelle épinière."
     },
     {
-        "en_h":  "Rectal Prolapse",
+        "en_h":  "Rectal prolapse",
         "fr_h":  "Prolapsus rectal",
         "d_fr":  "Protrusion du rectum à travers l\u0027orifice anal."
     },
@@ -4115,7 +4115,7 @@
         "d_fr":  "Ablation chirurgicale totale ou partielle d\u0027un organe ou d\u0027un tissu."
     },
     {
-        "en_h":  "Retinal Detachment",
+        "en_h":  "Retinal detachment",
         "fr_h":  "Décollement de rétine",
         "d_fr":  "Décollement de la rétine de l\u0027épithélium pigmentaire rétinien sous-jacent."
     },
@@ -4156,7 +4156,7 @@
         "d_fr":  "Jonction entre deux neurones où les impulsions nerveuses sont transmises chimiquement ou électriquement."
     },
     {
-        "en_h":  "Synovial Fluid",
+        "en_h":  "Synovial fluid",
         "fr_h":  "Liquide synovial",
         "fr_l":  "Liquide articulaire",
         "d_fr":  "Liquide lubrifiant visqueux sécrété par la membrane synoviale dans les cavités articulaires."
@@ -4217,7 +4217,7 @@
         "d_fr":  "Test diagnostique mesurant le mouvement du tympan en réponse à une variation de pression d\u0027air."
     },
     {
-        "en_h":  "Umbilical Hernia",
+        "en_h":  "Umbilical hernia",
         "fr_h":  "Hernie ombilicale",
         "d_fr":  "Protrusion du contenu abdominal à travers un défect au niveau du nombril."
     },
@@ -4243,12 +4243,12 @@
         "d_fr":  "Ponction d\u0027une veine à l\u0027aiguille pour prélever du sang ou administrer un traitement."
     },
     {
-        "en_h":  "Ventricular Fibrillation",
+        "en_h":  "Ventricular fibrillation",
         "fr_h":  "Fibrillation ventriculaire",
         "d_fr":  "Arythmie potentiellement mortelle caractérisée par une activité électrique ventriculaire chaotique et une absence de débit cardiaque efficace."
     },
     {
-        "en_h":  "Vesicoureteral Reflux",
+        "en_h":  "Vesicoureteral reflux",
         "fr_h":  "Reflux vésico-urétéral",
         "d_fr":  "Reflux anormal d\u0027urine de la vessie vers les uretères."
     },
@@ -4389,7 +4389,7 @@
         "d_fr":  "Canal musculaire transportant le sperme de l\u0027épididyme au canal éjaculateur lors de l\u0027éjaculation."
     },
     {
-        "en_h":  "Non-Steroidal Anti-Inflammatory Drug",
+        "en_h":  "Non-steroidal anti-inflammatory drug",
         "fr_h":  "Anti-inflammatoire non stéroïdien",
         "fr_l":  "AINS",
         "d_fr":  "Classe de médicaments réduisant la douleur, la fièvre et l\u0027inflammation en inhibant les enzymes COX."

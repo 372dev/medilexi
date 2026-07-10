@@ -154,7 +154,7 @@
         "lvl":  3
     },
     {
-        "en_h":  "Differential Diagnosis",
+        "en_h":  "Differential diagnosis",
         "en_l":  "Possible diagnoses",
         "abbr":  "DDx",
         "f":  [
@@ -267,7 +267,7 @@
         "lvl":  3
     },
     {
-        "en_h":  "Myocardial Infarction",
+        "en_h":  "Myocardial infarction",
         "en_l":  "Heart attack",
         "abbr":  "MI",
         "f":  [
@@ -309,7 +309,7 @@
                   }
     },
     {
-        "en_h":  "Angina Pectoris",
+        "en_h":  "Angina pectoris",
         "en_l":  "Chest pain",
         "abbr":  "Angina",
         "f":  [
@@ -354,7 +354,7 @@
                   }
     },
     {
-        "en_h":  "Atrial Fibrillation",
+        "en_h":  "Atrial fibrillation",
         "en_l":  "Irregular heartbeat",
         "abbr":  "AFib",
         "f":  [
@@ -429,7 +429,7 @@
                   }
     },
     {
-        "en_h":  "Cerebrovascular Accident",
+        "en_h":  "Cerebrovascular accident",
         "en_l":  "Stroke",
         "abbr":  "CVA",
         "f":  [
@@ -512,7 +512,7 @@
                   }
     },
     {
-        "en_h":  "Transient Ischemic Attack",
+        "en_h":  "Transient ischemic attack",
         "en_l":  "Mini-stroke",
         "abbr":  "TIA",
         "f":  [
@@ -1149,7 +1149,7 @@
                   }
     },
     {
-        "en_h":  "Vaccination / Immunization",
+        "en_h":  "Vaccination / immunization",
         "en_l":  "Getting a shot",
         "abbr":  "",
         "f":  [
@@ -1288,7 +1288,7 @@
         "lvl":  3
     },
     {
-        "en_h":  "Compliance / Adherence",
+        "en_h":  "Compliance / adherence",
         "en_l":  "",
         "abbr":  "",
         "f":  [
@@ -1343,7 +1343,7 @@
         "lvl":  3
     },
     {
-        "en_h":  "Gastroesophageal Reflux Disease",
+        "en_h":  "Gastroesophageal reflux disease",
         "en_l":  "Acid reflux",
         "abbr":  "GERD",
         "f":  [
@@ -1466,7 +1466,7 @@
         "abbr":  "PPM"
     },
     {
-        "en_h":  "Congestive Heart Failure",
+        "en_h":  "Congestive heart failure",
         "en_l":  "Weak pumping heart",
         "abbr":  "CHF",
         "f":  [
@@ -1532,7 +1532,7 @@
                   }
     },
     {
-        "en_h":  "Lumbar Puncture",
+        "en_h":  "Lumbar puncture",
         "en_l":  "Spinal tap",
         "abbr":  "LP",
         "f":  [
@@ -2323,7 +2323,7 @@
                   }
     },
     {
-        "en_h":  "Pleuritic Chest Pain",
+        "en_h":  "Pleuritic chest pain",
         "en_l":  "Sharp pain when inhaling",
         "abbr":  "",
         "f":  [
@@ -2551,7 +2551,7 @@
                   }
     },
     {
-        "en_h":  "Pituitary Gland",
+        "en_h":  "Pituitary gland",
         "en_l":  "Master hormone gland",
         "abbr":  "",
         "f":  [
@@ -2600,7 +2600,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Benign Prostatic Hyperplasia",
+        "en_h":  "Benign prostatic hyperplasia",
         "en_l":  "Enlarged prostate",
         "abbr":  "BPH",
         "f":  [
@@ -2660,7 +2660,7 @@
                   }
     },
     {
-        "en_h":  "Chronic Obstructive Pulmonary Disease",
+        "en_h":  "Chronic obstructive pulmonary disease",
         "en_l":  "Long-term lung damage",
         "abbr":  "COPD",
         "f":  [
@@ -2681,7 +2681,7 @@
                   }
     },
     {
-        "en_h":  "Rheumatoid Arthritis",
+        "en_h":  "Rheumatoid arthritis",
         "en_l":  "Autoimmune joint inflammation",
         "abbr":  "RA",
         "f":  [
@@ -2793,7 +2793,7 @@
         "lvl":  3
     },
     {
-        "en_h":  "Prostate-Specific Antigen",
+        "en_h":  "Prostate-specific antigen",
         "en_l":  "Prostate blood marker",
         "abbr":  "PSA",
         "f":  [
@@ -2910,7 +2910,7 @@
                   }
     },
     {
-        "en_h":  "Chronic Kidney Disease",
+        "en_h":  "Chronic kidney disease",
         "en_l":  "Long-term kidney damage",
         "abbr":  "CKD",
         "f":  [
@@ -2929,7 +2929,7 @@
                   }
     },
     {
-        "en_h":  "End-Stage Renal Disease",
+        "en_h":  "End-stage renal disease",
         "en_l":  "Kidney failure",
         "abbr":  "ESRD",
         "f":  [
@@ -2970,7 +2970,7 @@
                   }
     },
     {
-        "en_h":  "Peritoneal Dialysis",
+        "en_h":  "Peritoneal dialysis",
         "en_l":  "Belly-lining filtering treatment",
         "abbr":  "PD",
         "f":  [
@@ -3014,7 +3014,7 @@
                   }
     },
     {
-        "en_h":  "Benign Paroxysmal Positional Vertigo",
+        "en_h":  "Benign paroxysmal positional vertigo",
         "en_l":  "Positional dizziness",
         "abbr":  "BPPV",
         "f":  [
@@ -3025,7 +3025,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Otitis Media",
+        "en_h":  "Otitis media",
         "en_l":  "Middle ear infection",
         "abbr":  "OM",
         "f":  [
@@ -3147,7 +3147,7 @@
         "lvl":  1
     },
     {
-        "en_h":  "Macular Degeneration",
+        "en_h":  "Macular degeneration",
         "en_l":  "Loss of central vision",
         "abbr":  "AMD",
         "f":  [
@@ -3212,7 +3212,7 @@
                   }
     },
     {
-        "en_h":  "Atopic Dermatitis",
+        "en_h":  "Atopic dermatitis",
         "en_l":  "Eczema",
         "abbr":  "",
         "f":  [
@@ -3336,7 +3336,7 @@
                   }
     },
     {
-        "en_h":  "Cushing\u0027s Syndrome",
+        "en_h":  "Cushing\u0027s syndrome",
         "en_l":  "Cortisol hormone excess",
         "abbr":  "",
         "f":  [
@@ -3346,7 +3346,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Diabetes Insipidus",
+        "en_h":  "Diabetes insipidus",
         "en_l":  "Extreme urination disorder",
         "abbr":  "DI",
         "f":  [
@@ -3362,7 +3362,7 @@
                   }
     },
     {
-        "en_h":  "Diabetic Retinopathy",
+        "en_h":  "Diabetic retinopathy",
         "en_l":  "Diabetic eye damage",
         "abbr":  "DR",
         "f":  [
@@ -3427,7 +3427,7 @@
                   }
     },
     {
-        "en_h":  "Polycythemia Vera",
+        "en_h":  "Polycythemia vera",
         "en_l":  "Thick overproduced blood",
         "abbr":  "PV",
         "f":  [
@@ -3449,7 +3449,7 @@
                   }
     },
     {
-        "en_h":  "Deep Vein Thrombosis",
+        "en_h":  "Deep vein thrombosis",
         "en_l":  "Blood clot in deep legs",
         "abbr":  "DVT",
         "f":  [
@@ -3469,7 +3469,7 @@
                   }
     },
     {
-        "en_h":  "Pulmonary Embolism",
+        "en_h":  "Pulmonary embolism",
         "en_l":  "Blood clot in lung",
         "abbr":  "PE",
         "f":  [
@@ -3491,7 +3491,7 @@
                   }
     },
     {
-        "en_h":  "Aortic Dissection",
+        "en_h":  "Aortic dissection",
         "en_l":  "Torn tearing chest artery",
         "abbr":  "",
         "f":  [
@@ -3705,7 +3705,7 @@
                   }
     },
     {
-        "en_h":  "Orthostatic Hypotension",
+        "en_h":  "Orthostatic hypotension",
         "en_l":  "Dizzy when standing up",
         "abbr":  "",
         "f":  [
@@ -3773,7 +3773,7 @@
                   }
     },
     {
-        "en_h":  "Intermittent Claudication",
+        "en_h":  "Intermittent claudication",
         "en_l":  "Leg cramping during walking",
         "abbr":  "",
         "f":  [
@@ -3835,7 +3835,7 @@
                   }
     },
     {
-        "en_h":  "Pleural Effusion",
+        "en_h":  "Pleural effusion",
         "en_l":  "Fluid around lungs",
         "abbr":  "",
         "f":  [
@@ -3943,7 +3943,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Pulmonary Fibrosis",
+        "en_h":  "Pulmonary fibrosis",
         "en_l":  "Scarred lungs",
         "abbr":  "PF",
         "f":  [
@@ -4060,7 +4060,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Gastrointestinal Bleeding",
+        "en_h":  "Gastrointestinal bleeding",
         "en_l":  "Bleeding in digestive tract",
         "abbr":  "GI bleed",
         "f":  [
@@ -4304,7 +4304,7 @@
                   }
     },
     {
-        "en_h":  "Nephrotic Syndrome",
+        "en_h":  "Nephrotic syndrome",
         "en_l":  "Kidney leakage syndrome",
         "abbr":  "",
         "f":  [
@@ -4364,7 +4364,7 @@
                   }
     },
     {
-        "en_h":  "Urinary Incontinence",
+        "en_h":  "Urinary incontinence",
         "en_l":  "Involuntary urine leaking",
         "abbr":  "",
         "f":  [
@@ -4447,7 +4447,7 @@
                   }
     },
     {
-        "en_h":  "Diabetic Ketoacidosis",
+        "en_h":  "Diabetic ketoacidosis",
         "en_l":  "Acidic blood condition in diabetes",
         "abbr":  "DKA",
         "f":  [
@@ -4585,7 +4585,7 @@
                   }
     },
     {
-        "en_h":  "Metabolic Syndrome",
+        "en_h":  "Metabolic syndrome",
         "en_l":  "Insulin resistance syndrome",
         "abbr":  "",
         "f":  [
@@ -4688,7 +4688,7 @@
                   }
     },
     {
-        "en_h":  "Disseminated Intravascular Coagulation",
+        "en_h":  "Disseminated intravascular coagulation",
         "en_l":  "Uncontrolled bleeding and clotting emergency",
         "abbr":  "DIC",
         "f":  [
@@ -4767,7 +4767,7 @@
                   }
     },
     {
-        "en_h":  "Adjuvant Therapy",
+        "en_h":  "Adjuvant therapy",
         "en_l":  "Post-surgery preventive therapy",
         "abbr":  "",
         "f":  [
@@ -4778,7 +4778,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Neoadjuvant Therapy",
+        "en_h":  "Neoadjuvant therapy",
         "en_l":  "Pre-surgery shrink treatment",
         "abbr":  "",
         "f":  [
@@ -4841,7 +4841,7 @@
                   }
     },
     {
-        "en_h":  "Uterine Leiomyoma",
+        "en_h":  "Uterine leiomyoma",
         "en_l":  "Fibroids in womb",
         "abbr":  "",
         "f":  [
@@ -4862,7 +4862,7 @@
                   }
     },
     {
-        "en_h":  "Abruptio Placentae",
+        "en_h":  "Abruptio placentae",
         "en_l":  "Placenta separating early",
         "abbr":  "",
         "f":  [
@@ -4873,7 +4873,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Postpartum Hemorrhage",
+        "en_h":  "Postpartum hemorrhage",
         "en_l":  "Heavy bleeding after birth",
         "abbr":  "PPH",
         "f":  [
@@ -5093,7 +5093,7 @@
                   }
     },
     {
-        "en_h":  "Tardive Dyskinesia",
+        "en_h":  "Tardive dyskinesia",
         "en_l":  "Involuntary repetitive facial movements",
         "abbr":  "TD",
         "f":  [
@@ -5186,7 +5186,7 @@
                   }
     },
     {
-        "en_h":  "Ankylosing Spondylitis",
+        "en_h":  "Ankylosing spondylitis",
         "en_l":  "Chronic spinal arthritis that fuses bones",
         "abbr":  "AS",
         "f":  [
@@ -5265,7 +5265,7 @@
                   }
     },
     {
-        "en_h":  "Avascular Necrosis",
+        "en_h":  "Avascular necrosis",
         "en_l":  "Bone tissue death from lack of blood supply",
         "abbr":  "AVN",
         "f":  [
@@ -5359,7 +5359,7 @@
                   }
     },
     {
-        "en_h":  "Necrotizing Fasciitis",
+        "en_h":  "Necrotizing fasciitis",
         "en_l":  "Flesh-eating bacteria infection",
         "abbr":  "NF",
         "f":  [
@@ -5380,7 +5380,7 @@
                   }
     },
     {
-        "en_h":  "Ovarian Torsion",
+        "en_h":  "Ovarian torsion",
         "en_l":  "Twisted ovary",
         "abbr":  "",
         "f":  [
@@ -5399,7 +5399,7 @@
                   }
     },
     {
-        "en_h":  "Vasovagal Syncope",
+        "en_h":  "Vasovagal syncope",
         "en_l":  "Fainting from sudden blood pressure drop",
         "abbr":  "VVS",
         "f":  [
@@ -5423,7 +5423,7 @@
                   }
     },
     {
-        "en_h":  "Peripheral Artery Disease",
+        "en_h":  "Peripheral artery disease",
         "en_l":  "Blocked leg arteries",
         "abbr":  "PAD",
         "f":  [
@@ -5442,7 +5442,7 @@
                   }
     },
     {
-        "en_h":  "Raynaud\u0027s Phenomenon",
+        "en_h":  "Raynaud\u0027s phenomenon",
         "en_l":  "White fingers from cold or stress",
         "abbr":  "",
         "f":  [
@@ -5473,7 +5473,7 @@
                   }
     },
     {
-        "en_h":  "Cardiac Tamponade",
+        "en_h":  "Cardiac tamponade",
         "en_l":  "Fluid compression around heart",
         "abbr":  "",
         "f":  [
@@ -5533,7 +5533,7 @@
                   }
     },
     {
-        "en_h":  "Esophageal Varices",
+        "en_h":  "Esophageal varices",
         "en_l":  "Swollen veins in food pipe",
         "abbr":  "EV",
         "f":  [
@@ -5553,7 +5553,7 @@
                   }
     },
     {
-        "en_h":  "Intestinal Metaplasia",
+        "en_h":  "Intestinal metaplasia",
         "en_l":  "Stomach lining changing to look like bowel",
         "f":  [
                   "Gastroenterology",
@@ -5610,7 +5610,7 @@
                   }
     },
     {
-        "en_h":  "Acute Respiratory Distress Syndrome",
+        "en_h":  "Acute respiratory distress syndrome",
         "en_l":  "Sudden severe lung failure",
         "abbr":  "ARDS",
         "f":  [
@@ -5686,7 +5686,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Septic Shock",
+        "en_h":  "Septic shock",
         "en_l":  "Dangerously low blood pressure from blood infection",
         "abbr":  "",
         "f":  [
@@ -5912,7 +5912,7 @@
                   }
     },
     {
-        "en_h":  "Vena Cava",
+        "en_h":  "Vena cava",
         "en_l":  "Main body vein",
         "abbr":  "",
         "f":  [
@@ -6164,7 +6164,7 @@
         "lvl":  1
     },
     {
-        "en_h":  "Spinal Cord",
+        "en_h":  "Spinal cord",
         "en_l":  "Main back nerve cord",
         "abbr":  "",
         "f":  [
@@ -6250,7 +6250,7 @@
                   }
     },
     {
-        "en_h":  "Intervertebral Disc",
+        "en_h":  "Intervertebral disc",
         "en_l":  "Spine cushion",
         "abbr":  "IVD",
         "f":  [
@@ -6384,7 +6384,7 @@
                   }
     },
     {
-        "en_h":  "Lymph Node",
+        "en_h":  "Lymph node",
         "en_l":  "Lymph gland nodes",
         "abbr":  "LN",
         "f":  [
@@ -6401,7 +6401,7 @@
                   }
     },
     {
-        "en_h":  "Thyroid Gland",
+        "en_h":  "Thyroid gland",
         "en_l":  "Thyroid",
         "abbr":  "",
         "f":  [
@@ -6434,7 +6434,7 @@
                   }
     },
     {
-        "en_h":  "Prostate Gland",
+        "en_h":  "Prostate gland",
         "en_l":  "Prostate",
         "abbr":  "",
         "f":  [
@@ -6520,7 +6520,7 @@
                   }
     },
     {
-        "en_h":  "General Anesthesia",
+        "en_h":  "General anesthesia",
         "en_l":  "Being put to sleep",
         "abbr":  "GA",
         "f":  [
@@ -6542,7 +6542,7 @@
                   }
     },
     {
-        "en_h":  "Local Anesthesia",
+        "en_h":  "Local anesthesia",
         "en_l":  "Numbing injection",
         "abbr":  "",
         "f":  [
@@ -6598,7 +6598,7 @@
                   }
     },
     {
-        "en_h":  "Renal Pelvis",
+        "en_h":  "Renal pelvis",
         "en_l":  "Kidney funnel",
         "abbr":  "",
         "f":  [
@@ -6619,7 +6619,7 @@
                   }
     },
     {
-        "en_h":  "Nerve Block",
+        "en_h":  "Nerve block",
         "en_l":  "Numbing a nerve",
         "abbr":  "",
         "f":  [
@@ -6630,7 +6630,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Conscious Sedation",
+        "en_h":  "Conscious sedation",
         "en_l":  "Light sedation",
         "abbr":  "",
         "f":  [
@@ -6641,7 +6641,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Spinal Anesthesia",
+        "en_h":  "Spinal anesthesia",
         "en_l":  "Spinal block",
         "abbr":  "",
         "f":  [
@@ -6798,7 +6798,7 @@
         "lvl":  3
     },
     {
-        "en_h":  "Coronary Artery",
+        "en_h":  "Coronary artery",
         "en_l":  "Heart artery",
         "abbr":  "",
         "f":  [
@@ -6814,7 +6814,7 @@
                   }
     },
     {
-        "en_h":  "Heart Valve",
+        "en_h":  "Heart valve",
         "en_l":  "",
         "abbr":  "",
         "f":  [
@@ -6847,7 +6847,7 @@
         "lvl":  3
     },
     {
-        "en_h":  "Nasal Cavity",
+        "en_h":  "Nasal cavity",
         "en_l":  "Inside of the nose",
         "abbr":  "",
         "f":  [
@@ -6863,7 +6863,7 @@
                   }
     },
     {
-        "en_h":  "Paranasal Sinuses",
+        "en_h":  "Paranasal sinuses",
         "en_l":  "Sinuses",
         "abbr":  "",
         "f":  [
@@ -6905,7 +6905,7 @@
         "lvl":  3
     },
     {
-        "en_h":  "Small Intestine",
+        "en_h":  "Small intestine",
         "en_l":  "",
         "abbr":  "",
         "f":  [
@@ -6921,7 +6921,7 @@
                   }
     },
     {
-        "en_h":  "Large Intestine",
+        "en_h":  "Large intestine",
         "en_l":  "",
         "abbr":  "",
         "f":  [
@@ -6937,7 +6937,7 @@
                   }
     },
     {
-        "en_h":  "Sigmoid Colon",
+        "en_h":  "Sigmoid colon",
         "en_l":  "",
         "abbr":  "",
         "f":  [
@@ -6965,7 +6965,7 @@
         "lvl":  3
     },
     {
-        "en_h":  "Urinary Bladder",
+        "en_h":  "Urinary bladder",
         "en_l":  "Bladder",
         "abbr":  "",
         "f":  [
@@ -7085,7 +7085,7 @@
                   }
     },
     {
-        "en_h":  "Adrenal Gland",
+        "en_h":  "Adrenal gland",
         "en_l":  "",
         "abbr":  "",
         "f":  [
@@ -7168,7 +7168,7 @@
         "lvl":  2
     },
     {
-        "en_h":  "Tympanic Membrane",
+        "en_h":  "Tympanic membrane",
         "en_l":  "Eardrum",
         "abbr":  "",
         "f":  [
@@ -7401,7 +7401,7 @@
                   }
     },
     {
-        "en_h":  "Brachial Arteritis",
+        "en_h":  "Brachial arteritis",
         "en_l":  "Brachial artery inflammation",
         "abbr":  "",
         "f":  [
@@ -10877,7 +10877,7 @@
                   }
     },
     {
-        "en_h":  "Aortic Stenosis",
+        "en_h":  "Aortic stenosis",
         "en_l":  "Aortic narrowing",
         "d":  "Narrowing of the aortic valve opening, obstructing blood flow from the left ventricle.",
         "lvl":  2,
@@ -11545,7 +11545,7 @@
                   }
     },
     {
-        "en_h":  "Pyloric Stenosis",
+        "en_h":  "Pyloric stenosis",
         "d":  "Narrowing of the pyloric outlet that obstructs gastric emptying, typically presenting in male infants with projectile vomiting and requiring surgical correction.",
         "lvl":  2,
         "f":  [
@@ -11781,7 +11781,7 @@
                   }
     },
     {
-        "en_h":  "Venous Thrombosis",
+        "en_h":  "Venous thrombosis",
         "d":  "Formation of a blood clot within a vein, encompassing deep vein thrombosis and superficial thrombophlebitis.",
         "lvl":  3,
         "f":  [
@@ -11799,7 +11799,7 @@
                   }
     },
     {
-        "en_h":  "Acoustic Neuroma",
+        "en_h":  "Acoustic neuroma",
         "d":  "Benign tumor arising from the vestibulocochlear nerve, causing hearing loss and tinnitus.",
         "lvl":  2,
         "f":  [
@@ -11916,7 +11916,7 @@
                   }
     },
     {
-        "en_h":  "Aortic Aneurysm",
+        "en_h":  "Aortic aneurysm",
         "d":  "Permanent focal dilation of the aortic wall, most common in the infrarenal abdominal segment, with rupture carrying a high mortality risk.",
         "lvl":  3,
         "f":  [
@@ -12177,7 +12177,7 @@
                   }
     },
     {
-        "en_h":  "Carpal Tunnel Syndrome",
+        "en_h":  "Carpal tunnel syndrome",
         "d":  "Compression of the median nerve at the wrist causing numbness, tingling, and weakness.",
         "lvl":  3,
         "f":  [
@@ -12194,7 +12194,7 @@
                   }
     },
     {
-        "en_h":  "Cerebral Palsy",
+        "en_h":  "Cerebral palsy",
         "d":  "Group of permanent movement and posture disorders caused by brain damage before or during birth.",
         "lvl":  2,
         "f":  [
@@ -12270,7 +12270,7 @@
                   }
     },
     {
-        "en_h":  "Corneal Transplant",
+        "en_h":  "Corneal transplant",
         "d":  "Surgical replacement of a damaged or diseased cornea with donor tissue.",
         "lvl":  2,
         "f":  [
@@ -13206,7 +13206,7 @@
                   }
     },
     {
-        "en_h":  "Ovarian Cyst",
+        "en_h":  "Ovarian cyst",
         "d":  "Fluid-filled sac on or within the ovary, most of which are benign and resolve spontaneously, though some require monitoring or intervention.",
         "lvl":  3,
         "f":  [
@@ -13274,7 +13274,7 @@
                   }
     },
     {
-        "en_h":  "Pelvic Inflammatory Disease",
+        "en_h":  "Pelvic inflammatory disease",
         "d":  "Infection of the female upper reproductive tract including the uterus, fallopian tubes, and ovaries, most commonly a complication of sexually transmitted infections.",
         "lvl":  3,
         "f":  [
@@ -13462,7 +13462,7 @@
                   }
     },
     {
-        "en_h":  "Rectal Prolapse",
+        "en_h":  "Rectal prolapse",
         "d":  "Protrusion of the rectum through the anal opening.",
         "lvl":  2,
         "f":  [
@@ -13512,7 +13512,7 @@
               ]
     },
     {
-        "en_h":  "Retinal Detachment",
+        "en_h":  "Retinal detachment",
         "d":  "Separation of the retina from the underlying retinal pigment epithelium.",
         "lvl":  3,
         "f":  [
@@ -13635,7 +13635,7 @@
                   }
     },
     {
-        "en_h":  "Synovial Fluid",
+        "en_h":  "Synovial fluid",
         "d":  "Viscous lubricating fluid secreted by the synovial membrane within joint cavities.",
         "lvl":  1,
         "f":  [
@@ -13825,7 +13825,7 @@
                   }
     },
     {
-        "en_h":  "Umbilical Hernia",
+        "en_h":  "Umbilical hernia",
         "d":  "Protrusion of abdominal contents through a defect at the navel.",
         "lvl":  2,
         "f":  [
@@ -13905,7 +13905,7 @@
                   }
     },
     {
-        "en_h":  "Ventricular Fibrillation",
+        "en_h":  "Ventricular fibrillation",
         "d":  "Life-threatening arrhythmia with chaotic ventricular electrical activity and no effective output.",
         "lvl":  3,
         "f":  [
@@ -13922,7 +13922,7 @@
                   }
     },
     {
-        "en_h":  "Vesicoureteral Reflux",
+        "en_h":  "Vesicoureteral reflux",
         "d":  "Abnormal backflow of urine from the bladder into the ureters.",
         "lvl":  2,
         "f":  [
@@ -14347,7 +14347,7 @@
                   }
     },
     {
-        "en_h":  "Non-Steroidal Anti-Inflammatory Drug",
+        "en_h":  "Non-steroidal anti-inflammatory drug",
         "abbr":  "NSAID",
         "f":  [
                   "Pharmacology"

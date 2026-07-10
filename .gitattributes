@@ -1,0 +1,3 @@
+# meta/ is read by scripts, CI, and cloud agents on Linux. Keep it LF, always.
+meta/en_h.txt text eol=lf
+meta/*.md text eol=lf

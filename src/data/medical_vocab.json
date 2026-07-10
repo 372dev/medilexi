@@ -19637,5 +19637,673 @@
               ],
         "d":  "The way an infant attaches to the breast during breastfeeding to effectively extract milk.",
         "lvl":  3
+    },
+    {
+        "en_h":  "Rotator cuff",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "A group of muscles and tendons that stabilize the shoulder joint and enable arm rotation and lifting.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Bursitis",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "Inflammation of a bursa, a fluid-filled sac that cushions joints and reduces friction between tissues.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "burs/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Myasthenia gravis",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "An autoimmune neuromuscular disorder causing fluctuating muscle weakness and fatigue.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "my/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Muscular dystrophy",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A group of genetic diseases causing progressive weakness and degeneration of skeletal muscles.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "muscul/o"
+                            ],
+                      "s":  [
+                                "-trophy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Arthralgia",
+        "f":  [
+                  "Rheumatology"
+              ],
+        "d":  "Pain in one or more joints without evident inflammation.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "arthr/o"
+                            ],
+                      "s":  [
+                                "-algia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Electromyography",
+        "abbr":  "EMG",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A diagnostic test measuring electrical activity in muscles to assess neuromuscular function.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "electr/o",
+                                "my/o"
+                            ],
+                      "s":  [
+                                "-graphy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Arthroplasty",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "Surgical reconstruction or replacement of a joint to restore function.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "arthr/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Tenorrhaphy",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "Surgical suturing of a torn or severed tendon.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ten/o"
+                            ],
+                      "s":  [
+                                "-rrhaphy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Chondrocyte",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "A specialized cell that produces and maintains the cartilage matrix in joints.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "chondr/o"
+                            ],
+                      "s":  [
+                                "-cyte"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Achondroplasia",
+        "f":  [
+                  "Genetics"
+              ],
+        "d":  "A genetic disorder causing disproportionate short-limbed dwarfism due to impaired cartilage growth.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "a-"
+                            ],
+                      "r":  [
+                                "chondr/o"
+                            ],
+                      "s":  [
+                                "-plasia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Osteonecrosis",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "Death of bone tissue due to interrupted blood supply, leading to bone collapse if untreated.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "oste/o",
+                                "necr/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Polymyositis",
+        "f":  [
+                  "Rheumatology"
+              ],
+        "d":  "An inflammatory disease causing muscle weakness, particularly in the proximal limbs.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "poly-"
+                            ],
+                      "r":  [
+                                "my/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Gluteal muscles",
+        "en_l":  "Glutes",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The muscles of the buttocks responsible for hip extension, abduction, and rotation.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "glute/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Plantar fasciitis",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "Inflammation of the thick band of tissue connecting the heel bone to the toes, causing heel pain.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "plant/o",
+                                "fasci/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Thoracic vertebra",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "One of the twelve vertebrae in the middle section of the spine that connect to the ribs.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "thorac/o",
+                                "vertebr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Lumbar vertebra",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "One of the five large vertebrae in the lower back that support much of the body\u0027s weight.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "lumb/o",
+                                "vertebr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Condyle",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "A rounded prominence at the end of a bone that forms part of a joint.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Hemiarthroplasty",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "Surgical replacement of only one part of a joint, typically the head of the humerus or femur.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "hemi-"
+                            ],
+                      "r":  [
+                                "arthr/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Total knee arthroplasty",
+        "en_l":  "Knee replacement",
+        "abbr":  "TKA",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "Surgical replacement of the entire knee joint with prosthetic components.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "arthr/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Bone mineral density",
+        "abbr":  "BMD",
+        "f":  [
+                  "Rheumatology"
+              ],
+        "d":  "A measure of the amount of mineral matter per square centimeter of bone, used to assess bone strength.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "mineral/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Prosthesis",
+        "f":  [
+                  "Orthopedics",
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "An artificial device used to replace a missing body part such as a limb or joint.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "pro-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Limp",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "An abnormal gait caused by pain, weakness, or structural abnormality in the lower limb.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Umbilicus",
+        "en_l":  "Belly button",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The scar on the abdomen marking the site of attachment of the umbilical cord in fetal life.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "umbilic/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Radiosensitivity",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "The susceptibility of cells, tissues, or organisms to damage from ionizing radiation.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "radi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Radioresistance",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "The relative resistance of cells, tissues, or organisms to the damaging effects of ionizing radiation.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "radi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Differentiation",
+        "f":  [
+                  "Pathology"
+              ],
+        "d":  "The degree to which tumor cells resemble normal cells of the tissue of origin.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Remission",
+        "f":  [
+                  "Oncology"
+              ],
+        "d":  "A period during which signs and symptoms of a disease, particularly cancer, are reduced or absent.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Resectable",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "Describing a tumor that can be surgically removed with the intent of cure or significant benefit.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Inoperable",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "Describing a tumor or condition that cannot be treated effectively by surgical removal.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "in-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Tumor marker",
+        "f":  [
+                  "Oncology"
+              ],
+        "d":  "A substance found in blood, urine, or tissues that may indicate the presence of cancer.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fractionation",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "The division of a total radiation dose into smaller doses delivered over time to reduce side effects.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fulguration",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "Destruction of tissue using high-frequency electric sparks, often for superficial lesions.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "En bloc resection",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "Surgical removal of a tumor along with a surrounding margin of normal tissue as a single unit.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Myelodysplastic syndrome",
+        "en_l":  "Myelodysplasia",
+        "abbr":  "MDS",
+        "f":  [
+                  "Hematology"
+              ],
+        "d":  "A group of disorders caused by poorly formed blood cells in the bone marrow leading to cytopenias.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "myel/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Myeloproliferative neoplasm",
+        "f":  [
+                  "Hematology"
+              ],
+        "d":  "A group of blood cancers where the bone marrow produces excessive numbers of blood cells.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "myel/o"
+                            ],
+                      "s":  [
+                                "-plasm"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Immune thrombocytopenic purpura",
+        "abbr":  "ITP",
+        "f":  [
+                  "Hematology"
+              ],
+        "d":  "An autoimmune disorder causing low platelet count and increased bleeding risk.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "immun/o",
+                                "thromb/o",
+                                "cyt/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Fine-needle aspiration",
+        "en_l":  "Fine needle biopsy",
+        "abbr":  "FNA",
+        "f":  [
+                  "Pathology"
+              ],
+        "d":  "A biopsy procedure using a thin needle to extract cells from a suspicious mass for microscopic examination.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Radiotherapy",
+        "en_l":  "Radiation therapy",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "The use of high-energy radiation to kill cancer cells or shrink tumors.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "radi/o"
+                            ],
+                      "s":  [
+                                "-therapy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Immunoglobulin",
+        "f":  [
+                  "Immunology"
+              ],
+        "d":  "A protein produced by plasma cells that functions as an antibody in the immune response.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "immun/o"
+                            ],
+                      "s":  [
+                                "-globulin"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Intravenous immunoglobulin",
+        "abbr":  "IVIG",
+        "f":  [
+                  "Immunology"
+              ],
+        "d":  "A blood product containing pooled antibodies administered intravenously to treat immune deficiencies and autoimmune conditions.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "intra-"
+                            ],
+                      "r":  [
+                                "ven/o",
+                                "immun/o"
+                            ],
+                      "s":  [
+                                "-globulin"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Kawasaki disease",
+        "f":  [
+                  "Pediatrics"
+              ],
+        "d":  "An acute vasculitis primarily affecting children, often involving coronary arteries.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Ferritin",
+        "f":  [
+                  "Hematology"
+              ],
+        "d":  "A protein that stores iron in the body and serves as a marker of iron stores.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Carcinoid syndrome",
+        "f":  [
+                  "Oncology"
+              ],
+        "d":  "A set of symptoms caused by hormones released from carcinoid tumors, including flushing and diarrhea.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "carcin/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Neurotoxicity",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "Damage to the nervous system caused by toxic substances, including certain chemotherapy agents.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "neur/o",
+                                "tox/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Microcalcification",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "Tiny calcium deposits in breast tissue that may indicate the presence of cancer on mammography.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "micro-"
+                            ],
+                      "r":  [
+                                "calc/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Lobectomy",
+        "f":  [
+                  "Thoracic Surgery"
+              ],
+        "d":  "Surgical removal of a lobe of an organ, most commonly a lung lobe.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cadaver",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "A deceased human body used for anatomical study or organ transplantation.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Convalescence",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "The gradual recovery of health and strength after illness or injury.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "con-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Implantable port",
+        "en_l":  "Port-a-cath",
+        "f":  [
+                  "Surgery",
+                  "Oncology"
+              ],
+        "d":  "A small medical device implanted under the skin for long-term intravenous access.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Peripherally inserted central catheter",
+        "abbr":  "PICC",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "A long catheter inserted through a peripheral vein, typically in the arm, with its tip in a large central vein.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "peripher/o",
+                                "centr/o"
+                            ]
+                  }
     }
 ]

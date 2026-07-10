@@ -6676,5 +6676,260 @@
         "en_h":  "Latch",
         "fr_h":  "Prise du sein",
         "d_fr":  "Manière dont un nourrisson s\u0027attache au sein pendant l\u0027allaitement pour extraire efficacement le lait."
+    },
+    {
+        "en_h":  "Rotator cuff",
+        "fr_h":  "Coiffe des rotateurs",
+        "d_fr":  "Un groupe de muscles et tendons qui stabilisent l\u0027articulation de l\u0027épaule et permettent la rotation et l\u0027élévation du bras."
+    },
+    {
+        "en_h":  "Bursitis",
+        "fr_h":  "Bursite",
+        "d_fr":  "Inflammation d\u0027une bourse, un sac rempli de liquide qui amortit les articulations et réduit les frottements entre tissus."
+    },
+    {
+        "en_h":  "Myasthenia gravis",
+        "fr_h":  "Myasthénie grave",
+        "d_fr":  "Un trouble neuromusculaire auto-immun causant une faiblesse musculaire fluctuante et de la fatigue."
+    },
+    {
+        "en_h":  "Muscular dystrophy",
+        "fr_h":  "Dystrophie musculaire",
+        "d_fr":  "Un groupe de maladies génétiques causant une faiblesse progressive et une dégénérescence des muscles squelettiques."
+    },
+    {
+        "en_h":  "Arthralgia",
+        "fr_h":  "Arthralgie",
+        "d_fr":  "Douleur dans une ou plusieurs articulations sans inflammation évidente."
+    },
+    {
+        "en_h":  "Electromyography",
+        "fr_h":  "Électromyographie",
+        "d_fr":  "Un test diagnostique mesurant l\u0027activité électrique des muscles pour évaluer la fonction neuromusculaire."
+    },
+    {
+        "en_h":  "Arthroplasty",
+        "fr_h":  "Arthroplastie",
+        "d_fr":  "Reconstruction ou remplacement chirurgical d\u0027une articulation pour restaurer la fonction."
+    },
+    {
+        "en_h":  "Tenorrhaphy",
+        "fr_h":  "Ténorraphie",
+        "d_fr":  "Suture chirurgicale d\u0027un tendon déchiré ou sectionné."
+    },
+    {
+        "en_h":  "Chondrocyte",
+        "fr_h":  "Chondrocyte",
+        "d_fr":  "Une cellule spécialisée qui produit et maintient la matrice du cartilage dans les articulations."
+    },
+    {
+        "en_h":  "Achondroplasia",
+        "fr_h":  "Achondroplasie",
+        "d_fr":  "Un trouble génétique causant un nanisme à membres courts disproportionnés dû à une croissance cartilagineuse altérée."
+    },
+    {
+        "en_h":  "Osteonecrosis",
+        "fr_h":  "Ostéonécrose",
+        "d_fr":  "Mort du tissu osseux due à une interruption de l\u0027apport sanguin, entraînant un effondrement osseux si non traitée."
+    },
+    {
+        "en_h":  "Polymyositis",
+        "fr_h":  "Polymyosite",
+        "d_fr":  "Une maladie inflammatoire causant une faiblesse musculaire, particulièrement dans les membres proximaux."
+    },
+    {
+        "en_h":  "Gluteal muscles",
+        "fr_h":  "Muscles fessiers",
+        "d_fr":  "Les muscles des fesses responsables de l\u0027extension, de l\u0027abduction et de la rotation de la hanche."
+    },
+    {
+        "en_h":  "Plantar fasciitis",
+        "fr_h":  "Fasciite plantaire",
+        "d_fr":  "Inflammation de la bande épaisse de tissu reliant l\u0027os du talon aux orteils, causant une douleur au talon."
+    },
+    {
+        "en_h":  "Thoracic vertebra",
+        "fr_h":  "Vertèbre thoracique",
+        "d_fr":  "Une des douze vertèbres de la section médiane de la colonne vertébrale qui se connectent aux côtes."
+    },
+    {
+        "en_h":  "Lumbar vertebra",
+        "fr_h":  "Vertèbre lombaire",
+        "d_fr":  "Une des cinq grandes vertèbres du bas du dos qui supportent une grande partie du poids du corps."
+    },
+    {
+        "en_h":  "Condyle",
+        "fr_h":  "Condyle",
+        "d_fr":  "Une saillie arrondie à l\u0027extrémité d\u0027un os qui forme une partie d\u0027une articulation."
+    },
+    {
+        "en_h":  "Hemiarthroplasty",
+        "fr_h":  "Hémiarthroplastie",
+        "d_fr":  "Remplacement chirurgical d\u0027une seule partie d\u0027une articulation, typiquement la tête de l\u0027humérus ou du fémur."
+    },
+    {
+        "en_h":  "Total knee arthroplasty",
+        "fr_h":  "Arthroplastie totale du genou",
+        "fr_l":  "Prothèse totale du genou",
+        "d_fr":  "Remplacement chirurgical de l\u0027articulation complète du genou par des composants prothétiques."
+    },
+    {
+        "en_h":  "Bone mineral density",
+        "fr_h":  "Densité minérale osseuse",
+        "d_fr":  "Une mesure de la quantité de matière minérale par centimètre carré d\u0027os, utilisée pour évaluer la solidité osseuse."
+    },
+    {
+        "en_h":  "Prosthesis",
+        "fr_h":  "Prothèse",
+        "d_fr":  "Un dispositif artificiel utilisé pour remplacer une partie manquante du corps telle qu\u0027un membre ou une articulation."
+    },
+    {
+        "en_h":  "Limp",
+        "fr_h":  "Boiterie",
+        "d_fr":  "Une démarche anormale causée par une douleur, une faiblesse ou une anomalie structurelle du membre inférieur."
+    },
+    {
+        "en_h":  "Umbilicus",
+        "fr_h":  "Ombilic",
+        "fr_l":  "Nombril",
+        "d_fr":  "La cicatrice sur l\u0027abdomen marquant le site d\u0027attachement du cordon ombilical pendant la vie fœtale."
+    },
+    {
+        "en_h":  "Radiosensitivity",
+        "fr_h":  "Radiosensibilité",
+        "d_fr":  "La susceptibilité des cellules, tissus ou organismes aux dommages causés par les rayonnements ionisants."
+    },
+    {
+        "en_h":  "Radioresistance",
+        "fr_h":  "Radiorésistance",
+        "d_fr":  "La résistance relative des cellules, tissus ou organismes aux effets dommageables des rayonnements ionisants."
+    },
+    {
+        "en_h":  "Differentiation",
+        "fr_h":  "Différenciation",
+        "d_fr":  "Le degré auquel les cellules tumorales ressemblent aux cellules normales du tissu d\u0027origine."
+    },
+    {
+        "en_h":  "Remission",
+        "fr_h":  "Rémission",
+        "d_fr":  "Une période pendant laquelle les signes et symptômes d\u0027une maladie, particulièrement le cancer, sont réduits ou absents."
+    },
+    {
+        "en_h":  "Resectable",
+        "fr_h":  "Résécable",
+        "d_fr":  "Décrivant une tumeur qui peut être enlevée chirurgicalement dans un but curatif ou de bénéfice significatif."
+    },
+    {
+        "en_h":  "Inoperable",
+        "fr_h":  "Inopérable",
+        "d_fr":  "Décrivant une tumeur ou une affection qui ne peut pas être traitée efficacement par ablation chirurgicale."
+    },
+    {
+        "en_h":  "Tumor marker",
+        "fr_h":  "Marqueur tumoral",
+        "d_fr":  "Une substance présente dans le sang, l\u0027urine ou les tissus qui peut indiquer la présence d\u0027un cancer."
+    },
+    {
+        "en_h":  "Fractionation",
+        "fr_h":  "Fractionnement",
+        "d_fr":  "La division d\u0027une dose totale de radiation en doses plus petites administrées sur le temps pour réduire les effets secondaires."
+    },
+    {
+        "en_h":  "Fulguration",
+        "fr_h":  "Fulguration",
+        "d_fr":  "Destruction de tissu par des étincelles électriques à haute fréquence, souvent pour des lésions superficielles."
+    },
+    {
+        "en_h":  "En bloc resection",
+        "fr_h":  "Résection en bloc",
+        "d_fr":  "Ablation chirurgicale d\u0027une tumeur avec une marge de tissu normal environnant comme une seule unité."
+    },
+    {
+        "en_h":  "Myelodysplastic syndrome",
+        "fr_h":  "Syndrome myélodysplasique",
+        "fr_l":  "Myélodysplasie",
+        "d_fr":  "Un groupe de troubles causés par des cellules sanguines mal formées dans la moelle osseuse entraînant des cytopénies."
+    },
+    {
+        "en_h":  "Myeloproliferative neoplasm",
+        "fr_h":  "Néoplasie myéloproliférative",
+        "d_fr":  "Un groupe de cancers du sang où la moelle osseuse produit un nombre excessif de cellules sanguines."
+    },
+    {
+        "en_h":  "Immune thrombocytopenic purpura",
+        "fr_h":  "Purpura thrombopénique immunologique",
+        "d_fr":  "Un trouble auto-immun causant une diminution du nombre de plaquettes et un risque accru de saignement."
+    },
+    {
+        "en_h":  "Fine-needle aspiration",
+        "fr_h":  "Ponction à l\u0027aiguille fine",
+        "fr_l":  "Biopsie à l\u0027aiguille fine",
+        "d_fr":  "Une procédure de biopsie utilisant une aiguille fine pour extraire des cellules d\u0027une masse suspecte pour examen microscopique."
+    },
+    {
+        "en_h":  "Radiotherapy",
+        "fr_h":  "Radiothérapie",
+        "d_fr":  "L\u0027utilisation de rayonnements à haute énergie pour tuer les cellules cancéreuses ou réduire les tumeurs."
+    },
+    {
+        "en_h":  "Immunoglobulin",
+        "fr_h":  "Immunoglobuline",
+        "d_fr":  "Une protéine produite par les plasmocytes qui fonctionne comme un anticorps dans la réponse immunitaire."
+    },
+    {
+        "en_h":  "Intravenous immunoglobulin",
+        "fr_h":  "Immunoglobuline intraveineuse",
+        "d_fr":  "Un produit sanguin contenant des anticorps regroupés administré par voie intraveineuse pour traiter les déficits immunitaires et les affections auto-immunes."
+    },
+    {
+        "en_h":  "Kawasaki disease",
+        "fr_h":  "Maladie de Kawasaki",
+        "d_fr":  "Une vascularite aiguë affectant principalement les enfants, impliquant souvent les artères coronaires."
+    },
+    {
+        "en_h":  "Ferritin",
+        "fr_h":  "Ferritine",
+        "d_fr":  "Une protéine qui stocke le fer dans l\u0027organisme et sert de marqueur des réserves en fer."
+    },
+    {
+        "en_h":  "Carcinoid syndrome",
+        "fr_h":  "Syndrome carcinoïde",
+        "d_fr":  "Un ensemble de symptômes causés par des hormones libérées par des tumeurs carcinoïdes, incluant des bouffées de chaleur et de la diarrhée."
+    },
+    {
+        "en_h":  "Neurotoxicity",
+        "fr_h":  "Neurotoxicité",
+        "d_fr":  "Dommages au système nerveux causés par des substances toxiques, y compris certains agents de chimiothérapie."
+    },
+    {
+        "en_h":  "Microcalcification",
+        "fr_h":  "Microcalcification",
+        "d_fr":  "Dépôts calciques minuscules dans le tissu mammaire qui peuvent indiquer la présence d\u0027un cancer à la mammographie."
+    },
+    {
+        "en_h":  "Lobectomy",
+        "fr_h":  "Lobectomie",
+        "d_fr":  "Ablation chirurgicale d\u0027un lobe d\u0027un organe, le plus souvent un lobe pulmonaire."
+    },
+    {
+        "en_h":  "Cadaver",
+        "fr_h":  "Cadavre",
+        "d_fr":  "Un corps humain décédé utilisé pour l\u0027étude anatomique ou la transplantation d\u0027organes."
+    },
+    {
+        "en_h":  "Convalescence",
+        "fr_h":  "Convalescence",
+        "d_fr":  "Le rétablissement progressif de la santé et des forces après une maladie ou une blessure."
+    },
+    {
+        "en_h":  "Implantable port",
+        "fr_h":  "Chambre à cathéter implantable",
+        "fr_l":  "Port-à-cath",
+        "d_fr":  "Un petit dispositif médical implanté sous la peau pour un accès intraveineux à long terme."
+    },
+    {
+        "en_h":  "Peripherally inserted central catheter",
+        "fr_h":  "Cathéter central à insertion périphérique",
+        "d_fr":  "Un long cathéter inséré par une veine périphérique, typiquement au bras, avec son extrémité dans une grande veine centrale."
     }
 ]

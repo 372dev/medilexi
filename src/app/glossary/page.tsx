@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect, Suspense, type ReactNode } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
+import { slugify } from '@/lib/slug'
 import vocabData from '@/data/medical_vocab.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
@@ -71,11 +72,11 @@ function Card({ v, onFieldClick, mm }: { v: VocabEntry; onFieldClick: (f: string
         <span className={`c-stars ${STAR_CLASS[v.lvl]||''}`} role="img" aria-label={`Importance: ${LVL_TEXT[v.lvl]}`}>{STARS[v.lvl]}</span>
         {v.abbr && <span className="c-abbr">{hi(v.abbr, mm?.abbr)}</span>}
       </div>
-      <div style={{ fontSize:'1.15rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.15rem', lineHeight:1.3 }}>
+      <Link href={`/term/${slugify(v.en_h)}`} className="c-card-title" style={{ display:'block', fontSize:'1.15rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.15rem', lineHeight:1.3, textDecoration:'none' }}>
         {hovered && v.parts ? segs.map((s,i) => s.wp
           ? <span key={i} className={`c-part-highlight c-part-${s.type}`} data-tooltip={`${s.wp} · ${s.meaning}`}>{s.text}</span>
           : <span key={i}>{s.text}</span>) : hi(v.en_h, mm?.en_h)}
-      </div>
+      </Link>
       {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.4rem' }}>{hi(v.en_l, mm?.en_l)}</div>}
       <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem' }}>{hi(v.d, mm?.d)}</p>
       <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>

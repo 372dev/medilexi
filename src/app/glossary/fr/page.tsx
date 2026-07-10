@@ -10,6 +10,7 @@ import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, LVL_TEXT, normalizeLvl }
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { getSegments } from '@/lib/word-segments'
 import { rankTier } from '@/lib/search-rank'
+import { slugify } from '@/lib/slug'
 
 interface BaseEntry { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: number; parts?: { p?: string[]; r?: string[]; s?: string[] } }
 interface FrEntry  { en_h: string; fr_h: string; fr_l?: string; d_fr?: string }
@@ -79,11 +80,11 @@ function FrCard({ v, defLang, onFieldClick, mm }: { v: MergedEntry; defLang: 'fr
         <span className={`c-stars ${STAR_CLASS[v.lvl]||''}`} role="img" aria-label={`Importance: ${LVL_TEXT[v.lvl]}`}>{STARS[v.lvl]}</span>
         {v.abbr && <span className="c-abbr">{hi(v.abbr, mm?.abbr)}</span>}
       </div>
-      <div style={{ fontSize:'1.15rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.15rem', lineHeight:1.3 }}>
+      <Link href={`/term/${slugify(v.en_h)}`} className="c-card-title" style={{ display:'block', fontSize:'1.15rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.15rem', lineHeight:1.3, textDecoration:'none' }}>
         {hovered && v.parts ? segs.map((s,i) => s.wp
           ? <span key={i} className={`c-part-highlight c-part-${s.type}`} data-tooltip={`${s.wp} · ${s.meaning}`}>{s.text}</span>
           : <span key={i}>{s.text}</span>) : hi(v.en_h, mm?.en_h)}
-      </div>
+      </Link>
       {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.3rem' }}>{hi(v.en_l, mm?.en_l)}</div>}
       <div style={{ fontSize:'1.05rem', fontWeight:600, color:'var(--color-text)', marginBottom:'0.1rem' }}>{hi(v.fr_h, mm?.fr_h)}</div>
       {v.fr_l && <div style={{ fontSize:'0.95rem', color:'var(--color-text-dim)', marginBottom:'0.1rem' }}>{hi(v.fr_l, mm?.fr_l)}</div>}

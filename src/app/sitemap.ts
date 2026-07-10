@@ -10,6 +10,7 @@ const LAST_MOD = new Date()
 const STATIC_ROUTES: Array<{ path: string; priority: number }> = [
   { path: '/',                    priority: 1.0 },
   { path: '/glossary',            priority: 0.9 },
+  { path: '/terms',               priority: 0.8 },
   { path: '/glossary/ko',         priority: 0.9 },
   { path: '/glossary/fr',         priority: 0.9 },
   { path: '/wordparts',           priority: 0.8 },

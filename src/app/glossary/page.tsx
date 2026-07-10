@@ -165,7 +165,10 @@ function GlossaryContent() {
               </button>
             ))}
           </div>
-          <span className="c-count" style={{ marginBottom:0 }}>{filtered.length} terms</span>
+          <span className="c-count" style={{ marginBottom:0, display:'flex', alignItems:'center', gap:'0.6rem' }}>
+            {filtered.length} terms
+            <Link href="/terms" style={{ color:'var(--color-accent)', textDecoration:'none', fontSize:'0.8rem' }}>Browse all A–Z →</Link>
+          </span>
         </div>
       </div>
 

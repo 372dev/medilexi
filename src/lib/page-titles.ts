@@ -2,6 +2,7 @@
 // and the client shell (header title) so the two never drift.
 export const PAGE_TITLES: Record<string, string> = {
   '/glossary':            'English Glossary',
+  '/terms':               'All Terms A–Z',
   '/glossary/ko':         'Korean Glossary',
   '/glossary/fr':         'French Glossary',
   '/wordparts':           'Medical Word Parts',

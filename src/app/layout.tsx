@@ -9,6 +9,7 @@ const BASE_URL = 'https://medilexi.vercel.app'
 const PAGE_DESCRIPTIONS: Record<string, string> = {
   '/':                    'Learn medical vocabulary with prefix · root · suffix breakdowns, 1,000+ term glossary, flashcards and quiz. Free study tool for medical students.',
   '/glossary':            'Search 1,000+ medical terms with definitions, clinical specialties, importance levels, and word-part breakdowns.',
+  '/terms':               'Browse every Medi Lexi medical term A to Z — 1,345 entries with English, Korean, and French translations and word-part breakdowns.',
   '/glossary/ko':         'Bilingual English–Korean medical glossary with Korean definitions, IME-safe search, and word-part highlights.',
   '/wordparts':           '600+ medical word parts — prefixes, roots, and suffixes — with meanings, examples, and clinical usage.',
   '/wordparts/flashcard': 'Study medical word parts with interactive flashcards. Quiz mode, level filters, and missed-card review.',
@@ -126,6 +127,7 @@ const PAGE_SCHEMA: Record<string, object> = {
 
 const BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> = {
   '/glossary':            [{ name: 'Home', path: '/' }, { name: 'English Glossary',   path: '/glossary' }],
+  '/terms':               [{ name: 'Home', path: '/' }, { name: 'All Terms A–Z',      path: '/terms' }],
   '/glossary/ko':         [{ name: 'Home', path: '/' }, { name: 'Korean Glossary',    path: '/glossary/ko' }],
   '/wordparts':           [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }],
   '/wordparts/flashcard': [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }, { name: 'Flashcard', path: '/wordparts/flashcard' }],

@@ -3264,9 +3264,6 @@
         "d":  "An abnormal dermal sensation (such as tingling, pricking, or numbness) experienced without any clear external sensory stimulus.",
         "lvl":  2,
         "parts":  {
-                      "p":  [
-                                "para-"
-                            ],
                       "r":  [
                                 "esthesi/o"
                             ],
@@ -3815,7 +3812,7 @@
         "lvl":  2,
         "parts":  {
                       "s":  [
-                                "-ectasia"
+                                "-ectasis"
                             ]
                   }
     },
@@ -3833,7 +3830,7 @@
                                 "bronch/o"
                             ],
                       "s":  [
-                                "-ectasia"
+                                "-ectasis"
                             ]
                   }
     },
@@ -4261,9 +4258,6 @@
         "d":  "The production of an abnormally small volume of urine, often indicating kidney dysfunction or reduced renal perfusion.",
         "lvl":  2,
         "parts":  {
-                      "p":  [
-                                "oligo-"
-                            ],
                       "s":  [
                                 "-uria"
                             ]
@@ -16170,7 +16164,10 @@
         "lvl":  3,
         "parts":  {
                       "p":  [
-                                "postero-"
+                                "post-"
+                            ],
+                      "s":  [
+                                "-ior"
                             ]
                   }
     },
@@ -16732,8 +16729,8 @@
         "d":  "Relating to the back or posterior surface of the body, as in the dorsal surface of the hand which faces away from the palm.",
         "lvl":  1,
         "parts":  {
-                      "p":  [
-                                "dorso-"
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -16746,8 +16743,8 @@
         "d":  "Relating to the front or anterior surface of the body, used interchangeably with anterior in standard human anatomical descriptions.",
         "lvl":  1,
         "parts":  {
-                      "p":  [
-                                "ventro-"
+                      "s":  [
+                                "-al"
                             ]
                   }
     },
@@ -19416,8 +19413,10 @@
         "lvl":  2,
         "parts":  {
                       "r":  [
-                                "sclero-",
-                                "derm/o"
+                                "sclero-"
+                            ],
+                      "s":  [
+                                "-derma"
                             ]
                   }
     },

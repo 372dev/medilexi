@@ -1,85 +1,51 @@
-# Medi Lexi — candidate queue
+# Medi Lexi — candidate targets
 
-Terms proposed for addition to the glossary. **This is a to-do list, not data.**
-Read `meta/DATA_RULES.md` before working from it, and dedup against `meta/en_h.txt`.
+**What to look for**, for a job that proposes new English term candidates. It does one thing:
+suggest medical term *names* that aren't in the glossary yet. Everything after that — how a term
+is worded, rated, translated, and validated — is done separately by a human-reviewed process and
+is **not** described here.
 
-> This is the public, agent-readable slice of a larger private working file.
-> Process notes, decisions, and pending field-level updates live outside the repo.
+Two inputs are all you need:
+1. **The current entry list** — `meta/en_h.txt` (every `en_h`, one per line, sorted). A candidate
+   is only new if it is **not** in that file.
+2. **The target areas below** — the clinical areas that are under-covered and want more terms.
 
----
-
-## Status
-
-- **Glossary:** 1,345 entries per file (`medical_vocab.json` / `_ko` / `_fr` — always equal).
-- **Index:** `meta/en_h.txt`, 1,345 lines, sorted. **Generated** — never hand-edit.
-- **`en_h` convention:** sentence case (see DATA_RULES §2).
-
-## Already shipped — do NOT re-propose
-
-Pain descriptors · body systems · the 38 field/specialty entries · medical staff roles ·
-neurology · reproductive & OB-GYN · cardiopulmonary · cardiovascular/GI/urology ·
-dermatology, infectious disease & pediatrics · musculoskeletal · oncology/hematology/immunology.
-
-Everything in these clusters is in `meta/en_h.txt`. **Always dedup against that file** rather than
-trusting this list — it is a summary, not an inventory.
+Output: append proposed term names under the matching area. Do not add anything to the glossary
+data itself; a person reviews every candidate before it becomes an entry.
 
 ---
 
-## Open queue
+## Already well-covered — look elsewhere
 
-### Dentistry / oral-maxillofacial
-- Alveoloplasty
-- Resorption
-- Osseointegration
-- Maxillofacial
-- Periodontal
-- Bruxism
-- Mandibular arch
-- Maxillary arch
+Pain descriptors · body systems · medical specialties · medical staff roles · neurology ·
+reproductive & OB-GYN · cardiopulmonary · cardiovascular / GI / urology · dermatology, infectious
+disease & pediatrics · musculoskeletal · oncology / hematology / immunology.
 
-### Ophthalmology
-- Choroidal degeneration
-- ~~Nearsightedness~~ — **Myopia already exists**; this is an `en_l` update, not an add
-- Macular dystrophy
-- Visual acuity
-- YAG laser
+These are broadly filled in. New candidates in them are welcome only if genuinely missing from
+`meta/en_h.txt` — check there, it is the source of truth, not this summary.
 
-### Pharmacology
-- Benzodiazepine — singular; drug class, so the `d` may carry the drug-example clause
-- Anxiolytic
-- Pharmacokinetics
-- Biotin
-- Water soluble — adjective; consider **Water solubility**
-- Sulphate — standardize to **Sulfate**
+## Target areas — want more terms
 
-### Anatomy / imaging / general
-- Coronal plane
-- Ear canal
-- Drape
-- Coordination
-- Fine motor skill
-- Loop electrosurgical excision procedure — `abbr` LEEP
-- Ultrasonography — this is a **rename** of the existing `Ultrasound`, not an add
+Terms a medical interpreter or translator would actually meet: intake forms, clinical notes,
+patient conversations, discharge instructions. Prefer common terms over rare academic ones.
 
-### Healthcare Administration
-_Small cluster; the `Healthcare Administration` field is new and barely used._
-- Health Insurance Portability and Accountability Act — `abbr` HIPAA
-- Explanation of benefits — `abbr` EOB
-- Verbal consent form
-- Discharge
-- Case management
+- **Dentistry / oral & maxillofacial**
+- **Ophthalmology**
+- **Pharmacology** — drug classes, common agents, routes, properties
+- **Anatomy & imaging** — planes, regions, structures, procedures
+- **Healthcare administration** — insurance, billing, consent paperwork, referrals, discharge,
+  care coordination (non-clinical health-system terms)
+- **Endocrinology**, **Otolaryngology**, **Ophthalmology**, **Urology** — spot-check for gaps
 
-### Stragglers
-- Systolic — confirmed new (deduped 2026-07-10).
-- ~~Referral~~, ~~Myomectomy~~ — already exist; removed from the queue.
+## Already queued (a person picked these — don't repeat them)
+
+Alveoloplasty · Resorption · Osseointegration · Maxillofacial · Periodontal · Bruxism ·
+Mandibular arch · Maxillary arch · Choroidal degeneration · Macular dystrophy · Visual acuity ·
+YAG laser · Anxiolytic · Pharmacokinetics · Biotin · Coronal plane · Ear canal · Drape ·
+Coordination · Fine motor skill · Loop electrosurgical excision procedure · Systolic · HIPAA ·
+Explanation of benefits · Verbal consent form · Discharge · Case management.
 
 ---
 
-## Notes for whoever works this queue
-
-- **Do not add entries directly.** Propose them; a human approves English, then Korean, then
-  French, before anything is written.
-- Run intake in the order given in DATA_RULES §9: in-list dedup → standardize → dedup the
-  **standardized** forms against `meta/en_h.txt`.
-- Several items above are adjectives (`Periodontal`, `Maxillofacial`, `Water soluble`) or plurals
-  (`Benzodiazepines`). Standardize them before deduping — the noun form may already exist.
+Proposed candidates are raw suggestions. A human decides whether each one is added, how it is
+worded, and everything else.

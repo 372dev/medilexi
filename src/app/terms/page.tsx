@@ -33,7 +33,7 @@ function groupByLetter(terms: Vocab[]): { letter: string; items: Vocab[] }[] {
     if (bucket) bucket.push(t)
     else groups.set(letter, [t])
   }
-  return [...groups.entries()]
+  return Array.from(groups.entries())
     .sort(([a], [b]) => (a === '#' ? 1 : b === '#' ? -1 : a.localeCompare(b)))
     .map(([letter, items]) => ({ letter, items }))
 }

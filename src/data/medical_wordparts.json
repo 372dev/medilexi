@@ -8097,26 +8097,26 @@
                ]
     },
     {
-        "wp":  "-osis, -pathy",
+        "wp":  "-osis",
         "t":  "s",
         "lvl":  3,
-        "d":  "(Greek: -osis) Abnormal condition or process; (Greek: -pathy) Disease, disorder",
+        "d":  "(Greek) Abnormal condition or process",
         "ex":  [
                    [
-                       "Leukocytosis",
-                       "Abnormal increase in white blood cells"
-                   ],
-                   [
-                       "Neuropathy",
-                       "Disease or dysfunction of the peripheral nerves"
+                       "Cyanosis",
+                       "Bluish discoloration of the skin and mucous membranes caused by low blood oxygen"
                    ],
                    [
                        "Thrombosis",
-                       "Formation of a blood clot within a vessel"
+                       "Formation of a blood clot within a blood vessel"
                    ],
                    [
-                       "Hepatopathy",
-                       "Disease or disorder of the liver"
+                       "Necrosis",
+                       "Death of tissue in a localized area of the body"
+                   ],
+                   [
+                       "Fibrosis",
+                       "Formation of excess fibrous connective tissue that causes scarring"
                    ]
                ]
     },
@@ -8141,6 +8141,30 @@
                    [
                        "Monoparesis",
                        "Weakness of a single limb"
+                   ]
+               ]
+    },
+    {
+        "wp":  "-pathy",
+        "t":  "s",
+        "lvl":  3,
+        "d":  "(Greek) Disease, disorder",
+        "ex":  [
+                   [
+                       "Neuropathy",
+                       "Disease or dysfunction of the peripheral nerves"
+                   ],
+                   [
+                       "Cardiomyopathy",
+                       "Disease of the heart muscle that impairs its ability to pump blood"
+                   ],
+                   [
+                       "Retinopathy",
+                       "Disease or damage of the retina, often from diabetes or hypertension"
+                   ],
+                   [
+                       "Encephalopathy",
+                       "Any disease or dysfunction affecting the brain"
                    ]
                ]
     },

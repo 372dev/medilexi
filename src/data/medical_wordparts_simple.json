@@ -1857,8 +1857,7 @@
     {
         "wp":  "-osis",
         "t":  "s",
-        "d":  "(Greek: -osis) Abnormal condition or process; (Greek: -pathy) Disease, disorder",
-        "alt":  "-osis, -pathy"
+        "d":  "(Greek) Abnormal condition or process"
     },
     {
         "wp":  "-paresis",
@@ -1868,8 +1867,7 @@
     {
         "wp":  "-pathy",
         "t":  "s",
-        "d":  "(Greek: -osis) Abnormal condition or process; (Greek: -pathy) Disease, disorder",
-        "alt":  "-osis, -pathy"
+        "d":  "(Greek) Disease, disorder"
     },
     {
         "wp":  "-penia",

@@ -31,7 +31,7 @@ export default function Home() {
         Multilingual Medical Glossary
       </p>
       <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.7, maxWidth:'460px', textAlign:'center', marginBottom:'1.75rem' }}>
-        1,000+ medical terms · 600+ word parts · for students, medical interpreters &amp; translators
+        1,300+ medical terms · 600+ word parts · for students, medical interpreters &amp; translators
       </p>
 
       <nav style={{ width:'100%', maxWidth:'520px', display:'flex', flexDirection:'column', gap:'0.65rem' }}>
@@ -58,7 +58,7 @@ export default function Home() {
           <div style={{ ...tileBase('var(--color-accent)'), display:'flex', flexDirection:'column' }}>
             <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-accent)', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>ENGLISH</div>
             <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>English</div>
-            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>1,000+ clinical terms</div>
+            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>1,300+ clinical terms</div>
             <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
               <Link href="/glossary" style={outline('var(--color-accent)')}>Glossary</Link>
               <Link href="/flashcards" style={outline('var(--color-accent)')}>Flashcard</Link>

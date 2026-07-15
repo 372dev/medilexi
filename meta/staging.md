@@ -425,6 +425,84 @@ These change entries already in the glossary — handled via the update flow, no
 - Suture removal
 - Catheter irrigation
 
+### Symptoms & signs
+- Fatigue
+- Malaise
+- Lightheadedness
+- Tingling
+- Chest tightness
+- Bloating
+- Chills
+- Night sweats
+- Loss of appetite
+- Bruising
+- Blurred vision
+- Double vision
+- Hoarseness
+- Stiffness
+- Fainting
+- Nasal congestion
+- Sore throat
+- Heartburn
+- Muscle ache
+- Joint pain
+
+### Nursing & patient care
+- Respiratory rate
+- Oxygen saturation
+- Intake and output
+- Ambulation
+- Fall risk
+- Bed rest
+- Wound care
+- Dressing change
+- Aspiration precautions
+- Fluid restriction
+- Bowel movement
+- Sitz bath
+- Pressure ulcer
+- Incentive spirometer
+- Restraint
+
+### Mental health
+- Panic attack
+- Paranoia
+- Withdrawal
+- Detoxification
+- Grief
+- Coping mechanism
+
+### Anesthesia & perioperative
+- Recovery room
+- Intraoperative
+- Regional anesthesia
+- Post-anesthesia care unit
+- Malignant hyperthermia
+- Aspiration pneumonia
+
+### Pregnancy & childbirth
+- Effacement
+- Fetal monitoring
+- Amniotic fluid
+- Rupture of membranes
+- Breech presentation
+- Induction of labor
+- Vacuum extraction
+- Gestational age
+- Colostrum
+- Lactation
+- Apgar score
+- Preterm birth
+- Stillbirth
+- Morning sickness
+- Labor and delivery
+- Fetal heart rate
+- Forceps delivery
+- Prenatal care
+- Breastfeeding
+- Newborn screening
+- Neonatal intensive care unit
+
 ### Subtypes of existing entries (confirm scope)
 - Total hysterectomy (TAH)
 - Partial hysterectomy

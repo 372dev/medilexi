@@ -22,14 +22,17 @@ Action potential
 Acute
 Acute coronary syndrome
 Acute respiratory distress syndrome
+Addison's disease
 Adduction
 Adenitis
 Adenocarcinoma
+Adenoidectomy
 Adenoma
 Adipose tissue
 Adjuvant therapy
 Adrenal cortex
 Adrenal gland
+Adrenal insufficiency
 Adrenalectomy
 Adrenaline
 Adrenocortical carcinoma
@@ -53,6 +56,7 @@ Alveoloplasty
 Alveolus
 Alzheimer's disease
 Ambidextrous
+Amblyopia
 Ambulatory care
 Amebiasis
 Amenorrhea
@@ -88,10 +92,13 @@ Anterior
 Antibiotic
 Antibody
 Anticoagulant
+Anticonvulsant
 Antidepressant
 Antidiuretic hormone
+Antiemetic
 Antifungal
 Antigen
+Antihistamine
 Antiparasitic
 Antiperspirant
 Antipruritic
@@ -167,6 +174,7 @@ Bioavailability
 Biopsy
 Biotin
 Bipolar disorder
+Bladder cancer
 Blepharitis
 Blepharoptosis
 Blepharospasm
@@ -249,6 +257,7 @@ Cerebrospinal fluid
 Cerebrovascular accident
 Cerebrum
 Certified nursing assistant
+Cerumen impaction
 Cervical region
 Cervix
 Charge nurse
@@ -280,6 +289,7 @@ Chronic kidney disease
 Chronic obstructive pulmonary disease
 Chronobiology
 Cicatrix
+Circumcision
 Cirrhosis
 Claustrophobia
 Clavicle
@@ -287,6 +297,7 @@ Coagulation
 Coccydynia
 Coccyx
 Cochlea
+Cochlear implant
 Cognitive behavioral therapy
 Cognitive impairment
 Cold pain
@@ -305,6 +316,7 @@ Comorbidity
 Compliance / adherence
 Compulsion
 Computed tomography
+Conductive hearing loss
 Condyle
 Condyloma
 Congestive heart failure
@@ -319,6 +331,7 @@ Contrast agent
 Contusion
 Convalescence
 Coordination
+Copayment
 Cor pulmonale
 Cornea
 Corneal transplant
@@ -328,7 +341,9 @@ Coronary artery
 Coronary artery bypass graft
 Coronary artery disease
 Corpus callosum
+Corticosteroid
 Corticosteroid cream
+Cortisol
 Costochondritis
 Counselor
 Cramping pain
@@ -361,13 +376,18 @@ Debridement
 Decompensation
 Deconditioning
 Decubitus ulcer
+Deductible
 Deep vein thrombosis
 Dehydration
 Delirium
 Delusion
 Dementia
+Dental caries
+Dental crown
+Dental implant
 Dentist
 Dentistry
+Dentures
 Depigmentation
 Depression
 Dermabrasion
@@ -380,6 +400,7 @@ Dermatoplasty
 Dermatosis
 Dermis
 Dermoid cyst
+Deviated septum
 Dextrocardia
 Diabetes insipidus
 Diabetes mellitus
@@ -409,6 +430,7 @@ Doppler ultrasound
 Dorsal
 Doula
 Drape
+Dry eye syndrome
 Dry gangrene
 Dull pain
 Duodenitis
@@ -458,6 +480,7 @@ Endocarditis
 Endocardium
 Endocrine system
 Endocrinology
+Endodontics
 Endometriosis
 Endometrium
 Endoscope
@@ -475,6 +498,7 @@ Epiglottitis
 Epilepsy
 Episiotomy
 Epistaxis
+Erectile dysfunction
 Erythema
 Erythrocyte
 Erythroderma
@@ -520,6 +544,7 @@ Follicle
 Follow-up
 Forced vital capacity
 Formication
+Formulary
 Fractionation
 Fracture
 Frontal lobe
@@ -562,14 +587,18 @@ Glycan residue
 Glycolysis
 Glycosuria
 Gnawing pain
+Goiter
 Gonorrhea
 Gout
+Graves' disease
 Guillain-Barré syndrome
 Gynecomastia
 Hair follicle
+Half-life
 Hallucination
 Hamstring
 Hand tremor
+Hashimoto's thyroiditis
 Headache
 Health Insurance Portability and Accountability Act
 Health literacy
@@ -590,6 +619,7 @@ Hemiparesis
 Hemiplegia
 Hemodialysis
 Hemoglobin
+Hemoglobin A1c
 Hemolysis
 Hemoptysis
 Hemorrhage
@@ -620,6 +650,7 @@ Hyperesthesia
 Hyperglycemia
 Hyperhidrosis
 Hyperkalemia
+Hyperlipidemia
 Hyperopia
 Hyperparathyroidism
 Hyperpigmentation
@@ -631,6 +662,7 @@ Hypertrophy
 Hyperventilation
 Hypoglycemia
 Hypokalemia
+Hypoparathyroidism
 Hypospadias
 Hypothalamus
 Hypothermia
@@ -655,6 +687,7 @@ Immunodeficiency
 Immunoglobulin
 Immunology
 Immunotherapy
+Impacted tooth
 Impetigo
 Implantable port
 Incision and drainage
@@ -666,6 +699,7 @@ Inferior
 Inflammation
 Inoperable
 Insomnia
+Insulin resistance
 Integumentary system
 Intermittent claudication
 Intermittent pain
@@ -673,10 +707,12 @@ Intern
 Internal examination
 Internal Medicine
 Intersex
+Interstitial cystitis
 Intervertebral disc
 Intestinal metaplasia
 Intestinal obstruction
 Intramuscular injection
+Intraocular pressure
 Intravenous
 Intravenous immunoglobulin
 Intravenous pyelogram
@@ -737,6 +773,7 @@ Lithotripsy
 Liver
 Living trust
 Living will
+Loading dose
 Lobectomy
 Local anesthesia
 Localized pain
@@ -763,6 +800,7 @@ Magnetic resonance imaging
 Malignant
 Malignant melanoma
 Malnutrition
+Malocclusion
 Mammary gland
 Mammogram
 Mammography
@@ -772,6 +810,7 @@ Mandibular arch
 Mania
 Marital status
 Mastocytosis
+Mastoiditis
 Maxillary arch
 Maxillofacial
 Medial
@@ -785,6 +824,7 @@ Melanoma
 Melanoptysis
 Melatonin
 Melena
+Meniere's disease
 Meninges
 Meningioma
 Meningitis
@@ -842,6 +882,7 @@ Nagging pain
 Nail
 Narcolepsy
 Nasal cavity
+Nasal polyp
 Nasopharynx
 Nausea
 Necrosis
@@ -858,6 +899,7 @@ Nephron
 Nephropexy
 Nephroptosis
 Nephrosis
+Nephrostomy
 Nephrotic syndrome
 Nephrotoxic
 Nerve
@@ -893,6 +935,7 @@ Nystagmus
 Obesity
 Obsessive-compulsive disorder
 Obstetrics & Gynecology
+Obstructive sleep apnea
 Occipital lobe
 Occupational therapist
 Occupational therapy
@@ -911,6 +954,7 @@ Open heart surgery
 Open surgery
 Ophthalmology
 Ophthalmoscope
+Opioid
 Optic nerve
 Optimistic
 Optometrist
@@ -937,11 +981,14 @@ Otitis
 Otitis media
 Otolaryngology
 Otorrhea
+Otosclerosis
 Otoscope
+Out-of-pocket maximum
 Ovarian cyst
 Ovarian torsion
 Ovariotomy
 Ovary
+Overactive bladder
 Ovum
 Pacemaker
 Pain
@@ -992,6 +1039,7 @@ Peripherally inserted central catheter
 Peritoneal dialysis
 Peritoneum
 Peritonitis
+Peritonsillar abscess
 Perivascular
 Personality disorder
 Pertussis
@@ -1018,6 +1066,7 @@ Pia mater
 Pigmentation
 Pinching pain
 Pineal gland
+Pituitary adenoma
 Pituitary gland
 Placenta
 Placenta previa
@@ -1049,7 +1098,9 @@ Postpartum
 Postpartum hemorrhage
 Post-traumatic stress disorder
 Potassium hydroxide preparation
+Power of attorney
 Pre-admission testing
+Prediabetes
 Premature atrial contraction
 Prenatal
 Preoperative
@@ -1061,20 +1112,24 @@ Pressure-like pain
 Preventive care
 Priapism
 Primary care provider
+Prior authorization
 Proctitis
 Proctologist
 Proctoscopy
 Prodrome
 Prognosis
 Progressive pain
+Prolactin
 Prophylaxis
 Prostate gland
+Prostatectomy
 Prostate-specific antigen
 Prostatitis
 Prostatomegaly
 Prosthesis
 Prosthodontist
 Proteinuria
+Proton pump inhibitor
 Protrusion
 Proximal
 Pruritus
@@ -1163,6 +1218,7 @@ Rhonchi
 Rhytidectomy
 Rib
 Rigors
+Root canal
 Rotator cuff
 Rubella
 Sacral nerve
@@ -1190,6 +1246,7 @@ Seizure
 Selective serotonin reuptake inhibitor
 Self-harm
 Seminal vesicle
+Sensorineural hearing loss
 Sensory receptor
 Sensory system
 Sepsis
@@ -1244,6 +1301,7 @@ Squamous cell carcinoma
 Squeezing pain
 Stabbing pain
 Staphylococcus
+Statin
 Stenosis
 Sternotomy
 Sternum
@@ -1287,6 +1345,7 @@ Tardive dyskinesia
 Tdap vaccine
 Tearing pain
 Telangiectasia
+Telehealth
 Temporal lobe
 Temporomandibular joint
 Tenderness
@@ -1314,19 +1373,24 @@ Thrombolysis
 Thrombosis
 Thymus
 Thyroid gland
+Thyroid nodule
 Thyroidectomy
+Thyroid-stimulating hormone
 Thyrotoxicosis
 Tibia
 Tinea
 Tinea capitis
 Tinea pedis
 Tinnitus
+Titration
 Tolerance
 Tomography
 Tongue
 Tonic-clonic seizure
 Tonometer
+Tonsillectomy
 Tonsillitis
+Tooth extraction
 Topography
 Total hysterectomy
 Total knee arthroplasty
@@ -1363,6 +1427,7 @@ Tympanic membrane
 Tympanometry
 Tympanoplasty
 Tympanosclerosis
+Tympanostomy tube
 Ulcer
 Ulna
 Ulnar
@@ -1375,6 +1440,7 @@ Unbearable pain
 Uneasy
 Upper respiratory tract infection
 Ureter
+Ureteral stent
 Ureterolithiasis
 Ureteropelvic junction obstruction
 Ureteroscopy
@@ -1385,6 +1451,7 @@ Urinary bladder
 Urinary incontinence
 Urinary system
 Urinary tract infection
+Urodynamic study
 Urolithiasis
 Urology
 Urticaria
@@ -1430,6 +1497,8 @@ Visceromegaly
 Visual acuity
 Vital signs
 Vitiligo
+Vitrectomy
+Vocal cord nodule
 Voluntary movement
 Volvulus
 Vulva

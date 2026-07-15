@@ -45,6 +45,15 @@ These change entries already in the glossary — handled via the update flow, no
 - Bruxism
 - Mandibular arch
 - Maxillary arch
+- Dental caries
+- Root canal
+- Dental crown
+- Dental implant
+- Malocclusion
+- Impacted tooth
+- Tooth extraction
+- Endodontics
+- Dentures
 
 ### Ophthalmology
 - Choroidal degeneration
@@ -54,6 +63,10 @@ These change entries already in the glossary — handled via the update flow, no
 - Secondary cataract
 - Multifocal lens
 - Presbyopia
+- Intraocular pressure
+- Amblyopia
+- Dry eye syndrome
+- Vitrectomy
 
 ### Pharmacology
 - Benzodiazepine
@@ -65,6 +78,16 @@ These change entries already in the glossary — handled via the update flow, no
 - Selective serotonin reuptake inhibitor (SSRI)
 - Bronchodilator
 - Radioisotope
+- Corticosteroid
+- Statin
+- Proton pump inhibitor
+- Antihistamine
+- Opioid
+- Half-life
+- Loading dose
+- Titration
+- Antiemetic
+- Anticonvulsant
 
 ### Anatomy & imaging
 - Coronal plane
@@ -94,6 +117,57 @@ These change entries already in the glossary — handled via the update flow, no
 - Pre-admission testing
 - Living trust
 - Living will
+- Copayment
+- Deductible
+- Prior authorization
+- Power of attorney
+- Formulary
+- Telehealth
+- Out-of-pocket maximum
+
+### Endocrinology
+- Goiter
+- Thyroid nodule
+- Graves' disease
+- Hashimoto's thyroiditis
+- Addison's disease
+- Adrenal insufficiency
+- Insulin resistance
+- Prediabetes
+- Cortisol
+- Prolactin
+- Thyroid-stimulating hormone
+- Hyperlipidemia
+- Pituitary adenoma
+- Hypoparathyroidism
+- Hemoglobin A1c
+
+### Otolaryngology (ENT)
+- Tonsillectomy
+- Adenoidectomy
+- Tympanostomy tube
+- Deviated septum
+- Sensorineural hearing loss
+- Conductive hearing loss
+- Cerumen impaction
+- Nasal polyp
+- Otosclerosis
+- Meniere's disease
+- Mastoiditis
+- Vocal cord nodule
+- Cochlear implant
+- Peritonsillar abscess
+
+### Urology
+- Prostatectomy
+- Overactive bladder
+- Erectile dysfunction
+- Nephrostomy
+- Urodynamic study
+- Circumcision
+- Bladder cancer
+- Ureteral stent
+- Interstitial cystitis
 
 ### General clinical (2026-07-10 intake)
 - Abdominal binder
@@ -155,6 +229,7 @@ These change entries already in the glossary — handled via the update flow, no
 - Abdominal aortic aneurysm (AAA)
 - Vasomotor rhinitis
 - Dermoid cyst
+- Obstructive sleep apnea (OSA)
 
 <!-- QUEUE:END -->
 

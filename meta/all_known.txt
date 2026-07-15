@@ -10,6 +10,7 @@ Abnormal uterine bleeding
 Abrasion
 Abruptio placentae
 Abscess
+ACE inhibitor
 Ache
 Achondroplasia
 Acne
@@ -81,6 +82,7 @@ Angiogram
 Angiography
 Angiopathy
 Angioplasty
+Angiotensin receptor blocker
 Anhedonia
 Anhidrosis
 Ankylosing spondylitis
@@ -91,6 +93,7 @@ Anoxia
 Anterior
 Antibiotic
 Antibody
+Anticholinergic
 Anticoagulant
 Anticonvulsant
 Antidepressant
@@ -105,6 +108,7 @@ Antipruritic
 Antipsychotic
 Antipyretic
 Antiseptic
+Antiviral
 Anuria
 Anus
 Anxiety
@@ -167,6 +171,7 @@ Benign
 Benign paroxysmal positional vertigo
 Benign prostatic hyperplasia
 Benzodiazepine
+Beta-agonist
 Beta-blocker
 Biceps
 Bilateral
@@ -181,6 +186,7 @@ Blepharospasm
 Blinding pain
 Body mass index
 Bone
+Bone density scan
 Bone mineral density
 Borderline personality disorder
 Boring pain
@@ -213,6 +219,7 @@ Bursitis
 Cachexia
 Cadaver
 Calcific tendinitis
+Calcium channel blocker
 Canalolithiasis
 Capillary
 Capitate
@@ -260,6 +267,7 @@ Certified nursing assistant
 Cerumen impaction
 Cervical region
 Cervix
+Chalazion
 Charge nurse
 Chemabrasion
 Chemotherapy
@@ -300,6 +308,7 @@ Cochlea
 Cochlear implant
 Cognitive behavioral therapy
 Cognitive impairment
+Coinsurance
 Cold pain
 Colicky pain
 Colitis
@@ -324,6 +333,7 @@ Conscious sedation
 Consent
 Constant pain
 Continuity of care
+Continuous glucose monitor
 Contraception
 Contraindication
 Contralateral
@@ -334,6 +344,7 @@ Coordination
 Copayment
 Cor pulmonale
 Cornea
+Corneal abrasion
 Corneal transplant
 Corneitis
 Coronal plane
@@ -366,6 +377,7 @@ Cutaneous
 Cuticle
 Cyanosis
 Cyst
+Cystectomy
 Cystitis
 Cystoscope
 Cystoscopy
@@ -382,9 +394,12 @@ Dehydration
 Delirium
 Delusion
 Dementia
+Dental abscess
 Dental caries
 Dental crown
 Dental implant
+Dental prophylaxis
+Dentin
 Dentist
 Dentistry
 Dentures
@@ -405,6 +420,8 @@ Dextrocardia
 Diabetes insipidus
 Diabetes mellitus
 Diabetic ketoacidosis
+Diabetic nephropathy
+Diabetic neuropathy
 Diabetic retinopathy
 Diagnosis
 Dialysis
@@ -421,6 +438,7 @@ Dilation and curettage
 Diphtheria
 Diplopia
 Discharge
+Discharge summary
 Disseminated intravascular coagulation
 Dissociation
 Distal
@@ -430,6 +448,7 @@ Doppler ultrasound
 Dorsal
 Doula
 Drape
+Drug interaction
 Dry eye syndrome
 Dry gangrene
 Dull pain
@@ -466,6 +485,7 @@ Electrocardiography
 Electrocautery
 Electroconvulsive therapy
 Electroencephalogram
+Electrolyte imbalance
 Electromyography
 Electronic medical record
 Emergency medical technician
@@ -473,6 +493,7 @@ Emergency Medicine
 Emphysema
 Empyema
 En bloc resection
+Enamel
 Encephalitis
 Encephalocele
 Encephalopathy
@@ -489,9 +510,11 @@ End-stage renal disease
 Enteritis
 Enterocolitis
 Enteroscopy
+Enucleation
 Epidermis
 Epidermoid cyst
 Epididymis
+Epididymitis
 Epidural
 Epiglottis
 Epiglottitis
@@ -510,6 +533,7 @@ Esophagoscopy
 Esophagus
 Estriol
 Estrogen
+Eustachian tube
 Euthanasia
 Exacerbation
 Excisional biopsy
@@ -519,6 +543,7 @@ Exhausting pain
 Exocrine
 Exophthalmos
 Explanation of benefits
+Extended-release
 Extracorporeal membrane oxygenation
 Extremity
 Facial nerve
@@ -540,6 +565,9 @@ Fine motor skill
 Fine-needle aspiration
 Fissure
 Flexor digitorum
+Floaters
+Fluoride
+Fluoroscopy
 Follicle
 Follow-up
 Forced vital capacity
@@ -576,6 +604,7 @@ Gingivectomy
 Gingivitis
 Glaucoma
 Glenohumeral joint
+Globus sensation
 Glomerulonephritis
 Glomerulosclerosis
 Glomerulus
@@ -638,11 +667,13 @@ Hidradenitis
 Hip joint
 Hippocampus
 Hirsutism
+Hordeolum
 Hospitalist
 Humerus
 Hydrocele
 Hydrocephalus
 Hydronephrosis
+Hypercalcemia
 Hypercapnia
 Hyperemesis
 Hyperemia
@@ -662,6 +693,7 @@ Hypertrophy
 Hyperventilation
 Hypoglycemia
 Hypokalemia
+Hyponatremia
 Hypoparathyroidism
 Hypospadias
 Hypothalamus
@@ -686,6 +718,7 @@ Immune thrombocytopenic purpura
 Immunodeficiency
 Immunoglobulin
 Immunology
+Immunosuppressant
 Immunotherapy
 Impacted tooth
 Impetigo
@@ -697,15 +730,19 @@ Infection
 Infectious Disease
 Inferior
 Inflammation
+In-network
 Inoperable
 Insomnia
+Insulin pump
 Insulin resistance
+Insurance premium
 Integumentary system
 Intermittent claudication
 Intermittent pain
 Intern
 Internal examination
 Internal Medicine
+Interpreter services
 Intersex
 Interstitial cystitis
 Intervertebral disc
@@ -730,13 +767,16 @@ Juxtaglomerular
 Kaposi's sarcoma
 Kawasaki disease
 Keloid
+Keratoconus
 Keratosis
 Kidney
+Kidney transplant
 Knee joint
 Kyphoplasty
 Kyphosis
 Labiodental
 Labioplasty
+Labyrinthitis
 Laceration
 Lacrimal gland
 Laparohysteropexy
@@ -753,6 +793,7 @@ Laser therapy
 Last menstrual period
 Latch
 Lateral
+Laxative
 Lens
 Lesion
 Leukemia
@@ -761,6 +802,7 @@ Leukocytosis
 Leukoderma
 Leukopenia
 Levocardia
+Levothyroxine
 Licensed practical nurse
 Ligament
 Limp
@@ -797,6 +839,7 @@ Macular degeneration
 Macular dystrophy
 Macule
 Magnetic resonance imaging
+Maintenance dose
 Malignant
 Malignant melanoma
 Malnutrition
@@ -818,6 +861,7 @@ Median nerve
 Medical assistant
 Medical history
 Medical laboratory technician
+Medical record number
 Medical social worker
 Melanocyte
 Melanoma
@@ -855,6 +899,7 @@ Mucus
 Multifocal lens
 Multiple sclerosis
 Muscle
+Muscle relaxant
 Muscular dystrophy
 Musculoskeletal
 Musculoskeletal system
@@ -883,6 +928,7 @@ Nail
 Narcolepsy
 Nasal cavity
 Nasal polyp
+Nasal turbinate
 Nasopharynx
 Nausea
 Necrosis
@@ -910,6 +956,7 @@ Neuralgia
 Neuroblastoma
 Neurodegenerative disease
 Neurogenesis
+Neurogenic bladder
 Neurologist
 Neurology
 Neuron
@@ -921,6 +968,7 @@ Neutropenia
 Neutrophil
 Nevus
 Nevus simplex
+Next of kin
 Nil per os
 Nitroglycerin
 Nocturia
@@ -939,6 +987,7 @@ Obstructive sleep apnea
 Occipital lobe
 Occupational therapist
 Occupational therapy
+Ocular hypertension
 Oculomotor
 Olfactory groove
 Oligospermia
@@ -983,12 +1032,14 @@ Otolaryngology
 Otorrhea
 Otosclerosis
 Otoscope
+Out-of-network
 Out-of-pocket maximum
 Ovarian cyst
 Ovarian torsion
 Ovariotomy
 Ovary
 Overactive bladder
+Overbite
 Ovum
 Pacemaker
 Pain
@@ -1091,8 +1142,10 @@ Polymyositis
 Polypharmacy
 Polyuria
 Porphyria
+Positron emission tomography
 Postauricular
 Posterior
+Postnasal drip
 Postoperative
 Postpartum
 Postpartum hemorrhage
@@ -1118,6 +1171,7 @@ Proctologist
 Proctoscopy
 Prodrome
 Prognosis
+Progress note
 Progressive pain
 Prolactin
 Prophylaxis
@@ -1142,6 +1196,7 @@ Psychiatry
 Psychologist
 Psychosis
 Psychotherapy
+Pterygium
 Pudendal block
 Pulmonary artery
 Pulmonary edema
@@ -1150,6 +1205,7 @@ Pulmonary fibrosis
 Pulmonary valve
 Pulmonary vein
 Pulmonology
+Pulpitis
 Purpura
 Purulent
 Pustule
@@ -1174,6 +1230,7 @@ Radioisotope
 Radiologic technologist
 Radiologist
 Radiology
+Radiopharmaceutical
 Radioresistance
 Radiosensitivity
 Radiotherapy
@@ -1191,6 +1248,7 @@ Regurgitation
 Rehabilitation Medicine
 Relapse
 Remission
+Renal colic
 Renal pelvis
 Renogram
 Reproductive system
@@ -1258,6 +1316,7 @@ Serology
 Severe pain
 Sharp pain
 Shooting pain
+Sialolithiasis
 Sickening pain
 Sigmoid colon
 Sigmoiditis
@@ -1268,6 +1327,8 @@ Sinusitis
 Sinusotomy
 Skin graft
 Sleep apnea
+Sliding scale fee
+Slit lamp
 Small intestine
 Smoking cessation
 Snare
@@ -1300,6 +1361,7 @@ Sputum
 Squamous cell carcinoma
 Squeezing pain
 Stabbing pain
+Stapedectomy
 Staphylococcus
 Statin
 Stenosis
@@ -1313,6 +1375,7 @@ Stool guaiac test
 Strabismus
 Stratum basale
 Streptococcus
+Stress incontinence
 Stridor
 Subcutaneous injection
 Subcutaneous tissue
@@ -1323,10 +1386,13 @@ Sudden infant death syndrome
 Sudoriferous gland
 Suicidal ideation
 Sulfate
+Superbill
 Superficial
 Superior
+Suppository
 Suppurative
 Supragingival
+Suprapubic catheter
 Surgeon
 Surgery
 Symptom
@@ -1347,6 +1413,7 @@ Tearing pain
 Telangiectasia
 Telehealth
 Temporal lobe
+Temporomandibular disorder
 Temporomandibular joint
 Tenderness
 Tendon
@@ -1356,6 +1423,7 @@ Tenodesis
 Tenorrhaphy
 Tenosynovitis
 Testicle
+Testicular torsion
 Testis
 Tetanus
 Thalamus
@@ -1372,9 +1440,11 @@ Thrombocytopenia
 Thrombolysis
 Thrombosis
 Thymus
+Thyroglossal cyst
 Thyroid gland
 Thyroid nodule
 Thyroidectomy
+Thyroiditis
 Thyroid-stimulating hormone
 Thyrotoxicosis
 Tibia
@@ -1388,6 +1458,7 @@ Tomography
 Tongue
 Tonic-clonic seizure
 Tonometer
+Tonometry
 Tonsillectomy
 Tonsillitis
 Tooth extraction
@@ -1437,6 +1508,8 @@ Umbilical cord
 Umbilical hernia
 Umbilicus
 Unbearable pain
+Underbite
+Undescended testicle
 Uneasy
 Upper respiratory tract infection
 Ureter
@@ -1445,10 +1518,13 @@ Ureterolithiasis
 Ureteropelvic junction obstruction
 Ureteroscopy
 Urethra
+Urethral stricture
 Urethritis
 Urethroplasty
+Urge incontinence
 Urinary bladder
 Urinary incontinence
+Urinary retention
 Urinary system
 Urinary tract infection
 Urodynamic study
@@ -1458,6 +1534,7 @@ Urticaria
 Uterine leiomyoma
 Uterine prolapse
 Uterus
+Uveitis
 Vaccination / immunization
 Vagina
 Vagus nerve
@@ -1496,6 +1573,7 @@ Visceroceptors
 Visceromegaly
 Visual acuity
 Vital signs
+Vitamin D deficiency
 Vitiligo
 Vitrectomy
 Vocal cord nodule
@@ -1508,6 +1586,7 @@ Weak pulse
 Wet gangrene
 Wheal
 Wheezing
+Wisdom tooth
 Xanthochromia
 Xanthoderma
 Xanthoma

@@ -54,6 +54,16 @@ These change entries already in the glossary — handled via the update flow, no
 - Tooth extraction
 - Endodontics
 - Dentures
+- Wisdom tooth
+- Fluoride
+- Temporomandibular disorder
+- Enamel
+- Dentin
+- Pulpitis
+- Overbite
+- Underbite
+- Dental abscess
+- Dental prophylaxis
 
 ### Ophthalmology
 - Choroidal degeneration
@@ -67,6 +77,17 @@ These change entries already in the glossary — handled via the update flow, no
 - Amblyopia
 - Dry eye syndrome
 - Vitrectomy
+- Floaters
+- Uveitis
+- Keratoconus
+- Chalazion
+- Hordeolum
+- Pterygium
+- Enucleation
+- Slit lamp
+- Tonometry
+- Ocular hypertension
+- Corneal abrasion
 
 ### Pharmacology
 - Benzodiazepine
@@ -88,6 +109,20 @@ These change entries already in the glossary — handled via the update flow, no
 - Titration
 - Antiemetic
 - Anticonvulsant
+- Levothyroxine
+- Beta-agonist
+- ACE inhibitor
+- Calcium channel blocker
+- Angiotensin receptor blocker
+- Anticholinergic
+- Muscle relaxant
+- Laxative
+- Antiviral
+- Immunosuppressant
+- Suppository
+- Extended-release
+- Maintenance dose
+- Drug interaction
 
 ### Anatomy & imaging
 - Coronal plane
@@ -105,6 +140,10 @@ These change entries already in the glossary — handled via the update flow, no
 - Extremity
 - Coccyx
 - Mammary gland
+- Positron emission tomography
+- Bone density scan
+- Fluoroscopy
+- Radiopharmaceutical
 
 ### Healthcare administration
 - Health Insurance Portability and Accountability Act (HIPAA)
@@ -124,6 +163,17 @@ These change entries already in the glossary — handled via the update flow, no
 - Formulary
 - Telehealth
 - Out-of-pocket maximum
+- Coinsurance
+- Insurance premium
+- In-network
+- Out-of-network
+- Superbill
+- Progress note
+- Medical record number
+- Next of kin
+- Interpreter services
+- Sliding scale fee
+- Discharge summary
 
 ### Endocrinology
 - Goiter
@@ -141,6 +191,15 @@ These change entries already in the glossary — handled via the update flow, no
 - Pituitary adenoma
 - Hypoparathyroidism
 - Hemoglobin A1c
+- Thyroiditis
+- Vitamin D deficiency
+- Electrolyte imbalance
+- Hyponatremia
+- Hypercalcemia
+- Diabetic nephropathy
+- Diabetic neuropathy
+- Insulin pump
+- Continuous glucose monitor
 
 ### Otolaryngology (ENT)
 - Tonsillectomy
@@ -157,6 +216,14 @@ These change entries already in the glossary — handled via the update flow, no
 - Vocal cord nodule
 - Cochlear implant
 - Peritonsillar abscess
+- Postnasal drip
+- Eustachian tube
+- Labyrinthitis
+- Nasal turbinate
+- Stapedectomy
+- Sialolithiasis
+- Globus sensation
+- Thyroglossal cyst
 
 ### Urology
 - Prostatectomy
@@ -168,6 +235,18 @@ These change entries already in the glossary — handled via the update flow, no
 - Bladder cancer
 - Ureteral stent
 - Interstitial cystitis
+- Renal colic
+- Neurogenic bladder
+- Epididymitis
+- Testicular torsion
+- Urinary retention
+- Stress incontinence
+- Urge incontinence
+- Suprapubic catheter
+- Cystectomy
+- Urethral stricture
+- Undescended testicle
+- Kidney transplant
 
 ### General clinical (2026-07-10 intake)
 - Abdominal binder

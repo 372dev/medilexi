@@ -349,6 +349,82 @@ These change entries already in the glossary — handled via the update flow, no
 - Total hip replacement
 - Bone spur
 
+### Lab tests & diagnostics
+- Complete blood count
+- Basic metabolic panel
+- Comprehensive metabolic panel
+- Lipid panel
+- Liver function test
+- Thyroid function test
+- Urinalysis
+- Prothrombin time
+- International normalized ratio
+- Partial thromboplastin time
+- Erythrocyte sedimentation rate
+- C-reactive protein
+- Blood urea nitrogen
+- Hematocrit
+- Platelet count
+- White blood cell count
+- Blood type
+- Arterial blood gas
+- Troponin
+- B-type natriuretic peptide
+- D-dimer
+- Fasting blood sugar
+- Glucose tolerance test
+- Blood culture
+- Sputum culture
+- Bilirubin
+- Alkaline phosphatase
+- Amylase
+- Lipase
+- Potassium level
+- Sodium level
+
+### Medical devices & equipment
+- Foley catheter
+- Central venous catheter
+- Nasogastric tube
+- Feeding tube
+- Chest tube
+- Tracheostomy tube
+- Nebulizer
+- Inhaler
+- Oxygen concentrator
+- Continuous positive airway pressure machine
+- Wheelchair
+- Walker
+- Crutches
+- Cane
+- Orthosis
+- Splint
+- Cast
+- Compression stockings
+- Blood pressure cuff
+- Pulse oximeter
+- Infusion pump
+- Implanted port
+- Hearing aid
+- Colostomy bag
+- Speculum
+- Tourniquet
+- Surgical mesh
+- Skin staple
+- Gauze
+- Drain
+
+### Procedures
+- Extubation
+- Enema
+- Skin closure
+- Wound irrigation
+- Central line placement
+- Bone marrow biopsy
+- Skin biopsy
+- Suture removal
+- Catheter irrigation
+
 ### Subtypes of existing entries (confirm scope)
 - Total hysterectomy (TAH)
 - Partial hysterectomy

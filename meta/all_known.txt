@@ -51,6 +51,7 @@ Agoraphobia
 Akathisia
 Albinism
 Albuminuria
+Alkaline phosphatase
 Allergy
 Allograft
 Alopecia
@@ -66,6 +67,7 @@ Amniocentesis
 Amniotomy
 Amphiarthrosis
 Amputation
+Amylase
 Amyotrophic lateral sclerosis
 Analgesic
 Anaphylaxis
@@ -131,6 +133,7 @@ Appendicitis
 Appendix
 Arachnoid mater
 Arrhythmia
+Arterial blood gas
 Arteriography
 Arteriosclerosis
 Arthralgia
@@ -168,6 +171,7 @@ Bactericide
 Barium swallow
 Basal cell carcinoma
 Basal ganglia
+Basic metabolic panel
 BCG vaccine
 Bell's palsy
 Benign
@@ -178,6 +182,7 @@ Beta-agonist
 Beta-blocker
 Biceps
 Bilateral
+Bilirubin
 Bioavailability
 Biopsy
 Biotin
@@ -187,9 +192,14 @@ Blepharitis
 Blepharoptosis
 Blepharospasm
 Blinding pain
+Blood culture
+Blood pressure cuff
+Blood type
+Blood urea nitrogen
 Body mass index
 Bone
 Bone density scan
+Bone marrow biopsy
 Bone mineral density
 Bone spur
 Borderline personality disorder
@@ -215,6 +225,7 @@ Bronchoscopy
 Bronchospasm
 Bronchus
 Bruxism
+B-type natriuretic peptide
 Buccinator
 Bulimia nervosa
 Bulla
@@ -226,6 +237,7 @@ Cadaver
 Calcific tendinitis
 Calcium channel blocker
 Canalolithiasis
+Cane
 Capillary
 Capitate
 Carbuncle
@@ -253,12 +265,16 @@ Carpectomy
 Cartilage
 Case management
 Case manager
+Cast
 Cataract
 Catatonia
+Catheter irrigation
 Cauterization
 Cecum
 Celiac disease
 Cellulitis
+Central line placement
+Central venous catheter
 Cephalgia
 Cephalic region
 Cephalocaudal
@@ -282,6 +298,7 @@ Chalazion
 Charge nurse
 Chemabrasion
 Chemotherapy
+Chest tube
 Chief complaint
 Chiropractor
 Chlamydia
@@ -328,13 +345,17 @@ Colonoscopy
 Colorectal cancer
 Colorectal Surgery
 Colostomy
+Colostomy bag
 Colovesical fistula
 Colpocystocele
 Colposcopy
 Comedo
 Common bile duct
 Comorbidity
+Complete blood count
 Compliance / adherence
+Comprehensive metabolic panel
+Compression stockings
 Compulsion
 Computed tomography
 Concussion
@@ -347,6 +368,7 @@ Consent
 Constant pain
 Continuity of care
 Continuous glucose monitor
+Continuous positive airway pressure machine
 Contraception
 Contraindication
 Contralateral
@@ -375,11 +397,13 @@ Cranial cavity
 Craniosynostosis
 Craniotomy
 Cranium
+C-reactive protein
 Critical Care
 Critical Care Medicine
 Crohn's disease
 Crural region
 Crushing pain
+Crutches
 Cryosurgery
 Cryptorchidism
 CT simulator
@@ -398,6 +422,7 @@ Cystoscopy
 Cytokine
 Cytotoxic
 Dacryocystitis
+D-dimer
 Debridement
 Decompensation
 Deconditioning
@@ -463,6 +488,7 @@ Dizziness
 Doppler ultrasound
 Dorsal
 Doula
+Drain
 Drape
 Drug interaction
 Dry eye syndrome
@@ -523,6 +549,7 @@ Endometrium
 Endoscope
 Endoscopy
 End-stage renal disease
+Enema
 Enteritis
 Enterocolitis
 Enteroscopy
@@ -540,6 +567,7 @@ Epistaxis
 Erectile dysfunction
 Erythema
 Erythrocyte
+Erythrocyte sedimentation rate
 Erythroderma
 Erythropoietin
 Eschar
@@ -562,14 +590,17 @@ Explanation of benefits
 Extended-release
 Extracorporeal membrane oxygenation
 Extremity
+Extubation
 Facial nerve
 Fallopian tube
 Family Medicine
 Fascia
 Fasciectomy
 Fasciitis
+Fasting blood sugar
 Fatty acid
 Fecal occult blood test
+Feeding tube
 Fellow
 Femoral artery
 Femur
@@ -585,6 +616,7 @@ Flexor digitorum
 Floaters
 Fluoride
 Fluoroscopy
+Foley catheter
 Follicle
 Follow-up
 Forced vital capacity
@@ -611,6 +643,7 @@ Gastroenterology
 Gastroesophageal reflux disease
 Gastrointestinal bleeding
 Gastroparesis
+Gauze
 General anesthesia
 General Medicine
 Genetics
@@ -629,6 +662,7 @@ Glomerulus
 Glossitis
 Glucagon
 Glucometer
+Glucose tolerance test
 Gluteal muscles
 Glycan residue
 Glycolysis
@@ -650,6 +684,7 @@ Hashimoto's thyroiditis
 Headache
 Health Insurance Portability and Accountability Act
 Health literacy
+Hearing aid
 Heart
 Heart failure
 Heart valve
@@ -658,6 +693,7 @@ Heaviness
 Hemangioma
 Hematemesis
 Hematochezia
+Hematocrit
 Hematologic system
 Hematology
 Hematosalpinx
@@ -746,6 +782,7 @@ Immunotherapy
 Impacted tooth
 Impetigo
 Implantable port
+Implanted port
 In vitro fertilization
 Incision and drainage
 Infantile hemangioma
@@ -755,6 +792,8 @@ Infectious Disease
 Inferior
 Inflammation
 Inflammatory bowel disease
+Infusion pump
+Inhaler
 In-network
 Inoperable
 Insomnia
@@ -767,6 +806,7 @@ Intermittent pain
 Intern
 Internal examination
 Internal Medicine
+International normalized ratio
 Interpreter services
 Intersex
 Interstitial cystitis
@@ -833,12 +873,15 @@ Licensed practical nurse
 Ligament
 Limp
 Linguogingival
+Lipase
+Lipid panel
 Lipoma
 Liposuction
 Liquid diet
 Litholapaxy
 Lithotripsy
 Liver
+Liver function test
 Living trust
 Living will
 Loading dose
@@ -957,8 +1000,10 @@ Narcolepsy
 Nasal cavity
 Nasal polyp
 Nasal turbinate
+Nasogastric tube
 Nasopharynx
 Nausea
+Nebulizer
 Necrosis
 Necrotizing fasciitis
 Neoadjuvant therapy
@@ -1044,6 +1089,7 @@ Oropharynx
 Orthodontics
 Orthopedics
 Orthopnea
+Orthosis
 Orthostatic hypotension
 Osseointegration
 Osteoarthritis
@@ -1069,6 +1115,7 @@ Ovary
 Overactive bladder
 Overbite
 Ovum
+Oxygen concentrator
 Pacemaker
 Pain
 Palliative Care
@@ -1094,6 +1141,7 @@ Parietal lobe
 Parkinson's disease
 Paronychia
 Partial hysterectomy
+Partial thromboplastin time
 Patella
 Pathology
 Pediatrics
@@ -1153,6 +1201,7 @@ Placenta
 Placenta previa
 Plantar fasciitis
 Plastic Surgery
+Platelet count
 Pleura
 Pleural effusion
 Pleuritic chest pain
@@ -1181,6 +1230,7 @@ Postpartum
 Postpartum hemorrhage
 Post-traumatic stress disorder
 Potassium hydroxide preparation
+Potassium level
 Power of attorney
 Pre-admission testing
 Prediabetes
@@ -1214,6 +1264,7 @@ Prostatomegaly
 Prosthesis
 Prosthodontist
 Proteinuria
+Prothrombin time
 Proton pump inhibitor
 Protrusion
 Proximal
@@ -1237,6 +1288,7 @@ Pulmonary valve
 Pulmonary vein
 Pulmonology
 Pulpitis
+Pulse oximeter
 Purpura
 Purulent
 Pustule
@@ -1358,18 +1410,23 @@ Sigmoidoscopy
 Sign
 Sinusitis
 Sinusotomy
+Skin biopsy
+Skin closure
 Skin graft
+Skin staple
 Sleep apnea
 Sliding scale fee
 Slit lamp
 Small intestine
 Smoking cessation
 Snare
+Sodium level
 Somatic symptom disorder
 Somatosensory
 Somnolence
 Sonographer
 Soreness
+Speculum
 Speech therapy
 Speech-language pathologist
 Sphygmomanometer
@@ -1385,12 +1442,14 @@ Splanchnic nerves
 Spleen
 Splenectomy
 Splenomegaly
+Splint
 Splitting pain
 Spondylitis
 Spondylolisthesis
 Spondylosis
 Sprain
 Sputum
+Sputum culture
 Squamous cell carcinoma
 Squeezing pain
 Stabbing pain
@@ -1429,6 +1488,8 @@ Supragingival
 Suprapubic catheter
 Surgeon
 Surgery
+Surgical mesh
+Suture removal
 Symptom
 Symptomatic
 Synapse
@@ -1476,6 +1537,7 @@ Thrombolysis
 Thrombosis
 Thymus
 Thyroglossal cyst
+Thyroid function test
 Thyroid gland
 Thyroid nodule
 Thyroidectomy
@@ -1502,11 +1564,13 @@ Total hip replacement
 Total hysterectomy
 Total knee arthroplasty
 Total knee replacement
+Tourniquet
 Toxemia
 Toxicology
 Trachea
 Tracheitis
 Tracheostomy
+Tracheostomy tube
 Tracheotomy
 Transcutaneous
 Transdermal
@@ -1526,6 +1590,7 @@ Tricuspid
 Tricuspid valve
 Trimester
 Trismus
+Troponin
 Tubal ligation
 Tuberculosis
 Tumor marker
@@ -1560,6 +1625,7 @@ Urethral stricture
 Urethritis
 Urethroplasty
 Urge incontinence
+Urinalysis
 Urinary bladder
 Urinary incontinence
 Urinary retention
@@ -1619,12 +1685,16 @@ Voluntary movement
 Volvulus
 Vulva
 Waddling gait
+Walker
 Water solubility
 Weak pulse
 Wet gangrene
 Wheal
+Wheelchair
 Wheezing
+White blood cell count
 Wisdom tooth
+Wound irrigation
 Xanthochromia
 Xanthoderma
 Xanthoma

@@ -19,6 +19,7 @@ Acne vulgaris
 Acoustic neuroma
 Acromegaly
 Acrophobia
+Actinic keratosis
 Action potential
 Acute
 Acute coronary syndrome
@@ -91,6 +92,7 @@ Anorexia nervosa
 Anosognosia
 Anoxia
 Anterior
+Anterior cruciate ligament tear
 Antibiotic
 Antibody
 Anticholinergic
@@ -163,6 +165,7 @@ Axillary vein
 Bacteremia
 Bacterial vaginosis
 Bactericide
+Barium swallow
 Basal cell carcinoma
 Basal ganglia
 BCG vaccine
@@ -188,8 +191,10 @@ Body mass index
 Bone
 Bone density scan
 Bone mineral density
+Bone spur
 Borderline personality disorder
 Boring pain
+Bowel obstruction
 Brachial arteritis
 Brachial region
 Brachycephaly
@@ -228,12 +233,15 @@ Carcinoid syndrome
 Carcinoma
 Cardiac arrest
 Cardiac biomarker
+Cardiac catheterization
 Cardiac sphincter
+Cardiac stress test
 Cardiac tamponade
 Cardiogenic
 Cardiologist
 Cardiology
 Cardiomegaly
+Cardiomyopathy
 Cardiopulmonary resuscitation
 Cardiovascular system
 Cardioversion
@@ -249,6 +257,7 @@ Cataract
 Catatonia
 Cauterization
 Cecum
+Celiac disease
 Cellulitis
 Cephalgia
 Cephalic region
@@ -265,8 +274,10 @@ Cerebrovascular accident
 Cerebrum
 Certified nursing assistant
 Cerumen impaction
+Cervical dysplasia
 Cervical region
 Cervix
+Cesarean section
 Chalazion
 Charge nurse
 Chemabrasion
@@ -314,6 +325,7 @@ Colicky pain
 Colitis
 Colon
 Colonoscopy
+Colorectal cancer
 Colorectal Surgery
 Colostomy
 Colovesical fistula
@@ -325,6 +337,7 @@ Comorbidity
 Compliance / adherence
 Compulsion
 Computed tomography
+Concussion
 Conductive hearing loss
 Condyle
 Condyloma
@@ -364,6 +377,7 @@ Craniotomy
 Cranium
 Critical Care
 Critical Care Medicine
+Crohn's disease
 Crural region
 Crushing pain
 Cryosurgery
@@ -390,6 +404,7 @@ Deconditioning
 Decubitus ulcer
 Deductible
 Deep vein thrombosis
+Defibrillator
 Dehydration
 Delirium
 Delusion
@@ -439,6 +454,7 @@ Diphtheria
 Diplopia
 Discharge
 Discharge summary
+Dislocation
 Disseminated intravascular coagulation
 Dissociation
 Distal
@@ -553,6 +569,7 @@ Fascia
 Fasciectomy
 Fasciitis
 Fatty acid
+Fecal occult blood test
 Fellow
 Femoral artery
 Femur
@@ -585,6 +602,7 @@ Fungal scrapings
 Furuncle
 Galactorrhea
 Gallbladder
+Gallstones
 Gangrene
 Gastrectomy
 Gastritis
@@ -620,6 +638,7 @@ Goiter
 Gonorrhea
 Gout
 Graves' disease
+Guillain-Barre syndrome
 Guillain-Barré syndrome
 Gynecomastia
 Hair follicle
@@ -634,6 +653,7 @@ Health literacy
 Heart
 Heart failure
 Heart valve
+Heart valve replacement
 Heaviness
 Hemangioma
 Hematemesis
@@ -653,6 +673,7 @@ Hemolysis
 Hemoptysis
 Hemorrhage
 Hemorrhagic cystitis
+Hemorrhoids
 Hemostasis
 Hemothorax
 Hepatic fibrosis
@@ -661,12 +682,14 @@ Hepatitis
 Hepatoma
 Hepatomegaly
 Hepatotoxic
+Herniated disc
 Herniorrhaphy
 Herpes zoster
 Hidradenitis
 Hip joint
 Hippocampus
 Hirsutism
+Holter monitor
 Hordeolum
 Hospitalist
 Humerus
@@ -723,6 +746,7 @@ Immunotherapy
 Impacted tooth
 Impetigo
 Implantable port
+In vitro fertilization
 Incision and drainage
 Infantile hemangioma
 Infarction
@@ -730,6 +754,7 @@ Infection
 Infectious Disease
 Inferior
 Inflammation
+Inflammatory bowel disease
 In-network
 Inoperable
 Insomnia
@@ -757,6 +782,7 @@ Intubation
 Intussusception
 Ipsilateral
 Iris
+Irritable bowel syndrome
 Ischemia
 Jaundice
 Jejunitis
@@ -874,6 +900,7 @@ Meningioma
 Meningitis
 Meningocele
 Meniscus
+Meniscus tear
 Menopause
 Menorrhagia
 Mental health
@@ -889,6 +916,7 @@ Midwife
 Migraine
 Migrating pain
 Mild pain
+Miscarriage
 Miserable pain
 Mitral valve
 Mitral valve prolapse
@@ -1052,6 +1080,7 @@ Pancreatitis
 Pancreatography
 Pancytopenia
 Panic disorder
+Pap smear
 Papilledema
 Papule
 Paracentesis
@@ -1075,6 +1104,7 @@ Pelvic examination
 Pelvic inflammatory disease
 Pelvis
 Penis
+Peptic ulcer
 Percutaneous
 Percutaneous coronary intervention
 Pericardiocentesis
@@ -1154,6 +1184,7 @@ Potassium hydroxide preparation
 Power of attorney
 Pre-admission testing
 Prediabetes
+Preeclampsia
 Premature atrial contraction
 Prenatal
 Preoperative
@@ -1278,6 +1309,7 @@ Rib
 Rigors
 Root canal
 Rotator cuff
+Rotator cuff tear
 Rubella
 Sacral nerve
 Sagittal plane
@@ -1315,6 +1347,7 @@ Sequela
 Serology
 Severe pain
 Sharp pain
+Shingles
 Shooting pain
 Sialolithiasis
 Sickening pain
@@ -1373,6 +1406,7 @@ Stinging pain
 Stomach
 Stool guaiac test
 Strabismus
+Strain
 Stratum basale
 Streptococcus
 Stress incontinence
@@ -1416,6 +1450,7 @@ Temporal lobe
 Temporomandibular disorder
 Temporomandibular joint
 Tenderness
+Tendinitis
 Tendon
 Tendonitis
 Tenesmus
@@ -1463,8 +1498,10 @@ Tonsillectomy
 Tonsillitis
 Tooth extraction
 Topography
+Total hip replacement
 Total hysterectomy
 Total knee arthroplasty
+Total knee replacement
 Toxemia
 Toxicology
 Trachea
@@ -1500,6 +1537,7 @@ Tympanoplasty
 Tympanosclerosis
 Tympanostomy tube
 Ulcer
+Ulcerative colitis
 Ulna
 Ulnar
 Ultrasonography

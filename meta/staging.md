@@ -299,6 +299,56 @@ These change entries already in the glossary — handled via the update flow, no
 - Optimistic
 - Uneasy
 
+### Cardiology
+- Cardiac catheterization
+- Defibrillator
+- Holter monitor
+- Cardiac stress test
+- Cardiomyopathy
+- Heart valve replacement
+
+### Neurology
+- Concussion
+- Guillain-Barre syndrome
+
+### Gastroenterology
+- Irritable bowel syndrome
+- Inflammatory bowel disease
+- Crohn's disease
+- Ulcerative colitis
+- Peptic ulcer
+- Gallstones
+- Colorectal cancer
+- Hemorrhoids
+- Celiac disease
+- Bowel obstruction
+- Barium swallow
+- Fecal occult blood test
+
+### Dermatology
+- Shingles
+- Actinic keratosis
+
+### Obstetrics & Gynecology
+- Cesarean section
+- Preeclampsia
+- Miscarriage
+- Pap smear
+- Cervical dysplasia
+- In vitro fertilization
+
+### Orthopedics
+- Herniated disc
+- Rotator cuff tear
+- Anterior cruciate ligament tear
+- Meniscus tear
+- Tendinitis
+- Strain
+- Dislocation
+- Total knee replacement
+- Total hip replacement
+- Bone spur
+
 ### Subtypes of existing entries (confirm scope)
 - Total hysterectomy (TAH)
 - Partial hysterectomy

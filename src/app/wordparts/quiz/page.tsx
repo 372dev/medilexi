@@ -249,7 +249,7 @@ export default function WordPartsPractice() {
             </div>
             <p style={{ fontSize:'0.95rem', color:'var(--color-text-dim)' }}>
               {total === 0 ? 'No questions answered yet.'
-                : score === total ? 'Perfect — every one right!'
+                : score === total ? 'Perfect! Every one right.'
                 : score >= total * 0.8 ? 'Great session!'
                 : 'Keep practicing!'}
             </p>

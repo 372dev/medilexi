@@ -51,7 +51,7 @@ export default function PrivacyPage() {
         <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.3rem', marginBottom: '0.75rem' }}>
           {[
             'Page URLs visited',
-            'Approximate country/region (derived from IP — IP address is not stored)',
+            'Approximate country/region (derived from IP; the IP address is not stored)',
             'Browser type and device category',
             'Page load timing',
           ].map(item => (
@@ -76,7 +76,7 @@ export default function PrivacyPage() {
         </p>
         <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.3rem', marginBottom: '0.75rem' }}>
           <li style={{ ...PROSE, marginBottom: 0, paddingLeft: '1rem', borderLeft: '2px solid var(--color-border)' }}>
-            <code style={{ fontSize: '0.9em' }}>theme</code> — your day/night display preference
+            <code style={{ fontSize: '0.9em' }}>theme</code> · your day/night display preference
           </li>
         </ul>
         <p style={PROSE}>
@@ -99,7 +99,7 @@ export default function PrivacyPage() {
             style={{ color: 'var(--color-accent)' }}>
             Google's Privacy Policy
           </a>.
-          Submission is entirely voluntary — Medi Lexi does not prompt or require it.
+          Submission is entirely voluntary · Medi Lexi does not prompt or require it.
         </p>
       </section>
 

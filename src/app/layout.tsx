@@ -7,11 +7,11 @@ import './globals.css'
 const BASE_URL = 'https://medilexi.vercel.app'
 
 const PAGE_DESCRIPTIONS: Record<string, string> = {
-  '/':                    'Free medical glossary in English, Korean, and French — 1,300+ terms with word-part breakdowns, flashcards, and quizzes for students, interpreters, and translators.',
+  '/':                    'Free medical glossary in English, Korean, and French. 1,300+ terms with word-part breakdowns, flashcards, and quizzes for students, interpreters, and translators.',
   '/glossary':            'Search 1,300+ medical terms with definitions, clinical specialties, importance levels, and word-part breakdowns.',
-  '/terms':               'Browse every Medi Lexi medical term A to Z — 1,300+ entries with English, Korean, and French translations and word-part breakdowns.',
+  '/terms':               'Browse every Medi Lexi medical term A to Z. 1,300+ entries with English, Korean, and French translations and word-part breakdowns.',
   '/glossary/ko':         'Bilingual English–Korean medical glossary with Korean definitions, IME-safe search, and word-part highlights.',
-  '/wordparts':           '600+ medical word parts — prefixes, roots, and suffixes — with meanings, examples, and clinical usage.',
+  '/wordparts':           '600+ medical word parts: prefixes, roots, and suffixes, with meanings, examples, and clinical usage.',
   '/wordparts/flashcard': 'Study medical word parts with interactive flashcards. Quiz mode, level filters, and missed-card review.',
   '/wordparts/quiz':      'Test your knowledge of medical word parts with multiple-choice quiz mode.',
   '/wordparts/exam':      'Timed 20-question medical word-part exams with a curated question bank, review flags, and full explanations.',
@@ -20,8 +20,8 @@ const PAGE_DESCRIPTIONS: Record<string, string> = {
   '/flashcards/abbr':    'Medical abbreviation flashcard. Study 135+ abbreviations with Abbr→Term and Term→Abbr direction toggle, quiz mode, and specialty filters.',
   '/glossary/fr':        'Bilingual English–French medical glossary with French definitions, field and level filters, and word-part highlights.',
   '/flashcards/fr':      'English–French medical vocabulary flashcard with EN↔FR direction toggle, quiz mode, and specialty filters.',
-  '/about':               'About Medi Lexi — multilingual medical glossary for students, interpreters, and translators. Data sources and site info.',
-  '/privacy':             'Medi Lexi privacy policy — how we handle analytics, cookies, and data.',
+  '/about':               'About Medi Lexi. A multilingual medical glossary for students, interpreters, and translators. Data sources and site info.',
+  '/privacy':             'Medi Lexi privacy policy: how we handle analytics, cookies, and data.',
 }
 
 const LANG: Record<string, string> = {
@@ -180,7 +180,7 @@ function getPageJsonLd(pathname: string, title: string, description: string, url
 export async function generateMetadata(): Promise<Metadata> {
   const pathname    = headers().get('x-pathname') || '/'
   const pageTitle   = PAGE_TITLES[pathname]
-  const fullTitle   = pageTitle ? `${pageTitle} — Medi Lexi` : 'Medi Lexi — Multilingual Medical Glossary'
+  const fullTitle   = pageTitle ? `${pageTitle} · Medi Lexi` : 'Medi Lexi · Multilingual Medical Glossary'
   const description = PAGE_DESCRIPTIONS[pathname] || PAGE_DESCRIPTIONS['/']
   const hreflang    = HREFLANG[pathname]
 
@@ -194,7 +194,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title:       fullTitle,
       description,
       url:         `${BASE_URL}${pathname}`,
-      images: [{ url: '/images/OG.png', width: 1457, height: 720, alt: 'Medi Lexi — Multilingual Medical Glossary' }],
+      images: [{ url: '/images/OG.png', width: 1457, height: 720, alt: 'Medi Lexi · Multilingual Medical Glossary' }],
     },
     twitter: {
       card:        'summary_large_image',
@@ -223,7 +223,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const pathname    = headers().get('x-pathname') || '/'
   const htmlLang    = LANG[pathname] || 'en'
   const pageTitle   = PAGE_TITLES[pathname]
-  const fullTitle   = pageTitle ? `${pageTitle} — Medi Lexi` : 'Medi Lexi — Multilingual Medical Glossary'
+  const fullTitle   = pageTitle ? `${pageTitle} · Medi Lexi` : 'Medi Lexi · Multilingual Medical Glossary'
   const description = PAGE_DESCRIPTIONS[pathname] || PAGE_DESCRIPTIONS['/']
   const canonicalUrl = `${BASE_URL}${pathname}`
   const jsonLd      = getPageJsonLd(pathname, fullTitle, description, canonicalUrl)

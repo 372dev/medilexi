@@ -48,7 +48,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   // is useful to a Korean or French searcher scanning results.
   const langs = [ko?.ko_h, fr?.fr_h].filter(Boolean).join(' · ')
   const description = langs ? `${entry.d} (${langs})` : entry.d
-  const title = `${entry.en_h}${entry.abbr ? ` (${entry.abbr})` : ''} — Medi Lexi`
+  const title = `${entry.en_h}${entry.abbr ? ` (${entry.abbr})` : ''} · Medi Lexi`
 
   return {
     title,

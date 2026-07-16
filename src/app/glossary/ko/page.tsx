@@ -305,7 +305,7 @@ export default function KoGlossaryPage() {
       {/* ── Cards ── */}
       {!mounted ? <KoGlossarySkeleton /> : (
         <>
-          {noExact && <div className="c-search-note">No exact match for “{deferredQuery.trim()}” — showing related terms.</div>}
+          {noExact && <div className="c-search-note">No exact match for “{deferredQuery.trim()}”. Showing related terms.</div>}
           <div className="c-grid">
             {filtered.slice(0, visible).map(v => <KoCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
           </div>

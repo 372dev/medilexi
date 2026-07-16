@@ -94,7 +94,7 @@ export default function WordPartsPage() {
         <div className="c-count">{filtered.length} entries</div>
       </div>
 
-      {noExact && <div className="c-search-note">No matching word part — showing parts that use “{search.trim()}” as an example.</div>}
+      {noExact && <div className="c-search-note">No matching word part. Showing parts that use “{search.trim()}” as an example.</div>}
 
       {/* ── Cards ── */}
       <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px,1fr))', gap:'1rem' }}>
@@ -115,7 +115,7 @@ export default function WordPartsPage() {
               <div style={{ display:'flex', flexDirection:'column', gap:'0.35rem' }}>
                 {p.ex.slice(0, 2).map(([term, def], j) => (
                   <div key={j} className={`c-ex-pill c-ex-pill--${p.t}`}>
-                    <strong>{term}</strong> — {def}
+                    <strong>{term}</strong> · {def}
                   </div>
                 ))}
                 {p.ex.length > 2 && (
@@ -124,7 +124,7 @@ export default function WordPartsPage() {
                       <div style={{ display:'flex', flexDirection:'column', gap:'0.35rem', paddingTop:'0.35rem' }}>
                         {p.ex.slice(2).map(([term, def], j) => (
                           <div key={j} className={`c-ex-pill c-ex-pill--${p.t}`}>
-                            <strong>{term}</strong> — {def}
+                            <strong>{term}</strong> · {def}
                           </div>
                         ))}
                       </div>

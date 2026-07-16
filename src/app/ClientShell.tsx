@@ -65,7 +65,7 @@ export default function ClientShell({ children }: { children: React.ReactNode })
           ><span aria-hidden="true">{isDay ? '🌙' : '☀️'}</span></button>
           <Image
             src={isDay ? '/images/hero-day.png' : '/images/hero.jpg'}
-            alt="Medi Lexi — Multilingual Glossary · Bridging the Language of Health Care"
+            alt="Medi Lexi · Multilingual Glossary · Bridging the Language of Health Care"
             width={460}
             height={259}
             style={{ imageRendering:'pixelated', width:'100%', maxWidth:'520px', height:'auto', marginBottom:'1.5rem' }}

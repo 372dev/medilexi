@@ -113,8 +113,8 @@ export default function WordPartsFlashcard() {
               </div>
               <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginTop:'0.5rem', opacity:0.7 }}>
                 {mode === 'study'
-                  ? <>Browse freely — <kbd>Space</kbd> to flip, <kbd>←</kbd> <kbd>→</kbd> to navigate</>
-                  : <>Mark each card — <kbd>Space</kbd> to flip, <kbd>←</kbd> Miss · Got it <kbd>→</kbd></>}
+                  ? <>Browse freely. <kbd>Space</kbd> to flip, <kbd>←</kbd> <kbd>→</kbd> to navigate</>
+                  : <>Mark each card. <kbd>Space</kbd> to flip, <kbd>←</kbd> Miss · Got it <kbd>→</kbd></>}
               </div>
             </div>
 
@@ -240,7 +240,7 @@ export default function WordPartsFlashcard() {
                     <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', textAlign:'center', lineHeight:1.6 }}>{card.d}</div>
                     <div style={{ width:'100%', display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'0.5rem' }}>
                       {card.ex.map(([term,def],j) => (
-                        <div key={j} className={`c-ex-pill c-ex-pill--${card.t}`}><strong>{term}</strong> — {def}</div>
+                        <div key={j} className={`c-ex-pill c-ex-pill--${card.t}`}><strong>{term}</strong> · {def}</div>
                       ))}
                     </div>
                   </div>
@@ -312,7 +312,7 @@ export default function WordPartsFlashcard() {
                 <div style={{ textAlign:'center', marginBottom:'2rem' }}>
                   <div style={{ fontFamily:'var(--font-pixel)', fontSize:'1.4rem', color:'var(--color-gold)', marginBottom:'0.5rem' }}>✓ {known.size} / {deck.length}</div>
                   <p style={{ fontSize:'0.95rem', color:'var(--color-text-dim)' }}>
-                    {known.size === deck.length ? 'Perfect — all cards known!' : known.size >= deck.length * 0.8 ? 'Great job!' : 'Keep practicing!'}
+                    {known.size === deck.length ? 'Perfect! All cards known.' : known.size >= deck.length * 0.8 ? 'Great job!' : 'Keep practicing!'}
                   </p>
                 </div>
                 {missedCards.length > 0 && (

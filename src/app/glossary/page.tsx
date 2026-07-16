@@ -172,7 +172,7 @@ function GlossaryContent() {
         </div>
       </div>
 
-      {noExact && <div className="c-search-note">No exact match for “{query.trim()}” — showing related terms.</div>}
+      {noExact && <div className="c-search-note">No exact match for “{query.trim()}”. Showing related terms.</div>}
 
       {/* ── Cards ── */}
       <div className="c-grid">

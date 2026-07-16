@@ -71,7 +71,7 @@ export default function AboutPage() {
           {AUDIENCES.map(([who, what]) => (
             <li key={who} style={{ ...PROSE, marginBottom: 0, paddingLeft: '1rem', borderLeft: '2px solid var(--color-border)' }}>
               <strong style={{ color: 'var(--color-text)' }}>{who}</strong>
-              {' — '}{what}
+              {' · '}{what}
             </li>
           ))}
         </ul>
@@ -96,7 +96,7 @@ export default function AboutPage() {
         <h2 style={H2}>Data &amp; Sources</h2>
         <p style={PROSE}>
           Vocabulary content and definitions were independently researched and compiled. Medical facts,
-          terminology, and standard clinical definitions are not subject to copyright — only the specific
+          terminology, and standard clinical definitions are not subject to copyright; only the specific
           expression is. All definitions on this site are written to prioritize clarity for study and
           interpretation contexts.
         </p>
@@ -131,8 +131,8 @@ export default function AboutPage() {
       <section style={{ marginBottom: '2rem' }}>
         <h2 style={H2}>Terms of Use &amp; Copyright</h2>
         <p style={PROSE}>
-          All content on Medi Lexi — including definitions, translations, word-part entries, and the
-          dataset as a whole — is the original work of the Medi Lexi team and is protected under
+          All content on Medi Lexi, including definitions, translations, word-part entries, and the
+          dataset as a whole, is the original work of the Medi Lexi team and is protected under
           copyright law. © 2026 Medi Lexi. All rights reserved.
         </p>
         <p style={PROSE}>

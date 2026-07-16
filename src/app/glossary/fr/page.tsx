@@ -217,7 +217,7 @@ export default function FrGlossaryPage() {
       {/* ── Cards ── */}
       {!mounted ? <FrGlossarySkeleton /> : (
         <>
-          {noExact && <div className="c-search-note">No exact match for “{query.trim()}” — showing related terms.</div>}
+          {noExact && <div className="c-search-note">No exact match for “{query.trim()}”. Showing related terms.</div>}
           <div className="c-grid">
             {filtered.slice(0, visible).map(v => <FrCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
           </div>

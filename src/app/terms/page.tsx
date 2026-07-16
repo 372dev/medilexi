@@ -9,14 +9,14 @@ type Vocab = { en_h: string; abbr?: string }
 const VOCAB = vocabData as unknown as Vocab[]
 
 export const metadata: Metadata = {
-  title: 'All Medical Terms A–Z — Medi Lexi',
+  title: 'All Medical Terms A–Z · Medi Lexi',
   description:
-    'Browse every term in the Medi Lexi medical glossary, A to Z — 1,345 English medical terms with Korean and French translations, definitions, and word-part breakdowns.',
+    'Browse every term in the Medi Lexi medical glossary, A to Z. 1,300+ English medical terms with Korean and French translations, definitions, and word-part breakdowns.',
   alternates: { canonical: `${BASE_URL}/terms` },
   openGraph: {
     type: 'website',
     siteName: 'Medi Lexi',
-    title: 'All Medical Terms A–Z — Medi Lexi',
+    title: 'All Medical Terms A–Z · Medi Lexi',
     description: 'Browse every term in the Medi Lexi medical glossary, A to Z.',
     url: `${BASE_URL}/terms`,
   },
@@ -48,7 +48,7 @@ export default function TermsIndexPage() {
           All medical terms
         </h1>
         <p className="mt-2" style={{ color: 'var(--color-text-dim)' }}>
-          Every term in the glossary — {VOCAB.length.toLocaleString()} entries, each with English,
+          Every term in the glossary. {VOCAB.length.toLocaleString()} entries, each with English,
           Korean, and French. Or{' '}
           <Link href="/glossary" style={{ color: 'var(--color-accent)' }}>
             search the glossary

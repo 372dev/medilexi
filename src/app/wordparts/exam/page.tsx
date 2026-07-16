@@ -155,9 +155,9 @@ export default function WordPartsExam() {
     return (
       <div style={{ maxWidth: '640px', margin: '2rem auto 0' }}>
         <p style={{ fontSize: '0.9rem', color: 'var(--color-text-dim)', lineHeight: 1.7, marginBottom: '1.75rem' }}>
-          Curated 20-question exams, {EXAM_MINUTES} minutes each. Every exam is the same difficulty. Move
-          freely between questions and <strong>flag</strong> any you want to revisit before submitting —
-          nothing is revealed until you do. Pass mark {PASS_PCT}%.
+          Curated 20-question exams, {EXAM_MINUTES} minutes each. You can move between questions, and
+          <strong> flag</strong> any question you want to come back to before you finish. Your score and
+          the correct answers stay hidden until you submit. Pass mark {PASS_PCT}%.
         </p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
@@ -217,7 +217,7 @@ export default function WordPartsExam() {
             {score} / {qs.length} · {pct}%
           </div>
           <p style={{ fontSize: '0.95rem', color: passed ? '#6EE7B7' : '#FCA5A5', fontWeight: 600 }}>
-            {passed ? `PASS — at or above ${PASS_PCT}%` : `FAIL — ${PASS_PCT}% needed to pass`}
+            {passed ? `PASS · ${PASS_PCT}% or above` : `FAIL · you need ${PASS_PCT}% to pass`}
           </p>
           <p style={{ fontSize: '0.82rem', color: 'var(--color-text-dim)', marginTop: '0.4rem' }}>
             {bundle?.title} · result saved (a retake replaces it)

@@ -25,7 +25,7 @@ export default function AbbrFlashcardsPage() {
   /* ── Settings ── */
   const [showSettings, setShowSettings] = useState(true)
   const [mode,        setMode]      = useState<'study' | 'quiz'>('quiz')
-  const [direction,   setDirection] = useState<'abbr-en' | 'en-abbr'>('en-abbr')
+  const [direction,   setDirection] = useState<'abbr-en' | 'en-abbr'>('abbr-en')
   const [lvlFilter,   setLvl]       = useState<number | null>(null)
   const [countLimit,  setCount]     = useState<number | null>(null)
   const [fieldFilter, setField]     = useState<string | null>(null)
@@ -133,8 +133,8 @@ export default function AbbrFlashcardsPage() {
               </div>
               <div style={{ fontSize: '0.78rem', color: 'var(--color-text-dim)', marginTop: '0.5rem', opacity: 0.7 }}>
                 {mode === 'study'
-                  ? <>Browse freely — <kbd>Space</kbd> to flip, <kbd>←</kbd> <kbd>→</kbd> to navigate</>
-                  : <>Mark each card — <kbd>Space</kbd> to flip, <kbd>←</kbd> Don't know · Know it <kbd>→</kbd></>}
+                  ? <>Browse freely. <kbd>Space</kbd> to flip, <kbd>←</kbd> <kbd>→</kbd> to navigate</>
+                  : <>Mark each card. <kbd>Space</kbd> to flip, <kbd>←</kbd> Didn&apos;t know · Knew it <kbd>→</kbd></>}
               </div>
             </div>
 
@@ -252,19 +252,22 @@ export default function AbbrFlashcardsPage() {
                 style={{ perspective: '1000px', height: '360px', cursor: 'pointer', marginBottom: '1.25rem' }}>
                 <div style={{ position: 'relative', width: '100%', height: '100%', transformStyle: 'preserve-3d', transition: 'transform 0.2s ease', transform: flipped ? 'rotateY(180deg)' : 'none' }}>
 
-                  {/* Front */}
-                  <div style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '0.75rem', padding: '2rem', background: 'var(--color-panel)', border: '1px solid var(--color-border)', boxShadow: '2px 2px 0 0 var(--color-border)' }}>
-                    <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} role="img" aria-label={`Importance: ${LVL_TEXT[card.lvl]}`} style={{ fontSize: '1rem' }}>{STARS[card.lvl]}</span>
+                  {/* Front — prompt + fields only. No stars: the level is part of the reveal. */}
+                  <div style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem', padding: '2rem', background: 'var(--color-panel)', border: '1px solid var(--color-border)', boxShadow: '2px 2px 0 0 var(--color-border)' }}>
                     {isEnAbbr ? (
                       <div style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--color-text)', textAlign: 'center', lineHeight: 1.3 }}>{card.en_h}</div>
                     ) : (
                       <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '1.6rem', color: 'var(--color-gold)', textAlign: 'center', letterSpacing: '0.05em', lineHeight: 1.4 }}>{card.abbr}</div>
                     )}
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem', justifyContent: 'center' }}>
+                      {card.f.map(f => <span key={f} className="c-field-badge">{f}</span>)}
+                    </div>
                     <p style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', marginTop: 'auto' }}><kbd>Space</kbd> or tap to reveal</p>
                   </div>
 
-                  {/* Back */}
+                  {/* Back — stars on top, then the reveal, fields at the bottom */}
                   <div style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', display: 'flex', flexDirection: 'column', padding: '1.5rem 2rem', gap: '0.6rem', background: 'var(--color-panel)', border: '1px solid var(--color-gold-dim)', overflowY: 'auto' }}>
+                    <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} role="img" aria-label={`Importance: ${LVL_TEXT[card.lvl]}`} style={{ fontSize: '0.9rem' }}>{STARS[card.lvl]}</span>
                     {isEnAbbr ? (
                       <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '1.4rem', color: 'var(--color-gold)', letterSpacing: '0.05em', lineHeight: 1.4 }}>{card.abbr}</div>
                     ) : (
@@ -290,7 +293,6 @@ export default function AbbrFlashcardsPage() {
                       </div>
                     )}
                     <div style={{ marginTop: 'auto', display: 'flex', flexWrap: 'wrap', gap: '0.3rem', alignItems: 'center' }}>
-                      <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} role="img" aria-label={`Importance: ${LVL_TEXT[card.lvl]}`} style={{ fontSize: '0.8rem', marginRight: '0.25rem' }}>{STARS[card.lvl]}</span>
                       {card.f.map(f => <span key={f} className="c-field-badge">{f}</span>)}
                     </div>
                   </div>
@@ -321,16 +323,16 @@ export default function AbbrFlashcardsPage() {
                   <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
                     <button onClick={markUnknown} className="c-btn-pixel"
                       style={{ fontSize: '0.6rem', padding: '0.7rem 1.75rem', background: 'rgba(201,64,64,0.15)', color: '#FCA5A5', border: '1px solid #C94040', boxShadow: 'none' }}>
-                      <kbd>←</kbd> ✗ Review
+                      <kbd>←</kbd> ✗ Didn&apos;t know
                     </button>
                     <button onClick={markKnown} className="c-btn-pixel"
                       style={{ fontSize: '0.6rem', padding: '0.7rem 1.75rem', background: 'rgba(59,170,106,0.15)', color: '#6EE7B7', border: '1px solid #3BAA6A', boxShadow: 'none' }}>
-                      ✓ Know It <kbd>→</kbd>
+                      ✓ Knew it <kbd>→</kbd>
                     </button>
                   </div>
                 ) : (
                   <p style={{ textAlign: 'center', fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', opacity: 0.55 }}>
-                    <kbd>Space</kbd> · flip &nbsp;&nbsp; <kbd>←</kbd> · <span style={{ color:'#FCA5A5' }}>review</span> &nbsp;&nbsp; <span style={{ color:'#6EE7B7' }}>know it</span> · <kbd>→</kbd>
+                    <kbd>Space</kbd> · flip &nbsp;&nbsp; <kbd>←</kbd> · <span style={{ color:'#FCA5A5' }}>didn&apos;t know</span> &nbsp;&nbsp; <span style={{ color:'#6EE7B7' }}>knew it</span> · <kbd>→</kbd>
                   </p>
                 )
               )}
@@ -362,7 +364,7 @@ export default function AbbrFlashcardsPage() {
                 <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
                   <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '1.4rem', color: 'var(--color-gold)', marginBottom: '0.5rem' }}>✓ {known.size} / {deck.length}</div>
                   <p style={{ fontSize: '0.95rem', color: 'var(--color-text-dim)' }}>
-                    {known.size === deck.length ? 'Perfect — all cards known!' : known.size >= deck.length * 0.8 ? 'Great job!' : 'Keep practicing!'}
+                    {known.size === deck.length ? 'Perfect! All cards known.' : known.size >= deck.length * 0.8 ? 'Great job!' : 'Keep practicing!'}
                   </p>
                 </div>
                 {missedCards.length > 0 && (

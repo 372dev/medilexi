@@ -54,8 +54,8 @@ export default function ClientShell({ children }: { children: React.ReactNode })
   return (
     <>
       {isHome ? (
-        {/* Direction B sample: the pixel hero image is gone and page.tsx owns the
-            whole landing layout. The toggle floats over it. */}
+        /* Direction B sample: the pixel hero image is gone and page.tsx owns the
+           whole landing layout. The toggle floats over it. */
         <div className="relative">
           <button
             onClick={toggleMode}

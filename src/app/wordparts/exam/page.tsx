@@ -90,7 +90,7 @@ export default function WordPartsExam() {
   const [bundleId, setBundleId] = useState<string | null>(null)
   const [qs,       setQs]       = useState<ExamQuestion[]>([])
   const [answers,  setAnswers]  = useState<(number | null)[]>([])
-  const [marked,   setMarked]   = useState<boolean[]>([])
+  const [flagged,  setFlagged]  = useState<boolean[]>([])
   const [qIdx,     setQIdx]     = useState(0)
   const [deadline, setDeadline] = useState(0)
   const [left,     setLeft]     = useState(EXAM_MINUTES * 60)
@@ -134,7 +134,7 @@ export default function WordPartsExam() {
     setBundleId(id)
     setQs(built)
     setAnswers(Array(built.length).fill(null))
-    setMarked(Array(built.length).fill(false))
+    setFlagged(Array(built.length).fill(false))
     setQIdx(0)
     setLeft(EXAM_MINUTES * 60)
     setDeadline(Date.now() + EXAM_MINUTES * 60 * 1000)
@@ -144,8 +144,10 @@ export default function WordPartsExam() {
   function choose(i: number) {
     setAnswers(a => { const n = [...a]; n[qIdx] = i; return n })
   }
-  function toggleMark() {
-    setMarked(m => { const n = [...m]; n[qIdx] = !n[qIdx]; return n })
+  /* Flags are exam-scoped: they only help you navigate back before submitting,
+     and are discarded on submit (RULES 9b). */
+  function toggleFlag() {
+    setFlagged(f => { const n = [...f]; n[qIdx] = !n[qIdx]; return n })
   }
 
   /* ══ 1. Exam selection ══ */
@@ -153,8 +155,9 @@ export default function WordPartsExam() {
     return (
       <div style={{ maxWidth: '640px', margin: '2rem auto 0' }}>
         <p style={{ fontSize: '0.9rem', color: 'var(--color-text-dim)', lineHeight: 1.7, marginBottom: '1.75rem' }}>
-          Curated 20-question exams. Every exam is the same difficulty. You can move between questions and
-          flag any of them; nothing is revealed until you submit. Pass mark {PASS_PCT}%.
+          Curated 20-question exams, {EXAM_MINUTES} minutes each. Every exam is the same difficulty. Move
+          freely between questions and <strong>flag</strong> any you want to revisit before submitting —
+          nothing is revealed until you do. Pass mark {PASS_PCT}%.
         </p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
@@ -279,16 +282,16 @@ export default function WordPartsExam() {
         </div>
       </div>
 
-      {/* Navigator — gray unanswered · green answered · yellow marked (RULES 9b) */}
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginBottom: '1.25rem' }}>
+      {/* Navigator — gray unanswered · green answered · yellow flagged (RULES 9b) */}
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginBottom: '0.6rem' }}>
         {qs.map((_, i) => {
-          const isMarked = marked[i]
-          const isDone   = answers[i] !== null
-          const bg = isMarked ? '#F0B429' : isDone ? '#3BAA6A' : 'var(--color-border)'
-          const fg = isMarked || isDone ? '#0D0B2B' : 'var(--color-text-dim)'
+          const isFlagged = flagged[i]
+          const isDone    = answers[i] !== null
+          const bg = isFlagged ? '#F0B429' : isDone ? '#3BAA6A' : 'var(--color-border)'
+          const fg = isFlagged || isDone ? '#0D0B2B' : 'var(--color-text-dim)'
           return (
             <button key={i} onClick={() => setQIdx(i)}
-              aria-label={`Question ${i + 1}${isMarked ? ', marked for review' : isDone ? ', answered' : ', not answered'}`}
+              aria-label={`Question ${i + 1}${isFlagged ? ', flagged for review' : isDone ? ', answered' : ', not answered'}`}
               aria-current={i === qIdx ? 'true' : undefined}
               style={{
                 width: '2rem', height: '2rem', flexShrink: 0, cursor: 'pointer',
@@ -302,22 +305,33 @@ export default function WordPartsExam() {
         })}
       </div>
 
+      {/* Legend — the colours mean nothing without it */}
+      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.25rem', fontSize: '0.72rem', color: 'var(--color-text-dim)' }}>
+        {([['var(--color-border)', 'not answered'], ['#3BAA6A', 'answered'], ['#F0B429', 'flagged for review']] as const).map(([c, label]) => (
+          <span key={label} style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
+            <span aria-hidden="true" style={{ width: '0.7rem', height: '0.7rem', background: c, border: '1px solid var(--color-border)', flexShrink: 0 }} />
+            {label}
+          </span>
+        ))}
+      </div>
+
       {/* Question */}
       <div style={{ background: 'var(--color-panel)', border: '1px solid var(--color-border)', padding: '1.5rem 1.35rem', marginBottom: '1rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', marginBottom: '0.9rem' }}>
           <span style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', lineHeight: 1.8 }}>
             Question {qIdx + 1} of {qs.length}
           </span>
-          <button onClick={toggleMark}
-            aria-pressed={marked[qIdx]}
+          <button onClick={toggleFlag}
+            aria-pressed={flagged[qIdx]}
+            title="Flag this question so you can come back to it before you submit"
             style={{
               fontFamily: 'var(--font-pixel)', fontSize: '0.45rem', cursor: 'pointer', lineHeight: 1.8,
-              padding: '0.35rem 0.7rem', flexShrink: 0,
-              background: marked[qIdx] ? '#F0B429' : 'none',
-              color: marked[qIdx] ? '#0D0B2B' : 'var(--color-text-dim)',
-              border: `1px solid ${marked[qIdx] ? '#F0B429' : 'var(--color-border)'}`,
+              padding: '0.35rem 0.7rem', flexShrink: 0, whiteSpace: 'nowrap',
+              background: flagged[qIdx] ? '#F0B429' : 'none',
+              color: flagged[qIdx] ? '#0D0B2B' : 'var(--color-text-dim)',
+              border: `1px solid ${flagged[qIdx] ? '#F0B429' : 'var(--color-border)'}`,
             }}>
-            {marked[qIdx] ? '★ Marked' : '☆ Mark'}
+            {flagged[qIdx] ? '⚑ Flagged' : '⚑ Flag for review'}
           </button>
         </div>
         <div style={{ fontSize: '1.05rem', color: 'var(--color-text)', lineHeight: 1.6 }}>{q.prompt}</div>

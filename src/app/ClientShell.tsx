@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Analytics } from '@vercel/analytics/react'
@@ -55,22 +54,15 @@ export default function ClientShell({ children }: { children: React.ReactNode })
   return (
     <>
       {isHome ? (
-        <div style={{ minHeight:'100vh', display:'flex', flexDirection:'column', alignItems:'center', padding:'2rem 1rem 4rem', position:'relative' }}>
+        {/* Direction B sample: the pixel hero image is gone and page.tsx owns the
+            whole landing layout. The toggle floats over it. */}
+        <div className="relative">
           <button
-            className="site-header__toggle"
             onClick={toggleMode}
-            style={{ position:'absolute', top:'1rem', right:'1rem' }}
+            className="b-press fixed right-4 top-4 z-50 rounded-full border border-[var(--b-border)] bg-[var(--b-panel)] px-3 py-2 text-base leading-none"
             aria-label={isDay ? 'Switch to night mode' : 'Switch to day mode'}
             title={isDay ? 'Switch to night mode' : 'Switch to day mode'}
           ><span aria-hidden="true">{isDay ? '🌙' : '☀️'}</span></button>
-          <Image
-            src={isDay ? '/images/hero-day.png' : '/images/hero.jpg'}
-            alt="Medi Lexi · Multilingual Glossary · Bridging the Language of Health Care"
-            width={460}
-            height={259}
-            style={{ imageRendering:'pixelated', width:'100%', maxWidth:'520px', height:'auto', marginBottom:'1.5rem' }}
-            priority
-          />
           {children}
         </div>
       ) : (

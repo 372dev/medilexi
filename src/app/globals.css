@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&family=Outfit:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -752,4 +752,49 @@ body.day .ko-h { color: var(--color-text); }
   font-size: 0.5rem;
   color: var(--color-text-dim);
   line-height: 1.8;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   REDESIGN SAMPLE · DIRECTION B "SIGNAL"
+   Energetic learning-app treatment. Scoped to the landing page only.
+   Tokens hang off the site's existing theme mechanism (default = night,
+   body.day = light) so the shadcn :root/.dark inversion stays deferred.
+   Delete this block if direction B is not chosen.
+   ═══════════════════════════════════════════════════════════════════ */
+:root {
+  --b-bg:       #0B1210;
+  --b-panel:    #131C19;
+  --b-raised:   #1A2621;
+  --b-border:   #223029;
+  --b-primary:  #22C55E;
+  --b-on-prim:  #04240F;
+  --b-amber:    #FBBF24;
+  --b-text:     #E8EFEA;
+  --b-dim:      #8CA096;
+  --b-display:  'Outfit', system-ui, sans-serif;
+}
+body.day {
+  --b-bg:       #F5F9F6;
+  --b-panel:    #FFFFFF;
+  --b-raised:   #FFFFFF;
+  --b-border:   #E2EAE5;
+  --b-primary:  #16A34A;
+  --b-on-prim:  #FFFFFF;
+  --b-amber:    #B45309;
+  --b-text:     #0F1A15;
+  --b-dim:      #5C6B63;
+}
+
+/* Soft elevation, the deliberate opposite of the current hard offset shadow. */
+.b-lift   { box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 8px 24px -6px rgba(0,0,0,0.28); }
+body.day .b-lift { box-shadow: 0 1px 2px rgba(16,40,28,0.05), 0 10px 28px -8px rgba(16,40,28,0.10); }
+.b-glow   { box-shadow: 0 6px 22px -4px rgba(34,197,94,0.42); }
+body.day .b-glow { box-shadow: 0 6px 20px -5px rgba(22,163,74,0.30); }
+
+.b-press { transition: transform .12s ease, box-shadow .12s ease, background-color .12s ease, border-color .12s ease; }
+.b-press:hover  { transform: translateY(-2px); }
+.b-press:active { transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) {
+  .b-press { transition: none; }
+  .b-press:hover, .b-press:active { transform: none; }
 }

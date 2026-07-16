@@ -14,6 +14,7 @@ const PAGE_DESCRIPTIONS: Record<string, string> = {
   '/wordparts':           '600+ medical word parts — prefixes, roots, and suffixes — with meanings, examples, and clinical usage.',
   '/wordparts/flashcard': 'Study medical word parts with interactive flashcards. Quiz mode, level filters, and missed-card review.',
   '/wordparts/quiz':      'Test your knowledge of medical word parts with multiple-choice quiz mode.',
+  '/wordparts/exam':      'Timed 20-question medical word-part exams with a curated question bank, review flags, and full explanations.',
   '/flashcards':          'English medical vocabulary flashcard. Study or quiz mode with level and specialty filters.',
   '/flashcards/ko':       'English–Korean medical vocabulary flashcard with EN↔KO direction toggle and quiz mode.',
   '/flashcards/abbr':    'Medical abbreviation flashcard. Study 135+ abbreviations with Abbr→Term and Term→Abbr direction toggle, quiz mode, and specialty filters.',
@@ -93,6 +94,12 @@ const PAGE_SCHEMA: Record<string, object> = {
     educationalLevel: 'university',
     inLanguage: 'en',
   },
+  '/wordparts/exam': {
+    '@type': 'LearningResource',
+    learningResourceType: ['activity', 'assessment'],
+    educationalLevel: 'university',
+    inLanguage: 'en',
+  },
   '/flashcards': {
     '@type': 'LearningResource',
     learningResourceType: ['flashcard', 'activity'],
@@ -132,6 +139,7 @@ const BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> = {
   '/wordparts':           [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }],
   '/wordparts/flashcard': [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }, { name: 'Flashcard', path: '/wordparts/flashcard' }],
   '/wordparts/quiz':      [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }, { name: 'Quiz',      path: '/wordparts/quiz' }],
+  '/wordparts/exam':      [{ name: 'Home', path: '/' }, { name: 'Word Parts',         path: '/wordparts' }, { name: 'Exam',      path: '/wordparts/exam' }],
   '/flashcards':          [{ name: 'Home', path: '/' }, { name: 'English Flashcard',       path: '/flashcards' }],
   '/flashcards/ko':       [{ name: 'Home', path: '/' }, { name: 'Korean Flashcard',       path: '/flashcards/ko' }],
   '/flashcards/abbr':    [{ name: 'Home', path: '/' }, { name: 'Abbreviation Flashcard', path: '/flashcards/abbr' }],

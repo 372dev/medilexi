@@ -16,6 +16,7 @@ const STATIC_ROUTES: Array<{ path: string; priority: number }> = [
   { path: '/wordparts',           priority: 0.8 },
   { path: '/wordparts/flashcard', priority: 0.6 },
   { path: '/wordparts/quiz',      priority: 0.6 },
+  { path: '/wordparts/exam',      priority: 0.7 },
   { path: '/flashcards',          priority: 0.6 },
   { path: '/flashcards/ko',       priority: 0.6 },
   { path: '/flashcards/fr',       priority: 0.6 },

@@ -48,7 +48,8 @@ export default function Home() {
           <div style={{ display:'flex', gap:'0.5rem', flexWrap:'wrap' }}>
             <Link href="/wordparts" style={outline('var(--color-gold)')}>Glossary</Link>
             <Link href="/wordparts/flashcard" style={outline('var(--color-gold)')}>Flashcard</Link>
-            <Link href="/wordparts/quiz" style={outline('var(--color-gold)')}>Quiz ✦</Link>
+            <Link href="/wordparts/quiz" style={outline('var(--color-gold)')}>Practice</Link>
+            <Link href="/wordparts/exam" style={outline('var(--color-gold)')}>Exam ✦</Link>
           </div>
         </div>
 

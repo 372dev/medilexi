@@ -70,7 +70,10 @@ export default function WordPartsPage() {
         <div className="c-search-row">
           <input className="c-search" type="text" aria-label="Search word parts" placeholder="Search word parts, definitions, examples..." value={search} onChange={e => setSearch(e.target.value)} />
           <Link href="/wordparts/flashcard" className="c-btn-pixel" style={{ fontSize:'0.5rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
-            Flashcard Quiz →
+            Flashcard →
+          </Link>
+          <Link href="/wordparts/exam" className="c-btn-pixel" style={{ fontSize:'0.5rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
+            Exam →
           </Link>
         </div>
         <div className="c-filter-row">

@@ -6931,5 +6931,161 @@
         "en_h":  "Peripherally inserted central catheter",
         "fr_h":  "Cathéter central à insertion périphérique",
         "d_fr":  "Un long cathéter inséré par une veine périphérique, typiquement au bras, avec son extrémité dans une grande veine centrale."
+    },
+    {
+        "en_h":  "Complete blood count",
+        "fr_h":  "Formule sanguine complète",
+        "d_fr":  "Analyse de sang courante qui mesure le nombre de globules rouges, de globules blancs et de plaquettes pour dépister l\u0027anémie, l\u0027infection et d\u0027autres troubles."
+    },
+    {
+        "en_h":  "Basic metabolic panel",
+        "fr_h":  "Bilan métabolique de base",
+        "d_fr":  "Analyse de sang mesurant le glucose, le calcium, les électrolytes clés et des marqueurs rénaux pour évaluer le métabolisme, la glycémie et la fonction rénale."
+    },
+    {
+        "en_h":  "Comprehensive metabolic panel",
+        "fr_h":  "Bilan métabolique complet",
+        "d_fr":  "Bilan sanguin élargi qui ajoute enzymes hépatiques et protéines au bilan de base, évaluant les fonctions rénale et hépatique, les électrolytes et la glycémie."
+    },
+    {
+        "en_h":  "Lipid panel",
+        "fr_h":  "Bilan lipidique",
+        "fr_l":  "Test de cholestérol",
+        "d_fr":  "Analyse de sang mesurant les taux de cholestérol et de triglycérides pour estimer le risque cardiovasculaire."
+    },
+    {
+        "en_h":  "Liver function test",
+        "fr_h":  "Bilan hépatique",
+        "d_fr":  "Ensemble d\u0027analyses de sang mesurant des enzymes et des protéines qui reflètent la santé et le fonctionnement du foie."
+    },
+    {
+        "en_h":  "Thyroid function test",
+        "fr_h":  "Bilan thyroïdien",
+        "d_fr":  "Ensemble d\u0027analyses de sang mesurant les hormones thyroïdiennes pour évaluer si la thyroïde est hypoactive ou hyperactive."
+    },
+    {
+        "en_h":  "Urinalysis",
+        "fr_h":  "Analyse d\u0027urine",
+        "d_fr":  "Examen courant des propriétés physiques, chimiques et microscopiques de l\u0027urine pour détecter infection, maladie rénale et troubles métaboliques."
+    },
+    {
+        "en_h":  "Prothrombin time",
+        "fr_h":  "Temps de prothrombine",
+        "d_fr":  "Analyse mesurant le temps que met le plasma à coaguler, utilisée pour évaluer le risque de saignement et suivre les traitements anticoagulants."
+    },
+    {
+        "en_h":  "International normalized ratio",
+        "fr_h":  "Rapport international normalisé",
+        "d_fr":  "Calcul standardisé dérivé du temps de prothrombine qui permet un suivi cohérent des anticoagulants d\u0027un laboratoire à l\u0027autre."
+    },
+    {
+        "en_h":  "Partial thromboplastin time",
+        "fr_h":  "Temps de céphaline activée",
+        "d_fr":  "Analyse mesurant le temps de coagulation par une voie précise, utilisée pour évaluer les troubles du saignement et suivre l\u0027héparinothérapie."
+    },
+    {
+        "en_h":  "Erythrocyte sedimentation rate",
+        "fr_h":  "Vitesse de sédimentation",
+        "d_fr":  "Analyse mesurant la vitesse à laquelle les globules rouges se déposent dans un tube, un marqueur non spécifique d\u0027inflammation dans l\u0027organisme."
+    },
+    {
+        "en_h":  "C-reactive protein",
+        "fr_h":  "Protéine C réactive",
+        "d_fr":  "Protéine sanguine qui s\u0027élève en cas d\u0027inflammation, mesurée pour détecter et suivre l\u0027infection, les lésions tissulaires et les maladies inflammatoires."
+    },
+    {
+        "en_h":  "Blood urea nitrogen",
+        "fr_h":  "Azote uréique du sang",
+        "d_fr":  "Analyse mesurant la quantité de déchets azotés issus de la dégradation des protéines, utilisée surtout pour évaluer la fonction rénale."
+    },
+    {
+        "en_h":  "Hematocrit",
+        "fr_h":  "Hématocrite",
+        "d_fr":  "Proportion du volume sanguin occupée par les globules rouges, mesurée pour détecter une anémie ou une surproduction de globules rouges."
+    },
+    {
+        "en_h":  "Platelet count",
+        "fr_h":  "Numération plaquettaire",
+        "d_fr":  "Analyse mesurant le nombre de plaquettes, les fragments cellulaires responsables de la coagulation, pour évaluer le risque de saignement ou de thrombose."
+    },
+    {
+        "en_h":  "White blood cell count",
+        "fr_h":  "Numération leucocytaire",
+        "d_fr":  "Analyse mesurant le nombre de globules blancs, utilisée pour détecter infection, inflammation et troubles du système immunitaire."
+    },
+    {
+        "en_h":  "Blood type",
+        "fr_h":  "Groupe sanguin",
+        "d_fr":  "Classification du sang selon des marqueurs héréditaires à la surface des globules rouges, comme les systèmes ABO et Rh, utilisée pour la transfusion et le suivi de grossesse."
+    },
+    {
+        "en_h":  "Arterial blood gas",
+        "fr_h":  "Gaz du sang artériel",
+        "d_fr":  "Analyse mesurant l\u0027oxygène, le dioxyde de carbone et l\u0027acidité d\u0027un sang prélevé dans une artère pour évaluer la respiration et l\u0027équilibre acido-basique."
+    },
+    {
+        "en_h":  "Troponin",
+        "fr_h":  "Troponine",
+        "d_fr":  "Protéine libérée dans le sang lorsque le muscle cardiaque est endommagé, mesurée pour diagnostiquer une crise cardiaque."
+    },
+    {
+        "en_h":  "B-type natriuretic peptide",
+        "fr_h":  "Peptide natriurétique de type B",
+        "d_fr":  "Hormone libérée par le cœur lorsque ses parois se distendent, mesurée pour détecter l\u0027insuffisance cardiaque et en évaluer la gravité."
+    },
+    {
+        "en_h":  "D-dimer",
+        "fr_h":  "D-dimères",
+        "d_fr":  "Analyse détectant des fragments de caillots dissous, utilisée pour aider à écarter une coagulation anormale comme la thrombose veineuse profonde ou l\u0027embolie pulmonaire."
+    },
+    {
+        "en_h":  "Fasting blood glucose",
+        "fr_h":  "Glycémie à jeun",
+        "d_fr":  "Mesure du taux de sucre dans le sang prise après une période sans nourriture, utilisée pour dépister et diagnostiquer le diabète."
+    },
+    {
+        "en_h":  "Glucose tolerance test",
+        "fr_h":  "Test de tolérance au glucose",
+        "d_fr":  "Test mesurant la capacité de l\u0027organisme à éliminer une boisson sucrée dans le temps, utilisé pour diagnostiquer le diabète et le diabète gestationnel."
+    },
+    {
+        "en_h":  "Blood culture",
+        "fr_h":  "Hémoculture",
+        "d_fr":  "Analyse de laboratoire où le sang est mis en culture pour détecter et identifier les bactéries ou champignons responsables d\u0027une infection sanguine."
+    },
+    {
+        "en_h":  "Sputum culture",
+        "fr_h":  "Culture des expectorations",
+        "d_fr":  "Analyse de laboratoire qui met en culture les crachats pour identifier la cause d\u0027une infection pulmonaire ou des voies respiratoires."
+    },
+    {
+        "en_h":  "Bilirubin",
+        "fr_h":  "Bilirubine",
+        "d_fr":  "Pigment jaune produit lors de la dégradation des globules rouges, mesuré pour évaluer la fonction hépatique et la cause d\u0027un ictère."
+    },
+    {
+        "en_h":  "Alkaline phosphatase",
+        "fr_h":  "Phosphatase alcaline",
+        "d_fr":  "Enzyme présente surtout dans le foie et les os dont le taux sanguin aide à détecter des troubles hépatiques, biliaires et osseux."
+    },
+    {
+        "en_h":  "Amylase",
+        "fr_h":  "Amylase",
+        "d_fr":  "Enzyme digestive mesurée dans le sang surtout pour aider à diagnostiquer une inflammation du pancréas."
+    },
+    {
+        "en_h":  "Lipase",
+        "fr_h":  "Lipase",
+        "d_fr":  "Enzyme de digestion des graisses mesurée dans le sang comme marqueur plus spécifique de la pancréatite."
+    },
+    {
+        "en_h":  "Serum potassium",
+        "fr_h":  "Kaliémie",
+        "d_fr":  "Mesure du taux de potassium dans le sang, un électrolyte essentiel à la conduction nerveuse, à la fonction musculaire et au rythme cardiaque."
+    },
+    {
+        "en_h":  "Serum sodium",
+        "fr_h":  "Natrémie",
+        "d_fr":  "Mesure du taux de sodium dans le sang, le principal électrolyte réglant l\u0027équilibre hydrique et la pression artérielle du corps."
     }
 ]

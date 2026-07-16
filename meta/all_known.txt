@@ -619,7 +619,7 @@ Family Medicine
 Fascia
 Fasciectomy
 Fasciitis
-Fasting blood sugar
+Fasting blood glucose
 Fatigue
 Fatty acid
 Fecal occult blood test
@@ -1282,7 +1282,6 @@ Postpartum
 Postpartum hemorrhage
 Post-traumatic stress disorder
 Potassium hydroxide preparation
-Potassium level
 Power of attorney
 Pre-admission testing
 Prediabetes
@@ -1457,6 +1456,8 @@ Septicemia
 Septoplasty
 Sequela
 Serology
+Serum potassium
+Serum sodium
 Severe pain
 Sharp pain
 Shingles
@@ -1481,7 +1482,6 @@ Slit lamp
 Small intestine
 Smoking cessation
 Snare
-Sodium level
 Somatic symptom disorder
 Somatosensory
 Somnolence

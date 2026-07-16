@@ -20304,5 +20304,387 @@
                                 "centr/o"
                             ]
                   }
+    },
+    {
+        "en_h":  "Complete blood count",
+        "abbr":  "CBC",
+        "f":  [
+                  "Hematology",
+                  "Pathology"
+              ],
+        "d":  "A common blood test that measures the numbers of red cells, white cells, and platelets to screen for anemia, infection, and other disorders.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Basic metabolic panel",
+        "abbr":  "BMP",
+        "f":  [
+                  "Pathology",
+                  "General Medicine"
+              ],
+        "d":  "A blood test measuring glucose, calcium, and key electrolytes and kidney markers to assess metabolism, blood sugar, and kidney function.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Comprehensive metabolic panel",
+        "abbr":  "CMP",
+        "f":  [
+                  "Pathology",
+                  "General Medicine"
+              ],
+        "d":  "A broader blood panel that adds liver enzymes and proteins to the basic metabolic panel, covering kidney function, liver function, electrolytes, and blood sugar.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Lipid panel",
+        "en_l":  "Cholesterol test",
+        "f":  [
+                  "Cardiology",
+                  "Pathology"
+              ],
+        "d":  "A blood test measuring cholesterol and triglyceride levels to estimate cardiovascular risk.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "lip/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Liver function test",
+        "abbr":  "LFT",
+        "f":  [
+                  "Gastroenterology",
+                  "Pathology"
+              ],
+        "d":  "A group of blood tests measuring enzymes and proteins that reflect the health and function of the liver.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Thyroid function test",
+        "abbr":  "TFT",
+        "f":  [
+                  "Endocrinology",
+                  "Pathology"
+              ],
+        "d":  "A group of blood tests measuring thyroid hormones to evaluate whether the thyroid gland is underactive or overactive.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "thyroid/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Urinalysis",
+        "en_l":  "Urine test",
+        "abbr":  "UA",
+        "f":  [
+                  "Pathology",
+                  "Nephrology"
+              ],
+        "d":  "A routine examination of the physical, chemical, and microscopic properties of urine to detect infection, kidney disease, and metabolic conditions.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "urin/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Prothrombin time",
+        "abbr":  "PT",
+        "f":  [
+                  "Hematology",
+                  "Pathology"
+              ],
+        "d":  "A blood test measuring how long plasma takes to clot, used to evaluate bleeding risk and monitor blood-thinning therapy.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "pro-"
+                            ],
+                      "r":  [
+                                "thromb/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "International normalized ratio",
+        "abbr":  "INR",
+        "f":  [
+                  "Hematology",
+                  "Pathology"
+              ],
+        "d":  "A standardized calculation derived from the prothrombin time that allows consistent monitoring of warfarin and other blood thinners across laboratories.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Partial thromboplastin time",
+        "abbr":  "PTT",
+        "f":  [
+                  "Hematology",
+                  "Pathology"
+              ],
+        "d":  "A blood test measuring clotting time through a specific pathway, used to evaluate bleeding disorders and monitor heparin therapy.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "thromb/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Erythrocyte sedimentation rate",
+        "abbr":  "ESR",
+        "f":  [
+                  "Hematology",
+                  "Immunology",
+                  "Pathology"
+              ],
+        "d":  "A blood test measuring how quickly red cells settle in a tube, a nonspecific marker of inflammation in the body.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "erythro-"
+                            ],
+                      "r":  [
+                                "cyt/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "C-reactive protein",
+        "abbr":  "CRP",
+        "f":  [
+                  "Immunology",
+                  "Cardiology",
+                  "Pathology"
+              ],
+        "d":  "A blood protein that rises with inflammation, measured to detect and monitor infection, tissue injury, and inflammatory disease.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Blood urea nitrogen",
+        "abbr":  "BUN",
+        "f":  [
+                  "Nephrology",
+                  "Pathology"
+              ],
+        "d":  "A blood test measuring the amount of nitrogen waste from protein breakdown, used mainly to assess kidney function.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Hematocrit",
+        "abbr":  "Hct",
+        "f":  [
+                  "Hematology",
+                  "Pathology"
+              ],
+        "d":  "The proportion of the blood volume made up of red blood cells, measured to detect anemia or overproduction of red cells.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "hemat/o"
+                            ],
+                      "s":  [
+                                "-crit"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Platelet count",
+        "f":  [
+                  "Hematology",
+                  "Pathology"
+              ],
+        "d":  "A blood test measuring the number of platelets, the cell fragments responsible for clotting, to assess bleeding or clotting risk.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "White blood cell count",
+        "abbr":  "WBC",
+        "f":  [
+                  "Hematology",
+                  "Immunology",
+                  "Pathology"
+              ],
+        "d":  "A blood test measuring the number of white blood cells, used to detect infection, inflammation, and disorders of the immune system.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Blood type",
+        "en_l":  "Blood group",
+        "f":  [
+                  "Hematology",
+                  "Immunology"
+              ],
+        "d":  "A classification of blood based on inherited surface markers on red cells, such as the ABO and Rh groups, used for transfusion and pregnancy care.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Arterial blood gas",
+        "abbr":  "ABG",
+        "f":  [
+                  "Pulmonology",
+                  "Critical Care",
+                  "Pathology"
+              ],
+        "d":  "A test measuring oxygen, carbon dioxide, and acidity in blood drawn from an artery to evaluate breathing and acid-base balance.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "arteri/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Troponin",
+        "f":  [
+                  "Cardiology",
+                  "Pathology"
+              ],
+        "d":  "A protein released into the blood when heart muscle is damaged, measured to diagnose a heart attack.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "B-type natriuretic peptide",
+        "abbr":  "BNP",
+        "f":  [
+                  "Cardiology",
+                  "Pathology"
+              ],
+        "d":  "A hormone released by the heart when its walls are stretched, measured to detect and gauge the severity of heart failure.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "natr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "D-dimer",
+        "f":  [
+                  "Hematology",
+                  "Cardiology",
+                  "Pathology"
+              ],
+        "d":  "A blood test detecting fragments from broken-down clots, used to help rule out abnormal clotting such as deep vein thrombosis or pulmonary embolism.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fasting blood glucose",
+        "en_l":  "Fasting blood sugar",
+        "abbr":  "FBG",
+        "f":  [
+                  "Endocrinology",
+                  "Pathology"
+              ],
+        "d":  "A measurement of blood sugar taken after a period without food, used to screen for and diagnose diabetes.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "gluc/o"
+                            ],
+                      "s":  [
+                                "-ose"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Glucose tolerance test",
+        "abbr":  "GTT",
+        "f":  [
+                  "Endocrinology",
+                  "Pathology"
+              ],
+        "d":  "A test measuring how the body clears a measured sugar drink over time, used to diagnose diabetes and gestational diabetes.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "gluc/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Blood culture",
+        "f":  [
+                  "Infectious Disease",
+                  "Pathology"
+              ],
+        "d":  "A laboratory test in which blood is incubated to detect and identify bacteria or fungi causing a bloodstream infection.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Sputum culture",
+        "f":  [
+                  "Pulmonology",
+                  "Infectious Disease",
+                  "Pathology"
+              ],
+        "d":  "A laboratory test that grows organisms from coughed-up mucus to identify the cause of a lung or airway infection.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Bilirubin",
+        "f":  [
+                  "Gastroenterology",
+                  "Hematology",
+                  "Pathology"
+              ],
+        "d":  "A yellow pigment produced when red blood cells break down, measured to assess liver function and the cause of jaundice.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Alkaline phosphatase",
+        "abbr":  "ALP",
+        "f":  [
+                  "Pathology",
+                  "Gastroenterology"
+              ],
+        "d":  "An enzyme found mainly in liver and bone whose blood level helps detect liver, bile duct, and bone disorders.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Amylase",
+        "f":  [
+                  "Gastroenterology",
+                  "Pathology"
+              ],
+        "d":  "A digestive enzyme measured in blood mainly to help diagnose inflammation of the pancreas.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Lipase",
+        "f":  [
+                  "Gastroenterology",
+                  "Pathology"
+              ],
+        "d":  "A fat-digesting enzyme measured in blood as a more specific marker of pancreatitis.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "lip/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Serum potassium",
+        "f":  [
+                  "Nephrology",
+                  "Cardiology",
+                  "Pathology"
+              ],
+        "d":  "A measurement of the potassium level in blood, an electrolyte essential for nerve signaling, muscle function, and heart rhythm.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Serum sodium",
+        "f":  [
+                  "Nephrology",
+                  "Pathology"
+              ],
+        "d":  "A measurement of the sodium level in blood, the main electrolyte controlling the body\u0027s water balance and blood pressure.",
+        "lvl":  2
     }
 ]

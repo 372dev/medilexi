@@ -43,6 +43,7 @@ Agoraphobia
 Akathisia
 Albinism
 Albuminuria
+Alkaline phosphatase
 Allergy
 Allograft
 Alopecia
@@ -55,6 +56,7 @@ Amenorrhea
 Amniocentesis
 Amniotomy
 Amphiarthrosis
+Amylase
 Amyotrophic lateral sclerosis
 Analgesic
 Anaphylaxis
@@ -111,6 +113,7 @@ Appendicitis
 Appendix
 Arachnoid mater
 Arrhythmia
+Arterial blood gas
 Arteriography
 Arteriosclerosis
 Arthralgia
@@ -147,6 +150,7 @@ Bacterial vaginosis
 Bactericide
 Basal cell carcinoma
 Basal ganglia
+Basic metabolic panel
 Bell's palsy
 Benign
 Benign paroxysmal positional vertigo
@@ -154,6 +158,7 @@ Benign prostatic hyperplasia
 Beta-blocker
 Biceps
 Bilateral
+Bilirubin
 Bioavailability
 Biopsy
 Bipolar disorder
@@ -161,6 +166,9 @@ Blepharitis
 Blepharoptosis
 Blepharospasm
 Blinding pain
+Blood culture
+Blood type
+Blood urea nitrogen
 Body mass index
 Bone
 Bone mineral density
@@ -184,6 +192,7 @@ Bronchodilation
 Bronchoscopy
 Bronchospasm
 Bronchus
+B-type natriuretic peptide
 Buccinator
 Bulimia nervosa
 Bulla
@@ -286,7 +295,9 @@ Colposcopy
 Comedo
 Common bile duct
 Comorbidity
+Complete blood count
 Compliance / adherence
+Comprehensive metabolic panel
 Compulsion
 Computed tomography
 Condyle
@@ -317,6 +328,7 @@ Cranial cavity
 Craniosynostosis
 Craniotomy
 Cranium
+C-reactive protein
 Critical Care
 Critical Care Medicine
 Crural region
@@ -337,6 +349,7 @@ Cystoscopy
 Cytokine
 Cytotoxic
 Dacryocystitis
+D-dimer
 Debridement
 Decubitus ulcer
 Deep vein thrombosis
@@ -447,6 +460,7 @@ Episiotomy
 Epistaxis
 Erythema
 Erythrocyte
+Erythrocyte sedimentation rate
 Erythroderma
 Erythropoietin
 Eschar
@@ -470,6 +484,7 @@ Family Medicine
 Fascia
 Fasciectomy
 Fasciitis
+Fasting blood glucose
 Fellow
 Femoral artery
 Femur
@@ -521,6 +536,7 @@ Glomerulus
 Glossitis
 Glucagon
 Glucometer
+Glucose tolerance test
 Gluteal muscles
 Glycolysis
 Glycosuria
@@ -541,6 +557,7 @@ Heaviness
 Hemangioma
 Hematemesis
 Hematochezia
+Hematocrit
 Hematologic system
 Hematology
 Hematosalpinx
@@ -629,6 +646,7 @@ Intermittent claudication
 Intermittent pain
 Intern
 Internal Medicine
+International normalized ratio
 Intersex
 Intervertebral disc
 Intestinal metaplasia
@@ -683,11 +701,14 @@ Licensed practical nurse
 Ligament
 Limp
 Linguogingival
+Lipase
+Lipid panel
 Lipoma
 Liposuction
 Litholapaxy
 Lithotripsy
 Liver
+Liver function test
 Lobectomy
 Local anesthesia
 Localized pain
@@ -900,6 +921,7 @@ Paresthesia
 Parietal lobe
 Parkinson's disease
 Paronychia
+Partial thromboplastin time
 Patella
 Pathology
 Pediatrics
@@ -952,6 +974,7 @@ Placenta
 Placenta previa
 Plantar fasciitis
 Plastic Surgery
+Platelet count
 Pleura
 Pleural effusion
 Pleuritic chest pain
@@ -1002,6 +1025,7 @@ Prostatomegaly
 Prosthesis
 Prosthodontist
 Proteinuria
+Prothrombin time
 Protrusion
 Proximal
 Pruritus
@@ -1111,6 +1135,8 @@ Septic shock
 Septicemia
 Septoplasty
 Sequela
+Serum potassium
+Serum sodium
 Severe pain
 Sharp pain
 Shooting pain
@@ -1151,6 +1177,7 @@ Spondylitis
 Spondylolisthesis
 Spondylosis
 Sputum
+Sputum culture
 Squamous cell carcinoma
 Squeezing pain
 Stabbing pain
@@ -1220,6 +1247,7 @@ Thrombocytopenia
 Thrombolysis
 Thrombosis
 Thymus
+Thyroid function test
 Thyroid gland
 Thyroidectomy
 Thyrotoxicosis
@@ -1259,6 +1287,7 @@ Tricuspid
 Tricuspid valve
 Trimester
 Trismus
+Troponin
 Tubal ligation
 Tumor marker
 Twinge
@@ -1283,6 +1312,7 @@ Ureteroscopy
 Urethra
 Urethritis
 Urethroplasty
+Urinalysis
 Urinary bladder
 Urinary incontinence
 Urinary system
@@ -1336,6 +1366,7 @@ Weak pulse
 Wet gangrene
 Wheal
 Wheezing
+White blood cell count
 Xanthochromia
 Xanthoderma
 Xanthoma

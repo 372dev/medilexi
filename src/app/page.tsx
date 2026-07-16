@@ -63,12 +63,14 @@ export default function Home() {
             Free forever · EN / KO / FR
           </span>
 
+          {/* Serif wants looser tracking and less weight than the geometric sans
+              this layout was tuned for; -0.035em/800 reads cramped in Fraunces. */}
           <h1
-            className="m-0 max-w-[16ch] text-[clamp(2.4rem,7vw,4rem)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance"
+            className="m-0 max-w-[17ch] text-[clamp(2.3rem,6.6vw,3.8rem)] font-semibold leading-[1.08] tracking-[-0.012em] text-balance"
             style={display}
           >
             Learn medicine{' '}
-            <span className="text-[var(--b-primary)]">one part</span>{' '}
+            <em className="not-italic text-[var(--b-primary)]">one part</em>{' '}
             at a time.
           </h1>
 
@@ -77,18 +79,18 @@ export default function Home() {
             Medi Lexi teaches the pieces, then the terms, in English, Korean, and French.
           </p>
 
+          {/* Controls stay in the sans. Serif buttons read as decoration, and this
+              is how direction C used Fraunces too: display type only. */}
           <div className="mt-2 flex flex-wrap items-center justify-center gap-3">
             <Link
               href="/wordparts"
-              className="b-press b-glow rounded-2xl bg-[var(--b-primary)] px-6 py-3.5 text-[0.95rem] font-bold text-[var(--b-on-prim)]"
-              style={display}
+              className="b-press b-glow rounded-2xl bg-[var(--b-primary)] px-6 py-3.5 text-[0.92rem] font-bold text-[var(--b-on-prim)]"
             >
               Start with word parts
             </Link>
             <Link
               href="/glossary"
-              className="b-press rounded-2xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-3.5 text-[0.95rem] font-semibold text-[var(--b-text)]"
-              style={display}
+              className="b-press rounded-2xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-3.5 text-[0.92rem] font-semibold text-[var(--b-text)]"
             >
               Browse the glossary
             </Link>
@@ -99,7 +101,7 @@ export default function Home() {
             {STATS.map(s => (
               <div key={s.l} className="flex flex-col items-center gap-0.5">
                 <span
-                  className="text-[1.75rem] font-extrabold leading-none tracking-[-0.03em] tabular-nums"
+                  className="text-[1.85rem] font-semibold leading-none tracking-[-0.01em] tabular-nums"
                   style={display}
                 >
                   {s.n}
@@ -130,7 +132,7 @@ export default function Home() {
 
             <div className="flex flex-col gap-2">
               <h2
-                className="m-0 text-[clamp(1.6rem,3.6vw,2.15rem)] font-bold leading-[1.15] tracking-[-0.028em]"
+                className="m-0 text-[clamp(1.6rem,3.6vw,2.2rem)] font-semibold leading-[1.2] tracking-[-0.01em]"
                 style={display}
               >
                 Prefix · Root · Suffix
@@ -176,7 +178,7 @@ export default function Home() {
                   {d.tag}
                 </span>
                 <div className="flex flex-col gap-1">
-                  <span className="text-[1.35rem] font-bold leading-tight tracking-[-0.02em]" style={display}>
+                  <span className="text-[1.38rem] font-semibold leading-tight tracking-[-0.008em]" style={display}>
                     {d.title}
                   </span>
                   <span className="text-[0.83rem] text-[var(--b-dim)]">{d.note}</span>

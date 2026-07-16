@@ -151,7 +151,7 @@ export default function WordPartsPage() {
             </div>
 
             <div
-              className="text-[1.32rem] font-bold leading-tight tracking-[-0.02em] text-[var(--b-text)]"
+              className="text-[1.34rem] font-semibold leading-tight tracking-[-0.005em] text-[var(--b-text)]"
               style={{ fontFamily: 'var(--b-display)' }}
             >
               {p.wp}

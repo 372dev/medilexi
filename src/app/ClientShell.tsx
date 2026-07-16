@@ -91,7 +91,7 @@ export default function ClientShell({ children }: { children: React.ReactNode })
             <div className="mx-auto grid max-w-[1440px] grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 py-3">
               <Link
                 href="/"
-                className="b-focus justify-self-start text-[1.02rem] font-extrabold tracking-[-0.03em] text-[var(--b-text)] hover:opacity-80"
+                className="b-focus justify-self-start text-[1.1rem] font-semibold tracking-[-0.008em] text-[var(--b-text)] hover:opacity-80"
                 style={{ fontFamily: 'var(--b-display)' }}
               >
                 Medi<span className="text-[var(--b-primary)]">Lexi</span>

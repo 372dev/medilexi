@@ -112,7 +112,7 @@ export default function WordPartsFlashcard() {
               <span className="text-[0.7rem] font-bold uppercase tracking-[0.14em] text-[var(--b-primary)]">
                 Word parts
               </span>
-              <h1 className="m-0 text-[1.5rem] font-bold tracking-[-0.025em]" style={display}>
+              <h1 className="m-0 text-[1.5rem] font-semibold tracking-[-0.008em]" style={display}>
                 Flashcard setup
               </h1>
             </div>
@@ -193,7 +193,7 @@ export default function WordPartsFlashcard() {
             {/* Distribution */}
             <div className="mb-5 border-t border-[var(--b-border)] pt-4">
               <div className="mb-2 flex items-baseline justify-between">
-                <span className="text-[1.4rem] font-extrabold tabular-nums text-[var(--b-primary)]" style={display}>
+                <span className="text-[1.4rem] font-semibold tabular-nums text-[var(--b-primary)]" style={display}>
                   {previewCount}
                 </span>
                 <span className="text-[0.8rem] text-[var(--b-dim)]">
@@ -287,7 +287,7 @@ export default function WordPartsFlashcard() {
                   >
                     <span className={`b-badge b-badge--${card.t}`}>{TYPE_LABEL[card.t]}</span>
                     <div
-                      className="text-center text-[2.9rem] font-extrabold leading-none tracking-[-0.035em] text-[var(--b-text)]"
+                      className="text-center text-[2.9rem] font-semibold leading-none tracking-[-0.01em] text-[var(--b-text)]"
                       style={display}
                     >
                       {card.wp}
@@ -304,7 +304,7 @@ export default function WordPartsFlashcard() {
                     style={{ backfaceVisibility:'hidden', transform:'rotateY(180deg)', borderColor:'var(--b-primary)' }}
                   >
                     <div
-                      className="text-center text-[2rem] font-extrabold leading-tight tracking-[-0.03em] text-[var(--b-text)]"
+                      className="text-center text-[2rem] font-semibold leading-tight tracking-[-0.008em] text-[var(--b-text)]"
                       style={display}
                     >
                       {card.wp}
@@ -377,7 +377,7 @@ export default function WordPartsFlashcard() {
                     { n: Math.max(0, cardIdx - known.size),       l: 'missed',    c: '#FCA5A5' },
                   ].map(s => (
                     <div key={s.l} className="flex-1 text-center">
-                      <div className="text-[1.5rem] font-extrabold tabular-nums" style={{ ...display, color:s.c }}>{s.n}</div>
+                      <div className="text-[1.5rem] font-semibold tabular-nums" style={{ ...display, color:s.c }}>{s.n}</div>
                       <div className="text-[0.72rem] font-medium text-[var(--b-dim)]">{s.l}</div>
                     </div>
                   ))}
@@ -391,7 +391,7 @@ export default function WordPartsFlashcard() {
             mode === 'quiz' ? (
               <>
                 <div className="mb-7 text-center">
-                  <div className="mb-2 text-[2.4rem] font-extrabold tabular-nums text-[var(--b-primary)]" style={display}>
+                  <div className="mb-2 text-[2.4rem] font-semibold tabular-nums text-[var(--b-primary)]" style={display}>
                     {known.size} / {deck.length}
                   </div>
                   <p className="m-0 text-[0.95rem] text-[var(--b-dim)]">
@@ -437,7 +437,7 @@ export default function WordPartsFlashcard() {
               </>
             ) : (
               <div className="pt-8 text-center">
-                <div className="mb-3 text-[2rem] font-extrabold text-[var(--b-primary)]" style={display}>All done</div>
+                <div className="mb-3 text-[2rem] font-semibold text-[var(--b-primary)]" style={display}>All done</div>
                 <p className="mb-7 text-[0.95rem] text-[var(--b-dim)]">{deck.length} cards reviewed.</p>
                 <div className="flex flex-wrap justify-center gap-3">
                   <button

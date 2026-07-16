@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -771,7 +771,10 @@ body.day .ko-h { color: var(--color-text); }
   --b-amber:    #FBBF24;
   --b-text:     #E8EFEA;
   --b-dim:      #8CA096;
-  --b-display:  'Outfit', system-ui, sans-serif;
+  /* Hybrid sample: direction B's structure and palette, direction C's serif
+     display face. Every display element reads this one variable, so the swap
+     is a one-line change rather than a rebuild. */
+  --b-display:  'Fraunces', Georgia, 'Times New Roman', serif;
 }
 body.day {
   --b-bg:       #F5F9F6;

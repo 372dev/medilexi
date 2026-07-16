@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -752,4 +752,61 @@ body.day .ko-h { color: var(--color-text); }
   font-size: 0.5rem;
   color: var(--color-text-dim);
   line-height: 1.8;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   REDESIGN SAMPLE · DIRECTION C "STUDY"
+   Calm editorial treatment. Scoped to the landing page only.
+   Tokens hang off the site's existing theme mechanism (default = night,
+   body.day = light) so the shadcn :root/.dark inversion stays deferred.
+   Delete this block if direction C is not chosen.
+   ═══════════════════════════════════════════════════════════════════ */
+:root {
+  --c-bg:       #0C111C;
+  --c-panel:    #131A28;
+  --c-border:   #232D42;
+  --c-hair:     #1B2334;
+  --c-accent:   #93C5FD;
+  --c-ochre:    #D9A441;
+  --c-text:     #E8EDF5;
+  --c-dim:      #94A3B8;
+  --c-display:  'Fraunces', Georgia, serif;
+}
+body.day {
+  --c-bg:       #F7F8FA;
+  --c-panel:    #FFFFFF;
+  --c-border:   #E4E7EC;
+  --c-hair:     #ECEFF3;
+  --c-accent:   #1E3A8A;
+  --c-ochre:    #92400E;
+  --c-text:     #0F172A;
+  --c-dim:      #64748B;
+}
+
+/* NOTE: `.c-*` is already this codebase's component prefix (.c-card, .c-pill,
+   .c-badge...), so direction C's own classes use `.cs-*` to stay out of it. */
+
+/* Optical sizing is the whole point of Fraunces; drive it explicitly. */
+.cs-display {
+  font-family: var(--c-display);
+  font-optical-sizing: auto;
+  font-variation-settings: 'SOFT' 0, 'WONK' 0;
+}
+
+.cs-hairline { border-top: 1px solid var(--c-hair); }
+
+.cs-row { transition: background-color .14s ease, border-color .14s ease; }
+.cs-row:hover { background-color: color-mix(in srgb, var(--c-accent) 5%, transparent); }
+
+/* Underline that draws itself in on hover, rather than a colour swap. */
+.cs-linkline {
+  background-image: linear-gradient(var(--c-accent), var(--c-accent));
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .22s ease;
+}
+.cs-linkline:hover { background-size: 100% 1px; }
+@media (prefers-reduced-motion: reduce) {
+  .cs-row, .cs-linkline { transition: none; }
 }

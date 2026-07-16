@@ -1,121 +1,210 @@
-import type { CSSProperties } from 'react'
 import Link from 'next/link'
 
-const outline = (color: string): CSSProperties => ({
-  display: 'block',
-  fontFamily: 'var(--font-pixel)',
-  fontSize: '0.5rem',
-  padding: '0.38rem 0.9rem',
-  border: `1px solid ${color}`,
-  background: 'transparent',
-  color,
-  textDecoration: 'none',
-  lineHeight: 2,
-  letterSpacing: '0.03em',
-  textAlign: 'center',
-})
+/* ─────────────────────────────────────────────────────────────────
+   REDESIGN SAMPLE · DIRECTION C "STUDY"
+   Calm editorial treatment. Palette tokens (--c-*) live in globals.css
+   and hang off the existing `body.day` theme mechanism. Structure is
+   deliberately rows-and-rules rather than cards.
+   Landing page only; the rest of the site is untouched.
+   ───────────────────────────────────────────────────────────────── */
 
-const tileBase = (accentColor: string): CSSProperties => ({
-  background: 'var(--color-panel)',
-  borderTop: `3px solid ${accentColor}`,
-  borderRight: '1px solid var(--color-border)',
-  borderBottom: '1px solid var(--color-border)',
-  borderLeft: '1px solid var(--color-border)',
-  padding: '1rem 1.2rem',
-})
+const STATS = [
+  { n: '1,300+', l: 'Terms' },
+  { n: '600+',   l: 'Word parts' },
+  { n: 'EN KO FR', l: 'Languages' },
+]
+
+const WORDPART_LINKS = [
+  { href: '/wordparts',           label: 'Glossary' },
+  { href: '/wordparts/flashcard', label: 'Flashcard' },
+  { href: '/wordparts/quiz',      label: 'Practice' },
+  { href: '/wordparts/exam',      label: 'Exam' },
+]
+
+type Row = {
+  title: string
+  native?: string
+  note: string
+  links: { href: string; label: string }[]
+  soon?: boolean
+}
+
+const ROWS: Row[] = [
+  {
+    title: 'English', note: '1,300+ clinical terms with definitions, specialties, and word-part breakdowns.',
+    links: [{ href: '/glossary', label: 'Glossary' }, { href: '/flashcards', label: 'Flashcard' }],
+  },
+  {
+    title: 'Abbreviations', note: '135+ abbreviations, studied in either direction.',
+    links: [{ href: '/flashcards/abbr', label: 'Flashcard' }],
+  },
+  {
+    title: 'Korean', native: '한국어', note: 'Bilingual glossary with Korean definitions and IME-safe search.',
+    links: [{ href: '/glossary/ko', label: 'Glossary' }, { href: '/flashcards/ko', label: 'Flashcard' }],
+  },
+  {
+    title: 'French', native: 'Français', note: 'Bilingual glossary with French definitions.',
+    links: [], soon: true,
+  },
+]
 
 export default function Home() {
   return (
-    <>
-      <p style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginBottom:'0.5rem', letterSpacing:'0.04em', textAlign:'center', lineHeight:1.8 }}>
-        Multilingual Medical Glossary
-      </p>
-      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.7, maxWidth:'460px', textAlign:'center', marginBottom:'1.75rem' }}>
-        1,300+ medical terms · 600+ word parts · for students, medical interpreters &amp; translators
-      </p>
+    <main className="min-h-screen bg-[var(--c-bg)] px-6 pb-24 pt-14 text-[var(--c-text)]">
+      <div className="mx-auto flex w-full max-w-[720px] flex-col">
 
-      <nav style={{ width:'100%', maxWidth:'520px', display:'flex', flexDirection:'column', gap:'0.65rem' }}>
-
-        {/* ── WORD PARTS ── featured tile */}
-        <div style={tileBase('var(--color-gold)')}>
-          <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-gold)', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>
-            WORD PARTS
-          </div>
-          <div style={{ fontSize:'1rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Prefix · Root · Suffix</div>
-          <div style={{ fontSize:'0.82rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>
-            600+ entries · Build medical vocabulary from the ground up
-          </div>
-          <div style={{ display:'flex', gap:'0.5rem', flexWrap:'wrap' }}>
-            <Link href="/wordparts" style={outline('var(--color-gold)')}>Glossary</Link>
-            <Link href="/wordparts/flashcard" style={outline('var(--color-gold)')}>Flashcard</Link>
-            <Link href="/wordparts/quiz" style={outline('var(--color-gold)')}>Practice</Link>
-            <Link href="/wordparts/exam" style={outline('var(--color-gold)')}>Exam ✦</Link>
-          </div>
+        {/* ── Masthead ── */}
+        <div className="flex items-baseline justify-between gap-4 pb-10">
+          <span className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[var(--c-dim)]">
+            Medi Lexi
+          </span>
+          <span className="text-[0.7rem] uppercase tracking-[0.14em] text-[var(--c-dim)]">
+            Free reference
+          </span>
         </div>
 
-        {/* ── EN · ABBR · KO · FR ── 2×2 equal grid */}
-        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'0.65rem' }}>
+        {/* ── Hero ── */}
+        <header className="flex flex-col gap-6">
+          <h1 className="cs-display m-0 text-[clamp(2.5rem,6.5vw,3.9rem)] font-semibold leading-[1.08] tracking-[-0.02em] text-balance">
+            The language of medicine,{' '}
+            <em className="not-italic text-[var(--c-accent)]">taken apart</em>{' '}
+            and explained.
+          </h1>
 
-          <div style={{ ...tileBase('var(--color-accent)'), display:'flex', flexDirection:'column' }}>
-            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-accent)', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>ENGLISH</div>
-            <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>English</div>
-            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>1,300+ clinical terms</div>
-            <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
-              <Link href="/glossary" style={outline('var(--color-accent)')}>Glossary</Link>
-              <Link href="/flashcards" style={outline('var(--color-accent)')}>Flashcard</Link>
-            </div>
+          <p className="m-0 max-w-[58ch] text-[1.06rem] leading-[1.72] text-[var(--c-dim)]">
+            A multilingual medical glossary for students, interpreters, and translators.
+            Every term carries its definition, its clinical field, and the prefix, root,
+            and suffix it was built from.
+          </p>
+
+          <div className="flex flex-wrap items-center gap-x-7 gap-y-3 pt-1">
+            <Link
+              href="/wordparts"
+              className="rounded-[4px] bg-[var(--c-accent)] px-5 py-3 text-[0.88rem] font-semibold text-[var(--c-bg)]"
+            >
+              Begin with word parts
+            </Link>
+            <Link
+              href="/glossary"
+              className="cs-linkline text-[0.92rem] font-medium text-[var(--c-text)]"
+            >
+              Or browse the full glossary
+            </Link>
           </div>
+        </header>
 
-          <div style={{ ...tileBase('#C94040'), display:'flex', flexDirection:'column' }}>
-            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#C94040', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>ABBREVIATIONS</div>
-            <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Medical Abbr</div>
-            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>135+ · Abbr ↔ Term</div>
-            <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
-              <Link href="/flashcards/abbr" style={outline('#C94040')}>Flashcard</Link>
+        {/* ── Figures ── */}
+        <div className="mt-14 flex flex-wrap gap-x-14 gap-y-6 border-y border-[var(--c-hair)] py-7">
+          {STATS.map(s => (
+            <div key={s.l} className="flex flex-col gap-1">
+              <span className="cs-display text-[1.6rem] font-semibold leading-none tracking-[-0.02em] tabular-nums">
+                {s.n}
+              </span>
+              <span className="text-[0.7rem] uppercase tracking-[0.16em] text-[var(--c-dim)]">{s.l}</span>
             </div>
-          </div>
-
-          <div style={{ ...tileBase('#3BAA6A'), display:'flex', flexDirection:'column' }}>
-            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#3BAA6A', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>KOREAN</div>
-            <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>한국어</div>
-            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>Bilingual · EN↔KO</div>
-            <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
-              <Link href="/glossary/ko" style={outline('#3BAA6A')}>Glossary</Link>
-              <Link href="/flashcards/ko" style={outline('#3BAA6A')}>Flashcard</Link>
-            </div>
-          </div>
-
-          <div style={{ ...tileBase('#3B82F6'), display:'flex', flexDirection:'column' }}>
-            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'#3B82F6', letterSpacing:'0.1em', marginBottom:'0.25rem' }}>FRENCH</div>
-            <div style={{ fontSize:'0.95rem', color:'var(--color-text)', marginBottom:'0.15rem' }}>Français</div>
-            <div style={{ fontSize:'0.78rem', color:'var(--color-text-dim)', marginBottom:'0.85rem' }}>Bilingual · EN↔FR</div>
-            {/* FR links disabled on landing page for now — routes (/glossary/fr,
-                /flashcards/fr) remain live for direct access. Restore the two
-                <Link> buttons below to re-enable. */}
-            <div style={{ display:'flex', flexDirection:'column', gap:'0.4rem', marginTop:'auto' }}>
-              <span style={{ ...outline('#3B82F6'), opacity:0.4, cursor:'not-allowed' }} aria-disabled="true">Coming soon</span>
-            </div>
-          </div>
-
+          ))}
         </div>
 
-      </nav>
+        {/* ── Featured essay block: word parts ── */}
+        <section className="mt-14 flex flex-col gap-5">
+          <span className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-[var(--c-ochre)]">
+            Where to start
+          </span>
 
-      <div style={{ marginTop:'2rem', textAlign:'center', display:'flex', flexDirection:'column', gap:'0.5rem', alignItems:'center', maxWidth:'520px' }}>
-        <p className="site-footer__disclaimer" style={{ textAlign:'center' }}>
-          ⚕ For educational purposes only · Not a substitute for professional medical advice, diagnosis, or treatment ·
-          Content is based on standard medical terminology references and may not reflect the latest clinical guidelines
-        </p>
-        <div style={{ display:'flex', gap:'1rem', flexWrap:'wrap', justifyContent:'center' }}>
-          <Link href="/about" style={{ fontSize:'0.82rem', color:'var(--color-accent)', textDecoration:'underline' }}>
-            About &amp; Sources
-          </Link>
-          <Link href="/privacy" style={{ fontSize:'0.82rem', color:'var(--color-accent)', textDecoration:'underline' }}>
-            Privacy Policy
-          </Link>
-        </div>
-        <p className="site-footer__copy">© 2026 Medi Lexi · All rights reserved</p>
+          <h2 className="cs-display m-0 text-[1.95rem] font-semibold leading-[1.2] tracking-[-0.018em]">
+            Prefix, root, suffix
+          </h2>
+
+          <p className="m-0 max-w-[62ch] text-[0.98rem] leading-[1.72] text-[var(--c-dim)]">
+            Medical vocabulary is not a list to be memorised. It is a system. Learn that{' '}
+            <span className="text-[var(--c-text)]">brady</span> means slow,{' '}
+            <span className="text-[var(--c-text)]">cardi</span> means heart, and{' '}
+            <span className="text-[var(--c-text)]">ia</span> marks a condition, and{' '}
+            <span className="cs-display italic text-[var(--c-text)]">bradycardia</span>{' '}
+            reads itself. Six hundred parts unlock many thousands of terms.
+          </p>
+
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2 pt-1">
+            {WORDPART_LINKS.map(l => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="cs-linkline text-[0.88rem] font-medium text-[var(--c-text)]"
+              >
+                {l.label}
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* ── Language rows ── */}
+        <section className="mt-16 flex flex-col">
+          <h2 className="m-0 pb-2 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-[var(--c-dim)]">
+            The collections
+          </h2>
+
+          <ul className="m-0 flex list-none flex-col p-0">
+            {ROWS.map(r => (
+              <li
+                key={r.title}
+                className="cs-row cs-hairline flex flex-col gap-2 py-6 sm:flex-row sm:items-baseline sm:gap-8"
+              >
+                <div className="flex shrink-0 items-baseline gap-2.5 sm:w-[9.5rem]">
+                  <span className="cs-display text-[1.22rem] font-semibold tracking-[-0.015em]">
+                    {r.title}
+                  </span>
+                  {r.native && (
+                    <span className="text-[0.85rem] text-[var(--c-dim)]">{r.native}</span>
+                  )}
+                </div>
+
+                <p className="m-0 flex-1 text-[0.9rem] leading-[1.65] text-[var(--c-dim)]">
+                  {r.note}
+                </p>
+
+                <div className="flex shrink-0 flex-wrap items-center gap-x-5 gap-y-1">
+                  {r.soon ? (
+                    <span className="text-[0.82rem] italic text-[var(--c-dim)]" aria-disabled="true">
+                      Coming soon
+                    </span>
+                  ) : (
+                    r.links.map(l => (
+                      <Link
+                        key={l.href}
+                        href={l.href}
+                        className="cs-linkline text-[0.85rem] font-medium text-[var(--c-text)]"
+                      >
+                        {l.label}
+                      </Link>
+                    ))
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        {/* ── Footer ── */}
+        <footer className="cs-hairline mt-16 flex flex-col gap-4 pt-8">
+          <p className="m-0 max-w-[74ch] text-[0.76rem] leading-[1.75] text-[var(--c-dim)]">
+            ⚕ For educational purposes only · Not a substitute for professional medical advice,
+            diagnosis, or treatment · Content is based on standard medical terminology references
+            and may not reflect the latest clinical guidelines
+          </p>
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
+            <Link href="/about" className="cs-linkline text-[0.82rem] text-[var(--c-text)]">
+              About &amp; Sources
+            </Link>
+            <Link href="/privacy" className="cs-linkline text-[0.82rem] text-[var(--c-text)]">
+              Privacy Policy
+            </Link>
+            <span className="ml-auto text-[0.76rem] text-[var(--c-dim)]">
+              © 2026 Medi Lexi
+            </span>
+          </div>
+        </footer>
+
       </div>
-    </>
+    </main>
   )
 }

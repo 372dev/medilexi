@@ -7087,5 +7087,254 @@
         "en_h":  "Serum sodium",
         "fr_h":  "Natrémie",
         "d_fr":  "Mesure du taux de sodium dans le sang, le principal électrolyte réglant l\u0027équilibre hydrique et la pression artérielle du corps."
+    },
+    {
+        "en_h":  "Alveoloplasty",
+        "fr_h":  "Alvéoloplastie",
+        "d_fr":  "Remodelage chirurgical et lissage de la crête alvéolaire après extraction dentaire pour préparer la pose de prothèses ou d\u0027implants."
+    },
+    {
+        "en_h":  "Root resorption",
+        "fr_h":  "Résorption radiculaire",
+        "d_fr":  "Perte pathologique de la structure de la racine dentaire due à l\u0027activité odontoclastique, interne ou externe."
+    },
+    {
+        "en_h":  "Osseointegration",
+        "fr_h":  "Ostéo-intégration",
+        "d_fr":  "Connexion structurale et fonctionnelle directe entre l\u0027os vivant et la surface d\u0027un implant dentaire porteur de charge."
+    },
+    {
+        "en_h":  "Maxillofacial surgery",
+        "fr_h":  "Chirurgie maxillo-faciale",
+        "d_fr":  "Spécialité chirurgicale traitant les maladies, traumatismes et anomalies du visage, des mâchoires et de la bouche."
+    },
+    {
+        "en_h":  "Bruxism",
+        "fr_h":  "Bruxisme",
+        "fr_l":  "Grincement des dents",
+        "d_fr":  "Serrement ou grincement involontaire des dents, souvent pendant le sommeil ou sous stress."
+    },
+    {
+        "en_h":  "Mandibular arch",
+        "fr_h":  "Arcade mandibulaire",
+        "d_fr":  "Structure courbe formée par les dents inférieures et l\u0027os mandibulaire de soutien."
+    },
+    {
+        "en_h":  "Maxillary arch",
+        "fr_h":  "Arcade maxillaire",
+        "d_fr":  "Structure courbe formée par les dents supérieures et l\u0027os maxillaire de soutien."
+    },
+    {
+        "en_h":  "Dental caries",
+        "fr_h":  "Carie dentaire",
+        "fr_l":  "Carie",
+        "d_fr":  "Destruction progressive de la structure dentaire causée par des bactéries productrices d\u0027acide dans la plaque dentaire."
+    },
+    {
+        "en_h":  "Root canal treatment",
+        "fr_h":  "Traitement endodontique",
+        "fr_l":  "Traitement de canal",
+        "d_fr":  "Procédure consistant à enlever la pulpe infectée d\u0027une dent, nettoyer le canal et le sceller pour sauver la dent."
+    },
+    {
+        "en_h":  "Dental crown",
+        "fr_h":  "Couronne dentaire",
+        "fr_l":  "Couronne",
+        "d_fr":  "Capuchon artificiel placé sur une dent endommagée pour restaurer sa forme, sa solidité et son apparence."
+    },
+    {
+        "en_h":  "Dental implant",
+        "fr_h":  "Implant dentaire",
+        "d_fr":  "Racine dentaire artificielle placée chirurgicalement dans l\u0027os de la mâchoire pour soutenir une dent ou un pont de remplacement."
+    },
+    {
+        "en_h":  "Malocclusion",
+        "fr_h":  "Malocclusion",
+        "d_fr":  "Mauvais alignement des dents ou des mâchoires entraînant un mauvais rapport d\u0027occlusion."
+    },
+    {
+        "en_h":  "Impacted tooth",
+        "fr_h":  "Dent incluse",
+        "d_fr":  "Dent qui ne fait pas éruption correctement dans l\u0027arcade dentaire en raison d\u0027une obstruction ou d\u0027un manque d\u0027espace."
+    },
+    {
+        "en_h":  "Tooth extraction",
+        "fr_h":  "Extraction dentaire",
+        "d_fr":  "Retrait chirurgical d\u0027une dent de son alvéole dans l\u0027os de la mâchoire."
+    },
+    {
+        "en_h":  "Endodontics",
+        "fr_h":  "Endodontie",
+        "d_fr":  "Spécialité dentaire concernant le diagnostic et le traitement des maladies de la pulpe dentaire et des tissus péri-apicaux."
+    },
+    {
+        "en_h":  "Denture",
+        "fr_h":  "Prothèse dentaire",
+        "fr_l":  "Dentier",
+        "d_fr":  "Dispositif prothétique amovible remplaçant les dents manquantes et les tissus environnants."
+    },
+    {
+        "en_h":  "Third molar",
+        "fr_h":  "Troisième molaire",
+        "fr_l":  "Dent de sagesse",
+        "d_fr":  "Molaire la plus postérieure dans chaque quadrant de la dentition, souvent la dernière à faire éruption."
+    },
+    {
+        "en_h":  "Fluoride",
+        "fr_h":  "Fluorure",
+        "d_fr":  "Composé minéral qui renforce l\u0027émail dentaire et aide à prévenir les caries."
+    },
+    {
+        "en_h":  "Temporomandibular disorder",
+        "fr_h":  "Trouble temporomandibulaire",
+        "fr_l":  "Trouble de la mâchoire",
+        "d_fr":  "Groupe d\u0027affections affectant l\u0027articulation temporomandibulaire, les muscles masticateurs et structures associées causant douleur et dysfonction."
+    },
+    {
+        "en_h":  "Enamel",
+        "fr_h":  "Émail",
+        "d_fr":  "Couche externe la plus dure de la couronne dentaire protégeant contre l\u0027usure et la carie."
+    },
+    {
+        "en_h":  "Dentin",
+        "fr_h":  "Dentine",
+        "d_fr":  "Tissu dur sous l\u0027émail formant la majeure partie de la dent, contenant des tubules reliés à la pulpe."
+    },
+    {
+        "en_h":  "Pulpitis",
+        "fr_h":  "Pulpite",
+        "d_fr":  "Inflammation de la pulpe dentaire, souvent due à l\u0027invasion bactérienne par carie ou traumatisme."
+    },
+    {
+        "en_h":  "Overbite",
+        "fr_h":  "Supraclusion",
+        "d_fr":  "Chevauchement vertical excessif des dents antérieures supérieures sur les inférieures lorsque les mâchoires sont fermées."
+    },
+    {
+        "en_h":  "Prognathism",
+        "fr_h":  "Prognathisme",
+        "d_fr":  "Condition où la mandibule ou le maxillaire fait saillie anormalement vers l\u0027avant par rapport à l\u0027autre mâchoire."
+    },
+    {
+        "en_h":  "Dental abscess",
+        "fr_h":  "Abcès dentaire",
+        "d_fr":  "Collection localisée de pus associée à une dent, résultant d\u0027une infection bactérienne."
+    },
+    {
+        "en_h":  "Dental prophylaxis",
+        "fr_h":  "Prophylaxie dentaire",
+        "d_fr":  "Procédure de nettoyage dentaire préventif pour enlever la plaque, le tartre et les taches des dents."
+    },
+    {
+        "en_h":  "Choroidal degeneration",
+        "fr_h":  "Dégénérescence choroïdienne",
+        "d_fr":  "Détérioration progressive de la couche choroïdienne derrière la rétine entraînant une altération de la vision."
+    },
+    {
+        "en_h":  "Macular dystrophy",
+        "fr_h":  "Dystrophie maculaire",
+        "d_fr":  "Groupe de troubles héréditaires causant des dommages progressifs à la macula de la rétine."
+    },
+    {
+        "en_h":  "Visual acuity",
+        "fr_h":  "Acuité visuelle",
+        "d_fr":  "Mesure de la clarté ou de la netteté de la vision centrale, généralement testée avec un tableau optique."
+    },
+    {
+        "en_h":  "Posterior capsule opacification",
+        "fr_h":  "Opacification de la capsule postérieure",
+        "fr_l":  "Cataracte secondaire",
+        "d_fr":  "Opacification de la capsule postérieure du cristallin après chirurgie de la cataracte, aussi appelée cataracte secondaire."
+    },
+    {
+        "en_h":  "Multifocal intraocular lens",
+        "fr_h":  "Lentille intraoculaire multifocale",
+        "d_fr":  "Lentille artificielle implantée lors d\u0027une chirurgie de la cataracte conçue pour fournir une vision à plusieurs distances."
+    },
+    {
+        "en_h":  "Presbyopia",
+        "fr_h":  "Presbytie",
+        "d_fr":  "Perte liée à l\u0027âge de la capacité de focalisation de près due à une diminution de la flexibilité du cristallin."
+    },
+    {
+        "en_h":  "Intraocular pressure",
+        "fr_h":  "Pression intraoculaire",
+        "d_fr":  "Pression du fluide à l\u0027intérieur de l\u0027œil maintenue par la production et le drainage de l\u0027humeur aqueuse."
+    },
+    {
+        "en_h":  "Amblyopia",
+        "fr_h":  "Amblyopie",
+        "fr_l":  "Œil paresseux",
+        "d_fr":  "Vision réduite dans un œil due à un développement visuel anormal pendant l\u0027enfance."
+    },
+    {
+        "en_h":  "Dry eye syndrome",
+        "fr_h":  "Syndrome de l\u0027œil sec",
+        "d_fr":  "Condition avec production insuffisante de larmes ou évaporation excessive entraînant un inconfort oculaire."
+    },
+    {
+        "en_h":  "Vitrectomy",
+        "fr_h":  "Vitrectomie",
+        "d_fr":  "Retrait chirurgical de l\u0027humeur vitrée de l\u0027œil pour traiter divers troubles rétiniens."
+    },
+    {
+        "en_h":  "Vitreous floaters",
+        "fr_h":  "Mouches volantes",
+        "d_fr":  "Petites taches ou nuages se déplaçant dans le champ visuel causés par des débris dans l\u0027humeur vitrée."
+    },
+    {
+        "en_h":  "Uveitis",
+        "fr_h":  "Uvéite",
+        "d_fr":  "Inflammation de l\u0027uvée, la couche moyenne de l\u0027œil, pouvant affecter la vision."
+    },
+    {
+        "en_h":  "Keratoconus",
+        "fr_h":  "Kératocône",
+        "d_fr":  "Amincissement et bombement progressifs de la cornée en forme de cône, déformant la vision."
+    },
+    {
+        "en_h":  "Chalazion",
+        "fr_h":  "Chalazion",
+        "d_fr":  "Inflammation granulomateuse chronique d\u0027une glande de Meibomius dans la paupière."
+    },
+    {
+        "en_h":  "Hordeolum",
+        "fr_h":  "Orgelet",
+        "d_fr":  "Infection aiguë d\u0027une glande palpébrale, provoquant généralement une bosse rouge douloureuse."
+    },
+    {
+        "en_h":  "Pterygium",
+        "fr_h":  "Ptérygion",
+        "d_fr":  "Croissance bénigne de tissu fibrovasculaire sur la conjonctive pouvant s\u0027étendre sur la cornée."
+    },
+    {
+        "en_h":  "Enucleation",
+        "fr_h":  "Énucléation",
+        "d_fr":  "Retrait chirurgical complet du globe oculaire tout en préservant les tissus orbitaires environnants."
+    },
+    {
+        "en_h":  "Slit lamp",
+        "fr_h":  "Lampe à fente",
+        "d_fr":  "Microscope avec un faisceau de lumière fin utilisé pour l\u0027examen détaillé des structures antérieures de l\u0027œil."
+    },
+    {
+        "en_h":  "Tonometry",
+        "fr_h":  "Tonométrie",
+        "d_fr":  "Mesure de la pression intraoculaire pour dépister le glaucome."
+    },
+    {
+        "en_h":  "Ocular hypertension",
+        "fr_h":  "Hypertension oculaire",
+        "d_fr":  "Pression intraoculaire élevée sans dommage au nerf optique ni perte du champ visuel."
+    },
+    {
+        "en_h":  "Corneal abrasion",
+        "fr_h":  "Abrasion cornéenne",
+        "d_fr":  "Égratignure ou éraflure à la surface de la cornée, provoquant souvent douleur et photophobie."
+    },
+    {
+        "en_h":  "YAG laser capsulotomy",
+        "fr_h":  "Capsulotomie au laser YAG",
+        "d_fr":  "Intervention au laser ouvrant la capsule postérieure opacifiée du cristallin après une chirurgie de la cataracte pour restaurer une vision nette."
     }
 ]

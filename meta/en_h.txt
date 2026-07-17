@@ -47,9 +47,11 @@ Alkaline phosphatase
 Allergy
 Allograft
 Alopecia
+Alveoloplasty
 Alveolus
 Alzheimer's disease
 Ambidextrous
+Amblyopia
 Ambulatory care
 Amebiasis
 Amenorrhea
@@ -192,6 +194,7 @@ Bronchodilation
 Bronchoscopy
 Bronchospasm
 Bronchus
+Bruxism
 B-type natriuretic peptide
 Buccinator
 Bulimia nervosa
@@ -246,6 +249,7 @@ Cerebrum
 Certified nursing assistant
 Cervical region
 Cervix
+Chalazion
 Charge nurse
 Chemabrasion
 Chemotherapy
@@ -267,6 +271,7 @@ Chondroblast
 Chondrocyte
 Chondroma
 Chondromalacia
+Choroidal degeneration
 Chromosome
 Chronic
 Chronic disease management
@@ -314,6 +319,7 @@ Contusion
 Convalescence
 Cor pulmonale
 Cornea
+Corneal abrasion
 Corneal transplant
 Corneitis
 Coronary artery
@@ -356,8 +362,15 @@ Deep vein thrombosis
 Dehydration
 Delusion
 Dementia
+Dental abscess
+Dental caries
+Dental crown
+Dental implant
+Dental prophylaxis
+Dentin
 Dentist
 Dentistry
+Denture
 Depigmentation
 Depression
 Dermabrasion
@@ -393,6 +406,7 @@ Dizziness
 Doppler ultrasound
 Dorsal
 Doula
+Dry eye syndrome
 Dry gangrene
 Dull pain
 Duodenitis
@@ -434,6 +448,7 @@ Emergency Medicine
 Emphysema
 Empyema
 En bloc resection
+Enamel
 Encephalitis
 Encephalocele
 Encephalopathy
@@ -441,6 +456,7 @@ Endocarditis
 Endocardium
 Endocrine system
 Endocrinology
+Endodontics
 Endometriosis
 Endometrium
 Endoscope
@@ -449,6 +465,7 @@ End-stage renal disease
 Enteritis
 Enterocolitis
 Enteroscopy
+Enucleation
 Epidermis
 Epidermoid cyst
 Epididymis
@@ -496,6 +513,7 @@ Fibula
 Fine-needle aspiration
 Fissure
 Flexor digitorum
+Fluoride
 Follicle
 Follow-up
 Forced vital capacity
@@ -584,6 +602,7 @@ Hidradenitis
 Hip joint
 Hippocampus
 Hirsutism
+Hordeolum
 Hospitalist
 Humerus
 Hydrocele
@@ -630,6 +649,7 @@ Immunodeficiency
 Immunoglobulin
 Immunology
 Immunotherapy
+Impacted tooth
 Impetigo
 Implantable port
 Incision and drainage
@@ -652,6 +672,7 @@ Intervertebral disc
 Intestinal metaplasia
 Intestinal obstruction
 Intramuscular injection
+Intraocular pressure
 Intravenous
 Intravenous immunoglobulin
 Intubation
@@ -668,6 +689,7 @@ Juxtaglomerular
 Kaposi's sarcoma
 Kawasaki disease
 Keloid
+Keratoconus
 Keratosis
 Kidney
 Knee joint
@@ -725,16 +747,21 @@ Lymphedema
 Lymphoma
 Macroglossia
 Macular degeneration
+Macular dystrophy
 Macule
 Magnetic resonance imaging
 Malignant
 Malignant melanoma
 Malnutrition
+Malocclusion
 Mammogram
 Mammography
 Mammoplasty
 Mandible
+Mandibular arch
 Mania
+Maxillary arch
+Maxillofacial surgery
 Medial
 Median nerve
 Medical assistant
@@ -771,6 +798,7 @@ Mitral valve prolapse
 Moderate pain
 Mood stabilizer
 Mucositis
+Multifocal intraocular lens
 Multiple sclerosis
 Muscle
 Muscular dystrophy
@@ -853,6 +881,7 @@ Obstetrics & Gynecology
 Occipital lobe
 Occupational therapist
 Occupational therapy
+Ocular hypertension
 Oculomotor
 Olfactory groove
 Oligospermia
@@ -880,6 +909,7 @@ Orthodontics
 Orthopedics
 Orthopnea
 Orthostatic hypotension
+Osseointegration
 Osteoarthritis
 Osteomalacia
 Osteomyelitis
@@ -897,6 +927,7 @@ Ovarian cyst
 Ovarian torsion
 Ovariotomy
 Ovary
+Overbite
 Ovum
 Pacemaker
 Pain
@@ -996,6 +1027,7 @@ Polyuria
 Porphyria
 Postauricular
 Posterior
+Posterior capsule opacification
 Postoperative
 Postpartum
 Postpartum hemorrhage
@@ -1005,6 +1037,7 @@ Premature atrial contraction
 Prenatal
 Preoperative
 Presbycusis
+Presbyopia
 Prescription
 Prescription medicine
 Pressure-like pain
@@ -1015,6 +1048,7 @@ Proctitis
 Proctologist
 Proctoscopy
 Prodrome
+Prognathism
 Prognosis
 Progressive pain
 Prophylaxis
@@ -1036,6 +1070,7 @@ Psychiatry
 Psychologist
 Psychosis
 Psychotherapy
+Pterygium
 Pudendal block
 Pulmonary artery
 Pulmonary edema
@@ -1044,6 +1079,7 @@ Pulmonary fibrosis
 Pulmonary valve
 Pulmonary vein
 Pulmonology
+Pulpitis
 Purpura
 Purulent
 Pustule
@@ -1105,6 +1141,8 @@ Rhonchi
 Rhytidectomy
 Rib
 Rigors
+Root canal treatment
+Root resorption
 Rotator cuff
 Rubella
 Sagittal plane
@@ -1150,6 +1188,7 @@ Sinusitis
 Sinusotomy
 Skin graft
 Sleep apnea
+Slit lamp
 Small intestine
 Snare
 Somatic symptom disorder
@@ -1224,6 +1263,7 @@ Tdap vaccine
 Tearing pain
 Telangiectasia
 Temporal lobe
+Temporomandibular disorder
 Tenderness
 Tendon
 Tendonitis
@@ -1236,6 +1276,7 @@ Testis
 Tetanus
 Thalamus
 Thermometer
+Third molar
 Thoracentesis
 Thoracic cavity
 Thoracic Surgery
@@ -1260,7 +1301,9 @@ Tomography
 Tongue
 Tonic-clonic seizure
 Tonometer
+Tonometry
 Tonsillitis
+Tooth extraction
 Topography
 Total knee arthroplasty
 Toxemia
@@ -1323,6 +1366,7 @@ Urticaria
 Uterine leiomyoma
 Uterine prolapse
 Uterus
+Uveitis
 Vaccination / immunization
 Vagina
 Vagus nerve
@@ -1357,8 +1401,11 @@ Vesicoureteral reflux
 Vestibular nerve
 Visceroceptors
 Visceromegaly
+Visual acuity
 Vital signs
 Vitiligo
+Vitrectomy
+Vitreous floaters
 Voluntary movement
 Volvulus
 Vulva
@@ -1374,3 +1421,4 @@ Xenograft
 Xerosis
 Xerostomia
 X-ray
+YAG laser capsulotomy

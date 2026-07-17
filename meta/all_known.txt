@@ -458,7 +458,7 @@ Dental prophylaxis
 Dentin
 Dentist
 Dentistry
-Dentures
+Denture
 Depigmentation
 Depression
 Dermabrasion
@@ -638,7 +638,6 @@ Fine motor skill
 Fine-needle aspiration
 Fissure
 Flexor digitorum
-Floaters
 Fluid restriction
 Fluoride
 Fluoroscopy
@@ -966,7 +965,7 @@ Marital status
 Mastocytosis
 Mastoiditis
 Maxillary arch
-Maxillofacial
+Maxillofacial surgery
 Medial
 Median nerve
 Medical assistant
@@ -1010,7 +1009,7 @@ Mood stabilizer
 Morning sickness
 Mucositis
 Mucus
-Multifocal lens
+Multifocal intraocular lens
 Multiple sclerosis
 Muscle
 Muscle ache
@@ -1210,7 +1209,6 @@ Pericardiocentesis
 Pericarditis
 Pericardium
 Perineum
-Periodontal
 Periodontitis
 Periosteum
 Peripheral artery disease
@@ -1276,6 +1274,7 @@ Positron emission tomography
 Post-anesthesia care unit
 Postauricular
 Posterior
+Posterior capsule opacification
 Postnasal drip
 Postoperative
 Postpartum
@@ -1305,6 +1304,7 @@ Proctitis
 Proctologist
 Proctoscopy
 Prodrome
+Prognathism
 Prognosis
 Progress note
 Progressive pain
@@ -1394,7 +1394,6 @@ Reproductive system
 Resectable
 Resection
 Resident physician
-Resorption
 Respiratory depression
 Respiratory rate
 Respiratory system
@@ -1417,7 +1416,8 @@ Rhonchi
 Rhytidectomy
 Rib
 Rigors
-Root canal
+Root canal treatment
+Root resorption
 Rotator cuff
 Rotator cuff tear
 Rubella
@@ -1441,7 +1441,6 @@ Scrub nurse
 Sebaceous gland
 Seborrhea
 Sebum
-Secondary cataract
 Sedation
 Seizure
 Selective serotonin reuptake inhibitor
@@ -1589,6 +1588,7 @@ Tetanus
 Thalamus
 Thalassemia
 Thermometer
+Third molar
 Thoracentesis
 Thoracic cavity
 Thoracic Surgery
@@ -1676,7 +1676,6 @@ Umbilical cord
 Umbilical hernia
 Umbilicus
 Unbearable pain
-Underbite
 Undescended testicle
 Uneasy
 Upper respiratory tract infection
@@ -1746,6 +1745,7 @@ Vital signs
 Vitamin D deficiency
 Vitiligo
 Vitrectomy
+Vitreous floaters
 Vocal cord nodule
 Voluntary movement
 Volvulus
@@ -1759,7 +1759,6 @@ Wheal
 Wheelchair
 Wheezing
 White blood cell count
-Wisdom tooth
 Withdrawal
 Wound care
 Wound irrigation
@@ -1770,4 +1769,4 @@ Xenograft
 Xerosis
 Xerostomia
 X-ray
-YAG laser
+YAG laser capsulotomy

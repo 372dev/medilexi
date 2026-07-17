@@ -20686,5 +20686,601 @@
               ],
         "d":  "A measurement of the sodium level in blood, the main electrolyte controlling the body\u0027s water balance and blood pressure.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Alveoloplasty",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Surgical reshaping and smoothing of the alveolar ridge after tooth extraction to prepare for dentures or implants.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Root resorption",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Pathologic loss of tooth root structure due to odontoclastic activity, which may be internal or external.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Osseointegration",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Direct structural and functional connection between living bone and the surface of a load-carrying dental implant.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Maxillofacial surgery",
+        "f":  [
+                  "Dentistry",
+                  "Surgery"
+              ],
+        "d":  "Surgical specialty treating diseases, injuries, and defects of the face, jaws, and mouth.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "maxill/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Bruxism",
+        "en_l":  "Teeth grinding",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Involuntary clenching or grinding of the teeth, often during sleep or due to stress.",
+        "lvl":  3,
+        "parts":  {
+                      "s":  [
+                                "-ism"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Mandibular arch",
+        "f":  [
+                  "Dentistry",
+                  "Anatomy"
+              ],
+        "d":  "The curved structure formed by the lower teeth and supporting bone of the mandible.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "mandibul/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Maxillary arch",
+        "f":  [
+                  "Dentistry",
+                  "Anatomy"
+              ],
+        "d":  "The curved structure formed by the upper teeth and supporting bone of the maxilla.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "maxill/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental caries",
+        "en_l":  "Tooth decay",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Progressive destruction of tooth structure caused by acid-producing bacteria in dental plaque.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Root canal treatment",
+        "en_l":  "Root canal",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Procedure to remove infected pulp from a tooth, clean the canal, and seal it to save the tooth.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Dental crown",
+        "en_l":  "Cap",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Artificial cap placed over a damaged tooth to restore its shape, strength, and appearance.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental implant",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Artificial tooth root surgically placed into the jawbone to support a replacement tooth or bridge.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Malocclusion",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Misalignment of the teeth or jaws resulting in improper bite relationship.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "mal-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Impacted tooth",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Tooth that fails to erupt properly into the dental arch due to obstruction or lack of space.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Tooth extraction",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Surgical removal of a tooth from its socket in the jawbone.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Endodontics",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Dental specialty concerned with the diagnosis and treatment of diseases of the dental pulp and periapical tissues.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "endo-"
+                            ],
+                      "r":  [
+                                "odont/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Denture",
+        "en_l":  "False teeth",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Removable prosthetic device replacing missing teeth and surrounding tissues.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Third molar",
+        "en_l":  "Wisdom tooth",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Most posterior molar tooth in each quadrant of the dentition, often erupting last.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Fluoride",
+        "f":  [
+                  "Dentistry",
+                  "Pharmacology"
+              ],
+        "d":  "Mineral compound that strengthens tooth enamel and helps prevent dental caries.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Temporomandibular disorder",
+        "abbr":  "TMD",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Group of conditions affecting the temporomandibular joint, muscles of mastication, and associated structures causing pain and dysfunction.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Enamel",
+        "f":  [
+                  "Dentistry",
+                  "Anatomy"
+              ],
+        "d":  "Hardest outer layer of the tooth crown providing protection against wear and decay.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Dentin",
+        "f":  [
+                  "Dentistry",
+                  "Anatomy"
+              ],
+        "d":  "Hard tissue beneath the enamel forming the main bulk of the tooth, containing tubules connected to the pulp.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pulpitis",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Inflammation of the dental pulp, often due to bacterial invasion from caries or trauma.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Overbite",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Excessive vertical overlap of the upper front teeth over the lower front teeth when the jaws are closed.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Prognathism",
+        "en_l":  "Underbite",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Condition where the mandible or maxilla protrudes abnormally forward relative to the other jaw.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "pro-"
+                            ],
+                      "s":  [
+                                "-ism"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental abscess",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Localized collection of pus associated with a tooth, resulting from bacterial infection.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental prophylaxis",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Preventive dental cleaning procedure to remove plaque, calculus, and stains from teeth.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "dent/i",
+                                "phylax/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Choroidal degeneration",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Progressive deterioration of the choroid layer behind the retina leading to vision impairment.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Macular dystrophy",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Group of inherited disorders causing progressive damage to the macula of the retina.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "macul/o"
+                            ],
+                      "s":  [
+                                "-trophy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Visual acuity",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Measure of the clarity or sharpness of central vision, typically tested with an eye chart.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Posterior capsule opacification",
+        "abbr":  "PCO",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Clouding of the posterior lens capsule after cataract surgery, also known as secondary cataract.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "post-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Multifocal intraocular lens",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Artificial lens implanted during cataract surgery designed to provide vision at multiple distances.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "multi-"
+                            ],
+                      "r":  [
+                                "ocul/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Presbyopia",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Age-related loss of near focusing ability due to decreased lens flexibility.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "presby/o"
+                            ],
+                      "s":  [
+                                "-opia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Intraocular pressure",
+        "abbr":  "IOP",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Fluid pressure inside the eye maintained by aqueous humor production and drainage.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "intra-"
+                            ],
+                      "r":  [
+                                "ocul/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Amblyopia",
+        "en_l":  "Lazy eye",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Reduced vision in one eye due to abnormal visual development during childhood.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "ambly/o"
+                            ],
+                      "s":  [
+                                "-opia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dry eye syndrome",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Condition with insufficient tear production or excessive evaporation leading to ocular discomfort.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Vitrectomy",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Surgical removal of the vitreous humor from the eye to treat various retinal disorders.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "vitre/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Vitreous floaters",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Small specks or clouds moving in the field of vision caused by debris in the vitreous humor.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "vitre/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Uveitis",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Inflammation of the uvea, the middle layer of the eye, which can affect vision.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "uve/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Keratoconus",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Progressive thinning and bulging of the cornea into a cone shape, distorting vision.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "kerat/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Chalazion",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Chronic granulomatous inflammation of a meibomian gland in the eyelid.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Hordeolum",
+        "en_l":  "Stye",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Acute infection of an eyelid gland, typically causing a painful red lump.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Pterygium",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Benign growth of fibrovascular tissue on the conjunctiva that may extend onto the cornea.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-ium"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Enucleation",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Surgical removal of the entire eyeball while preserving the surrounding orbital tissues.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "nucle/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Slit lamp",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Microscope with a thin beam of light used for detailed examination of the eye\u0027s anterior structures.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Tonometry",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Measurement of intraocular pressure to screen for glaucoma.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "ton/o"
+                            ],
+                      "s":  [
+                                "-metry"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Ocular hypertension",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Elevated intraocular pressure without optic nerve damage or visual field loss.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ocul/o"
+                            ],
+                      "s":  [
+                                "-tension"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Corneal abrasion",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Scratch or scrape on the surface of the cornea, often causing pain and light sensitivity.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "corne/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "YAG laser capsulotomy",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Laser procedure that opens a clouded posterior lens capsule after cataract surgery to restore clear vision.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-otomy"
+                            ]
+                  }
     }
 ]

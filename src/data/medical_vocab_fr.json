@@ -481,7 +481,7 @@
     {
         "en_h":  "Anticoagulant",
         "fr_h":  "Anticoagulant",
-        "d_fr":  "Médicament inhibant la cascade de coagulation pour prévenir ou traiter la thrombose ; utilisé en cas de fibrillation auriculaire et de thromboembolie veineuse."
+        "d_fr":  "Un médicament qui inhibe la cascade de coagulation pour prévenir ou traiter la thrombose; warfarine (Coumadin), rivaroxaban (Xarelto) et apixaban (Eliquis) en sont des exemples courants."
     },
     {
         "en_h":  "Pacemaker",
@@ -685,7 +685,7 @@
     {
         "en_h":  "Beta-blocker",
         "fr_h":  "Bêtabloquant",
-        "d_fr":  "Classe médicamenteuse bloquant les récepteurs bêta-adrénergiques, réduisant la fréquence cardiaque et la pression artérielle ; utilisée pour l\u0027hypertension, l\u0027angor et les arythmies."
+        "d_fr":  "Une classe de médicaments qui bloquent les récepteurs bêta-adrénergiques pour réduire la fréquence cardiaque et la pression artérielle; métoprolol (Lopressor), aténolol (Tenormin) et propranolol (Inderal) en sont des exemples courants."
     },
     {
         "en_h":  "Cardiac biomarker",
@@ -4392,7 +4392,7 @@
         "en_h":  "Non-steroidal anti-inflammatory drug",
         "fr_h":  "Anti-inflammatoire non stéroïdien",
         "fr_l":  "AINS",
-        "d_fr":  "Classe de médicaments réduisant la douleur, la fièvre et l\u0027inflammation en inhibant les enzymes COX."
+        "d_fr":  "Une classe de médicaments qui réduisent la douleur, la fièvre et l\u0027inflammation en inhibant les enzymes COX; ibuprofène (Advil), naproxène (Aleve) et célécoxib (Celebrex) en sont des exemples courants."
     },
     {
         "en_h":  "Pseudocyesis",
@@ -5082,12 +5082,12 @@
     {
         "en_h":  "Antifungal",
         "fr_h":  "Antifongique",
-        "d_fr":  "Médicament qui détruit les champignons ou inhibe leur croissance ; utilisé pour traiter la teigne, la candidose et l\u0027onychomycose."
+        "d_fr":  "Un médicament qui détruit les champignons ou inhibe leur croissance; fluconazole (Diflucan), terbinafine (Lamisil) et clotrimazole (Lotrimin) en sont des exemples courants."
     },
     {
         "en_h":  "Antiparasitic",
         "fr_h":  "Antiparasitaire",
-        "d_fr":  "Médicament agissant contre les parasites, notamment les protozoaires, les helminthes et les ectoparasites ; utilisé pour la gale, la pédiculose et le paludisme."
+        "d_fr":  "Un médicament agissant contre les parasites, dont les protozoaires, les helminthes et les ectoparasites; métronidazole (Flagyl), ivermectine (Stromectol) et albendazole (Albenza) en sont des exemples courants."
     },
     {
         "en_h":  "Antipruritic",
@@ -5103,7 +5103,7 @@
         "en_h":  "Corticosteroid cream",
         "fr_h":  "Crème corticostéroïde",
         "fr_l":  "Crème corticoïde",
-        "d_fr":  "Préparation topique à base de corticostéroïdes réduisant l\u0027inflammation cutanée, le prurit et les rougeurs ; utilisée pour l\u0027eczéma, le psoriasis et la dermatite de contact."
+        "d_fr":  "Une préparation topique de corticostéroïde qui réduit l\u0027inflammation cutanée, les démangeaisons et les rougeurs; hydrocortisone (Cortaid), triamcinolone (Kenalog) et bétaméthasone (Diprolene) en sont des exemples courants."
     },
     {
         "en_h":  "Anterior",
@@ -5421,18 +5421,18 @@
     {
         "en_h":  "Antidepressant",
         "fr_h":  "Antidépresseur",
-        "d_fr":  "Classe de médicaments utilisés pour traiter la dépression, les troubles anxieux et d\u0027autres affections en modulant l\u0027activité des neurotransmetteurs, principalement la sérotonine et la noradrénaline."
+        "d_fr":  "Une classe de médicaments traitant la dépression et les troubles anxieux en modulant l\u0027activité des neurotransmetteurs; fluoxétine (Prozac), sertraline (Zoloft) et escitalopram (Lexapro) sont des ISRS de première intention."
     },
     {
         "en_h":  "Antipsychotic",
         "fr_h":  "Antipsychotique",
-        "d_fr":  "Classe de médicaments utilisés pour traiter les symptômes psychotiques tels que les hallucinations et les idées délirantes; utilisés également dans le trouble bipolaire et la dépression résistante."
+        "d_fr":  "Une classe de médicaments qui traitent les symptômes psychotiques comme les hallucinations et les délires; olanzapine (Zyprexa), rispéridone (Risperdal) et quétiapine (Seroquel) en sont des exemples courants."
     },
     {
         "en_h":  "Mood stabilizer",
         "fr_h":  "Thymorégulateur",
         "fr_l":  "Stabilisateur de l\u0027humeur",
-        "d_fr":  "Classe de médicaments réduisant la fréquence et la sévérité des épisodes thymiques dans le trouble bipolaire."
+        "d_fr":  "Une classe de médicaments qui réduisent la fréquence et la sévérité des épisodes thymiques du trouble bipolaire; lithium (Lithobid), valproate (Depakote) et lamotrigine (Lamictal) en sont des exemples courants."
     },
     {
         "en_h":  "Cognitive behavioral therapy",
@@ -6446,7 +6446,7 @@
     {
         "en_h":  "Nitroglycerin",
         "fr_h":  "Nitroglycérine",
-        "d_fr":  "Médicament vasodilatateur utilisé pour prévenir ou traiter l\u0027angine de poitrine causée par une baisse du flux sanguin vers le cœur."
+        "d_fr":  "Un médicament vasodilatateur utilisé pour prévenir ou traiter l\u0027angine de poitrine causée par une baisse du flux sanguin vers le cœur; il est vendu sous les noms de Nitrostat, Nitro-Dur et Nitrolingual."
     },
     {
         "en_h":  "Coronary artery bypass graft",

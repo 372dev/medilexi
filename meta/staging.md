@@ -36,41 +36,6 @@ These change entries already in the glossary — handled via the update flow, no
 
 <!-- QUEUE:START -->
 
-### Pharmacology
-- Benzodiazepine
-- Anxiolytic
-- Pharmacokinetics
-- Biotin
-- Water solubility
-- Sulfate
-- Selective serotonin reuptake inhibitor (SSRI)
-- Bronchodilator
-- Radioisotope
-- Corticosteroid
-- Statin
-- Proton pump inhibitor
-- Antihistamine
-- Opioid
-- Half-life
-- Loading dose
-- Titration
-- Antiemetic
-- Anticonvulsant
-- Levothyroxine
-- Beta-agonist
-- ACE inhibitor
-- Calcium channel blocker
-- Angiotensin receptor blocker
-- Anticholinergic
-- Muscle relaxant
-- Laxative
-- Antiviral
-- Immunosuppressant
-- Suppository
-- Extended-release
-- Maintenance dose
-- Drug interaction
-
 ### Anatomy & imaging
 - Coronal plane
 - Ear canal

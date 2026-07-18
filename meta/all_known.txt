@@ -10,7 +10,6 @@ Abnormal uterine bleeding
 Abrasion
 Abruptio placentae
 Abscess
-ACE inhibitor
 Ache
 Achondroplasia
 Acne
@@ -88,6 +87,7 @@ Angiography
 Angiopathy
 Angioplasty
 Angiotensin receptor blocker
+Angiotensin-converting enzyme inhibitor
 Anhedonia
 Anhidrosis
 Ankylosing spondylitis
@@ -184,7 +184,7 @@ Benign
 Benign paroxysmal positional vertigo
 Benign prostatic hyperplasia
 Benzodiazepine
-Beta-agonist
+Beta-adrenergic agonist
 Beta-blocker
 Biceps
 Bilateral
@@ -607,7 +607,7 @@ Exhausting pain
 Exocrine
 Exophthalmos
 Explanation of benefits
-Extended-release
+Extended-release formulation
 Extracorporeal membrane oxygenation
 Extremity
 Extubation
@@ -1541,7 +1541,6 @@ Substance use disorder
 Sudden infant death syndrome
 Sudoriferous gland
 Suicidal ideation
-Sulfate
 Superbill
 Superficial
 Superior

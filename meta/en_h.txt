@@ -76,6 +76,8 @@ Angiogram
 Angiography
 Angiopathy
 Angioplasty
+Angiotensin receptor blocker
+Angiotensin-converting enzyme inhibitor
 Anhedonia
 Anhidrosis
 Ankylosing spondylitis
@@ -86,20 +88,26 @@ Anoxia
 Anterior
 Antibiotic
 Antibody
+Anticholinergic
 Anticoagulant
+Anticonvulsant
 Antidepressant
 Antidiuretic hormone
+Antiemetic
 Antifungal
 Antigen
+Antihistamine
 Antiparasitic
 Antiperspirant
 Antipruritic
 Antipsychotic
 Antipyretic
 Antiseptic
+Antiviral
 Anuria
 Anus
 Anxiety disorder
+Anxiolytic
 Aorta
 Aortic aneurysm
 Aortic dissection
@@ -157,12 +165,15 @@ Bell's palsy
 Benign
 Benign paroxysmal positional vertigo
 Benign prostatic hyperplasia
+Benzodiazepine
+Beta-adrenergic agonist
 Beta-blocker
 Biceps
 Bilateral
 Bilirubin
 Bioavailability
 Biopsy
+Biotin
 Bipolar disorder
 Blepharitis
 Blepharoptosis
@@ -191,6 +202,7 @@ Bronchiectasis
 Bronchitis
 Bronchoconstriction
 Bronchodilation
+Bronchodilator
 Bronchoscopy
 Bronchospasm
 Bronchus
@@ -204,6 +216,7 @@ Burning pain
 Bursitis
 Cachexia
 Cadaver
+Calcium channel blocker
 Canalolithiasis
 Capillary
 Capitate
@@ -326,6 +339,7 @@ Coronary artery
 Coronary artery bypass graft
 Coronary artery disease
 Corpus callosum
+Corticosteroid
 Corticosteroid cream
 Costochondritis
 Counselor
@@ -406,6 +420,7 @@ Dizziness
 Doppler ultrasound
 Dorsal
 Doula
+Drug interaction
 Dry eye syndrome
 Dry gangrene
 Dull pain
@@ -494,6 +509,7 @@ Exfoliative cytology
 Exhausting pain
 Exocrine
 Exophthalmos
+Extended-release formulation
 Extracorporeal membrane oxygenation
 Facial nerve
 Fallopian tube
@@ -564,6 +580,7 @@ Gout
 Guillain-Barré syndrome
 Gynecomastia
 Hair follicle
+Half-life
 Hallucination
 Hamstring
 Headache
@@ -648,6 +665,7 @@ Immune thrombocytopenic purpura
 Immunodeficiency
 Immunoglobulin
 Immunology
+Immunosuppressant
 Immunotherapy
 Impacted tooth
 Impetigo
@@ -711,6 +729,7 @@ Laser therapy
 Last menstrual period
 Latch
 Lateral
+Laxative
 Lens
 Lesion
 Leukemia
@@ -719,6 +738,7 @@ Leukocytosis
 Leukoderma
 Leukopenia
 Levocardia
+Levothyroxine
 Licensed practical nurse
 Ligament
 Limp
@@ -731,6 +751,7 @@ Litholapaxy
 Lithotripsy
 Liver
 Liver function test
+Loading dose
 Lobectomy
 Local anesthesia
 Localized pain
@@ -750,6 +771,7 @@ Macular degeneration
 Macular dystrophy
 Macule
 Magnetic resonance imaging
+Maintenance dose
 Malignant
 Malignant melanoma
 Malnutrition
@@ -801,6 +823,7 @@ Mucositis
 Multifocal intraocular lens
 Multiple sclerosis
 Muscle
+Muscle relaxant
 Muscular dystrophy
 Musculoskeletal
 Musculoskeletal system
@@ -897,6 +920,7 @@ Open heart surgery
 Open surgery
 Ophthalmology
 Ophthalmoscope
+Opioid
 Optic nerve
 Optometrist
 Oral candidiasis
@@ -982,6 +1006,7 @@ Pertussis
 Petechiae
 Petroclival meningioma
 Pharmacist
+Pharmacokinetics
 Pharmacology
 Pharyngitis
 Pharynx
@@ -1060,6 +1085,7 @@ Prosthesis
 Prosthodontist
 Proteinuria
 Prothrombin time
+Proton pump inhibitor
 Protrusion
 Proximal
 Pruritus
@@ -1099,6 +1125,7 @@ Quadriplegia
 Radial artery
 Radial artery harvest
 Radiating pain
+Radioisotope
 Radiologic technologist
 Radiology
 Radioresistance
@@ -1164,6 +1191,7 @@ Seborrhea
 Sebum
 Sedation
 Seizure
+Selective serotonin reuptake inhibitor
 Self-harm
 Seminal vesicle
 Sensory receptor
@@ -1221,6 +1249,7 @@ Squamous cell carcinoma
 Squeezing pain
 Stabbing pain
 Staphylococcus
+Statin
 Stenosis
 Sternotomy
 Sternum
@@ -1243,6 +1272,7 @@ Sudoriferous gland
 Suicidal ideation
 Superficial
 Superior
+Suppository
 Suppurative
 Supragingival
 Surgeon
@@ -1297,6 +1327,7 @@ Tinea
 Tinea capitis
 Tinea pedis
 Tinnitus
+Titration
 Tomography
 Tongue
 Tonic-clonic seizure
@@ -1409,6 +1440,7 @@ Vitreous floaters
 Voluntary movement
 Volvulus
 Vulva
+Water solubility
 Weak pulse
 Wet gangrene
 Wheal

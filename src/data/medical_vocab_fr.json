@@ -7336,5 +7336,167 @@
         "en_h":  "YAG laser capsulotomy",
         "fr_h":  "Capsulotomie au laser YAG",
         "d_fr":  "Intervention au laser ouvrant la capsule postérieure opacifiée du cristallin après une chirurgie de la cataracte pour restaurer une vision nette."
+    },
+    {
+        "en_h":  "Benzodiazepine",
+        "fr_h":  "Benzodiazépine",
+        "d_fr":  "Un dépresseur du système nerveux central qui potentialise le GABA pour réduire l\u0027anxiété et induire la sédation; diazépam (Valium), lorazépam (Ativan) et alprazolam (Xanax) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Anxiolytic",
+        "fr_h":  "Anxiolytique",
+        "d_fr":  "Un médicament utilisé pour réduire l\u0027anxiété et favoriser le calme; buspirone (Buspar), lorazépam (Ativan) et hydroxyzine (Atarax) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Pharmacokinetics",
+        "fr_h":  "Pharmacocinétique",
+        "d_fr":  "L\u0027étude de l\u0027absorption, de la distribution, du métabolisme et de l\u0027excrétion des médicaments dans l\u0027organisme au fil du temps."
+    },
+    {
+        "en_h":  "Biotin",
+        "fr_h":  "Biotine",
+        "fr_l":  "Vitamine B7",
+        "d_fr":  "Une vitamine B hydrosoluble qui agit comme coenzyme dans le métabolisme des acides gras, du glucose et des acides aminés."
+    },
+    {
+        "en_h":  "Selective serotonin reuptake inhibitor",
+        "fr_h":  "Inhibiteur sélectif de la recapture de la sérotonine",
+        "d_fr":  "Une classe d\u0027antidépresseurs qui augmentent la sérotonine cérébrale en bloquant sa recapture présynaptique; fluoxétine (Prozac), sertraline (Zoloft) et escitalopram (Lexapro) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Bronchodilator",
+        "fr_h":  "Bronchodilatateur",
+        "d_fr":  "Un médicament qui relâche et dilate les voies respiratoires des poumons pour améliorer la respiration; salbutamol (Ventolin), salmétérol (Serevent) et ipratropium (Atrovent) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Radioisotope",
+        "fr_h":  "Radio-isotope",
+        "d_fr":  "Une forme radioactive d\u0027un élément utilisée en imagerie et traitement médicaux pour diagnostiquer ou cibler des tissus spécifiques."
+    },
+    {
+        "en_h":  "Corticosteroid",
+        "fr_h":  "Corticostéroïde",
+        "d_fr":  "Un médicament à base d\u0027hormone stéroïdienne qui réduit l\u0027inflammation et supprime les réponses immunitaires; prednisone (Deltasone), dexaméthasone (Decadron) et hydrocortisone (Cortef) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Statin",
+        "fr_h":  "Statine",
+        "d_fr":  "Un médicament qui abaisse le cholestérol en inhibant la HMG-CoA réductase dans le foie; atorvastatine (Lipitor), rosuvastatine (Crestor) et simvastatine (Zocor) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Proton pump inhibitor",
+        "fr_h":  "Inhibiteur de la pompe à protons",
+        "d_fr":  "Un médicament qui réduit l\u0027acide gastrique en bloquant le système enzymatique de sécrétion acide; oméprazole (Prilosec), ésoméprazole (Nexium) et pantoprazole (Protonix) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Antihistamine",
+        "fr_h":  "Antihistaminique",
+        "d_fr":  "Un médicament qui bloque l\u0027histamine pour soulager les symptômes allergiques comme les démangeaisons et les éternuements; cétirizine (Zyrtec), loratadine (Claritin) et diphénhydramine (Benadryl) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Opioid",
+        "fr_h":  "Opioïde",
+        "d_fr":  "Un médicament qui se lie aux récepteurs opioïdes pour soulager une douleur sévère, avec un risque de dépendance; morphine (MS Contin), oxycodone (OxyContin) et hydrocodone (Vicodin) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Half-life",
+        "fr_h":  "Demi-vie",
+        "d_fr":  "Le temps nécessaire pour que la concentration d\u0027un médicament dans l\u0027organisme diminue de moitié par les processus d\u0027élimination."
+    },
+    {
+        "en_h":  "Loading dose",
+        "fr_h":  "Dose de charge",
+        "d_fr":  "Une dose initiale plus élevée d\u0027un médicament administrée pour atteindre rapidement des niveaux thérapeutiques sanguins."
+    },
+    {
+        "en_h":  "Titration",
+        "fr_h":  "Titration",
+        "d_fr":  "L\u0027ajustement progressif de la dose d\u0027un médicament pour atteindre l\u0027effet thérapeutique souhaité tout en minimisant les effets secondaires."
+    },
+    {
+        "en_h":  "Antiemetic",
+        "fr_h":  "Antiémétique",
+        "d_fr":  "Un médicament utilisé pour prévenir ou traiter les nausées et les vomissements; ondansétron (Zofran), métoclopramide (Reglan) et prométhazine (Phenergan) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Anticonvulsant",
+        "fr_h":  "Anticonvulsivant",
+        "fr_l":  "Antiépileptique",
+        "d_fr":  "Un médicament utilisé pour prévenir ou contrôler les crises; valproate (Depakote), lévétiracétam (Keppra) et lamotrigine (Lamictal) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Levothyroxine",
+        "fr_h":  "Lévothyroxine",
+        "d_fr":  "Une forme synthétique de la thyroxine utilisée pour traiter l\u0027hypothyroïdie; elle est vendue sous les noms de Synthroid, Levoxyl et Euthyrox."
+    },
+    {
+        "en_h":  "Beta-adrenergic agonist",
+        "fr_h":  "Agoniste bêta-adrénergique",
+        "d_fr":  "Un médicament qui stimule les récepteurs bêta-adrénergiques pour relâcher le muscle lisse, souvent comme bronchodilatateur; salbutamol (Ventolin), salmétérol (Serevent) et formotérol (Foradil) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Angiotensin-converting enzyme inhibitor",
+        "fr_h":  "Inhibiteur de l\u0027enzyme de conversion de l\u0027angiotensine",
+        "d_fr":  "Un médicament qui bloque la conversion de l\u0027angiotensine I en angiotensine II pour abaisser la pression artérielle; lisinopril (Prinivil), énalapril (Vasotec) et ramipril (Altace) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Calcium channel blocker",
+        "fr_h":  "Inhibiteur calcique",
+        "d_fr":  "Un médicament qui bloque l\u0027entrée du calcium dans les cellules cardiaques et vasculaires pour abaisser la pression artérielle et traiter les arythmies; amlodipine (Norvasc), diltiazem (Cardizem) et vérapamil (Calan) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Angiotensin receptor blocker",
+        "fr_h":  "Antagoniste des récepteurs de l\u0027angiotensine",
+        "d_fr":  "Un médicament qui bloque l\u0027angiotensine II au niveau de ses récepteurs pour réduire la pression artérielle; losartan (Cozaar), valsartan (Diovan) et olmésartan (Benicar) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Anticholinergic",
+        "fr_h":  "Anticholinergique",
+        "d_fr":  "Un médicament qui bloque l\u0027acétylcholine pour réduire les sécrétions et relâcher le muscle lisse; ipratropium (Atrovent), oxybutynine (Ditropan) et tiotropium (Spiriva) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Muscle relaxant",
+        "fr_h":  "Myorelaxant",
+        "d_fr":  "Un médicament qui réduit le tonus musculaire ou les spasmes pour soulager la douleur; cyclobenzaprine (Flexeril), baclofène (Lioresal) et méthocarbamol (Robaxin) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Laxative",
+        "fr_h":  "Laxatif",
+        "d_fr":  "Un médicament qui favorise les selles pour soulager la constipation; polyéthylène glycol (Miralax), bisacodyl (Dulcolax) et séné (Senokot) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Antiviral",
+        "fr_h":  "Antiviral",
+        "d_fr":  "Un médicament qui inhibe la réplication virale pour traiter les infections virales; aciclovir (Zovirax), oseltamivir (Tamiflu) et valaciclovir (Valtrex) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Immunosuppressant",
+        "fr_h":  "Immunosuppresseur",
+        "d_fr":  "Un médicament qui réduit l\u0027activité immunitaire pour prévenir le rejet de greffe ou traiter les maladies auto-immunes; tacrolimus (Prograf), ciclosporine (Neoral) et mycophénolate (CellCept) en sont des exemples courants."
+    },
+    {
+        "en_h":  "Suppository",
+        "fr_h":  "Suppositoire",
+        "d_fr":  "Une forme posologique solide insérée dans le rectum, le vagin ou l\u0027urètre qui fond pour libérer le médicament localement ou systémiquement."
+    },
+    {
+        "en_h":  "Extended-release formulation",
+        "fr_h":  "Formulation à libération prolongée",
+        "d_fr":  "Une forme posologique conçue pour libérer lentement le médicament sur une période prolongée afin de maintenir des niveaux sanguins stables."
+    },
+    {
+        "en_h":  "Maintenance dose",
+        "fr_h":  "Dose d\u0027entretien",
+        "d_fr":  "La dose régulière administrée après une dose de charge pour maintenir des niveaux thérapeutiques du médicament dans l\u0027organisme."
+    },
+    {
+        "en_h":  "Drug interaction",
+        "fr_h":  "Interaction médicamenteuse",
+        "d_fr":  "Un effet qui se produit lorsqu\u0027un médicament modifie l\u0027action ou les niveaux d\u0027un autre médicament lorsqu\u0027ils sont pris ensemble."
+    },
+    {
+        "en_h":  "Water solubility",
+        "fr_h":  "Solubilité dans l\u0027eau",
+        "d_fr":  "La capacité d\u0027une substance, telle qu\u0027un médicament, à se dissoudre dans l\u0027eau, influençant son absorption et sa distribution dans l\u0027organisme."
     }
 ]

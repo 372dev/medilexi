@@ -21282,5 +21282,396 @@
                                 "-otomy"
                             ]
                   }
+    },
+    {
+        "en_h":  "Benzodiazepine",
+        "en_l":  "Benzos",
+        "abbr":  "BZD",
+        "f":  [
+                  "Pharmacology",
+                  "Psychiatry"
+              ],
+        "d":  "A central nervous system depressant that enhances GABA to relieve anxiety and induce sedation; diazepam (Valium), lorazepam (Ativan), and alprazolam (Xanax) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-ine"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Anxiolytic",
+        "f":  [
+                  "Pharmacology",
+                  "Psychiatry"
+              ],
+        "d":  "A medication used to reduce anxiety and promote calmness; buspirone (Buspar), lorazepam (Ativan), and hydroxyzine (Atarax) are common agents.",
+        "lvl":  3,
+        "parts":  {
+                      "s":  [
+                                "-lytic"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pharmacokinetics",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "The study of how the body absorbs, distributes, metabolizes, and excretes drugs over time.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "pharmac/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Biotin",
+        "en_l":  "Vitamin B7",
+        "f":  [
+                  "Pharmacology",
+                  "Endocrinology"
+              ],
+        "d":  "A water-soluble B vitamin that serves as a coenzyme in the metabolism of fatty acids, glucose, and amino acids.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Selective serotonin reuptake inhibitor",
+        "abbr":  "SSRI",
+        "f":  [
+                  "Pharmacology",
+                  "Psychiatry"
+              ],
+        "d":  "A class of antidepressants that raise brain serotonin by blocking its reuptake into presynaptic neurons; fluoxetine (Prozac), sertraline (Zoloft), and escitalopram (Lexapro) are common agents.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Bronchodilator",
+        "f":  [
+                  "Pharmacology",
+                  "Pulmonology"
+              ],
+        "d":  "A medication that relaxes and widens the lung airways to improve breathing; albuterol (Ventolin), salmeterol (Serevent), and ipratropium (Atrovent) are common agents.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "bronch/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Radioisotope",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "A radioactive form of an element used in medical imaging and treatment to diagnose or target specific tissues.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "radi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Corticosteroid",
+        "f":  [
+                  "Pharmacology",
+                  "Endocrinology"
+              ],
+        "d":  "A steroid hormone drug that reduces inflammation and suppresses immune responses; prednisone (Deltasone), dexamethasone (Decadron), and hydrocortisone (Cortef) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "cortic/o"
+                            ],
+                      "s":  [
+                                "-oid"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Statin",
+        "f":  [
+                  "Pharmacology",
+                  "Cardiology"
+              ],
+        "d":  "A drug that lowers cholesterol by inhibiting HMG-CoA reductase in the liver; atorvastatin (Lipitor), rosuvastatin (Crestor), and simvastatin (Zocor) are common agents.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Proton pump inhibitor",
+        "abbr":  "PPI",
+        "f":  [
+                  "Pharmacology",
+                  "Gastroenterology"
+              ],
+        "d":  "A drug that reduces stomach acid by blocking the acid-secreting enzyme system; omeprazole (Prilosec), esomeprazole (Nexium), and pantoprazole (Protonix) are common agents.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Antihistamine",
+        "f":  [
+                  "Pharmacology",
+                  "Immunology"
+              ],
+        "d":  "A drug that blocks histamine to relieve allergic symptoms like itching and sneezing; cetirizine (Zyrtec), loratadine (Claritin), and diphenhydramine (Benadryl) are common agents.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ],
+                      "r":  [
+                                "hist/o"
+                            ],
+                      "s":  [
+                                "-ine"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Opioid",
+        "f":  [
+                  "Pharmacology",
+                  "Anesthesiology"
+              ],
+        "d":  "A drug that binds opioid receptors to relieve severe pain, with potential for dependence; morphine (MS Contin), oxycodone (OxyContin), and hydrocodone (Vicodin) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-oid"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Half-life",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "The time required for the concentration of a drug in the body to decrease by half through elimination processes.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Loading dose",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "An initial higher dose of a medication given to rapidly achieve therapeutic blood levels.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Titration",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "The gradual adjustment of a medication dose to achieve the desired therapeutic effect while minimizing side effects.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Antiemetic",
+        "f":  [
+                  "Pharmacology",
+                  "Gastroenterology"
+              ],
+        "d":  "A medication used to prevent or treat nausea and vomiting; ondansetron (Zofran), metoclopramide (Reglan), and promethazine (Phenergan) are common agents.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Anticonvulsant",
+        "en_l":  "Antiepileptic",
+        "f":  [
+                  "Pharmacology",
+                  "Neurology"
+              ],
+        "d":  "A medication used to prevent or control seizures; valproate (Depakote), levetiracetam (Keppra), and lamotrigine (Lamictal) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Levothyroxine",
+        "f":  [
+                  "Pharmacology",
+                  "Endocrinology"
+              ],
+        "d":  "A synthetic form of thyroxine used to treat hypothyroidism; it is sold as Synthroid, Levoxyl, and Euthyrox.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "levo-"
+                            ],
+                      "r":  [
+                                "thyr/o"
+                            ],
+                      "s":  [
+                                "-ine"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Beta-adrenergic agonist",
+        "f":  [
+                  "Pharmacology",
+                  "Pulmonology"
+              ],
+        "d":  "A drug that stimulates beta-adrenergic receptors to relax smooth muscle, often as a bronchodilator; albuterol (Ventolin), salmeterol (Serevent), and formoterol (Foradil) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "adren/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Angiotensin-converting enzyme inhibitor",
+        "abbr":  "ACE inhibitor",
+        "f":  [
+                  "Pharmacology",
+                  "Cardiology"
+              ],
+        "d":  "A drug that blocks conversion of angiotensin I to angiotensin II to lower blood pressure; lisinopril (Prinivil), enalapril (Vasotec), and ramipril (Altace) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "angi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Calcium channel blocker",
+        "f":  [
+                  "Pharmacology",
+                  "Cardiology"
+              ],
+        "d":  "A drug that blocks calcium entry into heart and vessel cells to lower blood pressure and treat arrhythmias; amlodipine (Norvasc), diltiazem (Cardizem), and verapamil (Calan) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "calc/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Angiotensin receptor blocker",
+        "abbr":  "ARB",
+        "f":  [
+                  "Pharmacology",
+                  "Cardiology"
+              ],
+        "d":  "A drug that blocks angiotensin II at its receptors to reduce blood pressure; losartan (Cozaar), valsartan (Diovan), and olmesartan (Benicar) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "angi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Anticholinergic",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "A drug that blocks acetylcholine to reduce secretions and relax smooth muscle; ipratropium (Atrovent), oxybutynin (Ditropan), and tiotropium (Spiriva) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Muscle relaxant",
+        "f":  [
+                  "Pharmacology",
+                  "Orthopedics"
+              ],
+        "d":  "A medication that reduces muscle tone or spasms to relieve pain; cyclobenzaprine (Flexeril), baclofen (Lioresal), and methocarbamol (Robaxin) are common agents.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Laxative",
+        "f":  [
+                  "Pharmacology",
+                  "Gastroenterology"
+              ],
+        "d":  "A medication that promotes bowel movements to relieve constipation; polyethylene glycol (Miralax), bisacodyl (Dulcolax), and senna (Senokot) are common agents.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Antiviral",
+        "f":  [
+                  "Pharmacology",
+                  "Infectious Disease"
+              ],
+        "d":  "A drug that inhibits viral replication to treat viral infections; acyclovir (Zovirax), oseltamivir (Tamiflu), and valacyclovir (Valtrex) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Immunosuppressant",
+        "f":  [
+                  "Pharmacology",
+                  "Immunology"
+              ],
+        "d":  "A drug that reduces immune activity to prevent transplant rejection or treat autoimmune disease; tacrolimus (Prograf), cyclosporine (Neoral), and mycophenolate (CellCept) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "immun/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Suppository",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "A solid dosage form inserted into the rectum, vagina, or urethra that melts to release medication locally or systemically.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Extended-release formulation",
+        "abbr":  "ER",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "A dosage form designed to release medication slowly over an extended period to maintain steady blood levels.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Maintenance dose",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "The regular dose administered after a loading dose to sustain therapeutic drug levels in the body.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Drug interaction",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "An effect that occurs when one drug alters the action or levels of another drug when taken together.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Water solubility",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "The ability of a substance, such as a drug, to dissolve in water, influencing its absorption and distribution in the body.",
+        "lvl":  2
     }
 ]

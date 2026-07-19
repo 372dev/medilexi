@@ -7498,5 +7498,236 @@
         "en_h":  "Water solubility",
         "fr_h":  "Solubilité dans l\u0027eau",
         "d_fr":  "La capacité d\u0027une substance, telle qu\u0027un médicament, à se dissoudre dans l\u0027eau, influençant son absorption et sa distribution dans l\u0027organisme."
+    },
+    {
+        "en_h":  "Goiter",
+        "fr_h":  "Goitre",
+        "d_fr":  "Augmentation de volume de la glande thyroïde, qui peut être diffuse ou nodulaire et survenir avec une fonction thyroïdienne normale, augmentée ou diminuée."
+    },
+    {
+        "en_h":  "Thyroid nodule",
+        "fr_h":  "Nodule thyroïdien",
+        "d_fr":  "Lésion discrète au sein de la glande thyroïde, généralement bénigne mais nécessitant une évaluation pour exclure une malignité."
+    },
+    {
+        "en_h":  "Graves\u0027 disease",
+        "fr_h":  "Maladie de Basedow",
+        "fr_l":  "Maladie de Graves",
+        "d_fr":  "Affection auto-immune provoquant une hyperthyroïdie par des anticorps stimulant le récepteur de l\u0027hormone thyréotrope."
+    },
+    {
+        "en_h":  "Hashimoto\u0027s thyroiditis",
+        "fr_h":  "Thyroïdite de Hashimoto",
+        "d_fr":  "Inflammation auto-immune de la glande thyroïde entraînant une destruction progressive et souvent une hypothyroïdie."
+    },
+    {
+        "en_h":  "Addison\u0027s disease",
+        "fr_h":  "Maladie d\u0027Addison",
+        "d_fr":  "Insuffisance surrénalienne primaire due à la destruction du cortex surrénalien, entraînant un déficit en cortisol et aldostérone."
+    },
+    {
+        "en_h":  "Adrenal insufficiency",
+        "fr_h":  "Insuffisance surrénalienne",
+        "d_fr":  "Production insuffisante d\u0027hormones surrénaliennes, qui peut être primaire touchant les glandes surrénales ou secondaire due à un dysfonctionnement hypophysaire."
+    },
+    {
+        "en_h":  "Insulin resistance",
+        "fr_h":  "Résistance à l\u0027insuline",
+        "d_fr":  "Réponse réduite des tissus cibles à l\u0027insuline, entraînant une altération de la captation du glucose et souvent une hyperinsulinémie compensatrice."
+    },
+    {
+        "en_h":  "Prediabetes",
+        "fr_h":  "Prédiabète",
+        "d_fr":  "État de régulation anormale de la glycémie avec des taux de sucre sanguin élevés en dessous du seuil du diabète, augmentant le risque de progression vers un diabète de type 2."
+    },
+    {
+        "en_h":  "Cortisol",
+        "fr_h":  "Cortisol",
+        "d_fr":  "Hormone glucocorticoïde produite par le cortex surrénalien qui régule le métabolisme, la réponse immunitaire et l\u0027adaptation au stress."
+    },
+    {
+        "en_h":  "Prolactin",
+        "fr_h":  "Prolactine",
+        "d_fr":  "Hormone sécrétée par l\u0027hypophyse antérieure qui stimule principalement la production de lait pendant la lactation."
+    },
+    {
+        "en_h":  "Thyroid-stimulating hormone",
+        "fr_h":  "Hormone thyréotrope",
+        "d_fr":  "Hormone hypophysaire qui stimule la glande thyroïde pour produire et libérer les hormones thyroïdiennes."
+    },
+    {
+        "en_h":  "Hyperlipidemia",
+        "fr_h":  "Hyperlipidémie",
+        "d_fr":  "Niveaux élevés de lipides dans le sang, notamment cholestérol et triglycérides, augmentant le risque cardiovasculaire."
+    },
+    {
+        "en_h":  "Pituitary adenoma",
+        "fr_h":  "Adénome hypophysaire",
+        "d_fr":  "Tumeur bénigne de l\u0027hypophyse qui peut être sécrétante avec excès d\u0027hormones ou non sécrétante."
+    },
+    {
+        "en_h":  "Hypoparathyroidism",
+        "fr_h":  "Hypoparathyroïdie",
+        "d_fr":  "Production insuffisante d\u0027hormone parathyroïdienne entraînant une hypocalcémie et des symptômes tels que crampes musculaires ou tétanie."
+    },
+    {
+        "en_h":  "Hemoglobin A1c",
+        "fr_h":  "Hémoglobine A1c",
+        "d_fr":  "Mesure du contrôle glycémique moyen sur les 2-3 derniers mois en évaluant l\u0027hémoglobine glyquée dans les globules rouges."
+    },
+    {
+        "en_h":  "Thyroiditis",
+        "fr_h":  "Thyroïdite",
+        "d_fr":  "Inflammation de la glande thyroïde, qui peut causer une hyperthyroïdie, une hypothyroïdie transitoire ou un goitre selon le type."
+    },
+    {
+        "en_h":  "Vitamin D deficiency",
+        "fr_h":  "Carence en vitamine D",
+        "d_fr":  "Niveaux insuffisants de vitamine D entraînant une altération de l\u0027absorption du calcium et des troubles osseux tels que rachitisme ou ostéomalacie."
+    },
+    {
+        "en_h":  "Electrolyte imbalance",
+        "fr_h":  "Déséquilibre électrolytique",
+        "d_fr":  "Concentrations anormales d\u0027électrolytes dans le sang pouvant perturber les fonctions nerveuses, musculaires et l\u0027équilibre hydro-électrolytique."
+    },
+    {
+        "en_h":  "Hyponatremia",
+        "fr_h":  "Hyponatrémie",
+        "d_fr":  "Concentration basse de sodium dans le sang, pouvant causer des symptômes neurologiques allant de confusion légère à des convulsions."
+    },
+    {
+        "en_h":  "Hypercalcemia",
+        "fr_h":  "Hypercalcémie",
+        "d_fr":  "Niveaux élevés de calcium dans le sang, souvent dus à une hyperparathyroïdie ou une malignité, entraînant fatigue et calculs rénaux."
+    },
+    {
+        "en_h":  "Diabetic nephropathy",
+        "fr_h":  "Néphropathie diabétique",
+        "d_fr":  "Atteinte rénale due au diabète chronique, caractérisée par un déclin progressif de la fonction rénale et une protéinurie."
+    },
+    {
+        "en_h":  "Diabetic neuropathy",
+        "fr_h":  "Neuropathie diabétique",
+        "d_fr":  "Lésion nerveuse due à l\u0027hyperglycémie chronique du diabète, affectant souvent les nerfs sensitifs, moteurs ou autonomes."
+    },
+    {
+        "en_h":  "Insulin pump",
+        "fr_h":  "Pompe à insuline",
+        "d_fr":  "Dispositif médical délivrant une infusion continue d\u0027insuline sous-cutanée pour imiter la sécrétion physiologique d\u0027insuline dans la prise en charge du diabète."
+    },
+    {
+        "en_h":  "Continuous glucose monitor",
+        "fr_h":  "Moniteur continu de glucose",
+        "d_fr":  "Dispositif portable mesurant en temps réel les niveaux de glucose interstitiel pour aider à la gestion du diabète."
+    },
+    {
+        "en_h":  "Tonsillectomy",
+        "fr_h":  "Amygdalectomie",
+        "d_fr":  "Ablation chirurgicale des amygdales palatines, couramment réalisée pour infections récurrentes ou apnée obstructive du sommeil."
+    },
+    {
+        "en_h":  "Adenoidectomy",
+        "fr_h":  "Adénoïdectomie",
+        "d_fr":  "Ablation chirurgicale des végétations adénoïdes, souvent pratiquée chez l\u0027enfant pour obstruction nasale ou infections auriculaires récurrentes."
+    },
+    {
+        "en_h":  "Tympanostomy tube",
+        "fr_h":  "Aérateur transtympanique",
+        "d_fr":  "Petit tube inséré dans le tympan pour ventiler l\u0027oreille moyenne et drainer le liquide en cas d\u0027otites moyennes récurrentes."
+    },
+    {
+        "en_h":  "Deviated septum",
+        "fr_h":  "Déviation de la cloison nasale",
+        "d_fr":  "Déplacement de la cloison nasale par rapport à la ligne médiane, pouvant causer obstruction nasale et difficulté respiratoire."
+    },
+    {
+        "en_h":  "Sensorineural hearing loss",
+        "fr_h":  "Surdité neurosensorielle",
+        "d_fr":  "Déficit auditif dû à une lésion de l\u0027oreille interne ou des voies nerveuses auditives."
+    },
+    {
+        "en_h":  "Conductive hearing loss",
+        "fr_h":  "Surdité de transmission",
+        "d_fr":  "Déficit auditif dû à des problèmes de l\u0027oreille externe ou moyenne empêchant le son d\u0027atteindre l\u0027oreille interne."
+    },
+    {
+        "en_h":  "Cerumen impaction",
+        "fr_h":  "Bouchon de cérumen",
+        "d_fr":  "Accumulation de cérumen dans le conduit auditif causant obstruction, gêne ou perte d\u0027audition."
+    },
+    {
+        "en_h":  "Nasal polyp",
+        "fr_h":  "Polype nasal",
+        "d_fr":  "Croissance bénigne de tissu inflammé dans la muqueuse nasale pouvant causer obstruction et diminution de l\u0027odorat."
+    },
+    {
+        "en_h":  "Otosclerosis",
+        "fr_h":  "Otospongiose",
+        "d_fr":  "Remodelage osseux anormal de l\u0027oreille moyenne fixant généralement l\u0027étrier et causant une surdité de transmission progressive."
+    },
+    {
+        "en_h":  "Meniere\u0027s disease",
+        "fr_h":  "Maladie de Ménière",
+        "d_fr":  "Affection de l\u0027oreille interne provoquant des épisodes de vertige, perte auditive, acouphènes et sensation de plénitude auriculaire."
+    },
+    {
+        "en_h":  "Mastoiditis",
+        "fr_h":  "Mastoïdite",
+        "d_fr":  "Infection des cellules aérées du mastoïde derrière l\u0027oreille, généralement complication d\u0027une otite moyenne aiguë."
+    },
+    {
+        "en_h":  "Vocal cord nodule",
+        "fr_h":  "Nodule des cordes vocales",
+        "d_fr":  "Lésions bénignes en forme de callosités sur les cordes vocales, typiquement dues à un surmenage vocal, causant enrouement."
+    },
+    {
+        "en_h":  "Cochlear implant",
+        "fr_h":  "Implant cochléaire",
+        "d_fr":  "Dispositif prothétique qui contourne les parties endommagées de l\u0027oreille interne pour procurer une sensation auditive aux personnes atteintes de surdité sévère."
+    },
+    {
+        "en_h":  "Peritonsillar abscess",
+        "fr_h":  "Abcès périamygdalien",
+        "d_fr":  "Collection de pus à côté de l\u0027amygdale, complication habituelle d\u0027une amygdalite, causant mal de gorge sévère et trismus."
+    },
+    {
+        "en_h":  "Postnasal drip",
+        "fr_h":  "Écoulement post-nasal",
+        "d_fr":  "Excès de mucus s\u0027écoulant à l\u0027arrière de la gorge depuis le nez ou les sinus, causant souvent toux ou irritation pharyngée."
+    },
+    {
+        "en_h":  "Eustachian tube",
+        "fr_h":  "Trompe d\u0027Eustache",
+        "d_fr":  "Tube reliant l\u0027oreille moyenne au nasopharynx qui égalise la pression et draine le liquide de l\u0027oreille moyenne."
+    },
+    {
+        "en_h":  "Labyrinthitis",
+        "fr_h":  "Labyrinthite",
+        "d_fr":  "Inflammation du labyrinthe de l\u0027oreille interne causant vertige, perte auditive et déséquilibre."
+    },
+    {
+        "en_h":  "Nasal turbinate",
+        "fr_h":  "Cornet nasal",
+        "d_fr":  "Structures osseuses de la cavité nasale recouvertes de muqueuse qui humidifient, réchauffent et filtrent l\u0027air inhalé."
+    },
+    {
+        "en_h":  "Stapedectomy",
+        "fr_h":  "Stapédectomie",
+        "d_fr":  "Ablation chirurgicale de l\u0027étrier et remplacement par une prothèse pour traiter l\u0027otosclérose et restaurer l\u0027audition."
+    },
+    {
+        "en_h":  "Sialolithiasis",
+        "fr_h":  "Lithiase salivaire",
+        "d_fr":  "Formation de calculs salivaires dans une glande ou un canal salivaire, entraînant gonflement et douleur surtout pendant les repas."
+    },
+    {
+        "en_h":  "Globus sensation",
+        "fr_h":  "Globus pharyngé",
+        "d_fr":  "Sensation persistante d\u0027une boule dans la gorge sans obstruction physique réelle ni difficulté à avaler."
+    },
+    {
+        "en_h":  "Thyroglossal cyst",
+        "fr_h":  "Kyste du tractus thyréoglosse",
+        "d_fr":  "Kyste congénital médian du cou résultant de reliquats du canal thyréoglosse."
     }
 ]

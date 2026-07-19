@@ -21673,5 +21673,621 @@
               ],
         "d":  "The ability of a substance, such as a drug, to dissolve in water, influencing its absorption and distribution in the body.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Goiter",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Enlargement of the thyroid gland that may be diffuse or nodular and can occur with normal, increased, or decreased thyroid function.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Thyroid nodule",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A discrete lesion within the thyroid gland, which is usually benign but requires evaluation to exclude malignancy.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "thyroid/o"
+                            ],
+                      "s":  [
+                                "-ule"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Graves\u0027 disease",
+        "en_l":  "Basedow\u0027s disease",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "An autoimmune disorder causing hyperthyroidism due to antibodies stimulating the thyroid-stimulating hormone receptor.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Hashimoto\u0027s thyroiditis",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "An autoimmune inflammation of the thyroid gland leading to progressive destruction and often hypothyroidism.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "thyroid/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Addison\u0027s disease",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Primary adrenal insufficiency due to destruction of the adrenal cortex, resulting in deficient cortisol and aldosterone production.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Adrenal insufficiency",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Inadequate production of adrenal hormones, which may be primary affecting the adrenal glands or secondary due to pituitary dysfunction.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "adrenal/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Insulin resistance",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Reduced responsiveness of target tissues to insulin, leading to impaired glucose uptake and often compensatory hyperinsulinemia.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Prediabetes",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A state of abnormal glucose regulation with elevated blood sugar levels below the threshold for diabetes, increasing risk for progression to type 2 diabetes.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "pre-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cortisol",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A glucocorticoid hormone produced by the adrenal cortex that regulates metabolism, immune response, and stress adaptation.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Prolactin",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A hormone secreted by the anterior pituitary gland that primarily stimulates milk production during lactation.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "pro-"
+                            ],
+                      "r":  [
+                                "lact/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Thyroid-stimulating hormone",
+        "abbr":  "TSH",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A pituitary hormone that stimulates the thyroid gland to produce and release thyroid hormones.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "thyroid/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hyperlipidemia",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Elevated levels of lipids in the blood, including cholesterol and triglycerides, increasing cardiovascular risk.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ],
+                      "r":  [
+                                "lip/o"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pituitary adenoma",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A benign tumor of the pituitary gland that may be functioning and secrete excess hormones or non-functioning.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "pituitar/o",
+                                "aden/o"
+                            ],
+                      "s":  [
+                                "-oma"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hypoparathyroidism",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Deficient parathyroid hormone production leading to low blood calcium levels and symptoms such as muscle cramps or tetany.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "hypo-"
+                            ],
+                      "r":  [
+                                "parathyroid/o"
+                            ],
+                      "s":  [
+                                "-ism"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hemoglobin A1c",
+        "abbr":  "HbA1c",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A measure of average blood glucose control over the past 2-3 months by assessing glycated hemoglobin in red blood cells.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "hem/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Thyroiditis",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Inflammation of the thyroid gland, which may cause transient hyperthyroidism, hypothyroidism, or goiter depending on the type.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "thyroid/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Vitamin D deficiency",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Insufficient levels of vitamin D leading to impaired calcium absorption and potential bone disorders such as rickets or osteomalacia.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Electrolyte imbalance",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Abnormal concentrations of electrolytes in the blood that can disrupt nerve, muscle, and fluid balance functions.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "electr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hyponatremia",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Low sodium concentration in the blood, which can cause neurological symptoms ranging from mild confusion to seizures.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "hypo-"
+                            ],
+                      "r":  [
+                                "natr/o"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hypercalcemia",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Elevated calcium levels in the blood, often due to hyperparathyroidism or malignancy, leading to symptoms like fatigue and kidney stones.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "hyper-"
+                            ],
+                      "r":  [
+                                "calc/o"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Diabetic nephropathy",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Kidney damage caused by long-standing diabetes, characterized by progressive decline in renal function and proteinuria.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "nephr/o"
+                            ],
+                      "s":  [
+                                "-pathy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Diabetic neuropathy",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Nerve damage resulting from chronic hyperglycemia in diabetes, often affecting sensory, motor, or autonomic nerves.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "neur/o"
+                            ],
+                      "s":  [
+                                "-pathy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Insulin pump",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A medical device that delivers continuous subcutaneous insulin infusion to mimic physiological insulin secretion in diabetes management.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Continuous glucose monitor",
+        "abbr":  "CGM",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A wearable device that measures interstitial glucose levels in real time to aid diabetes management.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "gluc/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Tonsillectomy",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Surgical removal of the palatine tonsils, commonly performed for recurrent infections or obstructive sleep apnea.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "tonsill/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Adenoidectomy",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Surgical removal of the adenoids, often done in children to treat nasal obstruction or recurrent ear infections.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "adenoid/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Tympanostomy tube",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A small tube inserted into the eardrum to ventilate the middle ear and drain fluid in cases of recurrent otitis media.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "tympan/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Deviated septum",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Displacement of the nasal septum from the midline, which can cause nasal obstruction and breathing difficulty.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "sept/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Sensorineural hearing loss",
+        "abbr":  "SNHL",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Hearing impairment due to damage to the inner ear or auditory nerve pathways.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "neur/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Conductive hearing loss",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Hearing impairment caused by problems in the outer or middle ear that prevent sound from reaching the inner ear.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Cerumen impaction",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Accumulation of earwax in the ear canal causing blockage, discomfort, or hearing loss.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Nasal polyp",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Benign growths of inflamed tissue in the nasal lining that can cause obstruction and reduced sense of smell.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "nas/o",
+                                "polyp/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Otosclerosis",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Abnormal bone remodeling in the middle ear, typically fixing the stapes and causing progressive conductive hearing loss.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ot/o"
+                            ],
+                      "s":  [
+                                "-sclerosis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Meniere\u0027s disease",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A disorder of the inner ear causing episodes of vertigo, hearing loss, tinnitus, and a sensation of ear fullness.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Mastoiditis",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Infection of the mastoid air cells behind the ear, usually a complication of acute otitis media.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Vocal cord nodule",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Benign callus-like growths on the vocal cords, typically from voice overuse, causing hoarseness.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-ule"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cochlear implant",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A prosthetic device that bypasses damaged parts of the inner ear to provide hearing sensation to individuals with severe hearing loss.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "cochle/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Peritonsillar abscess",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A collection of pus beside the tonsil, usually a complication of tonsillitis, causing severe sore throat and trismus.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "peri-"
+                            ],
+                      "r":  [
+                                "tonsill/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Postnasal drip",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Excess mucus dripping down the back of the throat from the nose or sinuses, often causing cough or throat irritation.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "post-"
+                            ],
+                      "r":  [
+                                "nas/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Eustachian tube",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A tube connecting the middle ear to the nasopharynx that equalizes pressure and drains fluid from the middle ear.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Labyrinthitis",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Inflammation of the inner ear labyrinth causing vertigo, hearing loss, and imbalance.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "labyrinth/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Nasal turbinate",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Bony structures in the nasal cavity covered by mucosa that humidify, warm, and filter inhaled air.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "nas/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Stapedectomy",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Surgical removal of the stapes bone and replacement with a prosthesis to treat otosclerosis and restore hearing.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "staped/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Sialolithiasis",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Formation of salivary stones within a salivary gland or duct, leading to swelling and pain especially during meals.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "lith/o"
+                            ],
+                      "s":  [
+                                "-iasis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Globus sensation",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A persistent feeling of a lump in the throat without an actual physical obstruction or swallowing difficulty.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Thyroglossal cyst",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A congenital midline neck cyst resulting from remnants of the thyroglossal duct.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "thyr/o",
+                                "gloss/o",
+                                "cyst/o"
+                            ]
+                  }
     }
 ]

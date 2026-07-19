@@ -20,14 +20,17 @@ Action potential
 Acute
 Acute coronary syndrome
 Acute respiratory distress syndrome
+Addison's disease
 Adduction
 Adenitis
 Adenocarcinoma
+Adenoidectomy
 Adenoma
 Adipose tissue
 Adjuvant therapy
 Adrenal cortex
 Adrenal gland
+Adrenal insufficiency
 Adrenalectomy
 Adrenaline
 Adrenocortical carcinoma
@@ -260,6 +263,7 @@ Cerebrospinal fluid
 Cerebrovascular accident
 Cerebrum
 Certified nursing assistant
+Cerumen impaction
 Cervical region
 Cervix
 Chalazion
@@ -298,6 +302,7 @@ Clavicle
 Coagulation
 Coccydynia
 Cochlea
+Cochlear implant
 Cognitive behavioral therapy
 Cognitive impairment
 Cold pain
@@ -318,12 +323,14 @@ Compliance / adherence
 Comprehensive metabolic panel
 Compulsion
 Computed tomography
+Conductive hearing loss
 Condyle
 Congestive heart failure
 Conscious sedation
 Consent
 Constant pain
 Continuity of care
+Continuous glucose monitor
 Contraception
 Contraindication
 Contralateral
@@ -341,6 +348,7 @@ Coronary artery disease
 Corpus callosum
 Corticosteroid
 Corticosteroid cream
+Cortisol
 Costochondritis
 Counselor
 Cramping pain
@@ -395,10 +403,13 @@ Dermatome
 Dermatoplasty
 Dermatosis
 Dermis
+Deviated septum
 Dextrocardia
 Diabetes insipidus
 Diabetes mellitus
 Diabetic ketoacidosis
+Diabetic nephropathy
+Diabetic neuropathy
 Diabetic retinopathy
 Diagnosis
 Dialysis
@@ -456,6 +467,7 @@ Electrocardiography
 Electrocautery
 Electroconvulsive therapy
 Electroencephalogram
+Electrolyte imbalance
 Electromyography
 Electronic medical record
 Emergency medical technician
@@ -502,6 +514,7 @@ Esophagoscopy
 Esophagus
 Estriol
 Estrogen
+Eustachian tube
 Exacerbation
 Excisional biopsy
 Excruciating pain
@@ -564,6 +577,7 @@ Gingivectomy
 Gingivitis
 Glaucoma
 Glenohumeral joint
+Globus sensation
 Glomerulonephritis
 Glomerulosclerosis
 Glomerulus
@@ -575,14 +589,17 @@ Gluteal muscles
 Glycolysis
 Glycosuria
 Gnawing pain
+Goiter
 Gonorrhea
 Gout
+Graves' disease
 Guillain-Barré syndrome
 Gynecomastia
 Hair follicle
 Half-life
 Hallucination
 Hamstring
+Hashimoto's thyroiditis
 Headache
 Health literacy
 Heart
@@ -603,6 +620,7 @@ Hemiparesis
 Hemiplegia
 Hemodialysis
 Hemoglobin
+Hemoglobin A1c
 Hemolysis
 Hemoptysis
 Hemorrhage
@@ -625,6 +643,7 @@ Humerus
 Hydrocele
 Hydrocephalus
 Hydronephrosis
+Hypercalcemia
 Hypercapnia
 Hyperemesis
 Hyperemia
@@ -632,6 +651,7 @@ Hyperesthesia
 Hyperglycemia
 Hyperhidrosis
 Hyperkalemia
+Hyperlipidemia
 Hyperopia
 Hyperparathyroidism
 Hyperpigmentation
@@ -643,6 +663,8 @@ Hypertrophy
 Hyperventilation
 Hypoglycemia
 Hypokalemia
+Hyponatremia
+Hypoparathyroidism
 Hypospadias
 Hypothalamus
 Hypothermia
@@ -679,6 +701,8 @@ Inferior
 Inflammation
 Inoperable
 Insomnia
+Insulin pump
+Insulin resistance
 Integumentary system
 Intermittent claudication
 Intermittent pain
@@ -715,6 +739,7 @@ Kyphoplasty
 Kyphosis
 Labiodental
 Labioplasty
+Labyrinthitis
 Laceration
 Lacrimal gland
 Laparohysteropexy
@@ -782,6 +807,7 @@ Mammoplasty
 Mandible
 Mandibular arch
 Mania
+Mastoiditis
 Maxillary arch
 Maxillofacial surgery
 Medial
@@ -795,6 +821,7 @@ Melanoma
 Melanoptysis
 Melatonin
 Melena
+Meniere's disease
 Meninges
 Meningioma
 Meningitis
@@ -851,6 +878,8 @@ Nagging pain
 Nail
 Narcolepsy
 Nasal cavity
+Nasal polyp
+Nasal turbinate
 Nasopharynx
 Nausea
 Necrosis
@@ -946,6 +975,7 @@ Otitis
 Otitis media
 Otolaryngology
 Otorrhea
+Otosclerosis
 Otoscope
 Ovarian cyst
 Ovarian torsion
@@ -1000,6 +1030,7 @@ Peripherally inserted central catheter
 Peritoneal dialysis
 Peritoneum
 Peritonitis
+Peritonsillar abscess
 Perivascular
 Personality disorder
 Pertussis
@@ -1025,6 +1056,7 @@ Physician associate
 Pia mater
 Pinching pain
 Pineal gland
+Pituitary adenoma
 Pituitary gland
 Placenta
 Placenta previa
@@ -1053,11 +1085,13 @@ Porphyria
 Postauricular
 Posterior
 Posterior capsule opacification
+Postnasal drip
 Postoperative
 Postpartum
 Postpartum hemorrhage
 Post-traumatic stress disorder
 Potassium hydroxide preparation
+Prediabetes
 Premature atrial contraction
 Prenatal
 Preoperative
@@ -1076,6 +1110,7 @@ Prodrome
 Prognathism
 Prognosis
 Progressive pain
+Prolactin
 Prophylaxis
 Prostate gland
 Prostate-specific antigen
@@ -1194,6 +1229,7 @@ Seizure
 Selective serotonin reuptake inhibitor
 Self-harm
 Seminal vesicle
+Sensorineural hearing loss
 Sensory receptor
 Sensory system
 Sepsis
@@ -1206,6 +1242,7 @@ Serum sodium
 Severe pain
 Sharp pain
 Shooting pain
+Sialolithiasis
 Sickening pain
 Sigmoid colon
 Sigmoiditis
@@ -1248,6 +1285,7 @@ Sputum culture
 Squamous cell carcinoma
 Squeezing pain
 Stabbing pain
+Stapedectomy
 Staphylococcus
 Statin
 Stenosis
@@ -1318,9 +1356,13 @@ Thrombocytopenia
 Thrombolysis
 Thrombosis
 Thymus
+Thyroglossal cyst
 Thyroid function test
 Thyroid gland
+Thyroid nodule
 Thyroidectomy
+Thyroiditis
+Thyroid-stimulating hormone
 Thyrotoxicosis
 Tibia
 Tinea
@@ -1333,6 +1375,7 @@ Tongue
 Tonic-clonic seizure
 Tonometer
 Tonometry
+Tonsillectomy
 Tonsillitis
 Tooth extraction
 Topography
@@ -1370,6 +1413,7 @@ Tympanic membrane
 Tympanometry
 Tympanoplasty
 Tympanosclerosis
+Tympanostomy tube
 Ulcer
 Ulna
 Ulnar
@@ -1434,9 +1478,11 @@ Visceroceptors
 Visceromegaly
 Visual acuity
 Vital signs
+Vitamin D deficiency
 Vitiligo
 Vitrectomy
 Vitreous floaters
+Vocal cord nodule
 Voluntary movement
 Volvulus
 Vulva

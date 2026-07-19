@@ -31,6 +31,7 @@ These change entries already in the glossary — handled via the update flow, no
 - `Paresthesia` → `abbr` is an empty string; omit it. Scan for other empty-string `abbr`/`en_l`.
 - Lay `en_l` adds surfaced 2026-07-10: `Nodule` ← "lump" · `Otitis media` ← "ear infection" · `Patella` ← "kneecap" · `Bronchus` ← "bronchial tube" · `Edema` ← "swelling" · `Dysarthria` ← "slurred speech" · `Eructation` ← "belching".
 - *Optional:* `Obstetrics & Gynecology` → add `parts` gynec/o + -logy · `Rehabilitation Medicine` → add `abbr` PM&R.
+- **갑상샘 → 갑상선 cleanup (reference alignment, flagged 2026-07-19).** 8 shipped entries use 갑상샘 as `ko_h` (갑상샘 기능 저하증, 갑상샘 기능 항진증, 부갑상샘 기능 항진증, 갑상샘, 갑상샘독증, 갑상샘 절제술, 부갑상샘, 갑상샘기능검사), each paired with a 갑상선 `ko_l`. Both approved refs standardize on **갑상선** — 질병관리청 국가건강정보포털 (갑상선염/갑상선 결절/갑상선기능저하증) and KCD 8차 (E03/E04/E06 = 갑상선…). Convert each `ko_h` 갑상샘→갑상선, drop the now-redundant 갑상선 `ko_l`, and fix any 갑상샘 left in their `d_ko`. (갑상샘 is the 의협 순화어 but not what our references use.)
 
 ---
 
@@ -86,56 +87,6 @@ These change entries already in the glossary — handled via the update flow, no
 - Interpreter services
 - Sliding scale fee
 - Discharge summary
-
-### Endocrinology
-- Goiter
-- Thyroid nodule
-- Graves' disease
-- Hashimoto's thyroiditis
-- Addison's disease
-- Adrenal insufficiency
-- Insulin resistance
-- Prediabetes
-- Cortisol
-- Prolactin
-- Thyroid-stimulating hormone
-- Hyperlipidemia
-- Pituitary adenoma
-- Hypoparathyroidism
-- Hemoglobin A1c
-- Thyroiditis
-- Vitamin D deficiency
-- Electrolyte imbalance
-- Hyponatremia
-- Hypercalcemia
-- Diabetic nephropathy
-- Diabetic neuropathy
-- Insulin pump
-- Continuous glucose monitor
-
-### Otolaryngology (ENT)
-- Tonsillectomy
-- Adenoidectomy
-- Tympanostomy tube
-- Deviated septum
-- Sensorineural hearing loss
-- Conductive hearing loss
-- Cerumen impaction
-- Nasal polyp
-- Otosclerosis
-- Meniere's disease
-- Mastoiditis
-- Vocal cord nodule
-- Cochlear implant
-- Peritonsillar abscess
-- Postnasal drip
-- Eustachian tube
-- Labyrinthitis
-- Nasal turbinate
-- Stapedectomy
-- Sialolithiasis
-- Globus sensation
-- Thyroglossal cyst
 
 ### Urology
 - Prostatectomy

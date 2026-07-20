@@ -15,6 +15,7 @@ interface WordPart {
 
 const parts = partsData as WordPart[]
 const TYPE_LABEL: Record<string,string> = { p:'Prefix', r:'Root', s:'Suffix' }
+const TYPE_PLURAL: Record<string,string> = { p:'Prefixes', r:'Roots', s:'Suffixes' }
 const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
 const LVL_BAR: Record<number,string> = { 3:'var(--b-primary)', 2:'var(--b-amber)', 1:'var(--b-dim)' }
 const display = { fontFamily: 'var(--b-display)' }
@@ -148,7 +149,7 @@ export default function WordPartsFlashcard() {
                 <button className={`b-fpill b-focus ${typeFilter==='all'?'b-fpill--active':''}`} onClick={() => setType('all')}>All</button>
                 {(['p','r','s'] as const).map(t => (
                   <button key={t} className={`b-fpill b-focus ${typeFilter===t?'b-fpill--active':''}`} onClick={() => setType(t)}>
-                    {TYPE_LABEL[t]}s
+                    {TYPE_PLURAL[t]}
                   </button>
                 ))}
               </div>

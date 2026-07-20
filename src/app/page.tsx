@@ -139,7 +139,7 @@ export default function Home() {
               </h2>
               <p className="m-0 max-w-[54ch] text-[0.95rem] leading-[1.65] text-[var(--b-dim)]">
                 Learn <strong className="font-semibold text-[var(--b-text)]">brady</strong>
-                <span className="text-[var(--b-text)]">cardi</span>
+                <span className="text-[var(--b-text)]">card</span>
                 <strong className="font-semibold text-[var(--b-text)]">ia</strong>{' '}
                 once and you can read a hundred terms you have never seen before.
                 Build the vocabulary from the ground up.

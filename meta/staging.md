@@ -25,7 +25,11 @@ These change entries already in the glossary — handled via the update flow, no
 
 *(The 2026-07-10 backlog — Venostasis rename, Atelectasis/Bronchus/Nodule/Cryptorchidism `en_l`, PID + PM&R `abbr`, Cellulitis/Ventilator `ko_l`, the 갑상샘→갑상선 conversion, and the empty-string sweep — was all cleared in v1.288. Patella/Edema/Dysarthria `en_l` and the O&G `parts` turned out to be already correct; Otitis media `en_l` was deliberately left as "Middle ear infection".)*
 
-- **`Sebaceous gland` → `ko_h` 피지샘 may need to be 피지선** (flagged 2026-07-19, needs a call). The other five gland entries all follow **`ko_h` = Sino-Korean 선 / `ko_l` = native 샘**: 흉선/가슴샘 (Thymus), 누선/눈물샘 (Lacrimal), 한선/땀샘 (Sudoriferous), 타액선/침샘 (Salivary), 선암종/샘암 (Adenocarcinoma). Sebaceous gland is the lone outlier with 샘 in `ko_h` (`ko_l` 기름샘). Changing a `ko_h` needs explicit confirmation, so it was left alone.
+*(Also cleared in v1.289: `Sebaceous gland` `ko_h` 피지샘 → **피지선**, bringing all six gland entries onto the same convention — `ko_h` = Sino-Korean 선, `ko_l` = native 샘: 흉선/가슴샘, 누선/눈물샘, 한선/땀샘, 타액선/침샘, 선암종/샘암, 피지선/기름샘.)*
+
+**Gland naming convention (confirmed 2026-07-19):** for gland terms, `ko_h` takes the Sino-Korean **선** form and `ko_l` the native **샘** form. Same reference logic as 갑상선 — 질병관리청 and KCD 8차 both use 선 for head terms. Apply to any future gland entry.
+
+_No pending edits currently open._
 
 ---
 

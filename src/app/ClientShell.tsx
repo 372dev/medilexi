@@ -1,12 +1,15 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { PAGE_TITLES } from '@/lib/page-titles'
+
+/* Direction B sample shell. The retro pixel header/footer are replaced so the
+   restyled pages are not framed by the old design. Layout classes (.site-body,
+   .site-ad) are reused as-is: they carry grid geometry only, no retro styling. */
 
 export default function ClientShell({ children }: { children: React.ReactNode }) {
   const [isDay, setIsDay] = useState(false)
@@ -52,74 +55,108 @@ export default function ClientShell({ children }: { children: React.ReactNode })
     }
   }
 
+  const toggleBtn = (
+    <button
+      onClick={toggleMode}
+      className="b-press b-focus rounded-full border border-[var(--b-border)] bg-[var(--b-panel)] px-3 py-2 text-base leading-none"
+      aria-label={isDay ? 'Switch to night mode' : 'Switch to day mode'}
+      title={isDay ? 'Switch to night mode' : 'Switch to day mode'}
+    ><span aria-hidden="true">{isDay ? '🌙' : '☀️'}</span></button>
+  )
+
   return (
     <>
       {isHome ? (
-        <div style={{ minHeight:'100vh', display:'flex', flexDirection:'column', alignItems:'center', padding:'2rem 1rem 4rem', position:'relative' }}>
-          <button
-            className="site-header__toggle"
-            onClick={toggleMode}
-            style={{ position:'absolute', top:'1rem', right:'1rem' }}
-            aria-label={isDay ? 'Switch to night mode' : 'Switch to day mode'}
-            title={isDay ? 'Switch to night mode' : 'Switch to day mode'}
-          ><span aria-hidden="true">{isDay ? '🌙' : '☀️'}</span></button>
-          <Image
-            src={isDay ? '/images/hero-day.png' : '/images/hero.jpg'}
-            alt="Medi Lexi · Multilingual Glossary · Bridging the Language of Health Care"
-            width={460}
-            height={259}
-            style={{ imageRendering:'pixelated', width:'100%', maxWidth:'520px', height:'auto', marginBottom:'1.5rem' }}
-            priority
-          />
+        /* The pixel hero image is gone; page.tsx owns the whole landing layout. */
+        <div className="relative">
+          <div className="fixed right-4 top-4 z-50">{toggleBtn}</div>
           {children}
         </div>
       ) : (
-        <>
-          <a href="#main-content" className="skip-link">Skip to content</a>
-          <header className="site-header">
-            <Link href="/" className="site-header__brand">
-              <span>Medi Lexi</span>
-            </Link>
-            <div className="site-header__title">{pageTitle}</div>
-            <div style={{ display:'flex', alignItems:'center', gap:'0.75rem', justifySelf:'end' }}>
-              <Link href="/about" style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', textDecoration:'none', lineHeight:1.8, opacity:0.7 }}
-                title="About & Sources">About</Link>
-              <button className="site-header__toggle" onClick={toggleMode} aria-label={isDay ? 'Switch to night mode' : 'Switch to day mode'} title={isDay ? 'Switch to night mode' : 'Switch to day mode'}>
-                <span aria-hidden="true">{isDay ? '🌙' : '☀️'}</span>
-              </button>
+        <div className="min-h-screen bg-[var(--b-bg)] text-[var(--b-text)]">
+          <a
+            href="#main-content"
+            className="absolute left-2 top-[-48px] z-[300] rounded-lg bg-[var(--b-primary)] px-4 py-2 text-sm font-semibold text-[var(--b-on-prim)] transition-[top] focus:top-2"
+          >
+            Skip to content
+          </a>
+
+          {/* Translucency goes through an inline style: Tailwind's `/90` opacity
+              modifier would emit rgb(var(--b-bg) / .9), and --b-bg is a hex, not
+              channels, so the background would silently drop out. */}
+          <header
+            className="sticky top-0 z-[100] border-b border-[var(--b-border)] backdrop-blur"
+            style={{ background: 'color-mix(in srgb, var(--b-bg) 88%, transparent)' }}
+          >
+            <div className="mx-auto grid max-w-[1440px] grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 py-3">
+              <Link
+                href="/"
+                className="b-focus justify-self-start text-[1.02rem] font-extrabold tracking-[-0.03em] text-[var(--b-text)] hover:opacity-80"
+                style={{ fontFamily: 'var(--b-display)' }}
+              >
+                Medi<span className="text-[var(--b-primary)]">Lexi</span>
+              </Link>
+
+              <div
+                className="truncate text-center text-[0.9rem] font-semibold tracking-[-0.01em] text-[var(--b-text)]"
+                style={{ fontFamily: 'var(--b-display)' }}
+              >
+                {pageTitle}
+              </div>
+
+              <div className="flex items-center gap-3 justify-self-end">
+                <Link
+                  href="/about"
+                  className="b-focus hidden text-[0.82rem] font-medium text-[var(--b-dim)] hover:text-[var(--b-text)] sm:block"
+                  title="About & Sources"
+                >
+                  About
+                </Link>
+                {toggleBtn}
+              </div>
             </div>
           </header>
+
           <div className="site-body">
             <aside className="site-ad" aria-hidden="true">Ad</aside>
-            <main id="main-content" className="site-content">{children}</main>
+            <main id="main-content" className="site-content py-6">{children}</main>
             <aside className="site-ad" aria-hidden="true">Ad</aside>
           </div>
-          <footer className="site-footer">
-            <p className="site-footer__disclaimer">
-              ⚕ For educational purposes only · Not a substitute for professional medical advice, diagnosis, or treatment ·
-              Content is based on standard medical terminology references and may not reflect the latest clinical guidelines
-            </p>
-            <p style={{ fontSize: '0.82rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-              <Link href="/about" style={{ color: 'var(--color-accent)', textDecoration: 'underline' }}>About &amp; Sources</Link>
-              <Link href="/privacy" style={{ color: 'var(--color-accent)', textDecoration: 'underline' }}>Privacy Policy</Link>
-            </p>
-            <p className="site-footer__copy">© 2026 Medi Lexi · All rights reserved</p>
+
+          <footer className="mt-12 border-t border-[var(--b-border)] px-5 py-8">
+            <div className="mx-auto flex max-w-[900px] flex-col items-center gap-4 text-center">
+              <p className="m-0 max-w-[74ch] text-[0.75rem] leading-[1.7] text-[var(--b-dim)]">
+                ⚕ For educational purposes only · Not a substitute for professional medical advice,
+                diagnosis, or treatment · Content is based on standard medical terminology references
+                and may not reflect the latest clinical guidelines
+              </p>
+              <div className="flex flex-wrap justify-center gap-5">
+                <Link href="/about" className="b-focus text-[0.84rem] font-semibold text-[var(--b-primary)] hover:underline">
+                  About &amp; Sources
+                </Link>
+                <Link href="/privacy" className="b-focus text-[0.84rem] font-semibold text-[var(--b-primary)] hover:underline">
+                  Privacy Policy
+                </Link>
+              </div>
+              <p className="m-0 text-[0.75rem] text-[var(--b-dim)]">© 2026 Medi Lexi · All rights reserved</p>
+            </div>
           </footer>
+
           {!cookieDismissed && (
-            <div style={{ position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 200, background: 'var(--color-panel)', borderTop: '1px solid var(--color-border)', padding: '0.75rem 1.25rem', display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
-              <p style={{ fontSize: '0.82rem', color: 'var(--color-text-dim)', margin: 0, lineHeight: 1.6 }}>
+            <div className="fixed inset-x-0 bottom-0 z-[200] flex flex-wrap items-center justify-center gap-4 border-t border-[var(--b-border)] bg-[var(--b-panel)] px-5 py-3">
+              <p className="m-0 text-[0.82rem] leading-[1.6] text-[var(--b-dim)]">
                 This site uses cookies for analytics.{' '}
-                <Link href="/privacy" style={{ color: 'var(--color-accent)', textDecoration: 'underline' }}>Learn more</Link>
+                <Link href="/privacy" className="font-semibold text-[var(--b-primary)] underline">Learn more</Link>
               </p>
               <button
                 onClick={dismissCookieNotice}
-                style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', padding: '0.35rem 0.9rem', background: 'var(--color-gold)', color: 'var(--color-bg)', border: 'none', cursor: 'pointer', letterSpacing: '0.04em', lineHeight: 2 }}
+                className="b-press b-focus rounded-xl bg-[var(--b-primary)] px-5 py-2 text-[0.82rem] font-bold text-[var(--b-on-prim)]"
               >
                 OK
               </button>
             </div>
           )}
-        </>
+        </div>
       )}
       <Analytics />
       <SpeedInsights />

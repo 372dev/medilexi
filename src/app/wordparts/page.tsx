@@ -6,6 +6,9 @@ import partsData from '@/data/medical_wordparts.json'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { LVL_TEXT } from '@/lib/vocab-constants'
 
+/* Direction B sample. Search/filter/ranking logic is unchanged from the live
+   page; only the presentation moved. Level is a labelled pill instead of stars. */
+
 interface WordPart {
   wp: string; t: 'p'|'r'|'s'; lvl: 1|2|3
   d: string; ex: [string,string][]
@@ -13,6 +16,7 @@ interface WordPart {
 
 const parts = partsData as WordPart[]
 const TYPE_LABEL: Record<string,string> = { p:'Prefix', r:'Root', s:'Suffix' }
+const EDGE: Record<string,string> = { p:'#3B82F6', r:'#3BAA6A', s:'#C94040' }
 
 export default function WordPartsPage() {
   const [search, setSearch]     = useState('')
@@ -64,83 +68,130 @@ export default function WordPartsPage() {
   const { visible, sentinelRef } = useInfiniteReveal(filtered.length, filtered)
 
   return (
-    <>
+    <div className="mx-auto flex w-full max-w-[1100px] flex-col gap-5">
+
       {/* ── Sticky filter bar ── */}
-      <div className="c-filter-bar">
-        <div className="c-search-row">
-          <input className="c-search" type="text" aria-label="Search word parts" placeholder="Search word parts, definitions, examples..." value={search} onChange={e => setSearch(e.target.value)} />
-          <Link href="/wordparts/flashcard" className="c-btn-pixel" style={{ fontSize:'0.5rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
+      <div className="sticky top-[57px] z-[90] -mx-1 flex flex-col gap-3 bg-[var(--b-bg)] px-1 pb-4 pt-3">
+        <div className="flex flex-wrap items-center gap-2">
+          <input
+            className="b-search min-w-[220px] flex-1"
+            type="text"
+            aria-label="Search word parts"
+            placeholder="Search word parts, definitions, examples..."
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+          />
+          <Link
+            href="/wordparts/flashcard"
+            className="b-press b-focus whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-2.5 text-[0.82rem] font-semibold hover:border-[var(--b-primary)] hover:text-[var(--b-primary)]"
+          >
             Flashcard →
           </Link>
-          <Link href="/wordparts/exam" className="c-btn-pixel" style={{ fontSize:'0.5rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
-            Exam →
+          <Link
+            href="/wordparts/exam"
+            className="b-press b-glow b-focus whitespace-nowrap rounded-xl bg-[var(--b-primary)] px-4 py-2.5 text-[0.82rem] font-bold text-[var(--b-on-prim)]"
+          >
+            Exam ✦
           </Link>
         </div>
-        <div className="c-filter-row">
+
+        <div className="flex flex-wrap gap-2">
           {(['all','p','r','s'] as const).map(t => (
-            <button key={t} className={`c-pill ${typeFilter===t?'c-pill--active':''}`} onClick={() => setType(t)}>
+            <button
+              key={t}
+              className={`b-fpill b-focus ${typeFilter===t?'b-fpill--active':''}`}
+              onClick={() => setType(t)}
+            >
               {t==='all'?`All (${parts.length})`:t==='p'?`Prefixes (${counts.p})`:t==='r'?`Roots (${counts.r})`:`Suffixes (${counts.s})`}
             </button>
           ))}
-        </div>
-        <div className="c-filter-row">
-          <button className={`c-pill ${!lvlFilter?'c-pill--active':''}`} onClick={() => setLvl(null)}>All levels</button>
-          {([[3,'⭐⭐⭐ Essential'],[2,'⭐⭐ Important'],[1,'⭐ Good to know']] as const).map(([l, label]) => (
-            <button key={l} className={`c-pill c-pill--star ${lvlFilter===l?'c-pill--active':''}`} onClick={() => setLvl(lvlFilter===l?null:l)}>
-              {label}
+
+          <span className="mx-1 w-px self-stretch bg-[var(--b-border)]" aria-hidden="true" />
+
+          <button
+            className={`b-fpill b-focus ${!lvlFilter?'b-fpill--active':''}`}
+            onClick={() => setLvl(null)}
+          >
+            All levels
+          </button>
+          {([3,2,1] as const).map(l => (
+            <button
+              key={l}
+              className={`b-fpill b-focus ${lvlFilter===l?'b-fpill--active':''}`}
+              onClick={() => setLvl(lvlFilter===l?null:l)}
+            >
+              {LVL_TEXT[l]}
             </button>
           ))}
         </div>
-        <div className="c-count">{filtered.length} entries</div>
+
+        <div className="text-[0.78rem] font-medium text-[var(--b-dim)] tabular-nums">
+          {filtered.length} {filtered.length === 1 ? 'entry' : 'entries'}
+        </div>
       </div>
 
-      {noExact && <div className="c-search-note">No matching word part. Showing parts that use “{search.trim()}” as an example.</div>}
+      {noExact && (
+        <div className="rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-3 text-[0.84rem] text-[var(--b-dim)]">
+          No matching word part. Showing parts that use “{search.trim()}” as an example.
+        </div>
+      )}
 
       {/* ── Cards ── */}
-      <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px,1fr))', gap:'1rem' }}>
-        {filtered.slice(0, visible).map((p) => {
-          return (
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(290px,1fr))] gap-4">
+        {filtered.slice(0, visible).map(p => (
+          <div
+            key={p.wp}
+            className="b-card b-lift b-press group flex flex-col gap-2.5 p-5"
+            style={{ borderTop: `3px solid ${EDGE[p.t]}` }}
+            tabIndex={0}
+          >
+            <div className="flex items-center justify-between gap-2">
+              <span className={`b-badge b-badge--${p.t}`}>{TYPE_LABEL[p.t]}</span>
+              <span className={`b-lvl b-lvl--${p.lvl}`}>{LVL_TEXT[p.lvl]}</span>
+            </div>
+
             <div
-              key={p.wp}
-              className="c-card c-wp-card"
-              style={{ borderLeft:`3px solid ${p.t==='p'?'#3B82F6':p.t==='r'?'#3BAA6A':'#C94040'}`, cursor:'pointer', userSelect:'none' }}
-              tabIndex={0}
+              className="text-[1.32rem] font-bold leading-tight tracking-[-0.02em] text-[var(--b-text)]"
+              style={{ fontFamily: 'var(--b-display)' }}
             >
-              <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
-                <span className={`c-badge c-badge--${p.t}`}>{TYPE_LABEL[p.t]}</span>
-                <span className={`c-stars c-stars--${p.lvl}`} role="img" aria-label={`Importance: ${LVL_TEXT[p.lvl]}`}>{'⭐'.repeat(p.lvl)}</span>
-              </div>
-              <div style={{ fontSize:'1.2rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.25rem' }}>{p.wp}</div>
-              <div style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', lineHeight:1.6 }}>{p.d}</div>
-              <div style={{ display:'flex', flexDirection:'column', gap:'0.35rem' }}>
-                {p.ex.slice(0, 2).map(([term, def], j) => (
-                  <div key={j} className={`c-ex-pill c-ex-pill--${p.t}`}>
-                    <strong>{term}</strong> · {def}
-                  </div>
-                ))}
-                {p.ex.length > 2 && (
-                  <div className="c-expand-wrap">
-                    <div>
-                      <div style={{ display:'flex', flexDirection:'column', gap:'0.35rem', paddingTop:'0.35rem' }}>
+              {p.wp}
+            </div>
+
+            <div className="text-[0.86rem] leading-[1.6] text-[var(--b-dim)]">{p.d}</div>
+
+            <div className="mt-1 flex flex-col gap-1.5">
+              {p.ex.slice(0, 2).map(([term, def], j) => (
+                <div key={j} className="b-ex"><strong>{term}</strong> · {def}</div>
+              ))}
+
+              {p.ex.length > 2 && (
+                <>
+                  {/* Same reveal-on-hover behaviour as the live page, rebuilt with
+                      a 0fr/1fr grid rather than the retro .c-expand-wrap. */}
+                  <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-200 group-hover:grid-rows-[1fr] group-focus-within:grid-rows-[1fr]">
+                    <div className="overflow-hidden">
+                      <div className="flex flex-col gap-1.5 pt-1.5">
                         {p.ex.slice(2).map(([term, def], j) => (
-                          <div key={j} className={`c-ex-pill c-ex-pill--${p.t}`}>
-                            <strong>{term}</strong> · {def}
-                          </div>
+                          <div key={j} className="b-ex"><strong>{term}</strong> · {def}</div>
                         ))}
                       </div>
                     </div>
                   </div>
-                )}
-              </div>
-              <div style={{ display:'flex', justifyContent:'center', marginTop:'0.75rem' }}>
-                <span className="c-wp-hint" aria-hidden="true" style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', opacity:0.55, pointerEvents:'none' }} />
-              </div>
+                  <span className="text-center text-[0.72rem] font-medium text-[var(--b-dim)] opacity-60 group-hover:opacity-0 group-focus-within:opacity-0">
+                    +{p.ex.length - 2} more
+                  </span>
+                </>
+              )}
             </div>
-          )
-        })}
+          </div>
+        ))}
       </div>
+
       <div ref={sentinelRef} aria-hidden="true" />
-      {filtered.length === 0 && <div className="c-empty">No word parts found.</div>}
-    </>
+
+      {filtered.length === 0 && (
+        <div className="py-16 text-center text-[0.92rem] text-[var(--b-dim)]">No word parts found.</div>
+      )}
+    </div>
   )
 }

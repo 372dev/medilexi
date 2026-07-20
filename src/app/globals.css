@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -753,3 +753,121 @@ body.day .ko-h { color: var(--color-text); }
   color: var(--color-text-dim);
   line-height: 1.8;
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   REDESIGN SAMPLE · DIRECTION B "SIGNAL"
+   Energetic learning-app treatment. Scoped to the landing page only.
+   Tokens hang off the site's existing theme mechanism (default = night,
+   body.day = light) so the shadcn :root/.dark inversion stays deferred.
+   Delete this block if direction B is not chosen.
+   ═══════════════════════════════════════════════════════════════════ */
+:root {
+  --b-bg:       #0B1210;
+  --b-panel:    #131C19;
+  --b-raised:   #1A2621;
+  --b-border:   #223029;
+  --b-primary:  #22C55E;
+  --b-on-prim:  #04240F;
+  --b-amber:    #FBBF24;
+  --b-text:     #E8EFEA;
+  --b-dim:      #8CA096;
+  --b-display:  'Fraunces', Georgia, 'Times New Roman', serif;
+}
+body.day {
+  --b-bg:       #F5F9F6;
+  --b-panel:    #FFFFFF;
+  --b-raised:   #FFFFFF;
+  --b-border:   #E2EAE5;
+  --b-primary:  #16A34A;
+  --b-on-prim:  #FFFFFF;
+  --b-amber:    #B45309;
+  --b-text:     #0F1A15;
+  --b-dim:      #5C6B63;
+}
+
+/* Soft elevation, the deliberate opposite of the current hard offset shadow. */
+.b-lift   { box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 8px 24px -6px rgba(0,0,0,0.28); }
+body.day .b-lift { box-shadow: 0 1px 2px rgba(16,40,28,0.05), 0 10px 28px -8px rgba(16,40,28,0.10); }
+.b-glow   { box-shadow: 0 6px 22px -4px rgba(34,197,94,0.42); }
+body.day .b-glow { box-shadow: 0 6px 20px -5px rgba(22,163,74,0.30); }
+
+.b-press { transition: transform .12s ease, box-shadow .12s ease, background-color .12s ease, border-color .12s ease; }
+.b-press:hover  { transform: translateY(-2px); }
+.b-press:active { transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) {
+  .b-press { transition: none; }
+  .b-press:hover, .b-press:active { transform: none; }
+}
+
+/* ── Direction B component kit (word parts glossary + flashcard + shell) ── */
+
+.b-card {
+  background: var(--b-panel);
+  border: 1px solid var(--b-border);
+  border-radius: 18px;
+}
+
+/* Level as a labelled tint pill; replaces the emoji stars (CLAUDE.md 8, shared move). */
+.b-lvl {
+  display: inline-flex; align-items: center; white-space: nowrap;
+  font-size: 0.64rem; font-weight: 700; letter-spacing: 0.045em;
+  text-transform: uppercase; padding: 0.18rem 0.5rem;
+  border-radius: 999px; border: 1px solid;
+}
+.b-lvl--3 { background: color-mix(in srgb, var(--b-primary) 14%, transparent); color: var(--b-primary); border-color: color-mix(in srgb, var(--b-primary) 32%, transparent); }
+.b-lvl--2 { background: color-mix(in srgb, var(--b-amber) 14%, transparent);   color: var(--b-amber);   border-color: color-mix(in srgb, var(--b-amber) 32%, transparent); }
+.b-lvl--1 { background: color-mix(in srgb, var(--b-dim) 12%, transparent);     color: var(--b-dim);     border-color: var(--b-border); }
+
+/* Word-part type badge. Colours stay on the codified triad (CLAUDE.md 2):
+   prefix blue, root green, suffix red. */
+.b-badge {
+  display: inline-flex; align-items: center;
+  font-size: 0.64rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 0.18rem 0.5rem;
+  border-radius: 6px; border: 1px solid;
+}
+.b-badge--p { background: rgba(59,130,246,0.16); color: #93C5FD; border-color: rgba(59,130,246,0.42); }
+.b-badge--r { background: rgba(59,170,106,0.16); color: #6EE7B7; border-color: rgba(59,170,106,0.42); }
+.b-badge--s { background: rgba(201,64,64,0.16);  color: #FCA5A5; border-color: rgba(201,64,64,0.42); }
+body.day .b-badge--p { background: #E6F1FB; color: #1D4ED8; border-color: #93C5FD; }
+body.day .b-badge--r { background: #E7F6ED; color: #166534; border-color: #86D3A6; }
+body.day .b-badge--s { background: #FDECEC; color: #991B1B; border-color: #F1A9A9; }
+
+/* Filter pill */
+.b-fpill {
+  font-family: inherit; font-size: 0.78rem; font-weight: 600; cursor: pointer;
+  padding: 0.34rem 0.75rem; border-radius: 999px; white-space: nowrap;
+  background: var(--b-panel); color: var(--b-dim);
+  border: 1px solid var(--b-border);
+  transition: background-color .12s, color .12s, border-color .12s;
+}
+.b-fpill:hover { border-color: var(--b-primary); color: var(--b-text); }
+.b-fpill--active { background: var(--b-primary); color: var(--b-on-prim); border-color: var(--b-primary); }
+
+/* Example pill on a word-part card */
+.b-ex {
+  font-size: 0.79rem; line-height: 1.5; color: var(--b-dim);
+  background: var(--b-bg); border: 1px solid var(--b-border);
+  border-radius: 9px; padding: 0.34rem 0.6rem;
+}
+.b-ex strong { color: var(--b-text); font-weight: 650; }
+
+/* Search field */
+.b-search {
+  width: 100%; font-family: inherit; font-size: 0.9rem;
+  padding: 0.62rem 0.85rem; border-radius: 12px;
+  background: var(--b-panel); color: var(--b-text);
+  border: 1px solid var(--b-border); outline: none;
+  transition: border-color .12s;
+}
+.b-search::placeholder { color: var(--b-dim); }
+.b-search:focus { border-color: var(--b-primary); }
+
+.b-kbd {
+  display: inline-block; padding: 0.1em 0.45em;
+  font-family: inherit; font-size: 0.92em; font-weight: 600;
+  background: var(--b-raised); border: 1px solid var(--b-border);
+  border-bottom-width: 2px; border-radius: 5px; color: inherit; line-height: 1.5;
+}
+
+.b-focus:focus-visible { outline: 2px solid var(--b-primary); outline-offset: 2px; }

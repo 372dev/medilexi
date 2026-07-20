@@ -22289,5 +22289,488 @@
                                 "cyst/o"
                             ]
                   }
+    },
+    {
+        "en_h":  "Prostatectomy",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Surgical removal of all or part of the prostate gland, typically performed to treat prostate cancer or severe benign enlargement.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "prostat/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Overactive bladder",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "A condition characterized by sudden, compelling urges to urinate, often with increased frequency and nocturia, with or without urge incontinence.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Erectile dysfunction",
+        "en_l":  "Impotence",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Inability to achieve or maintain an erection sufficient for satisfactory sexual performance.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Nephrostomy",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Surgical creation of an opening from the kidney to the skin surface for urine drainage, typically using a tube.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "nephr/o"
+                            ],
+                      "s":  [
+                                "-stomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Urodynamic study",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Series of tests to evaluate bladder and urethral function, including pressure measurements and flow studies.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ur/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Circumcision",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Surgical removal of the foreskin covering the glans penis.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "circum-"
+                            ],
+                      "r":  [
+                                "cis/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Bladder cancer",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Malignant tumor arising from the lining of the urinary bladder.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Ureteral stent",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Thin tube inserted into the ureter to maintain urine flow from the kidney to the bladder.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ureter/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Interstitial cystitis",
+        "en_l":  "Bladder pain syndrome",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Chronic bladder condition causing pelvic pain, urinary urgency, and frequency without infection.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "inter-"
+                            ],
+                      "r":  [
+                                "cyst/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Renal colic",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Severe flank pain caused by obstruction of the urinary tract, typically by a kidney stone.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "ren/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Neurogenic bladder",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Bladder dysfunction resulting from neurological damage or disease affecting nerve signals.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "neur/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Epididymitis",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Inflammation of the epididymis, often due to bacterial infection.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "epididym/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Testicular torsion",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Twisting of the spermatic cord that cuts off blood supply to the testicle, requiring urgent intervention.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "testicul/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Urinary retention",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Inability to completely empty the bladder despite the urge to urinate.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "urin/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Stress incontinence",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Involuntary leakage of urine during physical activities that increase abdominal pressure, such as coughing or sneezing.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Urge incontinence",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Sudden, intense urge to urinate followed by involuntary leakage.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Suprapubic catheter",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Catheter inserted through the lower abdomen directly into the bladder for urine drainage.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "supra-"
+                            ],
+                      "r":  [
+                                "pub/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cystectomy",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Surgical removal of all or part of the urinary bladder.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "cyst/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Urethral stricture",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Narrowing of the urethra that restricts urine flow.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "urethr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Kidney transplant",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Surgical procedure to replace a failed kidney with a healthy donor kidney.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Health Insurance Portability and Accountability Act",
+        "abbr":  "HIPAA",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "US federal law protecting patient health information privacy and security while enabling portability of insurance coverage.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Explanation of benefits",
+        "abbr":  "EOB",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Document from an insurer detailing services provided, amounts billed, covered amounts, and patient responsibility.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Verbal consent form",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Documentation of a patient\u0027s verbal agreement to a medical procedure or treatment after being informed of risks and benefits.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Discharge",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Process of releasing a patient from a healthcare facility after treatment.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Case management",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Coordination of healthcare services to meet a patient\u0027s needs efficiently and effectively.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Marital status",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Patient\u0027s legal relationship status such as single, married, divorced, or widowed, recorded for administrative purposes.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Peer-to-peer review",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Process where physicians discuss and review a patient\u0027s care plan or authorization request with another physician from the insurer.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Pre-admission testing",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Medical evaluations and tests performed before hospital admission for surgery or procedure.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Living trust",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Legal document creating a trust to manage assets during life and distribute them after death.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Living will",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Advance directive specifying medical treatment preferences if the patient becomes unable to communicate.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Copayment",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Fixed amount a patient pays for a covered healthcare service after insurance pays its share.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Deductible",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Amount the patient must pay out-of-pocket before insurance coverage begins for certain services.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Prior authorization",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Approval required from an insurer before a specific service or medication is provided.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Power of attorney",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Legal authority granted to another person to make decisions on behalf of the patient.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Formulary",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "List of prescription drugs covered by an insurance plan, often with tiers determining cost-sharing.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Telehealth",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Delivery of healthcare services and information via telecommunications technologies.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Out-of-pocket maximum",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Limit on the total amount a patient pays for covered services in a plan year.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Coinsurance",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Percentage of costs a patient pays for covered services after meeting the deductible.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Insurance premium",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Periodic payment made to maintain health insurance coverage.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "In-network",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Healthcare providers or facilities contracted with an insurance plan offering lower costs to members.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Out-of-network",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Providers not contracted with the insurance plan, typically resulting in higher patient costs.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Superbill",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Detailed invoice from a healthcare provider listing services, codes, and fees for insurance claims.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Progress note",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Documentation in the medical record detailing a patient\u0027s clinical status and care provided during an encounter.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Medical record number",
+        "abbr":  "MRN",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Unique identifier assigned to a patient\u0027s medical records within a healthcare organization.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Next of kin",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Closest living relative or designated contact person for a patient in medical or legal matters.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Interpreter services",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Provision of professional language interpretation to facilitate communication between patients and providers.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Sliding scale fee",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Variable fee structure adjusted based on a patient\u0027s income or ability to pay.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Discharge summary",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Comprehensive report summarizing a patient\u0027s hospital stay, including diagnosis, treatment, and follow-up instructions.",
+        "lvl":  3
     }
 ]

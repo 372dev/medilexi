@@ -7729,5 +7729,247 @@
         "en_h":  "Thyroglossal cyst",
         "fr_h":  "Kyste du tractus thyréoglosse",
         "d_fr":  "Kyste congénital médian du cou résultant de reliquats du canal thyréoglosse."
+    },
+    {
+        "en_h":  "Prostatectomy",
+        "fr_h":  "Prostatectomie",
+        "d_fr":  "Ablation chirurgicale de tout ou partie de la prostate, généralement réalisée pour traiter le cancer de la prostate ou une hypertrophie bénigne sévère."
+    },
+    {
+        "en_h":  "Overactive bladder",
+        "fr_h":  "Vessie hyperactive",
+        "d_fr":  "Affection caractérisée par des envies soudaines et impérieuses d\u0027uriner, souvent accompagnée d\u0027une fréquence accrue et de nycturie, avec ou sans incontinence par impériosité."
+    },
+    {
+        "en_h":  "Erectile dysfunction",
+        "fr_h":  "Dysfonction érectile",
+        "fr_l":  "Impuissance",
+        "d_fr":  "Incapacité à obtenir ou à maintenir une érection suffisante pour une activité sexuelle satisfaisante."
+    },
+    {
+        "en_h":  "Nephrostomy",
+        "fr_h":  "Néphrostomie",
+        "d_fr":  "Création chirurgicale d\u0027une ouverture du rein vers la surface cutanée pour le drainage des urines, généralement à l\u0027aide d\u0027un tube."
+    },
+    {
+        "en_h":  "Urodynamic study",
+        "fr_h":  "Bilan urodynamique",
+        "d_fr":  "Ensemble de tests évaluant la fonction vésicale et urétrale, incluant des mesures de pression et des études de débit."
+    },
+    {
+        "en_h":  "Circumcision",
+        "fr_h":  "Circoncision",
+        "d_fr":  "Ablation chirurgicale du prépuce recouvrant le gland du pénis."
+    },
+    {
+        "en_h":  "Bladder cancer",
+        "fr_h":  "Cancer de la vessie",
+        "d_fr":  "Tumeur maligne provenant de la muqueuse de la vessie urinaire."
+    },
+    {
+        "en_h":  "Ureteral stent",
+        "fr_h":  "Endoprothèse urétérale",
+        "d_fr":  "Tube fin inséré dans l\u0027uretère pour maintenir l\u0027écoulement des urines du rein vers la vessie."
+    },
+    {
+        "en_h":  "Interstitial cystitis",
+        "fr_h":  "Cystite interstitielle",
+        "fr_l":  "Syndrome de la vessie douloureuse",
+        "d_fr":  "Affection chronique de la vessie provoquant des douleurs pelviennes, un besoin impérieux et une pollakiurie sans infection."
+    },
+    {
+        "en_h":  "Renal colic",
+        "fr_h":  "Colique néphrétique",
+        "d_fr":  "Douleur intense du flanc due à une obstruction des voies urinaires, typiquement par un calcul rénal."
+    },
+    {
+        "en_h":  "Neurogenic bladder",
+        "fr_h":  "Vessie neurologique",
+        "d_fr":  "Dysfonction vésicale résultant de lésions ou maladies neurologiques affectant les signaux nerveux."
+    },
+    {
+        "en_h":  "Epididymitis",
+        "fr_h":  "Épididymite",
+        "d_fr":  "Inflammation de l\u0027épididyme, souvent due à une infection bactérienne."
+    },
+    {
+        "en_h":  "Testicular torsion",
+        "fr_h":  "Torsion testiculaire",
+        "d_fr":  "Torsion du cordon spermatique interrompant la vascularisation du testicule, nécessitant une intervention urgente."
+    },
+    {
+        "en_h":  "Urinary retention",
+        "fr_h":  "Rétention urinaire",
+        "d_fr":  "Incapacité à vider complètement la vessie malgré l\u0027envie d\u0027uriner."
+    },
+    {
+        "en_h":  "Stress incontinence",
+        "fr_h":  "Incontinence d\u0027effort",
+        "d_fr":  "Fuite involontaire d\u0027urine lors d\u0027efforts augmentant la pression abdominale, comme la toux ou les éternuements."
+    },
+    {
+        "en_h":  "Urge incontinence",
+        "fr_h":  "Incontinence par impériosité",
+        "d_fr":  "Envie soudaine et intense d\u0027uriner suivie d\u0027une fuite involontaire."
+    },
+    {
+        "en_h":  "Suprapubic catheter",
+        "fr_h":  "Cathéter sus-pubien",
+        "d_fr":  "Cathéter inséré à travers la paroi abdominale inférieure directement dans la vessie pour le drainage des urines."
+    },
+    {
+        "en_h":  "Cystectomy",
+        "fr_h":  "Cystectomie",
+        "d_fr":  "Ablation chirurgicale de tout ou partie de la vessie urinaire."
+    },
+    {
+        "en_h":  "Urethral stricture",
+        "fr_h":  "Sténose urétrale",
+        "d_fr":  "Rétrécissement de l\u0027urètre limitant l\u0027écoulement des urines."
+    },
+    {
+        "en_h":  "Kidney transplant",
+        "fr_h":  "Transplantation rénale",
+        "d_fr":  "Procédure chirurgicale consistant à remplacer un rein défaillant par un rein sain d\u0027un donneur."
+    },
+    {
+        "en_h":  "Health Insurance Portability and Accountability Act",
+        "fr_h":  "Health Insurance Portability and Accountability Act",
+        "d_fr":  "Loi fédérale américaine protégeant la confidentialité et la sécurité des informations de santé des patients tout en permettant la portabilité de la couverture d\u0027assurance."
+    },
+    {
+        "en_h":  "Explanation of benefits",
+        "fr_h":  "Explication des prestations",
+        "d_fr":  "Document de l\u0027assureur détaillant les services fournis, les montants facturés, les montants couverts et la part du patient."
+    },
+    {
+        "en_h":  "Verbal consent form",
+        "fr_h":  "Formulaire de consentement verbal",
+        "d_fr":  "Documentation de l\u0027accord verbal d\u0027un patient à une procédure ou un traitement médical après information sur les risques et avantages."
+    },
+    {
+        "en_h":  "Discharge",
+        "fr_h":  "Sortie d\u0027hôpital",
+        "d_fr":  "Processus de libération d\u0027un patient d\u0027un établissement de soins après traitement."
+    },
+    {
+        "en_h":  "Case management",
+        "fr_h":  "Gestion de cas",
+        "d_fr":  "Coordination des services de soins de santé pour répondre efficacement aux besoins du patient."
+    },
+    {
+        "en_h":  "Marital status",
+        "fr_h":  "État matrimonial",
+        "d_fr":  "Statut relationnel légal du patient tel que célibataire, marié, divorcé ou veuf, enregistré à des fins administratives."
+    },
+    {
+        "en_h":  "Peer-to-peer review",
+        "fr_h":  "Examen entre pairs",
+        "d_fr":  "Processus où des médecins discutent et examinent le plan de soins ou la demande d\u0027autorisation d\u0027un patient avec un autre médecin de l\u0027assureur."
+    },
+    {
+        "en_h":  "Pre-admission testing",
+        "fr_h":  "Examens de préadmission",
+        "d_fr":  "Évaluations et tests médicaux effectués avant l\u0027admission à l\u0027hôpital pour une chirurgie ou une procédure."
+    },
+    {
+        "en_h":  "Living trust",
+        "fr_h":  "Fiducie entre vifs",
+        "d_fr":  "Document légal créant une fiducie pour gérer les biens pendant la vie et les distribuer après le décès."
+    },
+    {
+        "en_h":  "Living will",
+        "fr_h":  "Directive anticipée",
+        "d_fr":  "Directive anticipée précisant les préférences de traitement médical si le patient devient incapable de communiquer."
+    },
+    {
+        "en_h":  "Copayment",
+        "fr_h":  "Ticket modérateur",
+        "d_fr":  "Montant fixe payé par le patient pour un service de santé couvert après que l\u0027assurance a payé sa part."
+    },
+    {
+        "en_h":  "Deductible",
+        "fr_h":  "Franchise",
+        "d_fr":  "Montant que le patient doit payer de sa poche avant que la couverture d\u0027assurance ne commence pour certains services."
+    },
+    {
+        "en_h":  "Prior authorization",
+        "fr_h":  "Autorisation préalable",
+        "d_fr":  "Approbation requise de l\u0027assureur avant la fourniture d\u0027un service ou d\u0027un médicament spécifique."
+    },
+    {
+        "en_h":  "Power of attorney",
+        "fr_h":  "Procuration",
+        "d_fr":  "Autorité légale accordée à une autre personne pour prendre des décisions au nom du patient."
+    },
+    {
+        "en_h":  "Formulary",
+        "fr_h":  "Liste de médicaments couverts",
+        "d_fr":  "Liste de médicaments sur ordonnance couverts par un plan d\u0027assurance, souvent avec des niveaux déterminant le partage des coûts."
+    },
+    {
+        "en_h":  "Telehealth",
+        "fr_h":  "Télésanté",
+        "d_fr":  "Prestation de services et d\u0027informations de santé via des technologies de télécommunications."
+    },
+    {
+        "en_h":  "Out-of-pocket maximum",
+        "fr_h":  "Plafond des dépenses personnelles",
+        "d_fr":  "Limite du montant total payé par le patient pour les services couverts au cours d\u0027une année de régime."
+    },
+    {
+        "en_h":  "Coinsurance",
+        "fr_h":  "Coassurance",
+        "d_fr":  "Pourcentage des coûts que le patient paie pour les services couverts après avoir atteint la franchise."
+    },
+    {
+        "en_h":  "Insurance premium",
+        "fr_h":  "Prime d\u0027assurance",
+        "d_fr":  "Paiement périodique effectué pour maintenir la couverture d\u0027assurance maladie."
+    },
+    {
+        "en_h":  "In-network",
+        "fr_h":  "Fournisseur du réseau",
+        "d_fr":  "Fournisseurs ou établissements de soins contractés avec un plan d\u0027assurance offrant des coûts réduits aux membres."
+    },
+    {
+        "en_h":  "Out-of-network",
+        "fr_h":  "Fournisseur hors réseau",
+        "d_fr":  "Fournisseurs non contractés avec le plan d\u0027assurance, entraînant généralement des coûts plus élevés pour le patient."
+    },
+    {
+        "en_h":  "Superbill",
+        "fr_h":  "Facture détaillée de soins",
+        "d_fr":  "Facture détaillée d\u0027un fournisseur de soins listant les services, codes et honoraires pour les réclamations d\u0027assurance."
+    },
+    {
+        "en_h":  "Progress note",
+        "fr_h":  "Note d\u0027évolution",
+        "d_fr":  "Documentation dans le dossier médical détaillant l\u0027état clinique du patient et les soins fournis lors d\u0027une consultation."
+    },
+    {
+        "en_h":  "Medical record number",
+        "fr_h":  "Numéro de dossier médical",
+        "d_fr":  "Identifiant unique attribué aux dossiers médicaux d\u0027un patient au sein d\u0027un établissement de santé."
+    },
+    {
+        "en_h":  "Next of kin",
+        "fr_h":  "Plus proche parent",
+        "d_fr":  "Parent vivant le plus proche ou personne de contact désignée pour un patient dans les affaires médicales ou légales."
+    },
+    {
+        "en_h":  "Interpreter services",
+        "fr_h":  "Services d\u0027interprétation",
+        "d_fr":  "Prestation d\u0027interprétation linguistique professionnelle pour faciliter la communication entre patients et prestataires."
+    },
+    {
+        "en_h":  "Sliding scale fee",
+        "fr_h":  "Tarification selon le revenu",
+        "d_fr":  "Structure de frais variable ajustée en fonction du revenu ou de la capacité de paiement du patient."
+    },
+    {
+        "en_h":  "Discharge summary",
+        "fr_h":  "Compte rendu de sortie",
+        "d_fr":  "Rapport complet résumant le séjour hospitalier du patient, incluant le diagnostic, le traitement et les instructions de suivi."
     }
 ]

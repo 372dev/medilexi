@@ -585,6 +585,7 @@ Epilepsy
 Episiotomy
 Epistaxis
 Erectile dysfunction
+Eructation
 Erythema
 Erythrocyte
 Erythrocyte sedimentation rate
@@ -1720,7 +1721,7 @@ Vasospasm
 Vasovagal syncope
 Vena cava
 Venipuncture
-Venostasis
+Venous stasis
 Venous thrombosis
 Ventilator
 Ventral

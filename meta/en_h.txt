@@ -1506,7 +1506,7 @@ Vasospasm
 Vasovagal syncope
 Vena cava
 Venipuncture
-Venostasis
+Venous stasis
 Venous thrombosis
 Ventilator
 Ventral

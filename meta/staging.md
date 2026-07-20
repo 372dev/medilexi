@@ -23,16 +23,9 @@ Endocrinology · Otolaryngology · Urology. Prefer terms an interpreter or trans
 
 These change entries already in the glossary — handled via the update flow, not the drafter:
 
-- `Venostasis` → rename to **Venous stasis** (`en_l` Venostasis); add ko 정맥울혈; drop the descriptive `en_l` "Venous blood pooling".
-- `Atelectasis` → replace descriptive `en_l` "Collapsed lung air sacs" with **"Collapsed lung"**.
-- `Angina pectoris` → add `en_l` "Angina".
-- `Pelvic inflammatory disease` → add `abbr` "PID".
-- `Cellulitis` → add ko 봉와직염 · `Ventilator` → add `ko_l` 산소호흡기.
-- `Paresthesia` → `abbr` is an empty string; omit it. Scan for other empty-string `abbr`/`en_l`.
-- Lay `en_l` adds surfaced 2026-07-10: `Nodule` ← "lump" · `Otitis media` ← "ear infection" · `Patella` ← "kneecap" · `Bronchus` ← "bronchial tube" · `Edema` ← "swelling" · `Dysarthria` ← "slurred speech" · `Eructation` ← "belching".
-- *Optional:* `Obstetrics & Gynecology` → add `parts` gynec/o + -logy · `Rehabilitation Medicine` → add `abbr` PM&R.
-- `Cryptorchidism` → add `en_l` **"Undescended testicle"** (entry currently has none). Surfaced 2026-07-19 when the queued candidate "Undescended testicle" standardized onto the already-shipped `Cryptorchidism`; the candidate was dropped from the queue in favour of this edit.
-- **갑상샘 → 갑상선 cleanup (reference alignment, flagged 2026-07-19).** 8 shipped entries use 갑상샘 as `ko_h` (갑상샘 기능 저하증, 갑상샘 기능 항진증, 부갑상샘 기능 항진증, 갑상샘, 갑상샘독증, 갑상샘 절제술, 부갑상샘, 갑상샘기능검사), each paired with a 갑상선 `ko_l`. Both approved refs standardize on **갑상선** — 질병관리청 국가건강정보포털 (갑상선염/갑상선 결절/갑상선기능저하증) and KCD 8차 (E03/E04/E06 = 갑상선…). Convert each `ko_h` 갑상샘→갑상선, drop the now-redundant 갑상선 `ko_l`, and fix any 갑상샘 left in their `d_ko`. (갑상샘 is the 의협 순화어 but not what our references use.)
+*(The 2026-07-10 backlog — Venostasis rename, Atelectasis/Bronchus/Nodule/Cryptorchidism `en_l`, PID + PM&R `abbr`, Cellulitis/Ventilator `ko_l`, the 갑상샘→갑상선 conversion, and the empty-string sweep — was all cleared in v1.288. Patella/Edema/Dysarthria `en_l` and the O&G `parts` turned out to be already correct; Otitis media `en_l` was deliberately left as "Middle ear infection".)*
+
+- **`Sebaceous gland` → `ko_h` 피지샘 may need to be 피지선** (flagged 2026-07-19, needs a call). The other five gland entries all follow **`ko_h` = Sino-Korean 선 / `ko_l` = native 샘**: 흉선/가슴샘 (Thymus), 누선/눈물샘 (Lacrimal), 한선/땀샘 (Sudoriferous), 타액선/침샘 (Salivary), 선암종/샘암 (Adenocarcinoma). Sebaceous gland is the lone outlier with 샘 in `ko_h` (`ko_l` 기름샘). Changing a `ko_h` needs explicit confirmation, so it was left alone.
 
 ---
 
@@ -60,6 +53,7 @@ These change entries already in the glossary — handled via the update flow, no
 - Radiopharmaceutical
 
 ### General clinical (2026-07-10 intake)
+- Eructation (belching)
 - Abdominal binder
 - Radiologist
 - Psychiatrist

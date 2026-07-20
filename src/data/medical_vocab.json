@@ -39,7 +39,6 @@
     {
         "en_h":  "Preventive care",
         "en_l":  "Check-up / screening",
-        "abbr":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -48,8 +47,6 @@
     },
     {
         "en_h":  "Comorbidity",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Family Medicine",
                   "Internal Medicine"
@@ -67,8 +64,6 @@
     },
     {
         "en_h":  "Chronic disease management",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -85,8 +80,6 @@
     },
     {
         "en_h":  "Obesity",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Family Medicine",
                   "Internal Medicine",
@@ -118,7 +111,6 @@
     {
         "en_h":  "Consent",
         "en_l":  "Agreement to treatment",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -145,7 +137,6 @@
     {
         "en_h":  "Medical history",
         "en_l":  "Past health record",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -194,8 +185,6 @@
     },
     {
         "en_h":  "Allergy",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Family Medicine",
                   "Immunology"
@@ -206,7 +195,6 @@
     {
         "en_h":  "Prescription",
         "en_l":  "Doctor\u0027s order",
-        "abbr":  "",
         "f":  [
                   "Family Medicine",
                   "Pharmacology"
@@ -221,8 +209,6 @@
     },
     {
         "en_h":  "Symptom",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -237,8 +223,6 @@
     },
     {
         "en_h":  "Sign",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -248,7 +232,6 @@
     },
     {
         "en_h":  "Vital signs",
-        "en_l":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -258,8 +241,6 @@
     },
     {
         "en_h":  "Acute",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -288,7 +269,6 @@
     },
     {
         "en_h":  "Acute coronary syndrome",
-        "en_l":  "",
         "abbr":  "ACS",
         "f":  [
                   "Cardiology",
@@ -310,8 +290,7 @@
     },
     {
         "en_h":  "Angina pectoris",
-        "en_l":  "Chest pain",
-        "abbr":  "Angina",
+        "en_l":  "Angina",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -338,7 +317,6 @@
     {
         "en_h":  "Arrhythmia",
         "en_l":  "Irregular heartbeat",
-        "abbr":  "",
         "f":  [
                   "Cardiology"
               ],
@@ -412,7 +390,6 @@
     {
         "en_h":  "Atherosclerosis",
         "en_l":  "Artery hardening",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Internal Medicine"
@@ -452,7 +429,6 @@
     {
         "en_h":  "Cerebral infarction",
         "en_l":  "Ischemic stroke",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Cardiology",
@@ -472,7 +448,6 @@
     {
         "en_h":  "Cerebral hemorrhage",
         "en_l":  "Hemorrhagic stroke",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Cardiology",
@@ -494,7 +469,6 @@
     {
         "en_h":  "Ischemia",
         "en_l":  "Lack of blood flow",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Cardiology",
@@ -537,7 +511,6 @@
     {
         "en_h":  "Cardiac arrest",
         "en_l":  "Heart stops",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -556,7 +529,6 @@
     {
         "en_h":  "Hemorrhage",
         "en_l":  "Bleeding",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Neurology",
@@ -576,7 +548,6 @@
     {
         "en_h":  "Palpitation",
         "en_l":  "Racing / fluttering heartbeat",
-        "abbr":  "",
         "f":  [
                   "Cardiology"
               ],
@@ -585,7 +556,6 @@
     },
     {
         "en_h":  "Diagnosis",
-        "en_l":  "",
         "abbr":  "Dx",
         "f":  [
                   "General Medicine"
@@ -603,7 +573,6 @@
     },
     {
         "en_h":  "Treatment",
-        "en_l":  "",
         "abbr":  "Tx",
         "f":  [
                   "General Medicine"
@@ -614,7 +583,6 @@
     {
         "en_h":  "Chronic",
         "en_l":  "Long-term",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -632,7 +600,6 @@
     {
         "en_h":  "Inflammation",
         "en_l":  "Swelling and redness",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -642,7 +609,6 @@
     {
         "en_h":  "Infection",
         "en_l":  "Germ invasion",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Infectious Disease"
@@ -653,7 +619,6 @@
     {
         "en_h":  "Fever",
         "en_l":  "High temperature",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Infectious Disease"
@@ -664,7 +629,6 @@
     {
         "en_h":  "Pain",
         "en_l":  "Hurt",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -694,7 +658,6 @@
     {
         "en_h":  "Benign",
         "en_l":  "Non-cancerous",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Oncology"
@@ -705,7 +668,6 @@
     {
         "en_h":  "Malignant",
         "en_l":  "Cancerous",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Oncology"
@@ -721,7 +683,6 @@
     {
         "en_h":  "Metastasis",
         "en_l":  "Cancer spread",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "General Medicine"
@@ -751,7 +712,6 @@
     {
         "en_h":  "Edema",
         "en_l":  "Swelling",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Cardiology",
@@ -767,8 +727,6 @@
     },
     {
         "en_h":  "Nausea",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -798,7 +756,6 @@
     {
         "en_h":  "Triage",
         "en_l":  "Sorting by urgency",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine"
               ],
@@ -807,8 +764,6 @@
     },
     {
         "en_h":  "Dementia",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Psychiatry"
@@ -829,7 +784,6 @@
     },
     {
         "en_h":  "Alzheimer\u0027s disease",
-        "en_l":  "",
         "abbr":  "AD",
         "f":  [
                   "Neurology",
@@ -841,7 +795,6 @@
     {
         "en_h":  "Epilepsy",
         "en_l":  "Seizure disorder",
-        "abbr":  "",
         "f":  [
                   "Neurology"
               ],
@@ -858,8 +811,6 @@
     },
     {
         "en_h":  "Seizure",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Emergency Medicine"
@@ -869,7 +820,6 @@
     },
     {
         "en_h":  "Parkinson\u0027s disease",
-        "en_l":  "",
         "abbr":  "PD",
         "f":  [
                   "Neurology"
@@ -879,7 +829,6 @@
     },
     {
         "en_h":  "Multiple sclerosis",
-        "en_l":  "",
         "abbr":  "MS",
         "f":  [
                   "Neurology",
@@ -899,7 +848,6 @@
     {
         "en_h":  "Headache",
         "en_l":  "Head pain",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Family Medicine"
@@ -909,8 +857,6 @@
     },
     {
         "en_h":  "Migraine",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Family Medicine"
@@ -921,7 +867,6 @@
     {
         "en_h":  "Neuropathy",
         "en_l":  "Nerve damage",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Internal Medicine"
@@ -940,7 +885,6 @@
     {
         "en_h":  "Cognitive impairment",
         "en_l":  "Thinking problems",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Psychiatry"
@@ -950,8 +894,6 @@
     },
     {
         "en_h":  "Internal Medicine",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -961,7 +903,6 @@
     {
         "en_h":  "Psychiatry",
         "en_l":  "Mental health medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -977,7 +918,6 @@
     {
         "en_h":  "Pediatrics",
         "en_l":  "Children\u0027s medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -995,7 +935,6 @@
     },
     {
         "en_h":  "Obstetrics \u0026 Gynecology",
-        "en_l":  "",
         "abbr":  "OB-GYN",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
@@ -1014,8 +953,6 @@
     },
     {
         "en_h":  "Surgery",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1025,7 +962,6 @@
     {
         "en_h":  "Orthopedics",
         "en_l":  "Bone and joint medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1044,7 +980,6 @@
     {
         "en_h":  "Neurology",
         "en_l":  "Brain and nerve medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1062,7 +997,6 @@
     {
         "en_h":  "Cardiology",
         "en_l":  "Heart medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1080,7 +1014,6 @@
     {
         "en_h":  "Oncology",
         "en_l":  "Cancer medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1098,7 +1031,6 @@
     {
         "en_h":  "Dyslipidemia",
         "en_l":  "Abnormal cholesterol",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Family Medicine",
@@ -1121,7 +1053,6 @@
     {
         "en_h":  "Referral",
         "en_l":  "Sending to a specialist",
-        "abbr":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -1131,7 +1062,6 @@
     {
         "en_h":  "Polypharmacy",
         "en_l":  "Taking many medications",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Internal Medicine",
@@ -1151,7 +1081,6 @@
     {
         "en_h":  "Vaccination / immunization",
         "en_l":  "Getting a shot",
-        "abbr":  "",
         "f":  [
                   "Infectious Disease",
                   "Pediatrics",
@@ -1168,7 +1097,6 @@
     {
         "en_h":  "Hypothyroidism",
         "en_l":  "Underactive thyroid",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Family Medicine",
@@ -1191,7 +1119,6 @@
     {
         "en_h":  "Osteoporosis",
         "en_l":  "Brittle bones",
-        "abbr":  "",
         "f":  [
                   "Family Medicine",
                   "Orthopedics",
@@ -1211,7 +1138,6 @@
     {
         "en_h":  "Depression",
         "en_l":  "Low mood",
-        "abbr":  "",
         "f":  [
                   "Psychiatry",
                   "Family Medicine"
@@ -1246,7 +1172,6 @@
     },
     {
         "en_h":  "Body mass index",
-        "en_l":  "",
         "abbr":  "BMI",
         "f":  [
                   "Family Medicine",
@@ -1258,7 +1183,6 @@
     {
         "en_h":  "Ambulatory care",
         "en_l":  "Outpatient care",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -1269,7 +1193,6 @@
     {
         "en_h":  "Follow-up",
         "en_l":  "Return visit",
-        "abbr":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -1279,7 +1202,6 @@
     {
         "en_h":  "Screening",
         "en_l":  "Preventive test",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -1289,8 +1211,6 @@
     },
     {
         "en_h":  "Compliance / adherence",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Family Medicine"
               ],
@@ -1300,7 +1220,6 @@
     {
         "en_h":  "Insomnia",
         "en_l":  "Sleeplessness",
-        "abbr":  "",
         "f":  [
                   "Psychiatry",
                   "Family Medicine"
@@ -1322,7 +1241,6 @@
     {
         "en_h":  "Lower back pain",
         "en_l":  "Back ache",
-        "abbr":  "",
         "f":  [
                   "Family Medicine",
                   "Orthopedics",
@@ -1333,8 +1251,6 @@
     },
     {
         "en_h":  "Anxiety disorder",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Psychiatry",
                   "Family Medicine"
@@ -1365,7 +1281,6 @@
     {
         "en_h":  "Anemia",
         "en_l":  "Low blood count",
-        "abbr":  "",
         "f":  [
                   "Hematology",
                   "Family Medicine",
@@ -1428,7 +1343,6 @@
     },
     {
         "en_h":  "Ejection fraction",
-        "en_l":  "",
         "abbr":  "EF",
         "f":  [
                   "Cardiology"
@@ -1439,7 +1353,6 @@
     {
         "en_h":  "Anticoagulant",
         "en_l":  "Blood thinner",
-        "abbr":  "",
         "f":  [
                   "Pharmacology",
                   "Cardiology"
@@ -1457,7 +1370,6 @@
     },
     {
         "en_h":  "Pacemaker",
-        "en_l":  "",
         "f":  [
                   "Cardiology"
               ],
@@ -1483,7 +1395,6 @@
     },
     {
         "en_h":  "Cardiopulmonary resuscitation",
-        "en_l":  "",
         "abbr":  "CPR",
         "f":  [
                   "Emergency Medicine",
@@ -1553,7 +1464,6 @@
     {
         "en_h":  "Meningitis",
         "en_l":  "Brain lining infection",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Infectious Disease",
@@ -1573,7 +1483,6 @@
     {
         "en_h":  "Vertigo",
         "en_l":  "Spinning dizziness",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology",
                   "Neurology"
@@ -1583,8 +1492,6 @@
     },
     {
         "en_h":  "Dizziness",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Family Medicine"
@@ -1594,8 +1501,6 @@
     },
     {
         "en_h":  "Neurodegenerative disease",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Neurology"
               ],
@@ -1652,7 +1557,6 @@
     {
         "en_h":  "Aphasia",
         "en_l":  "Loss of speech",
-        "abbr":  "",
         "f":  [
                   "Neurology"
               ],
@@ -1673,7 +1577,6 @@
     {
         "en_h":  "Tremor",
         "en_l":  "Shaking",
-        "abbr":  "",
         "f":  [
                   "Neurology"
               ],
@@ -1699,7 +1602,6 @@
     {
         "en_h":  "Analgesic",
         "en_l":  "Painkiller",
-        "abbr":  "",
         "f":  [
                   "Pharmacology",
                   "Family Medicine"
@@ -1721,7 +1623,6 @@
     {
         "en_h":  "Antipyretic",
         "en_l":  "Fever reducer",
-        "abbr":  "",
         "f":  [
                   "Pharmacology",
                   "Family Medicine"
@@ -1774,7 +1675,6 @@
     {
         "en_h":  "Prophylaxis",
         "en_l":  "Preventive treatment",
-        "abbr":  "",
         "f":  [
                   "Pharmacology",
                   "Infectious Disease",
@@ -1838,7 +1738,6 @@
     {
         "en_h":  "Sublingual administration",
         "en_l":  "Under-tongue medication",
-        "abbr":  "",
         "f":  [
                   "Pharmacology"
               ],
@@ -1859,7 +1758,6 @@
     {
         "en_h":  "Efficacy",
         "en_l":  "Drug effectiveness",
-        "abbr":  "",
         "f":  [
                   "Pharmacology",
                   "General Medicine"
@@ -1870,7 +1768,6 @@
     {
         "en_h":  "Endocrinology",
         "en_l":  "Hormone medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1891,7 +1788,6 @@
     {
         "en_h":  "Dermatology",
         "en_l":  "Skin medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1909,7 +1805,6 @@
     {
         "en_h":  "Ophthalmology",
         "en_l":  "Eye medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1946,7 +1841,6 @@
     {
         "en_h":  "Urology",
         "en_l":  "Urinary tract medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1964,7 +1858,6 @@
     {
         "en_h":  "Radiology",
         "en_l":  "Imaging / X-ray",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1982,7 +1875,6 @@
     {
         "en_h":  "Emergency Medicine",
         "en_l":  "ER / emergency care",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -1992,7 +1884,6 @@
     {
         "en_h":  "Anesthesiology",
         "en_l":  "Anaesthesia / sedation",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2013,7 +1904,6 @@
     {
         "en_h":  "Pathology",
         "en_l":  "Lab / tissue diagnosis",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2031,7 +1921,6 @@
     {
         "en_h":  "Pharmacology",
         "en_l":  "Drug science",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2049,7 +1938,6 @@
     {
         "en_h":  "Infectious Disease",
         "en_l":  "Infection specialist",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2059,7 +1947,6 @@
     {
         "en_h":  "Dentistry",
         "en_l":  "Dental care",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2074,7 +1961,7 @@
     {
         "en_h":  "Rehabilitation Medicine",
         "en_l":  "Rehab / physio",
-        "abbr":  "",
+        "abbr":  "PM\u0026R",
         "f":  [
                   "General Medicine"
               ],
@@ -2083,8 +1970,6 @@
     },
     {
         "en_h":  "Beta-blocker",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Pharmacology",
                   "Cardiology"
@@ -2095,7 +1980,6 @@
     {
         "en_h":  "Cardiac biomarker",
         "en_l":  "Heart enzyme test",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Pathology"
@@ -2114,8 +1998,6 @@
     },
     {
         "en_h":  "Health literacy",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2126,7 +2008,6 @@
     {
         "en_h":  "Advance directive",
         "en_l":  "Living will",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2136,8 +2017,6 @@
     },
     {
         "en_h":  "Continuity of care",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2148,7 +2027,6 @@
     {
         "en_h":  "Palliative Care",
         "en_l":  "Comfort care",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2159,7 +2037,6 @@
     {
         "en_h":  "Plastic Surgery",
         "en_l":  "Cosmetic / reconstructive surgery",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2169,7 +2046,6 @@
     {
         "en_h":  "Thoracic Surgery",
         "en_l":  "Chest surgery",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2187,7 +2063,6 @@
     {
         "en_h":  "Neurosurgery",
         "en_l":  "Brain / spine surgery",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2202,7 +2077,6 @@
     {
         "en_h":  "Rheumatology",
         "en_l":  "Joint and autoimmune medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2217,7 +2091,6 @@
     {
         "en_h":  "Pulmonology",
         "en_l":  "Lung medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2235,7 +2108,6 @@
     {
         "en_h":  "Nephrology",
         "en_l":  "Kidney medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2253,7 +2125,6 @@
     {
         "en_h":  "Gastroenterology",
         "en_l":  "Gut / digestive medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2272,7 +2143,6 @@
     {
         "en_h":  "Hematology",
         "en_l":  "Blood medicine",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2290,7 +2160,6 @@
     {
         "en_h":  "Nuclear Medicine",
         "en_l":  "Radioactive scan / tracer imaging",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -2308,7 +2177,6 @@
     {
         "en_h":  "Syncope",
         "en_l":  "Fainting / passing out",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Neurology",
@@ -2325,7 +2193,6 @@
     {
         "en_h":  "Pleuritic chest pain",
         "en_l":  "Sharp pain when inhaling",
-        "abbr":  "",
         "f":  [
                   "Pulmonology",
                   "Emergency Medicine"
@@ -2344,7 +2211,6 @@
     {
         "en_h":  "Hematemesis",
         "en_l":  "Vomiting blood",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Emergency Medicine"
@@ -2363,7 +2229,6 @@
     {
         "en_h":  "Hemoptysis",
         "en_l":  "Coughing up blood",
-        "abbr":  "",
         "f":  [
                   "Pulmonology",
                   "Emergency Medicine"
@@ -2382,7 +2247,6 @@
     {
         "en_h":  "Melena",
         "en_l":  "Black tarry stool",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine",
@@ -2394,7 +2258,6 @@
     {
         "en_h":  "Hematochezia",
         "en_l":  "Blood in stool",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery",
@@ -2414,7 +2277,6 @@
     {
         "en_h":  "Pruritus",
         "en_l":  "Itching",
-        "abbr":  "",
         "f":  [
                   "Dermatology",
                   "Family Medicine",
@@ -2426,7 +2288,6 @@
     {
         "en_h":  "Cyanosis",
         "en_l":  "Blueness of the skin",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Cardiology",
@@ -2446,7 +2307,6 @@
     {
         "en_h":  "Pharynx",
         "en_l":  "Throat",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology",
@@ -2458,7 +2318,6 @@
     {
         "en_h":  "Larynx",
         "en_l":  "Voice box",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -2469,7 +2328,6 @@
     {
         "en_h":  "Trachea",
         "en_l":  "Windpipe",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Pulmonology",
@@ -2486,7 +2344,6 @@
     {
         "en_h":  "Esophagus",
         "en_l":  "Food pipe",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -2503,7 +2360,6 @@
     {
         "en_h":  "Duodenum",
         "en_l":  "First part of small intestine",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -2519,7 +2375,6 @@
     {
         "en_h":  "Jejunum",
         "en_l":  "Middle part of small intestine",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -2536,7 +2391,6 @@
     {
         "en_h":  "Ileum",
         "en_l":  "Last part of small intestine",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -2553,7 +2407,6 @@
     {
         "en_h":  "Pituitary gland",
         "en_l":  "Master hormone gland",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Endocrinology",
@@ -2573,7 +2426,6 @@
     {
         "en_h":  "Thymus",
         "en_l":  "T-cell training organ",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Immunology",
@@ -2642,7 +2494,6 @@
     {
         "en_h":  "Cholelithiasis",
         "en_l":  "Gallstones",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -2704,7 +2555,6 @@
     {
         "en_h":  "Endoscopy",
         "en_l":  "Scope test",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "General Medicine"
@@ -2723,7 +2573,6 @@
     {
         "en_h":  "Laparoscopy",
         "en_l":  "Keyhole surgery",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Obstetrics \u0026 Gynecology"
@@ -2754,7 +2603,6 @@
     {
         "en_h":  "Paracentesis",
         "en_l":  "Draining belly fluid",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine"
@@ -2773,7 +2621,6 @@
     {
         "en_h":  "Auscultation",
         "en_l":  "Listening with a stethoscope",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2784,7 +2631,6 @@
     {
         "en_h":  "Palpation",
         "en_l":  "Examining by touch",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Family Medicine"
@@ -2817,7 +2663,6 @@
     {
         "en_h":  "Cholecystitis",
         "en_l":  "Inflammation of the gallbladder",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -2854,7 +2699,6 @@
     {
         "en_h":  "Pancreatitis",
         "en_l":  "Inflammation of the pancreas",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine"
@@ -2873,7 +2717,6 @@
     {
         "en_h":  "Peritonitis",
         "en_l":  "Inflammation of the abdominal lining",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Surgery"
@@ -2892,7 +2735,6 @@
     {
         "en_h":  "Nephrolithiasis",
         "en_l":  "Kidney stones",
-        "abbr":  "",
         "f":  [
                   "Urology",
                   "Nephrology"
@@ -2995,7 +2837,6 @@
     {
         "en_h":  "Hydronephrosis",
         "en_l":  "Swollen kidney",
-        "abbr":  "",
         "f":  [
                   "Urology",
                   "Radiology",
@@ -3047,7 +2888,6 @@
     {
         "en_h":  "Tinnitus",
         "en_l":  "Ringing in ears",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology",
                   "Neurology"
@@ -3058,7 +2898,6 @@
     {
         "en_h":  "Epistaxis",
         "en_l":  "Nosebleed",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology",
                   "Emergency Medicine"
@@ -3074,7 +2913,6 @@
     {
         "en_h":  "Sinusitis",
         "en_l":  "Sinus infection",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology",
                   "Family Medicine"
@@ -3093,7 +2931,6 @@
     {
         "en_h":  "Strabismus",
         "en_l":  "Crossed eyes",
-        "abbr":  "",
         "f":  [
                   "Ophthalmology",
                   "Pediatrics"
@@ -3104,7 +2941,6 @@
     {
         "en_h":  "Cataract",
         "en_l":  "Clouding of the eye lens",
-        "abbr":  "",
         "f":  [
                   "Ophthalmology"
               ],
@@ -3119,7 +2955,6 @@
     {
         "en_h":  "Glaucoma",
         "en_l":  "Eye pressure buildup",
-        "abbr":  "",
         "f":  [
                   "Ophthalmology"
               ],
@@ -3137,7 +2972,6 @@
     {
         "en_h":  "Nystagmus",
         "en_l":  "Involuntary eye movement",
-        "abbr":  "",
         "f":  [
                   "Ophthalmology",
                   "Neurology",
@@ -3170,7 +3004,6 @@
     {
         "en_h":  "Erythema",
         "en_l":  "Skin redness",
-        "abbr":  "",
         "f":  [
                   "Dermatology",
                   "Family Medicine",
@@ -3187,7 +3020,6 @@
     {
         "en_h":  "Urticaria",
         "en_l":  "Hives",
-        "abbr":  "",
         "f":  [
                   "Dermatology",
                   "Immunology"
@@ -3198,7 +3030,6 @@
     {
         "en_h":  "Cellulitis",
         "en_l":  "Deep skin infection",
-        "abbr":  "",
         "f":  [
                   "Infectious Disease",
                   "Dermatology"
@@ -3214,7 +3045,6 @@
     {
         "en_h":  "Atopic dermatitis",
         "en_l":  "Eczema",
-        "abbr":  "",
         "f":  [
                   "Dermatology",
                   "Pediatrics",
@@ -3239,7 +3069,6 @@
     {
         "en_h":  "Psoriasis",
         "en_l":  "Scaly silver skin patches",
-        "abbr":  "",
         "f":  [
                   "Dermatology",
                   "Rheumatology",
@@ -3256,7 +3085,6 @@
     {
         "en_h":  "Paresthesia",
         "en_l":  "Pins and needles sensation",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Orthopedics"
@@ -3275,7 +3103,6 @@
     {
         "en_h":  "Sciatica",
         "en_l":  "Leg shooting pain from spine",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Neurology",
@@ -3287,7 +3114,6 @@
     {
         "en_h":  "Gout",
         "en_l":  "Uric acid arthritis",
-        "abbr":  "",
         "f":  [
                   "Rheumatology",
                   "Orthopedics"
@@ -3298,7 +3124,6 @@
     {
         "en_h":  "Kyphosis",
         "en_l":  "Hunchback",
-        "abbr":  "",
         "f":  [
                   "Orthopedics"
               ],
@@ -3316,7 +3141,6 @@
     {
         "en_h":  "Hyperthyroidism",
         "en_l":  "Overactive thyroid gland",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Internal Medicine"
@@ -3338,7 +3162,6 @@
     {
         "en_h":  "Cushing\u0027s syndrome",
         "en_l":  "Cortisol hormone excess",
-        "abbr":  "",
         "f":  [
                   "Endocrinology"
               ],
@@ -3387,7 +3210,6 @@
     {
         "en_h":  "Thrombocytopenia",
         "en_l":  "Low platelet count",
-        "abbr":  "",
         "f":  [
                   "Hematology",
                   "Oncology"
@@ -3407,7 +3229,6 @@
     {
         "en_h":  "Leukocytosis",
         "en_l":  "High white blood cell count",
-        "abbr":  "",
         "f":  [
                   "Hematology",
                   "Infectious Disease"
@@ -3493,7 +3314,6 @@
     {
         "en_h":  "Aortic dissection",
         "en_l":  "Torn tearing chest artery",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Cardiology",
@@ -3516,7 +3336,6 @@
     {
         "en_h":  "Cholecystectomy",
         "en_l":  "Gallbladder removal surgery",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Gastroenterology"
@@ -3553,7 +3372,6 @@
     {
         "en_h":  "Thoracentesis",
         "en_l":  "Draining lung fluid",
-        "abbr":  "",
         "f":  [
                   "Pulmonology",
                   "Radiology",
@@ -3573,7 +3391,6 @@
     {
         "en_h":  "Hysterectomy",
         "en_l":  "Womb removal surgery",
-        "abbr":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Surgery"
@@ -3592,7 +3409,6 @@
     {
         "en_h":  "Mammography",
         "en_l":  "Breast X-ray",
-        "abbr":  "",
         "f":  [
                   "Radiology",
                   "Oncology"
@@ -3611,7 +3427,6 @@
     {
         "en_h":  "Colonoscopy",
         "en_l":  "Large bowel scope test",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery",
@@ -3631,7 +3446,6 @@
     {
         "en_h":  "Atheroma",
         "en_l":  "Fatty plaque buildup in artery",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Pathology"
@@ -3650,7 +3464,6 @@
     {
         "en_h":  "Cardiomegaly",
         "en_l":  "Enlarged heart",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Radiology"
@@ -3669,7 +3482,6 @@
     {
         "en_h":  "Bradycardia",
         "en_l":  "Slow heart rate",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -3707,7 +3519,6 @@
     {
         "en_h":  "Orthostatic hypotension",
         "en_l":  "Dizzy when standing up",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Cardiology",
@@ -3731,7 +3542,6 @@
     {
         "en_h":  "Pericarditis",
         "en_l":  "Inflammation of the heart sac",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Internal Medicine"
@@ -3753,7 +3563,6 @@
     {
         "en_h":  "Endocarditis",
         "en_l":  "Heart valve infection",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Infectious Disease"
@@ -3775,7 +3584,6 @@
     {
         "en_h":  "Intermittent claudication",
         "en_l":  "Leg cramping during walking",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Surgery"
@@ -3786,7 +3594,6 @@
     {
         "en_h":  "Aneurysm",
         "en_l":  "Bulging blood vessel",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Surgery"
@@ -3801,8 +3608,7 @@
     },
     {
         "en_h":  "Atelectasis",
-        "en_l":  "Collapsed lung air sacs",
-        "abbr":  "",
+        "en_l":  "Collapsed lung",
         "f":  [
                   "Pulmonology",
                   "Anesthesiology",
@@ -3819,7 +3625,6 @@
     {
         "en_h":  "Bronchiectasis",
         "en_l":  "Damaged widened airways",
-        "abbr":  "",
         "f":  [
                   "Pulmonology"
               ],
@@ -3837,7 +3642,6 @@
     {
         "en_h":  "Pleural effusion",
         "en_l":  "Fluid around lungs",
-        "abbr":  "",
         "f":  [
                   "Pulmonology",
                   "Internal Medicine"
@@ -3856,7 +3660,6 @@
     {
         "en_h":  "Hemothorax",
         "en_l":  "Blood in the chest cavity",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Pulmonology",
@@ -3873,7 +3676,6 @@
     {
         "en_h":  "Empyema",
         "en_l":  "Pus around lungs",
-        "abbr":  "",
         "f":  [
                   "Pulmonology",
                   "Surgery",
@@ -3893,7 +3695,6 @@
     {
         "en_h":  "Hypercapnia",
         "en_l":  "Carbon dioxide buildup in blood",
-        "abbr":  "",
         "f":  [
                   "Pulmonology",
                   "Anesthesiology",
@@ -3913,7 +3714,6 @@
     {
         "en_h":  "Hypoxemia",
         "en_l":  "Low blood oxygen",
-        "abbr":  "",
         "f":  [
                   "Pulmonology",
                   "Anesthesiology",
@@ -3933,7 +3733,6 @@
     {
         "en_h":  "Stridor",
         "en_l":  "High-pitched breathing sound",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Pulmonology",
@@ -3965,7 +3764,6 @@
     {
         "en_h":  "Ascites",
         "en_l":  "Fluid accumulation in abdomen",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine"
@@ -3976,7 +3774,6 @@
     {
         "en_h":  "Cirrhosis",
         "en_l":  "Liver scarring",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine"
@@ -3992,7 +3789,6 @@
     {
         "en_h":  "Dysphagia",
         "en_l":  "Difficulty swallowing",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Gastroenterology",
@@ -4012,7 +3808,6 @@
     {
         "en_h":  "Diverticulitis",
         "en_l":  "Inflammation of bowel pockets",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -4028,7 +3823,6 @@
     {
         "en_h":  "Jaundice",
         "en_l":  "Yellowing of skin and eyes",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine",
@@ -4040,7 +3834,6 @@
     {
         "en_h":  "Intussusception",
         "en_l":  "Telescoping bowel",
-        "abbr":  "",
         "f":  [
                   "Pediatrics",
                   "Surgery"
@@ -4051,7 +3844,6 @@
     {
         "en_h":  "Volvulus",
         "en_l":  "Twisted bowel",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Gastroenterology"
@@ -4082,7 +3874,6 @@
     {
         "en_h":  "Gastroparesis",
         "en_l":  "Delayed stomach emptying",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Endocrinology"
@@ -4101,7 +3892,6 @@
     {
         "en_h":  "Hydrocephalus",
         "en_l":  "Water on the brain",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Surgery",
@@ -4119,7 +3909,6 @@
     {
         "en_h":  "Ataxia",
         "en_l":  "Loss of coordination",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
@@ -4138,7 +3927,6 @@
     {
         "en_h":  "Neuralgia",
         "en_l":  "Nerve pain",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Pharmacology"
@@ -4157,7 +3945,6 @@
     {
         "en_h":  "Dysarthria",
         "en_l":  "Slurred speech",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
@@ -4176,7 +3963,6 @@
     {
         "en_h":  "Encephalopathy",
         "en_l":  "Altered brain function",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Internal Medicine"
@@ -4195,7 +3981,6 @@
     {
         "en_h":  "Encephalitis",
         "en_l":  "Inflammation of brain tissue",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Infectious Disease"
@@ -4214,7 +3999,6 @@
     {
         "en_h":  "Proteinuria",
         "en_l":  "Protein in urine",
-        "abbr":  "",
         "f":  [
                   "Nephrology",
                   "Internal Medicine"
@@ -4230,7 +4014,6 @@
     {
         "en_h":  "Hematuria",
         "en_l":  "Blood in urine",
-        "abbr":  "",
         "f":  [
                   "Urology",
                   "Nephrology"
@@ -4249,7 +4032,6 @@
     {
         "en_h":  "Oliguria",
         "en_l":  "Low urine output",
-        "abbr":  "",
         "f":  [
                   "Critical Care",
                   "Nephrology",
@@ -4266,7 +4048,6 @@
     {
         "en_h":  "Anuria",
         "en_l":  "No urine output",
-        "abbr":  "",
         "f":  [
                   "Nephrology",
                   "Critical Care"
@@ -4306,7 +4087,6 @@
     {
         "en_h":  "Nephrotic syndrome",
         "en_l":  "Kidney leakage syndrome",
-        "abbr":  "",
         "f":  [
                   "Nephrology",
                   "Pediatrics"
@@ -4346,7 +4126,6 @@
     {
         "en_h":  "Cystitis",
         "en_l":  "Bladder infection",
-        "abbr":  "",
         "f":  [
                   "Family Medicine",
                   "Urology",
@@ -4366,7 +4145,6 @@
     {
         "en_h":  "Urinary incontinence",
         "en_l":  "Involuntary urine leaking",
-        "abbr":  "",
         "f":  [
                   "Urology",
                   "Obstetrics \u0026 Gynecology"
@@ -4385,7 +4163,6 @@
     {
         "en_h":  "Dysuria",
         "en_l":  "Painful urination",
-        "abbr":  "",
         "f":  [
                   "Family Medicine",
                   "Urology",
@@ -4405,7 +4182,6 @@
     {
         "en_h":  "Hyperglycemia",
         "en_l":  "High blood sugar",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Internal Medicine"
@@ -4427,7 +4203,6 @@
     {
         "en_h":  "Hypoglycemia",
         "en_l":  "Low blood sugar",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Endocrinology"
@@ -4471,7 +4246,6 @@
     {
         "en_h":  "Gynecomastia",
         "en_l":  "Male breast development",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Surgery"
@@ -4491,7 +4265,6 @@
     {
         "en_h":  "Acromegaly",
         "en_l":  "Gigantism hormone disorder",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Surgery"
@@ -4510,7 +4283,6 @@
     {
         "en_h":  "Galactorrhea",
         "en_l":  "Abnormal breast milk secretion",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Obstetrics \u0026 Gynecology"
@@ -4526,7 +4298,6 @@
     {
         "en_h":  "Hirsutism",
         "en_l":  "Excessive male-pattern hair growth in women",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Dermatology",
@@ -4543,7 +4314,6 @@
     {
         "en_h":  "Hyperparathyroidism",
         "en_l":  "Calcium-leaching hormone disorder",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Surgery"
@@ -4566,7 +4336,6 @@
     {
         "en_h":  "Pheochromocytoma",
         "en_l":  "Adrenal tumor causing high blood pressure spike",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Urology",
@@ -4587,7 +4356,6 @@
     {
         "en_h":  "Metabolic syndrome",
         "en_l":  "Insulin resistance syndrome",
-        "abbr":  "",
         "f":  [
                   "Family Medicine",
                   "Cardiology",
@@ -4607,7 +4375,6 @@
     {
         "en_h":  "Pancytopenia",
         "en_l":  "Red, white, and platelet cell drop",
-        "abbr":  "",
         "f":  [
                   "Hematology",
                   "Oncology"
@@ -4629,7 +4396,6 @@
     {
         "en_h":  "Neutropenia",
         "en_l":  "Low infection-fighting cells",
-        "abbr":  "",
         "f":  [
                   "Hematology",
                   "Oncology",
@@ -4670,7 +4436,6 @@
     {
         "en_h":  "Splenomegaly",
         "en_l":  "Enlarged spleen",
-        "abbr":  "",
         "f":  [
                   "Hematology",
                   "Gastroenterology",
@@ -4730,7 +4495,6 @@
     {
         "en_h":  "Sarcoma",
         "en_l":  "Bone or muscle cancer",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "Orthopedics",
@@ -4750,7 +4514,6 @@
     {
         "en_h":  "Immunotherapy",
         "en_l":  "Target body\u0027s immune system to fight cancer",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "Immunology"
@@ -4769,7 +4532,6 @@
     {
         "en_h":  "Adjuvant therapy",
         "en_l":  "Post-surgery preventive therapy",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "Surgery"
@@ -4780,7 +4542,6 @@
     {
         "en_h":  "Neoadjuvant therapy",
         "en_l":  "Pre-surgery shrink treatment",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "Surgery"
@@ -4799,7 +4560,6 @@
     {
         "en_h":  "Amenorrhea",
         "en_l":  "Absence of menstruation",
-        "abbr":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Endocrinology"
@@ -4821,7 +4581,6 @@
     {
         "en_h":  "Dysmenorrhea",
         "en_l":  "Menstrual cramps",
-        "abbr":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Family Medicine"
@@ -4843,7 +4602,6 @@
     {
         "en_h":  "Uterine leiomyoma",
         "en_l":  "Fibroids in womb",
-        "abbr":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Surgery"
@@ -4864,7 +4622,6 @@
     {
         "en_h":  "Abruptio placentae",
         "en_l":  "Placenta separating early",
-        "abbr":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Emergency Medicine"
@@ -4898,7 +4655,6 @@
     {
         "en_h":  "Anaphylaxis",
         "en_l":  "Severe systemic allergic shock",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Immunology"
@@ -4914,7 +4670,6 @@
     {
         "en_h":  "Idiopathic",
         "en_l":  "Of unknown cause",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Pathology"
@@ -4934,7 +4689,6 @@
     {
         "en_h":  "Iatrogenic",
         "en_l":  "Caused by medical treatment",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Pathology"
@@ -4953,7 +4707,6 @@
     {
         "en_h":  "Hypertrophy",
         "en_l":  "Increase in cell size",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Pathology"
@@ -4972,7 +4725,6 @@
     {
         "en_h":  "Hyperplasia",
         "en_l":  "Increase in cell count",
-        "abbr":  "",
         "f":  [
                   "Pathology",
                   "Urology",
@@ -4992,7 +4744,6 @@
     {
         "en_h":  "Sepsis",
         "en_l":  "Severe blood infection",
-        "abbr":  "",
         "f":  [
                   "Infectious Disease",
                   "Critical Care",
@@ -5009,7 +4760,6 @@
     {
         "en_h":  "Agnosia",
         "en_l":  "Inability to recognize objects or faces",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Psychiatry"
@@ -5031,7 +4781,6 @@
     {
         "en_h":  "Anosognosia",
         "en_l":  "Lack of awareness of one\u0027s own illness",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Psychiatry"
@@ -5053,7 +4802,6 @@
     {
         "en_h":  "Catatonia",
         "en_l":  "Abnormal movement and responsiveness",
-        "abbr":  "",
         "f":  [
                   "Psychiatry",
                   "Neurology"
@@ -5075,7 +4823,6 @@
     {
         "en_h":  "Akathisia",
         "en_l":  "Inability to sit still",
-        "abbr":  "",
         "f":  [
                   "Psychiatry",
                   "Neurology",
@@ -5115,7 +4862,6 @@
     {
         "en_h":  "Photophobia",
         "en_l":  "Extreme sensitivity to light",
-        "abbr":  "",
         "f":  [
                   "Ophthalmology",
                   "Neurology"
@@ -5134,7 +4880,6 @@
     {
         "en_h":  "Presbycusis",
         "en_l":  "Age-related hearing loss",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology"
               ],
@@ -5149,7 +4894,6 @@
     {
         "en_h":  "Diplopia",
         "en_l":  "Double vision",
-        "abbr":  "",
         "f":  [
                   "Ophthalmology",
                   "Neurology"
@@ -5209,7 +4953,6 @@
     {
         "en_h":  "Sarcopenia",
         "en_l":  "Age-related muscle loss",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Orthopedics"
@@ -5228,7 +4971,6 @@
     {
         "en_h":  "Myalgia",
         "en_l":  "Muscle pain",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Rheumatology",
@@ -5248,7 +4990,6 @@
     {
         "en_h":  "Scoliosis",
         "en_l":  "Curved spine",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Pediatrics"
@@ -5290,7 +5031,6 @@
     {
         "en_h":  "Tenosynovitis",
         "en_l":  "Inflammation of tendon sheath",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Rheumatology"
@@ -5310,7 +5050,6 @@
     {
         "en_h":  "Alopecia",
         "en_l":  "Hair loss",
-        "abbr":  "",
         "f":  [
                   "Dermatology",
                   "Endocrinology"
@@ -5321,7 +5060,6 @@
     {
         "en_h":  "Petechiae",
         "en_l":  "Tiny purple or red skin spots",
-        "abbr":  "",
         "f":  [
                   "Dermatology",
                   "Hematology",
@@ -5333,7 +5071,6 @@
     {
         "en_h":  "Purpura",
         "en_l":  "Purple skin blotches from internal bleeding",
-        "abbr":  "",
         "f":  [
                   "Hematology",
                   "Dermatology",
@@ -5345,7 +5082,6 @@
     {
         "en_h":  "Ecchymosis",
         "en_l":  "Large bruise",
-        "abbr":  "",
         "f":  [
                   "Dermatology",
                   "Orthopedics"
@@ -5382,7 +5118,6 @@
     {
         "en_h":  "Ovarian torsion",
         "en_l":  "Twisted ovary",
-        "abbr":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Emergency Medicine"
@@ -5444,7 +5179,6 @@
     {
         "en_h":  "Raynaud\u0027s phenomenon",
         "en_l":  "White fingers from cold or stress",
-        "abbr":  "",
         "f":  [
                   "Rheumatology",
                   "Cardiology"
@@ -5455,7 +5189,6 @@
     {
         "en_h":  "Lymphedema",
         "en_l":  "Swelling caused by fluid buildup",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "Surgery",
@@ -5475,7 +5208,6 @@
     {
         "en_h":  "Cardiac tamponade",
         "en_l":  "Fluid compression around heart",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine",
@@ -5495,7 +5227,6 @@
     {
         "en_h":  "Choledocholithiasis",
         "en_l":  "Stones in the main bile duct",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -5515,7 +5246,6 @@
     {
         "en_h":  "Cholangitis",
         "en_l":  "Bile duct infection",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery",
@@ -5577,7 +5307,6 @@
     {
         "en_h":  "Ileus",
         "en_l":  "Lack of bowel movement",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -5593,7 +5322,6 @@
     {
         "en_h":  "Orthopnea",
         "en_l":  "Breathing difficulty when lying flat",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Pulmonology"
@@ -5648,7 +5376,6 @@
     {
         "en_h":  "Prodrome",
         "en_l":  "Early warning signs before illness",
-        "abbr":  "",
         "f":  [
                   "Infectious Disease",
                   "Neurology",
@@ -5665,7 +5392,6 @@
     {
         "en_h":  "Sequela",
         "en_l":  "Conditions left behind after a disease",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Rehabilitation Medicine",
@@ -5677,7 +5403,6 @@
     {
         "en_h":  "Cachexia",
         "en_l":  "Severe wasting from advanced disease",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "Internal Medicine"
@@ -5688,7 +5413,6 @@
     {
         "en_h":  "Septic shock",
         "en_l":  "Dangerously low blood pressure from blood infection",
-        "abbr":  "",
         "f":  [
                   "Critical Care",
                   "Emergency Medicine",
@@ -5705,7 +5429,6 @@
     {
         "en_h":  "Hyperkalemia",
         "en_l":  "High potassium in blood",
-        "abbr":  "",
         "f":  [
                   "Nephrology",
                   "Emergency Medicine",
@@ -5728,7 +5451,6 @@
     {
         "en_h":  "Tracheostomy",
         "en_l":  "Neck breathing hole operation",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology",
                   "Surgery",
@@ -5748,7 +5470,6 @@
     {
         "en_h":  "Diaphragm",
         "en_l":  "Belly breathing muscle",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Pulmonology"
@@ -5763,8 +5484,7 @@
     },
     {
         "en_h":  "Bronchus",
-        "en_l":  "Main airway branches",
-        "abbr":  "",
+        "en_l":  "Bronchial tube",
         "f":  [
                   "Anatomy",
                   "Pulmonology"
@@ -5780,7 +5500,6 @@
     {
         "en_h":  "Alveolus",
         "en_l":  "Air sacs",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Pulmonology"
@@ -5791,7 +5510,6 @@
     {
         "en_h":  "Pleura",
         "en_l":  "Lung lining",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Pulmonology",
@@ -5808,7 +5526,6 @@
     {
         "en_h":  "Epiglottis",
         "en_l":  "Flap over windpipe",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -5827,7 +5544,6 @@
     {
         "en_h":  "Myocardium",
         "en_l":  "Heart muscle wall",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -5847,7 +5563,6 @@
     {
         "en_h":  "Pericardium",
         "en_l":  "Heart sac",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology",
@@ -5870,7 +5585,6 @@
     {
         "en_h":  "Atrium",
         "en_l":  "Upper heart chamber",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -5886,7 +5600,6 @@
     {
         "en_h":  "Ventricle",
         "en_l":  "Lower heart pump",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -5897,7 +5610,6 @@
     {
         "en_h":  "Aorta",
         "en_l":  "Main body artery",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology",
@@ -5914,7 +5626,6 @@
     {
         "en_h":  "Vena cava",
         "en_l":  "Main body vein",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology",
@@ -5931,7 +5642,6 @@
     {
         "en_h":  "Pylorus",
         "en_l":  "Stomach exit",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -5947,7 +5657,6 @@
     {
         "en_h":  "Cecum",
         "en_l":  "Pouch at start of large intestine",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -5964,7 +5673,6 @@
     {
         "en_h":  "Appendix",
         "en_l":  "Appendix pouch",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -5981,7 +5689,6 @@
     {
         "en_h":  "Colon",
         "en_l":  "Large bowel",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -5998,7 +5705,6 @@
     {
         "en_h":  "Rectum",
         "en_l":  "Stool storage before anus",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology",
@@ -6014,7 +5720,6 @@
     },
     {
         "en_h":  "Pancreas",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Endocrinology",
@@ -6026,7 +5731,6 @@
     {
         "en_h":  "Nephron",
         "en_l":  "Kidney filtering unit",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Nephrology"
@@ -6042,7 +5746,6 @@
     {
         "en_h":  "Glomerulus",
         "en_l":  "Blood vessel sieve",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Nephrology",
@@ -6059,7 +5762,6 @@
     {
         "en_h":  "Ureter",
         "en_l":  "Kidney-to-bladder tube",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Urology"
@@ -6075,7 +5777,6 @@
     {
         "en_h":  "Urethra",
         "en_l":  "Urine exit tube",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Urology"
@@ -6091,7 +5792,6 @@
     {
         "en_h":  "Cerebrum",
         "en_l":  "Main big brain",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6108,7 +5808,6 @@
     {
         "en_h":  "Cerebellum",
         "en_l":  "Balance brain",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6125,7 +5824,6 @@
     {
         "en_h":  "Brainstem",
         "en_l":  "Life support brain core",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6137,7 +5835,6 @@
     {
         "en_h":  "Meninges",
         "en_l":  "Brain protective layers",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6154,7 +5851,6 @@
     {
         "en_h":  "Hippocampus",
         "en_l":  "Memory center",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6166,7 +5862,6 @@
     {
         "en_h":  "Spinal cord",
         "en_l":  "Main back nerve cord",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology",
@@ -6186,7 +5881,6 @@
     {
         "en_h":  "Clavicle",
         "en_l":  "Collarbone",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6197,7 +5891,6 @@
     {
         "en_h":  "Scapula",
         "en_l":  "Shoulder blade",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6208,7 +5901,6 @@
     {
         "en_h":  "Sternum",
         "en_l":  "Breastbone",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Surgery",
@@ -6225,7 +5917,6 @@
     {
         "en_h":  "Femur",
         "en_l":  "Thigh bone",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6236,7 +5927,6 @@
     {
         "en_h":  "Patella",
         "en_l":  "Kneecap",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6275,7 +5965,6 @@
     {
         "en_h":  "Ligament",
         "en_l":  "Bone-to-bone cord",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6286,7 +5975,6 @@
     {
         "en_h":  "Tendon",
         "en_l":  "Muscle-to-bone cord",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -6302,7 +5990,6 @@
     {
         "en_h":  "Epidermis",
         "en_l":  "Outer skin layer",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Dermatology",
@@ -6322,7 +6009,6 @@
     {
         "en_h":  "Dermis",
         "en_l":  "Deep skin layer",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Dermatology"
@@ -6338,7 +6024,6 @@
     {
         "en_h":  "Cornea",
         "en_l":  "Clear eye window",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Ophthalmology"
@@ -6354,7 +6039,6 @@
     {
         "en_h":  "Retina",
         "en_l":  "Eye screen lining",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Ophthalmology"
@@ -6370,7 +6054,6 @@
     {
         "en_h":  "Cochlea",
         "en_l":  "Hearing canal shell",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -6403,7 +6086,6 @@
     {
         "en_h":  "Thyroid gland",
         "en_l":  "Thyroid",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Endocrinology",
@@ -6420,7 +6102,6 @@
     {
         "en_h":  "Uterus",
         "en_l":  "Womb",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Obstetrics \u0026 Gynecology"
@@ -6436,7 +6117,6 @@
     {
         "en_h":  "Prostate gland",
         "en_l":  "Prostate",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Urology"
@@ -6464,7 +6144,6 @@
     {
         "en_h":  "Vascular Surgery",
         "en_l":  "Blood vessel surgery",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "General Medicine"
@@ -6483,7 +6162,6 @@
     {
         "en_h":  "Colorectal Surgery",
         "en_l":  "Colon and rectal surgery",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "General Medicine"
@@ -6503,7 +6181,6 @@
     {
         "en_h":  "Immunology",
         "en_l":  "Immune system medicine",
-        "abbr":  "",
         "f":  [
                   "Immunology",
                   "General Medicine"
@@ -6544,7 +6221,6 @@
     {
         "en_h":  "Local anesthesia",
         "en_l":  "Numbing injection",
-        "abbr":  "",
         "f":  [
                   "Anesthesiology",
                   "Surgery"
@@ -6566,7 +6242,6 @@
     {
         "en_h":  "Sedation",
         "en_l":  "Calming medication",
-        "abbr":  "",
         "f":  [
                   "Anesthesiology",
                   "Critical Care",
@@ -6578,7 +6253,6 @@
     {
         "en_h":  "Epidural",
         "en_l":  "Epidural injection",
-        "abbr":  "",
         "f":  [
                   "Anesthesiology",
                   "Obstetrics \u0026 Gynecology"
@@ -6600,7 +6274,6 @@
     {
         "en_h":  "Renal pelvis",
         "en_l":  "Kidney funnel",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Nephrology",
@@ -6621,7 +6294,6 @@
     {
         "en_h":  "Nerve block",
         "en_l":  "Numbing a nerve",
-        "abbr":  "",
         "f":  [
                   "Anesthesiology",
                   "Surgery"
@@ -6632,7 +6304,6 @@
     {
         "en_h":  "Conscious sedation",
         "en_l":  "Light sedation",
-        "abbr":  "",
         "f":  [
                   "Anesthesiology",
                   "Emergency Medicine"
@@ -6643,7 +6314,6 @@
     {
         "en_h":  "Spinal anesthesia",
         "en_l":  "Spinal block",
-        "abbr":  "",
         "f":  [
                   "Anesthesiology",
                   "Surgery"
@@ -6682,8 +6352,6 @@
     },
     {
         "en_h":  "X-ray",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Radiology",
                   "General Medicine"
@@ -6694,7 +6362,6 @@
     {
         "en_h":  "Contrast agent",
         "en_l":  "Dye for scans",
-        "abbr":  "",
         "f":  [
                   "Radiology"
               ],
@@ -6770,7 +6437,6 @@
     {
         "en_h":  "Chemotherapy",
         "en_l":  "Chemo",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "General Medicine"
@@ -6788,8 +6454,6 @@
     },
     {
         "en_h":  "Heart",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -6800,7 +6464,6 @@
     {
         "en_h":  "Coronary artery",
         "en_l":  "Heart artery",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -6815,8 +6478,6 @@
     },
     {
         "en_h":  "Heart valve",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -6826,8 +6487,6 @@
     },
     {
         "en_h":  "Capillary",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "General Medicine"
@@ -6837,8 +6496,6 @@
     },
     {
         "en_h":  "Lung",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Pulmonology"
@@ -6849,7 +6506,6 @@
     {
         "en_h":  "Nasal cavity",
         "en_l":  "Inside of the nose",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -6865,7 +6521,6 @@
     {
         "en_h":  "Paranasal sinuses",
         "en_l":  "Sinuses",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -6884,8 +6539,6 @@
     },
     {
         "en_h":  "Stomach",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -6895,8 +6548,6 @@
     },
     {
         "en_h":  "Liver",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -6906,8 +6557,6 @@
     },
     {
         "en_h":  "Small intestine",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -6922,8 +6571,6 @@
     },
     {
         "en_h":  "Large intestine",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -6938,8 +6585,6 @@
     },
     {
         "en_h":  "Sigmoid colon",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Gastroenterology"
@@ -6955,8 +6600,6 @@
     },
     {
         "en_h":  "Kidney",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Nephrology"
@@ -6967,7 +6610,6 @@
     {
         "en_h":  "Urinary bladder",
         "en_l":  "Bladder",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Urology"
@@ -6977,8 +6619,6 @@
     },
     {
         "en_h":  "Brain",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -6988,8 +6628,6 @@
     },
     {
         "en_h":  "Nerve",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -7000,7 +6638,6 @@
     {
         "en_h":  "Neuron",
         "en_l":  "Nerve cell",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -7015,8 +6652,6 @@
     },
     {
         "en_h":  "Bone",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7026,8 +6661,6 @@
     },
     {
         "en_h":  "Muscle",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7037,8 +6670,6 @@
     },
     {
         "en_h":  "Cartilage",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7049,7 +6680,6 @@
     {
         "en_h":  "Humerus",
         "en_l":  "Upper arm bone",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7060,7 +6690,6 @@
     {
         "en_h":  "Tibia",
         "en_l":  "Shin bone",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7071,7 +6700,6 @@
     {
         "en_h":  "Vertebra",
         "en_l":  "Spinal bone",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7086,8 +6714,6 @@
     },
     {
         "en_h":  "Adrenal gland",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Endocrinology"
@@ -7103,8 +6729,6 @@
     },
     {
         "en_h":  "Spleen",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Hematology"
@@ -7114,8 +6738,6 @@
     },
     {
         "en_h":  "Ovary",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Obstetrics \u0026 Gynecology"
@@ -7126,7 +6748,6 @@
     {
         "en_h":  "Cervix",
         "en_l":  "Neck of the womb",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Obstetrics \u0026 Gynecology"
@@ -7136,8 +6757,6 @@
     },
     {
         "en_h":  "Testicle",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Urology"
@@ -7147,8 +6766,6 @@
     },
     {
         "en_h":  "Iris",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Ophthalmology"
@@ -7159,7 +6776,6 @@
     {
         "en_h":  "Lens",
         "en_l":  "Eye lens",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Ophthalmology"
@@ -7170,7 +6786,6 @@
     {
         "en_h":  "Tympanic membrane",
         "en_l":  "Eardrum",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -7186,7 +6801,6 @@
     {
         "en_h":  "Abdomen",
         "en_l":  "Belly",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "General Medicine"
@@ -7197,7 +6811,6 @@
     {
         "en_h":  "Abduction",
         "en_l":  "Moving limb away from body",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics",
@@ -7217,7 +6830,6 @@
     {
         "en_h":  "Adduction",
         "en_l":  "Moving limb toward body",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics",
@@ -7237,7 +6849,6 @@
     {
         "en_h":  "Adenocarcinoma",
         "en_l":  "Glandular cancer",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "Pathology"
@@ -7257,7 +6868,6 @@
     {
         "en_h":  "Adipose tissue",
         "en_l":  "Body fat tissue",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "General Medicine"
@@ -7272,8 +6882,6 @@
     },
     {
         "en_h":  "Ambidextrous",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -7288,7 +6896,6 @@
     {
         "en_h":  "Amniotomy",
         "en_l":  "Breaking the water",
-        "abbr":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology"
               ],
@@ -7306,7 +6913,6 @@
     {
         "en_h":  "Androgen",
         "en_l":  "Male hormone",
-        "abbr":  "",
         "f":  [
                   "Endocrinology"
               ],
@@ -7324,7 +6930,6 @@
     {
         "en_h":  "Angiography",
         "en_l":  "Blood vessel imaging",
-        "abbr":  "",
         "f":  [
                   "Radiology",
                   "Cardiology"
@@ -7343,7 +6948,6 @@
     {
         "en_h":  "Anoxia",
         "en_l":  "Absence of oxygen",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Critical Care"
@@ -7361,8 +6965,6 @@
     },
     {
         "en_h":  "Antibiotic",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Pharmacology",
                   "Infectious Disease"
@@ -7384,7 +6986,6 @@
     {
         "en_h":  "Arteriosclerosis",
         "en_l":  "Artery hardening",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Internal Medicine"
@@ -7403,7 +7004,6 @@
     {
         "en_h":  "Brachial arteritis",
         "en_l":  "Brachial artery inflammation",
-        "abbr":  "",
         "f":  [
                   "Vascular Surgery",
                   "Rheumatology"
@@ -7424,7 +7024,6 @@
     {
         "en_h":  "Arthritis",
         "en_l":  "Joint inflammation",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Rheumatology"
@@ -7443,7 +7042,6 @@
     {
         "en_h":  "Arthrocentesis",
         "en_l":  "Joint fluid tap",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Rheumatology"
@@ -7462,7 +7060,6 @@
     {
         "en_h":  "Arthroscope",
         "en_l":  "Joint camera",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Surgery"
@@ -7481,7 +7078,6 @@
     {
         "en_h":  "Arthroscopy",
         "en_l":  "Joint examination",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Surgery"
@@ -7500,7 +7096,6 @@
     {
         "en_h":  "Axillary vein",
         "en_l":  "Armpit vein",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Vascular Surgery"
@@ -7519,7 +7114,6 @@
     {
         "en_h":  "Bactericide",
         "en_l":  "Bacteria-killing agent",
-        "abbr":  "",
         "f":  [
                   "Pharmacology",
                   "Infectious Disease"
@@ -7538,7 +7132,6 @@
     {
         "en_h":  "Biceps",
         "en_l":  "Front upper arm muscle",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7554,7 +7147,6 @@
     {
         "en_h":  "Blepharospasm",
         "en_l":  "Eyelid spasm",
-        "abbr":  "",
         "f":  [
                   "Ophthalmology",
                   "Neurology"
@@ -7573,7 +7165,6 @@
     {
         "en_h":  "Brachycephaly",
         "en_l":  "Short rounded skull",
-        "abbr":  "",
         "f":  [
                   "Pediatrics",
                   "Neurology"
@@ -7592,7 +7183,6 @@
     {
         "en_h":  "Bradypnea",
         "en_l":  "Slow breathing",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Pulmonology"
@@ -7610,8 +7200,6 @@
     },
     {
         "en_h":  "Bronchitis",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Pulmonology",
                   "Family Medicine"
@@ -7630,7 +7218,6 @@
     {
         "en_h":  "Buccinator",
         "en_l":  "Cheek muscle",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -7646,7 +7233,6 @@
     {
         "en_h":  "Cardiogenic",
         "en_l":  "Heart-caused",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -7665,7 +7251,6 @@
     {
         "en_h":  "Carpal",
         "en_l":  "Of the wrist bones",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -7684,7 +7269,6 @@
     {
         "en_h":  "Carpal tunnel",
         "en_l":  "Wrist nerve channel",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Neurology"
@@ -7703,7 +7287,6 @@
     {
         "en_h":  "Cephalgia",
         "en_l":  "Headache",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "General Medicine"
@@ -7722,7 +7305,6 @@
     {
         "en_h":  "Cephalocaudal",
         "en_l":  "Head to tail direction",
-        "abbr":  "",
         "f":  [
                   "Anatomy"
               ],
@@ -7740,8 +7322,6 @@
     },
     {
         "en_h":  "Cerebellopontine",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -7781,7 +7361,6 @@
     {
         "en_h":  "Chondroblast",
         "en_l":  "Cartilage-forming cell",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Pathology"
@@ -7797,8 +7376,6 @@
     },
     {
         "en_h":  "Chromosome",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Pathology",
                   "General Medicine"
@@ -7814,7 +7391,6 @@
     {
         "en_h":  "Colostomy",
         "en_l":  "Bowel diversion surgery",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Gastroenterology"
@@ -7833,7 +7409,6 @@
     {
         "en_h":  "Colovesical fistula",
         "en_l":  "Bowel-bladder connection",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Urology"
@@ -7850,7 +7425,6 @@
     {
         "en_h":  "Contralateral",
         "en_l":  "Opposite side",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Neurology"
@@ -7872,7 +7446,6 @@
     {
         "en_h":  "Costochondritis",
         "en_l":  "Rib cartilage inflammation",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Emergency Medicine"
@@ -7892,7 +7465,6 @@
     {
         "en_h":  "Craniotomy",
         "en_l":  "Skull surgery",
-        "abbr":  "",
         "f":  [
                   "Neurosurgery"
               ],
@@ -7910,7 +7482,6 @@
     {
         "en_h":  "Cystoscope",
         "en_l":  "Bladder camera",
-        "abbr":  "",
         "f":  [
                   "Urology"
               ],
@@ -7928,7 +7499,6 @@
     {
         "en_h":  "Cytotoxic",
         "en_l":  "Cell-killing",
-        "abbr":  "",
         "f":  [
                   "Pharmacology",
                   "Oncology"
@@ -7946,8 +7516,6 @@
     },
     {
         "en_h":  "Duodenography",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Radiology",
                   "Gastroenterology"
@@ -7966,7 +7534,6 @@
     {
         "en_h":  "Edentulous",
         "en_l":  "Toothless",
-        "abbr":  "",
         "f":  [
                   "Dentistry"
               ],
@@ -7981,7 +7548,6 @@
     {
         "en_h":  "Electrocardiograph",
         "en_l":  "ECG machine",
-        "abbr":  "",
         "f":  [
                   "Cardiology"
               ],
@@ -8000,7 +7566,6 @@
     {
         "en_h":  "Electrocardiography",
         "en_l":  "ECG recording process",
-        "abbr":  "",
         "f":  [
                   "Cardiology"
               ],
@@ -8019,7 +7584,6 @@
     {
         "en_h":  "Endocardium",
         "en_l":  "Heart inner lining",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Cardiology"
@@ -8041,7 +7605,6 @@
     {
         "en_h":  "Endoscope",
         "en_l":  "Scope instrument",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Surgery"
@@ -8060,7 +7623,6 @@
     {
         "en_h":  "Enterocolitis",
         "en_l":  "Bowel inflammation",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Pediatrics"
@@ -8097,7 +7659,6 @@
     {
         "en_h":  "Estrogen",
         "en_l":  "Female hormone",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Obstetrics \u0026 Gynecology"
@@ -8116,7 +7677,6 @@
     {
         "en_h":  "Flexor digitorum",
         "en_l":  "Finger flexor muscle",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -8131,8 +7691,6 @@
     },
     {
         "en_h":  "Frontoparietal",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -8151,8 +7709,6 @@
     },
     {
         "en_h":  "Gastritis",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Family Medicine"
@@ -8171,7 +7727,6 @@
     {
         "en_h":  "Gastrocele",
         "en_l":  "Stomach hernia",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Surgery"
@@ -8190,7 +7745,6 @@
     {
         "en_h":  "Genu valgum",
         "en_l":  "Knock-knees",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Pediatrics"
@@ -8201,7 +7755,6 @@
     {
         "en_h":  "Genu varum",
         "en_l":  "Bow-legs",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Pediatrics"
@@ -8228,7 +7781,6 @@
     {
         "en_h":  "Glucometer",
         "en_l":  "Blood sugar meter",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Endocrinology"
@@ -8247,7 +7799,6 @@
     {
         "en_h":  "Glycolysis",
         "en_l":  "Sugar breakdown",
-        "abbr":  "",
         "f":  [
                   "Pathology",
                   "General Medicine"
@@ -8266,7 +7817,6 @@
     {
         "en_h":  "Hemigastrectomy",
         "en_l":  "Partial stomach removal",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Gastroenterology"
@@ -8288,7 +7838,6 @@
     {
         "en_h":  "Hemiparesis",
         "en_l":  "One-sided weakness",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
@@ -8307,7 +7856,6 @@
     {
         "en_h":  "Hemiplegia",
         "en_l":  "One-sided paralysis",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
@@ -8326,7 +7874,6 @@
     {
         "en_h":  "Hemostasis",
         "en_l":  "Stopping bleeding",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Emergency Medicine"
@@ -8345,7 +7892,6 @@
     {
         "en_h":  "Hepatomegaly",
         "en_l":  "Enlarged liver",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology",
                   "Internal Medicine"
@@ -8364,7 +7910,6 @@
     {
         "en_h":  "Hidradenitis",
         "en_l":  "Sweat gland inflammation",
-        "abbr":  "",
         "f":  [
                   "Dermatology"
               ],
@@ -8383,7 +7928,6 @@
     {
         "en_h":  "Intestinal obstruction",
         "en_l":  "Bowel blockage",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Emergency Medicine"
@@ -8402,7 +7946,6 @@
     {
         "en_h":  "Ipsilateral",
         "en_l":  "Same side",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Neurology"
@@ -8424,7 +7967,6 @@
     {
         "en_h":  "Labiodental",
         "en_l":  "Lip and tooth sound",
-        "abbr":  "",
         "f":  [
                   "Anatomy"
               ],
@@ -8440,7 +7982,6 @@
     {
         "en_h":  "Lacrimal gland",
         "en_l":  "Tear gland",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Ophthalmology"
@@ -8456,7 +7997,6 @@
     {
         "en_h":  "Laparotomy",
         "en_l":  "Open abdominal surgery",
-        "abbr":  "",
         "f":  [
                   "Surgery"
               ],
@@ -8474,7 +8014,6 @@
     {
         "en_h":  "Laryngospasm",
         "en_l":  "Voice box spasm",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Otolaryngology"
@@ -8526,7 +8065,6 @@
     {
         "en_h":  "Linguogingival",
         "en_l":  "Tongue and gum",
-        "abbr":  "",
         "f":  [
                   "Anatomy"
               ],
@@ -8545,7 +8083,6 @@
     {
         "en_h":  "Lithotripsy",
         "en_l":  "Stone crushing",
-        "abbr":  "",
         "f":  [
                   "Urology",
                   "Surgery"
@@ -8564,7 +8101,6 @@
     {
         "en_h":  "Macroglossia",
         "en_l":  "Enlarged tongue",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology",
                   "Pathology"
@@ -8586,7 +8122,6 @@
     {
         "en_h":  "Malnutrition",
         "en_l":  "Poor nutrition",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Pediatrics"
@@ -8602,7 +8137,6 @@
     {
         "en_h":  "Melanoma",
         "en_l":  "Skin cancer",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "Dermatology"
@@ -8621,7 +8155,6 @@
     {
         "en_h":  "Meniscus",
         "en_l":  "Knee cartilage",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -8631,8 +8164,6 @@
     },
     {
         "en_h":  "Metabolism",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Endocrinology"
@@ -8651,7 +8182,6 @@
     {
         "en_h":  "Metacarpal",
         "en_l":  "Hand bones",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -8673,7 +8203,6 @@
     {
         "en_h":  "Mucositis",
         "en_l":  "Mouth sore inflammation",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "Gastroenterology"
@@ -8711,7 +8240,6 @@
     {
         "en_h":  "Mycology",
         "en_l":  "Study of fungi",
-        "abbr":  "",
         "f":  [
                   "Infectious Disease",
                   "Pathology"
@@ -8730,7 +8258,6 @@
     {
         "en_h":  "Myeloblast",
         "en_l":  "Bone marrow stem cell",
-        "abbr":  "",
         "f":  [
                   "Hematology",
                   "Pathology"
@@ -8747,7 +8274,6 @@
     {
         "en_h":  "Myelogram",
         "en_l":  "Spinal cord image",
-        "abbr":  "",
         "f":  [
                   "Radiology",
                   "Neurology"
@@ -8766,7 +8292,6 @@
     {
         "en_h":  "Myeloma",
         "en_l":  "Bone marrow cancer",
-        "abbr":  "",
         "f":  [
                   "Hematology",
                   "Oncology"
@@ -8785,7 +8310,6 @@
     {
         "en_h":  "Myringomycosis",
         "en_l":  "Fungal eardrum infection",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology"
               ],
@@ -8804,7 +8328,6 @@
     {
         "en_h":  "Nasopharynx",
         "en_l":  "Nose throat",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -8820,7 +8343,6 @@
     {
         "en_h":  "Neonatal",
         "en_l":  "Of the newborn",
-        "abbr":  "",
         "f":  [
                   "Pediatrics"
               ],
@@ -8841,7 +8363,6 @@
     {
         "en_h":  "Nephrectomy",
         "en_l":  "Kidney removal",
-        "abbr":  "",
         "f":  [
                   "Urology",
                   "Surgery"
@@ -8860,7 +8381,6 @@
     {
         "en_h":  "Neurogenesis",
         "en_l":  "New nerve growth",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Pathology"
@@ -8879,7 +8399,6 @@
     {
         "en_h":  "Normotensive",
         "en_l":  "Normal blood pressure",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Cardiology"
@@ -8895,7 +8414,6 @@
     {
         "en_h":  "Oculomotor",
         "en_l":  "Eye movement",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -8912,7 +8430,6 @@
     {
         "en_h":  "Oncogene",
         "en_l":  "Cancer-causing gene",
-        "abbr":  "",
         "f":  [
                   "Oncology",
                   "Pathology"
@@ -8931,7 +8448,6 @@
     {
         "en_h":  "Oropharynx",
         "en_l":  "Mouth throat",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -8947,7 +8463,6 @@
     {
         "en_h":  "Osteophyte",
         "en_l":  "Bone spur",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Radiology"
@@ -8963,7 +8478,6 @@
     {
         "en_h":  "Otorrhea",
         "en_l":  "Ear discharge",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology"
               ],
@@ -8981,7 +8495,6 @@
     {
         "en_h":  "Otoscope",
         "en_l":  "Ear viewer",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology"
               ],
@@ -8999,7 +8512,6 @@
     {
         "en_h":  "Paralysis",
         "en_l":  "Loss of movement",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Emergency Medicine"
@@ -9018,7 +8530,6 @@
     {
         "en_h":  "Pelvic binder",
         "en_l":  "Pelvis stabilizer",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Surgery"
@@ -9037,7 +8548,6 @@
     {
         "en_h":  "Pericardiocentesis",
         "en_l":  "Heart sac fluid drain",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Emergency Medicine"
@@ -9059,7 +8569,6 @@
     {
         "en_h":  "Periodontitis",
         "en_l":  "Gum disease",
-        "abbr":  "",
         "f":  [
                   "Dentistry"
               ],
@@ -9080,7 +8589,6 @@
     {
         "en_h":  "Periosteum",
         "en_l":  "Bone outer membrane",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -9099,7 +8607,6 @@
     {
         "en_h":  "Perivascular",
         "en_l":  "Around blood vessels",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Pathology"
@@ -9140,7 +8647,6 @@
     {
         "en_h":  "Pleurodesis",
         "en_l":  "Pleural space sealing",
-        "abbr":  "",
         "f":  [
                   "Pulmonology",
                   "Surgery"
@@ -9159,7 +8665,6 @@
     {
         "en_h":  "Polydipsia",
         "en_l":  "Excessive thirst",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "General Medicine"
@@ -9175,7 +8680,6 @@
     {
         "en_h":  "Polyuria",
         "en_l":  "Excessive urination",
-        "abbr":  "",
         "f":  [
                   "Endocrinology",
                   "Nephrology"
@@ -9194,7 +8698,6 @@
     {
         "en_h":  "Postauricular",
         "en_l":  "Behind the ear",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Otolaryngology"
@@ -9232,7 +8735,6 @@
     {
         "en_h":  "Postpartum",
         "en_l":  "After birth",
-        "abbr":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
@@ -9251,7 +8753,6 @@
     {
         "en_h":  "Prenatal",
         "en_l":  "Before birth",
-        "abbr":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "General Medicine"
@@ -9289,7 +8790,6 @@
     {
         "en_h":  "Prosthodontist",
         "en_l":  "Dental prosthetics specialist",
-        "abbr":  "",
         "f":  [
                   "Dentistry"
               ],
@@ -9307,7 +8807,6 @@
     {
         "en_h":  "Protrusion",
         "en_l":  "Sticking out",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Orthopedics"
@@ -9323,7 +8822,6 @@
     {
         "en_h":  "Renogram",
         "en_l":  "Kidney function scan",
-        "abbr":  "",
         "f":  [
                   "Radiology",
                   "Nephrology"
@@ -9342,7 +8840,6 @@
     {
         "en_h":  "Rhinoplasty",
         "en_l":  "Nose surgery",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Otolaryngology"
@@ -9361,7 +8858,6 @@
     {
         "en_h":  "Rhinorrhea",
         "en_l":  "Runny nose",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology",
                   "Family Medicine"
@@ -9380,7 +8876,6 @@
     {
         "en_h":  "Rigors",
         "en_l":  "Severe chills",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Emergency Medicine"
@@ -9391,7 +8886,6 @@
     {
         "en_h":  "Sigmoidoscope",
         "en_l":  "Sigmoid colon camera",
-        "abbr":  "",
         "f":  [
                   "Gastroenterology"
               ],
@@ -9409,7 +8903,6 @@
     {
         "en_h":  "Snare",
         "en_l":  "Surgical loop tool",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Gastroenterology"
@@ -9420,7 +8913,6 @@
     {
         "en_h":  "Somatosensory",
         "en_l":  "Body sensation",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -9436,7 +8928,6 @@
     {
         "en_h":  "Spirometer",
         "en_l":  "Lung capacity meter",
-        "abbr":  "",
         "f":  [
                   "Pulmonology"
               ],
@@ -9454,7 +8945,6 @@
     {
         "en_h":  "Splanchnic nerves",
         "en_l":  "Visceral nerves",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -9470,7 +8960,6 @@
     {
         "en_h":  "Splenectomy",
         "en_l":  "Spleen removal",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Hematology"
@@ -9489,7 +8978,6 @@
     {
         "en_h":  "Spondylosis",
         "en_l":  "Spinal degeneration",
-        "abbr":  "",
         "f":  [
                   "Orthopedics",
                   "Neurology"
@@ -9507,8 +8995,6 @@
     },
     {
         "en_h":  "Stethoscope",
-        "en_l":  "",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -9526,7 +9012,6 @@
     {
         "en_h":  "Sublingual",
         "en_l":  "Under the tongue",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Pharmacology"
@@ -9545,7 +9030,6 @@
     {
         "en_h":  "Supragingival",
         "en_l":  "Above the gum",
-        "abbr":  "",
         "f":  [
                   "Dentistry"
               ],
@@ -9566,7 +9050,6 @@
     {
         "en_h":  "Symptomatic",
         "en_l":  "Showing symptoms",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -9584,7 +9067,6 @@
     {
         "en_h":  "Tachypnea",
         "en_l":  "Fast breathing",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Pulmonology"
@@ -9603,7 +9085,6 @@
     {
         "en_h":  "Thoracotomy",
         "en_l":  "Chest cavity surgery",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Pulmonology"
@@ -9622,7 +9103,6 @@
     {
         "en_h":  "Thrombectomy",
         "en_l":  "Clot removal",
-        "abbr":  "",
         "f":  [
                   "Surgery",
                   "Vascular Surgery"
@@ -9641,7 +9121,6 @@
     {
         "en_h":  "Thyrotoxicosis",
         "en_l":  "Thyroid hormone excess",
-        "abbr":  "",
         "f":  [
                   "Endocrinology"
               ],
@@ -9660,7 +9139,6 @@
     {
         "en_h":  "Tonic-clonic seizure",
         "en_l":  "Grand mal seizure",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Emergency Medicine"
@@ -9679,7 +9157,6 @@
     {
         "en_h":  "Topography",
         "en_l":  "Surface anatomy mapping",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "General Medicine"
@@ -9698,7 +9175,6 @@
     {
         "en_h":  "Toxicology",
         "en_l":  "Study of poisons",
-        "abbr":  "",
         "f":  [
                   "Pharmacology",
                   "Pathology"
@@ -9716,7 +9192,6 @@
     },
     {
         "en_h":  "Transcutaneous",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Pharmacology"
@@ -9735,7 +9210,6 @@
     {
         "en_h":  "Triceps",
         "en_l":  "Back upper arm muscle",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -9751,7 +9225,6 @@
     {
         "en_h":  "Twinge",
         "en_l":  "Sharp brief pain",
-        "abbr":  "",
         "f":  [
                   "General Medicine"
               ],
@@ -9761,7 +9234,6 @@
     {
         "en_h":  "Twitch",
         "en_l":  "Muscle jerk",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "General Medicine"
@@ -9772,7 +9244,6 @@
     {
         "en_h":  "Tympanosclerosis",
         "en_l":  "Eardrum scarring",
-        "abbr":  "",
         "f":  [
                   "Otolaryngology"
               ],
@@ -9790,7 +9261,6 @@
     {
         "en_h":  "Ulnar",
         "en_l":  "Of the ulna bone",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Orthopedics"
@@ -9809,7 +9279,6 @@
     {
         "en_h":  "Umbilical cord",
         "en_l":  "Baby\u0027s cord",
-        "abbr":  "",
         "f":  [
                   "Obstetrics \u0026 Gynecology",
                   "Pediatrics"
@@ -9825,7 +9294,6 @@
     {
         "en_h":  "Varicose veins",
         "en_l":  "Swollen veins",
-        "abbr":  "",
         "f":  [
                   "Vascular Surgery",
                   "General Medicine"
@@ -9841,7 +9309,6 @@
     {
         "en_h":  "Vasoconstriction",
         "en_l":  "Blood vessel narrowing",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Cardiology"
@@ -9860,7 +9327,6 @@
     {
         "en_h":  "Vasodilation",
         "en_l":  "Blood vessel widening",
-        "abbr":  "",
         "f":  [
                   "General Medicine",
                   "Cardiology"
@@ -9876,7 +9342,6 @@
     {
         "en_h":  "Vasospasm",
         "en_l":  "Blood vessel spasm",
-        "abbr":  "",
         "f":  [
                   "Cardiology",
                   "Neurology"
@@ -9893,9 +9358,8 @@
                   }
     },
     {
-        "en_h":  "Venostasis",
-        "en_l":  "Venous blood pooling",
-        "abbr":  "",
+        "en_h":  "Venous stasis",
+        "en_l":  "Venostasis",
         "f":  [
                   "Vascular Surgery",
                   "General Medicine"
@@ -9914,7 +9378,6 @@
     {
         "en_h":  "Ventilator",
         "en_l":  "Breathing machine",
-        "abbr":  "",
         "f":  [
                   "Critical Care",
                   "Emergency Medicine"
@@ -9925,7 +9388,6 @@
     {
         "en_h":  "Visceroceptors",
         "en_l":  "Internal organ sensors",
-        "abbr":  "",
         "f":  [
                   "Anatomy",
                   "Neurology"
@@ -9941,7 +9403,6 @@
     {
         "en_h":  "Voluntary movement",
         "en_l":  "Intentional movement",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Rehabilitation Medicine"
@@ -9952,7 +9413,6 @@
     {
         "en_h":  "Weak pulse",
         "en_l":  "Faint heartbeat",
-        "abbr":  "",
         "f":  [
                   "Emergency Medicine",
                   "Cardiology"
@@ -9963,7 +9423,6 @@
     {
         "en_h":  "Xanthochromia",
         "en_l":  "Yellow-stained fluid",
-        "abbr":  "",
         "f":  [
                   "Neurology",
                   "Pathology"
@@ -13275,6 +12734,7 @@
     },
     {
         "en_h":  "Pelvic inflammatory disease",
+        "abbr":  "PID",
         "d":  "Infection of the female upper reproductive tract including the uterus, fallopian tubes, and ovaries, most commonly a complication of sexually transmitted infections.",
         "lvl":  3,
         "f":  [
@@ -15099,6 +14559,7 @@
     },
     {
         "en_h":  "Nodule",
+        "en_l":  "Lump",
         "f":  [
                   "Dermatology",
                   "General Medicine"
@@ -19306,6 +18767,7 @@
     },
     {
         "en_h":  "Cryptorchidism",
+        "en_l":  "Undescended testicle",
         "f":  [
                   "Urology",
                   "Pediatrics"

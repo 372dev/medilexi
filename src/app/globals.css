@@ -969,6 +969,14 @@ body.day .b-part--s { color: #991B1B; }
   content: ''; position: absolute; left: 0; right: 0; top: -10px; height: 10px;
   background: var(--b-bg);
 }
+/* One row that scrolls sideways, never a wrapping block: a sticky bar this page
+   keeps on screen must not eat 3 rows of viewport on a phone, and a fixed height
+   is what lets scroll-mt land anchors just below it at every width. */
+.b-scroll-x {
+  display: flex; flex-wrap: nowrap; overflow-x: auto;
+  scrollbar-width: none; -ms-overflow-style: none;
+}
+.b-scroll-x::-webkit-scrollbar { display: none; }
 
 /* Static specialty chip (the term page's non-clickable twin of .b-field) */
 .b-chip {

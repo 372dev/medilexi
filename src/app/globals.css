@@ -907,6 +907,18 @@ body.day .b-badge--s { background: #FDECEC; color: #991B1B; border-color: #F1A9A
 }
 .b-field:hover { color: var(--b-primary); border-color: var(--b-primary); }
 
+/* Primary action button — the modern replacement for the retro .c-btn-pixel.
+   Inline styles on the quiz/exam pages still override background/colour for the
+   ghost and destructive variants, so this only supplies the base shape. */
+.b-btn {
+  font-family: inherit; font-weight: 700; cursor: pointer;
+  border-radius: 12px; border: 1px solid var(--b-primary);
+  background: var(--b-primary); color: var(--b-on-prim);
+  transition: transform .12s ease, box-shadow .12s ease, background-color .12s, border-color .12s;
+}
+.b-btn:hover:not(:disabled) { transform: translateY(-2px); }
+.b-btn:disabled { opacity: .4; cursor: not-allowed; transform: none; }
+
 /* ── Flashcard session: fit the viewport, never scroll mid-card ──
    A learner should reach the flip card AND the judge buttons without scrolling,
    even with a bookmarks bar eating viewport height. Chrome above the session is

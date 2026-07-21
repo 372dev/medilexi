@@ -154,7 +154,7 @@ export default function WordPartsExam() {
   if (!bundleId) {
     return (
       <div style={{ maxWidth: '640px', margin: '2rem auto 0' }}>
-        <p style={{ fontSize: '0.9rem', color: 'var(--color-text-dim)', lineHeight: 1.7, marginBottom: '1.75rem' }}>
+        <p style={{ fontSize: '0.9rem', color: 'var(--b-dim)', lineHeight: 1.7, marginBottom: '1.75rem' }}>
           Curated 20-question exams, {EXAM_MINUTES} minutes each. You can move between questions, and
           <strong> flag</strong> any question you want to come back to before you finish. Your score and
           the correct answers stay hidden until you submit. Pass mark {PASS_PCT}%.
@@ -166,17 +166,17 @@ export default function WordPartsExam() {
             return (
               <div key={b.id}
                 style={{
-                  background: 'var(--color-panel)',
-                  border: `1px solid ${b.free ? 'var(--color-gold)' : 'var(--color-border)'}`,
+                  background: 'var(--b-panel)',
+                  border: `1px solid ${b.free ? 'var(--b-primary)' : 'var(--b-border)'}`,
                   padding: '1.1rem 1.25rem',
                   display: 'flex', alignItems: 'center', gap: '1rem',
                   opacity: b.free ? 1 : 0.55,
                 }}>
                 <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: '1rem', color: b.free ? 'var(--color-text)' : 'var(--color-text-dim)', marginBottom: '0.25rem' }}>
+                  <div style={{ fontSize: '1rem', color: b.free ? 'var(--b-text)' : 'var(--b-dim)', marginBottom: '0.25rem' }}>
                     {b.title}
                   </div>
-                  <div style={{ fontSize: '0.78rem', color: 'var(--color-text-dim)' }}>
+                  <div style={{ fontSize: '0.78rem', color: 'var(--b-dim)' }}>
                     20 questions
                     {r && b.free && (
                       <span style={{ marginLeft: '0.6rem', color: r.score / r.total * 100 >= PASS_PCT ? '#6EE7B7' : '#FCA5A5' }}>
@@ -186,11 +186,11 @@ export default function WordPartsExam() {
                   </div>
                 </div>
                 {b.free ? (
-                  <button onClick={() => start(b.id)} className="c-btn-pixel" style={{ fontSize: '0.5rem', padding: '0.6rem 1.2rem' }}>
+                  <button onClick={() => start(b.id)} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.2rem' }}>
                     {r ? 'Retake' : 'Start'}
                   </button>
                 ) : (
-                  <span style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.45rem', color: 'var(--color-text-dim)', border: '1px solid var(--color-border)', padding: '0.45rem 0.7rem', lineHeight: 1.8 }}>
+                  <span style={{ fontSize: '0.76rem', fontWeight: 600, color: 'var(--b-dim)', border: '1px solid var(--b-border)', padding: '0.45rem 0.7rem', lineHeight: 1.8 }}>
                     🔒 Coming soon
                   </span>
                 )}
@@ -200,7 +200,7 @@ export default function WordPartsExam() {
         </div>
 
         <div style={{ textAlign: 'center', marginTop: '1.75rem' }}>
-          <Link href="/wordparts" style={{ fontSize: '0.82rem', color: 'var(--color-text-dim)', textDecoration: 'underline' }}>
+          <Link href="/wordparts" style={{ fontSize: '0.82rem', color: 'var(--b-dim)', textDecoration: 'underline' }}>
             ← Back to Word Parts
           </Link>
         </div>
@@ -213,13 +213,13 @@ export default function WordPartsExam() {
     return (
       <div style={{ maxWidth: '720px', margin: '2rem auto 0' }}>
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-          <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '1.4rem', color: passed ? '#6EE7B7' : '#FCA5A5', marginBottom: '0.5rem' }}>
+          <div style={{ fontFamily: 'var(--b-display)', fontSize: '2.2rem', fontWeight: 600, color: passed ? '#6EE7B7' : '#FCA5A5', marginBottom: '0.5rem' }}>
             {score} / {qs.length} · {pct}%
           </div>
           <p style={{ fontSize: '0.95rem', color: passed ? '#6EE7B7' : '#FCA5A5', fontWeight: 600 }}>
             {passed ? `PASS · ${PASS_PCT}% or above` : `FAIL · you need ${PASS_PCT}% to pass`}
           </p>
-          <p style={{ fontSize: '0.82rem', color: 'var(--color-text-dim)', marginTop: '0.4rem' }}>
+          <p style={{ fontSize: '0.82rem', color: 'var(--b-dim)', marginTop: '0.4rem' }}>
             {bundle?.title} · result saved (a retake replaces it)
           </p>
         </div>
@@ -229,10 +229,10 @@ export default function WordPartsExam() {
             const you = answers[i]
             const ok  = you === q.correctIdx
             return (
-              <div key={q.id} style={{ background: 'var(--color-panel)', border: `1px solid ${ok ? '#3BAA6A' : '#C94040'}`, padding: '0.9rem 1.1rem' }}>
+              <div key={q.id} style={{ background: 'var(--b-panel)', border: `1px solid ${ok ? '#3BAA6A' : '#C94040'}`, padding: '0.9rem 1.1rem' }}>
                 <div style={{ display: 'flex', gap: '0.6rem', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                  <span style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.45rem', color: 'var(--color-text-dim)', flexShrink: 0, marginTop: '0.25rem' }}>{i + 1}</span>
-                  <span style={{ fontSize: '0.9rem', color: 'var(--color-text)', lineHeight: 1.55, flex: 1 }}>{q.prompt}</span>
+                  <span style={{ fontSize: '0.76rem', fontWeight: 600, color: 'var(--b-dim)', flexShrink: 0, marginTop: '0.25rem' }}>{i + 1}</span>
+                  <span style={{ fontSize: '0.9rem', color: 'var(--b-text)', lineHeight: 1.55, flex: 1 }}>{q.prompt}</span>
                   <span style={{ color: ok ? '#6EE7B7' : '#FCA5A5', flexShrink: 0 }}>{ok ? '✓' : '✗'}</span>
                 </div>
                 <div style={{ paddingLeft: '1.4rem', fontSize: '0.85rem', lineHeight: 1.6 }}>
@@ -242,7 +242,7 @@ export default function WordPartsExam() {
                       Your answer: {you === null ? <em>(not answered)</em> : q.shown[you]}
                     </div>
                   )}
-                  <div style={{ color: 'var(--color-text-dim)', marginTop: '0.35rem', fontStyle: 'italic' }}>{q.explain}</div>
+                  <div style={{ color: 'var(--b-dim)', marginTop: '0.35rem', fontStyle: 'italic' }}>{q.explain}</div>
                 </div>
               </div>
             )
@@ -250,10 +250,10 @@ export default function WordPartsExam() {
         </div>
 
         <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <button onClick={() => start(bundleId)} className="c-btn-pixel" style={{ fontSize: '0.5rem', padding: '0.65rem 1.5rem' }}>
+          <button onClick={() => start(bundleId)} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.65rem 1.5rem' }}>
             Retake
           </button>
-          <button onClick={quit} className="c-btn-pixel" style={{ fontSize: '0.5rem', padding: '0.65rem 1.5rem', background: 'none', color: 'var(--color-text-dim)', boxShadow: 'none' }}>
+          <button onClick={quit} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.65rem 1.5rem', background: 'none', color: 'var(--b-dim)', boxShadow: 'none' }}>
             All exams
           </button>
         </div>
@@ -273,10 +273,10 @@ export default function WordPartsExam() {
 
       {/* Status bar */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem', gap: '0.75rem', flexWrap: 'wrap' }}>
-        <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', lineHeight: 1.8 }}>
+        <div style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--b-dim)', lineHeight: 1.8 }}>
           {bundle?.title} · {answeredCount}/{qs.length} answered
         </div>
-        <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.6rem', color: low ? '#FCA5A5' : 'var(--color-gold)', lineHeight: 1.8 }}
+        <div style={{ fontFamily: 'var(--b-display)', fontSize: '1.15rem', fontWeight: 600, color: low ? '#FCA5A5' : 'var(--b-primary)', lineHeight: 1.8 }}
           role="timer" aria-live="off">
           ⏱ {mmss(left)}
         </div>
@@ -287,8 +287,8 @@ export default function WordPartsExam() {
         {qs.map((_, i) => {
           const isFlagged = flagged[i]
           const isDone    = answers[i] !== null
-          const bg = isFlagged ? '#F0B429' : isDone ? '#3BAA6A' : 'var(--color-border)'
-          const fg = isFlagged || isDone ? '#0D0B2B' : 'var(--color-text-dim)'
+          const bg = isFlagged ? '#F0B429' : isDone ? '#3BAA6A' : 'var(--b-border)'
+          const fg = isFlagged || isDone ? '#0D0B2B' : 'var(--b-dim)'
           return (
             <button key={i} onClick={() => setQIdx(i)}
               aria-label={`Question ${i + 1}${isFlagged ? ', flagged for review' : isDone ? ', answered' : ', not answered'}`}
@@ -296,8 +296,8 @@ export default function WordPartsExam() {
               style={{
                 width: '2rem', height: '2rem', flexShrink: 0, cursor: 'pointer',
                 background: bg, color: fg,
-                border: i === qIdx ? '2px solid var(--color-accent)' : '1px solid var(--color-border)',
-                fontFamily: 'var(--font-pixel)', fontSize: '0.45rem', lineHeight: 1,
+                border: i === qIdx ? '2px solid var(--b-amber)' : '1px solid var(--b-border)',
+                fontSize: '0.76rem', fontWeight: 600, lineHeight: 1,
               }}>
               {i + 1}
             </button>
@@ -306,35 +306,35 @@ export default function WordPartsExam() {
       </div>
 
       {/* Legend — the colours mean nothing without it */}
-      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.25rem', fontSize: '0.72rem', color: 'var(--color-text-dim)' }}>
-        {([['var(--color-border)', 'not answered'], ['#3BAA6A', 'answered'], ['#F0B429', 'flagged for review']] as const).map(([c, label]) => (
+      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.25rem', fontSize: '0.72rem', color: 'var(--b-dim)' }}>
+        {([['var(--b-border)', 'not answered'], ['#3BAA6A', 'answered'], ['#F0B429', 'flagged for review']] as const).map(([c, label]) => (
           <span key={label} style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
-            <span aria-hidden="true" style={{ width: '0.7rem', height: '0.7rem', background: c, border: '1px solid var(--color-border)', flexShrink: 0 }} />
+            <span aria-hidden="true" style={{ width: '0.7rem', height: '0.7rem', background: c, border: '1px solid var(--b-border)', flexShrink: 0 }} />
             {label}
           </span>
         ))}
       </div>
 
       {/* Question */}
-      <div style={{ background: 'var(--color-panel)', border: '1px solid var(--color-border)', padding: '1.5rem 1.35rem', marginBottom: '1rem' }}>
+      <div style={{ background: 'var(--b-panel)', border: '1px solid var(--b-border)', padding: '1.5rem 1.35rem', marginBottom: '1rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', marginBottom: '0.9rem' }}>
-          <span style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', lineHeight: 1.8 }}>
+          <span style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--b-dim)', lineHeight: 1.8 }}>
             Question {qIdx + 1} of {qs.length}
           </span>
           <button onClick={toggleFlag}
             aria-pressed={flagged[qIdx]}
             title="Flag this question so you can come back to it before you submit"
             style={{
-              fontFamily: 'var(--font-pixel)', fontSize: '0.45rem', cursor: 'pointer', lineHeight: 1.8,
+              fontSize: '0.76rem', fontWeight: 600, cursor: 'pointer', lineHeight: 1.8,
               padding: '0.35rem 0.7rem', flexShrink: 0, whiteSpace: 'nowrap',
               background: flagged[qIdx] ? '#F0B429' : 'none',
-              color: flagged[qIdx] ? '#0D0B2B' : 'var(--color-text-dim)',
-              border: `1px solid ${flagged[qIdx] ? '#F0B429' : 'var(--color-border)'}`,
+              color: flagged[qIdx] ? '#0D0B2B' : 'var(--b-dim)',
+              border: `1px solid ${flagged[qIdx] ? '#F0B429' : 'var(--b-border)'}`,
             }}>
             {flagged[qIdx] ? '⚑ Flagged' : '⚑ Flag for review'}
           </button>
         </div>
-        <div style={{ fontSize: '1.05rem', color: 'var(--color-text)', lineHeight: 1.6 }}>{q.prompt}</div>
+        <div style={{ fontSize: '1.05rem', color: 'var(--b-text)', lineHeight: 1.6 }}>{q.prompt}</div>
       </div>
 
       {/* Options — no feedback until submit (RULES 9b) */}
@@ -345,15 +345,15 @@ export default function WordPartsExam() {
             <button key={i} onClick={() => choose(i)}
               style={{
                 display: 'block', width: '100%', padding: '0.95rem 1.15rem', textAlign: 'left', cursor: 'pointer',
-                background: sel ? 'rgba(155,143,239,0.15)' : 'var(--color-panel)',
-                border: `2px solid ${sel ? 'var(--color-accent)' : 'var(--color-border)'}`,
+                background: sel ? 'rgba(155,143,239,0.15)' : 'var(--b-panel)',
+                border: `2px solid ${sel ? 'var(--b-amber)' : 'var(--b-border)'}`,
                 transition: 'border-color 0.15s, background 0.15s',
               }}>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
-                <span style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.45rem', color: sel ? 'var(--color-accent)' : 'var(--color-text-dim)', flexShrink: 0, marginTop: '0.3rem' }}>
+                <span style={{ fontSize: '0.76rem', fontWeight: 600, color: sel ? 'var(--b-amber)' : 'var(--b-dim)', flexShrink: 0, marginTop: '0.3rem' }}>
                   {LABELS[i]}
                 </span>
-                <span style={{ color: 'var(--color-text)', fontSize: '0.95rem', lineHeight: 1.55, flex: 1 }}>{opt}</span>
+                <span style={{ color: 'var(--b-text)', fontSize: '0.95rem', lineHeight: 1.55, flex: 1 }}>{opt}</span>
               </div>
             </button>
           )
@@ -362,16 +362,16 @@ export default function WordPartsExam() {
 
       {/* Nav */}
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: '0.75rem', flexWrap: 'wrap' }}>
-        <button onClick={() => setQIdx(i => Math.max(0, i - 1))} disabled={qIdx === 0} className="c-btn-pixel"
-          style={{ fontSize: '0.5rem', padding: '0.6rem 1.2rem', background: 'none', color: 'var(--color-text-dim)', boxShadow: 'none', opacity: qIdx === 0 ? 0.4 : 1, cursor: qIdx === 0 ? 'default' : 'pointer' }}>
+        <button onClick={() => setQIdx(i => Math.max(0, i - 1))} disabled={qIdx === 0} className="b-btn b-focus"
+          style={{ fontSize: '0.5rem', padding: '0.6rem 1.2rem', background: 'none', color: 'var(--b-dim)', boxShadow: 'none', opacity: qIdx === 0 ? 0.4 : 1, cursor: qIdx === 0 ? 'default' : 'pointer' }}>
           ← Prev
         </button>
         {qIdx < qs.length - 1 ? (
-          <button onClick={() => setQIdx(i => Math.min(qs.length - 1, i + 1))} className="c-btn-pixel" style={{ fontSize: '0.5rem', padding: '0.6rem 1.2rem' }}>
+          <button onClick={() => setQIdx(i => Math.min(qs.length - 1, i + 1))} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.2rem' }}>
             Next →
           </button>
         ) : (
-          <button onClick={submit} className="c-btn-pixel" style={{ fontSize: '0.5rem', padding: '0.6rem 1.4rem', background: 'var(--color-gold)', color: 'var(--color-bg)' }}>
+          <button onClick={submit} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.4rem', background: 'var(--b-primary)', color: 'var(--b-bg)' }}>
             Submit exam
           </button>
         )}
@@ -379,7 +379,7 @@ export default function WordPartsExam() {
 
       <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
         <button onClick={submit}
-          style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)', background: 'none', border: 'none', textDecoration: 'underline', cursor: 'pointer' }}>
+          style={{ fontSize: '0.8rem', color: 'var(--b-dim)', background: 'none', border: 'none', textDecoration: 'underline', cursor: 'pointer' }}>
           Submit now ({answeredCount}/{qs.length} answered)
         </button>
       </div>

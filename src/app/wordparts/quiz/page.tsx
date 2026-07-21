@@ -128,22 +128,22 @@ export default function WordPartsPractice() {
 
   /* ── Option colors ── */
   function optBg(i: number) {
-    if (!answered) return 'var(--color-panel)'
+    if (!answered) return 'var(--b-panel)'
     if (i === q.correctIdx) return 'rgba(59,170,106,0.15)'
     if (i === selected)     return 'rgba(201,64,64,0.15)'
-    return 'var(--color-panel)'
+    return 'var(--b-panel)'
   }
   function optBorder(i: number) {
-    if (!answered) return 'var(--color-border)'
+    if (!answered) return 'var(--b-border)'
     if (i === q.correctIdx) return '#3BAA6A'
     if (i === selected)     return '#C94040'
-    return 'var(--color-border)'
+    return 'var(--b-border)'
   }
   function optTextColor(i: number) {
-    if (!answered) return 'var(--color-text)'
+    if (!answered) return 'var(--b-text)'
     if (i === q.correctIdx) return '#6EE7B7'
     if (i === selected)     return '#FCA5A5'
-    return 'var(--color-text-dim)'
+    return 'var(--b-dim)'
   }
 
   /* ── Question card helpers ── */
@@ -158,7 +158,7 @@ export default function WordPartsPractice() {
   /* ── Loading (first client render before the pool is built) ── */
   if (!ended && questions.length === 0) {
     return (
-      <div style={{ maxWidth:'640px', margin:'3rem auto 0', textAlign:'center', color:'var(--color-text-dim)', fontSize:'0.9rem' }}>
+      <div style={{ maxWidth:'640px', margin:'3rem auto 0', textAlign:'center', color:'var(--b-dim)', fontSize:'0.9rem' }}>
         Loading practice…
       </div>
     )
@@ -172,24 +172,24 @@ export default function WordPartsPractice() {
 
           {/* Tally row */}
           <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'1.75rem' }}>
-            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', lineHeight:1.8 }}>
+            <div style={{ fontSize:'0.82rem', fontWeight:600, color:'var(--b-dim)', lineHeight:1.8 }}>
               {mode === 'retry' ? 'Retry ' : 'Answered '}{total}
               <span style={{ marginLeft:'0.75rem', color:'#6EE7B7' }}>✓ {score}</span>
               <span style={{ marginLeft:'0.5rem', color:'#FCA5A5' }}>✗ {missed.length}</span>
             </div>
             <button onClick={endSession}
-              style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)', background:'none', border:'1px solid var(--color-border)', padding:'0.35rem 0.7rem', cursor:'pointer', lineHeight:1.8 }}>
+              style={{ fontSize:'0.76rem', fontWeight:600, color:'var(--b-dim)', background:'none', border:'1px solid var(--b-border)', padding:'0.35rem 0.7rem', cursor:'pointer', lineHeight:1.8 }}>
               End session
             </button>
           </div>
 
           {/* Question card */}
-          <div style={{ background:'var(--color-panel)', border:'1px solid var(--color-border)', boxShadow:'2px 2px 0 0 var(--color-border)', minHeight:'240px', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'2.5rem 2rem', marginBottom:'1.25rem', textAlign:'center', gap:'0.85rem' }}>
-            <span className={`c-stars c-stars--${q.lvl}`} role="img" aria-label={`Importance: ${LVL_TEXT[q.lvl]}`} style={{ fontSize:'1.2rem' }}>{'⭐'.repeat(q.lvl)}</span>
-            <div style={{ fontSize:'2.2rem', fontWeight:700, color:'var(--color-gold)', lineHeight:1.2, wordBreak:'break-word', maxWidth:'100%' }}>
+          <div style={{ background:'var(--b-panel)', border:'1px solid var(--b-border)', boxShadow:'2px 2px 0 0 var(--b-border)', minHeight:'240px', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'2.5rem 2rem', marginBottom:'1.25rem', textAlign:'center', gap:'0.85rem' }}>
+            <span className={`b-lvl b-lvl--${q.lvl}`}>{LVL_TEXT[q.lvl]}</span>
+            <div style={{ fontSize:'2.2rem', fontWeight:700, color:'var(--b-primary)', lineHeight:1.2, wordBreak:'break-word', maxWidth:'100%' }}>
               {qBigTerm(q.question, q.wp)}
             </div>
-            <div style={{ fontSize:'0.9rem', color:'var(--color-text-dim)', lineHeight:1.6 }}>
+            <div style={{ fontSize:'0.9rem', color:'var(--b-dim)', lineHeight:1.6 }}>
               {qInstruction(q.type)}
             </div>
           </div>
@@ -207,7 +207,7 @@ export default function WordPartsPractice() {
                   transition: 'border-color 0.2s, background 0.2s',
                 }}>
                 <div style={{ display:'flex', alignItems:'flex-start', gap:'0.75rem' }}>
-                  <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:optTextColor(i), flexShrink:0, marginTop:'0.3rem' }}>
+                  <span style={{ fontSize:'0.76rem', fontWeight:600, color:optTextColor(i), flexShrink:0, marginTop:'0.3rem' }}>
                     {LABELS[i]}
                   </span>
                   <span style={{ color:optTextColor(i), fontWeight: answered && i===q.correctIdx ? 600 : 400, fontSize:'0.95rem', lineHeight:1.55, flex:1 }}>
@@ -217,11 +217,11 @@ export default function WordPartsPractice() {
                     <span style={{ color:'#6EE7B7', flexShrink:0, fontSize:'1rem' }}>✓</span>
                   )}
                   {answered && i !== q.correctIdx && (
-                    <span style={{ color: i === selected ? '#FCA5A5' : 'var(--color-text-dim)', flexShrink:0, fontSize:'1rem', opacity: i === selected ? 1 : 0.5 }}>✗</span>
+                    <span style={{ color: i === selected ? '#FCA5A5' : 'var(--b-dim)', flexShrink:0, fontSize:'1rem', opacity: i === selected ? 1 : 0.5 }}>✗</span>
                   )}
                 </div>
                 {answered && (
-                  <div style={{ marginTop:'0.35rem', paddingLeft:'1.7rem', fontSize:'0.8rem', color:'var(--color-text-dim)', fontStyle:'italic' }}>
+                  <div style={{ marginTop:'0.35rem', paddingLeft:'1.7rem', fontSize:'0.8rem', color:'var(--b-dim)', fontStyle:'italic' }}>
                     {q.feedback[i]}
                   </div>
                 )}
@@ -232,7 +232,7 @@ export default function WordPartsPractice() {
           {/* Next */}
           {answered && (
             <div style={{ display:'flex', justifyContent:'flex-end' }}>
-              <button onClick={handleNext} className="c-btn-pixel" style={{ fontSize:'0.55rem', padding:'0.65rem 1.8rem' }}>
+              <button onClick={handleNext} className="b-btn b-focus" style={{ fontSize:'0.85rem', padding:'0.65rem 1.8rem' }}>
                 Next →
               </button>
             </div>
@@ -244,10 +244,10 @@ export default function WordPartsPractice() {
       {ended && (
         <div style={{ maxWidth:'640px', margin:'2rem auto 0' }}>
           <div style={{ textAlign:'center', marginBottom:'2rem' }}>
-            <div style={{ fontFamily:'var(--font-pixel)', fontSize:'1.4rem', color:'var(--color-gold)', marginBottom:'0.5rem' }}>
+            <div style={{ fontFamily:'var(--b-display)', fontSize:'2.2rem', fontWeight:600, color:'var(--b-primary)', marginBottom:'0.5rem' }}>
               ✓ {score} / {total}
             </div>
-            <p style={{ fontSize:'0.95rem', color:'var(--color-text-dim)' }}>
+            <p style={{ fontSize:'0.95rem', color:'var(--b-dim)' }}>
               {total === 0 ? 'No questions answered yet.'
                 : score === total ? 'Perfect! Every one right.'
                 : score >= total * 0.8 ? 'Great session!'
@@ -257,16 +257,16 @@ export default function WordPartsPractice() {
 
           {missed.length > 0 && (
             <div style={{ marginBottom:'1.75rem' }}>
-              <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.5rem', color:'var(--color-text-dim)', marginBottom:'0.75rem', paddingBottom:'0.5rem', borderBottom:'1px solid var(--color-border)' }}>
+              <div style={{ fontSize:'0.82rem', fontWeight:600, color:'var(--b-dim)', marginBottom:'0.75rem', paddingBottom:'0.5rem', borderBottom:'1px solid var(--b-border)' }}>
                 Missed ({missed.length})
               </div>
               <div style={{ display:'flex', flexDirection:'column', gap:'0.3rem', maxHeight:'340px', overflowY:'auto' }}>
                 {missed.map((mq, i) => (
-                  <div key={i} style={{ display:'grid', gridTemplateColumns:'minmax(0,1fr) minmax(0,2fr)', gap:'0.75rem', padding:'0.6rem 0.75rem', background:'var(--color-panel)', border:'1px solid var(--color-border)', fontSize:'0.85rem', lineHeight:1.5 }}>
-                    <span style={{ fontWeight:700, color:'var(--color-gold)', fontFamily:'var(--font-pixel)', fontSize:'0.48rem', alignSelf:'center', wordBreak:'break-word' }}>
+                  <div key={i} style={{ display:'grid', gridTemplateColumns:'minmax(0,1fr) minmax(0,2fr)', gap:'0.75rem', padding:'0.6rem 0.75rem', background:'var(--b-panel)', border:'1px solid var(--b-border)', fontSize:'0.85rem', lineHeight:1.5 }}>
+                    <span style={{ fontWeight:700, color:'var(--b-primary)', fontFamily:'var(--b-display)', fontSize:'0.95rem', alignSelf:'center', wordBreak:'break-word' }}>
                       {mq.wp}
                     </span>
-                    <span style={{ color:'var(--color-text-dim)' }}>
+                    <span style={{ color:'var(--b-dim)' }}>
                       {mq.options[mq.correctIdx]}
                     </span>
                   </div>
@@ -277,19 +277,19 @@ export default function WordPartsPractice() {
 
           <div style={{ display:'flex', gap:'0.75rem', justifyContent:'center', flexWrap:'wrap' }}>
             {missed.length > 0 && (
-              <button onClick={retryMissed} className="c-btn-pixel"
+              <button onClick={retryMissed} className="b-btn b-focus"
                 style={{ fontSize:'0.5rem', padding:'0.65rem 1.5rem', background:'rgba(201,64,64,0.15)', color:'#FCA5A5', border:'1px solid #C94040', boxShadow:'none' }}>
                 ✗ Retry ({missed.length})
               </button>
             )}
-            <button onClick={newPractice} className="c-btn-pixel"
+            <button onClick={newPractice} className="b-btn b-focus"
               style={{ fontSize:'0.5rem', padding:'0.65rem 1.5rem' }}>
               New practice
             </button>
           </div>
 
           <div style={{ textAlign:'center', marginTop:'1.75rem', display:'flex', flexDirection:'column', gap:'0.4rem' }}>
-            <Link href="/wordparts" style={{ fontSize:'0.82rem', color:'var(--color-text-dim)', textDecoration:'underline' }}>
+            <Link href="/wordparts" style={{ fontSize:'0.82rem', color:'var(--b-dim)', textDecoration:'underline' }}>
               ← Back to Word Parts
             </Link>
           </div>

@@ -3,24 +3,25 @@ import koData from '@/data/medical_vocab_ko.json'
 const multilingualCount = (koData as { d_ko?: string }[]).filter(k => !!k.d_ko).length
 
 const H2: React.CSSProperties = {
-  fontFamily: 'var(--font-pixel)',
-  fontSize: '0.6rem',
-  color: 'var(--color-text)',
-  lineHeight: 2.2,
+  fontFamily: 'var(--b-display)',
+  fontSize: '1.15rem',
+  fontWeight: 600,
+  color: 'var(--b-text)',
+  lineHeight: 1.35,
   marginBottom: '0.75rem',
-  borderLeft: '3px solid var(--color-gold)',
+  borderLeft: '3px solid var(--b-primary)',
   paddingLeft: '0.75rem',
 }
 
 const PROSE: React.CSSProperties = {
   fontSize: '0.95rem',
-  color: 'var(--color-text-dim)',
+  color: 'var(--b-dim)',
   lineHeight: 1.75,
   marginBottom: '0.75rem',
 }
 
 const STATS = [
-  { n: '1,300+',                    label: 'Medical Terms',        sub: '20+ clinical specialties' },
+  { n: '1,500+',                    label: 'Medical Terms',        sub: '20+ clinical specialties' },
   { n: '600+',                     label: 'Word Parts',           sub: 'Prefix · Root · Suffix' },
   { n: String(multilingualCount),  label: 'Multilingual Entries', sub: 'with full definitions' },
 ]
@@ -31,10 +32,11 @@ const AUDIENCES = [
   ['Medical Translators',    'Reference and study tool for written translation of medical documents, records, and literature.'],
 ]
 
+/* Levels read as labels, matching the tint-pills the glossary now uses. */
 const LEVELS = [
-  ['⭐⭐⭐ Essential',  'var(--color-gold)',   'Core terms encountered in everyday clinical settings.'],
-  ['⭐⭐ Important',    'var(--color-accent)', 'Commonly seen in specific specialties or rotations.'],
-  ['⭐ Good to know',  'var(--color-border)', 'Less frequent but useful for thorough comprehension.'],
+  ['Essential',     'var(--b-primary)', 'Core terms encountered in everyday clinical settings.'],
+  ['Important',     'var(--b-amber)',   'Commonly seen in specific specialties or rotations.'],
+  ['Good to know',  'var(--b-dim)',     'Less frequent but useful for thorough comprehension.'],
 ]
 
 export default function AboutPage() {
@@ -42,8 +44,8 @@ export default function AboutPage() {
     <div style={{ maxWidth: '680px', margin: '0 auto', padding: '1.5rem 0 4rem' }}>
 
       {/* ── Intro ── */}
-      <div style={{ marginBottom: '2.5rem', paddingBottom: '1.5rem', borderBottom: '2px solid var(--color-border)' }}>
-        <h1 style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.75rem', color: 'var(--color-gold)', lineHeight: 2.2, marginBottom: '1rem' }}>
+      <div style={{ marginBottom: '2.5rem', paddingBottom: '1.5rem', borderBottom: '2px solid var(--b-border)' }}>
+        <h1 style={{ fontFamily: 'var(--b-display)', fontSize: '1.6rem', fontWeight: 600, color: 'var(--b-text)', lineHeight: 1.25, marginBottom: '1rem' }}>
           About Medi Lexi
         </h1>
         <p style={{ ...PROSE, marginBottom: 0 }}>
@@ -56,10 +58,10 @@ export default function AboutPage() {
       {/* ── Stats ── */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem', marginBottom: '2.5rem' }}>
         {STATS.map(({ n, label, sub }) => (
-          <div key={label} style={{ background: 'var(--color-panel)', border: '1px solid var(--color-border)', padding: '1rem 0.75rem', textAlign: 'center', boxShadow: '2px 2px 0 0 rgba(150,140,255,0.2)' }}>
-            <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '1rem', color: 'var(--color-gold)', lineHeight: 1.6, marginBottom: '0.3rem' }}>{n}</div>
-            <div style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-text)', marginBottom: '0.15rem' }}>{label}</div>
-            <div style={{ fontSize: '0.75rem', color: 'var(--color-text-dim)' }}>{sub}</div>
+          <div key={label} style={{ background: 'var(--b-panel)', border: '1px solid var(--b-border)', borderRadius: '14px', padding: '1rem 0.75rem', textAlign: 'center', boxShadow: 'none' }}>
+            <div style={{ fontFamily: 'var(--b-display)', fontSize: '1.75rem', fontWeight: 600, color: 'var(--b-primary)', lineHeight: 1.2, marginBottom: '0.3rem' }}>{n}</div>
+            <div style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--b-text)', marginBottom: '0.15rem' }}>{label}</div>
+            <div style={{ fontSize: '0.75rem', color: 'var(--b-dim)' }}>{sub}</div>
           </div>
         ))}
       </div>
@@ -69,8 +71,8 @@ export default function AboutPage() {
         <h2 style={H2}>Who Is It For?</h2>
         <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
           {AUDIENCES.map(([who, what]) => (
-            <li key={who} style={{ ...PROSE, marginBottom: 0, paddingLeft: '1rem', borderLeft: '2px solid var(--color-border)' }}>
-              <strong style={{ color: 'var(--color-text)' }}>{who}</strong>
+            <li key={who} style={{ ...PROSE, marginBottom: 0, paddingLeft: '1rem', borderLeft: '2px solid var(--b-border)' }}>
+              <strong style={{ color: 'var(--b-text)' }}>{who}</strong>
               {' · '}{what}
             </li>
           ))}
@@ -83,9 +85,9 @@ export default function AboutPage() {
         <p style={PROSE}>Each term is assigned one of three levels to guide study priority:</p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
           {LEVELS.map(([lvl, color, desc]) => (
-            <div key={lvl} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', padding: '0.6rem 0.75rem', background: 'var(--color-panel)', borderLeft: `3px solid ${color}` }}>
-              <span style={{ fontSize: '0.85rem', whiteSpace: 'nowrap', minWidth: '130px', color: 'var(--color-text)' }}>{lvl}</span>
-              <span style={{ fontSize: '0.88rem', color: 'var(--color-text-dim)', lineHeight: 1.6 }}>{desc}</span>
+            <div key={lvl} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', padding: '0.6rem 0.75rem', background: 'var(--b-panel)', borderLeft: `3px solid ${color}` }}>
+              <span style={{ fontSize: '0.85rem', whiteSpace: 'nowrap', minWidth: '130px', color: 'var(--b-text)' }}>{lvl}</span>
+              <span style={{ fontSize: '0.88rem', color: 'var(--b-dim)', lineHeight: 1.6 }}>{desc}</span>
             </div>
           ))}
         </div>
@@ -103,7 +105,7 @@ export default function AboutPage() {
         <p style={PROSE}>
           Korean translations follow standard medical Korean terminology as used in Korean healthcare and
           academic settings. The multilingual dataset currently includes{' '}
-          <strong style={{ color: 'var(--color-text)' }}>{multilingualCount} Korean entries</strong>;
+          <strong style={{ color: 'var(--b-text)' }}>{multilingualCount} Korean entries</strong>;
           additional languages are added progressively.
         </p>
         <p style={PROSE}>
@@ -113,10 +115,10 @@ export default function AboutPage() {
       </section>
 
       {/* ── Disclaimer ── */}
-      <section style={{ marginBottom: '2rem', background: 'var(--color-panel)', border: '1px solid var(--color-border)', padding: '1.25rem 1.5rem' }}>
+      <section style={{ marginBottom: '2rem', background: 'var(--b-panel)', border: '1px solid var(--b-border)', borderRadius: '14px', padding: '1.25rem 1.5rem' }}>
         <h2 style={{ ...H2, marginBottom: '0.75rem' }}>⚕ Disclaimer</h2>
         <p style={PROSE}>
-          Medi Lexi is an <strong style={{ color: 'var(--color-text)' }}>educational resource only</strong>.
+          Medi Lexi is an <strong style={{ color: 'var(--b-text)' }}>educational resource only</strong>.
           It is not intended to provide medical advice, diagnosis, or treatment recommendations.
           Clinical decisions should always be made by qualified healthcare professionals in
           consultation with patients.
@@ -136,7 +138,7 @@ export default function AboutPage() {
           copyright law. © 2026 Medi Lexi. All rights reserved.
         </p>
         <p style={PROSE}>
-          You may use this site for <strong style={{ color: 'var(--color-text)' }}>personal and educational purposes</strong> only.
+          You may use this site for <strong style={{ color: 'var(--b-text)' }}>personal and educational purposes</strong> only.
           The following are not permitted without explicit written permission:
         </p>
         <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.4rem', marginBottom: '0.75rem' }}>
@@ -146,7 +148,7 @@ export default function AboutPage() {
             'Incorporating content into commercial products or services',
             'Scraping or automated extraction of data',
           ].map(item => (
-            <li key={item} style={{ ...PROSE, marginBottom: 0, paddingLeft: '1rem', borderLeft: '2px solid var(--color-border)' }}>
+            <li key={item} style={{ ...PROSE, marginBottom: 0, paddingLeft: '1rem', borderLeft: '2px solid var(--b-border)' }}>
               {item}
             </li>
           ))}
@@ -166,7 +168,8 @@ export default function AboutPage() {
           href="https://docs.google.com/forms/d/e/1FAIpQLSd7lvh6A2B8npmNCo3aarU4E-J7s4k3NxwsCqiTQ-MoYkgJaA/viewform"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ display: 'inline-block', fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', padding: '0.55rem 1.1rem', border: '1px solid var(--color-gold)', color: 'var(--color-gold)', textDecoration: 'none', letterSpacing: '0.04em', lineHeight: 2 }}
+          className="b-press b-focus"
+          style={{ display: 'inline-block', fontSize: '0.85rem', fontWeight: 600, padding: '0.6rem 1.2rem', borderRadius: '12px', border: '1px solid var(--b-primary)', color: 'var(--b-primary)', textDecoration: 'none' }}
         >
           Open Feedback Form →
         </a>

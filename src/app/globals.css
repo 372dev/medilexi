@@ -907,6 +907,23 @@ body.day .b-badge--s { background: #FDECEC; color: #991B1B; border-color: #F1A9A
 }
 .b-field:hover { color: var(--b-primary); border-color: var(--b-primary); }
 
+/* ── Flashcard session: fit the viewport, never scroll mid-card ──
+   A learner should reach the flip card AND the judge buttons without scrolling,
+   even with a bookmarks bar eating viewport height. Chrome above the session is
+   58px sticky header + 24px main padding + 16px session margin = 98px, plus
+   24px main padding below = 122px total. dvh (with a vh fallback) so mobile
+   browser chrome is handled too. Below ~540px tall we stop shrinking and allow
+   scroll rather than crushing the card. */
+.b-session {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 122px);
+  height: calc(100dvh - 122px);
+  min-height: 420px;
+}
+/* The flip card absorbs whatever vertical space the controls leave over. */
+.b-session__card { flex: 1 1 auto; min-height: 0; }
+
 /* Word-part token inside a flashcard chip — the codified triad, theme-aware
    (night needs the lighter tints; day the darker ones), matching .b-badge. */
 .b-part--p { color: #93C5FD; }

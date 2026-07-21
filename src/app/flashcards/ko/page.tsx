@@ -290,7 +290,7 @@ export default function KoFlashcardsPage() {
 
       {/* ── Session area ── */}
       {started && !showSettings && (
-        <div className="mx-auto mt-4 w-full max-w-[640px]">
+        <div className="b-session mx-auto mt-4 w-full max-w-[640px]">
 
           {!done && card && (
             <>
@@ -322,7 +322,7 @@ export default function KoFlashcardsPage() {
               {/* Flip card */}
               <div
                 onClick={() => setFlipped(f => !f)}
-                className="mb-5 h-[380px] cursor-pointer"
+                className="b-session__card mb-4 cursor-pointer"
                 style={{ perspective:'1000px' }}
               >
                 <div

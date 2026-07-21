@@ -907,6 +907,15 @@ body.day .b-badge--s { background: #FDECEC; color: #991B1B; border-color: #F1A9A
 }
 .b-field:hover { color: var(--b-primary); border-color: var(--b-primary); }
 
+/* Word-part token inside a flashcard chip — the codified triad, theme-aware
+   (night needs the lighter tints; day the darker ones), matching .b-badge. */
+.b-part--p { color: #93C5FD; }
+.b-part--r { color: #6EE7B7; }
+.b-part--s { color: #FCA5A5; }
+body.day .b-part--p { color: #1D4ED8; }
+body.day .b-part--r { color: #166534; }
+body.day .b-part--s { color: #991B1B; }
+
 /* Fuse search-hit highlight */
 .b-mark {
   background: color-mix(in srgb, var(--b-primary) 24%, transparent);

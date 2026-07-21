@@ -26,7 +26,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+# `.env*.local` alone would let a bare `.env` be committed, which is exactly how
+# a service-role key leaks. Ignore every .env variant, then re-allow the example.
+.env
+.env.*
+!.env.example
 
 # vercel
 .vercel

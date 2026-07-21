@@ -62,9 +62,9 @@ export default function TermsIndexPage() {
 
       {/* Jump nav — sticky, so the letters stay reachable down a 1,500-row page */}
       <nav className="b-jump mb-8 py-2.5" aria-label="Jump to letter">
-        <div className="b-scroll-x gap-1.5">
+        <div className="b-scroll-x gap-1">
           {groups.map((g) => (
-            <a key={g.letter} href={`#letter-${g.letter}`} className="b-fpill b-focus">
+            <a key={g.letter} href={`#letter-${g.letter}`} className="b-fpill b-fpill--letter b-focus">
               {g.letter}
             </a>
           ))}

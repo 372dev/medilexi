@@ -977,6 +977,12 @@ body.day .b-part--s { color: #991B1B; }
   scrollbar-width: none; -ms-overflow-style: none;
 }
 .b-scroll-x::-webkit-scrollbar { display: none; }
+/* Single-character pill: tight enough that the whole alphabet fits the page
+   width on a desktop, so the row only has to scroll on narrow screens. */
+.b-fpill--letter {
+  display: inline-flex; justify-content: center;
+  min-width: 1.75rem; padding-left: 0.4rem; padding-right: 0.4rem;
+}
 
 /* Static specialty chip (the term page's non-clickable twin of .b-field) */
 .b-chip {

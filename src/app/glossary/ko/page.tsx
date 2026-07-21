@@ -6,12 +6,16 @@ import Fuse from 'fuse.js'
 import baseData from '@/data/medical_vocab.json'
 import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple.json'
-import { ALL_LEVELS, STARS, STAR_CLASS, LVL_CARD_CLASS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
+import { ALL_LEVELS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { hangulSearch, jamoFlat, isKorean } from '@/lib/hangul'
 import { getSegments } from '@/lib/word-segments'
 import { slugify } from '@/lib/slug'
 import { rankTier } from '@/lib/search-rank'
+
+/* Direction "Signal" redesign. Search (Korean jamo + Fuse), IME composition
+   handling, ranking and reveal are unchanged from the live page; only the
+   presentation moved to the .b-* kit. Level reads as a labelled pill. */
 
 interface BaseEntry { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: number; parts?: { p?: string[]; r?: string[]; s?: string[] } }
 interface KoEntry { en_h: string; ko_h: string; ko_l?: string; d_ko?: string }
@@ -42,7 +46,7 @@ function hi(text: string, idx?: readonly [number,number][]): ReactNode {
   const parts: ReactNode[] = []; let cur = 0
   for (const [s, e] of idx) {
     if (s > cur) parts.push(text.slice(cur, s))
-    parts.push(<mark key={s} className="c-search-match">{text.slice(s, e+1)}</mark>)
+    parts.push(<mark key={s} className="b-mark">{text.slice(s, e+1)}</mark>)
     cur = e + 1
   }
   if (cur < text.length) parts.push(text.slice(cur))
@@ -83,23 +87,37 @@ function KoCard({ v, defLang, onFieldClick, mm }: { v: MergedEntry; defLang: 'ko
   const definition = defLang === 'en' ? v.d : (v.d_ko || v.d)
   const defKey = defLang === 'en' ? 'd' : 'd_ko'
   return (
-    <div className={`c-card ${LVL_CARD_CLASS[v.lvl]||''}`} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
-      <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'0.5rem' }}>
-        <span className={`c-stars ${STAR_CLASS[v.lvl]||''}`} role="img" aria-label={`Importance: ${LVL_TEXT[v.lvl]}`}>{STARS[v.lvl]}</span>
-        {v.abbr && <span className="c-abbr">{hi(v.abbr, mm?.abbr)}</span>}
+    <div
+      className="b-card b-lift b-press flex flex-col gap-2 p-5"
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <div className="flex items-center justify-between gap-2">
+        <span className={`b-lvl b-lvl--${v.lvl}`}>{LVL_TEXT[v.lvl]}</span>
+        {v.abbr && <span className="b-abbr">{hi(v.abbr, mm?.abbr)}</span>}
       </div>
-      <Link href={`/term/${slugify(v.en_h)}`} className="c-card-title" style={{ display:'block', fontSize:'1.15rem', fontWeight:700, color:'var(--color-text)', marginBottom:'0.15rem', lineHeight:1.3, textDecoration:'none' }}>
-        {hovered && v.parts ? segs.map((s,i) => s.wp
-          ? <span key={i} className={`c-part-highlight c-part-${s.type}`} data-tooltip={`${s.wp} · ${s.meaning}`}>{s.text}</span>
-          : <span key={i}>{s.text}</span>) : hi(v.en_h, mm?.en_h)}
+
+      <Link
+        href={`/term/${slugify(v.en_h)}`}
+        className="b-focus block text-[1.2rem] font-semibold leading-[1.28] tracking-[-0.005em] text-[var(--b-text)] no-underline"
+        style={{ fontFamily: 'var(--b-display)' }}
+      >
+        {hovered && v.parts
+          ? segs.map((s,i) => s.wp
+            ? <span key={i} className={`c-part-highlight c-part-${s.type}`} data-tooltip={`${s.wp} · ${s.meaning}`}>{s.text}</span>
+            : <span key={i}>{s.text}</span>)
+          : hi(v.en_h, mm?.en_h)}
       </Link>
-      {v.en_l && <div style={{ fontSize:'1rem', color:'var(--color-text-dim)', marginBottom:'0.3rem' }}>{hi(v.en_l, mm?.en_l)}</div>}
-      {v.ko_h && <div className="ko-h">{hi(v.ko_h, mm?.ko_h)}</div>}
-      {v.ko_l && <div className="ko-l">{hi(v.ko_l, mm?.ko_l)}</div>}
-      <p style={{ fontSize:'0.88rem', color:'var(--color-text-dim)', lineHeight:1.6, marginBottom:'0.65rem' }}>{hi(definition, mm?.[defKey])}</p>
-      <div style={{ display:'flex', flexWrap:'wrap', gap:'0.3rem' }}>
+
+      {v.en_l && <div className="text-[0.96rem] text-[var(--b-dim)]">{hi(v.en_l, mm?.en_l)}</div>}
+      {v.ko_h && <div className="text-[1.02rem] font-semibold text-[var(--b-primary)]">{hi(v.ko_h, mm?.ko_h)}</div>}
+      {v.ko_l && <div className="text-[0.9rem] text-[var(--b-dim)]">{hi(v.ko_l, mm?.ko_l)}</div>}
+
+      <p className="text-[0.87rem] leading-[1.6] text-[var(--b-dim)]">{hi(definition, mm?.[defKey])}</p>
+
+      <div className="mt-1 flex flex-wrap gap-1.5">
         {v.f.map(f => (
-          <button key={f} className="c-field-badge" onClick={() => onFieldClick(f)}>{f}</button>
+          <button key={f} className="b-field b-focus" onClick={() => onFieldClick(f)}>{f}</button>
         ))}
       </div>
     </div>
@@ -108,19 +126,19 @@ function KoCard({ v, defLang, onFieldClick, mm }: { v: MergedEntry; defLang: 'ko
 
 function KoGlossarySkeleton() {
   return (
-    <div className="c-grid">
-      {Array.from({ length: 9 }).map((_, i) => (
-        <div key={i} className="c-skeleton-card">
-          <div style={{ display:'flex', justifyContent:'space-between', marginBottom:'0.75rem' }}>
-            <div className="c-skeleton-line" style={{ width:'4rem', height:'0.85rem' }} />
+    <div className="mx-auto w-full max-w-[1100px]">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(290px,1fr))] gap-4">
+        {Array.from({ length: 9 }).map((_, i) => (
+          <div key={i} className="b-card flex flex-col gap-3 p-5">
+            <div className="h-4 w-20 rounded bg-[var(--b-raised)]" />
+            <div className="h-5 w-[70%] rounded bg-[var(--b-raised)]" />
+            <div className="h-4 w-[50%] rounded bg-[var(--b-raised)]" />
+            <div className="h-4 w-[40%] rounded bg-[var(--b-raised)]" />
+            <div className="h-3 w-full rounded bg-[var(--b-raised)]" />
+            <div className="h-3 w-[80%] rounded bg-[var(--b-raised)]" />
           </div>
-          <div className="c-skeleton-line" style={{ width:'70%', height:'1.1rem', marginBottom:'0.35rem' }} />
-          <div className="c-skeleton-line" style={{ width:'50%', height:'0.95rem', marginBottom:'0.35rem' }} />
-          <div className="c-skeleton-line" style={{ width:'40%', height:'0.9rem', marginBottom:'0.75rem' }} />
-          <div className="c-skeleton-line" style={{ width:'100%', height:'0.75rem', marginBottom:'0.3rem' }} />
-          <div className="c-skeleton-line" style={{ width:'80%', height:'0.75rem' }} />
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   )
 }
@@ -250,12 +268,13 @@ export default function KoGlossaryPage() {
   const { visible, sentinelRef } = useInfiniteReveal(filtered.length, filtered)
 
   return (
-    <>
+    <div className="mx-auto flex w-full max-w-[1100px] flex-col gap-5">
+
       {/* ── Sticky filter bar ── */}
-      <div className="c-filter-bar">
-        <div className="c-search-row">
+      <div className="sticky top-[57px] z-[90] -mx-1 flex flex-col gap-3 bg-[var(--b-bg)] px-1 pb-4 pt-3">
+        <div className="flex flex-wrap items-center gap-2">
           <input
-            className="c-search"
+            className="b-search min-w-[220px] flex-1"
             type="text"
             aria-label="Search medical terms in English or Korean"
             placeholder="Search terms in English or Korean..."
@@ -272,47 +291,78 @@ export default function KoGlossaryPage() {
               setSearchQuery(v)
             }}
           />
-          <select className="c-field-drop" aria-label="Filter by specialty" value={fieldFilter||''} onChange={e => setField(e.target.value||null)}>
-            <option value="">All Fields</option>
+          <select
+            className="b-select b-focus"
+            aria-label="Filter by specialty"
+            value={fieldFilter||''}
+            onChange={e => setField(e.target.value||null)}
+          >
+            <option value="">All fields</option>
             {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
           </select>
-          <Link href="/flashcards/ko" className="c-btn-pixel" style={{ fontSize:'0.5rem', whiteSpace:'nowrap', padding:'0 1rem', display:'flex', alignItems:'center' }}>
+          <Link
+            href="/flashcards/ko"
+            className="b-press b-focus whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-2.5 text-[0.82rem] font-semibold hover:border-[var(--b-primary)] hover:text-[var(--b-primary)]"
+          >
             Flashcard →
           </Link>
         </div>
-        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:'0.75rem', flexWrap:'wrap' }}>
-          <div style={{ display:'flex', alignItems:'center', gap:'0.75rem', flexWrap:'wrap' }}>
-            <div className="c-filter-row" style={{ marginBottom:0 }}>
-              <button className={`c-pill ${!levelFilter?'c-pill--active':''}`} onClick={() => setLevel(null)}>All</button>
+
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="flex flex-wrap items-center gap-3">
+            <div className="flex flex-wrap gap-2">
+              <button className={`b-fpill b-focus ${!levelFilter?'b-fpill--active':''}`} onClick={() => setLevel(null)}>
+                All levels
+              </button>
               {ALL_LEVELS.map(lvl => (
-                <button key={lvl} className={`c-pill c-pill--star ${levelFilter===lvl?'c-pill--active':''}`} aria-label={LVL_TEXT[lvl]} onClick={() => setLevel(levelFilter===lvl?null:lvl)}>
-                  {STARS[lvl]}
+                <button
+                  key={lvl}
+                  className={`b-fpill b-focus ${levelFilter===lvl?'b-fpill--active':''}`}
+                  onClick={() => setLevel(levelFilter===lvl?null:lvl)}
+                >
+                  {LVL_TEXT[lvl]}
                 </button>
               ))}
             </div>
-            <div style={{ display:'flex', alignItems:'center', gap:'0.5rem' }}>
-              <span style={{ fontFamily:'var(--font-pixel)', fontSize:'0.42rem', color:'var(--color-text-dim)', whiteSpace:'nowrap', lineHeight:1.8 }}>Definition:</span>
-              <div className="c-toggle">
-                <button className={`c-toggle__btn ${defLang==='ko'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('ko')}>Korean</button>
-                <button className={`c-toggle__btn ${defLang==='en'?'c-toggle__btn--active':''}`} onClick={() => setDefLang('en')}>English</button>
+            <div className="flex items-center gap-2">
+              <span className="text-[0.72rem] font-semibold text-[var(--b-dim)]">Definition</span>
+              <div className="inline-flex overflow-hidden rounded-lg border border-[var(--b-border)]">
+                {(['ko','en'] as const).map(l => (
+                  <button
+                    key={l}
+                    onClick={() => setDefLang(l)}
+                    aria-pressed={defLang===l}
+                    className={`b-focus px-3 py-1.5 text-[0.76rem] font-semibold ${defLang===l ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'}`}
+                  >
+                    {l==='ko'?'Korean':'English'}
+                  </button>
+                ))}
               </div>
             </div>
           </div>
-          <span className="c-count" style={{ marginBottom:0 }}>{filtered.length} terms</span>
+          <span className="text-[0.78rem] font-medium text-[var(--b-dim)] tabular-nums">{filtered.length} terms</span>
         </div>
       </div>
 
       {/* ── Cards ── */}
       {!mounted ? <KoGlossarySkeleton /> : (
         <>
-          {noExact && <div className="c-search-note">No exact match for “{deferredQuery.trim()}”. Showing related terms.</div>}
-          <div className="c-grid">
-            {filtered.slice(0, visible).map(v => <KoCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />)}
+          {noExact && (
+            <div className="rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-3 text-[0.84rem] text-[var(--b-dim)]">
+              No exact match for “{deferredQuery.trim()}”. Showing related terms.
+            </div>
+          )}
+          <div className="grid grid-cols-[repeat(auto-fill,minmax(290px,1fr))] gap-4">
+            {filtered.slice(0, visible).map(v => (
+              <KoCard key={v.en_h} v={v} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />
+            ))}
           </div>
           <div ref={sentinelRef} aria-hidden="true" />
-          {filtered.length === 0 && <div className="c-empty">No terms found.</div>}
+          {filtered.length === 0 && (
+            <div className="py-16 text-center text-[0.92rem] text-[var(--b-dim)]">No terms found.</div>
+          )}
         </>
       )}
-    </>
+    </div>
   )
 }

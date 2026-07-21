@@ -871,3 +871,44 @@ body.day .b-badge--s { background: #FDECEC; color: #991B1B; border-color: #F1A9A
 }
 
 .b-focus:focus-visible { outline: 2px solid var(--b-primary); outline-offset: 2px; }
+
+/* ── Glossary kit (term cards, specialty select, search highlight) ── */
+
+/* Specialty dropdown — matches .b-search, custom chevron so it reads the same
+   in light and dark (a neutral slate that sits on either panel). */
+.b-select {
+  font-family: inherit; font-size: 0.84rem; cursor: pointer;
+  padding: 0.6rem 2.1rem 0.6rem 0.85rem; border-radius: 12px;
+  background: var(--b-panel); color: var(--b-text);
+  border: 1px solid var(--b-border); outline: none;
+  transition: border-color .12s;
+  appearance: none; -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2394A3B8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  background-repeat: no-repeat; background-position: right 0.75rem center;
+}
+.b-select:focus { border-color: var(--b-primary); }
+
+/* Abbreviation chip on a term card */
+.b-abbr {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 0.16rem 0.46rem; border-radius: 6px; white-space: nowrap;
+  background: color-mix(in srgb, var(--b-primary) 12%, transparent);
+  color: var(--b-primary);
+  border: 1px solid color-mix(in srgb, var(--b-primary) 30%, transparent);
+}
+
+/* Clickable specialty badge on a term card */
+.b-field {
+  font-family: inherit; font-size: 0.7rem; font-weight: 600; cursor: pointer;
+  padding: 0.2rem 0.56rem; border-radius: 999px; white-space: nowrap;
+  background: var(--b-bg); color: var(--b-dim);
+  border: 1px solid var(--b-border);
+  transition: color .12s, border-color .12s;
+}
+.b-field:hover { color: var(--b-primary); border-color: var(--b-primary); }
+
+/* Fuse search-hit highlight */
+.b-mark {
+  background: color-mix(in srgb, var(--b-primary) 24%, transparent);
+  color: inherit; border-radius: 3px; padding: 0 0.06em;
+}

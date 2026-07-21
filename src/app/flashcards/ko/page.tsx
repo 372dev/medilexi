@@ -5,7 +5,10 @@ import Link from 'next/link'
 import vocabData from '@/data/medical_vocab.json'
 import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple.json'
-import { ALL_LEVELS, STARS, STAR_CLASS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
+import { ALL_LEVELS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
+
+/* Direction "Signal" redesign. Deck / session / keyboard / direction logic is
+   unchanged from the live page; only the presentation moved to the .b-* kit. */
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
@@ -20,8 +23,7 @@ interface MergedEntry extends VocabEntry {
 }
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
-const partsMap   = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
-const PART_COLOR = { p: '#3B82F6', r: '#3BAA6A', s: '#C94040' } as const
+const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 
 const koMap = Object.fromEntries((koData as KoEntry[]).map(k => [k.en_h, k]))
 const vocab = (vocabData as unknown as VocabEntry[])
@@ -30,6 +32,8 @@ const vocab = (vocabData as unknown as VocabEntry[])
 
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
+const LVL_BAR: Record<number,string> = { 3:'var(--b-primary)', 2:'var(--b-amber)', 1:'var(--b-dim)' }
+const display = { fontFamily: 'var(--b-display)' }
 
 export default function KoFlashcardsPage() {
   /* ── Settings ── */
@@ -121,109 +125,162 @@ export default function KoFlashcardsPage() {
     return () => window.removeEventListener('keydown', onKey)
   }, [started, showSettings, mode])
 
-  /* ════════════════════════════════════
-     RENDER
-  ════════════════════════════════════ */
+  const cardParts = card?.parts
+  const hasParts = !!cardParts && (['p','r','s'] as const).some(t => (cardParts[t]?.length ?? 0) > 0)
+
   return (
     <>
-      {/* ── Settings Modal ── */}
+      {/* ── Settings modal ── */}
       {showSettings && (
-        <div style={{ position: 'fixed', inset: 0, zIndex: 200, background: 'rgba(13,11,43,0.94)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
-          <div style={{ background: 'var(--color-panel)', border: '1px solid var(--color-border)', padding: '2rem', width: '100%', maxWidth: '420px', boxShadow: '4px 4px 0 0 rgba(240,180,41,0.2)' }}>
-            <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.6rem', color: 'var(--color-gold)', lineHeight: 2, marginBottom: '1.75rem' }}>
-              Korean Flashcard Setup
+        <div
+          className="fixed inset-0 z-[200] flex items-center justify-center overflow-y-auto p-4 backdrop-blur-sm"
+          style={{ background: 'color-mix(in srgb, var(--b-bg) 94%, transparent)' }}
+        >
+          <div className="b-card b-lift w-full max-w-[440px] p-7">
+            <div className="mb-6 flex flex-col gap-1">
+              <span className="text-[0.7rem] font-bold uppercase tracking-[0.14em] text-[var(--b-primary)]">
+                한국어 · Korean
+              </span>
+              <h1 className="m-0 text-[1.5rem] font-semibold tracking-[-0.008em]" style={display}>
+                Flashcard setup
+              </h1>
+            </div>
+
+            {/* Direction */}
+            <div className="mb-5 flex flex-col gap-2">
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Direction</span>
+              <div className="inline-flex w-fit overflow-hidden rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)]">
+                {([['en-ko','EN → KO'],['ko-en','KO → EN']] as const).map(([d,label]) => (
+                  <button
+                    key={d}
+                    onClick={() => setDirection(d)}
+                    aria-pressed={direction===d}
+                    className={`b-focus px-4 py-2 text-[0.82rem] font-semibold ${
+                      direction===d ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'
+                    }`}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
             </div>
 
             {/* Mode */}
-            <div style={{ marginBottom: '1.25rem' }}>
-              <div style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)', marginBottom: '0.5rem' }}>Mode</div>
-              <div className="c-toggle">
-                <button className={`c-toggle__btn ${mode === 'study' ? 'c-toggle__btn--active' : ''}`} onClick={() => setMode('study')}>Study</button>
-                <button className={`c-toggle__btn ${mode === 'quiz'  ? 'c-toggle__btn--active' : ''}`} onClick={() => setMode('quiz')}>Quiz</button>
+            <div className="mb-5 flex flex-col gap-2">
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Mode</span>
+              <div className="inline-flex w-fit overflow-hidden rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)]">
+                {(['study','quiz'] as const).map(m => (
+                  <button
+                    key={m}
+                    onClick={() => setMode(m)}
+                    aria-pressed={mode===m}
+                    className={`b-focus px-5 py-2 text-[0.82rem] font-semibold capitalize ${
+                      mode===m ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'
+                    }`}
+                  >
+                    {m}
+                  </button>
+                ))}
               </div>
-              <div style={{ fontSize: '0.78rem', color: 'var(--color-text-dim)', marginTop: '0.5rem', opacity: 0.7 }}>
+              <p className="m-0 text-[0.78rem] leading-[1.6] text-[var(--b-dim)]">
                 {mode === 'study'
-                  ? <>Browse freely. <kbd>Space</kbd> to flip, <kbd>←</kbd> <kbd>→</kbd> to navigate</>
-                  : <>Mark each card. <kbd>Space</kbd> to flip, <kbd>←</kbd> Don't know · Know it <kbd>→</kbd></>}
-              </div>
-            </div>
-
-            {/* Direction — EN→KO first */}
-            <div style={{ marginBottom: '1.25rem' }}>
-              <div style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)', marginBottom: '0.5rem' }}>Direction</div>
-              <div className="c-toggle">
-                <button className={`c-toggle__btn ${!isKoEn ? 'c-toggle__btn--active' : ''}`} onClick={() => setDirection('en-ko')}>EN → KO</button>
-                <button className={`c-toggle__btn ${isKoEn  ? 'c-toggle__btn--active' : ''}`} onClick={() => setDirection('ko-en')}>KO → EN</button>
-              </div>
+                  ? <>Browse freely. <kbd className="b-kbd">Space</kbd> to flip, <kbd className="b-kbd">←</kbd> <kbd className="b-kbd">→</kbd> to navigate</>
+                  : <>Mark each card. <kbd className="b-kbd">Space</kbd> to flip, <kbd className="b-kbd">←</kbd> Review · Know it <kbd className="b-kbd">→</kbd></>}
+              </p>
             </div>
 
             {/* Level */}
-            <div style={{ marginBottom: '1.25rem' }}>
-              <div style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)', marginBottom: '0.5rem' }}>Level</div>
-              <div className="c-filter-row" style={{ marginBottom: 0 }}>
-                <button className={`c-pill ${!lvlFilter ? 'c-pill--active' : ''}`} onClick={() => setLvl(null)}>All</button>
+            <div className="mb-5 flex flex-col gap-2">
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Level</span>
+              <div className="flex flex-wrap gap-2">
+                <button className={`b-fpill b-focus ${!lvlFilter?'b-fpill--active':''}`} onClick={() => setLvl(null)}>All</button>
                 {ALL_LEVELS.map(lvl => (
-                  <button key={lvl} className={`c-pill c-pill--star ${lvlFilter === lvl ? 'c-pill--active' : ''}`}
-                    aria-label={LVL_TEXT[lvl]} onClick={() => setLvl(lvlFilter === lvl ? null : lvl)}>{STARS[lvl]}</button>
+                  <button
+                    key={lvl}
+                    className={`b-fpill b-focus ${lvlFilter===lvl?'b-fpill--active':''}`}
+                    onClick={() => setLvl(lvlFilter===lvl?null:lvl)}
+                  >
+                    {LVL_TEXT[lvl]}
+                  </button>
                 ))}
               </div>
             </div>
 
             {/* Specialty */}
-            <div style={{ marginBottom: '1.25rem' }}>
-              <div style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)', marginBottom: '0.5rem' }}>Specialty</div>
-              <select className="c-field-drop" style={{ marginBottom: 0, width: '100%', maxWidth: '100%' }}
-                value={fieldFilter || ''} onChange={e => setField(e.target.value || null)}>
-                <option value="">All Specialties</option>
+            <div className="mb-5 flex flex-col gap-2">
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Specialty</span>
+              <select
+                className="b-select b-focus w-full"
+                aria-label="Filter by specialty"
+                value={fieldFilter || ''}
+                onChange={e => setField(e.target.value || null)}
+              >
+                <option value="">All specialties</option>
                 {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
               </select>
             </div>
 
             {/* Count */}
-            <div style={{ marginBottom: '1.5rem' }}>
-              <div style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)', marginBottom: '0.5rem' }}>Cards per session</div>
-              <div className="c-toggle">
+            <div className="mb-5 flex flex-col gap-2">
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Cards per session</span>
+              <div className="inline-flex w-fit overflow-hidden rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)]">
                 {COUNT_OPTIONS.map(n => (
-                  <button key={n ?? 'all'} className={`c-toggle__btn ${countLimit === n ? 'c-toggle__btn--active' : ''}`}
-                    onClick={() => setCount(n)}>{n ?? 'All'}</button>
+                  <button
+                    key={n ?? 'all'}
+                    onClick={() => setCount(n)}
+                    aria-pressed={countLimit===n}
+                    className={`b-focus px-4 py-2 text-[0.82rem] font-semibold ${
+                      countLimit===n ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'
+                    }`}
+                  >
+                    {n ?? 'All'}
+                  </button>
                 ))}
               </div>
             </div>
 
             {/* Level distribution */}
-            <div style={{ borderTop: '1px solid var(--color-border)', paddingTop: '1rem', marginBottom: '1.25rem' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '0.55rem' }}>
-                <span style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.75rem', color: 'var(--color-gold)' }}>{previewCount}</span>
-                <span style={{ fontSize: '0.8rem', color: 'var(--color-text-dim)' }}>
+            <div className="mb-5 border-t border-[var(--b-border)] pt-4">
+              <div className="mb-2 flex items-baseline justify-between">
+                <span className="text-[1.4rem] font-semibold tabular-nums text-[var(--b-primary)]" style={display}>
+                  {previewCount}
+                </span>
+                <span className="text-[0.8rem] text-[var(--b-dim)]">
                   {countLimit && filtered.length > countLimit ? `random from ${filtered.length}` : 'cards selected'}
                 </span>
               </div>
-              <div style={{ height: '6px', display: 'flex', borderRadius: '3px', overflow: 'hidden', marginBottom: '0.55rem', background: 'var(--color-border)' }}>
-                {([3, 2, 1] as const).map((lvl, i) => {
-                  const cnt = filtered.filter(v => v.lvl === lvl).length
-                  const color = i === 0 ? '#F0B429' : i === 1 ? '#9B8FEF' : '#3D36A0'
-                  return cnt > 0 ? <div key={lvl} style={{ width: `${(cnt/filtered.length)*100}%`, background: color, transition: 'width 0.3s' }} /> : null
+              <div className="mb-2 flex h-1.5 overflow-hidden rounded-full bg-[var(--b-border)]">
+                {([3,2,1] as const).map(l => {
+                  const cnt = filtered.filter(v => v.lvl === l).length
+                  return cnt > 0 && filtered.length > 0 ? (
+                    <div key={l} style={{ width:`${(cnt/filtered.length)*100}%`, background:LVL_BAR[l], transition:'width 0.3s' }} />
+                  ) : null
                 })}
               </div>
-              <div style={{ display: 'flex', gap: '1rem' }}>
-                {([[3,'⭐⭐⭐','#F0B429'],[2,'⭐⭐','#9B8FEF'],[1,'⭐','#5A5490']] as const).map(([lvl, label, color]) => (
-                  <span key={lvl} style={{ fontSize: '0.78rem', color: 'var(--color-text-dim)' }}>
-                    <span style={{ color }}>{label}</span> {filtered.filter(v => v.lvl === lvl).length}
+              <div className="flex flex-wrap gap-x-4 gap-y-1">
+                {([3,2,1] as const).map(l => (
+                  <span key={l} className="flex items-center gap-1.5 text-[0.76rem] text-[var(--b-dim)]">
+                    <span className="h-2 w-2 rounded-full" style={{ background:LVL_BAR[l] }} aria-hidden="true" />
+                    {LVL_TEXT[l]} <span className="tabular-nums">{filtered.filter(v => v.lvl === l).length}</span>
                   </span>
                 ))}
               </div>
             </div>
 
-            <button className="c-btn-pixel" onClick={startDeck} disabled={previewCount === 0}
-              style={{ width: '100%', fontSize: '0.6rem', padding: '0.85rem', opacity: previewCount === 0 ? 0.4 : 1, cursor: previewCount === 0 ? 'not-allowed' : 'pointer' }}>
+            <button
+              onClick={startDeck}
+              disabled={previewCount===0}
+              className="b-press b-glow b-focus w-full rounded-2xl bg-[var(--b-primary)] py-3.5 text-[0.95rem] font-bold text-[var(--b-on-prim)] disabled:cursor-not-allowed disabled:opacity-40"
+              style={display}
+            >
               Start →
             </button>
 
-            <div style={{ textAlign: 'center', marginTop: '1.25rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-              <Link href="/glossary/ko" style={{ fontSize: '0.82rem', color: 'var(--color-text-dim)', textDecoration: 'underline' }}>
+            <div className="mt-5 flex flex-col items-center gap-2">
+              <Link href="/glossary/ko" className="b-focus text-[0.82rem] text-[var(--b-dim)] hover:text-[var(--b-text)] hover:underline">
                 ← Back to Korean Glossary
               </Link>
-              <Link href="/" style={{ fontSize: '0.82rem', color: 'var(--color-text-dim)', textDecoration: 'underline', opacity: 0.6 }}>
+              <Link href="/" className="b-focus text-[0.82rem] text-[var(--b-dim)] opacity-70 hover:text-[var(--b-text)] hover:underline">
                 ← Back to Main
               </Link>
             </div>
@@ -233,202 +290,243 @@ export default function KoFlashcardsPage() {
 
       {/* ── Session area ── */}
       {started && !showSettings && (
-        <div style={{ maxWidth: '620px', margin: '2rem auto 0' }}>
+        <div className="mx-auto mt-4 w-full max-w-[640px]">
 
-          {/* ── Active card ── */}
           {!done && card && (
             <>
-              {/* Top row: progress label + setup button */}
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
-                <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)' }}>
-                  {cardIdx + 1} / {deck.length}
-                  {mode === 'quiz'  && <span style={{ marginLeft: '0.75rem', color: '#6EE7B7' }}>✓ {known.size}</span>}
-                  {mode === 'quiz'  && <span style={{ marginLeft: '0.5rem', color: '#FCA5A5' }}>✗ {Math.max(0, cardIdx - known.size)}</span>}
-                  {mode === 'study' && <span style={{ marginLeft: '0.75rem', opacity: 0.5 }}>{isKoEn ? 'KO→EN' : 'EN→KO'}</span>}
+              {/* Progress + settings */}
+              <div className="mb-2 flex items-center justify-between">
+                <div className="flex items-center gap-3 text-[0.82rem] font-semibold tabular-nums text-[var(--b-dim)]">
+                  <span>{cardIdx+1} / {deck.length}</span>
+                  <span className="opacity-60">{isKoEn ? 'KO → EN' : 'EN → KO'}</span>
+                  {mode==='quiz' && <span className="text-[var(--b-primary)]">✓ {known.size}</span>}
+                  {mode==='quiz' && <span className="text-[#FCA5A5]">✗ {Math.max(0, cardIdx - known.size)}</span>}
                 </div>
-                <button onClick={() => setShowSettings(true)}
-                  style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.45rem', color: 'var(--color-text-dim)', background: 'none', border: '1px solid var(--color-border)', padding: '0.2rem 0.55rem', cursor: 'pointer', lineHeight: 1.8, opacity: 0.7 }}>
+                <button
+                  onClick={() => setShowSettings(true)}
+                  aria-label="Session settings"
+                  className="b-press b-focus rounded-lg border border-[var(--b-border)] bg-[var(--b-panel)] px-2.5 py-1.5 text-[0.8rem] text-[var(--b-dim)]"
+                >
                   ⚙
                 </button>
               </div>
 
               {/* Progress bar */}
-              <div style={{ height: '6px', background: 'var(--color-border)', borderRadius: '3px', overflow: 'hidden', marginBottom: '1.25rem' }}>
-                <div style={{ height: '100%', background: 'var(--color-gold)', borderRadius: '3px', width: `${(cardIdx / deck.length) * 100}%`, transition: 'width 0.3s' }} />
+              <div className="mb-5 h-1.5 overflow-hidden rounded-full bg-[var(--b-border)]">
+                <div
+                  className="h-full rounded-full bg-[var(--b-primary)]"
+                  style={{ width:`${(cardIdx/deck.length)*100}%`, transition:'width 0.3s' }}
+                />
               </div>
 
               {/* Flip card */}
-              <div onClick={() => setFlipped(f => !f)}
-                style={{ perspective: '1000px', height: '380px', cursor: 'pointer', marginBottom: '1.25rem' }}>
-                <div style={{ position: 'relative', width: '100%', height: '100%', transformStyle: 'preserve-3d', transition: 'transform 0.2s ease', transform: flipped ? 'rotateY(180deg)' : 'none' }}>
+              <div
+                onClick={() => setFlipped(f => !f)}
+                className="mb-5 h-[380px] cursor-pointer"
+                style={{ perspective:'1000px' }}
+              >
+                <div
+                  className="relative h-full w-full"
+                  style={{ transformStyle:'preserve-3d', transition:'transform 0.28s ease', transform:flipped?'rotateY(180deg)':'none' }}
+                >
                   {/* Front */}
-                  <div style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '0.75rem', padding: '2rem', background: 'var(--color-panel)', border: '1px solid var(--color-border)', boxShadow: '2px 2px 0 0 var(--color-border)' }}>
-                    <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} role="img" aria-label={`Importance: ${LVL_TEXT[card.lvl]}`} style={{ fontSize: '1rem' }}>{STARS[card.lvl]}</span>
+                  <div
+                    className="b-card b-lift absolute inset-0 flex flex-col items-center justify-center gap-4 p-8"
+                    style={{ backfaceVisibility:'hidden' }}
+                  >
+                    <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
                     {isKoEn ? (
                       <>
-                        <div className="ko-h" style={{ fontSize: '2.4rem', textAlign: 'center' }}>{card.ko_h}</div>
-                        {card.ko_l && <div className="ko-l" style={{ fontSize: '1.2rem' }}>{card.ko_l}</div>}
+                        <div className="text-center text-[2.3rem] font-semibold leading-[1.25] text-[var(--b-text)]">{card.ko_h}</div>
+                        {card.ko_l && <div className="text-center text-[1.15rem] text-[var(--b-dim)]">{card.ko_l}</div>}
                       </>
                     ) : (
                       <>
-                        <div style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--color-text)', textAlign: 'center', lineHeight: 1.3 }}>{card.en_h}</div>
-                        {card.abbr && <span className="c-abbr">{card.abbr}</span>}
+                        <div
+                          className="text-center text-[2.1rem] font-semibold leading-[1.2] tracking-[-0.01em] text-[var(--b-text)]"
+                          style={display}
+                        >
+                          {card.en_h}
+                        </div>
+                        {card.abbr && <span className="b-abbr">{card.abbr}</span>}
                       </>
                     )}
-                    <p style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', marginTop: 'auto' }}><kbd>Space</kbd> or tap to reveal</p>
+                    <p className="m-0 mt-auto text-[0.78rem] text-[var(--b-dim)]">
+                      <kbd className="b-kbd">Space</kbd> or tap to reveal
+                    </p>
                   </div>
+
                   {/* Back */}
-                  <div style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', display: 'flex', flexDirection: 'column', padding: '1.5rem 2rem', gap: '0.6rem', background: 'var(--color-panel)', border: '1px solid var(--color-gold-dim)', overflowY: 'auto' }}>
+                  <div
+                    className="b-card b-lift absolute inset-0 flex flex-col gap-2.5 overflow-y-auto p-7"
+                    style={{ backfaceVisibility:'hidden', transform:'rotateY(180deg)', borderColor:'var(--b-primary)' }}
+                  >
                     {isKoEn ? (
                       <>
-                        <div style={{ fontSize: '1.3rem', fontWeight: 700, color: 'var(--color-text)' }}>{card.en_h}</div>
-                        {card.en_l && <div style={{ fontSize: '1rem', color: 'var(--color-text-dim)' }}>{card.en_l}</div>}
-                        <p style={{ fontSize: '0.92rem', color: 'var(--color-text-dim)', lineHeight: 1.7 }}>{card.d}</p>
+                        <div className="text-[1.4rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
+                          {card.en_h}
+                        </div>
+                        {card.en_l && <div className="text-[1rem] text-[var(--b-dim)]">{card.en_l}</div>}
+                        <p className="m-0 text-[0.92rem] leading-[1.65] text-[var(--b-dim)]">{card.d}</p>
                       </>
                     ) : (
                       <>
-                        <div className="ko-h" style={{ fontSize: '1.6rem' }}>{card.ko_h}</div>
-                        {card.ko_l && <div className="ko-l">{card.ko_l}</div>}
-                        <p style={{ fontSize: '0.92rem', color: 'var(--color-text-dim)', lineHeight: 1.7 }}>{card.d_ko}</p>
+                        <div className="text-[1.5rem] font-semibold leading-tight text-[var(--b-primary)]">{card.ko_h}</div>
+                        {card.ko_l && <div className="text-[1rem] text-[var(--b-dim)]">{card.ko_l}</div>}
+                        <p className="m-0 text-[0.92rem] leading-[1.65] text-[var(--b-dim)]">{card.d_ko}</p>
                       </>
                     )}
-                    {card.parts && (['p','r','s'] as const).some(t => (card.parts?.[t]?.length ?? 0) > 0) && (
-                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem' }}>
+
+                    {hasParts && (
+                      <div className="flex flex-col gap-1.5">
                         {(['p','r','s'] as const).flatMap(t =>
-                          (card.parts?.[t] ?? []).map(wp => {
-                            const color = PART_COLOR[t]
-                            const meaning = partsMap[wp]?.d ?? ''
-                            return (
-                              <span key={wp} style={{ fontSize: '0.75rem', padding: '0.1rem 0.45rem', border: `1px solid ${color}`, color, lineHeight: 1.8 }}>
-                                {wp}{meaning ? ` · ${meaning}` : ''}
-                              </span>
-                            )
-                          })
+                          (cardParts?.[t] ?? []).map(wp => (
+                            <div key={`${t}-${wp}`} className="b-ex">
+                              <strong className={`b-part--${t}`}>{wp}</strong>
+                              {partsMap[wp]?.d ? ` · ${partsMap[wp].d}` : ''}
+                            </div>
+                          ))
                         )}
                       </div>
                     )}
-                    <div style={{ marginTop: 'auto', display: 'flex', flexWrap: 'wrap', gap: '0.3rem', alignItems: 'center' }}>
-                      <span className={`c-stars ${STAR_CLASS[card.lvl] || ''}`} role="img" aria-label={`Importance: ${LVL_TEXT[card.lvl]}`} style={{ fontSize: '0.8rem', marginRight: '0.25rem' }}>{STARS[card.lvl]}</span>
-                      {card.f.map(f => <span key={f} className="c-field-badge">{f}</span>)}
+
+                    <div className="mt-auto flex flex-wrap items-center gap-1.5 pt-2">
+                      <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
+                      {card.f.map(f => <span key={f} className="b-field">{f}</span>)}
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Study: prev / next */}
+              {/* Study controls */}
               {mode === 'study' && (
                 <>
-                  <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-                    <button onClick={prevCard} className="c-btn-pixel" disabled={cardIdx === 0}
-                      style={{ fontSize: '0.55rem', padding: '0.6rem 1.5rem', opacity: cardIdx === 0 ? 0.35 : 1, background: 'var(--color-panel)', color: 'var(--color-text-dim)', border: '1px solid var(--color-border)', boxShadow: 'none' }}>
+                  <div className="flex justify-center gap-3">
+                    <button
+                      onClick={prevCard}
+                      disabled={cardIdx===0}
+                      className="b-press b-focus rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-2.5 text-[0.85rem] font-semibold text-[var(--b-dim)] disabled:opacity-35"
+                    >
                       ← Prev
                     </button>
-                    <button onClick={nextCard} className="c-btn-pixel" style={{ fontSize: '0.55rem', padding: '0.6rem 1.5rem' }}>
+                    <button
+                      onClick={nextCard}
+                      className="b-press b-glow b-focus rounded-xl bg-[var(--b-primary)] px-6 py-2.5 text-[0.85rem] font-bold text-[var(--b-on-prim)]"
+                    >
                       Next →
                     </button>
                   </div>
-                  <p style={{ textAlign: 'center', fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', marginTop: '1rem', opacity: 0.5 }}>
-                    <kbd>Space</kbd> · flip &nbsp;&nbsp; <kbd>←</kbd> Prev &nbsp;&nbsp; Next <kbd>→</kbd>
+                  <p className="mt-4 text-center text-[0.76rem] text-[var(--b-dim)] opacity-70">
+                    <kbd className="b-kbd">Space</kbd> flip &nbsp; <kbd className="b-kbd">←</kbd> Prev &nbsp; Next <kbd className="b-kbd">→</kbd>
                   </p>
                 </>
               )}
 
-              {/* Quiz: judge after flip */}
+              {/* Quiz controls */}
               {mode === 'quiz' && (
                 flipped ? (
-                  <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-                    <button onClick={markUnknown} className="c-btn-pixel"
-                      style={{ fontSize: '0.6rem', padding: '0.7rem 1.75rem', background: 'rgba(201,64,64,0.15)', color: '#FCA5A5', border: '1px solid #C94040', boxShadow: 'none' }}>
-                      <kbd>←</kbd> ✗ Review
+                  <div className="flex justify-center gap-3">
+                    <button
+                      onClick={markUnknown}
+                      className="b-press b-focus rounded-xl border border-[#C94040] bg-[rgba(201,64,64,0.14)] px-7 py-3 text-[0.88rem] font-bold text-[#FCA5A5]"
+                    >
+                      <kbd className="b-kbd">←</kbd> Review
                     </button>
-                    <button onClick={markKnown} className="c-btn-pixel"
-                      style={{ fontSize: '0.6rem', padding: '0.7rem 1.75rem', background: 'rgba(59,170,106,0.15)', color: '#6EE7B7', border: '1px solid #3BAA6A', boxShadow: 'none' }}>
-                      ✓ Know It <kbd>→</kbd>
+                    <button
+                      onClick={markKnown}
+                      className="b-press b-focus rounded-xl border border-[var(--b-primary)] px-7 py-3 text-[0.88rem] font-bold text-[var(--b-primary)]"
+                      style={{ background: 'color-mix(in srgb, var(--b-primary) 16%, transparent)' }}
+                    >
+                      Know it <kbd className="b-kbd">→</kbd>
                     </button>
                   </div>
                 ) : (
-                  <p style={{ textAlign: 'center', fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', opacity: 0.55 }}>
-                    <kbd>Space</kbd> · flip &nbsp;&nbsp; <kbd>←</kbd> · <span style={{ color:'#FCA5A5' }}>review</span> &nbsp;&nbsp; <span style={{ color:'#6EE7B7' }}>know it</span> · <kbd>→</kbd>
+                  <p className="text-center text-[0.76rem] text-[var(--b-dim)] opacity-70">
+                    <kbd className="b-kbd">Space</kbd> flip &nbsp; <kbd className="b-kbd">←</kbd> review &nbsp; know it <kbd className="b-kbd">→</kbd>
                   </p>
                 )
               )}
 
-              {/* Stats row */}
+              {/* Stats */}
               {mode === 'quiz' && (
-                <div style={{ display:'flex', marginTop:'1.5rem', paddingTop:'1.25rem', borderTop:'1px solid var(--color-border)' }}>
-                  <div style={{ flex:1, textAlign:'center' }}>
-                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'var(--color-gold)', marginBottom:'0.2rem' }}>{Math.max(0, deck.length - cardIdx - 1)}</div>
-                    <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>remaining</div>
-                  </div>
-                  <div style={{ flex:1, textAlign:'center' }}>
-                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'#6EE7B7', marginBottom:'0.2rem' }}>{known.size}</div>
-                    <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>known</div>
-                  </div>
-                  <div style={{ flex:1, textAlign:'center' }}>
-                    <div style={{ fontSize:'1.4rem', fontWeight:700, color:'#FCA5A5', marginBottom:'0.2rem' }}>{Math.max(0, cardIdx - known.size)}</div>
-                    <div style={{ fontFamily:'var(--font-pixel)', fontSize:'0.45rem', color:'var(--color-text-dim)' }}>missed</div>
-                  </div>
+                <div className="mt-6 flex border-t border-[var(--b-border)] pt-5">
+                  {[
+                    { n: Math.max(0, deck.length - cardIdx - 1), l: 'remaining', c: 'var(--b-text)' },
+                    { n: known.size,                              l: 'known',     c: 'var(--b-primary)' },
+                    { n: Math.max(0, cardIdx - known.size),       l: 'missed',    c: '#FCA5A5' },
+                  ].map(s => (
+                    <div key={s.l} className="flex-1 text-center">
+                      <div className="text-[1.5rem] font-semibold tabular-nums" style={{ ...display, color:s.c }}>{s.n}</div>
+                      <div className="text-[0.72rem] font-medium text-[var(--b-dim)]">{s.l}</div>
+                    </div>
+                  ))}
                 </div>
               )}
             </>
           )}
 
-          {/* ── Done screen ── */}
+          {/* ── Done ── */}
           {done && (
             mode === 'quiz' ? (
               <>
-                <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-                  <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '1.4rem', color: 'var(--color-gold)', marginBottom: '0.5rem' }}>✓ {known.size} / {deck.length}</div>
-                  <p style={{ fontSize: '0.95rem', color: 'var(--color-text-dim)' }}>
+                <div className="mb-7 text-center">
+                  <div className="mb-2 text-[2.4rem] font-semibold tabular-nums text-[var(--b-primary)]" style={display}>
+                    {known.size} / {deck.length}
+                  </div>
+                  <p className="m-0 text-[0.95rem] text-[var(--b-dim)]">
                     {known.size === deck.length ? 'Perfect! All cards known.' : known.size >= deck.length * 0.8 ? 'Great job!' : 'Keep practicing!'}
                   </p>
                 </div>
+
                 {missedCards.length > 0 && (
-                  <div style={{ marginBottom: '1.75rem' }}>
-                    <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.5rem', color: 'var(--color-text-dim)', marginBottom: '0.75rem', paddingBottom: '0.5rem', borderBottom: '1px solid var(--color-border)' }}>
+                  <div className="mb-7">
+                    <div className="mb-3 border-b border-[var(--b-border)] pb-2 text-[0.78rem] font-bold uppercase tracking-[0.12em] text-[var(--b-dim)]">
                       Review list ({missedCards.length})
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.3rem', maxHeight: '340px', overflowY: 'auto' }}>
+                    <div className="flex max-h-[340px] flex-col gap-1.5 overflow-y-auto">
                       {missedCards.map((v, i) => (
-                        <div key={i} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem', padding: '0.5rem 0.75rem', background: 'var(--color-panel)', border: '1px solid var(--color-border)', fontSize: '0.88rem', lineHeight: 1.5 }}>
-                          {isKoEn ? (
-                            <>
-                              <span style={{ fontWeight: 700, color: 'var(--color-text)', fontFamily: 'Noto Sans KR, sans-serif' }}>{v.ko_h}</span>
-                              <span style={{ color: 'var(--color-text-dim)' }}>{v.en_h}</span>
-                            </>
-                          ) : (
-                            <>
-                              <span style={{ fontWeight: 700, color: 'var(--color-text)' }}>{v.en_h}</span>
-                              <span style={{ color: 'var(--color-text-dim)', fontFamily: 'Noto Sans KR, sans-serif' }}>{v.ko_h}</span>
-                            </>
-                          )}
+                        <div key={i} className="b-card grid grid-cols-[1fr_1fr] gap-3 px-4 py-2.5 text-[0.85rem] leading-[1.5]">
+                          <span className="font-bold text-[var(--b-text)]">{isKoEn ? v.ko_h : v.en_h}</span>
+                          <span className="text-[var(--b-dim)]">{isKoEn ? v.en_h : v.ko_h}</span>
                         </div>
                       ))}
                     </div>
                   </div>
                 )}
-                <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+
+                <div className="flex flex-wrap justify-center gap-3">
                   {missedCards.length > 0 && (
-                    <button onClick={startMissed} className="c-btn-pixel"
-                      style={{ fontSize: '0.5rem', padding: '0.65rem 1.5rem', background: 'rgba(201,64,64,0.15)', color: '#FCA5A5', border: '1px solid #C94040', boxShadow: 'none' }}>
-                      ✗ Retry ({missedCards.length})
+                    <button
+                      onClick={startMissed}
+                      className="b-press b-focus rounded-xl border border-[#C94040] bg-[rgba(201,64,64,0.14)] px-6 py-2.5 text-[0.85rem] font-bold text-[#FCA5A5]"
+                    >
+                      ↺ Retry ({missedCards.length})
                     </button>
                   )}
-                  <button onClick={() => setShowSettings(true)} className="c-btn-pixel"
-                    style={{ fontSize: '0.5rem', padding: '0.65rem 1.5rem', background: 'var(--color-panel)', color: 'var(--color-text-dim)', border: '1px solid var(--color-border)', boxShadow: 'none' }}>
-                    New Session
+                  <button
+                    onClick={() => setShowSettings(true)}
+                    className="b-press b-focus rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-2.5 text-[0.85rem] font-semibold text-[var(--b-dim)]"
+                  >
+                    New session
                   </button>
                 </div>
               </>
             ) : (
-              <div style={{ textAlign: 'center', paddingTop: '2rem' }}>
-                <div style={{ fontFamily: 'var(--font-pixel)', fontSize: '1rem', color: 'var(--color-gold)', lineHeight: 2, marginBottom: '0.75rem' }}>All done!</div>
-                <p style={{ fontSize: '0.95rem', color: 'var(--color-text-dim)', marginBottom: '2rem' }}>{deck.length} cards reviewed.</p>
-                <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-                  <button onClick={startDeck} className="c-btn-pixel" style={{ fontSize: '0.5rem', padding: '0.65rem 1.5rem' }}>↺ Start Over</button>
-                  <button onClick={() => setShowSettings(true)} className="c-btn-pixel"
-                    style={{ fontSize: '0.5rem', padding: '0.65rem 1.5rem', background: 'var(--color-panel)', color: 'var(--color-text-dim)', border: '1px solid var(--color-border)', boxShadow: 'none' }}>
-                    New Session
+              <div className="pt-8 text-center">
+                <div className="mb-3 text-[2rem] font-semibold text-[var(--b-primary)]" style={display}>All done</div>
+                <p className="mb-7 text-[0.95rem] text-[var(--b-dim)]">{deck.length} cards reviewed.</p>
+                <div className="flex flex-wrap justify-center gap-3">
+                  <button
+                    onClick={startDeck}
+                    className="b-press b-glow b-focus rounded-xl bg-[var(--b-primary)] px-6 py-2.5 text-[0.85rem] font-bold text-[var(--b-on-prim)]"
+                  >
+                    ↺ Start over
+                  </button>
+                  <button
+                    onClick={() => setShowSettings(true)}
+                    className="b-press b-focus rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-2.5 text-[0.85rem] font-semibold text-[var(--b-dim)]"
+                  >
+                    New session
                   </button>
                 </div>
               </div>

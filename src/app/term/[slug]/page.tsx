@@ -26,11 +26,6 @@ const PART_BY_WP = new Map(PARTS.map((p) => [p.wp, p]))
 const BY_SLUG = new Map(VOCAB.map((e) => [slugify(e.en_h), e]))
 
 const PART_TYPE_LABEL: Record<Part['t'], string> = { p: 'Prefix', r: 'Root', s: 'Suffix' }
-const PART_TYPE_COLOR: Record<Part['t'], string> = {
-  p: 'var(--color-blue)',
-  r: 'var(--color-green)',
-  s: 'var(--color-red)',
-}
 
 export function generateStaticParams() {
   return VOCAB.map((e) => ({ slug: slugify(e.en_h) }))
@@ -94,8 +89,8 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   return (
     <section className="mt-8">
       <h2
-        className="text-xs uppercase tracking-widest mb-3"
-        style={{ color: 'var(--color-text-dim)', fontFamily: 'var(--font-pixel)' }}
+        className="mb-3 uppercase tracking-widest"
+        style={{ fontSize: '0.7rem', fontWeight: 700, color: 'var(--b-dim)' }}
       >
         {title}
       </h2>
@@ -121,68 +116,69 @@ export default function TermPage({ params }: { params: { slug: string } }) {
     <main className="mx-auto w-full max-w-3xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(entry, ko, fr)) }} />
 
-      <nav className="mb-6 text-sm" style={{ color: 'var(--color-text-dim)' }}>
-        <Link href="/glossary" style={{ color: 'var(--color-accent)' }}>
+      <nav className="mb-6 text-sm">
+        <Link href="/glossary" className="b-link b-focus">
           ← Glossary
         </Link>
       </nav>
 
       <header>
-        <h1 className="text-3xl font-semibold" style={{ color: 'var(--color-gold)' }}>
+        <h1
+          className="text-3xl"
+          style={{ fontFamily: 'var(--b-display)', fontWeight: 600, color: 'var(--b-text)', lineHeight: 1.25 }}
+        >
           {entry.en_h}
-          {entry.abbr ? <span className="ml-2 text-xl" style={{ color: 'var(--color-text-dim)' }}>({entry.abbr})</span> : null}
+          {entry.abbr ? <span className="b-abbr ml-3 align-middle">{entry.abbr}</span> : null}
         </h1>
         {entry.en_l ? (
-          <p className="mt-1 text-base" style={{ color: 'var(--color-text-dim)' }}>
+          <p className="mt-2 text-base" style={{ color: 'var(--b-dim)' }}>
             Also called <em>{entry.en_l}</em>
           </p>
         ) : null}
 
         <div className="mt-4 flex flex-wrap items-center gap-2">
           {entry.f.map((field) => (
-            <span
-              key={field}
-              className="rounded-full border px-3 py-1 text-xs"
-              style={{ borderColor: 'var(--color-border)', color: 'var(--color-text-dim)' }}
-            >
+            <span key={field} className="b-chip">
               {field}
             </span>
           ))}
-          <span className="rounded-full px-3 py-1 text-xs" style={{ background: 'var(--color-gold)', color: 'var(--color-bg)' }}>
-            {LVL_TEXT[lvl]}
-          </span>
+          <span className={`b-lvl b-lvl--${lvl}`}>{LVL_TEXT[lvl]}</span>
         </div>
       </header>
 
-      <p className="mt-6 text-lg leading-relaxed" style={{ color: 'var(--color-text)' }}>
+      <p className="mt-6 text-lg leading-relaxed" style={{ color: 'var(--b-text)' }}>
         {entry.d}
       </p>
 
       {ko ? (
         <Section title="Korean">
-          <p className="text-xl" style={{ color: 'var(--color-text)' }} lang="ko">
-            {ko.ko_h}
-            {ko.ko_l ? <span className="ml-2 text-base" style={{ color: 'var(--color-text-dim)' }}>({ko.ko_l})</span> : null}
-          </p>
-          {ko.d_ko ? (
-            <p className="mt-2 leading-relaxed" style={{ color: 'var(--color-text-dim)' }} lang="ko">
-              {ko.d_ko}
+          <div className="b-card px-5 py-4">
+            <p className="text-xl" style={{ color: 'var(--b-text)' }} lang="ko">
+              {ko.ko_h}
+              {ko.ko_l ? <span className="ml-2 text-base" style={{ color: 'var(--b-dim)' }}>({ko.ko_l})</span> : null}
             </p>
-          ) : null}
+            {ko.d_ko ? (
+              <p className="mt-2 leading-relaxed" style={{ color: 'var(--b-dim)' }} lang="ko">
+                {ko.d_ko}
+              </p>
+            ) : null}
+          </div>
         </Section>
       ) : null}
 
       {fr ? (
         <Section title="French">
-          <p className="text-xl" style={{ color: 'var(--color-text)' }} lang="fr">
-            {fr.fr_h}
-            {fr.fr_l ? <span className="ml-2 text-base" style={{ color: 'var(--color-text-dim)' }}>({fr.fr_l})</span> : null}
-          </p>
-          {fr.d_fr ? (
-            <p className="mt-2 leading-relaxed" style={{ color: 'var(--color-text-dim)' }} lang="fr">
-              {fr.d_fr}
+          <div className="b-card px-5 py-4">
+            <p className="text-xl" style={{ color: 'var(--b-text)' }} lang="fr">
+              {fr.fr_h}
+              {fr.fr_l ? <span className="ml-2 text-base" style={{ color: 'var(--b-dim)' }}>({fr.fr_l})</span> : null}
             </p>
-          ) : null}
+            {fr.d_fr ? (
+              <p className="mt-2 leading-relaxed" style={{ color: 'var(--b-dim)' }} lang="fr">
+                {fr.d_fr}
+              </p>
+            ) : null}
+          </div>
         </Section>
       ) : null}
 
@@ -191,13 +187,9 @@ export default function TermPage({ params }: { params: { slug: string } }) {
           <ul className="space-y-2">
             {partEntries.map((p) => (
               <li key={p.wp} className="flex flex-wrap items-baseline gap-x-3">
-                <code className="text-base font-semibold" style={{ color: PART_TYPE_COLOR[p.t] }}>
-                  {p.wp}
-                </code>
-                <span className="text-xs uppercase tracking-wide" style={{ color: 'var(--color-text-dim)' }}>
-                  {PART_TYPE_LABEL[p.t]}
-                </span>
-                <span style={{ color: 'var(--color-text)' }}>{p.d}</span>
+                <code className={`b-part--${p.t} text-base font-semibold`}>{p.wp}</code>
+                <span className={`b-badge b-badge--${p.t}`}>{PART_TYPE_LABEL[p.t]}</span>
+                <span style={{ color: 'var(--b-text)' }}>{p.d}</span>
               </li>
             ))}
           </ul>
@@ -209,7 +201,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
           <ul className="flex flex-wrap gap-x-4 gap-y-2">
             {related.map((r) => (
               <li key={r.en_h}>
-                <Link href={`/term/${slugify(r.en_h)}`} style={{ color: 'var(--color-accent)' }}>
+                <Link href={`/term/${slugify(r.en_h)}`} className="b-link b-focus">
                   {r.en_h}
                 </Link>
               </li>

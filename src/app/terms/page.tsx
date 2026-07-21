@@ -11,7 +11,7 @@ const VOCAB = vocabData as unknown as Vocab[]
 export const metadata: Metadata = {
   title: 'All Medical Terms A–Z · Medi Lexi',
   description:
-    'Browse every term in the Medi Lexi medical glossary, A to Z. 1,300+ English medical terms with Korean and French translations, definitions, and word-part breakdowns.',
+    'Browse every term in the Medi Lexi medical glossary, A to Z. 1,500+ English medical terms with Korean and French translations, definitions, and word-part breakdowns.',
   alternates: { canonical: `${BASE_URL}/terms` },
   openGraph: {
     type: 'website',
@@ -44,45 +44,45 @@ export default function TermsIndexPage() {
   return (
     <main className="mx-auto w-full max-w-4xl px-4 py-10">
       <header className="mb-6">
-        <h1 className="text-3xl font-semibold" style={{ color: 'var(--color-gold)' }}>
+        <h1
+          className="text-3xl"
+          style={{ fontFamily: 'var(--b-display)', fontWeight: 600, color: 'var(--b-text)', lineHeight: 1.25 }}
+        >
           All medical terms
         </h1>
-        <p className="mt-2" style={{ color: 'var(--color-text-dim)' }}>
+        <p className="mt-2" style={{ color: 'var(--b-dim)' }}>
           Every term in the glossary. {VOCAB.length.toLocaleString()} entries, each with English,
           Korean, and French. Or{' '}
-          <Link href="/glossary" style={{ color: 'var(--color-accent)' }}>
+          <Link href="/glossary" className="b-link">
             search the glossary
           </Link>
           .
         </p>
       </header>
 
-      {/* Jump nav */}
-      <nav
-        className="mb-8 flex flex-wrap gap-x-3 gap-y-1 border-y py-3 text-sm"
-        style={{ borderColor: 'var(--color-border)' }}
-        aria-label="Jump to letter"
-      >
+      {/* Jump nav — sticky, so the letters stay reachable down a 1,500-row page */}
+      <nav className="b-jump mb-8 flex flex-wrap gap-1.5 py-2.5" aria-label="Jump to letter">
         {groups.map((g) => (
-          <a key={g.letter} href={`#letter-${g.letter}`} style={{ color: 'var(--color-accent)' }}>
+          <a key={g.letter} href={`#letter-${g.letter}`} className="b-fpill b-focus">
             {g.letter}
           </a>
         ))}
       </nav>
 
       {groups.map((g) => (
-        <section key={g.letter} id={`letter-${g.letter}`} className="mb-8 scroll-mt-4">
-          <h2 className="mb-3 text-2xl font-bold" style={{ color: 'var(--color-gold-dim)' }}>
+        <section key={g.letter} id={`letter-${g.letter}`} className="mb-8 scroll-mt-28">
+          <h2
+            className="mb-3 text-2xl"
+            style={{ fontFamily: 'var(--b-display)', fontWeight: 600, color: 'var(--b-primary)' }}
+          >
             {g.letter}
           </h2>
           <ul className="grid grid-cols-1 gap-x-6 gap-y-1 sm:grid-cols-2 lg:grid-cols-3">
             {g.items.map((t) => (
               <li key={t.en_h}>
-                <Link href={`/term/${slugify(t.en_h)}`} style={{ color: 'var(--color-text)' }}>
+                <Link href={`/term/${slugify(t.en_h)}`} className="b-tlink b-focus">
                   {t.en_h}
-                  {t.abbr ? (
-                    <span style={{ color: 'var(--color-text-dim)' }}> ({t.abbr})</span>
-                  ) : null}
+                  {t.abbr ? <span style={{ color: 'var(--b-dim)' }}> ({t.abbr})</span> : null}
                 </Link>
               </li>
             ))}

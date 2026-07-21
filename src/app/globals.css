@@ -945,6 +945,39 @@ body.day .b-part--p { color: #1D4ED8; }
 body.day .b-part--r { color: #166534; }
 body.day .b-part--s { color: #991B1B; }
 
+/* ── Links (term page + A-Z index) ──
+   Inline styles cannot express :hover, so the two link roles get classes. */
+
+/* Navigational / accent link */
+.b-link { color: var(--b-primary); text-decoration: none; }
+.b-link:hover { text-decoration: underline; }
+
+/* Term link in a dense list: reads as body text, greens on hover */
+.b-tlink { color: var(--b-text); text-decoration: none; }
+.b-tlink:hover { color: var(--b-primary); }
+
+/* Letter jump-nav on /terms — sticks under the 58px header like .c-filter-bar */
+.b-jump {
+  position: sticky; top: 57px; z-index: 90;
+  background: var(--b-bg);
+  border-top: 1px solid var(--b-border);
+  border-bottom: 1px solid var(--b-border);
+}
+/* Seals the sub-pixel gap between the sticky header and this bar, same trick
+   as .c-filter-bar — without it a sliver of scrolling text shows through. */
+.b-jump::before {
+  content: ''; position: absolute; left: 0; right: 0; top: -10px; height: 10px;
+  background: var(--b-bg);
+}
+
+/* Static specialty chip (the term page's non-clickable twin of .b-field) */
+.b-chip {
+  font-size: 0.7rem; font-weight: 600; white-space: nowrap;
+  padding: 0.2rem 0.56rem; border-radius: 999px;
+  background: var(--b-bg); color: var(--b-dim);
+  border: 1px solid var(--b-border);
+}
+
 /* Fuse search-hit highlight */
 .b-mark {
   background: color-mix(in srgb, var(--b-primary) 24%, transparent);

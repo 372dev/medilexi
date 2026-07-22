@@ -127,8 +127,10 @@ export default function ReviewClient({
 
   const pct = entries.length ? Math.round((done / entries.length) * 100) : 0
 
+  // The shell already renders <main>, so this is a plain wrapper. (A JSX
+  // comment cannot sit here: {/* */} is only valid inside an element's
+  // children, not at the top of a return expression.)
   return (
-    {/* The shell already renders <main>; this is a plain wrapper. */}
     <div className="mx-auto w-full max-w-5xl px-4 py-2">
       <header>
         <p className="rv-eyebrow">MEDI LEXI · RÉVISION DU FRANÇAIS</p>

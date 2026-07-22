@@ -14,7 +14,7 @@
     {
         "en_h":  "Preventive care",
         "fr_h":  "Soins préventifs",
-        "d_fr":  "Services de santé proactifs — vaccinations, dépistages, conseils — visant à prévenir l\u0027apparition des maladies."
+        "d_fr":  "Services de santé proactifs (vaccinations, dépistages, conseils) visant à prévenir l\u0027apparition des maladies."
     },
     {
         "en_h":  "Comorbidity",
@@ -119,7 +119,7 @@
         "en_h":  "Arrhythmia",
         "fr_h":  "Arythmie",
         "fr_l":  "Trouble du rythme cardiaque",
-        "d_fr":  "Toute anomalie de la fréquence ou du rythme cardiaque — trop rapide, trop lent ou irrégulier — allant de bénigne à potentiellement mortelle."
+        "d_fr":  "Toute anomalie de la fréquence ou du rythme cardiaque (trop rapide, trop lent ou irrégulier), allant de bénigne à potentiellement mortelle."
     },
     {
         "en_h":  "Atrial fibrillation",
@@ -209,7 +209,7 @@
     {
         "en_h":  "Infection",
         "fr_h":  "Infection",
-        "d_fr":  "Invasion et multiplication d\u0027agents pathogènes — bactéries, virus, champignons ou parasites — au sein d\u0027un hôte, provoquant des lésions tissulaires et une maladie clinique."
+        "d_fr":  "Invasion et multiplication d\u0027agents pathogènes (bactéries, virus, champignons ou parasites) au sein d\u0027un hôte, provoquant des lésions tissulaires et une maladie clinique."
     },
     {
         "en_h":  "Fever",
@@ -369,7 +369,7 @@
     {
         "en_h":  "Dyslipidemia",
         "fr_h":  "Dyslipidémie",
-        "d_fr":  "Taux anormaux de lipides sanguins — cholestérol, LDL ou triglycérides élevés, ou HDL réduit — augmentant le risque de maladie cardiovasculaire."
+        "d_fr":  "Taux anormaux de lipides sanguins (cholestérol, LDL ou triglycérides élevés, ou HDL réduit) augmentant le risque de maladie cardiovasculaire."
     },
     {
         "en_h":  "Referral",
@@ -1162,12 +1162,12 @@
     {
         "en_h":  "Bradycardia",
         "fr_h":  "Bradycardie",
-        "d_fr":  "Arythmie cardiaque caractérisée par une fréquence cardiaque lente, généralement inférieure à 60 battements par minute chez l\u0027adulte."
+        "d_fr":  "Arythmie cardiaque caractérisée par une fréquence cardiaque anormalement lente au repos, parfois asymptomatique mais pouvant réduire le débit cardiaque."
     },
     {
         "en_h":  "Tachycardia",
         "fr_h":  "Tachycardie",
-        "d_fr":  "Arythmie cardiaque caractérisée par une fréquence cardiaque rapide, généralement supérieure à 100 battements par minute au repos chez l\u0027adulte."
+        "d_fr":  "Arythmie cardiaque caractérisée par une fréquence cardiaque anormalement rapide au repos, pouvant être une réponse physiologique ou le signe d\u0027une maladie cardiaque ou générale."
     },
     {
         "en_h":  "Orthostatic hypotension",
@@ -1415,7 +1415,7 @@
     {
         "en_h":  "Metabolic syndrome",
         "fr_h":  "Syndrome métabolique",
-        "d_fr":  "Ensemble de facteurs de risque métaboliques — obésité abdominale, dyslipidémie, hypertension et hyperglycémie — élevant le risque cardiovasculaire."
+        "d_fr":  "Ensemble de facteurs de risque métaboliques (obésité abdominale, dyslipidémie, hypertension et hyperglycémie) élevant le risque cardiovasculaire."
     },
     {
         "en_h":  "Pancytopenia",
@@ -1860,7 +1860,7 @@
     {
         "en_h":  "Meninges",
         "fr_h":  "Méninges",
-        "d_fr":  "Trois couches entourant le cerveau et la moelle épinière — dure-mère, arachnoïde et pie-mère ; leur inflammation constitue la méningite."
+        "d_fr":  "Trois couches entourant le cerveau et la moelle épinière (dure-mère, arachnoïde et pie-mère) ; leur inflammation constitue la méningite."
     },
     {
         "en_h":  "Hippocampus",
@@ -2084,7 +2084,7 @@
     {
         "en_h":  "Lung",
         "fr_h":  "Poumon",
-        "d_fr":  "Organes pairs et spongieux dans le thorax assurant les échanges gazeux — absorption d\u0027oxygène de l\u0027air inspiré et expulsion du dioxyde de carbone à chaque expiration."
+        "d_fr":  "Organes pairs et spongieux dans le thorax assurant les échanges gazeux, absorbant l\u0027oxygène de l\u0027air inspiré et expulsant le dioxyde de carbone à chaque expiration."
     },
     {
         "en_h":  "Nasal cavity",
@@ -2109,7 +2109,7 @@
     {
         "en_h":  "Small intestine",
         "fr_h":  "Intestin grêle",
-        "d_fr":  "Tube enroulé d\u0027environ 6 à 7 mètres entre l\u0027estomac et le gros intestin — comprenant le duodénum, le jéjunum et l\u0027iléon — principal site d\u0027absorption des nutriments."
+        "d_fr":  "Tube enroulé entre l\u0027estomac et le gros intestin, comprenant le duodénum, le jéjunum et l\u0027iléon ; principal site d\u0027absorption des nutriments."
     },
     {
         "en_h":  "Large intestine",
@@ -4408,7 +4408,7 @@
     {
         "en_h":  "Electronic medical record",
         "fr_h":  "Dossier médical informatisé",
-        "d_fr":  "Version numérique du dossier médical d\u0027un patient — antécédents, diagnostics, traitements et médicaments — tenue par un professionnel de santé."
+        "d_fr":  "Version numérique du dossier médical d\u0027un patient (antécédents, diagnostics, traitements et médicaments) tenue par un professionnel de santé."
     },
     {
         "en_h":  "OTC medicine",
@@ -4515,7 +4515,7 @@
     {
         "en_h":  "Abdominal quadrant",
         "fr_h":  "Quadrant abdominal",
-        "d_fr":  "L\u0027une des quatre régions abdominales cliniques — QSD, QID, QSG, QIG — utilisées pour localiser la douleur, les organes et les données de l\u0027examen."
+        "d_fr":  "L\u0027une des quatre régions abdominales cliniques (QSD, QID, QSG, QIG) utilisées pour localiser la douleur, les organes et les données de l\u0027examen."
     },
     {
         "en_h":  "Abdominal region",
@@ -4904,7 +4904,7 @@
         "en_h":  "Tinea",
         "fr_h":  "Dermatophytose",
         "fr_l":  "Teigne",
-        "d_fr":  "Infection dermatomycosique superficielle de la peau, des cheveux ou des ongles ; nommée selon le site corporel atteint (tinea capitis — cuir chevelu, tinea pedis — pied)."
+        "d_fr":  "Infection dermatomycosique superficielle de la peau, des cheveux ou des ongles ; nommée selon le site corporel atteint (tinea capitis pour le cuir chevelu, tinea pedis pour le pied)."
     },
     {
         "en_h":  "Tinea capitis",
@@ -5416,7 +5416,7 @@
     {
         "en_h":  "Panic disorder",
         "fr_h":  "Trouble panique",
-        "d_fr":  "Trouble anxieux caractérisé par des attaques de panique récurrentes et inattendues — une montée soudaine d\u0027une peur intense — souvent accompagnées de comportements d\u0027évitement."
+        "d_fr":  "Trouble anxieux caractérisé par des attaques de panique récurrentes et inattendues (montée soudaine d\u0027une peur intense), souvent accompagnées de comportements d\u0027évitement."
     },
     {
         "en_h":  "Antidepressant",

@@ -320,7 +320,7 @@
         "f":  [
                   "Cardiology"
               ],
-        "d":  "Any abnormality in cardiac rate or rhythm — too fast, too slow, or irregular — ranging from harmless to life-threatening.",
+        "d":  "Any abnormality in cardiac rate or rhythm (too fast, too slow, or irregular), ranging from harmless to life-threatening.",
         "lvl":  3,
         "parts":  {
                       "p":  [
@@ -613,7 +613,7 @@
                   "General Medicine",
                   "Infectious Disease"
               ],
-        "d":  "Invasion and replication of pathogens — bacteria, viruses, fungi, or parasites — within a host, causing tissue damage and clinical disease.",
+        "d":  "Invasion and replication of pathogens (bacteria, viruses, fungi, or parasites) within a host, causing tissue damage and clinical disease.",
         "lvl":  3
     },
     {
@@ -1036,7 +1036,7 @@
                   "Family Medicine",
                   "Internal Medicine"
               ],
-        "d":  "Abnormal blood lipid levels — elevated cholesterol, LDL, or triglycerides, or reduced HDL — increasing the risk of cardiovascular disease.",
+        "d":  "Abnormal blood lipid levels (elevated cholesterol, LDL, or triglycerides, or reduced HDL) increasing the risk of cardiovascular disease.",
         "lvl":  2,
         "parts":  {
                       "p":  [
@@ -3486,7 +3486,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "A cardiac arrhythmia characterized by a slow heart rate, typically fewer than 60 beats per minute in adults.",
+        "d":  "A cardiac arrhythmia characterized by an abnormally slow resting heart rate, which may be asymptomatic or reduce cardiac output.",
         "lvl":  2,
         "parts":  {
                       "p":  [
@@ -3505,7 +3505,7 @@
                   "Cardiology",
                   "Emergency Medicine"
               ],
-        "d":  "A cardiac arrhythmia characterized by a rapid heart rate, typically exceeding 100 beats per minute in adults at rest.",
+        "d":  "A cardiac arrhythmia characterized by an abnormally rapid resting heart rate, which may be a physiological response or a sign of cardiac or systemic disease.",
         "lvl":  2,
         "parts":  {
                       "p":  [
@@ -4361,7 +4361,7 @@
                   "Cardiology",
                   "Endocrinology"
               ],
-        "d":  "Cluster of metabolic risk factors — abdominal obesity, dyslipidemia, hypertension, and hyperglycemia — that elevates cardiovascular risk.",
+        "d":  "Cluster of metabolic risk factors (abdominal obesity, dyslipidemia, hypertension, and hyperglycemia) that elevates cardiovascular risk.",
         "lvl":  2,
         "parts":  {
                       "p":  [
@@ -5840,7 +5840,7 @@
                   "Neurology",
                   "Infectious Disease"
               ],
-        "d":  "Three protective layers surrounding the brain and spinal cord — dura mater, arachnoid mater, and pia mater — whose inflammation constitutes meningitis.",
+        "d":  "Three protective layers surrounding the brain and spinal cord (dura mater, arachnoid mater, and pia mater), whose inflammation constitutes meningitis.",
         "lvl":  2,
         "parts":  {
                       "r":  [
@@ -6500,7 +6500,7 @@
                   "Anatomy",
                   "Pulmonology"
               ],
-        "d":  "Paired spongy organs in the thorax performing gas exchange — absorbing oxygen from inhaled air and expelling carbon dioxide per breath.",
+        "d":  "Paired spongy organs in the thorax performing gas exchange, absorbing oxygen from inhaled air and expelling carbon dioxide per breath.",
         "lvl":  3
     },
     {
@@ -6561,7 +6561,7 @@
                   "Anatomy",
                   "Gastroenterology"
               ],
-        "d":  "Coiled tube (~6-7 m) between the stomach and large intestine — duodenum, jejunum, and ileum — and the primary site of nutrient absorption.",
+        "d":  "Coiled tube between the stomach and large intestine (duodenum, jejunum, and ileum) and the primary site of nutrient absorption.",
         "lvl":  3,
         "parts":  {
                       "r":  [
@@ -13320,7 +13320,7 @@
     },
     {
         "en_h":  "Urolithiasis",
-        "d":  "Formation of stones within the urinary tract — kidneys, ureters, or bladder — causing flank pain, hematuria, and potentially obstructing urine flow.",
+        "d":  "Formation of stones within the urinary tract (kidneys, ureters, or bladder), causing flank pain, hematuria, and potentially obstructing urine flow.",
         "lvl":  3,
         "f":  [
                   "Urology"
@@ -14145,7 +14145,7 @@
                   "General Medicine"
               ],
         "lvl":  3,
-        "d":  "One of four clinical abdominal regions — RUQ, RLQ, LUQ, LLQ — used to localize pain, organs, and examination findings.",
+        "d":  "One of four clinical abdominal regions (RUQ, RLQ, LUQ, LLQ) used to localize pain, organs, and examination findings.",
         "parts":  {
                       "r":  [
                                 "abdomin/o"
@@ -16355,7 +16355,7 @@
         "f":  [
                   "Psychiatry"
               ],
-        "d":  "An anxiety disorder characterized by recurrent unexpected panic attacks — sudden surges of intense fear — often accompanied by avoidance behavior.",
+        "d":  "An anxiety disorder characterized by recurrent unexpected panic attacks (sudden surges of intense fear), often accompanied by avoidance behavior.",
         "lvl":  3
     },
     {

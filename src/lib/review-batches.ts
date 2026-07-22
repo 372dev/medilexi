@@ -44,7 +44,10 @@ export function flagsFor(fr_h: string, d_fr: string, en_h: string): string[] {
   const out: string[] = []
   if (/\d/.test(d_fr)) out.push('chiffre')
   if (d_fr.length > 260) out.push('long')
-  if (/\.\s+\p{Lu}/u.test(d_fr)) out.push('phrases')
+  // An explicit Latin-1 range rather than \p{Lu}: unicode property escapes
+  // need target ES2018+, and tsconfig sets no target. The range covers the
+  // accented capitals French actually starts sentences with (É, À, Ç).
+  if (/\.\s+[A-ZÀ-ÖØ-Þ]/.test(d_fr)) out.push('phrases')
   if (fr_h === en_h) out.push('identique')
   return out
 }

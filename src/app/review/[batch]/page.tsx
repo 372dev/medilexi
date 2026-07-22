@@ -27,13 +27,18 @@ export default function ReviewPage({
   searchParams,
 }: {
   params: { batch: string }
-  searchParams: { k?: string }
+  // Next validates page props against its generated PageProps, where
+  // searchParams is an index signature. Narrowing it to `{ k?: string }` is not
+  // assignable from that and fails the build, so take the wide type and narrow
+  // here instead.
+  searchParams: { [key: string]: string | string[] | undefined }
 }) {
   const batch = REVIEW_BATCHES[params.batch]
+  const supplied = typeof searchParams.k === 'string' ? searchParams.k : undefined
 
   // A wrong or missing key 404s rather than 401s: an unauthorized visitor
   // should not learn that this route exists at all.
-  if (!batch || !reviewKeyMatches(searchParams.k)) notFound()
+  if (!batch || !reviewKeyMatches(supplied)) notFound()
 
   const frByKey = new Map(FR.map((e) => [e.en_h, e]))
 
@@ -60,7 +65,7 @@ export default function ReviewPage({
       slug={params.batch}
       title={batch.fr}
       entries={entries}
-      reviewKey={searchParams.k ?? ''}
+      reviewKey={supplied ?? ''}
     />
   )
 }

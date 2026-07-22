@@ -19,10 +19,21 @@ export type SubmissionRow = {
   note?: string | null
 }
 
+/**
+ * Supabase's API settings page shows the REST endpoint
+ * (`https://x.supabase.co/rest/v1/`), which is an easy thing to paste when the
+ * Project URL is wanted. Accept either: strip a trailing `/rest/v1` and any
+ * trailing slash, so the caller can always append its own path.
+ */
+export function normalizeUrl(raw: string): string {
+  return raw.trim().replace(/\/+$/, '').replace(/\/rest\/v1$/i, '')
+}
+
 /** Read env lazily: at module scope this would throw during `next build`. */
 function config() {
-  const url = process.env.SUPABASE_URL
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY
+  const rawUrl = process.env.SUPABASE_URL
+  const url = rawUrl ? normalizeUrl(rawUrl) : undefined
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim()
   return { url, key, ready: Boolean(url && key) }
 }
 

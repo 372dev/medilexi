@@ -1,6 +1,6 @@
+import { createHash, timingSafeEqual } from 'node:crypto'
 import { NextResponse } from 'next/server'
 import { insertSubmission, isDbConfigured, DbNotConfiguredError, type SubmissionKind } from '@/lib/server-db'
-import { reviewKeyMatches } from '@/lib/review-auth'
 
 // Route Handlers run on the server on every request; nothing here is prerendered.
 export const runtime = 'nodejs'
@@ -9,6 +9,18 @@ export const dynamic = 'force-dynamic'
 const KINDS: SubmissionKind[] = ['fr_review', 'feedback']
 const MAX_BYTES = 256 * 1024 // a 56-entry review batch is ~15 KB; this is generous
 const MAX_NOTE = 2000
+
+/**
+ * Constant-time secret comparison. Both sides are hashed first so the compare
+ * gets equal-length buffers regardless of the supplied string's length
+ * (timingSafeEqual throws on a length mismatch, which itself leaks length).
+ */
+function secretMatches(supplied: string | null, expected: string | undefined): boolean {
+  if (!supplied || !expected) return false
+  const a = createHash('sha256').update(supplied).digest()
+  const b = createHash('sha256').update(expected).digest()
+  return timingSafeEqual(a, b)
+}
 
 /** Health check: tells us whether env vars landed, without revealing them. */
 export async function GET() {
@@ -47,7 +59,7 @@ export async function POST(req: Request) {
   // open because it is a public form. The key travels in a header, not the
   // query string, so it stays out of server and proxy access logs.
   if (kind === 'fr_review') {
-    if (!reviewKeyMatches(req.headers.get('x-review-key'))) {
+    if (!secretMatches(req.headers.get('x-review-key'), process.env.REVIEW_KEY)) {
       return NextResponse.json({ error: 'unauthorized' }, { status: 401 })
     }
   }

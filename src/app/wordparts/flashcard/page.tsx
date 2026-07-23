@@ -138,7 +138,7 @@ export default function WordPartsFlashcard() {
               <p className="m-0 text-[0.78rem] leading-[1.6] text-[var(--b-dim)]">
                 {mode === 'study'
                   ? <>Browse freely. <kbd className="b-kbd">Space</kbd> to flip, <kbd className="b-kbd">←</kbd> <kbd className="b-kbd">→</kbd> to navigate</>
-                  : <>Mark each card. <kbd className="b-kbd">Space</kbd> to flip, <kbd className="b-kbd">←</kbd> Miss · Got it <kbd className="b-kbd">→</kbd></>}
+                  : <>Mark each card. <kbd className="b-kbd">Space</kbd> to flip, <kbd className="b-kbd">←</kbd> Review · Know it <kbd className="b-kbd">→</kbd></>}
               </p>
             </div>
 
@@ -352,19 +352,19 @@ export default function WordPartsFlashcard() {
                       onClick={next}
                       className="b-press b-focus rounded-xl border border-[#C94040] bg-[rgba(201,64,64,0.14)] px-7 py-3 text-[0.88rem] font-bold text-[#FCA5A5]"
                     >
-                      <kbd className="b-kbd">←</kbd> Didn&apos;t know
+                      <kbd className="b-kbd">←</kbd> Review
                     </button>
                     <button
                       onClick={handleGotIt}
                       className="b-press b-focus rounded-xl border border-[var(--b-primary)] px-7 py-3 text-[0.88rem] font-bold text-[var(--b-primary)]"
                       style={{ background: 'color-mix(in srgb, var(--b-primary) 16%, transparent)' }}
                     >
-                      Knew it <kbd className="b-kbd">→</kbd>
+                      Know it <kbd className="b-kbd">→</kbd>
                     </button>
                   </div>
                 ) : (
                   <p className="text-center text-[0.76rem] text-[var(--b-dim)] opacity-70">
-                    <kbd className="b-kbd">Space</kbd> flip &nbsp; <kbd className="b-kbd">←</kbd> didn&apos;t know &nbsp; knew it <kbd className="b-kbd">→</kbd>
+                    <kbd className="b-kbd">Space</kbd> flip &nbsp; <kbd className="b-kbd">←</kbd> review &nbsp; know it <kbd className="b-kbd">→</kbd>
                   </p>
                 )
               )}

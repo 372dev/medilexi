@@ -1,14 +1,15 @@
 # Medi Lexi
 
-**v1.230** · [medilexi.vercel.app](https://medilexi.vercel.app) · Built by [372dev](https://github.com/372dev)
+**v1.309** · [medilexi.vercel.app](https://medilexi.vercel.app) · Built by [372dev](https://github.com/372dev)
 
-A multilingual medical terminology reference and study platform for students, medical interpreters, and translators — a structured glossary plus flashcards and word-part breakdowns.
+A multilingual medical terminology reference and study platform for students, medical interpreters, and translators. A structured glossary plus flashcards, word-part breakdowns, and certification-style practice exams.
 
-- **1,000+ medical terms** — English, Korean, and French, with abbreviations, definitions, fields, and importance levels
+- **1,500+ medical terms** — English, Korean, and French, with abbreviations, definitions, specialties, and importance levels
 - **600+ word parts** — prefixes, roots, and suffixes with examples
+- **Practice + timed exams** over a curated word-part question bank
 - Flashcards (study & quiz) · day / night theme · IME-safe fuzzy search
 
-Built with Next.js 14 (App Router), TypeScript, and Fuse.js. Auto-deploys to Vercel on every push.
+Built with Next.js 14 (App Router), TypeScript, Fuse.js, and Supabase. Auto-deploys to Vercel on every push.
 
 ---
 

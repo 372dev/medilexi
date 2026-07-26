@@ -22234,5 +22234,558 @@
               ],
         "d":  "Comprehensive report summarizing a patient\u0027s hospital stay, including diagnosis, treatment, and follow-up instructions.",
         "lvl":  3
+    },
+    {
+        "en_h":  "Dental plaque",
+        "en_l":  "Plaque",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A soft sticky film of bacteria that builds up on tooth surfaces and contributes to decay and gum disease.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental calculus",
+        "en_l":  "Tartar",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Hardened dental plaque that has mineralized onto the tooth surface and must be removed with professional instruments.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "dent/i",
+                                "calc/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental bridge",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A fixed dental restoration that replaces one or more missing teeth by anchoring an artificial tooth to the adjacent teeth.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental filling",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A restorative material placed into a prepared cavity to replace tooth structure lost to decay or fracture.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental sealant",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A thin protective coating applied to the chewing surfaces of back teeth to prevent decay in the pits and grooves.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental pulp",
+        "f":  [
+                  "Dentistry",
+                  "Anatomy"
+              ],
+        "d":  "The soft inner tissue of a tooth containing blood vessels and nerves, housed within the pulp chamber and root canals.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental hygienist",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A licensed oral health professional who cleans teeth, removes deposits, and provides preventive dental care and education.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "dent/i"
+                            ],
+                      "s":  [
+                                "-ist"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Orthodontic braces",
+        "en_l":  "Braces",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A fixed orthodontic appliance of brackets and wires that gradually moves teeth into correct alignment.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "orth/o",
+                                "odont/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Orthodontic retainer",
+        "en_l":  "Retainer",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A custom appliance worn after orthodontic treatment to hold teeth in their corrected positions and prevent relapse.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "orth/o",
+                                "odont/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Gingival recession",
+        "en_l":  "Receding gums",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Progressive loss of gum tissue that exposes the tooth root, increasing sensitivity and the risk of root decay.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "gingiv/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Halitosis",
+        "en_l":  "Bad breath",
+        "f":  [
+                  "Dentistry",
+                  "General Medicine"
+              ],
+        "d":  "Persistently unpleasant breath odor, most often arising from bacterial activity in the mouth.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "hal/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Alveolar osteitis",
+        "en_l":  "Dry socket",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "Painful inflammation of exposed bone in a tooth socket after extraction, occurring when the protective blood clot is lost.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "oste/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Fluoride treatment",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A preventive application of concentrated fluoride to the teeth to strengthen enamel and reduce the risk of decay.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Periapical abscess",
+        "en_l":  "Tooth abscess",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A collection of pus at the root tip of a tooth, usually resulting from bacterial infection of the dental pulp.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "peri-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Oral and maxillofacial surgeon",
+        "f":  [
+                  "Dentistry",
+                  "Surgery"
+              ],
+        "d":  "A surgical specialist who treats conditions of the mouth, jaws, and face, including extractions, trauma, and corrective jaw surgery.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "or/o",
+                                "maxill/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Conjunctivitis",
+        "en_l":  "Pink eye",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Inflammation of the conjunctiva causing redness, discharge, and irritation, commonly from infection or allergy.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "conjunctiv/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Keratitis",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Inflammation of the cornea that causes pain, redness, and blurred vision, and can threaten sight if untreated.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "kerat/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Optic neuritis",
+        "f":  [
+                  "Ophthalmology",
+                  "Neurology"
+              ],
+        "d":  "Inflammation of the optic nerve causing sudden vision loss and eye pain with movement, often linked to demyelinating disease.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "optic/o",
+                                "neur/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Fundus examination",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "Inspection of the interior back surface of the eye, including the retina, optic disc, and blood vessels.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Visual field test",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "An assessment mapping the full extent of what a person can see without moving the eye, used to detect blind spots.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Color vision deficiency",
+        "en_l":  "Color blindness",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "A reduced ability to distinguish certain colors, most often red and green, usually inherited and more common in males.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Contact lens",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "A thin corrective or cosmetic lens worn directly on the surface of the eye.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Intraocular lens",
+        "abbr":  "IOL",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "An artificial lens implanted inside the eye to replace the natural lens, most commonly during cataract surgery.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "intra-"
+                            ],
+                      "r":  [
+                                "ocul/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Otitis externa",
+        "en_l":  "Swimmer\u0027s ear",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Inflammation or infection of the outer ear canal, often following water exposure or local trauma.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "ot/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hearing loss",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A partial or complete reduction in the ability to perceive sound in one or both ears.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Allergic rhinitis",
+        "en_l":  "Hay fever",
+        "f":  [
+                  "Otolaryngology",
+                  "Immunology"
+              ],
+        "d":  "Inflammation of the nasal lining triggered by airborne allergens, producing sneezing, congestion, and clear discharge.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "rhin/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Nasal septal deviation",
+        "en_l":  "Deviated septum",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Displacement of the wall between the nasal passages to one side, which can obstruct airflow and impair breathing.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "nas/o",
+                                "sept/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Vocal fold nodule",
+        "en_l":  "Vocal cord nodule",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A benign growth on the vocal fold caused by repeated voice strain, producing hoarseness and a breathy voice.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-ule"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Nasal endoscopy",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Examination of the nasal passages and sinuses using a thin lighted scope passed through the nostril.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "nas/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Type 1 diabetes mellitus",
+        "en_l":  "Juvenile diabetes",
+        "abbr":  "T1DM",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A form of diabetes in which autoimmune destruction of pancreatic beta cells causes near total loss of insulin production, requiring lifelong insulin.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Type 2 diabetes mellitus",
+        "en_l":  "Adult-onset diabetes",
+        "abbr":  "T2DM",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A form of diabetes marked by insulin resistance with progressive decline in insulin secretion, strongly associated with obesity and inactivity.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Growth hormone",
+        "abbr":  "GH",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A pituitary hormone that stimulates growth in children and regulates the metabolism of protein, fat, and glucose throughout life.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Prostate cancer",
+        "f":  [
+                  "Urology",
+                  "Oncology"
+              ],
+        "d":  "A malignant tumor of the prostate gland, common in older men and often slow growing, detected through screening or urinary symptoms.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "prostat/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Urinary frequency",
+        "en_l":  "Frequent urination",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "The need to pass urine more often than usual, a common symptom of infection, bladder irritation, or prostate enlargement.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "urin/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Medical record",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "The documented account of a patient\u0027s health history, examinations, tests, diagnoses, and treatment maintained by a provider.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Insurance claim",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "A request submitted to an insurer for payment of covered health services after care has been provided.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Health care proxy",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "A person legally designated to make medical decisions on a patient\u0027s behalf when the patient cannot decide for themselves.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Hospital admission",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "The formal process of registering a patient into a hospital for inpatient care and assigning a bed and care team.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Utilization review",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "An insurer\u0027s evaluation of whether a service is medically necessary and appropriately delivered, used to decide coverage.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Patient portal",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "A secure website through which patients can view records, test results, and messages and manage appointments.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Medical necessity",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "The standard by which a health service is judged appropriate and required for diagnosis or treatment, determining insurance coverage.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Radiation dose",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "The amount of ionizing radiation absorbed by body tissue during an imaging study or radiation therapy.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "radi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Supine position",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "A body position in which a person lies on the back with the face and torso directed upward.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Prone position",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "A body position in which a person lies face down with the torso directed toward the surface.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Bone scan",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "A nuclear imaging test using an injected radioactive tracer to reveal areas of abnormal bone activity such as tumors or fractures.",
+        "lvl":  2
     }
 ]

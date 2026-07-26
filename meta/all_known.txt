@@ -51,9 +51,11 @@ Akathisia
 Albinism
 Albuminuria
 Alkaline phosphatase
+Allergic rhinitis
 Allergy
 Allograft
 Alopecia
+Alveolar osteitis
 Alveoloplasty
 Alveolus
 Alzheimer's disease
@@ -95,6 +97,7 @@ Ankylosis
 Anorexia nervosa
 Anosognosia
 Anoxia
+Antacid
 Anterior
 Anterior cruciate ligament tear
 Antibiotic
@@ -110,6 +113,7 @@ Antigen
 Antihistamine
 Antiparasitic
 Antiperspirant
+Antiplatelet
 Antipruritic
 Antipsychotic
 Antipyretic
@@ -209,11 +213,10 @@ Bone
 Bone density scan
 Bone marrow biopsy
 Bone mineral density
-Bone spur
+Bone scan
 Borderline personality disorder
 Boring pain
 Bowel movement
-Bowel obstruction
 Brachial arteritis
 Brachial region
 Brachycephaly
@@ -235,7 +238,6 @@ Bronchodilator
 Bronchoscopy
 Bronchospasm
 Bronchus
-Bruising
 Bruxism
 B-type natriuretic peptide
 Buccinator
@@ -356,6 +358,7 @@ Colicky pain
 Colitis
 Colon
 Colonoscopy
+Color vision deficiency
 Colorectal cancer
 Colorectal Surgery
 Colostomy
@@ -378,9 +381,11 @@ Conductive hearing loss
 Condyle
 Condyloma
 Congestive heart failure
+Conjunctivitis
 Conscious sedation
 Consent
 Constant pain
+Contact lens
 Continuity of care
 Continuous glucose monitor
 Continuous positive airway pressure machine
@@ -451,10 +456,17 @@ Delirium
 Delusion
 Dementia
 Dental abscess
+Dental bridge
+Dental calculus
 Dental caries
 Dental crown
+Dental filling
+Dental hygienist
 Dental implant
+Dental plaque
 Dental prophylaxis
+Dental pulp
+Dental sealant
 Dentin
 Dentist
 Dentistry
@@ -500,11 +512,12 @@ Dislocation
 Disseminated intravascular coagulation
 Dissociation
 Distal
+Diuretic
 Diverticulitis
 Dizziness
 Doppler ultrasound
 Dorsal
-Double vision
+Dosage
 Doula
 Drain
 Drape
@@ -527,7 +540,6 @@ Dysphasia
 Dysphonia
 Dyspnea
 Dysuria
-Ear canal
 Eating disorder
 Ecchymosis
 Echocardiogram
@@ -609,11 +621,12 @@ Exocrine
 Exophthalmos
 Explanation of benefits
 Extended-release formulation
+External auditory canal
 Extracorporeal membrane oxygenation
 Extremity
 Extubation
+Eye infection
 Facial nerve
-Fainting
 Fall risk
 Fallopian tube
 Family Medicine
@@ -641,6 +654,7 @@ Fissure
 Flexor digitorum
 Fluid restriction
 Fluoride
+Fluoride treatment
 Fluoroscopy
 Foley catheter
 Follicle
@@ -657,11 +671,11 @@ Frontoparietal
 Frozen section
 Fulguration
 Functional dyspnea
+Fundus examination
 Fungal scrapings
 Furuncle
 Galactorrhea
 Gallbladder
-Gallstones
 Gangrene
 Gastrectomy
 Gastritis
@@ -673,12 +687,14 @@ Gastroparesis
 Gauze
 General anesthesia
 General Medicine
+Generic drug
 Genetics
 Genu valgum
 Genu varum
 Gestational age
 Gestational diabetes
 Giant cell arteritis
+Gingival recession
 Gingivectomy
 Gingivitis
 Glaucoma
@@ -701,19 +717,22 @@ Gonorrhea
 Gout
 Graves' disease
 Grief
-Guillain-Barre syndrome
+Growth hormone
 Guillain-Barré syndrome
 Gynecomastia
 Hair follicle
 Half-life
+Halitosis
 Hallucination
 Hamstring
 Hand tremor
 Hashimoto's thyroiditis
 Headache
+Health care proxy
 Health Insurance Portability and Accountability Act
 Health literacy
 Hearing aid
+Hearing loss
 Heart
 Heart failure
 Heart valve
@@ -755,9 +774,9 @@ Hidradenitis
 Hip joint
 Hippocampus
 Hirsutism
-Hoarseness
 Holter monitor
 Hordeolum
+Hospital admission
 Hospitalist
 Humerus
 Hydrocele
@@ -832,6 +851,7 @@ Inoperable
 Insomnia
 Insulin pump
 Insulin resistance
+Insurance claim
 Insurance premium
 Intake and output
 Integumentary system
@@ -848,6 +868,7 @@ Intervertebral disc
 Intestinal metaplasia
 Intestinal obstruction
 Intramuscular injection
+Intraocular lens
 Intraocular pressure
 Intraoperative
 Intravenous
@@ -863,12 +884,12 @@ Jaundice
 Jejunitis
 Jejunoileitis
 Jejunum
-Joint pain
 Jugular vein
 Juxtaglomerular
 Kaposi's sarcoma
 Kawasaki disease
 Keloid
+Keratitis
 Keratoconus
 Keratosis
 Kidney
@@ -972,8 +993,11 @@ Median nerve
 Medical assistant
 Medical history
 Medical laboratory technician
+Medical necessity
+Medical record
 Medical record number
 Medical social worker
+Medication adherence
 Melanocyte
 Melanoma
 Melanoptysis
@@ -1013,7 +1037,6 @@ Mucus
 Multifocal intraocular lens
 Multiple sclerosis
 Muscle
-Muscle ache
 Muscle relaxant
 Muscular dystrophy
 Musculoskeletal
@@ -1043,7 +1066,9 @@ Nail
 Narcolepsy
 Nasal cavity
 Nasal congestion
+Nasal endoscopy
 Nasal polyp
+Nasal septal deviation
 Nasal turbinate
 Nasogastric tube
 Nasopharynx
@@ -1126,14 +1151,17 @@ Ophthalmology
 Ophthalmoscope
 Opioid
 Optic nerve
-Optimistic
+Optic neuritis
 Optometrist
+Oral and maxillofacial surgeon
 Oral candidiasis
 Oral ulcer
 Orchiectomy
 Orchiopexy
 Orchitis
 Oropharynx
+Orthodontic braces
+Orthodontic retainer
 Orthodontics
 Orthopedics
 Orthopnea
@@ -1149,6 +1177,7 @@ Osteoporosis
 Otalgia
 OTC medicine
 Otitis
+Otitis externa
 Otitis media
 Otolaryngology
 Otorrhea
@@ -1162,6 +1191,7 @@ Ovariotomy
 Ovary
 Overactive bladder
 Overbite
+Over-the-counter drug
 Ovum
 Oxygen concentrator
 Oxygen saturation
@@ -1177,7 +1207,7 @@ Pancreatography
 Pancytopenia
 Panic attack
 Panic disorder
-Pap smear
+Papanicolaou test
 Papilledema
 Papule
 Paracentesis
@@ -1195,6 +1225,7 @@ Partial hysterectomy
 Partial thromboplastin time
 Patella
 Pathology
+Patient portal
 Pediatrics
 Pediculosis
 Peer-to-peer review
@@ -1206,6 +1237,7 @@ Penis
 Peptic ulcer
 Percutaneous
 Percutaneous coronary intervention
+Periapical abscess
 Pericardiocentesis
 Pericarditis
 Pericardium
@@ -1310,7 +1342,9 @@ Prognosis
 Progress note
 Progressive pain
 Prolactin
+Prone position
 Prophylaxis
+Prostate cancer
 Prostate gland
 Prostatectomy
 Prostate-specific antigen
@@ -1363,6 +1397,7 @@ Quadriplegia
 Radial artery
 Radial artery harvest
 Radiating pain
+Radiation dose
 Radical hysterectomy
 Radioisotope
 Radiologic technologist
@@ -1375,7 +1410,6 @@ Radiotherapy
 Radius
 Range of motion
 Raynaud's phenomenon
-Recovery room
 Rectal prolapse
 Rectocele
 Rectum
@@ -1443,6 +1477,7 @@ Sebaceous gland
 Seborrhea
 Sebum
 Sedation
+Sedative
 Seizure
 Selective serotonin reuptake inhibitor
 Self-harm
@@ -1460,7 +1495,6 @@ Serum potassium
 Serum sodium
 Severe pain
 Sharp pain
-Shingles
 Shooting pain
 Sialolithiasis
 Sickening pain
@@ -1545,6 +1579,7 @@ Suicidal ideation
 Superbill
 Superficial
 Superior
+Supine position
 Suppository
 Suppurative
 Supragingival
@@ -1612,7 +1647,6 @@ Tibia
 Tinea
 Tinea capitis
 Tinea pedis
-Tingling
 Tinnitus
 Titration
 Tolerance
@@ -1624,11 +1658,11 @@ Tonometry
 Tonsillectomy
 Tonsillitis
 Tooth extraction
+Topical medication
 Topography
-Total hip replacement
+Total hip arthroplasty
 Total hysterectomy
 Total knee arthroplasty
-Total knee replacement
 Tourniquet
 Toxemia
 Toxicology
@@ -1666,6 +1700,8 @@ Tympanometry
 Tympanoplasty
 Tympanosclerosis
 Tympanostomy tube
+Type 1 diabetes mellitus
+Type 2 diabetes mellitus
 Ulcer
 Ulcerative colitis
 Ulna
@@ -1676,7 +1712,6 @@ Umbilical cord
 Umbilical hernia
 Umbilicus
 Unbearable pain
-Uneasy
 Upper respiratory tract infection
 Ureter
 Ureteral stent
@@ -1690,6 +1725,7 @@ Urethroplasty
 Urge incontinence
 Urinalysis
 Urinary bladder
+Urinary frequency
 Urinary incontinence
 Urinary retention
 Urinary system
@@ -1701,6 +1737,7 @@ Urticaria
 Uterine leiomyoma
 Uterine prolapse
 Uterus
+Utilization review
 Uveitis
 Vaccination / immunization
 Vacuum extraction
@@ -1740,12 +1777,14 @@ Vestibular nerve
 Visceroceptors
 Visceromegaly
 Visual acuity
+Visual field test
 Vital signs
 Vitamin D deficiency
 Vitiligo
 Vitrectomy
 Vitreous floaters
 Vocal cord nodule
+Vocal fold nodule
 Voluntary movement
 Volvulus
 Vulva

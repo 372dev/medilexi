@@ -29,7 +29,27 @@ These change entries already in the glossary — handled via the update flow, no
 
 **Gland naming convention (confirmed 2026-07-19):** for gland terms, `ko_h` takes the Sino-Korean **선** form and `ko_l` the native **샘** form. Same reference logic as 갑상선 — 질병관리청 and KCD 8차 both use 선 for head terms. Apply to any future gland entry.
 
-_No pending edits currently open._
+**Candidate `en_l` additions (from 2026-07-23 Step 0 intake).** These lay words were queued as new
+entries but their clinical form is already shipped, so they are NOT new adds — each may instead be
+added as an `en_l` on the existing entry, via the update flow (verify the shipped entry doesn't
+already carry it, and add the KO/FR lay equivalent register-to-register):
+
+| Lay term → add as `en_l` on | Shipped `en_h` |
+|---|---|
+| Joint pain | Arthralgia |
+| Gallstones | Cholelithiasis |
+| Double vision | Diplopia |
+| Hoarseness | Dysphonia |
+| Bruising | Ecchymosis |
+| Shingles | Herpes zoster |
+| Bowel obstruction | Intestinal obstruction |
+| Muscle ache | Myalgia |
+| Bone spur | Osteophyte |
+| Tingling | Paresthesia |
+| Fainting | Syncope |
+| Total knee replacement | Total knee arthroplasty |
+
+*(Also dropped as already-shipped, no `en_l` needed: `Sarcoidosis` (exact); `Guillain-Barre syndrome` — shipped with the accent as **Guillain-Barré syndrome**, the unaccented queue spelling read as new.)*
 
 ---
 
@@ -37,7 +57,7 @@ _No pending edits currently open._
 
 ### Anatomy & imaging
 - Coronal plane
-- Ear canal
+- External auditory canal (en_l: ear canal)
 - Drape
 - Coordination
 - Fine motor skill
@@ -100,12 +120,9 @@ _No pending edits currently open._
 - Hepatic steatosis
 - Pigmentation
 - Hand tremor
-- Sarcoidosis
 - BCG vaccine
 - Internal examination
 - Glycan residue
-- Optimistic
-- Uneasy
 
 ### Cardiology
 - Cardiac catheterization
@@ -117,7 +134,6 @@ _No pending edits currently open._
 
 ### Neurology
 - Concussion
-- Guillain-Barre syndrome
 
 ### Gastroenterology
 - Irritable bowel syndrome
@@ -125,37 +141,46 @@ _No pending edits currently open._
 - Crohn's disease
 - Ulcerative colitis
 - Peptic ulcer
-- Gallstones
 - Colorectal cancer
 - Hemorrhoids
 - Celiac disease
-- Bowel obstruction
 - Barium swallow
 - Fecal occult blood test
 
 ### Dermatology
-- Shingles
 - Actinic keratosis
+
+### Ophthalmology
+- Eye infection
+
+### Pharmacology
+- Antacid
+- Sedative
+- Diuretic
+- Antiplatelet
+- Generic drug
+- Over-the-counter drug
+- Dosage
+- Topical medication
+- Medication adherence
 
 ### Obstetrics & Gynecology
 - Cesarean section
 - Preeclampsia
 - Miscarriage
-- Pap smear
+- Papanicolaou test (Pap smear)
 - Cervical dysplasia
-- In vitro fertilization
+- In vitro fertilization (IVF)
 
 ### Orthopedics
 - Herniated disc
 - Rotator cuff tear
-- Anterior cruciate ligament tear
+- Anterior cruciate ligament tear (ACL)
 - Meniscus tear
 - Tendinitis
 - Strain
 - Dislocation
-- Total knee replacement
-- Total hip replacement
-- Bone spur
+- Total hip arthroplasty
 
 ### Medical devices & equipment
 - Foley catheter
@@ -204,23 +229,16 @@ _No pending edits currently open._
 - Fatigue
 - Malaise
 - Lightheadedness
-- Tingling
 - Chest tightness
 - Bloating
 - Chills
 - Night sweats
 - Loss of appetite
-- Bruising
 - Blurred vision
-- Double vision
-- Hoarseness
 - Stiffness
-- Fainting
 - Nasal congestion
 - Sore throat
 - Heartburn
-- Muscle ache
-- Joint pain
 
 ### Nursing & patient care
 - Respiratory rate
@@ -248,10 +266,9 @@ _No pending edits currently open._
 - Coping mechanism
 
 ### Anesthesia & perioperative
-- Recovery room
 - Intraoperative
 - Regional anesthesia
-- Post-anesthesia care unit
+- Post-anesthesia care unit (PACU)
 - Malignant hyperthermia
 - Aspiration pneumonia
 
@@ -299,3 +316,7 @@ _No pending edits currently open._
   (a renamed form can collide where the raw spelling didn't).
 - Several intake items resolved to existing entries or `en_l` updates and are **not** queued here —
   see the pending-edits list above.
+- **Flagged for the drafting session (Step 0 intake, 2026-07-23):** `Anxiety` may be redundant with
+  shipped **Anxiety disorder**, and `Hand tremor` with shipped **Tremor** — confirm at Step 1 or drop.
+  `Post-anesthesia care unit` absorbed the duplicate "Recovery room" (its `en_l`). `Loss of appetite`
+  kept as the head term over clinical *Anorexia* to avoid confusion with shipped Anorexia nervosa.

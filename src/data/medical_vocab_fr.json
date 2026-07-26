@@ -7971,5 +7971,242 @@
         "en_h":  "Discharge summary",
         "fr_h":  "Compte rendu de sortie",
         "d_fr":  "Rapport complet résumant le séjour hospitalier du patient, incluant le diagnostic, le traitement et les instructions de suivi."
+    },
+    {
+        "en_h":  "Dental plaque",
+        "fr_h":  "Plaque dentaire",
+        "d_fr":  "Film mou et collant de bactéries qui s\u0027accumule sur la surface des dents et favorise la carie et les maladies des gencives."
+    },
+    {
+        "en_h":  "Dental calculus",
+        "fr_h":  "Tartre dentaire",
+        "d_fr":  "Plaque dentaire durcie et minéralisée sur la dent, qui ne peut être retirée qu\u0027avec des instruments professionnels."
+    },
+    {
+        "en_h":  "Dental bridge",
+        "fr_h":  "Pont dentaire",
+        "fr_l":  "Bridge",
+        "d_fr":  "Prothèse fixe qui remplace une ou plusieurs dents manquantes en s\u0027ancrant sur les dents voisines."
+    },
+    {
+        "en_h":  "Dental filling",
+        "fr_h":  "Obturation dentaire",
+        "fr_l":  "Plombage",
+        "d_fr":  "Matériau placé dans une cavité préparée pour remplacer la structure dentaire perdue par la carie ou une fracture."
+    },
+    {
+        "en_h":  "Dental sealant",
+        "fr_h":  "Scellant dentaire",
+        "d_fr":  "Fine couche protectrice appliquée sur la surface masticatrice des dents postérieures pour prévenir la carie dans les sillons."
+    },
+    {
+        "en_h":  "Dental pulp",
+        "fr_h":  "Pulpe dentaire",
+        "d_fr":  "Tissu mou à l\u0027intérieur de la dent qui contient les vaisseaux sanguins et les nerfs, logé dans la chambre pulpaire et les canaux."
+    },
+    {
+        "en_h":  "Dental hygienist",
+        "fr_h":  "Hygiéniste dentaire",
+        "d_fr":  "Professionnel agréé en santé buccodentaire qui nettoie les dents, retire les dépôts et offre des soins et une éducation préventifs."
+    },
+    {
+        "en_h":  "Orthodontic braces",
+        "fr_h":  "Appareil orthodontique",
+        "d_fr":  "Dispositif fixe fait de boîtiers et de fils qui déplace progressivement les dents vers une position correcte."
+    },
+    {
+        "en_h":  "Orthodontic retainer",
+        "fr_h":  "Contention orthodontique",
+        "d_fr":  "Appareil sur mesure porté après un traitement orthodontique pour maintenir les dents dans leur position corrigée et éviter la récidive."
+    },
+    {
+        "en_h":  "Gingival recession",
+        "fr_h":  "Récession gingivale",
+        "fr_l":  "Déchaussement",
+        "d_fr":  "Perte progressive de tissu gingival qui expose la racine de la dent et augmente la sensibilité et le risque de carie radiculaire."
+    },
+    {
+        "en_h":  "Halitosis",
+        "fr_h":  "Halitose",
+        "fr_l":  "Mauvaise haleine",
+        "d_fr":  "Odeur buccale désagréable et persistante, le plus souvent due à l\u0027activité bactérienne dans la bouche."
+    },
+    {
+        "en_h":  "Alveolar osteitis",
+        "fr_h":  "Alvéolite",
+        "d_fr":  "Inflammation douloureuse de l\u0027os exposé dans l\u0027alvéole après une extraction, survenant quand le caillot protecteur est perdu; aussi appelée alvéolite sèche."
+    },
+    {
+        "en_h":  "Fluoride treatment",
+        "fr_h":  "Application de fluorure",
+        "d_fr":  "Application préventive de fluorure concentré sur les dents pour renforcer l\u0027émail et réduire le risque de carie."
+    },
+    {
+        "en_h":  "Periapical abscess",
+        "fr_h":  "Abcès périapical",
+        "fr_l":  "Abcès dentaire",
+        "d_fr":  "Accumulation de pus à l\u0027extrémité de la racine d\u0027une dent, résultant généralement d\u0027une infection bactérienne de la pulpe."
+    },
+    {
+        "en_h":  "Oral and maxillofacial surgeon",
+        "fr_h":  "Chirurgien buccal et maxillofacial",
+        "d_fr":  "Spécialiste chirurgical qui traite les affections de la bouche, des mâchoires et du visage, dont les extractions, les traumatismes et la chirurgie corrective."
+    },
+    {
+        "en_h":  "Conjunctivitis",
+        "fr_h":  "Conjonctivite",
+        "d_fr":  "Inflammation de la conjonctive causant rougeur, écoulement et irritation, souvent d\u0027origine infectieuse ou allergique."
+    },
+    {
+        "en_h":  "Keratitis",
+        "fr_h":  "Kératite",
+        "d_fr":  "Inflammation de la cornée causant douleur, rougeur et vision floue, pouvant menacer la vue si elle n\u0027est pas traitée."
+    },
+    {
+        "en_h":  "Optic neuritis",
+        "fr_h":  "Névrite optique",
+        "d_fr":  "Inflammation du nerf optique causant une perte de vision soudaine et une douleur aux mouvements de l\u0027œil, souvent liée à une maladie démyélinisante."
+    },
+    {
+        "en_h":  "Fundus examination",
+        "fr_h":  "Examen du fond d\u0027œil",
+        "fr_l":  "Fond d\u0027œil",
+        "d_fr":  "Inspection de la surface interne postérieure de l\u0027œil, dont la rétine, le disque optique et les vaisseaux sanguins."
+    },
+    {
+        "en_h":  "Visual field test",
+        "fr_h":  "Examen du champ visuel",
+        "d_fr":  "Évaluation qui cartographie toute l\u0027étendue de ce qu\u0027une personne voit sans bouger l\u0027œil, pour détecter les zones aveugles."
+    },
+    {
+        "en_h":  "Color vision deficiency",
+        "fr_h":  "Dyschromatopsie",
+        "fr_l":  "Daltonisme",
+        "d_fr":  "Capacité réduite à distinguer certaines couleurs, surtout le rouge et le vert, généralement héréditaire et plus fréquente chez les hommes."
+    },
+    {
+        "en_h":  "Contact lens",
+        "fr_h":  "Lentille de contact",
+        "d_fr":  "Fine lentille correctrice ou cosmétique portée directement sur la surface de l\u0027œil."
+    },
+    {
+        "en_h":  "Intraocular lens",
+        "fr_h":  "Lentille intraoculaire",
+        "d_fr":  "Lentille artificielle implantée dans l\u0027œil pour remplacer le cristallin naturel, le plus souvent lors d\u0027une chirurgie de la cataracte."
+    },
+    {
+        "en_h":  "Otitis externa",
+        "fr_h":  "Otite externe",
+        "d_fr":  "Inflammation ou infection du conduit auditif externe, survenant souvent après une exposition à l\u0027eau ou un traumatisme local."
+    },
+    {
+        "en_h":  "Hearing loss",
+        "fr_h":  "Perte auditive",
+        "d_fr":  "Réduction partielle ou complète de la capacité à percevoir les sons dans une ou les deux oreilles."
+    },
+    {
+        "en_h":  "Allergic rhinitis",
+        "fr_h":  "Rhinite allergique",
+        "fr_l":  "Rhume des foins",
+        "d_fr":  "Inflammation de la muqueuse nasale déclenchée par des allergènes en suspension, provoquant éternuements, congestion et écoulement clair."
+    },
+    {
+        "en_h":  "Nasal septal deviation",
+        "fr_h":  "Déviation de la cloison nasale",
+        "d_fr":  "Déplacement latéral de la paroi séparant les fosses nasales, pouvant obstruer le passage de l\u0027air et gêner la respiration."
+    },
+    {
+        "en_h":  "Vocal fold nodule",
+        "fr_h":  "Nodule des cordes vocales",
+        "d_fr":  "Excroissance bénigne sur la corde vocale causée par un forçage vocal répété, entraînant enrouement et voix soufflée."
+    },
+    {
+        "en_h":  "Nasal endoscopy",
+        "fr_h":  "Endoscopie nasale",
+        "d_fr":  "Examen des fosses nasales et des sinus à l\u0027aide d\u0027un tube fin et éclairé introduit par la narine."
+    },
+    {
+        "en_h":  "Type 1 diabetes mellitus",
+        "fr_h":  "Diabète de type 1",
+        "fr_l":  "Diabète juvénile",
+        "d_fr":  "Forme de diabète où une destruction auto-immune des cellules bêta du pancréas supprime presque toute production d\u0027insuline, nécessitant de l\u0027insuline à vie."
+    },
+    {
+        "en_h":  "Type 2 diabetes mellitus",
+        "fr_h":  "Diabète de type 2",
+        "fr_l":  "Diabète de l\u0027adulte",
+        "d_fr":  "Forme de diabète marquée par une résistance à l\u0027insuline et un déclin progressif de sa sécrétion, fortement liée à l\u0027obésité et à la sédentarité."
+    },
+    {
+        "en_h":  "Growth hormone",
+        "fr_h":  "Hormone de croissance",
+        "d_fr":  "Hormone hypophysaire qui stimule la croissance chez l\u0027enfant et régule le métabolisme des protéines, des lipides et du glucose."
+    },
+    {
+        "en_h":  "Prostate cancer",
+        "fr_h":  "Cancer de la prostate",
+        "d_fr":  "Tumeur maligne de la prostate, fréquente chez l\u0027homme âgé et souvent d\u0027évolution lente, dépistée par examen ou symptômes urinaires."
+    },
+    {
+        "en_h":  "Urinary frequency",
+        "fr_h":  "Pollakiurie",
+        "d_fr":  "Besoin d\u0027uriner plus souvent que d\u0027habitude, symptôme fréquent d\u0027une infection, d\u0027une irritation vésicale ou d\u0027une hypertrophie de la prostate."
+    },
+    {
+        "en_h":  "Medical record",
+        "fr_h":  "Dossier médical",
+        "d_fr":  "Compte rendu documenté des antécédents, examens, analyses, diagnostics et traitements d\u0027un patient, tenu par un professionnel de santé."
+    },
+    {
+        "en_h":  "Insurance claim",
+        "fr_h":  "Demande de remboursement",
+        "d_fr":  "Demande soumise à un assureur pour le paiement de services de santé couverts après la prestation des soins."
+    },
+    {
+        "en_h":  "Health care proxy",
+        "fr_h":  "Mandataire de soins de santé",
+        "d_fr":  "Personne légalement désignée pour prendre les décisions médicales à la place d\u0027un patient incapable de décider lui-même."
+    },
+    {
+        "en_h":  "Hospital admission",
+        "fr_h":  "Admission à l\u0027hôpital",
+        "d_fr":  "Processus officiel d\u0027enregistrement d\u0027un patient à l\u0027hôpital pour des soins hospitaliers, avec attribution d\u0027un lit et d\u0027une équipe soignante."
+    },
+    {
+        "en_h":  "Utilization review",
+        "fr_h":  "Examen de l\u0027utilisation des soins",
+        "d_fr":  "Évaluation par l\u0027assureur du caractère médicalement nécessaire et approprié d\u0027un service, servant à décider de sa prise en charge."
+    },
+    {
+        "en_h":  "Patient portal",
+        "fr_h":  "Portail patient",
+        "d_fr":  "Site Web sécurisé permettant au patient de consulter son dossier, ses résultats et ses messages et de gérer ses rendez-vous."
+    },
+    {
+        "en_h":  "Medical necessity",
+        "fr_h":  "Nécessité médicale",
+        "d_fr":  "Critère selon lequel un service de santé est jugé approprié et requis pour le diagnostic ou le traitement, déterminant la prise en charge par l\u0027assurance."
+    },
+    {
+        "en_h":  "Radiation dose",
+        "fr_h":  "Dose de rayonnement",
+        "d_fr":  "Quantité de rayonnement ionisant absorbée par les tissus du corps pendant un examen d\u0027imagerie ou une radiothérapie."
+    },
+    {
+        "en_h":  "Supine position",
+        "fr_h":  "Décubitus dorsal",
+        "fr_l":  "Position sur le dos",
+        "d_fr":  "Position du corps dans laquelle une personne est allongée sur le dos, le visage et le torse tournés vers le haut."
+    },
+    {
+        "en_h":  "Prone position",
+        "fr_h":  "Décubitus ventral",
+        "fr_l":  "Position sur le ventre",
+        "d_fr":  "Position du corps dans laquelle une personne est allongée sur le ventre, le torse tourné vers la surface."
+    },
+    {
+        "en_h":  "Bone scan",
+        "fr_h":  "Scintigraphie osseuse",
+        "d_fr":  "Examen de médecine nucléaire utilisant un traceur radioactif injecté pour révéler les zones d\u0027activité osseuse anormale comme les tumeurs ou fractures."
     }
 ]

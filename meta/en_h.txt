@@ -47,9 +47,11 @@ Akathisia
 Albinism
 Albuminuria
 Alkaline phosphatase
+Allergic rhinitis
 Allergy
 Allograft
 Alopecia
+Alveolar osteitis
 Alveoloplasty
 Alveolus
 Alzheimer's disease
@@ -189,6 +191,7 @@ Blood urea nitrogen
 Body mass index
 Bone
 Bone mineral density
+Bone scan
 Borderline personality disorder
 Boring pain
 Brachial arteritis
@@ -314,6 +317,7 @@ Colicky pain
 Colitis
 Colon
 Colonoscopy
+Color vision deficiency
 Colorectal Surgery
 Colostomy
 Colovesical fistula
@@ -330,9 +334,11 @@ Computed tomography
 Conductive hearing loss
 Condyle
 Congestive heart failure
+Conjunctivitis
 Conscious sedation
 Consent
 Constant pain
+Contact lens
 Continuity of care
 Continuous glucose monitor
 Contraception
@@ -392,10 +398,17 @@ Dehydration
 Delusion
 Dementia
 Dental abscess
+Dental bridge
+Dental calculus
 Dental caries
 Dental crown
+Dental filling
+Dental hygienist
 Dental implant
+Dental plaque
 Dental prophylaxis
+Dental pulp
+Dental sealant
 Dentin
 Dentist
 Dentistry
@@ -555,6 +568,7 @@ Fine-needle aspiration
 Fissure
 Flexor digitorum
 Fluoride
+Fluoride treatment
 Follicle
 Follow-up
 Forced vital capacity
@@ -568,6 +582,7 @@ Frontoparietal
 Frozen section
 Fulguration
 Functional dyspnea
+Fundus examination
 Fungal scrapings
 Furuncle
 Galactorrhea
@@ -586,6 +601,7 @@ Genetics
 Genu valgum
 Genu varum
 Gestational diabetes
+Gingival recession
 Gingivectomy
 Gingivitis
 Glaucoma
@@ -606,16 +622,20 @@ Goiter
 Gonorrhea
 Gout
 Graves' disease
+Growth hormone
 Guillain-Barré syndrome
 Gynecomastia
 Hair follicle
 Half-life
+Halitosis
 Hallucination
 Hamstring
 Hashimoto's thyroiditis
 Headache
+Health care proxy
 Health Insurance Portability and Accountability Act
 Health literacy
+Hearing loss
 Heart
 Heart failure
 Heart valve
@@ -652,6 +672,7 @@ Hip joint
 Hippocampus
 Hirsutism
 Hordeolum
+Hospital admission
 Hospitalist
 Humerus
 Hydrocele
@@ -718,6 +739,7 @@ Inoperable
 Insomnia
 Insulin pump
 Insulin resistance
+Insurance claim
 Insurance premium
 Integumentary system
 Intermittent claudication
@@ -732,6 +754,7 @@ Intervertebral disc
 Intestinal metaplasia
 Intestinal obstruction
 Intramuscular injection
+Intraocular lens
 Intraocular pressure
 Intravenous
 Intravenous immunoglobulin
@@ -749,6 +772,7 @@ Juxtaglomerular
 Kaposi's sarcoma
 Kawasaki disease
 Keloid
+Keratitis
 Keratoconus
 Keratosis
 Kidney
@@ -837,6 +861,8 @@ Median nerve
 Medical assistant
 Medical history
 Medical laboratory technician
+Medical necessity
+Medical record
 Medical record number
 Medical social worker
 Melanocyte
@@ -901,7 +927,9 @@ Nagging pain
 Nail
 Narcolepsy
 Nasal cavity
+Nasal endoscopy
 Nasal polyp
+Nasal septal deviation
 Nasal turbinate
 Nasopharynx
 Nausea
@@ -977,13 +1005,17 @@ Ophthalmology
 Ophthalmoscope
 Opioid
 Optic nerve
+Optic neuritis
 Optometrist
+Oral and maxillofacial surgeon
 Oral candidiasis
 Oral ulcer
 Orchiectomy
 Orchiopexy
 Orchitis
 Oropharynx
+Orthodontic braces
+Orthodontic retainer
 Orthodontics
 Orthopedics
 Orthopnea
@@ -998,6 +1030,7 @@ Osteoporosis
 Otalgia
 OTC medicine
 Otitis
+Otitis externa
 Otitis media
 Otolaryngology
 Otorrhea
@@ -1038,6 +1071,7 @@ Paronychia
 Partial thromboplastin time
 Patella
 Pathology
+Patient portal
 Pediatrics
 Pediculosis
 Peer-to-peer review
@@ -1048,6 +1082,7 @@ Pelvis
 Penis
 Percutaneous
 Percutaneous coronary intervention
+Periapical abscess
 Pericardiocentesis
 Pericarditis
 Pericardium
@@ -1145,7 +1180,9 @@ Prognosis
 Progress note
 Progressive pain
 Prolactin
+Prone position
 Prophylaxis
+Prostate cancer
 Prostate gland
 Prostatectomy
 Prostate-specific antigen
@@ -1195,6 +1232,7 @@ Quadriplegia
 Radial artery
 Radial artery harvest
 Radiating pain
+Radiation dose
 Radioisotope
 Radiologic technologist
 Radiology
@@ -1349,6 +1387,7 @@ Suicidal ideation
 Superbill
 Superficial
 Superior
+Supine position
 Suppository
 Suppurative
 Supragingival
@@ -1456,6 +1495,8 @@ Tympanometry
 Tympanoplasty
 Tympanosclerosis
 Tympanostomy tube
+Type 1 diabetes mellitus
+Type 2 diabetes mellitus
 Ulcer
 Ulna
 Ulnar
@@ -1477,6 +1518,7 @@ Urethroplasty
 Urge incontinence
 Urinalysis
 Urinary bladder
+Urinary frequency
 Urinary incontinence
 Urinary retention
 Urinary system
@@ -1488,6 +1530,7 @@ Urticaria
 Uterine leiomyoma
 Uterine prolapse
 Uterus
+Utilization review
 Uveitis
 Vaccination / immunization
 Vagina
@@ -1525,12 +1568,14 @@ Vestibular nerve
 Visceroceptors
 Visceromegaly
 Visual acuity
+Visual field test
 Vital signs
 Vitamin D deficiency
 Vitiligo
 Vitrectomy
 Vitreous floaters
 Vocal cord nodule
+Vocal fold nodule
 Voluntary movement
 Volvulus
 Vulva

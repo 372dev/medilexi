@@ -22787,5 +22787,402 @@
               ],
         "d":  "A nuclear imaging test using an injected radioactive tracer to reveal areas of abnormal bone activity such as tumors or fractures.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Foley catheter",
+        "en_l":  "Urinary catheter",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "An indwelling tube inserted into the bladder to drain urine continuously, held in place by an inflatable balloon.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Central venous catheter",
+        "en_l":  "Central line",
+        "abbr":  "CVC",
+        "f":  [
+                  "Critical Care"
+              ],
+        "d":  "A thin tube placed into a large central vein to deliver medication, fluids, or nutrition, or to monitor pressures.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "centr/o",
+                                "ven/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Nasogastric tube",
+        "en_l":  "Feeding tube through the nose",
+        "abbr":  "NG tube",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "A tube passed through the nose into the stomach to deliver feeding and medication or to remove stomach contents.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "nas/o",
+                                "gastr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Feeding tube",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "A tube that delivers liquid nutrition directly to the stomach or intestine when a person cannot eat normally.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Chest tube",
+        "f":  [
+                  "Pulmonology",
+                  "Thoracic Surgery"
+              ],
+        "d":  "A tube inserted through the chest wall to drain air, blood, or fluid from around the lungs and restore normal breathing.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Tracheostomy tube",
+        "en_l":  "Trach tube",
+        "f":  [
+                  "Otolaryngology",
+                  "Critical Care"
+              ],
+        "d":  "A curved tube placed through a surgical opening in the neck into the windpipe to maintain an airway and support breathing.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "trache/o"
+                            ],
+                      "s":  [
+                                "-ostomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Nebulizer",
+        "f":  [
+                  "Pulmonology"
+              ],
+        "d":  "A device that turns liquid medication into a fine mist for inhalation into the lungs.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Inhaler",
+        "f":  [
+                  "Pulmonology"
+              ],
+        "d":  "A handheld device that delivers a measured dose of medication directly into the airways as a spray or powder.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "hal/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Oxygen concentrator",
+        "f":  [
+                  "Pulmonology"
+              ],
+        "d":  "A machine that draws in air and delivers concentrated oxygen to a person with low blood oxygen.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Continuous positive airway pressure machine",
+        "abbr":  "CPAP",
+        "f":  [
+                  "Pulmonology"
+              ],
+        "d":  "A device that delivers a steady stream of pressurized air through a mask to keep the airway open during sleep.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Wheelchair",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "A wheeled chair used for mobility by a person who cannot walk or has difficulty walking.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Walker",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "A lightweight framed device that a person leans on for support and balance while walking.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Crutches",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "Supportive devices placed under the arms or gripped by the hands to keep weight off an injured leg while walking.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Cane",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "A handheld stick used to provide support and improve balance while walking.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Orthosis",
+        "en_l":  "Brace",
+        "f":  [
+                  "Rehabilitation Medicine",
+                  "Orthopedics"
+              ],
+        "d":  "An external device applied to a limb or the body to support, align, or improve the function of a moving part.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "orth/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Splint",
+        "f":  [
+                  "Orthopedics",
+                  "Emergency Medicine"
+              ],
+        "d":  "A rigid or flexible device that immobilizes and protects an injured limb or joint.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Cast",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "A hard casing molded around a limb to hold a broken bone in place while it heals.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Compression stockings",
+        "f":  [
+                  "Vascular Surgery"
+              ],
+        "d":  "Elastic stockings that apply graduated pressure to the legs to improve blood flow and reduce swelling.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Blood pressure cuff",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "An inflatable band wrapped around the arm to measure blood pressure.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Pulse oximeter",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A small device clipped to a finger that measures blood oxygen saturation and pulse rate.",
+        "lvl":  3,
+        "parts":  {
+                      "s":  [
+                                "-meter"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Infusion pump",
+        "f":  [
+                  "Critical Care"
+              ],
+        "d":  "A device that delivers fluids or medication into the body in precisely controlled amounts over time.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "fus/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Implanted port",
+        "en_l":  "Port",
+        "f":  [
+                  "Oncology"
+              ],
+        "d":  "A small device placed under the skin with a catheter into a vein, allowing repeated access for medication or blood draws.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Hearing aid",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A small electronic device worn in or behind the ear that amplifies sound for a person with hearing loss.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Colostomy bag",
+        "en_l":  "Ostomy bag",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "A pouch attached to an opening in the abdomen that collects waste from the colon after a colostomy.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "col/o"
+                            ],
+                      "s":  [
+                                "-ostomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Speculum",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "An instrument used to hold open a body cavity, such as the vagina or nose, for examination.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Tourniquet",
+        "f":  [
+                  "Emergency Medicine"
+              ],
+        "d":  "A tight band applied around a limb to control severe bleeding by compressing blood flow.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Surgical mesh",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "A woven implant used to reinforce weakened or damaged tissue, most often in hernia repair.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Skin staple",
+        "en_l":  "Surgical staple",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "A metal fastener used to close a surgical incision or wound in place of sutures.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Gauze",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A loosely woven fabric used to cover wounds, absorb fluid, and apply pressure.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Drain",
+        "en_l":  "Surgical drain",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "A tube or device that removes fluid or air from a wound or body cavity after surgery.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Extubation",
+        "f":  [
+                  "Critical Care",
+                  "Anesthesiology"
+              ],
+        "d":  "The removal of a breathing tube from the airway once a person can breathe adequately on their own.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Enema",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "The introduction of fluid into the rectum to relieve constipation, clear the bowel, or deliver medication.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Skin closure",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "The process of bringing the edges of a wound or incision together to promote healing, using sutures, staples, or adhesive.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Wound irrigation",
+        "f":  [
+                  "Surgery",
+                  "Emergency Medicine"
+              ],
+        "d":  "The flushing of a wound with fluid to remove debris and bacteria and reduce the risk of infection.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Central line placement",
+        "en_l":  "Central line insertion",
+        "f":  [
+                  "Critical Care"
+              ],
+        "d":  "The insertion of a catheter into a large central vein for delivering fluids, medication, or nutrition.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "centr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Bone marrow biopsy",
+        "f":  [
+                  "Hematology"
+              ],
+        "d":  "The removal of a small core of bone marrow with a needle to examine blood-forming cells for disease.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-opsy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Skin biopsy",
+        "f":  [
+                  "Dermatology"
+              ],
+        "d":  "The removal of a small sample of skin for laboratory examination to diagnose a skin condition.",
+        "lvl":  3,
+        "parts":  {
+                      "s":  [
+                                "-opsy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Suture removal",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "The taking out of stitches from a healed wound once the tissue has knitted together.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Catheter irrigation",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "The flushing of a urinary catheter with fluid to clear blockage and keep it draining freely.",
+        "lvl":  2
     }
 ]

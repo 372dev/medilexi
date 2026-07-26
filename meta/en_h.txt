@@ -186,10 +186,12 @@ Blepharoptosis
 Blepharospasm
 Blinding pain
 Blood culture
+Blood pressure cuff
 Blood type
 Blood urea nitrogen
 Body mass index
 Bone
+Bone marrow biopsy
 Bone mineral density
 Bone scan
 Borderline personality disorder
@@ -225,6 +227,7 @@ Cachexia
 Cadaver
 Calcium channel blocker
 Canalolithiasis
+Cane
 Capillary
 Capitate
 Carbuncle
@@ -249,11 +252,15 @@ Carpectomy
 Cartilage
 Case management
 Case manager
+Cast
 Cataract
 Catatonia
+Catheter irrigation
 Cauterization
 Cecum
 Cellulitis
+Central line placement
+Central venous catheter
 Cephalgia
 Cephalic region
 Cephalocaudal
@@ -275,6 +282,7 @@ Chalazion
 Charge nurse
 Chemabrasion
 Chemotherapy
+Chest tube
 Chief complaint
 Chiropractor
 Chlamydia
@@ -320,6 +328,7 @@ Colonoscopy
 Color vision deficiency
 Colorectal Surgery
 Colostomy
+Colostomy bag
 Colovesical fistula
 Colpocystocele
 Colposcopy
@@ -329,6 +338,7 @@ Comorbidity
 Complete blood count
 Compliance / adherence
 Comprehensive metabolic panel
+Compression stockings
 Compulsion
 Computed tomography
 Conductive hearing loss
@@ -341,6 +351,7 @@ Constant pain
 Contact lens
 Continuity of care
 Continuous glucose monitor
+Continuous positive airway pressure machine
 Contraception
 Contraindication
 Contralateral
@@ -372,6 +383,7 @@ Critical Care
 Critical Care Medicine
 Crural region
 Crushing pain
+Crutches
 Cryosurgery
 Cryptorchidism
 Culture and sensitivity
@@ -453,6 +465,7 @@ Dizziness
 Doppler ultrasound
 Dorsal
 Doula
+Drain
 Drug interaction
 Dry eye syndrome
 Dry gangrene
@@ -511,6 +524,7 @@ Endometrium
 Endoscope
 Endoscopy
 End-stage renal disease
+Enema
 Enteritis
 Enterocolitis
 Enteroscopy
@@ -549,6 +563,7 @@ Exophthalmos
 Explanation of benefits
 Extended-release formulation
 Extracorporeal membrane oxygenation
+Extubation
 Facial nerve
 Fallopian tube
 Family Medicine
@@ -556,6 +571,7 @@ Fascia
 Fasciectomy
 Fasciitis
 Fasting blood glucose
+Feeding tube
 Fellow
 Femoral artery
 Femur
@@ -569,6 +585,7 @@ Fissure
 Flexor digitorum
 Fluoride
 Fluoride treatment
+Foley catheter
 Follicle
 Follow-up
 Forced vital capacity
@@ -595,6 +612,7 @@ Gastroenterology
 Gastroesophageal reflux disease
 Gastrointestinal bleeding
 Gastroparesis
+Gauze
 General anesthesia
 General Medicine
 Genetics
@@ -635,6 +653,7 @@ Headache
 Health care proxy
 Health Insurance Portability and Accountability Act
 Health literacy
+Hearing aid
 Hearing loss
 Heart
 Heart failure
@@ -727,6 +746,7 @@ Immunotherapy
 Impacted tooth
 Impetigo
 Implantable port
+Implanted port
 Incision and drainage
 Infantile hemangioma
 Infarction
@@ -734,6 +754,8 @@ Infection
 Infectious Disease
 Inferior
 Inflammation
+Infusion pump
+Inhaler
 In-network
 Inoperable
 Insomnia
@@ -931,8 +953,10 @@ Nasal endoscopy
 Nasal polyp
 Nasal septal deviation
 Nasal turbinate
+Nasogastric tube
 Nasopharynx
 Nausea
+Nebulizer
 Necrosis
 Necrotizing fasciitis
 Neoadjuvant therapy
@@ -1019,6 +1043,7 @@ Orthodontic retainer
 Orthodontics
 Orthopedics
 Orthopnea
+Orthosis
 Orthostatic hypotension
 Osseointegration
 Osteoarthritis
@@ -1045,6 +1070,7 @@ Ovary
 Overactive bladder
 Overbite
 Ovum
+Oxygen concentrator
 Pacemaker
 Pain
 Palliative Care
@@ -1213,6 +1239,7 @@ Pulmonary valve
 Pulmonary vein
 Pulmonology
 Pulpitis
+Pulse oximeter
 Purpura
 Purulent
 Pustule
@@ -1325,7 +1352,10 @@ Sigmoidoscopy
 Sign
 Sinusitis
 Sinusotomy
+Skin biopsy
+Skin closure
 Skin graft
+Skin staple
 Sleep apnea
 Sliding scale fee
 Slit lamp
@@ -1336,6 +1366,7 @@ Somatosensory
 Somnolence
 Sonographer
 Soreness
+Speculum
 Speech therapy
 Speech-language pathologist
 Sphygmomanometer
@@ -1351,6 +1382,7 @@ Splanchnic nerves
 Spleen
 Splenectomy
 Splenomegaly
+Splint
 Splitting pain
 Spondylitis
 Spondylolisthesis
@@ -1394,6 +1426,8 @@ Supragingival
 Suprapubic catheter
 Surgeon
 Surgery
+Surgical mesh
+Suture removal
 Symptom
 Symptomatic
 Synapse
@@ -1461,11 +1495,13 @@ Tonsillitis
 Tooth extraction
 Topography
 Total knee arthroplasty
+Tourniquet
 Toxemia
 Toxicology
 Trachea
 Tracheitis
 Tracheostomy
+Tracheostomy tube
 Tracheotomy
 Transcutaneous
 Transdermal
@@ -1579,12 +1615,15 @@ Vocal fold nodule
 Voluntary movement
 Volvulus
 Vulva
+Walker
 Water solubility
 Weak pulse
 Wet gangrene
 Wheal
+Wheelchair
 Wheezing
 White blood cell count
+Wound irrigation
 Xanthochromia
 Xanthoderma
 Xanthoma

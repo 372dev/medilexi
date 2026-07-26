@@ -8208,5 +8208,205 @@
         "en_h":  "Bone scan",
         "fr_h":  "Scintigraphie osseuse",
         "d_fr":  "Examen de médecine nucléaire utilisant un traceur radioactif injecté pour révéler les zones d\u0027activité osseuse anormale comme les tumeurs ou fractures."
+    },
+    {
+        "en_h":  "Foley catheter",
+        "fr_h":  "Sonde de Foley",
+        "fr_l":  "Sonde urinaire",
+        "d_fr":  "Sonde à demeure introduite dans la vessie pour drainer l\u0027urine en continu, maintenue en place par un ballonnet gonflable."
+    },
+    {
+        "en_h":  "Central venous catheter",
+        "fr_h":  "Cathéter veineux central",
+        "d_fr":  "Fin tube placé dans une grosse veine centrale pour administrer des médicaments, des liquides ou une nutrition, ou pour surveiller les pressions."
+    },
+    {
+        "en_h":  "Nasogastric tube",
+        "fr_h":  "Sonde nasogastrique",
+        "d_fr":  "Tube passé par le nez jusqu\u0027à l\u0027estomac pour administrer une alimentation et des médicaments ou pour vider le contenu gastrique."
+    },
+    {
+        "en_h":  "Feeding tube",
+        "fr_h":  "Sonde d\u0027alimentation",
+        "d_fr":  "Tube qui achemine une nutrition liquide directement dans l\u0027estomac ou l\u0027intestin lorsqu\u0027une personne ne peut pas manger normalement."
+    },
+    {
+        "en_h":  "Chest tube",
+        "fr_h":  "Drain thoracique",
+        "d_fr":  "Tube inséré à travers la paroi thoracique pour évacuer l\u0027air, le sang ou le liquide autour des poumons et rétablir une respiration normale."
+    },
+    {
+        "en_h":  "Tracheostomy tube",
+        "fr_h":  "Canule de trachéotomie",
+        "d_fr":  "Tube courbe placé dans une ouverture chirurgicale du cou jusqu\u0027à la trachée pour maintenir les voies respiratoires et soutenir la respiration."
+    },
+    {
+        "en_h":  "Nebulizer",
+        "fr_h":  "Nébuliseur",
+        "d_fr":  "Appareil qui transforme un médicament liquide en fine brume à inhaler dans les poumons."
+    },
+    {
+        "en_h":  "Inhaler",
+        "fr_h":  "Inhalateur",
+        "d_fr":  "Dispositif portatif qui délivre une dose mesurée de médicament directement dans les voies respiratoires sous forme de spray ou de poudre."
+    },
+    {
+        "en_h":  "Oxygen concentrator",
+        "fr_h":  "Concentrateur d\u0027oxygène",
+        "d_fr":  "Appareil qui aspire l\u0027air et fournit de l\u0027oxygène concentré à une personne dont le taux d\u0027oxygène sanguin est bas."
+    },
+    {
+        "en_h":  "Continuous positive airway pressure machine",
+        "fr_h":  "Appareil à pression positive continue",
+        "d_fr":  "Appareil qui envoie un flux d\u0027air sous pression constante par un masque pour garder les voies respiratoires ouvertes pendant le sommeil."
+    },
+    {
+        "en_h":  "Wheelchair",
+        "fr_h":  "Fauteuil roulant",
+        "d_fr":  "Chaise à roues utilisée pour se déplacer par une personne qui ne peut pas marcher ou qui marche difficilement."
+    },
+    {
+        "en_h":  "Walker",
+        "fr_h":  "Déambulateur",
+        "d_fr":  "Cadre léger sur lequel une personne s\u0027appuie pour se soutenir et garder l\u0027équilibre en marchant."
+    },
+    {
+        "en_h":  "Crutches",
+        "fr_h":  "Béquilles",
+        "d_fr":  "Dispositifs de soutien placés sous les bras ou tenus aux mains pour décharger le poids d\u0027une jambe blessée en marchant."
+    },
+    {
+        "en_h":  "Cane",
+        "fr_h":  "Canne",
+        "d_fr":  "Bâton tenu à la main pour offrir un appui et améliorer l\u0027équilibre en marchant."
+    },
+    {
+        "en_h":  "Orthosis",
+        "fr_h":  "Orthèse",
+        "d_fr":  "Dispositif externe appliqué à un membre ou au corps pour soutenir, aligner ou améliorer la fonction d\u0027une partie mobile."
+    },
+    {
+        "en_h":  "Splint",
+        "fr_h":  "Attelle",
+        "d_fr":  "Dispositif rigide ou souple qui immobilise et protège un membre ou une articulation blessés."
+    },
+    {
+        "en_h":  "Cast",
+        "fr_h":  "Plâtre",
+        "d_fr":  "Coque dure moulée autour d\u0027un membre pour maintenir un os fracturé en place pendant sa guérison."
+    },
+    {
+        "en_h":  "Compression stockings",
+        "fr_h":  "Bas de compression",
+        "d_fr":  "Bas élastiques qui exercent une pression progressive sur les jambes pour améliorer la circulation et réduire l\u0027enflure."
+    },
+    {
+        "en_h":  "Blood pressure cuff",
+        "fr_h":  "Brassard de tension",
+        "d_fr":  "Bande gonflable enroulée autour du bras pour mesurer la pression artérielle."
+    },
+    {
+        "en_h":  "Pulse oximeter",
+        "fr_h":  "Oxymètre de pouls",
+        "fr_l":  "Saturomètre",
+        "d_fr":  "Petit dispositif fixé au doigt qui mesure la saturation en oxygène du sang et la fréquence du pouls."
+    },
+    {
+        "en_h":  "Infusion pump",
+        "fr_h":  "Pompe à perfusion",
+        "d_fr":  "Dispositif qui administre des liquides ou des médicaments dans le corps en quantités précisément contrôlées dans le temps."
+    },
+    {
+        "en_h":  "Implanted port",
+        "fr_h":  "Chambre implantable",
+        "fr_l":  "Port-à-cath",
+        "d_fr":  "Petit dispositif placé sous la peau avec un cathéter dans une veine, permettant un accès répété pour les médicaments ou les prises de sang."
+    },
+    {
+        "en_h":  "Hearing aid",
+        "fr_h":  "Prothèse auditive",
+        "fr_l":  "Appareil auditif",
+        "d_fr":  "Petit appareil électronique porté dans l\u0027oreille ou derrière celle-ci qui amplifie le son pour une personne malentendante."
+    },
+    {
+        "en_h":  "Colostomy bag",
+        "fr_h":  "Poche de colostomie",
+        "d_fr":  "Poche fixée à une ouverture de l\u0027abdomen qui recueille les selles du côlon après une colostomie."
+    },
+    {
+        "en_h":  "Speculum",
+        "fr_h":  "Spéculum",
+        "d_fr":  "Instrument utilisé pour maintenir ouverte une cavité du corps, comme le vagin ou le nez, en vue d\u0027un examen."
+    },
+    {
+        "en_h":  "Tourniquet",
+        "fr_h":  "Garrot",
+        "d_fr":  "Bande serrée appliquée autour d\u0027un membre pour contrôler une hémorragie grave en comprimant la circulation."
+    },
+    {
+        "en_h":  "Surgical mesh",
+        "fr_h":  "Treillis chirurgical",
+        "d_fr":  "Implant tissé utilisé pour renforcer un tissu affaibli ou endommagé, le plus souvent lors de la réparation d\u0027une hernie."
+    },
+    {
+        "en_h":  "Skin staple",
+        "fr_h":  "Agrafe cutanée",
+        "d_fr":  "Attache métallique utilisée pour fermer une incision chirurgicale ou une plaie à la place des sutures."
+    },
+    {
+        "en_h":  "Gauze",
+        "fr_h":  "Compresse de gaze",
+        "d_fr":  "Tissu à mailles lâches utilisé pour couvrir les plaies, absorber le liquide et exercer une pression."
+    },
+    {
+        "en_h":  "Drain",
+        "fr_h":  "Drain",
+        "d_fr":  "Tube ou dispositif qui évacue le liquide ou l\u0027air d\u0027une plaie ou d\u0027une cavité corporelle après une chirurgie."
+    },
+    {
+        "en_h":  "Extubation",
+        "fr_h":  "Extubation",
+        "d_fr":  "Retrait du tube respiratoire des voies aériennes une fois qu\u0027une personne peut respirer suffisamment par elle-même."
+    },
+    {
+        "en_h":  "Enema",
+        "fr_h":  "Lavement",
+        "d_fr":  "Introduction de liquide dans le rectum pour soulager la constipation, vider l\u0027intestin ou administrer un médicament."
+    },
+    {
+        "en_h":  "Skin closure",
+        "fr_h":  "Fermeture cutanée",
+        "d_fr":  "Processus consistant à rapprocher les bords d\u0027une plaie ou d\u0027une incision pour favoriser la guérison, à l\u0027aide de sutures, d\u0027agrafes ou de colle."
+    },
+    {
+        "en_h":  "Wound irrigation",
+        "fr_h":  "Irrigation de plaie",
+        "d_fr":  "Rinçage d\u0027une plaie avec un liquide pour éliminer les débris et les bactéries et réduire le risque d\u0027infection."
+    },
+    {
+        "en_h":  "Central line placement",
+        "fr_h":  "Pose de cathéter veineux central",
+        "d_fr":  "Insertion d\u0027un cathéter dans une grosse veine centrale pour administrer des liquides, des médicaments ou une nutrition."
+    },
+    {
+        "en_h":  "Bone marrow biopsy",
+        "fr_h":  "Biopsie de moelle osseuse",
+        "d_fr":  "Prélèvement d\u0027une petite carotte de moelle osseuse à l\u0027aiguille pour examiner les cellules sanguines à la recherche d\u0027une maladie."
+    },
+    {
+        "en_h":  "Skin biopsy",
+        "fr_h":  "Biopsie cutanée",
+        "d_fr":  "Prélèvement d\u0027un petit échantillon de peau pour un examen en laboratoire afin de diagnostiquer une affection cutanée."
+    },
+    {
+        "en_h":  "Suture removal",
+        "fr_h":  "Ablation des sutures",
+        "fr_l":  "Retrait des points",
+        "d_fr":  "Retrait des points d\u0027une plaie cicatrisée une fois que les tissus se sont ressoudés."
+    },
+    {
+        "en_h":  "Catheter irrigation",
+        "fr_h":  "Irrigation de sonde",
+        "d_fr":  "Rinçage d\u0027une sonde urinaire avec un liquide pour éliminer une obstruction et maintenir un bon drainage."
     }
 ]

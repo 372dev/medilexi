@@ -57,6 +57,7 @@ Alveolus
 Alzheimer's disease
 Ambidextrous
 Amblyopia
+Ambulation
 Ambulatory care
 Amebiasis
 Amenorrhea
@@ -140,6 +141,8 @@ Arthroscope
 Arthroscopy
 Articulation
 Ascites
+Aspiration pneumonia
+Aspiration precautions
 Astigmatism
 Ataxia
 Atelectasis
@@ -166,6 +169,7 @@ Bactericide
 Basal cell carcinoma
 Basal ganglia
 Basic metabolic panel
+Bed rest
 Bell's palsy
 Benign
 Benign paroxysmal positional vertigo
@@ -185,10 +189,12 @@ Blepharitis
 Blepharoptosis
 Blepharospasm
 Blinding pain
+Bloating
 Blood culture
 Blood pressure cuff
 Blood type
 Blood urea nitrogen
+Blurred vision
 Body mass index
 Bone
 Bone marrow biopsy
@@ -196,6 +202,7 @@ Bone mineral density
 Bone scan
 Borderline personality disorder
 Boring pain
+Bowel movement
 Brachial arteritis
 Brachial region
 Brachycephaly
@@ -282,8 +289,10 @@ Chalazion
 Charge nurse
 Chemabrasion
 Chemotherapy
+Chest tightness
 Chest tube
 Chief complaint
+Chills
 Chiropractor
 Chlamydia
 Chlorosis
@@ -359,6 +368,7 @@ Contrast agent
 Contusion
 Convalescence
 Copayment
+Coping mechanism
 Cor pulmonale
 Cornea
 Corneal abrasion
@@ -435,6 +445,7 @@ Dermatome
 Dermatoplasty
 Dermatosis
 Dermis
+Detoxification
 Deviated septum
 Dextrocardia
 Diabetes insipidus
@@ -466,6 +477,7 @@ Doppler ultrasound
 Dorsal
 Doula
 Drain
+Dressing change
 Drug interaction
 Dry eye syndrome
 Dry gangrene
@@ -565,12 +577,14 @@ Extended-release formulation
 Extracorporeal membrane oxygenation
 Extubation
 Facial nerve
+Fall risk
 Fallopian tube
 Family Medicine
 Fascia
 Fasciectomy
 Fasciitis
 Fasting blood glucose
+Fatigue
 Feeding tube
 Fellow
 Femoral artery
@@ -583,6 +597,7 @@ Fibula
 Fine-needle aspiration
 Fissure
 Flexor digitorum
+Fluid restriction
 Fluoride
 Fluoride treatment
 Foley catheter
@@ -640,6 +655,7 @@ Goiter
 Gonorrhea
 Gout
 Graves' disease
+Grief
 Growth hormone
 Guillain-Barré syndrome
 Gynecomastia
@@ -658,6 +674,7 @@ Hearing loss
 Heart
 Heart failure
 Heart valve
+Heartburn
 Heaviness
 Hemangioma
 Hematemesis
@@ -747,6 +764,7 @@ Impacted tooth
 Impetigo
 Implantable port
 Implanted port
+Incentive spirometer
 Incision and drainage
 Infantile hemangioma
 Infarction
@@ -763,6 +781,7 @@ Insulin pump
 Insulin resistance
 Insurance claim
 Insurance premium
+Intake and output
 Integumentary system
 Intermittent claudication
 Intermittent pain
@@ -778,6 +797,7 @@ Intestinal obstruction
 Intramuscular injection
 Intraocular lens
 Intraocular pressure
+Intraoperative
 Intravenous
 Intravenous immunoglobulin
 Intubation
@@ -831,6 +851,7 @@ Levocardia
 Levothyroxine
 Licensed practical nurse
 Ligament
+Lightheadedness
 Limp
 Linguogingival
 Lipase
@@ -847,6 +868,7 @@ Loading dose
 Lobectomy
 Local anesthesia
 Localized pain
+Loss of appetite
 Lower back pain
 Lumbar puncture
 Lumbar vertebra
@@ -864,7 +886,9 @@ Macular dystrophy
 Macule
 Magnetic resonance imaging
 Maintenance dose
+Malaise
 Malignant
+Malignant hyperthermia
 Malignant melanoma
 Malnutrition
 Malocclusion
@@ -949,6 +973,7 @@ Nagging pain
 Nail
 Narcolepsy
 Nasal cavity
+Nasal congestion
 Nasal endoscopy
 Nasal polyp
 Nasal septal deviation
@@ -995,6 +1020,7 @@ Neutrophil
 Nevus
 Nevus simplex
 Next of kin
+Night sweats
 Nitroglycerin
 Nocturia
 Nodule
@@ -1071,6 +1097,7 @@ Overactive bladder
 Overbite
 Ovum
 Oxygen concentrator
+Oxygen saturation
 Pacemaker
 Pain
 Palliative Care
@@ -1081,6 +1108,7 @@ Pancreas
 Pancreatitis
 Pancreatography
 Pancytopenia
+Panic attack
 Panic disorder
 Papilledema
 Papule
@@ -1088,6 +1116,7 @@ Paracentesis
 Paralysis
 Paramedic
 Paranasal sinuses
+Paranoia
 Paraplegia
 Parathyroid
 Paresthesia
@@ -1173,6 +1202,7 @@ Polymyositis
 Polypharmacy
 Polyuria
 Porphyria
+Post-anesthesia care unit
 Postauricular
 Posterior
 Posterior capsule opacification
@@ -1192,6 +1222,7 @@ Presbycusis
 Presbyopia
 Prescription
 Prescription medicine
+Pressure ulcer
 Pressure-like pain
 Preventive care
 Priapism
@@ -1275,6 +1306,7 @@ Rectum
 Recurrent pain
 Referral
 Referred pain
+Regional anesthesia
 Registered nurse
 Regurgitation
 Rehabilitation Medicine
@@ -1288,8 +1320,10 @@ Resectable
 Resection
 Resident physician
 Respiratory depression
+Respiratory rate
 Respiratory system
 Respiratory therapist
+Restraint
 Retina
 Retinal detachment
 Retinopathy
@@ -1352,6 +1386,7 @@ Sigmoidoscopy
 Sign
 Sinusitis
 Sinusotomy
+Sitz bath
 Skin biopsy
 Skin closure
 Skin graft
@@ -1365,6 +1400,7 @@ Somatic symptom disorder
 Somatosensory
 Somnolence
 Sonographer
+Sore throat
 Soreness
 Speculum
 Speech therapy
@@ -1400,6 +1436,7 @@ Sternotomy
 Sternum
 Stethoscope
 Stethoscopy
+Stiffness
 Stinging pain
 Stomach
 Stool guaiac test
@@ -1623,6 +1660,8 @@ Wheal
 Wheelchair
 Wheezing
 White blood cell count
+Withdrawal
+Wound care
 Wound irrigation
 Xanthochromia
 Xanthoderma

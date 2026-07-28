@@ -8408,5 +8408,202 @@
         "en_h":  "Catheter irrigation",
         "fr_h":  "Irrigation de sonde",
         "d_fr":  "Rinçage d\u0027une sonde urinaire avec un liquide pour éliminer une obstruction et maintenir un bon drainage."
+    },
+    {
+        "en_h":  "Fatigue",
+        "fr_h":  "Fatigue",
+        "d_fr":  "Sensation persistante de lassitude ou de manque d\u0027énergie qui n\u0027est pas soulagée par le repos."
+    },
+    {
+        "en_h":  "Malaise",
+        "fr_h":  "Malaise",
+        "d_fr":  "Sentiment général d\u0027inconfort, de mal-être ou de gêne qui accompagne souvent la maladie."
+    },
+    {
+        "en_h":  "Lightheadedness",
+        "fr_h":  "Étourdissement",
+        "d_fr":  "Sensation de faiblesse, de vertige ou d\u0027imminence d\u0027évanouissement."
+    },
+    {
+        "en_h":  "Chest tightness",
+        "fr_h":  "Oppression thoracique",
+        "d_fr":  "Sensation de pression, de serrement ou de lourdeur dans la poitrine."
+    },
+    {
+        "en_h":  "Bloating",
+        "fr_h":  "Ballonnement",
+        "d_fr":  "Sensation de plénitude ou de gonflement de l\u0027abdomen, souvent accompagnée d\u0027une distension visible."
+    },
+    {
+        "en_h":  "Chills",
+        "fr_h":  "Frissons",
+        "d_fr":  "Sensation de froid avec tremblements, survenant souvent au début d\u0027une fièvre."
+    },
+    {
+        "en_h":  "Night sweats",
+        "fr_h":  "Sueurs nocturnes",
+        "d_fr":  "Épisodes de transpiration abondante pendant le sommeil qui trempent les vêtements ou la literie."
+    },
+    {
+        "en_h":  "Loss of appetite",
+        "fr_h":  "Perte d\u0027appétit",
+        "d_fr":  "Désir réduit de manger, souvent signe de maladie, de stress ou d\u0027un effet de médicament."
+    },
+    {
+        "en_h":  "Blurred vision",
+        "fr_h":  "Vision floue",
+        "d_fr":  "Perte de netteté de la vue qui fait paraître les objets flous."
+    },
+    {
+        "en_h":  "Stiffness",
+        "fr_h":  "Raideur",
+        "d_fr":  "Capacité réduite à bouger facilement une articulation ou un muscle, souvent avec une gêne."
+    },
+    {
+        "en_h":  "Nasal congestion",
+        "fr_h":  "Congestion nasale",
+        "fr_l":  "Nez bouché",
+        "d_fr":  "Sensation de nez bouché causée par le gonflement des tissus nasaux et le mucus."
+    },
+    {
+        "en_h":  "Sore throat",
+        "fr_h":  "Mal de gorge",
+        "d_fr":  "Douleur, picotement ou irritation de la gorge qui s\u0027aggrave souvent à la déglutition."
+    },
+    {
+        "en_h":  "Heartburn",
+        "fr_h":  "Brûlures d\u0027estomac",
+        "d_fr":  "Sensation de brûlure derrière le sternum causée par la remontée d\u0027acide gastrique dans l\u0027œsophage."
+    },
+    {
+        "en_h":  "Respiratory rate",
+        "fr_h":  "Fréquence respiratoire",
+        "d_fr":  "Nombre de respirations qu\u0027une personne effectue par minute, noté comme signe vital."
+    },
+    {
+        "en_h":  "Oxygen saturation",
+        "fr_h":  "Saturation en oxygène",
+        "d_fr":  "Pourcentage de l\u0027hémoglobine du sang qui transporte de l\u0027oxygène, mesuré pour évaluer la respiration."
+    },
+    {
+        "en_h":  "Intake and output",
+        "fr_h":  "Bilan des entrées et sorties",
+        "d_fr":  "Relevé mesuré de tous les liquides qu\u0027un patient absorbe et élimine, utilisé pour surveiller l\u0027équilibre hydrique."
+    },
+    {
+        "en_h":  "Ambulation",
+        "fr_h":  "Déambulation",
+        "d_fr":  "Fait de marcher, en particulier la capacité d\u0027un patient à marcher après une maladie ou une chirurgie."
+    },
+    {
+        "en_h":  "Fall risk",
+        "fr_h":  "Risque de chute",
+        "d_fr":  "Évaluation de la probabilité qu\u0027un patient tombe, servant à orienter les mesures de sécurité."
+    },
+    {
+        "en_h":  "Bed rest",
+        "fr_h":  "Alitement",
+        "d_fr":  "Période prescrite passée au lit pour favoriser la guérison d\u0027une maladie ou d\u0027une blessure."
+    },
+    {
+        "en_h":  "Wound care",
+        "fr_h":  "Soins de plaie",
+        "d_fr":  "Nettoyage, pansement et surveillance continus d\u0027une plaie pour favoriser la guérison et prévenir l\u0027infection."
+    },
+    {
+        "en_h":  "Dressing change",
+        "fr_h":  "Changement de pansement",
+        "d_fr":  "Retrait d\u0027un pansement usagé et pose d\u0027un pansement neuf pour garder la plaie propre."
+    },
+    {
+        "en_h":  "Aspiration precautions",
+        "fr_h":  "Précautions contre les fausses routes",
+        "d_fr":  "Mesures prises pour empêcher les aliments, les liquides ou la salive d\u0027entrer dans les voies respiratoires chez une personne à risque."
+    },
+    {
+        "en_h":  "Fluid restriction",
+        "fr_h":  "Restriction hydrique",
+        "d_fr":  "Limite imposée à la quantité de liquide qu\u0027un patient peut consommer, souvent pour une affection cardiaque ou rénale."
+    },
+    {
+        "en_h":  "Bowel movement",
+        "fr_h":  "Selle",
+        "d_fr":  "Évacuation des matières fécales du corps lors de la défécation."
+    },
+    {
+        "en_h":  "Sitz bath",
+        "fr_h":  "Bain de siège",
+        "d_fr":  "Bain peu profond à l\u0027eau tiède utilisé pour apaiser et nettoyer la région périnéale après une chirurgie ou un accouchement."
+    },
+    {
+        "en_h":  "Pressure ulcer",
+        "fr_h":  "Escarre",
+        "d_fr":  "Plaie qui apparaît lorsqu\u0027une pression prolongée réduit l\u0027irrigation sanguine de la peau au-dessus d\u0027une saillie osseuse."
+    },
+    {
+        "en_h":  "Incentive spirometer",
+        "fr_h":  "Spiromètre d\u0027incitation",
+        "d_fr":  "Appareil portatif qui encourage des respirations lentes et profondes pour garder les poumons dilatés après une chirurgie."
+    },
+    {
+        "en_h":  "Restraint",
+        "fr_h":  "Contention",
+        "d_fr":  "Dispositif ou méthode utilisé pour limiter les mouvements d\u0027un patient afin de le protéger ou de protéger autrui."
+    },
+    {
+        "en_h":  "Panic attack",
+        "fr_h":  "Attaque de panique",
+        "d_fr":  "Épisode soudain de peur intense accompagné de symptômes physiques comme des palpitations, un essoufflement et des étourdissements."
+    },
+    {
+        "en_h":  "Paranoia",
+        "fr_h":  "Paranoïa",
+        "d_fr":  "Sentiment injustifié et persistant d\u0027être menacé, surveillé ou persécuté par autrui."
+    },
+    {
+        "en_h":  "Withdrawal",
+        "fr_h":  "Sevrage",
+        "d_fr":  "Ensemble des symptômes physiques et mentaux qui surviennent lorsqu\u0027une personne cesse de consommer une substance dont le corps dépend."
+    },
+    {
+        "en_h":  "Detoxification",
+        "fr_h":  "Désintoxication",
+        "fr_l":  "Détox",
+        "d_fr":  "Processus d\u0027élimination d\u0027une substance comme l\u0027alcool ou la drogue du corps, souvent sous surveillance médicale."
+    },
+    {
+        "en_h":  "Grief",
+        "fr_h":  "Deuil",
+        "d_fr":  "Profonde tristesse et réaction émotionnelle éprouvées après une perte, en particulier le décès d\u0027un proche."
+    },
+    {
+        "en_h":  "Coping mechanism",
+        "fr_h":  "Mécanisme d\u0027adaptation",
+        "d_fr":  "Stratégie qu\u0027une personne utilise pour gérer le stress, les émotions difficiles ou les situations éprouvantes."
+    },
+    {
+        "en_h":  "Intraoperative",
+        "fr_h":  "Peropératoire",
+        "d_fr":  "Qui survient pendant une intervention chirurgicale."
+    },
+    {
+        "en_h":  "Regional anesthesia",
+        "fr_h":  "Anesthésie régionale",
+        "d_fr":  "Insensibilisation d\u0027une région précise du corps par le blocage des signaux nerveux, le patient restant éveillé."
+    },
+    {
+        "en_h":  "Post-anesthesia care unit",
+        "fr_h":  "Salle de réveil",
+        "d_fr":  "Zone où les patients sont surveillés de près pendant qu\u0027ils se remettent de l\u0027anesthésie juste après une chirurgie."
+    },
+    {
+        "en_h":  "Malignant hyperthermia",
+        "fr_h":  "Hyperthermie maligne",
+        "d_fr":  "Réaction héréditaire rare à certains anesthésiques qui provoque une hausse rapide et dangereuse de la température corporelle et une rigidité musculaire."
+    },
+    {
+        "en_h":  "Aspiration pneumonia",
+        "fr_h":  "Pneumonie d\u0027aspiration",
+        "d_fr":  "Infection pulmonaire qui se développe après l\u0027inhalation d\u0027aliments, de liquide ou de vomissures dans les voies respiratoires."
     }
 ]

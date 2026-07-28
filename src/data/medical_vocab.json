@@ -23184,5 +23184,417 @@
               ],
         "d":  "The flushing of a urinary catheter with fluid to clear blockage and keep it draining freely.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Fatigue",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A persistent feeling of tiredness or lack of energy that is not relieved by rest.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Malaise",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A general sense of discomfort, unease, or feeling unwell that often accompanies illness.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "mal-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Lightheadedness",
+        "f":  [
+                  "General Medicine",
+                  "Neurology"
+              ],
+        "d":  "A sensation of feeling faint, dizzy, or about to pass out.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Chest tightness",
+        "f":  [
+                  "Cardiology",
+                  "Pulmonology"
+              ],
+        "d":  "A feeling of pressure, constriction, or heaviness in the chest.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Bloating",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "A sensation of fullness or swelling in the abdomen, often with visible distension.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Chills",
+        "f":  [
+                  "General Medicine",
+                  "Infectious Disease"
+              ],
+        "d":  "A feeling of coldness with shivering, often occurring at the onset of a fever.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Night sweats",
+        "f":  [
+                  "General Medicine",
+                  "Infectious Disease"
+              ],
+        "d":  "Episodes of heavy sweating during sleep that soak clothing or bedding.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Loss of appetite",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A reduced desire to eat, often a sign of illness, stress, or medication effect.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Blurred vision",
+        "f":  [
+                  "Ophthalmology",
+                  "Neurology"
+              ],
+        "d":  "A loss of sharpness of eyesight that makes objects appear out of focus.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Stiffness",
+        "f":  [
+                  "Orthopedics",
+                  "Rheumatology"
+              ],
+        "d":  "A reduced ability to move a joint or muscle easily, often with discomfort.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Nasal congestion",
+        "en_l":  "Stuffy nose",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "A blocked or stuffy feeling in the nose caused by swollen nasal tissues and mucus.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "nas/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Sore throat",
+        "f":  [
+                  "Otolaryngology",
+                  "General Medicine"
+              ],
+        "d":  "Pain, scratchiness, or irritation of the throat that often worsens with swallowing.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Heartburn",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "A burning sensation behind the breastbone caused by stomach acid rising into the esophagus.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Respiratory rate",
+        "abbr":  "RR",
+        "f":  [
+                  "General Medicine",
+                  "Critical Care"
+              ],
+        "d":  "The number of breaths a person takes per minute, recorded as a vital sign.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "spir/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Oxygen saturation",
+        "abbr":  "SpO2",
+        "f":  [
+                  "General Medicine",
+                  "Critical Care"
+              ],
+        "d":  "The percentage of hemoglobin in the blood that is carrying oxygen, measured to assess breathing.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Intake and output",
+        "abbr":  "I\u0026O",
+        "f":  [
+                  "General Medicine",
+                  "Critical Care"
+              ],
+        "d":  "The measured record of all fluids a patient takes in and passes out, used to monitor fluid balance.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Ambulation",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "The act of walking, especially a patient\u0027s ability to walk after illness or surgery.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Fall risk",
+        "f":  [
+                  "General Medicine",
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "An assessment of how likely a patient is to fall, used to guide safety precautions.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Bed rest",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A prescribed period of staying in bed to aid recovery from illness or injury.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Wound care",
+        "f":  [
+                  "General Medicine",
+                  "Surgery"
+              ],
+        "d":  "The ongoing cleaning, dressing, and monitoring of a wound to promote healing and prevent infection.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Dressing change",
+        "f":  [
+                  "General Medicine",
+                  "Surgery"
+              ],
+        "d":  "The removal of a used wound covering and application of a fresh one to keep the wound clean.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Aspiration precautions",
+        "f":  [
+                  "Critical Care",
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "Measures taken to prevent food, liquid, or saliva from entering the airway in a person at risk of choking.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "spir/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Fluid restriction",
+        "f":  [
+                  "Nephrology",
+                  "Cardiology"
+              ],
+        "d":  "A limit placed on the amount of fluid a patient may consume, often for heart or kidney conditions.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Bowel movement",
+        "abbr":  "BM",
+        "f":  [
+                  "Gastroenterology",
+                  "General Medicine"
+              ],
+        "d":  "The passage of stool from the body during defecation.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Sitz bath",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "A shallow warm-water bath used to soothe and clean the perineal area after surgery or childbirth.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Pressure ulcer",
+        "en_l":  "Bedsore",
+        "f":  [
+                  "Dermatology",
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "A sore that develops when prolonged pressure reduces blood flow to the skin over a bony area.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Incentive spirometer",
+        "f":  [
+                  "Pulmonology"
+              ],
+        "d":  "A handheld device that encourages slow deep breaths to keep the lungs expanded after surgery.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "spir/o"
+                            ],
+                      "s":  [
+                                "-meter"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Restraint",
+        "f":  [
+                  "Psychiatry",
+                  "Critical Care"
+              ],
+        "d":  "A device or method used to limit a patient\u0027s movement to protect them or others from harm.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Panic attack",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A sudden episode of intense fear with physical symptoms such as a racing heart, shortness of breath, and dizziness.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Paranoia",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "An unfounded and persistent feeling of being threatened, watched, or persecuted by others.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "para-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Withdrawal",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "The set of physical and mental symptoms that occur when a person stops using a substance the body depends on.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Detoxification",
+        "en_l":  "Detox",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "The process of clearing a substance such as alcohol or drugs from the body, often under medical supervision.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "tox/i"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Grief",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "The deep sorrow and emotional response experienced after a loss, especially the death of a loved one.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Coping mechanism",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A strategy a person uses to manage stress, difficult emotions, or challenging situations.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Intraoperative",
+        "f":  [
+                  "Anesthesiology",
+                  "Surgery"
+              ],
+        "d":  "Occurring during a surgical operation.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "intra-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Regional anesthesia",
+        "f":  [
+                  "Anesthesiology"
+              ],
+        "d":  "The numbing of a specific region of the body by blocking nerve signals, while the patient stays awake.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "esthesi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Post-anesthesia care unit",
+        "en_l":  "Recovery room",
+        "abbr":  "PACU",
+        "f":  [
+                  "Anesthesiology"
+              ],
+        "d":  "The area where patients are closely monitored as they recover from anesthesia immediately after surgery.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "post-"
+                            ],
+                      "r":  [
+                                "esthesi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Malignant hyperthermia",
+        "f":  [
+                  "Anesthesiology"
+              ],
+        "d":  "A rare inherited reaction to certain anesthetics that causes a rapid dangerous rise in body temperature and muscle rigidity.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "mal-",
+                                "hyper-"
+                            ],
+                      "r":  [
+                                "therm/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Aspiration pneumonia",
+        "f":  [
+                  "Pulmonology",
+                  "Critical Care"
+              ],
+        "d":  "A lung infection that develops after food, liquid, or vomit is inhaled into the airways.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "spir/o",
+                                "pneum/o"
+                            ]
+                  }
     }
 ]

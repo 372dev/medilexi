@@ -68,11 +68,21 @@ export function createLimiter(opts: LimiterOptions = DEFAULT_OPTIONS): Limiter {
   }
 
   function sweep(now: number): void {
-    for (const [ip, list] of hits) {
+    // `Map.forEach`, not `for...of`: this project's tsconfig sets no `target`,
+    // so TypeScript defaults to ES5, where iterating a Map needs
+    // `downlevelIteration`. Arrays are exempt, hence the two array loops below.
+    // (This broke the v1.315 Vercel build; keep it this way.)
+    const drop: string[] = []
+    const update: Array<[string, number[]]> = []
+
+    hits.forEach((list, ip) => {
       const kept = prune(list, now, opts.ipWindowMs)
-      if (kept.length === 0) hits.delete(ip)
-      else if (kept !== list) hits.set(ip, kept)
-    }
+      if (kept.length === 0) drop.push(ip)
+      else if (kept !== list) update.push([ip, kept])
+    })
+
+    for (const ip of drop) hits.delete(ip)
+    for (const [ip, kept] of update) hits.set(ip, kept)
   }
 
   return {

@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { insertSubmission, isDbConfigured, DbNotConfiguredError, type SubmissionKind } from '@/lib/server-db'
 import { reviewKeyMatches } from '@/lib/review-auth'
+import { submissionLimiter, clientIp } from '@/lib/rate-limit'
 
 // Route Handlers run on the server on every request; nothing here is prerendered.
 export const runtime = 'nodejs'
@@ -49,6 +50,19 @@ export async function POST(req: Request) {
   if (kind === 'fr_review') {
     if (!reviewKeyMatches(req.headers.get('x-review-key'))) {
       return NextResponse.json({ error: 'unauthorized' }, { status: 401 })
+    }
+  } else {
+    // Keyless writes get rate limited. Deliberately inside the `else`: a
+    // key-authenticated review submission is never blocked by public traffic.
+    // Placed before the payload checks, so a malformed request still spends
+    // quota -- spam is spam, and the bucket is per-IP, so a bad actor only
+    // exhausts their own.
+    const decision = submissionLimiter.check(clientIp(req.headers))
+    if (!decision.allowed) {
+      return NextResponse.json(
+        { error: 'rate_limited', retryAfter: decision.retryAfter },
+        { status: 429, headers: { 'Retry-After': String(decision.retryAfter) } },
+      )
     }
   }
 

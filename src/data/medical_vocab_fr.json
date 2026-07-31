@@ -8605,5 +8605,143 @@
         "en_h":  "Aspiration pneumonia",
         "fr_h":  "Pneumonie d\u0027aspiration",
         "d_fr":  "Infection pulmonaire qui se développe après l\u0027inhalation d\u0027aliments, de liquide ou de vomissures dans les voies respiratoires."
+    },
+    {
+        "en_h":  "Effacement",
+        "fr_h":  "Effacement du col",
+        "d_fr":  "Amincissement et raccourcissement du col de l\u0027utérus qui se prépare à l\u0027accouchement."
+    },
+    {
+        "en_h":  "Fetal monitoring",
+        "fr_h":  "Surveillance fœtale",
+        "d_fr":  "Suivi du rythme cardiaque du bébé et des contractions de la mère pendant la grossesse ou le travail pour évaluer le bien-être."
+    },
+    {
+        "en_h":  "Amniotic fluid",
+        "fr_h":  "Liquide amniotique",
+        "d_fr":  "Liquide protecteur qui entoure le bébé dans l\u0027utérus, l\u0027amortit et soutient son développement."
+    },
+    {
+        "en_h":  "Rupture of membranes",
+        "fr_h":  "Rupture des membranes",
+        "fr_l":  "Perte des eaux",
+        "d_fr":  "Rupture de la poche des eaux qui libère le liquide entourant le bébé, signalant généralement que le travail approche ou commence."
+    },
+    {
+        "en_h":  "Breech presentation",
+        "fr_h":  "Présentation par le siège",
+        "d_fr":  "Position dans laquelle le bébé se présente par les fesses ou les pieds plutôt que par la tête."
+    },
+    {
+        "en_h":  "Induction of labor",
+        "fr_h":  "Déclenchement du travail",
+        "d_fr":  "Recours à des médicaments ou à d\u0027autres méthodes pour provoquer le travail artificiellement au lieu d\u0027attendre qu\u0027il commence seul."
+    },
+    {
+        "en_h":  "Vacuum extraction",
+        "fr_h":  "Extraction par ventouse",
+        "d_fr":  "Accouchement assisté où une ventouse souple est appliquée sur la tête du bébé pour aider à le guider vers l\u0027extérieur."
+    },
+    {
+        "en_h":  "Gestational age",
+        "fr_h":  "Âge gestationnel",
+        "d_fr":  "Âge d\u0027une grossesse compté à partir du premier jour des dernières règles de la mère."
+    },
+    {
+        "en_h":  "Colostrum",
+        "fr_h":  "Colostrum",
+        "d_fr":  "Premier lait épais et riche en nutriments produit par les seins en fin de grossesse et les premiers jours après la naissance."
+    },
+    {
+        "en_h":  "Lactation",
+        "fr_h":  "Lactation",
+        "d_fr":  "Production et sécrétion de lait par les seins pour nourrir un nourrisson."
+    },
+    {
+        "en_h":  "Apgar score",
+        "fr_h":  "Score d\u0027Apgar",
+        "d_fr":  "Évaluation rapide de l\u0027état d\u0027un nouveau-né à la naissance, notant le rythme cardiaque, la respiration, le tonus, les réflexes et la coloration."
+    },
+    {
+        "en_h":  "Preterm birth",
+        "fr_h":  "Accouchement prématuré",
+        "d_fr":  "Naissance d\u0027un bébé avant que la grossesse ait atteint son terme."
+    },
+    {
+        "en_h":  "Stillbirth",
+        "fr_h":  "Mortinaissance",
+        "d_fr":  "Décès d\u0027un bébé dans l\u0027utérus après un certain stade de la grossesse, avant ou pendant l\u0027accouchement."
+    },
+    {
+        "en_h":  "Morning sickness",
+        "fr_h":  "Nausées de grossesse",
+        "d_fr":  "Nausées et vomissements fréquents en début de grossesse, souvent mais pas seulement le matin."
+    },
+    {
+        "en_h":  "Labor and delivery",
+        "fr_h":  "Travail et accouchement",
+        "d_fr":  "Processus de la naissance, depuis le début des contractions jusqu\u0027à la sortie du bébé."
+    },
+    {
+        "en_h":  "Fetal heart rate",
+        "fr_h":  "Fréquence cardiaque fœtale",
+        "d_fr":  "Nombre de battements du cœur du bébé par minute, surveillé pour évaluer son bien-être avant et pendant le travail."
+    },
+    {
+        "en_h":  "Forceps delivery",
+        "fr_h":  "Accouchement par forceps",
+        "d_fr":  "Accouchement assisté où des instruments courbes sont placés autour de la tête du bébé pour aider à le guider vers l\u0027extérieur."
+    },
+    {
+        "en_h":  "Prenatal care",
+        "fr_h":  "Soins prénataux",
+        "d_fr":  "Suivi médical régulier reçu par une femme pendant la grossesse pour surveiller la santé de la mère et du bébé."
+    },
+    {
+        "en_h":  "Breastfeeding",
+        "fr_h":  "Allaitement",
+        "d_fr":  "Alimentation d\u0027un nourrisson avec le lait directement du sein."
+    },
+    {
+        "en_h":  "Newborn screening",
+        "fr_h":  "Dépistage néonatal",
+        "d_fr":  "Ensemble de tests réalisés peu après la naissance pour détecter tôt des affections traitables."
+    },
+    {
+        "en_h":  "Neonatal intensive care unit",
+        "fr_h":  "Unité de soins intensifs néonatals",
+        "d_fr":  "Service hospitalier offrant des soins spécialisés aux nouveau-nés prématurés ou gravement malades."
+    },
+    {
+        "en_h":  "Cesarean section",
+        "fr_h":  "Césarienne",
+        "d_fr":  "Naissance d\u0027un bébé par une incision chirurgicale pratiquée dans l\u0027abdomen et l\u0027utérus de la mère."
+    },
+    {
+        "en_h":  "Preeclampsia",
+        "fr_h":  "Prééclampsie",
+        "d_fr":  "Complication de la grossesse marquée par une hypertension et des signes de souffrance des organes, apparaissant généralement dans la seconde moitié de la grossesse."
+    },
+    {
+        "en_h":  "Miscarriage",
+        "fr_h":  "Fausse couche",
+        "d_fr":  "Perte spontanée d\u0027une grossesse avant que le bébé puisse survivre hors de l\u0027utérus."
+    },
+    {
+        "en_h":  "Papanicolaou test",
+        "fr_h":  "Test de Papanicolaou",
+        "fr_l":  "Frottis cervico-utérin",
+        "d_fr":  "Test de dépistage qui prélève des cellules du col de l\u0027utérus pour détecter des changements précancéreux ou cancéreux."
+    },
+    {
+        "en_h":  "Cervical dysplasia",
+        "fr_h":  "Dysplasie cervicale",
+        "d_fr":  "Présence de cellules précancéreuses anormales à la surface du col de l\u0027utérus, généralement détectée par dépistage."
+    },
+    {
+        "en_h":  "In vitro fertilization",
+        "fr_h":  "Fécondation in vitro",
+        "fr_l":  "Bébé-éprouvette",
+        "d_fr":  "Traitement de fertilité où un ovule est fécondé par un spermatozoïde en laboratoire et l\u0027embryon obtenu est placé dans l\u0027utérus."
     }
 ]

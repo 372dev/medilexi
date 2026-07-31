@@ -62,6 +62,7 @@ Ambulatory care
 Amebiasis
 Amenorrhea
 Amniocentesis
+Amniotic fluid
 Amniotomy
 Amphiarthrosis
 Amylase
@@ -121,6 +122,7 @@ Aortic stenosis
 Aortic valve
 Aortography
 Apex
+Apgar score
 Aphasia
 Aphrodisiac
 Apnea
@@ -213,6 +215,8 @@ Bradypnea
 Brain
 Brainstem
 Breast
+Breastfeeding
+Breech presentation
 Brief pain
 Bronchiectasis
 Bronchitis
@@ -283,8 +287,10 @@ Cerebrovascular accident
 Cerebrum
 Certified nursing assistant
 Cerumen impaction
+Cervical dysplasia
 Cervical region
 Cervix
+Cesarean section
 Chalazion
 Charge nurse
 Chemabrasion
@@ -338,6 +344,7 @@ Color vision deficiency
 Colorectal Surgery
 Colostomy
 Colostomy bag
+Colostrum
 Colovesical fistula
 Colpocystocele
 Colposcopy
@@ -504,6 +511,7 @@ Ectopic pregnancy
 Eczema
 Edema
 Edentulous
+Effacement
 Efferent nerve
 Efficacy
 Ejection fraction
@@ -590,6 +598,8 @@ Fellow
 Femoral artery
 Femur
 Ferritin
+Fetal heart rate
+Fetal monitoring
 Fever
 Fibromyalgia
 Fibrosis
@@ -604,6 +614,7 @@ Foley catheter
 Follicle
 Follow-up
 Forced vital capacity
+Forceps delivery
 Formication
 Formulary
 Fractionation
@@ -633,6 +644,7 @@ General Medicine
 Genetics
 Genu valgum
 Genu varum
+Gestational age
 Gestational diabetes
 Gingival recession
 Gingivectomy
@@ -764,8 +776,10 @@ Impacted tooth
 Impetigo
 Implantable port
 Implanted port
+In vitro fertilization
 Incentive spirometer
 Incision and drainage
+Induction of labor
 Infantile hemangioma
 Infarction
 Infection
@@ -824,9 +838,11 @@ Kyphoplasty
 Kyphosis
 Labiodental
 Labioplasty
+Labor and delivery
 Labyrinthitis
 Laceration
 Lacrimal gland
+Lactation
 Laparohysteropexy
 Laparoscopy
 Laparotomy
@@ -936,11 +952,13 @@ Midwife
 Migraine
 Migrating pain
 Mild pain
+Miscarriage
 Miserable pain
 Mitral valve
 Mitral valve prolapse
 Moderate pain
 Mood stabilizer
+Morning sickness
 Mucositis
 Multifocal intraocular lens
 Multiple sclerosis
@@ -986,6 +1004,7 @@ Necrosis
 Necrotizing fasciitis
 Neoadjuvant therapy
 Neonatal
+Neonatal intensive care unit
 Neoplasm
 Nephrectomy
 Nephrolithiasis
@@ -1019,6 +1038,7 @@ Neutropenia
 Neutrophil
 Nevus
 Nevus simplex
+Newborn screening
 Next of kin
 Night sweats
 Nitroglycerin
@@ -1110,6 +1130,7 @@ Pancreatography
 Pancytopenia
 Panic attack
 Panic disorder
+Papanicolaou test
 Papilledema
 Papule
 Paracentesis
@@ -1215,8 +1236,10 @@ Potassium hydroxide preparation
 Power of attorney
 Pre-admission testing
 Prediabetes
+Preeclampsia
 Premature atrial contraction
 Prenatal
+Prenatal care
 Preoperative
 Presbycusis
 Presbyopia
@@ -1224,6 +1247,7 @@ Prescription
 Prescription medicine
 Pressure ulcer
 Pressure-like pain
+Preterm birth
 Preventive care
 Priapism
 Primary care provider
@@ -1342,6 +1366,7 @@ Root canal treatment
 Root resorption
 Rotator cuff
 Rubella
+Rupture of membranes
 Sagittal plane
 Salivary gland
 Sarcoidosis
@@ -1437,6 +1462,7 @@ Sternum
 Stethoscope
 Stethoscopy
 Stiffness
+Stillbirth
 Stinging pain
 Stomach
 Stool guaiac test
@@ -1606,6 +1632,7 @@ Uterus
 Utilization review
 Uveitis
 Vaccination / immunization
+Vacuum extraction
 Vagina
 Vagus nerve
 Varicella

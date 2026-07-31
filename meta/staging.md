@@ -164,14 +164,6 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 - Topical medication
 - Medication adherence
 
-### Obstetrics & Gynecology
-- Cesarean section
-- Preeclampsia
-- Miscarriage
-- Papanicolaou test (Pap smear)
-- Cervical dysplasia
-- In vitro fertilization (IVF)
-
 ### Orthopedics
 - Herniated disc
 - Rotator cuff tear
@@ -181,29 +173,6 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 - Strain
 - Dislocation
 - Total hip arthroplasty
-
-### Pregnancy & childbirth
-- Effacement
-- Fetal monitoring
-- Amniotic fluid
-- Rupture of membranes
-- Breech presentation
-- Induction of labor
-- Vacuum extraction
-- Gestational age
-- Colostrum
-- Lactation
-- Apgar score
-- Preterm birth
-- Stillbirth
-- Morning sickness
-- Labor and delivery
-- Fetal heart rate
-- Forceps delivery
-- Prenatal care
-- Breastfeeding
-- Newborn screening
-- Neonatal intensive care unit
 
 ### Subtypes of existing entries (confirm scope)
 - Total hysterectomy (TAH)

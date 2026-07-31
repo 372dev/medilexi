@@ -23596,5 +23596,294 @@
                                 "pneum/o"
                             ]
                   }
+    },
+    {
+        "en_h":  "Effacement",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The thinning and shortening of the cervix as it prepares for childbirth.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fetal monitoring",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The tracking of a baby\u0027s heart rate and the mother\u0027s contractions during pregnancy or labor to assess wellbeing.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "fet/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Amniotic fluid",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The protective liquid surrounding the baby in the womb that cushions it and supports development.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "amni/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Rupture of membranes",
+        "en_l":  "Water breaking",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The breaking of the amniotic sac, releasing the fluid around the baby, usually signaling that labor is near or beginning.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Breech presentation",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A position in which the baby is set to be born buttocks or feet first rather than head first.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Induction of labor",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The use of medication or other methods to start labor artificially rather than waiting for it to begin on its own.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "duct/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Vacuum extraction",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "An assisted delivery in which a soft suction cup is applied to the baby\u0027s head to help guide it out during birth.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Gestational age",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The age of a pregnancy measured from the first day of the mother\u0027s last menstrual period.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Colostrum",
+        "en_l":  "First milk",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Pediatrics"
+              ],
+        "d":  "The thick, nutrient-rich first milk produced by the breasts in late pregnancy and the first days after birth.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Lactation",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The production and secretion of milk by the breasts to feed an infant.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "lact/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Apgar score",
+        "f":  [
+                  "Pediatrics",
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A quick assessment of a newborn\u0027s condition at birth, rating heart rate, breathing, muscle tone, reflexes, and color.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Preterm birth",
+        "en_l":  "Premature birth",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Pediatrics"
+              ],
+        "d":  "The birth of a baby before the pregnancy has reached full term.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "pre-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Stillbirth",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The death of a baby in the womb after a certain point in pregnancy, before or during delivery.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Morning sickness",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "Nausea and vomiting that commonly occur in early pregnancy, often but not only in the morning.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Labor and delivery",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The process of childbirth, from the onset of contractions through the birth of the baby.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Fetal heart rate",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The number of times a baby\u0027s heart beats per minute, monitored to assess wellbeing before and during labor.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "fet/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Forceps delivery",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "An assisted delivery in which curved instruments are placed around the baby\u0027s head to help guide it out during birth.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Prenatal care",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The regular medical care a woman receives during pregnancy to monitor the health of mother and baby.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "pre-"
+                            ],
+                      "r":  [
+                                "nat/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Breastfeeding",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Pediatrics"
+              ],
+        "d":  "The feeding of an infant with milk directly from the breast.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Newborn screening",
+        "f":  [
+                  "Pediatrics"
+              ],
+        "d":  "A set of tests performed shortly after birth to detect treatable conditions early.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Neonatal intensive care unit",
+        "abbr":  "NICU",
+        "f":  [
+                  "Pediatrics"
+              ],
+        "d":  "A hospital unit providing specialized care for premature or critically ill newborns.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "neo-"
+                            ],
+                      "r":  [
+                                "nat/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cesarean section",
+        "en_l":  "C-section",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The delivery of a baby through a surgical incision in the mother\u0027s abdomen and uterus.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Preeclampsia",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A pregnancy complication marked by high blood pressure and signs of organ stress, usually appearing in the second half of pregnancy.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "pre-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Miscarriage",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The spontaneous loss of a pregnancy before the baby is able to survive outside the womb.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Papanicolaou test",
+        "en_l":  "Pap smear",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A screening test that samples cells from the cervix to detect precancerous or cancerous changes.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Cervical dysplasia",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The presence of abnormal precancerous cells on the surface of the cervix, usually detected by screening.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "dys-"
+                            ],
+                      "r":  [
+                                "cervic/o"
+                            ],
+                      "s":  [
+                                "-plasia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "In vitro fertilization",
+        "abbr":  "IVF",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A fertility treatment in which an egg is fertilized by sperm in a laboratory and the resulting embryo is placed in the uterus.",
+        "lvl":  3
     }
 ]

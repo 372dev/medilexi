@@ -1,5 +1,5 @@
-import { describe, it, expect } from 'vitest'
-import { normalizeUrl } from '../server-db'
+import { describe, it, expect, afterEach } from 'vitest'
+import { normalizeUrl, pingDb, insertSubmission, DbNotConfiguredError } from '../server-db'
 
 describe('normalizeUrl', () => {
   it('leaves a clean project URL alone', () => {
@@ -27,5 +27,30 @@ describe('normalizeUrl', () => {
     expect(normalizeUrl('https://abc.supabase.co/rest/v1/submissions')).toBe(
       'https://abc.supabase.co/rest/v1/submissions',
     )
+  })
+})
+
+describe('db access without configuration', () => {
+  // These run in CI where no Supabase env vars are set, so config().ready is
+  // false and both functions must fail fast with the typed error BEFORE any
+  // network call is attempted -- never hang or throw a generic error.
+  const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env
+  afterEach(() => {
+    process.env.SUPABASE_URL = SUPABASE_URL
+    process.env.SUPABASE_SERVICE_ROLE_KEY = SUPABASE_SERVICE_ROLE_KEY
+  })
+
+  it('pingDb throws DbNotConfiguredError when env is absent', async () => {
+    delete process.env.SUPABASE_URL
+    delete process.env.SUPABASE_SERVICE_ROLE_KEY
+    await expect(pingDb()).rejects.toBeInstanceOf(DbNotConfiguredError)
+  })
+
+  it('insertSubmission throws DbNotConfiguredError when env is absent', async () => {
+    delete process.env.SUPABASE_URL
+    delete process.env.SUPABASE_SERVICE_ROLE_KEY
+    await expect(
+      insertSubmission({ kind: 'feedback', payload: { t: 1 } }),
+    ).rejects.toBeInstanceOf(DbNotConfiguredError)
   })
 })

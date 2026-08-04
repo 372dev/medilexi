@@ -1,0 +1,23 @@
+name: supabase-keepalive
+
+# Weekly read-only ping so the Supabase free tier does not pause after ~7 days
+# idle. Hits /api/health, which does a trivial `select id limit 1` (no row data
+# returned). Replaces the manual mock-row stopgap. GitHub disables scheduled
+# workflows after 60 days with no repo activity, but this repo commits often.
+on:
+  schedule:
+    - cron: '17 9 * * 1'   # Mondays 09:17 UTC
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping the health endpoint
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 https://medilexi.vercel.app/api/health)
+          echo "GET /api/health -> HTTP $code"
+          if [ "$code" != "200" ]; then
+            echo "::error::health endpoint returned $code (expected 200)"
+            exit 1
+          fi

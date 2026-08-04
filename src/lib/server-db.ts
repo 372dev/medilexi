@@ -77,3 +77,24 @@ export async function insertSubmission(row: SubmissionRow): Promise<void> {
     throw new Error(`Insert failed with status ${res.status}`)
   }
 }
+
+/**
+ * Trivial read that touches the database, used as a keepalive so the Supabase
+ * free tier does not pause after ~7 days idle. Selects at most one row's id and
+ * discards it -- NO row content is returned to the caller. The GET on
+ * /api/submissions cannot serve this purpose: it only reads env vars.
+ */
+export async function pingDb(): Promise<void> {
+  const { url, key, ready } = config()
+  if (!ready) throw new DbNotConfiguredError()
+
+  const res = await fetch(`${url}/rest/v1/submissions?select=id&limit=1`, {
+    headers: { apikey: key!, Authorization: `Bearer ${key!}` },
+    cache: 'no-store',
+  })
+
+  if (!res.ok) {
+    // Status only, same reasoning as insertSubmission.
+    throw new Error(`Ping failed with status ${res.status}`)
+  }
+}

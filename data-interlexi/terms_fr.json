@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "layer": "interlexi",
+  "kind": "terms",
+  "tgt_lang": "fr",
+  "_what": "NEW source terms that Medi Lexi does not have at all -- the coverage gap of COMPANION_PLAN section 20: electrolytes and common labs, vitals, dosing vocabulary (dose, route, frequency, units), the most-prescribed drug classes, plain-speech body parts, and the ordinary verbs of clinical instruction. Roughly 500-800 of the highest-frequency spoken clinical terms.",
+  "_gate": "TWO steps, not four (section 21c). 1) Propose the term list plus target pairs, with register and field tags. 2) Native review of the PAIR ONLY -- is this what a practitioner says? Check a reference where one exists; FLAG AND OMIT where none does. Dropped: definitions in any language, word parts, level grading, register curation. Kept: correctness, and omit-rather-than-guess.",
+  "_shape": "{ \"s\": \"Potassium\", \"f\": [\"Pathology\"], \"aka\": [\"K\"], \"cand\": [ { \"t\": \"potassium\", \"reg\": \"clinical\" } ] }  --  `reg` is clinical | lay | regional | abbreviation. Vote counts are never authored; the compiler writes zeros.",
+  "_collision": "A term whose slug already exists in src/data MERGES into that entry as an extra candidate rather than replacing it or duplicating the id (section 21d: disagreement is a signal, never a silent overwrite). The compiler enforces this; you do not need to check by hand.",
+  "_status": "EMPTY, awaiting the data lane. The compiler, the validator and the pack format are all built and tested (2026-08-08, coder) -- this file is the input they are waiting for. The coder does not author it: French pairs need the step-2 native review, which is the manager's.",
+  "terms": []
+}

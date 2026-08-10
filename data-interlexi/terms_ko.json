@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "layer": "interlexi",
+  "kind": "terms",
+  "tgt_lang": "ko",
+  "_what": "NEW source terms that Medi Lexi does not have at all -- the coverage gap of COMPANION_PLAN section 20: electrolytes and common labs, vitals, dosing vocabulary (dose, route, frequency, units), the most-prescribed drug classes, plain-speech body parts, and the ordinary verbs of clinical instruction. Roughly 500-800 of the highest-frequency spoken clinical terms.",
+  "_gate": "TWO steps, not four (section 21c). 1) Propose the term list plus target pairs, with register and field tags. 2) Native review of the PAIR ONLY -- is this what a practitioner says? Check a reference where one exists; FLAG AND OMIT where none does. Dropped: definitions in any language, word parts, level grading, register curation. Kept: correctness, and omit-rather-than-guess.",
+  "_shape": "{ \"s\": \"Diuretic\", \"aka\": [\"water pill\"], \"cand\": [ { \"t\": \"이뇨제\", \"reg\": \"clinical\" } ] }  --  `reg` is clinical | lay | regional | abbreviation. Vote counts are never authored; the compiler writes zeros. NO `f` on native terms going forward (section 9b-3, 2026-08-08); batch 1 below carries it as the transition (see _status).",
+  "_collision": "A term whose slug already exists in src/data MERGES into that entry as an extra candidate rather than replacing it or duplicating the id (section 21d: disagreement is a signal, never a silent overwrite). The compiler enforces this; you do not need to check by hand.",
+  "_status": "Batch 1 (the measured misses), 2026-08-08, data lane: 16 new terms, KO only. Carries `f` as the deliberate transition -- the compiler still emits it unconditionally, so batch 1 shipped WITH `f` and batch 2 drops it once the coder guards the compiler (section 9b-3).",
+  "terms": [
+    { "s": "Electrolyte", "f": ["Pathology"], "cand": [ { "t": "전해질", "reg": "clinical" } ] },
+    { "s": "Magnesium", "f": ["Pathology"], "cand": [ { "t": "마그네슘", "reg": "clinical" } ] },
+    { "s": "Uric acid", "f": ["Pathology", "Rheumatology"], "cand": [ { "t": "요산", "reg": "clinical" } ] },
+    { "s": "Thiazide", "f": ["Pharmacology"], "cand": [ { "t": "티아지드", "reg": "clinical" } ] },
+    { "s": "Hydrochlorothiazide", "f": ["Pharmacology"], "aka": ["HCTZ"], "cand": [ { "t": "히드로클로로티아지드", "reg": "clinical" } ] },
+    { "s": "Milligram", "f": ["Pharmacology"], "cand": [ { "t": "밀리그램", "reg": "clinical" } ] },
+    { "s": "Medication", "f": ["Pharmacology"], "cand": [ { "t": "약물", "reg": "clinical" }, { "t": "약", "reg": "lay" } ] },
+    { "s": "Blood clot", "f": ["Hematology"], "cand": [ { "t": "혈전", "reg": "clinical" }, { "t": "피떡", "reg": "lay" } ] },
+    { "s": "Dizzy", "f": ["General Medicine"], "cand": [ { "t": "어지러움", "reg": "lay" } ] },
+    { "s": "Hospice", "f": ["General Medicine"], "cand": [ { "t": "호스피스", "reg": "clinical" } ] },
+    { "s": "End-of-life", "f": ["General Medicine"], "cand": [ { "t": "생애 말기", "reg": "clinical" }, { "t": "임종기", "reg": "clinical" } ] },
+    { "s": "Psychosocial", "f": ["Psychiatry"], "cand": [ { "t": "심리사회적", "reg": "clinical" } ] },
+    { "s": "Assessment", "f": ["General Medicine"], "cand": [ { "t": "평가", "reg": "clinical" }, { "t": "사정", "reg": "clinical" } ] },
+    { "s": "Diuretic", "f": ["Pharmacology"], "cand": [ { "t": "이뇨제", "reg": "clinical" } ] },
+    { "s": "Dose", "f": ["Pharmacology"], "cand": [ { "t": "용량", "reg": "clinical" } ] },
+    { "s": "Admitted", "f": ["Healthcare Administration"], "cand": [ { "t": "입원", "reg": "clinical" } ] }
+  ]
+}

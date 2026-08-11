@@ -45,7 +45,20 @@
     { "of": "medical-social-worker", "aka": ["social worker"] },
     { "of": "arrhythmia", "aka": ["irregular heartbeat"] },
     { "of": "anticoagulant", "aka": ["blood thinner"] },
-    { "of": "analgesic", "aka": ["pain medication"] },
-    { "of": "coagulation", "aka": ["clotting"] }
+    { "of": "analgesic", "aka": ["pain medication", "painkiller"] },
+    { "of": "coagulation", "aka": ["clotting"] },
+
+    { "of": "patella", "aka": ["kneecap"] },
+    { "of": "clavicle", "aka": ["collarbone"] },
+    { "of": "scapula", "aka": ["shoulder blade"] },
+    { "of": "trachea", "aka": ["windpipe"] },
+    { "of": "larynx", "aka": ["voice box"] },
+    { "of": "tympanic-membrane", "aka": ["eardrum"] },
+    { "of": "abdomen", "aka": ["belly", "tummy"] },
+    { "of": "pharynx", "aka": ["throat"] },
+    { "of": "oxygen-saturation", "aka": ["oxygen level"] },
+    { "of": "intramuscular-injection", "aka": ["intramuscular"] },
+    { "of": "subcutaneous-injection", "aka": ["subcutaneous"] },
+    { "of": "corticosteroid", "aka": ["steroid"] }
   ]
 }

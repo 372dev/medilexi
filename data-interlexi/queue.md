@@ -102,8 +102,11 @@ Fill by category, by frequency, not by interest. Roughly in priority order:
 |---|---|---|---|
 | 2026-08-08 | (baseline) | — | **29%** (10 of 34, clip 5 excluded) |
 | 2026-08-08 | Batch 1 (measured misses) | 16 new + 7 aliases (KO) | **91%** (31 of 34, clip 5 excluded) |
+| 2026-08-08 | Batch 2 (standing sweep) | 93 new + 13 aliases (KO) | **94%** (32 of 34, clip 5 excluded) |
 
-**Batch 1 SHIPPED (KO). 3 misses remain, all informative:**
-- `blood glucose` — a genuine term gap (Medi Lexi has *Fasting blood glucose*, not the bare form). **Queue it for batch 2.**
-- `blood clots` — the plural of the new *Blood clot* term did not match; the matcher lemmatizes single-word plurals but not the last token of a multi-word phrase. **Matcher behaviour, not a data fix** — route to the coder rather than paper over it with a plural `aka`.
-- `hypochlorothiazide` — an ASR/variant mishearing of *hydrochlorothiazide* (hypo- vs hydro-). Not worth seeding a wrong spelling as a key; note and watch.
+**Batch 2 SHIPPED (KO). Only 2 misses remain, both NON-DATA (the terminology layer has maxed this benchmark):**
+- `blood clots` — the plural of *Blood clot* still misses; the matcher lemmatizes single-word plurals but not the last token of a multi-word phrase. **Matcher behaviour → coder** (routed 2026-08-08), not a data fix.
+- `hypochlorothiazide` — an ASR mishearing of *hydrochlorothiazide* (hypo/hydro). Not worth seeding a wrong spelling; watch.
+- `blood glucose` (batch-1 miss) is now **covered** — added as an `aka` on the new *Blood sugar* term.
+
+The 34-clip benchmark is small; batch 2's real value is broad coverage of the 500-800 sweep (§20b), which this benchmark only samples. Re-measure will need fresh clips to keep showing signal.

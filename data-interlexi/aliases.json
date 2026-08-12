@@ -59,6 +59,23 @@
     { "of": "oxygen-saturation", "aka": ["oxygen level"] },
     { "of": "intramuscular-injection", "aka": ["intramuscular"] },
     { "of": "subcutaneous-injection", "aka": ["subcutaneous"] },
-    { "of": "corticosteroid", "aka": ["steroid"] }
+    { "of": "corticosteroid", "aka": ["steroid"] },
+
+    { "of": "umbilicus", "aka": ["belly button"] },
+    { "of": "uterus", "aka": ["womb"] },
+    { "of": "nephrolithiasis", "aka": ["kidney stones"] },
+    { "of": "sternum", "aka": ["breastbone"] },
+    { "of": "urinary-bladder", "aka": ["bladder"] },
+    { "of": "articulation", "aka": ["joint"] },
+    { "of": "numbness", "aka": ["numb"] },
+    { "of": "lightheadedness", "aka": ["lightheaded"] },
+    { "of": "copayment", "aka": ["copay"] },
+    { "of": "electrocardiogram", "aka": ["EKG"] },
+    { "of": "surgery", "aka": ["operation"] },
+    { "of": "computed-tomography", "aka": ["CT scan"] },
+    { "of": "transient-ischemic-attack", "aka": ["mini stroke"] },
+    { "of": "hyperglycemia", "aka": ["high sugar"] },
+    { "of": "hypoglycemia", "aka": ["low sugar"] },
+    { "of": "syncope", "aka": ["blackout"] }
   ]
 }

@@ -103,6 +103,7 @@ Fill by category, by frequency, not by interest. Roughly in priority order:
 | 2026-08-08 | (baseline) | — | **29%** (10 of 34, clip 5 excluded) |
 | 2026-08-08 | Batch 1 (measured misses) | 16 new + 7 aliases (KO) | **91%** (31 of 34, clip 5 excluded) |
 | 2026-08-08 | Batch 2 (standing sweep) | 93 new + 13 aliases (KO) | **94%** (32 of 34, clip 5 excluded) |
+| 2026-08-08 | Batch 3 (general sweep) | 88 new + 16 aliases (KO) | **94%** (benchmark saturated; see note) |
 
 **Batch 2 SHIPPED (KO). Only 2 misses remain, both NON-DATA (the terminology layer has maxed this benchmark):**
 - `blood clots` — the plural of *Blood clot* still misses; the matcher lemmatizes single-word plurals but not the last token of a multi-word phrase. **Matcher behaviour → coder** (routed 2026-08-08), not a data fix.
@@ -110,3 +111,5 @@ Fill by category, by frequency, not by interest. Roughly in priority order:
 - `blood glucose` (batch-1 miss) is now **covered** — added as an `aka` on the new *Blood sugar* term.
 
 The 34-clip benchmark is small; batch 2's real value is broad coverage of the 500-800 sweep (§20b), which this benchmark only samples. Re-measure will need fresh clips to keep showing signal.
+
+**Batch 3 (2026-08-08): the benchmark is now saturated at 94%** (only the 2 non-data misses left). Per the manager, the goal shifted from the benchmark to raw quantity/breadth of general medical vocabulary. Native layer is now **197 terms + 75 alias keys**. Coverage will stay flat on these clips regardless of batch size, so **the metric to watch is now term count and category breadth, not clip coverage, until fresh benchmark clips exist** (§20a).

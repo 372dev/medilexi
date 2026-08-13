@@ -76,6 +76,14 @@
     { "of": "transient-ischemic-attack", "aka": ["mini stroke"] },
     { "of": "hyperglycemia", "aka": ["high sugar"] },
     { "of": "hypoglycemia", "aka": ["low sugar"] },
-    { "of": "syncope", "aka": ["blackout"] }
+    { "of": "syncope", "aka": ["blackout"] },
+
+    { "of": "diabetes-mellitus", "aka": ["diabetes"] },
+    { "of": "hyperthyroidism", "aka": ["overactive thyroid"] },
+    { "of": "hypothyroidism", "aka": ["underactive thyroid"] },
+    { "of": "sepsis", "aka": ["blood infection"] },
+    { "of": "suicidal-ideation", "aka": ["suicidal"] },
+    { "of": "nasal-congestion", "aka": ["stuffy nose"] },
+    { "of": "dental-caries", "aka": ["cavity"] }
   ]
 }

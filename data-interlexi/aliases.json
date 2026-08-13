@@ -84,6 +84,16 @@
     { "of": "sepsis", "aka": ["blood infection"] },
     { "of": "suicidal-ideation", "aka": ["suicidal"] },
     { "of": "nasal-congestion", "aka": ["stuffy nose"] },
-    { "of": "dental-caries", "aka": ["cavity"] }
+    { "of": "dental-caries", "aka": ["cavity"] },
+
+    { "of": "angina-pectoris", "aka": ["angina"] },
+    { "of": "allergic-rhinitis", "aka": ["hay fever"] },
+    { "of": "sinusitis", "aka": ["sinus infection"] },
+    { "of": "pyelonephritis", "aka": ["kidney infection"] },
+    { "of": "verruca", "aka": ["wart"] },
+    { "of": "nevus", "aka": ["mole"] },
+    { "of": "vitreous-floaters", "aka": ["floaters"] },
+    { "of": "uterine-leiomyoma", "aka": ["fibroid"] },
+    { "of": "nasal-congestion", "aka": ["congestion"] }
   ]
 }

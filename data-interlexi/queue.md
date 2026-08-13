@@ -104,6 +104,10 @@ Fill by category, by frequency, not by interest. Roughly in priority order:
 | 2026-08-08 | Batch 1 (measured misses) | 16 new + 7 aliases (KO) | **91%** (31 of 34, clip 5 excluded) |
 | 2026-08-08 | Batch 2 (standing sweep) | 93 new + 13 aliases (KO) | **94%** (32 of 34, clip 5 excluded) |
 | 2026-08-08 | Batch 3 (general sweep) | 88 new + 16 aliases (KO) | **94%** (benchmark saturated; see note) |
+| 2026-08-08 | Batch 4 (drugs, conditions, mental, body) | 89 new + 7 aliases (KO) | 94% (breadth metric now) |
+| 2026-08-08 | Batch 5 (diseases, drugs, womens health) | 60 new + 9 aliases (KO) | 94% (breadth metric now) |
+
+**Running total after batch 5: 346 native terms + 91 alias keys (KO).** Coverage held at 94% throughout (2 non-data misses); per the manager the goal is now raw quantity/breadth of general medical vocabulary, not the frozen benchmark.
 
 **Batch 2 SHIPPED (KO). Only 2 misses remain, both NON-DATA (the terminology layer has maxed this benchmark):**
 - `blood clots` — the plural of *Blood clot* still misses; the matcher lemmatizes single-word plurals but not the last token of a multi-word phrase. **Matcher behaviour → coder** (routed 2026-08-08), not a data fix.

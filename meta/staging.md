@@ -169,7 +169,6 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 - Rotator cuff tear
 - Anterior cruciate ligament tear (ACL)
 - Meniscus tear
-- Tendinitis
 - Strain
 - Dislocation
 - Total hip arthroplasty

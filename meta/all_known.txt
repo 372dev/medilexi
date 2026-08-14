@@ -1611,7 +1611,6 @@ Temporomandibular joint
 Tenderness
 Tendinitis
 Tendon
-Tendonitis
 Tenesmus
 Tenodesis
 Tenorrhaphy

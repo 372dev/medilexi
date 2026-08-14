@@ -23885,5 +23885,450 @@
               ],
         "d":  "A fertility treatment in which an egg is fertilized by sperm in a laboratory and the resulting embryo is placed in the uterus.",
         "lvl":  3
+    },
+    {
+        "en_h":  "Cardiac catheterization",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A procedure in which a thin tube is threaded through a blood vessel into the heart to diagnose or treat cardiovascular conditions.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "cardi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Defibrillator",
+        "f":  [
+                  "Cardiology",
+                  "Emergency Medicine"
+              ],
+        "d":  "A device that delivers an electric shock to the heart to restore a normal rhythm during a life-threatening arrhythmia.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Holter monitor",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A portable device worn to record the heart\u0027s electrical activity continuously over a day or longer to detect intermittent arrhythmias.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Cardiac stress test",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A test that measures how the heart responds to exertion, usually by walking on a treadmill or receiving medication that mimics exercise.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "cardi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Cardiomyopathy",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A disease of the heart muscle that impairs its ability to pump blood, leading to heart failure or arrhythmias.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "cardi/o",
+                                "my/o"
+                            ],
+                      "s":  [
+                                "-pathy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Heart valve replacement",
+        "f":  [
+                  "Cardiology",
+                  "Thoracic Surgery"
+              ],
+        "d":  "A surgical procedure that replaces a diseased or damaged heart valve with a mechanical or biological prosthesis.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "valv/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Irritable bowel syndrome",
+        "abbr":  "IBS",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "A common functional disorder of the large intestine causing abdominal pain, bloating, and altered bowel habits without visible damage.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Inflammatory bowel disease",
+        "abbr":  "IBD",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "A group of chronic conditions marked by inflammation of the digestive tract, mainly Crohn\u0027s disease and ulcerative colitis.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Crohn\u0027s disease",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "A chronic inflammatory bowel disease that can affect any part of the digestive tract, often causing abdominal pain, diarrhea, and weight loss.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Ulcerative colitis",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "A chronic inflammatory bowel disease causing ulcers and inflammation in the lining of the colon and rectum.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "col/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Peptic ulcer",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "An open sore in the lining of the stomach or upper small intestine, often caused by H. pylori infection or long-term use of certain pain relievers.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Colorectal cancer",
+        "f":  [
+                  "Gastroenterology",
+                  "Oncology"
+              ],
+        "d":  "A malignant tumor arising in the colon or rectum, frequently developing from precancerous polyps over many years.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "col/o",
+                                "rect/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hemorrhoids",
+        "en_l":  "Piles",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "Swollen veins in the lower rectum or anus that can cause bleeding, itching, and discomfort.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "hem/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Celiac disease",
+        "f":  [
+                  "Gastroenterology",
+                  "Immunology"
+              ],
+        "d":  "An immune reaction to eating gluten that damages the lining of the small intestine and impairs nutrient absorption.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Barium swallow",
+        "f":  [
+                  "Gastroenterology",
+                  "Radiology"
+              ],
+        "d":  "An imaging test in which a patient drinks a chalky contrast liquid so the esophagus and upper digestive tract show up clearly on X-rays.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fecal occult blood test",
+        "abbr":  "FOBT",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "A test that checks a stool sample for hidden blood, used to screen for colorectal cancer and other digestive bleeding.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Concussion",
+        "f":  [
+                  "Neurology",
+                  "Emergency Medicine"
+              ],
+        "d":  "A mild traumatic brain injury caused by a blow or jolt to the head that temporarily disrupts normal brain function.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Actinic keratosis",
+        "f":  [
+                  "Dermatology"
+              ],
+        "d":  "A rough, scaly patch on sun-exposed skin that results from long-term sun damage and can progress to skin cancer.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "kerat/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Eye infection",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "An infection of any part of the eye or surrounding tissue caused by bacteria, viruses, or fungi, producing redness, discharge, and discomfort.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Herniated disc",
+        "en_l":  "Slipped disc",
+        "f":  [
+                  "Orthopedics",
+                  "Neurosurgery"
+              ],
+        "d":  "A condition in which the soft center of a spinal disc pushes through a crack in its tougher exterior, often pressing on nearby nerves.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Rotator cuff tear",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "A tear in one of the tendons that stabilize the shoulder, causing pain and weakness when lifting or rotating the arm.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Anterior cruciate ligament tear",
+        "abbr":  "ACL",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "A tear of the anterior cruciate ligament in the knee, commonly occurring during sports that involve sudden stops or changes in direction.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "ante-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Meniscus tear",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "A tear in the cushioning cartilage of the knee, often caused by twisting the joint under load, producing pain, swelling, and stiffness.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Strain",
+        "en_l":  "Pulled muscle",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "An injury to a muscle or tendon from overstretching or overuse, causing pain, swelling, and limited movement.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Dislocation",
+        "f":  [
+                  "Orthopedics",
+                  "Emergency Medicine"
+              ],
+        "d":  "An injury in which the ends of two connected bones are forced out of their normal position in a joint.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "dis-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Total hip arthroplasty",
+        "en_l":  "Total hip replacement",
+        "f":  [
+                  "Orthopedics"
+              ],
+        "d":  "A surgical procedure that replaces a damaged hip joint with an artificial implant to relieve pain and restore movement.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "arthr/o"
+                            ],
+                      "s":  [
+                                "-plasty"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Total hysterectomy",
+        "abbr":  "TAH",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Surgery"
+              ],
+        "d":  "Surgical removal of the entire uterus and cervix, often performed to treat fibroids, cancer, or other gynecologic conditions.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "hyster/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Partial hysterectomy",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Surgery"
+              ],
+        "d":  "Surgical removal of the upper part of the uterus while leaving the cervix in place.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "hyster/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Radical hysterectomy",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Oncology"
+              ],
+        "d":  "Surgical removal of the uterus, cervix, surrounding tissue, and upper vagina, usually performed to treat cervical or uterine cancer.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "hyster/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hemorrhagic cystitis",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "Inflammation of the bladder lining accompanied by bleeding, often caused by infection, radiation, or certain medications.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "hem/o",
+                                "cyst/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Psoriatic arthritis",
+        "f":  [
+                  "Rheumatology",
+                  "Dermatology"
+              ],
+        "d":  "A form of inflammatory arthritis that affects some people with psoriasis, causing joint pain, stiffness, and swelling.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "arthr/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Abdominal aortic aneurysm",
+        "abbr":  "AAA",
+        "f":  [
+                  "Vascular Surgery"
+              ],
+        "d":  "An abnormal bulging of the lower part of the aorta as it passes through the abdomen, which can be life-threatening if it ruptures.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "abdomin/o",
+                                "aort/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Vasomotor rhinitis",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "Chronic nasal congestion and runny nose triggered by nonallergic factors such as weather changes, odors, or certain foods.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "vas/o",
+                                "mot/o",
+                                "rhin/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dermoid cyst",
+        "f":  [
+                  "Dermatology",
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A benign growth containing tissues such as hair, skin, or teeth, present from birth and arising from trapped embryonic cells.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "derm/o",
+                                "cyst/o"
+                            ],
+                      "s":  [
+                                "-oid"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Obstructive sleep apnea",
+        "abbr":  "OSA",
+        "f":  [
+                  "Pulmonology",
+                  "Otolaryngology"
+              ],
+        "d":  "A disorder in which the throat muscles repeatedly relax during sleep and block the airway, causing pauses in breathing and disrupted rest.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-pnea"
+                            ]
+                  }
     }
 ]

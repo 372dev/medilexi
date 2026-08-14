@@ -124,35 +124,6 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 - Internal examination
 - Glycan residue
 
-### Cardiology
-- Cardiac catheterization
-- Defibrillator
-- Holter monitor
-- Cardiac stress test
-- Cardiomyopathy
-- Heart valve replacement
-
-### Neurology
-- Concussion
-
-### Gastroenterology
-- Irritable bowel syndrome
-- Inflammatory bowel disease
-- Crohn's disease
-- Ulcerative colitis
-- Peptic ulcer
-- Colorectal cancer
-- Hemorrhoids
-- Celiac disease
-- Barium swallow
-- Fecal occult blood test
-
-### Dermatology
-- Actinic keratosis
-
-### Ophthalmology
-- Eye infection
-
 ### Pharmacology
 - Antacid
 - Sedative
@@ -163,26 +134,6 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 - Dosage
 - Topical medication
 - Medication adherence
-
-### Orthopedics
-- Herniated disc
-- Rotator cuff tear
-- Anterior cruciate ligament tear (ACL)
-- Meniscus tear
-- Strain
-- Dislocation
-- Total hip arthroplasty
-
-### Subtypes of existing entries (confirm scope)
-- Total hysterectomy (TAH)
-- Partial hysterectomy
-- Radical hysterectomy
-- Hemorrhagic cystitis
-- Psoriatic arthritis
-- Abdominal aortic aneurysm (AAA)
-- Vasomotor rhinitis
-- Dermoid cyst
-- Obstructive sleep apnea (OSA)
 
 <!-- QUEUE:END -->
 

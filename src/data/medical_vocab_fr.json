@@ -8743,5 +8743,181 @@
         "fr_h":  "Fécondation in vitro",
         "fr_l":  "Bébé-éprouvette",
         "d_fr":  "Traitement de fertilité où un ovule est fécondé par un spermatozoïde en laboratoire et l\u0027embryon obtenu est placé dans l\u0027utérus."
+    },
+    {
+        "en_h":  "Cardiac catheterization",
+        "fr_h":  "Cathétérisme cardiaque",
+        "d_fr":  "Intervention au cours de laquelle un fin tube est introduit dans un vaisseau jusqu\u0027au cœur pour diagnostiquer ou traiter des affections cardiovasculaires."
+    },
+    {
+        "en_h":  "Defibrillator",
+        "fr_h":  "Défibrillateur",
+        "d_fr":  "Appareil qui délivre un choc électrique au cœur pour rétablir un rythme normal lors d\u0027une arythmie potentiellement mortelle."
+    },
+    {
+        "en_h":  "Holter monitor",
+        "fr_h":  "Holter",
+        "d_fr":  "Appareil portatif porté pour enregistrer en continu l\u0027activité électrique du cœur pendant une journée ou plus afin de détecter des arythmies intermittentes."
+    },
+    {
+        "en_h":  "Cardiac stress test",
+        "fr_h":  "Épreuve d\u0027effort",
+        "d_fr":  "Examen qui mesure la réponse du cœur à l\u0027effort, généralement sur un tapis roulant ou au moyen d\u0027un médicament qui simule l\u0027exercice."
+    },
+    {
+        "en_h":  "Cardiomyopathy",
+        "fr_h":  "Cardiomyopathie",
+        "d_fr":  "Maladie du muscle cardiaque qui réduit sa capacité à pomper le sang, entraînant une insuffisance cardiaque ou des arythmies."
+    },
+    {
+        "en_h":  "Heart valve replacement",
+        "fr_h":  "Remplacement valvulaire cardiaque",
+        "d_fr":  "Intervention chirurgicale qui remplace une valve cardiaque malade ou endommagée par une prothèse mécanique ou biologique."
+    },
+    {
+        "en_h":  "Irritable bowel syndrome",
+        "fr_h":  "Syndrome du côlon irritable",
+        "d_fr":  "Trouble fonctionnel fréquent du gros intestin causant douleurs abdominales, ballonnements et modification du transit sans lésion visible."
+    },
+    {
+        "en_h":  "Inflammatory bowel disease",
+        "fr_h":  "Maladie inflammatoire chronique de l\u0027intestin",
+        "d_fr":  "Groupe d\u0027affections chroniques marquées par une inflammation du tube digestif, principalement la maladie de Crohn et la rectocolite hémorragique."
+    },
+    {
+        "en_h":  "Crohn\u0027s disease",
+        "fr_h":  "Maladie de Crohn",
+        "d_fr":  "Maladie inflammatoire chronique de l\u0027intestin pouvant toucher n\u0027importe quelle partie du tube digestif, causant souvent douleurs abdominales, diarrhée et perte de poids."
+    },
+    {
+        "en_h":  "Ulcerative colitis",
+        "fr_h":  "Rectocolite hémorragique",
+        "d_fr":  "Maladie inflammatoire chronique de l\u0027intestin provoquant des ulcères et une inflammation de la muqueuse du côlon et du rectum."
+    },
+    {
+        "en_h":  "Peptic ulcer",
+        "fr_h":  "Ulcère gastroduodénal",
+        "d_fr":  "Plaie ouverte dans la muqueuse de l\u0027estomac ou du duodénum, souvent causée par une infection à H. pylori ou la prise prolongée de certains antidouleurs."
+    },
+    {
+        "en_h":  "Colorectal cancer",
+        "fr_h":  "Cancer colorectal",
+        "d_fr":  "Tumeur maligne du côlon ou du rectum, se développant souvent à partir de polypes précancéreux sur plusieurs années."
+    },
+    {
+        "en_h":  "Hemorrhoids",
+        "fr_h":  "Hémorroïdes",
+        "d_fr":  "Veines dilatées du rectum inférieur ou de l\u0027anus pouvant causer saignements, démangeaisons et gêne."
+    },
+    {
+        "en_h":  "Celiac disease",
+        "fr_h":  "Maladie cœliaque",
+        "d_fr":  "Réaction immunitaire à l\u0027ingestion de gluten qui endommage la muqueuse de l\u0027intestin grêle et nuit à l\u0027absorption des nutriments."
+    },
+    {
+        "en_h":  "Barium swallow",
+        "fr_h":  "Transit œsophagien baryté",
+        "d_fr":  "Examen d\u0027imagerie où le patient boit un liquide de contraste crayeux afin que l\u0027œsophage et le tube digestif supérieur apparaissent nettement à la radiographie."
+    },
+    {
+        "en_h":  "Fecal occult blood test",
+        "fr_h":  "Recherche de sang occulte dans les selles",
+        "d_fr":  "Test qui recherche du sang caché dans un échantillon de selles, utilisé pour dépister le cancer colorectal et d\u0027autres saignements digestifs."
+    },
+    {
+        "en_h":  "Concussion",
+        "fr_h":  "Commotion cérébrale",
+        "d_fr":  "Traumatisme crânien léger causé par un coup ou une secousse à la tête qui perturbe temporairement le fonctionnement normal du cerveau."
+    },
+    {
+        "en_h":  "Actinic keratosis",
+        "fr_h":  "Kératose actinique",
+        "d_fr":  "Plaque rugueuse et squameuse sur une peau exposée au soleil, résultant de dommages solaires prolongés et pouvant évoluer en cancer de la peau."
+    },
+    {
+        "en_h":  "Eye infection",
+        "fr_h":  "Infection oculaire",
+        "d_fr":  "Infection d\u0027une partie de l\u0027œil ou des tissus environnants causée par des bactéries, des virus ou des champignons, provoquant rougeur, écoulement et gêne."
+    },
+    {
+        "en_h":  "Herniated disc",
+        "fr_h":  "Hernie discale",
+        "d_fr":  "Affection où le centre mou d\u0027un disque intervertébral fait saillie à travers son enveloppe externe plus résistante, comprimant souvent un nerf voisin."
+    },
+    {
+        "en_h":  "Rotator cuff tear",
+        "fr_h":  "Déchirure de la coiffe des rotateurs",
+        "d_fr":  "Déchirure d\u0027un des tendons qui stabilisent l\u0027épaule, causant douleur et faiblesse lors du soulèvement ou de la rotation du bras."
+    },
+    {
+        "en_h":  "Anterior cruciate ligament tear",
+        "fr_h":  "Rupture du ligament croisé antérieur",
+        "d_fr":  "Déchirure du ligament croisé antérieur du genou, survenant souvent lors de sports impliquant des arrêts brusques ou des changements de direction."
+    },
+    {
+        "en_h":  "Meniscus tear",
+        "fr_h":  "Déchirure méniscale",
+        "d_fr":  "Déchirure du cartilage amortisseur du genou, souvent causée par une torsion de l\u0027articulation sous charge, provoquant douleur, gonflement et raideur."
+    },
+    {
+        "en_h":  "Strain",
+        "fr_h":  "Élongation musculaire",
+        "fr_l":  "Claquage",
+        "d_fr":  "Lésion d\u0027un muscle ou d\u0027un tendon due à un étirement excessif ou à une sollicitation exagérée, causant douleur, gonflement et limitation des mouvements."
+    },
+    {
+        "en_h":  "Dislocation",
+        "fr_h":  "Luxation",
+        "d_fr":  "Blessure où les extrémités de deux os reliés sont déplacées de leur position normale dans une articulation."
+    },
+    {
+        "en_h":  "Total hip arthroplasty",
+        "fr_h":  "Prothèse totale de hanche",
+        "d_fr":  "Intervention chirurgicale qui remplace une articulation de la hanche endommagée par un implant artificiel pour soulager la douleur et restaurer la mobilité."
+    },
+    {
+        "en_h":  "Total hysterectomy",
+        "fr_h":  "Hystérectomie totale",
+        "d_fr":  "Ablation chirurgicale de la totalité de l\u0027utérus et du col utérin, souvent pratiquée pour traiter des fibromes, un cancer ou d\u0027autres affections gynécologiques."
+    },
+    {
+        "en_h":  "Partial hysterectomy",
+        "fr_h":  "Hystérectomie subtotale",
+        "d_fr":  "Ablation chirurgicale de la partie supérieure de l\u0027utérus en laissant le col utérin en place."
+    },
+    {
+        "en_h":  "Radical hysterectomy",
+        "fr_h":  "Hystérectomie radicale",
+        "d_fr":  "Ablation chirurgicale de l\u0027utérus, du col, des tissus environnants et de la partie supérieure du vagin, généralement pour traiter un cancer du col ou de l\u0027utérus."
+    },
+    {
+        "en_h":  "Hemorrhagic cystitis",
+        "fr_h":  "Cystite hémorragique",
+        "d_fr":  "Inflammation de la muqueuse vésicale accompagnée de saignements, souvent causée par une infection, une radiothérapie ou certains médicaments."
+    },
+    {
+        "en_h":  "Psoriatic arthritis",
+        "fr_h":  "Rhumatisme psoriasique",
+        "d_fr":  "Forme d\u0027arthrite inflammatoire touchant certaines personnes atteintes de psoriasis, causant douleur, raideur et gonflement des articulations."
+    },
+    {
+        "en_h":  "Abdominal aortic aneurysm",
+        "fr_h":  "Anévrisme de l\u0027aorte abdominale",
+        "d_fr":  "Dilatation anormale de la partie inférieure de l\u0027aorte au niveau de l\u0027abdomen, pouvant être mortelle en cas de rupture."
+    },
+    {
+        "en_h":  "Vasomotor rhinitis",
+        "fr_h":  "Rhinite vasomotrice",
+        "d_fr":  "Congestion nasale et écoulement chroniques déclenchés par des facteurs non allergiques comme les changements de temps, les odeurs ou certains aliments."
+    },
+    {
+        "en_h":  "Dermoid cyst",
+        "fr_h":  "Kyste dermoïde",
+        "d_fr":  "Excroissance bénigne contenant des tissus comme des cheveux, de la peau ou des dents, présente dès la naissance et issue de cellules embryonnaires piégées."
+    },
+    {
+        "en_h":  "Obstructive sleep apnea",
+        "fr_h":  "Apnée obstructive du sommeil",
+        "d_fr":  "Trouble où les muscles de la gorge se relâchent de façon répétée pendant le sommeil et bloquent les voies respiratoires, causant des pauses respiratoires."
     }
 ]

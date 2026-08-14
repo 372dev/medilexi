@@ -1,4 +1,5 @@
 Abdomen
+Abdominal aortic aneurysm
 Abdominal quadrant
 Abdominal region
 Abdominopelvic cavity
@@ -16,6 +17,7 @@ Acne vulgaris
 Acoustic neuroma
 Acromegaly
 Acrophobia
+Actinic keratosis
 Action potential
 Acute
 Acute coronary syndrome
@@ -93,6 +95,7 @@ Anorexia nervosa
 Anosognosia
 Anoxia
 Anterior
+Anterior cruciate ligament tear
 Antibiotic
 Antibody
 Anticholinergic
@@ -168,6 +171,7 @@ Axillary vein
 Bacteremia
 Bacterial vaginosis
 Bactericide
+Barium swallow
 Basal cell carcinoma
 Basal ganglia
 Basic metabolic panel
@@ -246,12 +250,15 @@ Carcinoid syndrome
 Carcinoma
 Cardiac arrest
 Cardiac biomarker
+Cardiac catheterization
 Cardiac sphincter
+Cardiac stress test
 Cardiac tamponade
 Cardiogenic
 Cardiologist
 Cardiology
 Cardiomegaly
+Cardiomyopathy
 Cardiopulmonary resuscitation
 Cardiovascular system
 Cardioversion
@@ -269,6 +276,7 @@ Catatonia
 Catheter irrigation
 Cauterization
 Cecum
+Celiac disease
 Cellulitis
 Central line placement
 Central venous catheter
@@ -341,6 +349,7 @@ Colitis
 Colon
 Colonoscopy
 Color vision deficiency
+Colorectal cancer
 Colorectal Surgery
 Colostomy
 Colostomy bag
@@ -357,6 +366,7 @@ Comprehensive metabolic panel
 Compression stockings
 Compulsion
 Computed tomography
+Concussion
 Conductive hearing loss
 Condyle
 Congestive heart failure
@@ -398,6 +408,7 @@ Cranium
 C-reactive protein
 Critical Care
 Critical Care Medicine
+Crohn's disease
 Crural region
 Crushing pain
 Crutches
@@ -423,6 +434,7 @@ Debridement
 Decubitus ulcer
 Deductible
 Deep vein thrombosis
+Defibrillator
 Dehydration
 Delusion
 Dementia
@@ -452,6 +464,7 @@ Dermatome
 Dermatoplasty
 Dermatosis
 Dermis
+Dermoid cyst
 Detoxification
 Deviated septum
 Dextrocardia
@@ -475,6 +488,7 @@ Diphtheria
 Diplopia
 Discharge
 Discharge summary
+Dislocation
 Disseminated intravascular coagulation
 Dissociation
 Distal
@@ -584,6 +598,7 @@ Explanation of benefits
 Extended-release formulation
 Extracorporeal membrane oxygenation
 Extubation
+Eye infection
 Facial nerve
 Fall risk
 Fallopian tube
@@ -593,6 +608,7 @@ Fasciectomy
 Fasciitis
 Fasting blood glucose
 Fatigue
+Fecal occult blood test
 Feeding tube
 Fellow
 Femoral artery
@@ -686,6 +702,7 @@ Hearing loss
 Heart
 Heart failure
 Heart valve
+Heart valve replacement
 Heartburn
 Heaviness
 Hemangioma
@@ -706,6 +723,8 @@ Hemoglobin A1c
 Hemolysis
 Hemoptysis
 Hemorrhage
+Hemorrhagic cystitis
+Hemorrhoids
 Hemostasis
 Hemothorax
 Hepatic fibrosis
@@ -713,12 +732,14 @@ Hepatitis
 Hepatoma
 Hepatomegaly
 Hepatotoxic
+Herniated disc
 Herniorrhaphy
 Herpes zoster
 Hidradenitis
 Hip joint
 Hippocampus
 Hirsutism
+Holter monitor
 Hordeolum
 Hospital admission
 Hospitalist
@@ -786,6 +807,7 @@ Infection
 Infectious Disease
 Inferior
 Inflammation
+Inflammatory bowel disease
 Infusion pump
 Inhaler
 In-network
@@ -818,6 +840,7 @@ Intubation
 Intussusception
 Ipsilateral
 Iris
+Irritable bowel syndrome
 Ischemia
 Jaundice
 Jejunitis
@@ -938,6 +961,7 @@ Meningioma
 Meningitis
 Meningocele
 Meniscus
+Meniscus tear
 Menopause
 Menorrhagia
 Mental health
@@ -1054,6 +1078,7 @@ Nystagmus
 Obesity
 Obsessive-compulsive disorder
 Obstetrics & Gynecology
+Obstructive sleep apnea
 Occipital lobe
 Occupational therapist
 Occupational therapy
@@ -1144,6 +1169,7 @@ Paresthesia
 Parietal lobe
 Parkinson's disease
 Paronychia
+Partial hysterectomy
 Partial thromboplastin time
 Patella
 Pathology
@@ -1156,6 +1182,7 @@ Pelvic examination
 Pelvic inflammatory disease
 Pelvis
 Penis
+Peptic ulcer
 Percutaneous
 Percutaneous coronary intervention
 Periapical abscess
@@ -1280,6 +1307,7 @@ Pruritus
 Pseudocyesis
 Pseudocyst
 Psoriasis
+Psoriatic arthritis
 Psychiatry
 Psychologist
 Psychosis
@@ -1315,6 +1343,7 @@ Radial artery
 Radial artery harvest
 Radiating pain
 Radiation dose
+Radical hysterectomy
 Radioisotope
 Radiologic technologist
 Radiology
@@ -1365,6 +1394,7 @@ Rigors
 Root canal treatment
 Root resorption
 Rotator cuff
+Rotator cuff tear
 Rubella
 Rupture of membranes
 Sagittal plane
@@ -1467,6 +1497,7 @@ Stinging pain
 Stomach
 Stool guaiac test
 Strabismus
+Strain
 Stratum basale
 Streptococcus
 Stress incontinence
@@ -1557,6 +1588,8 @@ Tonsillectomy
 Tonsillitis
 Tooth extraction
 Topography
+Total hip arthroplasty
+Total hysterectomy
 Total knee arthroplasty
 Tourniquet
 Toxemia
@@ -1597,6 +1630,7 @@ Tympanostomy tube
 Type 1 diabetes mellitus
 Type 2 diabetes mellitus
 Ulcer
+Ulcerative colitis
 Ulna
 Ulnar
 Ultrasound
@@ -1645,6 +1679,7 @@ Vasculitis
 Vasectomy
 Vasoconstriction
 Vasodilation
+Vasomotor rhinitis
 Vasospasm
 Vasovagal syncope
 Vena cava

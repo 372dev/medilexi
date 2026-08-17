@@ -8919,5 +8919,96 @@
         "en_h":  "Obstructive sleep apnea",
         "fr_h":  "Apnée obstructive du sommeil",
         "d_fr":  "Trouble où les muscles de la gorge se relâchent de façon répétée pendant le sommeil et bloquent les voies respiratoires, causant des pauses respiratoires."
+    },
+    {
+        "en_h":  "Coronal plane",
+        "fr_h":  "Plan coronal",
+        "fr_l":  "Plan frontal",
+        "d_fr":  "Plan vertical imaginaire qui divise le corps en une partie avant et une partie arrière."
+    },
+    {
+        "en_h":  "External auditory canal",
+        "fr_h":  "Conduit auditif externe",
+        "d_fr":  "Passage en forme de tube qui achemine le son de l\u0027oreille externe jusqu\u0027au tympan."
+    },
+    {
+        "en_h":  "Surgical drape",
+        "fr_h":  "Champ opératoire",
+        "d_fr":  "Drap stérile utilisé pour couvrir un patient pendant une chirurgie, ne laissant exposée que la zone opérée."
+    },
+    {
+        "en_h":  "Coordination",
+        "fr_h":  "Coordination",
+        "d_fr":  "Capacité de différents muscles et parties du corps à travailler ensemble harmonieusement pour produire des mouvements contrôlés."
+    },
+    {
+        "en_h":  "Fine motor skill",
+        "fr_h":  "Motricité fine",
+        "d_fr":  "Capacité d\u0027effectuer des mouvements petits et précis à l\u0027aide des petits muscles des mains et des doigts."
+    },
+    {
+        "en_h":  "Loop electrosurgical excision procedure",
+        "fr_h":  "Résection à l\u0027anse diathermique",
+        "d_fr":  "Intervention qui utilise une fine anse métallique électrifiée pour retirer un tissu anormal du col de l\u0027utérus."
+    },
+    {
+        "en_h":  "CT simulator",
+        "fr_h":  "Scanner de simulation",
+        "d_fr":  "Scanner spécialisé servant à planifier la radiothérapie en repérant la position exacte d\u0027une tumeur et des tissus voisins."
+    },
+    {
+        "en_h":  "Intravenous pyelogram",
+        "fr_h":  "Urographie intraveineuse",
+        "d_fr":  "Examen radiographique des voies urinaires réalisé après l\u0027injection d\u0027un produit de contraste dans une veine."
+    },
+    {
+        "en_h":  "Iliac artery",
+        "fr_h":  "Artère iliaque",
+        "d_fr":  "Une des grosses artères qui irriguent le bassin et les jambes, naissant de la partie inférieure de l\u0027aorte."
+    },
+    {
+        "en_h":  "Sacral nerve",
+        "fr_h":  "Nerf sacré",
+        "d_fr":  "Un des nerfs issus du sacrum qui innervent les membres inférieurs, le bassin et les organes pelviens."
+    },
+    {
+        "en_h":  "Fatty acid",
+        "fr_h":  "Acide gras",
+        "d_fr":  "Constituant des graisses qui sert de source majeure d\u0027énergie pour le corps et d\u0027élément des membranes cellulaires."
+    },
+    {
+        "en_h":  "Extremity",
+        "fr_h":  "Membre",
+        "d_fr":  "Un bras ou une jambe, y compris la main ou le pied à son extrémité."
+    },
+    {
+        "en_h":  "Coccyx",
+        "fr_h":  "Coccyx",
+        "d_fr":  "Petit os triangulaire situé à la base de la colonne vertébrale, formé de vertèbres soudées."
+    },
+    {
+        "en_h":  "Mammary gland",
+        "fr_h":  "Glande mammaire",
+        "d_fr":  "Glande productrice de lait du sein, constituée de lobules et de canaux qui acheminent le lait jusqu\u0027au mamelon."
+    },
+    {
+        "en_h":  "Positron emission tomography",
+        "fr_h":  "Tomographie par émission de positons",
+        "d_fr":  "Examen d\u0027imagerie qui utilise un traceur radioactif pour montrer le fonctionnement des tissus et des organes à l\u0027échelle cellulaire."
+    },
+    {
+        "en_h":  "Bone density scan",
+        "fr_h":  "Ostéodensitométrie",
+        "d_fr":  "Examen radiographique à faible dose qui mesure le contenu minéral des os pour évaluer leur solidité et le risque de fracture."
+    },
+    {
+        "en_h":  "Fluoroscopy",
+        "fr_h":  "Fluoroscopie",
+        "d_fr":  "Type d\u0027imagerie qui utilise un faisceau de rayons X continu pour montrer des images en mouvement de l\u0027intérieur du corps en temps réel."
+    },
+    {
+        "en_h":  "Radiopharmaceutical",
+        "fr_h":  "Produit radiopharmaceutique",
+        "d_fr":  "Composé radioactif utilisé en médecine nucléaire pour diagnostiquer ou traiter une maladie en ciblant des tissus précis."
     }
 ]

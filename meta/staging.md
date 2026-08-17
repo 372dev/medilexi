@@ -55,27 +55,6 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 
 <!-- QUEUE:START -->
 
-### Anatomy & imaging
-- Coronal plane
-- External auditory canal (en_l: ear canal)
-- Drape
-- Coordination
-- Fine motor skill
-- Loop electrosurgical excision procedure (LEEP)
-- Ultrasonography
-- CT simulator
-- Intravenous pyelogram (IVP)
-- Iliac artery
-- Sacral nerve
-- Fatty acid
-- Extremity
-- Coccyx
-- Mammary gland
-- Positron emission tomography
-- Bone density scan
-- Fluoroscopy
-- Radiopharmaceutical
-
 ### General clinical (2026-07-10 intake)
 - Eructation (belching)
 - Abdominal binder

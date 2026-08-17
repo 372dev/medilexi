@@ -24330,5 +24330,234 @@
                                 "-pnea"
                             ]
                   }
+    },
+    {
+        "en_h":  "Coronal plane",
+        "en_l":  "Frontal plane",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "An imaginary vertical plane that divides the body into front and back sections.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "External auditory canal",
+        "en_l":  "Ear canal",
+        "f":  [
+                  "Anatomy",
+                  "Otolaryngology"
+              ],
+        "d":  "The tube-shaped passage that carries sound from the outer ear to the eardrum.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "audit/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Surgical drape",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "A sterile sheet used to cover a patient during surgery, exposing only the area being operated on.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Coordination",
+        "f":  [
+                  "Neurology",
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "The ability of different muscles and body parts to work together smoothly to produce controlled movements.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fine motor skill",
+        "f":  [
+                  "Rehabilitation Medicine",
+                  "Pediatrics"
+              ],
+        "d":  "The ability to make small, precise movements using the small muscles of the hands and fingers.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "mot/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Loop electrosurgical excision procedure",
+        "abbr":  "LEEP",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A procedure that uses a thin electrified wire loop to remove abnormal tissue from the cervix.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "electr/o",
+                                "cis/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "CT simulator",
+        "f":  [
+                  "Radiology",
+                  "Oncology"
+              ],
+        "d":  "A specialized CT scanner used to plan radiation therapy by mapping the exact location of a tumor and surrounding tissue.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Intravenous pyelogram",
+        "abbr":  "IVP",
+        "f":  [
+                  "Radiology",
+                  "Urology"
+              ],
+        "d":  "An X-ray examination of the urinary tract taken after injecting a contrast dye into a vein.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "intra-"
+                            ],
+                      "r":  [
+                                "ven/o",
+                                "pyel/o"
+                            ],
+                      "s":  [
+                                "-gram"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Iliac artery",
+        "f":  [
+                  "Anatomy",
+                  "Vascular Surgery"
+              ],
+        "d":  "One of the large arteries that supply blood to the pelvis and legs, branching from the lower aorta.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ili/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Sacral nerve",
+        "f":  [
+                  "Anatomy",
+                  "Neurology"
+              ],
+        "d":  "One of the nerves arising from the sacrum that supply the lower limbs, pelvis, and pelvic organs.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "sacr/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Fatty acid",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A building block of fats that serves as a major source of energy for the body and a component of cell membranes.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "acid/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Extremity",
+        "en_l":  "Limb",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "An arm or a leg, including the hand or foot at its end.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Coccyx",
+        "en_l":  "Tailbone",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The small triangular bone at the base of the spine, formed by fused vertebrae.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Mammary gland",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The milk-producing gland of the breast, made up of lobules and ducts that carry milk to the nipple.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "mamm/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Positron emission tomography",
+        "abbr":  "PET",
+        "f":  [
+                  "Radiology",
+                  "Oncology"
+              ],
+        "d":  "An imaging test that uses a radioactive tracer to show how tissues and organs are functioning at the cellular level.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "tom/o"
+                            ],
+                      "s":  [
+                                "-graphy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Bone density scan",
+        "abbr":  "DEXA",
+        "f":  [
+                  "Radiology",
+                  "Rheumatology"
+              ],
+        "d":  "A low-dose X-ray test that measures the mineral content of bones to assess their strength and fracture risk.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fluoroscopy",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "A type of imaging that uses a continuous X-ray beam to show moving images of the inside of the body in real time.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Radiopharmaceutical",
+        "f":  [
+                  "Radiology",
+                  "Pharmacology"
+              ],
+        "d":  "A radioactive compound used in nuclear medicine to diagnose or treat disease by targeting specific tissues.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "radi/o",
+                                "pharmac/o"
+                            ]
+                  }
     }
 ]

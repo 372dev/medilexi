@@ -520,7 +520,6 @@ Dorsal
 Dosage
 Doula
 Drain
-Drape
 Dressing change
 Drug interaction
 Dry eye syndrome
@@ -1586,6 +1585,7 @@ Supragingival
 Suprapubic catheter
 Surgeon
 Surgery
+Surgical drape
 Surgical mesh
 Suture removal
 Symptom
@@ -1705,7 +1705,6 @@ Ulcer
 Ulcerative colitis
 Ulna
 Ulnar
-Ultrasonography
 Ultrasound
 Umbilical cord
 Umbilical hernia

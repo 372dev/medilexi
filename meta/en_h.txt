@@ -203,6 +203,7 @@ Blood urea nitrogen
 Blurred vision
 Body mass index
 Bone
+Bone density scan
 Bone marrow biopsy
 Bone mineral density
 Bone scan
@@ -338,6 +339,7 @@ Claustrophobia
 Clavicle
 Coagulation
 Coccydynia
+Coccyx
 Cochlea
 Cochlear implant
 Cognitive behavioral therapy
@@ -384,6 +386,7 @@ Contralateral
 Contrast agent
 Contusion
 Convalescence
+Coordination
 Copayment
 Coping mechanism
 Cor pulmonale
@@ -391,6 +394,7 @@ Cornea
 Corneal abrasion
 Corneal transplant
 Corneitis
+Coronal plane
 Coronary artery
 Coronary artery bypass graft
 Coronary artery disease
@@ -414,6 +418,7 @@ Crushing pain
 Crutches
 Cryosurgery
 Cryptorchidism
+CT simulator
 Culture and sensitivity
 Cupulolithiasis
 Curettage
@@ -596,7 +601,9 @@ Exocrine
 Exophthalmos
 Explanation of benefits
 Extended-release formulation
+External auditory canal
 Extracorporeal membrane oxygenation
+Extremity
 Extubation
 Eye infection
 Facial nerve
@@ -608,6 +615,7 @@ Fasciectomy
 Fasciitis
 Fasting blood glucose
 Fatigue
+Fatty acid
 Fecal occult blood test
 Feeding tube
 Fellow
@@ -620,12 +628,14 @@ Fever
 Fibromyalgia
 Fibrosis
 Fibula
+Fine motor skill
 Fine-needle aspiration
 Fissure
 Flexor digitorum
 Fluid restriction
 Fluoride
 Fluoride treatment
+Fluoroscopy
 Foley catheter
 Follicle
 Follow-up
@@ -785,6 +795,7 @@ Ileitis
 Ileostomy
 Ileum
 Ileus
+Iliac artery
 Ilium
 Immune system
 Immune thrombocytopenic purpura
@@ -836,6 +847,7 @@ Intraocular pressure
 Intraoperative
 Intravenous
 Intravenous immunoglobulin
+Intravenous pyelogram
 Intubation
 Intussusception
 Ipsilateral
@@ -907,6 +919,7 @@ Loading dose
 Lobectomy
 Local anesthesia
 Localized pain
+Loop electrosurgical excision procedure
 Loss of appetite
 Lower back pain
 Lumbar puncture
@@ -931,6 +944,7 @@ Malignant hyperthermia
 Malignant melanoma
 Malnutrition
 Malocclusion
+Mammary gland
 Mammogram
 Mammography
 Mammoplasty
@@ -1250,6 +1264,7 @@ Polymyositis
 Polypharmacy
 Polyuria
 Porphyria
+Positron emission tomography
 Post-anesthesia care unit
 Postauricular
 Posterior
@@ -1347,6 +1362,7 @@ Radical hysterectomy
 Radioisotope
 Radiologic technologist
 Radiology
+Radiopharmaceutical
 Radioresistance
 Radiosensitivity
 Radiotherapy
@@ -1397,6 +1413,7 @@ Rotator cuff
 Rotator cuff tear
 Rubella
 Rupture of membranes
+Sacral nerve
 Sagittal plane
 Salivary gland
 Sarcoidosis
@@ -1520,6 +1537,7 @@ Supragingival
 Suprapubic catheter
 Surgeon
 Surgery
+Surgical drape
 Surgical mesh
 Suture removal
 Symptom

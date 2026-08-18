@@ -106,11 +106,21 @@ Fill by category, by frequency, not by interest. Roughly in priority order:
 | 2026-08-08 | Batch 3 (general sweep) | 88 new + 16 aliases (KO) | **94%** (benchmark saturated; see note) |
 | 2026-08-08 | Batch 4 (drugs, conditions, mental, body) | 89 new + 7 aliases (KO) | 94% (breadth metric now) |
 | 2026-08-08 | Batch 5 (diseases, drugs, womens health) | 60 new + 9 aliases (KO) | 94% (breadth metric now) |
+| 2026-08-08 | *(coder)* multi-word plural fix | no data change | **97%** (33 of 34) |
+
+**CODER NOTE 2026-08-08 (bench/recall.py): the bottleneck has MOVED off this
+layer.** End to end on the same clips, the interpreter now gets a rendering for
+**79%** of spoken terms. Pack coverage is 94%; ASR term recall is 85%; 79% is
+the product of the two. **The remaining loss is the decoder mishearing the word,
+not the pack lacking it** -- which is the data lane's own conclusion below,
+confirmed from the other side.
 
 **Running total after batch 5: 346 native terms + 91 alias keys (KO).** Coverage held at 94% throughout (2 non-data misses); per the manager the goal is now raw quantity/breadth of general medical vocabulary, not the frozen benchmark.
 
 **Batch 2 SHIPPED (KO). Only 2 misses remain, both NON-DATA (the terminology layer has maxed this benchmark):**
-- `blood clots` — the plural of *Blood clot* still misses; the matcher lemmatizes single-word plurals but not the last token of a multi-word phrase. **Matcher behaviour → coder** (routed 2026-08-08), not a data fix.
+- ~~`blood clots`~~ **FIXED by the coder 2026-08-08.** Correctly routed, and it
+  was worse than reported: `loading doses` did not merely miss, it matched the
+  WRONG term (*Dose*), silently dropping "loading". Coverage 94% -> 97%.
 - `hypochlorothiazide` — an ASR mishearing of *hydrochlorothiazide* (hypo/hydro). Not worth seeding a wrong spelling; watch.
 - `blood glucose` (batch-1 miss) is now **covered** — added as an `aka` on the new *Blood sugar* term.
 

@@ -9010,5 +9010,210 @@
         "en_h":  "Radiopharmaceutical",
         "fr_h":  "Produit radiopharmaceutique",
         "d_fr":  "Composé radioactif utilisé en médecine nucléaire pour diagnostiquer ou traiter une maladie en ciblant des tissus précis."
+    },
+    {
+        "en_h":  "Tumor staging",
+        "fr_h":  "Stadification tumorale",
+        "d_fr":  "Système décrivant la taille d\u0027un cancer et son degré de propagation depuis son point de départ."
+    },
+    {
+        "en_h":  "Tumor grade",
+        "fr_h":  "Grade tumoral",
+        "d_fr":  "Évaluation de l\u0027aspect anormal des cellules cancéreuses au microscope, indiquant la vitesse probable de croissance de la tumeur."
+    },
+    {
+        "en_h":  "Oncologist",
+        "fr_h":  "Oncologue",
+        "d_fr":  "Médecin spécialisé dans le diagnostic et le traitement du cancer."
+    },
+    {
+        "en_h":  "Targeted therapy",
+        "fr_h":  "Thérapie ciblée",
+        "d_fr":  "Traitement du cancer utilisant des médicaments qui attaquent des molécules précises nécessaires à la croissance du cancer, en épargnant la plupart des cellules saines."
+    },
+    {
+        "en_h":  "Lumpectomy",
+        "fr_h":  "Tumorectomie",
+        "d_fr":  "Chirurgie retirant une tumeur du sein avec une petite marge de tissu environnant tout en conservant le sein."
+    },
+    {
+        "en_h":  "Radiation therapy",
+        "fr_h":  "Radiothérapie",
+        "d_fr":  "Traitement du cancer utilisant des rayonnements de haute énergie pour détruire les cellules cancéreuses ou réduire les tumeurs."
+    },
+    {
+        "en_h":  "Arteriovenous fistula",
+        "fr_h":  "Fistule artérioveineuse",
+        "d_fr":  "Communication anormale ou créée par chirurgie entre une artère et une veine, souvent réalisée au bras pour la dialyse."
+    },
+    {
+        "en_h":  "Glomerular filtration rate",
+        "fr_h":  "Débit de filtration glomérulaire",
+        "d_fr":  "Mesure du volume de sang filtré par les reins chaque minute, utilisée pour évaluer leur fonctionnement."
+    },
+    {
+        "en_h":  "Creatinine clearance",
+        "fr_h":  "Clairance de la créatinine",
+        "d_fr":  "Test estimant la fonction rénale en comparant les taux de créatinine dans le sang et l\u0027urine."
+    },
+    {
+        "en_h":  "Uremia",
+        "fr_h":  "Urémie",
+        "d_fr":  "Accumulation dangereuse de déchets dans le sang causée par une défaillance des reins, entraînant nausées, fatigue et confusion."
+    },
+    {
+        "en_h":  "Iron deficiency anemia",
+        "fr_h":  "Anémie ferriprive",
+        "d_fr":  "Anémie fréquente causée par un manque de fer, nécessaire à la fabrication de globules rouges sains."
+    },
+    {
+        "en_h":  "Sickle cell anemia",
+        "fr_h":  "Drépanocytose",
+        "d_fr":  "Maladie héréditaire où les globules rouges deviennent rigides et en forme de faucille, bloquant la circulation et provoquant des douleurs."
+    },
+    {
+        "en_h":  "Hemophilia",
+        "fr_h":  "Hémophilie",
+        "d_fr":  "Maladie héréditaire où le sang coagule mal par manque de certains facteurs de coagulation, provoquant des saignements prolongés."
+    },
+    {
+        "en_h":  "Lymphocyte",
+        "fr_h":  "Lymphocyte",
+        "d_fr":  "Type de globule blanc jouant un rôle central dans la défense du système immunitaire contre les infections et les maladies."
+    },
+    {
+        "en_h":  "Rh factor",
+        "fr_h":  "Facteur Rhésus",
+        "d_fr":  "Protéine héréditaire pouvant être présente sur les globules rouges, déterminant si le groupe sanguin est positif ou négatif."
+    },
+    {
+        "en_h":  "Bone marrow",
+        "fr_h":  "Moelle osseuse",
+        "d_fr":  "Tissu mou situé à l\u0027intérieur des os où sont produits les globules rouges, les globules blancs et les plaquettes."
+    },
+    {
+        "en_h":  "Transfusion reaction",
+        "fr_h":  "Réaction transfusionnelle",
+        "d_fr":  "Réaction indésirable à une transfusion sanguine, allant d\u0027une légère fièvre avec démangeaisons à des complications graves potentiellement mortelles."
+    },
+    {
+        "en_h":  "Allergen",
+        "fr_h":  "Allergène",
+        "d_fr":  "Substance habituellement inoffensive, comme le pollen, la poussière ou un aliment, qui déclenche une réaction allergique chez certaines personnes."
+    },
+    {
+        "en_h":  "Epinephrine autoinjector",
+        "fr_h":  "Auto-injecteur d\u0027adrénaline",
+        "d_fr":  "Dispositif portatif injectant une dose prédéfinie d\u0027adrénaline pour traiter une réaction allergique grave."
+    },
+    {
+        "en_h":  "Skin prick test",
+        "fr_h":  "Test cutané d\u0027allergie",
+        "d_fr":  "Test d\u0027allergie consistant à déposer de petites quantités d\u0027allergènes suspectés sur la peau piquée pour vérifier une réaction."
+    },
+    {
+        "en_h":  "Food allergy",
+        "fr_h":  "Allergie alimentaire",
+        "d_fr":  "Réaction immunitaire à un aliment particulier pouvant provoquer urticaire, gonflement, vomissements ou difficultés respiratoires."
+    },
+    {
+        "en_h":  "Gait training",
+        "fr_h":  "Rééducation à la marche",
+        "d_fr":  "Rééducation aidant une personne à réapprendre à marcher en sécurité après une blessure, une chirurgie ou une maladie."
+    },
+    {
+        "en_h":  "Assistive device",
+        "fr_h":  "Aide technique",
+        "d_fr":  "Outil comme une canne, un déambulateur ou un fauteuil roulant aidant une personne à se déplacer ou à accomplir ses tâches quotidiennes plus sûrement."
+    },
+    {
+        "en_h":  "Contracture",
+        "fr_h":  "Contracture",
+        "d_fr":  "Raccourcissement permanent d\u0027un muscle, d\u0027un tendon ou de la peau qui limite le mouvement normal d\u0027une articulation."
+    },
+    {
+        "en_h":  "Spasticity",
+        "fr_h":  "Spasticité",
+        "d_fr":  "État de raideur et de tension des muscles rendant le mouvement difficile, souvent après une atteinte du système nerveux."
+    },
+    {
+        "en_h":  "Weight-bearing",
+        "fr_h":  "Mise en charge",
+        "d_fr":  "Quantité de poids qu\u0027une personne est autorisée à mettre sur un membre blessé pendant sa guérison."
+    },
+    {
+        "en_h":  "Activities of daily living",
+        "fr_h":  "Activités de la vie quotidienne",
+        "d_fr":  "Tâches de soins personnels de base effectuées chaque jour, comme manger, se laver, s\u0027habiller et aller aux toilettes."
+    },
+    {
+        "en_h":  "Granulation tissue",
+        "fr_h":  "Tissu de granulation",
+        "d_fr":  "Nouveau tissu conjonctif et petits vaisseaux sanguins qui se forment à la surface d\u0027une plaie pendant la cicatrisation."
+    },
+    {
+        "en_h":  "Wound dehiscence",
+        "fr_h":  "Déhiscence de plaie",
+        "d_fr":  "Réouverture partielle ou complète d\u0027une plaie chirurgicale le long de la ligne d\u0027incision."
+    },
+    {
+        "en_h":  "Negative pressure wound therapy",
+        "fr_h":  "Thérapie des plaies par pression négative",
+        "d_fr":  "Traitement appliquant une aspiration douce sur une plaie pour évacuer les liquides et favoriser la cicatrisation."
+    },
+    {
+        "en_h":  "Anastomosis",
+        "fr_h":  "Anastomose",
+        "d_fr":  "Connexion chirurgicale établie entre deux structures creuses, comme deux extrémités d\u0027intestin ou des vaisseaux sanguins."
+    },
+    {
+        "en_h":  "Surgical margin",
+        "fr_h":  "Marge chirurgicale",
+        "d_fr":  "Bordure de tissu sain retirée autour d\u0027une tumeur, examinée pour confirmer qu\u0027il ne reste aucune cellule cancéreuse."
+    },
+    {
+        "en_h":  "Endotracheal tube",
+        "fr_h":  "Sonde endotrachéale",
+        "d_fr":  "Tube souple introduit par la bouche jusque dans la trachée pour maintenir les voies respiratoires ouvertes et faciliter la respiration."
+    },
+    {
+        "en_h":  "Enteral nutrition",
+        "fr_h":  "Nutrition entérale",
+        "d_fr":  "Apport de nutriments liquides dans le tube digestif au moyen d\u0027une sonde d\u0027alimentation lorsqu\u0027une personne ne peut pas s\u0027alimenter normalement."
+    },
+    {
+        "en_h":  "Parenteral nutrition",
+        "fr_h":  "Nutrition parentérale",
+        "d_fr":  "Apport de nutriments directement dans une veine, sans passer par le tube digestif, lorsque l\u0027intestin ne peut pas absorber les aliments."
+    },
+    {
+        "en_h":  "Isolation precautions",
+        "fr_h":  "Précautions d\u0027isolement",
+        "d_fr":  "Mesures utilisées en milieu de soins pour empêcher la propagation d\u0027une infection d\u0027un patient aux autres."
+    },
+    {
+        "en_h":  "Personal protective equipment",
+        "fr_h":  "Équipement de protection individuelle",
+        "d_fr":  "Matériel comme des gants, blouses, masques et écrans faciaux porté pour se protéger contre l\u0027exposition à des agents infectieux."
+    },
+    {
+        "en_h":  "Aseptic technique",
+        "fr_h":  "Technique aseptique",
+        "d_fr":  "Ensemble de pratiques empêchant les germes de contaminer une zone stérile pendant un acte médical."
+    },
+    {
+        "en_h":  "Quarantine",
+        "fr_h":  "Quarantaine",
+        "d_fr":  "Séparation de personnes ayant pu être exposées à une maladie contagieuse afin de surveiller l\u0027apparition de signes de maladie."
+    },
+    {
+        "en_h":  "Nosocomial infection",
+        "fr_h":  "Infection nosocomiale",
+        "d_fr":  "Infection contractée par un patient pendant sa prise en charge à l\u0027hôpital, aussi appelée infection associée aux soins."
+    },
+    {
+        "en_h":  "Antibiotic resistance",
+        "fr_h":  "Résistance aux antibiotiques",
+        "d_fr":  "Capacité des bactéries à survivre aux médicaments qui les tuaient autrefois, rendant les infections plus difficiles à traiter."
     }
 ]

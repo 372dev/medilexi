@@ -24559,5 +24559,466 @@
                                 "pharmac/o"
                             ]
                   }
+    },
+    {
+        "en_h":  "Tumor staging",
+        "f":  [
+                  "Oncology"
+              ],
+        "d":  "A system for describing the size of a cancer and how far it has spread from where it first formed.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Tumor grade",
+        "f":  [
+                  "Oncology",
+                  "Pathology"
+              ],
+        "d":  "A rating of how abnormal cancer cells appear under a microscope, indicating how quickly a tumor is likely to grow and spread.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Oncologist",
+        "f":  [
+                  "Oncology"
+              ],
+        "d":  "A physician who specializes in the diagnosis and treatment of cancer.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "onc/o"
+                            ],
+                      "s":  [
+                                "-logist"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Targeted therapy",
+        "f":  [
+                  "Oncology",
+                  "Pharmacology"
+              ],
+        "d":  "A cancer treatment using drugs that attack specific molecules the cancer needs to grow, while sparing most healthy cells.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Lumpectomy",
+        "f":  [
+                  "Oncology",
+                  "Surgery"
+              ],
+        "d":  "Surgery that removes a breast tumor along with a small rim of surrounding tissue while preserving the breast.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Radiation therapy",
+        "f":  [
+                  "Oncology"
+              ],
+        "d":  "A cancer treatment that uses high-energy radiation to destroy cancer cells or shrink tumors.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "radi/o"
+                            ],
+                      "s":  [
+                                "-therapy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Arteriovenous fistula",
+        "abbr":  "AVF",
+        "f":  [
+                  "Nephrology",
+                  "Vascular Surgery"
+              ],
+        "d":  "An abnormal or surgically created connection between an artery and a vein, often placed in the arm to allow dialysis.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "arteri/o",
+                                "ven/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Glomerular filtration rate",
+        "abbr":  "GFR",
+        "f":  [
+                  "Nephrology"
+              ],
+        "d":  "A measure of how much blood the kidneys filter each minute, used to gauge how well they are working.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "glomerul/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Creatinine clearance",
+        "f":  [
+                  "Nephrology"
+              ],
+        "d":  "A test that estimates kidney function by comparing creatinine levels in the blood and urine.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Uremia",
+        "f":  [
+                  "Nephrology"
+              ],
+        "d":  "A dangerous buildup of waste products in the blood caused by failing kidneys, leading to nausea, fatigue, and confusion.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "ur/o"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Iron deficiency anemia",
+        "f":  [
+                  "Hematology"
+              ],
+        "d":  "A common anemia caused by too little iron, which the body needs to make healthy red blood cells.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Sickle cell anemia",
+        "f":  [
+                  "Hematology",
+                  "Genetics"
+              ],
+        "d":  "An inherited disorder in which red blood cells become stiff and crescent-shaped, blocking blood flow and causing pain.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "an-"
+                            ],
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hemophilia",
+        "f":  [
+                  "Hematology",
+                  "Genetics"
+              ],
+        "d":  "An inherited disorder in which the blood clots poorly because it lacks certain clotting factors, causing prolonged bleeding.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "hem/o"
+                            ],
+                      "s":  [
+                                "-philia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Lymphocyte",
+        "f":  [
+                  "Hematology",
+                  "Immunology"
+              ],
+        "d":  "A type of white blood cell that is central to the immune system\u0027s defense against infection and disease.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "lymph/o"
+                            ],
+                      "s":  [
+                                "-cyte"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Rh factor",
+        "f":  [
+                  "Hematology"
+              ],
+        "d":  "An inherited protein that may be present on red blood cells, making a person\u0027s blood type positive or negative.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Bone marrow",
+        "f":  [
+                  "Anatomy",
+                  "Hematology"
+              ],
+        "d":  "The soft tissue inside bones where red blood cells, white blood cells, and platelets are made.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Transfusion reaction",
+        "f":  [
+                  "Hematology",
+                  "Immunology"
+              ],
+        "d":  "An adverse response to a blood transfusion, ranging from mild fever and itching to severe, life-threatening complications.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Allergen",
+        "f":  [
+                  "Immunology"
+              ],
+        "d":  "A normally harmless substance, such as pollen, dust, or a food, that triggers an allergic reaction in some people.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Epinephrine autoinjector",
+        "f":  [
+                  "Immunology",
+                  "Emergency Medicine"
+              ],
+        "d":  "A handheld device that injects a preset dose of epinephrine to treat a severe allergic reaction.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "epi-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Skin prick test",
+        "f":  [
+                  "Immunology",
+                  "Dermatology"
+              ],
+        "d":  "An allergy test in which small amounts of suspected allergens are pricked into the skin to check for a reaction.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Food allergy",
+        "f":  [
+                  "Immunology"
+              ],
+        "d":  "An immune reaction to a particular food that can cause hives, swelling, vomiting, or trouble breathing.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Gait training",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "Physical therapy that helps a person relearn to walk safely after injury, surgery, or illness.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Assistive device",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "A tool such as a cane, walker, or wheelchair that helps a person move or carry out daily tasks more safely.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Contracture",
+        "f":  [
+                  "Rehabilitation Medicine",
+                  "Orthopedics"
+              ],
+        "d":  "A permanent tightening of muscle, tendon, or skin that limits the normal movement of a joint.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Spasticity",
+        "f":  [
+                  "Rehabilitation Medicine",
+                  "Neurology"
+              ],
+        "d":  "A condition of stiff, tight muscles that makes movement difficult, often following damage to the nervous system.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Weight-bearing",
+        "f":  [
+                  "Rehabilitation Medicine",
+                  "Orthopedics"
+              ],
+        "d":  "The amount of weight a person is permitted to place on an injured leg or arm while it heals.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Activities of daily living",
+        "abbr":  "ADL",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "The basic self-care tasks done each day, such as eating, bathing, dressing, and using the toilet.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Granulation tissue",
+        "f":  [
+                  "Dermatology",
+                  "Surgery"
+              ],
+        "d":  "New connective tissue and tiny blood vessels that form over the surface of a wound as it heals.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Wound dehiscence",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "The partial or complete reopening of a surgical wound along its incision line.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Negative pressure wound therapy",
+        "abbr":  "NPWT",
+        "f":  [
+                  "Surgery",
+                  "Dermatology"
+              ],
+        "d":  "A treatment that applies gentle suction to a wound to draw out fluid and encourage healing.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Anastomosis",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "A surgical connection made between two hollow structures, such as two ends of intestine or blood vessels.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Surgical margin",
+        "f":  [
+                  "Surgery",
+                  "Oncology"
+              ],
+        "d":  "The border of healthy tissue removed around a tumor, checked to confirm that no cancer cells remain.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Endotracheal tube",
+        "abbr":  "ETT",
+        "f":  [
+                  "Anesthesiology",
+                  "Critical Care"
+              ],
+        "d":  "A flexible tube passed through the mouth into the windpipe to keep the airway open and support breathing.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "endo-"
+                            ],
+                      "r":  [
+                                "trache/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Enteral nutrition",
+        "f":  [
+                  "Gastroenterology",
+                  "General Medicine"
+              ],
+        "d":  "The delivery of liquid nutrients into the digestive tract through a feeding tube when a person cannot eat normally.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "enter/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Parenteral nutrition",
+        "f":  [
+                  "Critical Care",
+                  "General Medicine"
+              ],
+        "d":  "The delivery of nutrients directly into a vein, bypassing the digestive tract, when the gut cannot absorb food.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "enter/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Isolation precautions",
+        "f":  [
+                  "Infectious Disease",
+                  "Healthcare Administration"
+              ],
+        "d":  "Measures used in healthcare settings to keep an infection from spreading from a patient to others.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Personal protective equipment",
+        "abbr":  "PPE",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "Gear such as gloves, gowns, masks, and face shields worn to guard against exposure to infectious material.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Aseptic technique",
+        "f":  [
+                  "Surgery",
+                  "Infectious Disease"
+              ],
+        "d":  "A set of practices that prevent germs from contaminating a sterile area during a medical procedure.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Quarantine",
+        "f":  [
+                  "Infectious Disease",
+                  "Healthcare Administration"
+              ],
+        "d":  "The separation of people who may have been exposed to a contagious disease to watch for signs of illness.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Nosocomial infection",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "An infection a patient develops while receiving care in a hospital, also called a hospital-acquired infection.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Antibiotic resistance",
+        "f":  [
+                  "Infectious Disease",
+                  "Pharmacology"
+              ],
+        "d":  "The ability of bacteria to survive drugs that once killed them, making infections harder to treat.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ],
+                      "r":  [
+                                "bi/o"
+                            ]
+                  }
     }
 ]

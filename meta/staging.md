@@ -48,6 +48,10 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 | Tingling | Paresthesia |
 | Fainting | Syncope |
 | Total knee replacement | Total knee arthroplasty |
+| Mole | Nevus |
+| Wart | Verruca |
+| Hives | Urticaria |
+| Blister | Vesicle |
 
 *(Also dropped as already-shipped, no `en_l` needed: `Sarcoidosis` (exact); `Guillain-Barre syndrome` — shipped with the accent as **Guillain-Barré syndrome**, the unaccented queue spelling read as new.)*
 
@@ -113,6 +117,91 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 - Dosage
 - Topical medication
 - Medication adherence
+- Expectorant
+- Decongestant
+- Antitussive
+- Antidiarrheal
+- Vasopressor
+- Transdermal patch
+- Placebo
+
+### Dentistry (2026-08-17 intake)
+- Dental extraction
+- Wisdom tooth
+- Underbite
+- Dental scaling
+- Gum recession
+- Prosthodontics
+- Dental amalgam
+- Occlusal splint (dental nightguard)
+
+### Ophthalmology (2026-08-17 intake)
+- Refractive error
+- Ophthalmoscopy (fundoscopy)
+- Aqueous humor
+- Vitreous humor
+- Scotoma
+- Phacoemulsification
+
+### Otolaryngology (2026-08-17 intake)
+- Adenoid
+- Otoscopy
+
+### Endocrinology (2026-08-17 intake)
+- Hormone replacement therapy
+- Endocrinologist
+
+### Urology (2026-08-17 intake)
+- Urinary catheter
+- Urodynamic testing
+
+### Healthcare administration (2026-08-17 intake)
+- Out-of-pocket cost
+- Primary care physician
+- Telemedicine
+- Second opinion
+- Review of systems
+
+### Anatomy & imaging (2026-08-17 intake)
+- Abdominal cavity
+- Mediastinum
+- Radiograph
+- Pericardial cavity
+- Retroperitoneum
+- Zygomatic bone
+- Sphenoid bone
+
+### Obstetrics & Gynecology (2026-08-17 intake)
+- Braxton Hicks contractions
+- Meconium
+- Vernix
+- Lochia
+- Hysterosalpingography
+- Placental abruption
+- Perimenopause
+
+### Pediatrics (2026-08-17 intake)
+- Immunization schedule
+- Well-child visit
+- Failure to thrive
+- Croup
+- Febrile seizure
+- Fontanelle
+- Growth chart
+- Developmental milestone
+- Teething
+- Diaper rash
+
+### Cardiology (2026-08-17 intake)
+- Coronary stent
+- Thrombus (en_l blood clot)
+
+### Clinical procedures & exam (2026-08-17 intake)
+- Pulse oximetry
+- Percussion (exam technique)
+- Surgical staple
+- Arm sling
+- Fasting
 
 <!-- QUEUE:END -->
 

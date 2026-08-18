@@ -1,5 +1,6 @@
 Abdomen
 Abdominal aortic aneurysm
+Abdominal binder
 Abdominal quadrant
 Abdominal region
 Abdominopelvic cavity
@@ -44,6 +45,7 @@ Aerophagia
 Affect
 Afferent nerve
 Agnosia
+Agonal breathing
 Agonizing pain
 Agoraphobia
 Akathisia
@@ -69,6 +71,7 @@ Amniocentesis
 Amniotic fluid
 Amniotomy
 Amphiarthrosis
+Amputation
 Amylase
 Amyotrophic lateral sclerosis
 Analgesic
@@ -120,6 +123,7 @@ Antiseptic
 Antiviral
 Anuria
 Anus
+Anxiety
 Anxiety disorder
 Anxiolytic
 Aorta
@@ -182,6 +186,7 @@ Barium swallow
 Basal cell carcinoma
 Basal ganglia
 Basic metabolic panel
+BCG vaccine
 Bed rest
 Bell's palsy
 Benign
@@ -249,6 +254,7 @@ Burning pain
 Bursitis
 Cachexia
 Cadaver
+Calcific tendinitis
 Calcium channel blocker
 Canalolithiasis
 Cane
@@ -379,6 +385,7 @@ Computed tomography
 Concussion
 Conductive hearing loss
 Condyle
+Condyloma
 Congestive heart failure
 Conjunctivitis
 Conscious sedation
@@ -446,11 +453,14 @@ Cytotoxic
 Dacryocystitis
 D-dimer
 Debridement
+Decompensation
+Deconditioning
 Decubitus ulcer
 Deductible
 Deep vein thrombosis
 Defibrillator
 Dehydration
+Delirium
 Delusion
 Dementia
 Dental abscess
@@ -476,6 +486,7 @@ Dermatitis
 Dermatologist
 Dermatology
 Dermatome
+Dermatomyositis
 Dermatoplasty
 Dermatosis
 Dermis
@@ -494,10 +505,12 @@ Dialysis
 Diaphoresis
 Diaphragm
 Diarrhea
+Diastolic blood pressure
 Dietitian
 Differential diagnosis
 Differentiation
 Digestive system
+Dilation
 Dilation and curettage
 Diphtheria
 Diplopia
@@ -515,6 +528,7 @@ Doula
 Drain
 Dressing change
 Drug interaction
+Drug tolerance
 Dry eye syndrome
 Dry gangrene
 Dull pain
@@ -592,6 +606,7 @@ Epinephrine autoinjector
 Episiotomy
 Epistaxis
 Erectile dysfunction
+Eructation
 Erythema
 Erythrocyte
 Erythrocyte sedimentation rate
@@ -605,6 +620,7 @@ Esophagus
 Estriol
 Estrogen
 Eustachian tube
+Euthanasia
 Exacerbation
 Excisional biopsy
 Excruciating pain
@@ -687,6 +703,7 @@ Genu valgum
 Genu varum
 Gestational age
 Gestational diabetes
+Giant cell arteritis
 Gingival recession
 Gingivectomy
 Gingivitis
@@ -702,6 +719,7 @@ Glucagon
 Glucometer
 Glucose tolerance test
 Gluteal muscles
+Glycan residue
 Glycolysis
 Glycosuria
 Gnawing pain
@@ -756,6 +774,7 @@ Hemorrhoids
 Hemostasis
 Hemothorax
 Hepatic fibrosis
+Hepatic steatosis
 Hepatitis
 Hepatoma
 Hepatomegaly
@@ -851,6 +870,7 @@ Integumentary system
 Intermittent claudication
 Intermittent pain
 Intern
+Internal examination
 Internal Medicine
 International normalized ratio
 Interpreter services
@@ -902,7 +922,9 @@ Laparohysteropexy
 Laparoscopy
 Laparotomy
 Large intestine
+Laryngectomy
 Laryngitis
+Laryngomalacia
 Laryngoscopy
 Laryngospasm
 Larynx
@@ -929,6 +951,7 @@ Lipase
 Lipid panel
 Lipoma
 Liposuction
+Liquid diet
 Litholapaxy
 Lithotripsy
 Liver
@@ -939,9 +962,12 @@ Loading dose
 Lobectomy
 Local anesthesia
 Localized pain
+Locomotion
+Long QT syndrome
 Loop electrosurgical excision procedure
 Loss of appetite
 Lower back pain
+Lozenge
 Lumbar puncture
 Lumbar vertebra
 Lumpectomy
@@ -974,6 +1000,7 @@ Mandible
 Mandibular arch
 Mania
 Marital status
+Mastocytosis
 Mastoiditis
 Maxillary arch
 Maxillofacial surgery
@@ -1006,6 +1033,7 @@ Metabolic syndrome
 Metabolism
 Metacarpal
 Metastasis
+Methicillin-resistant Staphylococcus aureus
 Microcalcification
 Microcephaly
 Midwife
@@ -1020,6 +1048,7 @@ Moderate pain
 Mood stabilizer
 Morning sickness
 Mucositis
+Mucus
 Multifocal intraocular lens
 Multiple sclerosis
 Muscle
@@ -1102,6 +1131,7 @@ Nevus simplex
 Newborn screening
 Next of kin
 Night sweats
+Nil per os
 Nitroglycerin
 Nocturia
 Nodule
@@ -1263,6 +1293,7 @@ Physical therapy
 Physician
 Physician associate
 Pia mater
+Pigmentation
 Pinching pain
 Pineal gland
 Pituitary adenoma
@@ -1350,6 +1381,7 @@ Pseudocyesis
 Pseudocyst
 Psoriasis
 Psoriatic arthritis
+Psychiatrist
 Psychiatry
 Psychologist
 Psychosis
@@ -1390,6 +1422,7 @@ Radiation therapy
 Radical hysterectomy
 Radioisotope
 Radiologic technologist
+Radiologist
 Radiology
 Radiopharmaceutical
 Radioresistance
@@ -1421,7 +1454,10 @@ Respiratory depression
 Respiratory rate
 Respiratory system
 Respiratory therapist
+Resting heart rate
+Restlessness
 Restraint
+Resuscitation
 Retina
 Retinal detachment
 Retinopathy
@@ -1451,6 +1487,7 @@ Sarcoma
 Sarcopenia
 Scabies
 Scapula
+Scar tissue
 Schizophrenia
 Sciatic nerve
 Sciatica
@@ -1474,6 +1511,7 @@ Septic shock
 Septicemia
 Septoplasty
 Sequela
+Serology
 Serum potassium
 Serum sodium
 Severe pain
@@ -1499,6 +1537,7 @@ Sleep apnea
 Sliding scale fee
 Slit lamp
 Small intestine
+Smoking cessation
 Snare
 Somatic symptom disorder
 Somatosensory
@@ -1528,6 +1567,7 @@ Splitting pain
 Spondylitis
 Spondylolisthesis
 Spondylosis
+Sprain
 Sputum
 Sputum culture
 Squamous cell carcinoma
@@ -1583,6 +1623,7 @@ Synovitis
 Syphilis
 Systemic lupus erythematosus
 Systemic sclerosis
+Systolic blood pressure
 Tachycardia
 Tachypnea
 Tardive dyskinesia
@@ -1593,6 +1634,7 @@ Telangiectasia
 Telehealth
 Temporal lobe
 Temporomandibular disorder
+Temporomandibular joint
 Tenderness
 Tendinitis
 Tendon
@@ -1605,6 +1647,7 @@ Testicular torsion
 Testis
 Tetanus
 Thalamus
+Thalassemia
 Thermometer
 Third molar
 Thoracentesis
@@ -1673,6 +1716,7 @@ Trimester
 Trismus
 Troponin
 Tubal ligation
+Tuberculosis
 Tumor grade
 Tumor marker
 Tumor staging
@@ -1771,6 +1815,7 @@ Vocal fold nodule
 Voluntary movement
 Volvulus
 Vulva
+Waddling gait
 Walker
 Water solubility
 Weak pulse

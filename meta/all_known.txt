@@ -547,6 +547,7 @@ Doula
 Drain
 Dressing change
 Drug interaction
+Drug tolerance
 Dry eye syndrome
 Dry gangrene
 Dull pain
@@ -764,7 +765,6 @@ Half-life
 Halitosis
 Hallucination
 Hamstring
-Hand tremor
 Hashimoto's thyroiditis
 Headache
 Health care proxy
@@ -1736,7 +1736,6 @@ Tinea capitis
 Tinea pedis
 Tinnitus
 Titration
-Tolerance
 Tomography
 Tongue
 Tonic-clonic seizure

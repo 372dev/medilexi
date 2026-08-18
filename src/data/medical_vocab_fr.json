@@ -9215,5 +9215,232 @@
         "en_h":  "Antibiotic resistance",
         "fr_h":  "Résistance aux antibiotiques",
         "d_fr":  "Capacité des bactéries à survivre aux médicaments qui les tuaient autrefois, rendant les infections plus difficiles à traiter."
+    },
+    {
+        "en_h":  "Eructation",
+        "fr_h":  "Éructation",
+        "fr_l":  "Renvoi",
+        "d_fr":  "Fait d\u0027expulser des gaz de l\u0027estomac par la bouche, communément appelé renvoi ou rot."
+    },
+    {
+        "en_h":  "Abdominal binder",
+        "fr_h":  "Ceinture abdominale",
+        "d_fr":  "Large soutien élastique enroulé autour de l\u0027abdomen pour assurer une compression et un confort après une chirurgie ou un accouchement."
+    },
+    {
+        "en_h":  "Radiologist",
+        "fr_h":  "Radiologue",
+        "d_fr":  "Médecin spécialisé dans l\u0027interprétation des images médicales comme les radiographies, les scanners et les IRM pour diagnostiquer les maladies."
+    },
+    {
+        "en_h":  "Psychiatrist",
+        "fr_h":  "Psychiatre",
+        "d_fr":  "Médecin spécialisé dans le diagnostic, le traitement et la prévention des troubles de santé mentale."
+    },
+    {
+        "en_h":  "Deconditioning",
+        "fr_h":  "Déconditionnement",
+        "d_fr":  "Perte de forme physique et de force musculaire résultant d\u0027une inactivité prolongée ou d\u0027un alitement."
+    },
+    {
+        "en_h":  "Decompensation",
+        "fr_h":  "Décompensation",
+        "d_fr":  "Défaillance d\u0027un organe ou d\u0027un système corporel qui ne parvient plus à maintenir un fonctionnement normal après une période de compensation réussie."
+    },
+    {
+        "en_h":  "Dilation",
+        "fr_h":  "Dilatation",
+        "d_fr":  "Élargissement ou ouverture d\u0027une structure corporelle, comme un vaisseau sanguin, la pupille ou le col de l\u0027utérus."
+    },
+    {
+        "en_h":  "Resuscitation",
+        "fr_h":  "Réanimation",
+        "d_fr":  "Ensemble de gestes visant à ranimer une personne qui a cessé de respirer ou dont le cœur s\u0027est arrêté, afin de rétablir les fonctions vitales."
+    },
+    {
+        "en_h":  "Waddling gait",
+        "fr_h":  "Démarche dandinante",
+        "d_fr":  "Façon de marcher en se balançant d\u0027un côté à l\u0027autre, comme un canard, souvent causée par une faiblesse des muscles de la hanche."
+    },
+    {
+        "en_h":  "Locomotion",
+        "fr_h":  "Locomotion",
+        "d_fr":  "Capacité de se déplacer d\u0027un endroit à un autre, par exemple en marchant, en courant ou en rampant."
+    },
+    {
+        "en_h":  "Scar tissue",
+        "fr_h":  "Tissu cicatriciel",
+        "d_fr":  "Tissu fibreux qui se forme lorsque le corps guérit une plaie, remplaçant la peau ou le tissu d\u0027un organe normal."
+    },
+    {
+        "en_h":  "Serology",
+        "fr_h":  "Sérologie",
+        "d_fr":  "Étude et analyse du sérum sanguin, notamment pour détecter les anticorps qui indiquent une infection ou une immunité."
+    },
+    {
+        "en_h":  "Mastocytosis",
+        "fr_h":  "Mastocytose",
+        "d_fr":  "Maladie rare où trop de mastocytes s\u0027accumulent dans la peau ou les organes, provoquant démangeaisons, bouffées de chaleur et autres symptômes."
+    },
+    {
+        "en_h":  "Dermatomyositis",
+        "fr_h":  "Dermatomyosite",
+        "d_fr":  "Maladie inflammatoire provoquant une faiblesse musculaire accompagnée d\u0027une éruption cutanée caractéristique."
+    },
+    {
+        "en_h":  "Amputation",
+        "fr_h":  "Amputation",
+        "d_fr":  "Ablation chirurgicale de la totalité ou d\u0027une partie d\u0027un membre ou d\u0027une autre partie du corps."
+    },
+    {
+        "en_h":  "Temporomandibular joint",
+        "fr_h":  "Articulation temporo-mandibulaire",
+        "d_fr":  "Articulation en charnière reliant la mâchoire inférieure au crâne, permettant à la bouche de s\u0027ouvrir, de se fermer et de se déplacer latéralement."
+    },
+    {
+        "en_h":  "Laryngomalacia",
+        "fr_h":  "Laryngomalacie",
+        "d_fr":  "Ramollissement des tissus du larynx chez le nourrisson qui provoque une respiration bruyante, disparaissant généralement de lui-même."
+    },
+    {
+        "en_h":  "Laryngectomy",
+        "fr_h":  "Laryngectomie",
+        "d_fr":  "Ablation chirurgicale de la totalité ou d\u0027une partie du larynx, généralement pour traiter un cancer du larynx."
+    },
+    {
+        "en_h":  "Giant cell arteritis",
+        "fr_h":  "Artérite à cellules géantes",
+        "d_fr":  "Inflammation des grandes artères de la tête, surtout au niveau des tempes, pouvant causer maux de tête, douleur à la mâchoire et perte de vision; aussi appelée maladie de Horton."
+    },
+    {
+        "en_h":  "Calcific tendinitis",
+        "fr_h":  "Tendinite calcifiante",
+        "d_fr":  "Affection douloureuse caractérisée par des dépôts de calcium dans un tendon, le plus souvent à l\u0027épaule."
+    },
+    {
+        "en_h":  "Tuberculosis",
+        "fr_h":  "Tuberculose",
+        "d_fr":  "Infection bactérienne contagieuse qui touche principalement les poumons et se transmet par voie aérienne lors de la toux."
+    },
+    {
+        "en_h":  "Methicillin-resistant Staphylococcus aureus",
+        "fr_h":  "Staphylococcus aureus résistant à la méthicilline",
+        "d_fr":  "Souche de staphylocoque résistante à de nombreux antibiotiques courants, provoquant des infections difficiles à traiter."
+    },
+    {
+        "en_h":  "Condyloma",
+        "fr_h":  "Condylome",
+        "fr_l":  "Verrue génitale",
+        "d_fr":  "Excroissance en forme de verrue dans la région génitale ou anale, causée par le papillomavirus humain."
+    },
+    {
+        "en_h":  "Thalassemia",
+        "fr_h":  "Thalassémie",
+        "d_fr":  "Maladie sanguine héréditaire où le corps produit une hémoglobine anormale ou en quantité réduite, entraînant une anémie."
+    },
+    {
+        "en_h":  "Long QT syndrome",
+        "fr_h":  "Syndrome du QT long",
+        "d_fr":  "Trouble du rythme cardiaque où le cœur met plus de temps que la normale à se recharger entre les battements, augmentant le risque de syncope et d\u0027arythmies dangereuses."
+    },
+    {
+        "en_h":  "Delirium",
+        "fr_h":  "Délirium",
+        "d_fr":  "État soudain et grave de confusion et de conscience réduite de son environnement, souvent déclenché par une maladie, un médicament ou une chirurgie."
+    },
+    {
+        "en_h":  "Euthanasia",
+        "fr_h":  "Euthanasie",
+        "d_fr":  "Acte consistant à mettre fin intentionnellement à une vie pour soulager la souffrance, généralement dans le contexte d\u0027une maladie en phase terminale."
+    },
+    {
+        "en_h":  "Sprain",
+        "fr_h":  "Entorse",
+        "d_fr":  "Lésion d\u0027un ligament causée par un étirement excessif ou une déchirure, souvent à la suite d\u0027une torsion d\u0027une articulation."
+    },
+    {
+        "en_h":  "Mucus",
+        "fr_h":  "Mucus",
+        "d_fr":  "Liquide épais et glissant produit par la muqueuse du nez, de la gorge, des poumons et d\u0027autres cavités pour les protéger et les humidifier."
+    },
+    {
+        "en_h":  "Drug tolerance",
+        "fr_h":  "Tolérance aux médicaments",
+        "d_fr":  "État dans lequel le corps répond de moins en moins à un médicament au fil du temps, nécessitant des doses plus élevées pour le même effet."
+    },
+    {
+        "en_h":  "Smoking cessation",
+        "fr_h":  "Sevrage tabagique",
+        "d_fr":  "Processus consistant à arrêter la consommation de tabac, souvent soutenu par un accompagnement, des médicaments ou des substituts nicotiniques."
+    },
+    {
+        "en_h":  "Lozenge",
+        "fr_h":  "Pastille",
+        "d_fr":  "Petit comprimé médicamenteux qui se dissout lentement dans la bouche pour apaiser la gorge ou administrer un médicament."
+    },
+    {
+        "en_h":  "Systolic blood pressure",
+        "fr_h":  "Pression artérielle systolique",
+        "d_fr":  "Pression dans les artères lorsque le cœur bat et expulse le sang, la plus élevée des deux valeurs de tension artérielle."
+    },
+    {
+        "en_h":  "Diastolic blood pressure",
+        "fr_h":  "Pression artérielle diastolique",
+        "d_fr":  "Pression dans les artères lorsque le cœur se repose entre les battements, la plus basse des deux valeurs de tension artérielle."
+    },
+    {
+        "en_h":  "Resting heart rate",
+        "fr_h":  "Fréquence cardiaque au repos",
+        "d_fr":  "Nombre de battements du cœur par minute lorsque la personne est au repos."
+    },
+    {
+        "en_h":  "Nil per os",
+        "fr_h":  "Rien par la bouche",
+        "d_fr":  "Instruction médicale indiquant qu\u0027un patient ne doit rien manger ni boire, souvent avant une chirurgie ou une intervention."
+    },
+    {
+        "en_h":  "Anxiety",
+        "fr_h":  "Anxiété",
+        "d_fr":  "Sentiment d\u0027inquiétude, de nervosité ou de malaise face à une issue incertaine, qui devient un trouble lorsqu\u0027il est persistant et envahissant."
+    },
+    {
+        "en_h":  "Restlessness",
+        "fr_h":  "Agitation",
+        "d_fr":  "Sentiment de malaise et incapacité à rester immobile ou calme, souvent signe d\u0027anxiété, d\u0027inconfort ou d\u0027un effet indésirable d\u0027un médicament."
+    },
+    {
+        "en_h":  "Agonal breathing",
+        "fr_h":  "Respiration agonique",
+        "d_fr":  "Respiration anormale et haletante survenant lorsqu\u0027une personne manque d\u0027oxygène, souvent signe d\u0027un arrêt cardiaque ou d\u0027une mort imminente."
+    },
+    {
+        "en_h":  "Liquid diet",
+        "fr_h":  "Régime liquide",
+        "d_fr":  "Alimentation composée uniquement de liquides ou d\u0027aliments qui deviennent liquides, utilisée avant certaines interventions ou lorsque les aliments solides ne sont pas tolérés."
+    },
+    {
+        "en_h":  "Hepatic steatosis",
+        "fr_h":  "Stéatose hépatique",
+        "d_fr":  "Accumulation excessive de graisse dans le foie, pouvant entraîner avec le temps une inflammation et des lésions hépatiques."
+    },
+    {
+        "en_h":  "Pigmentation",
+        "fr_h":  "Pigmentation",
+        "d_fr":  "Coloration naturelle de la peau, des cheveux et des yeux produite par le pigment mélanine."
+    },
+    {
+        "en_h":  "BCG vaccine",
+        "fr_h":  "Vaccin BCG",
+        "d_fr":  "Vaccin contre la tuberculose, abréviation de bacille de Calmette-Guérin, administré principalement aux nourrissons dans les pays où la maladie est fréquente."
+    },
+    {
+        "en_h":  "Internal examination",
+        "fr_h":  "Examen interne",
+        "d_fr":  "Examen physique de l\u0027intérieur d\u0027une cavité corporelle, comme le vagin ou le rectum, à l\u0027aide d\u0027une main gantée ou d\u0027un instrument."
+    },
+    {
+        "en_h":  "Glycan residue",
+        "fr_h":  "Résidu glycanique",
+        "d_fr":  "Unité de sucre unique qui fait partie d\u0027une chaîne glucidique plus grande fixée aux protéines ou aux graisses de l\u0027organisme."
     }
 ]

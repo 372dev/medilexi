@@ -25020,5 +25020,530 @@
                                 "bi/o"
                             ]
                   }
+    },
+    {
+        "en_h":  "Eructation",
+        "en_l":  "Belching",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "The act of releasing gas from the stomach through the mouth, commonly known as belching or burping.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Abdominal binder",
+        "f":  [
+                  "Rehabilitation Medicine",
+                  "Surgery"
+              ],
+        "d":  "A wide elastic support wrapped around the abdomen to provide compression and comfort after surgery or childbirth.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "abdomin/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Radiologist",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "A physician who specializes in interpreting medical images such as X-rays, CT scans, and MRIs to diagnose disease.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "radi/o"
+                            ],
+                      "s":  [
+                                "-logist"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Psychiatrist",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A physician who specializes in the diagnosis, treatment, and prevention of mental health conditions.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "psych/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Deconditioning",
+        "f":  [
+                  "Rehabilitation Medicine"
+              ],
+        "d":  "The loss of physical fitness and muscle strength that results from prolonged inactivity or bed rest.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "de-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Decompensation",
+        "f":  [
+                  "General Medicine",
+                  "Cardiology"
+              ],
+        "d":  "The failure of an organ or body system to maintain normal function after a period of successful compensation.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "de-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dilation",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "The widening or opening of a body structure, such as a blood vessel, the pupil, or the cervix.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Resuscitation",
+        "f":  [
+                  "Emergency Medicine",
+                  "Critical Care"
+              ],
+        "d":  "The act of reviving a person who has stopped breathing or whose heart has stopped, restoring vital functions.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Waddling gait",
+        "f":  [
+                  "Neurology",
+                  "Orthopedics"
+              ],
+        "d":  "A duck-like walking pattern in which the body sways from side to side, often caused by weak hip muscles.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Locomotion",
+        "f":  [
+                  "Rehabilitation Medicine",
+                  "Neurology"
+              ],
+        "d":  "The ability to move from one place to another, such as by walking, running, or crawling.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "mot/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Scar tissue",
+        "f":  [
+                  "Dermatology"
+              ],
+        "d":  "Fibrous tissue that forms as the body heals a wound, replacing normal skin or organ tissue.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Serology",
+        "f":  [
+                  "Immunology",
+                  "Pathology"
+              ],
+        "d":  "The study and testing of blood serum, especially to detect antibodies that indicate infection or immunity.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-logy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Mastocytosis",
+        "f":  [
+                  "Immunology",
+                  "Dermatology"
+              ],
+        "d":  "A rare disorder in which too many mast cells build up in the skin or organs, causing itching, flushing, and other symptoms.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "cyt/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dermatomyositis",
+        "f":  [
+                  "Rheumatology",
+                  "Dermatology"
+              ],
+        "d":  "An inflammatory disease causing muscle weakness together with a distinctive skin rash.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "dermat/o",
+                                "my/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Amputation",
+        "f":  [
+                  "Surgery",
+                  "Orthopedics"
+              ],
+        "d":  "The surgical removal of all or part of a limb or other body part.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Temporomandibular joint",
+        "abbr":  "TMJ",
+        "f":  [
+                  "Anatomy",
+                  "Dentistry"
+              ],
+        "d":  "The hinge joint connecting the lower jaw to the skull, allowing the mouth to open, close, and move side to side.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "mandibul/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Laryngomalacia",
+        "f":  [
+                  "Otolaryngology",
+                  "Pediatrics"
+              ],
+        "d":  "A softening of the tissues of the voice box in infants that causes noisy breathing, usually resolving on its own.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "laryng/o"
+                            ],
+                      "s":  [
+                                "-malacia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Laryngectomy",
+        "f":  [
+                  "Otolaryngology",
+                  "Oncology"
+              ],
+        "d":  "The surgical removal of all or part of the voice box, usually to treat cancer of the larynx.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "laryng/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Giant cell arteritis",
+        "abbr":  "GCA",
+        "f":  [
+                  "Rheumatology",
+                  "Neurology"
+              ],
+        "d":  "Inflammation of the large arteries of the head, especially at the temples, that can cause headache, jaw pain, and vision loss; also called temporal arteritis.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "arteri/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Calcific tendinitis",
+        "f":  [
+                  "Orthopedics",
+                  "Rheumatology"
+              ],
+        "d":  "A painful condition in which calcium deposits build up in a tendon, most often in the shoulder.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "calc/o",
+                                "tendin/o"
+                            ],
+                      "s":  [
+                                "-itis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Tuberculosis",
+        "abbr":  "TB",
+        "f":  [
+                  "Infectious Disease",
+                  "Pulmonology"
+              ],
+        "d":  "A contagious bacterial infection that mainly attacks the lungs, spread through the air by coughing.",
+        "lvl":  3,
+        "parts":  {
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Methicillin-resistant Staphylococcus aureus",
+        "abbr":  "MRSA",
+        "f":  [
+                  "Infectious Disease"
+              ],
+        "d":  "A strain of staph bacteria resistant to many common antibiotics, causing infections that are difficult to treat.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Condyloma",
+        "en_l":  "Genital wart",
+        "f":  [
+                  "Dermatology",
+                  "Infectious Disease"
+              ],
+        "d":  "A wart-like growth in the genital or anal area caused by human papillomavirus.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Thalassemia",
+        "f":  [
+                  "Hematology",
+                  "Genetics"
+              ],
+        "d":  "An inherited blood disorder in which the body makes an abnormal or reduced amount of hemoglobin, leading to anemia.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-emia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Long QT syndrome",
+        "abbr":  "LQTS",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A heart rhythm disorder in which the heart takes longer than normal to recharge between beats, raising the risk of fainting and dangerous rhythms.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Delirium",
+        "f":  [
+                  "Psychiatry",
+                  "Critical Care"
+              ],
+        "d":  "A sudden, severe state of confusion and reduced awareness of one\u0027s surroundings, often triggered by illness, medication, or surgery.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Euthanasia",
+        "f":  [
+                  "General Medicine",
+                  "Healthcare Administration"
+              ],
+        "d":  "The act of intentionally ending a life to relieve suffering, typically in the context of terminal illness.",
+        "lvl":  1,
+        "parts":  {
+                      "p":  [
+                                "eu-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Sprain",
+        "f":  [
+                  "Orthopedics",
+                  "Emergency Medicine"
+              ],
+        "d":  "An injury to a ligament caused by overstretching or tearing, often from twisting a joint.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Mucus",
+        "f":  [
+                  "General Medicine",
+                  "Pulmonology"
+              ],
+        "d":  "A thick, slippery fluid produced by the lining of the nose, throat, lungs, and other cavities to protect and moisten them.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "muc/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Drug tolerance",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "A condition in which the body becomes less responsive to a medication over time, requiring higher doses for the same effect.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Smoking cessation",
+        "f":  [
+                  "General Medicine",
+                  "Pulmonology"
+              ],
+        "d":  "The process of stopping the use of tobacco, often supported by counseling, medication, or nicotine replacement.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Lozenge",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "A small medicated tablet that dissolves slowly in the mouth to soothe the throat or deliver medication.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Systolic blood pressure",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "The pressure in the arteries when the heart beats and pushes blood out, the higher of the two blood pressure numbers.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Diastolic blood pressure",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "The pressure in the arteries when the heart rests between beats, the lower of the two blood pressure numbers.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Resting heart rate",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "The number of times the heart beats per minute while a person is at rest.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Nil per os",
+        "en_l":  "Nothing by mouth",
+        "abbr":  "NPO",
+        "f":  [
+                  "General Medicine",
+                  "Anesthesiology"
+              ],
+        "d":  "A medical instruction that a patient should not eat or drink anything, often before surgery or a procedure.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Anxiety",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A feeling of worry, nervousness, or unease about an uncertain outcome, which becomes a disorder when persistent and overwhelming.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Restlessness",
+        "f":  [
+                  "Psychiatry",
+                  "Neurology"
+              ],
+        "d":  "A feeling of unease and inability to stay still or calm, often a sign of anxiety, discomfort, or a medication side effect.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Agonal breathing",
+        "f":  [
+                  "Emergency Medicine",
+                  "Critical Care"
+              ],
+        "d":  "Abnormal, gasping breaths that occur when a person is not getting enough oxygen, often a sign of cardiac arrest or approaching death.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Liquid diet",
+        "f":  [
+                  "General Medicine",
+                  "Gastroenterology"
+              ],
+        "d":  "A diet of only liquids or foods that turn to liquid, used before certain procedures or when solid food cannot be tolerated.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Hepatic steatosis",
+        "en_l":  "Fatty liver",
+        "f":  [
+                  "Gastroenterology"
+              ],
+        "d":  "The buildup of excess fat in the liver, which can lead to inflammation and liver damage over time.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "hepat/o"
+                            ],
+                      "s":  [
+                                "-osis"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pigmentation",
+        "f":  [
+                  "Dermatology"
+              ],
+        "d":  "The natural coloring of the skin, hair, and eyes produced by the pigment melanin.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "BCG vaccine",
+        "f":  [
+                  "Infectious Disease",
+                  "Pulmonology"
+              ],
+        "d":  "A vaccine against tuberculosis, short for Bacillus Calmette-Guérin, given mainly to infants where the disease is common.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Internal examination",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "General Medicine"
+              ],
+        "d":  "A physical examination of the inside of a body cavity, such as the vagina or rectum, using a gloved hand or an instrument.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Glycan residue",
+        "f":  [
+                  "Genetics",
+                  "Pathology"
+              ],
+        "d":  "A single sugar unit that forms part of a larger carbohydrate chain attached to proteins or fats in the body.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "glyc/o"
+                            ]
+                  }
     }
 ]

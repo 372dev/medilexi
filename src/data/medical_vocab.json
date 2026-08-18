@@ -25545,5 +25545,191 @@
                                 "glyc/o"
                             ]
                   }
+    },
+    {
+        "en_h":  "Antacid",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "A drug that neutralizes stomach acid to relieve heartburn and indigestion; calcium carbonate (Tums) and magnesium hydroxide (Milk of Magnesia) are common agents.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "acid/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Sedative",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "A drug that calms the nervous system to reduce anxiety and agitation or bring on sleep; diazepam (Valium), lorazepam (Ativan), and zolpidem (Ambien) are common agents.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Diuretic",
+        "f":  [
+                  "Pharmacology",
+                  "Nephrology"
+              ],
+        "d":  "A drug that increases urine output to remove excess fluid and salt from the body; furosemide (Lasix), hydrochlorothiazide (Microzide), and spironolactone (Aldactone) are common agents.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "ur/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Antiplatelet",
+        "f":  [
+                  "Pharmacology",
+                  "Cardiology"
+              ],
+        "d":  "A drug that keeps blood platelets from clumping together to lower the risk of clots; clopidogrel (Plavix), prasugrel (Effient), and ticagrelor (Brilinta) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Expectorant",
+        "f":  [
+                  "Pharmacology",
+                  "Pulmonology"
+              ],
+        "d":  "A drug that thins and loosens mucus in the airways to make coughs more productive; guaifenesin (Mucinex) is the most common agent.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Decongestant",
+        "f":  [
+                  "Pharmacology",
+                  "Otolaryngology"
+              ],
+        "d":  "A drug that narrows blood vessels in the nose to relieve stuffiness; pseudoephedrine (Sudafed) and oxymetazoline (Afrin) are common agents.",
+        "lvl":  3,
+        "parts":  {
+                      "p":  [
+                                "de-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Antitussive",
+        "f":  [
+                  "Pharmacology",
+                  "Pulmonology"
+              ],
+        "d":  "A drug that suppresses the urge to cough; dextromethorphan (Robitussin) and benzonatate (Tessalon) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Antidiarrheal",
+        "f":  [
+                  "Pharmacology",
+                  "Gastroenterology"
+              ],
+        "d":  "A drug that reduces the frequency and looseness of stools; loperamide (Imodium) and bismuth subsalicylate (Pepto-Bismol) are common agents.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "anti-"
+                            ],
+                      "s":  [
+                                "-rrhea"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Vasopressor",
+        "f":  [
+                  "Pharmacology",
+                  "Critical Care"
+              ],
+        "d":  "A drug that raises dangerously low blood pressure by tightening blood vessels; norepinephrine (Levophed) and epinephrine (Adrenalin) are common agents in critical care.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "vas/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Generic drug",
+        "f":  [
+                  "Pharmacology",
+                  "Healthcare Administration"
+              ],
+        "d":  "A medication sold under its chemical name rather than a brand name, with the same active ingredient as the brand version.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Over-the-counter drug",
+        "abbr":  "OTC",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "A medication that can be bought without a prescription to treat common, minor health problems.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Dosage",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "The amount of a medication to take and how often to take it, as directed by a prescriber.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Topical medication",
+        "f":  [
+                  "Pharmacology",
+                  "Dermatology"
+              ],
+        "d":  "A medication applied directly to the skin or another body surface, such as a cream, ointment, or gel.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Medication adherence",
+        "f":  [
+                  "Pharmacology",
+                  "Healthcare Administration"
+              ],
+        "d":  "The extent to which a patient takes their medication as prescribed, in the right dose and at the right times.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Transdermal patch",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "An adhesive patch placed on the skin that delivers medication slowly through the skin into the bloodstream.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "trans-"
+                            ],
+                      "r":  [
+                                "derm/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Placebo",
+        "en_l":  "Sugar pill",
+        "f":  [
+                  "Pharmacology"
+              ],
+        "d":  "An inactive substance with no therapeutic effect, given in place of a drug or used as a comparison in clinical trials.",
+        "lvl":  2
     }
 ]

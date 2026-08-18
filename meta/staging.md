@@ -59,24 +59,6 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 
 <!-- QUEUE:START -->
 
-### Pharmacology
-- Antacid
-- Sedative
-- Diuretic
-- Antiplatelet
-- Generic drug
-- Over-the-counter drug
-- Dosage
-- Topical medication
-- Medication adherence
-- Expectorant
-- Decongestant
-- Antitussive
-- Antidiarrheal
-- Vasopressor
-- Transdermal patch
-- Placebo
-
 ### Dentistry (2026-08-17 intake)
 - Dental extraction
 - Wisdom tooth

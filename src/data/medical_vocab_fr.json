@@ -9442,5 +9442,85 @@
         "en_h":  "Glycan residue",
         "fr_h":  "Résidu glycanique",
         "d_fr":  "Unité de sucre unique qui fait partie d\u0027une chaîne glucidique plus grande fixée aux protéines ou aux graisses de l\u0027organisme."
+    },
+    {
+        "en_h":  "Antacid",
+        "fr_h":  "Antiacide",
+        "d_fr":  "Médicament qui neutralise l\u0027acidité gastrique pour soulager les brûlures d\u0027estomac et l\u0027indigestion; le carbonate de calcium (Tums, Rennie) et l\u0027hydroxyde de magnésium (Milk of Magnesia, Chlorumagène) sont des agents courants."
+    },
+    {
+        "en_h":  "Sedative",
+        "fr_h":  "Sédatif",
+        "d_fr":  "Médicament qui calme le système nerveux pour réduire l\u0027anxiété et l\u0027agitation ou induire le sommeil; le diazépam (Valium), le lorazépam (Ativan, Témesta) et le zolpidem (Ambien, Stilnox) sont des agents courants."
+    },
+    {
+        "en_h":  "Diuretic",
+        "fr_h":  "Diurétique",
+        "d_fr":  "Médicament qui augmente la production d\u0027urine pour éliminer l\u0027excès de liquide et de sel; le furosémide (Lasix, Lasilix), l\u0027hydrochlorothiazide (Esidrex) et la spironolactone (Aldactone) sont des agents courants."
+    },
+    {
+        "en_h":  "Antiplatelet",
+        "fr_h":  "Antiplaquettaire",
+        "d_fr":  "Médicament qui empêche les plaquettes de s\u0027agréger pour réduire le risque de caillots; le clopidogrel (Plavix), le prasugrel (Efient) et le ticagrélor (Brilinta, Brilique) sont des agents courants."
+    },
+    {
+        "en_h":  "Expectorant",
+        "fr_h":  "Expectorant",
+        "d_fr":  "Médicament qui fluidifie et détache le mucus des voies respiratoires pour rendre la toux plus productive; la guaïfénésine (Mucinex) en est l\u0027agent le plus courant."
+    },
+    {
+        "en_h":  "Decongestant",
+        "fr_h":  "Décongestionnant",
+        "d_fr":  "Médicament qui resserre les vaisseaux sanguins du nez pour soulager la congestion; la pseudoéphédrine (Sudafed) et l\u0027oxymétazoline (Afrin, Aturgyl) sont des agents courants."
+    },
+    {
+        "en_h":  "Antitussive",
+        "fr_h":  "Antitussif",
+        "d_fr":  "Médicament qui supprime l\u0027envie de tousser; le dextrométhorphane (Robitussin) et le benzonatate (Tessalon) sont des agents courants."
+    },
+    {
+        "en_h":  "Antidiarrheal",
+        "fr_h":  "Antidiarrhéique",
+        "d_fr":  "Médicament qui réduit la fréquence et la liquidité des selles; le lopéramide (Imodium) et le sous-salicylate de bismuth (Pepto-Bismol) sont des agents courants."
+    },
+    {
+        "en_h":  "Vasopressor",
+        "fr_h":  "Vasopresseur",
+        "d_fr":  "Médicament qui augmente une tension artérielle dangereusement basse en resserrant les vaisseaux sanguins; la noradrénaline (Levophed) et l\u0027adrénaline sont des agents courants en soins intensifs."
+    },
+    {
+        "en_h":  "Generic drug",
+        "fr_h":  "Médicament générique",
+        "d_fr":  "Médicament vendu sous son nom chimique plutôt que sous une marque, contenant le même principe actif que la version de marque."
+    },
+    {
+        "en_h":  "Over-the-counter drug",
+        "fr_h":  "Médicament en vente libre",
+        "d_fr":  "Médicament que l\u0027on peut acheter sans ordonnance pour traiter des problèmes de santé courants et bénins."
+    },
+    {
+        "en_h":  "Dosage",
+        "fr_h":  "Posologie",
+        "d_fr":  "Quantité d\u0027un médicament à prendre et fréquence de prise, selon les indications du prescripteur."
+    },
+    {
+        "en_h":  "Topical medication",
+        "fr_h":  "Médicament topique",
+        "d_fr":  "Médicament appliqué directement sur la peau ou une autre surface du corps, comme une crème, une pommade ou un gel."
+    },
+    {
+        "en_h":  "Medication adherence",
+        "fr_h":  "Observance thérapeutique",
+        "d_fr":  "Mesure dans laquelle un patient prend ses médicaments comme prescrits, à la bonne dose et aux bons moments."
+    },
+    {
+        "en_h":  "Transdermal patch",
+        "fr_h":  "Patch transdermique",
+        "d_fr":  "Patch adhésif placé sur la peau qui délivre lentement un médicament à travers la peau dans la circulation sanguine."
+    },
+    {
+        "en_h":  "Placebo",
+        "fr_h":  "Placebo",
+        "d_fr":  "Substance inactive sans effet thérapeutique, administrée à la place d\u0027un médicament ou utilisée comme comparaison dans les essais cliniques."
     }
 ]

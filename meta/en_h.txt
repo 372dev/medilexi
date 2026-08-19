@@ -1,6 +1,7 @@
 Abdomen
 Abdominal aortic aneurysm
 Abdominal binder
+Abdominal cavity
 Abdominal quadrant
 Abdominal region
 Abdominopelvic cavity
@@ -144,6 +145,7 @@ Apnea
 Appendectomy
 Appendicitis
 Appendix
+Aqueous humor
 Arachnoid mater
 Arrhythmia
 Arterial blood gas
@@ -236,6 +238,7 @@ Bradykinesia
 Bradypnea
 Brain
 Brainstem
+Braxton Hicks contractions
 Breast
 Breastfeeding
 Breech presentation
@@ -353,6 +356,7 @@ Chronobiology
 Cicatrix
 Circumcision
 Cirrhosis
+Class III malocclusion
 Claustrophobia
 Clavicle
 Coagulation
@@ -434,6 +438,7 @@ Creatinine clearance
 Critical Care
 Critical Care Medicine
 Crohn's disease
+Croup
 Crural region
 Crushing pain
 Crutches
@@ -469,16 +474,19 @@ Delirium
 Delusion
 Dementia
 Dental abscess
+Dental amalgam
 Dental bridge
 Dental calculus
 Dental caries
 Dental crown
+Dental extraction
 Dental filling
 Dental hygienist
 Dental implant
 Dental plaque
 Dental prophylaxis
 Dental pulp
+Dental scaling
 Dental sealant
 Dentin
 Dentist
@@ -497,6 +505,7 @@ Dermatosis
 Dermis
 Dermoid cyst
 Detoxification
+Developmental milestone
 Deviated septum
 Dextrocardia
 Diabetes insipidus
@@ -507,6 +516,7 @@ Diabetic neuropathy
 Diabetic retinopathy
 Diagnosis
 Dialysis
+Diaper rash
 Diaphoresis
 Diaphragm
 Diarrhea
@@ -644,6 +654,7 @@ Extremity
 Extubation
 Eye infection
 Facial nerve
+Failure to thrive
 Fall risk
 Fallopian tube
 Family Medicine
@@ -653,6 +664,7 @@ Fasciitis
 Fasting blood glucose
 Fatigue
 Fatty acid
+Febrile seizure
 Fecal occult blood test
 Feeding tube
 Fellow
@@ -676,6 +688,7 @@ Fluoroscopy
 Foley catheter
 Follicle
 Follow-up
+Fontanelle
 Food allergy
 Forced vital capacity
 Forceps delivery
@@ -738,6 +751,7 @@ Gout
 Granulation tissue
 Graves' disease
 Grief
+Growth chart
 Growth hormone
 Guillain-Barré syndrome
 Gynecomastia
@@ -833,6 +847,7 @@ Hypovolemia
 Hypovolemic shock
 Hypoxemia
 Hysterectomy
+Hysterosalpingography
 Hysteroscopy
 Iatrogenic
 Ichthyosis
@@ -845,6 +860,7 @@ Iliac artery
 Ilium
 Immune system
 Immune thrombocytopenic purpura
+Immunization schedule
 Immunodeficiency
 Immunoglobulin
 Immunology
@@ -971,6 +987,7 @@ Loading dose
 Lobectomy
 Local anesthesia
 Localized pain
+Lochia
 Locomotion
 Long QT syndrome
 Loop electrosurgical excision procedure
@@ -1013,8 +1030,10 @@ Mastocytosis
 Mastoiditis
 Maxillary arch
 Maxillofacial surgery
+Meconium
 Medial
 Median nerve
+Mediastinum
 Medical assistant
 Medical history
 Medical laboratory technician
@@ -1158,6 +1177,7 @@ Obsessive-compulsive disorder
 Obstetrics & Gynecology
 Obstructive sleep apnea
 Occipital lobe
+Occlusal splint
 Occupational therapist
 Occupational therapy
 Ocular hypertension
@@ -1177,6 +1197,7 @@ Open heart surgery
 Open surgery
 Ophthalmology
 Ophthalmoscope
+Ophthalmoscopy
 Opioid
 Optic nerve
 Optic neuritis
@@ -1267,9 +1288,11 @@ Peptic ulcer
 Percutaneous
 Percutaneous coronary intervention
 Periapical abscess
+Pericardial cavity
 Pericardiocentesis
 Pericarditis
 Pericardium
+Perimenopause
 Perineum
 Periodontitis
 Periosteum
@@ -1286,6 +1309,7 @@ Personality disorder
 Pertussis
 Petechiae
 Petroclival meningioma
+Phacoemulsification
 Pharmacist
 Pharmacokinetics
 Pharmacology
@@ -1312,6 +1336,7 @@ Pituitary gland
 Placebo
 Placenta
 Placenta previa
+Placental abruption
 Plantar fasciitis
 Plastic Surgery
 Platelet count
@@ -1382,6 +1407,7 @@ Prostate-specific antigen
 Prostatitis
 Prostatomegaly
 Prosthesis
+Prosthodontics
 Prosthodontist
 Proteinuria
 Prothrombin time
@@ -1432,6 +1458,7 @@ Radiating pain
 Radiation dose
 Radiation therapy
 Radical hysterectomy
+Radiograph
 Radioisotope
 Radiologic technologist
 Radiologist
@@ -1449,6 +1476,7 @@ Rectum
 Recurrent pain
 Referral
 Referred pain
+Refractive error
 Regional anesthesia
 Registered nurse
 Regurgitation
@@ -1473,6 +1501,7 @@ Resuscitation
 Retina
 Retinal detachment
 Retinopathy
+Retroperitoneum
 Rh factor
 Rheumatoid arthritis
 Rheumatology
@@ -1505,6 +1534,7 @@ Sciatic nerve
 Sciatica
 Scleroderma
 Scoliosis
+Scotoma
 Screening
 Scrub nurse
 Sebaceous gland
@@ -1562,6 +1592,7 @@ Spasticity
 Speculum
 Speech therapy
 Speech-language pathologist
+Sphenoid bone
 Sphygmomanometer
 Spinal anesthesia
 Spinal cavity
@@ -1643,6 +1674,7 @@ Tardive dyskinesia
 Targeted therapy
 Tdap vaccine
 Tearing pain
+Teething
 Telangiectasia
 Telehealth
 Temporal lobe
@@ -1810,6 +1842,7 @@ Ventricular fibrillation
 Ventricular tachycardia
 Ventriculography
 Verbal consent form
+Vernix
 Verruca
 Vertebra
 Vertigo
@@ -1826,6 +1859,7 @@ Vitamin D deficiency
 Vitiligo
 Vitrectomy
 Vitreous floaters
+Vitreous humor
 Vocal cord nodule
 Vocal fold nodule
 Voluntary movement
@@ -1836,6 +1870,7 @@ Walker
 Water solubility
 Weak pulse
 Weight-bearing
+Well-child visit
 Wet gangrene
 Wheal
 Wheelchair
@@ -1853,3 +1888,4 @@ Xerosis
 Xerostomia
 X-ray
 YAG laser capsulotomy
+Zygomatic bone

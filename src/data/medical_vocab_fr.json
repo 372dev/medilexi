@@ -9522,5 +9522,189 @@
         "en_h":  "Placebo",
         "fr_h":  "Placebo",
         "d_fr":  "Substance inactive sans effet thérapeutique, administrée à la place d\u0027un médicament ou utilisée comme comparaison dans les essais cliniques."
+    },
+    {
+        "en_h":  "Dental extraction",
+        "fr_h":  "Extraction dentaire",
+        "d_fr":  "Retrait d\u0027une dent de son alvéole dans l\u0027os, généralement en raison d\u0027une carie, d\u0027un dommage ou d\u0027un encombrement."
+    },
+    {
+        "en_h":  "Class III malocclusion",
+        "fr_h":  "Malocclusion de classe III",
+        "d_fr":  "Forme de malocclusion où les dents antérieures inférieures dépassent les dents antérieures supérieures lorsque la bouche est fermée."
+    },
+    {
+        "en_h":  "Dental scaling",
+        "fr_h":  "Détartrage",
+        "d_fr":  "Procédure dentaire qui élimine la plaque et le tartre à la surface des dents et sous la gencive."
+    },
+    {
+        "en_h":  "Prosthodontics",
+        "fr_h":  "Prothèse dentaire",
+        "d_fr":  "Branche de la dentisterie qui conçoit et pose des remplacements artificiels des dents manquantes, comme les prothèses, couronnes et bridges."
+    },
+    {
+        "en_h":  "Dental amalgam",
+        "fr_h":  "Amalgame dentaire",
+        "fr_l":  "Plombage",
+        "d_fr":  "Matériau durable de couleur argentée fait d\u0027un mélange de métaux, utilisé pour obturer les caries."
+    },
+    {
+        "en_h":  "Occlusal splint",
+        "fr_h":  "Gouttière occlusale",
+        "d_fr":  "Appareil dentaire sur mesure porté sur les dents pour prévenir le grincement et soulager la tension de l\u0027articulation de la mâchoire."
+    },
+    {
+        "en_h":  "Refractive error",
+        "fr_h":  "Trouble de la réfraction",
+        "d_fr":  "Problème de vision courant où l\u0027œil ne fait pas converger la lumière correctement, causant une vue floue, comme dans la myopie ou l\u0027hypermétropie."
+    },
+    {
+        "en_h":  "Ophthalmoscopy",
+        "fr_h":  "Ophtalmoscopie",
+        "d_fr":  "Examen au cours duquel le médecin utilise un instrument lumineux pour observer la rétine et les autres structures du fond de l\u0027œil."
+    },
+    {
+        "en_h":  "Aqueous humor",
+        "fr_h":  "Humeur aqueuse",
+        "d_fr":  "Liquide clair et aqueux qui remplit la partie avant de l\u0027œil et aide à maintenir sa forme et sa pression."
+    },
+    {
+        "en_h":  "Vitreous humor",
+        "fr_h":  "Corps vitré",
+        "d_fr":  "Substance claire et gélatineuse qui remplit l\u0027espace derrière le cristallin et aide l\u0027œil à garder sa forme ronde."
+    },
+    {
+        "en_h":  "Scotoma",
+        "fr_h":  "Scotome",
+        "d_fr":  "Tache aveugle ou zone de vision réduite au sein d\u0027un champ visuel par ailleurs normal."
+    },
+    {
+        "en_h":  "Phacoemulsification",
+        "fr_h":  "Phacoémulsification",
+        "d_fr":  "Technique de chirurgie de la cataracte qui utilise des ultrasons pour fragmenter le cristallin opacifié afin de le retirer par une petite incision."
+    },
+    {
+        "en_h":  "Abdominal cavity",
+        "fr_h":  "Cavité abdominale",
+        "d_fr":  "Grand espace du tronc situé sous le diaphragme qui contient l\u0027estomac, les intestins, le foie et d\u0027autres organes."
+    },
+    {
+        "en_h":  "Mediastinum",
+        "fr_h":  "Médiastin",
+        "d_fr":  "Compartiment central du thorax situé entre les poumons, contenant le cœur, les gros vaisseaux, la trachée et l\u0027œsophage."
+    },
+    {
+        "en_h":  "Radiograph",
+        "fr_h":  "Radiographie",
+        "fr_l":  "Radio",
+        "d_fr":  "Image de l\u0027intérieur du corps obtenue au moyen de rayons X, utilisée pour visualiser les os et certaines autres structures."
+    },
+    {
+        "en_h":  "Pericardial cavity",
+        "fr_h":  "Cavité péricardique",
+        "d_fr":  "Espace rempli de liquide entre les couches du sac qui entoure le cœur, lui permettant de battre en douceur."
+    },
+    {
+        "en_h":  "Retroperitoneum",
+        "fr_h":  "Rétropéritoine",
+        "d_fr":  "Espace situé derrière la paroi abdominale qui contient les reins, le pancréas et une partie de l\u0027intestin."
+    },
+    {
+        "en_h":  "Zygomatic bone",
+        "fr_h":  "Os zygomatique",
+        "fr_l":  "Pommette",
+        "d_fr":  "Os qui forme la saillie de la joue et une partie de l\u0027orbite de l\u0027œil."
+    },
+    {
+        "en_h":  "Sphenoid bone",
+        "fr_h":  "Os sphénoïde",
+        "d_fr":  "Os en forme d\u0027aile situé à la base du crâne, participant à la formation des orbites et du plancher du crâne."
+    },
+    {
+        "en_h":  "Braxton Hicks contractions",
+        "fr_h":  "Contractions de Braxton Hicks",
+        "fr_l":  "Faux travail",
+        "d_fr":  "Resserrements occasionnels et généralement indolores de l\u0027utérus pendant la grossesse qui n\u0027annoncent pas un vrai travail."
+    },
+    {
+        "en_h":  "Meconium",
+        "fr_h":  "Méconium",
+        "d_fr":  "Premières selles foncées et collantes du nouveau-né, formées de matières ingérées dans l\u0027utérus."
+    },
+    {
+        "en_h":  "Vernix",
+        "fr_h":  "Vernix",
+        "d_fr":  "Enduit blanc et gras qui protège la peau du bébé dans l\u0027utérus et peut être encore présent à la naissance."
+    },
+    {
+        "en_h":  "Lochia",
+        "fr_h":  "Lochies",
+        "d_fr":  "Écoulement vaginal normal de sang, de mucus et de tissus qui se produit pendant plusieurs semaines après l\u0027accouchement."
+    },
+    {
+        "en_h":  "Hysterosalpingography",
+        "fr_h":  "Hystérosalpingographie",
+        "d_fr":  "Examen radiographique de l\u0027utérus et des trompes de Fallope après injection d\u0027un produit de contraste, souvent pour vérifier la présence de blocages."
+    },
+    {
+        "en_h":  "Placental abruption",
+        "fr_h":  "Décollement placentaire",
+        "d_fr":  "Affection grave où le placenta se sépare de la paroi de l\u0027utérus avant l\u0027accouchement, menaçant l\u0027apport en oxygène du bébé."
+    },
+    {
+        "en_h":  "Perimenopause",
+        "fr_h":  "Périménopause",
+        "d_fr":  "Période de transition précédant la ménopause, où les taux d\u0027hormones fluctuent et les règles deviennent irrégulières."
+    },
+    {
+        "en_h":  "Immunization schedule",
+        "fr_h":  "Calendrier vaccinal",
+        "d_fr":  "Calendrier recommandé d\u0027administration des vaccins aux enfants et aux adultes pour protéger contre les maladies infectieuses."
+    },
+    {
+        "en_h":  "Well-child visit",
+        "fr_h":  "Examen de santé de l\u0027enfant",
+        "d_fr":  "Consultation de routine qui surveille la croissance, le développement et la santé de l\u0027enfant et fournit vaccins et conseils."
+    },
+    {
+        "en_h":  "Failure to thrive",
+        "fr_h":  "Retard staturo-pondéral",
+        "d_fr":  "Croissance physique insuffisante chez un enfant dont le poids ou la taille se situe nettement sous les niveaux attendus pour son âge."
+    },
+    {
+        "en_h":  "Croup",
+        "fr_h":  "Laryngite sous-glottique",
+        "d_fr":  "Infection infantile qui gonfle les voies respiratoires supérieures, provoquant une toux aboyante et une respiration bruyante."
+    },
+    {
+        "en_h":  "Febrile seizure",
+        "fr_h":  "Convulsion fébrile",
+        "d_fr":  "Convulsion chez un jeune enfant provoquée par une forte fièvre, généralement brève et sans séquelles."
+    },
+    {
+        "en_h":  "Fontanelle",
+        "fr_h":  "Fontanelle",
+        "d_fr":  "Espace mou recouvert d\u0027une membrane entre les os du crâne d\u0027un bébé, permettant à la tête de grandir."
+    },
+    {
+        "en_h":  "Growth chart",
+        "fr_h":  "Courbe de croissance",
+        "d_fr":  "Graphique standard utilisé pour suivre la taille, le poids et le périmètre crânien d\u0027un enfant par rapport aux plages habituelles au fil du temps."
+    },
+    {
+        "en_h":  "Developmental milestone",
+        "fr_h":  "Étape du développement",
+        "d_fr":  "Compétence ou comportement, comme s\u0027asseoir ou dire ses premiers mots, que la plupart des enfants atteignent à un certain âge."
+    },
+    {
+        "en_h":  "Teething",
+        "fr_h":  "Poussée dentaire",
+        "d_fr":  "Processus par lequel les premières dents d\u0027un bébé percent les gencives, provoquant souvent bave et irritabilité."
+    },
+    {
+        "en_h":  "Diaper rash",
+        "fr_h":  "Érythème fessier",
+        "d_fr":  "Affection cutanée rouge et irritée dans la zone de la couche, causée par l\u0027humidité, le frottement ou le contact avec l\u0027urine et les selles."
     }
 ]

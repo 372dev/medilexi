@@ -25731,5 +25731,388 @@
               ],
         "d":  "An inactive substance with no therapeutic effect, given in place of a drug or used as a comparison in clinical trials.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Dental extraction",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "The removal of a tooth from its socket in the bone, usually because of decay, damage, or crowding.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Class III malocclusion",
+        "en_l":  "Underbite",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A form of malocclusion in which the lower front teeth extend past the upper front teeth when the mouth is closed.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "mal-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental scaling",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A dental cleaning procedure that removes plaque and tartar from the tooth surfaces and below the gumline.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Prosthodontics",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "The branch of dentistry that designs and fits artificial replacements for missing teeth, such as dentures, crowns, and bridges.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "odont/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Dental amalgam",
+        "en_l":  "Silver filling",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A durable silver-colored material made from a mix of metals, used to fill cavities in teeth.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Occlusal splint",
+        "en_l":  "Night guard",
+        "f":  [
+                  "Dentistry"
+              ],
+        "d":  "A custom dental appliance worn over the teeth to prevent grinding and ease strain on the jaw joint.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Refractive error",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "A common vision problem in which the eye does not bend light correctly, causing blurred sight, as in nearsightedness or farsightedness.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Ophthalmoscopy",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "An examination in which a doctor uses a lighted instrument to view the retina and other structures at the back of the eye.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ophthalm/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Aqueous humor",
+        "f":  [
+                  "Ophthalmology",
+                  "Anatomy"
+              ],
+        "d":  "The clear, watery fluid that fills the front part of the eye and helps maintain its shape and pressure.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Vitreous humor",
+        "f":  [
+                  "Ophthalmology",
+                  "Anatomy"
+              ],
+        "d":  "The clear, gel-like substance that fills the space behind the lens of the eye and helps it keep its round shape.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Scotoma",
+        "f":  [
+                  "Ophthalmology",
+                  "Neurology"
+              ],
+        "d":  "A blind spot or area of reduced vision within an otherwise normal field of sight.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Phacoemulsification",
+        "f":  [
+                  "Ophthalmology"
+              ],
+        "d":  "A cataract surgery technique that uses ultrasound to break up the cloudy lens so it can be removed through a small incision.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "phac/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Abdominal cavity",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The large space in the trunk below the diaphragm that holds the stomach, intestines, liver, and other organs.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "abdomin/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Mediastinum",
+        "f":  [
+                  "Anatomy",
+                  "Thoracic Surgery"
+              ],
+        "d":  "The central compartment of the chest between the lungs, containing the heart, major blood vessels, windpipe, and esophagus.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Radiograph",
+        "en_l":  "X-ray",
+        "f":  [
+                  "Radiology"
+              ],
+        "d":  "An image of the inside of the body created using X-rays, used to view bones and certain other structures.",
+        "lvl":  3,
+        "parts":  {
+                      "r":  [
+                                "radi/o"
+                            ],
+                      "s":  [
+                                "-graph"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pericardial cavity",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The fluid-filled space between the layers of the sac around the heart, allowing it to beat smoothly.",
+        "lvl":  1,
+        "parts":  {
+                      "p":  [
+                                "peri-"
+                            ],
+                      "r":  [
+                                "cardi/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Retroperitoneum",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The space behind the abdominal lining that contains the kidneys, pancreas, and parts of the intestine.",
+        "lvl":  1,
+        "parts":  {
+                      "p":  [
+                                "retro-"
+                            ],
+                      "r":  [
+                                "peritone/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Zygomatic bone",
+        "en_l":  "Cheekbone",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The bone that forms the prominence of the cheek and part of the eye socket.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Sphenoid bone",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "A wing-shaped bone at the base of the skull that helps form the eye sockets and the floor of the cranium.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Braxton Hicks contractions",
+        "en_l":  "False labor",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "Occasional, usually painless tightening of the uterus during pregnancy that does not signal true labor.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Meconium",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Pediatrics"
+              ],
+        "d":  "The dark, sticky first stool passed by a newborn, made of material taken in while in the womb.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Vernix",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Pediatrics"
+              ],
+        "d":  "The white, waxy coating that protects a baby\u0027s skin in the womb and may still be present at birth.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Lochia",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The normal vaginal discharge of blood, mucus, and tissue that occurs for several weeks after childbirth.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Hysterosalpingography",
+        "abbr":  "HSG",
+        "f":  [
+                  "Radiology",
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "An X-ray examination of the uterus and fallopian tubes after injecting a contrast dye, often to check for blockages.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "hyster/o",
+                                "salping/o"
+                            ],
+                      "s":  [
+                                "-graphy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Placental abruption",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A serious condition in which the placenta separates from the wall of the uterus before delivery, threatening the baby\u0027s oxygen supply.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Perimenopause",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "The transitional years before menopause when hormone levels shift and menstrual periods become irregular.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "peri-"
+                            ],
+                      "r":  [
+                                "men/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Immunization schedule",
+        "f":  [
+                  "Pediatrics",
+                  "Immunology"
+              ],
+        "d":  "The recommended timetable for giving vaccines to children and adults to protect against infectious diseases.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "immun/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Well-child visit",
+        "f":  [
+                  "Pediatrics"
+              ],
+        "d":  "A routine checkup that monitors a child\u0027s growth, development, and health, and provides vaccines and guidance.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Failure to thrive",
+        "f":  [
+                  "Pediatrics"
+              ],
+        "d":  "Poor physical growth in a child whose weight or height falls well below expected levels for their age.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Croup",
+        "f":  [
+                  "Pediatrics",
+                  "Otolaryngology"
+              ],
+        "d":  "A childhood infection that swells the upper airway, causing a barking cough and noisy breathing.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Febrile seizure",
+        "f":  [
+                  "Pediatrics",
+                  "Neurology"
+              ],
+        "d":  "A convulsion in a young child brought on by a high fever, usually brief and without lasting harm.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fontanelle",
+        "en_l":  "Soft spot",
+        "f":  [
+                  "Anatomy",
+                  "Pediatrics"
+              ],
+        "d":  "A soft, membrane-covered gap between the skull bones of a baby that allows the head to grow.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Growth chart",
+        "f":  [
+                  "Pediatrics"
+              ],
+        "d":  "A standard chart used to track a child\u0027s height, weight, and head size against typical ranges over time.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Developmental milestone",
+        "f":  [
+                  "Pediatrics"
+              ],
+        "d":  "A skill or behavior, such as sitting up or saying first words, that most children reach by a certain age.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Teething",
+        "f":  [
+                  "Pediatrics",
+                  "Dentistry"
+              ],
+        "d":  "The process by which a baby\u0027s first teeth push through the gums, often causing drooling and fussiness.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Diaper rash",
+        "f":  [
+                  "Dermatology",
+                  "Pediatrics"
+              ],
+        "d":  "A red, irritated skin condition in the diaper area caused by moisture, friction, or contact with urine and stool.",
+        "lvl":  2
     }
 ]

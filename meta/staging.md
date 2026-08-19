@@ -59,24 +59,6 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 
 <!-- QUEUE:START -->
 
-### Dentistry (2026-08-17 intake)
-- Dental extraction
-- Wisdom tooth
-- Underbite
-- Dental scaling
-- Gum recession
-- Prosthodontics
-- Dental amalgam
-- Occlusal splint (dental nightguard)
-
-### Ophthalmology (2026-08-17 intake)
-- Refractive error
-- Ophthalmoscopy (fundoscopy)
-- Aqueous humor
-- Vitreous humor
-- Scotoma
-- Phacoemulsification
-
 ### Otolaryngology (2026-08-17 intake)
 - Adenoid
 - Otoscopy
@@ -95,36 +77,6 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 - Telemedicine
 - Second opinion
 - Review of systems
-
-### Anatomy & imaging (2026-08-17 intake)
-- Abdominal cavity
-- Mediastinum
-- Radiograph
-- Pericardial cavity
-- Retroperitoneum
-- Zygomatic bone
-- Sphenoid bone
-
-### Obstetrics & Gynecology (2026-08-17 intake)
-- Braxton Hicks contractions
-- Meconium
-- Vernix
-- Lochia
-- Hysterosalpingography
-- Placental abruption
-- Perimenopause
-
-### Pediatrics (2026-08-17 intake)
-- Immunization schedule
-- Well-child visit
-- Failure to thrive
-- Croup
-- Febrile seizure
-- Fontanelle
-- Growth chart
-- Developmental milestone
-- Teething
-- Diaper rash
 
 ### Cardiology (2026-08-17 intake)
 - Coronary stent

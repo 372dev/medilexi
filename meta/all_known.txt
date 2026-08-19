@@ -358,6 +358,7 @@ Chronobiology
 Cicatrix
 Circumcision
 Cirrhosis
+Class III malocclusion
 Claustrophobia
 Clavicle
 Coagulation
@@ -758,7 +759,6 @@ Grief
 Growth chart
 Growth hormone
 Guillain-Barré syndrome
-Gum recession
 Gynecomastia
 Hair follicle
 Half-life
@@ -1801,7 +1801,6 @@ Umbilical cord
 Umbilical hernia
 Umbilicus
 Unbearable pain
-Underbite
 Upper respiratory tract infection
 Uremia
 Ureter
@@ -1895,7 +1894,6 @@ Wheal
 Wheelchair
 Wheezing
 White blood cell count
-Wisdom tooth
 Withdrawal
 Wound care
 Wound dehiscence

@@ -59,35 +59,7 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 
 <!-- QUEUE:START -->
 
-### Otolaryngology (2026-08-17 intake)
-- Adenoid
-- Otoscopy
-
-### Endocrinology (2026-08-17 intake)
-- Hormone replacement therapy
-- Endocrinologist
-
-### Urology (2026-08-17 intake)
-- Urinary catheter
-- Urodynamic testing
-
-### Healthcare administration (2026-08-17 intake)
-- Out-of-pocket cost
-- Primary care physician
-- Telemedicine
-- Second opinion
-- Review of systems
-
-### Cardiology (2026-08-17 intake)
-- Coronary stent
-- Thrombus (en_l blood clot)
-
-### Clinical procedures & exam (2026-08-17 intake)
-- Pulse oximetry
-- Percussion (exam technique)
-- Surgical staple
-- Arm sling
-- Fasting
+*(Queue empty as of 2026-08-19, v1.333. Add new candidates under dated section headers here.)*
 
 <!-- QUEUE:END -->
 

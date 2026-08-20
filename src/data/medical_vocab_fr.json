@@ -9706,5 +9706,96 @@
         "en_h":  "Diaper rash",
         "fr_h":  "Érythème fessier",
         "d_fr":  "Affection cutanée rouge et irritée dans la zone de la couche, causée par l\u0027humidité, le frottement ou le contact avec l\u0027urine et les selles."
+    },
+    {
+        "en_h":  "Adenoid",
+        "fr_h":  "Végétations adénoïdes",
+        "d_fr":  "Masse de tissu lymphatique située à l\u0027arrière du nez, au-dessus de la gorge, qui aide à combattre les infections et grossit souvent chez l\u0027enfant."
+    },
+    {
+        "en_h":  "Otoscopy",
+        "fr_h":  "Otoscopie",
+        "d_fr":  "Examen du conduit auditif et du tympan à l\u0027aide d\u0027un instrument lumineux appelé otoscope."
+    },
+    {
+        "en_h":  "Hormone replacement therapy",
+        "fr_h":  "Traitement hormonal substitutif",
+        "d_fr":  "Traitement qui apporte les hormones que le corps ne produit plus en quantité suffisante, souvent utilisé pour atténuer les symptômes de la ménopause."
+    },
+    {
+        "en_h":  "Endocrinologist",
+        "fr_h":  "Endocrinologue",
+        "d_fr":  "Médecin spécialisé dans le diagnostic et le traitement des troubles des hormones et des glandes qui les produisent."
+    },
+    {
+        "en_h":  "Urinary catheter",
+        "fr_h":  "Sonde urinaire",
+        "d_fr":  "Tube fin et souple introduit dans la vessie pour évacuer l\u0027urine lorsqu\u0027une personne ne peut pas uriner naturellement."
+    },
+    {
+        "en_h":  "Urodynamic testing",
+        "fr_h":  "Bilan urodynamique",
+        "d_fr":  "Ensemble d\u0027examens qui mesurent la capacité de la vessie et de l\u0027urètre à stocker et à évacuer l\u0027urine."
+    },
+    {
+        "en_h":  "Out-of-pocket cost",
+        "fr_h":  "Reste à charge",
+        "d_fr":  "Part des frais médicaux que le patient doit payer lui-même, non couverte par l\u0027assurance."
+    },
+    {
+        "en_h":  "Primary care physician",
+        "fr_h":  "Médecin traitant",
+        "d_fr":  "Médecin principal qu\u0027un patient consulte pour les soins courants et qui coordonne les orientations vers les spécialistes au besoin."
+    },
+    {
+        "en_h":  "Telemedicine",
+        "fr_h":  "Télémédecine",
+        "d_fr":  "Prestation de soins médicaux à distance au moyen de la vidéo, du téléphone ou d\u0027outils en ligne, plutôt qu\u0027en présentiel."
+    },
+    {
+        "en_h":  "Second opinion",
+        "fr_h":  "Deuxième avis médical",
+        "d_fr":  "Avis d\u0027un autre médecin pour confirmer ou reconsidérer un diagnostic ou un plan de traitement."
+    },
+    {
+        "en_h":  "Review of systems",
+        "fr_h":  "Revue des systèmes",
+        "d_fr":  "Ensemble structuré de questions sur chaque système du corps, posées pendant l\u0027entretien médical pour dépister des symptômes."
+    },
+    {
+        "en_h":  "Coronary stent",
+        "fr_h":  "Endoprothèse coronaire",
+        "d_fr":  "Petit tube en treillis placé dans une artère coronaire rétrécie pour la maintenir ouverte et rétablir la circulation du sang."
+    },
+    {
+        "en_h":  "Thrombus",
+        "fr_h":  "Thrombus",
+        "fr_l":  "Caillot sanguin",
+        "d_fr":  "Caillot de sang qui se forme à l\u0027intérieur d\u0027un vaisseau sanguin ou du cœur et peut bloquer la circulation du sang."
+    },
+    {
+        "en_h":  "Pulse oximetry",
+        "fr_h":  "Oxymétrie de pouls",
+        "d_fr":  "Méthode indolore de mesure du taux d\u0027oxygène dans le sang à l\u0027aide d\u0027une pince placée sur un doigt."
+    },
+    {
+        "en_h":  "Percussion",
+        "fr_h":  "Percussion",
+        "d_fr":  "Technique d\u0027examen où le clinicien tapote le corps et écoute les sons pour évaluer les organes sous-jacents."
+    },
+    {
+        "en_h":  "Surgical staple",
+        "fr_h":  "Agrafe chirurgicale",
+        "d_fr":  "Attache métallique utilisée à la place des points de suture pour rapprocher les bords d\u0027une plaie ou d\u0027une incision chirurgicale."
+    },
+    {
+        "en_h":  "Arm sling",
+        "fr_h":  "Écharpe",
+        "d_fr":  "Bande de soutien portée autour du cou pour maintenir et reposer un bras ou une épaule blessés."
+    },
+    {
+        "en_h":  "Fasting",
+        "fr_h":  "Jeûne",
+        "d_fr":  "Fait de se priver de nourriture et parfois de boisson pendant une période déterminée, souvent exigé avant certains examens ou interventions."
     }
 ]

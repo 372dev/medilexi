@@ -29,6 +29,7 @@ Addison's disease
 Adduction
 Adenitis
 Adenocarcinoma
+Adenoid
 Adenoidectomy
 Adenoma
 Adipose tissue
@@ -147,6 +148,7 @@ Appendicitis
 Appendix
 Aqueous humor
 Arachnoid mater
+Arm sling
 Arrhythmia
 Arterial blood gas
 Arteriography
@@ -422,6 +424,7 @@ Coronal plane
 Coronary artery
 Coronary artery bypass graft
 Coronary artery disease
+Coronary stent
 Corpus callosum
 Corticosteroid
 Corticosteroid cream
@@ -597,6 +600,7 @@ Encephalopathy
 Endocarditis
 Endocardium
 Endocrine system
+Endocrinologist
 Endocrinology
 Endodontics
 Endometriosis
@@ -661,6 +665,7 @@ Family Medicine
 Fascia
 Fasciectomy
 Fasciitis
+Fasting
 Fasting blood glucose
 Fatigue
 Fatty acid
@@ -811,6 +816,7 @@ Hippocampus
 Hirsutism
 Holter monitor
 Hordeolum
+Hormone replacement therapy
 Hospital admission
 Hospitalist
 Humerus
@@ -1232,7 +1238,9 @@ Otolaryngology
 Otorrhea
 Otosclerosis
 Otoscope
+Otoscopy
 Out-of-network
+Out-of-pocket cost
 Out-of-pocket maximum
 Ovarian cyst
 Ovarian torsion
@@ -1285,6 +1293,7 @@ Pelvic inflammatory disease
 Pelvis
 Penis
 Peptic ulcer
+Percussion
 Percutaneous
 Percutaneous coronary intervention
 Periapical abscess
@@ -1387,6 +1396,7 @@ Pressure-like pain
 Preterm birth
 Preventive care
 Priapism
+Primary care physician
 Primary care provider
 Prior authorization
 Proctitis
@@ -1435,6 +1445,7 @@ Pulmonary vein
 Pulmonology
 Pulpitis
 Pulse oximeter
+Pulse oximetry
 Purpura
 Purulent
 Pustule
@@ -1502,6 +1513,7 @@ Retina
 Retinal detachment
 Retinopathy
 Retroperitoneum
+Review of systems
 Rh factor
 Rheumatoid arthritis
 Rheumatology
@@ -1540,6 +1552,7 @@ Scrub nurse
 Sebaceous gland
 Seborrhea
 Sebum
+Second opinion
 Sedation
 Sedative
 Seizure
@@ -1657,6 +1670,7 @@ Surgery
 Surgical drape
 Surgical margin
 Surgical mesh
+Surgical staple
 Suture removal
 Symptom
 Symptomatic
@@ -1677,6 +1691,7 @@ Tearing pain
 Teething
 Telangiectasia
 Telehealth
+Telemedicine
 Temporal lobe
 Temporomandibular disorder
 Temporomandibular joint
@@ -1705,6 +1720,7 @@ Thrombectomy
 Thrombocytopenia
 Thrombolysis
 Thrombosis
+Thrombus
 Thymus
 Thyroglossal cyst
 Thyroid function test
@@ -1799,12 +1815,14 @@ Urethroplasty
 Urge incontinence
 Urinalysis
 Urinary bladder
+Urinary catheter
 Urinary frequency
 Urinary incontinence
 Urinary retention
 Urinary system
 Urinary tract infection
 Urodynamic study
+Urodynamic testing
 Urolithiasis
 Urology
 Urticaria

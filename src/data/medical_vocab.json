@@ -26114,5 +26114,208 @@
               ],
         "d":  "A red, irritated skin condition in the diaper area caused by moisture, friction, or contact with urine and stool.",
         "lvl":  2
+    },
+    {
+        "en_h":  "Adenoid",
+        "f":  [
+                  "Otolaryngology",
+                  "Immunology"
+              ],
+        "d":  "A mass of lymph tissue at the back of the nose above the throat that helps fight infection, often enlarged in children.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "aden/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Otoscopy",
+        "f":  [
+                  "Otolaryngology"
+              ],
+        "d":  "An examination of the ear canal and eardrum using a lighted instrument called an otoscope.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ot/o"
+                            ],
+                      "s":  [
+                                "-scopy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hormone replacement therapy",
+        "abbr":  "HRT",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "Treatment that supplies hormones the body no longer makes in adequate amounts, often used to ease menopause symptoms.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Endocrinologist",
+        "f":  [
+                  "Endocrinology"
+              ],
+        "d":  "A physician who specializes in diagnosing and treating disorders of the hormones and the glands that produce them.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "endo-"
+                            ],
+                      "r":  [
+                                "crin/o"
+                            ],
+                      "s":  [
+                                "-logist"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Urinary catheter",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "A thin, flexible tube inserted into the bladder to drain urine when a person cannot pass it naturally.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "urin/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Urodynamic testing",
+        "f":  [
+                  "Urology"
+              ],
+        "d":  "A group of tests that measure how well the bladder and urethra store and release urine.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "ur/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Out-of-pocket cost",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "The portion of medical expenses that a patient must pay themselves, not covered by insurance.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Primary care physician",
+        "abbr":  "PCP",
+        "f":  [
+                  "Healthcare Administration",
+                  "Family Medicine"
+              ],
+        "d":  "The main doctor a patient sees for routine care and who coordinates referrals to specialists when needed.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Telemedicine",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "The delivery of medical care remotely through video, phone, or online tools instead of an in-person visit.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Second opinion",
+        "f":  [
+                  "Healthcare Administration"
+              ],
+        "d":  "Advice from another doctor to confirm or reconsider a diagnosis or treatment plan.",
+        "lvl":  3
+    },
+    {
+        "en_h":  "Review of systems",
+        "abbr":  "ROS",
+        "f":  [
+                  "General Medicine",
+                  "Healthcare Administration"
+              ],
+        "d":  "A structured set of questions about each body system, asked during a medical interview to uncover symptoms.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Coronary stent",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A small mesh tube placed in a narrowed heart artery to hold it open and restore blood flow.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "coron/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Thrombus",
+        "en_l":  "Blood clot",
+        "f":  [
+                  "Hematology",
+                  "Cardiology"
+              ],
+        "d":  "A blood clot that forms inside a blood vessel or the heart and can block the flow of blood.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "thromb/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Pulse oximetry",
+        "f":  [
+                  "Critical Care",
+                  "General Medicine"
+              ],
+        "d":  "A painless method of measuring the oxygen level in the blood using a clip placed on a finger.",
+        "lvl":  3,
+        "parts":  {
+                      "s":  [
+                                "-metry"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Percussion",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "An examination technique in which a clinician taps on the body and listens to the sounds to assess underlying organs.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Surgical staple",
+        "f":  [
+                  "Surgery"
+              ],
+        "d":  "A metal fastener used in place of stitches to hold the edges of a wound or surgical incision together.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Arm sling",
+        "f":  [
+                  "Orthopedics",
+                  "Emergency Medicine"
+              ],
+        "d":  "A supportive band worn around the neck to hold and rest an injured arm or shoulder.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fasting",
+        "f":  [
+                  "General Medicine"
+              ],
+        "d":  "Going without food and sometimes drink for a set period, often required before certain tests or procedures.",
+        "lvl":  3
     }
 ]

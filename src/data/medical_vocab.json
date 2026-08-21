@@ -26317,5 +26317,468 @@
               ],
         "d":  "Going without food and sometimes drink for a set period, often required before certain tests or procedures.",
         "lvl":  3
+    },
+    {
+        "en_h":  "Lethargy",
+        "f":  [
+                  "Neurology",
+                  "General Medicine"
+              ],
+        "d":  "A state of extreme tiredness, drowsiness, and lack of energy or alertness.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Emesis",
+        "en_l":  "Vomiting",
+        "f":  [
+                  "Gastroenterology",
+                  "General Medicine"
+              ],
+        "d":  "The forceful expulsion of stomach contents through the mouth.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Odynophagia",
+        "f":  [
+                  "Gastroenterology",
+                  "Otolaryngology"
+              ],
+        "d":  "Pain felt when swallowing, often due to inflammation or infection of the throat or esophagus.",
+        "lvl":  1,
+        "parts":  {
+                      "s":  [
+                                "-phagia"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Induration",
+        "f":  [
+                  "Dermatology",
+                  "General Medicine"
+              ],
+        "d":  "An abnormal hardening of the skin or soft tissue, often felt as a firm area beneath the surface.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Nail clubbing",
+        "f":  [
+                  "General Medicine",
+                  "Pulmonology"
+              ],
+        "d":  "A change in which the fingertips widen and the nails curve around them, often linked to heart or lung disease.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Mydriasis",
+        "f":  [
+                  "Ophthalmology",
+                  "Neurology"
+              ],
+        "d":  "Widening of the pupil, which may be a normal response to darkness or a sign of injury or drug effects.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Anisocoria",
+        "f":  [
+                  "Ophthalmology",
+                  "Neurology"
+              ],
+        "d":  "A condition in which the two pupils are unequal in size.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Nuchal rigidity",
+        "f":  [
+                  "Neurology",
+                  "Emergency Medicine"
+              ],
+        "d":  "Stiffness of the neck that makes it painful or difficult to bend the head forward, often a sign of meningitis.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Babinski sign",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "An upward movement of the big toe when the sole of the foot is stroked, indicating a problem in the nervous system.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fasciculation",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A small, involuntary muscle twitch visible under the skin, caused by spontaneous firing of nerve fibers.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Chorea",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A movement disorder marked by brief, irregular, involuntary jerking or writhing motions.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Myoclonus",
+        "f":  [
+                  "Neurology"
+              ],
+        "d":  "A sudden, brief, involuntary jerk of a muscle or group of muscles.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "my/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Asterixis",
+        "f":  [
+                  "Neurology",
+                  "Gastroenterology"
+              ],
+        "d":  "A flapping tremor of the hands seen when the wrists are extended, often a sign of liver or kidney failure.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Avolition",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A lack of motivation to start or finish goal-directed activities, common in some mental health conditions.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Depersonalization",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A sense of being detached from one\u0027s own body, thoughts, or feelings, as if watching oneself from outside.",
+        "lvl":  1,
+        "parts":  {
+                      "p":  [
+                                "de-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Somatization",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "The expression of psychological distress as physical symptoms that have no clear medical cause.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "somat/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Hypomania",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A milder form of mania with elevated mood and increased energy that does not severely impair daily function.",
+        "lvl":  2,
+        "parts":  {
+                      "p":  [
+                                "hypo-"
+                            ],
+                      "s":  [
+                                "-mania"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Flat affect",
+        "f":  [
+                  "Psychiatry"
+              ],
+        "d":  "A marked reduction or absence of emotional expression in the face, voice, and gestures.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Excoriation",
+        "f":  [
+                  "Dermatology"
+              ],
+        "d":  "A scratch or scraped area of skin caused by picking, rubbing, or an injury.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Lichenification",
+        "f":  [
+                  "Dermatology"
+              ],
+        "d":  "Thickening and hardening of the skin with exaggerated skin lines, caused by repeated scratching or rubbing.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Desquamation",
+        "f":  [
+                  "Dermatology"
+              ],
+        "d":  "The shedding or peeling of the outer layer of the skin.",
+        "lvl":  1,
+        "parts":  {
+                      "p":  [
+                                "de-"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Albumin",
+        "f":  [
+                  "Hematology",
+                  "Internal Medicine"
+              ],
+        "d":  "The main protein in blood plasma, which helps maintain fluid balance and carry substances through the body.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Fibrinogen",
+        "f":  [
+                  "Hematology"
+              ],
+        "d":  "A protein in the blood that is converted into fibrin to form clots and stop bleeding.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "fibrin/o"
+                            ],
+                      "s":  [
+                                "-gen"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Uric acid",
+        "f":  [
+                  "Rheumatology",
+                  "Nephrology"
+              ],
+        "d":  "A waste product formed when the body breaks down purines, which can build up and cause gout.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "ur/o",
+                                "acid/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Reticulocyte count",
+        "f":  [
+                  "Hematology"
+              ],
+        "d":  "A blood test that measures the number of young red blood cells, showing how fast the marrow is making them.",
+        "lvl":  2,
+        "parts":  {
+                      "s":  [
+                                "-cyte"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Alanine aminotransferase",
+        "abbr":  "ALT",
+        "f":  [
+                  "Gastroenterology",
+                  "Pathology"
+              ],
+        "d":  "A liver enzyme measured in blood to detect liver damage or inflammation.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Aspartate aminotransferase",
+        "abbr":  "AST",
+        "f":  [
+                  "Gastroenterology",
+                  "Pathology"
+              ],
+        "d":  "An enzyme found in the liver and other tissues, measured in blood to help detect liver or muscle damage.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Alpha-fetoprotein",
+        "abbr":  "AFP",
+        "f":  [
+                  "Oncology",
+                  "Obstetrics \u0026 Gynecology"
+              ],
+        "d":  "A protein measured in blood as a tumor marker and during pregnancy to screen for certain fetal conditions.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "fet/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Brain natriuretic peptide",
+        "abbr":  "BNP",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A hormone released by the heart when it is under strain, measured in blood to help diagnose heart failure.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Carcinoembryonic antigen",
+        "abbr":  "CEA",
+        "f":  [
+                  "Oncology"
+              ],
+        "d":  "A protein measured in blood as a tumor marker, mainly to monitor colorectal and other cancers.",
+        "lvl":  1,
+        "parts":  {
+                      "r":  [
+                                "carcin/o",
+                                "embry/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Mean corpuscular volume",
+        "abbr":  "MCV",
+        "f":  [
+                  "Hematology"
+              ],
+        "d":  "A measure of the average size of red blood cells, used to help classify types of anemia.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Lactate dehydrogenase",
+        "abbr":  "LDH",
+        "f":  [
+                  "Pathology"
+              ],
+        "d":  "An enzyme present in many tissues, measured in blood as a general marker of cell or tissue damage.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Procalcitonin",
+        "f":  [
+                  "Infectious Disease",
+                  "Pathology"
+              ],
+        "d":  "A substance measured in blood that rises with bacterial infection, helping to guide antibiotic treatment.",
+        "lvl":  1,
+        "parts":  {
+                      "p":  [
+                                "pro-"
+                            ],
+                      "r":  [
+                                "calc/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Serum lactate",
+        "f":  [
+                  "Critical Care"
+              ],
+        "d":  "The level of lactate in the blood, which rises when tissues are not getting enough oxygen.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Anion gap",
+        "f":  [
+                  "Nephrology",
+                  "Critical Care"
+              ],
+        "d":  "A calculated value from blood electrolytes used to help identify the cause of a metabolic acid imbalance.",
+        "lvl":  1
+    },
+    {
+        "en_h":  "Calcaneus",
+        "en_l":  "Heel bone",
+        "f":  [
+                  "Anatomy"
+              ],
+        "d":  "The large bone at the back of the foot that forms the heel.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Maxilla",
+        "en_l":  "Upper jaw",
+        "f":  [
+                  "Anatomy",
+                  "Dentistry"
+              ],
+        "d":  "The bone that forms the upper jaw and holds the upper teeth.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "maxill/o"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Gastrostomy",
+        "f":  [
+                  "Gastroenterology",
+                  "Surgery"
+              ],
+        "d":  "A surgical opening made through the abdomen into the stomach, often to place a feeding tube.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "gastr/o"
+                            ],
+                      "s":  [
+                                "-stomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Oophorectomy",
+        "f":  [
+                  "Obstetrics \u0026 Gynecology",
+                  "Surgery"
+              ],
+        "d":  "The surgical removal of one or both ovaries.",
+        "lvl":  2,
+        "parts":  {
+                      "r":  [
+                                "oophor/o"
+                            ],
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Endarterectomy",
+        "f":  [
+                  "Vascular Surgery"
+              ],
+        "d":  "Surgery to remove fatty plaque from the inner lining of a narrowed artery to restore blood flow.",
+        "lvl":  1,
+        "parts":  {
+                      "s":  [
+                                "-ectomy"
+                            ]
+                  }
+    },
+    {
+        "en_h":  "Catheter ablation",
+        "f":  [
+                  "Cardiology"
+              ],
+        "d":  "A procedure that threads a thin tube into the heart to destroy small areas of tissue causing abnormal rhythms.",
+        "lvl":  2
+    },
+    {
+        "en_h":  "Plasmapheresis",
+        "f":  [
+                  "Hematology",
+                  "Nephrology"
+              ],
+        "d":  "A procedure that removes and filters the liquid part of the blood to take out harmful substances, then returns it.",
+        "lvl":  1
     }
 ]

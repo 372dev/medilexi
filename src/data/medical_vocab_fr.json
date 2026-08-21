@@ -9797,5 +9797,217 @@
         "en_h":  "Fasting",
         "fr_h":  "Jeûne",
         "d_fr":  "Fait de se priver de nourriture et parfois de boisson pendant une période déterminée, souvent exigé avant certains examens ou interventions."
+    },
+    {
+        "en_h":  "Lethargy",
+        "fr_h":  "Léthargie",
+        "d_fr":  "État de fatigue extrême, de somnolence et de manque d\u0027énergie ou de vigilance."
+    },
+    {
+        "en_h":  "Emesis",
+        "fr_h":  "Vomissement",
+        "d_fr":  "Expulsion forcée du contenu de l\u0027estomac par la bouche."
+    },
+    {
+        "en_h":  "Odynophagia",
+        "fr_h":  "Odynophagie",
+        "d_fr":  "Douleur ressentie à la déglutition, souvent due à une inflammation ou une infection de la gorge ou de l\u0027œsophage."
+    },
+    {
+        "en_h":  "Induration",
+        "fr_h":  "Induration",
+        "d_fr":  "Durcissement anormal de la peau ou des tissus mous, souvent perçu comme une zone ferme sous la surface."
+    },
+    {
+        "en_h":  "Nail clubbing",
+        "fr_h":  "Hippocratisme digital",
+        "d_fr":  "Modification où le bout des doigts s\u0027élargit et les ongles se courbent autour, souvent liée à une maladie cardiaque ou pulmonaire."
+    },
+    {
+        "en_h":  "Mydriasis",
+        "fr_h":  "Mydriase",
+        "d_fr":  "Dilatation de la pupille, qui peut être une réponse normale à l\u0027obscurité ou un signe de lésion ou d\u0027effet médicamenteux."
+    },
+    {
+        "en_h":  "Anisocoria",
+        "fr_h":  "Anisocorie",
+        "d_fr":  "État dans lequel les deux pupilles sont de taille inégale."
+    },
+    {
+        "en_h":  "Nuchal rigidity",
+        "fr_h":  "Raideur de nuque",
+        "d_fr":  "Raideur du cou qui rend douloureux ou difficile de pencher la tête en avant, souvent signe de méningite."
+    },
+    {
+        "en_h":  "Babinski sign",
+        "fr_h":  "Signe de Babinski",
+        "d_fr":  "Mouvement du gros orteil vers le haut lorsque la plante du pied est stimulée, indiquant une atteinte du système nerveux."
+    },
+    {
+        "en_h":  "Fasciculation",
+        "fr_h":  "Fasciculation",
+        "d_fr":  "Petite secousse musculaire involontaire visible sous la peau, causée par une décharge spontanée des fibres nerveuses."
+    },
+    {
+        "en_h":  "Chorea",
+        "fr_h":  "Chorée",
+        "d_fr":  "Trouble du mouvement marqué par des mouvements involontaires brefs, irréguliers et saccadés ou ondulants."
+    },
+    {
+        "en_h":  "Myoclonus",
+        "fr_h":  "Myoclonie",
+        "d_fr":  "Secousse soudaine, brève et involontaire d\u0027un muscle ou d\u0027un groupe de muscles."
+    },
+    {
+        "en_h":  "Asterixis",
+        "fr_h":  "Astérixis",
+        "d_fr":  "Tremblement des mains en battement d\u0027ailes visible quand les poignets sont étendus, souvent signe d\u0027insuffisance hépatique ou rénale."
+    },
+    {
+        "en_h":  "Avolition",
+        "fr_h":  "Avolition",
+        "d_fr":  "Manque de motivation à entreprendre ou à terminer des activités dirigées vers un but, fréquent dans certains troubles mentaux."
+    },
+    {
+        "en_h":  "Depersonalization",
+        "fr_h":  "Dépersonnalisation",
+        "d_fr":  "Sentiment de détachement de son propre corps, de ses pensées ou de ses émotions, comme si l\u0027on s\u0027observait de l\u0027extérieur."
+    },
+    {
+        "en_h":  "Somatization",
+        "fr_h":  "Somatisation",
+        "d_fr":  "Expression d\u0027une détresse psychologique sous forme de symptômes physiques sans cause médicale claire."
+    },
+    {
+        "en_h":  "Hypomania",
+        "fr_h":  "Hypomanie",
+        "d_fr":  "Forme plus légère de manie, avec humeur élevée et énergie accrue, qui n\u0027altère pas gravement le fonctionnement quotidien."
+    },
+    {
+        "en_h":  "Flat affect",
+        "fr_h":  "Émoussement affectif",
+        "d_fr":  "Réduction marquée ou absence d\u0027expression émotionnelle du visage, de la voix et des gestes."
+    },
+    {
+        "en_h":  "Excoriation",
+        "fr_h":  "Excoriation",
+        "d_fr":  "Éraflure ou zone de peau écorchée causée par le grattage, le frottement ou une blessure."
+    },
+    {
+        "en_h":  "Lichenification",
+        "fr_h":  "Lichénification",
+        "d_fr":  "Épaississement et durcissement de la peau avec accentuation des plis cutanés, dus à des grattages ou frottements répétés."
+    },
+    {
+        "en_h":  "Desquamation",
+        "fr_h":  "Desquamation",
+        "d_fr":  "Détachement ou pelage de la couche externe de la peau."
+    },
+    {
+        "en_h":  "Albumin",
+        "fr_h":  "Albumine",
+        "d_fr":  "Principale protéine du plasma sanguin, qui aide à maintenir l\u0027équilibre des liquides et à transporter des substances dans le corps."
+    },
+    {
+        "en_h":  "Fibrinogen",
+        "fr_h":  "Fibrinogène",
+        "d_fr":  "Protéine du sang transformée en fibrine pour former des caillots et arrêter les saignements."
+    },
+    {
+        "en_h":  "Uric acid",
+        "fr_h":  "Acide urique",
+        "d_fr":  "Déchet formé lorsque le corps dégrade les purines, qui peut s\u0027accumuler et provoquer la goutte."
+    },
+    {
+        "en_h":  "Reticulocyte count",
+        "fr_h":  "Numération des réticulocytes",
+        "d_fr":  "Analyse sanguine qui mesure le nombre de jeunes globules rouges, indiquant la vitesse de production par la moelle."
+    },
+    {
+        "en_h":  "Alanine aminotransferase",
+        "fr_h":  "Alanine aminotransférase",
+        "d_fr":  "Enzyme hépatique mesurée dans le sang pour détecter une atteinte ou une inflammation du foie."
+    },
+    {
+        "en_h":  "Aspartate aminotransferase",
+        "fr_h":  "Aspartate aminotransférase",
+        "d_fr":  "Enzyme présente dans le foie et d\u0027autres tissus, mesurée dans le sang pour aider à détecter une atteinte hépatique ou musculaire."
+    },
+    {
+        "en_h":  "Alpha-fetoprotein",
+        "fr_h":  "Alpha-fœtoprotéine",
+        "d_fr":  "Protéine mesurée dans le sang comme marqueur tumoral et pendant la grossesse pour dépister certaines anomalies fœtales."
+    },
+    {
+        "en_h":  "Brain natriuretic peptide",
+        "fr_h":  "Peptide natriurétique de type B",
+        "d_fr":  "Hormone libérée par le cœur en cas de surcharge, mesurée dans le sang pour aider à diagnostiquer l\u0027insuffisance cardiaque."
+    },
+    {
+        "en_h":  "Carcinoembryonic antigen",
+        "fr_h":  "Antigène carcino-embryonnaire",
+        "d_fr":  "Protéine mesurée dans le sang comme marqueur tumoral, surtout pour surveiller le cancer colorectal et d\u0027autres cancers."
+    },
+    {
+        "en_h":  "Mean corpuscular volume",
+        "fr_h":  "Volume globulaire moyen",
+        "d_fr":  "Mesure de la taille moyenne des globules rouges, utilisée pour aider à classer les types d\u0027anémie."
+    },
+    {
+        "en_h":  "Lactate dehydrogenase",
+        "fr_h":  "Lactate déshydrogénase",
+        "d_fr":  "Enzyme présente dans de nombreux tissus, mesurée dans le sang comme marqueur général de lésion cellulaire ou tissulaire."
+    },
+    {
+        "en_h":  "Procalcitonin",
+        "fr_h":  "Procalcitonine",
+        "d_fr":  "Substance mesurée dans le sang qui augmente lors d\u0027une infection bactérienne, aidant à guider le traitement antibiotique."
+    },
+    {
+        "en_h":  "Serum lactate",
+        "fr_h":  "Lactate sérique",
+        "d_fr":  "Taux de lactate dans le sang, qui augmente lorsque les tissus manquent d\u0027oxygène."
+    },
+    {
+        "en_h":  "Anion gap",
+        "fr_h":  "Trou anionique",
+        "d_fr":  "Valeur calculée à partir des électrolytes sanguins, utilisée pour aider à déterminer la cause d\u0027un déséquilibre acide métabolique."
+    },
+    {
+        "en_h":  "Calcaneus",
+        "fr_h":  "Calcanéus",
+        "fr_l":  "Os du talon",
+        "d_fr":  "Grand os situé à l\u0027arrière du pied qui forme le talon."
+    },
+    {
+        "en_h":  "Maxilla",
+        "fr_h":  "Maxillaire",
+        "fr_l":  "Mâchoire supérieure",
+        "d_fr":  "Os qui forme la mâchoire supérieure et porte les dents supérieures."
+    },
+    {
+        "en_h":  "Gastrostomy",
+        "fr_h":  "Gastrostomie",
+        "d_fr":  "Ouverture chirurgicale pratiquée à travers l\u0027abdomen jusqu\u0027à l\u0027estomac, souvent pour poser une sonde d\u0027alimentation."
+    },
+    {
+        "en_h":  "Oophorectomy",
+        "fr_h":  "Ovariectomie",
+        "d_fr":  "Ablation chirurgicale d\u0027un ou des deux ovaires."
+    },
+    {
+        "en_h":  "Endarterectomy",
+        "fr_h":  "Endartériectomie",
+        "d_fr":  "Chirurgie visant à retirer la plaque graisseuse de la paroi interne d\u0027une artère rétrécie pour rétablir la circulation."
+    },
+    {
+        "en_h":  "Catheter ablation",
+        "fr_h":  "Ablation par cathéter",
+        "d_fr":  "Intervention qui introduit un fin tube dans le cœur pour détruire de petites zones de tissu à l\u0027origine de rythmes anormaux."
+    },
+    {
+        "en_h":  "Plasmapheresis",
+        "fr_h":  "Plasmaphérèse",
+        "d_fr":  "Intervention qui prélève et filtre la partie liquide du sang pour en retirer des substances nocives, puis la restitue."
     }
 ]

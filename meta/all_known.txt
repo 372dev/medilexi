@@ -100,6 +100,8 @@ Angiotensin receptor blocker
 Angiotensin-converting enzyme inhibitor
 Anhedonia
 Anhidrosis
+Anion gap
+Anisocoria
 Ankylosing spondylitis
 Ankylosis
 Anorexia nervosa
@@ -171,6 +173,7 @@ Aspartate aminotransferase
 Aspiration pneumonia
 Aspiration precautions
 Assistive device
+Asterixis
 Astigmatism
 Ataxia
 Atelectasis
@@ -190,7 +193,9 @@ Autograft
 Autoimmune
 Autopsy
 Avascular necrosis
+Avolition
 Axillary vein
+Babinski sign
 Bacteremia
 Bacterial vaginosis
 Bactericide
@@ -356,6 +361,7 @@ Chondroblast
 Chondrocyte
 Chondroma
 Chondromalacia
+Chorea
 Choroidal degeneration
 Chromosome
 Chronic
@@ -503,6 +509,7 @@ Dentin
 Dentist
 Dentistry
 Denture
+Depersonalization
 Depigmentation
 Depression
 Dermabrasion
@@ -515,6 +522,7 @@ Dermatoplasty
 Dermatosis
 Dermis
 Dermoid cyst
+Desquamation
 Detoxification
 Developmental milestone
 Deviated septum
@@ -655,6 +663,7 @@ Eustachian tube
 Euthanasia
 Exacerbation
 Excisional biopsy
+Excoriation
 Excruciating pain
 Exfoliative cytology
 Exhausting pain
@@ -674,6 +683,7 @@ Fall risk
 Fallopian tube
 Family Medicine
 Fascia
+Fasciculation
 Fasciectomy
 Fasciitis
 Fasting
@@ -697,6 +707,7 @@ Fibula
 Fine motor skill
 Fine-needle aspiration
 Fissure
+Flat affect
 Flexor digitorum
 Fluid restriction
 Fluoride
@@ -739,6 +750,7 @@ General anesthesia
 General Medicine
 Generic drug
 Genetics
+Genotype
 Genu valgum
 Genu varum
 Gestational age
@@ -823,11 +835,13 @@ Hepatotoxic
 Herniated disc
 Herniorrhaphy
 Herpes zoster
+Heterozygous
 Hidradenitis
 Hip joint
 Hippocampus
 Hirsutism
 Holter monitor
+Homozygous
 Hordeolum
 Hormone replacement therapy
 Hospital admission
@@ -856,6 +870,7 @@ Hypertrophy
 Hyperventilation
 Hypoglycemia
 Hypokalemia
+Hypomania
 Hyponatremia
 Hypoparathyroidism
 Hypospadias
@@ -946,6 +961,7 @@ Jejunum
 Jugular vein
 Juxtaglomerular
 Kaposi's sarcoma
+Karyotype
 Kawasaki disease
 Keloid
 Keratitis
@@ -962,6 +978,7 @@ Labor and delivery
 Labyrinthitis
 Laceration
 Lacrimal gland
+Lactate dehydrogenase
 Lactation
 Laparohysteropexy
 Laparoscopy
@@ -989,6 +1006,7 @@ Leukopenia
 Levocardia
 Levothyroxine
 Licensed practical nurse
+Lichenification
 Ligament
 Lightheadedness
 Limp
@@ -1047,11 +1065,13 @@ Mandible
 Mandibular arch
 Mania
 Marital status
+Mastitis
 Mastocytosis
 Mastoiditis
 Maxilla
 Maxillary arch
 Maxillofacial surgery
+Mean corpuscular volume
 Meconium
 Medial
 Median nerve
@@ -1111,6 +1131,7 @@ Myalgia
 Myasthenia gravis
 Mycology
 Mycosis
+Mydriasis
 Myeloblast
 Myelodysplastic syndrome
 Myelogram
@@ -1120,6 +1141,7 @@ Myeloproliferative neoplasm
 Myocardial infarction
 Myocarditis
 Myocardium
+Myoclonus
 Myoglobin
 Myomectomy
 Myometritis
@@ -1191,6 +1213,7 @@ Nodule
 Non-steroidal anti-inflammatory drug
 Normotensive
 Nosocomial infection
+Nuchal rigidity
 Nuclear Medicine
 Numbness
 Nurse anesthetist
@@ -1208,6 +1231,7 @@ Ocular hypertension
 Oculomotor
 Odynophagia
 Olfactory groove
+Oligohydramnios
 Oligospermia
 Oliguria
 Oncogene
@@ -1344,6 +1368,7 @@ Pharmacokinetics
 Pharmacology
 Pharyngitis
 Pharynx
+Phenotype
 Pheochromocytoma
 Phlebitis
 Phlebotomist
@@ -1385,6 +1410,7 @@ Poliomyelitis
 Polycystic ovary syndrome
 Polycythemia vera
 Polydipsia
+Polyhydramnios
 Polymyositis
 Polyp
 Polypharmacy
@@ -1421,6 +1447,7 @@ Priapism
 Primary care physician
 Primary care provider
 Prior authorization
+Procalcitonin
 Proctitis
 Proctologist
 Proctoscopy
@@ -1591,6 +1618,7 @@ Septicemia
 Septoplasty
 Sequela
 Serology
+Serum lactate
 Serum potassium
 Serum sodium
 Severe pain
@@ -1619,6 +1647,7 @@ Small intestine
 Smoking cessation
 Snare
 Somatic symptom disorder
+Somatization
 Somatosensory
 Somnolence
 Sonographer
@@ -1800,6 +1829,7 @@ Tricuspid
 Tricuspid valve
 Trimester
 Trismus
+Trisomy
 Troponin
 Tubal ligation
 Tuberculosis

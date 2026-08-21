@@ -51,7 +51,9 @@ Agonal breathing
 Agonizing pain
 Agoraphobia
 Akathisia
+Alanine aminotransferase
 Albinism
+Albumin
 Albuminuria
 Alkaline phosphatase
 Allergen
@@ -59,6 +61,7 @@ Allergic rhinitis
 Allergy
 Allograft
 Alopecia
+Alpha-fetoprotein
 Alveolar osteitis
 Alveoloplasty
 Alveolus
@@ -97,6 +100,8 @@ Angiotensin receptor blocker
 Angiotensin-converting enzyme inhibitor
 Anhedonia
 Anhidrosis
+Anion gap
+Anisocoria
 Ankylosing spondylitis
 Ankylosis
 Anorexia nervosa
@@ -164,9 +169,11 @@ Arthroscopy
 Articulation
 Ascites
 Aseptic technique
+Aspartate aminotransferase
 Aspiration pneumonia
 Aspiration precautions
 Assistive device
+Asterixis
 Astigmatism
 Ataxia
 Atelectasis
@@ -186,7 +193,9 @@ Autograft
 Autoimmune
 Autopsy
 Avascular necrosis
+Avolition
 Axillary vein
+Babinski sign
 Bacteremia
 Bacterial vaginosis
 Bactericide
@@ -239,6 +248,7 @@ Bradycardia
 Bradykinesia
 Bradypnea
 Brain
+Brain natriuretic peptide
 Brainstem
 Braxton Hicks contractions
 Breast
@@ -263,6 +273,7 @@ Burning pain
 Bursitis
 Cachexia
 Cadaver
+Calcaneus
 Calcific tendinitis
 Calcium channel blocker
 Canalolithiasis
@@ -270,6 +281,7 @@ Cane
 Capillary
 Capitate
 Carbuncle
+Carcinoembryonic antigen
 Carcinoid syndrome
 Carcinoma
 Cardiac arrest
@@ -297,6 +309,7 @@ Case manager
 Cast
 Cataract
 Catatonia
+Catheter ablation
 Catheter irrigation
 Cauterization
 Cecum
@@ -348,6 +361,7 @@ Chondroblast
 Chondrocyte
 Chondroma
 Chondromalacia
+Chorea
 Choroidal degeneration
 Chromosome
 Chronic
@@ -495,6 +509,7 @@ Dentin
 Dentist
 Dentistry
 Denture
+Depersonalization
 Depigmentation
 Depression
 Dermabrasion
@@ -507,6 +522,7 @@ Dermatoplasty
 Dermatosis
 Dermis
 Dermoid cyst
+Desquamation
 Detoxification
 Developmental milestone
 Deviated septum
@@ -590,6 +606,7 @@ Electromyography
 Electronic medical record
 Emergency medical technician
 Emergency Medicine
+Emesis
 Emphysema
 Empyema
 En bloc resection
@@ -597,6 +614,7 @@ Enamel
 Encephalitis
 Encephalocele
 Encephalopathy
+Endarterectomy
 Endocarditis
 Endocardium
 Endocrine system
@@ -644,6 +662,7 @@ Eustachian tube
 Euthanasia
 Exacerbation
 Excisional biopsy
+Excoriation
 Excruciating pain
 Exfoliative cytology
 Exhausting pain
@@ -663,6 +682,7 @@ Fall risk
 Fallopian tube
 Family Medicine
 Fascia
+Fasciculation
 Fasciectomy
 Fasciitis
 Fasting
@@ -679,12 +699,14 @@ Ferritin
 Fetal heart rate
 Fetal monitoring
 Fever
+Fibrinogen
 Fibromyalgia
 Fibrosis
 Fibula
 Fine motor skill
 Fine-needle aspiration
 Fissure
+Flat affect
 Flexor digitorum
 Fluid restriction
 Fluoride
@@ -721,6 +743,7 @@ Gastroenterology
 Gastroesophageal reflux disease
 Gastrointestinal bleeding
 Gastroparesis
+Gastrostomy
 Gauze
 General anesthesia
 General Medicine
@@ -843,6 +866,7 @@ Hypertrophy
 Hyperventilation
 Hypoglycemia
 Hypokalemia
+Hypomania
 Hyponatremia
 Hypoparathyroidism
 Hypospadias
@@ -880,6 +904,7 @@ In vitro fertilization
 Incentive spirometer
 Incision and drainage
 Induction of labor
+Induration
 Infantile hemangioma
 Infarction
 Infection
@@ -948,6 +973,7 @@ Labor and delivery
 Labyrinthitis
 Laceration
 Lacrimal gland
+Lactate dehydrogenase
 Lactation
 Laparohysteropexy
 Laparoscopy
@@ -966,6 +992,7 @@ Lateral
 Laxative
 Lens
 Lesion
+Lethargy
 Leukemia
 Leukocyte
 Leukocytosis
@@ -974,6 +1001,7 @@ Leukopenia
 Levocardia
 Levothyroxine
 Licensed practical nurse
+Lichenification
 Ligament
 Lightheadedness
 Limp
@@ -1034,8 +1062,10 @@ Mania
 Marital status
 Mastocytosis
 Mastoiditis
+Maxilla
 Maxillary arch
 Maxillofacial surgery
+Mean corpuscular volume
 Meconium
 Medial
 Median nerve
@@ -1095,6 +1125,7 @@ Myalgia
 Myasthenia gravis
 Mycology
 Mycosis
+Mydriasis
 Myeloblast
 Myelodysplastic syndrome
 Myelogram
@@ -1103,6 +1134,7 @@ Myelopathy
 Myeloproliferative neoplasm
 Myocardial infarction
 Myocardium
+Myoclonus
 Myoglobin
 Myomectomy
 Myometritis
@@ -1113,6 +1145,7 @@ Myringomycosis
 Myringotomy
 Nagging pain
 Nail
+Nail clubbing
 Narcolepsy
 Nasal cavity
 Nasal congestion
@@ -1173,6 +1206,7 @@ Nodule
 Non-steroidal anti-inflammatory drug
 Normotensive
 Nosocomial infection
+Nuchal rigidity
 Nuclear Medicine
 Numbness
 Nurse anesthetist
@@ -1188,6 +1222,7 @@ Occupational therapist
 Occupational therapy
 Ocular hypertension
 Oculomotor
+Odynophagia
 Olfactory groove
 Oligospermia
 Oliguria
@@ -1199,6 +1234,7 @@ Onychia
 Onychomalacia
 Onychomycosis
 Onychophagia
+Oophorectomy
 Open heart surgery
 Open surgery
 Ophthalmology
@@ -1347,6 +1383,7 @@ Placenta
 Placenta previa
 Placental abruption
 Plantar fasciitis
+Plasmapheresis
 Plastic Surgery
 Platelet count
 Pleura
@@ -1399,6 +1436,7 @@ Priapism
 Primary care physician
 Primary care provider
 Prior authorization
+Procalcitonin
 Proctitis
 Proctologist
 Proctoscopy
@@ -1509,6 +1547,7 @@ Resting heart rate
 Restlessness
 Restraint
 Resuscitation
+Reticulocyte count
 Retina
 Retinal detachment
 Retinopathy
@@ -1568,6 +1607,7 @@ Septicemia
 Septoplasty
 Sequela
 Serology
+Serum lactate
 Serum potassium
 Serum sodium
 Severe pain
@@ -1596,6 +1636,7 @@ Small intestine
 Smoking cessation
 Snare
 Somatic symptom disorder
+Somatization
 Somatosensory
 Somnolence
 Sonographer
@@ -1813,6 +1854,7 @@ Urethral stricture
 Urethritis
 Urethroplasty
 Urge incontinence
+Uric acid
 Urinalysis
 Urinary bladder
 Urinary catheter

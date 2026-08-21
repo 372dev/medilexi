@@ -59,7 +59,39 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 
 <!-- QUEUE:START -->
 
-*(Queue empty as of 2026-08-19, v1.333. Add new candidates under dated section headers here.)*
+### Signs & symptoms (2026-08-19 intake)
+- Lethargy
+- Emesis (vomiting)
+- Odynophagia
+- Induration
+- Nail clubbing
+
+### Laboratory (2026-08-19 intake)
+- Albumin
+- Fibrinogen
+- Uric acid
+- Reticulocyte count
+- Alanine aminotransferase (ALT)
+- Aspartate aminotransferase (AST)
+- Alpha-fetoprotein (AFP)
+- Brain natriuretic peptide (BNP)
+- Carcinoembryonic antigen (CEA)
+
+### Anatomy (2026-08-19 intake)
+- Calcaneus
+- Maxilla
+
+### Procedures (2026-08-19 intake)
+- Gastrostomy
+- Oophorectomy
+- Endarterectomy
+- Catheter ablation
+- Plasmapheresis
+
+### Conditions (2026-08-19 intake)
+- Diverticulosis
+- Myocarditis
+- Polyp
 
 <!-- QUEUE:END -->
 

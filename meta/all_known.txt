@@ -51,7 +51,9 @@ Agonal breathing
 Agonizing pain
 Agoraphobia
 Akathisia
+Alanine aminotransferase
 Albinism
+Albumin
 Albuminuria
 Alkaline phosphatase
 Allergen
@@ -59,6 +61,7 @@ Allergic rhinitis
 Allergy
 Allograft
 Alopecia
+Alpha-fetoprotein
 Alveolar osteitis
 Alveoloplasty
 Alveolus
@@ -164,6 +167,7 @@ Arthroscopy
 Articulation
 Ascites
 Aseptic technique
+Aspartate aminotransferase
 Aspiration pneumonia
 Aspiration precautions
 Assistive device
@@ -239,6 +243,7 @@ Bradycardia
 Bradykinesia
 Bradypnea
 Brain
+Brain natriuretic peptide
 Brainstem
 Braxton Hicks contractions
 Breast
@@ -263,6 +268,7 @@ Burning pain
 Bursitis
 Cachexia
 Cadaver
+Calcaneus
 Calcific tendinitis
 Calcium channel blocker
 Canalolithiasis
@@ -270,6 +276,7 @@ Cane
 Capillary
 Capitate
 Carbuncle
+Carcinoembryonic antigen
 Carcinoid syndrome
 Carcinoma
 Cardiac arrest
@@ -297,6 +304,7 @@ Case manager
 Cast
 Cataract
 Catatonia
+Catheter ablation
 Catheter irrigation
 Cauterization
 Cecum
@@ -540,6 +548,7 @@ Dissociation
 Distal
 Diuretic
 Diverticulitis
+Diverticulosis
 Dizziness
 Doppler ultrasound
 Dorsal
@@ -590,6 +599,7 @@ Electromyography
 Electronic medical record
 Emergency medical technician
 Emergency Medicine
+Emesis
 Emphysema
 Empyema
 En bloc resection
@@ -597,6 +607,7 @@ Enamel
 Encephalitis
 Encephalocele
 Encephalopathy
+Endarterectomy
 Endocarditis
 Endocardium
 Endocrine system
@@ -679,6 +690,7 @@ Ferritin
 Fetal heart rate
 Fetal monitoring
 Fever
+Fibrinogen
 Fibromyalgia
 Fibrosis
 Fibula
@@ -721,6 +733,7 @@ Gastroenterology
 Gastroesophageal reflux disease
 Gastrointestinal bleeding
 Gastroparesis
+Gastrostomy
 Gauze
 General anesthesia
 General Medicine
@@ -880,6 +893,7 @@ In vitro fertilization
 Incentive spirometer
 Incision and drainage
 Induction of labor
+Induration
 Infantile hemangioma
 Infarction
 Infection
@@ -966,6 +980,7 @@ Lateral
 Laxative
 Lens
 Lesion
+Lethargy
 Leukemia
 Leukocyte
 Leukocytosis
@@ -1034,6 +1049,7 @@ Mania
 Marital status
 Mastocytosis
 Mastoiditis
+Maxilla
 Maxillary arch
 Maxillofacial surgery
 Meconium
@@ -1102,6 +1118,7 @@ Myeloma
 Myelopathy
 Myeloproliferative neoplasm
 Myocardial infarction
+Myocarditis
 Myocardium
 Myoglobin
 Myomectomy
@@ -1113,6 +1130,7 @@ Myringomycosis
 Myringotomy
 Nagging pain
 Nail
+Nail clubbing
 Narcolepsy
 Nasal cavity
 Nasal congestion
@@ -1188,6 +1206,7 @@ Occupational therapist
 Occupational therapy
 Ocular hypertension
 Oculomotor
+Odynophagia
 Olfactory groove
 Oligospermia
 Oliguria
@@ -1199,6 +1218,7 @@ Onychia
 Onychomalacia
 Onychomycosis
 Onychophagia
+Oophorectomy
 Open heart surgery
 Open surgery
 Ophthalmology
@@ -1347,6 +1367,7 @@ Placenta
 Placenta previa
 Placental abruption
 Plantar fasciitis
+Plasmapheresis
 Plastic Surgery
 Platelet count
 Pleura
@@ -1365,6 +1386,7 @@ Polycystic ovary syndrome
 Polycythemia vera
 Polydipsia
 Polymyositis
+Polyp
 Polypharmacy
 Polyuria
 Porphyria
@@ -1509,6 +1531,7 @@ Resting heart rate
 Restlessness
 Restraint
 Resuscitation
+Reticulocyte count
 Retina
 Retinal detachment
 Retinopathy
@@ -1813,6 +1836,7 @@ Urethral stricture
 Urethritis
 Urethroplasty
 Urge incontinence
+Uric acid
 Urinalysis
 Urinary bladder
 Urinary catheter

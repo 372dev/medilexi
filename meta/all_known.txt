@@ -12,6 +12,7 @@ Abnormal uterine bleeding
 Abrasion
 Abruptio placentae
 Abscess
+Acanthosis nigricans
 Achalasia
 Ache
 Achondroplasia
@@ -58,7 +59,9 @@ Alanine aminotransferase
 Albinism
 Albumin
 Albuminuria
+Alexithymia
 Alkaline phosphatase
+Allen test
 Allergen
 Allergic rhinitis
 Allergy
@@ -180,12 +183,14 @@ Aspiration precautions
 Assistive device
 Asterixis
 Astigmatism
+Asystole
 Ataxia
 Atelectasis
 Atheroma
 Atherosclerosis
 Atopic dermatitis
 Atrial fibrillation
+Atrial flutter
 Atrium
 Atrophy
 Attending physician
@@ -209,8 +214,10 @@ Barium swallow
 Basal cell carcinoma
 Basal ganglia
 Basic metabolic panel
+Basilar artery
 BCG vaccine
 Bed rest
+Bell palsy
 Bell's palsy
 Benign
 Benign paroxysmal positional vertigo
@@ -269,6 +276,7 @@ Bronchodilator
 Bronchoscopy
 Bronchospasm
 Bronchus
+Brudzinski sign
 Bruit
 Bruxism
 B-type natriuretic peptide
@@ -382,7 +390,9 @@ Chronic disease management
 Chronic kidney disease
 Chronic obstructive pulmonary disease
 Chronobiology
+Chvostek sign
 Cicatrix
+Circle of Willis
 Circumcision
 Cirrhosis
 Class III malocclusion
@@ -398,6 +408,7 @@ Cognitive behavioral therapy
 Cognitive impairment
 Coinsurance
 Cold pain
+Colectomy
 Colicky pain
 Colitis
 Colon
@@ -424,11 +435,13 @@ Concussion
 Conductive hearing loss
 Condyle
 Condyloma
+Confabulation
 Congestive heart failure
 Conjunctivitis
 Conscious sedation
 Consent
 Constant pain
+Contact dermatitis
 Contact lens
 Continuity of care
 Continuous glucose monitor
@@ -476,6 +489,7 @@ Crutches
 Cryosurgery
 Cryptorchidism
 CT simulator
+Cullen sign
 Culture and sensitivity
 Cupulolithiasis
 Curettage
@@ -483,6 +497,7 @@ Cushing's syndrome
 Cutaneous
 Cuticle
 Cyanosis
+Cyclothymia
 Cyst
 Cystectomy
 Cystitis
@@ -502,6 +517,7 @@ Deep vein thrombosis
 Defibrillator
 Dehydration
 Delirium
+Deltoid muscle
 Delusion
 Dementia
 Dental abscess
@@ -592,14 +608,17 @@ Dysarthria
 Dyskinesia
 Dyslipidemia
 Dysmenorrhea
+Dyspepsia
 Dysphagia
 Dysphasia
 Dysphonia
 Dyspnea
+Dysthymia
 Dysuria
 Eating disorder
 Ecchymosis
 Echocardiogram
+Echolalia
 Eclampsia
 Ectopic pregnancy
 Eczema
@@ -629,6 +648,7 @@ Enamel
 Encephalitis
 Encephalocele
 Encephalopathy
+Encopresis
 Endarterectomy
 Endocarditis
 Endocardium
@@ -663,6 +683,8 @@ Epistaxis
 Erectile dysfunction
 Eructation
 Erythema
+Erythema multiforme
+Erythema nodosum
 Erythrocyte
 Erythrocyte sedimentation rate
 Erythroderma
@@ -701,11 +723,13 @@ Fascia
 Fasciculation
 Fasciectomy
 Fasciitis
+Fasciotomy
 Fasting
 Fasting blood glucose
 Fatigue
 Fatty acid
 Febrile seizure
+Fecal impaction
 Fecal occult blood test
 Feeding tube
 Fellow
@@ -724,6 +748,7 @@ Fine-needle aspiration
 First-pass metabolism
 Fissure
 Flat affect
+Flatulence
 Flexor digitorum
 Fluid restriction
 Fluoride
@@ -746,6 +771,7 @@ Frontoparietal
 Frozen section
 Fulguration
 Functional dyspnea
+Fundoplication
 Fundus examination
 Fungal scrapings
 Furuncle
@@ -756,6 +782,7 @@ Gangrene
 Gastrectomy
 Gastritis
 Gastrocele
+Gastrocnemius
 Gastroenterology
 Gastroesophageal reflux disease
 Gastrointestinal bleeding
@@ -795,8 +822,10 @@ Gnawing pain
 Goiter
 Gonorrhea
 Gout
+Grandiosity
 Granulation tissue
 Graves' disease
+Grey Turner sign
 Grief
 Growth chart
 Growth hormone
@@ -832,6 +861,7 @@ Hemiarthroplasty
 Hemigastrectomy
 Hemiparesis
 Hemiplegia
+Hemochromatosis
 Hemodialysis
 Hemoglobin
 Hemoglobin A1c
@@ -854,13 +884,16 @@ Herniorrhaphy
 Herpes zoster
 Heterozygous
 Hidradenitis
+Hidradenitis suppurativa
 Hip joint
 Hippocampus
 Hirsutism
 Holter monitor
+Homan sign
 Homozygous
 Hordeolum
 Hormone replacement therapy
+Horner syndrome
 Hospital admission
 Hospitalist
 Humerus
@@ -988,6 +1021,7 @@ Keratosis
 Kernicterus
 Kidney
 Kidney transplant
+Klinefelter syndrome
 Knee joint
 Kyphoplasty
 Kyphosis
@@ -996,6 +1030,7 @@ Labioplasty
 Labor and delivery
 Labyrinthitis
 Laceration
+Lachman test
 Lacrimal gland
 Lactate dehydrogenase
 Lactation
@@ -1015,6 +1050,7 @@ Latch
 Lateral
 Laxative
 Lens
+Lentigo
 Lesion
 Lethargy
 Leukemia
@@ -1084,14 +1120,18 @@ Mammoplasty
 Mandible
 Mandibular arch
 Mania
+Marfan syndrome
 Marital status
+Masseter
 Mastitis
 Mastocytosis
+Mastoidectomy
 Mastoiditis
 Maxilla
 Maxillary arch
 Maxillofacial surgery
 McBurney point
+McMurray test
 Mean corpuscular volume
 Meconium
 Medial
@@ -1384,12 +1424,14 @@ Peritoneum
 Peritonitis
 Peritonsillar abscess
 Perivascular
+Perseveration
 Personal protective equipment
 Personality disorder
 Pertussis
 Petechiae
 Petroclival meningioma
 Phacoemulsification
+Phalen test
 Pharmacist
 Pharmacokinetics
 Pharmacology
@@ -1404,6 +1446,7 @@ Phobia
 Phonocardiogram
 Photophobia
 Photosensitivity
+Phrenic nerve
 Physical therapist
 Physical therapy
 Physician
@@ -1444,6 +1487,7 @@ Polyp
 Polypharmacy
 Polyuria
 Porphyria
+Portal vein
 Positron emission tomography
 Post-anesthesia care unit
 Postauricular
@@ -1462,6 +1506,7 @@ Prediabetes
 Preeclampsia
 Preload
 Premature atrial contraction
+Premature ventricular contraction
 Prenatal
 Prenatal care
 Preoperative
@@ -1476,6 +1521,7 @@ Preventive care
 Priapism
 Primary care physician
 Primary care provider
+Prinzmetal angina
 Prior authorization
 Procalcitonin
 Proctitis
@@ -1548,6 +1594,7 @@ Quarantine
 Quickening
 Radial artery
 Radial artery harvest
+Radial nerve
 Radiating pain
 Radiation dose
 Radiation therapy
@@ -1600,6 +1647,7 @@ Retinal detachment
 Retinopathy
 Retroperitoneum
 Review of systems
+Reye syndrome
 Rh factor
 Rheumatoid arthritis
 Rheumatology
@@ -1622,6 +1670,7 @@ Rupture of membranes
 Sacral nerve
 Sagittal plane
 Salivary gland
+Saphenous vein
 Sarcoidosis
 Sarcoma
 Sarcopenia
@@ -1639,6 +1688,7 @@ Screening
 Scrub nurse
 Sebaceous gland
 Seborrhea
+Seborrheic dermatitis
 Sebum
 Second opinion
 Sedation
@@ -1723,11 +1773,14 @@ Stabbing pain
 Stapedectomy
 Staphylococcus
 Statin
+Steatorrhea
 Stenosis
+Sternocleidomastoid
 Sternotomy
 Sternum
 Stethoscope
 Stethoscopy
+Stevens-Johnson syndrome
 Stiffness
 Stillbirth
 Stinging pain
@@ -1739,6 +1792,7 @@ Stratum basale
 Streptococcus
 Stress incontinence
 Stridor
+Subclavian artery
 Subcutaneous injection
 Subcutaneous tissue
 Sublingual
@@ -1750,6 +1804,7 @@ Suicidal ideation
 Superbill
 Superficial
 Superior
+Superior mesenteric artery
 Supine position
 Suppository
 Suppurative
@@ -1775,6 +1830,7 @@ Systolic blood pressure
 Tachycardia
 Tachypnea
 Tactile fremitus
+Takotsubo cardiomyopathy
 Tardive dyskinesia
 Targeted therapy
 Tdap vaccine
@@ -1828,6 +1884,7 @@ Tibia
 Tinea
 Tinea capitis
 Tinea pedis
+Tinel sign
 Tinnitus
 Titration
 Tomography
@@ -1841,12 +1898,14 @@ Tooth extraction
 Tophus
 Topical medication
 Topography
+Torsades de pointes
 Total hip arthroplasty
 Total hysterectomy
 Total knee arthroplasty
 Tourniquet
 Toxemia
 Toxicology
+Trabeculectomy
 Trachea
 Tracheitis
 Tracheostomy
@@ -1860,9 +1919,11 @@ Transfusion reaction
 Transient ischemic attack
 Transurethral resection of the prostate
 Transverse plane
+Trapezius muscle
 Traumatic brain injury
 Treatment
 Tremor
+Trendelenburg sign
 Triage
 Triage nurse
 Triceps
@@ -1870,15 +1931,18 @@ Trichomycosis
 Trichotillomania
 Tricuspid
 Tricuspid valve
+Trigeminal nerve
 Trimester
 Trismus
 Trisomy
 Troponin
+Trousseau sign
 Tubal ligation
 Tuberculosis
 Tumor grade
 Tumor marker
 Tumor staging
+Turner syndrome
 Twinge
 Twitch
 Tympanic membrane
@@ -1892,6 +1956,7 @@ Ulcer
 Ulcerative colitis
 Ulna
 Ulnar
+Ulnar nerve
 Ultrasound
 Umbilical cord
 Umbilical hernia
@@ -1991,7 +2056,9 @@ Wheal
 Wheelchair
 Wheezing
 White blood cell count
+Wilson disease
 Withdrawal
+Wolff-Parkinson-White syndrome
 Wound care
 Wound dehiscence
 Wound irrigation

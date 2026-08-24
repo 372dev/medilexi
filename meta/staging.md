@@ -146,6 +146,93 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 - Therapeutic index
 - Teratogen
 
+### Eponym signs & tests (2026-08-19 intake)
+- Homan sign
+- Tinel sign
+- Phalen test
+- Lachman test
+- McMurray test
+- Trendelenburg sign
+- Chvostek sign
+- Trousseau sign
+- Cullen sign
+- Grey Turner sign
+- Brudzinski sign
+- Allen test
+
+### Syndromes & eponymous conditions (2026-08-19 intake)
+- Horner syndrome
+- Bell palsy
+- Marfan syndrome
+- Turner syndrome
+- Klinefelter syndrome
+- Wilson disease
+- Hemochromatosis
+- Reye syndrome
+- Wolff-Parkinson-White syndrome
+- Prinzmetal angina
+- Takotsubo cardiomyopathy
+- Stevens-Johnson syndrome
+
+### Dermatology 3 (2026-08-19 intake)
+- Erythema nodosum
+- Erythema multiforme
+- Acanthosis nigricans
+- Hidradenitis suppurativa
+- Seborrheic dermatitis
+- Contact dermatitis
+- Lentigo
+
+### Anatomy: muscles (2026-08-19 intake)
+- Deltoid muscle
+- Trapezius muscle
+- Gastrocnemius
+- Sternocleidomastoid
+- Masseter
+
+### Anatomy: nerves (2026-08-19 intake)
+- Ulnar nerve
+- Radial nerve
+- Phrenic nerve
+- Trigeminal nerve
+
+### Anatomy: vessels (2026-08-19 intake)
+- Basilar artery
+- Circle of Willis
+- Superior mesenteric artery
+- Portal vein
+- Saphenous vein
+- Subclavian artery
+
+### Procedures 2 (2026-08-19 intake)
+- Fasciotomy
+- Fundoplication
+- Colectomy
+- Trabeculectomy
+- Mastoidectomy
+
+### Cardiac rhythms (2026-08-19 intake)
+- Atrial flutter
+- Asystole
+- Torsades de pointes
+- Premature ventricular contraction
+
+### Psychiatry 2 (2026-08-19 intake)
+- Confabulation
+- Perseveration
+- Echolalia
+- Dysthymia
+- Cyclothymia
+- Alexithymia
+- Grandiosity
+
+### Gastroenterology 2 (2026-08-19 intake)
+- Dyspepsia
+- Flatulence
+- Steatorrhea
+- Encopresis
+- Fecal impaction
+
 <!-- QUEUE:END -->
 
 ---

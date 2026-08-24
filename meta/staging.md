@@ -77,6 +77,75 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 - Heterozygous
 - Homozygous
 
+### Cardiology 2 (2026-08-19 intake)
+- Bruit
+- Pulsus paradoxus
+- Cardiac output
+- Preload
+- Afterload
+- Bundle branch block
+- Patent ductus arteriosus
+
+### Gastroenterology signs (2026-08-19 intake)
+- Rebound tenderness
+- Murphy sign
+- McBurney point
+- Abdominal guarding
+- Achalasia
+
+### Endocrinology 2 (2026-08-19 intake)
+- Myxedema
+- Thyroid storm
+
+### Neurology 2 (2026-08-19 intake)
+- Apraxia
+- Postictal state
+- Clonus
+- Romberg sign
+
+### Ophthalmology 2 (2026-08-19 intake)
+- Hyphema
+- Proptosis
+- Amaurosis fugax
+
+### Dermatology 2 (2026-08-19 intake)
+- Nikolsky sign
+- Livedo reticularis
+
+### Nephrology / urology (2026-08-19 intake)
+- Azotemia
+- Enuresis
+
+### Hematology 2 (2026-08-19 intake)
+- Schistocyte
+
+### Rheumatology (2026-08-19 intake)
+- Tophus
+- Raynaud phenomenon
+- Morning stiffness
+
+### Pulmonology (2026-08-19 intake)
+- Pleurisy
+- Tactile fremitus
+
+### Obstetrics & neonatal 2 (2026-08-19 intake)
+- Quickening
+- Caput succedaneum
+- Cephalohematoma
+- Kernicterus
+- Pulmonary surfactant
+
+### Genetics 2 (2026-08-19 intake)
+- Chromosomal deletion
+- Chromosomal translocation
+- Mosaicism
+- Genetic penetrance
+
+### Pharmacology 2 (2026-08-19 intake)
+- First-pass metabolism
+- Therapeutic index
+- Teratogen
+
 <!-- QUEUE:END -->
 
 ---

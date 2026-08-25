@@ -231,10 +231,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang={htmlLang}>
       <body>
-        {/* Set the theme class before first paint to avoid a flash. An explicit
-            saved preference wins; otherwise follow the OS (dark OS → night). */}
+        {/* Set the theme class before first paint to avoid a flash. Default is
+            DAY; only an explicit saved preference of 'night' overrides it. */}
         <script
-          dangerouslySetInnerHTML={{ __html: "try{var s=localStorage.getItem('theme');var d=s?s==='night':matchMedia('(prefers-color-scheme: dark)').matches;if(!d)document.body.classList.add('day')}catch(e){}" }}
+          dangerouslySetInnerHTML={{ __html: "try{if(localStorage.getItem('theme')!=='night')document.body.classList.add('day')}catch(e){document.body.classList.add('day')}" }}
         />
         <script
           type="application/ld+json"

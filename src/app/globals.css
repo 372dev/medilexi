@@ -945,6 +945,45 @@ body.day .b-part--p { color: #1D4ED8; }
 body.day .b-part--r { color: #166534; }
 body.day .b-part--s { color: #991B1B; }
 
+/* ── Hero headword: per-part tooltip (landing) ──
+   A --b-* restyle of the glossary's data-tooltip; the shipped
+   .c-part-highlight tooltip still uses the retired pixel font. Pair with
+   .b-part--p/r/s so currentColor drives the hover tint. */
+.b-htip { position: relative; border-radius: 3px; cursor: default; }
+.b-htip:hover, .b-htip:focus-visible { background: color-mix(in srgb, currentColor 13%, transparent); }
+.b-htip::after {
+  content: attr(data-tip);
+  position: absolute; left: 50%; bottom: calc(100% + 9px);
+  transform: translateX(-50%) translateY(5px);
+  background: var(--b-panel); color: var(--b-text);
+  border: 1px solid var(--b-border); border-radius: 10px;
+  box-shadow: 0 16px 34px -18px rgba(0,0,0,0.45);
+  font-family: var(--font-body); font-weight: 500; font-size: 0.82rem;
+  white-space: nowrap; padding: 7px 11px;
+  opacity: 0; pointer-events: none;
+  transition: opacity .14s ease, transform .14s ease; z-index: 30;
+}
+.b-htip::before {
+  content: ""; position: absolute; left: 50%; bottom: calc(100% + 3px);
+  width: 11px; height: 11px; background: var(--b-panel);
+  border-right: 1px solid var(--b-border); border-bottom: 1px solid var(--b-border);
+  transform: translate(-50%, 5px) rotate(45deg);
+  opacity: 0; transition: opacity .14s ease, transform .14s ease; z-index: 31;
+}
+.b-htip:hover::after, .b-htip:focus-visible::after { opacity: 1; transform: translateX(-50%) translateY(0); }
+.b-htip:hover::before, .b-htip:focus-visible::before { opacity: 1; transform: translate(-50%, 0) rotate(45deg); }
+
+/* Crossfade for the alternating KO/FR register values. */
+.b-altfade { transition: opacity 0.22s ease; }
+.b-altfade.is-out { opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .b-htip::after, .b-htip::before { transition: opacity .14s ease; }
+  .b-htip:hover::after, .b-htip:focus-visible::after { transform: translateX(-50%); }
+  .b-htip:hover::before, .b-htip:focus-visible::before { transform: translate(-50%, 0) rotate(45deg); }
+  .b-altfade { transition: none; }
+}
+
 /* ── Links (term page + A-Z index) ──
    Inline styles cannot express :hover, so the two link roles get classes. */
 

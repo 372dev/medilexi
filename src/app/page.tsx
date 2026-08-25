@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import HeroTerm from './HeroTerm'
 
 /* ─────────────────────────────────────────────────────────────────
    REDESIGN SAMPLE · DIRECTION B "SIGNAL"
@@ -8,12 +9,6 @@ import Link from 'next/link'
    ───────────────────────────────────────────────────────────────── */
 
 const display = { fontFamily: 'var(--b-display)' }
-
-const STATS = [
-  { n: '1,500+', l: 'medical terms' },
-  { n: '600+',   l: 'word parts' },
-  { n: '3',      l: 'languages' },
-]
 
 const WORDPART_LINKS = [
   { href: '/wordparts',           label: 'Glossary' },
@@ -56,59 +51,45 @@ export default function Home() {
 
         {/* ── Hero ── */}
         <header className="flex flex-col items-center gap-5 text-center">
-          <span
-            className="rounded-full border border-[var(--b-primary)] px-3 py-1 text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-[var(--b-primary)]"
-            style={{ background: 'color-mix(in srgb, var(--b-primary) 12%, transparent)' }}
-          >
-            Free forever · EN / KO / FR
+          <span className="text-[0.72rem] font-bold uppercase tracking-[0.18em] text-[var(--b-primary)]">
+            English · 한국어 · Français
           </span>
 
-          {/* Serif wants looser tracking and less weight than the geometric sans
-              this layout was tuned for; -0.035em/800 reads cramped in Fraunces. */}
           <h1
-            className="m-0 max-w-[17ch] text-[clamp(2.3rem,6.6vw,3.8rem)] font-semibold leading-[1.08] tracking-[-0.012em] text-balance"
+            className="m-0 text-[clamp(2.1rem,5.6vw,3.5rem)] font-semibold leading-[1.02] tracking-[-0.022em] text-balance"
             style={display}
           >
-            Learn medicine{' '}
-            <em className="not-italic text-[var(--b-primary)]">one part</em>{' '}
-            at a time.
+            Charted. Abbreviated. Spoken.
           </h1>
 
-          <p className="m-0 max-w-[52ch] text-[1.02rem] leading-[1.65] text-[var(--b-dim)]">
-            Every medical term is built from pieces you can learn once and reuse forever.
-            Medi Lexi teaches the pieces, then the terms, in English, Korean, and French.
+          <p className="m-0 max-w-[54ch] text-[1.02rem] leading-[1.55] text-[var(--b-dim)]">
+            A trilingual glossary for students, interpreters, and translators. Every term
+            with its clinical name, its abbreviation, and the word the patient actually uses.
           </p>
 
-          {/* Controls stay in the sans. Serif buttons read as decoration, and this
-              is how direction C used Fraunces too: display type only. */}
-          <div className="mt-2 flex flex-wrap items-center justify-center gap-3">
-            <Link
-              href="/wordparts"
-              className="b-press b-glow rounded-2xl bg-[var(--b-primary)] px-6 py-3.5 text-[0.92rem] font-bold text-[var(--b-on-prim)]"
-            >
-              Start with word parts
-            </Link>
+          <HeroTerm />
+
+          <p className="mt-2 inline-flex items-center gap-1.5 text-[0.8rem] text-[var(--b-dim)]">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 16v-4M12 8h.01" />
+            </svg>
+            Hover any part of the word to see what it means.
+          </p>
+
+          <div className="mt-3 flex flex-wrap items-center justify-center gap-3">
             <Link
               href="/glossary"
-              className="b-press rounded-2xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-3.5 text-[0.92rem] font-semibold text-[var(--b-text)]"
+              className="b-press b-glow rounded-2xl bg-[var(--b-primary)] px-6 py-3.5 text-[0.92rem] font-bold text-[var(--b-on-prim)]"
             >
               Browse the glossary
             </Link>
-          </div>
-
-          {/* Stat row */}
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
-            {STATS.map(s => (
-              <div key={s.l} className="flex flex-col items-center gap-0.5">
-                <span
-                  className="text-[1.85rem] font-semibold leading-none tracking-[-0.01em] tabular-nums"
-                  style={display}
-                >
-                  {s.n}
-                </span>
-                <span className="text-[0.78rem] font-medium text-[var(--b-dim)]">{s.l}</span>
-              </div>
-            ))}
+            <Link
+              href="/wordparts"
+              className="b-press rounded-2xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-3.5 text-[0.92rem] font-semibold text-[var(--b-text)]"
+            >
+              Practice word parts
+            </Link>
           </div>
         </header>
 

@@ -62,7 +62,15 @@
   }
 }
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+/* Preflight is disabled (tailwind.config.ts), which normally supplies the
+   border defaults. Without them, Tailwind's `border` utility sets a width but
+   leaves border-style: none, so every `border`/`border-dashed` class renders
+   invisibly (only `ring`-based outlines showed). Restore those defaults; the
+   width:0 default keeps borders off wherever no `border` utility is applied. */
+*, *::before, *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+  border-width: 0; border-style: solid; border-color: currentColor;
+}
 
 /* ══════════════════════════════════════
    DESIGN TOKENS

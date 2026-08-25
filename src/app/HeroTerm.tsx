@@ -42,9 +42,13 @@ const STATES: State[] = [
   },
 ]
 
-const CARD = 'min-w-[132px] rounded-2xl px-5 py-3.5 text-left'
+/* Fixed card width + a value area that always reserves two lines, so the two
+   terms (short Korean vs the longer French "Échocardiogramme") produce cards of
+   identical size. That keeps the wrap count and total height constant, so the
+   page never shifts when the example alternates. */
+const CARD = 'w-[188px] rounded-2xl px-4 py-3.5 text-left'
 const LBL = 'mb-1.5 text-[0.6rem] font-semibold uppercase tracking-[0.09em]'
-const VAL = 'text-[clamp(1.2rem,3vw,1.5rem)] font-medium leading-tight'
+const VAL = 'flex min-h-[2.6em] items-center text-[clamp(1.15rem,2.8vw,1.45rem)] font-medium leading-tight [overflow-wrap:anywhere]'
 
 export default function HeroTerm() {
   const [idx, setIdx] = useState(0)
@@ -119,7 +123,7 @@ export default function HeroTerm() {
 
           <div className={`${CARD} border border-dashed border-[var(--b-border)] bg-[var(--b-panel)]`}>
             <div className={`${LBL} text-[var(--b-dim)]`}>On the chart</div>
-            <div className="text-[clamp(1.2rem,3vw,1.5rem)] font-bold leading-tight tracking-[0.06em]">{s.abbr}</div>
+            <div className="flex min-h-[2.6em] items-center text-[clamp(1.15rem,2.8vw,1.45rem)] font-bold leading-tight tracking-[0.06em]">{s.abbr}</div>
           </div>
 
           <div

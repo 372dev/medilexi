@@ -56,15 +56,15 @@ export default function Home() {
           </span>
 
           <h1
-            className="m-0 text-[clamp(2.1rem,5.6vw,3.5rem)] font-semibold leading-[1.02] tracking-[-0.022em] text-balance"
+            className="m-0 max-w-[22ch] text-[clamp(1.9rem,5vw,3.05rem)] font-semibold leading-[1.06] tracking-[-0.02em] text-balance"
             style={display}
           >
-            Charted. Abbreviated. Spoken.
+            The chart says one thing. The patient says another.
           </h1>
 
-          <p className="m-0 max-w-[54ch] text-[1.02rem] leading-[1.55] text-[var(--b-dim)]">
-            A trilingual glossary for students, interpreters, and translators. Every term
-            with its clinical name, its abbreviation, and the word the patient actually uses.
+          <p className="m-0 max-w-[56ch] text-[1.02rem] leading-[1.55] text-[var(--b-dim)]">
+            Medi Lexi gives you both: the clinical term, its abbreviation, and the everyday
+            word, across languages. For students, interpreters, and translators.
           </p>
 
           <HeroTerm />

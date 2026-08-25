@@ -28,7 +28,7 @@ type Deck = {
 
 const LANGS: Deck[] = [
   {
-    tag: 'English', title: 'English', note: '1,500+ clinical terms',
+    tag: 'English', title: 'English', note: '1,900+ clinical terms',
     links: [{ href: '/glossary', label: 'Glossary' }, { href: '/flashcards', label: 'Flashcard' }],
   },
   {

@@ -55,7 +55,7 @@ export default function HeroTerm() {
   const fade = `b-altfade${out ? ' is-out' : ''}`
 
   return (
-    <div className="mt-9 flex flex-col items-center justify-center gap-6 sm:flex-row sm:gap-7">
+    <div className="flex flex-col items-center justify-center gap-6 sm:flex-row sm:gap-7">
       {/* headword with per-part tooltips */}
       <div
         className="text-[clamp(1.9rem,5vw,3rem)] font-semibold leading-none tracking-[-0.02em]"

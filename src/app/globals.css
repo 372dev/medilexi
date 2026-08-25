@@ -977,6 +977,16 @@ body.day .b-part--s { color: #991B1B; }
 .b-altfade { transition: opacity 0.22s ease; }
 .b-altfade.is-out { opacity: 0; }
 
+/* One-shot highlight: the hero CTA scrolls to the word-parts card and flashes
+   it. box-shadow renders outside the element, so overflow-hidden doesn't clip it. */
+@keyframes b-flash {
+  0%   { box-shadow: 0 0 0 0 transparent; }
+  25%  { box-shadow: 0 0 0 3px color-mix(in srgb, var(--b-primary) 55%, transparent), 0 0 34px 3px color-mix(in srgb, var(--b-primary) 38%, transparent); }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+.b-flash { animation: b-flash 1.35s ease-out; }
+@media (prefers-reduced-motion: reduce) { .b-flash { animation: none; } }
+
 @media (prefers-reduced-motion: reduce) {
   .b-htip::after, .b-htip::before { transition: opacity .14s ease; }
   .b-htip:hover::after, .b-htip:focus-visible::after { transform: translateX(-50%); }

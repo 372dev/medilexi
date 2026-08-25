@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import HeroTerm from './HeroTerm'
+import HeroCTA from './HeroCTA'
 
 /* ─────────────────────────────────────────────────────────────────
    REDESIGN SAMPLE · DIRECTION B "SIGNAL"
@@ -67,34 +68,26 @@ export default function Home() {
             word, across languages. For students, interpreters, and translators.
           </p>
 
-          <HeroTerm />
+          <div className="mt-1 flex w-full max-w-[860px] flex-col items-center gap-6 rounded-[28px] border border-[var(--b-border)] px-5 py-8 sm:px-10">
+            <HeroTerm />
 
-          <p className="mt-2 inline-flex items-center gap-1.5 text-[0.8rem] text-[var(--b-dim)]">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-              <circle cx="12" cy="12" r="10" />
-              <path d="M12 16v-4M12 8h.01" />
-            </svg>
-            Hover any part of the word to see what it means.
-          </p>
+            <p className="inline-flex items-center gap-1.5 text-[0.8rem] text-[var(--b-dim)]">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 16v-4M12 8h.01" />
+              </svg>
+              Hover any part of the word to see what it means.
+            </p>
+          </div>
 
-          <div className="mt-3 flex flex-wrap items-center justify-center gap-3">
-            <Link
-              href="/glossary"
-              className="b-press b-glow rounded-2xl bg-[var(--b-primary)] px-6 py-3.5 text-[0.92rem] font-bold text-[var(--b-on-prim)]"
-            >
-              Browse the glossary
-            </Link>
-            <Link
-              href="/wordparts"
-              className="b-press rounded-2xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-3.5 text-[0.92rem] font-semibold text-[var(--b-text)]"
-            >
-              Practice word parts
-            </Link>
+          <div className="mt-2">
+            <HeroCTA />
           </div>
         </header>
 
         {/* ── Featured: word parts ── */}
         <section
+          id="word-parts"
           className="b-lift relative overflow-hidden rounded-[24px] border border-[var(--b-border)] bg-[var(--b-panel)] p-7 sm:p-9"
         >
           <div

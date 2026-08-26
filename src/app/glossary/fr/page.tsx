@@ -96,7 +96,7 @@ function FrCard({ v, defLang, onFieldClick, mm }: { v: MergedEntry; defLang: 'fr
       >
         {hovered && v.parts
           ? segs.map((s,i) => s.wp
-            ? <span key={i} className={`c-part-highlight c-part-${s.type}`} data-tooltip={`${s.wp} · ${s.meaning}`}>{s.text}</span>
+            ? <span key={i} className={`b-htip b-part--${s.type}`} data-tip={`${s.wp} · ${s.meaning}`}>{s.text}</span>
             : <span key={i}>{s.text}</span>)
           : hi(v.en_h, mm?.en_h)}
       </Link>

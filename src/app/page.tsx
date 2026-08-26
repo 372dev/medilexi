@@ -41,7 +41,7 @@ const LANGS: Deck[] = [
   },
   {
     tag: 'French', title: 'Français', note: 'Bilingual · EN to FR',
-    links: [], soon: true,
+    links: [{ href: '/glossary/fr', label: 'Glossary' }, { href: '/flashcards/fr', label: 'Flashcard' }],
   },
 ]
 

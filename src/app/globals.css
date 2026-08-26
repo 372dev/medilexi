@@ -213,20 +213,23 @@ button { font-family: var(--font-body); }
 }
 .site-header__toggle:hover { border-color: var(--color-gold); }
 
-/* Three-column layout: ad | content | ad */
+/* Content column. The ad gutters (a 160px column each side) stay RESERVED for
+   AdSense (Milestone 7) but are not rendered until then: running them empty only
+   pushed content into a narrow offset column flanked by two blank columns. Until
+   ads ship, content centers in a single column up to 1200px.
+   To re-enable ads: set this back to
+     display: grid; grid-template-columns: var(--ad-width) 1fr var(--ad-width);
+     gap: var(--ad-gap); max-width: 1440px; padding: 0 var(--ad-gap);
+     align-items: start;
+   and switch `.site-ad` back to `display: flex`. */
 .site-body {
-  display: grid;
-  grid-template-columns: var(--ad-width) 1fr var(--ad-width);
-  gap: var(--ad-gap);
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 var(--ad-gap);
+  padding: 0 1rem;
   min-height: calc(100vh - 60px);
-  align-items: start;
 }
 
-/* Ad slots hidden for now — blended into the background but kept in the
-   grid (reserved column width + min-height) so they can be re-enabled later. */
+/* Reserved AdSense slots (Milestone 7), hidden until ads are switched on. */
 .site-ad {
   position: sticky;
   top: 72px;
@@ -234,7 +237,7 @@ button { font-family: var(--font-body); }
   border: none;
   background: transparent;
   color: transparent;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
@@ -243,13 +246,8 @@ button { font-family: var(--font-body); }
   min-width: 0; /* prevent overflow */
 }
 
-/* Hide ad columns on mobile */
 @media (max-width: 900px) {
-  .site-body {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-  }
-  .site-ad { display: none; }
+  .site-body { padding: 1rem; }
 }
 
 /* ══════════════════════════════════════

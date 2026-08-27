@@ -89,9 +89,13 @@ export default function FrFlashcardsPage() {
   }
 
   function markKnown() {
-    setKnown(s => { const n = new Set(s); n.add(cardIdxRef.current); return n })
     setFlipped(false)
-    setTimeout(() => setCardIdx(i => i + 1), 150)
+    // Update `known` and `cardIdx` together after the flip-back, so the derived
+    // counts (missed = cardIdx - known.size) never render a transient off-by-one.
+    setTimeout(() => {
+      setKnown(s => { const n = new Set(s); n.add(cardIdxRef.current); return n })
+      setCardIdx(i => i + 1)
+    }, 150)
   }
   function markUnknown() {
     setFlipped(false)

@@ -195,11 +195,12 @@ export default function Home() {
               >
                 Prefix · Root · Suffix
               </h2>
-              <p className="m-0 max-w-[54ch] text-[0.95rem] leading-[1.65] text-[var(--b-dim)]">
+              <p className="m-0 max-w-[56ch] text-[0.95rem] leading-[1.65] text-[var(--b-dim)]">
                 See that <strong className="b-part--p font-semibold">brady</strong> means slow,{' '}
                 <strong className="b-part--r font-semibold">card</strong> heart, and{' '}
-                <strong className="b-part--s font-semibold">-ia</strong> a condition, and the next
-                unfamiliar term is already half-decoded. Learn the parts instead of memorizing every word.
+                <strong className="b-part--s font-semibold">-ia</strong> a condition, and{' '}
+                <span className="whitespace-nowrap"><strong className="b-part--p font-semibold">brady</strong><strong className="b-part--r font-semibold">card</strong><strong className="b-part--s font-semibold">ia</strong></span>{' '}
+                falls into place as a slow heart rate. Learn the parts, and the next unfamiliar term is already half-decoded.
               </p>
             </div>
 
@@ -208,6 +209,7 @@ export default function Home() {
                 <Link
                   key={l.href}
                   href={l.href}
+                  data-wp-glow
                   className="b-press rounded-xl border border-[var(--b-border)] bg-[var(--b-raised)] px-4 py-2.5 text-[0.85rem] font-semibold text-[var(--b-text)] hover:border-[var(--b-primary)] hover:text-[var(--b-primary)]"
                 >
                   {l.label}

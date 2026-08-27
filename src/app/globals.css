@@ -955,6 +955,16 @@ body.day .b-part--s { color: #991B1B; }
 .b-flash { animation: b-flash 1.35s ease-out; }
 @media (prefers-reduced-motion: reduce) { .b-flash { animation: none; } }
 
+/* Tighter glow for the small word-part buttons the hero CTA cascades through.
+   A short ring so it stays within the card's overflow-hidden bounds. */
+@keyframes b-flash-sm {
+  0%   { box-shadow: 0 0 0 0 transparent; }
+  30%  { box-shadow: 0 0 0 2px color-mix(in srgb, var(--b-primary) 70%, transparent), 0 0 14px 1px color-mix(in srgb, var(--b-primary) 42%, transparent); }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+.b-flash-sm { animation: b-flash-sm 1s ease-out; }
+@media (prefers-reduced-motion: reduce) { .b-flash-sm { animation: none; } }
+
 @media (prefers-reduced-motion: reduce) {
   .b-htip::after, .b-htip::before { transition: opacity .14s ease; }
   .b-htip:hover::after, .b-htip:focus-visible::after { transform: translateX(-50%); }

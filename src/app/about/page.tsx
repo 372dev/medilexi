@@ -1,4 +1,6 @@
+import { Suspense } from 'react'
 import koData from '@/data/medical_vocab_ko.json'
+import FeedbackHighlighter from './FeedbackHighlighter'
 
 const multilingualCount = (koData as { d_ko?: string }[]).filter(k => !!k.d_ko).length
 
@@ -42,6 +44,7 @@ const LEVELS = [
 export default function AboutPage() {
   return (
     <div style={{ maxWidth: '680px', margin: '0 auto', padding: '1.5rem 0 4rem' }}>
+      <Suspense fallback={null}><FeedbackHighlighter /></Suspense>
 
       {/* ── Intro ── */}
       <div style={{ marginBottom: '2.5rem', paddingBottom: '1.5rem', borderBottom: '2px solid var(--b-border)' }}>
@@ -159,12 +162,13 @@ export default function AboutPage() {
       </section>
 
       {/* ── Feedback ── */}
-      <section>
+      <section id="feedback" className="scroll-mt-20">
         <h2 style={H2}>Feedback &amp; Contributions</h2>
         <p style={PROSE}>
           Found an error, missing term, or translation issue? We'd love to hear from you.
         </p>
         <a
+          id="feedback-form"
           href="https://docs.google.com/forms/d/e/1FAIpQLSd7lvh6A2B8npmNCo3aarU4E-J7s4k3NxwsCqiTQ-MoYkgJaA/viewform"
           target="_blank"
           rel="noopener noreferrer"

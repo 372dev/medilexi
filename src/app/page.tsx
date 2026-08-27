@@ -18,34 +18,41 @@ const WORDPART_LINKS = [
   { href: '/wordparts/exam',      label: 'Exam ✦' },
 ]
 
+type Sample = { lead: string; chips?: string[]; term?: string; gloss?: string }
 type Deck = {
   tag: string
   title: string
   note: string
   links: { href: string; label: string }[]
   soon?: boolean
+  sample?: Sample
 }
 
 const LANGS: Deck[] = [
   {
     tag: 'English', title: 'English', note: '1,900+ clinical terms',
     links: [{ href: '/glossary', label: 'Glossary' }, { href: '/flashcards', label: 'Flashcard' }],
+    sample: { lead: 'A few of them', chips: ['Hypertension', 'Bradycardia', 'Anticoagulant'] },
   },
   {
     tag: 'Abbreviations', title: 'Medical Abbr', note: '200+ · Abbr to Term',
     links: [{ href: '/flashcards/abbr', label: 'Flashcard' }],
+    sample: { lead: 'For example', term: 'COPD', gloss: 'Chronic obstructive pulmonary disease' },
   },
   {
     tag: '한국어', title: 'Korean ↔ English', note: 'Bilingual glossary + flashcards',
     links: [{ href: '/glossary/ko', label: 'Glossary' }, { href: '/flashcards/ko', label: 'Flashcard' }],
+    sample: { lead: 'For example', term: '고혈압', gloss: 'Hypertension' },
   },
   {
     tag: 'Français', title: 'French ↔ English', note: 'Bilingual glossary + flashcards',
     links: [{ href: '/glossary/fr', label: 'Glossary' }, { href: '/flashcards/fr', label: 'Flashcard' }],
+    sample: { lead: 'For example', term: 'Infarctus du myocarde', gloss: 'Heart attack' },
   },
   {
     tag: 'Español', title: 'Spanish ↔ English', note: 'Coming soon',
     links: [], soon: true,
+    sample: { lead: 'Will include', term: 'Cefalea', gloss: 'Headache' },
   },
 ]
 
@@ -80,6 +87,29 @@ function DeckActions({ d }: { d: Deck }) {
   )
 }
 
+function DeckSample({ s, divider = true }: { s: Sample; divider?: boolean }) {
+  return (
+    <div className={divider ? 'border-t border-[var(--b-border)] pt-3' : 'mt-1.5'}>
+      <span className="mb-1.5 block text-[0.66rem] font-semibold uppercase tracking-[0.08em] text-[var(--b-dim)]">
+        {s.lead}
+      </span>
+      {s.chips ? (
+        <div className="flex flex-wrap gap-1.5">
+          {s.chips.map(c => (
+            <span key={c} className="rounded-lg border border-[var(--b-border)] bg-[var(--b-raised)] px-2 py-1 text-[0.8rem] font-medium text-[var(--b-text)]">
+              {c}
+            </span>
+          ))}
+        </div>
+      ) : (
+        <span className="text-[0.85rem] text-[var(--b-dim)]">
+          <b className="font-semibold text-[var(--b-text)]">{s.term}</b> · {s.gloss}
+        </span>
+      )}
+    </div>
+  )
+}
+
 function DeckCard({ d, featured = false }: { d: Deck; featured?: boolean }) {
   if (featured) {
     return (
@@ -92,6 +122,7 @@ function DeckCard({ d, featured = false }: { d: Deck; featured?: boolean }) {
             {d.title}
           </span>
           <span className="text-[0.85rem] text-[var(--b-dim)]">{d.note}</span>
+          {d.sample && <DeckSample s={d.sample} divider={false} />}
         </div>
         <div className="flex flex-wrap gap-2">
           <DeckActions d={d} />
@@ -108,6 +139,7 @@ function DeckCard({ d, featured = false }: { d: Deck; featured?: boolean }) {
         </span>
         <span className="text-[0.83rem] text-[var(--b-dim)]">{d.note}</span>
       </div>
+      {d.sample && <DeckSample s={d.sample} />}
       <div className="mt-auto flex flex-wrap gap-2 pt-2">
         <DeckActions d={d} />
       </div>

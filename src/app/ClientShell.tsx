@@ -73,10 +73,8 @@ export default function ClientShell({ children }: { children: React.ReactNode })
   return (
     <>
       {isHome ? (
-        /* page.tsx owns the whole landing layout. The `bridge` class scopes the
-           warm-sand/petrol Bridge palette + fonts to the home route only (the
-           --b-* override lives in globals.css); it also retints this toggle. */
-        <div className="relative bridge">
+        /* page.tsx owns the whole landing layout. */
+        <div className="relative">
           <div className="fixed right-4 top-4 z-50">{toggleBtn}</div>
           {children}
         </div>

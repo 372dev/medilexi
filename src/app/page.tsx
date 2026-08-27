@@ -53,7 +53,7 @@ export default function Home() {
         {/* ── Hero ── */}
         <header className="flex flex-col items-center gap-5 text-center">
           <span className="text-[0.72rem] font-bold uppercase tracking-[0.18em] text-[var(--b-primary)]">
-            English · 한국어 · Français
+            For students, interpreters &amp; translators
           </span>
 
           <h1
@@ -63,9 +63,9 @@ export default function Home() {
             The chart says one thing. The patient says another.
           </h1>
 
-          <p className="m-0 max-w-[54ch] text-[1.02rem] leading-[1.6] text-[var(--b-dim)]">
-            Medi Lexi gives you both: the clinical term, its abbreviation, and the everyday
-            word people actually use, across languages. For students, interpreters, and translators.
+          <p className="m-0 max-w-[52ch] text-[1.02rem] leading-[1.6] text-[var(--b-dim)] text-pretty">
+            Medi Lexi gives you both: the clinical term, its abbreviation, and the
+            everyday word people actually use, across languages.
           </p>
 
           <div className="mt-4 flex w-full justify-center">

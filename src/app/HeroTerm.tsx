@@ -23,34 +23,36 @@ const CARDS = [
 
 export default function HeroTerm() {
   return (
-    <div className="flex w-full max-w-[640px] flex-col items-center gap-6 text-center">
-      {/* headword + abbreviation */}
-      <div className="flex flex-wrap items-baseline justify-center gap-x-3 gap-y-2">
-        <h2
-          className="m-0 text-[clamp(2.4rem,8vw,3.6rem)] font-bold leading-none tracking-[-0.02em]"
-          style={display}
-        >
-          {PARTS.map((p, i) =>
-            p.t
-              ? <span key={i} className={`b-htip b-part--${p.t}`} data-tip={p.tip}>{p.text}</span>
-              : <span key={i}>{p.text}</span>
-          )}
-        </h2>
-        <span
-          className="rounded-full px-3 py-1 text-[0.82rem] font-semibold text-[var(--b-primary)]"
-          style={{ background: 'color-mix(in srgb, var(--b-primary) 14%, transparent)' }}
-        >
-          IV
-        </span>
-      </div>
+    <div className="flex w-full max-w-[640px] flex-col items-center gap-7 text-center">
+      {/* hint + headword: the hint sits directly above the term */}
+      <div className="flex flex-col items-center gap-3">
+        <p className="inline-flex items-center gap-1.5 text-[0.8rem] text-[var(--b-dim)]">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 16v-4M12 8h.01" />
+          </svg>
+          Hover any part of the word to see what it means.
+        </p>
 
-      <p className="inline-flex items-center gap-1.5 text-[0.8rem] text-[var(--b-dim)]">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-          <circle cx="12" cy="12" r="10" />
-          <path d="M12 16v-4M12 8h.01" />
-        </svg>
-        Hover any part of the word to see what it means.
-      </p>
+        <div className="flex flex-wrap items-baseline justify-center gap-x-3.5 gap-y-2">
+          <h2
+            className="m-0 text-[clamp(2.4rem,8vw,3.6rem)] font-bold leading-none tracking-[-0.02em]"
+            style={display}
+          >
+            {PARTS.map((p, i) =>
+              p.t
+                ? <span key={i} className={`b-htip b-part--${p.t}`} data-tip={p.tip}>{p.text}</span>
+                : <span key={i}>{p.text}</span>
+            )}
+          </h2>
+          <span
+            className="rounded-full px-4 py-1.5 text-[1.25rem] font-bold leading-none text-[var(--b-primary)]"
+            style={{ background: 'color-mix(in srgb, var(--b-primary) 15%, transparent)' }}
+          >
+            IV
+          </span>
+        </div>
+      </div>
 
       {/* what people actually say */}
       <div className="flex w-full flex-col gap-3">

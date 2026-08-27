@@ -170,23 +170,23 @@ export default function Home() {
         </header>
 
         {/* ── Featured: word parts ── */}
-        <section
-          id="word-parts"
-          className="b-lift relative overflow-hidden rounded-[24px] border border-[var(--b-border)] bg-[var(--b-panel)] p-7 sm:p-9"
-        >
+        <section className="flex flex-col gap-4">
+          <h2 className="m-0 text-[0.78rem] font-bold uppercase tracking-[0.14em] text-[var(--b-dim)]">
+            Start here
+          </h2>
+          <div
+            id="word-parts"
+            className="b-lift relative overflow-hidden rounded-[24px] border border-[var(--b-border)] bg-[var(--b-panel)] p-7 sm:p-9"
+          >
           <div
             aria-hidden="true"
             className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full opacity-[0.13]"
             style={{ background: 'var(--b-primary)', filter: 'blur(46px)' }}
           />
           <div className="relative flex flex-col gap-5">
-            <div className="flex flex-wrap items-center gap-2.5">
-              <span className="text-[0.72rem] font-bold uppercase tracking-[0.14em] text-[var(--b-primary)]">
-                Start here
-              </span>
-              <span className="h-1 w-1 rounded-full bg-[var(--b-dim)]" aria-hidden="true" />
-              <span className="text-[0.72rem] font-semibold text-[var(--b-dim)]">600+ entries</span>
-            </div>
+            <span className="text-[0.72rem] font-bold uppercase tracking-[0.12em] text-[var(--b-primary)]">
+              600+ entries
+            </span>
 
             <div className="flex flex-col gap-2">
               <h2
@@ -216,6 +216,7 @@ export default function Home() {
                 </Link>
               ))}
             </div>
+          </div>
           </div>
         </section>
 

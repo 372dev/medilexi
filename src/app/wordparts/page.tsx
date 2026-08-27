@@ -88,6 +88,12 @@ export default function WordPartsPage() {
             Flashcard →
           </Link>
           <Link
+            href="/wordparts/quiz"
+            className="b-press b-focus whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-2.5 text-[0.82rem] font-semibold hover:border-[var(--b-primary)] hover:text-[var(--b-primary)]"
+          >
+            Practice →
+          </Link>
+          <Link
             href="/wordparts/exam"
             className="b-press b-glow b-focus whitespace-nowrap rounded-xl bg-[var(--b-primary)] px-4 py-2.5 text-[0.82rem] font-bold text-[var(--b-on-prim)]"
           >

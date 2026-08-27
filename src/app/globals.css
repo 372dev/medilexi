@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -62,7 +62,15 @@
   }
 }
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+/* Preflight is disabled (tailwind.config.ts), which normally supplies the
+   border defaults. Without them, Tailwind's `border` utility sets a width but
+   leaves border-style: none, so every `border`/`border-dashed` class renders
+   invisibly (only `ring`-based outlines showed). Restore those defaults; the
+   width:0 default keeps borders off wherever no `border` utility is applied. */
+*, *::before, *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+  border-width: 0; border-style: solid; border-color: currentColor;
+}
 
 /* ══════════════════════════════════════
    DESIGN TOKENS
@@ -95,7 +103,7 @@
   --badge-s-text:   #FCA5A5;
 
   --font-pixel: 'Press Start 2P', monospace;
-  --font-body:  'Inter', 'Noto Sans KR', sans-serif;
+  --font-body:  'Figtree', 'Noto Sans KR', system-ui, sans-serif;
 
   /* Ad column width */
   --ad-width: 160px;
@@ -130,8 +138,8 @@ body.day {
    BASE
 ══════════════════════════════════════ */
 html, body {
-  background: var(--color-bg);
-  color: var(--color-text);
+  background: var(--b-bg);
+  color: var(--b-text);
   font-family: var(--font-body);
   min-height: 100vh;
   transition: background 0.25s, color 0.25s;
@@ -141,7 +149,7 @@ a { color: inherit; text-decoration: none; }
 button { font-family: var(--font-body); }
 
 /* Keyboard-only focus ring + skip-to-content link (a11y) */
-:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--b-primary); outline-offset: 2px; }
 .skip-link {
   position: absolute; left: 8px; top: -48px; z-index: 300;
   background: var(--color-gold); color: var(--color-bg);
@@ -205,20 +213,23 @@ button { font-family: var(--font-body); }
 }
 .site-header__toggle:hover { border-color: var(--color-gold); }
 
-/* Three-column layout: ad | content | ad */
+/* Content column. The ad gutters (a 160px column each side) stay RESERVED for
+   AdSense (Milestone 7) but are not rendered until then: running them empty only
+   pushed content into a narrow offset column flanked by two blank columns. Until
+   ads ship, content centers in a single column up to 1200px.
+   To re-enable ads: set this back to
+     display: grid; grid-template-columns: var(--ad-width) 1fr var(--ad-width);
+     gap: var(--ad-gap); max-width: 1440px; padding: 0 var(--ad-gap);
+     align-items: start;
+   and switch `.site-ad` back to `display: flex`. */
 .site-body {
-  display: grid;
-  grid-template-columns: var(--ad-width) 1fr var(--ad-width);
-  gap: var(--ad-gap);
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 var(--ad-gap);
+  padding: 0 1rem;
   min-height: calc(100vh - 60px);
-  align-items: start;
 }
 
-/* Ad slots hidden for now — blended into the background but kept in the
-   grid (reserved column width + min-height) so they can be re-enabled later. */
+/* Reserved AdSense slots (Milestone 7), hidden until ads are switched on. */
 .site-ad {
   position: sticky;
   top: 72px;
@@ -226,7 +237,7 @@ button { font-family: var(--font-body); }
   border: none;
   background: transparent;
   color: transparent;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
@@ -235,13 +246,8 @@ button { font-family: var(--font-body); }
   min-width: 0; /* prevent overflow */
 }
 
-/* Hide ad columns on mobile */
 @media (max-width: 900px) {
-  .site-body {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-  }
-  .site-ad { display: none; }
+  .site-body { padding: 1rem; }
 }
 
 /* ══════════════════════════════════════
@@ -421,46 +427,6 @@ body.day .c-abbr { color: #185FA5; background: rgba(24,95,165,0.08); border-colo
 .c-field-badge:hover { background: rgba(80,65,200,0.6); border-color: var(--color-accent); }
 body.day .c-field-badge { background: #f3f4f6; color: #374151; border-color: #d0d5e0; font-size: 0.72rem; }
 body.day .c-field-badge:hover { background: #e5e7eb; border-color: var(--color-accent); }
-
-/* Word part highlight spans */
-.c-part-highlight {
-  position: relative;
-  border-radius: 2px;
-  padding: 0 1px;
-  cursor: default;
-}
-.c-part-highlight::after {
-  content: attr(data-tooltip);
-  position: absolute;
-  bottom: calc(100% + 6px);
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--color-bg);
-  color: var(--color-text);
-  border: 1px solid var(--color-border);
-  font-family: var(--font-pixel);
-  font-size: 0.65rem;
-  white-space: nowrap;
-  padding: 0.3rem 0.5rem;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.15s;
-  z-index: 10;
-  box-shadow: 3px 3px 0 0 rgba(150,140,255,0.3);
-  line-height: 1.8;
-}
-.c-part-highlight:hover::after { opacity: 1; }
-body.day .c-part-highlight::after { background: #1a1a2e; color: #f9fafb; border-color: #374151; box-shadow: 2px 2px 0 0 #374151; }
-.c-part-p { background: rgba(59,130,246,0.2); border-bottom: 2px solid #3B82F6; color: #93C5FD; }
-.c-part-r { background: rgba(59,170,106,0.2); border-bottom: 2px solid #3BAA6A; color: #6EE7B7; }
-.c-part-s { background: rgba(201,64,64,0.2); border-bottom: 2px solid #C94040; color: #FCA5A5; }
-body.day .c-part-p { background: rgba(59,130,246,0.1); border-bottom: 2px solid #1d4ed8; color: #1d4ed8; }
-body.day .c-part-r { background: rgba(59,170,106,0.1); border-bottom: 2px solid #166534; color: #166534; }
-body.day .c-part-s { background: rgba(201,64,64,0.1); border-bottom: 2px solid #991b1b; color: #991b1b; }
-
-@media (max-width: 600px) {
-  .c-part-highlight::after { font-size: 0.5rem; }
-}
 
 /* Type badges (word parts) */
 .c-badge {
@@ -755,41 +721,43 @@ body.day .ko-h { color: var(--color-text); }
 }
 
 /* ═══════════════════════════════════════════════════════════════════
-   REDESIGN SAMPLE · DIRECTION B "SIGNAL"
-   Energetic learning-app treatment. Scoped to the landing page only.
-   Tokens hang off the site's existing theme mechanism (default = night,
-   body.day = light) so the shadcn :root/.dark inversion stays deferred.
-   Delete this block if direction B is not chosen.
+   BRIDGE DIRECTION — the site theme (warm sand day, warm dark night).
+   Tokens hang off the existing mechanism (default = night, body.day =
+   light). Display font Bricolage Grotesque; body font Figtree (--font-body).
+   The morpheme triad (.b-part--*, .b-htip, .b-badge--*) stays hardcoded
+   blue/green/red, so it reads the same on every page.
    ═══════════════════════════════════════════════════════════════════ */
 :root {
-  --b-bg:       #0B1210;
-  --b-panel:    #131C19;
-  --b-raised:   #1A2621;
-  --b-border:   #223029;
-  --b-primary:  #22C55E;
-  --b-on-prim:  #04240F;
-  --b-amber:    #FBBF24;
-  --b-text:     #E8EFEA;
-  --b-dim:      #8CA096;
-  --b-display:  'Fraunces', Georgia, 'Times New Roman', serif;
+  /* night — warm dark */
+  --b-bg:       #1A1613;
+  --b-panel:    #241E19;
+  --b-raised:   #2C2620;
+  --b-border:   #3A322A;
+  --b-primary:  #5CB0B4;
+  --b-on-prim:  #12201F;
+  --b-amber:    #E0A08C;
+  --b-text:     #F0E9DF;
+  --b-dim:      #A99C8B;
+  --b-display:  'Bricolage Grotesque', system-ui, sans-serif;
 }
 body.day {
-  --b-bg:       #F5F9F6;
-  --b-panel:    #FFFFFF;
-  --b-raised:   #FFFFFF;
-  --b-border:   #E2EAE5;
-  --b-primary:  #16A34A;
-  --b-on-prim:  #FFFFFF;
-  --b-amber:    #B45309;
-  --b-text:     #0F1A15;
-  --b-dim:      #5C6B63;
+  /* day — warm sand */
+  --b-bg:       #EDE5D9;
+  --b-panel:    #F8F3EB;
+  --b-raised:   #FBF7F0;
+  --b-border:   #DBD0BF;
+  --b-primary:  #1C5D63;
+  --b-on-prim:  #F7F2E9;
+  --b-amber:    #A2503A;
+  --b-text:     #2A2620;
+  --b-dim:      #6E655A;
 }
 
 /* Soft elevation, the deliberate opposite of the current hard offset shadow. */
 .b-lift   { box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 8px 24px -6px rgba(0,0,0,0.28); }
 body.day .b-lift { box-shadow: 0 1px 2px rgba(16,40,28,0.05), 0 10px 28px -8px rgba(16,40,28,0.10); }
-.b-glow   { box-shadow: 0 6px 22px -4px rgba(34,197,94,0.42); }
-body.day .b-glow { box-shadow: 0 6px 20px -5px rgba(22,163,74,0.30); }
+/* Accent glow, tied to the primary so it follows the theme. */
+.b-glow   { box-shadow: 0 8px 26px -6px color-mix(in srgb, var(--b-primary) 50%, transparent); }
 
 .b-press { transition: transform .12s ease, box-shadow .12s ease, background-color .12s ease, border-color .12s ease; }
 .b-press:hover  { transform: translateY(-2px); }
@@ -944,6 +912,65 @@ body.day .b-badge--s { background: #FDECEC; color: #991B1B; border-color: #F1A9A
 body.day .b-part--p { color: #1D4ED8; }
 body.day .b-part--r { color: #166534; }
 body.day .b-part--s { color: #991B1B; }
+
+/* ── Hero headword: per-part tooltip (landing) ──
+   A --b-* restyle of the glossary's data-tooltip; the shipped
+   .c-part-highlight tooltip still uses the retired pixel font. Pair with
+   .b-part--p/r/s so currentColor drives the hover tint. */
+.b-htip { position: relative; border-radius: 3px; cursor: default; }
+.b-htip:hover, .b-htip:focus-visible { background: color-mix(in srgb, currentColor 13%, transparent); }
+.b-htip::after {
+  content: attr(data-tip);
+  position: absolute; left: 50%; bottom: calc(100% + 9px);
+  transform: translateX(-50%) translateY(5px);
+  background: var(--b-panel); color: var(--b-text);
+  border: 1px solid var(--b-border); border-radius: 10px;
+  box-shadow: 0 16px 34px -18px rgba(0,0,0,0.45);
+  font-family: var(--font-body); font-weight: 500; font-size: 0.82rem;
+  white-space: nowrap; padding: 7px 11px;
+  opacity: 0; pointer-events: none;
+  transition: opacity .14s ease, transform .14s ease; z-index: 30;
+}
+.b-htip::before {
+  content: ""; position: absolute; left: 50%; bottom: calc(100% + 3px);
+  width: 11px; height: 11px; background: var(--b-panel);
+  border-right: 1px solid var(--b-border); border-bottom: 1px solid var(--b-border);
+  transform: translate(-50%, 5px) rotate(45deg);
+  opacity: 0; transition: opacity .14s ease, transform .14s ease; z-index: 31;
+}
+.b-htip:hover::after, .b-htip:focus-visible::after { opacity: 1; transform: translateX(-50%) translateY(0); }
+.b-htip:hover::before, .b-htip:focus-visible::before { opacity: 1; transform: translate(-50%, 0) rotate(45deg); }
+
+/* Crossfade for the alternating KO/FR register values. */
+.b-altfade { transition: opacity 0.22s ease; }
+.b-altfade.is-out { opacity: 0; }
+
+/* One-shot highlight: the hero CTA scrolls to the word-parts card and flashes
+   it. box-shadow renders outside the element, so overflow-hidden doesn't clip it. */
+@keyframes b-flash {
+  0%   { box-shadow: 0 0 0 0 transparent; }
+  25%  { box-shadow: 0 0 0 3px color-mix(in srgb, var(--b-primary) 55%, transparent), 0 0 34px 3px color-mix(in srgb, var(--b-primary) 38%, transparent); }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+.b-flash { animation: b-flash 1.35s ease-out; }
+@media (prefers-reduced-motion: reduce) { .b-flash { animation: none; } }
+
+/* Tighter glow for the small word-part buttons the hero CTA cascades through.
+   A short ring so it stays within the card's overflow-hidden bounds. */
+@keyframes b-flash-sm {
+  0%   { box-shadow: 0 0 0 0 transparent; }
+  30%  { box-shadow: 0 0 0 2px color-mix(in srgb, var(--b-primary) 70%, transparent), 0 0 14px 1px color-mix(in srgb, var(--b-primary) 42%, transparent); }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+.b-flash-sm { animation: b-flash-sm 1s ease-out; }
+@media (prefers-reduced-motion: reduce) { .b-flash-sm { animation: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .b-htip::after, .b-htip::before { transition: opacity .14s ease; }
+  .b-htip:hover::after, .b-htip:focus-visible::after { transform: translateX(-50%); }
+  .b-htip:hover::before, .b-htip:focus-visible::before { transform: translate(-50%, 0) rotate(45deg); }
+  .b-altfade { transition: none; }
+}
 
 /* ── Links (term page + A-Z index) ──
    Inline styles cannot express :hover, so the two link roles get classes. */

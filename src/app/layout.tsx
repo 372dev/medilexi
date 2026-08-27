@@ -7,9 +7,9 @@ import './globals.css'
 const BASE_URL = 'https://medilexi.vercel.app'
 
 const PAGE_DESCRIPTIONS: Record<string, string> = {
-  '/':                    'Free medical glossary in English, Korean, and French. 1,300+ terms with word-part breakdowns, flashcards, and quizzes for students, interpreters, and translators.',
-  '/glossary':            'Search 1,300+ medical terms with definitions, clinical specialties, importance levels, and word-part breakdowns.',
-  '/terms':               'Browse every Medi Lexi medical term A to Z. 1,300+ entries with English, Korean, and French translations and word-part breakdowns.',
+  '/':                    'Free medical glossary in English, Korean, and French. 1,900+ terms with word-part breakdowns, flashcards, and quizzes for students, interpreters, and translators.',
+  '/glossary':            'Search 1,900+ medical terms with definitions, clinical specialties, importance levels, and word-part breakdowns.',
+  '/terms':               'Browse every Medi Lexi medical term A to Z. 1,900+ entries with English, Korean, and French translations and word-part breakdowns.',
   '/glossary/ko':         'Bilingual English–Korean medical glossary with Korean definitions, IME-safe search, and word-part highlights.',
   '/wordparts':           '600+ medical word parts: prefixes, roots, and suffixes, with meanings, examples, and clinical usage.',
   '/wordparts/flashcard': 'Study medical word parts with interactive flashcards. Quiz mode, level filters, and missed-card review.',
@@ -231,10 +231,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang={htmlLang}>
       <body>
-        {/* Set the theme class before first paint to avoid a flash. An explicit
-            saved preference wins; otherwise follow the OS (dark OS → night). */}
+        {/* Set the theme class before first paint to avoid a flash. Default is
+            DAY; only an explicit saved preference of 'night' overrides it. */}
         <script
-          dangerouslySetInnerHTML={{ __html: "try{var s=localStorage.getItem('theme');var d=s?s==='night':matchMedia('(prefers-color-scheme: dark)').matches;if(!d)document.body.classList.add('day')}catch(e){}" }}
+          dangerouslySetInnerHTML={{ __html: "try{if(localStorage.getItem('theme')!=='night')document.body.classList.add('day')}catch(e){document.body.classList.add('day')}" }}
         />
         <script
           type="application/ld+json"

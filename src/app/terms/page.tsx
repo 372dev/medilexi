@@ -11,7 +11,7 @@ const VOCAB = vocabData as unknown as Vocab[]
 export const metadata: Metadata = {
   title: 'All Medical Terms A–Z · Medi Lexi',
   description:
-    'Browse every term in the Medi Lexi medical glossary, A to Z. 1,500+ English medical terms with Korean and French translations, definitions, and word-part breakdowns.',
+    'Browse every term in the Medi Lexi medical glossary, A to Z. 1,900+ English medical terms with Korean and French translations, definitions, and word-part breakdowns.',
   alternates: { canonical: `${BASE_URL}/terms` },
   openGraph: {
     type: 'website',

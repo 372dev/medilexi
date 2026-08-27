@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -750,6 +750,44 @@ body.day {
   --b-text:     #0F1A15;
   --b-dim:      #5C6B63;
 }
+
+/* ══════════════════════════════════════════════════════════════════
+   LANDING · "BRIDGE" DIRECTION  (scoped to the home route only)
+   Overrides the --b-* tokens + display/body fonts on the landing wrapper
+   (the `bridge` class ClientShell puts on the home branch) so the whole
+   landing retints to the warm-sand / petrol Bridge palette in day and a
+   warm-dark counterpart at night, WITHOUT touching any other route. The
+   morpheme triad (.b-part--*, .b-htip) stays hardcoded blue/green/red, so
+   it reads the same here as everywhere else.
+   ══════════════════════════════════════════════════════════════════ */
+.bridge {
+  /* night — warm dark */
+  --b-bg:      #1A1613;
+  --b-panel:   #241E19;
+  --b-raised:  #2C2620;
+  --b-border:  #3A322A;
+  --b-primary: #5CB0B4;
+  --b-on-prim: #12201F;
+  --b-amber:   #E0A08C;
+  --b-text:    #F0E9DF;
+  --b-dim:     #A99C8B;
+  --b-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  font-family: 'Figtree', system-ui, 'Noto Sans KR', sans-serif;
+}
+body.day .bridge {
+  /* day — warm sand */
+  --b-bg:      #EDE5D9;
+  --b-panel:   #F8F3EB;
+  --b-raised:  #FBF7F0;
+  --b-border:  #DBD0BF;
+  --b-primary: #1C5D63;
+  --b-on-prim: #F7F2E9;
+  --b-amber:   #A2503A;
+  --b-text:    #2A2620;
+  --b-dim:     #6E655A;
+}
+/* Petrol glow for the Bridge CTA (the global .b-glow is hardcoded green). */
+.bridge .b-glow { box-shadow: 0 8px 26px -6px color-mix(in srgb, var(--b-primary) 55%, transparent); }
 
 /* Soft elevation, the deliberate opposite of the current hard offset shadow. */
 .b-lift   { box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 8px 24px -6px rgba(0,0,0,0.28); }

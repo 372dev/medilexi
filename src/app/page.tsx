@@ -57,30 +57,22 @@ export default function Home() {
           </span>
 
           <h1
-            className="m-0 max-w-[22ch] text-[clamp(1.9rem,5vw,3.05rem)] font-semibold leading-[1.06] tracking-[-0.02em] text-balance"
+            className="m-0 max-w-[20ch] text-[clamp(2rem,5.2vw,3.2rem)] font-bold leading-[1.04] tracking-[-0.025em] text-balance"
             style={display}
           >
             The chart says one thing. The patient says another.
           </h1>
 
-          <p className="m-0 max-w-[56ch] text-[1.02rem] leading-[1.55] text-[var(--b-dim)]">
+          <p className="m-0 max-w-[54ch] text-[1.02rem] leading-[1.6] text-[var(--b-dim)]">
             Medi Lexi gives you both: the clinical term, its abbreviation, and the everyday
-            word, across languages. For students, interpreters, and translators.
+            word people actually use, across languages. For students, interpreters, and translators.
           </p>
 
-          <div className="mt-1 flex w-full max-w-[860px] flex-col items-center gap-6 rounded-[28px] border border-[var(--b-border)] px-5 py-8 sm:px-10">
+          <div className="mt-4 flex w-full justify-center">
             <HeroTerm />
-
-            <p className="inline-flex items-center gap-1.5 text-[0.8rem] text-[var(--b-dim)]">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                <circle cx="12" cy="12" r="10" />
-                <path d="M12 16v-4M12 8h.01" />
-              </svg>
-              Hover any part of the word to see what it means.
-            </p>
           </div>
 
-          <div className="mt-2">
+          <div className="mt-4">
             <HeroCTA />
           </div>
         </header>

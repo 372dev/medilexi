@@ -36,12 +36,16 @@ const LANGS: Deck[] = [
     links: [{ href: '/flashcards/abbr', label: 'Flashcard' }],
   },
   {
-    tag: 'Korean', title: '한국어', note: 'Bilingual · EN to KO',
+    tag: '한국어', title: 'Korean ↔ English', note: 'Bilingual glossary + flashcards',
     links: [{ href: '/glossary/ko', label: 'Glossary' }, { href: '/flashcards/ko', label: 'Flashcard' }],
   },
   {
-    tag: 'French', title: 'Français', note: 'Bilingual · EN to FR',
+    tag: 'Français', title: 'French ↔ English', note: 'Bilingual glossary + flashcards',
     links: [{ href: '/glossary/fr', label: 'Glossary' }, { href: '/flashcards/fr', label: 'Flashcard' }],
+  },
+  {
+    tag: 'Español', title: 'Spanish ↔ English', note: 'Coming soon',
+    links: [], soon: true,
   },
 ]
 
@@ -104,11 +108,10 @@ export default function Home() {
                 Prefix · Root · Suffix
               </h2>
               <p className="m-0 max-w-[54ch] text-[0.95rem] leading-[1.65] text-[var(--b-dim)]">
-                Learn <strong className="font-semibold text-[var(--b-text)]">brady</strong>
-                <span className="text-[var(--b-text)]">card</span>
-                <strong className="font-semibold text-[var(--b-text)]">ia</strong>{' '}
-                once and you can read a hundred terms you have never seen before.
-                Build the vocabulary from the ground up.
+                See that <strong className="b-part--p font-semibold">brady</strong> means slow,{' '}
+                <strong className="b-part--r font-semibold">card</strong> heart, and{' '}
+                <strong className="b-part--s font-semibold">-ia</strong> a condition, and the next
+                unfamiliar term is already half-decoded. Learn the parts instead of memorizing every word.
               </p>
             </div>
 

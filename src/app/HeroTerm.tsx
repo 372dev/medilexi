@@ -19,11 +19,12 @@ const CARDS = [
   { lang: 'English', word: 'a drip', gloss: 'the IV line' },
   { lang: '한국어', word: '링거', gloss: '정맥 주사' },
   { lang: 'Français', word: 'perfusion', gloss: 'intraveineuse' },
+  { lang: 'Español', word: 'suero', gloss: 'vía intravenosa' },
 ]
 
 export default function HeroTerm() {
   return (
-    <div className="flex w-full max-w-[640px] flex-col items-center gap-7 text-center">
+    <div className="flex w-full max-w-[760px] flex-col items-center gap-7 text-center">
       {/* hint + headword: the hint sits directly above the term */}
       <div className="flex flex-col items-center gap-3">
         <p className="inline-flex items-center gap-1.5 text-[0.8rem] text-[var(--b-dim)]">
@@ -59,7 +60,7 @@ export default function HeroTerm() {
         <span className="text-[0.72rem] font-semibold uppercase tracking-[0.12em] text-[var(--b-dim)]">
           What people actually say
         </span>
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           {CARDS.map(c => (
             <div
               key={c.lang}

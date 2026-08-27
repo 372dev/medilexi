@@ -49,6 +49,72 @@ const LANGS: Deck[] = [
   },
 ]
 
+/* Feature the English deck as a full-width card only when the remaining decks
+   tile cleanly into the 2-column grid (an odd total leaves an even remainder).
+   Add another deck and English drops back to a normal card automatically. */
+const featureEnglish = LANGS.length % 2 === 1
+
+function DeckActions({ d }: { d: Deck }) {
+  if (d.soon) {
+    return (
+      <span
+        className="rounded-xl border border-dashed border-[var(--b-border)] px-4 py-2 text-[0.82rem] font-semibold text-[var(--b-dim)]"
+        aria-disabled="true"
+      >
+        Coming soon
+      </span>
+    )
+  }
+  return (
+    <>
+      {d.links.map(l => (
+        <Link
+          key={l.href}
+          href={l.href}
+          className="b-press rounded-xl bg-[var(--b-raised)] px-4 py-2 text-[0.82rem] font-semibold text-[var(--b-text)] ring-1 ring-inset ring-[var(--b-border)] hover:ring-[var(--b-primary)] hover:text-[var(--b-primary)]"
+        >
+          {l.label}
+        </Link>
+      ))}
+    </>
+  )
+}
+
+function DeckCard({ d, featured = false }: { d: Deck; featured?: boolean }) {
+  if (featured) {
+    return (
+      <div className="b-lift flex w-full flex-col gap-4 rounded-[20px] border border-[var(--b-border)] bg-[var(--b-panel)] p-6 sm:flex-row sm:items-center sm:justify-between sm:p-7">
+        <div className="flex flex-col gap-1">
+          <span className="text-[0.68rem] font-bold uppercase tracking-[0.14em] text-[var(--b-primary)]">
+            {d.tag} · most complete
+          </span>
+          <span className="text-[1.6rem] font-semibold leading-tight tracking-[-0.01em]" style={display}>
+            {d.title}
+          </span>
+          <span className="text-[0.85rem] text-[var(--b-dim)]">{d.note}</span>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <DeckActions d={d} />
+        </div>
+      </div>
+    )
+  }
+  return (
+    <div className="b-lift flex flex-col gap-3 rounded-[20px] border border-[var(--b-border)] bg-[var(--b-panel)] p-6">
+      <span className="text-[0.68rem] font-bold uppercase tracking-[0.14em] text-[var(--b-dim)]">{d.tag}</span>
+      <div className="flex flex-col gap-1">
+        <span className="text-[1.38rem] font-semibold leading-tight tracking-[-0.008em]" style={display}>
+          {d.title}
+        </span>
+        <span className="text-[0.83rem] text-[var(--b-dim)]">{d.note}</span>
+      </div>
+      <div className="mt-auto flex flex-wrap gap-2 pt-2">
+        <DeckActions d={d} />
+      </div>
+    </div>
+  )
+}
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[var(--b-bg)] px-5 pb-24 pt-16 text-[var(--b-text)]">
@@ -137,43 +203,11 @@ export default function Home() {
             Then pick a language
           </h2>
 
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-            {LANGS.map(d => (
-              <div
-                key={d.tag}
-                className="b-lift flex flex-col gap-3 rounded-[20px] border border-[var(--b-border)] bg-[var(--b-panel)] p-6"
-              >
-                <span className="text-[0.68rem] font-bold uppercase tracking-[0.14em] text-[var(--b-dim)]">
-                  {d.tag}
-                </span>
-                <div className="flex flex-col gap-1">
-                  <span className="text-[1.38rem] font-semibold leading-tight tracking-[-0.008em]" style={display}>
-                    {d.title}
-                  </span>
-                  <span className="text-[0.83rem] text-[var(--b-dim)]">{d.note}</span>
-                </div>
+          {featureEnglish && <DeckCard d={LANGS[0]} featured />}
 
-                <div className="mt-auto flex flex-wrap gap-2 pt-2">
-                  {d.soon ? (
-                    <span
-                      className="rounded-xl border border-dashed border-[var(--b-border)] px-4 py-2 text-[0.82rem] font-semibold text-[var(--b-dim)]"
-                      aria-disabled="true"
-                    >
-                      Coming soon
-                    </span>
-                  ) : (
-                    d.links.map(l => (
-                      <Link
-                        key={l.href}
-                        href={l.href}
-                        className="b-press rounded-xl bg-[var(--b-raised)] px-4 py-2 text-[0.82rem] font-semibold text-[var(--b-text)] ring-1 ring-inset ring-[var(--b-border)] hover:ring-[var(--b-primary)] hover:text-[var(--b-primary)]"
-                      >
-                        {l.label}
-                      </Link>
-                    ))
-                  )}
-                </div>
-              </div>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {(featureEnglish ? LANGS.slice(1) : LANGS).map(d => (
+              <DeckCard key={d.tag} d={d} />
             ))}
           </div>
         </section>

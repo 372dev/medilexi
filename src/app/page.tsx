@@ -42,12 +42,12 @@ const LANGS: Deck[] = [
   {
     tag: '한국어', title: 'Korean ↔ English', note: 'Bilingual glossary + flashcards',
     links: [{ href: '/glossary/ko', label: 'Glossary' }, { href: '/flashcards/ko', label: 'Flashcard' }],
-    sample: { lead: 'For example', term: '고혈압', gloss: 'Hypertension' },
+    sample: { lead: 'For example', term: '당뇨병', gloss: 'Diabetes' },
   },
   {
     tag: 'Français', title: 'French ↔ English', note: 'Bilingual glossary + flashcards',
     links: [{ href: '/glossary/fr', label: 'Glossary' }, { href: '/flashcards/fr', label: 'Flashcard' }],
-    sample: { lead: 'For example', term: 'Infarctus du myocarde', gloss: 'Heart attack' },
+    sample: { lead: 'For example', term: 'Grippe', gloss: 'Flu' },
   },
   {
     tag: 'Español', title: 'Spanish ↔ English', note: 'Coming soon',

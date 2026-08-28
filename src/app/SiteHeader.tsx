@@ -71,8 +71,20 @@ export default function SiteHeader({ toggle, variant = 'sticky', shown = true }:
       aria-hidden={variant === 'reveal' && !shown}
     >
       <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-3 px-5 py-3">
-        {/* left: wordmark + desktop nav */}
+        {/* left: home icon + wordmark + desktop nav */}
         <div className="flex items-center gap-1">
+          <Link
+            href="/welcome"
+            aria-label="Inter Lexi home"
+            title="Inter Lexi home"
+            className="b-press b-focus mr-1 inline-flex items-center justify-center rounded-full border border-[var(--b-border)] bg-[var(--b-panel)] p-2 text-[var(--b-dim)] hover:text-[var(--b-primary)]"
+          >
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M3 10.5 12 3l9 7.5" />
+              <path d="M5 9.5V21h14V9.5" />
+              <path d="M9 21v-6h6v6" />
+            </svg>
+          </Link>
           <Link
             href="/medical"
             className="b-focus mr-2 text-[1.1rem] font-semibold tracking-[-0.008em] text-[var(--b-text)] hover:opacity-80"

@@ -8,10 +8,11 @@ const MED = '/medical' // Medi Lexi lives under this subdirectory
 // One timestamp per build, rather than a hand-edited date that goes stale.
 const LAST_MOD = new Date()
 
-// Community (root) + product-home routes.
+// Site entry points. '/' redirects to Medi Lexi, so /medical is the effective
+// home; the Inter Lexi landing at /welcome is low-priority (home-icon only).
 const ROOT_ROUTES: Array<{ path: string; priority: number }> = [
-  { path: '/',   priority: 1.0 },  // community workspace
-  { path: MED,   priority: 0.95 }, // Medi Lexi home
+  { path: MED,        priority: 1.0 },
+  { path: '/welcome', priority: 0.3 },
 ]
 
 // Medi Lexi routes, served under /medical.

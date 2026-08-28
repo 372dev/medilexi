@@ -15,8 +15,9 @@ export default function ClientShell({ children }: { children: React.ReactNode })
   const [cookieDismissed, setCookieDismissed] = useState(true)
   const [revealed, setRevealed] = useState(false)
   const pathname = usePathname()
-  // The community workspace lives at '/'; Medi Lexi's landing is now '/medical'.
-  const isCommunity = pathname === '/'
+  // '/' redirects to Medi Lexi; the Inter Lexi landing lives at '/welcome'.
+  // Medi Lexi's own landing is '/medical'.
+  const isCommunity = pathname === '/welcome'
   const isHome = pathname === '/medical'
 
   useEffect(() => {

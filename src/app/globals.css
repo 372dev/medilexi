@@ -1115,3 +1115,8 @@ body.day .rv-cnt--over { color: #991B1B; }
   background: color-mix(in srgb, var(--b-primary) 24%, transparent);
   color: inherit; border-radius: 3px; padding: 0 0.06em;
 }
+
+/* Glossary definition fades in when its lazily-fetched chunk lands. */
+@keyframes b-fade { from { opacity: 0 } to { opacity: 1 } }
+.b-fade { animation: b-fade 0.28s ease both; }
+@media (prefers-reduced-motion: reduce) { .b-fade { animation: none; } }

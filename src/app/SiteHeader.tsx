@@ -45,6 +45,16 @@ export default function SiteHeader({ toggle, variant = 'sticky', shown = true }:
     return () => document.removeEventListener('mousedown', onDown)
   }, [glossOpen])
 
+  // Feedback: navigate to /about?to=feedback normally, but if we're already on
+  // /about a query change won't re-trigger the reveal, so fire an event instead.
+  const onFeedback = (e: React.MouseEvent) => {
+    if (pathname === '/about') {
+      e.preventDefault()
+      window.dispatchEvent(new Event('medilexi:feedback'))
+    }
+    setMenuOpen(false)
+  }
+
   const glossActive = pathname.startsWith('/glossary')
   const link = (active: boolean) =>
     `b-focus rounded-lg px-2.5 py-1.5 text-[0.84rem] font-semibold transition-colors ${
@@ -115,6 +125,7 @@ export default function SiteHeader({ toggle, variant = 'sticky', shown = true }:
           <Link href="/about" className={`${link(pathname.startsWith('/about'))} hidden md:inline-block`}>About</Link>
           <Link
             href="/about?to=feedback"
+            onClick={onFeedback}
             aria-label="Send feedback"
             title="Send feedback"
             className="b-press b-focus hidden items-center justify-center rounded-full border border-[var(--b-border)] bg-[var(--b-panel)] p-2.5 text-[var(--b-dim)] hover:text-[var(--b-primary)] md:inline-flex"
@@ -150,7 +161,7 @@ export default function SiteHeader({ toggle, variant = 'sticky', shown = true }:
             <span className="rounded-lg px-2.5 py-1.5 text-[0.84rem] font-semibold text-[var(--b-dim)] opacity-70">Español · soon</span>
             <Link href="/flashcards/abbr" className={`${link(pathname.startsWith('/flashcards/abbr'))} mt-2`}>Abbreviations</Link>
             <Link href="/about" className={link(pathname.startsWith('/about'))}>About</Link>
-            <Link href="/about?to=feedback" className={link(false)}>Send feedback</Link>
+            <Link href="/about?to=feedback" onClick={onFeedback} className={link(false)}>Send feedback</Link>
           </nav>
         </div>
       )}

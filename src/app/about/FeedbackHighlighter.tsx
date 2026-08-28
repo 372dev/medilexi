@@ -1,38 +1,40 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { useSearchParams } from 'next/navigation'
 
-/* When the header's feedback (bug) button routes here with ?to=feedback, scroll
-   to the feedback section and glow the form button after a short delay, echoing
-   the landing CTA. Renders nothing. */
+/* Scrolls to the feedback section and glows the form button. Triggered two ways:
+   arriving from another page with ?to=feedback, or — when already on /about — a
+   `medilexi:feedback` window event dispatched by the header's bug button. */
 
 export default function FeedbackHighlighter() {
   const to = useSearchParams().get('to')
+  const timers = useRef<number[]>([])
 
   useEffect(() => {
-    if (to !== 'feedback') return
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    const section = document.getElementById('feedback')
-    const btn = document.getElementById('feedback-form')
+    const clear = () => { timers.current.forEach(clearTimeout); timers.current = [] }
 
-    // Scroll after ClientShell's on-navigation scroll-to-top has run.
-    const t1 = window.setTimeout(() => {
-      section?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' })
-    }, 140)
-
-    let t2 = 0
-    let t3 = 0
-    if (!reduce && btn) {
-      t2 = window.setTimeout(() => {
-        btn.classList.remove('b-flash')
-        void btn.offsetWidth // restart the animation on repeat visits
-        btn.classList.add('b-flash')
-        t3 = window.setTimeout(() => btn.classList.remove('b-flash'), 1400)
-      }, 950)
+    const run = () => {
+      clear()
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      const section = document.getElementById('feedback')
+      const btn = document.getElementById('feedback-form')
+      timers.current.push(window.setTimeout(() => {
+        section?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' })
+      }, 140))
+      if (!reduce && btn) {
+        timers.current.push(window.setTimeout(() => {
+          btn.classList.remove('b-flash')
+          void btn.offsetWidth
+          btn.classList.add('b-flash')
+          timers.current.push(window.setTimeout(() => btn.classList.remove('b-flash'), 1400))
+        }, 950))
+      }
     }
 
-    return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3) }
+    if (to === 'feedback') run()
+    window.addEventListener('medilexi:feedback', run)
+    return () => { window.removeEventListener('medilexi:feedback', run); clear() }
   }, [to])
 
   return null

@@ -16,9 +16,9 @@ const frMap = new Map<string, FrEntry>()
 for (const k of frData as unknown as FrEntry[]) frMap.set(k.en_h, k)
 
 const entries: FrLeanEntry[] = (baseData as unknown as BaseEntry[])
+  .filter(v => !!frMap.get(v.en_h)?.fr_h)
   .map(v => {
-    const k = frMap.get(v.en_h)
-    if (!k?.fr_h) return null
+    const k = frMap.get(v.en_h)!
     return {
       en_h: v.en_h,
       slug: slugify(v.en_h),
@@ -30,7 +30,6 @@ const entries: FrLeanEntry[] = (baseData as unknown as BaseEntry[])
       lvl: normalizeLvl(v.lvl),
     }
   })
-  .filter((e): e is FrLeanEntry => e !== null)
 
 const allFields = Array.from(new Set(entries.flatMap(e => e.f))).sort()
 

@@ -60,7 +60,7 @@ export default function WordPartsList({ parts }: { parts: LeanPart[] }) {
     need.forEach(w => requested.current.add(w))
     for (let i = 0; i < need.length; i += 60) {
       const chunk = need.slice(i, i + 60)
-      fetch(`/api/wpex?ids=${chunk.map(encodeURIComponent).join(',')}`)
+      fetch(`/api/wpex?ids=${chunk.map(encodeURIComponent).join('~')}`)
         .then(r => r.ok ? r.json() : Promise.reject(new Error('wpex')))
         .then((data: Record<string, ExPairs>) => setExMap(prev => {
           const m = new Map(prev)

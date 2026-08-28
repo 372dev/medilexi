@@ -200,7 +200,7 @@ export default function WordPartsExam() {
         </div>
 
         <div style={{ textAlign: 'center', marginTop: '1.75rem' }}>
-          <Link href="/wordparts" style={{ fontSize: '0.82rem', color: 'var(--b-dim)', textDecoration: 'underline' }}>
+          <Link href="/medical/wordparts" style={{ fontSize: '0.82rem', color: 'var(--b-dim)', textDecoration: 'underline' }}>
             ← Back to Word Parts
           </Link>
         </div>

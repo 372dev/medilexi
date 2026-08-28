@@ -2,34 +2,38 @@
 
 import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
-import partsData from '@/data/medical_wordparts.json'
-import { LVL_TEXT } from '@/lib/vocab-constants'
+import vocabData from '@/data/medical_vocab.json'
+import partsData from '@/data/medical_wordparts_simple.json'
+import { ALL_LEVELS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 
-/* Direction B sample. Deck/session/keyboard logic is unchanged from the live
-   page; only the presentation moved. Levels read as labels, not stars. */
+/* Direction "Signal" redesign. Deck / session / keyboard logic is unchanged
+   from the live page; only the presentation moved to the .b-* kit. Levels read
+   as labelled pills instead of stars. */
 
-interface WordPart {
-  wp: string; t: 'p'|'r'|'s'; lvl: 1|2|3
-  d: string; ex: [[string,string],[string,string]]
+interface VocabEntry {
+  en_h: string; en_l?: string; abbr?: string
+  f: string[]; d: string; lvl: number
+  parts?: { p?: string[]; r?: string[]; s?: string[] }
 }
+interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
-const parts = partsData as WordPart[]
-const TYPE_LABEL: Record<string,string> = { p:'Prefix', r:'Root', s:'Suffix' }
-const TYPE_PLURAL: Record<string,string> = { p:'Prefixes', r:'Roots', s:'Suffixes' }
+const vocab    = (vocabData as unknown as VocabEntry[]).map((v): VocabEntry => ({ ...v, lvl: normalizeLvl(v.lvl) }))
+const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
+const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
 const LVL_BAR: Record<number,string> = { 3:'var(--b-primary)', 2:'var(--b-amber)', 1:'var(--b-dim)' }
 const display = { fontFamily: 'var(--b-display)' }
 
-export default function WordPartsFlashcard() {
+export default function FlashcardsPage() {
   /* ── Settings ── */
   const [showSettings, setShowSettings] = useState(true)
-  const [mode,        setMode]   = useState<'study'|'quiz'>('quiz')
-  const [typeFilter,  setType]   = useState<'all'|'p'|'r'|'s'>('all')
-  const [lvlFilter,   setLvl]    = useState<number|null>(null)
-  const [countLimit,  setCount]  = useState<number|null>(null)
+  const [mode,        setMode]   = useState<'study' | 'quiz'>('quiz')
+  const [lvlFilter,   setLvl]    = useState<number | null>(null)
+  const [countLimit,  setCount]  = useState<number | null>(null)
+  const [fieldFilter, setField]  = useState<string | null>(null)
 
   /* ── Session ── */
-  const [deck,    setDeck]    = useState<WordPart[]>([])
+  const [deck,    setDeck]    = useState<VocabEntry[]>([])
   const [cardIdx, setCardIdx] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [known,   setKnown]   = useState<Set<number>>(new Set())
@@ -43,16 +47,16 @@ export default function WordPartsFlashcard() {
   useEffect(() => { cardIdxRef.current = cardIdx }, [cardIdx])
 
   /* ── Derived ── */
-  const filtered = useMemo(() => parts.filter(p => {
-    if (typeFilter !== 'all' && p.t !== typeFilter) return false
-    if (lvlFilter && p.lvl !== lvlFilter) return false
+  const filtered = useMemo(() => vocab.filter(v => {
+    if (lvlFilter   && v.lvl !== lvlFilter)        return false
+    if (fieldFilter && !v.f.includes(fieldFilter)) return false
     return true
-  }), [typeFilter, lvlFilter])
+  }), [lvlFilter, fieldFilter])
 
   const previewCount = countLimit ? Math.min(countLimit, filtered.length) : filtered.length
-  const card = deck[cardIdx]
-  const done = started && cardIdx >= deck.length
-  const missedCards = done ? deck.filter((_, i) => !known.has(i)) : []
+  const card         = deck[cardIdx]
+  const done         = started && cardIdx >= deck.length
+  const missedCards  = done ? deck.filter((_, i) => !known.has(i)) : []
 
   useEffect(() => { doneRef.current = done }, [done])
 
@@ -71,15 +75,27 @@ export default function WordPartsFlashcard() {
     setCardIdx(0); setFlipped(false); setKnown(new Set())
   }
 
-  function next() { setFlipped(false); setTimeout(() => setCardIdx(i => i + 1), 150) }
-  function prev() {
+  function markKnown() {
+    setFlipped(false)
+    // Update `known` and `cardIdx` together after the flip-back, so the derived
+    // counts (missed = cardIdx - known.size) never render a transient off-by-one.
+    setTimeout(() => {
+      setKnown(s => { const n = new Set(s); n.add(cardIdxRef.current); return n })
+      setCardIdx(i => i + 1)
+    }, 150)
+  }
+  function markUnknown() {
+    setFlipped(false)
+    setTimeout(() => setCardIdx(i => i + 1), 150)
+  }
+  function prevCard() {
     if (cardIdxRef.current === 0) return
     setFlipped(false)
     setTimeout(() => setCardIdx(i => Math.max(0, i - 1)), 150)
   }
-  function handleGotIt() {
-    setKnown(s => { const n = new Set(s); n.add(cardIdxRef.current); return n })
-    next()
+  function nextCard() {
+    setFlipped(false)
+    setTimeout(() => setCardIdx(i => i + 1), 150)
   }
 
   /* ── Keyboard ── */
@@ -89,17 +105,23 @@ export default function WordPartsFlashcard() {
       if (doneRef.current) return
       if (e.code === 'Space') { e.preventDefault(); setFlipped(f => !f); return }
       if (mode === 'study') {
-        if (e.code === 'ArrowRight') next()
-        if (e.code === 'ArrowLeft')  prev()
+        if (e.code === 'ArrowRight') nextCard()
+        if (e.code === 'ArrowLeft')  prevCard()
       } else {
-        if (e.code === 'ArrowRight' && flippedRef.current) handleGotIt()
-        if (e.code === 'ArrowLeft'  && flippedRef.current) next()
+        if (e.code === 'ArrowRight' && flippedRef.current) markKnown()
+        if (e.code === 'ArrowLeft'  && flippedRef.current) markUnknown()
       }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [started, showSettings, mode])
 
+  const cardParts = card?.parts
+  const hasParts = !!cardParts && (['p','r','s'] as const).some(t => (cardParts[t]?.length ?? 0) > 0)
+
+  /* ════════════════════════════════════
+     RENDER
+  ════════════════════════════════════ */
   return (
     <>
       {/* ── Settings modal ── */}
@@ -111,7 +133,7 @@ export default function WordPartsFlashcard() {
           <div className="b-card b-lift w-full max-w-[440px] p-7">
             <div className="mb-6 flex flex-col gap-1">
               <span className="text-[0.7rem] font-bold uppercase tracking-[0.14em] text-[var(--b-primary)]">
-                Word parts
+                English
               </span>
               <h1 className="m-0 text-[1.5rem] font-semibold tracking-[-0.008em]" style={display}>
                 Flashcard setup
@@ -142,34 +164,35 @@ export default function WordPartsFlashcard() {
               </p>
             </div>
 
-            {/* Type */}
-            <div className="mb-5 flex flex-col gap-2">
-              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Type</span>
-              <div className="flex flex-wrap gap-2">
-                <button className={`b-fpill b-focus ${typeFilter==='all'?'b-fpill--active':''}`} onClick={() => setType('all')}>All</button>
-                {(['p','r','s'] as const).map(t => (
-                  <button key={t} className={`b-fpill b-focus ${typeFilter===t?'b-fpill--active':''}`} onClick={() => setType(t)}>
-                    {TYPE_PLURAL[t]}
-                  </button>
-                ))}
-              </div>
-            </div>
-
             {/* Level */}
             <div className="mb-5 flex flex-col gap-2">
               <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Level</span>
               <div className="flex flex-wrap gap-2">
                 <button className={`b-fpill b-focus ${!lvlFilter?'b-fpill--active':''}`} onClick={() => setLvl(null)}>All</button>
-                {[3,2,1].map(l => (
+                {ALL_LEVELS.map(lvl => (
                   <button
-                    key={l}
-                    className={`b-fpill b-focus ${lvlFilter===l?'b-fpill--active':''}`}
-                    onClick={() => setLvl(lvlFilter===l?null:l)}
+                    key={lvl}
+                    className={`b-fpill b-focus ${lvlFilter===lvl?'b-fpill--active':''}`}
+                    onClick={() => setLvl(lvlFilter===lvl?null:lvl)}
                   >
-                    {LVL_TEXT[l]}
+                    {LVL_TEXT[lvl]}
                   </button>
                 ))}
               </div>
+            </div>
+
+            {/* Specialty */}
+            <div className="mb-5 flex flex-col gap-2">
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Specialty</span>
+              <select
+                className="b-select b-focus w-full"
+                aria-label="Filter by specialty"
+                value={fieldFilter || ''}
+                onChange={e => setField(e.target.value || null)}
+              >
+                <option value="">All specialties</option>
+                {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
+              </select>
             </div>
 
             {/* Count */}
@@ -181,7 +204,7 @@ export default function WordPartsFlashcard() {
                     key={n ?? 'all'}
                     onClick={() => setCount(n)}
                     aria-pressed={countLimit===n}
-                    className={`b-focus px-4 py-2 text-[0.82rem] font-semibold tabular-nums ${
+                    className={`b-focus px-4 py-2 text-[0.82rem] font-semibold ${
                       countLimit===n ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'
                     }`}
                   >
@@ -191,7 +214,7 @@ export default function WordPartsFlashcard() {
               </div>
             </div>
 
-            {/* Distribution */}
+            {/* Level distribution */}
             <div className="mb-5 border-t border-[var(--b-border)] pt-4">
               <div className="mb-2 flex items-baseline justify-between">
                 <span className="text-[1.4rem] font-semibold tabular-nums text-[var(--b-primary)]" style={display}>
@@ -203,8 +226,8 @@ export default function WordPartsFlashcard() {
               </div>
               <div className="mb-2 flex h-1.5 overflow-hidden rounded-full bg-[var(--b-border)]">
                 {([3,2,1] as const).map(l => {
-                  const cnt = filtered.filter(p => p.lvl === l).length
-                  return cnt > 0 ? (
+                  const cnt = filtered.filter(v => v.lvl === l).length
+                  return cnt > 0 && filtered.length > 0 ? (
                     <div key={l} style={{ width:`${(cnt/filtered.length)*100}%`, background:LVL_BAR[l], transition:'width 0.3s' }} />
                   ) : null
                 })}
@@ -213,7 +236,7 @@ export default function WordPartsFlashcard() {
                 {([3,2,1] as const).map(l => (
                   <span key={l} className="flex items-center gap-1.5 text-[0.76rem] text-[var(--b-dim)]">
                     <span className="h-2 w-2 rounded-full" style={{ background:LVL_BAR[l] }} aria-hidden="true" />
-                    {LVL_TEXT[l]} <span className="tabular-nums">{filtered.filter(p => p.lvl === l).length}</span>
+                    {LVL_TEXT[l]} <span className="tabular-nums">{filtered.filter(v => v.lvl === l).length}</span>
                   </span>
                 ))}
               </div>
@@ -229,10 +252,10 @@ export default function WordPartsFlashcard() {
             </button>
 
             <div className="mt-5 flex flex-col items-center gap-2">
-              <Link href="/wordparts" className="b-focus text-[0.82rem] text-[var(--b-dim)] hover:text-[var(--b-text)] hover:underline">
-                ← Back to Word Parts
+              <Link href="/medical/glossary" className="b-focus text-[0.82rem] text-[var(--b-dim)] hover:text-[var(--b-text)] hover:underline">
+                ← Back to Glossary
               </Link>
-              <Link href="/" className="b-focus text-[0.82rem] text-[var(--b-dim)] opacity-70 hover:text-[var(--b-text)] hover:underline">
+              <Link href="/medical" className="b-focus text-[0.82rem] text-[var(--b-dim)] opacity-70 hover:text-[var(--b-text)] hover:underline">
                 ← Back to Main
               </Link>
             </div>
@@ -286,35 +309,46 @@ export default function WordPartsFlashcard() {
                     className="b-card b-lift absolute inset-0 flex flex-col items-center justify-center gap-4 p-8"
                     style={{ backfaceVisibility:'hidden' }}
                   >
-                    <span className={`b-badge b-badge--${card.t}`}>{TYPE_LABEL[card.t]}</span>
+                    <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
                     <div
-                      className="text-center text-[2.9rem] font-semibold leading-none tracking-[-0.01em] text-[var(--b-text)]"
+                      className="text-center text-[2.1rem] font-semibold leading-[1.2] tracking-[-0.01em] text-[var(--b-text)]"
                       style={display}
                     >
-                      {card.wp}
+                      {card.en_h}
                     </div>
-                    <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
-                    <p className="mt-auto m-0 text-[0.78rem] text-[var(--b-dim)]">
+                    {card.abbr && <span className="b-abbr">{card.abbr}</span>}
+                    <p className="m-0 mt-auto text-[0.78rem] text-[var(--b-dim)]">
                       <kbd className="b-kbd">Space</kbd> or tap to reveal
                     </p>
                   </div>
 
                   {/* Back */}
                   <div
-                    className="b-card b-lift absolute inset-0 flex flex-col items-center gap-3 overflow-y-auto p-7"
+                    className="b-card b-lift absolute inset-0 flex flex-col gap-2.5 overflow-y-auto p-7"
                     style={{ backfaceVisibility:'hidden', transform:'rotateY(180deg)', borderColor:'var(--b-primary)' }}
                   >
-                    <div
-                      className="text-center text-[2rem] font-semibold leading-tight tracking-[-0.008em] text-[var(--b-text)]"
-                      style={display}
-                    >
-                      {card.wp}
+                    <div className="text-[1.4rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
+                      {card.en_h}
                     </div>
-                    <div className="text-center text-[0.98rem] leading-[1.6] text-[var(--b-dim)]">{card.d}</div>
-                    <div className="mt-1 flex w-full flex-col gap-1.5">
-                      {card.ex.map(([term,def],j) => (
-                        <div key={j} className="b-ex"><strong>{term}</strong> · {def}</div>
-                      ))}
+                    {card.en_l && <div className="text-[1rem] text-[var(--b-dim)]">{card.en_l}</div>}
+                    <p className="m-0 text-[0.92rem] leading-[1.65] text-[var(--b-dim)]">{card.d}</p>
+
+                    {hasParts && (
+                      <div className="flex flex-col gap-1.5">
+                        {(['p','r','s'] as const).flatMap(t =>
+                          (cardParts?.[t] ?? []).map(wp => (
+                            <div key={`${t}-${wp}`} className="b-ex">
+                              <strong className={`b-part--${t}`}>{wp}</strong>
+                              {partsMap[wp]?.d ? ` · ${partsMap[wp].d}` : ''}
+                            </div>
+                          ))
+                        )}
+                      </div>
+                    )}
+
+                    <div className="mt-auto flex flex-wrap items-center gap-1.5 pt-2">
+                      <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
+                      {card.f.map(f => <span key={f} className="b-field">{f}</span>)}
                     </div>
                   </div>
                 </div>
@@ -325,14 +359,14 @@ export default function WordPartsFlashcard() {
                 <>
                   <div className="flex justify-center gap-3">
                     <button
-                      onClick={prev}
+                      onClick={prevCard}
                       disabled={cardIdx===0}
                       className="b-press b-focus rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-2.5 text-[0.85rem] font-semibold text-[var(--b-dim)] disabled:opacity-35"
                     >
                       ← Prev
                     </button>
                     <button
-                      onClick={next}
+                      onClick={nextCard}
                       className="b-press b-glow b-focus rounded-xl bg-[var(--b-primary)] px-6 py-2.5 text-[0.85rem] font-bold text-[var(--b-on-prim)]"
                     >
                       Next →
@@ -349,13 +383,13 @@ export default function WordPartsFlashcard() {
                 flipped ? (
                   <div className="flex justify-center gap-3">
                     <button
-                      onClick={next}
+                      onClick={markUnknown}
                       className="b-press b-focus rounded-xl border border-[#C94040] bg-[rgba(201,64,64,0.14)] px-7 py-3 text-[0.88rem] font-bold text-[#FCA5A5]"
                     >
                       <kbd className="b-kbd">←</kbd> Review
                     </button>
                     <button
-                      onClick={handleGotIt}
+                      onClick={markKnown}
                       className="b-press b-focus rounded-xl border border-[var(--b-primary)] px-7 py-3 text-[0.88rem] font-bold text-[var(--b-primary)]"
                       style={{ background: 'color-mix(in srgb, var(--b-primary) 16%, transparent)' }}
                     >
@@ -408,10 +442,9 @@ export default function WordPartsFlashcard() {
                     <div className="flex max-h-[340px] flex-col gap-1.5 overflow-y-auto">
                       {missedCards.map((v, i) => (
                         <div key={i} className="b-card grid grid-cols-[1fr_1.4fr] gap-3 px-4 py-2.5 text-[0.85rem] leading-[1.5]">
-                          <span className="font-bold text-[var(--b-text)]">{v.wp}</span>
+                          <span className="font-bold text-[var(--b-text)]">{v.en_h}</span>
                           <span className="text-[var(--b-dim)]">
-                            <span className="mr-1.5 opacity-60">[{TYPE_LABEL[v.t]}]</span>
-                            {v.d.length > 50 ? v.d.slice(0, 50) + '…' : v.d}
+                            {v.en_l || (v.d.length > 55 ? v.d.slice(0, 55) + '…' : v.d)}
                           </span>
                         </div>
                       ))}

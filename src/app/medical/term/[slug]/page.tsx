@@ -8,7 +8,7 @@ import koData from '@/data/medical_vocab_ko.json'
 import frData from '@/data/medical_vocab_fr.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 
-const BASE_URL = 'https://medilexi.vercel.app'
+const BASE_URL = 'https://interlexi.com/medical'
 
 type Vocab = { en_h: string; en_l?: string; abbr?: string; f: string[]; d: string; lvl: number; parts?: { p?: string[]; r?: string[]; s?: string[] } }
 type Ko = { en_h: string; ko_h: string; ko_l?: string; d_ko?: string }
@@ -117,7 +117,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(entry, ko, fr)) }} />
 
       <nav className="mb-6 text-sm">
-        <Link href="/glossary" className="b-link b-focus">
+        <Link href="/medical/glossary" className="b-link b-focus">
           ← Glossary
         </Link>
       </nav>
@@ -201,7 +201,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
           <ul className="flex flex-wrap gap-x-4 gap-y-2">
             {related.map((r) => (
               <li key={r.en_h}>
-                <Link href={`/term/${slugify(r.en_h)}`} className="b-link b-focus">
+                <Link href={`/medical/term/${slugify(r.en_h)}`} className="b-link b-focus">
                   {r.en_h}
                 </Link>
               </li>

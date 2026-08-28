@@ -6,9 +6,10 @@ import vocabData from '@/data/medical_vocab.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 
-/* Direction "Signal" redesign. Deck / session / keyboard logic is unchanged
-   from the live page; only the presentation moved to the .b-* kit. Levels read
-   as labelled pills instead of stars. */
+/* Direction "Signal" redesign. Deck / session / keyboard / direction logic is
+   unchanged from the live page; only the presentation moved to the .b-* kit.
+   The front deliberately carries no level indicator: the level is part of the
+   reveal, so only the fields hint at the answer. */
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
@@ -17,20 +18,23 @@ interface VocabEntry {
 }
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
-const vocab    = (vocabData as unknown as VocabEntry[]).map((v): VocabEntry => ({ ...v, lvl: normalizeLvl(v.lvl) }))
+const abbrVocab = (vocabData as unknown as VocabEntry[])
+  .map((v): VocabEntry => ({ ...v, lvl: normalizeLvl(v.lvl) }))
+  .filter((v): v is VocabEntry => !!v.abbr)
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
-const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
+const ALL_FIELDS = Array.from(new Set(abbrVocab.flatMap(v => v.f))).sort()
 const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
 const LVL_BAR: Record<number,string> = { 3:'var(--b-primary)', 2:'var(--b-amber)', 1:'var(--b-dim)' }
 const display = { fontFamily: 'var(--b-display)' }
 
-export default function FlashcardsPage() {
+export default function AbbrFlashcardsPage() {
   /* ── Settings ── */
   const [showSettings, setShowSettings] = useState(true)
-  const [mode,        setMode]   = useState<'study' | 'quiz'>('quiz')
-  const [lvlFilter,   setLvl]    = useState<number | null>(null)
-  const [countLimit,  setCount]  = useState<number | null>(null)
-  const [fieldFilter, setField]  = useState<string | null>(null)
+  const [mode,        setMode]      = useState<'study' | 'quiz'>('quiz')
+  const [direction,   setDirection] = useState<'abbr-en' | 'en-abbr'>('abbr-en')
+  const [lvlFilter,   setLvl]       = useState<number | null>(null)
+  const [countLimit,  setCount]     = useState<number | null>(null)
+  const [fieldFilter, setField]     = useState<string | null>(null)
 
   /* ── Session ── */
   const [deck,    setDeck]    = useState<VocabEntry[]>([])
@@ -39,7 +43,7 @@ export default function FlashcardsPage() {
   const [known,   setKnown]   = useState<Set<number>>(new Set())
   const [started, setStarted] = useState(false)
 
-  /* Refs for keyboard handler */
+  /* Refs */
   const flippedRef = useRef(false)
   const cardIdxRef = useRef(0)
   const doneRef    = useRef(false)
@@ -47,7 +51,7 @@ export default function FlashcardsPage() {
   useEffect(() => { cardIdxRef.current = cardIdx }, [cardIdx])
 
   /* ── Derived ── */
-  const filtered = useMemo(() => vocab.filter(v => {
+  const filtered = useMemo(() => abbrVocab.filter(v => {
     if (lvlFilter   && v.lvl !== lvlFilter)        return false
     if (fieldFilter && !v.f.includes(fieldFilter)) return false
     return true
@@ -57,6 +61,7 @@ export default function FlashcardsPage() {
   const card         = deck[cardIdx]
   const done         = started && cardIdx >= deck.length
   const missedCards  = done ? deck.filter((_, i) => !known.has(i)) : []
+  const isEnAbbr     = direction === 'en-abbr'
 
   useEffect(() => { doneRef.current = done }, [done])
 
@@ -119,9 +124,6 @@ export default function FlashcardsPage() {
   const cardParts = card?.parts
   const hasParts = !!cardParts && (['p','r','s'] as const).some(t => (cardParts[t]?.length ?? 0) > 0)
 
-  /* ════════════════════════════════════
-     RENDER
-  ════════════════════════════════════ */
   return (
     <>
       {/* ── Settings modal ── */}
@@ -133,11 +135,30 @@ export default function FlashcardsPage() {
           <div className="b-card b-lift w-full max-w-[440px] p-7">
             <div className="mb-6 flex flex-col gap-1">
               <span className="text-[0.7rem] font-bold uppercase tracking-[0.14em] text-[var(--b-primary)]">
-                English
+                Abbreviations
               </span>
               <h1 className="m-0 text-[1.5rem] font-semibold tracking-[-0.008em]" style={display}>
                 Flashcard setup
               </h1>
+            </div>
+
+            {/* Direction */}
+            <div className="mb-5 flex flex-col gap-2">
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Direction</span>
+              <div className="inline-flex w-fit overflow-hidden rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)]">
+                {([['abbr-en','Abbr → Term'],['en-abbr','Term → Abbr']] as const).map(([d,label]) => (
+                  <button
+                    key={d}
+                    onClick={() => setDirection(d)}
+                    aria-pressed={direction===d}
+                    className={`b-focus px-4 py-2 text-[0.82rem] font-semibold ${
+                      direction===d ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'
+                    }`}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
             </div>
 
             {/* Mode */}
@@ -252,10 +273,10 @@ export default function FlashcardsPage() {
             </button>
 
             <div className="mt-5 flex flex-col items-center gap-2">
-              <Link href="/glossary" className="b-focus text-[0.82rem] text-[var(--b-dim)] hover:text-[var(--b-text)] hover:underline">
+              <Link href="/medical/glossary" className="b-focus text-[0.82rem] text-[var(--b-dim)] hover:text-[var(--b-text)] hover:underline">
                 ← Back to Glossary
               </Link>
-              <Link href="/" className="b-focus text-[0.82rem] text-[var(--b-dim)] opacity-70 hover:text-[var(--b-text)] hover:underline">
+              <Link href="/medical" className="b-focus text-[0.82rem] text-[var(--b-dim)] opacity-70 hover:text-[var(--b-text)] hover:underline">
                 ← Back to Main
               </Link>
             </div>
@@ -273,9 +294,9 @@ export default function FlashcardsPage() {
               <div className="mb-2 flex items-center justify-between">
                 <div className="flex items-center gap-3 text-[0.82rem] font-semibold tabular-nums text-[var(--b-dim)]">
                   <span>{cardIdx+1} / {deck.length}</span>
+                  <span className="opacity-60">{isEnAbbr ? 'Term → Abbr' : 'Abbr → Term'}</span>
                   {mode==='quiz' && <span className="text-[var(--b-primary)]">✓ {known.size}</span>}
                   {mode==='quiz' && <span className="text-[#FCA5A5]">✗ {Math.max(0, cardIdx - known.size)}</span>}
-                  {mode==='study' && <span className="opacity-60">Study</span>}
                 </div>
                 <button
                   onClick={() => setShowSettings(true)}
@@ -304,33 +325,57 @@ export default function FlashcardsPage() {
                   className="relative h-full w-full"
                   style={{ transformStyle:'preserve-3d', transition:'transform 0.28s ease', transform:flipped?'rotateY(180deg)':'none' }}
                 >
-                  {/* Front */}
+                  {/* Front — prompt + fields only. No level pill: the level is part of the reveal. */}
                   <div
                     className="b-card b-lift absolute inset-0 flex flex-col items-center justify-center gap-4 p-8"
                     style={{ backfaceVisibility:'hidden' }}
                   >
-                    <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
-                    <div
-                      className="text-center text-[2.1rem] font-semibold leading-[1.2] tracking-[-0.01em] text-[var(--b-text)]"
-                      style={display}
-                    >
-                      {card.en_h}
+                    {isEnAbbr ? (
+                      <div
+                        className="text-center text-[2.1rem] font-semibold leading-[1.2] tracking-[-0.01em] text-[var(--b-text)]"
+                        style={display}
+                      >
+                        {card.en_h}
+                      </div>
+                    ) : (
+                      <div
+                        className="text-center text-[2.6rem] font-bold leading-[1.2] tracking-[0.03em] text-[var(--b-primary)]"
+                        style={display}
+                      >
+                        {card.abbr}
+                      </div>
+                    )}
+                    <div className="flex flex-wrap justify-center gap-1.5">
+                      {card.f.map(f => <span key={f} className="b-field">{f}</span>)}
                     </div>
-                    {card.abbr && <span className="b-abbr">{card.abbr}</span>}
                     <p className="m-0 mt-auto text-[0.78rem] text-[var(--b-dim)]">
                       <kbd className="b-kbd">Space</kbd> or tap to reveal
                     </p>
                   </div>
 
-                  {/* Back */}
+                  {/* Back — level first, then the reveal, fields at the bottom */}
                   <div
                     className="b-card b-lift absolute inset-0 flex flex-col gap-2.5 overflow-y-auto p-7"
                     style={{ backfaceVisibility:'hidden', transform:'rotateY(180deg)', borderColor:'var(--b-primary)' }}
                   >
-                    <div className="text-[1.4rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
-                      {card.en_h}
-                    </div>
-                    {card.en_l && <div className="text-[1rem] text-[var(--b-dim)]">{card.en_l}</div>}
+                    <span className={`b-lvl b-lvl--${card.lvl} self-start`}>{LVL_TEXT[card.lvl]}</span>
+
+                    {isEnAbbr ? (
+                      <div
+                        className="text-[1.9rem] font-bold leading-tight tracking-[0.03em] text-[var(--b-primary)]"
+                        style={display}
+                      >
+                        {card.abbr}
+                      </div>
+                    ) : (
+                      <>
+                        <div className="text-[1.4rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
+                          {card.en_h}
+                        </div>
+                        {card.en_l && <div className="text-[1rem] text-[var(--b-dim)]">{card.en_l}</div>}
+                      </>
+                    )}
+
                     <p className="m-0 text-[0.92rem] leading-[1.65] text-[var(--b-dim)]">{card.d}</p>
 
                     {hasParts && (
@@ -347,7 +392,6 @@ export default function FlashcardsPage() {
                     )}
 
                     <div className="mt-auto flex flex-wrap items-center gap-1.5 pt-2">
-                      <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
                       {card.f.map(f => <span key={f} className="b-field">{f}</span>)}
                     </div>
                   </div>
@@ -441,11 +485,9 @@ export default function FlashcardsPage() {
                     </div>
                     <div className="flex max-h-[340px] flex-col gap-1.5 overflow-y-auto">
                       {missedCards.map((v, i) => (
-                        <div key={i} className="b-card grid grid-cols-[1fr_1.4fr] gap-3 px-4 py-2.5 text-[0.85rem] leading-[1.5]">
-                          <span className="font-bold text-[var(--b-text)]">{v.en_h}</span>
-                          <span className="text-[var(--b-dim)]">
-                            {v.en_l || (v.d.length > 55 ? v.d.slice(0, 55) + '…' : v.d)}
-                          </span>
+                        <div key={i} className="b-card grid grid-cols-[auto_1fr] items-center gap-3 px-4 py-2.5 text-[0.85rem] leading-[1.5]">
+                          <span className="font-bold tracking-[0.03em] text-[var(--b-primary)]" style={display}>{v.abbr}</span>
+                          <span className="text-[var(--b-dim)]">{v.en_h}</span>
                         </div>
                       ))}
                     </div>

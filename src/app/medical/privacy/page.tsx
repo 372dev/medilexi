@@ -32,7 +32,7 @@ export default function PrivacyPage() {
       <section style={{ marginBottom: '2rem' }}>
         <h2 style={H2}>Overview</h2>
         <p style={PROSE}>
-          Medi Lexi (<strong style={{ color: 'var(--b-text)' }}>medilexi.vercel.app</strong>) is a
+          Medi Lexi (<strong style={{ color: 'var(--b-text)' }}>interlexi.com/medical</strong>) is a
           free educational reference site. We do not require accounts, collect personal information,
           or sell any data. This policy explains what limited data is collected automatically through
           the services that run this site.
@@ -158,7 +158,7 @@ export default function PrivacyPage() {
         <h2 style={H2}>Contact</h2>
         <p style={{ ...PROSE, marginBottom: 0 }}>
           Questions about this privacy policy? Use the{' '}
-          <a href="/about" style={{ color: 'var(--b-amber)' }}>feedback form on the About page</a>.
+          <a href="/medical/about" style={{ color: 'var(--b-amber)' }}>feedback form on the About page</a>.
         </p>
       </section>
 

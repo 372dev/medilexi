@@ -15,7 +15,9 @@ export default function ClientShell({ children }: { children: React.ReactNode })
   const [cookieDismissed, setCookieDismissed] = useState(true)
   const [revealed, setRevealed] = useState(false)
   const pathname = usePathname()
-  const isHome = pathname === '/'
+  // The community workspace lives at '/'; Medi Lexi's landing is now '/medical'.
+  const isCommunity = pathname === '/'
+  const isHome = pathname === '/medical'
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -84,7 +86,11 @@ export default function ClientShell({ children }: { children: React.ReactNode })
 
   return (
     <>
-      {isHome ? (
+      {isCommunity ? (
+        /* Community workspace (placeholder for now). No Medi Lexi chrome; the
+           page owns its own layout on the shared --b-* theme. */
+        <div className="min-h-screen bg-[var(--b-bg)] text-[var(--b-text)]">{children}</div>
+      ) : isHome ? (
         /* Landing: page.tsx owns the layout. The nav reveals on scroll; the
            floating toggle covers the top of the page where the nav is hidden. */
         <div className="relative">
@@ -122,10 +128,10 @@ export default function ClientShell({ children }: { children: React.ReactNode })
                 and may not reflect the latest clinical guidelines
               </p>
               <div className="flex flex-wrap justify-center gap-5">
-                <Link href="/about" className="b-focus text-[0.84rem] font-semibold text-[var(--b-primary)] hover:underline">
+                <Link href="/medical/about" className="b-focus text-[0.84rem] font-semibold text-[var(--b-primary)] hover:underline">
                   About &amp; Sources
                 </Link>
-                <Link href="/privacy" className="b-focus text-[0.84rem] font-semibold text-[var(--b-primary)] hover:underline">
+                <Link href="/medical/privacy" className="b-focus text-[0.84rem] font-semibold text-[var(--b-primary)] hover:underline">
                   Privacy Policy
                 </Link>
               </div>
@@ -137,7 +143,7 @@ export default function ClientShell({ children }: { children: React.ReactNode })
             <div className="fixed inset-x-0 bottom-0 z-[200] flex flex-wrap items-center justify-center gap-4 border-t border-[var(--b-border)] bg-[var(--b-panel)] px-5 py-3">
               <p className="m-0 text-[0.82rem] leading-[1.6] text-[var(--b-dim)]">
                 This site uses cookies for analytics.{' '}
-                <Link href="/privacy" className="font-semibold text-[var(--b-primary)] underline">Learn more</Link>
+                <Link href="/medical/privacy" className="font-semibold text-[var(--b-primary)] underline">Learn more</Link>
               </p>
               <button
                 onClick={dismissCookieNotice}

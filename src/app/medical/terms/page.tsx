@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { slugify } from '@/lib/slug'
 import vocabData from '@/data/medical_vocab.json'
 
-const BASE_URL = 'https://medilexi.vercel.app'
+const BASE_URL = 'https://interlexi.com/medical'
 
 type Vocab = { en_h: string; abbr?: string }
 const VOCAB = vocabData as unknown as Vocab[]
@@ -53,7 +53,7 @@ export default function TermsIndexPage() {
         <p className="mt-2" style={{ color: 'var(--b-dim)' }}>
           Every term in the glossary. {VOCAB.length.toLocaleString()} entries, each with English,
           Korean, and French. Or{' '}
-          <Link href="/glossary" className="b-link">
+          <Link href="/medical/glossary" className="b-link">
             search the glossary
           </Link>
           .
@@ -82,7 +82,7 @@ export default function TermsIndexPage() {
           <ul className="grid grid-cols-1 gap-x-6 gap-y-1 sm:grid-cols-2 lg:grid-cols-3">
             {g.items.map((t) => (
               <li key={t.en_h}>
-                <Link href={`/term/${slugify(t.en_h)}`} className="b-tlink b-focus">
+                <Link href={`/medical/term/${slugify(t.en_h)}`} className="b-tlink b-focus">
                   {t.en_h}
                   {t.abbr ? <span style={{ color: 'var(--b-dim)' }}> ({t.abbr})</span> : null}
                 </Link>

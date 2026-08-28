@@ -56,7 +56,7 @@ function Card({ v, def, onFieldClick, mm }: { v: CardEntry; def?: DefRec; onFiel
       </div>
 
       <Link
-        href={`/term/${v.slug}`}
+        href={`/medical/term/${v.slug}`}
         className="b-focus block text-[1.2rem] font-semibold leading-[1.28] tracking-[-0.005em] text-[var(--b-text)] no-underline"
         style={{ fontFamily: 'var(--b-display)' }}
       >
@@ -193,7 +193,7 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
             {allFields.map(f => <option key={f} value={f}>{f}</option>)}
           </select>
           <Link
-            href="/flashcards"
+            href="/medical/flashcards"
             className="b-press b-focus hidden items-center whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-2.5 text-[0.82rem] font-semibold hover:border-[var(--b-primary)] hover:text-[var(--b-primary)] sm:inline-flex"
           >
             Flashcard →
@@ -217,7 +217,7 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
           </div>
           <span className="flex shrink-0 items-center gap-3 text-[0.78rem] font-medium text-[var(--b-dim)] tabular-nums">
             {filtered.length} terms
-            <Link href="/terms" className="b-focus font-semibold text-[var(--b-primary)] no-underline hover:opacity-80">
+            <Link href="/medical/terms" className="b-focus font-semibold text-[var(--b-primary)] no-underline hover:opacity-80">
               Browse all A–Z →
             </Link>
           </span>

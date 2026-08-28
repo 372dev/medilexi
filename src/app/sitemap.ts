@@ -2,13 +2,20 @@ import { MetadataRoute } from 'next'
 import { slugify } from '@/lib/slug'
 import vocabData from '@/data/medical_vocab.json'
 
-const BASE_URL = 'https://medilexi.vercel.app'
+const BASE_URL = 'https://interlexi.com'
+const MED = '/medical' // Medi Lexi lives under this subdirectory
 
 // One timestamp per build, rather than a hand-edited date that goes stale.
 const LAST_MOD = new Date()
 
-const STATIC_ROUTES: Array<{ path: string; priority: number }> = [
-  { path: '/',                    priority: 1.0 },
+// Community (root) + product-home routes.
+const ROOT_ROUTES: Array<{ path: string; priority: number }> = [
+  { path: '/',   priority: 1.0 },  // community workspace
+  { path: MED,   priority: 0.95 }, // Medi Lexi home
+]
+
+// Medi Lexi routes, served under /medical.
+const MED_ROUTES: Array<{ path: string; priority: number }> = [
   { path: '/glossary',            priority: 0.9 },
   { path: '/terms',               priority: 0.8 },
   { path: '/glossary/ko',         priority: 0.9 },
@@ -27,18 +34,25 @@ const STATIC_ROUTES: Array<{ path: string; priority: number }> = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const terms = (vocabData as unknown as Array<{ en_h: string }>).map((e) => ({
-    url: `${BASE_URL}/term/${slugify(e.en_h)}`,
+    url: `${BASE_URL}${MED}/term/${slugify(e.en_h)}`,
     lastModified: LAST_MOD,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))
 
-  const statics = STATIC_ROUTES.map((r) => ({
+  const roots = ROOT_ROUTES.map((r) => ({
     url: `${BASE_URL}${r.path}`,
     lastModified: LAST_MOD,
     changeFrequency: 'weekly' as const,
     priority: r.priority,
   }))
 
-  return [...statics, ...terms]
+  const meds = MED_ROUTES.map((r) => ({
+    url: `${BASE_URL}${MED}${r.path}`,
+    lastModified: LAST_MOD,
+    changeFrequency: 'weekly' as const,
+    priority: r.priority,
+  }))
+
+  return [...roots, ...meds, ...terms]
 }

@@ -3,41 +3,49 @@
 import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import vocabData from '@/data/medical_vocab.json'
+import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 
 /* Direction "Signal" redesign. Deck / session / keyboard / direction logic is
-   unchanged from the live page; only the presentation moved to the .b-* kit.
-   The front deliberately carries no level indicator: the level is part of the
-   reveal, so only the fields hint at the answer. */
+   unchanged from the live page; only the presentation moved to the .b-* kit. */
 
 interface VocabEntry {
   en_h: string; en_l?: string; abbr?: string
   f: string[]; d: string; lvl: number
   parts?: { p?: string[]; r?: string[]; s?: string[] }
 }
+interface KoEntry {
+  en_h: string; ko_h: string; ko_l?: string; d_ko: string
+}
+interface MergedEntry extends VocabEntry {
+  ko_h: string; ko_l?: string; d_ko: string
+}
 interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 
-const abbrVocab = (vocabData as unknown as VocabEntry[])
-  .map((v): VocabEntry => ({ ...v, lvl: normalizeLvl(v.lvl) }))
-  .filter((v): v is VocabEntry => !!v.abbr)
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
-const ALL_FIELDS = Array.from(new Set(abbrVocab.flatMap(v => v.f))).sort()
+
+const koMap = Object.fromEntries((koData as KoEntry[]).map(k => [k.en_h, k]))
+const vocab = (vocabData as unknown as VocabEntry[])
+  .map((v): MergedEntry => ({ ...v, ...koMap[v.en_h], lvl: normalizeLvl(v.lvl) }))
+  .filter((v): v is MergedEntry => !!koMap[v.en_h])
+
+const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
 const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
 const LVL_BAR: Record<number,string> = { 3:'var(--b-primary)', 2:'var(--b-amber)', 1:'var(--b-dim)' }
 const display = { fontFamily: 'var(--b-display)' }
 
-export default function AbbrFlashcardsPage() {
+export default function KoFlashcardsPage() {
   /* ── Settings ── */
   const [showSettings, setShowSettings] = useState(true)
   const [mode,        setMode]      = useState<'study' | 'quiz'>('quiz')
-  const [direction,   setDirection] = useState<'abbr-en' | 'en-abbr'>('abbr-en')
+  const [direction,   setDirection] = useState<'en-ko' | 'ko-en'>('en-ko')
   const [lvlFilter,   setLvl]       = useState<number | null>(null)
   const [countLimit,  setCount]     = useState<number | null>(null)
   const [fieldFilter, setField]     = useState<string | null>(null)
 
   /* ── Session ── */
-  const [deck,    setDeck]    = useState<VocabEntry[]>([])
+  const [deck,    setDeck]    = useState<MergedEntry[]>([])
   const [cardIdx, setCardIdx] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [known,   setKnown]   = useState<Set<number>>(new Set())
@@ -51,7 +59,7 @@ export default function AbbrFlashcardsPage() {
   useEffect(() => { cardIdxRef.current = cardIdx }, [cardIdx])
 
   /* ── Derived ── */
-  const filtered = useMemo(() => abbrVocab.filter(v => {
+  const filtered = useMemo(() => vocab.filter(v => {
     if (lvlFilter   && v.lvl !== lvlFilter)        return false
     if (fieldFilter && !v.f.includes(fieldFilter)) return false
     return true
@@ -61,7 +69,7 @@ export default function AbbrFlashcardsPage() {
   const card         = deck[cardIdx]
   const done         = started && cardIdx >= deck.length
   const missedCards  = done ? deck.filter((_, i) => !known.has(i)) : []
-  const isEnAbbr     = direction === 'en-abbr'
+  const isKoEn       = direction === 'ko-en'
 
   useEffect(() => { doneRef.current = done }, [done])
 
@@ -135,7 +143,7 @@ export default function AbbrFlashcardsPage() {
           <div className="b-card b-lift w-full max-w-[440px] p-7">
             <div className="mb-6 flex flex-col gap-1">
               <span className="text-[0.7rem] font-bold uppercase tracking-[0.14em] text-[var(--b-primary)]">
-                Abbreviations
+                한국어 · Korean
               </span>
               <h1 className="m-0 text-[1.5rem] font-semibold tracking-[-0.008em]" style={display}>
                 Flashcard setup
@@ -146,7 +154,7 @@ export default function AbbrFlashcardsPage() {
             <div className="mb-5 flex flex-col gap-2">
               <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Direction</span>
               <div className="inline-flex w-fit overflow-hidden rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)]">
-                {([['abbr-en','Abbr → Term'],['en-abbr','Term → Abbr']] as const).map(([d,label]) => (
+                {([['en-ko','EN → KO'],['ko-en','KO → EN']] as const).map(([d,label]) => (
                   <button
                     key={d}
                     onClick={() => setDirection(d)}
@@ -273,10 +281,10 @@ export default function AbbrFlashcardsPage() {
             </button>
 
             <div className="mt-5 flex flex-col items-center gap-2">
-              <Link href="/glossary" className="b-focus text-[0.82rem] text-[var(--b-dim)] hover:text-[var(--b-text)] hover:underline">
-                ← Back to Glossary
+              <Link href="/medical/glossary/ko" className="b-focus text-[0.82rem] text-[var(--b-dim)] hover:text-[var(--b-text)] hover:underline">
+                ← Back to Korean Glossary
               </Link>
-              <Link href="/" className="b-focus text-[0.82rem] text-[var(--b-dim)] opacity-70 hover:text-[var(--b-text)] hover:underline">
+              <Link href="/medical" className="b-focus text-[0.82rem] text-[var(--b-dim)] opacity-70 hover:text-[var(--b-text)] hover:underline">
                 ← Back to Main
               </Link>
             </div>
@@ -294,7 +302,7 @@ export default function AbbrFlashcardsPage() {
               <div className="mb-2 flex items-center justify-between">
                 <div className="flex items-center gap-3 text-[0.82rem] font-semibold tabular-nums text-[var(--b-dim)]">
                   <span>{cardIdx+1} / {deck.length}</span>
-                  <span className="opacity-60">{isEnAbbr ? 'Term → Abbr' : 'Abbr → Term'}</span>
+                  <span className="opacity-60">{isKoEn ? 'KO → EN' : 'EN → KO'}</span>
                   {mode==='quiz' && <span className="text-[var(--b-primary)]">✓ {known.size}</span>}
                   {mode==='quiz' && <span className="text-[#FCA5A5]">✗ {Math.max(0, cardIdx - known.size)}</span>}
                 </div>
@@ -325,58 +333,53 @@ export default function AbbrFlashcardsPage() {
                   className="relative h-full w-full"
                   style={{ transformStyle:'preserve-3d', transition:'transform 0.28s ease', transform:flipped?'rotateY(180deg)':'none' }}
                 >
-                  {/* Front — prompt + fields only. No level pill: the level is part of the reveal. */}
+                  {/* Front */}
                   <div
                     className="b-card b-lift absolute inset-0 flex flex-col items-center justify-center gap-4 p-8"
                     style={{ backfaceVisibility:'hidden' }}
                   >
-                    {isEnAbbr ? (
-                      <div
-                        className="text-center text-[2.1rem] font-semibold leading-[1.2] tracking-[-0.01em] text-[var(--b-text)]"
-                        style={display}
-                      >
-                        {card.en_h}
-                      </div>
+                    <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
+                    {isKoEn ? (
+                      <>
+                        <div className="text-center text-[2.3rem] font-semibold leading-[1.25] text-[var(--b-text)]">{card.ko_h}</div>
+                        {card.ko_l && <div className="text-center text-[1.15rem] text-[var(--b-dim)]">{card.ko_l}</div>}
+                      </>
                     ) : (
-                      <div
-                        className="text-center text-[2.6rem] font-bold leading-[1.2] tracking-[0.03em] text-[var(--b-primary)]"
-                        style={display}
-                      >
-                        {card.abbr}
-                      </div>
+                      <>
+                        <div
+                          className="text-center text-[2.1rem] font-semibold leading-[1.2] tracking-[-0.01em] text-[var(--b-text)]"
+                          style={display}
+                        >
+                          {card.en_h}
+                        </div>
+                        {card.abbr && <span className="b-abbr">{card.abbr}</span>}
+                      </>
                     )}
-                    <div className="flex flex-wrap justify-center gap-1.5">
-                      {card.f.map(f => <span key={f} className="b-field">{f}</span>)}
-                    </div>
                     <p className="m-0 mt-auto text-[0.78rem] text-[var(--b-dim)]">
                       <kbd className="b-kbd">Space</kbd> or tap to reveal
                     </p>
                   </div>
 
-                  {/* Back — level first, then the reveal, fields at the bottom */}
+                  {/* Back */}
                   <div
                     className="b-card b-lift absolute inset-0 flex flex-col gap-2.5 overflow-y-auto p-7"
                     style={{ backfaceVisibility:'hidden', transform:'rotateY(180deg)', borderColor:'var(--b-primary)' }}
                   >
-                    <span className={`b-lvl b-lvl--${card.lvl} self-start`}>{LVL_TEXT[card.lvl]}</span>
-
-                    {isEnAbbr ? (
-                      <div
-                        className="text-[1.9rem] font-bold leading-tight tracking-[0.03em] text-[var(--b-primary)]"
-                        style={display}
-                      >
-                        {card.abbr}
-                      </div>
-                    ) : (
+                    {isKoEn ? (
                       <>
                         <div className="text-[1.4rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
                           {card.en_h}
                         </div>
                         {card.en_l && <div className="text-[1rem] text-[var(--b-dim)]">{card.en_l}</div>}
+                        <p className="m-0 text-[0.92rem] leading-[1.65] text-[var(--b-dim)]">{card.d}</p>
+                      </>
+                    ) : (
+                      <>
+                        <div className="text-[1.5rem] font-semibold leading-tight text-[var(--b-primary)]">{card.ko_h}</div>
+                        {card.ko_l && <div className="text-[1rem] text-[var(--b-dim)]">{card.ko_l}</div>}
+                        <p className="m-0 text-[0.92rem] leading-[1.65] text-[var(--b-dim)]">{card.d_ko}</p>
                       </>
                     )}
-
-                    <p className="m-0 text-[0.92rem] leading-[1.65] text-[var(--b-dim)]">{card.d}</p>
 
                     {hasParts && (
                       <div className="flex flex-col gap-1.5">
@@ -392,6 +395,7 @@ export default function AbbrFlashcardsPage() {
                     )}
 
                     <div className="mt-auto flex flex-wrap items-center gap-1.5 pt-2">
+                      <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
                       {card.f.map(f => <span key={f} className="b-field">{f}</span>)}
                     </div>
                   </div>
@@ -485,9 +489,9 @@ export default function AbbrFlashcardsPage() {
                     </div>
                     <div className="flex max-h-[340px] flex-col gap-1.5 overflow-y-auto">
                       {missedCards.map((v, i) => (
-                        <div key={i} className="b-card grid grid-cols-[auto_1fr] items-center gap-3 px-4 py-2.5 text-[0.85rem] leading-[1.5]">
-                          <span className="font-bold tracking-[0.03em] text-[var(--b-primary)]" style={display}>{v.abbr}</span>
-                          <span className="text-[var(--b-dim)]">{v.en_h}</span>
+                        <div key={i} className="b-card grid grid-cols-[1fr_1fr] gap-3 px-4 py-2.5 text-[0.85rem] leading-[1.5]">
+                          <span className="font-bold text-[var(--b-text)]">{isKoEn ? v.ko_h : v.en_h}</span>
+                          <span className="text-[var(--b-dim)]">{isKoEn ? v.en_h : v.ko_h}</span>
                         </div>
                       ))}
                     </div>

@@ -281,10 +281,10 @@ export default function FrFlashcardsPage() {
             </button>
 
             <div className="mt-5 flex flex-col items-center gap-2">
-              <Link href="/glossary/fr" className="b-focus text-[0.82rem] text-[var(--b-dim)] hover:text-[var(--b-text)] hover:underline">
+              <Link href="/medical/glossary/fr" className="b-focus text-[0.82rem] text-[var(--b-dim)] hover:text-[var(--b-text)] hover:underline">
                 ← Back to French Glossary
               </Link>
-              <Link href="/" className="b-focus text-[0.82rem] text-[var(--b-dim)] opacity-70 hover:text-[var(--b-text)] hover:underline">
+              <Link href="/medical" className="b-focus text-[0.82rem] text-[var(--b-dim)] opacity-70 hover:text-[var(--b-text)] hover:underline">
                 ← Back to Main
               </Link>
             </div>

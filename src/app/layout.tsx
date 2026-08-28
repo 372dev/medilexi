@@ -4,7 +4,29 @@ import ClientShell from './ClientShell'
 import { PAGE_TITLES } from '@/lib/page-titles'
 import './globals.css'
 
-const BASE_URL = 'https://medilexi.vercel.app'
+const BASE_URL = 'https://interlexi.com'
+
+// Products live under subdirectories (/medical, /case…); the community workspace
+// is the root. Split a request path into its product domain and in-product
+// subpath so the per-route metadata maps below stay keyed on the subpath and are
+// reused across products.
+function splitDomain(raw: string): { domain: '' | 'medical' | 'case'; sub: string } {
+  const m = raw.match(/^\/(medical|case)(\/.*)?$/)
+  if (m) return { domain: m[1] as 'medical' | 'case', sub: m[2] || '/' }
+  return { domain: '', sub: raw }
+}
+
+// Absolute URL for a subpath within a product domain (sub '/' = the product home).
+function absUrl(domain: string, sub: string): string {
+  const base = domain ? `/${domain}` : ''
+  const path = sub === '/' ? '' : sub
+  return `${BASE_URL}${base}${path}`
+}
+
+const COMMUNITY = {
+  title: 'Inter Lexi',
+  description: 'Inter Lexi is a home for multilingual terminology for interpreters and translators. Medi Lexi, the medical glossary, is live now.',
+}
 
 const PAGE_DESCRIPTIONS: Record<string, string> = {
   '/':                    'Free medical glossary in English, Korean, and French. 1,900+ terms with word-part breakdowns, flashcards, and quizzes for students, interpreters, and translators.',
@@ -40,28 +62,32 @@ const HREFLANG: Record<string, Record<string, string>> = {
   '/flashcards/fr': { en: '/flashcards', ko: '/flashcards/ko', fr: '/flashcards/fr' },
 }
 
-const BASE_GRAPH = [
-  {
-    '@type': 'WebSite',
-    '@id': `${BASE_URL}/#website`,
-    url: BASE_URL,
-    name: 'Medi Lexi',
-    description: 'Free multilingual medical glossary for students, medical interpreters and translators.',
-    inLanguage: ['en', 'ko', 'fr'],
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: { '@type': 'EntryPoint', urlTemplate: `${BASE_URL}/glossary?q={search_term_string}` },
-      'query-input': 'required name=search_term_string',
+// Site/org nodes for a product, anchored under its subdirectory home.
+function baseGraph(domain: string) {
+  const home = `${BASE_URL}/${domain}`
+  return [
+    {
+      '@type': 'WebSite',
+      '@id': `${home}#website`,
+      url: home,
+      name: 'Medi Lexi',
+      description: 'Free multilingual medical glossary for students, medical interpreters and translators.',
+      inLanguage: ['en', 'ko', 'fr'],
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: { '@type': 'EntryPoint', urlTemplate: `${home}/glossary?q={search_term_string}` },
+        'query-input': 'required name=search_term_string',
+      },
     },
-  },
-  {
-    '@type': 'EducationalOrganization',
-    '@id': `${BASE_URL}/#org`,
-    name: 'Medi Lexi',
-    url: BASE_URL,
-    description: 'Free multilingual medical terminology reference and study platform.',
-  },
-]
+    {
+      '@type': 'EducationalOrganization',
+      '@id': `${home}#org`,
+      name: 'Medi Lexi',
+      url: home,
+      description: 'Free multilingual medical terminology reference and study platform.',
+    },
+  ]
+}
 
 const PAGE_SCHEMA: Record<string, object> = {
   '/glossary': {
@@ -149,19 +175,20 @@ const BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> = {
   '/privacy':             [{ name: 'Home', path: '/' }, { name: 'Privacy Policy',     path: '/privacy' }],
 }
 
-function getPageJsonLd(pathname: string, title: string, description: string, url: string) {
-  const pageBase = PAGE_SCHEMA[pathname]
-  const crumbs   = BREADCRUMBS[pathname]
+function getPageJsonLd(domain: string, sub: string, title: string, description: string, url: string) {
+  const pageBase = PAGE_SCHEMA[sub]
+  const crumbs   = BREADCRUMBS[sub]
+  const home     = `${BASE_URL}/${domain}`
 
   const graph = [
-    ...BASE_GRAPH,
+    ...baseGraph(domain),
     ...(pageBase ? [{
       ...pageBase,
       name: title,
       description,
       url,
-      isPartOf: { '@id': `${BASE_URL}/#website` },
-      provider: { '@id': `${BASE_URL}/#org` },
+      isPartOf: { '@id': `${home}#website` },
+      provider: { '@id': `${home}#org` },
     }] : []),
     ...(crumbs ? [{
       '@type': 'BreadcrumbList',
@@ -169,7 +196,7 @@ function getPageJsonLd(pathname: string, title: string, description: string, url
         '@type': 'ListItem',
         position: i + 1,
         name: c.name,
-        item: `${BASE_URL}${c.path}`,
+        item: absUrl(domain, c.path),
       })),
     }] : []),
   ]
@@ -178,11 +205,17 @@ function getPageJsonLd(pathname: string, title: string, description: string, url
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const pathname    = headers().get('x-pathname') || '/'
-  const pageTitle   = PAGE_TITLES[pathname]
-  const fullTitle   = pageTitle ? `${pageTitle} · Medi Lexi` : 'Medi Lexi · Multilingual Medical Glossary'
-  const description = PAGE_DESCRIPTIONS[pathname] || PAGE_DESCRIPTIONS['/']
-  const hreflang    = HREFLANG[pathname]
+  const raw = headers().get('x-pathname') || '/'
+  const { domain, sub } = splitDomain(raw)
+  const isProduct = domain !== ''
+
+  const pageTitle   = isProduct ? PAGE_TITLES[sub] : undefined
+  const fullTitle   = isProduct
+    ? (pageTitle ? `${pageTitle} · Medi Lexi` : 'Medi Lexi · Multilingual Medical Glossary')
+    : COMMUNITY.title
+  const description = isProduct ? (PAGE_DESCRIPTIONS[sub] || PAGE_DESCRIPTIONS['/']) : COMMUNITY.description
+  const siteName    = isProduct ? 'Medi Lexi' : 'Inter Lexi'
+  const hreflang    = isProduct ? HREFLANG[sub] : undefined
 
   const meta: Metadata = {
     metadataBase: new URL(BASE_URL),
@@ -190,10 +223,10 @@ export async function generateMetadata(): Promise<Metadata> {
     description,
     openGraph: {
       type:        'website',
-      siteName:    'Medi Lexi',
+      siteName,
       title:       fullTitle,
       description,
-      url:         `${BASE_URL}${pathname}`,
+      url:         absUrl(domain, sub),
       images: [{ url: '/images/OG.png', width: 1457, height: 720, alt: 'Medi Lexi · Multilingual Medical Glossary' }],
     },
     twitter: {
@@ -210,8 +243,8 @@ export async function generateMetadata(): Promise<Metadata> {
   if (hreflang) {
     meta.alternates = {
       languages: {
-        ...Object.fromEntries(Object.entries(hreflang).map(([lang, path]) => [lang, `${BASE_URL}${path}`])),
-        'x-default': `${BASE_URL}${hreflang.en}`,
+        ...Object.fromEntries(Object.entries(hreflang).map(([lang, path]) => [lang, absUrl(domain, path)])),
+        'x-default': absUrl(domain, hreflang.en),
       },
     }
   }
@@ -220,13 +253,18 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const pathname    = headers().get('x-pathname') || '/'
-  const htmlLang    = LANG[pathname] || 'en'
-  const pageTitle   = PAGE_TITLES[pathname]
-  const fullTitle   = pageTitle ? `${pageTitle} · Medi Lexi` : 'Medi Lexi · Multilingual Medical Glossary'
-  const description = PAGE_DESCRIPTIONS[pathname] || PAGE_DESCRIPTIONS['/']
-  const canonicalUrl = `${BASE_URL}${pathname}`
-  const jsonLd      = getPageJsonLd(pathname, fullTitle, description, canonicalUrl)
+  const raw = headers().get('x-pathname') || '/'
+  const { domain, sub } = splitDomain(raw)
+  const isProduct = domain !== ''
+
+  const htmlLang    = isProduct ? (LANG[sub] || 'en') : 'en'
+  const pageTitle   = isProduct ? PAGE_TITLES[sub] : undefined
+  const fullTitle   = isProduct
+    ? (pageTitle ? `${pageTitle} · Medi Lexi` : 'Medi Lexi · Multilingual Medical Glossary')
+    : COMMUNITY.title
+  const description = isProduct ? (PAGE_DESCRIPTIONS[sub] || PAGE_DESCRIPTIONS['/']) : COMMUNITY.description
+  const canonicalUrl = absUrl(domain, sub)
+  const jsonLd      = isProduct ? getPageJsonLd(domain, sub, fullTitle, description, canonicalUrl) : null
 
   return (
     <html lang={htmlLang}>
@@ -236,10 +274,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           dangerouslySetInnerHTML={{ __html: "try{if(localStorage.getItem('theme')!=='night')document.body.classList.add('day')}catch(e){document.body.classList.add('day')}" }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        {jsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          />
+        )}
         <ClientShell>{children}</ClientShell>
       </body>
     </html>

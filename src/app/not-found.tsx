@@ -8,9 +8,9 @@ import Link from 'next/link'
 const display = { fontFamily: 'var(--b-display)' }
 
 const LINKS = [
-  { href: '/glossary', label: 'English glossary' },
-  { href: '/wordparts', label: 'Word parts' },
-  { href: '/terms', label: 'All terms A to Z' },
+  { href: '/medical/glossary', label: 'English glossary' },
+  { href: '/medical/wordparts', label: 'Word parts' },
+  { href: '/medical/terms', label: 'All terms A to Z' },
 ]
 
 export default function NotFound() {
@@ -33,7 +33,7 @@ export default function NotFound() {
 
       <div className="flex flex-wrap items-center justify-center gap-2.5">
         <Link
-          href="/"
+          href="/medical"
           className="b-press b-focus rounded-xl bg-[var(--b-primary)] px-5 py-2.5 text-[0.88rem] font-bold text-[var(--b-on-prim)]"
         >
           Back to home

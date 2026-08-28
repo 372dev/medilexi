@@ -15,9 +15,9 @@ import { usePathname } from 'next/navigation'
 const display = { fontFamily: 'var(--b-display)' }
 
 const GLOSSARIES = [
-  { label: 'English', href: '/glossary' },
-  { label: '한국어', href: '/glossary/ko' },
-  { label: 'Français', href: '/glossary/fr' },
+  { label: 'English', href: '/medical/glossary' },
+  { label: '한국어', href: '/medical/glossary/ko' },
+  { label: 'Français', href: '/medical/glossary/fr' },
 ]
 
 type Props = {
@@ -48,14 +48,14 @@ export default function SiteHeader({ toggle, variant = 'sticky', shown = true }:
   // Feedback: navigate to /about?to=feedback normally, but if we're already on
   // /about a query change won't re-trigger the reveal, so fire an event instead.
   const onFeedback = (e: React.MouseEvent) => {
-    if (pathname === '/about') {
+    if (pathname === '/medical/about') {
       e.preventDefault()
       window.dispatchEvent(new Event('medilexi:feedback'))
     }
     setMenuOpen(false)
   }
 
-  const glossActive = pathname.startsWith('/glossary')
+  const glossActive = pathname.startsWith('/medical/glossary')
   const link = (active: boolean) =>
     `b-focus rounded-lg px-2.5 py-1.5 text-[0.84rem] font-semibold transition-colors ${
       active ? 'text-[var(--b-primary)]' : 'text-[var(--b-dim)] hover:text-[var(--b-text)]'
@@ -74,7 +74,7 @@ export default function SiteHeader({ toggle, variant = 'sticky', shown = true }:
         {/* left: wordmark + desktop nav */}
         <div className="flex items-center gap-1">
           <Link
-            href="/"
+            href="/medical"
             className="b-focus mr-2 text-[1.1rem] font-semibold tracking-[-0.008em] text-[var(--b-text)] hover:opacity-80"
             style={display}
           >
@@ -82,7 +82,7 @@ export default function SiteHeader({ toggle, variant = 'sticky', shown = true }:
           </Link>
 
           <nav className="hidden items-center gap-0.5 md:flex">
-            <Link href="/wordparts" className={link(pathname.startsWith('/wordparts'))}>Word parts</Link>
+            <Link href="/medical/wordparts" className={link(pathname.startsWith('/medical/wordparts'))}>Word parts</Link>
 
             <div ref={glossRef} className="relative">
               <button
@@ -116,15 +116,15 @@ export default function SiteHeader({ toggle, variant = 'sticky', shown = true }:
               )}
             </div>
 
-            <Link href="/flashcards/abbr" className={link(pathname.startsWith('/flashcards/abbr'))}>Abbreviations</Link>
+            <Link href="/medical/flashcards/abbr" className={link(pathname.startsWith('/medical/flashcards/abbr'))}>Abbreviations</Link>
           </nav>
         </div>
 
         {/* right: about + toggle + mobile menu button */}
         <div className="flex items-center gap-2">
-          <Link href="/about" className={`${link(pathname.startsWith('/about'))} hidden md:inline-block`}>About</Link>
+          <Link href="/medical/about" className={`${link(pathname.startsWith('/medical/about'))} hidden md:inline-block`}>About</Link>
           <Link
-            href="/about?to=feedback"
+            href="/medical/about?to=feedback"
             onClick={onFeedback}
             aria-label="Send feedback"
             title="Send feedback"
@@ -153,15 +153,15 @@ export default function SiteHeader({ toggle, variant = 'sticky', shown = true }:
       {menuOpen && (
         <div className="border-t border-[var(--b-border)] bg-[var(--b-panel)] px-3 py-3 md:hidden">
           <nav className="flex flex-col gap-0.5">
-            <Link href="/wordparts" className={link(pathname.startsWith('/wordparts'))}>Word parts</Link>
+            <Link href="/medical/wordparts" className={link(pathname.startsWith('/medical/wordparts'))}>Word parts</Link>
             <span className="px-2.5 pb-0.5 pt-3 text-[0.68rem] font-bold uppercase tracking-[0.12em] text-[var(--b-dim)]">Glossary</span>
             {GLOSSARIES.map(g => (
               <Link key={g.href} href={g.href} className={link(pathname === g.href)}>{g.label}</Link>
             ))}
             <span className="rounded-lg px-2.5 py-1.5 text-[0.84rem] font-semibold text-[var(--b-dim)] opacity-70">Español · soon</span>
-            <Link href="/flashcards/abbr" className={`${link(pathname.startsWith('/flashcards/abbr'))} mt-2`}>Abbreviations</Link>
-            <Link href="/about" className={link(pathname.startsWith('/about'))}>About</Link>
-            <Link href="/about?to=feedback" onClick={onFeedback} className={link(false)}>Send feedback</Link>
+            <Link href="/medical/flashcards/abbr" className={`${link(pathname.startsWith('/medical/flashcards/abbr'))} mt-2`}>Abbreviations</Link>
+            <Link href="/medical/about" className={link(pathname.startsWith('/medical/about'))}>About</Link>
+            <Link href="/medical/about?to=feedback" onClick={onFeedback} className={link(false)}>Send feedback</Link>
           </nav>
         </div>
       )}

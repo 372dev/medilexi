@@ -11,9 +11,13 @@ const exByWp = new Map<string, [string, string][]>()
 for (const p of partsData as unknown as WP[]) exByWp.set(p.wp, p.ex)
 
 export function GET(req: Request) {
-  const url = new URL(req.url)
-  const ids = (url.searchParams.get('ids') || '')
-    .split(',').map(s => s.trim()).filter(Boolean).slice(0, 80)
+  // Parse ids from the RAW query and split on the delimiter commas BEFORE
+  // decoding: a wp can itself contain a comma (e.g. "a-, an-"), and the client
+  // percent-encodes each id, so a data comma arrives as %2C, not a delimiter.
+  const raw = /[?&]ids=([^&]*)/.exec(req.url)?.[1] || ''
+  const ids = raw.split(',')
+    .map(s => { try { return decodeURIComponent(s).trim() } catch { return s.trim() } })
+    .filter(Boolean).slice(0, 80)
 
   const out: Record<string, [string, string][]> = {}
   for (const wp of ids) {

@@ -8,7 +8,7 @@ import partsData from '@/data/medical_wordparts.json'
 interface WP { wp: string; ex: [string, string][] }
 
 const exByWp = new Map<string, [string, string][]>()
-for (const p of partsData as WP[]) exByWp.set(p.wp, p.ex)
+for (const p of partsData as unknown as WP[]) exByWp.set(p.wp, p.ex)
 
 export function GET(req: Request) {
   const url = new URL(req.url)

@@ -1,0 +1,374 @@
+'use client'
+
+import { useState, useEffect, useCallback } from 'react'
+import Link from 'next/link'
+
+/* Interactive exam. Fetches answer-stripped questions from /api/exam and grades
+   via /api/exam/grade, so the answer key never reaches the browser. Results are
+   still cached per-bundle in localStorage for the "last: X/Y" chip. */
+
+export interface Bundle { id: string; title: string; order: number; free: boolean }
+interface ExamQ { id: string; prompt: string; options: string[] }
+interface Graded { correct: boolean; correctText: string; explain: string }
+interface GradeResult { score: number; total: number; results: Record<string, Graded> }
+interface SavedResult { score: number; total: number; updatedAt: string }
+
+const LABELS       = ['A', 'B', 'C', 'D']
+const PASS_PCT     = 80
+const EXAM_MINUTES = 20
+const STORE_KEY    = 'medilexi.exam.results'
+
+function readResults(): Record<string, SavedResult> {
+  try { return JSON.parse(localStorage.getItem(STORE_KEY) ?? '{}') } catch { return {} }
+}
+function writeResult(bundleId: string, score: number, total: number) {
+  try {
+    const all = readResults()
+    all[bundleId] = { score, total, updatedAt: new Date().toISOString() }
+    localStorage.setItem(STORE_KEY, JSON.stringify(all))
+  } catch { /* storage unavailable — the exam still works, it just won't persist */ }
+}
+function mmss(s: number) {
+  const m = Math.floor(s / 60)
+  return `${m}:${String(s % 60).padStart(2, '0')}`
+}
+
+export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
+  const [bundleId, setBundleId] = useState<string | null>(null)
+  const [qs,       setQs]       = useState<ExamQ[]>([])
+  const [answers,  setAnswers]  = useState<(number | null)[]>([])
+  const [flagged,  setFlagged]  = useState<boolean[]>([])
+  const [qIdx,     setQIdx]     = useState(0)
+  const [deadline, setDeadline] = useState(0)
+  const [left,     setLeft]     = useState(EXAM_MINUTES * 60)
+  const [submitted, setSubmitted] = useState(false)
+  const [grade,    setGrade]    = useState<GradeResult | null>(null)
+  const [results,  setResults]  = useState<Record<string, SavedResult>>({})
+  const [loading,  setLoading]  = useState(false)
+  const [loadError, setLoadError] = useState(false)
+
+  useEffect(() => { setResults(readResults()) }, [])
+
+  const bundle = bundles.find(b => b.id === bundleId) ?? null
+  const score  = grade?.score ?? 0
+  const total  = grade?.total ?? qs.length
+  const pct    = total ? Math.round((score / total) * 100) : 0
+  const passed = pct >= PASS_PCT
+
+  const submit = useCallback(async () => {
+    if (submitted || qs.length === 0) return
+    setSubmitted(true)   // lock the exam + stop the timer immediately
+    const payload = {
+      answers: qs.map((q, i) => ({ id: q.id, selected: answers[i] != null ? q.options[answers[i]!] : null })),
+    }
+    try {
+      const res = await fetch('/api/exam/grade', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
+      })
+      const data: GradeResult = await res.json()
+      setGrade(data)
+      if (bundleId) { writeResult(bundleId, data.score, data.total); setResults(readResults()) }
+    } catch {
+      setGrade({ score: 0, total: qs.length, results: {} })
+    }
+  }, [submitted, qs, answers, bundleId])
+
+  /* Countdown off a wall-clock deadline (no drift while backgrounded). */
+  useEffect(() => {
+    if (!bundleId || submitted || deadline === 0) return
+    const tick = () => setLeft(Math.max(0, Math.ceil((deadline - Date.now()) / 1000)))
+    tick()
+    const id = setInterval(tick, 500)
+    return () => clearInterval(id)
+  }, [bundleId, submitted, deadline])
+
+  useEffect(() => {
+    if (bundleId && !submitted && deadline !== 0 && left === 0) submit()
+  }, [bundleId, submitted, deadline, left, submit])
+
+  async function start(id: string) {
+    setBundleId(id); setLoading(true); setLoadError(false)
+    setQs([]); setSubmitted(false); setGrade(null)
+    try {
+      const res = await fetch(`/api/exam?bundle=${encodeURIComponent(id)}`)
+      if (!res.ok) throw new Error('exam')
+      const data: ExamQ[] = await res.json()
+      setQs(data)
+      setAnswers(Array(data.length).fill(null))
+      setFlagged(Array(data.length).fill(false))
+      setQIdx(0)
+      setLeft(EXAM_MINUTES * 60)
+      setDeadline(Date.now() + EXAM_MINUTES * 60 * 1000)
+    } catch {
+      setLoadError(true)
+    } finally {
+      setLoading(false)
+    }
+  }
+  function quit() { setBundleId(null); setQs([]); setDeadline(0); setSubmitted(false); setGrade(null) }
+  function choose(i: number) { setAnswers(a => { const n = [...a]; n[qIdx] = i; return n }) }
+  function toggleFlag() { setFlagged(f => { const n = [...f]; n[qIdx] = !n[qIdx]; return n }) }
+
+  /* ══ 1. Exam selection ══ */
+  if (!bundleId) {
+    return (
+      <div style={{ maxWidth: '640px', margin: '2rem auto 0' }}>
+        <p style={{ fontSize: '0.9rem', color: 'var(--b-dim)', lineHeight: 1.7, marginBottom: '1.75rem' }}>
+          Curated 20-question exams, {EXAM_MINUTES} minutes each. You can move between questions, and
+          <strong> flag</strong> any question you want to come back to before you finish. Your score and
+          the correct answers stay hidden until you submit. Pass mark {PASS_PCT}%.
+        </p>
+
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+          {[...bundles].sort((a, b) => a.order - b.order).map(b => {
+            const r = results[b.id]
+            return (
+              <div key={b.id}
+                style={{
+                  background: 'var(--b-panel)',
+                  border: `1px solid ${b.free ? 'var(--b-primary)' : 'var(--b-border)'}`,
+                  padding: '1.1rem 1.25rem',
+                  display: 'flex', alignItems: 'center', gap: '1rem',
+                  opacity: b.free ? 1 : 0.55,
+                }}>
+                <div style={{ flex: 1 }}>
+                  <div style={{ fontSize: '1rem', color: b.free ? 'var(--b-text)' : 'var(--b-dim)', marginBottom: '0.25rem' }}>
+                    {b.title}
+                  </div>
+                  <div style={{ fontSize: '0.78rem', color: 'var(--b-dim)' }}>
+                    20 questions
+                    {r && b.free && (
+                      <span style={{ marginLeft: '0.6rem', color: r.score / r.total * 100 >= PASS_PCT ? '#6EE7B7' : '#FCA5A5' }}>
+                        · last: {r.score}/{r.total}
+                      </span>
+                    )}
+                  </div>
+                </div>
+                {b.free ? (
+                  <button onClick={() => start(b.id)} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.2rem' }}>
+                    {r ? 'Retake' : 'Start'}
+                  </button>
+                ) : (
+                  <span style={{ fontSize: '0.76rem', fontWeight: 600, color: 'var(--b-dim)', border: '1px solid var(--b-border)', padding: '0.45rem 0.7rem', lineHeight: 1.8 }}>
+                    🔒 Coming soon
+                  </span>
+                )}
+              </div>
+            )
+          })}
+        </div>
+
+        <div style={{ textAlign: 'center', marginTop: '1.75rem' }}>
+          <Link href="/medical/wordparts" style={{ fontSize: '0.82rem', color: 'var(--b-dim)', textDecoration: 'underline' }}>
+            ← Back to Word Parts
+          </Link>
+        </div>
+      </div>
+    )
+  }
+
+  /* ══ Loading / error while fetching the exam ══ */
+  if (!submitted && qs.length === 0) {
+    return (
+      <div style={{ maxWidth: '640px', margin: '4rem auto 0', textAlign: 'center' }}>
+        {loadError ? (
+          <>
+            <p style={{ fontSize: '0.95rem', color: 'var(--b-dim)', marginBottom: '1.25rem' }}>Could not load the exam. Please try again.</p>
+            <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center' }}>
+              <button onClick={() => start(bundleId)} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.3rem' }}>Retry</button>
+              <button onClick={quit} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.3rem', background: 'none', color: 'var(--b-dim)', boxShadow: 'none' }}>All exams</button>
+            </div>
+          </>
+        ) : (
+          <p style={{ fontSize: '0.95rem', color: 'var(--b-dim)' }} aria-live="polite">{loading ? 'Loading exam…' : 'Preparing…'}</p>
+        )}
+      </div>
+    )
+  }
+
+  /* ══ 3. Result ══ */
+  if (submitted) {
+    if (!grade) {
+      return (
+        <div style={{ maxWidth: '640px', margin: '4rem auto 0', textAlign: 'center' }}>
+          <p style={{ fontSize: '0.95rem', color: 'var(--b-dim)' }} aria-live="polite">Scoring…</p>
+        </div>
+      )
+    }
+    return (
+      <div style={{ maxWidth: '720px', margin: '2rem auto 0' }}>
+        <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+          <div style={{ fontFamily: 'var(--b-display)', fontSize: '2.2rem', fontWeight: 600, color: passed ? '#6EE7B7' : '#FCA5A5', marginBottom: '0.5rem' }}>
+            {score} / {total} · {pct}%
+          </div>
+          <p style={{ fontSize: '0.95rem', color: passed ? '#6EE7B7' : '#FCA5A5', fontWeight: 600 }}>
+            {passed ? `PASS · ${PASS_PCT}% or above` : `FAIL · you need ${PASS_PCT}% to pass`}
+          </p>
+          <p style={{ fontSize: '0.82rem', color: 'var(--b-dim)', marginTop: '0.4rem' }}>
+            {bundle?.title} · result saved (a retake replaces it)
+          </p>
+        </div>
+
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', marginBottom: '1.75rem' }}>
+          {qs.map((q, i) => {
+            const r   = grade.results[q.id]
+            const ok  = !!r?.correct
+            const you = answers[i] != null ? q.options[answers[i]!] : null
+            return (
+              <div key={q.id} style={{ background: 'var(--b-panel)', border: `1px solid ${ok ? '#3BAA6A' : '#C94040'}`, padding: '0.9rem 1.1rem' }}>
+                <div style={{ display: 'flex', gap: '0.6rem', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
+                  <span style={{ fontSize: '0.76rem', fontWeight: 600, color: 'var(--b-dim)', flexShrink: 0, marginTop: '0.25rem' }}>{i + 1}</span>
+                  <span style={{ fontSize: '0.9rem', color: 'var(--b-text)', lineHeight: 1.55, flex: 1 }}>{q.prompt}</span>
+                  <span style={{ color: ok ? '#6EE7B7' : '#FCA5A5', flexShrink: 0 }}>{ok ? '✓' : '✗'}</span>
+                </div>
+                <div style={{ paddingLeft: '1.4rem', fontSize: '0.85rem', lineHeight: 1.6 }}>
+                  <div style={{ color: '#6EE7B7' }}>Correct: {r?.correctText}</div>
+                  {!ok && (
+                    <div style={{ color: '#FCA5A5' }}>
+                      Your answer: {you === null ? <em>(not answered)</em> : you}
+                    </div>
+                  )}
+                  {r?.explain && <div style={{ color: 'var(--b-dim)', marginTop: '0.35rem', fontStyle: 'italic' }}>{r.explain}</div>}
+                </div>
+              </div>
+            )
+          })}
+        </div>
+
+        <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+          <button onClick={() => start(bundleId)} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.65rem 1.5rem' }}>
+            Retake
+          </button>
+          <button onClick={quit} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.65rem 1.5rem', background: 'none', color: 'var(--b-dim)', boxShadow: 'none' }}>
+            All exams
+          </button>
+        </div>
+      </div>
+    )
+  }
+
+  /* ══ 2. Playing ══ */
+  const q = qs[qIdx]
+  if (!q) return null
+
+  const answeredCount = answers.filter(a => a !== null).length
+  const low = left <= 60
+
+  return (
+    <div style={{ maxWidth: '720px', margin: '2rem auto 0' }}>
+
+      {/* Status bar */}
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem', gap: '0.75rem', flexWrap: 'wrap' }}>
+        <div style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--b-dim)', lineHeight: 1.8 }}>
+          {bundle?.title} · {answeredCount}/{qs.length} answered
+        </div>
+        <div style={{ fontFamily: 'var(--b-display)', fontSize: '1.15rem', fontWeight: 600, color: low ? '#FCA5A5' : 'var(--b-primary)', lineHeight: 1.8 }}
+          role="timer" aria-live="off">
+          ⏱ {mmss(left)}
+        </div>
+      </div>
+
+      {/* Navigator */}
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginBottom: '0.6rem' }}>
+        {qs.map((_, i) => {
+          const isFlagged = flagged[i]
+          const isDone    = answers[i] !== null
+          const bg = isFlagged ? '#F0B429' : isDone ? '#3BAA6A' : 'var(--b-border)'
+          const fg = isFlagged || isDone ? '#0D0B2B' : 'var(--b-dim)'
+          return (
+            <button key={i} onClick={() => setQIdx(i)}
+              aria-label={`Question ${i + 1}${isFlagged ? ', flagged for review' : isDone ? ', answered' : ', not answered'}`}
+              aria-current={i === qIdx ? 'true' : undefined}
+              style={{
+                width: '2rem', height: '2rem', flexShrink: 0, cursor: 'pointer',
+                background: bg, color: fg,
+                border: i === qIdx ? '2px solid var(--b-amber)' : '1px solid var(--b-border)',
+                fontSize: '0.76rem', fontWeight: 600, lineHeight: 1,
+              }}>
+              {i + 1}
+            </button>
+          )
+        })}
+      </div>
+
+      {/* Legend */}
+      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.25rem', fontSize: '0.72rem', color: 'var(--b-dim)' }}>
+        {([['var(--b-border)', 'not answered'], ['#3BAA6A', 'answered'], ['#F0B429', 'flagged for review']] as const).map(([c, label]) => (
+          <span key={label} style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
+            <span aria-hidden="true" style={{ width: '0.7rem', height: '0.7rem', background: c, border: '1px solid var(--b-border)', flexShrink: 0 }} />
+            {label}
+          </span>
+        ))}
+      </div>
+
+      {/* Question */}
+      <div style={{ background: 'var(--b-panel)', border: '1px solid var(--b-border)', padding: '1.5rem 1.35rem', marginBottom: '1rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', marginBottom: '0.9rem' }}>
+          <span style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--b-dim)', lineHeight: 1.8 }}>
+            Question {qIdx + 1} of {qs.length}
+          </span>
+          <button onClick={toggleFlag}
+            aria-pressed={flagged[qIdx]}
+            title="Flag this question so you can come back to it before you submit"
+            style={{
+              fontSize: '0.76rem', fontWeight: 600, cursor: 'pointer', lineHeight: 1.8,
+              padding: '0.35rem 0.7rem', flexShrink: 0, whiteSpace: 'nowrap',
+              background: flagged[qIdx] ? '#F0B429' : 'none',
+              color: flagged[qIdx] ? '#0D0B2B' : 'var(--b-dim)',
+              border: `1px solid ${flagged[qIdx] ? '#F0B429' : 'var(--b-border)'}`,
+            }}>
+            {flagged[qIdx] ? '⚑ Flagged' : '⚑ Flag for review'}
+          </button>
+        </div>
+        <div style={{ fontSize: '1.05rem', color: 'var(--b-text)', lineHeight: 1.6 }}>{q.prompt}</div>
+      </div>
+
+      {/* Options */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', marginBottom: '1.5rem' }}>
+        {q.options.map((opt, i) => {
+          const sel = answers[qIdx] === i
+          return (
+            <button key={i} onClick={() => choose(i)}
+              style={{
+                display: 'block', width: '100%', padding: '0.95rem 1.15rem', textAlign: 'left', cursor: 'pointer',
+                background: sel ? 'rgba(155,143,239,0.15)' : 'var(--b-panel)',
+                border: `2px solid ${sel ? 'var(--b-amber)' : 'var(--b-border)'}`,
+                transition: 'border-color 0.15s, background 0.15s',
+              }}>
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
+                <span style={{ fontSize: '0.76rem', fontWeight: 600, color: sel ? 'var(--b-amber)' : 'var(--b-dim)', flexShrink: 0, marginTop: '0.3rem' }}>
+                  {LABELS[i]}
+                </span>
+                <span style={{ color: 'var(--b-text)', fontSize: '0.95rem', lineHeight: 1.55, flex: 1 }}>{opt}</span>
+              </div>
+            </button>
+          )
+        })}
+      </div>
+
+      {/* Nav */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', gap: '0.75rem', flexWrap: 'wrap' }}>
+        <button onClick={() => setQIdx(i => Math.max(0, i - 1))} disabled={qIdx === 0} className="b-btn b-focus"
+          style={{ fontSize: '0.85rem', padding: '0.6rem 1.2rem', background: 'none', color: 'var(--b-dim)', boxShadow: 'none', opacity: qIdx === 0 ? 0.4 : 1, cursor: qIdx === 0 ? 'default' : 'pointer' }}>
+          ← Prev
+        </button>
+        {qIdx < qs.length - 1 ? (
+          <button onClick={() => setQIdx(i => Math.min(qs.length - 1, i + 1))} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.2rem' }}>
+            Next →
+          </button>
+        ) : (
+          <button onClick={submit} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.4rem', background: 'var(--b-primary)', color: 'var(--b-bg)' }}>
+            Submit exam
+          </button>
+        )}
+      </div>
+
+      <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+        <button onClick={submit}
+          style={{ fontSize: '0.8rem', color: 'var(--b-dim)', background: 'none', border: 'none', textDecoration: 'underline', cursor: 'pointer' }}>
+          Submit now ({answeredCount}/{qs.length} answered)
+        </button>
+      </div>
+    </div>
+  )
+}

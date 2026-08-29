@@ -7,6 +7,8 @@ import Fuse from 'fuse.js'
 import { ALL_LEVELS, LVL_TEXT } from '@/lib/vocab-constants'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { rankTier } from '@/lib/search-rank'
+import { useIsTouch } from '@/lib/use-is-touch'
+import WordPartsSheet, { type SheetData } from './WordPartsSheet'
 import type { Segment } from '@/lib/word-segments'
 
 /* Client glossary list. Receives a LEAN index (no definitions / word parts) from
@@ -42,8 +44,10 @@ function hi(text: string, idx?: readonly [number, number][]): ReactNode {
   return <>{parts}</>
 }
 
-function Card({ v, def, onFieldClick, mm }: { v: CardEntry; def?: DefRec; onFieldClick: (f: string) => void; mm?: MatchMap }) {
+function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def?: DefRec; onFieldClick: (f: string) => void; mm?: MatchMap; isTouch: boolean; onOpen: (d: SheetData) => void }) {
   const [hovered, setHovered] = useState(false)
+  const hasParts = !!def?.segs?.some(s => s.wp)
+  const tappable = isTouch && hasParts
   return (
     <div
       className="b-card b-lift b-press flex flex-col gap-2 p-5"
@@ -57,12 +61,18 @@ function Card({ v, def, onFieldClick, mm }: { v: CardEntry; def?: DefRec; onFiel
 
       <Link
         href={`/medical/term/${v.slug}`}
-        className="b-focus block text-[1.2rem] font-semibold leading-[1.28] tracking-[-0.005em] text-[var(--b-text)] no-underline"
+        onClick={e => {
+          if (tappable && def) {
+            e.preventDefault()
+            onOpen({ en_h: v.en_h, slug: v.slug, segs: def.segs, d: def.d, lvl: v.lvl, f: v.f, en_l: v.en_l })
+          }
+        }}
+        className={`b-focus block text-[1.2rem] font-semibold leading-[1.28] tracking-[-0.005em] text-[var(--b-text)] no-underline ${tappable ? 'b-termtap' : ''}`}
         style={{ fontFamily: 'var(--b-display)' }}
       >
-        {hovered && def?.segs
+        {(hovered || isTouch) && def?.segs
           ? def.segs.map((s, i) => s.wp
-            ? <span key={i} className={`b-htip b-part--${s.type}`} data-tip={`${s.wp} · ${s.meaning}`}>{s.text}</span>
+            ? <span key={i} className={isTouch ? `b-part--${s.type}` : `b-htip b-part--${s.type}`} data-tip={isTouch ? undefined : `${s.wp} · ${s.meaning}`}>{s.text}</span>
             : <span key={i}>{s.text}</span>)
           : hi(v.en_h, mm?.en_h)}
       </Link>
@@ -93,6 +103,8 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
   const [query, setQuery]       = useState(search)
   const [fieldFilter, setField] = useState<string | null>(null)
   const [levelFilter, setLevel] = useState<number | null>(null)
+  const isTouch = useIsTouch()
+  const [sheet, setSheet] = useState<SheetData | null>(null)
 
   const fuse = useMemo(() => new Fuse(entries, {
     keys: [
@@ -233,13 +245,15 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
       {/* ── Cards ── */}
       <div className="grid grid-cols-[repeat(auto-fill,minmax(290px,1fr))] gap-4">
         {filtered.slice(0, visible).map(v => (
-          <Card key={v.en_h} v={v} def={defs.get(v.slug)} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />
+          <Card key={v.en_h} v={v} def={defs.get(v.slug)} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} isTouch={isTouch} onOpen={setSheet} />
         ))}
       </div>
       <div ref={sentinelRef} aria-hidden="true" />
       {filtered.length === 0 && (
         <div className="py-16 text-center text-[0.92rem] text-[var(--b-dim)]">No terms found.</div>
       )}
+
+      <WordPartsSheet data={sheet} onClose={() => setSheet(null)} />
     </div>
   )
 }

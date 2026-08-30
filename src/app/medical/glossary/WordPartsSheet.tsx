@@ -112,16 +112,6 @@ export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEn
 
         {entry.en_l && <div className="mt-2 text-[0.95rem] text-[var(--b-dim)]">Also called {entry.en_l}</div>}
 
-        {entry.head2 && (
-          <div className="mt-3 rounded-xl border border-[var(--b-border)] bg-[var(--b-raised)] p-3" lang={entry.lang2}>
-            <div className="text-[1.08rem] font-semibold text-[var(--b-primary)]">
-              {entry.head2}
-              {entry.sub2 && <span className="ml-2 text-[0.9rem] font-normal text-[var(--b-dim)]">({entry.sub2})</span>}
-            </div>
-            {def?.d2 && <div className="mt-1 text-[0.86rem] leading-[1.5] text-[var(--b-dim)]">{def.d2}</div>}
-          </div>
-        )}
-
         {def
           ? <p className="mt-3 text-[0.9rem] leading-[1.55] text-[var(--b-text)]">{def.d}</p>
           : (
@@ -151,6 +141,16 @@ export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEn
               ))}
             </div>
           </>
+        )}
+
+        {entry.head2 && (
+          <div className="mt-4 rounded-xl border border-[var(--b-border)] bg-[var(--b-raised)] p-3.5" lang={entry.lang2}>
+            <div className="text-[1.12rem] font-semibold text-[var(--b-primary)]">
+              {entry.head2}
+              {entry.sub2 && <span className="ml-2 text-[0.9rem] font-normal text-[var(--b-dim)]">({entry.sub2})</span>}
+            </div>
+            {def?.d2 && <div className="mt-1.5 text-[0.88rem] leading-[1.5] text-[var(--b-dim)]">{def.d2}</div>}
+          </div>
         )}
 
         <div className="mt-4 flex items-center justify-between border-t border-[var(--b-border)] pt-3">

@@ -360,43 +360,42 @@ export default function FrFlashcardsPage() {
                     </p>
                   </div>
 
-                  {/* Back */}
+                  {/* Back: English on top, French at the bottom, so a flip reveals
+                      both languages whichever direction is being drilled. */}
                   <div
-                    className="b-card b-lift absolute inset-0 flex flex-col gap-2.5 overflow-y-auto p-7"
+                    className="b-card b-lift absolute inset-0 flex flex-col overflow-y-auto p-6"
                     style={{ backfaceVisibility:'hidden', transform:'rotateY(180deg)', borderColor:'var(--b-primary)' }}
                   >
-                    {isFrEn ? (
-                      <>
-                        <div className="text-[1.4rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
-                          {card.en_h}
-                        </div>
-                        {card.en_l && <div className="text-[1rem] text-[var(--b-dim)]">{card.en_l}</div>}
-                        <p className="m-0 text-[0.92rem] leading-[1.65] text-[var(--b-dim)]">{card.d}</p>
-                      </>
-                    ) : (
-                      <>
-                        <div className="text-[1.45rem] font-semibold leading-tight text-[var(--b-primary)]" style={display}>{card.fr_h}</div>
-                        {card.fr_l && <div className="text-[1rem] text-[var(--b-dim)]">{card.fr_l}</div>}
-                        <p className="m-0 text-[0.92rem] leading-[1.65] text-[var(--b-dim)]">{(card.d_fr || card.d)}</p>
-                      </>
-                    )}
-
-                    {hasParts && (
-                      <div className="flex flex-col gap-1.5">
-                        {(['p','r','s'] as const).flatMap(t =>
-                          (cardParts?.[t] ?? []).map(wp => (
-                            <div key={`${t}-${wp}`} className="b-ex">
-                              <strong className={`b-part--${t}`}>{wp}</strong>
-                              {partsMap[wp]?.d ? ` · ${partsMap[wp].d}` : ''}
-                            </div>
-                          ))
-                        )}
-                      </div>
-                    )}
-
-                    <div className="mt-auto flex flex-wrap items-center gap-1.5 pt-2">
+                    {/* English */}
+                    <div className="flex flex-col gap-2">
                       <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
-                      {card.f.map(f => <span key={f} className="b-field">{f}</span>)}
+                      <div className="text-[1.42rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
+                        {card.en_h}
+                      </div>
+                      {card.en_l && <div className="text-[0.98rem] text-[var(--b-dim)]">{card.en_l}</div>}
+                      <p className="m-0 text-[0.9rem] leading-[1.6] text-[var(--b-dim)]">{card.d}</p>
+                      {hasParts && (
+                        <div className="flex flex-col gap-1.5">
+                          {(['p','r','s'] as const).flatMap(t =>
+                            (cardParts?.[t] ?? []).map(wp => (
+                              <div key={`${t}-${wp}`} className="b-ex">
+                                <strong className={`b-part--${t}`}>{wp}</strong>
+                                {partsMap[wp]?.d ? ` · ${partsMap[wp].d}` : ''}
+                              </div>
+                            ))
+                          )}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* French */}
+                    <div className="mt-auto flex flex-col gap-1.5 border-t border-[var(--b-border)] pt-4" lang="fr">
+                      <div className="text-[1.4rem] font-semibold leading-tight text-[var(--b-primary)]" style={display}>{card.fr_h}</div>
+                      {card.fr_l && <div className="text-[0.98rem] text-[var(--b-dim)]">{card.fr_l}</div>}
+                      <p className="m-0 text-[0.88rem] leading-[1.55] text-[var(--b-dim)]">{card.d_fr || card.d}</p>
+                      <div className="mt-1 flex flex-wrap gap-1.5">
+                        {card.f.map(f => <span key={f} className="b-field">{f}</span>)}
+                      </div>
                     </div>
                   </div>
                 </div>

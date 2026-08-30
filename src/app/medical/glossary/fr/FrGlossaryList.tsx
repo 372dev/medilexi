@@ -6,6 +6,8 @@ import Fuse from 'fuse.js'
 import { ALL_LEVELS, LVL_TEXT } from '@/lib/vocab-constants'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { rankTier } from '@/lib/search-rank'
+import { useIsTouch } from '@/lib/use-is-touch'
+import WordPartsSheet from '../WordPartsSheet'
 import type { Segment } from '@/lib/word-segments'
 
 /* French glossary list over a LEAN index (en_h, slug, abbr, en_l, fr_h, fr_l,
@@ -41,9 +43,39 @@ function matchTierFr(item: FrLeanEntry, matches: readonly { key?: string }[] | u
   )
 }
 
-function FrCard({ v, def, defLang, onFieldClick, mm }: { v: CardEntry; def?: DefRec; defLang: 'fr' | 'en'; onFieldClick: (f: string) => void; mm?: MatchMap }) {
+function FrCard({ v, def, defLang, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def?: DefRec; defLang: 'fr' | 'en'; onFieldClick: (f: string) => void; mm?: MatchMap; isTouch: boolean; onOpen: (v: CardEntry) => void }) {
   const [hovered, setHovered] = useState(false)
   const definition = def ? (defLang === 'en' ? def.d : (def.d2 || def.d)) : null
+
+  // Mobile: compact, definition-free card; the whole card taps to the sheet.
+  if (isTouch) {
+    return (
+      <div
+        role="button"
+        tabIndex={0}
+        onClick={() => onOpen(v)}
+        onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpen(v) } }}
+        className="b-card b-press b-termtap b-focus flex cursor-pointer flex-col gap-1 p-3.5"
+      >
+        <div className="flex items-center justify-between gap-2">
+          <span className={`b-lvl b-lvl--${v.lvl}`}>{LVL_TEXT[v.lvl]}</span>
+          {v.abbr && <span className="b-abbr">{hi(v.abbr, mm?.abbr)}</span>}
+        </div>
+        <div className="text-[1.1rem] font-semibold leading-tight tracking-[-0.005em] text-[var(--b-text)]" style={{ fontFamily: 'var(--b-display)' }}>
+          {hi(v.en_h, mm?.en_h)}
+        </div>
+        {v.en_l && <div className="text-[0.88rem] leading-tight text-[var(--b-dim)]">{hi(v.en_l, mm?.en_l)}</div>}
+        {v.fr_h && <div className="text-[0.98rem] font-semibold leading-tight text-[var(--b-primary)]">{hi(v.fr_h, mm?.fr_h)}</div>}
+        {v.fr_l && <div className="text-[0.86rem] leading-tight text-[var(--b-dim)]">{hi(v.fr_l, mm?.fr_l)}</div>}
+        {v.f.length > 0 && (
+          <div className="mt-0.5 flex flex-wrap gap-1">
+            {v.f.map(f => <span key={f} className="b-chip">{f}</span>)}
+          </div>
+        )}
+      </div>
+    )
+  }
+
   return (
     <div
       className="b-card b-lift b-press flex flex-col gap-2 p-5"
@@ -117,6 +149,8 @@ export default function FrGlossaryList({ entries, allFields }: { entries: FrLean
   const [fieldFilter, setField] = useState<string | null>(null)
   const [levelFilter, setLevel] = useState<number | null>(null)
   const [defLang, setDefLang]   = useState<'fr' | 'en'>('fr')
+  const isTouch = useIsTouch()
+  const [sheetEntry, setSheetEntry] = useState<CardEntry | null>(null)
 
   const fuseFr = useMemo(() => new Fuse(entries, {
     keys: [
@@ -264,7 +298,7 @@ export default function FrGlossaryList({ entries, allFields }: { entries: FrLean
           )}
           <div className="grid grid-cols-[repeat(auto-fill,minmax(290px,1fr))] gap-4">
             {filtered.slice(0, visible).map(v => (
-              <FrCard key={v.en_h} v={v} def={defs.get(v.slug)} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} />
+              <FrCard key={v.en_h} v={v} def={defs.get(v.slug)} defLang={defLang} onFieldClick={f => setField(f === fieldFilter ? null : f)} mm={v._mm} isTouch={isTouch} onOpen={setSheetEntry} />
             ))}
           </div>
           <div ref={sentinelRef} aria-hidden="true" />
@@ -273,6 +307,12 @@ export default function FrGlossaryList({ entries, allFields }: { entries: FrLean
           )}
         </>
       )}
+
+      <WordPartsSheet
+        entry={sheetEntry ? { en_h: sheetEntry.en_h, slug: sheetEntry.slug, en_l: sheetEntry.en_l, abbr: sheetEntry.abbr, f: sheetEntry.f, lvl: sheetEntry.lvl, head2: sheetEntry.fr_h, sub2: sheetEntry.fr_l, lang2: 'fr' } : null}
+        def={sheetEntry ? defs.get(sheetEntry.slug) : undefined}
+        onClose={() => setSheetEntry(null)}
+      />
     </div>
   )
 }

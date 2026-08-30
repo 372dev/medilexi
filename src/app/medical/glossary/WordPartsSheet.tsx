@@ -5,59 +5,58 @@ import Link from 'next/link'
 import { LVL_TEXT } from '@/lib/vocab-constants'
 import type { Segment } from '@/lib/word-segments'
 
-/* Mobile bottom sheet: opened when a glossary term is tapped on a touch device.
-   Shows the term's word-part breakdown (reusing the fetched segments), plus the
-   definition and, for the KO/FR lists, the translation. Dismiss by tapping the
-   scrim, the close button, Escape, or dragging the sheet down. Shared by the
-   English, Korean, and French glossary lists. */
+/* Mobile bottom sheet: opened when a glossary card is tapped on a touch device.
+   The compact cards omit the definition; it lives here, alongside the word-part
+   breakdown, the lay term, and (for KO/FR) the translation. `def` is the lazily
+   fetched record and may arrive after the sheet opens, so the definition and
+   parts show a shimmer until it lands. Shared by all three glossary lists. */
 
-export interface SheetData {
+export interface SheetEntry {
   en_h: string
   slug: string
-  segs: Segment[] | null
-  d: string
-  lvl: number
-  f: string[]
   en_l?: string
+  abbr?: string
+  f: string[]
+  lvl: number
   head2?: string        // translation headword (ko_h / fr_h)
   sub2?: string         // translation lay term (ko_l / fr_l)
-  def2?: string         // translated definition (d_ko / d_fr)
-  lang2?: string        // 'ko' | 'fr' for the translation block
+  lang2?: string        // 'ko' | 'fr'
 }
+type DefRec = { d: string; segs: Segment[] | null; d2?: string | null }
 
 const TYPE_LABEL: Record<string, string> = { p: 'Prefix', r: 'Root', s: 'Suffix' }
 
-export default function WordPartsSheet({ data, onClose }: { data: SheetData | null; onClose: () => void }) {
+export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEntry | null; def?: DefRec; onClose: () => void }) {
   const [open, setOpen] = useState(false)
   const [dragY, setDragY] = useState(0)
   const dragging = useRef(false)
   const startY = useRef(0)
 
   useEffect(() => {
-    if (!data) return
+    if (!entry) return
     const id = requestAnimationFrame(() => setOpen(true))
     return () => cancelAnimationFrame(id)
-  }, [data])
+  }, [entry])
 
   useEffect(() => {
-    if (!data) return
+    if (!entry) return
     const prev = document.body.style.overflow
     document.body.style.overflow = 'hidden'
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') close() }
     window.addEventListener('keydown', onKey)
     return () => { document.body.style.overflow = prev; window.removeEventListener('keydown', onKey) }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data])
+  }, [entry])
 
   function close() {
     setOpen(false)
     setTimeout(onClose, 240)
   }
 
-  if (!data) return null
+  if (!entry) return null
 
-  const parts = (data.segs ?? []).filter(s => s.wp)
-  const hasSegs = !!data.segs?.some(s => s.wp)
+  const parts = (def?.segs ?? []).filter(s => s.wp)
+  const hasSegs = !!def?.segs?.some(s => s.wp)
   const translateY = open ? dragY : 520
 
   return (
@@ -65,7 +64,7 @@ export default function WordPartsSheet({ data, onClose }: { data: SheetData | nu
       className="fixed inset-0 z-[300] flex items-end justify-center"
       role="dialog"
       aria-modal="true"
-      aria-label={`${data.en_h} details`}
+      aria-label={`${entry.en_h} details`}
     >
       <div
         className="absolute inset-0 bg-black/40 transition-opacity duration-200"
@@ -99,32 +98,38 @@ export default function WordPartsSheet({ data, onClose }: { data: SheetData | nu
           style={{ fontFamily: 'var(--b-display)' }}
         >
           {hasSegs
-            ? data.segs!.map((s, i) => s.wp
+            ? def!.segs!.map((s, i) => s.wp
                 ? <span key={i} className={`b-part--${s.type}`}>{s.text}</span>
                 : <span key={i}>{s.text}</span>)
-            : data.en_h}
+            : entry.en_h}
         </div>
 
         <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
-          <span className={`b-lvl b-lvl--${data.lvl}`}>{LVL_TEXT[data.lvl]}</span>
-          {data.f.map(f => <span key={f} className="b-chip">{f}</span>)}
+          <span className={`b-lvl b-lvl--${entry.lvl}`}>{LVL_TEXT[entry.lvl]}</span>
+          {entry.abbr && <span className="b-abbr">{entry.abbr}</span>}
+          {entry.f.map(f => <span key={f} className="b-chip">{f}</span>)}
         </div>
 
-        {data.en_l && <div className="mt-2 text-[0.95rem] text-[var(--b-dim)]">Also called {data.en_l}</div>}
+        {entry.en_l && <div className="mt-2 text-[0.95rem] text-[var(--b-dim)]">Also called {entry.en_l}</div>}
 
-        <p className="mt-3 text-[0.9rem] leading-[1.55] text-[var(--b-text)]">{data.d}</p>
-
-        {(data.head2 || data.def2) && (
-          <div className="mt-3 rounded-xl border border-[var(--b-border)] bg-[var(--b-raised)] p-3" lang={data.lang2}>
-            {data.head2 && (
-              <div className="text-[1.05rem] font-semibold text-[var(--b-text)]">
-                {data.head2}
-                {data.sub2 && <span className="ml-2 text-[0.9rem] font-normal text-[var(--b-dim)]">({data.sub2})</span>}
-              </div>
-            )}
-            {data.def2 && <div className="mt-1 text-[0.84rem] leading-[1.5] text-[var(--b-dim)]">{data.def2}</div>}
+        {entry.head2 && (
+          <div className="mt-3 rounded-xl border border-[var(--b-border)] bg-[var(--b-raised)] p-3" lang={entry.lang2}>
+            <div className="text-[1.08rem] font-semibold text-[var(--b-primary)]">
+              {entry.head2}
+              {entry.sub2 && <span className="ml-2 text-[0.9rem] font-normal text-[var(--b-dim)]">({entry.sub2})</span>}
+            </div>
+            {def?.d2 && <div className="mt-1 text-[0.86rem] leading-[1.5] text-[var(--b-dim)]">{def.d2}</div>}
           </div>
         )}
+
+        {def
+          ? <p className="mt-3 text-[0.9rem] leading-[1.55] text-[var(--b-text)]">{def.d}</p>
+          : (
+            <div className="mt-3 flex animate-pulse flex-col gap-1.5" aria-hidden="true">
+              <span className="h-3 w-full rounded bg-[var(--b-raised)]" />
+              <span className="h-3 w-[80%] rounded bg-[var(--b-raised)]" />
+            </div>
+          )}
 
         {parts.length > 0 && (
           <>
@@ -149,7 +154,7 @@ export default function WordPartsSheet({ data, onClose }: { data: SheetData | nu
         )}
 
         <div className="mt-4 flex items-center justify-between border-t border-[var(--b-border)] pt-3">
-          <Link href={`/medical/term/${data.slug}`} className="b-focus text-[0.86rem] font-semibold text-[var(--b-primary)]">
+          <Link href={`/medical/term/${entry.slug}`} className="b-focus text-[0.86rem] font-semibold text-[var(--b-primary)]">
             See full entry →
           </Link>
           <button

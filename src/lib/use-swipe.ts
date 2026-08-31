@@ -22,6 +22,9 @@ export function useSwipe(opts: { onLeft?: () => void; onRight?: () => void }) {
     transform: drag.x ? `translateX(${drag.x}px) rotate(${drag.x * 0.05}deg)` : undefined,
     opacity: drag.x ? Math.max(0.35, 1 - Math.abs(drag.x) / 650) : undefined,
     transition: drag.anim ? 'transform 0.24s ease, opacity 0.24s ease' : 'none',
+    // Claim horizontal gestures for the card so a drag doesn't pan the page;
+    // vertical panning still scrolls.
+    touchAction: 'pan-y',
     willChange: 'transform',
   }
 

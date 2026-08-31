@@ -1,9 +1,11 @@
 'use client'
 
+import { useState, useEffect, useRef } from 'react'
+
 /* Bridge hero example: one term shown across three languages at once.
-   The headword's morphemes carry hover tooltips (reusing .b-htip / .b-part--*);
-   the three cards show the everyday word people actually use, with the clinical
-   term beneath. Static by design, so there is no layout shift. */
+   The headword's morphemes carry tooltips (reusing .b-htip / .b-part--*): hover
+   on desktop, tap-to-reveal on touch. The three cards show the everyday word
+   people actually use, with the clinical term beneath. */
 
 const display = { fontFamily: 'var(--b-display)' }
 
@@ -23,6 +25,20 @@ const CARDS = [
 ]
 
 export default function HeroTerm() {
+  const [openTip, setOpenTip] = useState<number | null>(null)
+  const wrapRef = useRef<HTMLHeadingElement>(null)
+
+  // Touch has no hover, so tapping a morpheme toggles its tooltip; tapping
+  // elsewhere closes it.
+  useEffect(() => {
+    if (openTip === null) return
+    function onDown(e: PointerEvent) {
+      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) setOpenTip(null)
+    }
+    document.addEventListener('pointerdown', onDown)
+    return () => document.removeEventListener('pointerdown', onDown)
+  }, [openTip])
+
   return (
     <div className="flex w-full max-w-[760px] flex-col items-center gap-7 text-center">
       {/* hint + headword: the hint sits directly above the term */}
@@ -37,12 +53,19 @@ export default function HeroTerm() {
 
         <div className="flex flex-wrap items-baseline justify-center gap-x-3.5 gap-y-2">
           <h2
+            ref={wrapRef}
             className="m-0 text-[clamp(2.4rem,8vw,3.6rem)] font-bold leading-none tracking-[-0.02em]"
             style={display}
           >
             {PARTS.map((p, i) =>
               p.t
-                ? <span key={i} className={`b-htip b-part--${p.t}`} data-tip={p.tip}>{p.text}</span>
+                ? <span
+                    key={i}
+                    className={`b-htip b-part--${p.t} ${openTip === i ? 'b-htip--open' : ''}`}
+                    data-tip={p.tip}
+                    onClick={() => setOpenTip(o => (o === i ? null : i))}
+                    style={{ cursor: 'pointer' }}
+                  >{p.text}</span>
                 : <span key={i}>{p.text}</span>
             )}
           </h2>

@@ -941,6 +941,11 @@ body.day .b-part--s { color: #991B1B; }
 .b-htip:hover::after, .b-htip:focus-visible::after { opacity: 1; transform: translateX(-50%) translateY(0); }
 .b-htip:hover::before, .b-htip:focus-visible::before { opacity: 1; transform: translate(-50%, 0) rotate(45deg); }
 
+/* Tap-to-reveal: touch devices have no hover, so a tapped morpheme gets this
+   class to force its tooltip open (matches the hover state). */
+.b-htip--open::after  { opacity: 1; transform: translateX(-50%) translateY(0); }
+.b-htip--open::before { opacity: 1; transform: translate(-50%, 0) rotate(45deg); }
+
 /* On touch devices the term headword is a tap target (opens the word-parts
    sheet), so suppress drag-to-select and the long-press callout on it. */
 @media (hover: none) and (pointer: coarse) {

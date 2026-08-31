@@ -79,8 +79,13 @@ export default function WordPartsFlashcard() {
     setTimeout(() => setCardIdx(i => Math.max(0, i - 1)), 150)
   }
   function handleGotIt() {
-    setKnown(s => { const n = new Set(s); n.add(cardIdxRef.current); return n })
-    next()
+    // Update `known` and `cardIdx` together after the flip-back, so the derived
+    // missed count (cardIdx - known.size) never renders a transient off-by-one.
+    setFlipped(false)
+    setTimeout(() => {
+      setKnown(s => { const n = new Set(s); n.add(cardIdxRef.current); return n })
+      setCardIdx(i => i + 1)
+    }, 150)
   }
 
   /* ── Keyboard ── */

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import vocabData from '@/data/medical_vocab.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
+import { useSwipe } from '@/lib/use-swipe'
 
 /* Direction "Signal" redesign. Deck / session / keyboard logic is unchanged
    from the live page; only the presentation moved to the .b-* kit. Levels read
@@ -118,6 +119,11 @@ export default function FlashcardsPage() {
 
   const cardParts = card?.parts
   const hasParts = !!cardParts && (['p','r','s'] as const).some(t => (cardParts[t]?.length ?? 0) > 0)
+
+  const swipe = useSwipe({
+    onRight: () => { if (mode === 'study') nextCard(); else if (flippedRef.current) markKnown() },
+    onLeft:  () => { if (mode === 'study') prevCard(); else if (flippedRef.current) markUnknown() },
+  })
 
   /* ════════════════════════════════════
      RENDER
@@ -296,7 +302,9 @@ export default function FlashcardsPage() {
 
               {/* Flip card */}
               <div
-                onClick={() => setFlipped(f => !f)}
+                onClick={() => { if (swipe.swiped.current) { swipe.swiped.current = false; return } setFlipped(f => !f) }}
+                onTouchStart={swipe.handlers.onTouchStart}
+                onTouchEnd={swipe.handlers.onTouchEnd}
                 className="b-session__card mb-4 cursor-pointer"
                 style={{ perspective:'1000px' }}
               >

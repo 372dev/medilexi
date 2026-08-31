@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import partsData from '@/data/medical_wordparts.json'
 import { LVL_TEXT } from '@/lib/vocab-constants'
+import { useSwipe } from '@/lib/use-swipe'
 
 /* Direction B sample. Deck/session/keyboard logic is unchanged from the live
    page; only the presentation moved. Levels read as labels, not stars. */
@@ -99,6 +100,12 @@ export default function WordPartsFlashcard() {
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [started, showSettings, mode])
+
+  const swipe = useSwipe({
+    onRight: () => { if (mode === 'study') next(); else if (flippedRef.current) handleGotIt() },
+    onLeft:  () => { if (mode === 'study') prev(); else if (flippedRef.current) next() },
+    enabled: () => mode === 'study' || flippedRef.current,
+  })
 
   return (
     <>
@@ -273,9 +280,12 @@ export default function WordPartsFlashcard() {
 
               {/* Flip card */}
               <div
-                onClick={() => setFlipped(f => !f)}
+                onClick={() => { if (swipe.swiped.current) { swipe.swiped.current = false; return } setFlipped(f => !f) }}
+                onTouchStart={swipe.handlers.onTouchStart}
+                onTouchMove={swipe.handlers.onTouchMove}
+                onTouchEnd={swipe.handlers.onTouchEnd}
                 className="b-session__card mb-4 cursor-pointer"
-                style={{ perspective:'1000px' }}
+                style={{ perspective:'1000px', ...swipe.style }}
               >
                 <div
                   className="relative h-full w-full"

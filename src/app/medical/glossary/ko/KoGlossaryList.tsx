@@ -178,6 +178,9 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
     return () => clearTimeout(t)
   }, [searchQuery])
 
+  // A new search should surface the best matches from the top of the page.
+  useEffect(() => { if (deferredQuery.trim()) window.scrollTo({ top: 0 }) }, [deferredQuery])
+
   const filtered = useMemo((): CardEntry[] => {
     const q = deferredQuery.trim()
     if (!q) {

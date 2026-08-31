@@ -136,6 +136,7 @@ export default function FrFlashcardsPage() {
   const swipe = useSwipe({
     onRight: () => { if (mode === 'study') nextCard(); else if (flippedRef.current) markKnown() },
     onLeft:  () => { if (mode === 'study') prevCard(); else if (flippedRef.current) markUnknown() },
+    enabled: () => mode === 'study' || flippedRef.current,
   })
 
   return (
@@ -398,7 +399,7 @@ export default function FrFlashcardsPage() {
                     </div>
 
                     {/* French */}
-                    <div className="mt-auto flex flex-col gap-1.5 border-t border-[var(--b-border)] pt-4" lang="fr">
+                    <div className="mt-4 flex flex-col gap-1.5 border-t border-[var(--b-border)] pt-4" lang="fr">
                       <div className="text-[1.4rem] font-semibold leading-tight text-[var(--b-primary)]" style={display}>{card.fr_h}</div>
                       {card.fr_l && <div className="text-[0.98rem] text-[var(--b-dim)]">{card.fr_l}</div>}
                       <p className="m-0 text-[0.88rem] leading-[1.55] text-[var(--b-dim)]">{card.d_fr || card.d}</p>

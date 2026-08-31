@@ -34,6 +34,7 @@ export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEn
 
   useEffect(() => {
     if (!entry) return
+    setDragY(0)   // clear any leftover drag from a previous swipe-down close
     const id = requestAnimationFrame(() => setOpen(true))
     return () => cancelAnimationFrame(id)
   }, [entry])
@@ -72,7 +73,7 @@ export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEn
         onClick={close}
       />
       <div
-        className="relative w-full max-w-[520px] rounded-t-[22px] border-t border-[var(--b-border)] bg-[var(--b-panel)] px-5 pt-2.5"
+        className="relative w-full max-w-[520px] select-none rounded-t-[22px] border-t border-[var(--b-border)] bg-[var(--b-panel)] px-5 pt-2.5"
         style={{
           transform: `translateY(${translateY}px)`,
           transition: dragging.current ? 'none' : 'transform 240ms cubic-bezier(0.22,1,0.36,1)',

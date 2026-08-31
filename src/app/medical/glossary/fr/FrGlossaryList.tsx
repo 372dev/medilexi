@@ -169,6 +169,9 @@ export default function FrGlossaryList({ entries, allFields }: { entries: FrLean
     return () => clearTimeout(t)
   }, [search])
 
+  // A new search should surface the best matches from the top of the page.
+  useEffect(() => { if (query.trim()) window.scrollTo({ top: 0 }) }, [query])
+
   const filtered = useMemo((): CardEntry[] => {
     const q = query.trim()
     if (!q) {

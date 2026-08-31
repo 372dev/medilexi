@@ -10,7 +10,7 @@ import type { CSSProperties, TouchEvent } from 'react'
 const THRESHOLD = 95   // px of travel that commits to a fling
 const ENGAGE = 8       // px before a horizontal drag takes over from a tap/scroll
 
-export function useSwipe(opts: { onLeft?: () => void; onRight?: () => void }) {
+export function useSwipe(opts: { onLeft?: () => void; onRight?: () => void; enabled?: () => boolean }) {
   const start = useRef<{ x: number; y: number } | null>(null)
   const active = useRef(false)
   const dx = useRef(0)
@@ -44,6 +44,7 @@ export function useSwipe(opts: { onLeft?: () => void; onRight?: () => void }) {
         const mx = e.touches[0].clientX - s.x
         const my = e.touches[0].clientY - s.y
         if (!active.current) {
+          if (opts.enabled && !opts.enabled()) { start.current = null; return }  // a swipe wouldn't act here: no drag, tap still works
           if (Math.abs(my) > 12 && Math.abs(my) >= Math.abs(mx)) { start.current = null; return }  // vertical: let it scroll
           if (Math.abs(mx) < ENGAGE) return
           active.current = true

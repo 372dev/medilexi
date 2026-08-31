@@ -105,7 +105,7 @@ export default function ClientShell({ children }: { children: React.ReactNode })
           {children}
         </div>
       ) : (
-        <div className="min-h-screen bg-[var(--b-bg)] text-[var(--b-text)]">
+        <div className="min-h-screen [overflow-x:clip] bg-[var(--b-bg)] text-[var(--b-text)]">
           <a
             href="#main-content"
             className="absolute left-2 top-[-48px] z-[300] rounded-lg bg-[var(--b-primary)] px-4 py-2 text-sm font-semibold text-[var(--b-on-prim)] transition-[top] focus:top-2"

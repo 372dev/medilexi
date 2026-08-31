@@ -128,6 +128,7 @@ export default function AbbrFlashcardsPage() {
   const swipe = useSwipe({
     onRight: () => { if (mode === 'study') nextCard(); else if (flippedRef.current) markKnown() },
     onLeft:  () => { if (mode === 'study') prevCard(); else if (flippedRef.current) markUnknown() },
+    enabled: () => mode === 'study' || flippedRef.current,
   })
 
   return (

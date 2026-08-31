@@ -1,10 +1,8 @@
 import type { Config } from 'tailwindcss'
-import tailwindcssAnimate from 'tailwindcss-animate'
 
-// Foundation for the redesign (direction A · clean clinical). Preflight is OFF so
-// Tailwind does NOT reset the existing global-CSS design — the current site keeps
-// working until the redesign replaces it. Theme colours map to the CSS variables
-// defined in src/app/globals.css (:root = light, .dark = dark).
+// Preflight is OFF so Tailwind does not reset the global CSS design; utilities
+// layer on top. borderRadius maps to --radius (used by rounded-lg); the color
+// aliases feed the base token block in globals.css.
 const config: Config = {
   darkMode: ['class'],
   content: ['./src/**/*.{ts,tsx}'],
@@ -37,17 +35,9 @@ const config: Config = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
-      keyframes: {
-        'accordion-down': { from: { height: '0' }, to: { height: 'var(--radix-accordion-content-height)' } },
-        'accordion-up': { from: { height: 'var(--radix-accordion-content-height)' }, to: { height: '0' } },
-      },
-      animation: {
-        'accordion-down': 'accordion-down 0.2s ease-out',
-        'accordion-up': 'accordion-up 0.2s ease-out',
-      },
     },
   },
-  plugins: [tailwindcssAnimate],
+  plugins: [],
 }
 
 export default config

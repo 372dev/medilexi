@@ -154,6 +154,7 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
   const [defLang, setDefLang]   = useState<'ko' | 'en'>('ko')
   const isTouch = useIsTouch()
   const [sheetEntry, setSheetEntry] = useState<CardEntry | null>(null)
+  const [showFilters, setShowFilters] = useState(false)
 
   // Indexes over the lean data (built once).
   const vocabByEn = useMemo(() => Object.fromEntries(entries.map(v => [v.en_h, v])) as Record<string, KoLeanEntry>, [entries])
@@ -279,12 +280,15 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
     }
   }, [filtered, visible])
 
+  const activeFilters = (fieldFilter ? 1 : 0) + (levelFilter ? 1 : 0)
+
   return (
     <div className="mx-auto flex w-full max-w-[1100px] flex-col gap-5">
 
       {/* ── Sticky filter bar ── */}
       <div className="sticky top-[57px] z-[90] -mx-1 flex flex-col gap-2 bg-[var(--b-bg)] px-1 pb-3 pt-2 sm:gap-3 sm:pb-4 sm:pt-3">
-        <div className="flex flex-wrap items-center gap-2">
+        {/* search + (mobile) filters toggle + (desktop) flashcard */}
+        <div className="flex items-center gap-2">
           <input
             className="b-search min-w-0 flex-1"
             type="text"
@@ -303,6 +307,27 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
               setSearchQuery(v)
             }}
           />
+          <button
+            type="button"
+            onClick={() => setShowFilters(o => !o)}
+            aria-expanded={showFilters}
+            className="b-press b-focus inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-3.5 py-2.5 text-[0.82rem] font-semibold sm:hidden"
+          >
+            Filters{activeFilters ? ` · ${activeFilters}` : ''}
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className={`transition-transform ${showFilters ? 'rotate-180' : ''}`}>
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <Link
+            href="/medical/flashcards/ko"
+            className="b-press b-focus hidden items-center whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-2.5 text-[0.82rem] font-semibold hover:border-[var(--b-primary)] hover:text-[var(--b-primary)] sm:inline-flex"
+          >
+            Flashcard →
+          </Link>
+        </div>
+
+        {/* collapsible on mobile (always from sm up): specialty + levels (+ def toggle, desktop only) */}
+        <div className={`${showFilters ? 'flex' : 'hidden'} flex-col gap-2 sm:flex sm:flex-row sm:flex-wrap sm:items-center sm:gap-3`}>
           <select
             className="b-select b-focus"
             aria-label="Filter by specialty"
@@ -312,47 +337,40 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
             <option value="">All fields</option>
             {allFields.map(f => <option key={f} value={f}>{f}</option>)}
           </select>
-          <Link
-            href="/medical/flashcards/ko"
-            className="b-press b-focus hidden items-center whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-2.5 text-[0.82rem] font-semibold hover:border-[var(--b-primary)] hover:text-[var(--b-primary)] sm:inline-flex"
-          >
-            Flashcard →
-          </Link>
-        </div>
-
-        <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-3">
-          <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3">
-            <div className="flex gap-2 overflow-x-auto sm:flex-wrap sm:overflow-visible [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-              <button className={`b-fpill b-focus shrink-0 ${!levelFilter ? 'b-fpill--active' : ''}`} onClick={() => setLevel(null)}>
-                All levels
+          <div className="flex gap-2 overflow-x-auto sm:flex-wrap sm:overflow-visible [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            <button className={`b-fpill b-focus shrink-0 ${!levelFilter ? 'b-fpill--active' : ''}`} onClick={() => setLevel(null)}>
+              All levels
+            </button>
+            {ALL_LEVELS.map(lvl => (
+              <button
+                key={lvl}
+                className={`b-fpill b-focus shrink-0 ${levelFilter === lvl ? 'b-fpill--active' : ''}`}
+                onClick={() => setLevel(levelFilter === lvl ? null : lvl)}
+              >
+                {LVL_TEXT[lvl]}
               </button>
-              {ALL_LEVELS.map(lvl => (
+            ))}
+          </div>
+          <div className="hidden items-center gap-2 sm:flex">
+            <span className="text-[0.72rem] font-semibold text-[var(--b-dim)]">Definition</span>
+            <div className="inline-flex overflow-hidden rounded-lg border border-[var(--b-border)]">
+              {(['ko', 'en'] as const).map(l => (
                 <button
-                  key={lvl}
-                  className={`b-fpill b-focus shrink-0 ${levelFilter === lvl ? 'b-fpill--active' : ''}`}
-                  onClick={() => setLevel(levelFilter === lvl ? null : lvl)}
+                  key={l}
+                  onClick={() => setDefLang(l)}
+                  aria-pressed={defLang === l}
+                  className={`b-focus px-3 py-1.5 text-[0.76rem] font-semibold ${defLang === l ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'}`}
                 >
-                  {LVL_TEXT[lvl]}
+                  {l === 'ko' ? 'Korean' : 'English'}
                 </button>
               ))}
             </div>
-            <div className="flex items-center gap-2">
-              <span className="text-[0.72rem] font-semibold text-[var(--b-dim)]">Definition</span>
-              <div className="inline-flex overflow-hidden rounded-lg border border-[var(--b-border)]">
-                {(['ko', 'en'] as const).map(l => (
-                  <button
-                    key={l}
-                    onClick={() => setDefLang(l)}
-                    aria-pressed={defLang === l}
-                    className={`b-focus px-3 py-1.5 text-[0.76rem] font-semibold ${defLang === l ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'}`}
-                  >
-                    {l === 'ko' ? 'Korean' : 'English'}
-                  </button>
-                ))}
-              </div>
-            </div>
           </div>
-          <span className="shrink-0 text-[0.78rem] font-medium text-[var(--b-dim)] tabular-nums">{filtered.length} terms</span>
+        </div>
+
+        {/* meta row (always) */}
+        <div className="flex items-center justify-end text-[0.78rem] font-medium text-[var(--b-dim)] tabular-nums">
+          <span className="shrink-0">{filtered.length} terms</span>
         </div>
       </div>
 

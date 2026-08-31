@@ -141,7 +141,10 @@ export default function ClientShell({ children }: { children: React.ReactNode })
           </footer>
 
           {!cookieDismissed && (
-            <div className="fixed inset-x-0 bottom-0 z-[200] flex flex-wrap items-center justify-center gap-4 border-t border-[var(--b-border)] bg-[var(--b-panel)] px-5 py-3">
+            <div
+              className="fixed inset-x-0 bottom-0 z-[200] flex flex-wrap items-center justify-center gap-4 border-t border-[var(--b-border)] bg-[var(--b-panel)] px-5 py-3"
+              style={{ paddingBottom: 'calc(0.75rem + env(safe-area-inset-bottom))' }}
+            >
               <p className="m-0 text-[0.82rem] leading-[1.6] text-[var(--b-dim)]">
                 This site uses cookies for analytics.{' '}
                 <Link href="/medical/privacy" className="font-semibold text-[var(--b-primary)] underline">Learn more</Link>

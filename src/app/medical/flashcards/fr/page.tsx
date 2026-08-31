@@ -333,9 +333,10 @@ export default function FrFlashcardsPage() {
               <div
                 onClick={() => { if (swipe.swiped.current) { swipe.swiped.current = false; return } setFlipped(f => !f) }}
                 onTouchStart={swipe.handlers.onTouchStart}
+                onTouchMove={swipe.handlers.onTouchMove}
                 onTouchEnd={swipe.handlers.onTouchEnd}
                 className="b-session__card mb-4 cursor-pointer"
-                style={{ perspective:'1000px' }}
+                style={{ perspective:'1000px', ...swipe.style }}
               >
                 <div
                   className="relative h-full w-full"

@@ -6,12 +6,13 @@ import { usePathname } from 'next/navigation'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import SiteHeader from './SiteHeader'
-import { LocaleProvider } from '@/lib/i18n'
+import { useT } from '@/lib/i18n'
 
 /* App shell: the shared top nav (SiteHeader), footer, and cookie notice. On the
    landing the nav is revealed on scroll; on every other route it is sticky. */
 
 export default function ClientShell({ children }: { children: React.ReactNode }) {
+  const t = useT()
   const [isDay, setIsDay] = useState(true)
   const [cookieDismissed, setCookieDismissed] = useState(true)
   const [revealed, setRevealed] = useState(false)
@@ -68,8 +69,8 @@ export default function ClientShell({ children }: { children: React.ReactNode })
     <button
       onClick={toggleMode}
       className="b-press b-focus inline-flex items-center justify-center rounded-full border border-[var(--b-border)] bg-[var(--b-panel)] p-2.5 text-[var(--b-text)]"
-      aria-label={isDay ? 'Switch to night mode' : 'Switch to day mode'}
-      title={isDay ? 'Switch to night mode' : 'Switch to day mode'}
+      aria-label={isDay ? t('shell.toNight') : t('shell.toDay')}
+      title={isDay ? t('shell.toNight') : t('shell.toDay')}
     >
       {isDay ? (
         /* day mode → show the moon (click to go night) */
@@ -87,7 +88,7 @@ export default function ClientShell({ children }: { children: React.ReactNode })
   )
 
   return (
-    <LocaleProvider>
+    <>
       {isCommunity ? (
         /* Community workspace (placeholder for now). No Medi Lexi chrome; the
            page owns its own layout on the shared --b-* theme. */
@@ -111,7 +112,7 @@ export default function ClientShell({ children }: { children: React.ReactNode })
             href="#main-content"
             className="absolute left-2 top-[-48px] z-[300] rounded-lg bg-[var(--b-primary)] px-4 py-2 text-sm font-semibold text-[var(--b-on-prim)] transition-[top] focus:top-2"
           >
-            Skip to content
+            {t('shell.skip')}
           </a>
 
           <SiteHeader toggle={toggleBtn} variant="sticky" />
@@ -125,19 +126,17 @@ export default function ClientShell({ children }: { children: React.ReactNode })
           <footer className="mt-12 border-t border-[var(--b-border)] px-5 py-8">
             <div className="mx-auto flex max-w-[900px] flex-col items-center gap-4 text-center">
               <p className="m-0 max-w-[74ch] text-[0.75rem] leading-[1.7] text-[var(--b-dim)]">
-                ⚕ For educational purposes only · Not a substitute for professional medical advice,
-                diagnosis, or treatment · Content is based on standard medical terminology references
-                and may not reflect the latest clinical guidelines
+                {t('shell.disclaimer')}
               </p>
               <div className="flex flex-wrap justify-center gap-5">
                 <Link href="/medical/about" className="b-focus text-[0.84rem] font-semibold text-[var(--b-primary)] hover:underline">
-                  About &amp; Sources
+                  {t('shell.aboutSources')}
                 </Link>
                 <Link href="/medical/privacy" className="b-focus text-[0.84rem] font-semibold text-[var(--b-primary)] hover:underline">
-                  Privacy Policy
+                  {t('shell.privacy')}
                 </Link>
               </div>
-              <p className="m-0 text-[0.75rem] text-[var(--b-dim)]">© 2026 Medi Lexi · All rights reserved</p>
+              <p className="m-0 text-[0.75rem] text-[var(--b-dim)]">{t('shell.copyright')}</p>
             </div>
           </footer>
 
@@ -147,14 +146,14 @@ export default function ClientShell({ children }: { children: React.ReactNode })
               style={{ paddingBottom: 'calc(0.75rem + env(safe-area-inset-bottom))' }}
             >
               <p className="m-0 text-[0.82rem] leading-[1.6] text-[var(--b-dim)]">
-                This site uses cookies for analytics.{' '}
-                <Link href="/medical/privacy" className="font-semibold text-[var(--b-primary)] underline">Learn more</Link>
+                {t('shell.cookieText')}{' '}
+                <Link href="/medical/privacy" className="font-semibold text-[var(--b-primary)] underline">{t('shell.learnMore')}</Link>
               </p>
               <button
                 onClick={dismissCookieNotice}
                 className="b-press b-focus rounded-xl bg-[var(--b-primary)] px-5 py-2 text-[0.82rem] font-bold text-[var(--b-on-prim)]"
               >
-                OK
+                {t('common.ok')}
               </button>
             </div>
           )}
@@ -162,6 +161,6 @@ export default function ClientShell({ children }: { children: React.ReactNode })
       )}
       <Analytics />
       <SpeedInsights />
-    </LocaleProvider>
+    </>
   )
 }

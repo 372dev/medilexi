@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { useLocale, LOCALES } from '@/lib/i18n'
+import { useLocale, useT, LOCALES } from '@/lib/i18n'
 
 /* Header language switch. Changes the interface language IN PLACE — nav, buttons,
    filters and other chrome re-render in the chosen language while the reader stays
@@ -15,6 +15,7 @@ const SOON = [
 
 export default function LangSwitch() {
   const { locale, setLocale } = useLocale()
+  const t = useT()
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
   const cur = LOCALES.find(l => l.code === locale) ?? LOCALES[0]
@@ -35,8 +36,8 @@ export default function LangSwitch() {
         onClick={() => setOpen(o => !o)}
         aria-haspopup="menu"
         aria-expanded={open}
-        aria-label="Change language"
-        title="Language"
+        aria-label={t('shell.changeLang')}
+        title={t('shell.language')}
         className="b-press b-focus inline-flex h-[38px] w-[38px] items-center justify-center rounded-full border border-[var(--b-border)] bg-[var(--b-panel)] text-[0.78rem] font-bold text-[var(--b-dim)] hover:text-[var(--b-primary)]"
       >
         {cur.short}

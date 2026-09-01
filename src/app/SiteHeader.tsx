@@ -78,8 +78,8 @@ export default function SiteHeader({ toggle, variant = 'sticky', shown = true }:
         <div className="flex items-center gap-1">
           <Link
             href="/welcome"
-            aria-label="Inter Lexi home"
-            title="Inter Lexi home"
+            aria-label={t('shell.home')}
+            title={t('shell.home')}
             className="b-press b-focus mr-1 inline-flex items-center justify-center rounded-full border border-[var(--b-border)] bg-[var(--b-panel)] p-2 text-[var(--b-dim)] hover:text-[var(--b-primary)]"
           >
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

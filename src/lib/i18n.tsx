@@ -33,6 +33,22 @@ export const MESSAGES = {
   'nav.menu':          { en: 'Menu',          ko: '메뉴' },
   'common.soon':       { en: 'soon',          ko: '준비 중' },
   'common.close':      { en: 'Close',         ko: '닫기' },
+  'common.ok':         { en: 'OK',            ko: '확인' },
+
+  // App shell — tooltips / aria, footer, cookie bar, skip link
+  'shell.home':          { en: 'Inter Lexi home',        ko: 'Inter Lexi 홈' },
+  'shell.language':      { en: 'Language',               ko: '언어' },
+  'shell.changeLang':    { en: 'Change language',        ko: '언어 변경' },
+  'shell.toNight':       { en: 'Switch to night mode',   ko: '야간 모드로 전환' },
+  'shell.toDay':         { en: 'Switch to day mode',     ko: '주간 모드로 전환' },
+  'shell.skip':          { en: 'Skip to content',        ko: '본문으로 건너뛰기' },
+  'shell.disclaimer':    { en: '⚕ For educational purposes only · Not a substitute for professional medical advice, diagnosis, or treatment · Content is based on standard medical terminology references and may not reflect the latest clinical guidelines',
+                           ko: '⚕ 교육 목적으로만 제공됩니다 · 전문적인 의학적 조언, 진단 또는 치료를 대체하지 않습니다 · 표준 의학 용어 참고 자료를 기반으로 하며 최신 임상 지침을 반영하지 않을 수 있습니다' },
+  'shell.aboutSources':  { en: 'About & Sources',        ko: '소개 및 출처' },
+  'shell.privacy':       { en: 'Privacy Policy',         ko: '개인정보 처리방침' },
+  'shell.copyright':     { en: '© 2026 Medi Lexi · All rights reserved', ko: '© 2026 Medi Lexi · 모든 권리 보유' },
+  'shell.cookieText':    { en: 'This site uses cookies for analytics.', ko: '이 사이트는 분석을 위해 쿠키를 사용합니다.' },
+  'shell.learnMore':     { en: 'Learn more',             ko: '자세히 보기' },
 
   // Word-part types (badges, sheet, term page)
   'parts.prefix': { en: 'Prefix', ko: '접두사' },

@@ -1,6 +1,7 @@
 import { headers } from 'next/headers'
 import type { Metadata } from 'next'
 import ClientShell from './ClientShell'
+import { LocaleProvider } from '@/lib/i18n'
 import { PAGE_TITLES } from '@/lib/page-titles'
 import './globals.css'
 
@@ -280,7 +281,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
           />
         )}
-        <ClientShell>{children}</ClientShell>
+        <LocaleProvider>
+          <ClientShell>{children}</ClientShell>
+        </LocaleProvider>
       </body>
     </html>
   )

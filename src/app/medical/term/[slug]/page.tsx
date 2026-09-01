@@ -7,6 +7,7 @@ import vocabData from '@/data/medical_vocab.json'
 import koData from '@/data/medical_vocab_ko.json'
 import frData from '@/data/medical_vocab_fr.json'
 import partsData from '@/data/medical_wordparts_simple.json'
+import SpeakButton from '../../SpeakButton'
 
 const BASE_URL = 'https://interlexi.com/medical'
 
@@ -129,6 +130,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
         >
           {entry.en_h}
           {entry.abbr ? <span className="b-abbr ml-3 align-middle">{entry.abbr}</span> : null}
+          <SpeakButton text={entry.en_h} className="ml-3 align-middle" />
         </h1>
         {entry.en_l ? (
           <p className="mt-2 text-base" style={{ color: 'var(--b-dim)' }}>

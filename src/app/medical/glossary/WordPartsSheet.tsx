@@ -3,6 +3,7 @@
 import { useEffect, useState, useRef } from 'react'
 import Link from 'next/link'
 import { LVL_TEXT } from '@/lib/vocab-constants'
+import SpeakButton from '../SpeakButton'
 import type { Segment } from '@/lib/word-segments'
 
 /* Mobile bottom sheet: opened when a glossary card is tapped on a touch device.
@@ -95,15 +96,18 @@ export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEn
       >
         <div className="mx-auto mb-3.5 h-1 w-9 rounded-full bg-[var(--b-border)]" />
 
-        <div
-          className="text-[1.7rem] font-bold leading-none tracking-[-0.01em] text-[var(--b-text)]"
-          style={{ fontFamily: 'var(--b-display)' }}
-        >
-          {hasSegs
-            ? def!.segs!.map((s, i) => s.wp
-                ? <span key={i} className={`b-part--${s.type}`}>{s.text}</span>
-                : <span key={i}>{s.text}</span>)
-            : entry.en_h}
+        <div className="flex items-start justify-between gap-3">
+          <div
+            className="text-[1.7rem] font-bold leading-none tracking-[-0.01em] text-[var(--b-text)]"
+            style={{ fontFamily: 'var(--b-display)' }}
+          >
+            {hasSegs
+              ? def!.segs!.map((s, i) => s.wp
+                  ? <span key={i} className={`b-part--${s.type}`}>{s.text}</span>
+                  : <span key={i}>{s.text}</span>)
+              : entry.en_h}
+          </div>
+          <SpeakButton text={entry.en_h} className="mt-0.5" />
         </div>
 
         <div className="mt-2.5 flex flex-wrap items-center gap-1.5">

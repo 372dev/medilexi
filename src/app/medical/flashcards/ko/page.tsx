@@ -7,6 +7,7 @@ import koData from '@/data/medical_vocab_ko.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 import { useSwipe } from '@/lib/use-swipe'
+import { getSegments } from '@/lib/word-segments'
 import SpeakButton from '../../SpeakButton'
 
 /* Direction "Signal" redesign. Deck / session / keyboard / direction logic is
@@ -133,6 +134,7 @@ export default function KoFlashcardsPage() {
 
   const cardParts = card?.parts
   const hasParts = !!cardParts && (['p','r','s'] as const).some(t => (cardParts[t]?.length ?? 0) > 0)
+  const segs = card && cardParts ? getSegments(card.en_h, cardParts) : null
 
   const swipe = useSwipe({
     onRight: () => { if (mode === 'study') nextCard(); else if (flippedRef.current) markKnown() },
@@ -382,20 +384,24 @@ export default function KoFlashcardsPage() {
                       <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
                       <div className="flex items-start justify-between gap-2">
                         <div className="text-[1.42rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
-                          {card.en_h}
+                          {segs
+                            ? segs.map((s, i) => s.wp
+                                ? <span key={i} className={`b-part--${s.type}`}>{s.text}</span>
+                                : <span key={i}>{s.text}</span>)
+                            : card.en_h}
                         </div>
                         <SpeakButton text={card.en_h} className="mt-0.5" />
                       </div>
                       {card.en_l && <div className="text-[0.98rem] text-[var(--b-dim)]">{card.en_l}</div>}
                       <p className="m-0 text-[0.9rem] leading-[1.6] text-[var(--b-dim)]">{card.d}</p>
                       {hasParts && (
-                        <div className="flex flex-col gap-1.5">
+                        <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-[0.82rem] leading-snug text-[var(--b-dim)]">
                           {(['p','r','s'] as const).flatMap(t =>
                             (cardParts?.[t] ?? []).map(wp => (
-                              <div key={`${t}-${wp}`} className="b-ex">
+                              <span key={`${t}-${wp}`}>
                                 <strong className={`b-part--${t}`}>{wp}</strong>
                                 {partsMap[wp]?.d ? ` · ${partsMap[wp].d}` : ''}
-                              </div>
+                              </span>
                             ))
                           )}
                         </div>

@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import SiteHeader from './SiteHeader'
+import { LocaleProvider } from '@/lib/i18n'
 
 /* App shell: the shared top nav (SiteHeader), footer, and cookie notice. On the
    landing the nav is revealed on scroll; on every other route it is sticky. */
@@ -86,7 +87,7 @@ export default function ClientShell({ children }: { children: React.ReactNode })
   )
 
   return (
-    <>
+    <LocaleProvider>
       {isCommunity ? (
         /* Community workspace (placeholder for now). No Medi Lexi chrome; the
            page owns its own layout on the shared --b-* theme. */
@@ -161,6 +162,6 @@ export default function ClientShell({ children }: { children: React.ReactNode })
       )}
       <Analytics />
       <SpeedInsights />
-    </>
+    </LocaleProvider>
   )
 }

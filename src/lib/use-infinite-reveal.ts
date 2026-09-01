@@ -41,5 +41,5 @@ export function useInfiniteReveal(total: number, resetKey: unknown, initial = 48
     observerRef.current.observe(node)
   }, [step])
 
-  return { visible, sentinelRef }
+  return { visible, sentinelRef, setVisible }
 }

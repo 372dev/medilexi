@@ -8,7 +8,9 @@ import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { hangulSearch, jamoFlat, isKorean } from '@/lib/hangul'
 import { rankTier } from '@/lib/search-rank'
 import { useIsTouch } from '@/lib/use-is-touch'
+import { useScrollRestore } from '@/lib/use-scroll-restore'
 import WordPartsSheet from '../WordPartsSheet'
+import SpeakButton from '../../SpeakButton'
 import type { Segment } from '@/lib/word-segments'
 
 /* Korean glossary list over a LEAN index (en_h, slug, abbr, en_l, ko_h, ko_l,
@@ -85,7 +87,10 @@ function KoCard({ v, def, defLang, onFieldClick, mm, isTouch, onOpen }: { v: Car
     >
       <div className="flex items-center justify-between gap-2">
         <span className={`b-lvl b-lvl--${v.lvl}`}>{LVL_TEXT[v.lvl]}</span>
-        {v.abbr && <span className="b-abbr">{hi(v.abbr, mm?.abbr)}</span>}
+        <span className="flex items-center gap-2">
+          {v.abbr && <span className="b-abbr">{hi(v.abbr, mm?.abbr)}</span>}
+          <SpeakButton text={v.en_h} />
+        </span>
       </div>
 
       <Link
@@ -261,7 +266,8 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
     return matchTierKo(filtered[0], [], q.toLowerCase()) >= 4
   }, [deferredQuery, filtered])
 
-  const { visible, sentinelRef } = useInfiniteReveal(filtered.length, filtered)
+  const { visible, sentinelRef, setVisible } = useInfiniteReveal(filtered.length, filtered)
+  useScrollRestore('gloss:ko', visible, setVisible, mounted)
 
   // ── Lazy definitions (lang=ko returns d + d2=d_ko + segs) ──
   const [defs, setDefs] = useState<Map<string, DefRec>>(new Map())

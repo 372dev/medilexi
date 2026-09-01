@@ -7,7 +7,9 @@ import { ALL_LEVELS, LVL_TEXT } from '@/lib/vocab-constants'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { rankTier } from '@/lib/search-rank'
 import { useIsTouch } from '@/lib/use-is-touch'
+import { useScrollRestore } from '@/lib/use-scroll-restore'
 import WordPartsSheet from '../WordPartsSheet'
+import SpeakButton from '../../SpeakButton'
 import type { Segment } from '@/lib/word-segments'
 
 /* French glossary list over a LEAN index (en_h, slug, abbr, en_l, fr_h, fr_l,
@@ -84,7 +86,10 @@ function FrCard({ v, def, defLang, onFieldClick, mm, isTouch, onOpen }: { v: Car
     >
       <div className="flex items-center justify-between gap-2">
         <span className={`b-lvl b-lvl--${v.lvl}`}>{LVL_TEXT[v.lvl]}</span>
-        {v.abbr && <span className="b-abbr">{hi(v.abbr, mm?.abbr)}</span>}
+        <span className="flex items-center gap-2">
+          {v.abbr && <span className="b-abbr">{hi(v.abbr, mm?.abbr)}</span>}
+          <SpeakButton text={v.en_h} />
+        </span>
       </div>
 
       <Link
@@ -203,7 +208,8 @@ export default function FrGlossaryList({ entries, allFields }: { entries: FrLean
     return matchTierFr(filtered[0], [], q.toLowerCase()) >= 4
   }, [query, filtered])
 
-  const { visible, sentinelRef } = useInfiniteReveal(filtered.length, filtered)
+  const { visible, sentinelRef, setVisible } = useInfiniteReveal(filtered.length, filtered)
+  useScrollRestore('gloss:fr', visible, setVisible, mounted)
 
   const activeFilters = (fieldFilter ? 1 : 0) + (levelFilter ? 1 : 0)
 

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
+import { useT } from '@/lib/i18n'
 
 /* Bridge hero example: one term shown across three languages at once.
    The headword's morphemes carry tooltips (reusing .b-htip / .b-part--*): hover
@@ -25,6 +26,7 @@ const CARDS = [
 ]
 
 export default function HeroTerm() {
+  const t = useT()
   const [openTip, setOpenTip] = useState<number | null>(null)
   const wrapRef = useRef<HTMLHeadingElement>(null)
 
@@ -48,7 +50,7 @@ export default function HeroTerm() {
             <circle cx="12" cy="12" r="10" />
             <path d="M12 16v-4M12 8h.01" />
           </svg>
-          Hover any part of the word to see what it means.
+          {t('home.heroHint')}
         </p>
 
         <div className="flex flex-wrap items-baseline justify-center gap-x-3.5 gap-y-2">
@@ -81,7 +83,7 @@ export default function HeroTerm() {
       {/* what people actually say */}
       <div className="flex w-full flex-col gap-3">
         <span className="text-[0.72rem] font-semibold uppercase tracking-[0.12em] text-[var(--b-dim)]">
-          What people actually say
+          {t('home.heroSay')}
         </span>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           {CARDS.map(c => (

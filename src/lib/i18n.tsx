@@ -144,6 +144,48 @@ export const MESSAGES = {
   'fc.toFlip':          { en: 'to flip',           ko: '뒤집기' },
   'fc.toNavigate':      { en: 'to navigate',       ko: '이동' },
   'fc.flip':            { en: 'flip',              ko: '뒤집기' },
+
+  // ── Landing (/medical) ──
+  'home.eyebrow':   { en: 'For students, interpreters & translators', ko: '학생, 통역사, 번역가를 위한' },
+  'home.h1':        { en: 'The chart says one thing. The patient says another.', ko: '의료 용어와 환자 언어는 다릅니다' },
+  'home.subtitle':  { en: 'Medi Lexi gives you both: the clinical term, its abbreviation, and the everyday word people actually use, across languages.',
+                      ko: 'Medi Lexi는 임상 용어, 약어, 그리고 환자들이 실제로 쓰는 표현까지 다양한 언어로 제공합니다.' },
+  'home.startHere': { en: 'Start here',            ko: '여기서 시작하세요' },
+  'home.wpEntries': { en: '600+ entries',          ko: '600+ 항목' },
+  'home.wpTitle':   { en: 'Prefix · Root · Suffix', ko: '접두사 · 어근 · 접미사' },
+  // Word-parts explanation, interleaved with colored morphemes (brady / card / -ia / bradycardia).
+  'home.wpBodyPre': { en: 'See that ', ko: '' },
+  'home.wpBody1':   { en: ' means slow, ',  ko: '는 느림, ' },
+  'home.wpBody2':   { en: ' heart, and ',   ko: '는 심장, ' },
+  'home.wpBody3':   { en: ' a condition, and ', ko: '는 상태를 뜻하고, ' },
+  'home.wpBody4':   { en: ' falls into place as a slow heart rate. Learn the parts, and the next unfamiliar term is already half-decoded.',
+                      ko: '는 느린 심박수로 자연스럽게 이해됩니다. 구성 요소를 익히면 다음 낯선 용어는 이미 절반은 해독된 셈입니다.' },
+  'home.pickLang':     { en: 'Then pick a language', ko: '언어를 선택하세요' },
+  'home.mostComplete': { en: 'most complete',    ko: '가장 완성도 높음' },
+  'home.forExample':   { en: 'For example',      ko: '예시' },
+  'home.willInclude':  { en: 'Will include',     ko: '포함 예정' },
+  'home.comingSoon':   { en: 'Coming soon',      ko: '출시 예정' },
+  'home.wpPractice':   { en: 'Practice',         ko: '연습' },
+  'home.wpExam':       { en: 'Exam ✦',           ko: '시험 ✦' },
+  // Deck tags (EN kept as today; KO added)
+  'home.tagEnglish': { en: 'English',       ko: '영어' },
+  'home.tagAbbr':    { en: 'Abbreviations', ko: '약어' },
+  'home.tagKorean':  { en: '한국어',         ko: '한국어' },
+  'home.tagFrench':  { en: 'Français',      ko: '프랑스어' },
+  'home.tagSpanish': { en: 'Español',       ko: '스페인어' },
+  // Deck titles
+  'home.titleEnglish': { en: 'English',           ko: '영어' },
+  'home.titleAbbr':    { en: 'Medical Abbr',      ko: '의학 약어' },
+  'home.titleKorean':  { en: 'Korean ↔ English',  ko: '한국어 ↔ 영어' },
+  'home.titleFrench':  { en: 'French ↔ English',  ko: '프랑스어 ↔ 영어' },
+  'home.titleSpanish': { en: 'Spanish ↔ English', ko: '스페인어 ↔ 영어' },
+  // Deck notes
+  'home.noteEn':        { en: '1,900+ clinical terms',        ko: '1,900+ 임상 용어' },
+  'home.noteAbbr':      { en: '200+ · Abbr to Term',          ko: '200+ · 약어에서 용어로' },
+  'home.noteBilingual': { en: 'Bilingual glossary + flashcards', ko: '이중 언어 사전 + 플래시카드' },
+  'home.ctaStart':  { en: 'Start with word parts', ko: '어원부터 시작하기' },
+  'home.heroHint':  { en: 'Hover any part of the word to see what it means.', ko: '단어의 각 부분을 눌러 뜻을 확인하세요.' },
+  'home.heroSay':   { en: 'What people actually say', ko: '사람들이 실제로 쓰는 표현' },
 } satisfies Record<string, Entry>
 
 export type MsgKey = keyof typeof MESSAGES

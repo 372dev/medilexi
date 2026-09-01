@@ -308,7 +308,7 @@ export default function FrGlossaryList({ entries, allFields }: { entries: FrLean
 
         {/* meta row (always) */}
         <div className="flex items-center justify-end text-[0.78rem] font-medium text-[var(--b-dim)] tabular-nums">
-          <span className="shrink-0">{filtered.length} {t('gloss.terms')}</span>
+          <span className="shrink-0">{filtered.length}{t(`gloss.terms`)}</span>
         </div>
       </div>
 

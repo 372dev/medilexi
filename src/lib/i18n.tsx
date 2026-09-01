@@ -40,7 +40,7 @@ export const MESSAGES = {
   'parts.suffix': { en: 'Suffix', ko: '접미사' },
 
   // Mobile word-parts sheet
-  'sheet.alsoCalled': { en: 'Also called',    ko: '다른 이름' },
+  'sheet.alsoCalled': { en: 'Also called',    ko: '다른 이름:' },
   'sheet.seeFull':    { en: 'See full entry',  ko: '전체 항목 보기' },
 
   // Level labels (from vocab-constants LVL_TEXT)
@@ -66,7 +66,10 @@ export const MESSAGES = {
   'gloss.langEnglish':       { en: 'English',                           ko: '영어' },
   'gloss.langFrench':        { en: 'French',                            ko: '프랑스어' },
   'gloss.flashcard':         { en: 'Flashcard',                         ko: '플래시카드' },
-  'gloss.terms':             { en: 'terms',                             ko: '개' },
+  // Count unit — rendered right after the number with no separator in JSX, so
+  // the English value carries a leading space ("1274 terms") while Korean stays
+  // tight ("1274개").
+  'gloss.terms':             { en: ' terms',                            ko: '개' },
   'gloss.browseAZ':          { en: 'Browse all A–Z',                    ko: '전체 A–Z 보기' },
   'gloss.noResults':         { en: 'No terms found.',                   ko: '검색 결과가 없습니다.' },
   // No-exact banner wraps the query: <pre>{query}<post>.

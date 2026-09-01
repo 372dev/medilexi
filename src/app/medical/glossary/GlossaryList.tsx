@@ -274,7 +274,7 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
 
         {/* meta row (always) */}
         <div className="flex items-center justify-between gap-3 text-[0.78rem] font-medium text-[var(--b-dim)] tabular-nums">
-          <span className="shrink-0">{filtered.length} {t('gloss.terms')}</span>
+          <span className="shrink-0">{filtered.length}{t(`gloss.terms`)}</span>
           <Link href="/medical/terms" className="b-focus font-semibold text-[var(--b-primary)] no-underline hover:opacity-80">
             {t('gloss.browseAZ')} →
           </Link>

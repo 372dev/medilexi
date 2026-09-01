@@ -43,6 +43,11 @@ export const MESSAGES = {
   'sheet.alsoCalled': { en: 'Also called',    ko: '다른 이름:' },
   'sheet.seeFull':    { en: 'See full entry',  ko: '전체 항목 보기' },
 
+  // Term page. "More in <Field>" wraps the (English) field name; Korean puts the
+  // suffix after it ("Cardiology 더 보기").
+  'term.moreInPre':  { en: 'More in ', ko: '' },
+  'term.moreInPost': { en: '',         ko: ' 더 보기' },
+
   // Level labels (from vocab-constants LVL_TEXT)
   'lvl.3':   { en: 'Essential',    ko: '필수' },
   'lvl.2':   { en: 'Important',    ko: '중요' },
@@ -113,6 +118,14 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
 
 export function useLocale() {
   return useContext(LocaleCtx)
+}
+
+/** A localized text node usable from SERVER components (e.g. the static term
+   page). It renders English on the server, then this small client island swaps
+   to the saved locale on hydration — the same behavior as the rest of the UI. */
+export function Tr({ k }: { k: MsgKey }) {
+  const t = useT()
+  return <>{t(k)}</>
 }
 
 /** Returns a `t(key)` lookup bound to the current locale, English as fallback. */

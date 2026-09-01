@@ -200,15 +200,16 @@ export default function TermPage({ params }: { params: { slug: string } }) {
 
       {related.length > 0 ? (
         <Section title={`More in ${entry.f[0]}`}>
-          <ul className="flex flex-wrap gap-x-4 gap-y-2">
-            {related.map((r) => (
-              <li key={r.en_h}>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[0.95rem]">
+            {related.map((r, i) => (
+              <span key={r.en_h} className="inline-flex items-center gap-x-3">
                 <Link href={`/medical/term/${slugify(r.en_h)}`} className="b-link b-focus">
                   {r.en_h}
                 </Link>
-              </li>
+                {i < related.length - 1 && <span className="select-none text-[var(--b-dim)]" aria-hidden="true">·</span>}
+              </span>
             ))}
-          </ul>
+          </div>
         </Section>
       ) : null}
     </main>

@@ -3,7 +3,8 @@
 import { useState, useMemo, useRef, useEffect, type ReactNode } from 'react'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
-import { ALL_LEVELS, LVL_TEXT } from '@/lib/vocab-constants'
+import { ALL_LEVELS } from '@/lib/vocab-constants'
+import { useT, type MsgKey } from '@/lib/i18n'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { hangulSearch, jamoFlat, isKorean } from '@/lib/hangul'
 import { rankTier } from '@/lib/search-rank'
@@ -46,6 +47,7 @@ function matchTierKo(item: KoLeanEntry, matches: readonly { key?: string }[] | u
 
 function KoCard({ v, def, defLang, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def?: DefRec; defLang: 'ko' | 'en'; onFieldClick: (f: string) => void; mm?: MatchMap; isTouch: boolean; onOpen: (v: CardEntry) => void }) {
   const [hovered, setHovered] = useState(false)
+  const t = useT()
   const definition = def ? (defLang === 'en' ? def.d : (def.d2 || def.d)) : null
 
   // Mobile: compact, definition-free card; the whole card taps to the sheet.
@@ -59,7 +61,7 @@ function KoCard({ v, def, defLang, onFieldClick, mm, isTouch, onOpen }: { v: Car
         className="b-card b-press b-termtap b-focus flex cursor-pointer flex-col gap-1 p-3.5"
       >
         <div className="flex items-center justify-between gap-2">
-          <span className={`b-lvl b-lvl--${v.lvl}`}>{LVL_TEXT[v.lvl]}</span>
+          <span className={`b-lvl b-lvl--${v.lvl}`}>{t(`lvl.${v.lvl}` as MsgKey)}</span>
           {v.abbr && <span className="b-abbr">{hi(v.abbr, mm?.abbr)}</span>}
         </div>
         <div className="text-[1.1rem] font-semibold leading-tight tracking-[-0.005em] text-[var(--b-text)]" style={{ fontFamily: 'var(--b-display)' }}>
@@ -84,7 +86,7 @@ function KoCard({ v, def, defLang, onFieldClick, mm, isTouch, onOpen }: { v: Car
       onMouseLeave={() => setHovered(false)}
     >
       <div className="flex items-center justify-between gap-2">
-        <span className={`b-lvl b-lvl--${v.lvl}`}>{LVL_TEXT[v.lvl]}</span>
+        <span className={`b-lvl b-lvl--${v.lvl}`}>{t(`lvl.${v.lvl}` as MsgKey)}</span>
         {v.abbr && <span className="b-abbr">{hi(v.abbr, mm?.abbr)}</span>}
       </div>
 
@@ -142,6 +144,7 @@ function KoGlossarySkeleton() {
 }
 
 export default function KoGlossaryList({ entries, allFields }: { entries: KoLeanEntry[]; allFields: string[] }) {
+  const t = useT()
   const [mounted, setMounted] = useState(false)
   useEffect(() => setMounted(true), [])
 
@@ -295,8 +298,8 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
           <input
             className="b-search min-w-0 flex-1"
             type="text"
-            aria-label="Search medical terms in English or Korean"
-            placeholder="Search terms in English or Korean..."
+            aria-label={t('gloss.searchAriaKo')}
+            placeholder={t('gloss.searchPlaceholderKo')}
             value={inputValue}
             onChange={e => {
               setInputValue(e.target.value)
@@ -316,7 +319,7 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
             aria-expanded={showFilters}
             className="b-press b-focus inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-3.5 py-2.5 text-[0.82rem] font-semibold sm:hidden"
           >
-            Filters{activeFilters ? ` · ${activeFilters}` : ''}
+            {t('filter.filters')}{activeFilters ? ` · ${activeFilters}` : ''}
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className={`transition-transform ${showFilters ? 'rotate-180' : ''}`}>
               <polyline points="6 9 12 15 18 9" />
             </svg>
@@ -325,7 +328,7 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
             href="/medical/flashcards/ko"
             className="b-press b-focus hidden items-center whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-2.5 text-[0.82rem] font-semibold hover:border-[var(--b-primary)] hover:text-[var(--b-primary)] sm:inline-flex"
           >
-            Flashcard →
+            {t('gloss.flashcard')} →
           </Link>
         </div>
 
@@ -333,16 +336,16 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
         <div className={`${showFilters ? 'flex' : 'hidden'} flex-col gap-2 sm:flex sm:flex-row sm:flex-wrap sm:items-center sm:gap-3`}>
           <select
             className="b-select b-focus"
-            aria-label="Filter by specialty"
+            aria-label={t('gloss.specialtyAria')}
             value={fieldFilter || ''}
             onChange={e => setField(e.target.value || null)}
           >
-            <option value="">All fields</option>
+            <option value="">{t('filter.allFields')}</option>
             {allFields.map(f => <option key={f} value={f}>{f}</option>)}
           </select>
           <div className="flex gap-2 overflow-x-auto sm:flex-wrap sm:overflow-visible [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             <button className={`b-fpill b-focus shrink-0 ${!levelFilter ? 'b-fpill--active' : ''}`} onClick={() => setLevel(null)}>
-              All levels
+              {t('lvl.all')}
             </button>
             {ALL_LEVELS.map(lvl => (
               <button
@@ -350,12 +353,12 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
                 className={`b-fpill b-focus shrink-0 ${levelFilter === lvl ? 'b-fpill--active' : ''}`}
                 onClick={() => setLevel(levelFilter === lvl ? null : lvl)}
               >
-                {LVL_TEXT[lvl]}
+                {t(`lvl.${lvl}` as MsgKey)}
               </button>
             ))}
           </div>
           <div className="hidden items-center gap-2 sm:flex">
-            <span className="text-[0.72rem] font-semibold text-[var(--b-dim)]">Definition</span>
+            <span className="text-[0.72rem] font-semibold text-[var(--b-dim)]">{t('gloss.definition')}</span>
             <div className="inline-flex overflow-hidden rounded-lg border border-[var(--b-border)]">
               {(['ko', 'en'] as const).map(l => (
                 <button
@@ -364,7 +367,7 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
                   aria-pressed={defLang === l}
                   className={`b-focus px-3 py-1.5 text-[0.76rem] font-semibold ${defLang === l ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'}`}
                 >
-                  {l === 'ko' ? 'Korean' : 'English'}
+                  {l === 'ko' ? t('gloss.langKorean') : t('gloss.langEnglish')}
                 </button>
               ))}
             </div>
@@ -373,7 +376,7 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
 
         {/* meta row (always) */}
         <div className="flex items-center justify-end text-[0.78rem] font-medium text-[var(--b-dim)] tabular-nums">
-          <span className="shrink-0">{filtered.length} terms</span>
+          <span className="shrink-0">{filtered.length} {t('gloss.terms')}</span>
         </div>
       </div>
 
@@ -382,7 +385,7 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
         <>
           {noExact && (
             <div className="rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-3 text-[0.84rem] text-[var(--b-dim)]">
-              No exact match for “{deferredQuery.trim()}”. Showing related terms.
+              {t('gloss.noExactPre')}{deferredQuery.trim()}{t('gloss.noExactPost')}
             </div>
           )}
           <div className="grid grid-cols-[repeat(auto-fill,minmax(290px,1fr))] gap-4">
@@ -392,7 +395,7 @@ export default function KoGlossaryList({ entries, allFields }: { entries: KoLean
           </div>
           <div ref={sentinelRef} aria-hidden="true" />
           {filtered.length === 0 && (
-            <div className="py-16 text-center text-[0.92rem] text-[var(--b-dim)]">No terms found.</div>
+            <div className="py-16 text-center text-[0.92rem] text-[var(--b-dim)]">{t('gloss.noResults')}</div>
           )}
         </>
       )}

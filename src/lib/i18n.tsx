@@ -25,23 +25,53 @@ type Entry = { en: string; ko: string }
 // language. Keep keys grouped by area (nav.*, lvl.*, filter.*, …).
 export const MESSAGES = {
   // Header / nav
-  'nav.wordparts':     { en: 'Word parts',    ko: '단어 구성' },
-  'nav.glossary':      { en: 'Glossary',      ko: '용어집' },
+  'nav.wordparts':     { en: 'Word parts',    ko: '어원' },
+  'nav.glossary':      { en: 'Glossary',      ko: '사전' },
   'nav.abbreviations': { en: 'Abbreviations', ko: '약어' },
   'nav.about':         { en: 'About',         ko: '소개' },
-  'nav.feedback':      { en: 'Send feedback', ko: '의견 보내기' },
+  'nav.feedback':      { en: 'Send feedback', ko: '리포트' },
   'nav.menu':          { en: 'Menu',          ko: '메뉴' },
   'common.soon':       { en: 'soon',          ko: '준비 중' },
+  'common.close':      { en: 'Close',         ko: '닫기' },
+
+  // Word-part types (badges, sheet, term page)
+  'parts.prefix': { en: 'Prefix', ko: '접두사' },
+  'parts.root':   { en: 'Root',   ko: '어근' },
+  'parts.suffix': { en: 'Suffix', ko: '접미사' },
+
+  // Mobile word-parts sheet
+  'sheet.alsoCalled': { en: 'Also called',    ko: '다른 이름' },
+  'sheet.seeFull':    { en: 'See full entry',  ko: '전체 항목 보기' },
 
   // Level labels (from vocab-constants LVL_TEXT)
   'lvl.3':   { en: 'Essential',    ko: '필수' },
   'lvl.2':   { en: 'Important',    ko: '중요' },
   'lvl.1':   { en: 'Good to know', ko: '알아두면 좋음' },
-  'lvl.all': { en: 'All levels',   ko: '모든 수준' },
+  'lvl.all': { en: 'All levels',   ko: '전체' },
 
   // Filters
   'filter.allFields': { en: 'All fields', ko: '모든 분야' },
   'filter.filters':   { en: 'Filters',    ko: '필터' },
+
+  // Glossary page
+  'gloss.searchAria':        { en: 'Search medical terms',              ko: '의학 용어 검색' },
+  'gloss.searchPlaceholder':   { en: 'Search terms and abbreviations...', ko: '용어 및 약어 검색...' },
+  'gloss.searchPlaceholderKo': { en: 'Search terms in English or Korean...', ko: '영어 또는 한국어로 검색...' },
+  'gloss.searchPlaceholderFr': { en: 'Search terms in French or English...', ko: '프랑스어 또는 영어로 검색...' },
+  'gloss.searchAriaKo':      { en: 'Search medical terms in English or Korean', ko: '영어 또는 한국어로 의학 용어 검색' },
+  'gloss.searchAriaFr':      { en: 'Search medical terms in French or English', ko: '프랑스어 또는 영어로 의학 용어 검색' },
+  'gloss.specialtyAria':     { en: 'Filter by specialty',               ko: '분야별 필터' },
+  'gloss.definition':        { en: 'Definition',                        ko: '정의' },
+  'gloss.langKorean':        { en: 'Korean',                            ko: '한국어' },
+  'gloss.langEnglish':       { en: 'English',                           ko: '영어' },
+  'gloss.langFrench':        { en: 'French',                            ko: '프랑스어' },
+  'gloss.flashcard':         { en: 'Flashcard',                         ko: '플래시카드' },
+  'gloss.terms':             { en: 'terms',                             ko: '개' },
+  'gloss.browseAZ':          { en: 'Browse all A–Z',                    ko: '전체 A–Z 보기' },
+  'gloss.noResults':         { en: 'No terms found.',                   ko: '검색 결과가 없습니다.' },
+  // No-exact banner wraps the query: <pre>{query}<post>.
+  'gloss.noExactPre':        { en: 'No exact match for “',              ko: '“' },
+  'gloss.noExactPost':       { en: '”. Showing related terms.',         ko: '”에 대한 정확한 일치 항목이 없습니다. 관련 용어를 표시합니다.' },
 } satisfies Record<string, Entry>
 
 export type MsgKey = keyof typeof MESSAGES

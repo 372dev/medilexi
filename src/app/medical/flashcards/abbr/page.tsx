@@ -6,6 +6,7 @@ import vocabData from '@/data/medical_vocab.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
 import { useSwipe } from '@/lib/use-swipe'
+import SpeakButton from '../../SpeakButton'
 
 /* Direction "Signal" redesign. Deck / session / keyboard / direction logic is
    unchanged from the live page; only the presentation moved to the .b-* kit.
@@ -379,8 +380,11 @@ export default function AbbrFlashcardsPage() {
                       </div>
                     ) : (
                       <>
-                        <div className="text-[1.4rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
-                          {card.en_h}
+                        <div className="flex items-start justify-between gap-2">
+                          <div className="text-[1.4rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
+                            {card.en_h}
+                          </div>
+                          <SpeakButton text={card.en_h} className="mt-0.5" />
                         </div>
                         {card.en_l && <div className="text-[1rem] text-[var(--b-dim)]">{card.en_l}</div>}
                       </>

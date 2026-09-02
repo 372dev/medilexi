@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import partsData from '@/data/medical_wordparts.json'
-import { LVL_TEXT } from '@/lib/vocab-constants'
+import { useT, type MsgKey } from '@/lib/i18n'
 
 /* ─── Types ─── */
 interface WordPart {
@@ -80,6 +80,7 @@ function buildPool(): Question[] {
 
 /* ─── Component ─── */
 export default function WordPartsPractice() {
+  const t = useT()
   const [questions, setQuestions] = useState<Question[]>([])
   const [mode,      setMode]      = useState<'endless'|'retry'>('endless')
   const [qIdx,      setQIdx]      = useState(0)
@@ -152,14 +153,14 @@ export default function WordPartsPractice() {
     return m ? m[1] : wp
   }
   function qInstruction(type: 1|2) {
-    return type === 1 ? 'What does this mean?' : 'Which word part means this?'
+    return type === 1 ? t('quiz.instruction1') : t('quiz.instruction2')
   }
 
   /* ── Loading (first client render before the pool is built) ── */
   if (!ended && questions.length === 0) {
     return (
       <div style={{ maxWidth:'640px', margin:'3rem auto 0', textAlign:'center', color:'var(--b-dim)', fontSize:'0.9rem' }}>
-        Loading practice…
+        {t('quiz.loading')}
       </div>
     )
   }
@@ -173,19 +174,19 @@ export default function WordPartsPractice() {
           {/* Tally row */}
           <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'1.75rem' }}>
             <div style={{ fontSize:'0.82rem', fontWeight:600, color:'var(--b-dim)', lineHeight:1.8 }}>
-              {mode === 'retry' ? 'Retry ' : 'Answered '}{total}
+              {mode === 'retry' ? t('quiz.retryMode') : t('quiz.answered')}{total}
               <span style={{ marginLeft:'0.75rem', color:'#6EE7B7' }}>✓ {score}</span>
               <span style={{ marginLeft:'0.5rem', color:'#FCA5A5' }}>✗ {missed.length}</span>
             </div>
             <button onClick={endSession}
               style={{ fontSize:'0.76rem', fontWeight:600, color:'var(--b-dim)', background:'none', border:'1px solid var(--b-border)', padding:'0.35rem 0.7rem', cursor:'pointer', lineHeight:1.8 }}>
-              End session
+              {t('quiz.endSession')}
             </button>
           </div>
 
           {/* Question card */}
           <div style={{ background:'var(--b-panel)', border:'1px solid var(--b-border)', boxShadow:'2px 2px 0 0 var(--b-border)', minHeight:'240px', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'2.5rem 2rem', marginBottom:'1.25rem', textAlign:'center', gap:'0.85rem' }}>
-            <span className={`b-lvl b-lvl--${q.lvl}`}>{LVL_TEXT[q.lvl]}</span>
+            <span className={`b-lvl b-lvl--${q.lvl}`}>{t(`lvl.${q.lvl}` as MsgKey)}</span>
             <div style={{ fontSize:'2.2rem', fontWeight:700, color:'var(--b-primary)', lineHeight:1.2, wordBreak:'break-word', maxWidth:'100%' }}>
               {qBigTerm(q.question, q.wp)}
             </div>
@@ -233,7 +234,7 @@ export default function WordPartsPractice() {
           {answered && (
             <div style={{ display:'flex', justifyContent:'flex-end' }}>
               <button onClick={handleNext} className="b-btn b-focus" style={{ fontSize:'0.85rem', padding:'0.65rem 1.8rem' }}>
-                Next →
+                {t('fc.next')} →
               </button>
             </div>
           )}
@@ -248,17 +249,17 @@ export default function WordPartsPractice() {
               ✓ {score} / {total}
             </div>
             <p style={{ fontSize:'0.95rem', color:'var(--b-dim)' }}>
-              {total === 0 ? 'No questions answered yet.'
-                : score === total ? 'Perfect! Every one right.'
-                : score >= total * 0.8 ? 'Great session!'
-                : 'Keep practicing!'}
+              {total === 0 ? t('quiz.summaryNone')
+                : score === total ? t('quiz.summaryPerfect')
+                : score >= total * 0.8 ? t('quiz.summaryGreat')
+                : t('fc.keepPracticing')}
             </p>
           </div>
 
           {missed.length > 0 && (
             <div style={{ marginBottom:'1.75rem' }}>
               <div style={{ fontSize:'0.82rem', fontWeight:600, color:'var(--b-dim)', marginBottom:'0.75rem', paddingBottom:'0.5rem', borderBottom:'1px solid var(--b-border)' }}>
-                Missed ({missed.length})
+                {t('quiz.missed')} ({missed.length})
               </div>
               <div style={{ display:'flex', flexDirection:'column', gap:'0.3rem', maxHeight:'340px', overflowY:'auto' }}>
                 {missed.map((mq, i) => (
@@ -279,18 +280,18 @@ export default function WordPartsPractice() {
             {missed.length > 0 && (
               <button onClick={retryMissed} className="b-btn b-focus"
                 style={{ fontSize:'0.5rem', padding:'0.65rem 1.5rem', background:'rgba(201,64,64,0.15)', color:'#FCA5A5', border:'1px solid #C94040', boxShadow:'none' }}>
-                ✗ Retry ({missed.length})
+                ✗ {t('fc.retry')} ({missed.length})
               </button>
             )}
             <button onClick={newPractice} className="b-btn b-focus"
               style={{ fontSize:'0.5rem', padding:'0.65rem 1.5rem' }}>
-              New practice
+              {t('quiz.newPractice')}
             </button>
           </div>
 
           <div style={{ textAlign:'center', marginTop:'1.75rem', display:'flex', flexDirection:'column', gap:'0.4rem' }}>
             <Link href="/medical/wordparts" style={{ fontSize:'0.82rem', color:'var(--b-dim)', textDecoration:'underline' }}>
-              ← Back to Word Parts
+              ← {t('fc.backWordParts')}
             </Link>
           </div>
         </div>

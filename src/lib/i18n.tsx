@@ -46,7 +46,8 @@ export const MESSAGES = {
                            ko: '⚕ 교육 목적으로만 제공됩니다 · 전문적인 의학적 조언, 진단 또는 치료를 대체하지 않습니다 · 표준 의학 용어 참고 자료를 기반으로 하며 최신 임상 지침을 반영하지 않을 수 있습니다' },
   'shell.aboutSources':  { en: 'About & Sources',        ko: '소개 및 출처' },
   'shell.privacy':       { en: 'Privacy Policy',         ko: '개인정보 처리방침' },
-  'shell.copyright':     { en: '© 2026 Medi Lexi · All rights reserved', ko: '© 2026 Medi Lexi · 모든 권리 보유' },
+  // Copyright stays English in every locale (brand line), by request.
+  'shell.copyright':     { en: '© 2026 Medi Lexi · All rights reserved', ko: '© 2026 Medi Lexi · All rights reserved' },
   'shell.cookieText':    { en: 'This site uses cookies for analytics.', ko: '이 사이트는 분석을 위해 쿠키를 사용합니다.' },
   'shell.learnMore':     { en: 'Learn more',             ko: '자세히 보기' },
 
@@ -159,9 +160,9 @@ export const MESSAGES = {
   'home.wpBodyPre': { en: 'See that ', ko: '' },
   'home.wpBody1':   { en: ' means slow, ',  ko: '는 느림, ' },
   'home.wpBody2':   { en: ' heart, and ',   ko: '는 심장, ' },
-  'home.wpBody3':   { en: ' a condition, and ', ko: '는 상태를 뜻하고, ' },
+  'home.wpBody3':   { en: ' a condition, and ', ko: '는 상태를 뜻합니다. 어원을 알면 ' },
   'home.wpBody4':   { en: ' falls into place as a slow heart rate. Learn the parts, and the next unfamiliar term is already half-decoded.',
-                      ko: '는 느린 심박수로 자연스럽게 이해됩니다. 구성 요소를 익히면 다음 낯선 용어는 이미 절반은 해독된 셈입니다.' },
+                      ko: '라는 단어를 처음 보더라도 심박수가 느리다는 의미로 자연스럽게 이해됩니다.' },
   'home.pickLang':     { en: 'Then pick a language', ko: '언어를 선택하세요' },
   'home.mostComplete': { en: 'most complete',    ko: '가장 완성도 높음' },
   'home.forExample':   { en: 'For example',      ko: '예시' },
@@ -300,11 +301,71 @@ export function Tr({ k }: { k: MsgKey }) {
   return <>{t(k)}</>
 }
 
-/** Returns a `t(key)` lookup bound to the current locale, English as fallback. */
+/* Specialty field names. These are DATA values (the `f` enum) shown as chips and
+   filter options; only their DISPLAY is localized — the stored/filtered value
+   stays the English key. Verify the Korean specialty names against usage. */
+export const FIELDS: Record<string, string> = {
+  'Anatomy': '해부학',
+  'Anesthesiology': '마취과',
+  'Cardiology': '심장내과',
+  'Critical Care': '중환자의학',
+  'Dentistry': '치과',
+  'Dermatology': '피부과',
+  'Emergency Medicine': '응급의학과',
+  'Endocrinology': '내분비내과',
+  'Family Medicine': '가정의학과',
+  'Gastroenterology': '소화기내과',
+  'General Medicine': '일반의학',
+  'Genetics': '유전학',
+  'Healthcare Administration': '의료행정',
+  'Hematology': '혈액내과',
+  'Immunology': '면역학',
+  'Infectious Disease': '감염내과',
+  'Internal Medicine': '내과',
+  'Nephrology': '신장내과',
+  'Neurology': '신경과',
+  'Neurosurgery': '신경외과',
+  'Obstetrics & Gynecology': '산부인과',
+  'Oncology': '종양내과',
+  'Ophthalmology': '안과',
+  'Orthopedics': '정형외과',
+  'Otolaryngology': '이비인후과',
+  'Pathology': '병리과',
+  'Pediatrics': '소아과',
+  'Pharmacology': '약리학',
+  'Plastic Surgery': '성형외과',
+  'Psychiatry': '정신건강의학과',
+  'Pulmonology': '호흡기내과',
+  'Radiology': '영상의학과',
+  'Rehabilitation Medicine': '재활의학과',
+  'Rheumatology': '류마티스내과',
+  'Surgery': '외과',
+  'Thoracic Surgery': '흉부외과',
+  'Urology': '비뇨의학과',
+  'Vascular Surgery': '혈관외과',
+}
+
+/** Returns a `tf(field)` that localizes a specialty field name for display,
+   falling back to the English value for any field not in the map. */
+export function useTField() {
+  const { locale } = useContext(LocaleCtx)
+  return (f: string): string => (locale === 'ko' ? FIELDS[f] ?? f : f)
+}
+
+/** Server-safe localized field name (mirrors <Tr>) for the static term page. */
+export function TrField({ f }: { f: string }) {
+  const tf = useTField()
+  return <>{tf(f)}</>
+}
+
+/** Returns a `t(key)` lookup bound to the current locale, English as fallback.
+   Note: uses `??` not `||` so an intentionally-empty string (e.g. a Korean
+   sentence prefix that English fills but Korean leaves blank) is NOT replaced
+   by the English text. */
 export function useT() {
   const { locale } = useContext(LocaleCtx)
   return (key: MsgKey): string => {
     const entry = MESSAGES[key]
-    return entry[locale] || entry.en
+    return entry[locale] ?? entry.en
   }
 }

@@ -6,7 +6,7 @@ import vocabData from '@/data/medical_vocab.json'
 import frData from '@/data/medical_vocab_fr.json'
 import partsData from '@/data/medical_wordparts_simple.json'
 import { ALL_LEVELS, normalizeLvl } from '@/lib/vocab-constants'
-import { useT, type MsgKey } from '@/lib/i18n'
+import { useT, useTField, type MsgKey } from '@/lib/i18n'
 import { useSwipe } from '@/lib/use-swipe'
 
 /* Direction "Signal" redesign. Deck / session / keyboard / direction logic is
@@ -39,6 +39,7 @@ const display = { fontFamily: 'var(--b-display)' }
 
 export default function FrFlashcardsPage() {
   const t = useT()
+  const tf = useTField()
   /* ── Settings ── */
   const [showSettings, setShowSettings] = useState(true)
   const [mode,        setMode]      = useState<'study' | 'quiz'>('quiz')
@@ -229,7 +230,7 @@ export default function FrFlashcardsPage() {
                 onChange={e => setField(e.target.value || null)}
               >
                 <option value="">{t('fc.allSpecialties')}</option>
-                {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
+                {ALL_FIELDS.map(f => <option key={f} value={f}>{tf(f)}</option>)}
               </select>
             </div>
 
@@ -408,7 +409,7 @@ export default function FrFlashcardsPage() {
                       {card.fr_l && <div className="text-[0.98rem] text-[var(--b-dim)]">{card.fr_l}</div>}
                       <p className="m-0 text-[0.88rem] leading-[1.55] text-[var(--b-dim)]">{card.d_fr || card.d}</p>
                       <div className="mt-1 flex flex-wrap gap-1.5">
-                        {card.f.map(f => <span key={f} className="b-field">{f}</span>)}
+                        {card.f.map(f => <span key={f} className="b-field">{tf(f)}</span>)}
                       </div>
                     </div>
                   </div>

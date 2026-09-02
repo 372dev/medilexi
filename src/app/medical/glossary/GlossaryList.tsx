@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
 import { ALL_LEVELS } from '@/lib/vocab-constants'
-import { useT, type MsgKey } from '@/lib/i18n'
+import { useT, useTField, type MsgKey } from '@/lib/i18n'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { rankTier } from '@/lib/search-rank'
 import { useIsTouch } from '@/lib/use-is-touch'
@@ -48,6 +48,7 @@ function hi(text: string, idx?: readonly [number, number][]): ReactNode {
 function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def?: DefRec; onFieldClick: (f: string) => void; mm?: MatchMap; isTouch: boolean; onOpen: (v: LeanEntry) => void }) {
   const [hovered, setHovered] = useState(false)
   const t = useT()
+  const tf = useTField()
 
   // Mobile: a compact, definition-free card; the whole card taps to the sheet.
   if (isTouch) {
@@ -69,7 +70,7 @@ function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def
         {v.en_l && <div className="text-[0.9rem] leading-tight text-[var(--b-dim)]">{hi(v.en_l, mm?.en_l)}</div>}
         {v.f.length > 0 && (
           <div className="mt-0.5 flex flex-wrap gap-1">
-            {v.f.map(f => <span key={f} className="b-chip">{f}</span>)}
+            {v.f.map(f => <span key={f} className="b-chip">{tf(f)}</span>)}
           </div>
         )}
       </div>
@@ -113,7 +114,7 @@ function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def
 
       <div className="mt-1 flex flex-wrap gap-1.5">
         {v.f.map(f => (
-          <button key={f} className="b-field b-focus" onClick={() => onFieldClick(f)}>{f}</button>
+          <button key={f} className="b-field b-focus" onClick={() => onFieldClick(f)}>{tf(f)}</button>
         ))}
       </div>
     </div>
@@ -122,6 +123,7 @@ function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def
 
 function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields: string[] }) {
   const t = useT()
+  const tf = useTField()
   const params = useSearchParams()
   const [search, setSearch]     = useState(params.get('q') || '')
   const [query, setQuery]       = useState(search)
@@ -254,7 +256,7 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
             onChange={e => setField(e.target.value || null)}
           >
             <option value="">{t('filter.allFields')}</option>
-            {allFields.map(f => <option key={f} value={f}>{f}</option>)}
+            {allFields.map(f => <option key={f} value={f}>{tf(f)}</option>)}
           </select>
           <div className="flex gap-2 overflow-x-auto sm:flex-wrap sm:overflow-visible [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             <button className={`b-fpill b-focus shrink-0 ${!levelFilter ? 'b-fpill--active' : ''}`} onClick={() => setLevel(null)}>

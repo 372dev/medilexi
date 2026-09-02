@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react'
 import Link from 'next/link'
-import { useT, type MsgKey } from '@/lib/i18n'
+import { useT, useTField, type MsgKey } from '@/lib/i18n'
 import type { Segment } from '@/lib/word-segments'
 
 /* Mobile bottom sheet: opened when a glossary card is tapped on a touch device.
@@ -28,6 +28,7 @@ const TYPE_KEY: Record<string, MsgKey> = { p: 'parts.prefix', r: 'parts.root', s
 
 export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEntry | null; def?: DefRec; onClose: () => void }) {
   const t = useT()
+  const tf = useTField()
   const [open, setOpen] = useState(false)
   const [dragY, setDragY] = useState(0)
   const dragging = useRef(false)
@@ -110,7 +111,7 @@ export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEn
         <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
           <span className={`b-lvl b-lvl--${entry.lvl}`}>{t(`lvl.${entry.lvl}` as MsgKey)}</span>
           {entry.abbr && <span className="b-abbr">{entry.abbr}</span>}
-          {entry.f.map(f => <span key={f} className="b-chip">{f}</span>)}
+          {entry.f.map(f => <span key={f} className="b-chip">{tf(f)}</span>)}
         </div>
 
         {entry.en_l && <div className="mt-2 text-[0.95rem] text-[var(--b-dim)]">{t('sheet.alsoCalled')} {entry.en_l}</div>}

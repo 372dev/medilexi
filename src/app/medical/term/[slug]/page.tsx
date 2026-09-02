@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { slugify } from '@/lib/slug'
 import { normalizeLvl } from '@/lib/vocab-constants'
-import { Tr } from '@/lib/i18n'
+import { Tr, TrField } from '@/lib/i18n'
 import type { MsgKey } from '@/lib/i18n'
 import vocabData from '@/data/medical_vocab.json'
 import koData from '@/data/medical_vocab_ko.json'
@@ -141,7 +141,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
         <div className="mt-4 flex flex-wrap items-center gap-2">
           {entry.f.map((field) => (
             <span key={field} className="b-chip">
-              {field}
+              <TrField f={field} />
             </span>
           ))}
           <span className={`b-lvl b-lvl--${lvl}`}><Tr k={`lvl.${lvl}` as MsgKey} /></span>
@@ -199,7 +199,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
       ) : null}
 
       {related.length > 0 ? (
-        <Section title={<><Tr k="term.moreInPre" />{entry.f[0]}<Tr k="term.moreInPost" /></>}>
+        <Section title={<><Tr k="term.moreInPre" /><TrField f={entry.f[0]} /><Tr k="term.moreInPost" /></>}>
           <ul className="flex flex-wrap gap-x-4 gap-y-2">
             {related.map((r) => (
               <li key={r.en_h}>

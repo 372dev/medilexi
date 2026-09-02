@@ -245,6 +245,13 @@ export const MESSAGES = {
   'exam.notAnsweredLabel': { en: 'not answered',       ko: '미응답' },
   'exam.answeredLabel':    { en: 'answered',           ko: '응답함' },
   'exam.flaggedLabel':     { en: 'flagged for review', ko: '다시 볼 문제' },
+
+  // ── A–Z terms index ──
+  'terms.title':        { en: 'All medical terms', ko: '모든 의학 용어' },
+  'terms.introPre':     { en: 'Every term in the glossary. ', ko: '사전의 모든 용어. ' },
+  'terms.introEntries': { en: ' entries, each with English, Korean, and French. Or ', ko: '개 항목, 각각 영어, 한국어, 프랑스어 제공. 또는 ' },
+  'terms.searchLink':   { en: 'search the glossary', ko: '사전 검색' },
+  'terms.jumpToLetter': { en: 'Jump to letter', ko: '글자로 이동' },
 } satisfies Record<string, Entry>
 
 export type MsgKey = keyof typeof MESSAGES

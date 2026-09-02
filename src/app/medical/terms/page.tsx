@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { slugify } from '@/lib/slug'
+import { Tr } from '@/lib/i18n'
 import vocabData from '@/data/medical_vocab.json'
 
 const BASE_URL = 'https://interlexi.com/medical'
@@ -48,13 +49,12 @@ export default function TermsIndexPage() {
           className="text-3xl"
           style={{ fontFamily: 'var(--b-display)', fontWeight: 600, color: 'var(--b-text)', lineHeight: 1.25 }}
         >
-          All medical terms
+          <Tr k="terms.title" />
         </h1>
         <p className="mt-2" style={{ color: 'var(--b-dim)' }}>
-          Every term in the glossary. {VOCAB.length.toLocaleString()} entries, each with English,
-          Korean, and French. Or{' '}
+          <Tr k="terms.introPre" />{VOCAB.length.toLocaleString()}<Tr k="terms.introEntries" />
           <Link href="/medical/glossary" className="b-link">
-            search the glossary
+            <Tr k="terms.searchLink" />
           </Link>
           .
         </p>

@@ -33,7 +33,7 @@ const vocab = (vocabData as unknown as VocabEntry[])
   .filter((v): v is MergedEntry => !!frMap[v.en_h])
 
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
-const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
+const COUNT_OPTIONS: (number | null)[] = [25, 50, 100, null]
 const LVL_BAR: Record<number,string> = { 3:'var(--b-primary)', 2:'var(--b-amber)', 1:'var(--b-dim)' }
 const display = { fontFamily: 'var(--b-display)' }
 
@@ -45,7 +45,7 @@ export default function FrFlashcardsPage() {
   const [mode,        setMode]      = useState<'study' | 'quiz'>('quiz')
   const [direction,   setDirection] = useState<'en-fr' | 'fr-en'>('en-fr')
   const [lvlFilter,   setLvl]       = useState<number | null>(null)
-  const [countLimit,  setCount]     = useState<number | null>(null)
+  const [countLimit,  setCount]     = useState<number | null>(25)
   const [fieldFilter, setField]     = useState<string | null>(null)
 
   /* ── Session ── */

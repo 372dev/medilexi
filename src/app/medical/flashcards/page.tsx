@@ -22,7 +22,7 @@ interface WordPart { wp: string; t: 'p'|'r'|'s'; d: string }
 const vocab    = (vocabData as unknown as VocabEntry[]).map((v): VocabEntry => ({ ...v, lvl: normalizeLvl(v.lvl) }))
 const partsMap = Object.fromEntries((partsData as WordPart[]).map(p => [p.wp, p]))
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
-const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
+const COUNT_OPTIONS: (number | null)[] = [25, 50, 100, null]
 const LVL_BAR: Record<number,string> = { 3:'var(--b-primary)', 2:'var(--b-amber)', 1:'var(--b-dim)' }
 const display = { fontFamily: 'var(--b-display)' }
 
@@ -33,7 +33,7 @@ export default function FlashcardsPage() {
   const [showSettings, setShowSettings] = useState(true)
   const [mode,        setMode]   = useState<'study' | 'quiz'>('quiz')
   const [lvlFilter,   setLvl]    = useState<number | null>(null)
-  const [countLimit,  setCount]  = useState<number | null>(null)
+  const [countLimit,  setCount]  = useState<number | null>(25)
   const [fieldFilter, setField]  = useState<string | null>(null)
 
   /* ── Session ── */

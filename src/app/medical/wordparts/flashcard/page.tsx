@@ -16,7 +16,7 @@ interface WordPart {
 
 const parts = partsData as WordPart[]
 const TYPE_KEY: Record<string,MsgKey> = { p:'parts.prefix', r:'parts.root', s:'parts.suffix' }
-const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
+const COUNT_OPTIONS: (number | null)[] = [25, 50, 100, null]
 const LVL_BAR: Record<number,string> = { 3:'var(--b-primary)', 2:'var(--b-amber)', 1:'var(--b-dim)' }
 const display = { fontFamily: 'var(--b-display)' }
 
@@ -26,8 +26,8 @@ export default function WordPartsFlashcard() {
   const [showSettings, setShowSettings] = useState(true)
   const [mode,        setMode]   = useState<'study'|'quiz'>('quiz')
   const [typeFilter,  setType]   = useState<'all'|'p'|'r'|'s'>('all')
-  const [lvlFilter,   setLvl]    = useState<number|null>(null)
-  const [countLimit,  setCount]  = useState<number|null>(null)
+  const [lvlFilter,   setLvl]    = useState<number | null>(null)
+  const [countLimit,  setCount]  = useState<number|null>(25)
 
   /* ── Session ── */
   const [deck,    setDeck]    = useState<WordPart[]>([])

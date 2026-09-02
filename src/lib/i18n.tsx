@@ -118,6 +118,8 @@ export const MESSAGES = {
   'fc.backGlossary':    { en: 'Back to Glossary',  ko: '사전으로 돌아가기' },
   'fc.backGlossaryKo':  { en: 'Back to Korean Glossary', ko: '한국어 사전으로 돌아가기' },
   'fc.backGlossaryFr':  { en: 'Back to French Glossary', ko: '프랑스어 사전으로 돌아가기' },
+  'fc.backWordParts':   { en: 'Back to Word Parts', ko: '어원으로 돌아가기' },
+  'fc.type':            { en: 'Type',              ko: '유형' },
   'fc.backMain':        { en: 'Back to Main',      ko: '메인으로 돌아가기' },
   'fc.sessionSettings': { en: 'Session settings',  ko: '세션 설정' },
   'fc.orTapReveal':     { en: 'or tap to reveal',  ko: '또는 탭하여 보기' },
@@ -186,6 +188,13 @@ export const MESSAGES = {
   'home.ctaStart':  { en: 'Start with word parts', ko: '어원부터 시작하기' },
   'home.heroHint':  { en: 'Hover any part of the word to see what it means.', ko: '단어의 각 부분을 눌러 뜻을 확인하세요.' },
   'home.heroSay':   { en: 'What people actually say', ko: '사람들이 실제로 쓰는 표현' },
+
+  // ── Word Parts glossary ──
+  'wp.searchAria':        { en: 'Search word parts',              ko: '어원 검색' },
+  'wp.searchPlaceholder': { en: 'Search word parts and meanings...', ko: '어원과 의미 검색...' },
+  'wp.entry':   { en: ' entry',   ko: '개' },
+  'wp.entries': { en: ' entries', ko: '개' },
+  'wp.more':    { en: ' more',    ko: '개 더' },
 } satisfies Record<string, Entry>
 
 export type MsgKey = keyof typeof MESSAGES

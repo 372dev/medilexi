@@ -7345,7 +7345,7 @@
     {
         "en_h":  "Anxiolytic",
         "fr_h":  "Anxiolytique",
-        "d_fr":  "Un médicament utilisé pour réduire l\u0027anxiété et favoriser le calme; buspirone (Buspar), lorazépam (Ativan) et hydroxyzine (Atarax) en sont des exemples courants."
+        "d_fr":  "Un médicament utilisé pour réduire l\u0027anxiété et favoriser le calme; diazépam (Valium), lorazépam (Ativan) et hydroxyzine (Atarax) en sont des exemples courants."
     },
     {
         "en_h":  "Pharmacokinetics",
@@ -7396,7 +7396,7 @@
     {
         "en_h":  "Opioid",
         "fr_h":  "Opioïde",
-        "d_fr":  "Un médicament qui se lie aux récepteurs opioïdes pour soulager une douleur sévère, avec un risque de dépendance; morphine (MS Contin), oxycodone (OxyContin) et hydrocodone (Vicodin) en sont des exemples courants."
+        "d_fr":  "Un médicament qui se lie aux récepteurs opioïdes pour soulager une douleur sévère, avec un risque de dépendance; morphine (MS Contin), oxycodone (OxyContin) et fentanyl (Durogesic) en sont des exemples courants."
     },
     {
         "en_h":  "Half-life",
@@ -7457,7 +7457,7 @@
     {
         "en_h":  "Muscle relaxant",
         "fr_h":  "Myorelaxant",
-        "d_fr":  "Un médicament qui réduit le tonus musculaire ou les spasmes pour soulager la douleur; cyclobenzaprine (Flexeril), baclofène (Lioresal) et méthocarbamol (Robaxin) en sont des exemples courants."
+        "d_fr":  "Un médicament qui réduit le tonus musculaire ou les spasmes pour soulager la douleur; tizanidine (Sirdalud) et baclofène (Lioresal) en sont des exemples courants."
     },
     {
         "en_h":  "Laxative",
@@ -9476,12 +9476,12 @@
     {
         "en_h":  "Antitussive",
         "fr_h":  "Antitussif",
-        "d_fr":  "Médicament qui supprime l\u0027envie de tousser; le dextrométhorphane (Robitussin) et le benzonatate (Tessalon) sont des agents courants."
+        "d_fr":  "Médicament qui supprime l\u0027envie de tousser; le dextrométhorphane (Robitussin) est l'agent le plus courant."
     },
     {
         "en_h":  "Antidiarrheal",
         "fr_h":  "Antidiarrhéique",
-        "d_fr":  "Médicament qui réduit la fréquence et la liquidité des selles; le lopéramide (Imodium) et le sous-salicylate de bismuth (Pepto-Bismol) sont des agents courants."
+        "d_fr":  "Médicament qui réduit la fréquence et la liquidité des selles; le lopéramide (Imodium) est l'agent le plus courant."
     },
     {
         "en_h":  "Vasopressor",

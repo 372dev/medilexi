@@ -9,6 +9,7 @@ import vocabData from '@/data/medical_vocab.json'
 import koData from '@/data/medical_vocab_ko.json'
 import frData from '@/data/medical_vocab_fr.json'
 import partsData from '@/data/medical_wordparts_simple.json'
+import SpeakButton from '../../SpeakButton'
 
 const BASE_URL = 'https://interlexi.com/medical'
 
@@ -131,6 +132,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
         >
           {entry.en_h}
           {entry.abbr ? <span className="b-abbr ml-3 align-middle">{entry.abbr}</span> : null}
+          <SpeakButton text={entry.en_h} className="ml-3 align-middle" />
         </h1>
         {entry.en_l ? (
           <p className="mt-2 text-base" style={{ color: 'var(--b-dim)' }}>
@@ -200,15 +202,16 @@ export default function TermPage({ params }: { params: { slug: string } }) {
 
       {related.length > 0 ? (
         <Section title={<><Tr k="term.moreInPre" /><TrField f={entry.f[0]} /><Tr k="term.moreInPost" /></>}>
-          <ul className="flex flex-wrap gap-x-4 gap-y-2">
-            {related.map((r) => (
-              <li key={r.en_h}>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[0.95rem]">
+            {related.map((r, i) => (
+              <span key={r.en_h} className="inline-flex items-center gap-x-3">
                 <Link href={`/medical/term/${slugify(r.en_h)}`} className="b-link b-focus">
                   {r.en_h}
                 </Link>
-              </li>
+                {i < related.length - 1 && <span className="select-none text-[var(--b-dim)]" aria-hidden="true">·</span>}
+              </span>
             ))}
-          </ul>
+          </div>
         </Section>
       ) : null}
     </main>

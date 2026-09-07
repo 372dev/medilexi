@@ -82,6 +82,39 @@ export async function insertSubmission(row: SubmissionRow): Promise<void> {
   }
 }
 
+export type ReviewItem = {
+  lang: string
+  en_h: string
+  batch: string | null
+  concern: string | null
+  src_h: string | null
+  src_l: string | null
+  src_d: string | null
+}
+
+/**
+ * Read the flagged review queue for a language (optionally one batch). Server
+ * only: uses the service-role key, which bypasses the table's deny-all RLS.
+ * `batch` of undefined or 'all' returns every flagged row for the language.
+ */
+export async function getReviewItems(lang: string, batch?: string): Promise<ReviewItem[]> {
+  const { url, key, ready } = config()
+  if (!ready) throw new DbNotConfiguredError()
+
+  const params = new URLSearchParams()
+  params.set('select', 'lang,en_h,batch,concern,src_h,src_l,src_d')
+  params.set('lang', `eq.${lang}`)
+  if (batch && batch !== 'all') params.set('batch', `eq.${batch}`)
+  params.set('order', 'en_h.asc')
+
+  const res = await fetch(`${url}/rest/v1/review_items?${params.toString()}`, {
+    headers: { apikey: key!, Authorization: `Bearer ${key!}` },
+    cache: 'no-store',
+  })
+  if (!res.ok) throw new Error(`Review items fetch failed with status ${res.status}`)
+  return (await res.json()) as ReviewItem[]
+}
+
 /**
  * Trivial read that touches the database, used as a keepalive so the Supabase
  * free tier does not pause after ~7 days idle. Selects at most one row's id and

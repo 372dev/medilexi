@@ -26,6 +26,7 @@ export type RvCopy = {
   fLayNone: string
   filters: { all: string; todo: string; flag: string; fix: string }
   searchPlaceholder: string
+  check: string          // label before each entry's flagged concern
   correct: string
   toFix: string
   notePlaceholder: string
@@ -70,6 +71,7 @@ const EN: RvCopy = {
   fDef: 'Definition',
   fLayNone: 'none',
   filters: { all: 'All', todo: 'To do', flag: 'Flagged', fix: 'To fix' },
+  check: 'To check:',
   searchPlaceholder: 'Search a term…',
   correct: '✓ OK',
   toFix: '✎ To fix',
@@ -109,6 +111,7 @@ const FR: RvCopy = {
   fDef: 'Définition',
   fLayNone: 'aucun',
   filters: { all: 'Toutes', todo: 'À faire', flag: 'Signalées', fix: 'À corriger' },
+  check: 'À vérifier :',
   searchPlaceholder: 'Rechercher un terme…',
   correct: '✓ Correct',
   toFix: '✎ À corriger',
@@ -154,6 +157,7 @@ const KO: RvCopy = {
   fDef: '정의',
   fLayNone: '없음',
   filters: { all: '전체', todo: '할 일', flag: '표시됨', fix: '수정 필요' },
+  check: '확인 사항:',
   searchPlaceholder: '용어 검색…',
   correct: '✓ 정상',
   toFix: '✎ 수정 필요',

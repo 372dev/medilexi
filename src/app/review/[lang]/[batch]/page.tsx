@@ -1,18 +1,18 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { REVIEW_BATCHES, flagsFor, type ReviewEntry } from '@/lib/review-batches'
+import { flagsFor, type ReviewEntry } from '@/lib/review-batches'
 import { reviewKeyMatches } from '@/lib/review-auth'
-import { isReviewLang, type ReviewLang } from '@/lib/review-langs'
+import { isReviewLang, LANG_META, type ReviewLang } from '@/lib/review-langs'
+import { getReviewItems, type ReviewItem } from '@/lib/server-db'
 import vocabData from '@/data/medical_vocab.json'
 import frData from '@/data/medical_vocab_fr.json'
 import koData from '@/data/medical_vocab_ko.json'
 import ReviewClient from './ReviewClient'
 
-// The key is checked per request, so this route can never be prerendered.
+// The key is checked per request AND the queue is read from the DB, so this
+// route can never be prerendered.
 export const dynamic = 'force-dynamic'
 
-// Internal tooling on a public domain: keep it out of every index. The sitemap
-// is generated from the glossary data and never includes /review.
 export const metadata: Metadata = {
   robots: { index: false, follow: false, nocache: true },
   title: 'Review · Medi Lexi',
@@ -21,11 +21,13 @@ export const metadata: Metadata = {
 type Vocab = { en_h: string; en_l?: string; f: string[]; d: string; lvl: number }
 type Target = { h: string; l: string; d: string }
 
-const VOCAB = vocabData as unknown as Vocab[]
+const VOCAB = new Map(
+  (vocabData as unknown as Vocab[]).map((v) => [v.en_h, v]),
+)
 
-// Target triple per live language, keyed by en_h. es/ja are not live yet
-// (no _es/_ja data file) -> null until Phase 2 seeds review_items.
-const TARGETS: Record<ReviewLang, Map<string, Target> | null> = {
+// Live target triple for FR/KO, keyed by en_h. ES/JA carry their triple on the
+// review_items row instead (no shipped data file).
+const LIVE_TARGET: Record<ReviewLang, Map<string, Target> | null> = {
   fr: new Map(
     (frData as unknown as { en_h: string; fr_h: string; fr_l?: string; d_fr?: string }[])
       .map((e) => [e.en_h, { h: e.fr_h, l: e.fr_l ?? '', d: e.d_fr ?? '' }]),
@@ -38,45 +40,57 @@ const TARGETS: Record<ReviewLang, Map<string, Target> | null> = {
   ja: null,
 }
 
-export default function ReviewPage({
+function targetFor(lang: ReviewLang, item: ReviewItem): Target | null {
+  const live = LIVE_TARGET[lang]
+  if (live) return live.get(item.en_h) ?? null
+  // es/ja: the triple rides on the flagged row.
+  if (item.src_h == null && item.src_l == null && item.src_d == null) return null
+  return { h: item.src_h ?? '', l: item.src_l ?? '', d: item.src_d ?? '' }
+}
+
+export default async function ReviewPage({
   params,
   searchParams,
 }: {
   params: { lang: string; batch: string }
-  // Next validates page props against its generated PageProps, where
-  // searchParams is an index signature; narrowing it fails the build, so take
-  // the wide type and narrow here.
   searchParams: { [key: string]: string | string[] | undefined }
 }) {
   const { lang, batch: slug } = params
   const supplied = typeof searchParams.k === 'string' ? searchParams.k : undefined
 
-  // A wrong/missing key, an unknown language, or a not-yet-live language 404s
-  // rather than 401s: an unauthorized visitor should not learn the route exists.
+  // Wrong/missing key or unknown language 404s (an unauthorized visitor learns
+  // nothing about the route).
   if (!isReviewLang(lang) || !reviewKeyMatches(lang, supplied)) notFound()
 
-  const batch = REVIEW_BATCHES[slug]
-  const targets = TARGETS[lang]
-  if (!batch || !targets) notFound() // es/ja (targets null) -> Phase 2
+  // The flagged queue for this language (optionally one batch; 'all' = everything).
+  let items: ReviewItem[] = []
+  try {
+    items = await getReviewItems(lang, slug)
+  } catch {
+    // DB down/misconfigured: render an empty queue rather than a hard error.
+    items = []
+  }
 
-  const entries: ReviewEntry[] = VOCAB.filter((v) => v.f[0] === batch.field).flatMap((v) => {
-    const t = targets.get(v.en_h)
-    if (!t) return []
+  const entries: ReviewEntry[] = items.flatMap((item) => {
+    const en = VOCAB.get(item.en_h)
+    const t = targetFor(lang, item)
+    if (!en || !t) return [] // flagged en_h no longer in the glossary, or missing target
     return [
       {
-        k: v.en_h,
-        el: v.en_l ?? '',
-        ed: v.d,
-        lv: v.lvl,
+        k: item.en_h,
+        el: en.en_l ?? '',
+        ed: en.d,
+        lv: en.lvl,
         th: t.h,
         tl: t.l,
         td: t.d,
-        fg: flagsFor(lang, t.h, t.d, v.en_h),
+        fg: flagsFor(lang, t.h, t.d, item.en_h),
+        cn: item.concern ?? '',
       },
     ]
   })
 
-  const title = lang === 'fr' ? batch.fr : batch.field
+  const title = slug === 'all' ? `${LANG_META[lang].label}` : slug
 
   return (
     <ReviewClient

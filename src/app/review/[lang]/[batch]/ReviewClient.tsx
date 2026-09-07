@@ -225,6 +225,16 @@ export default function ReviewClient({
                 </span>
               </div>
 
+              {e.cn && (
+                <div
+                  className="mx-4 mt-2 rounded-lg border-l-[3px] border-[var(--b-amber)] bg-[var(--b-raised)] px-3 py-2 text-[0.9rem] leading-relaxed"
+                  style={{ color: 'var(--b-text)' }}
+                >
+                  <span className="font-semibold text-[var(--b-amber)]">{c.check} </span>
+                  {e.cn}
+                </div>
+              )}
+
               <div className="rv-pair">
                 <div className="rv-src">
                   <span className="rv-slab">{c.sourceLabel}</span>

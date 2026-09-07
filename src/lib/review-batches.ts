@@ -38,6 +38,7 @@ export type ReviewEntry = {
   tl: string         // target lay   (fr_l / ko_l / …)
   td: string         // target def   (d_fr / d_ko / …)
   fg: string[]       // advisory flags
+  cn: string         // the specific concern to answer (from the flag queue)
 }
 
 /**

@@ -10,10 +10,13 @@
  * NEVER import this from a client component. The service-role key bypasses RLS.
  */
 
-export type SubmissionKind = 'fr_review' | 'feedback'
+// 'review' is the generic per-language review kind (carries `lang`).
+// 'fr_review' is the pre-migration French kind, kept so old rows still validate.
+export type SubmissionKind = 'review' | 'fr_review' | 'feedback'
 
 export type SubmissionRow = {
   kind: SubmissionKind
+  lang?: string | null
   batch?: string | null
   payload: unknown
   note?: string | null
@@ -64,6 +67,7 @@ export async function insertSubmission(row: SubmissionRow): Promise<void> {
     },
     body: JSON.stringify({
       kind: row.kind,
+      lang: row.lang ?? null,
       batch: row.batch ?? null,
       payload: row.payload,
       note: row.note ?? null,

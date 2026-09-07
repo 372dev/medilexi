@@ -2,35 +2,32 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import type { ReviewEntry } from '@/lib/review-batches'
+import type { ReviewLang } from '@/lib/review-langs'
+import { LANG_META } from '@/lib/review-langs'
+import { RV_COPY } from '@/lib/review-copy'
 
 type Verdict = 'ok' | 'fix' | null
-type Edit = { v: Verdict; fh?: string; fl?: string; fd?: string; n?: string }
+// Generic target edit: h = head, l = lay, d = definition, n = note.
+type Edit = { v: Verdict; h?: string; l?: string; d?: string; n?: string }
 type State = Record<string, Edit>
 
-const LVL_FR: Record<number, string> = { 3: 'Essentiel', 2: 'Important', 1: 'Utile' }
-const MAX_FD = 260
-
-const FLAG_HELP: Record<string, string> = {
-  chiffre:
-    "La définition contient un nombre. Vérifiez que ce n'est pas un seuil qui varie selon les pays (à reformuler) plutôt qu'un fait invariable (à garder).",
-  phrases: 'La définition semble contenir plus d’une phrase.',
-  identique:
-    "Le terme français est identique à l'anglais. C'est souvent correct (Palpitation, Migraine) ; vérifiez seulement qu'il ne s'agit pas d'un oubli de traduction.",
-  long: `La définition dépasse ${MAX_FD} caractères.`,
-}
-
 export default function ReviewClient({
+  lang,
   slug,
   title,
   entries,
   reviewKey,
 }: {
+  lang: ReviewLang
   slug: string
   title: string
   entries: ReviewEntry[]
   reviewKey: string
 }) {
-  const storageKey = `medilexi-fr-review-${slug}`
+  const c = RV_COPY[lang]
+  const MAX_D = LANG_META[lang].dLimit
+  const storageKey = `medilexi-review-${lang}-${slug}`
+
   const [state, setState] = useState<State>({})
   const [filter, setFilter] = useState<'all' | 'todo' | 'flag' | 'fix'>('all')
   const [query, setQuery] = useState('')
@@ -59,20 +56,19 @@ export default function ReviewClient({
 
   const edit = useCallback((k: string, patch: Partial<Edit>) => {
     setState((s) => {
-      // Default v to null via the base object, not a leading literal: writing
-      // { v: null, ...s[k], ...patch } is a "specified more than once" type
-      // error, since both spreads also carry v.
       const prev: Edit = s[k] ?? { v: null }
       return { ...s, [k]: { ...prev, ...patch } }
     })
   }, [])
 
-  const valueOf = (e: ReviewEntry, f: 'fh' | 'fl' | 'fd') => state[e.k]?.[f] ?? e[f]
+  // Field getter: the edited value if present, else the original target field.
+  const valueOf = (e: ReviewEntry, f: 'h' | 'l' | 'd') => {
+    const edited = state[e.k]?.[f]
+    if (edited !== undefined) return edited
+    return f === 'h' ? e.th : f === 'l' ? e.tl : e.td
+  }
 
-  const done = useMemo(
-    () => entries.filter((e) => state[e.k]?.v).length,
-    [entries, state],
-  )
+  const done = useMemo(() => entries.filter((e) => state[e.k]?.v).length, [entries, state])
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -81,7 +77,7 @@ export default function ReviewClient({
       if (filter === 'todo' && s?.v) return false
       if (filter === 'flag' && e.fg.length === 0) return false
       if (filter === 'fix' && s?.v !== 'fix') return false
-      if (q && !`${e.k} ${e.fh} ${e.fl}`.toLowerCase().includes(q)) return false
+      if (q && !`${e.k} ${e.th} ${e.tl}`.toLowerCase().includes(q)) return false
       return true
     })
   }, [entries, state, filter, query])
@@ -92,9 +88,11 @@ export default function ReviewClient({
         const s = state[e.k]
         if (!s || (!s.v && !s.n)) return []
         const row: Record<string, string> = { en_h: e.k, verdict: s.v ?? 'commentaire' }
-        if (s.fh !== undefined && s.fh !== e.fh) row.fr_h = s.fh
-        if (s.fl !== undefined && s.fl !== e.fl) row.fr_l = s.fl
-        if (s.fd !== undefined && s.fd !== e.fd) row.d_fr = s.fd
+        // Neutral field names (h/l/d) so one shape serves every language; the
+        // pull script maps them back onto {lang}_h / {lang}_l / d_{lang}.
+        if (s.h !== undefined && s.h !== e.th) row.h = s.h
+        if (s.l !== undefined && s.l !== e.tl) row.l = s.l
+        if (s.d !== undefined && s.d !== e.td) row.d = s.d
         if (s.n) row.note = s.n
         return [row]
       }),
@@ -103,7 +101,7 @@ export default function ReviewClient({
 
   async function send() {
     if (payload.length === 0) {
-      setSaid('Aucune correction à envoyer pour l’instant.')
+      setSaid(c.nothingToSend)
       return
     }
     setSending(true)
@@ -113,18 +111,18 @@ export default function ReviewClient({
       const res = await fetch('/api/submissions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'x-review-key': reviewKey },
-        body: JSON.stringify({ kind: 'fr_review', batch: title, payload }),
+        body: JSON.stringify({ kind: 'review', lang, batch: slug, payload }),
       })
       if (res.ok) {
-        setSaid(`Envoyé. ${payload.length} fiche(s) reçue(s). Merci !`)
+        setSaid(`${c.sentPrefix}${payload.length}${c.sentMid}${c.sentSuffix}`)
       } else {
-        // Never strand the reviewer's work behind a network error: show the
-        // JSON so it can be copied into an email instead.
-        setSaid("L'envoi a échoué. Copiez le texte ci-dessous et envoyez-le par courriel.")
+        // Never strand the reviewer's work behind a network error: show the JSON
+        // so it can be copied into an email instead.
+        setSaid(c.sendFailed)
         setFallback(JSON.stringify(payload, null, 1))
       }
     } catch {
-      setSaid("L'envoi a échoué. Copiez le texte ci-dessous et envoyez-le par courriel.")
+      setSaid(c.sendFailed)
       setFallback(JSON.stringify(payload, null, 1))
     } finally {
       setSending(false)
@@ -133,59 +131,26 @@ export default function ReviewClient({
 
   const pct = entries.length ? Math.round((done / entries.length) * 100) : 0
 
-  // The shell already renders <main>, so this is a plain wrapper. (A JSX
-  // comment cannot sit here: {/* */} is only valid inside an element's
-  // children, not at the top of a return expression.)
   return (
     <div className="mx-auto w-full max-w-5xl px-4 py-2">
       <header>
-        <p className="rv-eyebrow">MEDI LEXI · RÉVISION DU FRANÇAIS</p>
-        <h1
-          className="mt-2 text-3xl"
-          style={{ fontFamily: 'var(--b-display)', fontWeight: 600, color: 'var(--b-text)' }}
-        >
-          {title} · {entries.length} termes
+        <p className="rv-eyebrow">{c.eyebrow}</p>
+        <h1 className="mt-2 text-3xl" style={{ fontFamily: 'var(--b-display)', fontWeight: 600, color: 'var(--b-text)' }}>
+          {title} · {entries.length} {c.termsWord}
         </h1>
         <p className="mt-3 max-w-[64ch]" style={{ color: 'var(--b-dim)' }}>
-          L&apos;anglais d&apos;origine est à gauche, notre français à droite. Corrigez
-          directement dans les champs de droite, puis indiquez si la fiche est correcte ou à
-          modifier. Votre travail est enregistré dans ce navigateur au fur et à mesure, et
-          l&apos;envoi nous le transmet directement.
+          {c.intro}
         </p>
 
         <details className="b-card mt-5 px-4 py-3">
-          <summary className="cursor-pointer font-semibold">
-            Nos règles de rédaction (à lire avant de commencer)
-          </summary>
+          <summary className="cursor-pointer font-semibold">{c.rulesSummary}</summary>
           <ul className="mt-3 flex list-disc flex-col gap-2 pl-5 text-[0.92rem]" style={{ color: 'var(--b-dim)' }}>
-            <li>
-              <b style={{ color: 'var(--b-text)' }}>Français international.</b> Nous visons la
-              forme comprise dans toute la francophonie, pas le québécois en particulier. En cas
-              de divergence réelle, choisissez la forme internationale et préférez le terme
-              francisé à l&apos;anglicisme.
-            </li>
-            <li>
-              <b style={{ color: 'var(--b-text)' }}>Une seule phrase</b> par définition,
-              {' '}{MAX_FD} caractères maximum.
-            </li>
-            <li>
-              <b style={{ color: 'var(--b-text)' }}>Aucun seuil chiffré</b> qui varie d&apos;un
-              pays à l&apos;autre. Les faits invariables se gardent (46 chromosomes, 28 premiers
-              jours de vie).
-            </li>
-            <li>
-              <b style={{ color: 'var(--b-text)' }}>Registre.</b> Le terme clinique est le terme
-              principal, le terme courant est celui qu&apos;emploie réellement un patient. Jamais
-              l&apos;inverse, et jamais une paraphrase descriptive : s&apos;il n&apos;existe pas
-              de vrai mot courant, laissez le champ vide.
-            </li>
-            <li>
-              <b style={{ color: 'var(--b-text)' }}>Traduction fidèle</b> de notre définition
-              anglaise. Signalez plutôt que d&apos;inventer si vous n&apos;êtes pas sûr.
-            </li>
+            {c.rules.map((r, i) => (
+              <li key={i}>{r}</li>
+            ))}
           </ul>
           <dl className="rv-legend mt-4">
-            {Object.entries(FLAG_HELP).map(([tag, help]) => (
+            {Object.entries(c.flagHelp).map(([tag, help]) => (
               <div key={tag} className="contents">
                 <dt>
                   <span className="rv-flag">{tag}</span>
@@ -201,10 +166,10 @@ export default function ReviewClient({
         <div className="flex flex-wrap gap-1.5">
           {(
             [
-              ['all', 'Toutes'],
-              ['todo', 'À faire'],
-              ['flag', 'Signalées'],
-              ['fix', 'À corriger'],
+              ['all', c.filters.all],
+              ['todo', c.filters.todo],
+              ['flag', c.filters.flag],
+              ['fix', c.filters.fix],
             ] as const
           ).map(([f, label]) => (
             <button
@@ -222,8 +187,8 @@ export default function ReviewClient({
           type="search"
           className="b-search b-focus"
           style={{ flex: '1 1 180px', minWidth: 150, width: 'auto' }}
-          placeholder="Rechercher un terme…"
-          aria-label="Rechercher un terme"
+          placeholder={c.searchPlaceholder}
+          aria-label={c.searchPlaceholder}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -238,8 +203,8 @@ export default function ReviewClient({
       <div className="mt-4 flex flex-col gap-3">
         {visible.map((e, i) => {
           const s = state[e.k]
-          const fd = valueOf(e, 'fd')
-          const over = fd.length > MAX_FD
+          const d = valueOf(e, 'd')
+          const over = d.length > MAX_D
           return (
             <article
               key={e.k}
@@ -247,16 +212,13 @@ export default function ReviewClient({
             >
               <div className="flex flex-wrap items-baseline gap-2 px-4 pt-3">
                 <span className="rv-idx">{String(i + 1).padStart(2, '0')}</span>
-                <span
-                  className="text-xl"
-                  style={{ fontFamily: 'var(--b-display)', fontWeight: 600 }}
-                >
+                <span className="text-xl" style={{ fontFamily: 'var(--b-display)', fontWeight: 600 }}>
                   {e.k}
                 </span>
                 <span className="ml-auto flex flex-wrap gap-1.5">
-                  <span className={`b-lvl b-lvl--${e.lv}`}>{LVL_FR[e.lv]}</span>
+                  <span className={`b-lvl b-lvl--${e.lv}`}>{c.levels[e.lv]}</span>
                   {e.fg.map((f) => (
-                    <span key={f} className="rv-flag" title={FLAG_HELP[f]}>
+                    <span key={f} className="rv-flag" title={c.flagHelp[f]}>
                       {f}
                     </span>
                   ))}
@@ -265,46 +227,42 @@ export default function ReviewClient({
 
               <div className="rv-pair">
                 <div className="rv-src">
-                  <span className="rv-slab">Anglais · source</span>
-                  <Field label="Terme clinique">
+                  <span className="rv-slab">{c.sourceLabel}</span>
+                  <Field label={c.fClinical}>
                     <span style={{ fontFamily: 'var(--b-display)', fontSize: '1.05rem' }}>{e.k}</span>
                   </Field>
-                  <Field label="Terme courant">
-                    {e.el ? e.el : <i style={{ color: 'var(--b-dim)' }}>aucun</i>}
+                  <Field label={c.fLay}>
+                    {e.el ? e.el : <i style={{ color: 'var(--b-dim)' }}>{c.fLayNone}</i>}
                   </Field>
-                  <Field label="Définition">{e.ed}</Field>
+                  <Field label={c.fDef}>{e.ed}</Field>
                 </div>
 
                 <div className="rv-tgt">
-                  <span className="rv-slab">Français · à réviser</span>
-                  <Field label="Terme clinique">
+                  <span className="rv-slab">{c.targetLabel}</span>
+                  <Field label={c.fClinicalTgt}>
                     <input
                       className="rv-inp b-focus"
                       style={{ fontFamily: 'var(--b-display)' }}
-                      value={valueOf(e, 'fh')}
-                      onChange={(ev) => edit(e.k, { fh: ev.target.value, v: 'fix' })}
+                      value={valueOf(e, 'h')}
+                      onChange={(ev) => edit(e.k, { h: ev.target.value, v: 'fix' })}
                     />
                   </Field>
-                  <Field label="Terme courant (vide si aucun)">
+                  <Field label={c.fLayTgt}>
                     <input
                       className="rv-inp b-focus"
-                      value={valueOf(e, 'fl')}
-                      onChange={(ev) => edit(e.k, { fl: ev.target.value, v: 'fix' })}
+                      value={valueOf(e, 'l')}
+                      onChange={(ev) => edit(e.k, { l: ev.target.value, v: 'fix' })}
                     />
                   </Field>
                   <Field
-                    label="Définition"
-                    aside={
-                      <span className={`rv-cnt${over ? ' rv-cnt--over' : ''}`}>
-                        {fd.length} / {MAX_FD}
-                      </span>
-                    }
+                    label={c.fDef}
+                    aside={<span className={`rv-cnt${over ? ' rv-cnt--over' : ''}`}>{d.length} / {MAX_D}</span>}
                   >
                     <textarea
                       className="rv-inp b-focus"
                       rows={4}
-                      value={fd}
-                      onChange={(ev) => edit(e.k, { fd: ev.target.value, v: 'fix' })}
+                      value={d}
+                      onChange={(ev) => edit(e.k, { d: ev.target.value, v: 'fix' })}
                     />
                   </Field>
                 </div>
@@ -317,7 +275,7 @@ export default function ReviewClient({
                   aria-pressed={s?.v === 'ok'}
                   onClick={() => edit(e.k, { v: s?.v === 'ok' ? null : 'ok' })}
                 >
-                  ✓ Correct
+                  {c.correct}
                 </button>
                 <button
                   type="button"
@@ -325,12 +283,12 @@ export default function ReviewClient({
                   aria-pressed={s?.v === 'fix'}
                   onClick={() => edit(e.k, { v: s?.v === 'fix' ? null : 'fix' })}
                 >
-                  ✎ À corriger
+                  {c.toFix}
                 </button>
                 <input
                   className="rv-inp b-focus"
                   style={{ flex: '1 1 200px', minWidth: 150 }}
-                  placeholder="Commentaire (facultatif)"
+                  placeholder={c.notePlaceholder}
                   value={s?.n ?? ''}
                   onChange={(ev) => edit(e.k, { n: ev.target.value })}
                 />
@@ -340,19 +298,17 @@ export default function ReviewClient({
         })}
         {visible.length === 0 && (
           <p className="py-8 text-center" style={{ color: 'var(--b-dim)' }}>
-            Aucune fiche ne correspond.
+            {c.noMatch}
           </p>
         )}
       </div>
 
       <section className="b-card mt-8 px-5 py-5">
         <h2 className="text-xl" style={{ fontFamily: 'var(--b-display)', fontWeight: 600 }}>
-          Envoyer vos corrections
+          {c.submitTitle}
         </h2>
         <p className="mt-2 max-w-[66ch]" style={{ color: 'var(--b-dim)' }}>
-          Vous pouvez envoyer plusieurs fois : envoyez un premier lot dès qu&apos;une série de
-          fiches est terminée, plutôt que d&apos;attendre la fin. Seules les fiches que vous avez
-          modifiées ou jugées sont transmises.
+          {c.submitIntro}
         </p>
         <div className="mt-4 flex flex-wrap items-center gap-3">
           <button
@@ -361,7 +317,7 @@ export default function ReviewClient({
             disabled={sending || payload.length === 0}
             onClick={send}
           >
-            {sending ? 'Envoi…' : `Envoyer (${payload.length})`}
+            {sending ? c.sending : `${c.submitBtn} (${payload.length})`}
           </button>
           <span role="status" aria-live="polite" style={{ color: 'var(--b-primary)', fontWeight: 600 }}>
             {said}
@@ -374,7 +330,7 @@ export default function ReviewClient({
             rows={8}
             value={fallback}
             onFocus={(e) => e.currentTarget.select()}
-            aria-label="Corrections à copier"
+            aria-label={c.submitTitle}
           />
         )}
       </section>

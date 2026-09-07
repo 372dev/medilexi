@@ -1,13 +1,14 @@
 import { NextResponse } from 'next/server'
 import { insertSubmission, isDbConfigured, DbNotConfiguredError, type SubmissionKind } from '@/lib/server-db'
 import { reviewKeyMatches } from '@/lib/review-auth'
+import { isReviewLang } from '@/lib/review-langs'
 import { submissionLimiter, clientIp } from '@/lib/rate-limit'
 
 // Route Handlers run on the server on every request; nothing here is prerendered.
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
-const KINDS: SubmissionKind[] = ['fr_review', 'feedback']
+const KINDS: SubmissionKind[] = ['review', 'fr_review', 'feedback']
 const MAX_BYTES = 256 * 1024 // a 56-entry review batch is ~15 KB; this is generous
 const MAX_NOTE = 2000
 
@@ -44,11 +45,17 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'bad_kind' }, { status: 400 })
   }
 
-  // fr_review is internal tooling, so it carries a shared key. Feedback stays
-  // open because it is a public form. The key travels in a header, not the
-  // query string, so it stays out of server and proxy access logs.
-  if (kind === 'fr_review') {
-    if (!reviewKeyMatches(req.headers.get('x-review-key'))) {
+  // Reviews are internal tooling, so they carry a per-language shared key.
+  // Feedback stays open because it is a public form. The key travels in a
+  // header, not the query string, so it stays out of server/proxy access logs.
+  // 'fr_review' is the legacy French kind; treat its lang as fr.
+  let lang: string | null = null
+  if (kind === 'review' || kind === 'fr_review') {
+    lang = kind === 'fr_review' ? 'fr' : typeof body.lang === 'string' ? body.lang : ''
+    if (!isReviewLang(lang)) {
+      return NextResponse.json({ error: 'bad_lang' }, { status: 400 })
+    }
+    if (!reviewKeyMatches(lang, req.headers.get('x-review-key'))) {
       return NextResponse.json({ error: 'unauthorized' }, { status: 401 })
     }
   } else {
@@ -77,7 +84,7 @@ export async function POST(req: Request) {
   const note = typeof body.note === 'string' ? body.note.slice(0, MAX_NOTE) : null
 
   try {
-    await insertSubmission({ kind: kind as SubmissionKind, batch, payload: body.payload, note })
+    await insertSubmission({ kind: kind as SubmissionKind, lang, batch, payload: body.payload, note })
   } catch (err) {
     if (err instanceof DbNotConfiguredError) {
       return NextResponse.json({ error: 'not_configured' }, { status: 503 })

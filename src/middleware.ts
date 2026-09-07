@@ -19,6 +19,17 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
+  // Legacy French review links moved to /review/[lang]/[batch]. Redirect a
+  // single-segment /review/<slug> to /review/fr/<slug>, preserving the ?k= key
+  // (the destination still enforces it, 404ing on a miss). Two-segment
+  // /review/<lang>/<batch> paths are left untouched.
+  const legacy = request.nextUrl.pathname.match(/^\/review\/([^/]+)\/?$/)
+  if (legacy) {
+    const url = request.nextUrl.clone()
+    url.pathname = `/review/fr/${legacy[1]}`
+    return NextResponse.redirect(url, 307)
+  }
+
   const requestHeaders = new Headers(request.headers)
   requestHeaders.set('x-pathname', request.nextUrl.pathname)
   return NextResponse.next({ request: { headers: requestHeaders } })

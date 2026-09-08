@@ -5,7 +5,8 @@ import Link from 'next/link'
 import vocabData from '@/data/medical_vocab.json'
 import frData from '@/data/medical_vocab_fr.json'
 import partsData from '@/data/medical_wordparts_simple.json'
-import { ALL_LEVELS, LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
+import { ALL_LEVELS, normalizeLvl } from '@/lib/vocab-constants'
+import { useT, useTField, type MsgKey } from '@/lib/i18n'
 import { useSwipe } from '@/lib/use-swipe'
 import SpeakButton from '../../SpeakButton'
 
@@ -33,17 +34,19 @@ const vocab = (vocabData as unknown as VocabEntry[])
   .filter((v): v is MergedEntry => !!frMap[v.en_h])
 
 const ALL_FIELDS = Array.from(new Set(vocab.flatMap(v => v.f))).sort()
-const COUNT_OPTIONS: (number | null)[] = [null, 100, 50, 25]
+const COUNT_OPTIONS: (number | null)[] = [25, 50, 100, null]
 const LVL_BAR: Record<number,string> = { 3:'var(--b-primary)', 2:'var(--b-amber)', 1:'var(--b-dim)' }
 const display = { fontFamily: 'var(--b-display)' }
 
 export default function FrFlashcardsPage() {
+  const t = useT()
+  const tf = useTField()
   /* ── Settings ── */
   const [showSettings, setShowSettings] = useState(true)
   const [mode,        setMode]      = useState<'study' | 'quiz'>('quiz')
   const [direction,   setDirection] = useState<'en-fr' | 'fr-en'>('en-fr')
   const [lvlFilter,   setLvl]       = useState<number | null>(null)
-  const [countLimit,  setCount]     = useState<number | null>(null)
+  const [countLimit,  setCount]     = useState<number | null>(25)
   const [fieldFilter, setField]     = useState<string | null>(null)
 
   /* ── Session ── */
@@ -151,16 +154,16 @@ export default function FrFlashcardsPage() {
           <div className="b-card b-lift w-full max-w-[440px] p-7">
             <div className="mb-6 flex flex-col gap-1">
               <span className="text-[0.7rem] font-bold uppercase tracking-[0.14em] text-[var(--b-primary)]">
-                Français · French
+                {t('gloss.langFrench')}
               </span>
               <h1 className="m-0 text-[1.5rem] font-semibold tracking-[-0.008em]" style={display}>
-                Flashcard setup
+                {t('fc.setup')}
               </h1>
             </div>
 
             {/* Direction */}
             <div className="mb-5 flex flex-col gap-2">
-              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Direction</span>
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">{t('fc.direction')}</span>
               <div className="inline-flex w-fit overflow-hidden rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)]">
                 {([['en-fr','EN → FR'],['fr-en','FR → EN']] as const).map(([d,label]) => (
                   <button
@@ -179,40 +182,40 @@ export default function FrFlashcardsPage() {
 
             {/* Mode */}
             <div className="mb-5 flex flex-col gap-2">
-              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Mode</span>
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">{t('fc.mode')}</span>
               <div className="inline-flex w-fit overflow-hidden rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)]">
                 {(['study','quiz'] as const).map(m => (
                   <button
                     key={m}
                     onClick={() => setMode(m)}
                     aria-pressed={mode===m}
-                    className={`b-focus px-5 py-2 text-[0.82rem] font-semibold capitalize ${
+                    className={`b-focus px-5 py-2 text-[0.82rem] font-semibold ${
                       mode===m ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'
                     }`}
                   >
-                    {m}
+                    {t(m === 'study' ? 'fc.study' : 'fc.quiz')}
                   </button>
                 ))}
               </div>
               <p className="m-0 text-[0.78rem] leading-[1.6] text-[var(--b-dim)]">
                 {mode === 'study'
-                  ? <>Browse freely. <kbd className="b-kbd">Space</kbd> to flip, <kbd className="b-kbd">←</kbd> <kbd className="b-kbd">→</kbd> to navigate</>
-                  : <>Mark each card. <kbd className="b-kbd">Space</kbd> to flip, <kbd className="b-kbd">←</kbd> Review · Know it <kbd className="b-kbd">→</kbd></>}
+                  ? <>{t('fc.browseFreely')} <kbd className="b-kbd">Space</kbd> {t('fc.toFlip')}, <kbd className="b-kbd">←</kbd> <kbd className="b-kbd">→</kbd> {t('fc.toNavigate')}</>
+                  : <>{t('fc.markEachCard')} <kbd className="b-kbd">Space</kbd> {t('fc.toFlip')}, <kbd className="b-kbd">←</kbd> {t('fc.review')} · {t('fc.knowIt')} <kbd className="b-kbd">→</kbd></>}
               </p>
             </div>
 
             {/* Level */}
             <div className="mb-5 flex flex-col gap-2">
-              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Level</span>
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">{t('fc.level')}</span>
               <div className="flex flex-wrap gap-2">
-                <button className={`b-fpill b-focus ${!lvlFilter?'b-fpill--active':''}`} onClick={() => setLvl(null)}>All</button>
+                <button className={`b-fpill b-focus ${!lvlFilter?'b-fpill--active':''}`} onClick={() => setLvl(null)}>{t('fc.all')}</button>
                 {ALL_LEVELS.map(lvl => (
                   <button
                     key={lvl}
                     className={`b-fpill b-focus ${lvlFilter===lvl?'b-fpill--active':''}`}
                     onClick={() => setLvl(lvlFilter===lvl?null:lvl)}
                   >
-                    {LVL_TEXT[lvl]}
+                    {t(`lvl.${lvl}` as MsgKey)}
                   </button>
                 ))}
               </div>
@@ -220,21 +223,21 @@ export default function FrFlashcardsPage() {
 
             {/* Specialty */}
             <div className="mb-5 flex flex-col gap-2">
-              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Specialty</span>
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">{t('fc.specialty')}</span>
               <select
                 className="b-select b-focus w-full"
-                aria-label="Filter by specialty"
+                aria-label={t('gloss.specialtyAria')}
                 value={fieldFilter || ''}
                 onChange={e => setField(e.target.value || null)}
               >
-                <option value="">All specialties</option>
-                {ALL_FIELDS.map(f => <option key={f} value={f}>{f}</option>)}
+                <option value="">{t('fc.allSpecialties')}</option>
+                {ALL_FIELDS.map(f => <option key={f} value={f}>{tf(f)}</option>)}
               </select>
             </div>
 
             {/* Count */}
             <div className="mb-5 flex flex-col gap-2">
-              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">Cards per session</span>
+              <span className="text-[0.78rem] font-semibold text-[var(--b-dim)]">{t('fc.cardsPerSession')}</span>
               <div className="inline-flex w-fit overflow-hidden rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)]">
                 {COUNT_OPTIONS.map(n => (
                   <button
@@ -245,7 +248,7 @@ export default function FrFlashcardsPage() {
                       countLimit===n ? 'bg-[var(--b-primary)] text-[var(--b-on-prim)]' : 'text-[var(--b-dim)]'
                     }`}
                   >
-                    {n ?? 'All'}
+                    {n ?? t('fc.all')}
                   </button>
                 ))}
               </div>
@@ -258,7 +261,9 @@ export default function FrFlashcardsPage() {
                   {previewCount}
                 </span>
                 <span className="text-[0.8rem] text-[var(--b-dim)]">
-                  {countLimit && filtered.length > countLimit ? `random from ${filtered.length}` : 'cards selected'}
+                  {countLimit && filtered.length > countLimit
+                    ? <>{t('fc.randomFromPre')}{filtered.length}{t('fc.randomFromPost')}</>
+                    : t('fc.cardsSelected')}
                 </span>
               </div>
               <div className="mb-2 flex h-1.5 overflow-hidden rounded-full bg-[var(--b-border)]">
@@ -273,7 +278,7 @@ export default function FrFlashcardsPage() {
                 {([3,2,1] as const).map(l => (
                   <span key={l} className="flex items-center gap-1.5 text-[0.76rem] text-[var(--b-dim)]">
                     <span className="h-2 w-2 rounded-full" style={{ background:LVL_BAR[l] }} aria-hidden="true" />
-                    {LVL_TEXT[l]} <span className="tabular-nums">{filtered.filter(v => v.lvl === l).length}</span>
+                    {t(`lvl.${l}` as MsgKey)} <span className="tabular-nums">{filtered.filter(v => v.lvl === l).length}</span>
                   </span>
                 ))}
               </div>
@@ -285,15 +290,15 @@ export default function FrFlashcardsPage() {
               className="b-press b-glow b-focus w-full rounded-2xl bg-[var(--b-primary)] py-3.5 text-[0.95rem] font-bold text-[var(--b-on-prim)] disabled:cursor-not-allowed disabled:opacity-40"
               style={display}
             >
-              Start →
+              {t('fc.start')} →
             </button>
 
             <div className="mt-5 flex flex-col items-center gap-2">
               <Link href="/medical/glossary/fr" className="b-focus text-[0.82rem] text-[var(--b-dim)] hover:text-[var(--b-text)] hover:underline">
-                ← Back to French Glossary
+                ← {t('fc.backGlossaryFr')}
               </Link>
               <Link href="/medical" className="b-focus text-[0.82rem] text-[var(--b-dim)] opacity-70 hover:text-[var(--b-text)] hover:underline">
-                ← Back to Main
+                ← {t('fc.backMain')}
               </Link>
             </div>
           </div>
@@ -316,7 +321,7 @@ export default function FrFlashcardsPage() {
                 </div>
                 <button
                   onClick={() => setShowSettings(true)}
-                  aria-label="Session settings"
+                  aria-label={t('fc.sessionSettings')}
                   className="b-press b-focus rounded-lg border border-[var(--b-border)] bg-[var(--b-panel)] px-2.5 py-1.5 text-[0.8rem] text-[var(--b-dim)]"
                 >
                   ⚙
@@ -349,7 +354,7 @@ export default function FrFlashcardsPage() {
                     className="b-card b-lift absolute inset-0 flex flex-col items-center justify-center gap-4 p-8"
                     style={{ backfaceVisibility:'hidden' }}
                   >
-                    <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
+                    <span className={`b-lvl b-lvl--${card.lvl}`}>{t(`lvl.${card.lvl}` as MsgKey)}</span>
                     {isFrEn ? (
                       <>
                         <div className="text-center text-[2.1rem] font-semibold leading-[1.2] tracking-[-0.01em] text-[var(--b-text)]" style={display}>{card.fr_h}</div>
@@ -367,7 +372,7 @@ export default function FrFlashcardsPage() {
                       </>
                     )}
                     <p className="m-0 mt-auto text-[0.78rem] text-[var(--b-dim)]">
-                      <kbd className="b-kbd">Space</kbd> or tap to reveal
+                      <kbd className="b-kbd">Space</kbd> {t('fc.orTapReveal')}
                     </p>
                   </div>
 
@@ -379,7 +384,7 @@ export default function FrFlashcardsPage() {
                   >
                     {/* English */}
                     <div className="flex flex-col gap-2">
-                      <span className={`b-lvl b-lvl--${card.lvl}`}>{LVL_TEXT[card.lvl]}</span>
+                      <span className={`b-lvl b-lvl--${card.lvl}`}>{t(`lvl.${card.lvl}` as MsgKey)}</span>
                       <div className="flex items-start justify-between gap-2">
                         <div className="text-[1.42rem] font-semibold leading-tight text-[var(--b-text)]" style={display}>
                           {card.en_h}
@@ -408,7 +413,7 @@ export default function FrFlashcardsPage() {
                       {card.fr_l && <div className="text-[0.98rem] text-[var(--b-dim)]">{card.fr_l}</div>}
                       <p className="m-0 text-[0.88rem] leading-[1.55] text-[var(--b-dim)]">{card.d_fr || card.d}</p>
                       <div className="mt-1 flex flex-wrap gap-1.5">
-                        {card.f.map(f => <span key={f} className="b-field">{f}</span>)}
+                        {card.f.map(f => <span key={f} className="b-field">{tf(f)}</span>)}
                       </div>
                     </div>
                   </div>
@@ -424,17 +429,17 @@ export default function FrFlashcardsPage() {
                       disabled={cardIdx===0}
                       className="b-press b-focus rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-2.5 text-[0.85rem] font-semibold text-[var(--b-dim)] disabled:opacity-35"
                     >
-                      ← Prev
+                      ← {t('fc.prev')}
                     </button>
                     <button
                       onClick={nextCard}
                       className="b-press b-glow b-focus rounded-xl bg-[var(--b-primary)] px-6 py-2.5 text-[0.85rem] font-bold text-[var(--b-on-prim)]"
                     >
-                      Next →
+                      {t('fc.next')} →
                     </button>
                   </div>
                   <p className="mt-4 text-center text-[0.76rem] text-[var(--b-dim)] opacity-70">
-                    <kbd className="b-kbd">Space</kbd> flip &nbsp; <kbd className="b-kbd">←</kbd> Prev &nbsp; Next <kbd className="b-kbd">→</kbd>
+                    <kbd className="b-kbd">Space</kbd> {t('fc.flip')} &nbsp; <kbd className="b-kbd">←</kbd> {t('fc.prev')} &nbsp; {t('fc.next')} <kbd className="b-kbd">→</kbd>
                   </p>
                 </>
               )}
@@ -447,19 +452,19 @@ export default function FrFlashcardsPage() {
                       onClick={markUnknown}
                       className="b-press b-focus rounded-xl border border-[#C94040] bg-[rgba(201,64,64,0.14)] px-7 py-3 text-[0.88rem] font-bold text-[#FCA5A5]"
                     >
-                      <kbd className="b-kbd">←</kbd> Review
+                      <kbd className="b-kbd">←</kbd> {t('fc.review')}
                     </button>
                     <button
                       onClick={markKnown}
                       className="b-press b-focus rounded-xl border border-[var(--b-primary)] px-7 py-3 text-[0.88rem] font-bold text-[var(--b-primary)]"
                       style={{ background: 'color-mix(in srgb, var(--b-primary) 16%, transparent)' }}
                     >
-                      Know it <kbd className="b-kbd">→</kbd>
+                      {t('fc.knowIt')} <kbd className="b-kbd">→</kbd>
                     </button>
                   </div>
                 ) : (
                   <p className="text-center text-[0.76rem] text-[var(--b-dim)] opacity-70">
-                    <kbd className="b-kbd">Space</kbd> flip &nbsp; <kbd className="b-kbd">←</kbd> review &nbsp; know it <kbd className="b-kbd">→</kbd>
+                    <kbd className="b-kbd">Space</kbd> {t('fc.flip')} &nbsp; <kbd className="b-kbd">←</kbd> {t('fc.review')} &nbsp; {t('fc.knowIt')} <kbd className="b-kbd">→</kbd>
                   </p>
                 )
               )}
@@ -468,9 +473,9 @@ export default function FrFlashcardsPage() {
               {mode === 'quiz' && (
                 <div className="mt-6 flex border-t border-[var(--b-border)] pt-5">
                   {[
-                    { n: Math.max(0, deck.length - cardIdx - 1), l: 'remaining', c: 'var(--b-text)' },
-                    { n: known.size,                              l: 'known',     c: 'var(--b-primary)' },
-                    { n: Math.max(0, cardIdx - known.size),       l: 'missed',    c: '#FCA5A5' },
+                    { n: Math.max(0, deck.length - cardIdx - 1), l: t('fc.remaining'), c: 'var(--b-text)' },
+                    { n: known.size,                              l: t('fc.known'),     c: 'var(--b-primary)' },
+                    { n: Math.max(0, cardIdx - known.size),       l: t('fc.missed'),    c: '#FCA5A5' },
                   ].map(s => (
                     <div key={s.l} className="flex-1 text-center">
                       <div className="text-[1.5rem] font-semibold tabular-nums" style={{ ...display, color:s.c }}>{s.n}</div>
@@ -491,14 +496,14 @@ export default function FrFlashcardsPage() {
                     {known.size} / {deck.length}
                   </div>
                   <p className="m-0 text-[0.95rem] text-[var(--b-dim)]">
-                    {known.size === deck.length ? 'Perfect! All cards known.' : known.size >= deck.length * 0.8 ? 'Great job!' : 'Keep practicing!'}
+                    {known.size === deck.length ? t('fc.perfect') : known.size >= deck.length * 0.8 ? t('fc.greatJob') : t('fc.keepPracticing')}
                   </p>
                 </div>
 
                 {missedCards.length > 0 && (
                   <div className="mb-7">
                     <div className="mb-3 border-b border-[var(--b-border)] pb-2 text-[0.78rem] font-bold uppercase tracking-[0.12em] text-[var(--b-dim)]">
-                      Review list ({missedCards.length})
+                      {t('fc.reviewList')} ({missedCards.length})
                     </div>
                     <div className="flex max-h-[340px] flex-col gap-1.5 overflow-y-auto">
                       {missedCards.map((v, i) => (
@@ -517,33 +522,33 @@ export default function FrFlashcardsPage() {
                       onClick={startMissed}
                       className="b-press b-focus rounded-xl border border-[#C94040] bg-[rgba(201,64,64,0.14)] px-6 py-2.5 text-[0.85rem] font-bold text-[#FCA5A5]"
                     >
-                      ↺ Retry ({missedCards.length})
+                      ↺ {t('fc.retry')} ({missedCards.length})
                     </button>
                   )}
                   <button
                     onClick={() => setShowSettings(true)}
                     className="b-press b-focus rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-2.5 text-[0.85rem] font-semibold text-[var(--b-dim)]"
                   >
-                    New session
+                    {t('fc.newSession')}
                   </button>
                 </div>
               </>
             ) : (
               <div className="pt-8 text-center">
-                <div className="mb-3 text-[2rem] font-semibold text-[var(--b-primary)]" style={display}>All done</div>
-                <p className="mb-7 text-[0.95rem] text-[var(--b-dim)]">{deck.length} cards reviewed.</p>
+                <div className="mb-3 text-[2rem] font-semibold text-[var(--b-primary)]" style={display}>{t('fc.allDone')}</div>
+                <p className="mb-7 text-[0.95rem] text-[var(--b-dim)]">{deck.length}{t('fc.cardsReviewed')}</p>
                 <div className="flex flex-wrap justify-center gap-3">
                   <button
                     onClick={startDeck}
                     className="b-press b-glow b-focus rounded-xl bg-[var(--b-primary)] px-6 py-2.5 text-[0.85rem] font-bold text-[var(--b-on-prim)]"
                   >
-                    ↺ Start over
+                    ↺ {t('fc.startOver')}
                   </button>
                   <button
                     onClick={() => setShowSettings(true)}
                     className="b-press b-focus rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-6 py-2.5 text-[0.85rem] font-semibold text-[var(--b-dim)]"
                   >
-                    New session
+                    {t('fc.newSession')}
                   </button>
                 </div>
               </div>

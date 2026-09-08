@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react'
 import Link from 'next/link'
-import { LVL_TEXT } from '@/lib/vocab-constants'
+import { useT, useTField, type MsgKey } from '@/lib/i18n'
 import SpeakButton from '../SpeakButton'
 import type { Segment } from '@/lib/word-segments'
 
@@ -25,9 +25,11 @@ export interface SheetEntry {
 }
 type DefRec = { d: string; segs: Segment[] | null; d2?: string | null }
 
-const TYPE_LABEL: Record<string, string> = { p: 'Prefix', r: 'Root', s: 'Suffix' }
+const TYPE_KEY: Record<string, MsgKey> = { p: 'parts.prefix', r: 'parts.root', s: 'parts.suffix' }
 
 export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEntry | null; def?: DefRec; onClose: () => void }) {
+  const t = useT()
+  const tf = useTField()
   const [open, setOpen] = useState(false)
   const [dragY, setDragY] = useState(0)
   const dragging = useRef(false)
@@ -111,12 +113,12 @@ export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEn
         </div>
 
         <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
-          <span className={`b-lvl b-lvl--${entry.lvl}`}>{LVL_TEXT[entry.lvl]}</span>
+          <span className={`b-lvl b-lvl--${entry.lvl}`}>{t(`lvl.${entry.lvl}` as MsgKey)}</span>
           {entry.abbr && <span className="b-abbr">{entry.abbr}</span>}
-          {entry.f.map(f => <span key={f} className="b-chip">{f}</span>)}
+          {entry.f.map(f => <span key={f} className="b-chip">{tf(f)}</span>)}
         </div>
 
-        {entry.en_l && <div className="mt-2 text-[0.95rem] text-[var(--b-dim)]">Also called {entry.en_l}</div>}
+        {entry.en_l && <div className="mt-2 text-[0.95rem] text-[var(--b-dim)]">{t('sheet.alsoCalled')} {entry.en_l}</div>}
 
         {def
           ? <p className="mt-3 text-[0.9rem] leading-[1.55] text-[var(--b-text)]">{def.d}</p>
@@ -130,7 +132,7 @@ export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEn
         {parts.length > 0 && (
           <>
             <div className="mb-1.5 mt-4 text-[0.7rem] font-bold uppercase tracking-[0.08em] text-[var(--b-dim)]">
-              Word parts
+              {t('nav.wordparts')}
             </div>
             <div className="flex flex-col">
               {parts.map((s, i) => (
@@ -141,7 +143,7 @@ export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEn
                   >
                     {s.wp}
                   </code>
-                  <span className={`b-badge b-badge--${s.type}`}>{TYPE_LABEL[s.type!]}</span>
+                  <span className={`b-badge b-badge--${s.type}`}>{t(TYPE_KEY[s.type!])}</span>
                   <span className="text-[0.9rem] text-[var(--b-text)]">{s.meaning}</span>
                 </div>
               ))}
@@ -161,11 +163,11 @@ export default function WordPartsSheet({ entry, def, onClose }: { entry: SheetEn
 
         <div className="mt-4 flex items-center justify-between border-t border-[var(--b-border)] pt-3">
           <Link href={`/medical/term/${entry.slug}`} className="b-focus text-[0.86rem] font-semibold text-[var(--b-primary)]">
-            See full entry →
+            {t('sheet.seeFull')} →
           </Link>
           <button
             onClick={close}
-            aria-label="Close"
+            aria-label={t('common.close')}
             className="b-focus rounded-full p-1.5 text-[var(--b-dim)] hover:text-[var(--b-text)]"
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">

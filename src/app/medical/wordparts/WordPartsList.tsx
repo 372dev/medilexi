@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
-import { LVL_TEXT } from '@/lib/vocab-constants'
+import { useT, type MsgKey } from '@/lib/i18n'
 
 /* Word-parts glossary over a LEAN index (wp, type, level, meaning). Search is
    word-part + meaning only — the heavy example set is fetched per visible chunk
@@ -12,10 +12,11 @@ import { LVL_TEXT } from '@/lib/vocab-constants'
 export interface LeanPart { wp: string; t: 'p' | 'r' | 's'; lvl: 1 | 2 | 3; d: string }
 type ExPairs = [string, string][]
 
-const TYPE_LABEL: Record<string, string> = { p: 'Prefix', r: 'Root', s: 'Suffix' }
+const TYPE_KEY: Record<string, MsgKey> = { p: 'parts.prefix', r: 'parts.root', s: 'parts.suffix' }
 const EDGE: Record<string, string> = { p: '#3B82F6', r: '#3BAA6A', s: '#C94040' }
 
 export default function WordPartsList({ parts }: { parts: LeanPart[] }) {
+  const t = useT()
   const [search, setSearch]   = useState('')
   const [typeFilter, setType] = useState<'all' | 'p' | 'r' | 's'>('all')
   const [lvlFilter, setLvl]   = useState<number | null>(null)
@@ -80,8 +81,8 @@ export default function WordPartsList({ parts }: { parts: LeanPart[] }) {
           <input
             className="b-search min-w-[220px] flex-1"
             type="text"
-            aria-label="Search word parts"
-            placeholder="Search word parts and meanings..."
+            aria-label={t('wp.searchAria')}
+            placeholder={t('wp.searchPlaceholder')}
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
@@ -89,30 +90,32 @@ export default function WordPartsList({ parts }: { parts: LeanPart[] }) {
             href="/medical/wordparts/flashcard"
             className="b-press b-focus whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-2.5 text-[0.82rem] font-semibold hover:border-[var(--b-primary)] hover:text-[var(--b-primary)]"
           >
-            Flashcard →
+            {t('gloss.flashcard')} →
           </Link>
           <Link
             href="/medical/wordparts/quiz"
             className="b-press b-focus whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-2.5 text-[0.82rem] font-semibold hover:border-[var(--b-primary)] hover:text-[var(--b-primary)]"
           >
-            Practice →
+            {t('home.wpPractice')} →
           </Link>
           <Link
             href="/medical/wordparts/exam"
             className="b-press b-glow b-focus whitespace-nowrap rounded-xl bg-[var(--b-primary)] px-4 py-2.5 text-[0.82rem] font-bold text-[var(--b-on-prim)]"
           >
-            Exam ✦
+            {t('home.wpExam')}
           </Link>
         </div>
 
         <div className="flex flex-wrap gap-2">
-          {(['all', 'p', 'r', 's'] as const).map(t => (
+          {(['all', 'p', 'r', 's'] as const).map(typ => (
             <button
-              key={t}
-              className={`b-fpill b-focus ${typeFilter === t ? 'b-fpill--active' : ''}`}
-              onClick={() => setType(t)}
+              key={typ}
+              className={`b-fpill b-focus ${typeFilter === typ ? 'b-fpill--active' : ''}`}
+              onClick={() => setType(typ)}
             >
-              {t === 'all' ? `All (${parts.length})` : t === 'p' ? `Prefixes (${counts.p})` : t === 'r' ? `Roots (${counts.r})` : `Suffixes (${counts.s})`}
+              {typ === 'all'
+                ? `${t('fc.all')} (${parts.length})`
+                : `${t(TYPE_KEY[typ])} (${typ === 'p' ? counts.p : typ === 'r' ? counts.r : counts.s})`}
             </button>
           ))}
 
@@ -122,7 +125,7 @@ export default function WordPartsList({ parts }: { parts: LeanPart[] }) {
             className={`b-fpill b-focus ${!lvlFilter ? 'b-fpill--active' : ''}`}
             onClick={() => setLvl(null)}
           >
-            All levels
+            {t('lvl.all')}
           </button>
           {([3, 2, 1] as const).map(l => (
             <button
@@ -130,13 +133,13 @@ export default function WordPartsList({ parts }: { parts: LeanPart[] }) {
               className={`b-fpill b-focus ${lvlFilter === l ? 'b-fpill--active' : ''}`}
               onClick={() => setLvl(lvlFilter === l ? null : l)}
             >
-              {LVL_TEXT[l]}
+              {t(`lvl.${l}` as MsgKey)}
             </button>
           ))}
         </div>
 
         <div className="text-[0.78rem] font-medium text-[var(--b-dim)] tabular-nums">
-          {filtered.length} {filtered.length === 1 ? 'entry' : 'entries'}
+          {filtered.length}{filtered.length === 1 ? t('wp.entry') : t('wp.entries')}
         </div>
       </div>
 
@@ -152,8 +155,8 @@ export default function WordPartsList({ parts }: { parts: LeanPart[] }) {
               tabIndex={0}
             >
               <div className="flex items-center justify-between gap-2">
-                <span className={`b-badge b-badge--${p.t}`}>{TYPE_LABEL[p.t]}</span>
-                <span className={`b-lvl b-lvl--${p.lvl}`}>{LVL_TEXT[p.lvl]}</span>
+                <span className={`b-badge b-badge--${p.t}`}>{t(TYPE_KEY[p.t])}</span>
+                <span className={`b-lvl b-lvl--${p.lvl}`}>{t(`lvl.${p.lvl}` as MsgKey)}</span>
               </div>
 
               <div
@@ -182,7 +185,7 @@ export default function WordPartsList({ parts }: { parts: LeanPart[] }) {
                         </div>
                       </div>
                       <span className="text-center text-[0.72rem] font-medium text-[var(--b-dim)] opacity-60 group-hover:opacity-0 group-focus-within:opacity-0">
-                        +{ex.length - 2} more
+                        +{ex.length - 2}{t('wp.more')}
                       </span>
                     </>
                   )}
@@ -201,7 +204,7 @@ export default function WordPartsList({ parts }: { parts: LeanPart[] }) {
       <div ref={sentinelRef} aria-hidden="true" />
 
       {filtered.length === 0 && (
-        <div className="py-16 text-center text-[0.92rem] text-[var(--b-dim)]">No word parts found.</div>
+        <div className="py-16 text-center text-[0.92rem] text-[var(--b-dim)]">{t('gloss.noResults')}</div>
       )}
     </div>
   )

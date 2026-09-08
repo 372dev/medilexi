@@ -20767,7 +20767,7 @@
                   "Pharmacology",
                   "Psychiatry"
               ],
-        "d":  "A medication used to reduce anxiety and promote calmness; buspirone (Buspar), lorazepam (Ativan), and hydroxyzine (Atarax) are common agents.",
+        "d":  "A medication used to reduce anxiety and promote calmness; diazepam (Valium), lorazepam (Ativan), and hydroxyzine (Atarax) are common agents.",
         "lvl":  3,
         "parts":  {
                       "s":  [
@@ -20897,7 +20897,7 @@
                   "Pharmacology",
                   "Anesthesiology"
               ],
-        "d":  "A drug that binds opioid receptors to relieve severe pain, with potential for dependence; morphine (MS Contin), oxycodone (OxyContin), and hydrocodone (Vicodin) are common agents.",
+        "d":  "A drug that binds opioid receptors to relieve severe pain, with potential for dependence; morphine (MS Contin), oxycodone (OxyContin), and fentanyl (Duragesic) are common agents.",
         "lvl":  2,
         "parts":  {
                       "s":  [
@@ -21055,7 +21055,7 @@
                   "Pharmacology",
                   "Orthopedics"
               ],
-        "d":  "A medication that reduces muscle tone or spasms to relieve pain; cyclobenzaprine (Flexeril), baclofen (Lioresal), and methocarbamol (Robaxin) are common agents.",
+        "d":  "A medication that reduces muscle tone or spasms to relieve pain; tizanidine (Zanaflex) and baclofen (Lioresal) are common agents.",
         "lvl":  3
     },
     {
@@ -25624,7 +25624,7 @@
                   "Pharmacology",
                   "Pulmonology"
               ],
-        "d":  "A drug that suppresses the urge to cough; dextromethorphan (Robitussin) and benzonatate (Tessalon) are common agents.",
+        "d":  "A drug that suppresses the urge to cough; dextromethorphan (Robitussin) is the most common agent.",
         "lvl":  2,
         "parts":  {
                       "p":  [
@@ -25638,7 +25638,7 @@
                   "Pharmacology",
                   "Gastroenterology"
               ],
-        "d":  "A drug that reduces the frequency and looseness of stools; loperamide (Imodium) and bismuth subsalicylate (Pepto-Bismol) are common agents.",
+        "d":  "A drug that reduces the frequency and looseness of stools; loperamide (Imodium) is the most common agent.",
         "lvl":  2,
         "parts":  {
                       "p":  [

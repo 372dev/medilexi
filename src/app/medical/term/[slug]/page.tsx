@@ -2,7 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { slugify } from '@/lib/slug'
-import { LVL_TEXT, normalizeLvl } from '@/lib/vocab-constants'
+import { normalizeLvl } from '@/lib/vocab-constants'
+import { Tr, TrField } from '@/lib/i18n'
+import type { MsgKey } from '@/lib/i18n'
 import vocabData from '@/data/medical_vocab.json'
 import koData from '@/data/medical_vocab_ko.json'
 import frData from '@/data/medical_vocab_fr.json'
@@ -26,7 +28,7 @@ const FR_BY_KEY = new Map(FR.map((e) => [e.en_h, e]))
 const PART_BY_WP = new Map(PARTS.map((p) => [p.wp, p]))
 const BY_SLUG = new Map(VOCAB.map((e) => [slugify(e.en_h), e]))
 
-const PART_TYPE_LABEL: Record<Part['t'], string> = { p: 'Prefix', r: 'Root', s: 'Suffix' }
+const PART_TYPE_KEY: Record<Part['t'], MsgKey> = { p: 'parts.prefix', r: 'parts.root', s: 'parts.suffix' }
 
 export function generateStaticParams() {
   return VOCAB.map((e) => ({ slug: slugify(e.en_h) }))
@@ -86,7 +88,7 @@ function relatedTerms(entry: Vocab): Vocab[] {
   return VOCAB.filter((e) => e.en_h !== entry.en_h && e.f[0] === primary).slice(0, 8)
 }
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
+function Section({ title, children }: { title: React.ReactNode; children: React.ReactNode }) {
   return (
     <section className="mt-8">
       <h2
@@ -119,7 +121,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
 
       <nav className="mb-6 text-sm">
         <Link href="/medical/glossary" className="b-link b-focus">
-          ← Glossary
+          ← <Tr k="nav.glossary" />
         </Link>
       </nav>
 
@@ -134,17 +136,17 @@ export default function TermPage({ params }: { params: { slug: string } }) {
         </h1>
         {entry.en_l ? (
           <p className="mt-2 text-base" style={{ color: 'var(--b-dim)' }}>
-            Also called <em>{entry.en_l}</em>
+            <Tr k="sheet.alsoCalled" /> <em>{entry.en_l}</em>
           </p>
         ) : null}
 
         <div className="mt-4 flex flex-wrap items-center gap-2">
           {entry.f.map((field) => (
             <span key={field} className="b-chip">
-              {field}
+              <TrField f={field} />
             </span>
           ))}
-          <span className={`b-lvl b-lvl--${lvl}`}>{LVL_TEXT[lvl]}</span>
+          <span className={`b-lvl b-lvl--${lvl}`}><Tr k={`lvl.${lvl}` as MsgKey} /></span>
         </div>
       </header>
 
@@ -153,7 +155,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
       </p>
 
       {ko ? (
-        <Section title="Korean">
+        <Section title={<Tr k="gloss.langKorean" />}>
           <div className="b-card px-5 py-4">
             <p className="text-xl" style={{ color: 'var(--b-text)' }} lang="ko">
               {ko.ko_h}
@@ -169,7 +171,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
       ) : null}
 
       {fr ? (
-        <Section title="French">
+        <Section title={<Tr k="gloss.langFrench" />}>
           <div className="b-card px-5 py-4">
             <p className="text-xl" style={{ color: 'var(--b-text)' }} lang="fr">
               {fr.fr_h}
@@ -185,12 +187,12 @@ export default function TermPage({ params }: { params: { slug: string } }) {
       ) : null}
 
       {partEntries.length > 0 ? (
-        <Section title="Word parts">
+        <Section title={<Tr k="nav.wordparts" />}>
           <ul className="space-y-2">
             {partEntries.map((p) => (
               <li key={p.wp} className="flex flex-wrap items-baseline gap-x-3">
                 <code className={`b-part--${p.t} text-base font-semibold`}>{p.wp}</code>
-                <span className={`b-badge b-badge--${p.t}`}>{PART_TYPE_LABEL[p.t]}</span>
+                <span className={`b-badge b-badge--${p.t}`}><Tr k={PART_TYPE_KEY[p.t]} /></span>
                 <span style={{ color: 'var(--b-text)' }}>{p.d}</span>
               </li>
             ))}
@@ -199,7 +201,7 @@ export default function TermPage({ params }: { params: { slug: string } }) {
       ) : null}
 
       {related.length > 0 ? (
-        <Section title={`More in ${entry.f[0]}`}>
+        <Section title={<><Tr k="term.moreInPre" /><TrField f={entry.f[0]} /><Tr k="term.moreInPost" /></>}>
           <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[0.95rem]">
             {related.map((r, i) => (
               <span key={r.en_h} className="inline-flex items-center gap-x-3">

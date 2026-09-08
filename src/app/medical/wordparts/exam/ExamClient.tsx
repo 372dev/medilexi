@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
+import { useT } from '@/lib/i18n'
 
 /* Interactive exam. Fetches answer-stripped questions from /api/exam and grades
    via /api/exam/grade, so the answer key never reaches the browser. Results are
@@ -34,6 +35,7 @@ function mmss(s: number) {
 }
 
 export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
+  const t = useT()
   const [bundleId, setBundleId] = useState<string | null>(null)
   const [qs,       setQs]       = useState<ExamQ[]>([])
   const [answers,  setAnswers]  = useState<(number | null)[]>([])
@@ -114,9 +116,8 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
     return (
       <div style={{ maxWidth: '640px', margin: '2rem auto 0' }}>
         <p style={{ fontSize: '0.9rem', color: 'var(--b-dim)', lineHeight: 1.7, marginBottom: '1.75rem' }}>
-          Curated 20-question exams, {EXAM_MINUTES} minutes each. You can move between questions, and
-          <strong> flag</strong> any question you want to come back to before you finish. Your score and
-          the correct answers stay hidden until you submit. Pass mark {PASS_PCT}%.
+          {t('exam.introPre')}{EXAM_MINUTES}{t('exam.introMid')}
+          <strong>{t('exam.introFlag')}</strong>{t('exam.introMid2')}{PASS_PCT}{t('exam.introPost')}
         </p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
@@ -136,21 +137,21 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
                     {b.title}
                   </div>
                   <div style={{ fontSize: '0.78rem', color: 'var(--b-dim)' }}>
-                    20 questions
+                    {t('exam.qCount')}
                     {r && b.free && (
                       <span style={{ marginLeft: '0.6rem', color: r.score / r.total * 100 >= PASS_PCT ? '#6EE7B7' : '#FCA5A5' }}>
-                        · last: {r.score}/{r.total}
+                        {t('exam.last')}{r.score}/{r.total}
                       </span>
                     )}
                   </div>
                 </div>
                 {b.free ? (
                   <button onClick={() => start(b.id)} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.2rem' }}>
-                    {r ? 'Retake' : 'Start'}
+                    {r ? t('exam.retake') : t('fc.start')}
                   </button>
                 ) : (
                   <span style={{ fontSize: '0.76rem', fontWeight: 600, color: 'var(--b-dim)', border: '1px solid var(--b-border)', padding: '0.45rem 0.7rem', lineHeight: 1.8 }}>
-                    🔒 Coming soon
+                    🔒 {t('home.comingSoon')}
                   </span>
                 )}
               </div>
@@ -160,7 +161,7 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
 
         <div style={{ textAlign: 'center', marginTop: '1.75rem' }}>
           <Link href="/medical/wordparts" style={{ fontSize: '0.82rem', color: 'var(--b-dim)', textDecoration: 'underline' }}>
-            ← Back to Word Parts
+            ← {t('fc.backWordParts')}
           </Link>
         </div>
       </div>
@@ -173,14 +174,14 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
       <div style={{ maxWidth: '640px', margin: '4rem auto 0', textAlign: 'center' }}>
         {loadError ? (
           <>
-            <p style={{ fontSize: '0.95rem', color: 'var(--b-dim)', marginBottom: '1.25rem' }}>Could not load the exam. Please try again.</p>
+            <p style={{ fontSize: '0.95rem', color: 'var(--b-dim)', marginBottom: '1.25rem' }}>{t('exam.loadError')}</p>
             <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center' }}>
-              <button onClick={() => start(bundleId)} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.3rem' }}>Retry</button>
-              <button onClick={quit} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.3rem', background: 'none', color: 'var(--b-dim)', boxShadow: 'none' }}>All exams</button>
+              <button onClick={() => start(bundleId)} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.3rem' }}>{t('fc.retry')}</button>
+              <button onClick={quit} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.3rem', background: 'none', color: 'var(--b-dim)', boxShadow: 'none' }}>{t('exam.allExams')}</button>
             </div>
           </>
         ) : (
-          <p style={{ fontSize: '0.95rem', color: 'var(--b-dim)' }} aria-live="polite">{loading ? 'Loading exam…' : 'Preparing…'}</p>
+          <p style={{ fontSize: '0.95rem', color: 'var(--b-dim)' }} aria-live="polite">{loading ? t('exam.loadingExam') : t('exam.preparing')}</p>
         )}
       </div>
     )
@@ -191,7 +192,7 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
     if (!grade) {
       return (
         <div style={{ maxWidth: '640px', margin: '4rem auto 0', textAlign: 'center' }}>
-          <p style={{ fontSize: '0.95rem', color: 'var(--b-dim)' }} aria-live="polite">Scoring…</p>
+          <p style={{ fontSize: '0.95rem', color: 'var(--b-dim)' }} aria-live="polite">{t('exam.scoring')}</p>
         </div>
       )
     }
@@ -202,10 +203,10 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
             {score} / {total} · {pct}%
           </div>
           <p style={{ fontSize: '0.95rem', color: passed ? '#6EE7B7' : '#FCA5A5', fontWeight: 600 }}>
-            {passed ? `PASS · ${PASS_PCT}% or above` : `FAIL · you need ${PASS_PCT}% to pass`}
+            {passed ? `${t('exam.passPre')}${PASS_PCT}${t('exam.passPost')}` : `${t('exam.failPre')}${PASS_PCT}${t('exam.failPost')}`}
           </p>
           <p style={{ fontSize: '0.82rem', color: 'var(--b-dim)', marginTop: '0.4rem' }}>
-            {bundle?.title} · result saved (a retake replaces it)
+            {bundle?.title}{t('exam.resultSaved')}
           </p>
         </div>
 
@@ -222,10 +223,10 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
                   <span style={{ color: ok ? '#6EE7B7' : '#FCA5A5', flexShrink: 0 }}>{ok ? '✓' : '✗'}</span>
                 </div>
                 <div style={{ paddingLeft: '1.4rem', fontSize: '0.85rem', lineHeight: 1.6 }}>
-                  <div style={{ color: '#6EE7B7' }}>Correct: {r?.correctText}</div>
+                  <div style={{ color: '#6EE7B7' }}>{t('exam.correct')}{r?.correctText}</div>
                   {!ok && (
                     <div style={{ color: '#FCA5A5' }}>
-                      Your answer: {you === null ? <em>(not answered)</em> : you}
+                      {t('exam.yourAnswer')}{you === null ? <em>{t('exam.notAnswered')}</em> : you}
                     </div>
                   )}
                   {r?.explain && <div style={{ color: 'var(--b-dim)', marginTop: '0.35rem', fontStyle: 'italic' }}>{r.explain}</div>}
@@ -237,10 +238,10 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
 
         <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
           <button onClick={() => start(bundleId)} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.65rem 1.5rem' }}>
-            Retake
+            {t('exam.retake')}
           </button>
           <button onClick={quit} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.65rem 1.5rem', background: 'none', color: 'var(--b-dim)', boxShadow: 'none' }}>
-            All exams
+            {t('exam.allExams')}
           </button>
         </div>
       </div>
@@ -260,7 +261,7 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
       {/* Status bar */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem', gap: '0.75rem', flexWrap: 'wrap' }}>
         <div style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--b-dim)', lineHeight: 1.8 }}>
-          {bundle?.title} · {answeredCount}/{qs.length} answered
+          {bundle?.title} · {answeredCount}/{qs.length}{t('exam.answeredSuffix')}
         </div>
         <div style={{ fontFamily: 'var(--b-display)', fontSize: '1.15rem', fontWeight: 600, color: low ? '#FCA5A5' : 'var(--b-primary)', lineHeight: 1.8 }}
           role="timer" aria-live="off">
@@ -277,7 +278,7 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
           const fg = isFlagged || isDone ? '#0D0B2B' : 'var(--b-dim)'
           return (
             <button key={i} onClick={() => setQIdx(i)}
-              aria-label={`Question ${i + 1}${isFlagged ? ', flagged for review' : isDone ? ', answered' : ', not answered'}`}
+              aria-label={`${t('exam.questionPre')}${i + 1}${isFlagged ? ', ' + t('exam.flaggedLabel') : isDone ? ', ' + t('exam.answeredLabel') : ', ' + t('exam.notAnsweredLabel')}`}
               aria-current={i === qIdx ? 'true' : undefined}
               style={{
                 width: '2rem', height: '2rem', flexShrink: 0, cursor: 'pointer',
@@ -293,10 +294,10 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
 
       {/* Legend */}
       <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.25rem', fontSize: '0.72rem', color: 'var(--b-dim)' }}>
-        {([['var(--b-border)', 'not answered'], ['#3BAA6A', 'answered'], ['#F0B429', 'flagged for review']] as const).map(([c, label]) => (
-          <span key={label} style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
+        {([['var(--b-border)', 'exam.notAnsweredLabel'], ['#3BAA6A', 'exam.answeredLabel'], ['#F0B429', 'exam.flaggedLabel']] as const).map(([c, labelKey]) => (
+          <span key={labelKey} style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
             <span aria-hidden="true" style={{ width: '0.7rem', height: '0.7rem', background: c, border: '1px solid var(--b-border)', flexShrink: 0 }} />
-            {label}
+            {t(labelKey)}
           </span>
         ))}
       </div>
@@ -305,11 +306,11 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
       <div style={{ background: 'var(--b-panel)', border: '1px solid var(--b-border)', padding: '1.5rem 1.35rem', marginBottom: '1rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', marginBottom: '0.9rem' }}>
           <span style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--b-dim)', lineHeight: 1.8 }}>
-            Question {qIdx + 1} of {qs.length}
+            {t('exam.questionPre')}{qIdx + 1}{t('exam.questionOf')}{qs.length}
           </span>
           <button onClick={toggleFlag}
             aria-pressed={flagged[qIdx]}
-            title="Flag this question so you can come back to it before you submit"
+            title={t('exam.flagTitle')}
             style={{
               fontSize: '0.76rem', fontWeight: 600, cursor: 'pointer', lineHeight: 1.8,
               padding: '0.35rem 0.7rem', flexShrink: 0, whiteSpace: 'nowrap',
@@ -317,7 +318,7 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
               color: flagged[qIdx] ? '#0D0B2B' : 'var(--b-dim)',
               border: `1px solid ${flagged[qIdx] ? '#F0B429' : 'var(--b-border)'}`,
             }}>
-            {flagged[qIdx] ? '⚑ Flagged' : '⚑ Flag for review'}
+            {flagged[qIdx] ? t('exam.flagged') : t('exam.flagForReview')}
           </button>
         </div>
         <div style={{ fontSize: '1.05rem', color: 'var(--b-text)', lineHeight: 1.6 }}>{q.prompt}</div>
@@ -350,15 +351,15 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: '0.75rem', flexWrap: 'wrap' }}>
         <button onClick={() => setQIdx(i => Math.max(0, i - 1))} disabled={qIdx === 0} className="b-btn b-focus"
           style={{ fontSize: '0.85rem', padding: '0.6rem 1.2rem', background: 'none', color: 'var(--b-dim)', boxShadow: 'none', opacity: qIdx === 0 ? 0.4 : 1, cursor: qIdx === 0 ? 'default' : 'pointer' }}>
-          ← Prev
+          ← {t('fc.prev')}
         </button>
         {qIdx < qs.length - 1 ? (
           <button onClick={() => setQIdx(i => Math.min(qs.length - 1, i + 1))} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.2rem' }}>
-            Next →
+            {t('fc.next')} →
           </button>
         ) : (
           <button onClick={submit} className="b-btn b-focus" style={{ fontSize: '0.85rem', padding: '0.6rem 1.4rem', background: 'var(--b-primary)', color: 'var(--b-bg)' }}>
-            Submit exam
+            {t('exam.submit')}
           </button>
         )}
       </div>
@@ -366,7 +367,7 @@ export default function ExamClient({ bundles }: { bundles: Bundle[] }) {
       <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
         <button onClick={submit}
           style={{ fontSize: '0.8rem', color: 'var(--b-dim)', background: 'none', border: 'none', textDecoration: 'underline', cursor: 'pointer' }}>
-          Submit now ({answeredCount}/{qs.length} answered)
+          {t('exam.submitNowPre')}{answeredCount}/{qs.length}{t('exam.submitNowPost')}
         </button>
       </div>
     </div>

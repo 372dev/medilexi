@@ -4,7 +4,8 @@ import { useState, useMemo, useEffect, useRef, Suspense, type ReactNode } from '
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Fuse from 'fuse.js'
-import { ALL_LEVELS, LVL_TEXT } from '@/lib/vocab-constants'
+import { ALL_LEVELS } from '@/lib/vocab-constants'
+import { useT, useTField, type MsgKey } from '@/lib/i18n'
 import { useInfiniteReveal } from '@/lib/use-infinite-reveal'
 import { rankTier } from '@/lib/search-rank'
 import { useIsTouch } from '@/lib/use-is-touch'
@@ -48,6 +49,8 @@ function hi(text: string, idx?: readonly [number, number][]): ReactNode {
 
 function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def?: DefRec; onFieldClick: (f: string) => void; mm?: MatchMap; isTouch: boolean; onOpen: (v: LeanEntry) => void }) {
   const [hovered, setHovered] = useState(false)
+  const t = useT()
+  const tf = useTField()
 
   // Mobile: a compact, definition-free card; the whole card taps to the sheet.
   if (isTouch) {
@@ -60,7 +63,7 @@ function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def
         className="b-card b-press b-termtap b-focus flex cursor-pointer flex-col gap-1 p-3.5"
       >
         <div className="flex items-center justify-between gap-2">
-          <span className={`b-lvl b-lvl--${v.lvl}`}>{LVL_TEXT[v.lvl]}</span>
+          <span className={`b-lvl b-lvl--${v.lvl}`}>{t(`lvl.${v.lvl}` as MsgKey)}</span>
           {v.abbr && <span className="b-abbr">{hi(v.abbr, mm?.abbr)}</span>}
         </div>
         <div className="text-[1.1rem] font-semibold leading-tight tracking-[-0.005em] text-[var(--b-text)]" style={{ fontFamily: 'var(--b-display)' }}>
@@ -69,7 +72,7 @@ function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def
         {v.en_l && <div className="text-[0.9rem] leading-tight text-[var(--b-dim)]">{hi(v.en_l, mm?.en_l)}</div>}
         {v.f.length > 0 && (
           <div className="mt-0.5 flex flex-wrap gap-1">
-            {v.f.map(f => <span key={f} className="b-chip">{f}</span>)}
+            {v.f.map(f => <span key={f} className="b-chip">{tf(f)}</span>)}
           </div>
         )}
       </div>
@@ -84,7 +87,7 @@ function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def
       onMouseLeave={() => setHovered(false)}
     >
       <div className="flex items-center justify-between gap-2">
-        <span className={`b-lvl b-lvl--${v.lvl}`}>{LVL_TEXT[v.lvl]}</span>
+        <span className={`b-lvl b-lvl--${v.lvl}`}>{t(`lvl.${v.lvl}` as MsgKey)}</span>
         <span className="flex items-center gap-2">
           {v.abbr && <span className="b-abbr">{hi(v.abbr, mm?.abbr)}</span>}
           <SpeakButton text={v.en_h} />
@@ -116,7 +119,7 @@ function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def
 
       <div className="mt-1 flex flex-wrap gap-1.5">
         {v.f.map(f => (
-          <button key={f} className="b-field b-focus" onClick={() => onFieldClick(f)}>{f}</button>
+          <button key={f} className="b-field b-focus" onClick={() => onFieldClick(f)}>{tf(f)}</button>
         ))}
       </div>
     </div>
@@ -124,6 +127,8 @@ function Card({ v, def, onFieldClick, mm, isTouch, onOpen }: { v: CardEntry; def
 }
 
 function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields: string[] }) {
+  const t = useT()
+  const tf = useTField()
   const params = useSearchParams()
   const [search, setSearch]     = useState(params.get('q') || '')
   const [query, setQuery]       = useState(search)
@@ -224,8 +229,8 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
           <input
             className="b-search min-w-0 flex-1"
             type="text"
-            aria-label="Search medical terms"
-            placeholder="Search terms and abbreviations..."
+            aria-label={t('gloss.searchAria')}
+            placeholder={t('gloss.searchPlaceholder')}
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
@@ -235,7 +240,7 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
             aria-expanded={showFilters}
             className="b-press b-focus inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-3.5 py-2.5 text-[0.82rem] font-semibold sm:hidden"
           >
-            Filters{activeFilters ? ` · ${activeFilters}` : ''}
+            {t('filter.filters')}{activeFilters ? ` · ${activeFilters}` : ''}
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className={`transition-transform ${showFilters ? 'rotate-180' : ''}`}>
               <polyline points="6 9 12 15 18 9" />
             </svg>
@@ -244,7 +249,7 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
             href="/medical/flashcards"
             className="b-press b-focus hidden items-center whitespace-nowrap rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-2.5 text-[0.82rem] font-semibold hover:border-[var(--b-primary)] hover:text-[var(--b-primary)] sm:inline-flex"
           >
-            Flashcard →
+            {t('gloss.flashcard')} →
           </Link>
         </div>
 
@@ -252,16 +257,16 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
         <div className={`${showFilters ? 'flex' : 'hidden'} flex-col gap-2 sm:flex sm:flex-row sm:items-center sm:gap-3`}>
           <select
             className="b-select b-focus"
-            aria-label="Filter by specialty"
+            aria-label={t('gloss.specialtyAria')}
             value={fieldFilter || ''}
             onChange={e => setField(e.target.value || null)}
           >
-            <option value="">All fields</option>
-            {allFields.map(f => <option key={f} value={f}>{f}</option>)}
+            <option value="">{t('filter.allFields')}</option>
+            {allFields.map(f => <option key={f} value={f}>{tf(f)}</option>)}
           </select>
           <div className="flex gap-2 overflow-x-auto sm:flex-wrap sm:overflow-visible [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             <button className={`b-fpill b-focus shrink-0 ${!levelFilter ? 'b-fpill--active' : ''}`} onClick={() => setLevel(null)}>
-              All levels
+              {t('lvl.all')}
             </button>
             {ALL_LEVELS.map(lvl => (
               <button
@@ -269,7 +274,7 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
                 className={`b-fpill b-focus shrink-0 ${levelFilter === lvl ? 'b-fpill--active' : ''}`}
                 onClick={() => setLevel(levelFilter === lvl ? null : lvl)}
               >
-                {LVL_TEXT[lvl]}
+                {t(`lvl.${lvl}` as MsgKey)}
               </button>
             ))}
           </div>
@@ -277,16 +282,16 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
 
         {/* meta row (always) */}
         <div className="flex items-center justify-between gap-3 text-[0.78rem] font-medium text-[var(--b-dim)] tabular-nums">
-          <span className="shrink-0">{filtered.length} terms</span>
+          <span className="shrink-0">{filtered.length}{t(`gloss.terms`)}</span>
           <Link href="/medical/terms" className="b-focus font-semibold text-[var(--b-primary)] no-underline hover:opacity-80">
-            Browse all A–Z →
+            {t('gloss.browseAZ')} →
           </Link>
         </div>
       </div>
 
       {noExact && (
         <div className="rounded-xl border border-[var(--b-border)] bg-[var(--b-panel)] px-4 py-3 text-[0.84rem] text-[var(--b-dim)]">
-          No exact match for “{query.trim()}”. Showing related terms.
+          {t('gloss.noExactPre')}{query.trim()}{t('gloss.noExactPost')}
         </div>
       )}
 
@@ -298,7 +303,7 @@ function GlossaryInner({ entries, allFields }: { entries: LeanEntry[]; allFields
       </div>
       <div ref={sentinelRef} aria-hidden="true" />
       {filtered.length === 0 && (
-        <div className="py-16 text-center text-[0.92rem] text-[var(--b-dim)]">No terms found.</div>
+        <div className="py-16 text-center text-[0.92rem] text-[var(--b-dim)]">{t('gloss.noResults')}</div>
       )}
 
       <WordPartsSheet

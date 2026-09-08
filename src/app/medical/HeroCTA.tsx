@@ -1,5 +1,7 @@
 'use client'
 
+import { useT } from '@/lib/i18n'
+
 /* Single hero CTA: smooth-scrolls to the word-parts section, then (after the
    scroll settles) glows the card and cascades a glow across its four buttons
    in order, so the eye is led from the section down into the first steps. */
@@ -12,6 +14,7 @@ function flash(node: Element, cls: 'b-flash' | 'b-flash-sm', dur: number) {
 }
 
 export default function HeroCTA() {
+  const t = useT()
   function go() {
     const el = document.getElementById('word-parts')
     if (!el) return
@@ -32,7 +35,7 @@ export default function HeroCTA() {
       onClick={go}
       className="b-press b-glow inline-flex items-center gap-2 rounded-2xl bg-[var(--b-primary)] px-7 py-3.5 text-[0.95rem] font-bold text-[var(--b-on-prim)]"
     >
-      Start with word parts
+      {t('home.ctaStart')}
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
         <path d="M12 5v14M6 13l6 6 6-6" />
       </svg>

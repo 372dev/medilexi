@@ -151,7 +151,7 @@ export default function Home() {
           </span>
 
           <h1
-            className="m-0 max-w-[20ch] text-[clamp(2rem,5.2vw,3.2rem)] font-bold leading-[1.04] tracking-[-0.025em] text-balance"
+            className="m-0 max-w-[20ch] text-[clamp(2rem,5.2vw,3.2rem)] font-bold leading-[1.04] tracking-[-0.025em] text-balance whitespace-pre-line [word-break:keep-all]"
             style={display}
           >
             <Tr k="home.h1" />
@@ -196,7 +196,7 @@ export default function Home() {
               >
                 <Tr k="home.wpTitle" />
               </h2>
-              <p className="m-0 max-w-[56ch] text-[0.95rem] leading-[1.65] text-[var(--b-dim)]">
+              <p className="m-0 max-w-[56ch] text-[0.95rem] leading-[1.65] text-[var(--b-dim)] [word-break:keep-all]">
                 <Tr k="home.wpBodyPre" /><strong className="b-part--p font-semibold">brady</strong><Tr k="home.wpBody1" />
                 <strong className="b-part--r font-semibold">card</strong><Tr k="home.wpBody2" />
                 <strong className="b-part--s font-semibold">-ia</strong><Tr k="home.wpBody3" />

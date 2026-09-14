@@ -150,7 +150,7 @@ export const MESSAGES = {
 
   // ── Landing (/medical) ──
   'home.eyebrow':   { en: 'For students, interpreters & translators', ko: '학생, 통역사, 번역가를 위한' },
-  'home.h1':        { en: 'The chart says one thing. The patient says another.', ko: '의료 용어와 환자 언어는 다릅니다' },
+  'home.h1':        { en: 'The chart says one thing. The patient says another.', ko: '임상 용어와\n환자 언어는 다릅니다' },
   'home.subtitle':  { en: 'Medi Lexi gives you both: the clinical term, its abbreviation, and the everyday word people actually use, across languages.',
                       ko: 'Medi Lexi는 임상 용어, 약어, 그리고 환자들이 실제로 쓰는 표현까지 다양한 언어로 제공합니다.' },
   'home.startHere': { en: 'Start here',            ko: '여기서 시작하세요' },
@@ -187,7 +187,7 @@ export const MESSAGES = {
   'home.noteAbbr':      { en: '200+ · Abbr to Term',          ko: '200+ · 약어에서 용어로' },
   'home.noteBilingual': { en: 'Bilingual glossary + flashcards', ko: '이중 언어 사전 + 플래시카드' },
   'home.ctaStart':  { en: 'Start with word parts', ko: '어원부터 시작하기' },
-  'home.heroHint':  { en: 'Hover any part of the word to see what it means.', ko: '단어의 각 부분을 눌러 뜻을 확인하세요.' },
+  'home.heroHint':  { en: 'Hover any part of the word to see what it means.', ko: '단어의 각 부분 위에 마우스를 올려 어원을 확인하세요.' },
   'home.heroSay':   { en: 'What people actually say', ko: '사람들이 실제로 쓰는 표현' },
 
   // ── Word Parts glossary ──

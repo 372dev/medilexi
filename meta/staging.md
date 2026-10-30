@@ -233,6 +233,551 @@ already carry it, and add the KO/FR lay equivalent register-to-register):
 - Encopresis
 - Fecal impaction
 
+### 2026-10-30 bulk intake (NOT yet Step-0 processed)
+<!-- Added at the manager's direction, raw. Run Step 0 (standardize -> dedup against
+all_known.txt -> collapse near-dups) in the data session before drafting. Expect a large
+already-shipped fraction (glossary is near-saturated), brand drug names to standardize to
+generics, and a few incomplete/colloquial names. -->
+
+#### General & clinical (2026-10-30)
+- Hypoxia
+- Asperger syndrome
+- Orthodontics
+- Malocclusion
+- Heart valve disease
+- Geriatric
+- Septum
+- Coronary artery bypass graft surgery (CABG)
+- Claudication
+- Frozen shoulder
+- Ligament rupture
+- Uvula
+- Bronchoconstriction
+- Moxibustion
+- Feigning
+- Sling
+- Tubular adenoma
+- Hiatal hernia
+- Desquamation
+- Preauthorization
+- Oral surgery
+- Bone graft
+- Onychomycosis (toenail fungus)
+- Lozenge (troche)
+- Glycan residue
+- Decompensation
+- Rheum (eye discharge)
+- Iodine
+- Vital capacity
+- Arrhythmia
+- Endothelialize
+- Prongs
+- Pigtail wire
+- Transesophageal echocardiography
+- Vascular closure device
+- Left atrial appendage
+- Left anterior
+- Apical
+- Malingering (feigning illness)
+- Drenching
+- INR (International Normalized Ratio)
+- PTT (Prothrombin Time)
+- Mechanical heart valve
+- Malignant hyperthermia
+- Pseudocholinesterase deficiency
+- Myasthenia gravis
+- Ischemic evaluation
+- Aggravation
+- Exacerbation
+- Therapeutic agent
+- Lethargy
+- Idiopathic pulmonary fibrosis
+- Scar tissue
+- Bronchospasm
+- Micro polypectomy
+- Vein stripping
+- Coagulate
+- Radiofrequency ablation
+- Softness vein
+- Femoral vein
+- Superficial blood clots
+- Minimally invasive procedure
+- Patient autonomy
+- Inpatient room
+- Phosphorus
+- Hyperphosphatemia
+- Troponin
+- Mycobacterium infection
+- PEG tube (percutaneous endoscopic gastrostomy tube)
+- Dry needling
+- Myofascial trigger point
+- Surgical clearance
+- Vaginal pessary
+- Shimmy
+- SVT (supraventricular tachycardia)
+- Anorexia
+- Delusion
+- Paranoia
+- Constellation of symptoms
+- Psychiatrist
+- Numbness
+- Tingling
+- Extension (신전)
+- Flexion (굴곡)
+- Panic disorder
+- Secretion
+- IPC (intermittent pneumatic compression)
+- Urethral sling
+- Isometric (등척성)
+- Exertion
+- Behavioral medicine
+- Reflux esophagitis (역류성 식도염)
+- Fibroadenoma
+- Gastrointestinal bleeding (GI bleed)
+- Receptor (수용체)
+- Inhibitor (억제제)
+- BRCA genes
+- Electrophysiology
+- Eclampsia
+- Myometritis
+- Anencephalic
+- Encephalocele
+- En bloc resection
+- Fulguration
+- Intervention
+- Thoracentesis
+- Chest tightness
+- Retinoblastoma
+- G-tube (gastrostomy tube)
+- Debilitating
+- Tenesmus
+- Adrenal cortex
+- Whipple surgery
+- Subarachnoid space
+- Erythropoietin
+- Glomerulus
+- Pylorus
+- Angiogram
+- Sedation
+- Neuroanesthesiologist
+- Pericardiocentesis
+- Pelvic binder
+- Normotensive
+- Cochlea
+- Agnosia
+- Dysarthria
+- Ataxia
+- Volvulus
+- Intussusception
+- Vasculature
+- Adverse effect
+- Peripheral joint
+- Tendonitis
+- Prodrome
+- Nephrostomy bag
+- Posterior capsular opacification (PCO)
+- Glycated hemoglobin (HbA1c)
+- IUD
+- PIPEDA
+- HIPAA
+- Fraud, waste and abuse (FWA)
+
+#### Medications -- brand names to standardize to generics at Step 0 (2026-10-30)
+- Linzess (linaclotide)
+- Dulcolax
+- Miralax
+- Myfortic
+- Cholecalciferol
+- Tacrolimus
+- Penicillin
+- Clindamycin
+- Ethambutol
+- Rifampin
+- Azithromycin
+- Ezetimibe
+- Plavix
+- Jardiance
+- Geworin
+- Bipanal (secobarbital)
+- Cyanocobalamin
+- GLP-1 receptor agonists
+- Fosamax
+- Boniva
+- Oystercal
+- Citracal
+- Prednisone
+- Medrol
+- Decadron
+- Advil
+- Motrin
+- Aleve
+- Aspirin
+
+#### Word-building / morphology terms (2026-10-30)
+- Myeloma
+- Myeloblast
+- Myelogram
+- Periodontitis
+- Oropharynx
+- Splenectomy
+- Spondylosis
+- Aortostenosis
+- Angiography
+- Stethoscope
+- Adenocarcinoma
+- Chondroblast
+- Blepharospasm
+- Buccinator
+- Metacarpal
+- Carpal
+- Cholecystitis
+- Costochondritis
+- Transcutaneous
+- Axillary vein
+- Renogram
+- Rhinorrhea
+- Sigmoidoscopy
+- Sinusitis
+- Tracheostomy
+- Tympanosclerosis
+- Umbilical cord
+- Perivascular
+- Colovesical fistula
+- Cerebellopontine
+- Cystoscopy
+- Duodenography
+- Macroglossia
+- Laryngospasm
+- Lymphadenopathy
+- Musculoskeletal
+- Nasopharynx
+- Hepatomegaly
+- Nephrolithiasis
+- Oncogene
+- Osteophyte
+- Craniotomy
+- Adipose tissue
+- Adrenocortical
+- Arthroscopy
+- Cephalocaudal
+- Intestinal obstruction
+- Myocardium
+- Neuron
+- Oculomotor
+- Otoscope
+- Thoracotomy
+- Thyrotoxicosis
+- Visceroceptors
+- Ipsilateral
+- Contralateral
+- Arteriosclerosis
+- Cytotoxic
+- Encephalitis
+- Cyanosis
+- Erythrocyte
+- Leukocyte
+- Melanoma
+
+#### Anatomy -- blood, lymph, organs by system (2026-10-30)
+- Plasma
+- Platelets
+- Lymph nodes
+- Lymphatic vessels
+- Spleen
+- Thymus gland
+- Tonsils
+- Nasal cavity
+- Pharynx
+- Larynx
+- Trachea
+- Bronchial tubes
+- Lungs
+- Oral cavity
+- Salivary glands
+- Esophagus
+- Stomach
+- Small intestine
+- Colon
+- Liver
+- Gallbladder
+- Pancreas
+- Kidneys
+- Ureters
+- Urinary bladder
+- Urethra
+- Ovaries
+- Fallopian tubes
+- Uterus
+- Vagina
+- Vulva
+- Breasts
+- Testes
+- Epididymis
+- Vas deferens
+- Penis
+- Seminal vesicles
+- Prostate gland
+- Bulbourethral gland
+- Pituitary gland
+- Pineal gland
+- Thyroid gland
+- Parathyroid gland
+- Adrenal gland
+
+#### Body regions, planes & routes (2026-10-30)
+- Sagittal plane
+- Frontal plane
+- Transverse plane
+- Brachial region (arms)
+- Cephalic region (head)
+- Cervical region (neck)
+- Crural region (legs)
+- Thoracic region (chest)
+- Abdominal region (abdomen)
+- Pelvic region (pelvis)
+- Pubic region (genitals)
+- Dorsum (back)
+- Vertebral region (spinal column)
+- Gluteal region (buttocks)
+- Intrathecal route
+- Intravenous route
+- Subcutaneous route
+
+#### Integumentary (2026-10-30)
+- Sweat pore
+- Sweat gland
+- Sensory receptors
+- Cutaneous
+- Dermal
+- Dermic
+- Epidermal
+- Hypodermic
+- Intradermal
+- Subcutaneous
+- Ungual
+
+#### Skeletal -- bones & landmarks (2026-10-30)
+- Femur
+- Humerus
+- Carpals
+- Tarsals
+- Sternum
+- Scapula
+- Pelvis
+- Vertebrae
+- Head (bone landmark)
+- Condyle
+- Epicondyle
+- Trochanter
+- Tubercle
+- Tuberosity
+- Sinus
+- Foramen
+- Fossa
+- Fissure
+- Cervical vertebrae
+- Thoracic vertebrae
+- Lumbar vertebrae
+- Cranium
+- Facial bones
+- Mandible
+- Maxilla
+- Zygomatic bones
+- Vomer
+- Palatine bone
+- Lacrimal bones
+- Sacrum
+- Coccyx
+- Patella
+- Tibia
+- Fibula
+- Metatarsals
+- Phalanges
+- Ilium
+- Ischium
+- Pubis
+- Tarsus
+- Metatarsus
+- Carpus
+- Clavicle
+- Ribs
+- Synovial joints
+- Cartilaginous joints
+- Fibrous joints
+
+#### Orthopedics -- signs & conditions (2026-10-30)
+- Bursitis
+- Callus
+- Chondromalacia
+- Crepitation
+- Ostealgia
+- Synovitis
+- Chondroma
+- Ewing sarcoma
+- Exostosis
+- Osteochondroma
+- Osteogenic sarcoma
+- Osteoma
+- Osteomalacia
+- Osteomyelitis
+- Osteopathy
+- Osteoporosis
+- Paget disease
+- Rickets
+- Ankylosing spondylitis
+- Herniated nucleus pulposus (HNP)
+- Kyphosis
+- Lordosis
+- Scoliosis
+- Spina bifida
+- Spinal stenosis
+- Spondylolisthesis
+- Whiplash
+- Bunion
+- Dislocation
+- Gout
+- Osteoarthritis (OA)
+- Prepatellar bursitis
+- Rheumatoid arthritis (RA)
+- Sprain
+- Subluxation
+- Systemic lupus erythematosus (SLE)
+- Talipes
+- Muscular dystrophy (MD)
+- Pseudohypertrophic muscular dystrophy
+- Torticollis
+- Carpal tunnel syndrome (CTS)
+- Ganglion cyst
+- Repetitive motion disorder
+- Rotator cuff injury
+- Strain
+- Tendinitis
+- Fibromyalgia
+- Lateral epicondylitis
+- Myopathy
+- Myorrhexis
+- Necrotizing fasciitis (NF)
+- Polymyositis
+
+#### Fractures & fracture care (2026-10-30)
+- Closed fracture
+- Colles fracture
+- Comminuted fracture
+- Compound fracture
+- Compression fracture
+- Pathologic fracture
+- Spiral fracture
+- Stress fracture
+- Transverse fracture
+- Cast
+- Fixation
+- Reduction
+- Traction
+
+#### Orthopedic imaging & procedures (2026-10-30)
+- Arthrogram
+- Arthrography
+- Bone scan
+- Dual-energy X-ray absorptiometry (DXA)
+- Myelography
+- Radiograph
+- Radiography
+- Amputation
+- Arthroclasia
+- Arthrodesis
+- Arthroscopic surgery
+- Arthrotomy
+- Bunionectomy
+- Bursectomy
+- Chondrectomy
+- Chondroplasty
+- Laminectomy
+- Osteoclasia
+- Osteotome
+- Osteotomy
+- Percutaneous diskectomy
+- Spinal fusion
+- Synovectomy
+- Total hip arthroplasty (THA)
+- Total knee arthroplasty (TKA)
+- Total hip replacement (THR)
+- Total knee replacement (TKR)
+- Carpal tunnel release
+- Fasciotomy
+- Myoplasty
+- Myorrhaphy
+- Tendoplasty
+- Tendotomy
+- Tenodesis
+- Tenoplasty
+- Tenorrhaphy
+- Deep tendon reflexes (DTR)
+- Electromyogram
+- Electromyography (EMG)
+- Activities of daily living (ADLs)
+- Cryotherapy
+- Gait training
+- Hydrotherapy
+- Mobilization
+- Passive range of motion (PROM)
+- Phonophoresis
+- Therapeutic exercise
+- Thermotherapy
+- Ultrasonic therapy
+
+#### Movement & muscle terms (2026-10-30)
+- Eversion
+- Inversion
+- Pronation
+- Supination
+- Kinesiology
+- Bradykinesia
+- Dyskinesia
+- Dystonia
+- Hyperkinesia
+- Hypertonia
+- Hypertrophy
+- Hypokinesia
+- Hypotonia
+- Intermittent claudication
+- Myalgia
+- Myasthenia
+- Myotonia
+- Spasm
+- Tenodynia
+
+#### Cardiac anatomy & valves (2026-10-30)
+- Endocardium
+- Epicardium
+- Tricuspid valve
+- Pulmonary valve
+- Mitral valve
+- Aortic valve
+
+#### Dental surfaces (2026-10-30)
+- Linguogingival
+- Labiodental
+- Supragingival
+
+#### Abbreviation-led terms (2026-10-30)
+- Musculoskeletal (MS)
+- Obstetrics (OB)
+- Posteroanterior (PA)
+- Upper extremity (UE)
+- Intradermal (ID)
+- Intramuscular (IM)
+- Intravenous (IV)
+- Sublingual (SL)
+- Subcutaneous (SubQ)
+- Suppository (supp)
+- Topical (top)
+- Above elbow (AE)
+- Above knee (AK)
+- Bone density test (BDT)
+- Below elbow (BE)
+- Below knee (BK)
+- Range of motion (ROM)
+
 <!-- QUEUE:END -->
 
 ---
